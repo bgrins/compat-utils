@@ -1,0 +1,529 @@
+Feature Name,Status,Categories,Firefox 100,Safari TP,Chrome 103
+aac,other,Other,a #1,y,y
+abortcontroller,ls,JS API,y,y,y
+accelerometer,cr,JS API,n,n,y
+addeventlistener,ls,DOM,y,y,y
+ambient-light,cr,JS API,n d #1,n,n d #2
+apng,unoff,PNG,y,y,y
+array-find,other,JS,y,y,y
+array-find-index,other,JS,y,y,y
+array-flat,other,JS,y,y,y
+array-includes,other,JS,y,y,y
+arrow-functions,other,JS,y,y,y
+asmjs,other,"JS,JS API,Other",y,n,a #1
+async-clipboard,wd,JS API,a #1,y,y
+async-functions,other,JS,y,y,y
+atob-btoa,ls,JS API,y,y,y
+audio,ls,HTML5,y,y,y
+audio-api,rec,JS API,y,y,y
+audiotracks,ls,HTML5,n d #1,y,n d #2
+autofocus,ls,HTML5,y,y,y
+auxclick,wd,"DOM,JS API",y #1,n,y
+av1,other,Other,y,n,y
+avif,other,Other,y #2,n,y
+background-attachment,cr,CSS,y,n #5,y
+background-clip-text,unoff,CSS,y,y,y x
+background-img-opts,cr,CSS3,y,y,y
+background-position-x-y,unoff,CSS,y,y,y
+background-repeat-round-space,cr,CSS3,y,y,y
+background-sync,unoff,JS API,u,n,y
+battery-status,cr,JS API,n,n,y
+beacon,wd,JS API,y,y,y
+beforeafterprint,ls,"HTML5,JS API",y,y,y
+bigint,other,JS,y,y,y
+blobbuilder,wd,JS API,y,y,y
+bloburls,wd,JS API,y,y,y
+border-image,cr,CSS3,y,y #1,y
+border-radius,cr,CSS3,y,y,y
+broadcastchannel,ls,JS API,y,y,y
+brotli,other,Other,y,y,y
+calc,cr,CSS3,y,y,y
+canvas,ls,"Canvas,HTML5",y,y,y
+canvas-blending,cr,Canvas,y,y,y
+canvas-text,ls,"Canvas,HTML5",y,y,y
+ch-unit,cr,CSS3,y,y,y
+chacha20-poly1305,other,Security,y,y,y
+channel-messaging,ls,JS API,y,y,y
+childnode-remove,ls,DOM,y,y,y
+classlist,ls,"DOM,HTML5",y,y,y
+client-hints-dpr-width-viewport,other,DOM,n,n,y
+clipboard,wd,JS API,a #6,y,a #7
+colr,other,Other,y,y,y #3
+colr-v1,other,Other,n #2,n,y
+comparedocumentposition,ls,DOM,y,y,y
+console-basic,ls,JS API,y,y,y
+console-time,ls,JS API,y,y,y
+const,other,JS,y,y,y
+constraint-validation,ls,JS API,y,y,y
+contenteditable,ls,HTML5,y,y,y
+contentsecuritypolicy,cr,Security,y,y,y
+contentsecuritypolicy2,rec,Security,y,y,y
+cookie-store-api,unoff,JS API,n,n,y
+cors,ls,"JS API,Security",y,y #3,y
+createimagebitmap,ls,JS API,a #4 #5,a #3,y
+credential-management,wd,"JS API,Security",n,n,y
+cryptography,rec,"JS API,Security",y,y,y
+css-all,cr,CSS,y,y,y
+css-animation,wd,CSS3,y,y,y
+css-any-link,wd,CSS,y,y,y
+css-appearance,wd,CSS,y,y,y
+css-at-counter-style,cr,CSS3,a #1,n,a #1
+css-backdrop-filter,unoff,"CSS,CSS3",n d #3,y x,y
+css-background-offsets,cr,CSS3,y,y,y
+css-backgroundblendmode,cr,CSS,y,y,y
+css-boxdecorationbreak,wd,CSS3,y,a x #1,a x #1
+css-boxshadow,cr,CSS3,y,y,y
+css-canvas,unoff,CSS,n,y x,n
+css-caret-color,cr,CSS,y,y,y
+css-cascade-layers,wd,CSS,y,y,y
+css-case-insensitive,wd,CSS,y,y,y
+css-clip-path,cr,CSS3,y,a #2,a #2
+css-color-adjust,wd,CSS,y,y x,y x
+css-color-function,wd,CSS,n,y,n
+css-conic-gradients,wd,CSS,y,y,y
+css-container-queries,wd,CSS,n,y,n d #1
+css-containment,rec,CSS,y,y,y
+css-content-visibility,wd,CSS,n,n,y
+css-counters,rec,CSS2,y,y,y
+css-crisp-edges,unoff,"CSS,CSS3",y,y,y #4
+css-cross-fade,cr,CSS,n,y,y x
+css-default-pseudo,unoff,CSS,y,y,y
+css-descendant-gtgt,unoff,CSS,n,n,n
+css-deviceadaptation,wd,CSS,n,n,n d
+css-dir-pseudo,wd,CSS,y,n,n d #1
+css-display-contents,wd,CSS,y,a #2,y
+css-element-function,wd,CSS3,y x,n,n
+css-env-function,unoff,CSS,y,y,y
+css-exclusions,wd,CSS,n,n,n
+css-featurequeries,cr,CSS3,y,y,y
+css-filter-function,wd,"CSS,CSS3",n,y,n
+css-filters,wd,"CSS,CSS3",y,y,y
+css-first-letter,rec,CSS,y,y,y
+css-first-line,rec,CSS3,y,y,y
+css-fixed,rec,CSS,y,y,y
+css-focus-visible,unoff,CSS,y,y,y
+css-focus-within,unoff,CSS,y,y,y
+css-font-palette,wd,CSS,n,y,y
+css-font-rendering-controls,wd,CSS,y,y,y
+css-font-stretch,cr,CSS,y,y,y
+css-gencontent,rec,"CSS2,CSS3",y,y,y
+css-gradients,cr,CSS3,y,y,y
+css-grid,cr,CSS,y,y,y
+css-hanging-punctuation,wd,CSS,n,y,n
+css-has,wd,CSS,n,y,n d #1
+css-hyphens,wd,CSS3,y,y x,y
+css-image-orientation,cr,CSS3,y,y,y
+css-image-set,wd,CSS,y #2,a #3,a x #1
+css-in-out-of-range,wd,CSS,y,y,y
+css-indeterminate-pseudo,unoff,CSS,y,y,y
+css-initial-letter,wd,CSS,n,a x #1,n
+css-initial-value,cr,CSS,y,y,y
+css-lch-lab,wd,CSS,n,y,n
+css-letter-spacing,rec,CSS,y,y,y
+css-line-clamp,wd,CSS,y x,y x,y x
+css-logical-props,wd,"CSS,CSS3",y,y,y
+css-marker-pseudo,wd,CSS3,y,y,y
+css-masks,cr,CSS,y,a #1,a x #1
+css-matches-pseudo,wd,CSS,y,y,y
+css-math-functions,wd,CSS,y,y,y
+css-media-interaction,wd,CSS,y,y,y
+css-media-resolution,rec,"CSS,CSS3",y,y,y
+css-mediaqueries,rec,CSS3,y,y,y
+css-mixblendmode,cr,CSS,y,a #2,y
+css-motion-paths,wd,CSS,y,y,y
+css-namespaces,rec,CSS,y,y,y
+css-nesting,wd,Other,n,n,n
+css-not-sel-list,wd,CSS,y,y,y
+css-nth-child-of,unoff,CSS,n,y,n
+css-opacity,rec,CSS3,y,y,y
+css-optional-pseudo,unoff,CSS,y,y,y
+css-overflow,wd,CSS,y,y,y
+css-overflow-anchor,wd,CSS3,y,n,y
+css-overflow-overlay,unoff,CSS,n,n #1,y
+css-overscroll-behavior,unoff,CSS,y,y,y
+css-page-break,rec,CSS,a #2 #3,a #1 #2 #3,a #1 #2 #3
+css-paged-media,wd,Other,a #1,n,y
+css-paint-api,wd,"CSS,JS API",n,n d #1,y
+css-placeholder,wd,CSS,y,y,y
+css-placeholder-shown,wd,CSS,y,y,y
+css-read-only-write,ls,CSS,y,y,y
+css-rebeccapurple,wd,CSS,y,y,y
+css-reflections,unoff,CSS,n,y x,y x
+css-regions,wd,CSS3,n,n,n
+css-repeating-gradients,cr,CSS3,y,y,y
+css-resize,cr,CSS3,y,y,y
+css-revert-value,wd,CSS,y,y,y
+css-rrggbbaa,unoff,CSS,y,y,y
+css-scroll-behavior,wd,CSS,y,y,y #1
+css-scroll-timeline,unoff,"CSS,JS API",n,n,n d #1
+css-scrollbar,unoff,CSS,a #6,a x #2,a x #2
+css-sel2,rec,CSS2,y,y,y
+css-sel3,rec,CSS3,y,y,y
+css-selection,wd,CSS,y,y,y
+css-shapes,cr,CSS3,y,y,y
+css-snappoints,cr,CSS,y,y,y
+css-sticky,wd,CSS,y,y,y
+css-subgrid,wd,CSS,y,y,n
+css-supports-api,cr,"DOM,JS API",y,y,y
+css-table,rec,CSS2,y,y,y
+css-text-align-last,wd,CSS3,y,n,y
+css-text-indent,wd,CSS,a #1,a #1,a #1 #2
+css-text-justify,wd,CSS,y #4,n,n d #2
+css-text-orientation,cr,CSS,y,y,y
+css-textshadow,cr,CSS3,y,y,y
+css-touch-action,rec,CSS,y,n,y
+css-transitions,wd,CSS3,y,y,y
+css-unset-value,cr,CSS,y,y,y
+css-variables,cr,CSS3,y,y,y
+css-when-else,wd,CSS,n,n,n
+css-widows-orphans,rec,CSS,n,y,y
+css-writing-mode,cr,CSS,y,y,y
+css-zoom,unoff,CSS,n,y,y
+css3-attr,cr,CSS,n,n,n
+css3-boxsizing,wd,CSS3,y,y,y
+css3-colors,rec,CSS3,y,y,y
+css3-cursors,cr,CSS3,y,y,y
+css3-cursors-grab,pr,CSS3,y,y,y
+css3-cursors-newer,cr,CSS3,y,y,y
+css3-tabsize,wd,CSS3,y,y,y
+currentcolor,rec,CSS,y,y,y
+custom-elements,unoff,"DOM,HTML5",n,p,n
+custom-elementsv1,ls,"DOM,HTML5",y,a #1,y
+customevent,ls,"DOM,JS API",y,y,y
+datalist,ls,HTML5,a #3 #6,y,y
+dataset,ls,HTML5,y #1,y #1,y #1
+datauri,other,Other,y,y,y
+date-tolocaledatestring,other,JS,y,y,y
+decorators,unoff,JS,n,n,n
+details,ls,HTML5,y,y,y
+deviceorientation,cr,JS API,a,n,a
+devicepixelratio,wd,"CSS,DOM",y,y,y
+dialog,ls,"DOM,HTML5",y,y,y
+dispatchevent,ls,DOM,y,y,y
+dnssec,other,Security,a #1,a #1,a #1
+do-not-track,cr,JS API,y,n,y
+document-currentscript,ls,JS API,y,y,y
+document-evaluate-xpath,unoff,"DOM,JS API",y,y,y
+document-execcommand,unoff,JS API,y,y,y
+document-policy,unoff,"Other,Security",n,n,a #1
+document-scrollingelement,wd,DOM,y,y,y
+documenthead,ls,DOM,y,y,y
+dom-manip-convenience,ls,DOM,y,y,y
+dom-range,ls,"DOM,JS API",y,y,y
+domcontentloaded,ls,DOM,y,y,y
+dommatrix,cr,DOM,a #4,a #4,a #4
+download,ls,HTML5,y,y,y
+dragndrop,ls,HTML5,y,y,y
+element-closest,ls,DOM,y,y,y
+element-from-point,wd,DOM,y,y,y
+element-scroll-methods,wd,"DOM,JS API",y,y,y
+eme,rec,"JS API,Security",y,y,y
+eot,unoff,Other,n,n,n
+es5,other,JS,y,y,y
+es6,other,JS,y #2,y,y #2
+es6-class,other,JS,y,y,y
+es6-generators,other,JS,y,y,y
+es6-module,ls,JS,y,y,y
+es6-module-dynamic-import,other,JS,y,y,y
+es6-number,other,JS,y,y,y
+es6-string-includes,other,JS,y,y,y
+eventsource,ls,JS API,y,y,y
+extended-system-fonts,wd,CSS,n,y,n
+feature-policy,wd,"JS API,Other,Security",a #2,a #2 #3,y #4
+fetch,ls,JS API,y,y,y
+fieldset-disabled,ls,"DOM,HTML5",y,y,y
+fileapi,wd,JS API,y,y,y
+filereader,wd,JS API,y,y,y
+filereadersync,wd,JS API,y,y,y
+filesystem,unoff,JS API,n,n,y x
+flac,other,Other,y,y,y
+flexbox,cr,CSS3,y,y,y
+flexbox-gap,wd,CSS,y,y,y
+flow-root,wd,"CSS,CSS2",y,y,y
+focusin-focusout-events,wd,DOM,y,y,y
+font-family-system-ui,wd,CSS,y,y,y
+font-feature,cr,CSS3,y,y,y
+font-kerning,cr,CSS3,y,y,y
+font-loading,wd,"CSS3,JS API",y,y,y
+font-size-adjust,cr,CSS,y,n,n d #1
+font-smooth,unoff,CSS3,a x #2 #3,a x #1 #3,a x #1 #3
+font-unicode-range,cr,CSS3,y,y,y
+font-variant-alternates,wd,CSS3,y,y,n #1
+font-variant-numeric,rec,CSS,y,y,y
+fontface,cr,CSS3,y,y,y
+form-attribute,ls,HTML5,y,y,y
+form-submit-attributes,ls,HTML5,y,y,y
+form-validation,ls,HTML5,y,y,y
+forms,ls,HTML5,a,a,y
+fullscreen,ls,JS API,y,a x #3,y
+gamepad,wd,JS API,y,y,y
+geolocation,rec,JS API,y #1,y,y #1
+getboundingclientrect,wd,JS API,y,y,y
+getcomputedstyle,rec,"CSS3,DOM,JS API",y,y,y
+getelementsbyclassname,ls,"DOM,HTML5",y,y,y
+getrandomvalues,rec,"JS API,Security",y,y,y
+gyroscope,cr,JS API,n,n,y
+hardwareconcurrency,ls,JS API,y,y #1,y
+hashchange,ls,"HTML5,JS API",y,y,y
+heif,other,Other,n,n #1,n
+hevc,other,Other,n,y,n
+hidden,ls,HTML5,y,y,y
+high-resolution-time,rec,JS API,y,y,y
+history,ls,HTML5,y,y,y
+html-media-capture,cr,HTML5,n,n,n
+html5semantic,ls,HTML5,y,y,y
+http-live-streaming,unoff,Other,n,y,n
+http2,other,Other,y #3,y,y #3
+http3,other,Other,y,n d #4,y
+iframe-sandbox,ls,"HTML5,Security",y,y,y
+iframe-seamless,unoff,HTML5,n,n,n
+iframe-srcdoc,ls,HTML5,y,y,y
+ime,wd,JS API,n,n,n
+img-naturalwidth-naturalheight,ls,"DOM,HTML5",y,y,y
+import-maps,unoff,JS,n,n,y
+imports,wd,"DOM,HTML5",p,p,n
+indeterminate-checkbox,ls,"DOM,HTML5",y,y,y
+indexeddb,rec,JS API,y,y,y
+indexeddb2,cr,JS API,y,y,y
+inline-block,rec,CSS2,y,y,y
+innertext,ls,DOM,y,y,y
+input-autocomplete-onoff,ls,DOM,a #3,a #5,a #2
+input-color,ls,HTML5,y,y,y
+input-datetime,ls,HTML5,a #6,a #6,y
+input-email-tel-url,ls,HTML5,y,y,y
+input-event,ls,"DOM,HTML5",y,y,y
+input-file-accept,ls,HTML5,y,y,y
+input-file-directory,unoff,"DOM,JS API",y,y,y
+input-file-multiple,ls,HTML5,y,y,y
+input-inputmode,ls,"DOM,HTML5",y,n,y
+input-minlength,ls,HTML5,y,y,y
+input-number,ls,HTML5,y #3,y,y
+input-pattern,ls,HTML5,y,y,y
+input-placeholder,ls,HTML5,y,y,y
+input-range,ls,HTML5,y,y,y
+input-search,ls,HTML5,y #1,y,y
+input-selection,ls,"HTML5,JS API",y,y,y
+insert-adjacent,ls,DOM,y,y,y
+insertadjacenthtml,cr,JS API,y,y,y
+internationalization,other,"JS,JS",y,y,y
+intersectionobserver,wd,"DOM,JS API",y,y,y #4
+intersectionobserver-v2,unoff,"DOM,JS API,Security",n,n,y
+intl-pluralrules,other,"JS,JS",y,y,y
+intrinsic-width,wd,CSS3,a #2 #5,a #3,y #3 #4
+jpeg2000,other,Other,n,y,n
+jpegxl,other,Other,n d #2,n,n d #1
+jpegxr,other,Other,n,n,n
+js-regexp-lookbehind,other,JS,y,n,y
+json,other,JS,y,y,y
+justify-content-space-evenly,wd,CSS,y,y,y
+kerning-pairs-ligatures,unoff,CSS,y,y,y
+keyboardevent-charcode,unoff,DOM,y,y,y
+keyboardevent-code,wd,DOM,y,y,y
+keyboardevent-getmodifierstate,wd,DOM,y,y,y
+keyboardevent-key,wd,DOM,y,y,y
+keyboardevent-location,wd,DOM,y,y,y
+keyboardevent-which,unoff,DOM,y,y,y
+lazyload,unoff,DOM,n,n,n
+let,other,JS,y,y,y
+link-icon-png,ls,HTML5,y,y,y
+link-icon-svg,ls,"HTML5,SVG",y #3,n,y #3 #4
+link-rel-dns-prefetch,wd,DOM,a #2,y,y
+link-rel-modulepreload,ls,DOM,n,n,y
+link-rel-preconnect,wd,DOM,n,y,y
+link-rel-prefetch,wd,DOM,y,n d #1,y
+link-rel-preload,cr,DOM,y,y,y
+link-rel-prerender,wd,DOM,n,n,y
+loading-lazy-attr,ls,HTML5,a #1,a d #3,y
+localecompare,other,JS,y,y,y
+magnetometer,cr,JS API,n,n,y
+matchesselector,ls,"DOM,JS API",y,y,y
+matchmedia,wd,"DOM,JS API",y,y,y
+mathml,rec,Other,y,y,p d #3
+maxlength,ls,"DOM,HTML5,JS API",y,y,y
+media-fragments,rec,DOM,a #1,a #1,a #1
+mediacapture-fromelement,wd,"DOM,JS API",a #2,a #1,y
+mediarecorder,wd,"DOM,JS API",y,y,y
+mediasource,rec,"DOM,JS API",y,y,y
+menu,unoff,HTML5,n d #1 #2,n,n
+meta-theme-color,ls,"DOM,Other",n,y,a #1
+meter,ls,HTML5,y,y,y
+midi,wd,JS API,n,n,y
+minmaxwh,rec,CSS2,y,y,y
+mp3,other,Other,y,y,y
+mpeg-dash,other,Other,n,n,n
+mpeg4,other,Other,y,y,y
+multibackgrounds,cr,CSS3,y,y,y
+multicolumn,cr,CSS3,a #4,y,a #3
+mutation-events,wd,DOM,a #2,a #1,a #1
+mutationobserver,ls,"DOM,JS API",y,y,y
+namevalue-storage,ls,JS API,y,y,y
+native-filesystem-api,unoff,JS API,n,a,a #2
+nav-timing,rec,"DOM,JS API",y,y,y
+netinfo,unoff,"DOM,JS API",n,n,a #4
+notifications,ls,JS API,y,y,y
+object-entries,other,JS,y,y,y
+object-fit,cr,CSS3,y,y,y
+object-observe,unoff,JS,n,n,n
+object-values,other,JS,y,y,y
+objectrtc,other,JS API,n,n,n
+offline-apps,unoff,HTML5,n,y,n
+offscreencanvas,ls,HTML5,n d #1,n,y
+ogg-vorbis,other,Other,y,a #1,y
+ogv,other,Other,y,n,y
+ol-reversed,ls,HTML5,y,y,y
+once-event-listener,ls,DOM,y,y,y
+online-status,ls,JS API,y,y,y
+opus,other,Other,y,a #1,y
+orientation-sensor,cr,JS API,n,n,y
+outline,cr,CSS3,y,y,y
+pad-start-end,other,JS,y,y,y
+page-transition-events,ls,"HTML5,JS API",y,y,y
+pagevisibility,rec,JS API,y,y,y
+passive-event-listener,ls,DOM,y,y,y
+path2d,ls,"Canvas,HTML5",y,y,y
+payment-request,cr,JS API,a d #8,y,y
+pdf-viewer,other,Other,y,y,y
+permissions-api,unoff,"JS API,Security",y,n,y
+permissions-policy,wd,"JS API,Other,Security",n #2,n #2,a #1 #2
+picture,ls,"DOM,HTML5",y,y,y
+picture-in-picture,unoff,JS API,a #1,y,y
+ping,ls,HTML5,n d #1,y,y
+png-alpha,rec,PNG,y,y,y
+pointer,rec,"DOM,JS API",y,y,y
+pointer-events,unoff,CSS3,y,y,y
+pointerlock,rec,JS API,y,y,y
+portals,unoff,"HTML5,JS API",n,n,n d #2
+prefers-color-scheme,wd,CSS,y,y,y
+prefers-reduced-motion,wd,CSS,y,y,y
+progress,ls,HTML5,y,y,y
+promise-finally,other,JS,y,y,y
+promises,other,JS,y,y,y
+proximity,cr,JS API,y,n,n
+proxy,other,JS,y,y,y
+publickeypinning,other,Security,n,n,n
+push-api,wd,JS API,y #2,n d #5,y #2
+queryselector,ls,DOM,y,y,y
+readonly-attr,ls,"DOM,HTML5",y,y,y
+referrer-policy,cr,Security,y #3,y #4,y #3
+registerprotocolhandler,ls,HTML5,y,n,y #1
+rel-noopener,ls,"DOM,HTML5,Security",y,y,y
+rel-noreferrer,ls,"DOM,HTML5,Security",y,y,y
+rellist,ls,"DOM,HTML5",y,y,y
+rem,cr,CSS3,y,y,y
+requestanimationframe,ls,JS API,y,y,y
+requestidlecallback,wd,JS API,y,n d #2,y
+resizeobserver,unoff,"DOM,JS API",y,y,y
+resource-timing,cr,JS API,y,y,y
+rest-parameters,other,JS,y,y,y
+rtcpeerconnection,wd,JS API,y,y,y
+ruby,ls,HTML5,y,a,a
+run-in,wd,"CSS,CSS2",n,n,n
+same-site-cookie-attribute,other,Security,y,y,y #3
+screen-orientation,wd,JS API,y,n,y
+script-async,ls,"DOM,HTML5",y,y,y
+script-defer,ls,"DOM,HTML5",y,y,y
+scrollintoview,wd,"DOM,JS API",y,y,y
+scrollintoviewifneeded,unoff,"DOM,JS API",n,y,y
+sdch,other,Other,n,n,n
+selection-api,wd,JS API,y,y,y
+server-timing,wd,JS API,y,a #3,y
+serviceworkers,cr,JS API,y,y,y
+setimmediate,unoff,JS API,n,n,n
+shadowdom,unoff,DOM,n,n,n
+shadowdomv1,wd,DOM,y,y,y
+sharedarraybuffer,other,JS,y #3,y #3,y #3
+sharedworkers,ls,JS API,y,n,y
+sni,other,Security,y,y,y
+spdy,unoff,Other,n,y #1,n
+speech-recognition,unoff,JS API,n d #2,a x #5,a x #1
+speech-synthesis,unoff,JS API,y,y,y #2
+spellcheck-attribute,ls,HTML5,y,y,y
+sql-storage,unoff,JS API,n,n,y
+srcset,ls,HTML5,y,y,y
+stream,cr,JS API,y,y,y
+streams,ls,JS API,a #5 #6,a #4,y
+stricttransportsecurity,other,Security,y,y,y
+style-scoped,unoff,"CSS,HTML5",n,n,n
+subresource-integrity,rec,"HTML5,Security",y,y,y
+svg,cr,SVG,y,y,y
+svg-css,cr,"CSS3,SVG",y,y,y
+svg-filters,rec,SVG,y,y,y
+svg-fonts,rec,SVG,n,y,n
+svg-fragment,cr,SVG,y,y,y
+svg-html,rec,SVG,y,a,a
+svg-html5,ls,"HTML5,SVG",y,y,y
+svg-img,ls,SVG,y,y,y
+svg-smil,rec,SVG,y,y,y
+sxg,other,Other,n,n,y
+tabindex-attr,ls,HTML5,y #1,y #2,y
+template,ls,"DOM,HTML5",y,y,y
+template-literals,other,JS,y,y,y
+temporal,other,"JS,JS API",n,n,n
+text-decoration,cr,CSS3,a #4,a #2 #3,a #5
+text-emphasis,cr,CSS3,y,y,y
+text-overflow,cr,CSS3,y,y,y
+text-size-adjust,unoff,CSS3,n,n,y
+text-stroke,unoff,CSS,y x #1,y x,y x
+textcontent,ls,DOM,y,y,y
+textencoder,ls,JS API,y,y,y
+tls1-1,other,Security,a #1 #2,y #3,a #3 #4
+tls1-2,other,Security,y,y,y
+tls1-3,other,Security,y,y,y
+touch,rec,"DOM,JS API",y,n,y
+transforms2d,cr,CSS3,y,y,y
+transforms3d,wd,CSS3,y,y,y
+trusted-types,unoff,"DOM,JS API,Other,Security",n,n,y
+ttf,other,CSS3,y,y,y
+typedarrays,other,JS,y,y,y
+u2f,other,"JS API,Security",y,y,y #3
+unhandledrejection,ls,"JS,JS API",y,y,y
+upgradeinsecurerequests,cr,Security,y,y,y
+url,ls,JS API,y,y,y
+url-scroll-to-text-fragment,unoff,Other,n,n,y
+urlsearchparams,ls,JS API,y,y,y
+use-strict,other,JS,y,y,y
+user-select-none,wd,CSS,y,y x,y
+user-timing,rec,JS API,y,y,y
+variable-fonts,wd,CSS,y #3 #7,y,y
+vector-effect,cr,SVG,y,y,y
+vibration,rec,JS API,y,n,y
+video,ls,HTML5,y,y #3,y
+videotracks,ls,HTML5,n d #1,y,n d #2
+viewport-unit-variants,wd,CSS,n,y,n d #1
+viewport-units,cr,CSS3,y,y,y
+wai-aria,rec,Other,a,a,a
+wake-lock,cr,JS API,n,n,y
+wasm,other,Other,y,y,y
+wav,other,Other,y,y,y
+wbr-element,ls,HTML5,y,y,y
+web-animation,wd,"DOM,JS API",y,y,y
+web-app-manifest,wd,"HTML5,Other",n,n,y
+web-bluetooth,unoff,JS API,n,n,y #4
+web-serial,unoff,JS API,n,n,y
+web-share,wd,JS API,n,y,a #4
+webauthn,rec,Security,y,y,y
+webgl,other,Canvas,y,y,y
+webgl2,other,Canvas,y,y,y
+webgpu,wd,JS API,n d #1,n d #2,n d #3 #4
+webhid,unoff,JS API,n,n,y
+webkit-user-drag,unoff,CSS,n,y,a #1
+webm,other,Other,y,a #7,y
+webnfc,unoff,JS API,n,n,n
+webp,unoff,Other,y,a #3,y
+websockets,ls,JS API,y,y,y
+webusb,unoff,JS API,n,n,y
+webvr,unoff,JS API,y #1,n,n
+webvtt,wd,Other,y #1,y,y
+webworkers,ls,JS API,y,y,y
+webxr,wd,JS API,n d #2,n d #3,a #1
+will-change,wd,CSS,y,y,y
+woff,rec,Other,y,y,y
+woff2,cr,Other,y,y,y
+word-break,wd,CSS3,y,y,y
+wordwrap,wd,CSS3,y,y,y
+x-doc-messaging,ls,JS API,y,y,y
+x-frame-options,other,Security,a,a,a
+xhr2,ls,"DOM,JS API",y,y,y
+xhtml,ls,Other,y,y,y
+xhtmlsmil,unoff,Other,p,p,p
+xml-serializer,cr,"DOM,JS API",y,y,y
