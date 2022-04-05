@@ -25,6 +25,26 @@ for (let featurename in features) {
   let row = [featurename, feature.status, feature.categories.join(",")];
   for (let browser in browsers) {
     let latestSupport = feature.stats[browser][browsers[browser]];
+    if (latestSupport.startsWith("n")) {
+      latestSupport = "No";
+    }
+
+    /* Optionally save with prefixed separately  
+    else if (latestSupport.startsWith("y x")) {
+      latestSupport = "Yes (prefixed)"; 
+    } else if (latestSupport.startsWith("a x")) {
+      latestSupport = "Partial (prefixed)";
+    }
+    */
+    else if (latestSupport.startsWith("y")) {
+      latestSupport = "Yes";
+    } else if (latestSupport.startsWith("a") || latestSupport.startsWith("p")) {
+      latestSupport = "Partial";
+    } else if (latestSupport.startsWith("u")) {
+      latestSupport = "Unknown";
+    } else {
+      throw new Error(`Unhandled support case: ${latestSupport}`);
+    }
 
     row.push(latestSupport);
   }
