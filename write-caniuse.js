@@ -1,8 +1,8 @@
 import { writeCSV } from "https://deno.land/x/csv/mod.ts";
+import caniuse from "https://raw.githubusercontent.com/Fyrd/caniuse/main/fulldata-json/data-2.0.json" assert { type: "json" };
 
-let { data: features, agents } = JSON.parse(
-  await Deno.readTextFile("data-2.0.json")
-);
+let { data: features, agents } = caniuse;
+
 let browsers = {
   firefox: agents["firefox"].version_list.at(-1).version,
   safari: agents["safari"].version_list.at(-1).version,
@@ -27,16 +27,14 @@ for (let featurename in features) {
     let latestSupport = feature.stats[browser][browsers[browser]];
     if (latestSupport.startsWith("n")) {
       latestSupport = "No";
-    }
-
-    /* Optionally save with prefixed separately  
+    } else if (latestSupport.startsWith("y")) {
+      /* Optionally save with prefixed separately  
     else if (latestSupport.startsWith("y x")) {
       latestSupport = "Yes (prefixed)"; 
     } else if (latestSupport.startsWith("a x")) {
       latestSupport = "Partial (prefixed)";
     }
     */
-    else if (latestSupport.startsWith("y")) {
       latestSupport = "Yes";
     } else if (latestSupport.startsWith("a") || latestSupport.startsWith("p")) {
       latestSupport = "Partial";
@@ -51,10 +49,24 @@ for (let featurename in features) {
   output.push(row);
 }
 
-const f = await Deno.open("./latest-support.csv", {
+const latestSupport = await Deno.open("./output/caniuse.csv", {
   write: true,
   create: true,
   truncate: true,
 });
-await writeCSV(f, output);
-f.close();
+await writeCSV(latestSupport, output);
+latestSupport.close();
+
+const latestSupportOmitUnofficial = await Deno.open(
+  "./output/caniuse-omit-unoff.csv",
+  {
+    write: true,
+    create: true,
+    truncate: true,
+  }
+);
+await writeCSV(
+  latestSupportOmitUnofficial,
+  output.filter((r) => r[1] !== "unoff")
+);
+latestSupportOmitUnofficial.close();

@@ -1,6 +1,3 @@
-
-wget https://raw.githubusercontent.com/Fyrd/caniuse/main/fulldata-json/data-2.0.json
-
-deno run --allow-read --allow-write morph.js
+deno run --allow-read --allow-write write-all.js
 
 tail +2 latest-support.csv | pbcopy
