@@ -43,8 +43,8 @@ jobs:
       - name: Run script
         run: deno run --allow-read --allow-write --allow-net write-all.js
 
-      - name: Create report file
-        run: date +%s > output/lastaction.txt
+      # - name: Create report file
+      #   run: date +%s > output/lastaction.txt
 
       - name: Commit report
         run: |
