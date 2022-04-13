@@ -50,5 +50,9 @@ jobs:
         run: |
           git config --global user.name 'Action Committer'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git commit -am "Action: update data"
-          git push
+          if output=$(git status --porcelain) && [ -z "$output" ]; then
+            # Working directory clean
+          else
+            git commit -am "Action: update data"
+            git push
+          fi
