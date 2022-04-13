@@ -42,7 +42,7 @@ jobs:
         run: deno run --allow-read --allow-write write-all.js
 
       - name: Create report file
-        run: date +%s > output/action.txt
+        run: date +%s > output/lastaction.txt
 
       - name: Commit report
         run: |
