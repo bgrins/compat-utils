@@ -41,7 +41,7 @@ jobs:
       #   run: deno lint
 
       - name: Run script
-        run: deno run --allow-read --allow-write write-all.js
+        run: deno run --allow-read --allow-write --allow-net write-all.js
 
       - name: Create report file
         run: date +%s > output/lastaction.txt

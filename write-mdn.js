@@ -98,7 +98,7 @@ const latestSupport = await Deno.open("./output/mdn.csv", {
   truncate: true,
 });
 
-console.log(csv);
+// console.log(csv);
 await writeCSV(latestSupport, csv);
 
 

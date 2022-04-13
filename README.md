@@ -1,3 +1,2 @@
-deno run --allow-read --allow-write write-all.js
 
-tail +2 latest-support.csv | pbcopy
+deno run --allow-read --allow-write --allow-net write-all.js
