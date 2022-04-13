@@ -47,6 +47,6 @@ jobs:
       - name: Commit report
         run: |
           git config --global user.name 'Action Committer'
-          git config --global user.email 'bgrins@users.noreply.github.com'
-          git commit -am "Update run date"
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git commit -am "Action: update data"
           git push
