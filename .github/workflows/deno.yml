@@ -35,8 +35,18 @@ jobs:
       # - name: Verify formatting
       #   run: deno fmt --check
 
-      - name: Run linter
-        run: deno lint
+      # - name: Run linter
+      #   run: deno lint
 
       - name: Run script
         run: deno run --allow-read --allow-write write-all.js
+
+      - name: Create report file
+        run: date +%s > output/action.txt
+
+      - name: Commit report
+        run: |
+          git config --global user.name 'Action Committer'
+          git config --global user.email 'bgrins@users.noreply.github.com'
+          git commit -am "Update run date"
+          git push
