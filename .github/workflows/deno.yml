@@ -9,6 +9,7 @@
 name: Deno
 
 on:
+  push:
   schedule:
     - cron: "0 0 * * *"
 
@@ -48,4 +49,5 @@ jobs:
            git config --global user.name 'Action Committer'
            git config --global user.email 'github-actions[bot]@users.noreply.github.com'
            git commit -am "Action: update data"
+           git push
           fi
