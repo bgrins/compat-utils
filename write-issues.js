@@ -3,6 +3,11 @@ import { configSync } from "https://deno.land/std@0.137.0/dotenv/mod.ts";
 import jmespath from "https://cdn.skypack.dev/jmespath";
 import papaparse from "https://esm.sh/papaparse/";
 
+const CONFIG = configSync();
+const { GH_TOKEN } = CONFIG;
+
+console.log(`Has an API token? ${!!GH_TOKEN}`);
+
 function json_to_csv({ input, options = {} }) {
   let header =
     options.header === false || options.header === "false" ? false : true;
@@ -14,8 +19,6 @@ function json_to_csv({ input, options = {} }) {
   const csv = papaparse.unparse(input, opts);
   return csv;
 }
-
-const CONFIG = configSync();
 
 const REPOS = [
   "mozilla/standards-positions",
@@ -41,9 +44,7 @@ async function fetchIssues(initialURL) {
     console.log("Getting issues from", url);
     let resp = await fetch(url, {
       headers: {
-        Authorization: CONFIG["GITHUB_TOKEN"]
-          ? `Bearer ${CONFIG["GITHUB_TOKEN"]}`
-          : "",
+        Authorization: GH_TOKEN ? `Bearer ${GH_TOKEN}` : "",
       },
     });
     let data = await resp.json();
