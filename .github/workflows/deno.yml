@@ -37,6 +37,8 @@ jobs:
       #   run: deno lint
 
       - name: Run script
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: deno run --allow-read --allow-write --allow-net write-all.js
 
       # - name: Create report file
