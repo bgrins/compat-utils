@@ -1,32 +1,66 @@
-import { writeCSV } from "https://deno.land/x/csv/mod.ts";
 import { parseLinkHeader } from "./parselinkheader.js";
+import { configSync } from "https://deno.land/std@0.137.0/dotenv/mod.ts";
+import jmespath from "https://cdn.skypack.dev/jmespath";
+import papaparse from "https://esm.sh/papaparse/";
 
-// import { Octokit } from "https://cdn.skypack.dev/@octokit/rest";
-// const octokit = new Octokit();
-// let resp = await octokit.rest.issues.listForRepo({
-//   owner: "w3ctag",
-//   repo: "design-reviews",
-//   per_page: 1,
-// });
-// console.log(resp);
+function json_to_csv({ input, options = {} }) {
+  let header =
+    options.header === false || options.header === "false" ? false : true;
+  let newline = options.newline || "\n";
+  let opts = {
+    header,
+    newline,
+  };
+  const csv = papaparse.unparse(input, opts);
+  return csv;
+}
+
+const CONFIG = configSync();
+
+const REPOS = [
+  "mozilla/standards-positions",
+  "w3ctag/design-reviews",
+  // "whatwg/html",
+  // "whatwg/dom",
+  // "whatwg/webidl",
+  // "whatwg/encoding",
+  // "w3c/editing",
+  // "whatwg/notifications",
+  // "whatwg/fullscreen",
+  // "WICG/webcomponents",
+  // "w3c/pointerevents",
+  // // "w3c/clipboard-api",
+  // "w3c/pointerlock",
+  // "w3c/editcontext",
+  // // "w3c/input-event",
+];
 
 async function fetchIssues(initialURL) {
-  let output = [["Title", "URL", "Created", "Updated", "Labels"]];
+  let output = [];
   async function getIssues(url) {
-    let resp = await fetch(url);
+    console.log("Getting issues from", url);
+    let resp = await fetch(url, {
+      headers: {
+        Authorization: CONFIG["GITHUB_TOKEN"]
+          ? `Bearer ${CONFIG["GITHUB_TOKEN"]}`
+          : "",
+      },
+    });
     let data = await resp.json();
     let linkHeader = resp.headers.get("Link")
       ? parseLinkHeader(resp.headers.get("Link"))
       : [];
-    for (let issue of data) {
-      output.push([
-        issue.title,
-        issue.html_url,
-        issue.created_at,
-        issue.updated_at,
-        issue.labels.map((l) => l.name).join(","),
-      ]);
+
+    const filtered = jmespath.search(
+      data,
+      "[].{closed: state, title: title, url: html_url, created_at: created_at, updated_at: updated_at, user: user.login, labels: labels, reactions: reactions.total_count, id: id  }"
+    );
+    for (let issue of filtered) {
+      issue.labels = issue.labels.map((l) => l.name).join("|");
+      // Map state onto a boolean
+      issue.closed = issue.closed == "closed";
     }
+    output = output.concat(filtered);
 
     for (let link of linkHeader) {
       if (link.rel == "next") {
@@ -38,27 +72,15 @@ async function fetchIssues(initialURL) {
   return output;
 }
 
-// mozilla/standards-positions
-let output = await fetchIssues(
-  "https://api.github.com/repositories/101806313/issues?page=1&per_page=100"
-);
-
-let file = await Deno.open("./output/standards-positions.csv", {
-  write: true,
-  create: true,
-  truncate: true,
-});
-await writeCSV(file, output);
-file.close();
-
-// w3ctag/design-reviews
-output = await fetchIssues(
-  "https://api.github.com/repositories/11005977/issues?page=1&per_page=100"
-);
-file = await Deno.open("./output/design-reviews.csv", {
-  write: true,
-  create: true,
-  truncate: true,
-});
-await writeCSV(file, output);
-file.close();
+for (const repo of REPOS) {
+  let output = await fetchIssues(
+    `https://api.github.com/repos/${repo}/issues?per_page=1000&state=all` // &sort=updated
+  );
+  console.log(output);
+  Deno.writeTextFileSync(
+    `./output/${repo.replace("/", "-")}.csv`,
+    json_to_csv({
+      input: output,
+    })
+  );
+}
