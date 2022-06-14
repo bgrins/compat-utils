@@ -77,7 +77,7 @@ for (const repo of REPOS) {
   let output = await fetchIssues(
     `https://api.github.com/repos/${repo}/issues?per_page=1000&state=all` // &sort=updated
   );
-  console.log(output);
+  // console.log(output);
   Deno.writeTextFileSync(
     `./output/${repo.replace("/", "-")}.csv`,
     json_to_csv({
