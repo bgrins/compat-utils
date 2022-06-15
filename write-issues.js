@@ -3,7 +3,7 @@ import { configSync } from "https://deno.land/std@0.137.0/dotenv/mod.ts";
 import jmespath from "https://cdn.skypack.dev/jmespath";
 import papaparse from "https://esm.sh/papaparse/";
 
-const CONFIG = Object.assign({},  Deno.env.toObject(), configSync());
+const CONFIG = Object.assign({}, Deno.env.toObject(), configSync());
 const { GH_TOKEN } = CONFIG;
 
 console.log(`Has an API token? ${!!GH_TOKEN}`);
@@ -24,7 +24,6 @@ function json_to_csv({ input, options = {} }) {
 const REPOS = [
   "mozilla/standards-positions",
   "w3ctag/design-reviews",
-  "whatwg/html",
   "whatwg/dom",
   "whatwg/webidl",
   "whatwg/encoding",
@@ -37,6 +36,7 @@ const REPOS = [
   "w3c/pointerlock",
   "w3c/editcontext",
   // "w3c/input-event",
+  "whatwg/html",
 ];
 
 async function fetchIssues(initialURL) {
@@ -53,6 +53,10 @@ async function fetchIssues(initialURL) {
       ? parseLinkHeader(resp.headers.get("Link"))
       : [];
 
+    if (!Array.isArray(data)) {
+      console.error(data);
+      throw new Error("Expected an array but got " + JSON.stringify(data));
+    }
     const filtered = jmespath.search(
       data,
       "[].{closed: state, title: title, url: html_url, created_at: created_at, updated_at: updated_at, user: user.login, labels: labels, reactions: reactions.total_count, id: id  }"
@@ -62,6 +66,7 @@ async function fetchIssues(initialURL) {
       // Map state onto a boolean
       issue.closed = issue.closed == "closed";
     }
+
     output = output.concat(filtered);
 
     for (let link of linkHeader) {
@@ -71,6 +76,11 @@ async function fetchIssues(initialURL) {
     }
   }
   await getIssues(initialURL);
+  console.log(
+    `Got ${output.length} issues (${
+      output.filter((i) => !i.closed).length
+    } open and ${output.filter((i) => i.closed).length} closed)`
+  );
   return output;
 }
 
