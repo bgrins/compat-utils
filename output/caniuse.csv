@@ -68,7 +68,7 @@ css-animation,wd,CSS3,Yes,Yes,Yes
 css-any-link,wd,CSS,Yes,Yes,Yes
 css-appearance,wd,CSS,Yes,Yes,Yes
 css-at-counter-style,cr,CSS3,Partial,No,Partial
-css-backdrop-filter,unoff,"CSS,CSS3",No,Yes,Yes
+css-backdrop-filter,unoff,"CSS,CSS3",Yes,Yes,Yes
 css-background-offsets,cr,CSS3,Yes,Yes,Yes
 css-backgroundblendmode,cr,CSS,Yes,Yes,Yes
 css-boxdecorationbreak,wd,CSS3,Yes,Partial,Partial
@@ -82,6 +82,7 @@ css-color-adjust,wd,CSS,Yes,Yes,Yes
 css-color-function,wd,CSS,No,Yes,No
 css-conic-gradients,wd,CSS,Yes,Yes,Yes
 css-container-queries,wd,CSS,No,Yes,No
+css-container-query-units,wd,CSS,No,Yes,No
 css-containment,rec,CSS,Yes,Yes,Yes
 css-content-visibility,wd,CSS,No,No,Yes
 css-counters,rec,CSS2,Yes,Yes,Yes
@@ -91,7 +92,7 @@ css-default-pseudo,unoff,CSS,Yes,Yes,Yes
 css-descendant-gtgt,unoff,CSS,No,No,No
 css-deviceadaptation,wd,CSS,No,No,No
 css-dir-pseudo,wd,CSS,Yes,No,No
-css-display-contents,wd,CSS,Yes,Partial,Yes
+css-display-contents,wd,CSS,Yes,Yes,Yes
 css-element-function,wd,CSS3,Yes,No,No
 css-env-function,unoff,CSS,Yes,Yes,Yes
 css-exclusions,wd,CSS,No,No,No
@@ -110,7 +111,7 @@ css-gencontent,rec,"CSS2,CSS3",Yes,Yes,Yes
 css-gradients,cr,CSS3,Yes,Yes,Yes
 css-grid,cr,CSS,Yes,Yes,Yes
 css-hanging-punctuation,wd,CSS,No,Yes,No
-css-has,wd,CSS,No,Yes,No
+css-has,wd,CSS,No,Yes,Yes
 css-hyphens,wd,CSS3,Yes,Yes,Yes
 css-image-orientation,cr,CSS3,Yes,Yes,Yes
 css-image-set,wd,CSS,Yes,Partial,Partial
@@ -255,7 +256,6 @@ fontface,cr,CSS3,Yes,Yes,Yes
 form-attribute,ls,HTML5,Yes,Yes,Yes
 form-submit-attributes,ls,HTML5,Yes,Yes,Yes
 form-validation,ls,HTML5,Yes,Yes,Yes
-forms,ls,HTML5,Partial,Partial,Yes
 fullscreen,ls,JS API,Yes,Partial,Yes
 gamepad,wd,JS API,Yes,Yes,Yes
 geolocation,rec,JS API,Yes,Yes,Yes
@@ -402,7 +402,7 @@ promises,other,JS,Yes,Yes,Yes
 proximity,cr,JS API,Yes,No,No
 proxy,other,JS,Yes,Yes,Yes
 publickeypinning,other,Security,No,No,No
-push-api,wd,JS API,Yes,Yes,Yes
+push-api,wd,JS API,Yes,Partial,Yes
 queryselector,ls,DOM,Yes,Yes,Yes
 readonly-attr,ls,"DOM,HTML5",Yes,Yes,Yes
 referrer-policy,cr,Security,Yes,Yes,Yes
@@ -510,7 +510,7 @@ webhid,unoff,JS API,No,No,Yes
 webkit-user-drag,unoff,CSS,No,Yes,Partial
 webm,other,Other,Yes,Yes,Yes
 webnfc,unoff,JS API,No,No,No
-webp,unoff,Other,Yes,Yes,Yes
+webp,other,Other,Yes,Yes,Yes
 websockets,ls,JS API,Yes,Yes,Yes
 webusb,unoff,JS API,No,No,Yes
 webvr,unoff,JS API,Yes,No,No
