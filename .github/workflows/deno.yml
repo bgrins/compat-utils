@@ -42,7 +42,7 @@ jobs:
       - name: Run script
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: GH_TOKEN=$GH_TOKEN deno run --allow-read --allow-write --allow-net write-all.js
+        run: GH_TOKEN=$GH_TOKEN deno run --allow-read --allow-write --allow-net --allow-env write-all.js
 
       # - name: Create report file
       #   run: date +%s > output/lastaction.txt
