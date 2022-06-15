@@ -3,7 +3,7 @@ import { configSync } from "https://deno.land/std@0.137.0/dotenv/mod.ts";
 import jmespath from "https://cdn.skypack.dev/jmespath";
 import papaparse from "https://esm.sh/papaparse/";
 
-const CONFIG = configSync();
+const CONFIG = Object.assign({},  Deno.env.toObject(), configSync());
 const { GH_TOKEN } = CONFIG;
 
 console.log(`Has an API token? ${!!GH_TOKEN}`);
@@ -20,6 +20,7 @@ function json_to_csv({ input, options = {} }) {
   return csv;
 }
 
+// Todo: for these really big repos maybe grab all open and then only closed ones that were updated in the last N days?
 const REPOS = [
   "mozilla/standards-positions",
   "w3ctag/design-reviews",
