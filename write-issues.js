@@ -6,8 +6,17 @@ import moment from "https://esm.sh/moment";
 
 const CONFIG = Object.assign({}, Deno.env.toObject(), configSync());
 const { GH_TOKEN } = CONFIG;
+const FETCH_ISSUES = true;
 
 console.log(`Has an API token? ${!!GH_TOKEN}`);
+
+function fetchWithToken(url) {
+  return fetch(url, {
+    headers: {
+      Authorization: GH_TOKEN ? `Bearer ${GH_TOKEN}` : "",
+    },
+  });
+}
 
 function json_to_csv({ input, options = {} }) {
   let header =
@@ -44,11 +53,7 @@ async function fetchIssues(initialURL) {
   let output = [];
   async function getIssues(url) {
     console.log("Getting issues from", url);
-    let resp = await fetch(url, {
-      headers: {
-        Authorization: GH_TOKEN ? `Bearer ${GH_TOKEN}` : "",
-      },
-    });
+    let resp = await fetchWithToken(url);
     let data = await resp.json();
     let linkHeader = resp.headers.get("Link")
       ? parseLinkHeader(resp.headers.get("Link"))
@@ -89,32 +94,41 @@ async function fetchIssueComments() {
   let since = moment().subtract(2, "week").toISOString();
   console.log(`Fetching since ${since}`);
   let allComments = [];
+  const issueURLToMetadata = {};
+
   for (const repo of REPOS) {
-    let resp = await fetch(
-      `https://api.github.com/repos/${repo}/issues/comments?per_page=1000&sort=created&direction=desc&since=${since}`,
-      {
-        headers: {
-          Authorization: GH_TOKEN ? `Bearer ${GH_TOKEN}` : "",
-        },
-      }
+    let resp = await fetchWithToken(
+      `https://api.github.com/repos/${repo}/issues/comments?per_page=1000&sort=created&direction=desc&since=${since}`
     );
     // let resp = await fetch(`https://api.github.com/repos/${repo}/issues/events?per_page=1000`);
     let data = await resp.json();
 
-    const filtered = jmespath
-      .search(
-        data,
-        "[].{id: id, repo: '', body: body, url: html_url, issue_url: issue_url, created_at: created_at, user: user.login }"
-      )
-      .map((comment) => {
-        comment.repo = repo;
-        comment.body = comment.body
-          .substring(0, 100)
-          .replaceAll("\r\n", " ")
-          .replaceAll("\n", " ");
-        return comment;
-      });
+    const filtered = jmespath.search(
+      data,
+      "[].{id: id, repo: '', body: body, url: html_url, issue_url: issue_url, issue_title: '', created_at: created_at, user: user.login }"
+    );
 
+    for (let comment of filtered) {
+      comment.repo = repo;
+      comment.body = comment.body
+        .substring(0, 100)
+        .replaceAll("\r\n", " ")
+        .replaceAll("\n", " ");
+
+      if (!issueURLToMetadata[comment.issue_url]) {
+        console.log(`Fetching issue metadata from ${comment.issue_url}`);
+        let json = await (await fetchWithToken(comment.issue_url)).json();
+        issueURLToMetadata[comment.issue_url] = {
+          issue_url: json.html_url,
+          issue_title: json.title,
+        };
+      }
+      let metadata = issueURLToMetadata[comment.issue_url];
+      // console.log(metadata);
+
+      comment.issue_url = metadata.issue_url;
+      comment.issue_title = metadata.issue_title;
+    }
     allComments = allComments.concat(filtered);
   }
 
@@ -133,16 +147,18 @@ Deno.writeTextFileSync(
   })
 );
 
-for (const repo of REPOS) {
-  let output = await fetchIssues(
-    `https://api.github.com/repos/${repo}/issues?per_page=1000&state=all` // &sort=updated
-  );
+if (FETCH_ISSUES) {
+  for (const repo of REPOS) {
+    let output = await fetchIssues(
+      `https://api.github.com/repos/${repo}/issues?per_page=1000&state=all` // &sort=updated
+    );
 
-  // console.log(output);
-  Deno.writeTextFileSync(
-    `./output/${repo.replace("/", "-")}.csv`,
-    json_to_csv({
-      input: output,
-    })
-  );
+    // console.log(output);
+    Deno.writeTextFileSync(
+      `./output/${repo.replace("/", "-")}.csv`,
+      json_to_csv({
+        input: output,
+      })
+    );
+  }
 }
