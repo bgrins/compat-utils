@@ -60,7 +60,7 @@ async function fetchIssues(initialURL) {
     }
     const filtered = jmespath.search(
       data,
-      "[].{closed: state, title: title, url: html_url, created_at: created_at, updated_at: updated_at, user: user.login, labels: labels, reactions: reactions.total_count, id: id  }"
+      "[].{id: id, closed: state, title: title, url: html_url, created_at: created_at, updated_at: updated_at, user: user.login, labels: labels, reactions: reactions.total_count }"
     );
     for (let issue of filtered) {
       issue.labels = issue.labels.map((l) => l.name).join("|");
