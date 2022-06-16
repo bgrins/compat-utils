@@ -100,12 +100,11 @@ async function fetchIssueComments() {
     );
     // let resp = await fetch(`https://api.github.com/repos/${repo}/issues/events?per_page=1000`);
     let data = await resp.json();
-    // console.log(data);
 
     const filtered = jmespath
       .search(
         data,
-        "[].{id: id, repo: '', body: body, url: html_url, created_at: created_at, user: user.login }"
+        "[].{id: id, repo: '', body: body, url: html_url, issue_url: issue_url, created_at: created_at, user: user.login }"
       )
       .map((comment) => {
         comment.repo = repo;
