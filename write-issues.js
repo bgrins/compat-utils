@@ -86,8 +86,8 @@ async function fetchIssues(initialURL) {
 }
 
 async function fetchIssueComments() {
-  let since = moment().subtract(1, "month").toISOString();
-
+  let since = moment().subtract(2, "week").toISOString();
+  console.log(`Fetching since ${since}`);
   let allComments = [];
   for (const repo of REPOS) {
     let resp = await fetch(
