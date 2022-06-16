@@ -2,6 +2,7 @@ import { parseLinkHeader } from "./parselinkheader.js";
 import { configSync } from "https://deno.land/std@0.137.0/dotenv/mod.ts";
 import jmespath from "https://cdn.skypack.dev/jmespath";
 import papaparse from "https://esm.sh/papaparse/";
+import moment from "https://esm.sh/moment";
 
 const CONFIG = Object.assign({}, Deno.env.toObject(), configSync());
 const { GH_TOKEN } = CONFIG;
@@ -84,10 +85,60 @@ async function fetchIssues(initialURL) {
   return output;
 }
 
+async function fetchIssueComments() {
+  let since = moment().subtract(1, "month").toISOString();
+
+  let allComments = [];
+  for (const repo of REPOS) {
+    let resp = await fetch(
+      `https://api.github.com/repos/${repo}/issues/comments?per_page=1000&sort=created&direction=desc&since=${since}`,
+      {
+        headers: {
+          Authorization: GH_TOKEN ? `Bearer ${GH_TOKEN}` : "",
+        },
+      }
+    );
+    // let resp = await fetch(`https://api.github.com/repos/${repo}/issues/events?per_page=1000`);
+    let data = await resp.json();
+    // console.log(data);
+
+    const filtered = jmespath
+      .search(
+        data,
+        "[].{id: id, repo: '', body: body, url: html_url, created_at: created_at, user: user.login }"
+      )
+      .map((comment) => {
+        comment.repo = repo;
+        comment.body = comment.body
+          .substring(0, 100)
+          .replaceAll("\r\n", " ")
+          .replaceAll("\n", " ");
+        return comment;
+      });
+
+    allComments = allComments.concat(filtered);
+  }
+
+  allComments.sort((a, b) => {
+    return moment(a.created_at) < moment(b.created_at) ? 1 : -1;
+  });
+  return allComments;
+}
+
+let allComments = await fetchIssueComments();
+
+Deno.writeTextFileSync(
+  `./output/all-comments.csv`,
+  json_to_csv({
+    input: allComments,
+  })
+);
+
 for (const repo of REPOS) {
   let output = await fetchIssues(
     `https://api.github.com/repos/${repo}/issues?per_page=1000&state=all` // &sort=updated
   );
+
   // console.log(output);
   Deno.writeTextFileSync(
     `./output/${repo.replace("/", "-")}.csv`,
