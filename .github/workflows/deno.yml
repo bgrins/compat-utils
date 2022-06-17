@@ -10,10 +10,10 @@ name: Deno
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  # push:
-  #   branches:    
-  #     - main
+    - cron: "0 0/12 * * *"
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
