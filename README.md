@@ -1,2 +1,2 @@
 
-deno run --allow-read --allow-write --allow-net write-all.js
+deno run -A write-all.js
