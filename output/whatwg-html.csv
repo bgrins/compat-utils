@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1274264048,false,Clarify how exceptions propagate from the StructuredDeserializeWithTransfer,https://github.com/whatwg/html/issues/8018,2022-06-17T00:12:58Z,2022-06-17T04:37:24Z,junov,normative change|clarification|topic: serialize and transfer,0
+1274264048,false,Clarify how exceptions propagate from the StructuredDeserializeWithTransfer,https://github.com/whatwg/html/issues/8018,2022-06-17T00:12:58Z,2022-06-17T06:36:01Z,junov,normative change|clarification|topic: serialize and transfer,0
 1274141161,true,Export 'the body element' for other specifications to use,https://github.com/whatwg/html/pull/8017,2022-06-16T22:23:05Z,2022-06-16T22:53:22Z,zcorpan,,0
 1273830563,false,Add IntersectionObserver target requirement to Event Loops Processing Model,https://github.com/whatwg/html/pull/8016,2022-06-16T16:45:47Z,2022-06-16T16:51:17Z,nathaneliason,,0
 1273821020,false,Add IntersectionObserver target requirement to Event Loops Processing Model,https://github.com/whatwg/html/issues/8015,2022-06-16T16:38:22Z,2022-06-16T16:42:03Z,nathaneliason,integration,0
@@ -13,7 +13,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1269893795,true,"Add ""webauthn"" autocomplete token",https://github.com/whatwg/html/pull/8006,2022-06-13T20:03:26Z,2022-06-16T18:49:14Z,nsatragno,,0
 1269817211,false,Should activation behavior of input elements check `disabled` instead of `mutable`?,https://github.com/whatwg/html/issues/8005,2022-06-13T18:45:23Z,2022-06-14T19:35:41Z,saschanaz,clarification|topic: forms,0
 1269261848,true,"interop: Trailing whitespace in h1/h2/.. is removed in chrome, but not firefox",https://github.com/whatwg/html/issues/8003,2022-06-13T10:55:31Z,2022-06-13T19:04:39Z,untitaker,,0
-1268976298,false,How to interpretate 5.1 step of the run steps after a timeout,https://github.com/whatwg/html/issues/8002,2022-06-13T06:39:27Z,2022-06-17T03:38:21Z,dSalieri,,0
+1268976298,false,How to interpretate 5.1 step of the run steps after a timeout,https://github.com/whatwg/html/issues/8002,2022-06-13T06:39:27Z,2022-06-17T09:21:50Z,dSalieri,,0
 1267889681,true,Add support for WebAuthn's Conditional Mediation / Integration with autocomplete,https://github.com/whatwg/html/issues/7999,2022-06-10T18:41:40Z,2022-06-16T18:49:14Z,nsatragno,,0
 1267714744,true,Export `HTMLTemplateElement`'s `content`.,https://github.com/whatwg/html/pull/7998,2022-06-10T15:39:14Z,2022-06-13T08:51:58Z,mozfreddyb,,0
 1266607966,false,Editorial cleanups to fetching scripts,https://github.com/whatwg/html/issues/7996,2022-06-09T20:16:26Z,2022-06-09T20:16:26Z,domenic,clarification|topic: script,0
@@ -112,7 +112,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1218728578,false,Remove UA style for h1-h6 in section (et. al.) and hgroup,https://github.com/whatwg/html/issues/7867,2022-04-28T13:25:55Z,2022-06-14T08:27:18Z,zcorpan,topic: rendering|needs compat analysis,0
 1218370191,true,Editorial: refactor link headers to be declared per-type,https://github.com/whatwg/html/pull/7866,2022-04-28T08:17:30Z,2022-05-26T17:03:34Z,noamr,topic: resource hints (inc. preload),0
 1217331961,false,Specify `contenteditable=plaintext-only`,https://github.com/whatwg/html/issues/7864,2022-04-27T13:05:15Z,2022-04-27T13:06:49Z,zcorpan,topic: editing,0
-1216305678,false,`modulepreload` in Link header & early hints,https://github.com/whatwg/html/pull/7862,2022-04-26T18:07:26Z,2022-06-10T10:22:25Z,noamr,topic: resource hints (inc. preload),0
+1216305678,false,`modulepreload` in Link header & early hints,https://github.com/whatwg/html/pull/7862,2022-04-26T18:07:26Z,2022-06-17T07:43:20Z,noamr,topic: resource hints (inc. preload),0
 1216156628,false,`input[maxlength]` breaks a grapheme cluster down into pieces,https://github.com/whatwg/html/issues/7861,2022-04-26T15:48:26Z,2022-04-27T15:18:25Z,saschanaz,needs implementer interest|topic: forms|i18n-tracker,0
 1215669922,true,Introduce <icon> element,https://github.com/whatwg/html/issues/7860,2022-04-26T09:29:08Z,2022-04-26T11:58:15Z,NagayamaToshiaki,,0
 1215647685,true,Set all http-equiv value as name,https://github.com/whatwg/html/issues/7859,2022-04-26T09:11:50Z,2022-04-26T12:00:19Z,NagayamaToshiaki,,0
@@ -491,7 +491,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1033927055,true,Form with target=_blank and opener relationship,https://github.com/whatwg/html/issues/7256,2021-10-22T20:29:58Z,2021-10-25T15:17:36Z,cdumez,topic: forms,0
 1033914516,false,Environment change causes all lazy `img` elements to load,https://github.com/whatwg/html/issues/7255,2021-10-22T20:12:22Z,2021-10-22T20:12:32Z,zcorpan,topic: img,0
 1033386589,true,Editorial: align with Fetch's change to tuples,https://github.com/whatwg/html/pull/7254,2021-10-22T09:43:03Z,2021-10-25T15:54:09Z,annevk,,0
-1031955624,false,How should BroadcastChannel and BFCache interact?,https://github.com/whatwg/html/issues/7253,2021-10-21T01:06:26Z,2022-06-17T03:01:31Z,fergald,topic: history|topic: serialize and transfer,0
+1031955624,false,How should BroadcastChannel and BFCache interact?,https://github.com/whatwg/html/issues/7253,2021-10-21T01:06:26Z,2022-06-17T08:32:43Z,fergald,topic: history|topic: serialize and transfer,0
 1031759733,true,Define algorithm for serializing a site,https://github.com/whatwg/html/pull/7251,2021-10-20T19:31:42Z,2021-10-21T16:15:19Z,apasel422,topic: origin,0
 1031744384,true,Define serialization of a site,https://github.com/whatwg/html/issues/7250,2021-10-20T19:11:44Z,2021-10-21T15:30:02Z,apasel422,,0
 1031670880,true,shadowRoot attached on DIV Element does not reset styles with all:initial,https://github.com/whatwg/html/issues/7249,2021-10-20T17:45:43Z,2021-10-22T06:00:46Z,Danny-Engelman,,0
