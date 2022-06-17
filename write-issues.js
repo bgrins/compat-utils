@@ -63,6 +63,7 @@ async function fetchIssues(initialURL) {
       console.error(data);
       throw new Error("Expected an array but got " + JSON.stringify(data));
     }
+    // Todo - special case s-p to pull the standards link and other details from first issue
     const filtered = jmespath.search(
       data,
       "[].{id: id, closed: state, title: title, url: html_url, created_at: created_at, updated_at: updated_at, user: user.login, labels: labels, reactions: reactions.total_count }"
