@@ -1,12 +1,14 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1274264048,false,Clarify how exceptions propagate from the StructuredDeserializeWithTransfer,https://github.com/whatwg/html/issues/8018,2022-06-17T00:12:58Z,2022-06-17T06:36:01Z,junov,normative change|clarification|topic: serialize and transfer,0
+1275349394,true,Fix webauthn autocomplete token example,https://github.com/whatwg/html/pull/8020,2022-06-17T18:35:14Z,2022-06-17T18:41:00Z,nsatragno,,0
+1275097690,true,Incorrect autocomplete token in example,https://github.com/whatwg/html/issues/8019,2022-06-17T14:26:31Z,2022-06-17T18:41:00Z,mtrootyy,,0
+1274264048,false,Clarify how exceptions propagate from the StructuredDeserializeWithTransfer,https://github.com/whatwg/html/issues/8018,2022-06-17T00:12:58Z,2022-06-17T18:30:24Z,junov,normative change|clarification|topic: serialize and transfer,0
 1274141161,true,Export 'the body element' for other specifications to use,https://github.com/whatwg/html/pull/8017,2022-06-16T22:23:05Z,2022-06-16T22:53:22Z,zcorpan,,0
 1273830563,false,Add IntersectionObserver target requirement to Event Loops Processing Model,https://github.com/whatwg/html/pull/8016,2022-06-16T16:45:47Z,2022-06-16T16:51:17Z,nathaneliason,,0
 1273821020,false,Add IntersectionObserver target requirement to Event Loops Processing Model,https://github.com/whatwg/html/issues/8015,2022-06-16T16:38:22Z,2022-06-16T16:42:03Z,nathaneliason,integration,0
 1272436173,false,"""top-level origin"" on environments seems incorrect; consider ""top-level site""",https://github.com/whatwg/html/issues/8014,2022-06-15T15:54:00Z,2022-06-15T19:04:34Z,domenic,,0
 1272422076,false,Prevent top navigations without user activation in some circumstances?,https://github.com/whatwg/html/issues/8013,2022-06-15T15:42:34Z,2022-06-15T15:42:34Z,domenic,normative change|topic: navigation,0
 1272108125,false,Intervention: Ignore clicks on iframes that have moved in the last 200 ms,https://github.com/whatwg/html/issues/8012,2022-06-15T11:41:35Z,2022-06-15T11:41:35Z,johannhof,,0
-1270712984,false,Integrate with WebDriver-BiDi user prompt handling.,https://github.com/whatwg/html/pull/8010,2022-06-14T12:14:42Z,2022-06-16T18:57:37Z,jgraham,,0
+1270712984,true,Integrate with WebDriver-BiDi user prompt handling.,https://github.com/whatwg/html/pull/8010,2022-06-14T12:14:42Z,2022-06-17T18:46:26Z,jgraham,,0
 1270571621,false,Surprising parsing behavior with active formatting elements nad PLAINTEXT,https://github.com/whatwg/html/issues/8009,2022-06-14T10:09:53Z,2022-06-14T14:14:55Z,securityMB,clarification|topic: parser,1
 1270116125,false,Add sizes=auto to lazy-loaded <img>,https://github.com/whatwg/html/pull/8008,2022-06-14T00:47:59Z,2022-06-14T15:01:33Z,zcorpan,,6
 1269909259,false,Add `<img loading=after-layout>` to support auto-`sizes`,https://github.com/whatwg/html/issues/8007,2022-06-13T20:19:22Z,2022-06-14T11:03:39Z,zcorpan,addition/proposal|needs implementer interest|topic: img,1
@@ -112,7 +114,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1218728578,false,Remove UA style for h1-h6 in section (et. al.) and hgroup,https://github.com/whatwg/html/issues/7867,2022-04-28T13:25:55Z,2022-06-14T08:27:18Z,zcorpan,topic: rendering|needs compat analysis,0
 1218370191,true,Editorial: refactor link headers to be declared per-type,https://github.com/whatwg/html/pull/7866,2022-04-28T08:17:30Z,2022-05-26T17:03:34Z,noamr,topic: resource hints (inc. preload),0
 1217331961,false,Specify `contenteditable=plaintext-only`,https://github.com/whatwg/html/issues/7864,2022-04-27T13:05:15Z,2022-04-27T13:06:49Z,zcorpan,topic: editing,0
-1216305678,false,`modulepreload` in Link header & early hints,https://github.com/whatwg/html/pull/7862,2022-04-26T18:07:26Z,2022-06-17T07:43:20Z,noamr,topic: resource hints (inc. preload),0
+1216305678,false,`modulepreload` in Link header & early hints,https://github.com/whatwg/html/pull/7862,2022-04-26T18:07:26Z,2022-06-17T19:09:56Z,noamr,topic: resource hints (inc. preload),0
 1216156628,false,`input[maxlength]` breaks a grapheme cluster down into pieces,https://github.com/whatwg/html/issues/7861,2022-04-26T15:48:26Z,2022-04-27T15:18:25Z,saschanaz,needs implementer interest|topic: forms|i18n-tracker,0
 1215669922,true,Introduce <icon> element,https://github.com/whatwg/html/issues/7860,2022-04-26T09:29:08Z,2022-04-26T11:58:15Z,NagayamaToshiaki,,0
 1215647685,true,Set all http-equiv value as name,https://github.com/whatwg/html/issues/7859,2022-04-26T09:11:50Z,2022-04-26T12:00:19Z,NagayamaToshiaki,,0
@@ -491,7 +493,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1033927055,true,Form with target=_blank and opener relationship,https://github.com/whatwg/html/issues/7256,2021-10-22T20:29:58Z,2021-10-25T15:17:36Z,cdumez,topic: forms,0
 1033914516,false,Environment change causes all lazy `img` elements to load,https://github.com/whatwg/html/issues/7255,2021-10-22T20:12:22Z,2021-10-22T20:12:32Z,zcorpan,topic: img,0
 1033386589,true,Editorial: align with Fetch's change to tuples,https://github.com/whatwg/html/pull/7254,2021-10-22T09:43:03Z,2021-10-25T15:54:09Z,annevk,,0
-1031955624,false,How should BroadcastChannel and BFCache interact?,https://github.com/whatwg/html/issues/7253,2021-10-21T01:06:26Z,2022-06-17T08:32:43Z,fergald,topic: history|topic: serialize and transfer,0
+1031955624,false,How should BroadcastChannel and BFCache interact?,https://github.com/whatwg/html/issues/7253,2021-10-21T01:06:26Z,2022-06-17T17:33:14Z,fergald,topic: history|topic: serialize and transfer,0
 1031759733,true,Define algorithm for serializing a site,https://github.com/whatwg/html/pull/7251,2021-10-20T19:31:42Z,2021-10-21T16:15:19Z,apasel422,topic: origin,0
 1031744384,true,Define serialization of a site,https://github.com/whatwg/html/issues/7250,2021-10-20T19:11:44Z,2021-10-21T15:30:02Z,apasel422,,0
 1031670880,true,shadowRoot attached on DIV Element does not reset styles with all:initial,https://github.com/whatwg/html/issues/7249,2021-10-20T17:45:43Z,2021-10-22T06:00:46Z,Danny-Engelman,,0
@@ -870,7 +872,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 911537288,true,Editorial: omit developer-only content from snapshots too,https://github.com/whatwg/html/pull/6737,2021-06-04T14:08:32Z,2021-06-17T17:09:26Z,domenic,dev edition,0
 911466543,true,HTML parser: handle </br> and </p> in SVG,https://github.com/whatwg/html/pull/6736,2021-06-04T12:43:33Z,2021-06-23T23:09:20Z,zcorpan,normative change|compat|topic: parser|interop,0
 910834891,true,"Add a ""cancel"" event for when file upload selection is unchanged",https://github.com/whatwg/html/pull/6735,2021-06-03T20:36:40Z,2021-07-19T15:04:50Z,domenic,addition/proposal|topic: forms|topic: events|agenda+,1
-910338827,false,Support `<optgroup>` in `<datalist>`,https://github.com/whatwg/html/issues/6733,2021-06-03T10:10:20Z,2021-06-03T10:46:27Z,cawa-93,addition/proposal|needs implementer interest|topic: forms,9
+910338827,false,Support `<optgroup>` in `<datalist>`,https://github.com/whatwg/html/issues/6733,2021-06-03T10:10:20Z,2021-06-03T10:46:27Z,cawa-93,addition/proposal|needs implementer interest|topic: forms,11
 909451964,true,[SUGGESTION] Disabling developer tools,https://github.com/whatwg/html/issues/6732,2021-06-02T12:33:19Z,2021-06-02T19:53:26Z,drodil,,4
 909339015,false,"Canvas textBaseline ""em square"" not defined",https://github.com/whatwg/html/issues/6731,2021-06-02T10:15:21Z,2021-06-02T11:25:52Z,AshleyScirra,topic: canvas|interop,2
 909192951,false,[Suggestion] dialog element,https://github.com/whatwg/html/issues/6730,2021-06-02T07:11:15Z,2021-08-08T22:26:57Z,OmidHekayati,topic: dialog,5
@@ -1579,7 +1581,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 677392086,false,WIP: Allow for the possibility of user agents implementing landmark navigation,https://github.com/whatwg/html/pull/5814,2020-08-12T05:19:00Z,2021-07-27T17:07:57Z,carmacleod,,0
 677391669,false,Allow for the possibility of user agents implementing landmark navigation,https://github.com/whatwg/html/issues/5813,2020-08-12T05:17:57Z,2020-08-19T16:52:10Z,carmacleod,clarification|accessibility|a11y-tracker,0
 677391273,false,Consider allowing label elements to provide a label for landmark elements,https://github.com/whatwg/html/issues/5812,2020-08-12T05:17:05Z,2021-11-12T00:28:02Z,carmacleod,addition/proposal|accessibility|a11y-tracker,0
-677390392,false,Consider creating an HTML search element,https://github.com/whatwg/html/issues/5811,2020-08-12T05:15:08Z,2022-04-14T16:50:11Z,carmacleod,addition/proposal|accessibility|a11y-tracker,13
+677390392,false,Consider creating an HTML search element,https://github.com/whatwg/html/issues/5811,2020-08-12T05:15:08Z,2022-06-17T19:58:17Z,carmacleod,addition/proposal|accessibility|a11y-tracker,13
 677118565,true,Add another example (in prose) to help authors understand SFNSP,https://github.com/whatwg/html/pull/5810,2020-08-11T18:57:12Z,2020-08-12T14:50:40Z,carmacleod,clarification|topic: focus,0
 677114557,true,Remove the dragexit event,https://github.com/whatwg/html/pull/5809,2020-08-11T18:50:43Z,2020-08-13T15:04:20Z,domenic,removal/deprecation|topic: drag and drop,0
 677109554,true,"Fix contradictory missing value default for formmethod=""""",https://github.com/whatwg/html/pull/5808,2020-08-11T18:43:31Z,2020-08-17T14:57:27Z,domenic,topic: forms,0
@@ -2344,7 +2346,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 497040604,false,Define a policy container,https://github.com/whatwg/html/issues/4926,2019-09-23T11:28:43Z,2021-05-21T10:44:17Z,annevk,clarification|needs tests|interop|integration|topic: policy container,6
 496594293,false,Design questions about IDREF/Element attribute reflection,https://github.com/whatwg/html/issues/4925,2019-09-21T00:49:20Z,2020-09-17T00:43:56Z,alice,accessibility,0
 496188244,true,COEP mismatches in dedicated workers should block.,https://github.com/whatwg/html/issues/4924,2019-09-20T07:14:14Z,2020-04-20T09:12:18Z,mikewest,topic: cross-origin-embedder-policy,0
-495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2022-03-04T18:05:43Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,90
+495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2022-03-04T18:05:43Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,91
 495810632,false,Allow an extra dimension to the size array for 3D favicon,https://github.com/whatwg/html/issues/4922,2019-09-19T13:46:29Z,2021-01-28T22:05:11Z,rcabanier,addition/proposal|needs implementer interest|topic: link,0
 495595729,true,Decide how to treat CSP sandbox in COOP,https://github.com/whatwg/html/issues/4921,2019-09-19T06:18:06Z,2020-06-24T17:33:26Z,shhnjk,security/privacy|topic: cross-origin-opener-policy,0
 495587240,true,Consider restricting SharedArrayBuffer to same-origin usage,https://github.com/whatwg/html/issues/4920,2019-09-19T05:50:59Z,2019-12-05T15:38:02Z,annevk,addition/proposal|topic: serialize and transfer,0
