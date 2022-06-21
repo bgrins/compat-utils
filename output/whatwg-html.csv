@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1278018519,false,Normatively define the “elementtiming” content attribute,https://github.com/whatwg/html/issues/8024,2022-06-21T07:34:43Z,2022-06-21T07:48:11Z,sideshowbarker,,0
 1277218382,false,"""BeforeUnloadEvent"" user message presets",https://github.com/whatwg/html/issues/8023,2022-06-20T17:35:02Z,2022-06-20T18:17:32Z,delta-9,,0
 1276077310,false,Add a warning sentence for iframe load event step,https://github.com/whatwg/html/pull/8022,2022-06-19T14:24:22Z,2022-06-20T03:30:52Z,negibokken,,0
 1275349394,true,Fix webauthn autocomplete token example,https://github.com/whatwg/html/pull/8020,2022-06-17T18:35:14Z,2022-06-17T18:41:00Z,nsatragno,,0
@@ -12,12 +13,12 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1272108125,false,Intervention: Ignore clicks on iframes that have moved in the last 200 ms,https://github.com/whatwg/html/issues/8012,2022-06-15T11:41:35Z,2022-06-15T11:41:35Z,johannhof,,0
 1270712984,true,Integrate with WebDriver-BiDi user prompt handling.,https://github.com/whatwg/html/pull/8010,2022-06-14T12:14:42Z,2022-06-17T18:46:26Z,jgraham,,0
 1270571621,false,Surprising parsing behavior with active formatting elements nad PLAINTEXT,https://github.com/whatwg/html/issues/8009,2022-06-14T10:09:53Z,2022-06-14T14:14:55Z,securityMB,clarification|topic: parser,1
-1270116125,false,Add sizes=auto to lazy-loaded <img>,https://github.com/whatwg/html/pull/8008,2022-06-14T00:47:59Z,2022-06-14T15:01:33Z,zcorpan,,6
+1270116125,false,Add sizes=auto to lazy-loaded <img>,https://github.com/whatwg/html/pull/8008,2022-06-14T00:47:59Z,2022-06-14T15:01:33Z,zcorpan,,7
 1269909259,false,Add `<img loading=after-layout>` to support auto-`sizes`,https://github.com/whatwg/html/issues/8007,2022-06-13T20:19:22Z,2022-06-14T11:03:39Z,zcorpan,addition/proposal|needs implementer interest|topic: img,1
 1269893795,true,"Add ""webauthn"" autocomplete token",https://github.com/whatwg/html/pull/8006,2022-06-13T20:03:26Z,2022-06-16T18:49:14Z,nsatragno,,0
 1269817211,false,Should activation behavior of input elements check `disabled` instead of `mutable`?,https://github.com/whatwg/html/issues/8005,2022-06-13T18:45:23Z,2022-06-14T19:35:41Z,saschanaz,clarification|topic: forms,0
 1269261848,true,"interop: Trailing whitespace in h1/h2/.. is removed in chrome, but not firefox",https://github.com/whatwg/html/issues/8003,2022-06-13T10:55:31Z,2022-06-13T19:04:39Z,untitaker,,0
-1268976298,false,How to interpretate 5.1 step of the run steps after a timeout,https://github.com/whatwg/html/issues/8002,2022-06-13T06:39:27Z,2022-06-19T15:47:12Z,dSalieri,,0
+1268976298,false,How to interpretate 5.1 step of the run steps after a timeout,https://github.com/whatwg/html/issues/8002,2022-06-13T06:39:27Z,2022-06-21T03:10:53Z,dSalieri,,0
 1267889681,true,Add support for WebAuthn's Conditional Mediation / Integration with autocomplete,https://github.com/whatwg/html/issues/7999,2022-06-10T18:41:40Z,2022-06-16T18:49:14Z,nsatragno,,0
 1267714744,true,Export `HTMLTemplateElement`'s `content`.,https://github.com/whatwg/html/pull/7998,2022-06-10T15:39:14Z,2022-06-13T08:51:58Z,mozfreddyb,,0
 1266607966,false,Editorial cleanups to fetching scripts,https://github.com/whatwg/html/issues/7996,2022-06-09T20:16:26Z,2022-06-09T20:16:26Z,domenic,clarification|topic: script,0
@@ -39,7 +40,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1255350631,true,Extract encoding properly in fetch a classic script,https://github.com/whatwg/html/pull/7975,2022-06-01T08:29:14Z,2022-06-01T16:44:39Z,annevk,,0
 1254713315,true,Do not allow hash method mismatch in comsuming preloads,https://github.com/whatwg/html/pull/7974,2022-06-01T02:21:58Z,2022-06-03T19:25:24Z,hiroshige-g,topic: resource hints (inc. preload),0
 1254713002,true,Hash method mismatch in comsuming preloads can allow response not matching consumer's integrity,https://github.com/whatwg/html/issues/7973,2022-06-01T02:21:46Z,2022-06-03T19:24:36Z,hiroshige-g,,0
-1254352796,false,"Should <form method=""dialog""> cross shadow boundaries?",https://github.com/whatwg/html/issues/7971,2022-05-31T19:54:01Z,2022-05-31T20:47:56Z,derat,topic: shadow|interop|topic: dialog,0
+1254352796,true,"Should <form method=""dialog""> cross shadow boundaries?",https://github.com/whatwg/html/issues/7971,2022-05-31T19:54:01Z,2022-06-21T04:23:29Z,derat,topic: shadow|interop|topic: dialog,0
 1254148000,true,Editorial: use argument defaulting in create a classic script,https://github.com/whatwg/html/pull/7970,2022-05-31T17:00:25Z,2022-05-31T17:12:06Z,annevk,,0
 1254144293,true,Provide standalone ParseScript wrapper,https://github.com/whatwg/html/pull/7969,2022-05-31T16:56:15Z,2022-05-31T17:59:29Z,annevk,,0
 1252959860,false,Corrects html/source for #7930,https://github.com/whatwg/html/pull/7968,2022-05-30T16:50:57Z,2022-05-30T16:52:28Z,debanjana-a11y,,0
