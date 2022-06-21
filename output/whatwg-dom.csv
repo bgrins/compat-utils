@@ -1,9 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1276502713,true,Review Draft Publication: June 2022,https://github.com/whatwg/dom/pull/1089,2022-06-20T07:38:50Z,2022-06-20T07:46:47Z,annevk,,0
-1274578228,false,Specify addEventListener default passive hack for smoothscroll.js,https://github.com/whatwg/dom/issues/1088,2022-06-17T05:16:29Z,2022-06-17T19:16:40Z,zcorpan,topic: events,0
+1274578228,true,Specify addEventListener default passive hack for smoothscroll.js,https://github.com/whatwg/dom/issues/1088,2022-06-17T05:16:29Z,2022-06-20T13:10:44Z,zcorpan,topic: events,0
 1274177913,false,Specify default passive for document-level wheel/mousewheel/touchstart/touchmove events,https://github.com/whatwg/dom/pull/1087,2022-06-16T22:45:28Z,2022-06-17T09:00:42Z,zcorpan,,0
 1265829879,true,Missing dot for `concept-node-remove`s first step.,https://github.com/whatwg/dom/pull/1086,2022-06-09T09:09:43Z,2022-06-09T16:10:28Z,mozfreddyb,,1
-1265068746,false,Add a fully active check for EventTarget in event listener inner invoke,https://github.com/whatwg/dom/pull/1085,2022-06-08T17:20:58Z,2022-06-13T16:25:05Z,shaseley,topic: events,0
+1265068746,false,Add a fully active check for EventTarget in event listener inner invoke,https://github.com/whatwg/dom/pull/1085,2022-06-08T17:20:58Z,2022-06-20T14:20:07Z,shaseley,topic: events,0
 1260367446,false,Should event dispatch check that the event target is in a fully active realm?,https://github.com/whatwg/dom/issues/1084,2022-06-03T20:52:17Z,2022-06-07T12:20:06Z,shaseley,topic: events,1
 1244699995,false,Timeout AbortSignal (or AbortController) that gets input from the operation,https://github.com/whatwg/dom/issues/1082,2022-05-23T07:25:31Z,2022-05-23T15:10:42Z,annevk,topic: aborting,0
 1243019933,false,Element.matches and :scope,https://github.com/whatwg/dom/issues/1081,2022-05-20T11:34:12Z,2022-05-23T06:56:06Z,lifaon74,needs implementer interest|addition/proposal,0
@@ -96,7 +96,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 821158796,true,`thead` and `tbody` are being ignored when querying its table row element,https://github.com/whatwg/dom/issues/956,2021-03-03T10:38:22Z,2021-03-04T15:20:15Z,christian-bromann,,0
 818280988,true,[idea] Node.empty(),https://github.com/whatwg/dom/issues/955,2021-02-28T19:00:05Z,2021-02-28T22:26:41Z,vrugtehagel,,0
 818073524,true,Editorial: Restore necessary comma,https://github.com/whatwg/dom/pull/954,2021-02-28T01:31:46Z,2021-03-12T12:29:12Z,sideshowbarker,,0
-816299510,false,document.createEvent() should maybe not be conditional upon exposure,https://github.com/whatwg/dom/issues/952,2021-02-25T10:24:06Z,2022-06-07T10:45:36Z,annevk,interop,1
+816299510,false,document.createEvent() should maybe not be conditional upon exposure,https://github.com/whatwg/dom/issues/952,2021-02-25T10:24:06Z,2022-06-20T14:51:22Z,annevk,interop,1
 815897814,true,Add AbortSignal.timeout(ms),https://github.com/whatwg/dom/issues/951,2021-02-24T22:27:13Z,2022-02-02T22:08:53Z,domenic,addition/proposal|topic: aborting,4
 806203904,false,Allow postMessage-ing AbortSignal,https://github.com/whatwg/dom/issues/948,2021-02-11T09:11:10Z,2021-12-19T03:40:35Z,Jamesernator,needs implementer interest|addition/proposal|topic: aborting,0
 806181567,true,Define criteria for StaticRange validation,https://github.com/whatwg/dom/issues/947,2021-02-11T08:34:14Z,2021-08-31T11:00:34Z,sanketj,needs implementer interest|addition/proposal|topic: ranges,0

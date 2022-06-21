@@ -1,10 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1277218382,false,"""BeforeUnloadEvent"" user message presets",https://github.com/whatwg/html/issues/8023,2022-06-20T17:35:02Z,2022-06-20T18:17:32Z,delta-9,,0
 1276077310,false,Add a warning sentence for iframe load event step,https://github.com/whatwg/html/pull/8022,2022-06-19T14:24:22Z,2022-06-20T03:30:52Z,negibokken,,0
 1275349394,true,Fix webauthn autocomplete token example,https://github.com/whatwg/html/pull/8020,2022-06-17T18:35:14Z,2022-06-17T18:41:00Z,nsatragno,,0
 1275097690,true,Incorrect autocomplete token in example,https://github.com/whatwg/html/issues/8019,2022-06-17T14:26:31Z,2022-06-17T18:41:00Z,mtrootyy,,0
 1274264048,false,Clarify how exceptions propagate from the StructuredDeserializeWithTransfer,https://github.com/whatwg/html/issues/8018,2022-06-17T00:12:58Z,2022-06-17T18:30:24Z,junov,normative change|clarification|topic: serialize and transfer,0
 1274141161,true,Export 'the body element' for other specifications to use,https://github.com/whatwg/html/pull/8017,2022-06-16T22:23:05Z,2022-06-16T22:53:22Z,zcorpan,,0
-1273830563,false,Add IntersectionObserver target requirement to Event Loops Processing Model,https://github.com/whatwg/html/pull/8016,2022-06-16T16:45:47Z,2022-06-16T16:51:17Z,nathaneliason,,0
+1273830563,false,Add IntersectionObserver target requirement to Event Loops Processing Model,https://github.com/whatwg/html/pull/8016,2022-06-16T16:45:47Z,2022-06-20T16:21:45Z,nathaneliason,,0
 1273821020,false,Add IntersectionObserver target requirement to Event Loops Processing Model,https://github.com/whatwg/html/issues/8015,2022-06-16T16:38:22Z,2022-06-16T16:42:03Z,nathaneliason,integration,0
 1272436173,false,"""top-level origin"" on environments seems incorrect; consider ""top-level site""",https://github.com/whatwg/html/issues/8014,2022-06-15T15:54:00Z,2022-06-15T19:04:34Z,domenic,,0
 1272422076,false,Prevent top navigations without user activation in some circumstances?,https://github.com/whatwg/html/issues/8013,2022-06-15T15:42:34Z,2022-06-15T15:42:34Z,domenic,normative change|topic: navigation,0
@@ -55,7 +56,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1245518486,true,Editorial: update IETF spec links,https://github.com/whatwg/html/pull/7951,2022-05-23T17:57:29Z,2022-05-25T06:38:51Z,domenic,,0
 1245490159,false,Consider being strict about range mismatch for media,https://github.com/whatwg/html/issues/7950,2022-05-23T17:27:12Z,2022-05-24T07:26:22Z,noamr,topic: media|interop,1
 1245461464,true,Typo in section 2.1.4 DOM trees,https://github.com/whatwg/html/issues/7949,2022-05-23T16:58:18Z,2022-05-26T15:27:55Z,AegisFair,good first issue,1
-1245454379,false,COEP reflection,https://github.com/whatwg/html/pull/7948,2022-05-23T16:50:33Z,2022-06-15T16:38:35Z,ArthurSonzogni,addition/proposal|topic: cross-origin-embedder-policy,0
+1245454379,false,COEP reflection,https://github.com/whatwg/html/pull/7948,2022-05-23T16:50:33Z,2022-06-20T15:37:43Z,ArthurSonzogni,addition/proposal|topic: cross-origin-embedder-policy,0
 1244030392,false,Add color-interpolation-method support for canvas gradients,https://github.com/whatwg/html/issues/7947,2022-05-21T16:39:32Z,2022-05-22T10:24:36Z,weinig,addition/proposal|topic: canvas,1
 1243990383,false,"Proposal: Allow authors to enforce ""save as PDF"" when printing a document",https://github.com/whatwg/html/issues/7946,2022-05-21T14:28:52Z,2022-05-28T19:48:53Z,BenjaminAster,addition/proposal|needs implementer interest,14
 1242018223,false,(Background) Tab Suspending,https://github.com/whatwg/html/issues/7942,2022-05-19T16:18:36Z,2022-05-19T16:18:36Z,johannhof,,0
@@ -1785,7 +1786,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 624059626,true,Don't execute scripts that have moved documents,https://github.com/whatwg/html/pull/5575,2020-05-25T05:42:07Z,2020-06-15T22:02:13Z,domfarolino,topic: script,0
 623920756,true,Allow an image to indicate its own density and correct its intrinsic size,https://github.com/whatwg/html/pull/5574,2020-05-24T18:41:03Z,2021-10-16T18:36:39Z,noamr,addition/proposal|topic: img,0
 622938534,true,Simplify lazy load conditions and make them more explicit,https://github.com/whatwg/html/pull/5573,2020-05-22T04:19:37Z,2020-06-02T14:07:49Z,domfarolino,topic: img,0
-622651392,false,Add import.meta.resolve(),https://github.com/whatwg/html/pull/5572,2020-05-21T17:15:48Z,2022-06-07T18:05:44Z,domenic,addition/proposal|needs tests|topic: script,8
+622651392,false,Add import.meta.resolve(),https://github.com/whatwg/html/pull/5572,2020-05-21T17:15:48Z,2022-06-20T16:40:59Z,domenic,addition/proposal|needs tests|topic: script,8
 622539203,true,Consider dropping unforgeable from window.location,https://github.com/whatwg/html/issues/5571,2020-05-21T14:32:00Z,2021-02-07T18:19:41Z,jonathanKingston,,1
 622015569,false,"Can ""disowned"" and ""opener browsing context"" be collapsed?",https://github.com/whatwg/html/issues/5569,2020-05-20T19:02:18Z,2020-05-21T05:09:46Z,domenic,clarification|topic: browsing context,0
 621705537,true,Allow sibling combinators for ::slotted elements,https://github.com/whatwg/html/issues/5568,2020-05-20T12:02:52Z,2020-05-20T12:35:50Z,GeorgeTailor,,0
