@@ -156,7 +156,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1208006942,false,"Rendering of ""bitmaprenderer""-backed canvas",https://github.com/whatwg/html/issues/7833,2022-04-19T08:51:04Z,2022-05-06T07:02:25Z,annevk,topic: canvas|agenda+,0
 1207220491,false,Specify back button history-entry skipping?,https://github.com/whatwg/html/issues/7832,2022-04-18T16:35:55Z,2022-04-21T17:56:21Z,domenic,topic: history|interop|topic: user activation,4
 1206401736,false,Proposal: extend FocusOptions to allow specifying `:focus-visible` behavior.,https://github.com/whatwg/html/issues/7830,2022-04-17T15:04:38Z,2022-04-20T07:19:52Z,emilio,addition/proposal|topic: focus|agenda+,4
-1206367534,false,replace current outline algorithm with one based on heading levels,https://github.com/whatwg/html/pull/7829,2022-04-17T12:53:42Z,2022-06-23T20:23:08Z,stevefaulkner,,54
+1206367534,false,replace current outline algorithm with one based on heading levels,https://github.com/whatwg/html/pull/7829,2022-04-17T12:53:42Z,2022-06-23T20:23:08Z,stevefaulkner,,56
 1206218912,true,Fix superseded Schema,https://github.com/whatwg/html/pull/7826,2022-04-16T21:21:39Z,2022-04-18T15:19:47Z,edent,,0
 1206214916,true,Obsolete schema.org in examples. OK to fix?,https://github.com/whatwg/html/issues/7825,2022-04-16T20:59:00Z,2022-04-19T12:54:55Z,edent,,0
 1206023411,true,Should Element.id spec reflect what browser actually implement,https://github.com/whatwg/html/issues/7824,2022-04-16T05:48:42Z,2022-04-24T15:41:38Z,greggman,document conformance,5
@@ -484,7 +484,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1044332145,true,BroadcastChannel: Ignore messages from detached iframes / closing workers,https://github.com/whatwg/html/pull/7296,2021-11-04T03:40:11Z,2022-01-16T10:37:15Z,recvfrom,normative change|topic: workers|topic: serialize and transfer|topic: document lifecycle,0
 1044074645,true,Export image request current URL,https://github.com/whatwg/html/pull/7295,2021-11-03T20:17:49Z,2021-11-05T14:25:06Z,npm1,,0
 1044070654,true,Editorial: use newer method/getter/setter styles,https://github.com/whatwg/html/pull/7294,2021-11-03T20:13:00Z,2021-11-04T14:19:50Z,domenic,editorial,0
-1043854147,false,<input type=password> should provide UI to show/hide its value,https://github.com/whatwg/html/issues/7293,2021-11-03T17:05:06Z,2022-02-03T21:28:56Z,MatsPalmgren,topic: forms,14
+1043854147,false,<input type=password> should provide UI to show/hide its value,https://github.com/whatwg/html/issues/7293,2021-11-03T17:05:06Z,2022-02-03T21:28:56Z,MatsPalmgren,topic: forms,15
 1043387524,false,Form restoration interop,https://github.com/whatwg/html/issues/7292,2021-11-03T10:49:33Z,2021-11-03T10:49:33Z,annevk,topic: forms|topic: history|interop,2
 1041684744,true,Handle shadow DOM and <dialog> focusing,https://github.com/whatwg/html/pull/7285,2021-11-01T22:06:31Z,2021-11-18T18:18:15Z,domenic,topic: shadow|topic: focus|topic: dialog,0
 1041677318,true,"Also fix delegatesFocus and autofocus=""""",https://github.com/whatwg/html/pull/7284,2021-11-01T21:57:50Z,2021-11-02T14:50:37Z,domenic,topic: shadow|topic: focus,0
@@ -2360,7 +2360,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 497040604,false,Define a policy container,https://github.com/whatwg/html/issues/4926,2019-09-23T11:28:43Z,2021-05-21T10:44:17Z,annevk,clarification|needs tests|interop|integration|topic: policy container,6
 496594293,false,Design questions about IDREF/Element attribute reflection,https://github.com/whatwg/html/issues/4925,2019-09-21T00:49:20Z,2020-09-17T00:43:56Z,alice,accessibility,0
 496188244,true,COEP mismatches in dedicated workers should block.,https://github.com/whatwg/html/issues/4924,2019-09-20T07:14:14Z,2020-04-20T09:12:18Z,mikewest,topic: cross-origin-embedder-policy,0
-495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2022-03-04T18:05:43Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,91
+495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2022-03-04T18:05:43Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,92
 495810632,false,Allow an extra dimension to the size array for 3D favicon,https://github.com/whatwg/html/issues/4922,2019-09-19T13:46:29Z,2021-01-28T22:05:11Z,rcabanier,addition/proposal|needs implementer interest|topic: link,0
 495595729,true,Decide how to treat CSP sandbox in COOP,https://github.com/whatwg/html/issues/4921,2019-09-19T06:18:06Z,2020-06-24T17:33:26Z,shhnjk,security/privacy|topic: cross-origin-opener-policy,0
 495587240,true,Consider restricting SharedArrayBuffer to same-origin usage,https://github.com/whatwg/html/issues/4920,2019-09-19T05:50:59Z,2019-12-05T15:38:02Z,annevk,addition/proposal|topic: serialize and transfer,0
