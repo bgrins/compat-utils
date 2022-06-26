@@ -1,9 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1284669173,false,Entities page is missing: w3.org/html5/html-author/charref,https://github.com/whatwg/html/issues/8039,2022-06-25T17:40:49Z,2022-06-25T17:40:49Z,inferno986return,,0
+1284669173,true,Entities page is missing: w3.org/html5/html-author/charref,https://github.com/whatwg/html/issues/8039,2022-06-25T17:40:49Z,2022-06-26T08:18:14Z,inferno986return,,0
 1283971947,false,"<link rel=""preconnect/preload""> for WebSocket (wss://)",https://github.com/whatwg/html/issues/8037,2022-06-24T16:56:59Z,2022-06-24T16:56:59Z,strelec,,0
 1283808531,false,Add cross-site ancestor flag to environment. (privacycg/storage-parti…,https://github.com/whatwg/html/pull/8036,2022-06-24T14:16:39Z,2022-06-24T14:18:28Z,wanderview,,0
 1283392898,false,`HTMLOptionElement` should have cloning steps,https://github.com/whatwg/html/issues/8035,2022-06-24T07:50:15Z,2022-06-24T13:44:14Z,alexpado,clarification|topic: forms,0
-1283190683,false,Should timers be ordered by scheduled time or by passed millis?,https://github.com/whatwg/html/issues/8034,2022-06-24T02:45:27Z,2022-06-24T02:51:28Z,Kaiido,interop|topic: timing,0
+1283190683,true,Should timers be ordered by scheduled time or by passed millis?,https://github.com/whatwg/html/issues/8034,2022-06-24T02:45:27Z,2022-06-26T11:26:06Z,Kaiido,interop|topic: timing,0
 1282742175,false,Blocking tab-under navigations?,https://github.com/whatwg/html/issues/8033,2022-06-23T17:43:53Z,2022-06-23T19:01:52Z,domenic,addition/proposal|topic: navigation,0
 1282588788,true,TABLE TD -> TD Looks Weird,https://github.com/whatwg/html/issues/8032,2022-06-23T15:28:04Z,2022-06-23T16:47:59Z,toptal126,,0
 1282345110,false,Improve support for refresh rate discovery and control,https://github.com/whatwg/html/issues/8031,2022-06-23T12:42:40Z,2022-06-24T19:56:45Z,juj,,0
@@ -3194,7 +3194,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 355722614,true,Allow document.open() to be called on non-active documents,https://github.com/whatwg/html/pull/3977,2018-08-30T19:28:21Z,2018-09-04T20:19:33Z,TimothyGu,interop|topic: document.open(),0
 355698290,true,"Provide open/close events (or equivalent) for dialog popups, such as <input type=file>",https://github.com/whatwg/html/issues/3976,2018-08-30T18:16:20Z,2021-07-28T12:59:30Z,ghost,addition/proposal|needs implementer interest|topic: media|topic: forms,0
 355657010,true,Unclear what exactly should be aborted in document.open(),https://github.com/whatwg/html/issues/3975,2018-08-30T16:14:21Z,2018-09-06T19:24:33Z,TimothyGu,topic: document.open()|topic: document lifecycle,0
-355449466,true,Please document how to use whatpr.org,https://github.com/whatwg/html/issues/3974,2018-08-30T06:58:04Z,2018-09-02T16:41:35Z,kenrussell,spec tooling,0
+355449466,true,Please document how to use whatpr.org,https://github.com/whatwg/html/issues/3974,2018-08-30T06:58:04Z,2022-06-26T06:56:26Z,kenrussell,spec tooling,0
 355434456,false,Parser: reset the insertion mode appropriately,https://github.com/whatwg/html/issues/3973,2018-08-30T05:53:33Z,2018-08-30T05:53:33Z,annevk,topic: parser,0
 355010859,false,add srcObject or some such to <img>,https://github.com/whatwg/html/issues/3972,2018-08-29T06:08:46Z,2018-11-16T13:56:52Z,Zhang-Junzhi,addition/proposal|topic: img,2
 354920670,true,"Add references to WebGL 2.0 (""webgl2"") context.",https://github.com/whatwg/html/pull/3971,2018-08-28T22:01:56Z,2018-08-30T21:45:26Z,kenrussell,topic: canvas,0
@@ -4381,7 +4381,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 233314545,false,[Parser] We can get rid of Decimal character reference start state in tokenizer,https://github.com/whatwg/html/issues/2733,2017-06-02T22:07:56Z,2021-12-20T15:55:56Z,inikulin,clarification|topic: parser,0
 233079366,true,"""The parser sets the Document to quirks mode in ...""",https://github.com/whatwg/html/issues/2732,2017-06-02T05:20:09Z,2017-06-21T10:32:47Z,zcorpan,clarification,0
 232909663,true,[Parser] Handle ambiguous ampersands of arbitrary length (closes #1257),https://github.com/whatwg/html/pull/2731,2017-06-01T15:02:29Z,2017-06-23T19:18:37Z,inikulin,topic: parser,0
-232886713,true,Remove <menuitem> and context menu specs,https://github.com/whatwg/html/issues/2730,2017-06-01T13:53:17Z,2022-04-29T06:57:11Z,domenic,removal/deprecation,32
+232886713,true,Remove <menuitem> and context menu specs,https://github.com/whatwg/html/issues/2730,2017-06-01T13:53:17Z,2022-04-29T06:57:11Z,domenic,removal/deprecation,34
 232807613,true,Default style for <legend>: 'padding',https://github.com/whatwg/html/issues/2729,2017-06-01T08:49:27Z,2018-08-15T21:05:45Z,zcorpan,topic: rendering|interop|topic: fieldset,0
 232790806,true,Editorial: Minor fixes to the parse error table,https://github.com/whatwg/html/pull/2728,2017-06-01T07:38:04Z,2017-06-08T14:55:31Z,zcorpan,topic: parser,0
 232779665,false,Default rendering of <hr>: 'color',https://github.com/whatwg/html/issues/2727,2017-06-01T06:40:03Z,2017-06-01T12:22:24Z,zcorpan,topic: rendering|interop,0
