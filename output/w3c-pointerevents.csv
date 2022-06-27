@@ -1,91 +1,30 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1284693958,true,Fix mistakes,https://github.com/w3c/pointerevents/pull/449,2022-06-25T19:29:28Z,2022-06-25T23:53:38Z,ivan-pan,,0
 1275037950,false,Should we add `ongotpointercapture` and `onlostpointercapture` to the mixin extension,https://github.com/w3c/pointerevents/issues/448,2022-06-17T13:32:58Z,2022-06-17T13:33:05Z,patrickhlauke,v3-blocking,0
-1275026782,true,Fix one incorrect reference to gotpointercapture,https://github.com/w3c/pointerevents/pull/447,2022-06-17T13:22:59Z,2022-06-17T13:25:53Z,patrickhlauke,,0
-1274992756,true,Add links on 'fire a pointer event' phrase,https://github.com/w3c/pointerevents/pull/446,2022-06-17T12:49:39Z,2022-06-17T12:58:41Z,dontcallmedom,,0
 1265931335,false,Meta-issue: update WPT to cover Pointer Events Level 3,https://github.com/w3c/pointerevents/issues/445,2022-06-09T10:34:37Z,2022-06-09T10:35:17Z,patrickhlauke,v3|v3-blocking,0
-1264550376,true,Use respec conventions to mark up events,https://github.com/w3c/pointerevents/pull/444,2022-06-08T10:45:28Z,2022-06-08T13:14:24Z,dontcallmedom,,0
-1256580372,true,Properties firing pointermove and pointerrawupdate,https://github.com/w3c/pointerevents/pull/443,2022-06-01T17:26:49Z,2022-06-08T15:18:32Z,mustaqahmed,,0
-1252613821,true,Fix links,https://github.com/w3c/pointerevents/pull/442,2022-05-30T11:39:00Z,2022-06-01T18:02:35Z,deniak,,0
-1251902819,true,Cleanup and respec fixes,https://github.com/w3c/pointerevents/pull/441,2022-05-29T14:22:27Z,2022-06-01T16:07:08Z,patrickhlauke,,0
-1232793532,true,Explain relation of coalesced events to parent event (#409),https://github.com/w3c/pointerevents/pull/440,2022-05-11T14:59:18Z,2022-05-25T15:07:41Z,flackr,,0
 1183409285,true,Moving an element to a different place in the DOM tree loses pointer lock and pointer capture,https://github.com/w3c/pointerevents/issues/439,2022-03-28T13:03:26Z,2022-03-28T15:17:38Z,guillaumebrunerie,,0
 1170053142,true,"Defining event orders through a ""state of the input device""",https://github.com/w3c/pointerevents/issues/438,2022-03-15T18:46:36Z,2022-05-25T15:22:09Z,mustaqahmed,v3,0
-1169955551,true,Define a section for suppressing a pointer event stream.,https://github.com/w3c/pointerevents/pull/437,2022-03-15T17:10:16Z,2022-03-16T16:49:51Z,mustaqahmed,,0
-1169652743,true,Clarify that coalesced events list contain also a clone of the parent event,https://github.com/w3c/pointerevents/pull/436,2022-03-15T13:08:30Z,2022-05-11T15:15:29Z,smaug----,,0
 1157432338,true,Clean up ReSpec errors,https://github.com/w3c/pointerevents/issues/435,2022-03-02T16:38:47Z,2022-06-01T16:07:03Z,patrickhlauke,editorial|v3,0
-1155987232,true,Expand bullet about when `pointercancel` fires,https://github.com/w3c/pointerevents/pull/434,2022-03-01T23:57:38Z,2022-03-02T16:37:11Z,patrickhlauke,editorial|v3,0
 1140407084,true,Pointerup and mouseup events stop firing when the click was started on top of another element on Chromium based browsers.,https://github.com/w3c/pointerevents/issues/433,2022-02-16T18:32:43Z,2022-02-16T20:24:59Z,ecations,,0
-1126604895,true,Move click event to correct place in the non-normative note for expected event sequence on non-hover devices,https://github.com/w3c/pointerevents/pull/432,2022-02-07T23:15:44Z,2022-02-07T23:17:54Z,patrickhlauke,,0
 1126375375,true,Inconsistent ordering of `pointerleave` events during touch interactions,https://github.com/w3c/pointerevents/issues/431,2022-02-07T19:00:16Z,2022-02-07T23:17:49Z,dfreedm,question|v3,0
-1108574007,true,Fix spelling of initialized,https://github.com/w3c/pointerevents/pull/430,2022-01-19T21:22:32Z,2022-02-01T16:56:58Z,caseymm,,0
-1108397856,true,"Split touch-action bullet into two separate bullets, clarify ancestors",https://github.com/w3c/pointerevents/pull/429,2022-01-19T17:59:42Z,2022-01-19T21:04:03Z,patrickhlauke,,0
-1107942282,true,The `contextmenu` event is no longer defined in the HTML spec,https://github.com/w3c/pointerevents/pull/428,2022-01-19T10:45:17Z,2022-01-19T11:00:21Z,andreubotella,,0
-1086907282,true,Specify event constructing steps when coalesced/predicted events are passed using the PointerEventInit,https://github.com/w3c/pointerevents/pull/427,2021-12-22T15:04:41Z,2022-01-05T16:47:58Z,smaug----,,0
-1086892097,true,Event constructor issue 223,https://github.com/w3c/pointerevents/pull/426,2021-12-22T14:47:50Z,2021-12-22T15:39:45Z,smaug----,,0
-1075875270,true,Add labels to axes in `altitudeAngle`/`azimuthAngle` diagrams,https://github.com/w3c/pointerevents/pull/425,2021-12-09T18:29:43Z,2021-12-09T18:29:54Z,patrickhlauke,,0
-1074651993,true,Reword `altitudeAngle` note,https://github.com/w3c/pointerevents/pull/424,2021-12-08T17:30:27Z,2021-12-22T16:06:52Z,patrickhlauke,,0
-1072604411,true,Improve illustrations,https://github.com/w3c/pointerevents/pull/423,2021-12-06T20:57:39Z,2021-12-08T17:44:03Z,patrickhlauke,,0
-1071913802,true,"Reword altitudeAngle note, expand tiltX and tiltY explanation",https://github.com/w3c/pointerevents/pull/422,2021-12-06T09:20:08Z,2021-12-07T09:37:29Z,patrickhlauke,,0
-1071448173,true,Update tiltX/tiltY illustrations,https://github.com/w3c/pointerevents/pull/421,2021-12-05T12:33:39Z,2021-12-05T12:51:12Z,patrickhlauke,,1
 1039046924,false,Why is 'touch-events: pan' not a value?,https://github.com/w3c/pointerevents/issues/420,2021-10-29T00:07:57Z,2021-11-10T16:15:16Z,fantasai,future,0
-1037491674,true,Remove should from boundary events note and move to normative must.,https://github.com/w3c/pointerevents/pull/419,2021-10-27T14:26:15Z,2021-12-06T10:07:00Z,flackr,,0
-1025740242,true,Make fact that click/contextmenu are not compat mouse events normative,https://github.com/w3c/pointerevents/pull/418,2021-10-13T22:12:40Z,2021-10-20T09:17:09Z,patrickhlauke,,0
-1025726929,true,Remove redundant (and now wrong) note about active pointer id,https://github.com/w3c/pointerevents/pull/417,2021-10-13T21:50:56Z,2021-10-13T21:52:31Z,patrickhlauke,,0
-1010127857,true,"Reword legacy properties note to remove the ""must""",https://github.com/w3c/pointerevents/pull/416,2021-09-28T19:30:21Z,2021-09-29T15:55:29Z,patrickhlauke,,0
-1010113324,true,Remove may/should from note about complex gestures,https://github.com/w3c/pointerevents/pull/415,2021-09-28T19:12:41Z,2021-09-29T15:50:47Z,patrickhlauke,,0
-995180722,true,Make note about buttons/buttons and compat events normative,https://github.com/w3c/pointerevents/pull/414,2021-09-13T18:09:37Z,2021-09-30T23:22:55Z,patrickhlauke,,0
-995178563,true,Make note about UAs not firing compat events if they support touch events normative,https://github.com/w3c/pointerevents/pull/413,2021-09-13T18:07:19Z,2021-09-30T23:21:03Z,patrickhlauke,,0
-995177809,true,Move first part of the note about dispatched event order into normative text,https://github.com/w3c/pointerevents/pull/412,2021-09-13T18:06:34Z,2021-09-30T23:11:23Z,patrickhlauke,,0
-995168148,true,Move elements of `pointerId` informative note to normative text,https://github.com/w3c/pointerevents/pull/411,2021-09-13T17:56:17Z,2021-10-13T15:29:51Z,patrickhlauke,,0
-995156358,true,"Make ""Converting..."" section normative",https://github.com/w3c/pointerevents/pull/410,2021-09-13T17:41:06Z,2021-09-29T15:10:37Z,patrickhlauke,,0
 989935198,true,Relationship between main pointer event and coalesced events,https://github.com/w3c/pointerevents/issues/409,2021-09-07T12:32:58Z,2022-05-25T15:07:41Z,jakearchibald,v3,0
 980136989,true,Should triggering the contextmenu with the mouse cause a pointercancel?,https://github.com/w3c/pointerevents/issues/408,2021-08-26T11:29:17Z,2022-03-02T16:05:53Z,jakearchibald,v3,0
 980120805,true,Lost pointer issue - spec or browser bug?,https://github.com/w3c/pointerevents/issues/407,2021-08-26T11:10:50Z,2022-03-02T16:05:53Z,jakearchibald,v3,1
-961788157,true,Move definition point for PointerEvent,https://github.com/w3c/pointerevents/pull/406,2021-08-05T12:45:42Z,2021-08-08T09:38:05Z,patrickhlauke,editorial|v3,0
 961009686,true,Notes with normative (SHOULD/MUST) statements,https://github.com/w3c/pointerevents/issues/405,2021-08-04T20:35:15Z,2021-12-06T10:07:23Z,patrickhlauke,v3,0
-960381697,true,"Add note about rounding coordinates for click, auxclick, contextmenu",https://github.com/w3c/pointerevents/pull/404,2021-08-04T12:38:28Z,2021-09-01T15:12:45Z,patrickhlauke,,0
-959590191,true,Expand prose about preventing compatibility mouse events and make it normative,https://github.com/w3c/pointerevents/pull/403,2021-08-03T22:48:26Z,2021-08-18T15:07:51Z,patrickhlauke,,0
-959249393,true,"Change instances of ""a user agent"" to ""the user agent""",https://github.com/w3c/pointerevents/pull/402,2021-08-03T15:42:07Z,2021-08-03T22:17:22Z,patrickhlauke,editorial,0
-959218010,true,"Internal references cleanup, adding () to methods",https://github.com/w3c/pointerevents/pull/401,2021-08-03T15:09:26Z,2021-08-03T15:12:19Z,patrickhlauke,,0
 959204390,true,Clarify which steps constitute canceling a pointer,https://github.com/w3c/pointerevents/issues/400,2021-08-03T14:56:11Z,2022-03-16T16:49:51Z,mustaqahmed,v3,0
 956944091,true,"""A user agent"" vs ""the user agent""",https://github.com/w3c/pointerevents/issues/399,2021-07-30T17:35:49Z,2021-08-03T22:17:18Z,mustaqahmed,editorial,0
-956926372,true,Clarify `pointercancel` firing behavior on drag.,https://github.com/w3c/pointerevents/pull/398,2021-07-30T17:06:04Z,2021-08-03T14:16:01Z,mustaqahmed,,0
-949726065,true,Remove note about movementX/movementY and coalesced events,https://github.com/w3c/pointerevents/pull/397,2021-07-21T13:46:59Z,2021-07-21T15:43:16Z,patrickhlauke,,0
-939379585,true,Normalize title case used,https://github.com/w3c/pointerevents/pull/396,2021-07-08T01:16:41Z,2021-07-08T15:38:23Z,patrickhlauke,,0
-939358201,true,Tweaks to coalesced/predicted events section,https://github.com/w3c/pointerevents/pull/395,2021-07-08T00:24:30Z,2021-07-21T15:51:27Z,patrickhlauke,,0
-939331674,true,"Change ""event list"" to ""events list""",https://github.com/w3c/pointerevents/pull/394,2021-07-07T23:17:03Z,2021-07-08T10:30:52Z,patrickhlauke,,0
-939135971,true,Tweak definition of predicted events to deal with untrusted events,https://github.com/w3c/pointerevents/pull/393,2021-07-07T18:06:39Z,2021-07-07T18:27:23Z,patrickhlauke,,0
 939022005,true,Update predicted event list definition to handle trusted vs untrusted events,https://github.com/w3c/pointerevents/issues/392,2021-07-07T15:39:14Z,2021-07-07T18:27:20Z,smaug----,,0
-938815839,true,Tweak the definition of coalesced event list to deal with untrusted e…,https://github.com/w3c/pointerevents/pull/391,2021-07-07T12:00:01Z,2021-07-07T15:35:40Z,smaug----,,0
-938110366,true,Update targets of predicted and coalesced events when trusted event target changes.,https://github.com/w3c/pointerevents/pull/390,2021-07-06T17:26:29Z,2021-07-07T15:11:33Z,flackr,,0
-928514634,true,More minor tweaks,https://github.com/w3c/pointerevents/pull/389,2021-06-23T18:04:30Z,2021-06-23T18:42:00Z,plehegar,editorial,1
-928447319,true,Remove mention of animation frame callback,https://github.com/w3c/pointerevents/pull/388,2021-06-23T16:37:08Z,2021-06-30T19:20:30Z,patrickhlauke,,0
 924520052,true,"`touch-action: none` behavior is intuitive in Firefox, confusing in Chrome. The spec should be clearer.",https://github.com/w3c/pointerevents/issues/387,2021-06-18T04:05:28Z,2022-01-06T06:19:37Z,trusktr,,1
-917650235,true,task queue is not reliable HTML concept. Use event loop instead,https://github.com/w3c/pointerevents/pull/386,2021-06-10T18:04:57Z,2021-06-23T15:21:32Z,plehegar,v3,0
 917635686,true,HTML monkeypatching: animation frame callbacks,https://github.com/w3c/pointerevents/issues/385,2021-06-10T17:52:24Z,2021-06-30T19:20:26Z,plehegar,enhancement|v3,0
 917631166,true,HTML monkeypatching: initiate the drag-and-drop operation definition,https://github.com/w3c/pointerevents/issues/384,2021-06-10T17:48:16Z,2021-08-03T14:16:00Z,plehegar,editorial|v3,0
-909970151,true,Explicit note about pointerrawmove having an empty predicted event list,https://github.com/w3c/pointerevents/pull/383,2021-06-02T23:55:44Z,2021-06-10T09:11:36Z,patrickhlauke,v3,0
-909579167,true,Expand the definition/explanation of predicted events timestamps,https://github.com/w3c/pointerevents/pull/382,2021-06-02T14:42:45Z,2021-06-10T08:54:20Z,patrickhlauke,editorial|v3,0
-903812634,true,Refreshing references using latest respec magic,https://github.com/w3c/pointerevents/pull/381,2021-05-27T14:06:23Z,2021-06-10T16:53:37Z,plehegar,editorial,0
 899083597,true,do `pointerrawupdate` events also get predicted events?,https://github.com/w3c/pointerevents/issues/380,2021-05-23T18:50:15Z,2021-06-10T09:11:31Z,patrickhlauke,v3,0
-899081205,true,Expand explanation for non-coalesced events,https://github.com/w3c/pointerevents/pull/379,2021-05-23T18:36:47Z,2021-07-07T17:53:50Z,patrickhlauke,v3,0
-892744000,true,Add figures for altitudeAngle and azimuthAngle,https://github.com/w3c/pointerevents/pull/378,2021-05-16T19:40:16Z,2021-05-19T00:09:47Z,patrickhlauke,v3,0
-892529022,true,Simplify/clarify coalesced and predicted events,https://github.com/w3c/pointerevents/pull/377,2021-05-15T20:10:46Z,2021-07-08T14:44:03Z,patrickhlauke,v3,0
-892422516,true,Clarify the rationale and purpose of touch-action,https://github.com/w3c/pointerevents/pull/376,2021-05-15T11:50:24Z,2021-05-22T16:06:36Z,patrickhlauke,v3,0
 890600561,true,Do user agents only coalesce pointermove events relating to changes in position?,https://github.com/w3c/pointerevents/issues/375,2021-05-13T00:51:52Z,2021-07-07T17:53:47Z,patrickhlauke,v3,0
 890588531,true,Unclear note about PointerEvent initialization of attributes to reflect coalesced events,https://github.com/w3c/pointerevents/issues/374,2021-05-13T00:27:55Z,2021-07-21T15:43:09Z,patrickhlauke,v3,0
 882573551,true,Clarify whether touch contact must fire a `pointerrawupdate` event,https://github.com/w3c/pointerevents/issues/373,2021-05-09T17:25:13Z,2021-07-07T15:47:20Z,yacinehmito,v3,0
-873458576,true,Update WCAG keyboard reference to latest spec version,https://github.com/w3c/pointerevents/pull/372,2021-04-30T23:21:30Z,2021-05-03T19:52:31Z,patrickhlauke,editorial|v3,0
-873455992,true,Move Navid Zoghadr to former editors,https://github.com/w3c/pointerevents/pull/371,2021-04-30T23:13:02Z,2021-05-03T19:16:18Z,patrickhlauke,editorial|v3,0
 869317724,true,"Clarify the coalesced/predicted targets dirty stuff, and clarify better how these events are generated/populated and when",https://github.com/w3c/pointerevents/issues/370,2021-04-27T22:32:31Z,2021-07-08T00:22:29Z,patrickhlauke,v3,0
 865117896,true,"Add note explicitly about mouse compat events, preventDefault, and passive events",https://github.com/w3c/pointerevents/issues/369,2021-04-22T15:58:07Z,2021-08-18T15:07:36Z,patrickhlauke,v3,0
 864407068,true,disambiguate default *action* and default *behavior* in prose,https://github.com/w3c/pointerevents/issues/368,2021-04-22T00:23:10Z,2021-05-22T16:06:25Z,patrickhlauke,editorial|v3,0
-863291990,true,Update readme,https://github.com/w3c/pointerevents/pull/367,2021-04-20T22:29:58Z,2021-04-20T23:22:21Z,patrickhlauke,v3,0
 860700671,true,Clarify/expand introduction to the touch-action section,https://github.com/w3c/pointerevents/issues/366,2021-04-18T16:08:29Z,2021-05-22T16:06:25Z,patrickhlauke,editorial|v3,0
-860652840,true,Improve legibility/style of pointerrawupdate section,https://github.com/w3c/pointerevents/pull/365,2021-04-18T12:29:17Z,2021-04-20T22:01:41Z,patrickhlauke,editorial|v3,0
-860543001,true,Add new section explaining coalesced and predicted events,https://github.com/w3c/pointerevents/pull/364,2021-04-18T00:29:31Z,2021-05-13T00:43:23Z,patrickhlauke,editorial|v3,0
-860497663,true,Move glossary to the end of the spec,https://github.com/w3c/pointerevents/pull/363,2021-04-17T19:28:27Z,2021-04-21T10:38:47Z,patrickhlauke,editorial|v3,0
 860495175,true,Move glossary to the end of the spec,https://github.com/w3c/pointerevents/issues/362,2021-04-17T19:14:49Z,2021-04-21T10:38:44Z,patrickhlauke,v3,1
 859718228,true,Add section explaining what coalesced and predicted events actually *are* in layperson's terms,https://github.com/w3c/pointerevents/issues/361,2021-04-16T11:14:10Z,2021-05-13T00:43:12Z,patrickhlauke,v3,0
 858311203,true,Clarify that pointer event listeners are passive by default,https://github.com/w3c/pointerevents/issues/360,2021-04-14T22:26:56Z,2021-04-22T17:02:32Z,patrickhlauke,v3,0
@@ -94,130 +33,50 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 846922562,false,Clarify what the target of the click event should be after capturing pointer events,https://github.com/w3c/pointerevents/issues/356,2021-03-31T16:16:30Z,2022-04-29T15:50:42Z,smaug----,v3,0
 846823656,true,"Order of pointer events across frames when using pointer capture ",https://github.com/w3c/pointerevents/issues/355,2021-03-31T15:00:57Z,2022-01-19T17:02:53Z,liviutinta,v3,0
 849820902,false,touch-action: disable webview swipe back behavior,https://github.com/w3c/pointerevents/issues/358,2021-03-30T13:59:06Z,2021-05-28T13:52:11Z,liamdebeasi,enhancement|future,14
-828178689,true,gotpointercapture/lostpointercapture might never fire,https://github.com/w3c/pointerevents/pull/354,2021-03-10T18:40:53Z,2021-03-12T00:17:04Z,liviutinta,,0
 819611060,false,Multi-pen support and persistent pointerId,https://github.com/w3c/pointerevents/issues/353,2021-03-02T04:48:16Z,2021-08-17T19:39:15Z,scottlow,future,0
-810901059,true,"Update acknowledgements, revision list, small typo, cleanup",https://github.com/w3c/pointerevents/pull/352,2021-02-18T09:02:05Z,2021-02-18T15:03:21Z,patrickhlauke,,0
-809444273,true,Add a SHOULD clause about pan gestures and what happens if a gesture …,https://github.com/w3c/pointerevents/pull/351,2021-02-16T16:11:13Z,2021-02-19T17:56:20Z,patrickhlauke,,0
-809339071,true,"Major refactoring: refer to ""direct manipulation"" rather than ""touch""",https://github.com/w3c/pointerevents/pull/350,2021-02-16T14:02:54Z,2021-05-12T15:59:48Z,patrickhlauke,v3,0
-809269806,true,Reword/expand touch-action definition,https://github.com/w3c/pointerevents/pull/349,2021-02-16T12:28:36Z,2021-04-07T21:12:47Z,patrickhlauke,,0
-809241195,true,Add more info to note about click/contextmenu and user agent heuristics,https://github.com/w3c/pointerevents/pull/348,2021-02-16T11:45:07Z,2021-02-16T12:47:59Z,patrickhlauke,,0
-787587418,true,Reword note about primary/non-primary pointers,https://github.com/w3c/pointerevents/pull/347,2021-01-17T01:00:54Z,2021-01-18T00:25:11Z,patrickhlauke,,0
 784444415,true,Should pointerover and pointerenter work on mobile?,https://github.com/w3c/pointerevents/issues/346,2021-01-12T17:40:48Z,2022-06-02T17:04:50Z,trusktr,,0
-784409674,true,Change reserved pointerId for non-pointer events from 0 to -1,https://github.com/w3c/pointerevents/pull/345,2021-01-12T16:52:48Z,2021-01-12T17:42:02Z,patrickhlauke,,0
 782717341,true,event.movementX is always zero in pointerup event.,https://github.com/w3c/pointerevents/issues/344,2021-01-10T01:05:14Z,2021-01-10T01:44:36Z,trusktr,,0
 769109541,true,Reserved pointerIds for special cases,https://github.com/w3c/pointerevents/issues/343,2020-12-16T17:06:12Z,2021-01-12T18:42:26Z,mustaqahmed,,0
 769084965,true,"""The pointerId value of zero is reserved to indicate events that were generated by something other than a pointing device."" is backwards incompatible change",https://github.com/w3c/pointerevents/issues/342,2020-12-16T16:41:57Z,2020-12-18T11:34:28Z,smaug----,,0
-765742853,true,Typo,https://github.com/w3c/pointerevents/pull/341,2020-12-14T00:59:55Z,2020-12-14T14:22:10Z,patrickhlauke,,0
-748706867,true,Typos,https://github.com/w3c/pointerevents/pull/340,2020-11-23T11:10:34Z,2020-11-26T14:59:24Z,patrickhlauke,,0
 745921724,false,Proposal: a way of tracking pointer position on pan/zoom touch-action,https://github.com/w3c/pointerevents/issues/339,2020-11-18T18:55:11Z,2021-05-12T15:03:51Z,samuelmtimbo,future,1
 719348609,true,How pointer capture should behave on draggable element?,https://github.com/w3c/pointerevents/issues/338,2020-10-12T12:41:02Z,2020-10-12T22:57:04Z,EdgarChen,,0
-713052102,true,Re-enable automatic publishing,https://github.com/w3c/pointerevents/pull/337,2020-10-01T17:40:57Z,2021-01-12T18:44:08Z,plehegar,,0
-712656946,true,Editorial: remove bad dfn overrides,https://github.com/w3c/pointerevents/pull/336,2020-10-01T09:15:53Z,2020-10-07T06:24:00Z,marcoscaceres,,2
-712131115,true,Simplified config for group,https://github.com/w3c/pointerevents/pull/335,2020-09-30T17:20:11Z,2020-09-30T17:21:32Z,plehegar,,0
-711997821,true,Add note about touch-action and iframe/embedded browsing contexts,https://github.com/w3c/pointerevents/pull/334,2020-09-30T14:28:10Z,2020-09-30T16:20:40Z,patrickhlauke,,0
 711170103,true,Please don't <dfn> Element,https://github.com/w3c/pointerevents/issues/333,2020-09-29T14:31:07Z,2020-10-01T13:50:07Z,annevk,,0
-702781507,true,"Fixed MDN config, per https://github.com/w3c/respec/wiki/mdn",https://github.com/w3c/pointerevents/pull/332,2020-09-16T13:47:17Z,2021-01-12T18:43:35Z,plehegar,admin,0
-702774207,true,Config for ECHIDNA and travis,https://github.com/w3c/pointerevents/pull/331,2020-09-16T13:38:27Z,2021-01-12T18:42:47Z,plehegar,admin,0
-702029499,true,Use defer and make sure to point to patent policy 2020,https://github.com/w3c/pointerevents/pull/330,2020-09-15T15:24:09Z,2020-09-16T13:39:27Z,plehegar,admin,0
-681178577,true,Editorial: Align with Web IDL specification,https://github.com/w3c/pointerevents/pull/329,2020-08-18T16:33:44Z,2020-08-18T17:16:12Z,autokagami,,0
 677989341,true,Specify exactly how event coalescing works,https://github.com/w3c/pointerevents/issues/328,2020-08-12T21:26:24Z,2021-04-16T19:42:18Z,smfr,question|v3,0
 677195559,true,"Release Implicit Capture, Capture at Ancestor Element",https://github.com/w3c/pointerevents/issues/327,2020-08-11T21:03:06Z,2022-05-25T23:43:03Z,msalsbery,question,0
-656201750,true,Change PHL company affiliation,https://github.com/w3c/pointerevents/pull/326,2020-07-13T22:54:25Z,2020-07-13T23:41:27Z,patrickhlauke,,0
 649065638,true,The behavior of `touch-action: none` on <iframe> is unclear,https://github.com/w3c/pointerevents/issues/325,2020-07-01T15:17:54Z,2020-09-30T15:33:04Z,graouts,question|v3,0
-648334694,true,Fix tilt to sperical calculation.,https://github.com/w3c/pointerevents/pull/324,2020-06-30T16:52:48Z,2020-07-13T22:41:50Z,mustaqahmed,,0
-626635155,true,Update azimuth/altitude/tiltX/tiltY to not require default values in pointer events web idl,https://github.com/w3c/pointerevents/pull/323,2020-05-28T16:11:52Z,2020-07-14T19:08:43Z,liviutinta,,0
-624506814,true,Translate between tiltX/tiltY and azimuth/altitude. Fixes #321,https://github.com/w3c/pointerevents/pull/322,2020-05-25T22:28:34Z,2020-07-20T16:01:29Z,liviutinta,,0
 609159517,true,It is not possible to generate one set of angle values from other set,https://github.com/w3c/pointerevents/issues/321,2020-04-29T15:42:41Z,2020-07-14T18:16:55Z,NavidZ,v3,0
 606491124,true,should altitudeAngle default to 0 or pi/2 when not supported?,https://github.com/w3c/pointerevents/issues/320,2020-04-24T18:05:06Z,2020-07-14T17:30:51Z,patrickhlauke,,0
 599872420,true,touch-action:none and overflow:auto,https://github.com/w3c/pointerevents/issues/319,2020-04-14T21:31:58Z,2022-01-19T21:03:56Z,liviutinta,v3,0
-584592164,true,Add secure context criteria to pointerrawupdate and getCoalescedEvents,https://github.com/w3c/pointerevents/pull/318,2020-03-19T17:51:57Z,2021-01-12T18:45:00Z,NavidZ,,0
-578079100,true,"Change the type of click, auxclick, and contextmenu to PointerEvent",https://github.com/w3c/pointerevents/pull/317,2020-03-09T17:42:17Z,2020-12-16T16:43:42Z,NavidZ,,0
-566303368,true,add altitudeAngle/azimuthAngle,https://github.com/w3c/pointerevents/pull/316,2020-02-17T13:35:15Z,2020-04-24T18:05:20Z,patrickhlauke,,0
-560585758,true,Various README updates,https://github.com/w3c/pointerevents/pull/315,2020-02-05T19:38:02Z,2020-02-05T22:00:37Z,plehegar,,0
-536333130,true,editorial: Avoid duplicate example_6,https://github.com/w3c/pointerevents/pull/314,2019-12-11T12:16:21Z,2019-12-11T12:20:41Z,plehegar,editorial|v3,0
-530606875,true,Prevent the [[CSSOM-VIEW]] reference from pulling its internal references,https://github.com/w3c/pointerevents/pull/313,2019-11-30T17:26:37Z,2019-12-01T09:03:20Z,plehegar,editorial,0
 528386890,true,CfC: Publication of PE3 as FPWD (ends 5 Dec 2019),https://github.com/w3c/pointerevents/issues/312,2019-11-25T23:00:24Z,2019-12-11T09:30:52Z,patrickhlauke,,0
 528379617,true,ReSpec error caused by MouseEventInit,https://github.com/w3c/pointerevents/issues/311,2019-11-25T22:41:15Z,2019-11-30T21:16:13Z,patrickhlauke,editorial,0
-521166713,true,Remove extension doc,https://github.com/w3c/pointerevents/pull/310,2019-11-11T20:20:12Z,2019-11-11T20:36:47Z,NavidZ,,0
-521155765,true,Add revision history up until now,https://github.com/w3c/pointerevents/pull/309,2019-11-11T19:55:24Z,2019-11-11T20:14:18Z,NavidZ,,0
-514213935,true,"Some slight rewording, for clarity",https://github.com/w3c/pointerevents/pull/308,2019-10-29T20:48:25Z,2019-11-25T22:00:36Z,patrickhlauke,,0
-514081538,true,Add getPredictedEvents API,https://github.com/w3c/pointerevents/pull/307,2019-10-29T17:09:04Z,2019-11-11T17:14:25Z,NavidZ,,0
-507446153,true,Introduce getCoalescedEvents API and pointerrawupdate event,https://github.com/w3c/pointerevents/pull/306,2019-10-15T19:47:03Z,2019-10-24T16:58:00Z,NavidZ,,0
-506881228,true,fixing typo in Example 3,https://github.com/w3c/pointerevents/pull/305,2019-10-14T21:22:56Z,2019-11-25T22:00:34Z,gked,,0
-493828410,true,Editorial: fix some ReSpec issues,https://github.com/w3c/pointerevents/pull/304,2019-09-16T03:15:37Z,2019-09-16T07:33:23Z,marcoscaceres,,1
 487480263,true,touch-action and scrolling directional lock,https://github.com/w3c/pointerevents/issues/303,2019-08-30T13:20:16Z,2021-02-19T17:05:04Z,graouts,v3,2
-487037110,true,Move Rick Byers to former editors,https://github.com/w3c/pointerevents/pull/302,2019-08-29T15:41:17Z,2019-09-02T00:01:58Z,patrickhlauke,,0
 486827854,true,Update to constructor operations,https://github.com/w3c/pointerevents/issues/301,2019-08-29T08:57:00Z,2019-09-16T07:33:22Z,Ms2ger,,0
-484642655,true,Define active document for the active pointers,https://github.com/w3c/pointerevents/pull/300,2019-08-23T17:48:55Z,2019-11-25T22:00:41Z,NavidZ,,0
 484345998,true,Suggestion. pointer-events: disabled,https://github.com/w3c/pointerevents/issues/299,2019-08-23T06:02:38Z,2019-08-23T08:25:27Z,ExtAnimal,,0
-484309659,true,Add dictionary default value,https://github.com/w3c/pointerevents/pull/298,2019-08-23T03:20:33Z,2019-08-23T09:33:26Z,saschanaz,,0
-484078714,true,Set correct references for PE V3,https://github.com/w3c/pointerevents/pull/297,2019-08-22T15:51:25Z,2019-08-29T15:38:38Z,NavidZ,,0
 483843177,true,Update spec to new IDL syntax for optional dictionaries,https://github.com/w3c/pointerevents/issues/296,2019-08-22T08:25:20Z,2020-07-15T07:42:49Z,Ms2ger,v3,0
 483085212,true,Set touch-action to allow web pages opt out Android back gesture,https://github.com/w3c/pointerevents/issues/295,2019-08-20T21:11:40Z,2020-11-11T08:06:41Z,LanWei22,,0
-477517283,true,Add single-directional touch action values,https://github.com/w3c/pointerevents/pull/294,2019-08-06T17:59:14Z,2019-08-30T14:10:46Z,NavidZ,,0
-476291865,true,Amend the note in pointercancel prevention,https://github.com/w3c/pointerevents/pull/293,2019-08-02T17:53:37Z,2019-08-02T19:58:03Z,NavidZ,,0
 467152801,true,Expand note about `click` / `contextmenu`,https://github.com/w3c/pointerevents/issues/292,2019-07-11T23:35:41Z,2021-02-16T12:47:55Z,patrickhlauke,v3,0
 461349337,true,Setting pointer capture on an element in a parent frame when the pointer was made active in a child frame,https://github.com/w3c/pointerevents/issues/291,2019-06-27T06:51:50Z,2019-11-04T21:40:04Z,graouts,,0
 460695580,true,Pen Button Events,https://github.com/w3c/pointerevents/issues/290,2019-06-25T23:49:29Z,2019-07-03T01:17:07Z,gked,,0
-460409988,true,Update webkit status in README file,https://github.com/w3c/pointerevents/pull/289,2019-06-25T12:59:54Z,2019-06-25T13:38:05Z,NavidZ,,0
 459960571,true,Update the WebKit status in README.md,https://github.com/w3c/pointerevents/issues/288,2019-06-24T15:34:19Z,2019-06-25T13:38:05Z,graouts,,0
-458817332,true,Add an explainer for the extension document,https://github.com/w3c/pointerevents/pull/287,2019-06-20T18:54:15Z,2019-06-24T17:38:35Z,NavidZ,,0
 455023849,true,Security & privacy considerations,https://github.com/w3c/pointerevents/issues/286,2019-06-12T05:53:40Z,2019-11-25T22:04:54Z,lknik,,0
 452034688,false,"Changing the DOM hierarchy while handling a ""pointerenter"" event produces significantly different results across browsers",https://github.com/w3c/pointerevents/issues/285,2019-06-04T14:36:11Z,2021-11-10T16:45:10Z,graouts,question|future,0
 448580742,true,Should pointer events and compatibility mouse events have the same timestamp?,https://github.com/w3c/pointerevents/issues/284,2019-05-26T15:55:22Z,2019-05-28T16:11:58Z,graouts,,0
 447324194,true,pointerenter vs. pointerleave dispatch sequence,https://github.com/w3c/pointerevents/issues/283,2019-05-22T20:18:23Z,2019-05-29T08:17:57Z,graouts,,0
 444135993,true,It is unclear how predicted events' timestamps should relate to actual dispatched events,https://github.com/w3c/pointerevents/issues/282,2019-05-14T21:35:01Z,2021-06-10T08:54:16Z,smaug----,question|v3,0
-442851929,true,Add better intro to the extension doc,https://github.com/w3c/pointerevents/pull/281,2019-05-10T18:54:35Z,2019-05-13T17:42:49Z,NavidZ,,0
-437388054,true,"Clarify coalesce events and predicted event's target ",https://github.com/w3c/pointerevents/pull/280,2019-04-25T20:40:30Z,2019-06-20T17:34:04Z,EiraGe,,0
 414256219,true,Dispatch of pointerover+pointerenter and pointerout+pointerleave in relation to related mouse events is not clearly specified,https://github.com/w3c/pointerevents/issues/279,2019-02-25T18:59:59Z,2019-05-07T14:19:36Z,graouts,,0
 413519569,true,Immediately firing coalesced events for enter/leave/over/out?,https://github.com/w3c/pointerevents/issues/278,2019-02-22T18:14:40Z,2021-07-07T15:50:33Z,ChumpChief,v3,0
 413030663,true,Limit pointerrawupdate and getCoalescedEvents API to secure origins,https://github.com/w3c/pointerevents/issues/277,2019-02-21T17:06:36Z,2020-04-18T14:50:27Z,NavidZ,v3,0
 410809535,true,`touch-action: none` definition is too vague,https://github.com/w3c/pointerevents/issues/276,2019-02-15T15:05:59Z,2021-06-18T04:05:39Z,graouts,enhancement|v3,0
-408705022,true,Use GlobalEventHandlers as a mixin,https://github.com/w3c/pointerevents/pull/275,2019-02-11T09:59:16Z,2019-02-15T12:21:35Z,foolip,,0
 404019438,true,tiltX and tiltY aren't as helpful as just having altitude angle,https://github.com/w3c/pointerevents/issues/274,2019-01-28T21:41:03Z,2020-07-29T00:27:16Z,grorg,v3,0
-396247839,true,Fix ReSpec warnings,https://github.com/w3c/pointerevents/pull/273,2019-01-06T10:55:57Z,2019-01-07T15:41:47Z,saschanaz,,0
 385357865,false,"Add logical dimension values for touch-action property, since logical is/has shipped",https://github.com/w3c/pointerevents/issues/272,2018-11-28T16:42:20Z,2021-03-30T23:28:05Z,jonjohnjohnson,future,0
 384986319,true,ReSpec complains about normative references in informative sections,https://github.com/w3c/pointerevents/issues/271,2018-11-27T21:08:05Z,2018-11-28T09:23:50Z,patrickhlauke,bug|v2-blocking,0
-384944811,true,Pointer Capture is normative. Fix #269,https://github.com/w3c/pointerevents/pull/270,2018-11-27T19:12:55Z,2018-11-27T21:08:56Z,plehegar,bug|v2-blocking,0
 373965498,true,Pointer Capture section marked as non-normative,https://github.com/w3c/pointerevents/issues/269,2018-10-25T14:06:15Z,2018-11-27T21:08:49Z,patrickhlauke,bug|v2-blocking,0
-373870981,true,Initial draft charter for PE3,https://github.com/w3c/pointerevents/pull/268,2018-10-25T10:07:39Z,2018-10-25T10:07:56Z,patrickhlauke,,0
-365959727,true,Use connected keyword instead of removing a node,https://github.com/w3c/pointerevents/pull/267,2018-10-02T15:41:17Z,2018-10-02T22:28:22Z,NavidZ,,0
-361036096,true,Change DOMException from InvalidPointerId to NotFoundError,https://github.com/w3c/pointerevents/pull/266,2018-09-17T20:43:12Z,2018-09-18T10:26:34Z,patrickhlauke,,0
-358792098,true,Editorial: Add `<dfn>` to `touch-action` definition,https://github.com/w3c/pointerevents/pull/265,2018-09-10T20:58:25Z,2018-09-10T20:58:33Z,patrickhlauke,,0
-357958163,true,"Fix respec errors, minor editorial changes ""for devices""/""for hardware"", add Navid Zolghadr as co-editor",https://github.com/w3c/pointerevents/pull/264,2018-09-07T07:52:12Z,2018-09-07T07:56:07Z,patrickhlauke,,0
 357679642,true,Remove myself as editor and add NavidZ?,https://github.com/w3c/pointerevents/issues/263,2018-09-06T14:24:43Z,2018-09-07T14:13:36Z,RByers,,0
-353360815,true,Add informative note about tangential pressure and Windows,https://github.com/w3c/pointerevents/pull/262,2018-08-23T12:36:28Z,2018-08-29T14:25:57Z,patrickhlauke,,0
-353037231,true,pointerenter and pointerleave should not be composed,https://github.com/w3c/pointerevents/pull/261,2018-08-22T16:45:48Z,2018-08-23T12:44:20Z,smaug----,,0
-338335785,true,Introduce pointerrawupdate to address the high frequency usecases,https://github.com/w3c/pointerevents/pull/260,2018-07-04T16:45:07Z,2019-04-15T20:12:28Z,NavidZ,v3,0
 337640277,true,"""When the pointer capture target override is removed from its ownerDocument's tree"" should talk about target not being connected anymore",https://github.com/w3c/pointerevents/issues/259,2018-07-02T19:46:50Z,2018-10-02T22:28:15Z,smaug----,v2-blocking,0
-331518514,true,Update web-platform-tests URLs,https://github.com/w3c/pointerevents/pull/258,2018-06-12T09:56:18Z,2018-06-12T09:57:25Z,foolip,,0
-330029054,true,Propose a getPredictedEvents API with example,https://github.com/w3c/pointerevents/pull/257,2018-06-06T20:54:43Z,2018-06-27T21:01:08Z,NavidZ,,0
 329847808,true,"Concern about ""InvalidPointerId"" DOMException.",https://github.com/w3c/pointerevents/issues/256,2018-06-06T12:33:44Z,2018-09-21T13:26:25Z,yuki3,v2-blocking,0
 323868578,true,"Security & Privacy Section Removed Between April 4, 2018 and May 10th, 2018 Drafts",https://github.com/w3c/pointerevents/issues/255,2018-05-17T04:30:07Z,2018-05-22T13:54:24Z,jasonanovak,,0
 319832383,true,Same table style for CSS touch-action property?,https://github.com/w3c/pointerevents/issues/254,2018-05-03T08:41:22Z,2018-09-11T09:07:39Z,saschanaz,wontfix|editorial,0
-319203915,true,GlobalEventHandlers is a mixin,https://github.com/w3c/pointerevents/pull/253,2018-05-01T13:54:09Z,2018-05-02T15:17:41Z,saschanaz,v3,0
-317415718,true,Additional security/privacy clarifications following horizontal review,https://github.com/w3c/pointerevents/pull/252,2018-04-24T22:20:13Z,2018-04-25T21:27:34Z,patrickhlauke,,0
-315947650,true,Add boundary events in implicit capture scenarios,https://github.com/w3c/pointerevents/pull/251,2018-04-19T16:17:44Z,2018-04-26T01:16:12Z,NavidZ,,0
-310874117,true,Minor markup cleanup,https://github.com/w3c/pointerevents/pull/250,2018-04-03T14:59:49Z,2018-04-03T15:00:21Z,patrickhlauke,,0
-310872071,true,Minor markup cleanup,https://github.com/w3c/pointerevents/pull/249,2018-04-03T14:55:10Z,2018-04-03T14:55:16Z,patrickhlauke,,0
-310654520,true,Change reference from DOM-LEVEL-3-EVENTS to UIEVENTS,https://github.com/w3c/pointerevents/pull/248,2018-04-03T00:34:04Z,2018-04-03T14:27:29Z,patrickhlauke,,0
-310494407,true,"Replace ""page"" with ""document"" for clarity and harmonization with PointerLock",https://github.com/w3c/pointerevents/pull/247,2018-04-02T14:07:30Z,2018-04-03T00:39:02Z,patrickhlauke,,0
-310492117,true,Replace prose about `ownerDocument` tree with DOM4 concept of `connected`,https://github.com/w3c/pointerevents/pull/246,2018-04-02T13:58:27Z,2018-04-03T14:25:30Z,patrickhlauke,,0
-310156656,true,Meta: fixing my borked fork,https://github.com/w3c/pointerevents/pull/245,2018-03-30T20:06:21Z,2018-03-30T20:06:32Z,patrickhlauke,,0
-310153158,true," Add informative note about palm rejection",https://github.com/w3c/pointerevents/pull/244,2018-03-30T19:49:50Z,2018-04-03T00:39:19Z,patrickhlauke,,0
-310122269,true," Add informative note about UA handling of ""compound"" gestures",https://github.com/w3c/pointerevents/pull/243,2018-03-30T17:28:45Z,2018-04-03T22:33:03Z,patrickhlauke,,0
-310014612,true,Update revision history,https://github.com/w3c/pointerevents/pull/242,2018-03-30T08:59:48Z,2018-03-30T09:00:01Z,patrickhlauke,,0
-310009516,true,Fix incorrect in-document link,https://github.com/w3c/pointerevents/pull/241,2018-03-30T08:34:16Z,2018-03-30T08:34:21Z,patrickhlauke,,0
-309878994,true,Update WHATWG-DOM to DOM4,https://github.com/w3c/pointerevents/pull/240,2018-03-29T19:39:49Z,2018-03-30T09:06:51Z,NavidZ,,0
-309864682,true,Add missing thanks,https://github.com/w3c/pointerevents/pull/239,2018-03-29T18:51:17Z,2018-03-29T19:34:17Z,NavidZ,,0
-309854776,true,Move single directional touch-action values to the extension spec,https://github.com/w3c/pointerevents/pull/238,2018-03-29T18:19:17Z,2019-06-11T14:32:19Z,NavidZ,,0
-309848989,true,Remove local biblio entry,https://github.com/w3c/pointerevents/pull/237,2018-03-29T18:00:01Z,2018-03-29T18:24:46Z,EiraGe,,0
 309306308,true,Clarify that canceling pointerdown shouldn't affect to scrollbar handling,https://github.com/w3c/pointerevents/issues/236,2018-03-28T10:21:37Z,2018-03-28T15:17:48Z,smaug----,,0
-309154003,true,Add security and privacy considerations section,https://github.com/w3c/pointerevents/pull/235,2018-03-27T22:18:58Z,2018-03-30T20:05:17Z,patrickhlauke,security-tracker,0
-307673432,true,Added a note on null fromElement and toElement.,https://github.com/w3c/pointerevents/pull/234,2018-03-22T14:43:03Z,2018-03-23T16:20:37Z,mustaqahmed,,0
-307280130,true,Add possibility of having multiple pointers canceled by user agents,https://github.com/w3c/pointerevents/pull/233,2018-03-21T14:55:59Z,2018-03-28T17:54:39Z,NavidZ,,0
-294877135,true,missing / in closing element,https://github.com/w3c/pointerevents/pull/232,2018-02-06T19:06:21Z,2018-02-06T21:06:55Z,plehegar,editorial,0
-294813801,true,Tweaks in respec config and fixing data-lt attributes,https://github.com/w3c/pointerevents/pull/231,2018-02-06T16:01:47Z,2018-02-06T18:46:24Z,plehegar,,0
 276849650,true,pointer-events for pseudo-elements,https://github.com/w3c/pointerevents/issues/230,2017-11-26T19:31:49Z,2017-11-27T20:44:17Z,laukstein,,0
 275637638,true,The behavior of getCoalescedEvent in pointerevent_constructor.html is inconsistent with the spec,https://github.com/w3c/pointerevents/issues/229,2017-11-21T09:19:06Z,2021-07-07T12:23:40Z,mingchou,test|v3,0
 272164889,true,Touch/Trackpad finger position,https://github.com/w3c/pointerevents/issues/228,2017-11-08T11:28:16Z,2020-07-03T17:24:42Z,felipenmoura,v3,1
@@ -230,7 +89,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 262052681,true,Should setPointerCapture work in Shadow DOM,https://github.com/w3c/pointerevents/issues/221,2017-10-02T11:16:11Z,2018-04-03T14:25:21Z,smaug----,question,0
 262051675,true,"It isn't clear what ""page"" means in ""Setting Pointer Capture""",https://github.com/w3c/pointerevents/issues/220,2017-10-02T11:11:36Z,2018-04-03T00:26:13Z,smaug----,question,0
 262051116,true,"Should ""Setting Pointer Capture"" with elements which are in document, but doesn't have associated browsering context",https://github.com/w3c/pointerevents/issues/219,2017-10-02T11:09:11Z,2018-04-03T23:10:18Z,smaug----,question,0
-259635298,true,Add [Exposed=Window] to Constructor,https://github.com/w3c/pointerevents/pull/218,2017-09-21T21:16:41Z,2018-03-30T17:26:41Z,patrickhlauke,,0
 258095745,true,Add [Exposed] to all interfaces,https://github.com/w3c/pointerevents/issues/217,2017-09-15T16:27:37Z,2017-09-22T08:45:05Z,annevk,,0
 256262881,false,Imperative API to request suppression of panning and zooming,https://github.com/w3c/pointerevents/issues/216,2017-09-08T13:59:24Z,2021-02-17T15:43:29Z,RByers,future,3
 249416213,true,Difficulty understanding getCoalescedEvents definition,https://github.com/w3c/pointerevents/issues/215,2017-08-10T17:12:49Z,2021-07-21T15:51:21Z,gsnedders,v3,0
@@ -238,213 +96,125 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 244140241,true,"Too many other behaviors interrupt pointer events (dragstart, touch-action)",https://github.com/w3c/pointerevents/issues/213,2017-07-19T18:57:36Z,2019-08-02T19:58:02Z,appsforartists,v3,0
 241109478,true,Would pointerType === 'pen' events participate in HTML5 Drag & Drop?,https://github.com/w3c/pointerevents/issues/212,2017-07-06T22:55:10Z,2018-03-14T15:51:59Z,nicholaswmin,question,0
 231227262,true,touch-action: scroll || scroll-x || scroll-y,https://github.com/w3c/pointerevents/issues/211,2017-05-25T02:58:59Z,2019-07-10T16:04:37Z,appsforartists,v3,0
-229137120,true,Set target for coalesced events,https://github.com/w3c/pointerevents/pull/210,2017-05-16T19:03:12Z,2017-05-24T15:13:45Z,NavidZ,,0
 228348468,true,offsetX/offsetY is confusing for GetCoalescedEvents,https://github.com/w3c/pointerevents/issues/209,2017-05-12T16:48:58Z,2017-05-24T15:13:44Z,RByers,,1
-228334551,true,Fixed coordinate space for touch-action,https://github.com/w3c/pointerevents/pull/208,2017-05-12T15:53:59Z,2017-05-16T16:54:50Z,mustaqahmed,,0
 228113982,true,Should the spec defines how to handle when the pen's left button and the pen tip both are pressed?,https://github.com/w3c/pointerevents/issues/207,2017-05-11T20:38:21Z,2018-02-09T20:05:18Z,LanWei22,,0
 228033296,true,Extend pointer events to support raw trackpad data,https://github.com/w3c/pointerevents/issues/206,2017-05-11T15:33:12Z,2021-11-21T08:57:36Z,RByers,v3,11
 227550022,true,Add OS image dragging to non-normative reasons for pointercancel,https://github.com/w3c/pointerevents/issues/205,2017-05-10T02:25:48Z,2017-10-21T14:44:04Z,appsforartists,,0
 226671492,true,Consider a simple API for low-latency pointer trails,https://github.com/w3c/pointerevents/issues/204,2017-05-05T19:37:03Z,2020-02-19T17:05:17Z,RByers,v3,0
 226653717,false,Enable direct pen and touch to have different touch-action behavior,https://github.com/w3c/pointerevents/issues/203,2017-05-05T18:23:52Z,2021-04-14T17:32:44Z,RByers,future,0
 226651387,true,Normatively make touch-action apply for direct-manipulation pen devices,https://github.com/w3c/pointerevents/issues/202,2017-05-05T18:14:45Z,2021-05-12T15:59:34Z,RByers,v3,0
-224828871,true,Define the interation of drag operation vs capture,https://github.com/w3c/pointerevents/pull/201,2017-04-27T15:49:03Z,2017-07-26T19:55:22Z,NavidZ,,0
-224571405,true,Clarified the touch-action values for transformed elements.,https://github.com/w3c/pointerevents/pull/200,2017-04-26T19:15:22Z,2017-04-26T20:50:58Z,mustaqahmed,,1
-224569023,true,"Revert ""Clarified the touch-action values for transformed elements""",https://github.com/w3c/pointerevents/pull/199,2017-04-26T19:06:01Z,2017-04-26T19:06:07Z,patrickhlauke,,0
-224271538,true,Clarified the touch-action values for transformed elements.,https://github.com/w3c/pointerevents/pull/198,2017-04-25T21:03:41Z,2017-04-26T19:18:07Z,mustaqahmed,,0
 223387679,false,Should events queue a task?,https://github.com/w3c/pointerevents/issues/197,2017-04-21T13:43:36Z,2021-05-12T15:28:32Z,jakearchibald,future,0
-221341253,true,Clarify pointer capture behavior when pointer lock is applied,https://github.com/w3c/pointerevents/pull/196,2017-04-12T17:53:16Z,2017-05-05T15:36:05Z,LanWei22,,0
-219517207,true,Update editors list,https://github.com/w3c/pointerevents/pull/195,2017-04-05T09:12:48Z,2017-04-05T09:13:09Z,patrickhlauke,editorial,0
 219373518,true,Should DnD release pointer capture?,https://github.com/w3c/pointerevents/issues/194,2017-04-04T20:30:49Z,2017-07-28T17:36:04Z,NavidZ,v2-blocking,0
-219193279,true,Add security/privacy considerations,https://github.com/w3c/pointerevents/pull/193,2017-04-04T09:39:21Z,2018-03-30T17:26:35Z,patrickhlauke,,0
 219177075,true,tangentialPressure support in browsers,https://github.com/w3c/pointerevents/issues/192,2017-04-04T08:35:52Z,2017-07-28T17:38:46Z,patrickhlauke,question|v2-blocking,0
 217618300,true,Mouse back/forward buttons: page navigation or JS events?,https://github.com/w3c/pointerevents/issues/191,2017-03-28T16:28:53Z,2021-02-03T16:37:24Z,mustaqahmed,v3,0
-213155177,true,Clarify the relatedTarget definition for pointerevents,https://github.com/w3c/pointerevents/pull/190,2017-03-09T20:26:36Z,2017-03-22T19:14:36Z,NavidZ,,0
-213083950,true,Set isTrusted for coalesced events,https://github.com/w3c/pointerevents/pull/189,2017-03-09T16:06:46Z,2017-03-22T19:18:47Z,NavidZ,,0
-213044093,true,Add notes about touch-action and direct/indirect manipulation and stylus,https://github.com/w3c/pointerevents/pull/188,2017-03-09T13:56:11Z,2018-03-30T17:26:14Z,patrickhlauke,,0
 212865373,true,Set coalesced events isTrusted flag to false,https://github.com/w3c/pointerevents/issues/187,2017-03-08T21:41:54Z,2017-03-22T19:17:07Z,NavidZ,,0
-212525261,true,Clear the definition of boudnary events in capturing scenarios,https://github.com/w3c/pointerevents/pull/186,2017-03-07T18:54:13Z,2017-03-09T15:57:10Z,NavidZ,,0
 212472203,true,The spec is unclear whether boundary events should fire while pointer is captured to a certain target,https://github.com/w3c/pointerevents/issues/185,2017-03-07T15:47:43Z,2017-03-09T15:57:10Z,smaug----,,0
 212120418,true,The spec doesn't define the values for relatedTarget,https://github.com/w3c/pointerevents/issues/184,2017-03-06T13:21:53Z,2017-03-22T19:14:32Z,smaug----,,0
 211030032,true,"ReSpec warning on ""Privacy and Security""",https://github.com/w3c/pointerevents/issues/183,2017-03-01T09:53:35Z,2018-03-30T08:10:34Z,patrickhlauke,editorial,0
-211028928,true,Expand list of aknowledgements,https://github.com/w3c/pointerevents/pull/182,2017-03-01T09:49:29Z,2017-03-03T14:44:17Z,patrickhlauke,,0
-211025802,true,Change respecConf URLs from http to https,https://github.com/w3c/pointerevents/pull/181,2017-03-01T09:37:00Z,2017-03-01T09:37:28Z,patrickhlauke,,0
-210822716,true,Add pan/zoom in the non-normative examples for pointercancel,https://github.com/w3c/pointerevents/pull/180,2017-02-28T15:39:28Z,2017-02-28T15:39:50Z,patrickhlauke,,0
-209548474,true,"Define coalesced events target, currentTarget, and eventPhase",https://github.com/w3c/pointerevents/pull/179,2017-02-22T19:01:32Z,2017-03-07T17:00:41Z,NavidZ,,0
 208509026,false,touch-action doesn't allow for press-hold-drag UX,https://github.com/w3c/pointerevents/issues/178,2017-02-17T17:40:07Z,2022-02-03T17:57:17Z,RByers,future,5
 208400290,true,Pointer events & disabled form elements,https://github.com/w3c/pointerevents/issues/177,2017-02-17T10:32:12Z,2018-03-29T19:24:34Z,jakearchibald,question,10
 207327970,true,How should PointerLock vs setPointerCapture work together?,https://github.com/w3c/pointerevents/issues/176,2017-02-13T20:19:31Z,2017-10-02T11:03:59Z,mustaqahmed,v2-blocking,0
-206642246,true,Fix a few typos in the extension doc,https://github.com/w3c/pointerevents/pull/175,2017-02-09T21:58:34Z,2017-02-10T16:00:53Z,NavidZ,,0
-206325322,true,Define the ordering of click event and lostpointercapture,https://github.com/w3c/pointerevents/pull/174,2017-02-08T21:09:45Z,2017-03-01T22:16:04Z,NavidZ,,0
 202555972,true,Should spec defines what triggers pointerover and pointerenter when implicitly releasing pointer capture?,https://github.com/w3c/pointerevents/issues/173,2017-01-23T14:56:44Z,2018-04-26T01:16:12Z,mingchou,question|test,0
 202097670,true,Should pointer capture work when element is in non-browsing-context,https://github.com/w3c/pointerevents/issues/172,2017-01-20T09:52:14Z,2018-03-21T15:36:24Z,smaug----,question,0
 201892756,true,Behaviour of dblclicks is not specified,https://github.com/w3c/pointerevents/issues/171,2017-01-19T15:34:16Z,2018-03-21T15:40:34Z,IvanSanchez,question,0
-201632057,true,Clarified event attributes.,https://github.com/w3c/pointerevents/pull/170,2017-01-18T16:59:10Z,2017-03-01T16:56:01Z,mustaqahmed,,0
-201234995,true,"Add ReSpec ""no-link-warnings""",https://github.com/w3c/pointerevents/pull/169,2017-01-17T10:27:21Z,2018-03-30T17:26:35Z,patrickhlauke,,0
-200947608,true,Fix most ReSpec warnings,https://github.com/w3c/pointerevents/pull/168,2017-01-16T07:27:12Z,2018-03-30T17:26:34Z,patrickhlauke,,0
 200148123,true,Behavior of MouseEvent.fromElement/toElement,https://github.com/w3c/pointerevents/issues/167,2017-01-11T16:54:31Z,2018-04-13T19:03:41Z,RByers,test,0
 198989293,true,Need a test for 'touch-action: pinch-zoom` and `touch-action: pan-x pan-y' behavior for multi-finger panning,https://github.com/w3c/pointerevents/issues/166,2017-01-05T15:56:49Z,2017-03-14T16:44:15Z,mustaqahmed,test,1
 197370341,true,Should spec mention OS/UA features like palm rejection?,https://github.com/w3c/pointerevents/issues/165,2016-12-23T13:35:07Z,2018-04-03T00:25:56Z,patrickhlauke,question,0
 197325419,true,Simultaneously move / drag with multiple pointer devices,https://github.com/w3c/pointerevents/issues/164,2016-12-23T07:37:41Z,2018-03-28T15:12:12Z,mingchou,question,0
 197006923,true,New respec warnings about missing dfns,https://github.com/w3c/pointerevents/issues/163,2016-12-21T18:55:05Z,2017-01-16T07:31:17Z,RByers,v2-blocking,0
-196750516,true,Reference compat spec touch-action entry,https://github.com/w3c/pointerevents/pull/162,2016-12-20T18:54:26Z,2016-12-21T18:47:10Z,RByers,,0
 196591078,true,Would be good to better clarify pointer event firing,https://github.com/w3c/pointerevents/issues/161,2016-12-20T05:42:42Z,2017-03-01T16:55:57Z,bzbarsky,editorial,0
 196515040,true,Spec references both W3C DOM4 and WHATWG-DOM,https://github.com/w3c/pointerevents/issues/160,2016-12-19T20:38:25Z,2018-03-29T23:45:43Z,RByers,editorial,0
 194709373,true,Touch-action should distinguish between single- vs multi-finger panning,https://github.com/w3c/pointerevents/issues/159,2016-12-09T22:10:53Z,2017-01-06T16:31:40Z,mustaqahmed,,1
-194079131,true,Move ongot/lostpointercapture to GlobalEventHandlers,https://github.com/w3c/pointerevents/pull/158,2016-12-07T15:26:15Z,2016-12-16T15:49:22Z,NavidZ,,0
 193889651,true,Should on(got/lost)pointercapture be in GlobalEventHandlers?,https://github.com/w3c/pointerevents/issues/157,2016-12-06T21:26:58Z,2016-12-20T03:01:22Z,NavidZ,v2-blocking|test,0
 191123941,true,Fire pointerover/enter before gotpointercapture,https://github.com/w3c/pointerevents/issues/156,2016-11-22T21:04:42Z,2016-12-14T19:30:29Z,NavidZ,v2-blocking|test,0
-190799112,true,Add extension doc link to readme,https://github.com/w3c/pointerevents/pull/155,2016-11-21T18:29:50Z,2016-11-21T19:49:54Z,NavidZ,,0
-188078369,true,Clarify the hit test and capturing target for boundary events,https://github.com/w3c/pointerevents/pull/154,2016-11-08T19:14:29Z,2016-11-17T19:43:57Z,NavidZ,,0
-188067857,true,Call out pressure=0 for pointerup events,https://github.com/w3c/pointerevents/pull/153,2016-11-08T18:27:58Z,2016-11-09T15:22:40Z,NavidZ,,0
 186327763,true,pointerType: 'dial',https://github.com/w3c/pointerevents/issues/152,2016-10-31T16:19:04Z,2017-04-16T10:25:56Z,appsforartists,,0
-184323488,true,Legacy mouse event: fixed a missing text & a note,https://github.com/w3c/pointerevents/pull/151,2016-10-20T19:49:08Z,2016-11-08T20:47:39Z,mustaqahmed,,0
 184311909,true,How should touch-action behave for span?,https://github.com/w3c/pointerevents/issues/150,2016-10-20T18:56:19Z,2016-11-24T18:40:07Z,NavidZ,v2-blocking|test,0
-181228979,true,Initial draft of getCoalescedEvents API,https://github.com/w3c/pointerevents/pull/149,2016-10-05T18:21:01Z,2016-11-21T17:21:55Z,NavidZ,,0
 178555749,true,Update tests for reduce-hit-tests changes,https://github.com/w3c/pointerevents/issues/148,2016-09-22T08:57:37Z,2016-09-30T01:17:15Z,RByers,,0
 178484843,true,Should pressure be set to 1 or .5 on devices that don't report it?,https://github.com/w3c/pointerevents/issues/147,2016-09-21T23:12:48Z,2016-10-12T17:46:06Z,appsforartists,,0
 178197690,true,pointerup pressure should always be 0,https://github.com/w3c/pointerevents/issues/146,2016-09-20T22:32:32Z,2016-11-09T15:22:38Z,appsforartists,v2-blocking,0
 178091853,true,Need to clarify what triggers boundary events when releasing a capture,https://github.com/w3c/pointerevents/issues/145,2016-09-20T15:22:09Z,2016-12-14T19:29:19Z,mustaqahmed,v2-blocking|test,0
-177825977,true,Reduce hit tests,https://github.com/w3c/pointerevents/pull/144,2016-09-19T16:04:07Z,2018-10-25T12:12:19Z,RByers,,0
 177823480,false,Consider having explicit capture (sometimes) include boundary events,https://github.com/w3c/pointerevents/issues/143,2016-09-19T15:54:18Z,2021-02-17T15:42:48Z,RByers,future,0
 177804504,true,Define ordering of lostpointercapture and pointerout/leave for touch,https://github.com/w3c/pointerevents/issues/142,2016-09-19T14:44:22Z,2016-12-20T20:49:31Z,RByers,v2-blocking|test,0
 175852393,true,Add attribute tests for nohover pointer events like touch,https://github.com/w3c/pointerevents/issues/141,2016-09-08T20:13:59Z,2016-09-15T20:39:15Z,NavidZ,,0
 175785345,true,Need a test for releasing pointer capture while element.hasPointerCapture is false,https://github.com/w3c/pointerevents/issues/140,2016-09-08T15:29:36Z,2016-09-08T15:45:08Z,NavidZ,,0
 175308815,true,Some tests don't work properly with mobile-sized viewports,https://github.com/w3c/pointerevents/issues/139,2016-09-06T17:49:12Z,2021-02-16T20:11:39Z,RByers,test|v3,0
-174317540,true,Remove boundary events and use capture node as target,https://github.com/w3c/pointerevents/pull/138,2016-08-31T16:22:36Z,2016-09-08T00:46:31Z,NavidZ,,0
-173828006,true,Fix the wording in releasePointerCapture to use hasPointerCapture,https://github.com/w3c/pointerevents/pull/137,2016-08-29T17:34:18Z,2016-08-29T20:10:08Z,NavidZ,,0
 173825600,true,releasePointerCapture right after setPointerCapture is no-op,https://github.com/w3c/pointerevents/issues/136,2016-08-29T17:22:09Z,2016-08-29T20:10:08Z,smaug----,,0
 173145314,true,"What is the relationship between setPointerCapture, PointerLock, and browser default behaviors?",https://github.com/w3c/pointerevents/issues/135,2016-08-25T08:42:16Z,2017-03-29T14:35:55Z,mingchou,v2-blocking,0
 173052972,false,Stylus eraser: should it be a new pointerType instead of a button state?,https://github.com/w3c/pointerevents/issues/134,2016-08-24T20:41:16Z,2021-02-03T00:22:05Z,mustaqahmed,future,3
 171573067,true,Should Element.hasPointerCapture return true when set pointer capture to another element and release it immediately?,https://github.com/w3c/pointerevents/issues/133,2016-08-17T04:41:44Z,2016-08-22T19:23:19Z,mingchou,question,0
 170355960,true,Should Element.hasPointerCapture return true or false in the listener of pointerup or pointercancel?,https://github.com/w3c/pointerevents/issues/132,2016-08-10T08:04:11Z,2016-08-11T16:58:51Z,mingchou,question,0
 169660844,true,Incorrect movementX/Y in PointerEvents,https://github.com/w3c/pointerevents/issues/131,2016-08-05T17:50:09Z,2017-10-02T11:55:10Z,NavidZ,v2-blocking|test,0
-169359344,true,"add feature detection example, clean up code examples",https://github.com/w3c/pointerevents/pull/130,2016-08-04T12:10:40Z,2018-03-30T17:26:33Z,patrickhlauke,,0
-168957115,true,Add initial implicit capture proposal,https://github.com/w3c/pointerevents/pull/129,2016-08-02T18:37:22Z,2016-08-08T02:38:08Z,RByers,,0
-168892890,true,Cleanup event definitions for easier linking,https://github.com/w3c/pointerevents/pull/128,2016-08-02T14:01:45Z,2016-08-02T14:47:45Z,RByers,,0
-168701831,true,Add hasPointerCapture,https://github.com/w3c/pointerevents/pull/127,2016-08-01T17:45:15Z,2016-08-02T15:12:37Z,RByers,,0
 168652021,true,How best to inflate hit targets for touch?,https://github.com/w3c/pointerevents/issues/126,2016-08-01T13:57:43Z,2020-08-19T15:49:22Z,RByers,question|v3,0
 168372139,true,Could we ever do implicit capture for all pointer types?,https://github.com/w3c/pointerevents/issues/125,2016-07-29T17:17:11Z,2021-02-04T17:59:14Z,RByers,future,0
 168231548,false,How to determine when a tap is impossible,https://github.com/w3c/pointerevents/issues/124,2016-07-29T01:21:40Z,2021-02-03T00:10:33Z,RByers,future,0
 168229171,true,Standardize CSS pseudoclass behavior for touch,https://github.com/w3c/pointerevents/issues/123,2016-07-29T00:56:32Z,2021-02-01T08:41:53Z,RByers,v3,1
-168192851,true,got/lostpointercapture events: attributes and immediate firing on implicit release,https://github.com/w3c/pointerevents/pull/122,2016-07-28T20:47:22Z,2016-08-29T14:08:47Z,NavidZ,,0
 168152508,true,Add Element.hasPointerCapture API,https://github.com/w3c/pointerevents/issues/121,2016-07-28T17:33:41Z,2016-08-02T15:12:37Z,RByers,v2-blocking,0
 168133312,true,Explore unifying web-platform-test automation logic,https://github.com/w3c/pointerevents/issues/120,2016-07-28T16:02:00Z,2020-08-19T15:50:31Z,RByers,test|v3,0
-167912933,true,Reference TouchEvents spec for compat mouse events,https://github.com/w3c/pointerevents/pull/119,2016-07-27T17:40:03Z,2016-07-29T04:29:07Z,NavidZ,,0
 167739346,true,Clarify duration of pointer event suppression during a touch action,https://github.com/w3c/pointerevents/issues/118,2016-07-26T23:59:18Z,2018-04-03T00:25:43Z,RByers,bug,0
 167686698,true,Update tap event order list for single logical mouse pointer,https://github.com/w3c/pointerevents/issues/117,2016-07-26T19:09:40Z,2016-11-08T20:47:37Z,RByers,v2-blocking,0
-167439835,true,Add detail=0 for pointerevents,https://github.com/w3c/pointerevents/pull/116,2016-07-25T18:58:04Z,2016-07-26T14:34:16Z,NavidZ,,0
 167094626,true,Clarify what touch-action allows with rotated scrollable elements,https://github.com/w3c/pointerevents/issues/115,2016-07-22T17:33:35Z,2017-06-06T13:39:37Z,staktrace,v2-blocking,0
-167036978,true,update abstract/sotd,https://github.com/w3c/pointerevents/pull/114,2016-07-22T12:41:22Z,2018-03-30T17:26:31Z,patrickhlauke,,0
 166864863,true,Attributes of lost/gotpointercapture events fired immediately on set/release capture,https://github.com/w3c/pointerevents/issues/113,2016-07-21T16:39:59Z,2016-08-29T14:08:47Z,mustaqahmed,,0
 166284964,true,Red text on dark blue background hard to see,https://github.com/w3c/pointerevents/issues/112,2016-07-19T09:20:10Z,2016-07-19T14:52:24Z,DavidMacDonald,,0
 166284132,true,typo,https://github.com/w3c/pointerevents/issues/111,2016-07-19T09:16:23Z,2016-07-19T10:05:36Z,DavidMacDonald,,0
-166283626,true,typo,https://github.com/w3c/pointerevents/pull/110,2016-07-19T09:13:39Z,2016-07-19T09:13:43Z,patrickhlauke,,0
 166281870,true,typo,https://github.com/w3c/pointerevents/issues/109,2016-07-19T09:04:06Z,2016-07-19T09:13:43Z,DavidMacDonald,,0
-166278584,true,fixing typo,https://github.com/w3c/pointerevents/pull/108,2016-07-19T08:47:15Z,2016-07-19T17:40:25Z,dret,,0
 165619108,true,PointerEvents should have fractional coordinates,https://github.com/w3c/pointerevents/issues/107,2016-07-14T17:47:29Z,2018-04-18T16:39:24Z,mustaqahmed,test,1
 165353856,true,Should DragEvent be upgraded to a PointerEvent?,https://github.com/w3c/pointerevents/issues/106,2016-07-13T15:42:27Z,2020-08-19T15:50:15Z,RByers,question|v3,0
-165267248,true,Update revision history,https://github.com/w3c/pointerevents/pull/105,2016-07-13T08:40:14Z,2016-07-13T11:01:45Z,patrickhlauke,,0
-164866924,true,Fix broken WebIDL <dl>,https://github.com/w3c/pointerevents/pull/104,2016-07-11T15:34:15Z,2016-07-13T01:42:11Z,patrickhlauke,,0
 164862421,true,"Current draft: the definitions of tiltY and twist are ""hidden""!",https://github.com/w3c/pointerevents/issues/103,2016-07-11T15:15:35Z,2016-07-12T18:43:53Z,mustaqahmed,,0
 164861588,true,"Current draft: the definitions of tiltY and twist is not visible""",https://github.com/w3c/pointerevents/issues/102,2016-07-11T15:12:17Z,2016-07-11T15:34:25Z,mustaqahmed,,0
-164421183,true,convert deprecated <dl> based WebIDL to Contiguous IDL,https://github.com/w3c/pointerevents/pull/101,2016-07-07T22:25:24Z,2018-03-30T17:26:30Z,patrickhlauke,,0
 164390499,true,"Should ""click"", ""dblclick"" and ""contextmenu"" events be PointerEvents?",https://github.com/w3c/pointerevents/issues/100,2016-07-07T19:39:57Z,2021-09-01T15:12:38Z,RByers,bug|v3,0
-164144565,true,Add pinch-zoom token to touch-action,https://github.com/w3c/pointerevents/pull/99,2016-07-06T18:36:52Z,2017-02-13T22:19:30Z,RByers,,0
 163690936,true,What should be the 'detail' property of pointer events?,https://github.com/w3c/pointerevents/issues/98,2016-07-04T14:44:19Z,2018-09-25T14:41:39Z,NavidZ,,0
 162638687,true,strange/interesting results for Wacom Intuos Pro hovering clicks,https://github.com/w3c/pointerevents/issues/97,2016-06-28T09:14:30Z,2016-06-28T19:18:08Z,patrickhlauke,,0
-161971879,true,"Removed ""pen contact"" condition on button/buttons.",https://github.com/w3c/pointerevents/pull/96,2016-06-23T16:55:25Z,2016-07-13T08:25:50Z,mustaqahmed,,0
-161772644,true,Repo cleanup,https://github.com/w3c/pointerevents/pull/95,2016-06-22T20:02:46Z,2016-06-22T20:02:54Z,patrickhlauke,,0
 161724978,true,Add feature detection section,https://github.com/w3c/pointerevents/issues/94,2016-06-22T16:14:00Z,2016-08-05T19:09:16Z,RByers,,0
 161470880,true,Clarify click event firing for chorded buttons,https://github.com/w3c/pointerevents/issues/93,2016-06-21T15:40:45Z,2016-07-06T18:40:28Z,mustaqahmed,,0
-161343630,true,Fix #91. Make all pointer events composed events,https://github.com/w3c/pointerevents/pull/92,2016-06-21T03:45:36Z,2016-06-30T07:12:10Z,hayatoito,,0
 161111923,true,Support Event.composed in Pointer Events,https://github.com/w3c/pointerevents/issues/91,2016-06-20T03:43:38Z,2016-06-30T07:12:11Z,hayatoito,,0
 160030146,true,repo cleanup?,https://github.com/w3c/pointerevents/issues/90,2016-06-13T19:49:35Z,2016-06-22T20:35:28Z,patrickhlauke,,0
-159773713,true,Reorganize heading structure,https://github.com/w3c/pointerevents/pull/89,2016-06-11T13:33:29Z,2018-03-30T17:26:30Z,patrickhlauke,editorial,0
 159772791,true,"illustration for ""twist"" ?",https://github.com/w3c/pointerevents/issues/88,2016-06-11T13:08:43Z,2017-03-12T21:02:51Z,patrickhlauke,enhancement,0
-159737375,true,Add digitizer/pen tangential (barrel) pressure,https://github.com/w3c/pointerevents/pull/87,2016-06-10T22:46:00Z,2018-03-30T17:26:24Z,patrickhlauke,,0
 159300232,true,"""Pointer Event Types"" misleading/inappropriate section heading?",https://github.com/w3c/pointerevents/issues/86,2016-06-08T23:37:03Z,2016-06-13T18:14:09Z,patrickhlauke,editorial,0
 159299879,true,"Moving ""Firing events..."" and ""Process Pending Pointer Capture""",https://github.com/w3c/pointerevents/issues/85,2016-06-08T23:34:05Z,2016-06-13T18:13:06Z,patrickhlauke,editorial,0
-159299032,true,"Markup cleanup (tabs vs spaces, indentation, validation errors)",https://github.com/w3c/pointerevents/pull/84,2016-06-08T23:27:09Z,2018-03-30T17:26:23Z,patrickhlauke,,0
-159298220,true,Update revision history and shortname,https://github.com/w3c/pointerevents/pull/83,2016-06-08T23:20:23Z,2016-06-08T23:20:30Z,patrickhlauke,,0
 159114196,true,tabs vs spaces (sorry),https://github.com/w3c/pointerevents/issues/82,2016-06-08T09:06:45Z,2016-06-09T00:02:33Z,patrickhlauke,editorial,0
-159011149,true,Add the note to define the scope of pointerId more precisely,https://github.com/w3c/pointerevents/pull/81,2016-06-07T20:00:39Z,2016-06-08T14:50:31Z,NavidZ,,0
-158962459,true,Add digitizer/pen tangential (barrel) pressure,https://github.com/w3c/pointerevents/pull/80,2016-06-07T16:05:36Z,2016-06-10T22:40:49Z,patrickhlauke,enhancement,0
-158957512,true,Add digitizer/pen twist,https://github.com/w3c/pointerevents/pull/79,2016-06-07T15:45:29Z,2018-03-30T17:26:23Z,patrickhlauke,enhancement,0
-158627063,true,"Minor typo - missing ""of""",https://github.com/w3c/pointerevents/pull/78,2016-06-06T08:40:46Z,2016-06-06T15:16:18Z,patrickhlauke,,0
-158241863,true,Tweak SotD,https://github.com/w3c/pointerevents/pull/77,2016-06-02T21:17:13Z,2016-06-02T21:17:17Z,patrickhlauke,,0
-158180304,true,A possible immediate pointer capture processing,https://github.com/w3c/pointerevents/pull/76,2016-06-02T16:11:04Z,2016-07-28T16:34:40Z,NavidZ,,0
 158000564,true,Click event while a pointer event is captured,https://github.com/w3c/pointerevents/issues/75,2016-06-01T20:33:38Z,2021-04-14T15:32:44Z,NavidZ,question|v3,0
-157993087,true,Reintroduce the SotD,https://github.com/w3c/pointerevents/pull/74,2016-06-01T19:56:12Z,2018-03-30T17:26:22Z,patrickhlauke,,0
 157892119,true,Preparation for FPWD publication of Pointer Events Level 2,https://github.com/w3c/pointerevents/issues/73,2016-06-01T12:15:32Z,2016-06-08T23:37:57Z,patrickhlauke,editorial,0
-157891316,true,Update revision history,https://github.com/w3c/pointerevents/pull/72,2016-06-01T12:11:16Z,2018-03-30T17:26:21Z,patrickhlauke,,0
 156763572,true,"ReSpec error: ""A custom SotD paragraph is required for your type of document.""",https://github.com/w3c/pointerevents/issues/71,2016-05-25T14:22:05Z,2016-06-02T20:32:37Z,RByers,,0
 156277067,true,Add additional digitizer/pen attributes: barrel pressure (tangential pressure),https://github.com/w3c/pointerevents/issues/70,2016-05-23T13:11:22Z,2016-06-10T22:46:39Z,patrickhlauke,enhancement,0
-155978546,true,"Make width/height default to 1, remove UA ""guessing""/faking geometry",https://github.com/w3c/pointerevents/pull/69,2016-05-20T14:40:53Z,2018-03-30T17:26:02Z,patrickhlauke,,0
-154846585,true,Add new editor,https://github.com/w3c/pointerevents/pull/68,2016-05-14T10:36:15Z,2018-03-30T17:26:03Z,patrickhlauke,,0
-154562094,true,"Remove explicit ""Status of this Document""",https://github.com/w3c/pointerevents/pull/67,2016-05-12T19:28:45Z,2018-03-30T17:26:05Z,patrickhlauke,editorial,0
-154542752,true,Make it explicit that buttons is a bitmask.,https://github.com/w3c/pointerevents/pull/66,2016-05-12T17:53:13Z,2016-05-13T23:56:34Z,mustaqahmed,,0
 154310422,true,Default width/height attribute for mouse,https://github.com/w3c/pointerevents/issues/65,2016-05-11T18:27:01Z,2016-05-25T16:03:21Z,NavidZ,enhancement,0
 153831930,true,How removing target in pointer event handler affects compat mouse event target,https://github.com/w3c/pointerevents/issues/64,2016-05-09T17:51:50Z,2016-05-11T18:20:22Z,NavidZ,,0
-153494906,true,Clarified definition of capturing element borders,https://github.com/w3c/pointerevents/pull/63,2016-05-06T17:02:28Z,2016-07-28T16:35:46Z,NavidZ,,0
 153489738,true,While pointer is captured the boundary of the capturing element should be itself and all its children,https://github.com/w3c/pointerevents/issues/62,2016-05-06T16:34:46Z,2016-10-20T18:45:11Z,NavidZ,,0
 153075337,true,Should a captured pointer send boundary events by default?,https://github.com/w3c/pointerevents/issues/61,2016-05-04T17:52:52Z,2016-09-19T16:09:59Z,RByers,v2-blocking,0
 151956623,true,Change the reference label for UI Events Specification,https://github.com/w3c/pointerevents/issues/60,2016-04-29T20:01:09Z,2018-04-03T14:27:22Z,mustaqahmed,editorial,0
 151930572,true,Should pointer IDs be unique even across different top-level browsing contexts?,https://github.com/w3c/pointerevents/issues/59,2016-04-29T17:42:24Z,2016-06-08T14:50:30Z,RByers,enhancement|question,0
 151927508,true,"Convert spec IDL to ""contiguous"" style",https://github.com/w3c/pointerevents/issues/58,2016-04-29T17:24:57Z,2016-07-13T01:54:41Z,RByers,editorial,0
-151677902,true,Adding the scope of unique pointerId,https://github.com/w3c/pointerevents/pull/57,2016-04-28T15:49:29Z,2016-05-03T17:17:37Z,NavidZ,,0
-151657609,true,Made mouseover/out/enter/leave event firing independent of corresponding PEs,https://github.com/w3c/pointerevents/pull/56,2016-04-28T14:32:48Z,2016-05-25T16:38:07Z,mustaqahmed,,0
 151215880,true,Only people with push access can have issues assigned to them,https://github.com/w3c/pointerevents/issues/55,2016-04-26T19:11:56Z,2016-05-25T16:39:35Z,RByers,editorial,0
 150887281,true,Incorrect definition for primary pen (and possibly touch),https://github.com/w3c/pointerevents/issues/54,2016-04-25T14:53:30Z,2016-05-08T20:16:21Z,patrickhlauke,bug,0
-150471725,true,Rewrite of primary pointer section,https://github.com/w3c/pointerevents/pull/53,2016-04-22T21:08:17Z,2018-03-30T17:26:06Z,patrickhlauke,enhancement,0
 148442468,true,Pointer Id across different iframes,https://github.com/w3c/pointerevents/issues/52,2016-04-14T18:17:46Z,2016-05-03T17:17:37Z,NavidZ,,0
 145239654,true,PREVENT MOUSE EVENT flag is not well defined when multiple pointer types are active,https://github.com/w3c/pointerevents/issues/51,2016-04-01T17:40:49Z,2016-04-01T18:34:08Z,NavidZ,,0
-143282282,true,Cover the case when primary pointer is removed,https://github.com/w3c/pointerevents/pull/50,2016-03-24T15:45:13Z,2016-04-14T23:45:18Z,NavidZ,,0
 143183698,true,Determining the primary pointer - note about mice?,https://github.com/w3c/pointerevents/issues/49,2016-03-24T08:21:35Z,2016-04-29T18:59:47Z,patrickhlauke,enhancement,0
 143181485,true,What happens when an isPrimary pointer is removed?,https://github.com/w3c/pointerevents/issues/48,2016-03-24T08:13:05Z,2016-04-12T19:15:00Z,patrickhlauke,,0
-141760702,true,Switch to the W3C Software and Document license,https://github.com/w3c/pointerevents/pull/47,2016-03-18T03:00:42Z,2016-03-18T13:34:10Z,RByers,,0
 141534715,true,"Respec's ""Latest published version""",https://github.com/w3c/pointerevents/issues/46,2016-03-17T10:02:30Z,2016-06-13T18:24:40Z,patrickhlauke,editorial,0
 141014956,true,Should the spec really reference tracker anymore?,https://github.com/w3c/pointerevents/issues/45,2016-03-15T15:47:16Z,2016-05-14T00:03:41Z,RByers,,0
-140799062,true,Modify/clarify the example for directional touch-action values,https://github.com/w3c/pointerevents/pull/44,2016-03-14T21:11:46Z,2016-03-17T00:30:52Z,patrickhlauke,,0
-140789130,true,clarification about dynamic touch-action changes,https://github.com/w3c/pointerevents/pull/43,2016-03-14T20:29:56Z,2016-03-14T20:57:51Z,patrickhlauke,enhancement|editorial,0
 140466080,true,clarify what happens if touch-action is changed dynamically,https://github.com/w3c/pointerevents/issues/42,2016-03-13T08:49:34Z,2016-03-14T20:57:51Z,patrickhlauke,,0
 140465062,true,touch-action - incorrect values in note for pull-to-refresh?,https://github.com/w3c/pointerevents/issues/41,2016-03-13T08:41:51Z,2021-01-20T13:32:49Z,patrickhlauke,,0
-139365309,true,Reorder the events in process pending pointer capture,https://github.com/w3c/pointerevents/pull/40,2016-03-08T19:08:08Z,2016-07-28T16:36:09Z,NavidZ,,0
 139363428,true,Incorrect order of the events in process pending pointer capture section,https://github.com/w3c/pointerevents/issues/39,2016-03-08T19:01:19Z,2016-10-20T18:38:18Z,NavidZ,,0
 139354919,true,Consider adding API to get predicted points,https://github.com/w3c/pointerevents/issues/38,2016-03-08T18:25:57Z,2018-06-27T21:00:07Z,RByers,v3,0
-139328525,true,Future-proof by removing any mention of mouse/trackpad,https://github.com/w3c/pointerevents/pull/37,2016-03-08T16:45:10Z,2016-03-08T16:45:31Z,patrickhlauke,,0
-136797676,true,Add the missing pointerover/enter events,https://github.com/w3c/pointerevents/pull/36,2016-02-26T19:56:04Z,2016-03-03T21:55:26Z,NavidZ,,0
 135857393,true,Compatibility mouse transition events should reflect a single logical mouse pointer,https://github.com/w3c/pointerevents/issues/35,2016-02-23T20:40:03Z,2016-07-07T21:38:24Z,NavidZ,,0
-130828721,true,Clarify the button value for mouse drag,https://github.com/w3c/pointerevents/pull/34,2016-02-02T21:46:59Z,2016-03-04T16:42:26Z,mustaqahmed,,0
 130201932,true,Value of button attribute for pointermove event,https://github.com/w3c/pointerevents/issues/33,2016-01-31T22:30:41Z,2016-03-05T13:23:30Z,bethge,,0
 128929579,true,When are lost/gotpointercapture delayed until the next pointer event?,https://github.com/w3c/pointerevents/issues/32,2016-01-26T20:17:57Z,2016-10-20T18:48:55Z,NavidZ,,0
-127888736,true,"Reword to not exclude ALL mice, include trackpads",https://github.com/w3c/pointerevents/pull/31,2016-01-21T10:08:59Z,2016-01-22T22:25:24Z,patrickhlauke,,0
 127833692,true,Spec implies mice can't support pressure,https://github.com/w3c/pointerevents/issues/30,2016-01-21T02:51:37Z,2016-03-08T16:45:31Z,RByers,,0
 126537276,true,Add explicit control over pinch-zoom to touch-action,https://github.com/w3c/pointerevents/issues/29,2016-01-13T23:04:47Z,2016-12-23T15:42:30Z,RByers,,0
 117468313,true,equivalent of rotationAngle from Touch Events?,https://github.com/w3c/pointerevents/issues/28,2015-11-17T22:41:01Z,2016-01-04T15:58:41Z,patrickhlauke,enhancement,0
 114378113,true,Figures should be directly linkable,https://github.com/w3c/pointerevents/issues/27,2015-10-31T00:47:54Z,2015-11-03T19:47:24Z,AFBarstow,editorial,0
 113846558,true,Add 3D Mice,https://github.com/w3c/pointerevents/issues/26,2015-10-28T15:23:17Z,2016-05-23T13:26:17Z,skibulk,,0
 113845557,true,Add additional digitizer/pen attributes: twist (rotation),https://github.com/w3c/pointerevents/issues/25,2015-10-28T15:19:01Z,2016-06-08T21:29:27Z,skibulk,enhancement,0
-112879295,true,Fix the touch-action processing model for zoom scenarios,https://github.com/w3c/pointerevents/pull/24,2015-10-22T19:58:22Z,2015-12-01T19:32:06Z,RByers,,0
 110245196,true,Explicit mention that `pan-x pan-y` is equivalent to `auto`?,https://github.com/w3c/pointerevents/issues/23,2015-10-07T15:01:25Z,2016-01-18T10:10:01Z,patrickhlauke,,0
 107221265,true,Add an API to get pre-coalesced points,https://github.com/w3c/pointerevents/issues/22,2015-09-18T15:11:57Z,2019-01-07T16:19:53Z,RByers,enhancement,0
-106895434,true,Fix respec warnings about use of deprecated title attribute,https://github.com/w3c/pointerevents/pull/21,2015-09-17T01:31:56Z,2015-09-21T20:16:36Z,RByers,,0
-106054988,true,Add a note about the 300ms click delay,https://github.com/w3c/pointerevents/pull/20,2015-09-11T17:15:08Z,2015-09-21T21:40:43Z,RByers,,0
 105388907,true,Touch action processing model doesn't match IE/Edge behavior around zooming,https://github.com/w3c/pointerevents/issues/19,2015-09-08T14:09:16Z,2015-12-04T03:30:37Z,RByers,v2-blocking,0
-94573831,true,Add missing pointerleave,https://github.com/w3c/pointerevents/pull/18,2015-07-12T15:31:40Z,2018-03-30T17:26:08Z,patrickhlauke,,0
 92760559,true,Latest published spec link is wrong,https://github.com/w3c/pointerevents/issues/17,2015-07-02T23:54:44Z,2015-07-09T01:21:39Z,RByers,,0
 90167844,true,setPointerCapture should be disabled in sandboxed iframes by default,https://github.com/w3c/pointerevents/issues/16,2015-06-22T17:59:39Z,2020-09-16T16:03:11Z,RByers,question|v3|security-tracker,0
 89326863,true,Determine when boundary events are fired after capture is released,https://github.com/w3c/pointerevents/issues/15,2015-06-18T15:44:46Z,2018-04-03T23:11:35Z,scottgonzalez,question,0
 89081825,true,Support hovering button states,https://github.com/w3c/pointerevents/issues/14,2015-06-17T17:52:53Z,2016-07-13T08:25:50Z,jacobrossi,enhancement|question,0
-69929830,true,Add direction-specific touch-action pan values,https://github.com/w3c/pointerevents/pull/13,2015-04-21T19:22:39Z,2015-04-23T19:52:37Z,RByers,,0
-69899848,true,Add myself as editor,https://github.com/w3c/pointerevents/pull/12,2015-04-21T17:04:10Z,2015-04-21T19:18:19Z,RByers,,0
 69594003,true,Configure this repo to use gitbot and the #pointerevents channel,https://github.com/w3c/pointerevents/issues/11,2015-04-20T14:04:30Z,2016-05-25T13:48:59Z,AFBarstow,admin,0
 69442685,true,Mirror Github activity to public-pointer-events,https://github.com/w3c/pointerevents/issues/10,2015-04-19T16:47:11Z,2015-04-20T10:27:46Z,AFBarstow,admin,0
 69162373,true,Define event order relative to RAF?,https://github.com/w3c/pointerevents/issues/9,2015-04-17T15:35:58Z,2020-08-05T15:26:17Z,RByers,v3,0
 69161857,true,Pointermove should not require a hit-test by default for touch,https://github.com/w3c/pointerevents/issues/8,2015-04-17T15:33:20Z,2016-09-19T16:09:59Z,RByers,v2-blocking,0
 69161761,true,Mouse Event compatibility model for touch is incompatible with current practice,https://github.com/w3c/pointerevents/issues/7,2015-04-17T15:32:47Z,2016-07-29T04:29:07Z,RByers,v2-blocking,0
 69161313,true,Touch-action isn't flexible enough for direction-specific behavior,https://github.com/w3c/pointerevents/issues/6,2015-04-17T15:30:12Z,2016-09-08T18:27:24Z,RByers,v2-blocking,0
-69019640,true,Normalize line endings to LF as is GitHub preference,https://github.com/w3c/pointerevents/pull/5,2015-04-16T22:08:58Z,2015-04-21T16:47:08Z,RByers,,0
 67564465,true,Value of button in a chorded pointerdown event,https://github.com/w3c/pointerevents/issues/4,2015-04-10T10:34:19Z,2016-05-12T19:15:27Z,AFBarstow,,0
-67244804,true,Update URL of ED to reflect pointerEvents.html change to index.html.,https://github.com/w3c/pointerevents/pull/3,2015-04-08T23:41:40Z,2015-04-08T23:50:21Z,AFBarstow,,0
-67242336,true,Fix gh-page index page,https://github.com/w3c/pointerevents/pull/2,2015-04-08T23:26:58Z,2015-04-08T23:28:40Z,merih,,0
-67241656,true,Fix link to website in README,https://github.com/w3c/pointerevents/pull/1,2015-04-08T23:22:51Z,2015-04-08T23:25:49Z,itsananderson,,0
