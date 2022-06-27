@@ -1,6 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1284983398,false,"""Running script"" concept doesn't check if [[ScriptOrModule]] is null",https://github.com/whatwg/html/issues/8041,2022-06-26T17:27:16Z,2022-06-26T17:46:34Z,Lubrsi,,0
-1284907067,false,Character entities reference link is broken,https://github.com/whatwg/html/issues/8040,2022-06-26T13:00:22Z,2022-06-26T13:49:39Z,smithery,,0
+1285679021,false,Ali,https://github.com/whatwg/html/issues/8045,2022-06-27T11:42:57Z,2022-06-27T11:42:57Z,Aliahmad12528,,0
+1285261705,false,Fix HostPromiseRejectionHandler when running script is null,https://github.com/whatwg/html/pull/8043,2022-06-27T05:23:09Z,2022-06-27T05:24:41Z,domenic,topic: script,0
+1284983398,false,"""Running script"" concept doesn't check if [[ScriptOrModule]] is null",https://github.com/whatwg/html/issues/8041,2022-06-26T17:27:16Z,2022-06-27T05:23:15Z,Lubrsi,,0
+1284907067,true,Character entities reference link is broken,https://github.com/whatwg/html/issues/8040,2022-06-26T13:00:22Z,2022-06-27T11:16:18Z,smithery,,0
 1284669173,true,Entities page is missing: w3.org/html5/html-author/charref,https://github.com/whatwg/html/issues/8039,2022-06-25T17:40:49Z,2022-06-26T08:18:14Z,inferno986return,,0
 1283971947,false,"<link rel=""preconnect/preload""> for WebSocket (wss://)",https://github.com/whatwg/html/issues/8037,2022-06-24T16:56:59Z,2022-06-24T16:56:59Z,strelec,,0
 1283808531,false,Add cross-site ancestor flag to environment. (privacycg/storage-parti…,https://github.com/whatwg/html/pull/8036,2022-06-24T14:16:39Z,2022-06-24T14:18:28Z,wanderview,,0
@@ -9,11 +11,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1282742175,false,Blocking tab-under navigations?,https://github.com/whatwg/html/issues/8033,2022-06-23T17:43:53Z,2022-06-23T19:01:52Z,domenic,addition/proposal|topic: navigation,0
 1282588788,true,TABLE TD -> TD Looks Weird,https://github.com/whatwg/html/issues/8032,2022-06-23T15:28:04Z,2022-06-23T16:47:59Z,toptal126,,0
 1282345110,false,Improve support for refresh rate discovery and control,https://github.com/whatwg/html/issues/8031,2022-06-23T12:42:40Z,2022-06-24T19:56:45Z,juj,,0
-1281837141,false,Add note about last activation timestamp spanning navigations,https://github.com/whatwg/html/pull/8029,2022-06-23T05:47:01Z,2022-06-24T15:21:27Z,rakina,,0
+1281837141,true,Add note about last activation timestamp spanning navigations,https://github.com/whatwg/html/pull/8029,2022-06-23T05:47:01Z,2022-06-27T06:56:12Z,rakina,clarification|topic: user activation,0
 1281180383,false,Add new UA style rules for overflow changes; see w3c/csswg-drafts#7144,https://github.com/whatwg/html/pull/8028,2022-06-22T23:00:59Z,2022-06-23T00:09:45Z,tabatkins,,0
 1280773484,false,Add top-level site to environment. (#8014),https://github.com/whatwg/html/pull/8027,2022-06-22T19:33:12Z,2022-06-22T20:01:24Z,wanderview,,0
 1280748717,false,"Editorial: use <iframe>, not <object>, for content-venn.svg",https://github.com/whatwg/html/pull/8026,2022-06-22T19:10:44Z,2022-06-22T19:12:15Z,domenic,topic: embed and object,0
-1278018519,false,Normatively define the “elementtiming” content attribute,https://github.com/whatwg/html/issues/8024,2022-06-21T07:34:43Z,2022-06-21T07:48:11Z,sideshowbarker,,1
+1278018519,false,Normatively define the “elementtiming” content attribute,https://github.com/whatwg/html/issues/8024,2022-06-21T07:34:43Z,2022-06-27T07:38:11Z,sideshowbarker,,1
 1277218382,false,"""BeforeUnloadEvent"" user message presets",https://github.com/whatwg/html/issues/8023,2022-06-20T17:35:02Z,2022-06-21T23:12:34Z,delta-9,addition/proposal|needs implementer interest,0
 1276077310,false,Add a warning sentence for iframe load event step,https://github.com/whatwg/html/pull/8022,2022-06-19T14:24:22Z,2022-06-21T13:48:20Z,negibokken,,0
 1275349394,true,Fix webauthn autocomplete token example,https://github.com/whatwg/html/pull/8020,2022-06-17T18:35:14Z,2022-06-17T18:41:00Z,nsatragno,,0
@@ -993,7 +995,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 860482749,true,WorkerGlobalScope worker set does not appear to be used,https://github.com/whatwg/html/issues/6592,2021-04-17T18:13:50Z,2021-04-20T15:13:37Z,domfarolino,topic: workers,0
 860367184,true,Refresh header field should have an IANA registration,https://github.com/whatwg/html/issues/6590,2021-04-17T09:21:04Z,2021-10-29T11:41:47Z,reschke,meta,0
 860203666,true,Add WebCodecs VideoFrame as CanvasImageSource.,https://github.com/whatwg/html/pull/6589,2021-04-16T22:00:18Z,2021-07-29T18:08:12Z,dalecurtis,addition/proposal|topic: canvas,0
-859459277,false,Should last activation timestamp be reset after navigation?,https://github.com/whatwg/html/issues/6588,2021-04-16T05:08:42Z,2022-06-16T13:07:13Z,rakina,topic: user activation,0
+859459277,true,Should last activation timestamp be reset after navigation?,https://github.com/whatwg/html/issues/6588,2021-04-16T05:08:42Z,2022-06-27T06:56:13Z,rakina,topic: user activation,0
 858933304,true,Improve normalization of the resulting URL record of protocol handlers,https://github.com/whatwg/html/pull/6587,2021-04-15T14:23:30Z,2021-04-16T09:52:18Z,fred-wang,addition/proposal|topic: custom protocols,1
 858579295,true,Export dfn of bc container document,https://github.com/whatwg/html/pull/6586,2021-04-15T07:25:18Z,2021-04-15T09:41:17Z,antosart,,0
 858337903,true,Clear manual slot assignment when re-assigning,https://github.com/whatwg/html/pull/6585,2021-04-14T23:23:59Z,2021-04-15T13:57:55Z,mfreed7,,0
