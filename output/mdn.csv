@@ -219,10 +219,10 @@ api/AudioParamMap/keys,https://developer.mozilla.org/en-US/docs/Web/API/AudioPar
 api/AudioParamMap/size,https://developer.mozilla.org/en-US/docs/Web/API/AudioParamMap/size,76,,66,,14.1,,false,true,false
 api/AudioParamMap/values,https://developer.mozilla.org/en-US/docs/Web/API/AudioParamMap/values,76,,66,,14.1,,false,true,false
 api/AudioProcessingEvent,https://developer.mozilla.org/en-US/docs/Web/API/AudioProcessingEvent,25,,14,,6,,false,true,true
-api/AudioProcessingEvent/AudioProcessingEvent,https://developer.mozilla.org/en-US/docs/Web/API/AudioProcessingEvent/AudioProcessingEvent,,,57,,14.1,,false,true,true
-api/AudioProcessingEvent/inputBuffer,https://developer.mozilla.org/en-US/docs/Web/API/AudioProcessingEvent/inputBuffer,25,,14,,6,,false,true,true
-api/AudioProcessingEvent/outputBuffer,https://developer.mozilla.org/en-US/docs/Web/API/AudioProcessingEvent/outputBuffer,25,,14,,6,,false,true,true
-api/AudioProcessingEvent/playbackTime,https://developer.mozilla.org/en-US/docs/Web/API/AudioProcessingEvent/playbackTime,25,,14,,6,,false,true,true
+api/AudioProcessingEvent/AudioProcessingEvent,,,,57,,14.1,,false,true,true
+api/AudioProcessingEvent/inputBuffer,,25,,14,,6,,false,true,true
+api/AudioProcessingEvent/outputBuffer,,25,,14,,6,,false,true,true
+api/AudioProcessingEvent/playbackTime,,25,,14,,6,,false,true,true
 api/AudioScheduledSourceNode,https://developer.mozilla.org/en-US/docs/Web/API/AudioScheduledSourceNode,53,,57,,14,,false,true,false
 api/AudioScheduledSourceNode/ended_event,https://developer.mozilla.org/en-US/docs/Web/API/AudioScheduledSourceNode/ended_event,25,,30,,7,,false,true,false
 api/AudioScheduledSourceNode/start,https://developer.mozilla.org/en-US/docs/Web/API/AudioScheduledSourceNode/start,25,,24,,7,,false,true,false
@@ -776,7 +776,7 @@ api/CanvasRenderingContext2D/font,https://developer.mozilla.org/en-US/docs/Web/A
 api/CanvasRenderingContext2D/getContextAttributes,https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/getContextAttributes,,,73,,15,,false,true,false
 api/CanvasRenderingContext2D/getImageData,https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/getImageData,2,,1,,4,,false,true,false
 api/CanvasRenderingContext2D/getLineDash,https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/getLineDash,27,,23,,7,,false,true,false
-api/CanvasRenderingContext2D/getTransform,https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/getTransform,70,,68,,11,,false,true,false
+api/CanvasRenderingContext2D/getTransform,https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/getTransform,70,,68,,11.1,,false,true,false
 api/CanvasRenderingContext2D/globalAlpha,https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalAlpha,1.5,,1,,2,,false,true,false
 api/CanvasRenderingContext2D/globalCompositeOperation,https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation,1.5,,1,,2,,false,true,false
 api/CanvasRenderingContext2D/imageSmoothingEnabled,https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/imageSmoothingEnabled,51,,30,,9.1,,false,true,false
@@ -804,7 +804,7 @@ api/CanvasRenderingContext2D/scale,https://developer.mozilla.org/en-US/docs/Web/
 api/CanvasRenderingContext2D/scrollPathIntoView,https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/scrollPathIntoView,,,36,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference""}]",,,true,true,false
 api/CanvasRenderingContext2D/setLineDash,https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setLineDash,27,,23,,7,,false,true,false
 api/CanvasRenderingContext2D/setTransform,https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setTransform,3,,1,,4,,false,true,false
-api/CanvasRenderingContext2D/setTransform/matrix_parameter,,70,,68,,11,,false,true,false
+api/CanvasRenderingContext2D/setTransform/matrix_parameter,,70,,68,,11.1,,false,true,false
 api/CanvasRenderingContext2D/shadowBlur,https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowBlur,1.5,,1,,2,,false,true,false
 api/CanvasRenderingContext2D/shadowColor,https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowColor,1.5,,1,,2,,false,true,false
 api/CanvasRenderingContext2D/shadowOffsetX,https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowOffsetX,1.5,,1,,2,,false,true,false
@@ -2104,7 +2104,6 @@ api/GlobalEventHandlers/onanimationend,https://developer.mozilla.org/en-US/docs/
 api/GlobalEventHandlers/onanimationiteration,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onanimationiteration,51,,79,,9,,false,true,false
 api/GlobalEventHandlers/onanimationstart,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onanimationstart,51,,79,,9,,false,true,false
 api/GlobalEventHandlers/onauxclick,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onauxclick,53,,55,,,,false,true,false
-api/GlobalEventHandlers/onblur,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onblur,9,,1,,1,,false,true,false
 api/GlobalEventHandlers/oncancel,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/oncancel,,,32,,,,false,true,false
 api/GlobalEventHandlers/onchange,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onchange,1,,1,,3,,false,true,false
 api/GlobalEventHandlers/onclick,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick,1,,1,,3,,false,true,false
@@ -2122,7 +2121,6 @@ api/GlobalEventHandlers/ondrop,https://developer.mozilla.org/en-US/docs/Web/API/
 api/GlobalEventHandlers/onemptied,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onemptied,9,,32,,9,,false,true,false
 api/GlobalEventHandlers/onended,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onended,9,,32,,9,,false,true,false
 api/GlobalEventHandlers/onerror,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onerror,1,,10,,6,,false,true,false
-api/GlobalEventHandlers/onfocus,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onfocus,9,,1,,1,,false,true,false
 api/GlobalEventHandlers/onformdata,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onformdata,72,,77,,15,,false,true,false
 api/GlobalEventHandlers/ongotpointercapture,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/ongotpointercapture,59,,57,,13,,false,true,false
 api/GlobalEventHandlers/oninput,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/oninput,9,,1,,4,,false,true,false
@@ -2144,9 +2142,6 @@ api/GlobalEventHandlers/onmouseout,https://developer.mozilla.org/en-US/docs/Web/
 api/GlobalEventHandlers/onmouseover,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onmouseover,9,,1,,1,,false,true,false
 api/GlobalEventHandlers/onmouseup,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onmouseup,9,,1,,1,,false,true,false
 api/GlobalEventHandlers/onmousewheel,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onmousewheel,,,1,,3,,false,false,true
-api/GlobalEventHandlers/onpause,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpause,9,,32,,9,,false,true,false
-api/GlobalEventHandlers/onplay,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onplay,9,,32,,9,,false,true,false
-api/GlobalEventHandlers/onplaying,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onplaying,9,,32,,9,,false,true,false
 api/GlobalEventHandlers/onpointercancel,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointercancel,59,,55,,13,,false,true,false
 api/GlobalEventHandlers/onpointerdown,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointerdown,59,,55,,13,,false,true,false
 api/GlobalEventHandlers/onpointerenter,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointerenter,59,,55,,13,,false,true,false
@@ -2156,23 +2151,16 @@ api/GlobalEventHandlers/onpointerout,https://developer.mozilla.org/en-US/docs/We
 api/GlobalEventHandlers/onpointerover,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointerover,59,,55,,13,,false,true,false
 api/GlobalEventHandlers/onpointerrawupdate,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointerrawupdate,,,77,,,,true,true,false
 api/GlobalEventHandlers/onpointerup,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointerup,59,,55,,13,,false,true,false
-api/GlobalEventHandlers/onprogress,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onprogress,9,,32,,9,,false,true,false
-api/GlobalEventHandlers/onratechange,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onratechange,9,,32,,9,,false,true,false
 api/GlobalEventHandlers/onreset,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onreset,9,,1,,1,,false,true,false
 api/GlobalEventHandlers/onresize,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onresize,38,,34,,10.1,,false,true,false
 api/GlobalEventHandlers/onscroll,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onscroll,9,,1,,1.3,,false,true,false
 api/GlobalEventHandlers/onsecuritypolicyviolation,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onsecuritypolicyviolation,93,,97,,preview,,false,true,false
-api/GlobalEventHandlers/onseeked,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onseeked,9,,32,,9,,false,true,false
-api/GlobalEventHandlers/onseeking,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onseeking,9,,32,,9,,false,true,false
 api/GlobalEventHandlers/onselect,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onselect,9,,1,,1,,false,true,false
 api/GlobalEventHandlers/onselectionchange,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onselectionchange,52,,11,,5.1,,false,true,false
 api/GlobalEventHandlers/onselectstart,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onselectstart,52,,1,,1.3,,false,true,false
 api/GlobalEventHandlers/onshow,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onshow,85,"[{""name"":""dom.menuitem.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,false,false,true
 api/GlobalEventHandlers/onslotchange,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onslotchange,93,,97,,preview,,false,true,false
-api/GlobalEventHandlers/onstalled,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onstalled,9,,32,,9,,false,true,false
 api/GlobalEventHandlers/onsubmit,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onsubmit,9,,1,,1,,false,true,false
-api/GlobalEventHandlers/onsuspend,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onsuspend,9,,32,,9,,false,true,false
-api/GlobalEventHandlers/ontimeupdate,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/ontimeupdate,9,,32,,9,,false,true,false
 api/GlobalEventHandlers/ontouchcancel,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/ontouchcancel,,,,,,,false,true,false
 api/GlobalEventHandlers/ontouchend,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/ontouchend,,,,,,,false,true,false
 api/GlobalEventHandlers/ontouchmove,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/ontouchmove,,,,,,,false,true,false
@@ -2181,8 +2169,6 @@ api/GlobalEventHandlers/ontransitioncancel,https://developer.mozilla.org/en-US/d
 api/GlobalEventHandlers/ontransitionend,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/ontransitionend,51,,79,,11,,false,true,false
 api/GlobalEventHandlers/ontransitionrun,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/ontransitionrun,53,,87,,13.1,,false,true,false
 api/GlobalEventHandlers/ontransitionstart,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/ontransitionstart,53,,87,,13.1,,false,true,false
-api/GlobalEventHandlers/onvolumechange,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onvolumechange,9,,32,,9,,false,true,false
-api/GlobalEventHandlers/onwaiting,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onwaiting,9,,32,,9,,false,true,false
 api/GlobalEventHandlers/onwheel,https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onwheel,17,,31,,7,,false,true,false
 api/GravitySensor,https://developer.mozilla.org/en-US/docs/Web/API/GravitySensor,,,91,,,,false,true,false
 api/GravitySensor/GravitySensor,https://developer.mozilla.org/en-US/docs/Web/API/GravitySensor/GravitySensor,,,91,,,,false,true,false
@@ -3627,7 +3613,7 @@ api/MediaStream/getVideoTracks,https://developer.mozilla.org/en-US/docs/Web/API/
 api/MediaStream/id,https://developer.mozilla.org/en-US/docs/Web/API/MediaStream/id,41,,26,,11,,false,true,false
 api/MediaStream/inactive_event,,,,42,,,,false,true,false
 api/MediaStream/removeTrack,https://developer.mozilla.org/en-US/docs/Web/API/MediaStream/removeTrack,44,,26,,11,,false,true,false
-api/MediaStream/removetrack_event,https://developer.mozilla.org/en-US/docs/Web/API/MediaStream/removetrack_event,,,26,,11,,false,true,false
+api/MediaStream/removetrack_event,https://developer.mozilla.org/en-US/docs/Web/API/MediaStream/removetrack_event,72,,26,,11,,false,true,false
 api/MediaStream/stop,,,,29,,,,false,true,true
 api/MediaStreamAudioDestinationNode,https://developer.mozilla.org/en-US/docs/Web/API/MediaStreamAudioDestinationNode,25,,14,,6,,false,true,false
 api/MediaStreamAudioDestinationNode/MediaStreamAudioDestinationNode,https://developer.mozilla.org/en-US/docs/Web/API/MediaStreamAudioDestinationNode/MediaStreamAudioDestinationNode,53,,55,,14.1,,false,true,false
@@ -6031,6 +6017,7 @@ api/SharedWorker/error_event,https://developer.mozilla.org/en-US/docs/Web/API/Sh
 api/SharedWorker/port,https://developer.mozilla.org/en-US/docs/Web/API/SharedWorker/port,29,,4,,16,,false,true,false
 api/SharedWorkerGlobalScope,https://developer.mozilla.org/en-US/docs/Web/API/SharedWorkerGlobalScope,29,,4,,16,,false,true,false
 api/SharedWorkerGlobalScope/applicationCache,https://developer.mozilla.org/en-US/docs/Web/API/SharedWorkerGlobalScope/applicationCache,29,,4,,,,false,false,true
+api/SharedWorkerGlobalScope/applicationCache/secure_context_required,,,,70,,,,false,true,false
 api/SharedWorkerGlobalScope/close,https://developer.mozilla.org/en-US/docs/Web/API/SharedWorkerGlobalScope/close,29,,4,,16,,false,true,false
 api/SharedWorkerGlobalScope/connect_event,https://developer.mozilla.org/en-US/docs/Web/API/SharedWorkerGlobalScope/connect_event,29,,4,,16,,false,true,false
 api/SharedWorkerGlobalScope/name,https://developer.mozilla.org/en-US/docs/Web/API/SharedWorkerGlobalScope/name,29,,4,,16,,false,true,false
@@ -8282,14 +8269,14 @@ css/properties/grid-row-start,https://developer.mozilla.org/en-US/docs/Web/CSS/g
 css/properties/grid-template,https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template,52,,57,,10.1,,false,true,false
 css/properties/grid-template-areas,https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas,52,,57,,10.1,,false,true,false
 css/properties/grid-template-columns,https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns,52,,57,,10.1,,false,true,false
-css/properties/grid-template-columns/animation,,66,,,,,,false,true,false
+css/properties/grid-template-columns/animation,,66,,,,16,,false,true,false
 css/properties/grid-template-columns/fit-content,https://developer.mozilla.org/en-US/docs/Web/CSS/fit-content,52,,57,,10.1,,false,true,false
 css/properties/grid-template-columns/masonry,,77,"[{""name"":""layout.css.grid-template-masonry-value.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false
 css/properties/grid-template-columns/minmax,https://developer.mozilla.org/en-US/docs/Web/CSS/minmax(),52,,57,,10.1,,false,true,false
 css/properties/grid-template-columns/repeat,https://developer.mozilla.org/en-US/docs/Web/CSS/repeat(),76,,57,,10.1,,false,true,false
 css/properties/grid-template-columns/subgrid,https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Subgrid,71,,,,,,false,true,false
 css/properties/grid-template-rows,https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows,52,,57,,10.1,,false,true,false
-css/properties/grid-template-rows/animation,,66,,,,,,false,true,false
+css/properties/grid-template-rows/animation,,66,,,,16,,false,true,false
 css/properties/grid-template-rows/fit-content,https://developer.mozilla.org/en-US/docs/Web/CSS/fit-content,52,,57,,10.1,,false,true,false
 css/properties/grid-template-rows/masonry,https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Masonry_Layout,77,"[{""name"":""layout.css.grid-template-masonry-value.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false
 css/properties/grid-template-rows/minmax,https://developer.mozilla.org/en-US/docs/Web/CSS/minmax(),52,,57,,10.1,,false,true,false
@@ -11044,7 +11031,6 @@ javascript/builtins/eval,https://developer.mozilla.org/en-US/docs/Web/JavaScript
 javascript/builtins/globalThis,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/globalThis,65,,71,,12.1,,false,true,false
 javascript/builtins/isFinite,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isFinite,1,,1,,1,,false,true,false
 javascript/builtins/isNaN,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN,1,,1,,1,,false,true,false
-javascript/builtins/null,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null,1,,1,,1,,false,true,false
 javascript/builtins/parseFloat,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat,1,,1,,1,,false,true,false
 javascript/builtins/parseInt,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt,1,,1,,1,,false,true,false
 javascript/builtins/parseInt/leading_zero_strings_as_decimal,,21,,23,,6,,false,true,false
@@ -11138,6 +11124,7 @@ javascript/operators/greater_than,https://developer.mozilla.org/en-US/docs/Web/J
 javascript/operators/greater_than_or_equal,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Greater_than_or_equal,1,,1,,1,,false,true,false
 javascript/operators/grouping,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Grouping,1,,1,,1,,false,true,false
 javascript/operators/import,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Import,67,,63,,11.1,,false,true,false
+javascript/operators/import_meta,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/import.meta,62,,64,,11.1,,false,true,false
 javascript/operators/in,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in,1,,1,,1,,false,true,false
 javascript/operators/increment,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment,1,,2,,4,,false,true,false
 javascript/operators/inequality,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Inequality,1,,1,,1,,false,true,false
@@ -11156,6 +11143,7 @@ javascript/operators/multiplication,https://developer.mozilla.org/en-US/docs/Web
 javascript/operators/multiplication_assignment,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Multiplication_assignment,1,,1,,1,,false,true,false
 javascript/operators/new,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new,1,,1,,1,,false,true,false
 javascript/operators/new_target,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new.target,41,,46,,11,,false,true,false
+javascript/operators/null,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/null,1,,1,,1,,false,true,false
 javascript/operators/nullish_coalescing,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator,72,,80,,13.1,,false,true,false
 javascript/operators/object_initializer,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer,1,,1,,1,,false,true,false
 javascript/operators/object_initializer/computed_property_names,,34,,47,,8,,false,true,false
@@ -11213,7 +11201,6 @@ javascript/statements/generator_function/trailing_comma_in_parameters,,52,,58,,1
 javascript/statements/if_else,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else,1,,1,,1,,false,true,false
 javascript/statements/import,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import,60,,61,,10.1,,false,true,false
 javascript/statements/import/worker_support,,,,80,,15,,false,true,false
-javascript/statements/import_meta,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import.meta,62,,64,,11.1,,false,true,false
 javascript/statements/label,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label,1,,1,,1,,false,true,false
 javascript/statements/let,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let,44,,49,,10,,false,true,false
 javascript/statements/return,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return,1,,1,,1,,false,true,false
