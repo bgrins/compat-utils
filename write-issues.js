@@ -31,9 +31,10 @@ async function fetchIssues(initialURL) {
     console.log("Getting issues from", url);
     let resp = await fetchWithToken(url);
     let data = await resp.json();
-    let linkHeader = resp.headers.get("Link")
-      ? parseLinkHeader(resp.headers.get("Link"))
-      : [];
+    let linkHeader = (
+      resp.headers.get("Link") ? parseLinkHeader(resp.headers.get("Link")) : []
+    )
+      .find((link) => link.rel == "next");
 
     if (!Array.isArray(data)) {
       console.error(data);
@@ -53,10 +54,8 @@ async function fetchIssues(initialURL) {
     output.issues = output.issues.concat(issues);
     output.prs = output.prs.concat(prs);
 
-    for (let link of linkHeader) {
-      if (link.rel == "next") {
-        await getIssues(link.uri);
-      }
+    if (linkHeader) {
+      await getIssues(linkHeader.uri);
     }
   }
   await getIssues(initialURL);

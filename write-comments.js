@@ -5,20 +5,31 @@ import {
   moment,
   json_to_csv,
   fetchWithToken,
+  parseLinkHeader,
 } from "./deps.js";
 
 console.log(`Has an API token? ${!!GH_TOKEN}`);
+
+const ISSUE_URL_TO_METADATA = {};
 
 async function fetchIssueComments() {
   let since = moment().subtract(2, "week").toISOString();
   console.log(`Fetching since ${since}`);
   let allComments = [];
-  const issueURLToMetadata = {};
 
   for (const repo of REPOS) {
-    let resp = await fetchWithToken(
-      `https://api.github.com/repos/${repo}/issues/comments?per_page=1000&sort=created&direction=desc&since=${since}`
+    await getIssueComments(
+      `https://api.github.com/repos/${repo}/issues/comments?per_page=1000&sort=created&direction=desc&since=${since}`,
+      repo
     );
+  }
+  async function getIssueComments(url, repo) {
+    let resp = await fetchWithToken(url);
+
+    let linkHeader = (
+      resp.headers.get("Link") ? parseLinkHeader(resp.headers.get("Link")) : []
+    ).find((link) => link.rel == "next");
+
     // let resp = await fetch(`https://api.github.com/repos/${repo}/issues/events?per_page=1000`);
     let data = await resp.json();
 
@@ -34,21 +45,25 @@ async function fetchIssueComments() {
         .replaceAll("\r\n", " ")
         .replaceAll("\n", " ");
 
-      if (!issueURLToMetadata[comment.issue_url]) {
+      if (!ISSUE_URL_TO_METADATA[comment.issue_url]) {
         console.log(`Fetching issue metadata from ${comment.issue_url}`);
         let json = await (await fetchWithToken(comment.issue_url)).json();
-        issueURLToMetadata[comment.issue_url] = {
+        ISSUE_URL_TO_METADATA[comment.issue_url] = {
           issue_url: json.html_url,
           issue_title: json.title,
         };
       }
-      let metadata = issueURLToMetadata[comment.issue_url];
+      let metadata = ISSUE_URL_TO_METADATA[comment.issue_url];
       // console.log(metadata);
 
       comment.issue_url = metadata.issue_url;
       comment.issue_title = metadata.issue_title;
     }
     allComments = allComments.concat(filtered);
+
+    if (linkHeader) {
+      await getIssueComments(linkHeader.uri, repo);
+    }
   }
 
   allComments.sort((a, b) => {

@@ -17,10 +17,8 @@ export const REPOS = [
   "whatwg/fullscreen",
   "WICG/webcomponents",
   "w3c/pointerevents",
-  // "w3c/clipboard-api",
   "w3c/pointerlock",
   "w3c/editcontext",
-  // "w3c/input-event",
   "whatwg/html",
 ];
 
