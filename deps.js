@@ -7,6 +7,7 @@ import papaparse from "https://esm.sh/papaparse/";
 
 export const REPOS = [
   "mozilla/standards-positions",
+  "webkit/standards-positions",
   "w3ctag/design-reviews",
   "whatwg/dom",
   "whatwg/webidl",

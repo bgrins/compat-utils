@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1295936796,false,Proposal: actively peeking/deleting message in queen from Window/WebWorker,https://github.com/whatwg/html/issues/8083,2022-07-06T14:34:52Z,2022-07-06T14:34:52Z,Zhang-Junzhi,,0
 1295686187,false,Improve UX : Fluent UI transitions for non SPA websites,https://github.com/whatwg/html/issues/8082,2022-07-06T11:22:32Z,2022-07-06T11:25:03Z,perelengo,,0
 1295622672,false,Review accessibility of the content models venn diagram,https://github.com/whatwg/html/issues/8081,2022-07-06T10:29:39Z,2022-07-06T10:29:39Z,zcorpan,accessibility|editorial,0
 1295519751,false,Update the image data - setting src to the same value logic seems incorrect,https://github.com/whatwg/html/issues/8080,2022-07-06T09:10:17Z,2022-07-06T09:43:44Z,zcorpan,good first issue|topic: img,0
@@ -810,7 +811,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 692077232,false,Expose XMP information to the browser (and potentially JavaScript),https://github.com/whatwg/html/issues/5890,2020-09-03T15:38:30Z,2021-10-03T07:33:04Z,lrosenthol,addition/proposal|needs implementer interest|topic: media|topic: img,3
 691678305,true,cross-origin-isolated permission tests,https://github.com/whatwg/html/issues/5888,2020-09-03T06:21:36Z,2020-09-24T01:13:42Z,annevk,needs tests|topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,0
 691162250,false,"Explicitly pass ""perform the fetch"" steps through dependent algorithms",https://github.com/whatwg/html/issues/5887,2020-09-02T16:18:34Z,2020-09-07T10:26:36Z,jugglinmike,clarification,0
-690480691,false,Event bubbling on disabled form elements,https://github.com/whatwg/html/issues/5886,2020-09-01T22:05:15Z,2022-07-06T09:53:23Z,josepharhar,topic: forms|topic: events|interop|agenda+,0
+690480691,false,Event bubbling on disabled form elements,https://github.com/whatwg/html/issues/5886,2020-09-01T22:05:15Z,2022-07-06T20:52:20Z,josepharhar,topic: forms|topic: events|interop|agenda+,0
 688861626,false,Back-forward cache meta-bug,https://github.com/whatwg/html/issues/5880,2020-08-31T02:58:40Z,2021-10-21T01:13:32Z,rakina,topic: history,0
 688860879,false,Back-forward cache: Specifying ineligibility?,https://github.com/whatwg/html/issues/5879,2020-08-31T02:55:55Z,2021-10-12T15:53:17Z,rakina,topic: history,0
 688847041,true,Back-forward cache: Restoring focus,https://github.com/whatwg/html/issues/5878,2020-08-31T02:07:44Z,2021-12-08T02:31:47Z,rakina,topic: history|topic: focus,0
@@ -1263,7 +1264,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 503606041,false,Multiple Selections from Datalist,https://github.com/whatwg/html/issues/4979,2019-10-07T18:06:20Z,2021-03-21T00:07:52Z,ecc521,addition/proposal|needs implementer interest|topic: forms,1
 503303399,false,"Remove the ""template"" use case for hidden=""""",https://github.com/whatwg/html/issues/4977,2019-10-07T08:28:24Z,2019-10-07T09:15:35Z,zcorpan,document conformance,2
 502238532,true,nullable window.top.,https://github.com/whatwg/html/issues/4971,2019-10-03T18:56:16Z,2019-10-11T17:09:23Z,jdalton,,0
-502234364,true,"Utilizing Aspect-Ratio with Art Direction (Multiple Sources with various Aspect Ratios known) ",https://github.com/whatwg/html/issues/4968,2019-10-03T18:47:14Z,2022-05-06T14:36:11Z,AndresInSpace,addition/proposal|needs implementer interest|topic: rendering|topic: img,63
+502234364,true,"Utilizing Aspect-Ratio with Art Direction (Multiple Sources with various Aspect Ratios known) ",https://github.com/whatwg/html/issues/4968,2019-10-03T18:47:14Z,2022-07-06T21:35:07Z,AndresInSpace,addition/proposal|needs implementer interest|topic: rendering|topic: img,63
 502198957,false,load event handling for iframes with no src may not be web compatible,https://github.com/whatwg/html/issues/4965,2019-10-03T17:31:29Z,2020-01-16T10:26:55Z,bzbarsky,compat|topic: browsing context,0
 501429792,true,Use width and height as intrinsic aspect ratio for various non-img elements,https://github.com/whatwg/html/issues/4961,2019-10-02T11:24:59Z,2021-05-12T13:06:11Z,annevk,addition/proposal|topic: media|topic: rendering|topic: img|needs concrete proposal,0
 499962415,false,"Time is defined to have a fraction of a second part, but this is never used",https://github.com/whatwg/html/issues/4949,2019-09-29T19:54:43Z,2019-09-30T12:08:41Z,Zegnat,,0
@@ -1539,7 +1540,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 428972778,false,select element sizing should ignore optgroup labels,https://github.com/whatwg/html/issues/4502,2019-04-03T21:00:19Z,2019-04-06T21:35:08Z,heycam,compat|topic: rendering|topic: forms,0
 428861631,false,"""8.1.3.13 HostEnsureCanCompileStrings"" affected by tc39/ecma262 PR #1498",https://github.com/whatwg/html/issues/4501,2019-04-03T16:25:26Z,2019-04-04T14:05:18Z,mikesamuel,addition/proposal|security/privacy|integration,0
 428821635,false,Clarify that <details open> fires the toggle event even if the open attribute is set from the parser,https://github.com/whatwg/html/issues/4500,2019-04-03T15:06:10Z,2019-11-07T09:02:13Z,emilio,clarification,0
-427200612,true,"<img>: Have an autorotate="""" attribute that honours orientation metadata in the image (e.g. EXIF)",https://github.com/whatwg/html/issues/4495,2019-03-29T22:27:06Z,2021-06-29T15:09:57Z,zcorpan,addition/proposal|topic: img|impacts documentation,2
+427200612,true,"<img>: Have an autorotate="""" attribute that honours orientation metadata in the image (e.g. EXIF)",https://github.com/whatwg/html/issues/4495,2019-03-29T22:27:06Z,2022-07-06T20:33:06Z,zcorpan,addition/proposal|topic: img|impacts documentation,2
 427199462,false,Unclear interaction between responsive images and drag and drop,https://github.com/whatwg/html/issues/4493,2019-03-29T22:21:47Z,2019-03-29T22:21:47Z,domenic,topic: img|needs tests|topic: drag and drop,0
 427198546,false,"Treat preload=""none"" as preload=""metadata"" when load() is called",https://github.com/whatwg/html/issues/4492,2019-03-29T22:17:36Z,2019-03-29T22:17:36Z,domenic,compat|topic: media|needs tests|interop,0
 427196368,false,MSE integration and track removal,https://github.com/whatwg/html/issues/4491,2019-03-29T22:08:20Z,2019-03-29T22:08:20Z,domenic,topic: media,0

@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1295301121,false,Fix a few broken links to CSS specs from the event loop,https://github.com/whatwg/html/pull/8078,2022-07-06T07:03:07Z,2022-07-06T07:04:40Z,domenic,,0
+1296464358,false,Do not whitespace-strip <script>'s language attribute,https://github.com/whatwg/html/pull/8084,2022-07-06T21:06:17Z,2022-07-06T21:07:34Z,hiroshige-g,,0
+1295301121,true,Fix a few broken links to CSS specs from the event loop,https://github.com/whatwg/html/pull/8078,2022-07-06T07:03:07Z,2022-07-06T12:39:34Z,domenic,,0
 1293818687,false,Add basic import maps support,https://github.com/whatwg/html/pull/8075,2022-07-05T05:49:22Z,2022-07-05T05:58:05Z,domenic,addition/proposal|topic: script,3
 1293475753,false,Support import.meta.resolve baseURL argument,https://github.com/whatwg/html/pull/8074,2022-07-04T18:34:06Z,2022-07-06T06:52:51Z,guybedford,addition/proposal|needs implementer interest|topic: script,0
 1292921546,false,"Use ""queue an element task"" properly in script preparation",https://github.com/whatwg/html/pull/8072,2022-07-04T09:55:51Z,2022-07-04T11:10:21Z,domenic,topic: script|topic: event loop,0
@@ -21,7 +22,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1274141161,true,Export 'the body element' for other specifications to use,https://github.com/whatwg/html/pull/8017,2022-06-16T22:23:05Z,2022-06-16T22:53:22Z,zcorpan,,0
 1273830563,false,Add IntersectionObserver target requirement to Event Loops Processing Model,https://github.com/whatwg/html/pull/8016,2022-06-16T16:45:47Z,2022-06-28T09:09:01Z,nathaneliason,,0
 1270712984,true,Integrate with WebDriver-BiDi user prompt handling.,https://github.com/whatwg/html/pull/8010,2022-06-14T12:14:42Z,2022-06-17T18:46:26Z,jgraham,,0
-1270116125,false,Add sizes=auto to lazy-loaded <img>,https://github.com/whatwg/html/pull/8008,2022-06-14T00:47:59Z,2022-07-06T09:23:54Z,zcorpan,,9
+1270116125,false,Add sizes=auto to lazy-loaded <img>,https://github.com/whatwg/html/pull/8008,2022-06-14T00:47:59Z,2022-07-06T13:09:58Z,zcorpan,,9
 1269893795,true,"Add ""webauthn"" autocomplete token",https://github.com/whatwg/html/pull/8006,2022-06-13T20:03:26Z,2022-06-16T18:49:14Z,nsatragno,,0
 1267714744,true,Export `HTMLTemplateElement`'s `content`.,https://github.com/whatwg/html/pull/7998,2022-06-10T15:39:14Z,2022-06-13T08:51:58Z,mozfreddyb,,0
 1265300355,true,Compare against storage key when creating a SharedWorker. (#7913),https://github.com/whatwg/html/pull/7995,2022-06-08T20:56:35Z,2022-06-15T17:09:57Z,wanderview,topic: workers,0
@@ -973,7 +974,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 579100536,true,"Editorial: clean up ambiguous usages of string's ""length"" and ""offset""",https://github.com/whatwg/html/pull/5346,2020-03-11T08:51:17Z,2020-03-11T14:50:40Z,andreubotella,,0
 578203019,true,Remove mark paint timing call,https://github.com/whatwg/html/pull/5344,2020-03-09T21:30:47Z,2020-03-12T19:31:34Z,npm1,normative change|topic: event loop,0
 577842742,true,Editorial: align with Infra string changes,https://github.com/whatwg/html/pull/5342,2020-03-09T11:35:41Z,2020-03-10T09:58:35Z,annevk,,0
-577078664,false,JavaScript ShadowRealm proposal integration,https://github.com/whatwg/html/pull/5339,2020-03-06T17:37:30Z,2022-06-30T15:45:52Z,littledan,do not merge yet,0
+577078664,false,JavaScript ShadowRealm proposal integration,https://github.com/whatwg/html/pull/5339,2020-03-06T17:37:30Z,2022-07-06T21:23:01Z,littledan,do not merge yet,0
 575843237,true,Add connected check to input/change events for checkboxes/radios,https://github.com/whatwg/html/pull/5335,2020-03-04T22:39:04Z,2020-03-05T19:56:39Z,josepharhar,,0
 575381538,true,Add cross-origin opener policy,https://github.com/whatwg/html/pull/5334,2020-03-04T12:59:37Z,2022-03-22T07:03:47Z,camillelamy,topic: cross-origin-opener-policy,0
 574954376,false,Add 'Run video.rAF callbacks' to rendering steps,https://github.com/whatwg/html/pull/5332,2020-03-03T21:22:46Z,2021-07-27T17:07:58Z,tguilbert-google,,0
@@ -1233,7 +1234,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 432528054,true,Make CustomElementConstructor exceptions more consistent,https://github.com/whatwg/html/pull/4525,2019-04-12T11:51:39Z,2019-04-15T12:31:19Z,annevk,normative change|topic: custom elements,0
 431419998,true,Add <link disabled>,https://github.com/whatwg/html/pull/4519,2019-04-10T10:15:42Z,2020-06-05T07:25:37Z,annevk,impacts documentation,3
 430956642,true,Editorial: fix noreferrer processing model link,https://github.com/whatwg/html/pull/4517,2019-04-09T13:05:53Z,2019-04-10T06:51:22Z,annevk,,0
-429424157,true,[WIP] Introduce HTML Modules,https://github.com/whatwg/html/pull/4505,2019-04-04T18:35:05Z,2021-07-04T00:13:39Z,dandclark,addition/proposal|needs tests,13
+429424157,true,[WIP] Introduce HTML Modules,https://github.com/whatwg/html/pull/4505,2019-04-04T18:35:05Z,2022-07-06T22:41:08Z,dandclark,addition/proposal|needs tests,14
 429160111,true,Update IRC weblink,https://github.com/whatwg/html/pull/4503,2019-04-04T08:58:49Z,2019-04-04T17:26:25Z,suriyaa,,0
 427200389,true,Meta: remove commented-out legacy bugs link,https://github.com/whatwg/html/pull/4494,2019-03-29T22:25:55Z,2019-04-05T09:25:34Z,domenic,,0
 427163561,true,Add multiplied-out coordinates for canvas transforms,https://github.com/whatwg/html/pull/4473,2019-03-29T20:22:12Z,2019-05-14T14:28:40Z,domenic,topic: canvas,0
