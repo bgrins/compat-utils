@@ -1,26 +1,27 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1293818687,false,Add basic import maps support,https://github.com/whatwg/html/pull/8075,2022-07-05T05:49:22Z,2022-07-05T05:58:05Z,domenic,addition/proposal|topic: script,1
-1293475753,false,Support import.meta.resolve baseURL argument,https://github.com/whatwg/html/pull/8074,2022-07-04T18:34:06Z,2022-07-05T23:54:36Z,guybedford,,0
+1295301121,false,Fix a few broken links to CSS specs from the event loop,https://github.com/whatwg/html/pull/8078,2022-07-06T07:03:07Z,2022-07-06T07:04:40Z,domenic,,0
+1293818687,false,Add basic import maps support,https://github.com/whatwg/html/pull/8075,2022-07-05T05:49:22Z,2022-07-05T05:58:05Z,domenic,addition/proposal|topic: script,3
+1293475753,false,Support import.meta.resolve baseURL argument,https://github.com/whatwg/html/pull/8074,2022-07-04T18:34:06Z,2022-07-06T06:52:51Z,guybedford,addition/proposal|needs implementer interest|topic: script,0
 1292921546,false,"Use ""queue an element task"" properly in script preparation",https://github.com/whatwg/html/pull/8072,2022-07-04T09:55:51Z,2022-07-04T11:10:21Z,domenic,topic: script|topic: event loop,0
 1291564015,true,Amend #7829 by updating example,https://github.com/whatwg/html/pull/8063,2022-07-01T15:43:04Z,2022-07-03T02:20:55Z,cadonau,,0
 1291054654,true,Align interface for securitypolicyviolation with CSP spec,https://github.com/whatwg/html/pull/8062,2022-07-01T07:59:25Z,2022-07-03T02:14:21Z,dontcallmedom,,0
 1291039541,true,Align dfn-for with target interfaces for a couple of media events,https://github.com/whatwg/html/pull/8061,2022-07-01T07:43:08Z,2022-07-01T07:50:31Z,dontcallmedom,,0
-1290671470,false,Fix processing in 'updating the image data',https://github.com/whatwg/html/pull/8059,2022-06-30T21:46:35Z,2022-07-04T22:21:10Z,zcorpan,,0
+1290671470,true,Fix processing in 'updating the image data',https://github.com/whatwg/html/pull/8059,2022-06-30T21:46:35Z,2022-07-06T09:38:54Z,zcorpan,,0
 1289822912,false,Make about:srcdoc to inherit PolicyContainer from history.,https://github.com/whatwg/html/pull/8057,2022-06-30T09:01:56Z,2022-07-04T01:04:51Z,ArthurSonzogni,topic: history|topic: browsing context|topic: policy container,0
 1288288315,true,Update 404.html,https://github.com/whatwg/html/pull/8052,2022-06-29T07:27:17Z,2022-06-30T08:30:54Z,devanshu0605,spam,0
-1288039507,false,chore: Set permissions for GitHub actions,https://github.com/whatwg/html/pull/8049,2022-06-29T00:37:12Z,2022-06-29T00:37:12Z,naveensrinivasan,,0
+1288039507,true,chore: Set permissions for GitHub actions,https://github.com/whatwg/html/pull/8049,2022-06-29T00:37:12Z,2022-07-06T10:23:35Z,naveensrinivasan,,0
 1285261705,false,Fix HostPromiseRejectionHandler when running script is null,https://github.com/whatwg/html/pull/8043,2022-06-27T05:23:09Z,2022-06-29T07:05:22Z,domenic,topic: script,0
 1283808531,false,Add cross-site ancestor flag to environment. (privacycg/storage-parti…,https://github.com/whatwg/html/pull/8036,2022-06-24T14:16:39Z,2022-06-24T14:18:28Z,wanderview,,0
 1281837141,true,Add note about last activation timestamp spanning navigations,https://github.com/whatwg/html/pull/8029,2022-06-23T05:47:01Z,2022-06-27T06:56:12Z,rakina,clarification|topic: user activation,0
 1281180383,false,Add new UA style rules for overflow changes; see w3c/csswg-drafts#7144,https://github.com/whatwg/html/pull/8028,2022-06-22T23:00:59Z,2022-06-23T00:09:45Z,tabatkins,,0
 1280773484,false,Add top-level site to environment. (#8014),https://github.com/whatwg/html/pull/8027,2022-06-22T19:33:12Z,2022-06-22T20:01:24Z,wanderview,,0
-1280748717,false,"Editorial: use <iframe>, not <object>, for content-venn.svg",https://github.com/whatwg/html/pull/8026,2022-06-22T19:10:44Z,2022-06-22T19:12:15Z,domenic,topic: embed and object,0
+1280748717,true,"Editorial: use <iframe>, not <object>, for content-venn.svg",https://github.com/whatwg/html/pull/8026,2022-06-22T19:10:44Z,2022-07-06T10:10:10Z,domenic,topic: embed and object,0
 1276077310,false,Add a warning sentence for iframe load event step,https://github.com/whatwg/html/pull/8022,2022-06-19T14:24:22Z,2022-06-30T23:49:07Z,negibokken,,0
 1275349394,true,Fix webauthn autocomplete token example,https://github.com/whatwg/html/pull/8020,2022-06-17T18:35:14Z,2022-06-17T18:41:00Z,nsatragno,,0
 1274141161,true,Export 'the body element' for other specifications to use,https://github.com/whatwg/html/pull/8017,2022-06-16T22:23:05Z,2022-06-16T22:53:22Z,zcorpan,,0
 1273830563,false,Add IntersectionObserver target requirement to Event Loops Processing Model,https://github.com/whatwg/html/pull/8016,2022-06-16T16:45:47Z,2022-06-28T09:09:01Z,nathaneliason,,0
 1270712984,true,Integrate with WebDriver-BiDi user prompt handling.,https://github.com/whatwg/html/pull/8010,2022-06-14T12:14:42Z,2022-06-17T18:46:26Z,jgraham,,0
-1270116125,false,Add sizes=auto to lazy-loaded <img>,https://github.com/whatwg/html/pull/8008,2022-06-14T00:47:59Z,2022-06-30T13:44:16Z,zcorpan,,7
+1270116125,false,Add sizes=auto to lazy-loaded <img>,https://github.com/whatwg/html/pull/8008,2022-06-14T00:47:59Z,2022-07-06T09:23:54Z,zcorpan,,9
 1269893795,true,"Add ""webauthn"" autocomplete token",https://github.com/whatwg/html/pull/8006,2022-06-13T20:03:26Z,2022-06-16T18:49:14Z,nsatragno,,0
 1267714744,true,Export `HTMLTemplateElement`'s `content`.,https://github.com/whatwg/html/pull/7998,2022-06-10T15:39:14Z,2022-06-13T08:51:58Z,mozfreddyb,,0
 1265300355,true,Compare against storage key when creating a SharedWorker. (#7913),https://github.com/whatwg/html/pull/7995,2022-06-08T20:56:35Z,2022-06-15T17:09:57Z,wanderview,topic: workers,0
@@ -34,7 +35,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1254713315,true,Do not allow hash method mismatch in comsuming preloads,https://github.com/whatwg/html/pull/7974,2022-06-01T02:21:58Z,2022-06-03T19:25:24Z,hiroshige-g,topic: resource hints (inc. preload),0
 1254148000,true,Editorial: use argument defaulting in create a classic script,https://github.com/whatwg/html/pull/7970,2022-05-31T17:00:25Z,2022-05-31T17:12:06Z,annevk,,0
 1254144293,true,Provide standalone ParseScript wrapper,https://github.com/whatwg/html/pull/7969,2022-05-31T16:56:15Z,2022-05-31T17:59:29Z,annevk,,0
-1252959860,false,Corrects html/source for #7930,https://github.com/whatwg/html/pull/7968,2022-05-30T16:50:57Z,2022-05-30T16:52:28Z,debanjana-a11y,,0
+1252959860,false,Corrects html/source for #7930,https://github.com/whatwg/html/pull/7968,2022-05-30T16:50:57Z,2022-07-06T07:27:00Z,debanjana-a11y,,0
 1251855637,true,Editorial: Fix misspelling of 'preferable',https://github.com/whatwg/html/pull/7965,2022-05-29T10:57:43Z,2022-05-31T18:03:20Z,linusg,,0
 1250937068,true,Support nonce & referrer-policy in preload & link headers,https://github.com/whatwg/html/pull/7961,2022-05-27T16:13:21Z,2022-06-02T22:56:16Z,noamr,addition/proposal|topic: link,0
 1248977930,true,fix: [2.1.4 DOM trees] change insertedNode to removedNode,https://github.com/whatwg/html/pull/7959,2022-05-26T01:25:54Z,2022-05-26T15:27:53Z,dmhalejr,,0
@@ -105,7 +106,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1182684599,true,Make dialog styling use system colors.,https://github.com/whatwg/html/pull/7755,2022-03-27T22:28:10Z,2022-03-29T07:44:06Z,emilio,normative change|topic: rendering|interop|topic: dialog,0
 1176822208,true,Amend preload integrity check to match implementations,https://github.com/whatwg/html/pull/7738,2022-03-22T13:53:52Z,2022-05-20T10:54:48Z,noamr,topic: link|topic: resource hints (inc. preload),0
 1175932246,false,Remove types from implicit submission block,https://github.com/whatwg/html/pull/7731,2022-03-21T20:57:30Z,2022-04-28T18:57:39Z,IliasDewachter,topic: forms,0
-1174523794,false,Editorial: refactor to depend on automatic timing reporting from fetch,https://github.com/whatwg/html/pull/7722,2022-03-20T11:59:06Z,2022-06-07T18:59:27Z,noamr,,0
+1174523794,false,Editorial: refactor to depend on automatic timing reporting from fetch,https://github.com/whatwg/html/pull/7722,2022-03-20T11:59:06Z,2022-07-06T11:25:55Z,noamr,,0
 1173723197,true,Set timeOrigin to fetch startTime,https://github.com/whatwg/html/pull/7720,2022-03-18T15:31:56Z,2022-05-03T18:30:01Z,noamr,topic: navigation,0
 1172081672,true,Meta: match whatwg.org color contrast tweaks,https://github.com/whatwg/html/pull/7715,2022-03-17T08:36:26Z,2022-03-17T08:56:42Z,annevk,,0
 1170680025,true,"Clarify usage of ""insertion steps"" in the HTML Standard",https://github.com/whatwg/html/pull/7712,2022-03-16T08:13:22Z,2022-03-28T18:40:13Z,sylph01,,0
@@ -341,7 +342,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 972963528,true,Editorial: use static class property syntax in examples,https://github.com/whatwg/html/pull/6966,2021-08-17T18:38:58Z,2021-08-31T10:41:24Z,domenic,topic: custom elements,0
 972139185,true,"Editorial: Changed ""Emit that DOCTYPE token"" to ""Emit the current DOCTYPE token""",https://github.com/whatwg/html/pull/6964,2021-08-16T22:13:30Z,2021-08-25T16:11:38Z,philipbrembeck,,0
 972011693,true,Editorial: Added quotation marks to meta-generator example,https://github.com/whatwg/html/pull/6963,2021-08-16T18:53:40Z,2021-08-17T18:46:55Z,philipbrembeck,,0
-970244209,false,"""Record & Tuple"" proposal HTML serialization support",https://github.com/whatwg/html/pull/6958,2021-08-13T09:49:07Z,2022-07-01T09:43:13Z,nicolo-ribaudo,,0
+970244209,false,"""Record & Tuple"" proposal HTML serialization support",https://github.com/whatwg/html/pull/6958,2021-08-13T09:49:07Z,2022-07-01T09:43:13Z,nicolo-ribaudo,,1
 968860129,true,More neutral example text for alt text,https://github.com/whatwg/html/pull/6956,2021-08-12T13:45:38Z,2021-08-31T08:27:03Z,edent,,0
 968807133,true,local,https://github.com/whatwg/html/pull/6955,2021-08-12T13:15:38Z,2021-08-12T15:57:01Z,michael-maher1999,spam,0
 966830372,true,"Icons: minor edits, additional example",https://github.com/whatwg/html/pull/6954,2021-08-11T14:30:11Z,2021-09-23T10:30:39Z,j9t,topic: link,0
@@ -568,7 +569,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 793302268,false,Export terms referenced from w3c/ServiceWorker#1545,https://github.com/whatwg/html/pull/6325,2021-01-25T11:31:17Z,2021-08-18T12:09:40Z,yutakahirano,,0
 791994491,true,Editorial: anticlockwise → counterclockwise,https://github.com/whatwg/html/pull/6322,2021-01-22T13:12:36Z,2021-01-22T16:52:54Z,annevk,,0
 791364874,true,Add matrix to the safelisted schemes list,https://github.com/whatwg/html/pull/6320,2021-01-21T17:44:01Z,2021-04-19T14:37:01Z,MayeulC,,13
-790233208,false,Navigation and session history rewrite,https://github.com/whatwg/html/pull/6315,2021-01-20T18:56:59Z,2022-06-22T19:20:14Z,jakearchibald,topic: navigation|topic: history|topic: browsing context|topic: embed and object|topic: document lifecycle|topic: sandbox|topic: policy container,0
+790233208,false,Navigation and session history rewrite,https://github.com/whatwg/html/pull/6315,2021-01-20T18:56:59Z,2022-07-06T09:19:15Z,jakearchibald,topic: navigation|topic: history|topic: browsing context|topic: embed and object|topic: document lifecycle|topic: sandbox|topic: policy container,0
 788899081,true,Meta: minor references cleanup,https://github.com/whatwg/html/pull/6311,2021-01-19T10:26:33Z,2021-01-20T07:10:39Z,annevk,,0
 788419068,true,Review Draft Publication: January 2021,https://github.com/whatwg/html/pull/6308,2021-01-18T16:54:25Z,2021-01-18T16:59:18Z,annevk,,0
 788157232,true,Meta: remove demos/offline/*,https://github.com/whatwg/html/pull/6307,2021-01-18T10:49:29Z,2021-01-19T20:58:34Z,annevk,,0
