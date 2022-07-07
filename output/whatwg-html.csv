@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1297039069,false,"Change createImageBitMaps's imageOrientation ""none"" to ""from-image""",https://github.com/whatwg/html/issues/8085,2022-07-07T08:43:36Z,2022-07-07T11:57:49Z,zcorpan,topic: canvas|needs compat analysis,0
+1297039069,false,"Change createImageBitMaps's imageOrientation ""none"" to ""from-image""",https://github.com/whatwg/html/issues/8085,2022-07-07T08:43:36Z,2022-07-07T21:03:57Z,zcorpan,normative change|topic: canvas|needs compat analysis,0
 1295936796,false,Proposal: actively peeking/deleting message in queen from Window/WebWorker,https://github.com/whatwg/html/issues/8083,2022-07-06T14:34:52Z,2022-07-07T10:00:32Z,Zhang-Junzhi,,0
 1295686187,false,Improve UX : Fluent UI transitions for non SPA websites,https://github.com/whatwg/html/issues/8082,2022-07-06T11:22:32Z,2022-07-06T11:25:03Z,perelengo,,0
 1295622672,false,Review accessibility of the content models venn diagram,https://github.com/whatwg/html/issues/8081,2022-07-06T10:29:39Z,2022-07-06T10:29:39Z,zcorpan,accessibility|editorial,0
@@ -103,7 +103,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1211933864,false,How can microtasks run without a task?,https://github.com/whatwg/html/issues/7845,2022-04-22T07:26:22Z,2022-04-25T12:35:33Z,annevk,topic: event loop,0
 1210820388,false,Can a nested worker outlive its parent worker?,https://github.com/whatwg/html/issues/7840,2022-04-21T10:17:56Z,2022-04-21T11:51:55Z,andreubotella,topic: workers,0
 1209001363,false,Make self.name writable in DedicatedWorkerGlobalScope,https://github.com/whatwg/html/issues/7838,2022-04-20T00:24:33Z,2022-04-25T20:00:23Z,connorjclark,addition/proposal|topic: workers,2
-1208006942,false,"Rendering of ""bitmaprenderer""-backed canvas",https://github.com/whatwg/html/issues/7833,2022-04-19T08:51:04Z,2022-05-06T07:02:25Z,annevk,topic: canvas|agenda+,0
+1208006942,false,"Rendering of ""bitmaprenderer""-backed canvas",https://github.com/whatwg/html/issues/7833,2022-04-19T08:51:04Z,2022-07-07T16:24:08Z,annevk,topic: canvas|interop|agenda+,0
 1207220491,false,Specify back button history-entry skipping?,https://github.com/whatwg/html/issues/7832,2022-04-18T16:35:55Z,2022-04-21T17:56:21Z,domenic,topic: history|interop|topic: user activation,4
 1206401736,false,Proposal: extend FocusOptions to allow specifying `:focus-visible` behavior.,https://github.com/whatwg/html/issues/7830,2022-04-17T15:04:38Z,2022-04-20T07:19:52Z,emilio,addition/proposal|topic: focus|agenda+,4
 1206214916,true,Obsolete schema.org in examples. OK to fix?,https://github.com/whatwg/html/issues/7825,2022-04-16T20:59:00Z,2022-04-19T12:54:55Z,edent,,0
@@ -278,7 +278,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1057483180,false,"`window.pointer.{clientX, clientY, down, ...}`",https://github.com/whatwg/html/issues/7346,2021-11-18T15:23:34Z,2021-11-19T17:57:18Z,josephrocca,addition/proposal|needs implementer interest,0
 1057442253,true,"Sandbox, COOP, and error pages.",https://github.com/whatwg/html/issues/7345,2021-11-18T14:47:05Z,2021-11-30T15:34:13Z,hemeryar,topic: cross-origin-opener-policy|topic: sandbox,0
 1056999977,true,Import assertion `type: 'javascript'`,https://github.com/whatwg/html/issues/7342,2021-11-18T06:48:15Z,2021-11-23T21:17:55Z,GeoffreyBooth,topic: script,0
-1055521622,false,Can we make user activation consistent between pointer types?,https://github.com/whatwg/html/issues/7341,2021-11-16T23:11:48Z,2022-07-07T09:02:56Z,flackr,topic: user activation,0
+1055521622,false,Can we make user activation consistent between pointer types?,https://github.com/whatwg/html/issues/7341,2021-11-16T23:11:48Z,2022-07-07T15:28:50Z,flackr,topic: user activation,0
 1055011345,true,Awaitable timers,https://github.com/whatwg/html/issues/7340,2021-11-16T15:25:51Z,2021-11-16T16:49:34Z,jasnell,,1
 1053212394,true,"Export ""visibility state"", [=Document/hidden=] and [=Document/visible=]",https://github.com/whatwg/html/issues/7336,2021-11-15T04:49:54Z,2021-11-17T09:15:52Z,marcoscaceres,meta,0
 1052859826,true,How can I add transition in <details>,https://github.com/whatwg/html/issues/7334,2021-11-14T06:26:33Z,2021-11-14T18:02:33Z,Aryan-Wanve,,0
@@ -812,7 +812,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 692077232,false,Expose XMP information to the browser (and potentially JavaScript),https://github.com/whatwg/html/issues/5890,2020-09-03T15:38:30Z,2021-10-03T07:33:04Z,lrosenthol,addition/proposal|needs implementer interest|topic: media|topic: img,3
 691678305,true,cross-origin-isolated permission tests,https://github.com/whatwg/html/issues/5888,2020-09-03T06:21:36Z,2020-09-24T01:13:42Z,annevk,needs tests|topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,0
 691162250,false,"Explicitly pass ""perform the fetch"" steps through dependent algorithms",https://github.com/whatwg/html/issues/5887,2020-09-02T16:18:34Z,2020-09-07T10:26:36Z,jugglinmike,clarification,0
-690480691,false,Event bubbling on disabled form elements,https://github.com/whatwg/html/issues/5886,2020-09-01T22:05:15Z,2022-07-06T20:52:20Z,josepharhar,topic: forms|topic: events|interop|agenda+,0
+690480691,false,Event bubbling on disabled form elements,https://github.com/whatwg/html/issues/5886,2020-09-01T22:05:15Z,2022-07-07T16:42:32Z,josepharhar,topic: forms|topic: events|interop|agenda+,0
 688861626,false,Back-forward cache meta-bug,https://github.com/whatwg/html/issues/5880,2020-08-31T02:58:40Z,2021-10-21T01:13:32Z,rakina,topic: history,0
 688860879,false,Back-forward cache: Specifying ineligibility?,https://github.com/whatwg/html/issues/5879,2020-08-31T02:55:55Z,2021-10-12T15:53:17Z,rakina,topic: history,0
 688847041,true,Back-forward cache: Restoring focus,https://github.com/whatwg/html/issues/5878,2020-08-31T02:07:44Z,2021-12-08T02:31:47Z,rakina,topic: history|topic: focus,0
@@ -2706,7 +2706,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 208900934,true,"What sort of things does the ""construction stack"" of a custom element definition store?",https://github.com/whatwg/html/issues/2374,2017-02-20T14:50:04Z,2017-10-13T21:02:22Z,bzbarsky,clarification|topic: custom elements,0
 208423629,false,"""If the user agent exposes a user interface to the user by displaying controls over the media element, then the user agent should suppress any user interaction events while the user agent is interacting with this interface. "" is super vague",https://github.com/whatwg/html/issues/2370,2017-02-17T12:09:21Z,2017-02-17T12:37:01Z,smaug----,topic: media|topic: events,0
 208403836,true,Consider hiding `nonce` content attributes.,https://github.com/whatwg/html/issues/2369,2017-02-17T10:45:39Z,2017-11-22T15:15:54Z,mikewest,topic: parser|security/privacy,0
-208401874,false,Mouse events & disabled form controls,https://github.com/whatwg/html/issues/2368,2017-02-17T10:38:34Z,2022-06-24T17:51:38Z,jakearchibald,topic: forms|topic: events|interop|agenda+,6
+208401874,false,Mouse events & disabled form controls,https://github.com/whatwg/html/issues/2368,2017-02-17T10:38:34Z,2022-07-07T15:40:52Z,jakearchibald,topic: forms|topic: events|interop|agenda+,6
 208399800,false,"Sort out <link rel=""alternate stylesheet"" title="""">.sheet",https://github.com/whatwg/html/issues/2367,2017-02-17T10:30:24Z,2017-09-04T11:14:44Z,zcorpan,topic: link|topic: style,0
 208241208,false,Should we allow delaying video preload until it becomes visible?,https://github.com/whatwg/html/issues/2364,2017-02-16T20:46:23Z,2017-02-23T11:47:37Z,xxyzzzq,topic: media,2
 208026022,true,"Should clarify the ""scope"" of [CEReactions]",https://github.com/whatwg/html/issues/2362,2017-02-16T06:00:12Z,2017-02-22T14:27:42Z,bzbarsky,topic: custom elements,0

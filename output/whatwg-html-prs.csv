@@ -1,7 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1297810150,false,Introduce FocusOptions.focusVisible.,https://github.com/whatwg/html/pull/8087,2022-07-07T17:22:55Z,2022-07-07T21:04:06Z,emilio,,0
 1296464358,false,Do not whitespace-strip <script>'s language attribute,https://github.com/whatwg/html/pull/8084,2022-07-06T21:06:17Z,2022-07-06T21:07:34Z,hiroshige-g,,0
 1295301121,true,Fix a few broken links to CSS specs from the event loop,https://github.com/whatwg/html/pull/8078,2022-07-06T07:03:07Z,2022-07-06T12:39:34Z,domenic,,0
-1293818687,false,Add basic import maps support,https://github.com/whatwg/html/pull/8075,2022-07-05T05:49:22Z,2022-07-05T05:58:05Z,domenic,addition/proposal|topic: script,3
+1293818687,false,Add basic import maps support,https://github.com/whatwg/html/pull/8075,2022-07-05T05:49:22Z,2022-07-05T05:58:05Z,domenic,addition/proposal|topic: script,4
 1293475753,false,Support import.meta.resolve baseURL argument,https://github.com/whatwg/html/pull/8074,2022-07-04T18:34:06Z,2022-07-06T06:52:51Z,guybedford,addition/proposal|needs implementer interest|topic: script,0
 1292921546,false,"Use ""queue an element task"" properly in script preparation",https://github.com/whatwg/html/pull/8072,2022-07-04T09:55:51Z,2022-07-04T11:10:21Z,domenic,topic: script|topic: event loop,0
 1291564015,true,Amend #7829 by updating example,https://github.com/whatwg/html/pull/8063,2022-07-01T15:43:04Z,2022-07-03T02:20:55Z,cadonau,,0
@@ -1817,7 +1818,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 251936630,true,Remove [PrimaryGlobal],https://github.com/whatwg/html/pull/2956,2017-08-22T12:16:04Z,2017-12-12T12:42:25Z,annevk,do not merge yet,0
 251936130,true,Use Exposed=Window consistently,https://github.com/whatwg/html/pull/2955,2017-08-22T12:14:00Z,2017-08-22T16:31:37Z,annevk,,0
 251792373,true,Meta: export onreadystatechange Document handler DFN,https://github.com/whatwg/html/pull/2952,2017-08-21T22:56:46Z,2017-08-22T07:29:30Z,tobie,,0
-251720191,true,[OffscreenCanvas] Throw when resizing placeholder,https://github.com/whatwg/html/pull/2951,2017-08-21T17:10:56Z,2017-09-21T12:11:33Z,junov,normative change|topic: canvas,0
+251720191,true,[OffscreenCanvas] Throw when resizing placeholder,https://github.com/whatwg/html/pull/2951,2017-08-21T17:10:56Z,2022-07-07T16:05:30Z,junov,normative change|topic: canvas,0
 251678936,true,Fix errors in reflection requirements,https://github.com/whatwg/html/pull/2950,2017-08-21T14:41:48Z,2017-08-22T07:34:03Z,ayg,,0
 251573612,true,Fetch removes type in favor of just destination,https://github.com/whatwg/html/pull/2949,2017-08-21T07:38:09Z,2017-08-28T09:17:35Z,annevk,,0
 251363477,true,Add history.index,https://github.com/whatwg/html/pull/2944,2017-08-18T21:29:29Z,2018-02-07T19:54:34Z,domenic,addition/proposal|topic: history,0
@@ -2072,7 +2073,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 206766099,true,Editorial: use valid URL string from the URL Standard,https://github.com/whatwg/html/pull/2349,2017-02-10T10:55:03Z,2017-02-10T11:06:30Z,annevk,,0
 206545503,true,Meta: fix the link to TEAM.md in meta (copypasta),https://github.com/whatwg/html/pull/2348,2017-02-09T15:58:07Z,2017-02-09T17:53:21Z,foolip,,0
 206526259,true,"Editorial: avoid ""must"", ""should"" etc. in notes",https://github.com/whatwg/html/pull/2347,2017-02-09T14:52:30Z,2017-02-15T19:19:31Z,zcorpan,clarification,0
-206358424,true,Define encoder failure actions for toDataURL/toBlob,https://github.com/whatwg/html/pull/2343,2017-02-08T23:29:51Z,2017-02-15T19:12:08Z,junov,normative change|topic: canvas|needs tests,0
+206358424,true,Define encoder failure actions for toDataURL/toBlob,https://github.com/whatwg/html/pull/2343,2017-02-08T23:29:51Z,2022-07-07T16:05:32Z,junov,normative change|topic: canvas|needs tests,0
 206357626,true,Remove <button type=menu>,https://github.com/whatwg/html/pull/2342,2017-02-08T23:26:02Z,2017-02-09T14:55:11Z,domenic,normative change|removal/deprecation|document conformance,0
 206340040,true,Remove the pending dialog stack in favor of the top layer,https://github.com/whatwg/html/pull/2341,2017-02-08T22:07:34Z,2017-09-05T09:48:28Z,domenic,normative change|topic: shadow|needs tests,0
 206186815,true,Editorial: Fix sorting of attribute names in attribute index,https://github.com/whatwg/html/pull/2338,2017-02-08T12:38:59Z,2017-02-08T13:12:12Z,sideshowbarker,,1
@@ -2149,7 +2150,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 195008391,true,Add referrerpolicy to <area> content attributes,https://github.com/whatwg/html/pull/2169,2016-12-12T15:49:13Z,2016-12-16T10:24:39Z,sideshowbarker,,0
 194970480,true,Editorial: Add removal note at html[manifest] def,https://github.com/whatwg/html/pull/2167,2016-12-12T13:10:25Z,2016-12-14T16:01:39Z,sideshowbarker,clarification|document conformance,0
 194851130,true,Fix #2147: Explicitly mention possible values for imageSmoothingQuality,https://github.com/whatwg/html/pull/2164,2016-12-11T19:38:42Z,2016-12-12T20:26:24Z,yuyokk,clarification|topic: canvas,0
-194835266,true,Mention origin-clean in OffscreenRenderingContext2D.commit() steps,https://github.com/whatwg/html/pull/2163,2016-12-11T14:39:26Z,2016-12-12T20:22:23Z,junov,clarification|topic: canvas,0
+194835266,true,Mention origin-clean in OffscreenRenderingContext2D.commit() steps,https://github.com/whatwg/html/pull/2163,2016-12-11T14:39:26Z,2022-07-07T16:05:33Z,junov,clarification|topic: canvas,0
 194604228,true,"Add an active document check in ""allowed to use""",https://github.com/whatwg/html/pull/2160,2016-12-09T14:04:39Z,2016-12-15T09:30:32Z,zcorpan,,0
 194493708,true,Remove anchored positioning of <dialog>s,https://github.com/whatwg/html/pull/2158,2016-12-09T01:50:28Z,2016-12-12T20:23:38Z,domenic,removal/deprecation,1
 194489537,true,"Export the definition of ""module record""",https://github.com/whatwg/html/pull/2157,2016-12-09T01:18:48Z,2016-12-09T01:38:35Z,jungkees,,0
@@ -2199,14 +2200,14 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 190356236,true,Editorial: Re-reference RFC 2119 in spec text,https://github.com/whatwg/html/pull/2063,2016-11-18T16:06:47Z,2016-11-18T17:20:40Z,sideshowbarker,,0
 190351715,true,"Rename ""XHTML parsing"" etc to more-accurate ""XML parsing""",https://github.com/whatwg/html/pull/2062,2016-11-18T15:49:19Z,2016-11-25T13:33:35Z,sideshowbarker,clarification,0
 190348122,true,Annevk/infra part 2,https://github.com/whatwg/html/pull/2061,2016-11-18T15:34:58Z,2017-02-08T08:13:01Z,annevk,,0
-190333743,true,Make OffscreenCanvas resizeable,https://github.com/whatwg/html/pull/2060,2016-11-18T14:36:12Z,2016-12-05T22:06:13Z,junov,normative change|topic: canvas,0
+190333743,true,Make OffscreenCanvas resizeable,https://github.com/whatwg/html/pull/2060,2016-11-18T14:36:12Z,2022-07-07T16:05:34Z,junov,normative change|topic: canvas,0
 190299301,true,Editorial: leave ASCII case-insensitive to Infra,https://github.com/whatwg/html/pull/2059,2016-11-18T11:39:12Z,2016-11-18T18:42:40Z,annevk,,0
 189961881,true,Make UAs support named character references in all XML docs,https://github.com/whatwg/html/pull/2056,2016-11-17T07:25:25Z,2021-04-28T14:36:59Z,sideshowbarker,needs implementer interest|do not merge yet,0
 189877357,true,"Use the Infra Standard, for easy stuff and for modules",https://github.com/whatwg/html/pull/2054,2016-11-16T23:04:17Z,2016-11-17T14:41:30Z,domenic,clarification,0
 189694427,true,Require <iframe> to be empty,https://github.com/whatwg/html/pull/2049,2016-11-16T12:50:38Z,2016-11-18T17:10:13Z,sideshowbarker,document conformance,0
 189674207,true,Make HTML4/XHTML1 Strict doctypes non-conforming,https://github.com/whatwg/html/pull/2048,2016-11-16T11:26:27Z,2016-11-17T15:22:24Z,sideshowbarker,document conformance,0
 189497466,true,Clarify why we're not using EnumerableOwnProperties,https://github.com/whatwg/html/pull/2046,2016-11-15T20:25:46Z,2016-11-16T07:36:45Z,domenic,clarification,0
-189223022,true,Add intro and example for ImageBitmapRenderingContext,https://github.com/whatwg/html/pull/2045,2016-11-14T20:53:13Z,2016-11-14T22:06:17Z,junov,,0
+189223022,true,Add intro and example for ImageBitmapRenderingContext,https://github.com/whatwg/html/pull/2045,2016-11-14T20:53:13Z,2022-07-07T16:08:17Z,junov,,0
 189171450,true,Let [MIMESNIFF] define MIME-related concepts,https://github.com/whatwg/html/pull/2044,2016-11-14T17:18:31Z,2016-11-15T10:25:32Z,domenic,,0
 188900867,true,Meta: document Editorial/Meta summary line prefix,https://github.com/whatwg/html/pull/2043,2016-11-12T08:44:01Z,2016-11-14T11:43:01Z,annevk,,0
 188744401,true,Editorial: export terms for XMLHttpRequest,https://github.com/whatwg/html/pull/2041,2016-11-11T11:54:09Z,2016-11-14T23:14:38Z,annevk,,0
@@ -2287,7 +2288,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 182253028,true,Editorial: major cleanup around firing events,https://github.com/whatwg/html/pull/1886,2016-10-11T12:39:52Z,2016-10-19T18:32:11Z,annevk,clarification|topic: events,0
 182111806,true,Update the parser's element creation for recent DOM changes,https://github.com/whatwg/html/pull/1884,2016-10-10T20:49:23Z,2016-10-11T07:44:25Z,domenic,topic: custom elements,0
 182103103,true,Make MessageEvent's ports attribute non-nullable (closes issue #1882),https://github.com/whatwg/html/pull/1883,2016-10-10T20:06:40Z,2016-10-19T18:32:11Z,cdumez,normative change|compat|topic: events,0
-181770754,true,Add the OffscreenCanvas interface and 2d context,https://github.com/whatwg/html/pull/1876,2016-10-07T21:24:13Z,2016-11-16T16:18:38Z,junov,addition/proposal|topic: canvas,6
+181770754,true,Add the OffscreenCanvas interface and 2d context,https://github.com/whatwg/html/pull/1876,2016-10-07T21:24:13Z,2022-07-07T16:05:35Z,junov,addition/proposal|topic: canvas,6
 181726976,true,Consider pointerup as user gesture,https://github.com/whatwg/html/pull/1875,2016-10-07T17:37:28Z,2016-10-12T20:59:16Z,NavidZ,,0
 181726769,true,Add radio button constraint validation example,https://github.com/whatwg/html/pull/1874,2016-10-07T17:36:27Z,2016-10-12T08:11:32Z,domenic,clarification|topic: forms,1
 181721069,true,Clarify the difference between disabled and readonly,https://github.com/whatwg/html/pull/1873,2016-10-07T17:06:15Z,2016-10-12T17:22:52Z,domenic,clarification|topic: forms,0
@@ -2309,7 +2310,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 180290275,true,Ensure that 'noopener' does not reuse a browsing context,https://github.com/whatwg/html/pull/1842,2016-09-30T12:19:11Z,2018-02-05T15:08:14Z,mikewest,do not merge yet|needs tests,0
 179990405,true,Editorial: spell whitespace and bitrate consistently,https://github.com/whatwg/html/pull/1838,2016-09-29T09:02:24Z,2016-09-29T09:22:28Z,annevk,,0
 179913411,true,Add concrete suggestions for datalist display and matching,https://github.com/whatwg/html/pull/1836,2016-09-28T23:04:33Z,2016-10-28T16:27:24Z,domenic,topic: forms,0
-179894791,true,Fix incorrect reference to the 2D rendering context alpha flag.,https://github.com/whatwg/html/pull/1835,2016-09-28T21:26:31Z,2016-09-28T22:09:58Z,junov,topic: canvas,0
+179894791,true,Fix incorrect reference to the 2D rendering context alpha flag.,https://github.com/whatwg/html/pull/1835,2016-09-28T21:26:31Z,2022-07-07T16:08:20Z,junov,topic: canvas,0
 179862385,true,Don't queue a redundant task to fire module script load events,https://github.com/whatwg/html/pull/1834,2016-09-28T19:16:36Z,2016-09-29T07:14:31Z,domenic,,0
 179782188,true,Fix minor document.domain regression,https://github.com/whatwg/html/pull/1832,2016-09-28T14:03:54Z,2016-09-28T15:45:11Z,annevk,,0
 179750591,true,Sharedworker IPC issues,https://github.com/whatwg/html/pull/1831,2016-09-28T11:46:57Z,2016-10-04T18:50:48Z,annevk,topic: workers,0
@@ -2459,7 +2460,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 164272737,true,"Set current entry earlier in ""traverse the history""",https://github.com/whatwg/html/pull/1512,2016-07-07T09:58:55Z,2016-07-07T18:55:04Z,annevk,topic: history,0
 164171679,true,Implement new custom element adoption semantics,https://github.com/whatwg/html/pull/1510,2016-07-06T20:55:09Z,2016-07-21T09:27:33Z,domenic,topic: custom elements,0
 164137486,true,ImageBitmap should resize proportionally,https://github.com/whatwg/html/pull/1507,2016-07-06T18:01:54Z,2016-07-06T20:08:28Z,xidachen,topic: canvas,0
-164130988,true,"Fix #1099 Revert behavior of 2d context ""currentColor"" keyword.",https://github.com/whatwg/html/pull/1506,2016-07-06T17:30:26Z,2016-07-06T20:08:27Z,junov,topic: canvas,0
+164130988,true,"Fix #1099 Revert behavior of 2d context ""currentColor"" keyword.",https://github.com/whatwg/html/pull/1506,2016-07-06T17:30:26Z,2022-07-07T16:08:22Z,junov,topic: canvas,0
 164068543,true,Remove the concept of CSS Bindings,https://github.com/whatwg/html/pull/1505,2016-07-06T12:53:40Z,2016-07-07T17:00:41Z,annevk,topic: rendering,0
 163948776,true,Make <caption> rendering match reality better,https://github.com/whatwg/html/pull/1504,2016-07-05T21:16:16Z,2016-07-06T09:32:07Z,zcorpan,topic: rendering,0
 163897036,true,Update specs for ImageBitmap's resize option,https://github.com/whatwg/html/pull/1503,2016-07-05T16:53:01Z,2016-07-06T13:19:19Z,xidachen,topic: canvas,0
@@ -2657,7 +2658,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 150475720,true,Fix #227: clarify conformance vs. parsing for hash-name references,https://github.com/whatwg/html/pull/1106,2016-04-22T21:32:59Z,2016-04-25T09:48:58Z,domenic,clarification,0
 150473958,true,Fix #248: specify an edge-case in tbody.deleteRow and td.deleteCell,https://github.com/whatwg/html/pull/1105,2016-04-22T21:21:32Z,2016-04-29T06:32:24Z,domenic,,0
 150459748,true,Remove beforescriptexecute/afterscriptexecute,https://github.com/whatwg/html/pull/1103,2016-04-22T20:05:43Z,2019-05-03T23:52:46Z,domenic,removal/deprecation,2
-150383113,true,Rename transferImageBitmap to transferFromImageBitmap,https://github.com/whatwg/html/pull/1101,2016-04-22T14:25:18Z,2016-09-23T23:11:59Z,junov,normative change,0
+150383113,true,Rename transferImageBitmap to transferFromImageBitmap,https://github.com/whatwg/html/pull/1101,2016-04-22T14:25:18Z,2022-07-07T16:08:27Z,junov,normative change,0
 150366781,true,Shadow script,https://github.com/whatwg/html/pull/1100,2016-04-22T13:13:53Z,2016-04-26T17:39:37Z,annevk,topic: shadow,0
 150363405,true,Editorial: generalize insert/remove document algorithm,https://github.com/whatwg/html/pull/1097,2016-04-22T12:58:57Z,2016-04-22T19:45:37Z,annevk,,0
 150351290,true,Editorial: attachedCallback -> connectedCallback,https://github.com/whatwg/html/pull/1096,2016-04-22T12:07:10Z,2016-06-07T17:18:38Z,annevk,topic: custom elements,0
@@ -2667,14 +2668,14 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 150157167,true,Specify that detached ImageBitmaps are not usable CanvasImageSources,https://github.com/whatwg/html/pull/1090,2016-04-21T18:41:05Z,2016-04-22T20:48:03Z,junov,normative change,0
 149901242,true,Use HTMLPreElement for xmp and listing,https://github.com/whatwg/html/pull/1083,2016-04-20T22:11:25Z,2016-04-22T10:27:23Z,domenic,normative change,0
 149871146,true,Reflect USVString IDL attributes for URLs as well as DOMString ones,https://github.com/whatwg/html/pull/1082,2016-04-20T20:04:20Z,2016-04-22T09:19:10Z,domenic,,0
-149838070,true,Add the close() method to the ImageBitmap interface,https://github.com/whatwg/html/pull/1078,2016-04-20T17:44:40Z,2016-04-21T14:56:47Z,junov,addition/proposal,0
+149838070,true,Add the close() method to the ImageBitmap interface,https://github.com/whatwg/html/pull/1078,2016-04-20T17:44:40Z,2022-07-07T16:08:37Z,junov,addition/proposal,0
 149720346,true,Editorial: clean up wording around form validation API,https://github.com/whatwg/html/pull/1076,2016-04-20T09:56:53Z,2016-04-25T08:07:22Z,annevk,clarification,0
-149592564,true,Remove width and height attributes of CanvasRenderingContext2D,https://github.com/whatwg/html/pull/1074,2016-04-19T21:43:07Z,2016-04-19T21:53:15Z,junov,removal/deprecation|topic: canvas,0
+149592564,true,Remove width and height attributes of CanvasRenderingContext2D,https://github.com/whatwg/html/pull/1074,2016-04-19T21:43:07Z,2022-07-07T16:08:38Z,junov,removal/deprecation|topic: canvas,0
 149513520,true,Make EventSource use the base URL of its global,https://github.com/whatwg/html/pull/1072,2016-04-19T16:30:57Z,2016-04-21T15:38:44Z,annevk,normative change,0
 149473651,true,Add a new <slot> element for shadow trees,https://github.com/whatwg/html/pull/1071,2016-04-19T14:14:55Z,2016-04-20T14:00:26Z,annevk,normative change|addition/proposal|topic: shadow,0
 149297988,true,Formalize custom element reactions,https://github.com/whatwg/html/pull/1069,2016-04-18T23:10:48Z,2016-05-17T01:49:18Z,domenic,topic: custom elements,0
-149280508,true,Fix #1057: createImageBitmap to throw when img has 0 size,https://github.com/whatwg/html/pull/1068,2016-04-18T21:42:58Z,2016-04-26T17:59:05Z,junov,,0
-149265756,true,Add clarification that width/height of a neutered ImageBitmap is 0.,https://github.com/whatwg/html/pull/1067,2016-04-18T20:41:48Z,2016-04-19T18:11:09Z,junov,,0
+149280508,true,Fix #1057: createImageBitmap to throw when img has 0 size,https://github.com/whatwg/html/pull/1068,2016-04-18T21:42:58Z,2022-07-07T16:08:41Z,junov,,0
+149265756,true,Add clarification that width/height of a neutered ImageBitmap is 0.,https://github.com/whatwg/html/pull/1067,2016-04-18T20:41:48Z,2022-07-07T16:08:40Z,junov,,0
 149240988,true,"Use ""create an element"" whenever we create an element",https://github.com/whatwg/html/pull/1066,2016-04-18T18:59:56Z,2016-05-17T01:49:18Z,domenic,topic: custom elements,0
 149068798,true,Correct URL parsing of base elements,https://github.com/whatwg/html/pull/1064,2016-04-18T07:40:42Z,2016-04-20T05:59:39Z,annevk,,0
 148851665,true,Rewrite link-fixup.js to adopt fragment-links.json,https://github.com/whatwg/html/pull/1063,2016-04-16T13:16:23Z,2016-08-29T20:26:21Z,takenspc,spec tooling,0
