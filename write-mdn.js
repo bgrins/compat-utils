@@ -25,8 +25,51 @@ let csv = [
     "status_experimental",
     "status_standard_track",
     "status_deprecated",
+    "spec_url",
+    "org",
   ],
 ];
+
+function specURLToOrg(url) {
+  let host;
+  try {
+    host = new URL(url).host;
+  } catch (e) {}
+
+  if (!host) {
+    return "";
+  }
+  // https://github.com/mozilla/standards-positions/blob/7c37c736fe79fd139aab6048826a7bf6d01c31e5/activities.py#L539
+  var mapping = {
+    "www.w3.org": "W3C",
+    "w3c.github.io": "W3C",
+    "wicg.github.io": "W3CCG",
+    "webbluetoothcg.github.io": "W3CCG",
+    "privacycg.github.io": "W3CCG",
+    "dev.w3.org": "W3C",
+    "dvcs.w3.org": "W3C",
+    "drafts.csswg.org": "W3C",
+    "drafts.css-houdini.org": "W3C",
+    "drafts.fxtf.org": "W3C",
+    "w3ctag.github.io": "W3C",
+    "immersive-web.github.io": "W3CCG",
+    "datatracker.ietf.org": "IETF",
+    "www.ietf.org": "IETF",
+    "tools.ietf.org": "IETF",
+    "http2.github.io": "IETF",
+    "httpwg.github.io": "IETF",
+    "httpwg.org": "IETF",
+  };
+  if (mapping[host]) {
+    return mapping[host];
+  }
+
+  if (host.endsWith(".spec.whatwg.org")) {
+    return "WHATWG";
+  }
+
+  return "";
+}
 
 function apiToCSV(api, name) {
   if (!api.__compat) {
@@ -42,7 +85,7 @@ function apiToCSV(api, name) {
   }
 
   let compat = api.__compat;
-  let support = compat.support;
+  let { support, spec_url } = compat;
   let firefox = Array.isArray(support.firefox)
     ? support.firefox[0]
     : support.firefox;
@@ -56,7 +99,10 @@ function apiToCSV(api, name) {
 
   csv.push([
     name,
-    (compat.mdn_url || "").replace("https://developer.mozilla.org/docs", "https://developer.mozilla.org/en-US/docs"),
+    (compat.mdn_url || "").replace(
+      "https://developer.mozilla.org/docs",
+      "https://developer.mozilla.org/en-US/docs"
+    ),
     firefox.version_added || "",
     JSON.stringify(firefox.flags) || "",
     chrome.version_added || "",
@@ -66,6 +112,8 @@ function apiToCSV(api, name) {
     compat.status.experimental,
     compat.status.standard_track,
     compat.status.deprecated,
+    spec_url || "",
+    specURLToOrg(spec_url),
   ]);
 
   for (let child in api) {
@@ -98,7 +146,4 @@ const latestSupport = await Deno.open("./output/mdn.csv", {
   truncate: true,
 });
 
-// console.log(csv);
 await writeCSV(latestSupport, csv);
-
-
