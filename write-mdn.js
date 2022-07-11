@@ -37,7 +37,7 @@ function specURLToOrg(url) {
   } catch (e) {}
 
   if (!host) {
-    return "";
+    return "NONE";
   }
   // https://github.com/mozilla/standards-positions/blob/7c37c736fe79fd139aab6048826a7bf6d01c31e5/activities.py#L539
   var mapping = {
@@ -68,7 +68,7 @@ function specURLToOrg(url) {
     return "WHATWG";
   }
 
-  return "";
+  return "UNKNOWN";
 }
 
 function apiToCSV(api, name) {
