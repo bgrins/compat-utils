@@ -97,12 +97,16 @@ function apiToCSV(api, name) {
     ? support.safari[0]
     : support.safari;
 
+  let mdn_url = (compat.mdn_url || "").replace(
+    "https://developer.mozilla.org/docs",
+    "https://developer.mozilla.org/en-US/docs"
+  );
+  // Avoid error in sheets with maximum size exceeded
+  mdn_url = "";
+
   csv.push([
     name,
-    (compat.mdn_url || "").replace(
-      "https://developer.mozilla.org/docs",
-      "https://developer.mozilla.org/en-US/docs"
-    ),
+    mdn_url,
     firefox.version_added || "",
     JSON.stringify(firefox.flags) || "",
     chrome.version_added || "",
