@@ -1,5 +1,6 @@
 import { writeCSV } from "https://deno.land/x/csv/mod.ts";
 import bcd from "https://unpkg.com/@mdn/browser-compat-data@latest/data.json" assert { type: "json" };
+
 /*
 
 /* From: https://github.com/mdn/browser-compat-data/blob/main/schemas/compat-data-schema.md#where-to-find-compat-data
@@ -59,6 +60,13 @@ function specURLToOrg(url) {
     "http2.github.io": "IETF",
     "httpwg.github.io": "IETF",
     "httpwg.org": "IETF",
+
+    // Added based on missing data from s-p map
+    "tc39.es": "TC39",
+    "svgwg.org": "W3C",
+    "www.khronos.org": "KHRONOS",
+    "webaudio.github.io": "W3C",
+    "webassembly.github.io": "WASM",
   };
   if (mapping[host]) {
     return mapping[host];
@@ -86,6 +94,8 @@ function apiToCSV(api, name) {
 
   let compat = api.__compat;
   let { support, spec_url } = compat;
+
+  spec_url = Array.isArray(spec_url) ? spec_url[0] : spec_url;
   let firefox = Array.isArray(support.firefox)
     ? support.firefox[0]
     : support.firefox;
