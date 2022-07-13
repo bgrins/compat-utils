@@ -19,6 +19,7 @@ export const REPOS = [
   "w3c/pointerevents",
   "w3c/pointerlock",
   "w3c/editcontext",
+  "w3c/clipboard-apis",
   "whatwg/html",
 ];
 
