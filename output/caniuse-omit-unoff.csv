@@ -1,4 +1,4 @@
-Feature Name,Status,Categories,Firefox 100,Safari TP,Chrome 103
+Feature Name,Status,Categories,Firefox 104,Safari TP,Chrome 106
 aac,other,Other,Partial,Yes,Yes
 abortcontroller,ls,JS API,Yes,Yes,Yes
 accelerometer,cr,JS API,No,No,Yes
@@ -19,7 +19,7 @@ audiotracks,ls,HTML5,No,Yes,No
 autofocus,ls,HTML5,Yes,Yes,Yes
 auxclick,wd,"DOM,JS API",Yes,No,Yes
 av1,other,Other,Yes,No,Yes
-avif,other,Other,Yes,No,Yes
+avif,other,Other,Yes,Partial,Yes
 background-attachment,cr,CSS,Yes,No,Yes
 background-img-opts,cr,CSS3,Yes,Yes,Yes
 background-repeat-round-space,cr,CSS3,Yes,Yes,Yes
@@ -74,14 +74,15 @@ css-clip-path,cr,CSS3,Yes,Partial,Partial
 css-color-adjust,wd,CSS,Yes,Yes,Yes
 css-color-function,wd,CSS,No,Yes,No
 css-conic-gradients,wd,CSS,Yes,Yes,Yes
-css-container-queries,wd,CSS,No,Yes,No
+css-container-queries,wd,CSS,No,Yes,Yes
+css-container-query-units,wd,CSS,No,Yes,Yes
 css-containment,rec,CSS,Yes,Yes,Yes
 css-content-visibility,wd,CSS,No,No,Yes
 css-counters,rec,CSS2,Yes,Yes,Yes
 css-cross-fade,cr,CSS,No,Yes,Yes
 css-deviceadaptation,wd,CSS,No,No,No
 css-dir-pseudo,wd,CSS,Yes,No,No
-css-display-contents,wd,CSS,Yes,Partial,Yes
+css-display-contents,wd,CSS,Yes,Yes,Yes
 css-element-function,wd,CSS3,Yes,No,No
 css-exclusions,wd,CSS,No,No,No
 css-featurequeries,cr,CSS3,Yes,Yes,Yes
@@ -97,14 +98,14 @@ css-gencontent,rec,"CSS2,CSS3",Yes,Yes,Yes
 css-gradients,cr,CSS3,Yes,Yes,Yes
 css-grid,cr,CSS,Yes,Yes,Yes
 css-hanging-punctuation,wd,CSS,No,Yes,No
-css-has,wd,CSS,No,Yes,No
+css-has,wd,CSS,No,Yes,Yes
 css-hyphens,wd,CSS3,Yes,Yes,Yes
 css-image-orientation,cr,CSS3,Yes,Yes,Yes
 css-image-set,wd,CSS,Yes,Partial,Partial
 css-in-out-of-range,wd,CSS,Yes,Yes,Yes
 css-initial-letter,wd,CSS,No,Partial,No
 css-initial-value,cr,CSS,Yes,Yes,Yes
-css-lch-lab,wd,CSS,No,Yes,No
+css-lch-lab,cr,CSS,No,Yes,No
 css-letter-spacing,rec,CSS,Yes,Yes,Yes
 css-line-clamp,wd,CSS,Yes,Yes,Yes
 css-logical-props,wd,"CSS,CSS3",Yes,Yes,Yes
@@ -120,20 +121,23 @@ css-motion-paths,wd,CSS,Yes,Yes,Yes
 css-namespaces,rec,CSS,Yes,Yes,Yes
 css-nesting,wd,Other,No,No,No
 css-not-sel-list,wd,CSS,Yes,Yes,Yes
+css-nth-child-of,wd,CSS,No,Yes,No
 css-opacity,rec,CSS3,Yes,Yes,Yes
 css-overflow,wd,CSS,Yes,Yes,Yes
 css-overflow-anchor,wd,CSS3,Yes,No,Yes
+css-overscroll-behavior,wd,CSS,Yes,Yes,Yes
 css-page-break,rec,CSS,Partial,Partial,Partial
 css-paged-media,wd,Other,Partial,No,Yes
 css-paint-api,wd,"CSS,JS API",No,No,Yes
 css-placeholder,wd,CSS,Yes,Yes,Yes
 css-placeholder-shown,wd,CSS,Yes,Yes,Yes
 css-read-only-write,ls,CSS,Yes,Yes,Yes
-css-rebeccapurple,wd,CSS,Yes,Yes,Yes
+css-rebeccapurple,cr,CSS,Yes,Yes,Yes
 css-regions,wd,CSS3,No,No,No
 css-repeating-gradients,cr,CSS3,Yes,Yes,Yes
 css-resize,cr,CSS3,Yes,Yes,Yes
 css-revert-value,wd,CSS,Yes,Yes,Yes
+css-rrggbbaa,wd,CSS,Yes,Yes,Yes
 css-scroll-behavior,wd,CSS,Yes,Yes,Yes
 css-sel2,rec,CSS2,Yes,Yes,Yes
 css-sel3,rec,CSS3,Yes,Yes,Yes
@@ -145,7 +149,7 @@ css-subgrid,wd,CSS,Yes,Yes,No
 css-supports-api,cr,"DOM,JS API",Yes,Yes,Yes
 css-table,rec,CSS2,Yes,Yes,Yes
 css-text-align-last,wd,CSS3,Yes,No,Yes
-css-text-indent,wd,CSS,Partial,Partial,Partial
+css-text-indent,wd,CSS,Partial,Yes,Partial
 css-text-justify,wd,CSS,Yes,No,No
 css-text-orientation,cr,CSS,Yes,Yes,Yes
 css-textshadow,cr,CSS3,Yes,Yes,Yes
@@ -156,13 +160,12 @@ css-variables,cr,CSS3,Yes,Yes,Yes
 css-when-else,wd,CSS,No,No,No
 css-widows-orphans,rec,CSS,No,Yes,Yes
 css-writing-mode,cr,CSS,Yes,Yes,Yes
-css3-attr,cr,CSS,No,No,No
 css3-boxsizing,wd,CSS3,Yes,Yes,Yes
 css3-colors,rec,CSS3,Yes,Yes,Yes
 css3-cursors,cr,CSS3,Yes,Yes,Yes
 css3-cursors-grab,pr,CSS3,Yes,Yes,Yes
 css3-cursors-newer,cr,CSS3,Yes,Yes,Yes
-css3-tabsize,wd,CSS3,Yes,Yes,Yes
+css3-tabsize,cr,CSS3,Yes,Yes,Yes
 currentcolor,rec,CSS,Yes,Yes,Yes
 custom-elementsv1,ls,"DOM,HTML5",Yes,Partial,Yes
 customevent,ls,"DOM,JS API",Yes,Yes,Yes
@@ -223,7 +226,6 @@ fontface,cr,CSS3,Yes,Yes,Yes
 form-attribute,ls,HTML5,Yes,Yes,Yes
 form-submit-attributes,ls,HTML5,Yes,Yes,Yes
 form-validation,ls,HTML5,Yes,Yes,Yes
-forms,ls,HTML5,Partial,Partial,Yes
 fullscreen,ls,JS API,Yes,Partial,Yes
 gamepad,wd,JS API,Yes,Yes,Yes
 geolocation,rec,JS API,Yes,Yes,Yes
@@ -298,7 +300,7 @@ localecompare,other,JS,Yes,Yes,Yes
 magnetometer,cr,JS API,No,No,Yes
 matchesselector,ls,"DOM,JS API",Yes,Yes,Yes
 matchmedia,wd,"DOM,JS API",Yes,Yes,Yes
-mathml,rec,Other,Yes,Yes,Partial
+mathml,rec,Other,Yes,Yes,Yes
 maxlength,ls,"DOM,HTML5,JS API",Yes,Yes,Yes
 media-fragments,rec,DOM,Partial,Partial,Partial
 mediacapture-fromelement,wd,"DOM,JS API",Partial,Partial,Yes
@@ -352,7 +354,7 @@ promises,other,JS,Yes,Yes,Yes
 proximity,cr,JS API,Yes,No,No
 proxy,other,JS,Yes,Yes,Yes
 publickeypinning,other,Security,No,No,No
-push-api,wd,JS API,Yes,No,Yes
+push-api,wd,JS API,Yes,Partial,Yes
 queryselector,ls,DOM,Yes,Yes,Yes
 readonly-attr,ls,"DOM,HTML5",Yes,Yes,Yes
 referrer-policy,cr,Security,Yes,Yes,Yes
@@ -379,7 +381,7 @@ server-timing,wd,JS API,Yes,Partial,Yes
 serviceworkers,cr,JS API,Yes,Yes,Yes
 shadowdomv1,wd,DOM,Yes,Yes,Yes
 sharedarraybuffer,other,JS,Yes,Yes,Yes
-sharedworkers,ls,JS API,Yes,No,Yes
+sharedworkers,ls,JS API,Yes,Yes,Yes
 sni,other,Security,Yes,Yes,Yes
 spellcheck-attribute,ls,HTML5,Yes,Yes,Yes
 srcset,ls,HTML5,Yes,Yes,Yes
@@ -427,7 +429,7 @@ vector-effect,cr,SVG,Yes,Yes,Yes
 vibration,rec,JS API,Yes,No,Yes
 video,ls,HTML5,Yes,Yes,Yes
 videotracks,ls,HTML5,No,Yes,No
-viewport-unit-variants,wd,CSS,No,Yes,No
+viewport-unit-variants,wd,CSS,Yes,Yes,No
 viewport-units,cr,CSS3,Yes,Yes,Yes
 wai-aria,rec,Other,Partial,Partial,Partial
 wake-lock,cr,JS API,No,No,Yes
@@ -441,11 +443,12 @@ webauthn,rec,Security,Yes,Yes,Yes
 webgl,other,Canvas,Yes,Yes,Yes
 webgl2,other,Canvas,Yes,Yes,Yes
 webgpu,wd,JS API,No,No,No
-webm,other,Other,Yes,Partial,Yes
+webm,other,Other,Yes,Yes,Yes
+webp,other,Other,Yes,Yes,Yes
 websockets,ls,JS API,Yes,Yes,Yes
 webvtt,wd,Other,Yes,Yes,Yes
 webworkers,ls,JS API,Yes,Yes,Yes
-webxr,wd,JS API,No,No,Partial
+webxr,cr,JS API,No,No,Partial
 will-change,wd,CSS,Yes,Yes,Yes
 woff,rec,Other,Yes,Yes,Yes
 woff2,cr,Other,Yes,Yes,Yes
