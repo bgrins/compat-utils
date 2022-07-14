@@ -1,7 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1303880262,false,Sandboxed iframe srcdoc inherits parent's document base URL,https://github.com/whatwg/html/issues/8105,2022-07-13T20:04:27Z,2022-07-13T22:19:35Z,lbherrera,,0
-1303854564,false,About tracking user activation,https://github.com/whatwg/html/issues/8104,2022-07-13T19:34:52Z,2022-07-13T21:19:22Z,dSalieri,,0
-1303237250,false,Clarification needed in step 5 of the text preparation algorithm,https://github.com/whatwg/html/issues/8103,2022-07-13T10:29:52Z,2022-07-13T10:29:52Z,jfkthame,,0
+1304440347,false,HTML Standard triage meeting times,https://github.com/whatwg/html/issues/8106,2022-07-14T08:25:59Z,2022-07-14T11:40:29Z,domenic,agenda+,0
+1303880262,false,Sandboxed iframe srcdoc inherits parent's document base URL,https://github.com/whatwg/html/issues/8105,2022-07-13T20:04:27Z,2022-07-14T01:25:23Z,lbherrera,,0
+1303854564,true,About tracking user activation,https://github.com/whatwg/html/issues/8104,2022-07-13T19:34:52Z,2022-07-14T01:59:46Z,dSalieri,,0
+1303237250,false,Clarification needed in step 5 of the text preparation algorithm,https://github.com/whatwg/html/issues/8103,2022-07-13T10:29:52Z,2022-07-14T08:22:24Z,jfkthame,topic: canvas,0
 1301713912,true,"Input type=""color"" with alpha and hi-color support?",https://github.com/whatwg/html/issues/8101,2022-07-12T08:20:04Z,2022-07-12T08:49:41Z,greggman,,0
 1300437093,false,Update navigation's document creation to properly use fetch callbacks,https://github.com/whatwg/html/issues/8095,2022-07-11T09:20:55Z,2022-07-12T20:50:09Z,domenic,topic: navigation,0
 1299724257,false,"""Each EventTarget object that has one or more ev...""",https://github.com/whatwg/html/issues/8091,2022-07-09T17:02:03Z,2022-07-09T19:54:01Z,ruiconti,,0
@@ -236,7 +237,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1103475849,false,Clarify how canvas fallback content relates to the accessibility tree,https://github.com/whatwg/html/issues/7490,2022-01-14T11:05:24Z,2022-02-16T10:08:34Z,brennanyoung,topic: canvas|accessibility|a11y-tracker,0
 1102610281,true,Upcoming HTML standard issue triage meeting on 2/3/2022,https://github.com/whatwg/html/issues/7488,2022-01-14T00:00:01Z,2022-02-03T23:55:19Z,past,agenda+,0
 1099808638,true,Fieldset and legend grouping related text elements.,https://github.com/whatwg/html/issues/7486,2022-01-12T02:32:50Z,2022-01-13T00:43:20Z,LaurenceRLewis,document conformance,0
-1099540188,false,Modernized version of window.open() API,https://github.com/whatwg/html/issues/7485,2022-01-11T19:27:17Z,2022-05-09T09:05:10Z,domenic,addition/proposal|needs implementer interest,3
+1099540188,false,Modernized version of window.open() API,https://github.com/whatwg/html/issues/7485,2022-01-11T19:27:17Z,2022-07-14T01:57:56Z,domenic,addition/proposal|needs implementer interest,4
 1099015226,false,Clarification of feed autodiscovery in the presence of a application/atom+xml;type=entry parameter,https://github.com/whatwg/html/issues/7483,2022-01-11T11:09:38Z,2022-01-12T12:20:14Z,sewe,clarification|topic: link,0
 1096925300,false,"Hyperlink Auditing (<a ping>) Fetch keepalive flag ",https://github.com/whatwg/html/issues/7478,2022-01-08T13:17:09Z,2022-01-12T12:56:08Z,fowl2,topic: fetch|topic: hyperlink|integration,0
 1096902821,true,Hyperlink Auditing (<a ping>) doesn't specify Content-Type to use for pings,https://github.com/whatwg/html/issues/7477,2022-01-08T11:19:37Z,2022-02-17T17:30:42Z,fowl2,,0
@@ -477,7 +478,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 933565439,true,When does the first browsing context create ?,https://github.com/whatwg/html/issues/6814,2021-06-30T10:55:22Z,2021-07-01T02:55:42Z,scw00,,0
 932775893,false,referer / referrer during reloads & history entry repopulations,https://github.com/whatwg/html/issues/6813,2021-06-29T14:44:30Z,2021-08-06T19:03:37Z,jakearchibald,topic: history|interop,0
 932036472,false,Add modern binary encoding APIs,https://github.com/whatwg/html/issues/6811,2021-06-28T22:16:20Z,2021-07-07T15:59:23Z,lucacasonato,addition/proposal|needs implementer interest,3
-931716900,false,srcdoc and sandbox interaction with session history,https://github.com/whatwg/html/issues/6809,2021-06-28T15:54:01Z,2022-06-30T08:32:55Z,jakearchibald,topic: history,0
+931716900,false,srcdoc and sandbox interaction with session history,https://github.com/whatwg/html/issues/6809,2021-06-28T15:54:01Z,2022-07-14T08:52:45Z,jakearchibald,topic: history,0
 930791283,true,Foster parenting doesn't happen for HTML elements in foreign content,https://github.com/whatwg/html/issues/6808,2021-06-26T20:43:24Z,2021-07-19T12:18:56Z,stevecheckoway,,1
 930577715,false,Allow <textarea> to size to its contents like <div contenteditable>,https://github.com/whatwg/html/issues/6807,2021-06-26T00:42:53Z,2022-05-09T08:31:29Z,randfur,addition/proposal|needs implementer interest|topic: rendering|topic: forms|topic: editing,0
 930149106,true,"In user activation algorithms, ""current high resolution time"" is called without a global",https://github.com/whatwg/html/issues/6806,2021-06-25T12:54:53Z,2022-03-15T15:24:18Z,yoavweiss,good first issue,0
