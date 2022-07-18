@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1307202154,false,"Undeclared ""destination"" in ""fetch an external module script graph""",https://github.com/whatwg/html/issues/8110,2022-07-17T20:32:12Z,2022-07-17T20:32:12Z,nicolo-ribaudo,,0
 1306404648,false,'process a navigate fetch' doesn't load anything ever?,https://github.com/whatwg/html/issues/8108,2022-07-15T19:23:21Z,2022-07-15T19:23:21Z,smaug----,,0
 1304440347,false,HTML Standard triage meeting times,https://github.com/whatwg/html/issues/8106,2022-07-14T08:25:59Z,2022-07-14T11:40:29Z,domenic,agenda+,0
 1303880262,false,Sandboxed iframe srcdoc inherits parent's document base URL,https://github.com/whatwg/html/issues/8105,2022-07-13T20:04:27Z,2022-07-14T01:25:23Z,lbherrera,,0
@@ -493,7 +494,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 923084614,true,Extend `atob` and `btoa` to support non-ASCII strings,https://github.com/whatwg/html/issues/6779,2021-06-16T20:46:05Z,2021-07-22T22:15:36Z,ethanresnick,addition/proposal|needs implementer interest,1
 922214329,true,Setting document.domain should not work for any public suffix,https://github.com/whatwg/html/issues/6775,2021-06-16T07:36:40Z,2021-06-16T17:09:25Z,thorlacius,,0
 921850934,false,What should history.back() do when sync navigations are involved?,https://github.com/whatwg/html/issues/6773,2021-06-15T22:22:03Z,2021-08-03T06:58:48Z,domenic,topic: history|interop,0
-920923069,false,Failed dynamic import should not always be cached,https://github.com/whatwg/html/issues/6768,2021-06-15T02:19:52Z,2022-03-25T04:59:17Z,sodatea,topic: script,2
+920923069,false,Failed dynamic import should not always be cached,https://github.com/whatwg/html/issues/6768,2021-06-15T02:19:52Z,2022-03-25T04:59:17Z,sodatea,topic: script,3
 918518896,false,Web compat: don't run async scripts between adjacent sync <script>s,https://github.com/whatwg/html/issues/6761,2021-06-11T09:48:42Z,2021-06-16T21:36:30Z,zcorpan,compat|topic: parser|topic: script,0
 917707970,false,How should timers account for system sleep/suspend?,https://github.com/whatwg/html/issues/6759,2021-06-10T18:46:38Z,2021-09-02T00:48:06Z,shaseley,,0
 917578796,false,Additional definitions exports for Pointer Events,https://github.com/whatwg/html/issues/6758,2021-06-10T17:04:44Z,2021-08-04T17:33:43Z,plehegar,anchor permanence|editorial,0
@@ -1135,7 +1136,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 555407218,true,Use script type for SharedWorkerGlobalScope matching,https://github.com/whatwg/html/issues/5235,2020-01-27T07:47:33Z,2020-02-10T22:31:35Z,elkurin,topic: workers,0
 554992172,true,Abstract out and unify image loading,https://github.com/whatwg/html/issues/5234,2020-01-24T22:53:26Z,2020-02-04T13:30:40Z,eeeps,,0
 553646676,true,Should frameset names be in a window's named properties?,https://github.com/whatwg/html/issues/5230,2020-01-22T16:17:06Z,2020-01-22T19:32:55Z,pshaughn,good first issue,0
-553617925,false,Define <link rel=prefetch>,https://github.com/whatwg/html/issues/5229,2020-01-22T15:31:09Z,2022-05-16T04:38:35Z,iamkumaran,topic: link|integration|topic: resource hints (inc. preload),0
+553617925,false,Define <link rel=prefetch>,https://github.com/whatwg/html/issues/5229,2020-01-22T15:31:09Z,2022-07-18T08:09:03Z,iamkumaran,topic: link|integration|topic: resource hints (inc. preload),0
 553141052,false,pageshow event timeStamp in BFCache,https://github.com/whatwg/html/issues/5226,2020-01-21T21:29:22Z,2020-02-14T20:44:42Z,npm1,,0
 552730493,false,COEP and redirects,https://github.com/whatwg/html/issues/5223,2020-01-21T09:29:59Z,2020-06-15T12:05:31Z,annevk,topic: cross-origin-embedder-policy,0
 552697694,false,"Should ""reload-triggered navigation"" be more strictly defined?",https://github.com/whatwg/html/issues/5222,2020-01-21T08:30:40Z,2020-02-12T10:47:28Z,yoavweiss,topic: navigation,2
