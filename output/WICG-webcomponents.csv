@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1294460676,true,Selector for children of the named slot,https://github.com/WICG/webcomponents/issues/961,2022-07-05T15:34:26Z,2022-07-05T16:18:09Z,dealancer,,0
-1292356530,false,[scoped-registries] reduce pain by preventing logic from ever touching non-upgraded custom elements,https://github.com/WICG/webcomponents/issues/960,2022-07-03T16:02:00Z,2022-07-03T16:08:30Z,trusktr,,0
+1292356530,false,[scoped-registries] reduce pain by preventing logic from ever touching non-upgraded custom elements,https://github.com/WICG/webcomponents/issues/960,2022-07-03T16:02:00Z,2022-07-19T19:26:46Z,trusktr,,0
 1223357158,false,HTML Modules: JavaScript Scoping of ShadowDom Children,https://github.com/WICG/webcomponents/issues/959,2022-05-02T21:02:43Z,2022-05-03T06:29:50Z,Swivelgames,,4
 1173383577,false,CSS Appearance for Constructable Stylesheets,https://github.com/WICG/webcomponents/issues/957,2022-03-18T09:35:20Z,2022-03-18T09:35:20Z,Offroaders123,,0
 1147781170,false,Place to chat about Web Components standardization,https://github.com/WICG/webcomponents/issues/956,2022-02-23T08:10:52Z,2022-02-23T18:31:50Z,annevk,,7
@@ -8,7 +8,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1108724998,true,HTMLSlotElement.assign() does not work as expected,https://github.com/WICG/webcomponents/issues/954,2022-01-20T01:13:28Z,2022-01-22T01:46:40Z,rpivo,shadow-dom|question,0
 1104233755,false,Template Parts parsing: nested braces case,https://github.com/WICG/webcomponents/issues/953,2022-01-15T00:22:57Z,2022-01-15T00:22:57Z,dy,,0
 1104231904,false,Templates Parts: SVG errors,https://github.com/WICG/webcomponents/issues/952,2022-01-15T00:19:06Z,2022-01-15T00:19:19Z,dy,,0
-1097075639,false,Observable Properties,https://github.com/WICG/webcomponents/issues/951,2022-01-09T01:05:07Z,2022-01-09T17:10:50Z,jeff-hykin,,0
+1097075639,false,Observable Properties,https://github.com/WICG/webcomponents/issues/951,2022-01-09T01:05:07Z,2022-07-19T16:07:22Z,jeff-hykin,,0
 1092978831,true,DOM Parts / Template Parts: conflicting name with CSS parts,https://github.com/WICG/webcomponents/issues/950,2022-01-04T03:27:22Z,2022-01-04T03:31:22Z,dy,,0
 1087765059,true,why are gaps between custom-element using shadow root,https://github.com/WICG/webcomponents/issues/947,2021-12-23T14:30:45Z,2021-12-23T18:39:59Z,wfk007,question|css,0
 1086472414,false,`customElements.upgrade` does not upgrade node subtrees cloned from `template` contents via `cloneNode`,https://github.com/WICG/webcomponents/issues/946,2021-12-22T05:43:13Z,2022-02-10T00:17:38Z,Etherian,custom-elements|question,0
@@ -36,7 +36,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 846046279,true,CSS Shadow Parts Selector ::part() does not work in combination with :disabled pseudo-class in Chrome,https://github.com/WICG/webcomponents/issues/918,2021-03-31T07:04:32Z,2021-04-28T18:51:35Z,Dev89787,shadow-dom|question|css,0
 845828532,false,RfC: API design for aria delegation mechanism,https://github.com/WICG/webcomponents/issues/917,2021-03-31T04:23:50Z,2022-02-09T14:45:37Z,dfreedm,,0
 845508187,false,Add delegatesLabel and a content attribute to specify the label element within a shadow tree,https://github.com/WICG/webcomponents/issues/916,2021-03-31T00:09:28Z,2022-01-13T22:07:53Z,rniwa,shadow-dom|custom-elements|html-dom|a11y-tracker,2
-830432018,false,[scoped-registries] Interaction with declarative shadow DOM,https://github.com/WICG/webcomponents/issues/914,2021-03-12T20:42:55Z,2022-07-18T22:48:25Z,justinfagnani,,4
+830432018,false,[scoped-registries] Interaction with declarative shadow DOM,https://github.com/WICG/webcomponents/issues/914,2021-03-12T20:42:55Z,2022-07-19T17:25:32Z,justinfagnani,,4
 817671672,true,Using attributes as properties,https://github.com/WICG/webcomponents/issues/913,2021-02-26T21:22:42Z,2022-03-09T12:58:04Z,vrugtehagel,custom-elements|needs consensus|needs implementer interest|needs concrete proposal,1
 801354981,true,Why is Chrome Platform Status reporting 70% usage for HTMLSlotElement?,https://github.com/WICG/webcomponents/issues/912,2021-02-04T14:50:06Z,2021-02-18T16:35:52Z,Danny-Engelman,shadow-dom|question,0
 798703023,false,Spring 2021 Virtual Meeting,https://github.com/WICG/webcomponents/issues/911,2021-02-01T20:59:13Z,2021-04-21T04:34:06Z,JanMiksovsky,,12
@@ -199,7 +199,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 285086059,true,Interface/class-based selector,https://github.com/WICG/webcomponents/issues/719,2017-12-29T12:33:09Z,2018-03-05T05:39:47Z,jasmith79,custom-elements|needs implementer interest,0
 282958795,true,Bulk property updates,https://github.com/WICG/webcomponents/issues/718,2017-12-18T17:26:28Z,2020-12-21T20:34:32Z,JanMiksovsky,needs implementer interest,0
 282200986,true,"The way to access current script or current root, from Shadow DOM",https://github.com/WICG/webcomponents/issues/717,2017-12-14T18:45:27Z,2022-06-23T23:58:57Z,tomalec,shadow-dom|needs implementer interest,13
-280602178,false,Scoped Custom Element Registries,https://github.com/WICG/webcomponents/issues/716,2017-12-08T20:05:07Z,2022-07-19T00:17:26Z,justinfagnani,custom-elements|needs concrete proposal,139
+280602178,false,Scoped Custom Element Registries,https://github.com/WICG/webcomponents/issues/716,2017-12-08T20:05:07Z,2022-07-19T16:08:50Z,justinfagnani,custom-elements|needs concrete proposal,139
 279788891,true,Undefined specification for @keyframe scope on slotted content,https://github.com/WICG/webcomponents/issues/715,2017-12-06T15:13:41Z,2018-02-21T11:21:18Z,ruphin,v1|shadow-dom,0
 278678409,true,[Proposal] customElements#hasLocalName(Class),https://github.com/WICG/webcomponents/issues/714,2017-12-02T11:57:29Z,2017-12-03T20:03:40Z,thysultan,,0
 275960655,true,WebPlatform Web Components F2F 2018,https://github.com/WICG/webcomponents/issues/713,2017-11-22T06:45:10Z,2019-03-01T15:07:19Z,TakayoshiKochi,,15
