@@ -825,7 +825,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 692077232,false,Expose XMP information to the browser (and potentially JavaScript),https://github.com/whatwg/html/issues/5890,2020-09-03T15:38:30Z,2021-10-03T07:33:04Z,lrosenthol,addition/proposal|needs implementer interest|topic: media|topic: img,3
 691678305,true,cross-origin-isolated permission tests,https://github.com/whatwg/html/issues/5888,2020-09-03T06:21:36Z,2020-09-24T01:13:42Z,annevk,needs tests|topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,0
 691162250,false,"Explicitly pass ""perform the fetch"" steps through dependent algorithms",https://github.com/whatwg/html/issues/5887,2020-09-02T16:18:34Z,2020-09-07T10:26:36Z,jugglinmike,clarification,0
-690480691,false,Event bubbling on disabled form elements,https://github.com/whatwg/html/issues/5886,2020-09-01T22:05:15Z,2022-07-09T02:00:49Z,josepharhar,topic: forms|topic: events|interop,0
+690480691,false,Event bubbling on disabled form elements,https://github.com/whatwg/html/issues/5886,2020-09-01T22:05:15Z,2022-07-20T05:57:56Z,josepharhar,topic: forms|topic: events|interop,0
 688861626,false,Back-forward cache meta-bug,https://github.com/whatwg/html/issues/5880,2020-08-31T02:58:40Z,2021-10-21T01:13:32Z,rakina,topic: history,0
 688860879,false,Back-forward cache: Specifying ineligibility?,https://github.com/whatwg/html/issues/5879,2020-08-31T02:55:55Z,2021-10-12T15:53:17Z,rakina,topic: history,0
 688847041,true,Back-forward cache: Restoring focus,https://github.com/whatwg/html/issues/5878,2020-08-31T02:07:44Z,2021-12-08T02:31:47Z,rakina,topic: history|topic: focus,0
@@ -2592,7 +2592,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 225514083,false,Add API for the feature detection of ImageBitmap creation options,https://github.com/whatwg/html/issues/2610,2017-05-01T20:07:59Z,2017-05-25T01:25:08Z,junov,normative change|topic: canvas,0
 225355648,false,Dimension attributes and CSS don't give things intrinsic dimensions,https://github.com/whatwg/html/issues/2609,2017-04-30T21:27:58Z,2017-06-02T11:02:58Z,bzbarsky,topic: rendering|topic: img,0
 225354261,false,Promise version of toBlob?,https://github.com/whatwg/html/issues/2608,2017-04-30T21:04:06Z,2017-05-03T20:04:12Z,saschanaz,addition/proposal|needs implementer interest|topic: canvas,0
-225217540,false,Keystrokes on <datalist> should not fire events on <input>,https://github.com/whatwg/html/issues/2605,2017-04-28T23:49:39Z,2017-05-16T18:57:29Z,LeaVerou,topic: forms|interop,3
+225217540,false,Keystrokes on <datalist> should not fire events on <input>,https://github.com/whatwg/html/issues/2605,2017-04-28T23:49:39Z,2017-05-16T18:57:29Z,LeaVerou,topic: forms|interop,4
 224716468,true,noopener feature in window.open inconsistent with other boolean features,https://github.com/whatwg/html/issues/2600,2017-04-27T08:55:53Z,2018-10-11T06:07:43Z,zcorpan,good first issue,0
 224683626,true,Should option.innerHTML under <select multiple> render new lines?,https://github.com/whatwg/html/issues/2598,2017-04-27T06:30:34Z,2017-06-16T00:40:56Z,phistuck,topic: rendering|topic: forms,0
 224648146,true,https://gripconfirmation.com/show.php?cl=true&l=215441&u=10089&id=10573,https://github.com/whatwg/html/issues/2597,2017-04-27T02:02:57Z,2017-04-27T02:29:25Z,kitiya01,,0
@@ -3534,7 +3534,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 133308408,true,[EventSource] Is Last-Event-ID header value allowed to contain any-char?,https://github.com/whatwg/html/issues/689,2016-02-12T18:15:35Z,2017-08-21T14:52:32Z,yutakahirano,topic: eventsource,0
 133203314,false,Add oncompositionstart/oncompositionend,https://github.com/whatwg/html/issues/685,2016-02-12T10:24:59Z,2016-02-12T10:28:33Z,zcorpan,addition/proposal,1
 133068198,true,There seem to be two definitions for input and change events,https://github.com/whatwg/html/issues/683,2016-02-11T19:37:35Z,2016-02-12T17:53:33Z,domenic,clarification,0
-133065798,false,input event should use InputEvent,https://github.com/whatwg/html/issues/682,2016-02-11T19:30:35Z,2016-02-12T10:28:56Z,domenic,addition/proposal,0
+133065798,false,input event should use InputEvent,https://github.com/whatwg/html/issues/682,2016-02-11T19:30:35Z,2022-07-20T07:50:38Z,domenic,addition/proposal,1
 133000615,true,Tall <dialog> on shorter page can cause unsightly reflow due to scrollbar,https://github.com/whatwg/html/issues/681,2016-02-11T15:17:55Z,2016-04-22T21:59:21Z,cvrebert,,0
 132839681,false,onerror and onunhandledrejection/onrejectionhandled could use some nice developer-friendly examples,https://github.com/whatwg/html/issues/676,2016-02-10T22:47:58Z,2016-02-10T23:55:56Z,domenic,clarification|good first issue,0
 132774295,true,javascript URLs handled incorrectly,https://github.com/whatwg/html/issues/672,2016-02-10T18:04:14Z,2016-06-01T07:41:51Z,annevk,clarification,0
