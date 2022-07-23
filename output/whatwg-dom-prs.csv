@@ -2,7 +2,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1276502713,true,Review Draft Publication: June 2022,https://github.com/whatwg/dom/pull/1089,2022-06-20T07:38:50Z,2022-06-20T07:46:47Z,annevk,,0
 1274177913,true,Specify default passive for document-level wheel/mousewheel/touchstart/touchmove events,https://github.com/whatwg/dom/pull/1087,2022-06-16T22:45:28Z,2022-06-30T12:25:51Z,zcorpan,,0
 1265829879,true,Missing dot for `concept-node-remove`s first step.,https://github.com/whatwg/dom/pull/1086,2022-06-09T09:09:43Z,2022-06-09T16:10:28Z,mozfreddyb,,1
-1265068746,false,Add a fully active check for EventTarget in event listener inner invoke,https://github.com/whatwg/dom/pull/1085,2022-06-08T17:20:58Z,2022-06-20T14:20:07Z,shaseley,topic: events,0
+1265068746,false,Add a fully active check for EventTarget in event listener inner invoke,https://github.com/whatwg/dom/pull/1085,2022-06-08T17:20:58Z,2022-07-22T19:20:45Z,shaseley,topic: events|do not merge yet,0
 1227114016,false,Allow more characters in element/attribute names and prefixes,https://github.com/whatwg/dom/pull/1079,2022-05-05T19:53:39Z,2022-07-16T06:26:41Z,domenic,needs tests,0
 1197384677,false,Maybe throw NotSupportedError for createEvent('touchevent'),https://github.com/whatwg/dom/pull/1071,2022-04-08T14:24:06Z,2022-05-03T17:18:07Z,zcorpan,do not merge yet,0
 1175921964,true,"Editorial: Fix a reference to ""extract a live range""",https://github.com/whatwg/dom/pull/1068,2022-03-21T20:45:28Z,2022-03-22T09:15:52Z,andreubotella,,0
@@ -81,7 +81,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 550855809,true,Avoid enqueuing tree mutation record when there is no mutation,https://github.com/whatwg/dom/pull/822,2020-01-16T14:49:41Z,2020-01-22T17:40:34Z,shvaikalesh,,2
 549250216,true,Editorial: mark initCustomEvent and createEvent as // historical,https://github.com/whatwg/dom/pull/821,2020-01-13T23:53:42Z,2020-01-15T16:24:34Z,shvaikalesh,,0
 549219316,true,"Editorial: add missing comma in ""add an event listener"" definition",https://github.com/whatwg/dom/pull/820,2020-01-13T22:29:16Z,2020-01-16T14:14:28Z,shvaikalesh,,0
-548131775,false,"Adoption and DocumentFragment, part two",https://github.com/whatwg/dom/pull/819,2020-01-10T15:10:11Z,2022-07-16T07:00:40Z,annevk,,1
+548131775,false,"Adoption and DocumentFragment, part two",https://github.com/whatwg/dom/pull/819,2020-01-10T15:10:11Z,2022-07-22T15:06:00Z,annevk,,1
 544482591,true,Remove document.origin,https://github.com/whatwg/dom/pull/815,2020-01-02T08:09:14Z,2020-01-07T01:35:35Z,annevk,impacts documentation,0
 537556893,true,Review Draft Publication: December 2019,https://github.com/whatwg/dom/pull/810,2019-12-13T13:42:45Z,2019-12-13T17:09:19Z,annevk,,0
 535874322,false,Add attribute validate steps.,https://github.com/whatwg/dom/pull/809,2019-12-10T17:22:20Z,2021-01-15T07:33:13Z,koto,needs implementer interest|needs tests,0
@@ -96,7 +96,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 521922157,true,Editorial: punctuation and capitalization fixes,https://github.com/whatwg/dom/pull/795,2019-11-13T02:43:19Z,2019-11-13T12:19:48Z,heycam,,0
 520040551,true,Address infinite loop in TreeWalker's nextNode(),https://github.com/whatwg/dom/pull/794,2019-11-08T14:20:31Z,2019-11-11T08:54:19Z,annevk,,0
 497456701,true,[dom] Align with Web IDL specification,https://github.com/whatwg/dom/pull/786,2019-09-24T05:02:15Z,2019-09-24T13:42:56Z,autokagami,,0
-496136632,true,Add onabort definition and add onslotchange,https://github.com/whatwg/dom/pull/785,2019-09-20T04:21:45Z,2022-07-11T12:38:23Z,domenic,,0
+496136632,true,Add onabort definition and add onslotchange,https://github.com/whatwg/dom/pull/785,2019-09-20T04:21:45Z,2022-07-22T10:27:49Z,domenic,,0
 490685417,true,Use Web IDL constructor operations,https://github.com/whatwg/dom/pull/782,2019-09-07T22:11:00Z,2019-09-24T13:43:11Z,foolip,,0
 484227667,true,Add StaticRange constructor,https://github.com/whatwg/dom/pull/778,2019-08-22T21:33:22Z,2019-08-30T08:34:51Z,sanketj,,0
 478852866,true,Editorial: attachShadow() takes a required dictionary,https://github.com/whatwg/dom/pull/775,2019-08-09T08:01:46Z,2019-08-09T08:09:52Z,annevk,,0
