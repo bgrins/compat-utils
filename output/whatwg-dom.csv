@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1314829605,false,Which interfaces should have event handler attributes?,https://github.com/whatwg/dom/issues/1097,2022-07-22T10:27:32Z,2022-07-22T11:18:59Z,foolip,topic: events,1
 1299866530,true,Does `MutationObserver` `attributeFilter` accept itorators?,https://github.com/whatwg/dom/issues/1092,2022-07-10T08:54:01Z,2022-07-22T07:54:45Z,trusktr,,0
-1285564839,false,Expose `signal.reason` as `error.cause` for `AbortError`,https://github.com/whatwg/dom/issues/1090,2022-06-27T10:06:15Z,2022-07-26T20:48:15Z,LiviaMedeiros,,0
+1285564839,true,Expose `signal.reason` as `error.cause` for `AbortError`,https://github.com/whatwg/dom/issues/1090,2022-06-27T10:06:15Z,2022-07-27T07:05:33Z,LiviaMedeiros,,0
 1274578228,true,Specify addEventListener default passive hack for smoothscroll.js,https://github.com/whatwg/dom/issues/1088,2022-06-17T05:16:29Z,2022-06-20T13:10:44Z,zcorpan,topic: events,0
 1260367446,false,Should event dispatch check that the event target is in a fully active realm?,https://github.com/whatwg/dom/issues/1084,2022-06-03T20:52:17Z,2022-06-07T12:20:06Z,shaseley,topic: events,1
 1244699995,false,Timeout AbortSignal (or AbortController) that gets input from the operation,https://github.com/whatwg/dom/issues/1082,2022-05-23T07:25:31Z,2022-07-01T15:11:50Z,annevk,topic: aborting,0
@@ -23,7 +23,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1070837365,false,AbortController.prototype.timeout and AbortController.prototype.cancel,https://github.com/whatwg/dom/issues/1039,2021-12-03T18:11:48Z,2021-12-20T06:52:49Z,jasnell,needs implementer interest|addition/proposal|topic: aborting,0
 1068837290,false,once() and on() async utilities for EventTarget,https://github.com/whatwg/dom/issues/1038,2021-12-01T20:23:47Z,2022-01-05T20:24:05Z,jasnell,topic: events|addition/proposal,3
 1066207470,true,"""(use public-script-coord@w3.org for discussion)""",https://github.com/whatwg/dom/issues/1036,2021-11-29T15:58:05Z,2021-11-29T17:02:37Z,domenic,,0
-1059337098,false,Add a way to identify Abort errors originating from controllers,https://github.com/whatwg/dom/issues/1033,2021-11-21T09:56:22Z,2021-11-28T15:41:49Z,benjamingr,needs implementer interest|addition/proposal|topic: aborting,0
+1059337098,true,Add a way to identify Abort errors originating from controllers,https://github.com/whatwg/dom/issues/1033,2021-11-21T09:56:22Z,2022-07-27T07:07:23Z,benjamingr,needs implementer interest|addition/proposal|topic: aborting,0
 1051117774,false,Request for a different type of example of abort steps,https://github.com/whatwg/dom/issues/1031,2021-11-11T15:49:42Z,2021-11-15T07:54:01Z,domenic,clarification|topic: aborting,0
 1049505056,false,AbortSignal's abort reason downstream integration,https://github.com/whatwg/dom/issues/1030,2021-11-10T07:56:02Z,2022-05-19T07:05:05Z,annevk,meta|topic: aborting,0
 1028316856,true,"Error in unicode code for character "":"" (U+003E) when it should be (U+003A)",https://github.com/whatwg/dom/issues/1026,2021-10-17T12:59:27Z,2021-10-18T13:47:47Z,SoLaRGit,,0
