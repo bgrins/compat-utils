@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1321568538,false,Clarify what happens when setting rel content attribute on link element,https://github.com/whatwg/html/issues/8138,2022-07-28T22:45:38Z,2022-07-28T22:45:38Z,rniwa,,0
 1318917068,false,Which input types should readonly affect constraint validation for?,https://github.com/whatwg/html/issues/8133,2022-07-27T01:40:41Z,2022-07-27T07:03:33Z,nt1m,topic: forms|agenda+,0
 1318848558,false,Request for Key Term description for 'repair techniques',https://github.com/whatwg/html/issues/8132,2022-07-26T23:26:01Z,2022-07-27T01:50:45Z,LaurenceRLewis,,0
 1317297208,true,Change type of event on('input') to InputEvent,https://github.com/whatwg/html/issues/8131,2022-07-25T19:54:18Z,2022-07-26T00:25:56Z,wbt,,0
@@ -133,7 +134,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1206023411,true,Should Element.id spec reflect what browser actually implement,https://github.com/whatwg/html/issues/7824,2022-04-16T05:48:42Z,2022-04-24T15:41:38Z,greggman,document conformance,5
 1204707421,false,Early hints followup issues,https://github.com/whatwg/html/issues/7823,2022-04-14T15:51:56Z,2022-06-02T12:14:16Z,domenic,,1
 1204498851,false,Add referrerpolicy to media elements (<audio> and <video>),https://github.com/whatwg/html/issues/7822,2022-04-14T12:59:02Z,2022-04-21T17:55:49Z,SegaraRai,addition/proposal|needs implementer interest|topic: media|topic: fetch,0
-1200400029,false,Add support to the window.open function for the Accept header.,https://github.com/whatwg/html/issues/7810,2022-04-11T18:54:19Z,2022-05-08T22:00:14Z,codecando-x,addition/proposal|needs implementer interest|topic: navigation,1
+1200400029,false,Add support to the window.open function for the Accept header.,https://github.com/whatwg/html/issues/7810,2022-04-11T18:54:19Z,2022-05-08T22:00:14Z,codecando-x,addition/proposal|needs implementer interest|topic: navigation,2
 1200302682,true,Should adding inert attribute force a blur?,https://github.com/whatwg/html/issues/7809,2022-04-11T17:32:47Z,2022-04-11T17:48:14Z,emilio,,0
 1200291987,true,inert on an ancestor of modal dialog,https://github.com/whatwg/html/issues/7808,2022-04-11T17:25:44Z,2022-05-18T17:53:25Z,emilio,topic: dialog,0
 1198621719,false,"""Fetch a classic worker-imported script"" uses fetch's synchronous flag, which is no longer defined",https://github.com/whatwg/html/issues/7804,2022-04-09T14:03:10Z,2022-04-25T13:20:59Z,Lubrsi,topic: workers|topic: fetch|integration,0
@@ -837,7 +838,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 691162250,false,"Explicitly pass ""perform the fetch"" steps through dependent algorithms",https://github.com/whatwg/html/issues/5887,2020-09-02T16:18:34Z,2020-09-07T10:26:36Z,jugglinmike,clarification,0
 690480691,false,Event bubbling on disabled form elements,https://github.com/whatwg/html/issues/5886,2020-09-01T22:05:15Z,2022-07-20T21:12:24Z,josepharhar,topic: forms|topic: events|interop,0
 688861626,false,Back-forward cache meta-bug,https://github.com/whatwg/html/issues/5880,2020-08-31T02:58:40Z,2021-10-21T01:13:32Z,rakina,topic: history,0
-688860879,false,Back-forward cache: Specifying ineligibility?,https://github.com/whatwg/html/issues/5879,2020-08-31T02:55:55Z,2021-10-12T15:53:17Z,rakina,topic: history,0
+688860879,false,Back-forward cache: Specifying ineligibility?,https://github.com/whatwg/html/issues/5879,2020-08-31T02:55:55Z,2022-07-28T18:55:47Z,rakina,topic: history,0
 688847041,true,Back-forward cache: Restoring focus,https://github.com/whatwg/html/issues/5878,2020-08-31T02:07:44Z,2021-12-08T02:31:47Z,rakina,topic: history|topic: focus,0
 688821785,false,"Back-forward cache: browsing context change & ""fully active"" concept",https://github.com/whatwg/html/issues/5877,2020-08-31T00:24:14Z,2020-09-02T07:50:24Z,rakina,topic: history,0
 688220258,true,"Supporting autocomplete=""username"" with type=""email""",https://github.com/whatwg/html/issues/5873,2020-08-28T16:59:35Z,2020-09-02T07:05:33Z,craigfrancis,topic: forms,0
@@ -1469,7 +1470,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 445428418,false,It is unclear how HostPromiseRejectionTracker should work when the Promise is created and rejected by the UA,https://github.com/whatwg/html/issues/4637,2019-05-17T12:54:38Z,2019-05-20T09:55:07Z,smaug----,topic: script,0
 445415497,true,MDN overlay makes content inaccessible,https://github.com/whatwg/html/issues/4635,2019-05-17T12:22:01Z,2019-10-08T06:11:50Z,Krinkle,,0
 445199038,true,"Fixed ""Categories:"" of autonomous-custom-element",https://github.com/whatwg/html/issues/4634,2019-05-16T23:21:57Z,2019-05-31T14:34:12Z,mtrootyy,clarification|document conformance|topic: custom elements,1
-445055689,false,Top layer research,https://github.com/whatwg/html/issues/4633,2019-05-16T16:41:22Z,2020-11-25T16:26:05Z,domenic,addition/proposal|topic: rendering,16
+445055689,false,Top layer research,https://github.com/whatwg/html/issues/4633,2019-05-16T16:41:22Z,2020-11-25T16:26:05Z,domenic,addition/proposal|topic: rendering,17
 444811229,true,"""flow content"" not exported as definition?",https://github.com/whatwg/html/issues/4632,2019-05-16T08:05:25Z,2019-09-19T06:04:19Z,marcoscaceres,,0
 444666582,false,`TimeMarchesOn` won't be ran until media element starts playing or calls seek,https://github.com/whatwg/html/issues/4631,2019-05-15T22:06:45Z,2019-06-03T14:42:02Z,alastor0325,topic: media,0
 444641423,false,Port the ECMAScript Intl API as declarative elements,https://github.com/whatwg/html/issues/4630,2019-05-15T20:56:28Z,2019-05-16T08:00:39Z,phistuck,addition/proposal|needs implementer interest|topic: forms,0
