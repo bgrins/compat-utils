@@ -23,7 +23,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1312599763,false,"Proposal: keep the previous page as a ""menu""",https://github.com/whatwg/html/issues/8119,2022-07-21T04:57:07Z,2022-07-21T04:57:07Z,markmiro,,0
 1311631285,false,"Behavior of createImageBitmap with { imageOrientation: ""flipY"" } is unclear",https://github.com/whatwg/html/issues/8118,2022-07-20T18:08:57Z,2022-08-08T15:14:08Z,junov,topic: canvas,0
 1308221885,false,HTML needs a mechaism for extending the parsing algorithm,https://github.com/whatwg/html/issues/8114,2022-07-18T16:41:40Z,2022-07-18T23:27:47Z,plinss,,0
-1307202154,false,"Undeclared ""destination"" in ""fetch an external module script graph""",https://github.com/whatwg/html/issues/8110,2022-07-17T20:32:12Z,2022-07-17T20:32:12Z,nicolo-ribaudo,,1
+1307202154,true,"Undeclared ""destination"" in ""fetch an external module script graph""",https://github.com/whatwg/html/issues/8110,2022-07-17T20:32:12Z,2022-08-09T07:29:03Z,nicolo-ribaudo,,1
 1306404648,false,'process a navigate fetch' doesn't load anything ever?,https://github.com/whatwg/html/issues/8108,2022-07-15T19:23:21Z,2022-07-21T06:47:34Z,smaug----,topic: navigation,0
 1304440347,false,HTML Standard triage meeting times,https://github.com/whatwg/html/issues/8106,2022-07-14T08:25:59Z,2022-08-05T14:28:43Z,domenic,,1
 1303880262,false,Sandboxed iframe srcdoc inherits parent's document base URL,https://github.com/whatwg/html/issues/8105,2022-07-13T20:04:27Z,2022-07-14T01:25:23Z,lbherrera,,0
@@ -38,7 +38,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1297039069,false,"Change createImageBitMaps's imageOrientation ""none"" to ""from-image""",https://github.com/whatwg/html/issues/8085,2022-07-07T08:43:36Z,2022-08-08T15:15:02Z,zcorpan,normative change|topic: canvas|needs compat analysis,0
 1295936796,false,Proposal: actively peeking/deleting message in queen from Window/WebWorker,https://github.com/whatwg/html/issues/8083,2022-07-06T14:34:52Z,2022-07-07T10:00:32Z,Zhang-Junzhi,,0
 1295686187,true,Improve UX : Fluent UI transitions for non SPA websites,https://github.com/whatwg/html/issues/8082,2022-07-06T11:22:32Z,2022-07-08T09:13:02Z,perelengo,,0
-1295622672,false,Review accessibility of the content models venn diagram,https://github.com/whatwg/html/issues/8081,2022-07-06T10:29:39Z,2022-07-20T14:21:55Z,zcorpan,accessibility|editorial,0
+1295622672,false,Review accessibility of the content models venn diagram,https://github.com/whatwg/html/issues/8081,2022-07-06T10:29:39Z,2022-08-09T10:24:29Z,zcorpan,accessibility|editorial,0
 1295519751,false,Update the image data - setting src to the same value logic seems incorrect,https://github.com/whatwg/html/issues/8080,2022-07-06T09:10:17Z,2022-08-08T15:06:13Z,zcorpan,good first issue|topic: img,0
 1295361713,false,"gamepadconnected and gamepaddisconnected should be listed ",https://github.com/whatwg/html/issues/8079,2022-07-06T07:38:09Z,2022-07-06T07:41:47Z,marcoscaceres,,0
 1294763306,false,Proposal: baseURL argument to `import.meta.resolve`,https://github.com/whatwg/html/issues/8077,2022-07-05T20:59:08Z,2022-07-15T14:19:34Z,guybedford,,0
@@ -118,7 +118,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1225610226,false,Rearrange link processing model stuff,https://github.com/whatwg/html/issues/7890,2022-05-04T16:30:47Z,2022-06-03T08:22:52Z,domenic,clarification|topic: link,0
 1224984371,false,Make preload headers work for fetches created by workers,https://github.com/whatwg/html/issues/7889,2022-05-04T06:50:18Z,2022-05-19T11:11:41Z,yoavweiss,addition/proposal|needs implementer interest|topic: link|topic: resource hints (inc. preload),0
 1224983675,false,Enable preload to download variable fonts only in supporting browsers,https://github.com/whatwg/html/issues/7888,2022-05-04T06:49:14Z,2022-05-19T11:17:39Z,yoavweiss,addition/proposal|topic: resource hints (inc. preload),0
-1224980520,false,Allow custom HTTP headers to be defined for a preload request,https://github.com/whatwg/html/issues/7887,2022-05-04T06:44:03Z,2022-07-27T17:00:58Z,yoavweiss,addition/proposal|needs implementer interest|topic: resource hints (inc. preload),0
+1224980520,false,Allow custom HTTP headers to be defined for a preload request,https://github.com/whatwg/html/issues/7887,2022-05-04T06:44:03Z,2022-08-09T10:19:54Z,yoavweiss,addition/proposal|needs implementer interest|topic: resource hints (inc. preload),0
 1223352851,true,Behavior of inline nonce/hash script if source text is modified between preparation and evaluation,https://github.com/whatwg/html/issues/7882,2022-05-02T20:57:44Z,2022-05-05T20:33:35Z,bathos,,0
 1223022771,false,Hidden attribute is no longer boolean,https://github.com/whatwg/html/issues/7881,2022-05-02T15:25:17Z,2022-05-02T15:31:39Z,scottaohara,,0
 1222247714,false,Suboptimal subheading workarounds,https://github.com/whatwg/html/issues/7879,2022-05-01T18:46:15Z,2022-05-15T18:39:52Z,jcwii,,0
@@ -182,10 +182,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1172424410,true,Iframe's sandbox IDL definition. Why is it readonly?,https://github.com/whatwg/html/issues/7717,2022-03-17T13:59:33Z,2022-03-17T15:25:41Z,ArthurSonzogni,,0
 1172335029,true,Window's time origin is totally different across browsers. Consider simplifying,https://github.com/whatwg/html/issues/7716,2022-03-17T12:43:17Z,2022-05-03T18:28:36Z,noamr,topic: navigation,0
 1171182964,true,Allow Browsing Contexts to maintain opener member across Browsing Context Groups.,https://github.com/whatwg/html/issues/7713,2022-03-16T15:26:52Z,2022-05-04T09:25:49Z,hemeryar,addition/proposal|topic: browsing context|topic: cross-origin-opener-policy,0
-1170139985,false,Initial focus placement for dialog element: terminology for first-focusable vs first-tabbable,https://github.com/whatwg/html/issues/7710,2022-03-15T19:54:22Z,2022-06-07T22:35:24Z,scottaohara,topic: dialog,0
-1170102274,false,Consider conformance guidance for authors to explicitly declare autofocus for dialog element,https://github.com/whatwg/html/issues/7709,2022-03-15T19:29:08Z,2022-03-31T22:06:41Z,scottaohara,document conformance|impacts documentation|topic: dialog,1
-1170091999,false,Consider conformance guidance for dialogs which contain large blocks of text,https://github.com/whatwg/html/issues/7708,2022-03-15T19:20:27Z,2022-03-23T14:15:17Z,scottaohara,document conformance|accessibility|a11y-tracker|topic: dialog,0
-1170089132,false,Clarify UX (keyboard) and further a11y expectations for modeless dialogs,https://github.com/whatwg/html/issues/7707,2022-03-15T19:18:03Z,2022-03-16T09:00:51Z,scottaohara,accessibility|topic: focus|a11y-tracker|topic: dialog,0
+1170139985,false,Initial focus placement for dialog element: terminology for first-focusable vs first-tabbable,https://github.com/whatwg/html/issues/7710,2022-03-15T19:54:22Z,2022-08-09T09:07:09Z,scottaohara,topic: dialog,0
+1170102274,false,Consider conformance guidance for authors to explicitly declare autofocus for dialog element,https://github.com/whatwg/html/issues/7709,2022-03-15T19:29:08Z,2022-08-09T09:05:37Z,scottaohara,document conformance|impacts documentation|topic: dialog,1
+1170091999,false,Consider conformance guidance for dialogs which contain large blocks of text,https://github.com/whatwg/html/issues/7708,2022-03-15T19:20:27Z,2022-08-09T09:04:38Z,scottaohara,document conformance|accessibility|a11y-tracker|topic: dialog,0
+1170089132,false,Clarify UX (keyboard) and further a11y expectations for modeless dialogs,https://github.com/whatwg/html/issues/7707,2022-03-15T19:18:03Z,2022-08-09T09:15:40Z,scottaohara,accessibility|topic: focus|a11y-tracker|topic: dialog|agenda+,0
 1169913310,false,[Feature Request] Generalize imports to permit statically loading arbitrary text and data.,https://github.com/whatwg/html/issues/7706,2022-03-15T16:33:22Z,2022-03-22T00:59:59Z,7ombie,addition/proposal|needs implementer interest|topic: script,0
 1168706207,false,"interop issues in protocol handler manual tests due to url encoding ",https://github.com/whatwg/html/issues/7703,2022-03-14T17:42:05Z,2022-03-15T12:24:12Z,javifernandez,topic: custom protocols,0
 1168088894,false,Changes in page title as bona fide status messages (as with <output>),https://github.com/whatwg/html/issues/7701,2022-03-14T09:13:35Z,2022-03-15T10:26:49Z,brennanyoung,,0
@@ -940,7 +940,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 645123366,false,Permanent anchor for form submission,https://github.com/whatwg/html/issues/5672,2020-06-25T03:42:49Z,2020-06-26T01:17:18Z,mnot,anchor permanence,2
 644790152,false,COOP and multipart/x-mixed-replace,https://github.com/whatwg/html/issues/5670,2020-06-24T17:36:11Z,2021-09-13T13:51:36Z,domenic,topic: navigation|topic: cross-origin-opener-policy,0
 644789708,true,"COOP and HTTPS state ""deprecated""",https://github.com/whatwg/html/issues/5669,2020-06-24T17:35:30Z,2020-06-25T17:43:36Z,domenic,security/privacy|topic: cross-origin-opener-policy,0
-644471921,false,Enable support for<dialog> to be dismissed using the back button,https://github.com/whatwg/html/issues/5667,2020-06-24T09:40:43Z,2022-06-07T22:23:54Z,omzy,topic: dialog,0
+644471921,false,Enable support for<dialog> to be dismissed using the back button,https://github.com/whatwg/html/issues/5667,2020-06-24T09:40:43Z,2022-08-09T09:03:18Z,omzy,topic: dialog,0
 644001488,false,Structured cloning of Error .name,https://github.com/whatwg/html/issues/5665,2020-06-23T17:02:17Z,2020-06-23T21:20:03Z,Gozala,,0
 643263156,false,define text or if already defined put definition in more obvious place,https://github.com/whatwg/html/issues/5663,2020-06-22T18:01:44Z,2020-06-24T09:45:28Z,Nick-Levinson,clarification|document conformance,0
 643064493,true,no focus behavior is speced out for inert subtrees,https://github.com/whatwg/html/issues/5662,2020-06-22T13:18:02Z,2020-06-29T14:20:45Z,asurkov,topic: focus,0
@@ -3557,7 +3557,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 133308408,true,[EventSource] Is Last-Event-ID header value allowed to contain any-char?,https://github.com/whatwg/html/issues/689,2016-02-12T18:15:35Z,2017-08-21T14:52:32Z,yutakahirano,topic: eventsource,0
 133203314,false,Add oncompositionstart/oncompositionend,https://github.com/whatwg/html/issues/685,2016-02-12T10:24:59Z,2016-02-12T10:28:33Z,zcorpan,addition/proposal,1
 133068198,true,There seem to be two definitions for input and change events,https://github.com/whatwg/html/issues/683,2016-02-11T19:37:35Z,2016-02-12T17:53:33Z,domenic,clarification,0
-133065798,false,input event should use InputEvent,https://github.com/whatwg/html/issues/682,2016-02-11T19:30:35Z,2022-07-20T07:50:38Z,domenic,addition/proposal,1
+133065798,false,input event should use InputEvent,https://github.com/whatwg/html/issues/682,2016-02-11T19:30:35Z,2022-08-09T07:30:47Z,domenic,addition/proposal|topic: events,1
 133000615,true,Tall <dialog> on shorter page can cause unsightly reflow due to scrollbar,https://github.com/whatwg/html/issues/681,2016-02-11T15:17:55Z,2016-04-22T21:59:21Z,cvrebert,,0
 132839681,false,onerror and onunhandledrejection/onrejectionhandled could use some nice developer-friendly examples,https://github.com/whatwg/html/issues/676,2016-02-10T22:47:58Z,2016-02-10T23:55:56Z,domenic,clarification|good first issue,0
 132774295,true,javascript URLs handled incorrectly,https://github.com/whatwg/html/issues/672,2016-02-10T18:04:14Z,2016-06-01T07:41:51Z,annevk,clarification,0
