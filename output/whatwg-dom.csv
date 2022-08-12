@@ -9,7 +9,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1243019933,false,Element.matches and :scope,https://github.com/whatwg/dom/issues/1081,2022-05-20T11:34:12Z,2022-05-23T06:56:06Z,lifaon74,needs implementer interest|addition/proposal,0
 1212075304,false,Unspecified behavior when NodeFilter#acceptNode returns null,https://github.com/whatwg/dom/issues/1075,2022-04-22T09:28:33Z,2022-05-18T16:30:39Z,kapouer,needs tests,0
 1198590952,false,`event.target` not cleared if event is not fired on `ShadowRoot`,https://github.com/whatwg/dom/issues/1072,2022-04-09T13:07:50Z,2022-04-19T15:00:51Z,Dragiyski,,0
-1191331943,false,Add EventListener Sub Flags [Suggestion] [Feature Request],https://github.com/whatwg/dom/issues/1070,2022-04-04T03:53:31Z,2022-04-04T06:46:15Z,Seagat2011,needs implementer interest|topic: events|addition/proposal,2
+1191331943,false,Add EventListener Sub Flags [Suggestion] [Feature Request],https://github.com/whatwg/dom/issues/1070,2022-04-04T03:53:31Z,2022-08-12T10:25:48Z,Seagat2011,needs implementer interest|topic: events|addition/proposal,2
 1166656742,false,Please add the links to the old versions?,https://github.com/whatwg/dom/issues/1067,2022-03-11T17:06:31Z,2022-05-14T07:12:15Z,Pomax,meta,0
 1165513358,true,Incorrect x-ref for `extracting` in Range.surroundContents,https://github.com/whatwg/dom/issues/1065,2022-03-10T17:26:25Z,2022-03-22T07:56:55Z,Lubrsi,,1
 1160504843,false,Allow attachShadow on <script> and <style>,https://github.com/whatwg/dom/issues/1064,2022-03-06T03:12:17Z,2022-03-09T16:25:25Z,bjenik,topic: shadow|addition/proposal,1
@@ -252,7 +252,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 304767693,true,Lack of [[PlatformBrand]] is biting us,https://github.com/whatwg/dom/issues/597,2018-03-13T13:37:38Z,2021-10-04T16:33:12Z,annevk,,0
 304317220,false,Candidates for AbstractRange,https://github.com/whatwg/dom/issues/591,2018-03-12T10:34:25Z,2019-04-11T09:40:20Z,annevk,needs implementer interest|needs tests|addition/proposal|topic: ranges,0
 304312074,true,Introduce a StaticRange constructor,https://github.com/whatwg/dom/issues/590,2018-03-12T10:19:07Z,2019-08-29T06:33:04Z,annevk,addition/proposal|topic: ranges,0
-303904611,false,Property to distinguish whether listener is passive or no/event is preventable,https://github.com/whatwg/dom/issues/587,2018-03-09T16:45:38Z,2022-05-18T20:58:47Z,FRSgit,needs implementer interest|topic: events|addition/proposal,0
+303904611,false,Property to distinguish whether listener is passive or no/event is preventable,https://github.com/whatwg/dom/issues/587,2018-03-09T16:45:38Z,2022-08-12T09:30:47Z,FRSgit,needs implementer interest|topic: events|addition/proposal,0
 303551004,false,"Add convenient, ergonomic, performant API for sorting siblings",https://github.com/whatwg/dom/issues/586,2018-03-08T16:49:29Z,2019-04-11T09:40:20Z,fantasai,needs implementer interest|addition/proposal,9
 302351172,false,"Allow custom ""get the parent"" algorithms for EventTargets",https://github.com/whatwg/dom/issues/583,2018-03-05T15:47:38Z,2021-04-09T20:44:34Z,zandaqo,needs implementer interest|topic: events|addition/proposal,13
 301229910,true,dispatch algorithm doesn't seem to handle the case when target or relatedTarget is Window object,https://github.com/whatwg/dom/issues/580,2018-02-28T23:58:39Z,2018-03-28T12:56:28Z,smaug----,topic: shadow,0
@@ -518,7 +518,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 122942551,true,Node#baseURI need not be nullable,https://github.com/whatwg/dom/issues/131,2015-12-18T12:43:39Z,2016-01-01T15:17:54Z,foolip,,0
 122520253,true,Some fix for replace algo and question,https://github.com/whatwg/dom/issues/129,2015-12-16T14:50:09Z,2015-12-17T16:33:27Z,ArkadiuszMichalski,,0
 121622388,true,Some tweaks for Nodes,https://github.com/whatwg/dom/issues/127,2015-12-11T02:25:49Z,2015-12-15T10:36:57Z,ArkadiuszMichalski,,0
-121260584,false,Disconnect single target instead of all,https://github.com/whatwg/dom/issues/126,2015-12-09T14:51:40Z,2022-02-24T12:34:10Z,zbraniecki,needs implementer interest|addition/proposal,12
+121260584,false,Disconnect single target instead of all,https://github.com/whatwg/dom/issues/126,2015-12-09T14:51:40Z,2022-08-12T10:38:29Z,zbraniecki,needs implementer interest|addition/proposal,12
 120313749,true,Cross-browser inconsistencies with createHTMLDocument,https://github.com/whatwg/dom/issues/124,2015-12-04T01:45:08Z,2015-12-04T13:18:13Z,frewsxcv,,0
 118855978,true,Merge DOMSettableTokenList into DOMTokenList,https://github.com/whatwg/dom/issues/119,2015-11-25T15:08:12Z,2016-01-28T22:46:36Z,annevk,,0
 118581132,true,Document.documentURI and Document.URL attributes behaviour,https://github.com/whatwg/dom/issues/118,2015-11-24T10:51:45Z,2016-01-01T15:41:08Z,ArkadiuszMichalski,,0
