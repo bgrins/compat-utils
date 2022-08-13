@@ -96,7 +96,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1251239281,true,"bugs in tag omission ",https://github.com/whatwg/html/issues/7962,2022-05-27T20:27:18Z,2022-05-27T21:27:27Z,alexander-akait,,0
 1247550235,false,"Automatically open option list in a `<select>` (`HTMLSelectElement`) ",https://github.com/whatwg/html/issues/7957,2022-05-25T06:18:11Z,2022-05-25T07:25:49Z,ashmind,addition/proposal|needs implementer interest|topic: forms,0
 1246513904,false,Considerations for providing alternative text to video poster graphics,https://github.com/whatwg/html/issues/7954,2022-05-24T12:57:13Z,2022-05-25T14:23:59Z,scottaohara,addition/proposal|a11y-tracker,4
-1246423393,false,Access to private class members in the windows object is not checked,https://github.com/whatwg/html/issues/7952,2022-05-24T11:48:17Z,2022-06-28T01:34:00Z,joyeecheung,topic: multiple globals,0
+1246423393,false,Access to private class members in the windows object is not checked,https://github.com/whatwg/html/issues/7952,2022-05-24T11:48:17Z,2022-08-12T18:01:52Z,joyeecheung,topic: multiple globals,0
 1245490159,false,Consider being strict about range mismatch for media,https://github.com/whatwg/html/issues/7950,2022-05-23T17:27:12Z,2022-05-24T07:26:22Z,noamr,topic: media|interop,1
 1245461464,true,Typo in section 2.1.4 DOM trees,https://github.com/whatwg/html/issues/7949,2022-05-23T16:58:18Z,2022-05-26T15:27:55Z,AegisFair,good first issue,1
 1244030392,false,Add color-interpolation-method support for canvas gradients,https://github.com/whatwg/html/issues/7947,2022-05-21T16:39:32Z,2022-05-22T10:24:36Z,weinig,addition/proposal|topic: canvas,1
@@ -162,7 +162,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1194256346,false,Feature proposal: input[mask],https://github.com/whatwg/html/issues/7794,2022-04-06T08:28:15Z,2022-04-06T17:05:28Z,Akxe,addition/proposal|needs implementer interest|topic: forms,2
 1193376515,true,EvenSource BOM definition,https://github.com/whatwg/html/issues/7791,2022-04-05T15:48:34Z,2022-04-05T17:33:02Z,johntalton,clarification|topic: eventsource,0
 1192965142,false,showPicker() doesn't allow detecting whether a picker can be shown,https://github.com/whatwg/html/issues/7790,2022-04-05T10:39:32Z,2022-04-05T17:13:15Z,emilio,topic: forms,2
-1192425309,false,New feature proposal: Popup API,https://github.com/whatwg/html/issues/7785,2022-04-04T23:27:05Z,2022-04-08T19:53:42Z,mfreed7,addition/proposal,0
+1192425309,false,New feature proposal: Popup API,https://github.com/whatwg/html/issues/7785,2022-04-04T23:27:05Z,2022-04-08T19:53:42Z,mfreed7,addition/proposal,1
 1191266112,true,Is behavior of structuredClone() + SharedArrayBuffer + no transfer + no isolation intentional?,https://github.com/whatwg/html/issues/7781,2022-04-04T05:14:01Z,2022-06-08T06:43:39Z,bathos,topic: serialize and transfer,0
 1190641435,true,Event loop uses current high resolution time without a global object,https://github.com/whatwg/html/issues/7776,2022-04-02T13:59:34Z,2022-04-14T16:06:23Z,skyrising,integration,0
 1190036505,false,Translating the HTML standard into Spanish,https://github.com/whatwg/html/issues/7774,2022-04-01T16:35:44Z,2022-04-07T14:08:47Z,MasQueElite,meta,2
@@ -914,7 +914,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 663869445,true,How does a script added into a shadow DOM work with that shadow dom/the element that built it?,https://github.com/whatwg/html/issues/5754,2020-07-22T15:53:57Z,2020-08-17T09:40:03Z,Pomax,,0
 663532617,true,classic script's base URL should be sanitized when muted errors flag is set,https://github.com/whatwg/html/issues/5751,2020-07-22T07:13:35Z,2020-07-24T19:12:26Z,hiroshige-g,,0
 662723840,true,back-forward cache: specify interaction with unload & beforeunload,https://github.com/whatwg/html/issues/5748,2020-07-21T08:06:43Z,2020-10-12T16:11:17Z,rakina,topic: history,1
-661438283,false,Add an API to opt-out of back-forward cache?,https://github.com/whatwg/html/issues/5744,2020-07-20T06:33:22Z,2021-06-02T12:16:15Z,rakina,addition/proposal|topic: history,10
+661438283,false,Add an API to opt-out of back-forward cache?,https://github.com/whatwg/html/issues/5744,2020-07-20T06:33:22Z,2021-06-02T12:16:15Z,rakina,addition/proposal|topic: history,11
 661026877,true,"Typing into an input element moves the cursor position unexpectedly ",https://github.com/whatwg/html/issues/5743,2020-07-19T19:41:06Z,2020-07-20T23:24:38Z,juanca,,0
 660189408,false,Form input element should have an autocomplete attribute for numeric citizen/personal ID fields,https://github.com/whatwg/html/issues/5740,2020-07-18T14:44:36Z,2021-12-02T18:35:08Z,Avamander,addition/proposal|needs implementer interest|topic: forms,3
 654932334,true,Add some sort of navigation-params container to stop threading stuff through navigation-related algorithms,https://github.com/whatwg/html/issues/5727,2020-07-10T17:37:19Z,2020-07-17T17:19:38Z,domenic,clarification|topic: navigation,0
@@ -2087,7 +2087,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2022-05-19T08:38:09Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,17
 305369552,true,Proposal: Improve control over HTML/XML syntax parse errors,https://github.com/whatwg/html/issues/3569,2018-03-14T23:56:33Z,2022-04-18T15:28:51Z,dvdckl,addition/proposal|needs implementer interest|topic: parser,0
 305147441,true,"<form method> description only says ""HTTP method""",https://github.com/whatwg/html/issues/3568,2018-03-14T12:58:10Z,2018-04-20T07:53:27Z,annevk,good first issue,0
-305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2022-04-05T13:53:37Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,52
+305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2022-04-05T13:53:37Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,53
 305020324,true,Separate out document.open() method declaration definitions,https://github.com/whatwg/html/issues/3565,2018-03-14T04:36:27Z,2018-06-28T15:27:09Z,domenic,clarification|good first issue|topic: document.open(),0
 305019688,true,At least Blink does not support document.open()'s replace parameter,https://github.com/whatwg/html/issues/3564,2018-03-14T04:31:43Z,2018-08-23T18:40:33Z,domenic,topic: history|interop|topic: document.open(),0
 304874091,false,<template> element capability/semantics in SVG parsing context,https://github.com/whatwg/html/issues/3563,2018-03-13T17:59:50Z,2018-03-15T07:34:25Z,kevinpschaaf,addition/proposal|needs implementer interest|topic: parser,0
@@ -2208,7 +2208,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 288116711,false,createImageBitmap with OffscreenCanvas argument,https://github.com/whatwg/html/issues/3342,2018-01-12T13:19:51Z,2018-01-26T09:33:11Z,Ms2ger,topic: canvas,2
 288061761,false,"""The image argument is not origin-clean"" check allows tainted ImageBitmaps",https://github.com/whatwg/html/issues/3341,2018-01-12T09:47:23Z,2018-01-12T15:23:06Z,Ms2ger,topic: canvas|security/privacy,0
 287881721,true,"""object getStartDate()"" should be ""Date getStartDate()""",https://github.com/whatwg/html/issues/3340,2018-01-11T18:35:28Z,2018-01-11T18:48:57Z,mmotorny,,0
-287518824,false,Proposal: Storage Access API,https://github.com/whatwg/html/issues/3338,2018-01-10T17:37:57Z,2022-05-25T20:14:00Z,johnwilander,addition/proposal|security/privacy|interop|topic: cookie|topic: storage|needs concrete proposal|impacts documentation,28
+287518824,false,Proposal: Storage Access API,https://github.com/whatwg/html/issues/3338,2018-01-10T17:37:57Z,2022-08-12T22:43:42Z,johnwilander,addition/proposal|security/privacy|interop|topic: cookie|topic: storage|needs concrete proposal|impacts documentation,28
 287303589,false,[PROPOSAL] Private Key Authorization System Built in Browser,https://github.com/whatwg/html/issues/3337,2018-01-10T03:22:43Z,2018-01-22T12:57:53Z,xialvjun,addition/proposal,0
 287180467,true,"""Content attributes"" descriptions are weird for fieldsets",https://github.com/whatwg/html/issues/3335,2018-01-09T18:08:48Z,2018-08-17T14:11:53Z,bzbarsky,clarification|good first issue|topic: forms|topic: fieldset,0
 287119130,false,"""at the media resource's intrinsic width and int...""",https://github.com/whatwg/html/issues/3334,2018-01-09T15:03:28Z,2018-01-10T10:10:19Z,Ms2ger,topic: canvas,1
@@ -2729,7 +2729,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 211719444,true,"innerText license was MIT, not CC BY",https://github.com/whatwg/html/issues/2408,2017-03-03T15:29:07Z,2017-03-07T09:59:11Z,annevk,,0
 211513300,true,`contextmenu` and multiple `<menu>`s,https://github.com/whatwg/html/issues/2406,2017-03-02T20:50:33Z,2018-01-22T12:47:04Z,Yay295,,0
 211350495,true,Should UA style for dialog contain display:block?,https://github.com/whatwg/html/issues/2405,2017-03-02T10:31:42Z,2017-03-24T04:11:58Z,ghost,topic: rendering,0
-211311639,false,A tag to display date and/or time to the user in his preferred format.,https://github.com/whatwg/html/issues/2404,2017-03-02T07:33:07Z,2022-08-12T08:22:05Z,lostmsu,addition/proposal|needs implementer interest,3
+211311639,false,A tag to display date and/or time to the user in his preferred format.,https://github.com/whatwg/html/issues/2404,2017-03-02T07:33:07Z,2022-08-12T17:47:54Z,lostmsu,addition/proposal|needs implementer interest,4
 210689268,true,setRangeText one-argument form doesn't define what the selection mode should be,https://github.com/whatwg/html/issues/2403,2017-02-28T05:15:04Z,2018-05-07T09:39:50Z,bzbarsky,clarification|good first issue,0
 210080003,true,Processing the result of a redirect fetch during navigation relies on nonexistent tasks queued by Fetch,https://github.com/whatwg/html/issues/2396,2017-02-24T15:38:41Z,2017-03-20T12:30:02Z,jdm,topic: navigation,0
 210038745,true,There is no field on the error event that would carry an error reason when adding a script to DOM fails,https://github.com/whatwg/html/issues/2395,2017-02-24T12:39:11Z,2017-03-09T23:37:40Z,juj,,0
