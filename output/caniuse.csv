@@ -335,7 +335,7 @@ link-rel-preconnect,wd,DOM,No,Yes,Yes
 link-rel-prefetch,wd,DOM,Yes,No,Yes
 link-rel-preload,cr,DOM,Yes,Yes,Yes
 link-rel-prerender,wd,DOM,No,No,Yes
-loading-lazy-attr,ls,HTML5,Partial,Partial,Yes
+loading-lazy-attr,ls,HTML5,Partial,Yes,Yes
 localecompare,other,JS,Yes,Yes,Yes
 magnetometer,cr,JS API,No,No,Yes
 matchesselector,ls,"DOM,JS API",Yes,Yes,Yes
@@ -513,6 +513,7 @@ webm,other,Other,Yes,Yes,Yes
 webnfc,unoff,JS API,No,No,No
 webp,other,Other,Yes,Yes,Yes
 websockets,ls,JS API,Yes,Yes,Yes
+webtransport,wd,JS API,No,No,Yes
 webusb,unoff,JS API,No,No,Yes
 webvr,unoff,JS API,Yes,No,No
 webvtt,wd,Other,Yes,Yes,Yes
