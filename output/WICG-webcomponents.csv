@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1340690956,false,TPAC 2022 Web Components Meeting(s),https://github.com/WICG/webcomponents/issues/966,2022-08-16T17:53:55Z,2022-08-16T23:39:58Z,mfreed7,,2
+1340690956,false,TPAC 2022 Web Components Meeting(s),https://github.com/WICG/webcomponents/issues/966,2022-08-16T17:53:55Z,2022-08-17T22:41:15Z,mfreed7,,3
 1326483757,false,Add getElementsByPartName() that returns live collection.,https://github.com/WICG/webcomponents/issues/964,2022-08-02T22:57:55Z,2022-08-02T23:08:34Z,bahrus,,0
 1323328954,false,[custom-elements] Why is `attributeChangedCallback` synchronous?,https://github.com/WICG/webcomponents/issues/963,2022-07-31T00:35:31Z,2022-07-31T05:56:27Z,trusktr,question,0
 1317738393,false,"[element-internals] How to get internals in base class and subclass, without leaking it to public",https://github.com/WICG/webcomponents/issues/962,2022-07-26T06:00:18Z,2022-07-31T04:58:28Z,trusktr,custom-elements|question,1
@@ -118,7 +118,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 447896993,false,"Discussion: child elements cannot determine whether they are ""active"" or not",https://github.com/WICG/webcomponents/issues/817,2019-05-23T22:15:50Z,2019-07-17T15:55:09Z,caridy,,2
 445606273,true,Shadow tree encapsulation and Element Timing,https://github.com/WICG/webcomponents/issues/816,2019-05-17T20:29:40Z,2019-10-15T17:47:53Z,npm1,shadow-dom|question,0
 445163776,false,Form associated custom elements: implicit submission,https://github.com/WICG/webcomponents/issues/815,2019-05-16T21:16:13Z,2019-05-16T21:16:13Z,domenic,,6
-445158359,false,Form-associated custom elements: being a submit button,https://github.com/WICG/webcomponents/issues/814,2019-05-16T21:01:46Z,2022-06-21T14:45:46Z,domenic,custom-elements,12
+445158359,false,Form-associated custom elements: being a submit button,https://github.com/WICG/webcomponents/issues/814,2019-05-16T21:01:46Z,2022-08-17T20:25:06Z,domenic,custom-elements,12
 442529805,false,Manage pseudo class matching state for custom elements,https://github.com/WICG/webcomponents/issues/813,2019-05-10T04:09:34Z,2019-05-10T09:02:54Z,tkent-google,custom-elements,4
 441452263,true,Consider functional mixin pattern for form-associated custom elements,https://github.com/WICG/webcomponents/issues/812,2019-05-07T21:22:26Z,2019-08-20T20:56:06Z,JanMiksovsky,custom-elements,0
 441222443,false,Protocols/traits for custom elements,https://github.com/WICG/webcomponents/issues/811,2019-05-07T13:06:46Z,2019-05-10T13:40:07Z,annevk,custom-elements,2
@@ -212,7 +212,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 273542501,false,[template] What if the `type` attribute is specified in the <template> but its processor is not registered?,https://github.com/WICG/webcomponents/issues/709,2017-11-13T19:07:45Z,2018-12-18T02:38:27Z,caridy,v2|templates,0
 273490731,false,[template] How to remove a listener registered on createCallback,https://github.com/WICG/webcomponents/issues/708,2017-11-13T16:24:23Z,2017-11-14T16:28:29Z,koba04,templates,0
 273046721,false,[templates] Allow removal of boolean attributes,https://github.com/WICG/webcomponents/issues/705,2017-11-10T20:16:01Z,2018-12-20T16:15:38Z,jakearchibald,templates,0
-273040044,false,[templates] Ensure that template instantiation actually improves the platform,https://github.com/WICG/webcomponents/issues/704,2017-11-10T19:49:20Z,2022-07-27T06:55:04Z,smaug----,templates,2
+273040044,false,[templates] Ensure that template instantiation actually improves the platform,https://github.com/WICG/webcomponents/issues/704,2017-11-10T19:49:20Z,2022-08-17T21:57:10Z,smaug----,templates,2
 273020041,false,[templates] How to handle expressions in tables,https://github.com/WICG/webcomponents/issues/703,2017-11-10T18:27:51Z,2022-01-15T00:13:58Z,justinfagnani,templates,3
 272997484,false,[templates] implement a polyfill of template-instantiation before even considering to add the API natively to the platform,https://github.com/WICG/webcomponents/issues/702,2017-11-10T17:00:33Z,2020-10-26T12:06:26Z,smaug----,templates,2
 272894874,true,Having slots as element prevents styling empty containers,https://github.com/WICG/webcomponents/issues/701,2017-11-10T10:57:13Z,2018-10-22T09:04:06Z,heruan,shadow-dom|needs implementer interest,5
@@ -262,7 +262,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 242065357,true,Lack of implementations of customized built-in elements is hurting Web Components,https://github.com/WICG/webcomponents/issues/648,2017-07-11T14:20:44Z,2017-08-25T00:04:26Z,prushforth,,7
 239487384,true,"Explanation required : Why only direct children of the shadow host can be slotted? ",https://github.com/WICG/webcomponents/issues/647,2017-06-29T13:55:07Z,2017-06-29T15:58:31Z,praveenpuglia,,0
 239109845,true,Custom Elements as submittable elements,https://github.com/WICG/webcomponents/issues/646,2017-06-28T09:47:44Z,2017-06-28T13:23:18Z,nektro,,0
-237252809,false,HTML Modules,https://github.com/WICG/webcomponents/issues/645,2017-06-20T15:30:13Z,2022-05-02T00:48:22Z,justinfagnani,needs concrete proposal|modules,231
+237252809,false,HTML Modules,https://github.com/WICG/webcomponents/issues/645,2017-06-20T15:30:13Z,2022-08-17T13:20:11Z,justinfagnani,needs concrete proposal|modules,231
 236969156,true,"[css-scoping]  Confusion regarding >>> ",https://github.com/WICG/webcomponents/issues/644,2017-06-19T17:49:26Z,2017-06-21T10:54:11Z,Ollie-w,,0
 235775061,true,Extending from a component with shadow dom may be difficult.,https://github.com/WICG/webcomponents/issues/643,2017-06-14T06:29:33Z,2017-06-15T17:17:59Z,trusktr,,0
 232443793,true,Agenda for W3C TPAC 2017 (Web Components),https://github.com/WICG/webcomponents/issues/641,2017-05-31T03:32:54Z,2017-11-16T03:30:30Z,hayatoito,,0
