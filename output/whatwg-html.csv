@@ -103,7 +103,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1251239281,true,"bugs in tag omission ",https://github.com/whatwg/html/issues/7962,2022-05-27T20:27:18Z,2022-05-27T21:27:27Z,alexander-akait,,0
 1247550235,false,"Automatically open option list in a `<select>` (`HTMLSelectElement`) ",https://github.com/whatwg/html/issues/7957,2022-05-25T06:18:11Z,2022-05-25T07:25:49Z,ashmind,addition/proposal|needs implementer interest|topic: forms,0
 1246513904,false,Considerations for providing alternative text to video poster graphics,https://github.com/whatwg/html/issues/7954,2022-05-24T12:57:13Z,2022-05-25T14:23:59Z,scottaohara,addition/proposal|a11y-tracker,4
-1246423393,false,Access to private class members in the windows object is not checked,https://github.com/whatwg/html/issues/7952,2022-05-24T11:48:17Z,2022-08-15T01:58:03Z,joyeecheung,topic: multiple globals,0
+1246423393,true,Access to private class members in the windows object is not checked,https://github.com/whatwg/html/issues/7952,2022-05-24T11:48:17Z,2022-08-22T02:34:08Z,joyeecheung,topic: multiple globals,0
 1245490159,false,Consider being strict about range mismatch for media,https://github.com/whatwg/html/issues/7950,2022-05-23T17:27:12Z,2022-05-24T07:26:22Z,noamr,topic: media|interop,1
 1245461464,true,Typo in section 2.1.4 DOM trees,https://github.com/whatwg/html/issues/7949,2022-05-23T16:58:18Z,2022-05-26T15:27:55Z,AegisFair,good first issue,1
 1244030392,false,Add color-interpolation-method support for canvas gradients,https://github.com/whatwg/html/issues/7947,2022-05-21T16:39:32Z,2022-05-22T10:24:36Z,weinig,addition/proposal|topic: canvas,1
@@ -1122,7 +1122,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 572368643,true,Question: site equality examples,https://github.com/whatwg/html/issues/5316,2020-02-27T21:24:30Z,2020-02-28T19:36:22Z,lazdmx,clarification,0
 570587270,true,Lazyload: N-fetches for each relevant mutation,https://github.com/whatwg/html/issues/5314,2020-02-25T13:53:54Z,2020-05-15T16:45:55Z,domfarolino,topic: img,1
 570474276,true,"""the document has finished loading""",https://github.com/whatwg/html/issues/5313,2020-02-25T10:39:45Z,2020-02-26T09:24:46Z,amn,,0
-570415383,false,"Form Submission: Fix the ""Double Submit problem"" at the spec level",https://github.com/whatwg/html/issues/5312,2020-02-25T09:07:07Z,2021-01-17T17:55:38Z,bramus,addition/proposal|needs implementer interest|topic: forms,133
+570415383,false,"Form Submission: Fix the ""Double Submit problem"" at the spec level",https://github.com/whatwg/html/issues/5312,2020-02-25T09:07:07Z,2021-01-17T17:55:38Z,bramus,addition/proposal|needs implementer interest|topic: forms,135
 570310032,false,Proposal: canvas to blob URL function,https://github.com/whatwg/html/issues/5311,2020-02-25T04:51:26Z,2020-02-25T22:21:22Z,rhendric,addition/proposal|needs implementer interest|topic: canvas|security/privacy,0
 569316279,true,"Event order of onKeyDown, onKeyPress, onKeyUp, and onPaste when using pasting (CMD + v) in Mac OS X",https://github.com/whatwg/html/issues/5310,2020-02-22T10:39:21Z,2020-02-22T10:46:10Z,aesyondu,,0
 569187828,true,"<img alt=""""> definition doesn't match reality.",https://github.com/whatwg/html/issues/5309,2020-02-21T21:15:09Z,2020-02-26T09:24:49Z,emilio,compat|topic: rendering|topic: img,5
