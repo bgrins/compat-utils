@@ -5,7 +5,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1285564839,true,Expose `signal.reason` as `error.cause` for `AbortError`,https://github.com/whatwg/dom/issues/1090,2022-06-27T10:06:15Z,2022-07-27T07:05:33Z,LiviaMedeiros,,0
 1274578228,true,Specify addEventListener default passive hack for smoothscroll.js,https://github.com/whatwg/dom/issues/1088,2022-06-17T05:16:29Z,2022-06-20T13:10:44Z,zcorpan,topic: events,0
 1260367446,false,Should event dispatch check that the event target is in a fully active realm?,https://github.com/whatwg/dom/issues/1084,2022-06-03T20:52:17Z,2022-06-07T12:20:06Z,shaseley,topic: events,1
-1244699995,false,Timeout AbortSignal (or AbortController) that gets input from the operation,https://github.com/whatwg/dom/issues/1082,2022-05-23T07:25:31Z,2022-08-01T13:48:27Z,annevk,topic: aborting,0
+1244699995,false,Timeout AbortSignal (or AbortController) that gets input from the operation,https://github.com/whatwg/dom/issues/1082,2022-05-23T07:25:31Z,2022-08-25T16:56:40Z,annevk,topic: aborting,0
 1243019933,false,Element.matches and :scope,https://github.com/whatwg/dom/issues/1081,2022-05-20T11:34:12Z,2022-05-23T06:56:06Z,lifaon74,needs implementer interest|addition/proposal,0
 1212075304,false,Unspecified behavior when NodeFilter#acceptNode returns null,https://github.com/whatwg/dom/issues/1075,2022-04-22T09:28:33Z,2022-05-18T16:30:39Z,kapouer,needs tests,0
 1198590952,false,`event.target` not cleared if event is not fired on `ShadowRoot`,https://github.com/whatwg/dom/issues/1072,2022-04-09T13:07:50Z,2022-04-19T15:00:51Z,Dragiyski,,0
@@ -168,7 +168,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 423017912,true,Wrong return type of Node::getRootNode(),https://github.com/whatwg/dom/issues/739,2019-03-20T00:53:42Z,2019-03-20T07:57:20Z,SetTrend,,0
 422508516,true,Reference to struct in inner invoke,https://github.com/whatwg/dom/issues/738,2019-03-19T01:57:21Z,2020-06-29T08:27:07Z,Zirro,,0
 418687232,false,isEqualNode and <template>,https://github.com/whatwg/dom/issues/737,2019-03-08T08:39:44Z,2019-04-05T12:53:37Z,jakearchibald,,1
-418208052,false,Proposal: a DocumentFragment whose nodes do not get removed once inserted,https://github.com/whatwg/dom/issues/736,2019-03-06T19:28:54Z,2021-07-06T07:01:26Z,WebReflection,needs implementer interest|addition/proposal,53
+418208052,false,Proposal: a DocumentFragment whose nodes do not get removed once inserted,https://github.com/whatwg/dom/issues/736,2019-03-06T19:28:54Z,2021-07-06T07:01:26Z,WebReflection,needs implementer interest|addition/proposal,54
 413102117,true,window.event and IFRAMEs,https://github.com/whatwg/dom/issues/735,2019-02-21T20:08:55Z,2020-12-08T19:09:14Z,cvazac,topic: events,0
 411169284,true,Dispatching slotchange within a compound microtask,https://github.com/whatwg/dom/issues/734,2019-02-17T09:52:36Z,2019-03-29T15:11:22Z,annevk,topic: shadow,0
 407741641,true,Should adopting change an element's prototype?,https://github.com/whatwg/dom/issues/731,2019-02-07T15:00:08Z,2019-02-07T15:25:33Z,jakearchibald,,0
