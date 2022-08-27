@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1352791054,false,MutationObserver callbacks happen in wrong order.,https://github.com/whatwg/dom/issues/1105,2022-08-26T22:34:40Z,2022-08-27T00:19:39Z,trusktr,,0
+1352791054,false,MutationObserver callbacks happen in wrong order.,https://github.com/whatwg/dom/issues/1105,2022-08-26T22:34:40Z,2022-08-27T06:31:47Z,trusktr,,0
 1330866554,false,TreeWalker.nextNode loops forever if last node of a detached node tree is not accepted by the filter,https://github.com/whatwg/dom/issues/1102,2022-08-06T23:08:56Z,2022-08-07T02:55:42Z,Lubrsi,,0
 1314829605,false,Which interfaces should have event handler attributes?,https://github.com/whatwg/dom/issues/1097,2022-07-22T10:27:32Z,2022-07-22T11:18:59Z,foolip,topic: events,2
 1299866530,true,Does `MutationObserver` `attributeFilter` accept itorators?,https://github.com/whatwg/dom/issues/1092,2022-07-10T08:54:01Z,2022-07-22T07:54:45Z,trusktr,,0
@@ -19,7 +19,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1134803687,true,getComputedStyle should also be a method of the element,https://github.com/whatwg/dom/issues/1057,2022-02-12T23:39:28Z,2022-02-14T09:32:07Z,jcobban,,0
 1123498322,true,"Should AbortSignal.timeout only be exposed on (Window, Worker)?",https://github.com/whatwg/dom/issues/1054,2022-02-03T20:00:49Z,2022-02-08T10:40:03Z,shaseley,,0
 1111885580,true,General DOM effect/Object mutation DOM effect,https://github.com/whatwg/dom/issues/1049,2022-01-23T14:25:08Z,2022-02-08T11:10:59Z,yonathan06,,0
-1104132117,false,feature: `element.getShadow(opts)`,https://github.com/whatwg/dom/issues/1046,2022-01-14T21:17:56Z,2022-05-23T10:17:05Z,trusktr,topic: shadow|needs implementer interest|addition/proposal,0
+1104132117,true,feature: `element.getShadow(opts)`,https://github.com/whatwg/dom/issues/1046,2022-01-14T21:17:56Z,2022-08-27T02:19:22Z,trusktr,topic: shadow|needs implementer interest|addition/proposal,0
 1103685806,false,replaceChildren can not replace a Document's documentElement,https://github.com/whatwg/dom/issues/1045,2022-01-14T14:06:24Z,2022-01-14T16:29:37Z,bwrrp,,0
 1073612825,true,Observe changes in computed styles via MutationObserver?,https://github.com/whatwg/dom/issues/1041,2021-12-07T17:45:35Z,2021-12-08T10:26:31Z,surma,,0
 1070837365,false,AbortController.prototype.timeout and AbortController.prototype.cancel,https://github.com/whatwg/dom/issues/1039,2021-12-03T18:11:48Z,2021-12-20T06:52:49Z,jasnell,needs implementer interest|addition/proposal|topic: aborting,0
@@ -68,7 +68,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 801337310,false,Expose an `aborted` promise on AbortSignal?,https://github.com/whatwg/dom/issues/946,2021-02-04T14:29:56Z,2021-05-24T17:44:42Z,benjamingr,needs implementer interest|topic: aborting,0
 783870164,true,Missing Documentation - WebGLContextAttributes,https://github.com/whatwg/dom/issues/942,2021-01-12T03:11:45Z,2021-01-12T10:07:35Z,mrchantey,,0
 783742832,true,"""ownerElement""",https://github.com/whatwg/dom/issues/941,2021-01-11T22:12:12Z,2021-01-12T07:20:56Z,gwagner57,,0
-776139785,false,[idea] toggleAttribute with detault value when attribute is added.,https://github.com/whatwg/dom/issues/939,2020-12-30T00:11:34Z,2021-01-02T03:55:07Z,trusktr,,0
+776139785,false,[idea] toggleAttribute with detault value when attribute is added.,https://github.com/whatwg/dom/issues/939,2020-12-30T00:11:34Z,2022-08-27T02:20:18Z,trusktr,,0
 775394255,true,how to read dom.ds in vscode?,https://github.com/whatwg/dom/issues/938,2020-12-28T13:13:32Z,2021-01-04T07:37:28Z,anlexN,,0
 774781717,false,Is it intentional to not expose AbortSignal to Worklets?,https://github.com/whatwg/dom/issues/937,2020-12-25T20:28:55Z,2021-01-06T17:58:14Z,saschanaz,topic: aborting,0
 763198736,false,Can DOM ranges split grapheme clusters and surrogate pairs?,https://github.com/whatwg/dom/issues/933,2020-12-12T02:36:53Z,2020-12-14T07:52:49Z,xfq,i18n-needs-resolution,1
