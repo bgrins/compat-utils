@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1350823007,false,Cross-device Shared clipboard,https://github.com/w3c/clipboard-apis/issues/184,2022-08-25T12:30:31Z,2022-08-25T12:30:31Z,Mr0cket,,0
 1350816702,true,Shared clipboard across devices,https://github.com/w3c/clipboard-apis/issues/183,2022-08-25T12:25:22Z,2022-08-25T12:25:41Z,Milo-devoteam,,0
-1335991481,false,Interoperability issue: `navigator.clipboard.write()` and `navigator.clipboard.writeText()` user gesture requirement,https://github.com/w3c/clipboard-apis/issues/182,2022-08-11T13:50:11Z,2022-08-11T13:50:11Z,tomayac,,1
+1335991481,false,Interoperability issue: `navigator.clipboard.write()` and `navigator.clipboard.writeText()` user gesture requirement,https://github.com/w3c/clipboard-apis/issues/182,2022-08-11T13:50:11Z,2022-08-26T16:04:16Z,tomayac,,1
 1283100146,false,Async clipboard read and race conditions.,https://github.com/w3c/clipboard-apis/issues/180,2022-06-24T00:15:05Z,2022-08-11T16:13:25Z,snianu,,0
 1266789970,false,Should reading the clipboard throw DataError or empty clipboard items?,https://github.com/w3c/clipboard-apis/issues/179,2022-06-10T00:06:45Z,2022-08-11T16:13:47Z,snianu,,0
 1264806472,true,"The MIME type checking should ignore the ""web "" prefix",https://github.com/w3c/clipboard-apis/issues/178,2022-06-08T14:03:32Z,2022-07-11T21:46:32Z,ziyunfei,,0
@@ -9,7 +9,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1228405797,true,อ่าน,https://github.com/w3c/clipboard-apis/issues/176,2022-05-06T21:39:06Z,2022-05-11T20:26:01Z,Wiphawrrn63,,0
 1189774842,false,Replacing no-break spaces when converting HTML to plain text upon clipboard export,https://github.com/w3c/clipboard-apis/issues/173,2022-04-01T13:09:05Z,2022-06-09T14:48:16Z,hsivonen,,0
 1140281174,false,Feature detection for supported clipboard formats,https://github.com/w3c/clipboard-apis/issues/170,2022-02-16T16:30:18Z,2022-04-14T16:25:14Z,tomayac,,0
-1137082705,false,`ClipboardItem` constructor should throw when `items` are empty,https://github.com/w3c/clipboard-apis/issues/169,2022-02-14T10:20:42Z,2022-02-15T09:55:45Z,mbrodesser,,0
+1137082705,true,`ClipboardItem` constructor should throw when `items` are empty,https://github.com/w3c/clipboard-apis/issues/169,2022-02-14T10:20:42Z,2022-08-26T15:53:45Z,mbrodesser,,0
 1122929836,true,Should `clipboard.writeText()` replace `\n` characters with `\r\n` on Windows?,https://github.com/w3c/clipboard-apis/issues/168,2022-02-03T10:47:35Z,2022-03-08T19:23:23Z,mbrodesser,,0
 1121387429,false,Clipboard Pickling: should the unsanitized option support a way to ask for all representations to be unsanitized?,https://github.com/w3c/clipboard-apis/issues/167,2022-02-02T01:06:26Z,2022-02-08T08:06:07Z,BoCupp-Microsoft,,1
 1119331749,false,What should `clipboard.readText()` return when the clipboard contains multiple clipboard items?,https://github.com/w3c/clipboard-apis/issues/166,2022-01-31T11:54:28Z,2022-02-03T14:37:55Z,mbrodesser,,1
