@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1352791054,false,MutationObserver callbacks happen in wrong order.,https://github.com/whatwg/dom/issues/1105,2022-08-26T22:34:40Z,2022-08-27T06:31:47Z,trusktr,,0
+1352791054,true,MutationObserver callbacks happen in wrong order.,https://github.com/whatwg/dom/issues/1105,2022-08-26T22:34:40Z,2022-08-29T10:11:20Z,trusktr,,0
 1330866554,false,TreeWalker.nextNode loops forever if last node of a detached node tree is not accepted by the filter,https://github.com/whatwg/dom/issues/1102,2022-08-06T23:08:56Z,2022-08-07T02:55:42Z,Lubrsi,,0
 1314829605,false,Which interfaces should have event handler attributes?,https://github.com/whatwg/dom/issues/1097,2022-07-22T10:27:32Z,2022-07-22T11:18:59Z,foolip,topic: events,2
 1299866530,true,Does `MutationObserver` `attributeFilter` accept itorators?,https://github.com/whatwg/dom/issues/1092,2022-07-10T08:54:01Z,2022-07-22T07:54:45Z,trusktr,,0
@@ -68,7 +68,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 801337310,false,Expose an `aborted` promise on AbortSignal?,https://github.com/whatwg/dom/issues/946,2021-02-04T14:29:56Z,2021-05-24T17:44:42Z,benjamingr,needs implementer interest|topic: aborting,0
 783870164,true,Missing Documentation - WebGLContextAttributes,https://github.com/whatwg/dom/issues/942,2021-01-12T03:11:45Z,2021-01-12T10:07:35Z,mrchantey,,0
 783742832,true,"""ownerElement""",https://github.com/whatwg/dom/issues/941,2021-01-11T22:12:12Z,2021-01-12T07:20:56Z,gwagner57,,0
-776139785,false,[idea] toggleAttribute with detault value when attribute is added.,https://github.com/whatwg/dom/issues/939,2020-12-30T00:11:34Z,2022-08-27T02:20:18Z,trusktr,,0
+776139785,false,[idea] toggleAttribute with detault value when attribute is added.,https://github.com/whatwg/dom/issues/939,2020-12-30T00:11:34Z,2022-08-29T09:16:03Z,trusktr,needs implementer interest|addition/proposal,0
 775394255,true,how to read dom.ds in vscode?,https://github.com/whatwg/dom/issues/938,2020-12-28T13:13:32Z,2021-01-04T07:37:28Z,anlexN,,0
 774781717,false,Is it intentional to not expose AbortSignal to Worklets?,https://github.com/whatwg/dom/issues/937,2020-12-25T20:28:55Z,2021-01-06T17:58:14Z,saschanaz,topic: aborting,0
 763198736,false,Can DOM ranges split grapheme clusters and surrogate pairs?,https://github.com/whatwg/dom/issues/933,2020-12-12T02:36:53Z,2020-12-14T07:52:49Z,xfq,i18n-needs-resolution,1
@@ -561,7 +561,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 104801933,true,Factor getElementsBy* into ParentNode or NonElementParentNode?,https://github.com/whatwg/dom/issues/68,2015-09-03T23:37:10Z,2015-09-08T19:50:11Z,travisleithead,,1
 104610765,false,Consider specifying document.evaluate and document.createNSResolver,https://github.com/whatwg/dom/issues/67,2015-09-03T02:50:22Z,2022-02-27T22:02:32Z,domenic,,0
 104224487,true,Missing spaces in rendered spec HTML,https://github.com/whatwg/dom/issues/65,2015-09-01T09:24:57Z,2015-09-05T05:15:24Z,cvrebert,,0
-103758118,true,DOMTokenList#toggle: don't treat everything non-undefined as true,https://github.com/whatwg/dom/issues/64,2015-08-28T17:10:47Z,2015-08-29T06:10:24Z,mgol,,0
+103758118,true,DOMTokenList#toggle: don't treat everything non-undefined as true,https://github.com/whatwg/dom/issues/64,2015-08-28T17:10:47Z,2015-08-29T06:10:24Z,mgol,,1
 100372269,true,Consider banning insertNode() of the Range's start node,https://github.com/whatwg/dom/issues/63,2015-08-11T18:09:21Z,2016-08-16T13:22:45Z,ayg,,0
 98710934,true,More bikeshed problems,https://github.com/whatwg/dom/issues/62,2015-08-03T10:02:59Z,2016-01-04T12:52:40Z,annevk,,0
 98694541,false,Patch HTML's base URL stuff to be in terms of DOM,https://github.com/whatwg/dom/issues/61,2015-08-03T08:14:51Z,2015-09-06T15:25:32Z,annevk,,0
