@@ -1,12 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1354884358,false,"`autocomplete` parsing steps have bugs if the field has ""webauthn""",https://github.com/whatwg/html/issues/8231,2022-08-29T21:19:22Z,2022-08-29T21:19:22Z,nsatragno,,0
 1353737288,false,Should <button> have `user-select: none;` by default?,https://github.com/whatwg/html/issues/8228,2022-08-29T05:45:04Z,2022-08-29T06:05:30Z,karlcow,topic: forms|interop|topic: style,0
-1352941865,false,Define timing of focus fixup rule precisely when triggered by style changes.,https://github.com/whatwg/html/issues/8225,2022-08-27T04:49:19Z,2022-08-27T09:52:47Z,emilio,topic: focus,0
-1352461926,false,What's the right way to support mobile screens in the UA stylesheet?,https://github.com/whatwg/html/issues/8224,2022-08-26T16:09:08Z,2022-08-29T07:08:38Z,mfreed7,topic: rendering,0
+1352941865,false,Define timing of focus fixup rule precisely when triggered by style changes.,https://github.com/whatwg/html/issues/8225,2022-08-27T04:49:19Z,2022-08-29T18:36:34Z,emilio,topic: focus,0
+1352461926,false,What's the right way to support mobile screens in the UA stylesheet?,https://github.com/whatwg/html/issues/8224,2022-08-26T16:09:08Z,2022-08-29T14:50:18Z,mfreed7,topic: rendering,0
 1349791269,false,details element toggle event should bubble,https://github.com/whatwg/html/issues/8220,2022-08-24T17:24:55Z,2022-08-25T07:23:09Z,gibson042,,0
 1348683698,false,Window object support for multi-screen devices,https://github.com/whatwg/html/issues/8217,2022-08-24T00:33:25Z,2022-08-24T00:43:36Z,michaelwasserman,,0
-1348599445,false,Remove CanvasRenderingContext2D.scrollPathIntoView,https://github.com/whatwg/html/issues/8216,2022-08-23T22:08:30Z,2022-08-29T10:43:40Z,junov,removal/deprecation|topic: canvas,3
+1348599445,false,Remove CanvasRenderingContext2D.scrollPathIntoView,https://github.com/whatwg/html/issues/8216,2022-08-23T22:08:30Z,2022-08-29T14:54:40Z,junov,removal/deprecation|topic: canvas,3
 1347804392,false,Allow more characters in dataset?,https://github.com/whatwg/html/issues/8215,2022-08-23T11:35:48Z,2022-08-24T07:01:43Z,annevk,normative change|needs tests|agenda+,0
-1347386327,false,Canvas2D: Repeating/mirrored gradients,https://github.com/whatwg/html/issues/8214,2022-08-23T06:05:33Z,2022-08-29T10:45:29Z,litherum,addition/proposal|topic: canvas,1
+1347386327,false,Canvas2D: Repeating/mirrored gradients,https://github.com/whatwg/html/issues/8214,2022-08-23T06:05:33Z,2022-08-29T18:14:14Z,litherum,addition/proposal|topic: canvas,3
 1344098102,true,More intuitive and high-performance copying of typed array bytes?,https://github.com/whatwg/html/issues/8210,2022-08-19T08:07:47Z,2022-08-19T08:44:53Z,juj,,0
 1343774981,false,Upcoming HTML standard issue triage meeting on 9/1/2022 (new time!),https://github.com/whatwg/html/issues/8208,2022-08-19T00:16:08Z,2022-08-19T00:16:08Z,past,agenda+,0
 1343622246,false,Should we select an image source synchronously when updating the image data?,https://github.com/whatwg/html/issues/8207,2022-08-18T20:41:27Z,2022-08-18T20:41:27Z,BorisChiou,,0
@@ -21,7 +22,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1335292987,false,The missing property values of width/height attributes on source elements,https://github.com/whatwg/html/issues/8178,2022-08-10T23:02:23Z,2022-08-10T23:02:23Z,BorisChiou,,0
 1332143254,true,Supporting import maps in worker environments,https://github.com/whatwg/html/issues/8173,2022-08-08T16:58:40Z,2022-08-09T00:16:01Z,guybedford,,0
 1330070447,true,Upcoming HTML standard issue triage meeting on 8/18/2022 (new time!),https://github.com/whatwg/html/issues/8162,2022-08-05T15:19:03Z,2022-08-19T00:21:57Z,past,agenda+,0
-1328234711,false,Add prevententersubmit attribute to form element,https://github.com/whatwg/html/issues/8158,2022-08-04T08:08:29Z,2022-08-29T11:00:02Z,NagayamaToshiaki,topic: forms|i18n-tracker|i18n-jlreq,2
+1328234711,false,Add prevententersubmit attribute to form element,https://github.com/whatwg/html/issues/8158,2022-08-04T08:08:29Z,2022-08-29T17:03:00Z,NagayamaToshiaki,topic: forms|i18n-tracker|i18n-jlreq,2
 1328157790,false,focus delegate code seems wrongly only looking at children,https://github.com/whatwg/html/issues/8157,2022-08-04T06:54:57Z,2022-08-18T23:30:21Z,emilio,topic: focus,0
 1328146867,false,autofocus + delegateFocus handling doesn't make much sense to me,https://github.com/whatwg/html/issues/8156,2022-08-04T06:42:26Z,2022-08-18T23:30:32Z,emilio,topic: focus,0
 1326476726,true,Browsing context's container doesn't seem to be set anywhere,https://github.com/whatwg/html/issues/8151,2022-08-02T22:44:54Z,2022-08-03T03:26:38Z,Lubrsi,,0
@@ -480,7 +481,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 958428700,true,"[COOP] Undefined activeDocumentCOOP in ""enforce a response's cross-origin opener policy"" section",https://github.com/whatwg/html/issues/6926,2021-08-02T19:07:28Z,2021-08-03T19:08:38Z,cdumez,topic: cross-origin-opener-policy,0
 958420412,true,"[COOP] Wrong type in ""queue a violation report for browsing context group switch when navigating away from a COOP response""",https://github.com/whatwg/html/issues/6925,2021-08-02T18:57:06Z,2021-08-03T19:08:38Z,cdumez,topic: cross-origin-opener-policy,0
 955141045,false,COOP: Navigations to non-initial about:blank,https://github.com/whatwg/html/issues/6913,2021-07-28T18:46:22Z,2021-08-03T08:41:30Z,cdumez,topic: cross-origin-opener-policy,0
-955051236,false,Proposal: blank worker,https://github.com/whatwg/html/issues/6911,2021-07-28T16:52:49Z,2022-01-30T04:03:33Z,wanderview,addition/proposal|needs implementer interest|topic: workers,5
+955051236,false,Proposal: blank worker,https://github.com/whatwg/html/issues/6911,2021-07-28T16:52:49Z,2022-01-30T04:03:33Z,wanderview,addition/proposal|needs implementer interest|topic: workers,6
 954670682,true,Proposal: Add a way to open programmatically a date picker,https://github.com/whatwg/html/issues/6909,2021-07-28T09:41:23Z,2022-03-24T17:08:22Z,beaufortfrancois,addition/proposal|needs implementer interest|topic: forms,25
 954564369,false,Add ime-mode to html input,https://github.com/whatwg/html/issues/6908,2021-07-28T07:30:15Z,2021-08-10T08:59:33Z,NagayamaToshiaki,i18n-tracker|i18n-jlreq,0
 954543780,true,Html element's start tag must not be omitted or add new ways to specify lang attribute of the html file,https://github.com/whatwg/html/issues/6907,2021-07-28T07:02:12Z,2021-07-29T06:43:39Z,NagayamaToshiaki,i18n-tracker,0
@@ -772,7 +773,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 761420453,false,Specify what happens to focus if focus is in an iframe that loads another document,https://github.com/whatwg/html/issues/6209,2020-12-10T17:06:31Z,2020-12-11T07:44:52Z,hsivonen,interop|topic: focus,0
 761360345,true,Natively lazyload certain web components like tabs etc.,https://github.com/whatwg/html/issues/6208,2020-12-10T15:54:48Z,2021-04-14T21:16:29Z,summercms,,0
 761072127,false,"Clarify history.pushState/replaceState behavior with history navigation, bfcache",https://github.com/whatwg/html/issues/6207,2020-12-10T09:36:51Z,2022-04-19T09:45:12Z,rakina,topic: history,0
-760679523,false,Missing list of abbreviations,https://github.com/whatwg/html/issues/6205,2020-12-09T21:18:16Z,2022-06-29T18:22:41Z,jmacura,clarification|good first issue,1
+760679523,false,Missing list of abbreviations,https://github.com/whatwg/html/issues/6205,2020-12-09T21:18:16Z,2022-08-29T16:14:52Z,jmacura,clarification,1
 759867980,true,Updating the session history: same-URL case is broken,https://github.com/whatwg/html/issues/6202,2020-12-08T23:38:09Z,2021-03-12T00:38:16Z,domenic,topic: navigation|topic: history,0
 757805616,true,Updating the session history seems pretty broken,https://github.com/whatwg/html/issues/6197,2020-12-05T23:37:58Z,2020-12-11T23:34:09Z,domfarolino,topic: history|topic: browsing context,0
 757671003,false,Add new pragma directive - x-dns-prefetch-control,https://github.com/whatwg/html/issues/6196,2020-12-05T12:31:57Z,2021-10-27T21:53:07Z,edent,,0

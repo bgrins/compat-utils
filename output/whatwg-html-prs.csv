@@ -1,5 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1350004480,false,Add pop-up feature,https://github.com/whatwg/html/pull/8221,2022-08-24T20:48:00Z,2022-08-27T15:22:32Z,josepharhar,,0
+1354902054,false,Fix webauthn autocomplete token parsing,https://github.com/whatwg/html/pull/8232,2022-08-29T21:39:27Z,2022-08-29T21:51:36Z,nsatragno,,0
+1354471819,false,Remove canvas 2d scrollPathIntoView,https://github.com/whatwg/html/pull/8229,2022-08-29T15:15:06Z,2022-08-29T15:22:31Z,junov,,0
+1350004480,false,Add pop-up feature,https://github.com/whatwg/html/pull/8221,2022-08-24T20:48:00Z,2022-08-30T00:03:01Z,josepharhar,,0
 1347009137,true,Makes Canvas' ConicGradient match CSS angle,https://github.com/whatwg/html/pull/8213,2022-08-22T21:29:28Z,2022-08-23T17:07:56Z,fserb,normative change|topic: canvas|interop,0
 1343094151,false,Add a performance entry type for visibility state changes,https://github.com/whatwg/html/pull/8206,2022-08-18T13:21:04Z,2022-08-25T13:33:13Z,noamr,,0
 1341952968,true,Saját txt fájl létrehozása tesztelés miatt,https://github.com/whatwg/html/pull/8201,2022-08-17T15:34:09Z,2022-08-17T22:16:00Z,FerencFarkas22,spam,0
@@ -23,7 +25,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1312728432,true,"Fix destination in ""fetch an external module script graph""",https://github.com/whatwg/html/pull/8120,2022-07-21T06:33:43Z,2022-08-09T07:29:03Z,domenic,topic: script,1
 1310727718,true,Meta: remove review-draft.sh,https://github.com/whatwg/html/pull/8117,2022-07-20T09:19:41Z,2022-07-22T12:39:44Z,domenic,,0
 1310619919,true,Review Draft Publication: July 2022,https://github.com/whatwg/html/pull/8116,2022-07-20T08:04:01Z,2022-07-20T09:14:02Z,domenic,,0
-1307602312,false,Define link processing for prefetch,https://github.com/whatwg/html/pull/8111,2022-07-18T08:44:27Z,2022-08-29T07:57:24Z,noamr,,0
+1307602312,false,Define link processing for prefetch,https://github.com/whatwg/html/pull/8111,2022-07-18T08:44:27Z,2022-08-29T12:53:25Z,noamr,,0
 1300834820,false,"Editorial: Use ""process the next redirect"" instead of ""Navigation redirect""",https://github.com/whatwg/html/pull/8097,2022-07-11T14:57:32Z,2022-08-22T02:36:08Z,noamr,topic: navigation|topic: fetch,0
 1300605819,false,Move oncopy/oncut/onpaste to GlobalEventHandlers,https://github.com/whatwg/html/pull/8096,2022-07-11T11:56:14Z,2022-08-22T02:36:08Z,foolip,needs tests|topic: events,0
 1297810150,true,Introduce FocusOptions.focusVisible.,https://github.com/whatwg/html/pull/8087,2022-07-07T17:22:55Z,2022-07-13T06:02:26Z,emilio,addition/proposal|topic: focus,0
@@ -95,7 +97,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1223814196,true,Correct unload event timing for different COOP,https://github.com/whatwg/html/pull/7884,2022-05-03T08:23:32Z,2022-05-31T18:53:57Z,noamr,,0
 1222825531,true,Add trailing dot example to same site table,https://github.com/whatwg/html/pull/7880,2022-05-02T12:26:26Z,2022-05-02T14:49:02Z,annevk,,0
 1221652773,true,Clean up the script element processing model,https://github.com/whatwg/html/pull/7876,2022-04-29T23:21:37Z,2022-05-19T22:02:36Z,domenic,topic: script,0
-1220428182,false,"Revert ""Add CanvasFilter objects as possible 2D context filters""",https://github.com/whatwg/html/pull/7874,2022-04-29T10:10:51Z,2022-08-22T02:36:08Z,annevk,topic: canvas,0
+1220428182,false,"Revert ""Add CanvasFilter objects as possible 2D context filters""",https://github.com/whatwg/html/pull/7874,2022-04-29T10:10:51Z,2022-08-29T16:12:09Z,annevk,topic: canvas,0
 1219450270,true,Improve clarity of render-blocking related terms,https://github.com/whatwg/html/pull/7870,2022-04-28T23:35:27Z,2022-05-03T17:19:22Z,xiaochengh,clarification|topic: rendering,0
 1219005122,true,"Added HTML tags, body tag, and indentation",https://github.com/whatwg/html/pull/7868,2022-04-28T16:49:28Z,2022-04-28T19:20:36Z,codesalot,spam,4
 1218370191,true,Editorial: refactor link headers to be declared per-type,https://github.com/whatwg/html/pull/7866,2022-04-28T08:17:30Z,2022-05-26T17:03:34Z,noamr,topic: resource hints (inc. preload),0
@@ -111,7 +113,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1208607592,true,Create 2023SECURITY.md,https://github.com/whatwg/html/pull/7836,2022-04-19T16:42:20Z,2022-04-19T16:53:16Z,suneel0607,spam,0
 1208565432,true,Support preconnect in link headers & early hints,https://github.com/whatwg/html/pull/7835,2022-04-19T16:03:38Z,2022-05-04T14:22:14Z,noamr,topic: link|topic: resource hints (inc. preload),0
 1208116307,true,Fix some minor wording issues for media events,https://github.com/whatwg/html/pull/7834,2022-04-19T10:02:59Z,2022-04-19T16:34:56Z,chrisn,,0
-1206367534,true,replace current outline algorithm with one based on heading levels,https://github.com/whatwg/html/pull/7829,2022-04-17T12:53:42Z,2022-07-01T04:25:35Z,stevefaulkner,normative change|document conformance|impacts documentation,67
+1206367534,true,replace current outline algorithm with one based on heading levels,https://github.com/whatwg/html/pull/7829,2022-04-17T12:53:42Z,2022-08-29T16:18:18Z,stevefaulkner,normative change|document conformance|impacts documentation,67
 1206218912,true,Fix superseded Schema,https://github.com/whatwg/html/pull/7826,2022-04-16T21:21:39Z,2022-04-18T15:19:47Z,edent,,0
 1202431693,true,Add a note about why dialog uses show/close,https://github.com/whatwg/html/pull/7817,2022-04-12T21:51:37Z,2022-04-21T16:58:11Z,domenic,clarification|topic: dialog,2
 1202365778,true,Obsolete the <param> element,https://github.com/whatwg/html/pull/7816,2022-04-12T20:40:18Z,2022-06-15T15:34:42Z,domenic,removal/deprecation|document conformance|topic: embed and object|impacts documentation,0
@@ -1262,7 +1264,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 432528054,true,Make CustomElementConstructor exceptions more consistent,https://github.com/whatwg/html/pull/4525,2019-04-12T11:51:39Z,2019-04-15T12:31:19Z,annevk,normative change|topic: custom elements,0
 431419998,true,Add <link disabled>,https://github.com/whatwg/html/pull/4519,2019-04-10T10:15:42Z,2020-06-05T07:25:37Z,annevk,impacts documentation,3
 430956642,true,Editorial: fix noreferrer processing model link,https://github.com/whatwg/html/pull/4517,2019-04-09T13:05:53Z,2019-04-10T06:51:22Z,annevk,,0
-429424157,true,[WIP] Introduce HTML Modules,https://github.com/whatwg/html/pull/4505,2019-04-04T18:35:05Z,2022-07-06T22:41:08Z,dandclark,addition/proposal|needs tests,14
+429424157,true,[WIP] Introduce HTML Modules,https://github.com/whatwg/html/pull/4505,2019-04-04T18:35:05Z,2022-08-29T16:45:22Z,dandclark,addition/proposal|needs tests,14
 429160111,true,Update IRC weblink,https://github.com/whatwg/html/pull/4503,2019-04-04T08:58:49Z,2019-04-04T17:26:25Z,suriyaa,,0
 427200389,true,Meta: remove commented-out legacy bugs link,https://github.com/whatwg/html/pull/4494,2019-03-29T22:25:55Z,2019-04-05T09:25:34Z,domenic,,0
 427163561,true,Add multiplied-out coordinates for canvas transforms,https://github.com/whatwg/html/pull/4473,2019-03-29T20:22:12Z,2019-05-14T14:28:40Z,domenic,topic: canvas,0
@@ -1609,7 +1611,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 300555187,true,Mark focus events composed,https://github.com/whatwg/html/pull/3512,2018-02-27T09:36:57Z,2018-03-02T08:20:55Z,annevk,normative change|topic: focus,0
 300226229,true,No duplicates in StructuredSerializeWithTransfer's transferList,https://github.com/whatwg/html/pull/3508,2018-02-26T12:52:27Z,2018-02-26T15:36:59Z,annevk,topic: serialize and transfer,0
 300021575,true,"Fix issue #3503: phrasing of ""as good, if not better, as""",https://github.com/whatwg/html/pull/3504,2018-02-25T12:18:16Z,2018-02-26T08:36:34Z,ediosyncratic,,0
-299733910,true,Add heading-focused outlines and :heading,https://github.com/whatwg/html/pull/3499,2018-02-23T14:44:28Z,2022-07-01T04:24:30Z,annevk,normative change|addition/proposal|accessibility|needs tests,20
+299733910,true,Add heading-focused outlines and :heading,https://github.com/whatwg/html/pull/3499,2018-02-23T14:44:28Z,2022-08-29T16:15:21Z,annevk,normative change|addition/proposal|accessibility|needs tests,20
 299347542,true,Editorial: align currentcolor with CSS,https://github.com/whatwg/html/pull/3496,2018-02-22T13:10:40Z,2018-02-23T05:18:45Z,annevk,clarification,0
 299312645,true,"Make <frame> fire load synchronously with ""completely loaded""",https://github.com/whatwg/html/pull/3495,2018-02-22T11:11:43Z,2018-02-23T07:18:28Z,annevk,,0
 298754341,true,Queue a task to run all the autofocusing steps,https://github.com/whatwg/html/pull/3488,2018-02-20T21:25:54Z,2018-03-07T05:32:43Z,domenic,topic: focus,0
