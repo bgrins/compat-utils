@@ -4,6 +4,14 @@ import { parse as parseCsv } from "https://deno.land/std@0.82.0/encoding/csv.ts"
 
 import { configSync } from "https://deno.land/std@0.137.0/dotenv/mod.ts";
 const CONFIG = Object.assign({}, Deno.env.toObject(), configSync());
+
+/*
+AIRTABLE_API_KEY=keyXYZ
+AIRTABLE_BASE_ID=appXYZ
+AIRTABLE_TABLE_ID=tblXYZ
+AIRTABLE_UNIQUE_FIELD_NAME=id
+AIRTABLE_API_MS_TO_SLEEP=150
+*/
 export const {
   AIRTABLE_API_KEY,
   AIRTABLE_BASE_ID,
@@ -39,12 +47,6 @@ let inputRecords = await parseCsv(
         reactions: parseInt(e.reactions),
         id: parseInt(e.id),
       };
-      // return {
-      //   item: e.Name,
-      //   quantity: e.Quantity,
-      //   pricePerItem: `$${e.Price.toLocaleString("en-US")}`,
-      //   isExpensive: e.Price >= 3000,
-      // };
     },
   }
 );
