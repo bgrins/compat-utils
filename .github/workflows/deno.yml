@@ -55,3 +55,12 @@ jobs:
            git commit -am "Action: update data"
            git push
           fi
+
+      - name: Sync upstream
+        env:
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+          AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
+          AIRTABLE_TABLE_ID: ${{ secrets.AIRTABLE_TABLE_ID }}
+          AIRTABLE_UNIQUE_FIELD_NAME: ${{ secrets.AIRTABLE_UNIQUE_FIELD_NAME }}
+          AIRTABLE_API_MS_TO_SLEEP: ${{ secrets.AIRTABLE_API_MS_TO_SLEEP }}
+        run: AIRTABLE_API_KEY=$AIRTABLE_API_KEY AIRTABLE_BASE_ID=$AIRTABLE_BASE_ID AIRTABLE_TABLE_ID=$AIRTABLE_TABLE_ID AIRTABLE_UNIQUE_FIELD_NAME=$AIRTABLE_UNIQUE_FIELD_NAME AIRTABLE_API_MS_TO_SLEEP=$AIRTABLE_API_MS_TO_SLEEP deno run -A upstream-sync.js
