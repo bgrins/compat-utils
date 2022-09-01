@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1357135460,false,Clarification for two relevant-mutations.html subtests,https://github.com/whatwg/html/issues/8242,2022-08-31T10:29:49Z,2022-08-31T10:29:49Z,rwlbuis,,0
+1357135460,false,Clarification for two relevant-mutations.html subtests,https://github.com/whatwg/html/issues/8242,2022-08-31T10:29:49Z,2022-08-31T18:01:32Z,rwlbuis,topic: img,0
 1356854809,false,"Introducing ""container-query"" support on HTML level",https://github.com/whatwg/html/issues/8240,2022-08-31T06:29:01Z,2022-08-31T06:29:01Z,MajPay,,0
 1354884358,false,"`autocomplete` parsing steps have bugs if the field has ""webauthn""",https://github.com/whatwg/html/issues/8231,2022-08-29T21:19:22Z,2022-08-29T21:19:22Z,nsatragno,,0
 1353737288,false,Should <button> have `user-select: none;` by default?,https://github.com/whatwg/html/issues/8228,2022-08-29T05:45:04Z,2022-08-29T06:05:30Z,karlcow,topic: forms|interop|topic: style,0
@@ -11,7 +11,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1347804392,false,Allow more characters in dataset?,https://github.com/whatwg/html/issues/8215,2022-08-23T11:35:48Z,2022-08-24T07:01:43Z,annevk,normative change|needs tests|agenda+,0
 1347386327,false,Canvas2D: Repeating/mirrored gradients,https://github.com/whatwg/html/issues/8214,2022-08-23T06:05:33Z,2022-08-29T18:14:14Z,litherum,addition/proposal|topic: canvas,3
 1344098102,true,More intuitive and high-performance copying of typed array bytes?,https://github.com/whatwg/html/issues/8210,2022-08-19T08:07:47Z,2022-08-19T08:44:53Z,juj,,0
-1343774981,false,Upcoming HTML standard issue triage meeting on 9/1/2022 (new time!),https://github.com/whatwg/html/issues/8208,2022-08-19T00:16:08Z,2022-08-19T00:16:08Z,past,agenda+,0
+1343774981,false,Upcoming HTML standard issue triage meeting on 9/1/2022 (new time!),https://github.com/whatwg/html/issues/8208,2022-08-19T00:16:08Z,2022-08-31T17:41:02Z,past,agenda+,0
 1343622246,false,Should we select an image source synchronously when updating the image data?,https://github.com/whatwg/html/issues/8207,2022-08-18T20:41:27Z,2022-08-18T20:41:27Z,BorisChiou,,0
 1342522843,true,Pre-proposal: Signed origins,https://github.com/whatwg/html/issues/8205,2022-08-18T03:41:55Z,2022-08-29T10:47:09Z,DemiMarie,,0
 1342349342,true,"Link to js file location in the 404.html file ",https://github.com/whatwg/html/issues/8204,2022-08-17T22:27:26Z,2022-08-17T22:30:17Z,Naatikyere,,0
@@ -1063,7 +1063,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 602996850,true,worker global scope's owner set should be updated before CSP initialization,https://github.com/whatwg/html/issues/5469,2020-04-20T07:06:55Z,2020-04-28T14:50:33Z,hiroshige-g,,0
 602570354,false,Allow git+https protocol handlers,https://github.com/whatwg/html/issues/5468,2020-04-18T22:56:40Z,2020-04-20T07:24:34Z,SoniEx2,addition/proposal|topic: custom protocols,0
 602461066,true,[dev edition] Image doesn't show under 'links.html#link-type-modulepreload',https://github.com/whatwg/html/issues/5467,2020-04-18T13:30:33Z,2020-04-20T16:35:15Z,NostraDavid,dev edition,0
-602428251,false,What *is* Canvas desynchronized attribute?,https://github.com/whatwg/html/issues/5466,2020-04-18T10:28:18Z,2020-04-22T21:24:03Z,juj,clarification|topic: canvas,3
+602428251,false,What *is* Canvas desynchronized attribute?,https://github.com/whatwg/html/issues/5466,2020-04-18T10:28:18Z,2020-04-22T21:24:03Z,juj,clarification|topic: canvas,4
 602049599,false,Accessibility of window.opener navigation,https://github.com/whatwg/html/issues/5464,2020-04-17T15:16:47Z,2020-04-24T11:43:07Z,matatk,accessibility|a11y-tracker,0
 601891362,true,Storage object (localStorage/sessionStorage) ordering,https://github.com/whatwg/html/issues/5463,2020-04-17T11:03:54Z,2020-07-10T17:28:43Z,annevk,topic: storage,0
 601057097,false,More clearly distinguish authoring conformance requirements,https://github.com/whatwg/html/issues/5461,2020-04-16T13:31:56Z,2020-04-22T16:59:50Z,domenic,spec tooling|clarification|document conformance|a11y-needs-resolution,1
@@ -1133,7 +1133,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 572368643,true,Question: site equality examples,https://github.com/whatwg/html/issues/5316,2020-02-27T21:24:30Z,2020-02-28T19:36:22Z,lazdmx,clarification,0
 570587270,true,Lazyload: N-fetches for each relevant mutation,https://github.com/whatwg/html/issues/5314,2020-02-25T13:53:54Z,2020-05-15T16:45:55Z,domfarolino,topic: img,1
 570474276,true,"""the document has finished loading""",https://github.com/whatwg/html/issues/5313,2020-02-25T10:39:45Z,2020-02-26T09:24:46Z,amn,,0
-570415383,false,"Form Submission: Fix the ""Double Submit problem"" at the spec level",https://github.com/whatwg/html/issues/5312,2020-02-25T09:07:07Z,2021-01-17T17:55:38Z,bramus,addition/proposal|needs implementer interest|topic: forms,135
+570415383,false,"Form Submission: Fix the ""Double Submit problem"" at the spec level",https://github.com/whatwg/html/issues/5312,2020-02-25T09:07:07Z,2021-01-17T17:55:38Z,bramus,addition/proposal|needs implementer interest|topic: forms,136
 570310032,false,Proposal: canvas to blob URL function,https://github.com/whatwg/html/issues/5311,2020-02-25T04:51:26Z,2020-02-25T22:21:22Z,rhendric,addition/proposal|needs implementer interest|topic: canvas|security/privacy,0
 569316279,true,"Event order of onKeyDown, onKeyPress, onKeyUp, and onPaste when using pasting (CMD + v) in Mac OS X",https://github.com/whatwg/html/issues/5310,2020-02-22T10:39:21Z,2020-02-22T10:46:10Z,aesyondu,,0
 569187828,true,"<img alt=""""> definition doesn't match reality.",https://github.com/whatwg/html/issues/5309,2020-02-21T21:15:09Z,2020-02-26T09:24:49Z,emilio,compat|topic: rendering|topic: img,5
