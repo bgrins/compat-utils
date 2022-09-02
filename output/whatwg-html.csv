@@ -1,9 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1359478091,false,WebDriver extension for Custom Handlers,https://github.com/whatwg/html/issues/8251,2022-09-01T22:29:00Z,2022-09-01T22:29:00Z,javifernandez,,0
+1359478091,false,WebDriver extension for Custom Handlers,https://github.com/whatwg/html/issues/8251,2022-09-01T22:29:00Z,2022-09-02T02:19:02Z,javifernandez,,0
 1359477025,false,Upcoming HTML standard issue triage meeting on 9/29/2022,https://github.com/whatwg/html/issues/8250,2022-09-01T22:27:30Z,2022-09-01T22:27:30Z,past,agenda+,0
 1358997781,false,Small nitpick bug: Missing closing tag in source,https://github.com/whatwg/html/issues/8249,2022-09-01T15:04:48Z,2022-09-01T15:04:48Z,amno1,,0
 1358356896,false,<option> element: why is its content restricted to Text?,https://github.com/whatwg/html/issues/8247,2022-09-01T07:04:57Z,2022-09-01T07:30:09Z,verdy-p,,0
-1357135460,true,Clarification for two relevant-mutations.html subtests,https://github.com/whatwg/html/issues/8242,2022-08-31T10:29:49Z,2022-09-01T20:29:42Z,rwlbuis,clarification|topic: img,0
+1357135460,false,Clarification for two relevant-mutations.html subtests,https://github.com/whatwg/html/issues/8242,2022-08-31T10:29:49Z,2022-09-02T11:29:40Z,rwlbuis,clarification|topic: img,0
 1356854809,false,"Introducing ""container-query"" support on HTML level",https://github.com/whatwg/html/issues/8240,2022-08-31T06:29:01Z,2022-08-31T06:29:01Z,MajPay,,0
 1354884358,false,"`autocomplete` parsing steps have bugs if the field has ""webauthn""",https://github.com/whatwg/html/issues/8231,2022-08-29T21:19:22Z,2022-08-29T21:19:22Z,nsatragno,,0
 1353737288,false,Should <button> have `user-select: none;` by default?,https://github.com/whatwg/html/issues/8228,2022-08-29T05:45:04Z,2022-08-29T06:05:30Z,karlcow,topic: forms|interop|topic: style,0
@@ -162,7 +162,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1214056278,true,"reportError(), undefined, and ErrorEvent",https://github.com/whatwg/html/issues/7853,2022-04-25T06:57:39Z,2022-06-07T07:06:48Z,annevk,topic: events|interop,0
 1213557591,false,"Add new link rel=""critical""",https://github.com/whatwg/html/issues/7850,2022-04-24T06:08:50Z,2022-04-28T11:38:02Z,NagayamaToshiaki,,0
 1212649386,false,Required attribute invalid state on landing not an equal experience for all users,https://github.com/whatwg/html/issues/7848,2022-04-22T18:15:44Z,2022-04-24T22:31:32Z,joe-watkins,,2
-1212616847,false,[canvas] Define OffscreenCanvasRenderingContext2D's font setter in detail,https://github.com/whatwg/html/issues/7847,2022-04-22T17:37:11Z,2022-09-01T16:22:07Z,emilio,topic: canvas,0
+1212616847,false,[canvas] Define OffscreenCanvasRenderingContext2D's font setter in detail,https://github.com/whatwg/html/issues/7847,2022-04-22T17:37:11Z,2022-09-02T08:55:38Z,emilio,topic: canvas,0
 1211933864,false,How can microtasks run without a task?,https://github.com/whatwg/html/issues/7845,2022-04-22T07:26:22Z,2022-04-25T12:35:33Z,annevk,topic: event loop,0
 1210820388,false,Can a nested worker outlive its parent worker?,https://github.com/whatwg/html/issues/7840,2022-04-21T10:17:56Z,2022-04-21T11:51:55Z,andreubotella,topic: workers,0
 1209001363,false,Make self.name writable in DedicatedWorkerGlobalScope,https://github.com/whatwg/html/issues/7838,2022-04-20T00:24:33Z,2022-04-25T20:00:23Z,connorjclark,addition/proposal|topic: workers,2
@@ -2202,7 +2202,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 291547569,true,How should document.body setter behave when root is not an `<html>`?,https://github.com/whatwg/html/issues/3403,2018-01-25T12:06:56Z,2018-02-12T16:20:10Z,bzbarsky,interop,0
 291429949,true,"custom-elements: A step to add ""is"" content attribute in ""new""",https://github.com/whatwg/html/issues/3402,2018-01-25T02:31:28Z,2018-02-22T16:52:34Z,tkent-google,topic: custom elements,0
 291411857,false,"Please add default=""default"" to specification of submit buttons in forms",https://github.com/whatwg/html/issues/3401,2018-01-25T00:43:20Z,2021-11-06T02:23:34Z,Nadya678,addition/proposal|needs implementer interest|topic: forms,0
-291410137,false,"Allow <input type=""color""> to give an alpha channel and/or colors beyond sRGB?",https://github.com/whatwg/html/issues/3400,2018-01-25T00:32:53Z,2021-01-14T15:48:10Z,domenic,addition/proposal|needs implementer interest|topic: forms,26
+291410137,false,"Allow <input type=""color""> to give an alpha channel and/or colors beyond sRGB?",https://github.com/whatwg/html/issues/3400,2018-01-25T00:32:53Z,2021-01-14T15:48:10Z,domenic,addition/proposal|needs implementer interest|topic: forms,27
 291244767,true,Combine createImageBitmap() / createPattern() / drawImage() checks,https://github.com/whatwg/html/issues/3399,2018-01-24T15:14:36Z,2018-01-29T08:41:16Z,annevk,clarification|topic: canvas,0
 291182587,false,value of input elements with type Submit are not marked as translatable,https://github.com/whatwg/html/issues/3396,2018-01-24T11:58:21Z,2018-01-24T12:57:49Z,samhed,clarification|topic: forms,0
 291171366,false,Unified dictionary for getContext(),https://github.com/whatwg/html/issues/3395,2018-01-24T11:16:43Z,2018-01-26T10:04:02Z,annevk,normative change|topic: canvas,0
