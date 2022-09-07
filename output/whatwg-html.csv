@@ -1,19 +1,18 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1363795308,false,رسال,https://github.com/whatwg/html/issues/8268,2022-09-06T20:47:01Z,2022-09-06T20:47:01Z,sesohasan1,,0
 1362261219,false,Correct the type of `opener` in Window object idl block description,https://github.com/whatwg/html/issues/8263,2022-09-05T16:28:25Z,2022-09-05T16:28:25Z,gihyeonsung,,0
-1361856367,false,Confusing xref for HostResolveImportedModule,https://github.com/whatwg/html/issues/8262,2022-09-05T12:19:48Z,2022-09-05T14:23:06Z,Ms2ger,,1
+1361856367,false,Confusing xref for HostResolveImportedModule,https://github.com/whatwg/html/issues/8262,2022-09-05T12:19:48Z,2022-09-07T09:10:09Z,Ms2ger,good first issue|topic: script,1
 1359478091,false,WebDriver extension for Custom Handlers,https://github.com/whatwg/html/issues/8251,2022-09-01T22:29:00Z,2022-09-06T00:57:31Z,javifernandez,addition/proposal|needs implementer interest|topic: custom protocols,0
 1359477025,false,Upcoming HTML standard issue triage meeting on 9/29/2022,https://github.com/whatwg/html/issues/8250,2022-09-01T22:27:30Z,2022-09-01T22:27:30Z,past,agenda+,0
 1358997781,true,Small nitpick bug: Missing closing tag in source,https://github.com/whatwg/html/issues/8249,2022-09-01T15:04:48Z,2022-09-05T02:51:13Z,amno1,,0
 1358356896,false,<option> element: why is its content restricted to Text?,https://github.com/whatwg/html/issues/8247,2022-09-01T07:04:57Z,2022-09-06T18:03:22Z,verdy-p,,0
 1357135460,false,Clarification for two relevant-mutations.html subtests,https://github.com/whatwg/html/issues/8242,2022-08-31T10:29:49Z,2022-09-02T13:10:47Z,rwlbuis,clarification|topic: img,0
 1356854809,false,"Introducing ""container-query"" support on HTML level",https://github.com/whatwg/html/issues/8240,2022-08-31T06:29:01Z,2022-08-31T06:29:01Z,MajPay,,0
-1354884358,false,"`autocomplete` parsing steps have bugs if the field has ""webauthn""",https://github.com/whatwg/html/issues/8231,2022-08-29T21:19:22Z,2022-08-29T21:19:22Z,nsatragno,,0
+1354884358,true,"`autocomplete` parsing steps have bugs if the field has ""webauthn""",https://github.com/whatwg/html/issues/8231,2022-08-29T21:19:22Z,2022-09-07T04:01:32Z,nsatragno,,0
 1353737288,false,Should <button> have `user-select: none;` by default?,https://github.com/whatwg/html/issues/8228,2022-08-29T05:45:04Z,2022-08-29T06:05:30Z,karlcow,topic: forms|interop|topic: style,0
 1352941865,false,Define timing of focus fixup rule precisely when triggered by style changes.,https://github.com/whatwg/html/issues/8225,2022-08-27T04:49:19Z,2022-09-02T16:45:12Z,emilio,topic: focus,0
 1352461926,false,What's the right way to support mobile screens in the UA stylesheet?,https://github.com/whatwg/html/issues/8224,2022-08-26T16:09:08Z,2022-09-05T12:35:13Z,mfreed7,topic: rendering,0
 1349791269,false,details element toggle event should bubble,https://github.com/whatwg/html/issues/8220,2022-08-24T17:24:55Z,2022-08-30T17:55:53Z,gibson042,,0
-1348683698,false,Window object support for multi-screen devices,https://github.com/whatwg/html/issues/8217,2022-08-24T00:33:25Z,2022-09-06T23:41:00Z,michaelwasserman,,0
+1348683698,false,Window object support for multi-screen devices,https://github.com/whatwg/html/issues/8217,2022-08-24T00:33:25Z,2022-09-07T04:21:01Z,michaelwasserman,topic: user activation,0
 1348599445,false,Remove CanvasRenderingContext2D.scrollPathIntoView,https://github.com/whatwg/html/issues/8216,2022-08-23T22:08:30Z,2022-08-29T14:54:40Z,junov,removal/deprecation|topic: canvas,3
 1347804392,false,Allow more characters in dataset?,https://github.com/whatwg/html/issues/8215,2022-08-23T11:35:48Z,2022-09-01T22:34:44Z,annevk,normative change|needs tests,0
 1347386327,false,Canvas2D: Repeating/mirrored gradients,https://github.com/whatwg/html/issues/8214,2022-08-23T06:05:33Z,2022-08-29T18:14:14Z,litherum,addition/proposal|topic: canvas,3
@@ -622,7 +621,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 854626692,false,Preserve fragment links when <base> is defined,https://github.com/whatwg/html/issues/6568,2021-04-09T15:26:34Z,2021-06-23T16:38:46Z,jonathantneal,,2
 852489697,false,"Order of CSP, COEP, CORP, COOP, etc. checks don't match chromium",https://github.com/whatwg/html/issues/6564,2021-04-07T14:48:02Z,2021-04-12T14:37:22Z,zcorpan,topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,0
 852081211,false,Define back-forward cache behavior in terms of Navigation Timing reporting,https://github.com/whatwg/html/issues/6563,2021-04-07T07:01:27Z,2022-05-04T08:13:21Z,noamr,addition/proposal|topic: history,0
-850507395,false,document.open() URL updates can cause recursive loading problems on history traversal,https://github.com/whatwg/html/issues/6556,2021-04-05T16:59:11Z,2021-06-02T16:24:09Z,domenic,topic: history|topic: document.open(),0
+850507395,false,document.open() URL updates can cause recursive loading problems on history traversal,https://github.com/whatwg/html/issues/6556,2021-04-05T16:59:11Z,2022-09-07T11:00:48Z,domenic,topic: history|topic: document.open(),0
 850415143,true,Proposal: Declarative cross-origin communication in iframe and popup tags via Shared Worker,https://github.com/whatwg/html/issues/6555,2021-04-05T14:41:26Z,2021-04-06T15:19:22Z,ghost,addition/proposal|needs implementer interest,0
 849227661,true,"Proposal: Deprecation of ""cross-origin-policy"" in favor of a declarative network isolation of insecure HTML tags",https://github.com/whatwg/html/issues/6553,2021-04-02T13:45:33Z,2021-04-06T15:19:18Z,ghost,addition/proposal|needs implementer interest,1
 848862605,false,COEP and COOP inheritance for top level non-HTTP documents,https://github.com/whatwg/html/issues/6552,2021-04-02T00:02:38Z,2021-04-30T15:28:13Z,ParisMeuleman,topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,0
@@ -2812,7 +2811,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 202961019,false,Allow webauthors to customize what controls are shown for HTMLMediaElement,https://github.com/whatwg/html/issues/2293,2017-01-24T22:36:57Z,2021-07-14T08:59:25Z,avayvod,addition/proposal|needs implementer interest|topic: media,2
 202939006,false,UA style for <br> and <wbr>,https://github.com/whatwg/html/issues/2291,2017-01-24T21:02:08Z,2017-03-17T00:39:56Z,zcorpan,topic: rendering,0
 202889219,false,freeze()-like API for HTMLCanvasElement,https://github.com/whatwg/html/issues/2290,2017-01-24T17:40:39Z,2018-01-26T22:22:58Z,grorg,addition/proposal|needs implementer interest|topic: canvas,0
-202799594,false,Fire an ErrorEvent instead an Event,https://github.com/whatwg/html/issues/2289,2017-01-24T12:02:42Z,2022-09-07T00:24:09Z,bakulf,topic: workers|topic: events,0
+202799594,false,Fire an ErrorEvent instead an Event,https://github.com/whatwg/html/issues/2289,2017-01-24T12:02:42Z,2022-09-07T00:27:36Z,bakulf,topic: workers|topic: events,0
 202688519,false,"""Invoke the Function. Use the third and subseque...""",https://github.com/whatwg/html/issues/2287,2017-01-24T00:09:30Z,2017-01-24T16:17:35Z,tbodt,clarification,0
 202633614,false,"Would be nice if ""steps to (re)determine what the object element represents"" were linkable",https://github.com/whatwg/html/issues/2285,2017-01-23T19:53:27Z,2017-05-17T12:38:50Z,bzbarsky,topic: embed and object,0
 202564378,true,"Location shouldn't use %ObjProto_toString% as the value of its ""toString"" property",https://github.com/whatwg/html/issues/2284,2017-01-23T15:25:51Z,2017-02-14T09:10:28Z,anba,,1
