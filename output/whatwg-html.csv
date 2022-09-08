@@ -1,10 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1364807017,false,Default UA stylesheet for <select> as a listbox + optgroup + option,https://github.com/whatwg/html/issues/8270,2022-09-07T15:02:26Z,2022-09-07T15:02:26Z,zcorpan,topic: rendering|topic: forms,0
 1362261219,false,Correct the type of `opener` in Window object idl block description,https://github.com/whatwg/html/issues/8263,2022-09-05T16:28:25Z,2022-09-05T16:28:25Z,gihyeonsung,,0
 1361856367,false,Confusing xref for HostResolveImportedModule,https://github.com/whatwg/html/issues/8262,2022-09-05T12:19:48Z,2022-09-07T09:10:09Z,Ms2ger,good first issue|topic: script,1
 1359478091,false,WebDriver extension for Custom Handlers,https://github.com/whatwg/html/issues/8251,2022-09-01T22:29:00Z,2022-09-06T00:57:31Z,javifernandez,addition/proposal|needs implementer interest|topic: custom protocols,0
 1359477025,false,Upcoming HTML standard issue triage meeting on 9/29/2022,https://github.com/whatwg/html/issues/8250,2022-09-01T22:27:30Z,2022-09-01T22:27:30Z,past,agenda+,0
 1358997781,true,Small nitpick bug: Missing closing tag in source,https://github.com/whatwg/html/issues/8249,2022-09-01T15:04:48Z,2022-09-05T02:51:13Z,amno1,,0
-1358356896,false,<option> element: why is its content restricted to Text?,https://github.com/whatwg/html/issues/8247,2022-09-01T07:04:57Z,2022-09-06T18:03:22Z,verdy-p,,0
+1358356896,false,<option> element: why is its content restricted to Text?,https://github.com/whatwg/html/issues/8247,2022-09-01T07:04:57Z,2022-09-07T14:08:18Z,verdy-p,topic: forms|i18n-tracker,0
 1357135460,false,Clarification for two relevant-mutations.html subtests,https://github.com/whatwg/html/issues/8242,2022-08-31T10:29:49Z,2022-09-02T13:10:47Z,rwlbuis,clarification|topic: img,0
 1356854809,false,"Introducing ""container-query"" support on HTML level",https://github.com/whatwg/html/issues/8240,2022-08-31T06:29:01Z,2022-08-31T06:29:01Z,MajPay,,0
 1354884358,true,"`autocomplete` parsing steps have bugs if the field has ""webauthn""",https://github.com/whatwg/html/issues/8231,2022-08-29T21:19:22Z,2022-09-07T04:01:32Z,nsatragno,,0
@@ -132,7 +133,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1236085687,false,Event Loop Processing Signature Mismatches,https://github.com/whatwg/html/issues/7930,2022-05-14T17:52:51Z,2022-05-30T16:11:37Z,Fayti1703,topic: event loop,0
 1235363695,false,Api to get prev/next focusable element,https://github.com/whatwg/html/issues/7924,2022-05-13T15:06:41Z,2022-05-19T21:19:01Z,jimmywarting,addition/proposal|needs implementer interest|topic: focus,5
 1234740828,true,<script>'s language attribute is not whitespace-stripped in actual implementations,https://github.com/whatwg/html/issues/7923,2022-05-13T04:57:50Z,2022-07-08T05:07:45Z,hiroshige-g,topic: script,0
-1234705984,false,Table parts in `<template>`- `<td>` and `<td>`,https://github.com/whatwg/html/issues/7922,2022-05-13T03:51:27Z,2022-05-16T15:52:24Z,alexander-akait,document conformance|topic: parser|needs tests,1
+1234705984,false,Table parts in `<template>`- `<td>` and `<td>`,https://github.com/whatwg/html/issues/7922,2022-05-13T03:51:27Z,2022-09-07T22:03:51Z,alexander-akait,document conformance|topic: parser|needs tests,1
 1233259320,false,Custom Handler integration with the Permission API,https://github.com/whatwg/html/issues/7920,2022-05-11T22:58:29Z,2022-05-17T16:50:20Z,javifernandez,,0
 1233245662,true,Upcoming HTML standard issue triage meeting on 6/2/2022,https://github.com/whatwg/html/issues/7919,2022-05-11T22:32:00Z,2022-06-02T22:00:17Z,past,agenda+,0
 1232949906,true," date input type broken since last chrome update 101.0.4951.64",https://github.com/whatwg/html/issues/7918,2022-05-11T17:09:19Z,2022-05-11T17:25:04Z,AMEFTOH,,0
@@ -3755,7 +3756,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 117183217,true,"""If the last subpath had more than one point in ...""",https://github.com/whatwg/html/issues/344,2015-11-16T17:59:23Z,2018-02-05T18:14:01Z,yurydelendik,topic: canvas,0
 117101292,true,"""unicode-bidi: isolate; "" for ruby and rt?",https://github.com/whatwg/html/issues/343,2015-11-16T11:09:40Z,2015-11-17T01:04:30Z,zcorpan,,0
 116761965,true,Make worker origins checks happen in Fetch only,https://github.com/whatwg/html/issues/337,2015-11-13T12:40:56Z,2015-11-18T08:08:37Z,sicking,,0
-116680695,true,Remove input[type=datetime],https://github.com/whatwg/html/issues/336,2015-11-13T01:34:05Z,2016-06-22T14:51:16Z,tkent-google,removal/deprecation|good first issue,6
+116680695,true,Remove input[type=datetime],https://github.com/whatwg/html/issues/336,2015-11-13T01:34:05Z,2016-06-22T14:51:16Z,tkent-google,removal/deprecation|good first issue,7
 116675952,true,Remove the storage mutex,https://github.com/whatwg/html/issues/335,2015-11-13T00:49:42Z,2015-12-15T19:11:57Z,domenic,removal/deprecation,0
 116672964,true,Remove navigator.yieldForStorageUpdates(),https://github.com/whatwg/html/issues/334,2015-11-13T00:24:57Z,2015-11-16T10:18:05Z,foolip,removal/deprecation,0
 116572648,true,"""Let target be the MessagePort in whose port message queue the event e now finds itself."" doesn't make sense",https://github.com/whatwg/html/issues/333,2015-11-12T15:30:18Z,2017-09-29T11:28:42Z,smaug----,topic: serialize and transfer,0
