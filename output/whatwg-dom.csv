@@ -1,7 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1368165602,false,Consider adding a timeout parameter to the AbortController constructor,https://github.com/whatwg/dom/issues/1110,2022-09-09T18:08:54Z,2022-09-10T22:06:01Z,shaseley,topic: aborting,0
+1369024414,false,`childList` across different `MutationObserver`s can reverse orders,https://github.com/whatwg/dom/issues/1111,2022-09-11T18:19:06Z,2022-09-11T21:08:56Z,trusktr,,0
+1368165602,false,Consider adding a timeout parameter to the AbortController constructor,https://github.com/whatwg/dom/issues/1110,2022-09-09T18:08:54Z,2022-09-11T22:48:23Z,shaseley,topic: aborting,0
 1357367844,false,Minor textContent / string replace all optimization,https://github.com/whatwg/dom/issues/1106,2022-08-31T13:48:13Z,2022-09-09T23:28:50Z,annevk,interop|topic: nodes,2
-1352791054,true,MutationObserver callbacks happen in bizarre order.,https://github.com/whatwg/dom/issues/1105,2022-08-26T22:34:40Z,2022-08-30T04:49:42Z,trusktr,,0
+1352791054,true,MutationObserver callbacks happen in bizarre order.,https://github.com/whatwg/dom/issues/1105,2022-08-26T22:34:40Z,2022-09-11T18:04:19Z,trusktr,,0
 1330866554,false,TreeWalker.nextNode loops forever if last node of a detached node tree is not accepted by the filter,https://github.com/whatwg/dom/issues/1102,2022-08-06T23:08:56Z,2022-08-07T02:55:42Z,Lubrsi,,0
 1314829605,false,Which interfaces should have event handler attributes?,https://github.com/whatwg/dom/issues/1097,2022-07-22T10:27:32Z,2022-07-22T11:18:59Z,foolip,topic: events,2
 1299866530,true,Does `MutationObserver` `attributeFilter` accept itorators?,https://github.com/whatwg/dom/issues/1092,2022-07-10T08:54:01Z,2022-07-22T07:54:45Z,trusktr,,0
@@ -506,7 +507,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 126586618,false,Proposal to improve the DOM creation api,https://github.com/whatwg/dom/issues/150,2016-01-14T06:26:33Z,2019-04-11T09:40:18Z,straker,needs implementer interest|addition/proposal,10
 126367081,true,Resize events needed?,https://github.com/whatwg/dom/issues/149,2016-01-13T08:24:12Z,2016-08-16T09:17:26Z,greggman,,0
 126202122,true,"Drop ""keyevents"" as an alias of ""keyboardevent"" for createEvent",https://github.com/whatwg/dom/issues/148,2016-01-12T15:19:42Z,2016-04-13T00:31:09Z,foolip,,0
-126143079,false,Consider support for ES2015 iterator protocol for NodeIterator,https://github.com/whatwg/dom/issues/147,2016-01-12T10:12:25Z,2022-07-13T09:31:00Z,Ginden,needs implementer interest|addition/proposal,7
+126143079,false,Consider support for ES2015 iterator protocol for NodeIterator,https://github.com/whatwg/dom/issues/147,2016-01-12T10:12:25Z,2022-07-13T09:31:00Z,Ginden,needs implementer interest|addition/proposal,8
 126121898,true,"Only run ""adopting steps"" if oldDocument !== document",https://github.com/whatwg/dom/issues/146,2016-01-12T08:05:15Z,2016-01-22T18:09:53Z,zcorpan,,0
 125340468,true,Consider adding more utils to Elements,https://github.com/whatwg/dom/issues/145,2016-01-07T07:25:14Z,2018-03-13T08:08:57Z,Wes0617,needs implementer interest,0
 124998142,true,"Having getElementsByTagName match on localName is not ""web""-compatible for IE and Firefox",https://github.com/whatwg/dom/issues/143,2016-01-05T16:16:26Z,2016-09-08T18:24:35Z,bzbarsky,,0
@@ -521,7 +522,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 122942551,true,Node#baseURI need not be nullable,https://github.com/whatwg/dom/issues/131,2015-12-18T12:43:39Z,2016-01-01T15:17:54Z,foolip,,0
 122520253,true,Some fix for replace algo and question,https://github.com/whatwg/dom/issues/129,2015-12-16T14:50:09Z,2015-12-17T16:33:27Z,ArkadiuszMichalski,,0
 121622388,true,Some tweaks for Nodes,https://github.com/whatwg/dom/issues/127,2015-12-11T02:25:49Z,2015-12-15T10:36:57Z,ArkadiuszMichalski,,0
-121260584,false,Disconnect single target instead of all,https://github.com/whatwg/dom/issues/126,2015-12-09T14:51:40Z,2022-08-12T10:38:29Z,zbraniecki,needs implementer interest|addition/proposal,12
+121260584,false,Disconnect single target instead of all,https://github.com/whatwg/dom/issues/126,2015-12-09T14:51:40Z,2022-09-11T20:47:14Z,zbraniecki,needs implementer interest|addition/proposal,12
 120313749,true,Cross-browser inconsistencies with createHTMLDocument,https://github.com/whatwg/dom/issues/124,2015-12-04T01:45:08Z,2015-12-04T13:18:13Z,frewsxcv,,0
 118855978,true,Merge DOMSettableTokenList into DOMTokenList,https://github.com/whatwg/dom/issues/119,2015-11-25T15:08:12Z,2016-01-28T22:46:36Z,annevk,,0
 118581132,true,Document.documentURI and Document.URL attributes behaviour,https://github.com/whatwg/dom/issues/118,2015-11-24T10:51:45Z,2016-01-01T15:41:08Z,ArkadiuszMichalski,,0
