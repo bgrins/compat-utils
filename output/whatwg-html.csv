@@ -2,7 +2,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1370472787,false,Support scoping `autocomplete` suggestions to the sites domain,https://github.com/whatwg/html/issues/8284,2022-09-12T20:23:20Z,2022-09-12T20:24:54Z,MadLittleMods,,0
 1369863683,false,Incorporate scroll-to-text into HTML,https://github.com/whatwg/html/issues/8282,2022-09-12T12:55:42Z,2022-09-12T17:19:33Z,bokand,,1
 1369321140,false,HTML table from CSV,https://github.com/whatwg/html/issues/8281,2022-09-12T05:55:00Z,2022-09-12T17:05:59Z,esdnm,,0
-1369257900,false,"For attributes which can contain a mix of languages, provide markup for language of parts",https://github.com/whatwg/html/issues/8280,2022-09-12T04:22:54Z,2022-09-12T04:30:02Z,ChasBelov,,0
+1369257900,false,"For attributes which can contain a mix of languages, provide markup for language of parts",https://github.com/whatwg/html/issues/8280,2022-09-12T04:22:54Z,2022-09-14T09:54:23Z,ChasBelov,,0
 1369238834,false,Support language of parts for portions of the title tag contents,https://github.com/whatwg/html/issues/8279,2022-09-12T03:56:34Z,2022-09-12T03:56:34Z,ChasBelov,,0
 1368685191,false,Optionality of history.pushState/replaceState’s unused argument,https://github.com/whatwg/html/issues/8278,2022-09-10T17:33:31Z,2022-09-10T17:38:57Z,bathos,,0
 1368315820,false,"Intersection observer and mark paint timing steps should run after (or during) ""update the rendering"", not before.",https://github.com/whatwg/html/issues/8277,2022-09-09T20:53:22Z,2022-09-09T22:44:25Z,emilio,topic: rendering|interop|agenda+,0
@@ -50,7 +50,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1325877836,true,Contradiction in CanvasRenderingContext2D.createPattern for images with bad useability,https://github.com/whatwg/html/issues/8149,2022-08-02T13:41:14Z,2022-08-03T15:27:59Z,mysteryDate,,0
 1323964858,false,support title element containing partially translatable text,https://github.com/whatwg/html/issues/8147,2022-08-01T07:33:35Z,2022-08-01T10:52:21Z,Zhang-Junzhi,i18n-tracker,0
 1323769314,false,Clarify the fill algorithm,https://github.com/whatwg/html/issues/8145,2022-08-01T03:51:58Z,2022-08-01T03:52:09Z,Kaiido,topic: canvas,0
-1323380850,false,"CORS, CORP, TAO & ""public static resource"" metadata",https://github.com/whatwg/html/issues/8143,2022-07-31T07:03:55Z,2022-08-29T11:00:53Z,noamr,security/privacy|topic: fetch,0
+1323380850,false,"CORS, CORP, TAO & ""public static resource"" metadata",https://github.com/whatwg/html/issues/8143,2022-07-31T07:03:55Z,2022-09-14T00:59:20Z,noamr,security/privacy|topic: fetch,0
 1322915430,true,New html element: preview,https://github.com/whatwg/html/issues/8140,2022-07-30T06:29:07Z,2022-07-31T23:22:49Z,ghost,,0
 1321568538,false,Clarify what happens when setting rel content attribute on link element,https://github.com/whatwg/html/issues/8138,2022-07-28T22:45:38Z,2022-09-08T06:59:25Z,rniwa,topic: link,0
 1318917068,false,Which input types should readonly affect constraint validation for?,https://github.com/whatwg/html/issues/8133,2022-07-27T01:40:41Z,2022-08-11T16:30:58Z,nt1m,clarification|topic: forms,0
@@ -84,7 +84,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1295361713,false,"gamepadconnected and gamepaddisconnected should be listed ",https://github.com/whatwg/html/issues/8079,2022-07-06T07:38:09Z,2022-07-06T07:41:47Z,marcoscaceres,,0
 1294763306,false,Proposal: baseURL argument to `import.meta.resolve`,https://github.com/whatwg/html/issues/8077,2022-07-05T20:59:08Z,2022-07-15T14:19:34Z,guybedford,,0
 1293286178,false,The change event for textarea elements isn't fired per spec?,https://github.com/whatwg/html/issues/8073,2022-07-04T15:00:27Z,2022-07-04T15:00:27Z,foolip,,0
-1292754080,false,There are no error when you're using reject function along with throw statement,https://github.com/whatwg/html/issues/8071,2022-07-04T07:34:55Z,2022-07-05T03:19:28Z,dSalieri,,0
+1292754080,true,There are no error when you're using reject function along with throw statement,https://github.com/whatwg/html/issues/8071,2022-07-04T07:34:55Z,2022-09-14T07:30:48Z,dSalieri,,0
 1292671141,false,"""Headings and outline"" -- Recommended root h1 usage",https://github.com/whatwg/html/issues/8070,2022-07-04T06:05:40Z,2022-07-04T06:26:48Z,kai-tub,,0
 1292253177,false,"About ""Headings and outlines""",https://github.com/whatwg/html/issues/8066,2022-07-03T09:16:49Z,2022-07-05T10:16:49Z,mtrootyy,,0
 1291802129,false,Specify how cookies should be serialized,https://github.com/whatwg/html/issues/8064,2022-07-01T20:23:13Z,2022-08-29T11:17:57Z,sbingler,topic: cookie|integration,1
@@ -639,7 +639,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 848862605,false,COEP and COOP inheritance for top level non-HTTP documents,https://github.com/whatwg/html/issues/6552,2021-04-02T00:02:38Z,2021-04-30T15:28:13Z,ParisMeuleman,topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,0
 848743764,true,Upcoming HTML standard issue triage meeting on 5/6/2021,https://github.com/whatwg/html/issues/6551,2021-04-01T19:50:17Z,2021-05-07T19:17:20Z,past,agenda+,0
 848621510,true,"Proposal: Native, customizable window controls tags",https://github.com/whatwg/html/issues/6549,2021-04-01T16:38:25Z,2021-04-06T15:19:12Z,ghost,addition/proposal|needs implementer interest,0
-848610547,false,PDF version crashes tolino e-book readers,https://github.com/whatwg/html/issues/6548,2021-04-01T16:22:31Z,2021-04-01T17:15:16Z,Aaron-Junker,spec tooling,0
+848610547,true,PDF version crashes tolino e-book readers,https://github.com/whatwg/html/issues/6548,2021-04-01T16:22:31Z,2022-09-14T07:42:54Z,Aaron-Junker,spec tooling,0
 848444746,true,Script tag extension: Per-Module Network Isolation,https://github.com/whatwg/html/issues/6547,2021-04-01T12:57:24Z,2021-04-06T15:19:06Z,ghost,addition/proposal|needs implementer interest,1
 848173072,false,Clarify drawImage(<svg preserveAspectRatio>),https://github.com/whatwg/html/issues/6546,2021-04-01T08:01:48Z,2021-09-15T06:35:21Z,Kaiido,topic: canvas|interop,2
 847858268,false,How to display extra base text/ruby text in <ruby>?,https://github.com/whatwg/html/issues/6545,2021-04-01T04:00:46Z,2021-04-01T09:05:18Z,vickyhan618,i18n-tracker,0
@@ -722,7 +722,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 807778343,true,Null-character parse errors in tree construction,https://github.com/whatwg/html/issues/6384,2021-02-13T16:19:38Z,2021-03-16T18:53:13Z,JKingweb,clarification|topic: parser,0
 807178032,false,Specify whether interacting with a numeric <input> via arrow buttons focuses it,https://github.com/whatwg/html/issues/6383,2021-02-12T11:58:08Z,2021-02-13T00:32:38Z,adroitwhiz,topic: forms|interop|topic: focus,2
 806749742,false,New feature proposal: new capabilities and features in HTML to support web maps,https://github.com/whatwg/html/issues/6380,2021-02-11T21:16:15Z,2021-07-22T22:17:45Z,prushforth,addition/proposal|needs implementer interest,6
-806058139,true,Specify cancelling a file upload from a file input,https://github.com/whatwg/html/issues/6376,2021-02-11T03:57:42Z,2021-07-08T16:45:37Z,adroitwhiz,topic: forms|needs tests|interop,0
+806058139,true,Specify cancelling a file upload from a file input,https://github.com/whatwg/html/issues/6376,2021-02-11T03:57:42Z,2021-07-08T16:45:37Z,adroitwhiz,topic: forms|needs tests|interop,1
 805832746,true,The HTML spec for createImageBitmap() doesn't include the IDL for createImageBitmap(),https://github.com/whatwg/html/issues/6375,2021-02-10T20:08:46Z,2021-02-10T21:06:20Z,dalecurtis,,0
 805637649,true,COOP Reporting: typo ancestor -> accessor,https://github.com/whatwg/html/issues/6374,2021-02-10T15:52:25Z,2021-02-11T20:23:17Z,zcorpan,topic: cross-origin-opener-policy,1
 805098484,true,Upcoming HTML standard issue triage meeting on 3/4/2021,https://github.com/whatwg/html/issues/6371,2021-02-10T02:16:37Z,2021-03-11T21:25:16Z,past,agenda+,0
@@ -2068,7 +2068,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 320438804,true,Remove SVGElement include in HTML spec now it is in SVG,https://github.com/whatwg/html/issues/3668,2018-05-04T21:41:52Z,2018-05-08T08:41:31Z,dstorey,clarification,0
 320242426,true,current document readiness can change without corresponding readystatechange event,https://github.com/whatwg/html/issues/3666,2018-05-04T11:35:42Z,2018-05-04T11:51:44Z,annevk,interop,0
 319899743,true,"""If timeout is less than 0, then set timeout to 0.""",https://github.com/whatwg/html/issues/3664,2018-05-03T12:28:56Z,2018-05-03T12:34:51Z,farre,,0
-319857690,false,Warning for caniuse and selector-read-only,https://github.com/whatwg/html/issues/3663,2018-05-03T10:03:00Z,2018-05-03T15:02:21Z,annevk,spec tooling|dev edition,0
+319857690,true,Warning for caniuse and selector-read-only,https://github.com/whatwg/html/issues/3663,2018-05-03T10:03:00Z,2022-09-14T07:43:09Z,annevk,spec tooling|dev edition,0
 319399689,true,Need to spec fieldset layout,https://github.com/whatwg/html/issues/3660,2018-05-02T03:37:52Z,2018-09-19T18:04:42Z,bzbarsky,topic: rendering|interop|integration|topic: fieldset,0
 318869706,true,Possible spec bug with allowpaymentrequest and creation of iframe,https://github.com/whatwg/html/issues/3657,2018-04-30T12:13:58Z,2021-05-26T22:48:44Z,zcorpan,topic: navigation,0
 318657454,true,"Character entity larrpl isn't left-arrow-with-plus, to match rarrpl",https://github.com/whatwg/html/issues/3655,2018-04-28T18:12:16Z,2021-09-20T15:08:38Z,ediosyncratic,normative change|needs implementer interest|topic: parser,0
