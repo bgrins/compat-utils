@@ -2,7 +2,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1370472787,false,Support scoping `autocomplete` suggestions to the sites domain,https://github.com/whatwg/html/issues/8284,2022-09-12T20:23:20Z,2022-09-12T20:24:54Z,MadLittleMods,,0
 1369863683,false,Incorporate scroll-to-text into HTML,https://github.com/whatwg/html/issues/8282,2022-09-12T12:55:42Z,2022-09-12T17:19:33Z,bokand,,1
 1369321140,false,HTML table from CSV,https://github.com/whatwg/html/issues/8281,2022-09-12T05:55:00Z,2022-09-12T17:05:59Z,esdnm,,0
-1369257900,false,"For attributes which can contain a mix of languages, provide markup for language of parts",https://github.com/whatwg/html/issues/8280,2022-09-12T04:22:54Z,2022-09-14T09:54:23Z,ChasBelov,,0
+1369257900,false,"For attributes which can contain a mix of languages, provide markup for language of parts",https://github.com/whatwg/html/issues/8280,2022-09-12T04:22:54Z,2022-09-14T18:09:06Z,ChasBelov,,0
 1369238834,false,Support language of parts for portions of the title tag contents,https://github.com/whatwg/html/issues/8279,2022-09-12T03:56:34Z,2022-09-12T03:56:34Z,ChasBelov,,0
 1368685191,false,Optionality of history.pushState/replaceState’s unused argument,https://github.com/whatwg/html/issues/8278,2022-09-10T17:33:31Z,2022-09-10T17:38:57Z,bathos,,0
 1368315820,false,"Intersection observer and mark paint timing steps should run after (or during) ""update the rendering"", not before.",https://github.com/whatwg/html/issues/8277,2022-09-09T20:53:22Z,2022-09-09T22:44:25Z,emilio,topic: rendering|interop|agenda+,0
@@ -20,7 +20,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1357135460,false,Clarification for two relevant-mutations.html subtests,https://github.com/whatwg/html/issues/8242,2022-08-31T10:29:49Z,2022-09-02T13:10:47Z,rwlbuis,clarification|topic: img,0
 1356854809,false,"Introducing ""container-query"" support on HTML level",https://github.com/whatwg/html/issues/8240,2022-08-31T06:29:01Z,2022-08-31T06:29:01Z,MajPay,,0
 1354884358,true,"`autocomplete` parsing steps have bugs if the field has ""webauthn""",https://github.com/whatwg/html/issues/8231,2022-08-29T21:19:22Z,2022-09-07T04:01:32Z,nsatragno,,0
-1353737288,false,Should <button> have `user-select: none;` by default?,https://github.com/whatwg/html/issues/8228,2022-08-29T05:45:04Z,2022-09-13T19:12:38Z,karlcow,topic: forms|interop|topic: style,0
+1353737288,false,Should <button> have `user-select: none;` by default?,https://github.com/whatwg/html/issues/8228,2022-08-29T05:45:04Z,2022-09-14T14:03:57Z,karlcow,topic: forms|interop|topic: style,0
 1352941865,false,Define timing of focus fixup rule precisely when triggered by style changes.,https://github.com/whatwg/html/issues/8225,2022-08-27T04:49:19Z,2022-09-02T16:45:12Z,emilio,topic: focus,0
 1352461926,false,What's the right way to support mobile screens in the UA stylesheet?,https://github.com/whatwg/html/issues/8224,2022-08-26T16:09:08Z,2022-09-05T12:35:13Z,mfreed7,topic: rendering,0
 1349791269,false,details element toggle event should bubble,https://github.com/whatwg/html/issues/8220,2022-08-24T17:24:55Z,2022-08-30T17:55:53Z,gibson042,,0
@@ -46,11 +46,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1328157790,false,focus delegate code seems wrongly only looking at children,https://github.com/whatwg/html/issues/8157,2022-08-04T06:54:57Z,2022-08-18T23:30:21Z,emilio,topic: focus,0
 1328146867,false,autofocus + delegateFocus handling doesn't make much sense to me,https://github.com/whatwg/html/issues/8156,2022-08-04T06:42:26Z,2022-08-18T23:30:32Z,emilio,topic: focus,0
 1326476726,true,Browsing context's container doesn't seem to be set anywhere,https://github.com/whatwg/html/issues/8151,2022-08-02T22:44:54Z,2022-08-03T03:26:38Z,Lubrsi,,0
-1326231514,false,New historyHandling type of 'launch' for cold start navigations,https://github.com/whatwg/html/issues/8150,2022-08-02T18:19:58Z,2022-08-12T07:21:31Z,bmathwig,topic: navigation,0
+1326231514,true,New historyHandling type of 'launch' for cold start navigations,https://github.com/whatwg/html/issues/8150,2022-08-02T18:19:58Z,2022-09-14T16:20:39Z,bmathwig,topic: navigation,0
 1325877836,true,Contradiction in CanvasRenderingContext2D.createPattern for images with bad useability,https://github.com/whatwg/html/issues/8149,2022-08-02T13:41:14Z,2022-08-03T15:27:59Z,mysteryDate,,0
 1323964858,false,support title element containing partially translatable text,https://github.com/whatwg/html/issues/8147,2022-08-01T07:33:35Z,2022-08-01T10:52:21Z,Zhang-Junzhi,i18n-tracker,0
 1323769314,false,Clarify the fill algorithm,https://github.com/whatwg/html/issues/8145,2022-08-01T03:51:58Z,2022-08-01T03:52:09Z,Kaiido,topic: canvas,0
-1323380850,false,"CORS, CORP, TAO & ""public static resource"" metadata",https://github.com/whatwg/html/issues/8143,2022-07-31T07:03:55Z,2022-09-14T00:59:20Z,noamr,security/privacy|topic: fetch,0
+1323380850,false,"CORS, CORP, TAO & ""public static resource"" metadata",https://github.com/whatwg/html/issues/8143,2022-07-31T07:03:55Z,2022-09-14T00:59:20Z,noamr,security/privacy|topic: fetch,1
 1322915430,true,New html element: preview,https://github.com/whatwg/html/issues/8140,2022-07-30T06:29:07Z,2022-07-31T23:22:49Z,ghost,,0
 1321568538,false,Clarify what happens when setting rel content attribute on link element,https://github.com/whatwg/html/issues/8138,2022-07-28T22:45:38Z,2022-09-08T06:59:25Z,rniwa,topic: link,0
 1318917068,false,Which input types should readonly affect constraint validation for?,https://github.com/whatwg/html/issues/8133,2022-07-27T01:40:41Z,2022-08-11T16:30:58Z,nt1m,clarification|topic: forms,0
@@ -58,7 +58,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1317297208,true,Change type of event on('input') to InputEvent,https://github.com/whatwg/html/issues/8131,2022-07-25T19:54:18Z,2022-07-26T00:25:56Z,wbt,,0
 1317100675,true,Environment settings object in the microtask checkpoint,https://github.com/whatwg/html/issues/8130,2022-07-25T16:44:56Z,2022-07-26T08:26:40Z,dSalieri,,0
 1315859584,true,"""would work also"" ",https://github.com/whatwg/html/issues/8127,2022-07-24T09:45:57Z,2022-07-24T11:11:20Z,winstonDeGreef,,0
-1316359061,false,MediaElement and SyntheticMediaElement,https://github.com/whatwg/html/issues/8129,2022-07-22T21:39:56Z,2022-08-29T08:15:32Z,ysulyma,addition/proposal|topic: media,0
+1316359061,false,MediaElement and SyntheticMediaElement,https://github.com/whatwg/html/issues/8129,2022-07-22T21:39:56Z,2022-09-14T15:16:02Z,ysulyma,addition/proposal|topic: media,0
 1315210946,false,Discuss WebGPU integration issues,https://github.com/whatwg/html/issues/8123,2022-07-22T16:34:13Z,2022-08-29T11:01:46Z,fserb,topic: canvas,0
 1313777312,false,Suggestion: You should be able to load module-scripts in the `file://` protocol.,https://github.com/whatwg/html/issues/8121,2022-07-21T20:40:22Z,2022-08-22T23:27:46Z,CalinZBaenen,,0
 1312599763,false,"Proposal: keep the previous page as a ""menu""",https://github.com/whatwg/html/issues/8119,2022-07-21T04:57:07Z,2022-07-21T04:57:07Z,markmiro,,0
@@ -999,7 +999,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 636669654,true,COEP: Should reports be visible to reporting observers?,https://github.com/whatwg/html/issues/5634,2020-06-11T02:29:27Z,2020-06-25T17:00:11Z,jugglinmike,topic: cross-origin-embedder-policy,0
 636664917,true,Add a URN attribute to the <cite> element,https://github.com/whatwg/html/issues/5633,2020-06-11T02:14:39Z,2020-06-11T14:04:38Z,gjvnq,,0
 636506295,true,quote mark inside URL that is attribute value is conflict,https://github.com/whatwg/html/issues/5632,2020-06-10T19:53:29Z,2020-06-19T16:40:17Z,Nick-Levinson,,0
-636381230,false,Firing events when input.validity changes,https://github.com/whatwg/html/issues/5631,2020-06-10T16:17:14Z,2021-01-14T19:22:55Z,josepharhar,,1
+636381230,false,Firing events when input.validity changes,https://github.com/whatwg/html/issues/5631,2020-06-10T16:17:14Z,2022-09-14T12:43:06Z,josepharhar,,2
 636163090,true,body element - Possible missing Window-reflecting body element event handler content attributes,https://github.com/whatwg/html/issues/5628,2020-06-10T11:18:21Z,2020-06-11T13:14:05Z,schalkneethling,,0
 635928648,false,`<summary>` lost visual indication that it can be activated when hovering over the text,https://github.com/whatwg/html/issues/5626,2020-06-10T04:59:11Z,2020-06-10T13:44:47Z,myakura,addition/proposal|needs implementer interest|topic: rendering,0
 635880586,true,Requesting 'toggle'/'switch' attribute for checkbox inputs (POC inside!),https://github.com/whatwg/html/issues/5625,2020-06-10T02:33:16Z,2020-06-10T17:48:19Z,alystair,addition/proposal|accessibility|topic: forms|needs concrete proposal|a11y-tracker,0
@@ -1859,7 +1859,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 358180145,true,Rendering when fieldset is fixed height and the legend is much taller,https://github.com/whatwg/html/issues/4014,2018-09-07T19:12:11Z,2018-09-17T19:03:30Z,zcorpan,topic: rendering|interop|topic: fieldset,0
 358143285,true,Have <legend align> map to justify-self,https://github.com/whatwg/html/issues/4013,2018-09-07T17:03:08Z,2018-09-19T18:04:42Z,zcorpan,topic: fieldset,0
 357813827,false,locking elements for display,https://github.com/whatwg/html/issues/4010,2018-09-06T20:26:46Z,2018-09-07T08:34:03Z,vmpstr,addition/proposal|needs implementer interest,0
-357791097,false,Add ability to query UserActivation state,https://github.com/whatwg/html/issues/4008,2018-09-06T19:21:34Z,2022-02-03T21:30:33Z,dtapuska,addition/proposal|needs implementer interest|topic: user activation,0
+357791097,true,Add ability to query UserActivation state,https://github.com/whatwg/html/issues/4008,2018-09-06T19:21:34Z,2022-09-14T22:11:19Z,dtapuska,addition/proposal|needs implementer interest|topic: user activation,0
 357490424,false,Should XHR etc. still fire events after its document has gone inactive?,https://github.com/whatwg/html/issues/4007,2018-09-06T04:16:32Z,2018-09-07T14:16:46Z,TimothyGu,topic: fetch|topic: document lifecycle,0
 357460068,true,"""Hexademical character reference start state""",https://github.com/whatwg/html/issues/4006,2018-09-06T01:18:36Z,2018-09-10T12:32:01Z,stevecheckoway,good first issue|topic: parser,0
 357331672,false,WindowProxy exposes cross-origin side channel,https://github.com/whatwg/html/issues/4005,2018-09-05T17:35:35Z,2018-09-06T14:48:10Z,jakemco,security/privacy|topic: multiple globals,0
@@ -2979,7 +2979,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 186467945,true,"Make HTML parser put iframe, audio, video, and canvas nested in SVG in HTML namespace",https://github.com/whatwg/html/issues/1996,2016-11-01T06:27:41Z,2016-11-01T06:32:42Z,birtles,,0
 185882935,true,Add environment's execution ready flag,https://github.com/whatwg/html/issues/1992,2016-10-28T09:50:56Z,2016-11-09T10:26:29Z,jungkees,,0
 185799831,false,Do not execute scripts in navigated-away-from documents,https://github.com/whatwg/html/issues/1989,2016-10-27T22:51:53Z,2016-10-28T01:45:10Z,domenic,topic: navigation,0
-185547876,false,Add some mechanism to know that a message event was triggered by user activation,https://github.com/whatwg/html/issues/1983,2016-10-27T00:53:44Z,2019-06-28T14:49:46Z,RByers,addition/proposal|needs implementer interest|topic: events|topic: user activation,0
+185547876,false,Add some mechanism to know that a message event was triggered by user activation,https://github.com/whatwg/html/issues/1983,2016-10-27T00:53:44Z,2022-09-14T16:01:52Z,RByers,addition/proposal|needs implementer interest|topic: events|topic: user activation,0
 185439800,true,"Module maps cannot contain null, I think",https://github.com/whatwg/html/issues/1982,2016-10-26T16:09:30Z,2016-11-02T05:11:58Z,domenic,clarification,0
 185373710,true,Consider removing language alluding to other scripting languages for HTML,https://github.com/whatwg/html/issues/1978,2016-10-26T12:01:24Z,2018-02-21T17:14:01Z,littledan,,0
 185352121,true,HTML should have a normative reference mandating ECMA 402,https://github.com/whatwg/html/issues/1976,2016-10-26T10:16:59Z,2016-11-02T05:01:38Z,littledan,,0
