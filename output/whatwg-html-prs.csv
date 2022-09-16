@@ -1,17 +1,17 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1370447219,true,Reflect changed AO name from ecma262,https://github.com/whatwg/html/pull/8283,2022-09-12T19:58:37Z,2022-09-12T20:53:23Z,bakkot,,0
 1366892345,false,Define contenteditable `plaintext-only` state,https://github.com/whatwg/html/pull/8275,2022-09-08T19:32:18Z,2022-09-08T19:33:56Z,howard-e,,0
-1365802704,false,Remove parse error for <template><tr></tr> </template>,https://github.com/whatwg/html/pull/8271,2022-09-08T08:39:12Z,2022-09-09T06:32:45Z,zcorpan,topic: parser,0
+1365802704,true,Remove parse error for <template><tr></tr> </template>,https://github.com/whatwg/html/pull/8271,2022-09-08T08:39:12Z,2022-09-15T19:10:57Z,zcorpan,topic: parser,0
 1362916350,false,Custom handlers automation,https://github.com/whatwg/html/pull/8267,2022-09-06T08:40:07Z,2022-09-12T14:17:59Z,javifernandez,,0
 1362286926,false,"Replace ""asynchronous completions"" with a callback algorithm",https://github.com/whatwg/html/pull/8264,2022-09-05T16:51:35Z,2022-09-14T15:12:26Z,nicolo-ribaudo,clarification|topic: script,0
-1360604905,true,Add a `navigator` interface for user activation state.,https://github.com/whatwg/html/pull/8254,2022-09-02T20:54:59Z,2022-09-14T22:11:19Z,mustaqahmed,,0
-1360247038,false,[ECMA-262 layering] Refactor import-related host hooks,https://github.com/whatwg/html/pull/8253,2022-09-02T14:06:40Z,2022-09-06T08:56:25Z,nicolo-ribaudo,,0
+1360604905,true,Add a `navigator` interface for user activation state.,https://github.com/whatwg/html/pull/8254,2022-09-02T20:54:59Z,2022-09-15T20:14:24Z,mustaqahmed,,0
+1360247038,false,[ECMA-262 layering] Refactor import-related host hooks,https://github.com/whatwg/html/pull/8253,2022-09-02T14:06:40Z,2022-09-15T14:52:48Z,nicolo-ribaudo,,0
 1360149725,true,"Editorial: Add missing space in ""unload a Document"" steps",https://github.com/whatwg/html/pull/8252,2022-09-02T12:47:46Z,2022-09-05T08:21:29Z,linusg,,0
 1358987764,true,Fixed missing </td> tag in the 'link' element.,https://github.com/whatwg/html/pull/8248,2022-09-01T14:58:30Z,2022-09-05T02:51:11Z,amno1,,0
 1357584850,true,Create static.yml,https://github.com/whatwg/html/pull/8245,2022-08-31T16:30:44Z,2022-08-31T22:17:15Z,Lhvictor30,spam,0
 1357340774,true,Add dropdown menu,https://github.com/whatwg/html/pull/8244,2022-08-31T13:28:06Z,2022-08-31T22:19:16Z,LowWeiJie,spam,0
 1357338113,true,Add dropdown menu,https://github.com/whatwg/html/pull/8243,2022-08-31T13:26:05Z,2022-08-31T22:19:53Z,LowWeiJie,spam,0
-1357120274,false,Add noscript tag to spec's list for optional tag section.,https://github.com/whatwg/html/pull/8241,2022-08-31T10:16:13Z,2022-09-14T13:54:14Z,tashasyarifah,,0
+1357120274,true,Add noscript tag to spec's list for optional tag section.,https://github.com/whatwg/html/pull/8241,2022-08-31T10:16:13Z,2022-09-15T17:15:24Z,tashasyarifah,,0
 1356839316,true,Jy patch 1,https://github.com/whatwg/html/pull/8239,2022-08-31T06:13:22Z,2022-08-31T06:16:23Z,callmeyonggor,spam,0
 1356187286,true,Add scroll to bottom,https://github.com/whatwg/html/pull/8237,2022-08-30T19:07:52Z,2022-08-31T02:02:01Z,YvonneChong18,spam,0
 1355100809,false,Add missing parameters to 'Create the navigation timing entry'.,https://github.com/whatwg/html/pull/8233,2022-08-30T03:04:22Z,2022-08-30T16:14:20Z,jeremyroman,,0
@@ -814,7 +814,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 684440612,true,Meta: add link-type-alternate as ID for rel=alternate,https://github.com/whatwg/html/pull/5855,2020-08-24T07:32:41Z,2020-08-30T11:01:47Z,annevk,,0
 682464294,true,Augment COEP violation report,https://github.com/whatwg/html/pull/5848,2020-08-20T06:41:35Z,2020-08-21T14:57:29Z,yutakahirano,topic: cross-origin-embedder-policy,0
 681629747,true,Meta: export preload and alternate,https://github.com/whatwg/html/pull/5843,2020-08-19T07:56:22Z,2020-08-20T15:52:28Z,horo-t,,0
-681220681,false,Add the autocorrect attribute to the HTML spec.,https://github.com/whatwg/html/pull/5841,2020-08-18T17:45:09Z,2022-08-22T02:36:09Z,whsieh,i18n-tracker,0
+681220681,false,Add the autocorrect attribute to the HTML spec.,https://github.com/whatwg/html/pull/5841,2020-08-18T17:45:09Z,2022-09-15T19:45:00Z,whsieh,i18n-tracker,0
 680444028,true,Update to use undefined instead of void in IDL,https://github.com/whatwg/html/pull/5838,2020-08-17T18:33:00Z,2020-08-18T15:16:18Z,domenic,,0
 680108269,true,Issue #5552 - Update `whenDefined` steps to resolve with the class,https://github.com/whatwg/html/pull/5833,2020-08-17T10:00:28Z,2020-09-08T15:18:36Z,WebReflection,,0
 680073580,true,Improve definition of currently focused area,https://github.com/whatwg/html/pull/5832,2020-08-17T09:08:26Z,2020-08-18T09:52:06Z,annevk,topic: focus,0
