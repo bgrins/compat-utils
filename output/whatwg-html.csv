@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1380722735,false,Variable `sandboxFlags` appears out of nowhere in `process a navigate fetch`,https://github.com/whatwg/html/issues/8301,2022-09-21T10:48:15Z,2022-09-21T10:48:15Z,awesomekling,,0
+1381510657,false,"Refactoring environment origin, top-level site, etc into policy container",https://github.com/whatwg/html/issues/8302,2022-09-21T21:27:11Z,2022-09-21T23:59:57Z,wanderview,,0
+1380722735,true,Variable `sandboxFlags` appears out of nowhere in `process a navigate fetch`,https://github.com/whatwg/html/issues/8301,2022-09-21T10:48:15Z,2022-09-21T23:56:50Z,awesomekling,,0
 1379338008,false,Specify non-initial about:blank as parsing synchronously,https://github.com/whatwg/html/issues/8299,2022-09-20T12:26:50Z,2022-09-20T12:26:50Z,hsivonen,,0
 1379253756,false,Download in sandboxed iframe,https://github.com/whatwg/html/issues/8298,2022-09-20T11:23:02Z,2022-09-20T11:23:02Z,Seppe-d,,0
 1379074836,false,Last-Event-ID response if unavailable,https://github.com/whatwg/html/issues/8297,2022-09-20T09:07:51Z,2022-09-20T09:07:51Z,Tieske,,0
@@ -11,15 +12,15 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1370472787,false,Support scoping `autocomplete` suggestions to the sites domain,https://github.com/whatwg/html/issues/8284,2022-09-12T20:23:20Z,2022-09-12T20:24:54Z,MadLittleMods,,0
 1369863683,false,Incorporate scroll-to-text into HTML,https://github.com/whatwg/html/issues/8282,2022-09-12T12:55:42Z,2022-09-12T17:19:33Z,bokand,,1
 1369321140,false,HTML table from CSV,https://github.com/whatwg/html/issues/8281,2022-09-12T05:55:00Z,2022-09-12T17:05:59Z,esdnm,,0
-1369257900,false,"For attributes which can contain a mix of languages, provide markup for language of parts",https://github.com/whatwg/html/issues/8280,2022-09-12T04:22:54Z,2022-09-15T13:22:12Z,ChasBelov,i18n-tracker,0
-1369238834,false,Support language of parts for portions of the title tag contents,https://github.com/whatwg/html/issues/8279,2022-09-12T03:56:34Z,2022-09-12T03:56:34Z,ChasBelov,,0
+1369257900,false,"For attributes which can contain a mix of languages, provide markup for language of parts",https://github.com/whatwg/html/issues/8280,2022-09-12T04:22:54Z,2022-09-21T15:20:31Z,ChasBelov,i18n-tracker,0
+1369238834,false,Support language of parts for portions of the title tag contents,https://github.com/whatwg/html/issues/8279,2022-09-12T03:56:34Z,2022-09-21T15:32:13Z,ChasBelov,,0
 1368685191,false,Optionality of history.pushState/replaceState’s unused argument,https://github.com/whatwg/html/issues/8278,2022-09-10T17:33:31Z,2022-09-10T17:38:57Z,bathos,,2
 1368315820,false,"Intersection observer and mark paint timing steps should run after (or during) ""update the rendering"", not before.",https://github.com/whatwg/html/issues/8277,2022-09-09T20:53:22Z,2022-09-09T22:44:25Z,emilio,topic: rendering|interop|agenda+,0
 1366997910,false,Ordering for Worker termination and Atomics.waitAsync promises,https://github.com/whatwg/html/issues/8276,2022-09-08T21:16:55Z,2022-09-10T22:08:33Z,syg,,0
 1366393164,false,"Why is rel=""canonical"" forbidden on a?",https://github.com/whatwg/html/issues/8274,2022-09-08T13:58:09Z,2022-09-08T13:59:41Z,brennanyoung,,1
 1366002306,false,Iframe session history for JS-created iframes,https://github.com/whatwg/html/issues/8273,2022-09-08T10:30:09Z,2022-09-10T01:47:12Z,jakearchibald,topic: navigation|topic: history,0
 1365958997,false,Broken references in HTML Standard,https://github.com/whatwg/html/issues/8272,2022-09-08T10:06:57Z,2022-09-08T10:06:57Z,dontcallmedom-bot,,0
-1364807017,false,Default UA stylesheet for <select> as a listbox + optgroup + option,https://github.com/whatwg/html/issues/8270,2022-09-07T15:02:26Z,2022-09-07T15:02:26Z,zcorpan,topic: rendering|topic: forms,0
+1364807017,false,Default UA stylesheet for <select> as a listbox + optgroup + option,https://github.com/whatwg/html/issues/8270,2022-09-07T15:02:26Z,2022-09-21T20:10:51Z,zcorpan,topic: rendering|topic: forms,0
 1362261219,false,Correct the type of `opener` in Window object idl block description,https://github.com/whatwg/html/issues/8263,2022-09-05T16:28:25Z,2022-09-05T16:28:25Z,gihyeonsung,,0
 1361856367,false,Confusing xref for HostResolveImportedModule,https://github.com/whatwg/html/issues/8262,2022-09-05T12:19:48Z,2022-09-18T03:57:59Z,Ms2ger,good first issue|topic: script,1
 1359478091,false,WebDriver extension for Custom Handlers,https://github.com/whatwg/html/issues/8251,2022-09-01T22:29:00Z,2022-09-06T00:57:31Z,javifernandez,addition/proposal|needs implementer interest|topic: custom protocols,0
@@ -196,7 +197,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1206023411,true,Should Element.id spec reflect what browser actually implement,https://github.com/whatwg/html/issues/7824,2022-04-16T05:48:42Z,2022-04-24T15:41:38Z,greggman,document conformance,5
 1204707421,false,Early hints followup issues,https://github.com/whatwg/html/issues/7823,2022-04-14T15:51:56Z,2022-06-02T12:14:16Z,domenic,,1
 1204498851,false,Add referrerpolicy to media elements (<audio> and <video>),https://github.com/whatwg/html/issues/7822,2022-04-14T12:59:02Z,2022-04-21T17:55:49Z,SegaraRai,addition/proposal|needs implementer interest|topic: media|topic: fetch,0
-1200400029,false,Add support to the window.open function for the Accept header.,https://github.com/whatwg/html/issues/7810,2022-04-11T18:54:19Z,2022-05-08T22:00:14Z,codecando-x,addition/proposal|needs implementer interest|topic: navigation,2
+1200400029,false,Add support to the window.open function for the Accept header.,https://github.com/whatwg/html/issues/7810,2022-04-11T18:54:19Z,2022-05-08T22:00:14Z,codecando-x,addition/proposal|needs implementer interest|topic: navigation,3
 1200302682,true,Should adding inert attribute force a blur?,https://github.com/whatwg/html/issues/7809,2022-04-11T17:32:47Z,2022-04-11T17:48:14Z,emilio,,0
 1200291987,true,inert on an ancestor of modal dialog,https://github.com/whatwg/html/issues/7808,2022-04-11T17:25:44Z,2022-05-18T17:53:25Z,emilio,topic: dialog,0
 1198621719,false,"""Fetch a classic worker-imported script"" uses fetch's synchronous flag, which is no longer defined",https://github.com/whatwg/html/issues/7804,2022-04-09T14:03:10Z,2022-04-25T13:20:59Z,Lubrsi,topic: workers|topic: fetch|integration,0
