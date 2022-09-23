@@ -1,8 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1382295147,false,Should location.search use the document encoding?,https://github.com/whatwg/html/issues/8308,2022-09-22T11:30:36Z,2022-09-22T11:57:30Z,annevk,normative change|topic: navigation|interop,0
-1382216046,false,IDREF attributes reflection get out of sync,https://github.com/whatwg/html/issues/8307,2022-09-22T10:28:53Z,2022-09-22T10:28:53Z,mrego,,0
-1381902667,false,Reflection of IDREF attributes will leave stale ID value,https://github.com/whatwg/html/issues/8306,2022-09-22T06:25:27Z,2022-09-22T08:27:23Z,rniwa,,0
-1381510657,false,"Refactoring environment origin, top-level site, etc into policy container",https://github.com/whatwg/html/issues/8302,2022-09-21T21:27:11Z,2022-09-21T23:59:57Z,wanderview,,0
+1382295147,true,Should location.search use the document encoding?,https://github.com/whatwg/html/issues/8308,2022-09-22T11:30:36Z,2022-09-22T15:28:59Z,annevk,normative change|topic: navigation|interop,0
+1382216046,false,IDREF attributes reflection get out of sync,https://github.com/whatwg/html/issues/8307,2022-09-22T10:28:53Z,2022-09-22T14:28:29Z,mrego,clarification|a11y-tracker,0
+1381902667,false,Reflection of IDREF attributes will leave stale ID value,https://github.com/whatwg/html/issues/8306,2022-09-22T06:25:27Z,2022-09-22T14:34:35Z,rniwa,a11y-tracker,0
+1381510657,false,"Refactoring environment origin, top-level site, etc into policy container",https://github.com/whatwg/html/issues/8302,2022-09-21T21:27:11Z,2022-09-22T13:09:10Z,wanderview,topic: policy container,0
 1380722735,true,Variable `sandboxFlags` appears out of nowhere in `process a navigate fetch`,https://github.com/whatwg/html/issues/8301,2022-09-21T10:48:15Z,2022-09-21T23:56:50Z,awesomekling,,0
 1379338008,false,Specify non-initial about:blank as parsing synchronously,https://github.com/whatwg/html/issues/8299,2022-09-20T12:26:50Z,2022-09-20T12:26:50Z,hsivonen,,0
 1379253756,false,Download in sandboxed iframe,https://github.com/whatwg/html/issues/8298,2022-09-20T11:23:02Z,2022-09-20T11:23:02Z,Seppe-d,,0
@@ -63,7 +63,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1325877836,true,Contradiction in CanvasRenderingContext2D.createPattern for images with bad useability,https://github.com/whatwg/html/issues/8149,2022-08-02T13:41:14Z,2022-08-03T15:27:59Z,mysteryDate,,0
 1323964858,false,support title element containing partially translatable text,https://github.com/whatwg/html/issues/8147,2022-08-01T07:33:35Z,2022-08-01T10:52:21Z,Zhang-Junzhi,i18n-tracker,0
 1323769314,false,Clarify the fill algorithm,https://github.com/whatwg/html/issues/8145,2022-08-01T03:51:58Z,2022-08-01T03:52:09Z,Kaiido,topic: canvas,0
-1323380850,false,"CORS, CORP, TAO & ""public static resource"" metadata",https://github.com/whatwg/html/issues/8143,2022-07-31T07:03:55Z,2022-09-20T08:57:57Z,noamr,security/privacy|topic: fetch,1
+1323380850,false,"CORS, CORP, TAO & ""public static resource"" metadata",https://github.com/whatwg/html/issues/8143,2022-07-31T07:03:55Z,2022-09-22T13:27:32Z,noamr,security/privacy|topic: fetch,1
 1322915430,true,New html element: preview,https://github.com/whatwg/html/issues/8140,2022-07-30T06:29:07Z,2022-07-31T23:22:49Z,ghost,,0
 1321568538,false,Clarify what happens when setting rel content attribute on link element,https://github.com/whatwg/html/issues/8138,2022-07-28T22:45:38Z,2022-09-08T06:59:25Z,rniwa,topic: link,0
 1318917068,false,Which input types should readonly affect constraint validation for?,https://github.com/whatwg/html/issues/8133,2022-07-27T01:40:41Z,2022-08-11T16:30:58Z,nt1m,clarification|topic: forms,0
@@ -742,7 +742,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 804798139,true,Auto-open details when seeking content within it,https://github.com/whatwg/html/issues/6370,2021-02-09T18:21:20Z,2021-02-10T06:27:04Z,fantasai,,3
 804761074,false,Surprising secure context inheritance behavior for opened windows,https://github.com/whatwg/html/issues/6369,2021-02-09T17:33:45Z,2021-04-19T15:28:38Z,letitz,,0
 802699195,false,"Allowing top-level communication for cross-origin isolated documents ",https://github.com/whatwg/html/issues/6364,2021-02-06T13:07:49Z,2022-09-12T17:11:24Z,arturjanc,topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,0
-802248120,false,HTML Video Element: Proposal For Reintroduction of Media (and srcset/sizes) in Source Elements,https://github.com/whatwg/html/issues/6363,2021-02-05T15:18:23Z,2022-02-07T19:23:32Z,scottjehl,addition/proposal|needs implementer interest|topic: media,19
+802248120,false,HTML Video Element: Proposal For Reintroduction of Media (and srcset/sizes) in Source Elements,https://github.com/whatwg/html/issues/6363,2021-02-05T15:18:23Z,2022-02-07T19:23:32Z,scottjehl,addition/proposal|needs implementer interest|topic: media,20
 801055941,false,Interoperable <video> underflow,https://github.com/whatwg/html/issues/6359,2021-02-04T08:35:02Z,2021-04-09T23:12:54Z,chcunningham,topic: media,2
 799368677,false,What kind of new 'session' is created on manual navigation?,https://github.com/whatwg/html/issues/6356,2021-02-02T15:11:09Z,2022-02-17T11:59:21Z,jakearchibald,topic: navigation|topic: history|interop,1
 799189344,false,Fetch's request's credentials mode not set correctly,https://github.com/whatwg/html/issues/6354,2021-02-02T11:20:39Z,2021-02-23T05:14:37Z,annevk,topic: fetch|integration,0
@@ -3066,7 +3066,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 180160522,true,"Using ""report an error"" for deprecation warnings?",https://github.com/whatwg/html/issues/1841,2016-09-29T20:54:48Z,2017-01-19T15:29:07Z,RByers,,1
 180125583,true,Refactor form data submission,https://github.com/whatwg/html/issues/1840,2016-09-29T18:26:24Z,2020-03-19T21:36:33Z,domenic,clarification|topic: custom elements|topic: forms,8
 180060212,false,"How to render <summary> when it has display style like ""table-cell""?",https://github.com/whatwg/html/issues/1839,2016-09-29T14:10:54Z,2018-02-26T10:26:04Z,aethanyc,topic: rendering,0
-179973255,false,"""being rendered"" interaction with display:contents",https://github.com/whatwg/html/issues/1837,2016-09-29T07:34:21Z,2021-01-04T07:11:28Z,zcorpan,topic: rendering,1
+179973255,false,"""being rendered"" interaction with display:contents",https://github.com/whatwg/html/issues/1837,2016-09-29T07:34:21Z,2022-09-22T21:40:12Z,zcorpan,topic: rendering,1
 179833400,false,"[HTMLMediaElement] Pitch Control ",https://github.com/whatwg/html/issues/1833,2016-09-28T17:19:16Z,2018-12-24T19:20:34Z,GarrettS,addition/proposal|needs implementer interest|topic: media,0
 179610943,false,Add readable and writable stream properties to Web Socket API,https://github.com/whatwg/html/issues/1828,2016-09-27T20:54:22Z,2016-10-04T18:42:58Z,AMorgaut,addition/proposal,0
 179540122,true,How should noopener/noreferrer affect link targeting?,https://github.com/whatwg/html/issues/1826,2016-09-27T16:13:06Z,2020-01-30T10:49:59Z,bzbarsky,topic: navigation|interop|topic: browsing context,1
