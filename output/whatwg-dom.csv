@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1384737270,false,"""Element"" has no method signature for ""getElementById""",https://github.com/whatwg/dom/issues/1114,2022-09-24T16:38:02Z,2022-09-24T23:40:29Z,GPrimola,,0
+1384737270,true,"""Element"" has no method signature for ""getElementById""",https://github.com/whatwg/dom/issues/1114,2022-09-24T16:38:02Z,2022-09-26T15:43:47Z,GPrimola,,0
 1369966763,false,Requirement for AbortSignal argument to be named 'signal' can be confusing for some APIs.,https://github.com/whatwg/dom/issues/1112,2022-09-12T14:03:31Z,2022-09-12T21:00:54Z,morlovich,topic: aborting,0
-1369024414,false,`childList` across different `MutationObserver`s can reverse orders,https://github.com/whatwg/dom/issues/1111,2022-09-11T18:19:06Z,2022-09-26T02:04:13Z,trusktr,,2
+1369024414,false,`childList` across different `MutationObserver`s can reverse orders,https://github.com/whatwg/dom/issues/1111,2022-09-11T18:19:06Z,2022-09-26T15:43:08Z,trusktr,,2
 1368165602,false,Consider adding a timeout parameter to the AbortController constructor,https://github.com/whatwg/dom/issues/1110,2022-09-09T18:08:54Z,2022-09-11T22:48:23Z,shaseley,topic: aborting,0
 1357367844,false,Minor textContent / string replace all optimization,https://github.com/whatwg/dom/issues/1106,2022-08-31T13:48:13Z,2022-09-15T21:24:07Z,annevk,interop|topic: nodes,2
 1352791054,true,MutationObserver callbacks happen in bizarre order.,https://github.com/whatwg/dom/issues/1105,2022-08-26T22:34:40Z,2022-09-11T18:04:19Z,trusktr,,0
@@ -101,7 +101,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 714191940,true,[shadow-dom] Why does attributeChangedCallback fire before connectedCallback during parsing?,https://github.com/whatwg/dom/issues/899,2020-10-03T22:59:12Z,2020-10-05T15:12:05Z,trusktr,,0
 707766076,true,"Why do we pass oldDocument to ""adopting steps"" (instead of the new document)?",https://github.com/whatwg/dom/issues/896,2020-09-24T00:32:15Z,2020-09-24T09:05:19Z,rakina,,0
 703687238,false,Add NodeList.setAttributes,https://github.com/whatwg/dom/issues/895,2020-09-17T15:23:34Z,2020-12-07T13:31:43Z,michaschwab,needs implementer interest|addition/proposal,0
-697223665,false,Proposal: New method to reorder child nodes,https://github.com/whatwg/dom/issues/891,2020-09-09T23:08:43Z,2022-09-25T18:49:55Z,josepharhar,,11
+697223665,false,Proposal: New method to reorder child nodes,https://github.com/whatwg/dom/issues/891,2020-09-09T23:08:43Z,2022-09-26T17:54:01Z,josepharhar,,11
 694586799,true,"""When an event is dispatched to an object that p...""",https://github.com/whatwg/dom/issues/888,2020-09-07T00:24:35Z,2020-09-10T12:50:51Z,kevinsung,,0
 673358498,false,Proposal: Make `DOMTokenList` a writable `setlike`,https://github.com/whatwg/dom/issues/884,2020-08-05T08:30:52Z,2020-08-05T08:35:15Z,dead-claudia,needs implementer interest|addition/proposal,0
 665796369,false,Add translation of korean,https://github.com/whatwg/dom/issues/882,2020-07-26T14:52:06Z,2020-08-04T13:58:43Z,Brew-Brew,,0
@@ -129,7 +129,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 573000518,false,Proposal: A Range.prototype.replaceContents(...),https://github.com/whatwg/dom/issues/837,2020-02-28T20:57:35Z,2020-03-02T16:41:22Z,WebReflection,needs implementer interest|addition/proposal|topic: ranges,11
 563355953,false,Node insertion step 7.7 isn't upgrading disconnected uncustomized elements that browsers do upgrade,https://github.com/whatwg/dom/issues/833,2020-02-11T17:17:01Z,2020-02-13T12:10:07Z,pshaughn,topic: custom elements,0
 562731160,false,[infra] Integrating generation of W3C-ready review drafts into build pipeline,https://github.com/whatwg/dom/issues/832,2020-02-10T18:02:36Z,2020-02-10T18:10:11Z,sideshowbarker,,0
-561925806,false,Declarative Shadow DOM,https://github.com/whatwg/dom/issues/831,2020-02-07T23:39:21Z,2022-09-23T08:51:36Z,mfreed7,topic: shadow|needs implementer interest|addition/proposal,145
+561925806,false,Declarative Shadow DOM,https://github.com/whatwg/dom/issues/831,2020-02-07T23:39:21Z,2022-09-23T08:51:36Z,mfreed7,topic: shadow|needs implementer interest|addition/proposal,146
 559601115,false,"Update the ""convert nodes into a node"" to accept arrays of nodes.",https://github.com/whatwg/dom/issues/828,2020-02-04T09:47:18Z,2020-02-05T10:55:23Z,pygy,addition/proposal,0
 557875877,false,[proposal] Node.containingShadowRoot,https://github.com/whatwg/dom/issues/826,2020-01-31T02:33:57Z,2020-02-03T08:49:02Z,emilio,topic: shadow|needs implementer interest|addition/proposal,0
 547971626,false,TreeWalker constructor,https://github.com/whatwg/dom/issues/818,2020-01-10T09:46:06Z,2020-01-11T08:07:18Z,bathos,needs implementer interest|addition/proposal,1

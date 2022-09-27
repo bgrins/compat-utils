@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1385925231,false,Unhinged,https://github.com/whatwg/html/issues/8322,2022-09-26T11:40:33Z,2022-09-26T11:40:33Z,wolflikeme200,,0
-1385603026,false,Is a general Script: header a good idea?,https://github.com/whatwg/html/issues/8321,2022-09-26T07:52:23Z,2022-09-26T08:43:50Z,domenic,topic: script|agenda+,0
+1386184036,false,Games,https://github.com/whatwg/html/issues/8323,2022-09-26T14:28:53Z,2022-09-26T14:28:53Z,Septere,,0
+1385603026,false,Is a general Script: header a good idea?,https://github.com/whatwg/html/issues/8321,2022-09-26T07:52:23Z,2022-09-26T16:11:30Z,domenic,topic: script|agenda+,0
 1384729843,false,"Standardize ""writing-mode"" for audio[controls] in UA Stylesheet",https://github.com/whatwg/html/issues/8316,2022-09-24T16:15:02Z,2022-09-26T09:26:48Z,Ahmad-S792,topic: rendering|i18n-tracker|i18n-jlreq|i18n-clreq|i18n-mlreq,0
 1382295147,true,Should location.search use the document encoding?,https://github.com/whatwg/html/issues/8308,2022-09-22T11:30:36Z,2022-09-22T15:28:59Z,annevk,normative change|topic: navigation|interop,0
 1382216046,false,IDREF attributes reflection get out of sync,https://github.com/whatwg/html/issues/8307,2022-09-22T10:28:53Z,2022-09-22T14:28:29Z,mrego,clarification|a11y-tracker,0
@@ -66,7 +66,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1325877836,true,Contradiction in CanvasRenderingContext2D.createPattern for images with bad useability,https://github.com/whatwg/html/issues/8149,2022-08-02T13:41:14Z,2022-08-03T15:27:59Z,mysteryDate,,0
 1323964858,false,support title element containing partially translatable text,https://github.com/whatwg/html/issues/8147,2022-08-01T07:33:35Z,2022-08-01T10:52:21Z,Zhang-Junzhi,i18n-tracker,0
 1323769314,false,Clarify the fill algorithm,https://github.com/whatwg/html/issues/8145,2022-08-01T03:51:58Z,2022-08-01T03:52:09Z,Kaiido,topic: canvas,0
-1323380850,false,"CORS, CORP, TAO & ""public static resource"" metadata",https://github.com/whatwg/html/issues/8143,2022-07-31T07:03:55Z,2022-09-26T10:59:07Z,noamr,security/privacy|topic: fetch,1
+1323380850,false,"CORS, CORP, TAO & ""public static resource"" metadata",https://github.com/whatwg/html/issues/8143,2022-07-31T07:03:55Z,2022-09-26T12:33:34Z,noamr,security/privacy|topic: fetch,1
 1322915430,true,New html element: preview,https://github.com/whatwg/html/issues/8140,2022-07-30T06:29:07Z,2022-07-31T23:22:49Z,ghost,,0
 1321568538,false,Clarify what happens when setting rel content attribute on link element,https://github.com/whatwg/html/issues/8138,2022-07-28T22:45:38Z,2022-09-08T06:59:25Z,rniwa,topic: link,0
 1318917068,false,Which input types should readonly affect constraint validation for?,https://github.com/whatwg/html/issues/8133,2022-07-27T01:40:41Z,2022-08-11T16:30:58Z,nt1m,clarification|topic: forms,0
@@ -587,7 +587,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 912017513,true,Upcoming HTML standard issue triage meeting on 7/1/2021,https://github.com/whatwg/html/issues/6739,2021-06-05T00:00:18Z,2021-07-20T00:36:59Z,past,agenda+,0
 910338827,false,Support `<optgroup>` in `<datalist>`,https://github.com/whatwg/html/issues/6733,2021-06-03T10:10:20Z,2021-06-03T10:46:27Z,cawa-93,addition/proposal|needs implementer interest|topic: forms,13
 909451964,true,[SUGGESTION] Disabling developer tools,https://github.com/whatwg/html/issues/6732,2021-06-02T12:33:19Z,2021-06-02T19:53:26Z,drodil,,4
-909339015,false,"Canvas textBaseline ""em square"" not defined",https://github.com/whatwg/html/issues/6731,2021-06-02T10:15:21Z,2021-06-02T11:25:52Z,AshleyScirra,topic: canvas|interop,2
+909339015,false,"Canvas textBaseline ""em square"" not defined",https://github.com/whatwg/html/issues/6731,2021-06-02T10:15:21Z,2022-09-26T15:14:04Z,AshleyScirra,topic: canvas|interop,2
 909192951,false,[Suggestion] dialog element,https://github.com/whatwg/html/issues/6730,2021-06-02T07:11:15Z,2021-08-08T22:26:57Z,OmidHekayati,topic: dialog,5
 908578515,false,When must the focusing steps be run?,https://github.com/whatwg/html/issues/6729,2021-06-01T18:34:20Z,2021-06-02T07:27:50Z,lpd-au,topic: focus,0
 904118620,false,Prefetching Documents,https://github.com/whatwg/html/issues/6723,2021-05-27T19:39:31Z,2022-05-04T07:05:42Z,jeffkaufman,topic: fetch|topic: resource hints (inc. preload),5
@@ -2139,7 +2139,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2022-05-19T08:38:09Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,18
 305369552,true,Proposal: Improve control over HTML/XML syntax parse errors,https://github.com/whatwg/html/issues/3569,2018-03-14T23:56:33Z,2022-04-18T15:28:51Z,dvdckl,addition/proposal|needs implementer interest|topic: parser,0
 305147441,true,"<form method> description only says ""HTTP method""",https://github.com/whatwg/html/issues/3568,2018-03-14T12:58:10Z,2018-04-20T07:53:27Z,annevk,good first issue,0
-305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2022-04-05T13:53:37Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,54
+305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2022-04-05T13:53:37Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,55
 305020324,true,Separate out document.open() method declaration definitions,https://github.com/whatwg/html/issues/3565,2018-03-14T04:36:27Z,2018-06-28T15:27:09Z,domenic,clarification|good first issue|topic: document.open(),0
 305019688,true,At least Blink does not support document.open()'s replace parameter,https://github.com/whatwg/html/issues/3564,2018-03-14T04:31:43Z,2018-08-23T18:40:33Z,domenic,topic: history|interop|topic: document.open(),0
 304874091,false,<template> element capability/semantics in SVG parsing context,https://github.com/whatwg/html/issues/3563,2018-03-13T17:59:50Z,2018-03-15T07:34:25Z,kevinpschaaf,addition/proposal|needs implementer interest|topic: parser,0
@@ -3109,7 +3109,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 176243059,false,rb and rtc element should be removed from the list of obsolete features,https://github.com/whatwg/html/issues/1771,2016-09-11T13:09:32Z,2022-02-17T11:12:10Z,upsuper,document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,0
 175980447,false,Specify how to fetch <link rel=icon>,https://github.com/whatwg/html/issues/1769,2016-09-09T10:43:37Z,2016-09-13T15:19:42Z,zcorpan,topic: fetch,0
 175916893,true,Multipage redirection isn't always working anymore,https://github.com/whatwg/html/issues/1767,2016-09-09T03:06:41Z,2016-09-12T21:33:24Z,domenic,spec tooling,0
-175905234,false,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2022-01-11T14:25:36Z,isonmad,addition/proposal|needs implementer interest|topic: events,11
+175905234,false,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2022-09-26T13:35:59Z,isonmad,addition/proposal|needs implementer interest|topic: events,12
 175646396,false,HTML  specification allows for cycles in Window / Location prototype chain,https://github.com/whatwg/html/issues/1760,2016-09-08T01:47:55Z,2018-08-23T21:46:52Z,cdumez,integration|topic: location,0
 175630444,true,"does this mean these - ""A settings object      An environment settings ..."" - are equivalent?",https://github.com/whatwg/html/issues/1759,2016-09-07T23:27:46Z,2016-09-16T22:53:50Z,equalsJeffH,,0
 175609093,true,moving well known HTML tags outside of SVG container,https://github.com/whatwg/html/issues/1758,2016-09-07T21:19:02Z,2016-09-08T15:12:43Z,djfd,,0
