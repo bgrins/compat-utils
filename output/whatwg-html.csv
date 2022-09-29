@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1389909957,false,Add 'hash' attribute to elements that have a 'src' attribute in order to allow for URI independant cacheing,https://github.com/whatwg/html/issues/8329,2022-09-28T20:29:11Z,2022-09-28T20:29:11Z,schweini,,0
 1385603026,false,Is a general Script: header a good idea?,https://github.com/whatwg/html/issues/8321,2022-09-26T07:52:23Z,2022-09-26T16:11:30Z,domenic,topic: script|agenda+,0
 1384729843,false,"Standardize ""writing-mode"" for audio[controls] in UA Stylesheet",https://github.com/whatwg/html/issues/8316,2022-09-24T16:15:02Z,2022-09-27T09:24:20Z,Ahmad-S792,topic: rendering|i18n-tracker|i18n-jlreq|i18n-clreq|i18n-mlreq,0
 1382295147,true,Should location.search use the document encoding?,https://github.com/whatwg/html/issues/8308,2022-09-22T11:30:36Z,2022-09-22T15:28:59Z,annevk,normative change|topic: navigation|interop,0
@@ -1351,7 +1352,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 504207648,true,Adopt the allowance of headings inside legend from W3C HTML5.2?,https://github.com/whatwg/html/issues/4990,2019-10-08T18:33:50Z,2020-02-19T13:51:38Z,SelenIT,addition/proposal|document conformance|accessibility|impacts documentation,9
 504066480,true,"""Create a similar-origin window agent"" is weird",https://github.com/whatwg/html/issues/4988,2019-10-08T14:06:18Z,2020-03-31T17:10:56Z,annevk,topic: agent,0
 503894667,false,autocomplete attribute for credit-card expiration details,https://github.com/whatwg/html/issues/4987,2019-10-08T08:12:59Z,2019-11-09T00:48:55Z,battre,addition/proposal|topic: forms|i18n-tracker,1
-503891219,false,autocomplete attribute for street-address details,https://github.com/whatwg/html/issues/4986,2019-10-08T08:05:20Z,2022-08-11T18:48:44Z,battre,addition/proposal|needs implementer interest|accessibility|topic: forms|i18n-tracker,35
+503891219,false,autocomplete attribute for street-address details,https://github.com/whatwg/html/issues/4986,2019-10-08T08:05:20Z,2022-09-28T13:58:33Z,battre,addition/proposal|needs implementer interest|accessibility|topic: forms|i18n-tracker,35
 503719928,true,Base6,https://github.com/whatwg/html/issues/4981,2019-10-07T22:17:00Z,2019-10-08T02:10:35Z,Deadmau8772,,0
 503657569,false,Attempt to remove implied-document definition,https://github.com/whatwg/html/issues/4980,2019-10-07T19:55:46Z,2020-06-24T16:37:26Z,dtapuska,clarification|topic: event loop,0
 503606041,false,Multiple Selections from Datalist,https://github.com/whatwg/html/issues/4979,2019-10-07T18:06:20Z,2021-03-21T00:07:52Z,ecc521,addition/proposal|needs implementer interest|topic: forms,1
@@ -2461,7 +2462,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 253846328,true,Can we expose HTMLMediaElement or equivalent object in DedicatedWorkerGlobalScope and SharedWorkerGlobalScope ?,https://github.com/whatwg/html/issues/2979,2017-08-30T00:51:02Z,2017-08-30T13:59:17Z,guest271314,topic: media,0
 253763249,true,"Path2D interface has two'Exposed extended attributes, each with different values.",https://github.com/whatwg/html/issues/2978,2017-08-29T18:40:14Z,2017-08-30T12:19:17Z,samweinig,good first issue|topic: canvas,0
 253636240,true,Link to <flag-icon> is broken.,https://github.com/whatwg/html/issues/2977,2017-08-29T12:18:19Z,2017-08-30T04:57:20Z,a1626,good first issue|topic: custom elements,0
-253541995,false,Add height-based selection to srcset/sizes,https://github.com/whatwg/html/issues/2973,2017-08-29T06:28:09Z,2022-02-05T20:26:39Z,zcorpan,addition/proposal|needs implementer interest|topic: img,22
+253541995,false,Add height-based selection to srcset/sizes,https://github.com/whatwg/html/issues/2973,2017-08-29T06:28:09Z,2022-02-05T20:26:39Z,zcorpan,addition/proposal|needs implementer interest|topic: img,23
 253031635,true,Html5,https://github.com/whatwg/html/issues/2966,2017-08-25T22:22:58Z,2017-08-25T22:38:33Z,antonychrist,,0
 252764066,true,How to name videos in <source>? (missing spec),https://github.com/whatwg/html/issues/2964,2017-08-25T00:04:43Z,2017-08-25T00:11:02Z,binarykitchen,topic: media,0
 252164620,false,beforeunload for post-pushState/replaceState navigations,https://github.com/whatwg/html/issues/2961,2017-08-23T05:37:06Z,2021-02-02T20:25:03Z,phistuck,addition/proposal|needs implementer interest|topic: history,0
