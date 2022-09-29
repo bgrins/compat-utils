@@ -1,9 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1389909957,false,Add 'hash' attribute to elements that have a 'src' attribute in order to allow for URI independant cacheing,https://github.com/whatwg/html/issues/8329,2022-09-28T20:29:11Z,2022-09-28T20:29:11Z,schweini,,0
+1390400651,false,<link rel=preload> as attribute supports less than potential destination,https://github.com/whatwg/html/issues/8332,2022-09-29T07:37:28Z,2022-09-29T07:52:15Z,annevk,topic: resource hints (inc. preload),0
+1390373144,true,Broken link to Latest Editor's Draft,https://github.com/whatwg/html/issues/8331,2022-09-29T07:14:02Z,2022-09-29T07:23:09Z,aldimhr,,0
+1390178846,false,"<link> base URL should use document's base URL, not document's URL",https://github.com/whatwg/html/issues/8330,2022-09-29T02:58:47Z,2022-09-29T02:58:47Z,domenic,topic: link,0
+1389909957,true,Add 'hash' attribute to elements that have a 'src' attribute in order to allow for URI independant cacheing,https://github.com/whatwg/html/issues/8329,2022-09-28T20:29:11Z,2022-09-29T02:36:49Z,schweini,,0
 1385603026,false,Is a general Script: header a good idea?,https://github.com/whatwg/html/issues/8321,2022-09-26T07:52:23Z,2022-09-26T16:11:30Z,domenic,topic: script|agenda+,0
 1384729843,false,"Standardize ""writing-mode"" for audio[controls] in UA Stylesheet",https://github.com/whatwg/html/issues/8316,2022-09-24T16:15:02Z,2022-09-27T09:24:20Z,Ahmad-S792,topic: rendering|i18n-tracker|i18n-jlreq|i18n-clreq|i18n-mlreq,0
 1382295147,true,Should location.search use the document encoding?,https://github.com/whatwg/html/issues/8308,2022-09-22T11:30:36Z,2022-09-22T15:28:59Z,annevk,normative change|topic: navigation|interop,0
-1382216046,false,IDREF attributes reflection get out of sync,https://github.com/whatwg/html/issues/8307,2022-09-22T10:28:53Z,2022-09-22T14:28:29Z,mrego,clarification|a11y-tracker,0
+1382216046,false,IDREF attributes reflection get out of sync,https://github.com/whatwg/html/issues/8307,2022-09-22T10:28:53Z,2022-09-29T05:33:27Z,mrego,clarification|a11y-tracker,0
 1381902667,false,Reflection of IDREF attributes will leave stale ID value,https://github.com/whatwg/html/issues/8306,2022-09-22T06:25:27Z,2022-09-28T05:08:15Z,rniwa,a11y-tracker,0
 1381510657,false,"Refactoring environment origin, top-level site, etc into policy container",https://github.com/whatwg/html/issues/8302,2022-09-21T21:27:11Z,2022-09-22T13:09:10Z,wanderview,topic: policy container,0
 1380722735,true,Variable `sandboxFlags` appears out of nowhere in `process a navigate fetch`,https://github.com/whatwg/html/issues/8301,2022-09-21T10:48:15Z,2022-09-21T23:56:50Z,awesomekling,,0
@@ -518,7 +521,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 958420412,true,"[COOP] Wrong type in ""queue a violation report for browsing context group switch when navigating away from a COOP response""",https://github.com/whatwg/html/issues/6925,2021-08-02T18:57:06Z,2021-08-03T19:08:38Z,cdumez,topic: cross-origin-opener-policy,0
 955141045,false,COOP: Navigations to non-initial about:blank,https://github.com/whatwg/html/issues/6913,2021-07-28T18:46:22Z,2021-08-03T08:41:30Z,cdumez,topic: cross-origin-opener-policy,0
 955051236,false,Proposal: blank worker,https://github.com/whatwg/html/issues/6911,2021-07-28T16:52:49Z,2022-01-30T04:03:33Z,wanderview,addition/proposal|needs implementer interest|topic: workers,6
-954670682,true,Proposal: Add a way to open programmatically a date picker,https://github.com/whatwg/html/issues/6909,2021-07-28T09:41:23Z,2022-03-24T17:08:22Z,beaufortfrancois,addition/proposal|needs implementer interest|topic: forms,26
+954670682,true,Proposal: Add a way to open programmatically a date picker,https://github.com/whatwg/html/issues/6909,2021-07-28T09:41:23Z,2022-03-24T17:08:22Z,beaufortfrancois,addition/proposal|needs implementer interest|topic: forms,27
 954564369,false,Add ime-mode to html input,https://github.com/whatwg/html/issues/6908,2021-07-28T07:30:15Z,2021-08-10T08:59:33Z,NagayamaToshiaki,i18n-tracker|i18n-jlreq,0
 954543780,true,Html element's start tag must not be omitted or add new ways to specify lang attribute of the html file,https://github.com/whatwg/html/issues/6907,2021-07-28T07:02:12Z,2021-07-29T06:43:39Z,NagayamaToshiaki,i18n-tracker,0
 954330262,false,"window.stop() does not cancel traversal navigations, but the stop button does",https://github.com/whatwg/html/issues/6905,2021-07-27T23:08:08Z,2021-07-27T23:08:08Z,domenic,topic: navigation|topic: history,0
@@ -2823,7 +2826,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 205167814,false,Rendering should say something about readonly and disabled form controls,https://github.com/whatwg/html/issues/2320,2017-02-03T14:12:34Z,2019-06-17T21:32:30Z,zcorpan,topic: rendering|topic: forms,0
 204752802,true,Spec import() HTML integration,https://github.com/whatwg/html/issues/2315,2017-02-02T00:57:11Z,2017-10-03T23:06:11Z,domenic,addition/proposal|topic: script,0
 204643106,true,"""If A and B are both tuple origins and their sch...""",https://github.com/whatwg/html/issues/2312,2017-02-01T17:03:49Z,2017-02-01T23:15:31Z,jeisinger,,0
-204577287,false,Provide a way to have disabled form controls to be submitted (was: readonly attribute),https://github.com/whatwg/html/issues/2311,2017-02-01T12:58:27Z,2021-10-08T02:40:30Z,ilisepe1,addition/proposal|needs implementer interest|topic: forms,13
+204577287,false,Provide a way to have disabled form controls to be submitted (was: readonly attribute),https://github.com/whatwg/html/issues/2311,2017-02-01T12:58:27Z,2021-10-08T02:40:30Z,ilisepe1,addition/proposal|needs implementer interest|topic: forms,14
 204521948,true,"Remove ""global script clean-up jobs list""",https://github.com/whatwg/html/issues/2309,2017-02-01T08:22:43Z,2017-02-02T18:53:34Z,annevk,good first issue,0
 204256532,true,Make <menuitem> parse like unknown elements,https://github.com/whatwg/html/issues/2308,2017-01-31T10:31:41Z,2017-02-14T17:31:41Z,zcorpan,topic: parser,0
 203840081,true,Is the style attribute of an element removed when its associated property declaration block becomes empty?,https://github.com/whatwg/html/issues/2306,2017-01-28T23:49:48Z,2017-01-30T12:10:23Z,emilio,,0
@@ -3084,7 +3087,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 178851078,false,"Should the contents of display:none iframes really be considered as ""being rendered""?",https://github.com/whatwg/html/issues/1813,2016-09-23T11:17:56Z,2020-09-09T09:39:20Z,bzbarsky,topic: rendering,0
 178821051,true,Should we use option's label or value to match user's input in list attribute?,https://github.com/whatwg/html/issues/1811,2016-09-23T08:56:45Z,2021-12-11T08:54:28Z,jessi3py-zz,compat|topic: forms,0
 178710781,true,"Drop a, area and frameset from the ""document-tree child browsing context name property set""?",https://github.com/whatwg/html/issues/1810,2016-09-22T20:21:42Z,2016-10-06T08:17:06Z,cdumez,,0
-178611737,false,"[Proposal] New tags <tabsection>, <tablist>, <tab>, <tabpanel>",https://github.com/whatwg/html/issues/1809,2016-09-22T13:36:32Z,2019-07-19T14:15:41Z,Mevrael,addition/proposal|needs implementer interest,14
+178611737,false,"[Proposal] New tags <tabsection>, <tablist>, <tab>, <tabpanel>",https://github.com/whatwg/html/issues/1809,2016-09-22T13:36:32Z,2019-07-19T14:15:41Z,Mevrael,addition/proposal|needs implementer interest,15
 178441326,false,Canvas 2D arcTo assumes current transform is invertible,https://github.com/whatwg/html/issues/1808,2016-09-21T19:31:01Z,2016-09-21T19:45:54Z,junov,topic: canvas,0
 178427470,true,Should accessing location.href cross-origin throw a SecurityError?,https://github.com/whatwg/html/issues/1807,2016-09-21T18:33:59Z,2016-09-26T17:15:48Z,cdumez,,0
 178382703,false,Feature request: preview thumbnail video when seeking a video,https://github.com/whatwg/html/issues/1806,2016-09-21T15:32:16Z,2016-09-21T16:12:21Z,zcorpan,addition/proposal|topic: media,1
