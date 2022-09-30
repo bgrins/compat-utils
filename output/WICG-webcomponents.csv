@@ -1,10 +1,10 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1388712403,false,Interaction between ElementInternals (e.g. default ARIA) and declarative shadow DOM,https://github.com/WICG/webcomponents/issues/972,2022-09-28T04:35:02Z,2022-09-28T04:50:31Z,rniwa,shadow-dom|custom-elements|a11y-tracker,0
+1388712403,false,Interaction between ElementInternals (e.g. default ARIA) and declarative shadow DOM,https://github.com/WICG/webcomponents/issues/972,2022-09-28T04:35:02Z,2022-09-30T03:11:23Z,rniwa,shadow-dom|custom-elements|a11y-tracker,0
 1385940722,false," without .html in link rel=""import"" and href in web component",https://github.com/WICG/webcomponents/issues/971,2022-09-26T11:50:41Z,2022-09-29T06:21:19Z,codehangen,,0
 1385361268,false,We need the ability to deregister or undefine custom elements.,https://github.com/WICG/webcomponents/issues/970,2022-09-26T03:36:37Z,2022-09-26T03:40:45Z,johngamble,,0
 1363952203,false,[scoped-registries] Interaction with HTML element's overridden constructor steps,https://github.com/WICG/webcomponents/issues/969,2022-09-07T00:49:31Z,2022-09-07T01:15:09Z,xiaochengh,,0
-1360897085,false,Easily provide the template Id to HTMLElement,https://github.com/WICG/webcomponents/issues/968,2022-09-03T16:01:49Z,2022-09-03T16:08:37Z,GabrielBB,,1
-1352835806,false,Interaction between imperative slotting and declarative shadow DOM,https://github.com/WICG/webcomponents/issues/967,2022-08-27T00:02:28Z,2022-09-28T05:28:28Z,rniwa,,0
+1360897085,false,Easily provide the template Id to HTMLElement,https://github.com/WICG/webcomponents/issues/968,2022-09-03T16:01:49Z,2022-09-03T16:08:37Z,GabrielBB,,2
+1352835806,false,Interaction between imperative slotting and declarative shadow DOM,https://github.com/WICG/webcomponents/issues/967,2022-08-27T00:02:28Z,2022-09-30T07:58:01Z,rniwa,shadow-dom,0
 1340690956,false,TPAC 2022 Web Components Meeting(s),https://github.com/WICG/webcomponents/issues/966,2022-08-16T17:53:55Z,2022-09-22T18:00:54Z,mfreed7,,3
 1326483757,true,Add getElementsByPartName() that returns live collection.,https://github.com/WICG/webcomponents/issues/964,2022-08-02T22:57:55Z,2022-08-29T17:13:38Z,bahrus,,0
 1323328954,false,[custom-elements] Why is `attributeChangedCallback` synchronous?,https://github.com/WICG/webcomponents/issues/963,2022-07-31T00:35:31Z,2022-08-30T04:04:53Z,trusktr,question,1
@@ -29,7 +29,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 989586979,false,"`distributionchange` events, and `distributedNodes()` / `distributedElements()` APIs?",https://github.com/WICG/webcomponents/issues/940,2021-09-07T04:42:57Z,2022-07-29T21:44:37Z,trusktr,,0
 971914425,false,Declarative CSS Module Scripts,https://github.com/WICG/webcomponents/issues/939,2021-08-16T16:38:36Z,2022-07-14T15:38:29Z,justinfagnani,,9
 963937161,false,slotChange event is not working on anything but the slot attribute change,https://github.com/WICG/webcomponents/issues/937,2021-08-09T12:17:23Z,2021-08-16T15:34:28Z,Kokujou,,0
-940256296,false,CSS selector to style slots with slotted elements,https://github.com/WICG/webcomponents/issues/936,2021-07-08T22:08:01Z,2022-08-01T14:22:17Z,justinfagnani,,19
+940256296,false,CSS selector to style slots with slotted elements,https://github.com/WICG/webcomponents/issues/936,2021-07-08T22:08:01Z,2022-08-01T14:22:17Z,justinfagnani,,20
 936031558,true,ignore me,https://github.com/WICG/webcomponents/issues/935,2021-07-02T19:48:25Z,2021-07-02T19:48:52Z,neatonk,,0
 934790044,false,Clarification which pseudo selectors work with `::slotted` and `::part`,https://github.com/WICG/webcomponents/issues/934,2021-07-01T12:26:01Z,2021-08-26T03:25:03Z,MendyBerger,shadow-dom|question|css,0
 930152691,false,"Options for controlling specifics of ""slotchange"" events?",https://github.com/WICG/webcomponents/issues/933,2021-06-25T12:59:40Z,2021-09-16T10:24:19Z,Westbrook,,10
@@ -67,8 +67,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 666645742,false,Allow a click on label associated with custom element to focus the custom element,https://github.com/WICG/webcomponents/issues/891,2020-07-27T23:26:00Z,2020-07-27T23:51:27Z,JanMiksovsky,,0
 665468525,true,deleted,https://github.com/WICG/webcomponents/issues/890,2020-07-24T23:35:09Z,2020-08-17T23:01:36Z,trusktr,,0
 655470072,false,Allowing CSS combinators postfixed to the ::slotted() or :host selectors,https://github.com/WICG/webcomponents/issues/889,2020-07-12T20:24:19Z,2022-07-29T21:36:04Z,trusktr,shadow-dom|needs concrete proposal|css,4
-654955462,false,[declarative-custom-elements] how would SSR work?,https://github.com/WICG/webcomponents/issues/886,2020-07-10T18:20:57Z,2020-07-10T18:20:57Z,trusktr,,1
-654943411,false,[declarative-custom-elements] shorter syntax,https://github.com/WICG/webcomponents/issues/885,2020-07-10T17:58:53Z,2021-03-22T20:26:28Z,trusktr,,6
+654955462,false,[declarative-custom-elements] how would SSR work?,https://github.com/WICG/webcomponents/issues/886,2020-07-10T18:20:57Z,2022-09-30T03:03:56Z,trusktr,,1
+654943411,false,[declarative-custom-elements] shorter syntax,https://github.com/WICG/webcomponents/issues/885,2020-07-10T17:58:53Z,2021-03-22T20:26:28Z,trusktr,,7
 654925416,false,[declarative-custom-elements] how does the class get associated with the definition,https://github.com/WICG/webcomponents/issues/884,2020-07-10T17:23:23Z,2020-07-10T18:16:19Z,trusktr,,0
 643143122,false,idea: Allow light DOM to delegate styles/behavior to shadow DOM,https://github.com/WICG/webcomponents/issues/883,2020-06-22T15:01:17Z,2020-08-05T22:59:17Z,calebdwilliams,shadow-dom|needs concrete proposal,1
 623482875,true,"> """"::slotted() should full support complex selector"""" has came up multiple time and always get closed without any solution.",https://github.com/WICG/webcomponents/issues/881,2020-05-22T21:25:20Z,2020-06-12T08:21:28Z,ghost,shadow-dom|needs-clarification|css,0

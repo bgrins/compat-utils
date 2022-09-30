@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1391534684,false,HTMLOptionsCollection length setter should specify what happens when you go over the option limit.,https://github.com/whatwg/html/issues/8337,2022-09-29T21:39:17Z,2022-09-29T23:31:45Z,emilio,topic: forms,0
+1392180603,false,Align `HTMLDialog.prototype.showModal()` focus trapping to WCAG 2.1,https://github.com/whatwg/html/issues/8339,2022-09-30T09:54:45Z,2022-09-30T12:01:34Z,koddsson,,0
+1391534684,false,HTMLOptionsCollection length setter should specify what happens when you go over the option limit.,https://github.com/whatwg/html/issues/8337,2022-09-29T21:39:17Z,2022-09-30T01:57:14Z,emilio,topic: forms,0
 1391446593,false,Link to updated reporting interface,https://github.com/whatwg/html/issues/8336,2022-09-29T20:18:41Z,2022-09-29T20:18:41Z,jyasskin,,0
 1390812834,false,Date picker access in contenteditable elements,https://github.com/whatwg/html/issues/8335,2022-09-29T12:47:01Z,2022-09-29T12:47:38Z,OvidijusParsiunas,,0
 1390400651,false,<link rel=preload> as attribute supports less than potential destination,https://github.com/whatwg/html/issues/8332,2022-09-29T07:37:28Z,2022-09-29T07:52:15Z,annevk,topic: resource hints (inc. preload),0
@@ -10,11 +11,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1384729843,false,"Standardize ""writing-mode"" for audio[controls] in UA Stylesheet",https://github.com/whatwg/html/issues/8316,2022-09-24T16:15:02Z,2022-09-27T09:24:20Z,Ahmad-S792,topic: rendering|i18n-tracker|i18n-jlreq|i18n-clreq|i18n-mlreq,0
 1382295147,true,Should location.search use the document encoding?,https://github.com/whatwg/html/issues/8308,2022-09-22T11:30:36Z,2022-09-22T15:28:59Z,annevk,normative change|topic: navigation|interop,0
 1382216046,false,IDREF attributes reflection get out of sync,https://github.com/whatwg/html/issues/8307,2022-09-22T10:28:53Z,2022-09-29T05:33:27Z,mrego,clarification|a11y-tracker,0
-1381902667,false,Reflection of IDREF attributes will leave stale ID value,https://github.com/whatwg/html/issues/8306,2022-09-22T06:25:27Z,2022-09-28T05:08:15Z,rniwa,a11y-tracker,0
+1381902667,false,Reflection of IDREF attributes will leave stale ID value,https://github.com/whatwg/html/issues/8306,2022-09-22T06:25:27Z,2022-09-30T10:28:31Z,rniwa,a11y-tracker,0
 1381510657,false,"Refactoring environment origin, top-level site, etc into policy container",https://github.com/whatwg/html/issues/8302,2022-09-21T21:27:11Z,2022-09-22T13:09:10Z,wanderview,topic: policy container,0
 1380722735,true,Variable `sandboxFlags` appears out of nowhere in `process a navigate fetch`,https://github.com/whatwg/html/issues/8301,2022-09-21T10:48:15Z,2022-09-21T23:56:50Z,awesomekling,,0
 1379338008,false,Specify non-initial about:blank as parsing synchronously,https://github.com/whatwg/html/issues/8299,2022-09-20T12:26:50Z,2022-09-20T12:26:50Z,hsivonen,,0
-1379253756,false,Download in sandboxed iframe,https://github.com/whatwg/html/issues/8298,2022-09-20T11:23:02Z,2022-09-20T11:23:02Z,Seppe-d,,0
+1379253756,true,Download in sandboxed iframe,https://github.com/whatwg/html/issues/8298,2022-09-20T11:23:02Z,2022-09-30T06:30:37Z,Seppe-d,,0
 1379074836,false,Last-Event-ID response if unavailable,https://github.com/whatwg/html/issues/8297,2022-09-20T09:07:51Z,2022-09-20T09:07:51Z,Tieske,,0
 1378099227,false,Define color space for interpolation interface for canvas gradients,https://github.com/whatwg/html/issues/8296,2022-09-19T14:59:49Z,2022-09-20T01:55:06Z,mysteryDate,topic: canvas,0
 1377764311,false,The `shared attribute processing steps for iframe and frame elements` may invoke `iframe load event steps` on frame element,https://github.com/whatwg/html/issues/8295,2022-09-19T10:51:36Z,2022-09-27T11:12:19Z,awesomekling,topic: events|topic: browsing context,0
@@ -1846,7 +1847,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 369246393,false,Need spec for layout of ::before/::after pseudos on form controls,https://github.com/whatwg/html/issues/4086,2018-10-11T18:21:10Z,2019-03-30T14:06:42Z,MatsPalmgren,topic: rendering|topic: forms,0
 368710417,true,Default 'display' value for form controls,https://github.com/whatwg/html/issues/4082,2018-10-10T15:01:27Z,2021-09-16T21:13:21Z,zcorpan,topic: rendering|topic: forms|interop,0
 368615563,true,Rendering rules for buttons,https://github.com/whatwg/html/issues/4081,2018-10-10T11:15:02Z,2019-05-14T13:52:18Z,zcorpan,topic: rendering|topic: forms,1
-368468380,true,Windows opened via <a target=_blank> should not have an opener by default,https://github.com/whatwg/html/issues/4078,2018-10-10T02:24:53Z,2019-02-07T12:24:42Z,cdumez,addition/proposal|topic: browsing context|impacts documentation,103
+368468380,true,Windows opened via <a target=_blank> should not have an opener by default,https://github.com/whatwg/html/issues/4078,2018-10-10T02:24:53Z,2019-02-07T12:24:42Z,cdumez,addition/proposal|topic: browsing context|impacts documentation,105
 368463583,true,"""the error attribute initialized to null""",https://github.com/whatwg/html/issues/4077,2018-10-10T01:57:03Z,2018-10-10T03:19:15Z,yukidmy,,0
 367974334,true,editorial issues with Canvas TextMetrics,https://github.com/whatwg/html/issues/4073,2018-10-08T22:27:03Z,2020-06-29T07:02:13Z,dbaron,topic: canvas,0
 367974322,false,canvas TextMetrics APIs should define rounding better,https://github.com/whatwg/html/issues/4072,2018-10-08T22:27:00Z,2021-04-28T14:07:55Z,dbaron,topic: canvas,0
@@ -2461,7 +2462,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 254541543,true,"Add a ""modern"" parsing API",https://github.com/whatwg/html/issues/2993,2017-09-01T05:43:06Z,2021-03-17T10:04:52Z,dominiccooney,topic: parser,4
 254503272,true,Scoped Web History API,https://github.com/whatwg/html/issues/2992,2017-09-01T00:17:30Z,2021-02-02T18:14:20Z,dvoytenko,topic: history,0
 254472904,false,HTMLImageElement.decode() is not clear about what frame the animated image will tie its completion with resolving the returned promise,https://github.com/whatwg/html/issues/2990,2017-08-31T21:26:19Z,2017-10-04T23:54:50Z,shallawa,topic: img,0
-254236680,false,What's the status of <option label> in cross-browser age?,https://github.com/whatwg/html/issues/2988,2017-08-31T07:09:56Z,2022-09-08T08:03:50Z,saschanaz,topic: forms|interop,0
+254236680,false,What's the status of <option label> in cross-browser age?,https://github.com/whatwg/html/issues/2988,2017-08-31T07:09:56Z,2022-09-30T11:23:57Z,saschanaz,topic: forms|interop,0
 254064387,true,Session history indexing is broken,https://github.com/whatwg/html/issues/2985,2017-08-30T16:41:32Z,2020-07-22T15:30:49Z,bzbarsky,topic: history,0
 253970941,true,rel=noopener for <form> and <base> elements,https://github.com/whatwg/html/issues/2983,2017-08-30T11:51:03Z,2019-02-14T13:25:08Z,ondras,addition/proposal|topic: browsing context|impacts documentation,7
 253894410,false,Can we use HTMLMediaElement or equivalent object without a document?,https://github.com/whatwg/html/issues/2981,2017-08-30T06:44:57Z,2017-09-05T16:28:14Z,guest271314,topic: media,0
