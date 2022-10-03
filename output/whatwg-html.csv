@@ -1,8 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1393739571,false,"Typo in section ""4.8.13 The area element""",https://github.com/whatwg/html/issues/8346,2022-10-02T11:55:31Z,2022-10-02T23:16:33Z,chalkygames123,good first issue,0
 1392819673,false,Upcoming HTML standard issue triage meeting on 10/13/2022,https://github.com/whatwg/html/issues/8341,2022-09-30T18:38:43Z,2022-09-30T20:28:11Z,past,agenda+,0
-1392531918,false,Inclusion criteria for the events index,https://github.com/whatwg/html/issues/8340,2022-09-30T14:31:10Z,2022-09-30T14:31:10Z,tidoust,,0
-1392180603,false,Align `HTMLDialog.prototype.showModal()` focus trapping to WCAG 2.1,https://github.com/whatwg/html/issues/8339,2022-09-30T09:54:45Z,2022-09-30T12:01:34Z,koddsson,,0
+1392531918,false,Inclusion criteria for the events index,https://github.com/whatwg/html/issues/8340,2022-09-30T14:31:10Z,2022-10-03T04:03:11Z,tidoust,clarification|topic: events,0
+1392180603,false,"Allow modal dialogs to trap focus, avoiding tabbing to the URL bar",https://github.com/whatwg/html/issues/8339,2022-09-30T09:54:45Z,2022-10-03T00:41:32Z,koddsson,normative change|needs implementer interest|a11y-tracker|topic: dialog,0
 1391534684,false,HTMLOptionsCollection length setter should specify what happens when you go over the option limit.,https://github.com/whatwg/html/issues/8337,2022-09-29T21:39:17Z,2022-10-02T16:39:03Z,emilio,topic: forms,0
 1391446593,false,Link to updated reporting interface,https://github.com/whatwg/html/issues/8336,2022-09-29T20:18:41Z,2022-09-29T20:18:41Z,jyasskin,,0
 1390812834,false,Date picker access in contenteditable elements,https://github.com/whatwg/html/issues/8335,2022-09-29T12:47:01Z,2022-09-29T12:47:38Z,OvidijusParsiunas,,0
@@ -14,7 +14,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1384729843,false,"Standardize ""writing-mode"" for audio[controls] in UA Stylesheet",https://github.com/whatwg/html/issues/8316,2022-09-24T16:15:02Z,2022-09-27T09:24:20Z,Ahmad-S792,topic: rendering|i18n-tracker|i18n-jlreq|i18n-clreq|i18n-mlreq,0
 1382295147,true,Should location.search use the document encoding?,https://github.com/whatwg/html/issues/8308,2022-09-22T11:30:36Z,2022-09-22T15:28:59Z,annevk,normative change|topic: navigation|interop,0
 1382216046,false,IDREF attributes reflection get out of sync,https://github.com/whatwg/html/issues/8307,2022-09-22T10:28:53Z,2022-09-29T05:33:27Z,mrego,clarification|a11y-tracker,0
-1381902667,false,Reflection of IDREF attributes will leave stale ID value,https://github.com/whatwg/html/issues/8306,2022-09-22T06:25:27Z,2022-09-30T10:28:31Z,rniwa,a11y-tracker,0
+1381902667,false,Reflection of IDREF attributes will leave stale ID value,https://github.com/whatwg/html/issues/8306,2022-09-22T06:25:27Z,2022-10-03T06:59:01Z,rniwa,a11y-tracker,0
 1381510657,false,"Refactoring environment origin, top-level site, etc into policy container",https://github.com/whatwg/html/issues/8302,2022-09-21T21:27:11Z,2022-09-22T13:09:10Z,wanderview,topic: policy container,0
 1380722735,true,Variable `sandboxFlags` appears out of nowhere in `process a navigate fetch`,https://github.com/whatwg/html/issues/8301,2022-09-21T10:48:15Z,2022-09-21T23:56:50Z,awesomekling,,0
 1379338008,false,Specify non-initial about:blank as parsing synchronously,https://github.com/whatwg/html/issues/8299,2022-09-20T12:26:50Z,2022-09-20T12:26:50Z,hsivonen,,0
@@ -2519,7 +2519,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 247551973,true,State of SharedWorker?,https://github.com/whatwg/html/issues/2887,2017-08-02T23:30:37Z,2017-08-03T06:50:27Z,cesarandreu,,0
 247533378,true,Indicate that style sheets can conditionally block scripts on the media attribute value,https://github.com/whatwg/html/issues/2886,2017-08-02T21:51:41Z,2018-01-12T08:19:09Z,domfarolino,topic: style,0
 247324313,false,Should 'ended' be fired before 'seeked' when seeking to the end of the resource?,https://github.com/whatwg/html/issues/2885,2017-08-02T09:19:31Z,2017-08-03T02:11:37Z,jwwang,topic: media,0
-247260739,false,Fallback base URL for detached IFRAME documents,https://github.com/whatwg/html/issues/2883,2017-08-02T03:09:52Z,2017-08-02T12:14:33Z,tkent-google,interop,0
+247260739,false,Fallback base URL for detached IFRAME documents,https://github.com/whatwg/html/issues/2883,2017-08-02T03:09:52Z,2022-10-03T00:49:46Z,tkent-google,interop|topic: browsing context,0
 247246001,false,"Remove ""await a stable state""?",https://github.com/whatwg/html/issues/2882,2017-08-02T01:17:35Z,2022-04-25T15:34:54Z,domenic,clarification|topic: event loop,1
 246933087,true,"Remove ""abort these steps"" wording",https://github.com/whatwg/html/issues/2878,2017-08-01T01:53:07Z,2018-01-09T11:22:37Z,domenic,clarification|good first issue,0
 246865883,false,"Parse A Srcset Attribute algorithm should return a set of image sources, not a source set",https://github.com/whatwg/html/issues/2877,2017-07-31T19:56:49Z,2017-07-31T20:00:56Z,jdm,clarification|topic: img,0
@@ -3750,7 +3750,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 123155983,true,Add instructions to TEAM.md how to review remote branches,https://github.com/whatwg/html/issues/434,2015-12-20T11:41:30Z,2016-01-04T17:13:41Z,annevk,spec tooling,0
 123108509,true,time element content model contains contradiction v. body text,https://github.com/whatwg/html/issues/426,2015-12-19T20:15:03Z,2015-12-28T21:19:25Z,gsnedders,good first issue,0
 122994147,true,Consider removing special cancellation behaviour for event handlers,https://github.com/whatwg/html/issues/423,2015-12-18T17:40:20Z,2018-11-18T14:24:42Z,jdm,normative change|compat|topic: events,0
-122952457,false,Iframes should inherit the base URL of the parent document in some cases,https://github.com/whatwg/html/issues/421,2015-12-18T13:52:55Z,2022-09-30T18:34:46Z,foolip,normative change|topic: navigation|interop,0
+122952457,false,Iframes should inherit the base URL of the parent document in some cases,https://github.com/whatwg/html/issues/421,2015-12-18T13:52:55Z,2022-10-03T00:49:54Z,foolip,normative change|topic: navigation|interop|topic: browsing context,0
 122841895,true,error event on <source> missing in media event summary,https://github.com/whatwg/html/issues/420,2015-12-17T23:01:19Z,2015-12-21T10:36:57Z,zcorpan,clarification|good first issue,0
 122733147,true,It is unclear why img element's srcset handling depends on is-in-document state,https://github.com/whatwg/html/issues/416,2015-12-17T13:18:53Z,2016-01-19T14:25:15Z,smaug----,,0
 122647042,true,"""If the img element does not have a srcset attribute specified and it either has no parent or it is not a picture element, it is not in a Document, has image data whose resource type is multipart/x-mixed-replace, or the pending request is not null, then abort this algorithm."" is ambiguous",https://github.com/whatwg/html/issues/414,2015-12-17T02:23:00Z,2015-12-17T13:09:05Z,smaug----,,0
