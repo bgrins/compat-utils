@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1393739571,false,"Typo in section ""4.8.13 The area element""",https://github.com/whatwg/html/issues/8346,2022-10-02T11:55:31Z,2022-10-02T23:16:33Z,chalkygames123,good first issue,0
 1392819673,false,Upcoming HTML standard issue triage meeting on 10/13/2022,https://github.com/whatwg/html/issues/8341,2022-09-30T18:38:43Z,2022-09-30T20:28:11Z,past,agenda+,0
-1392531918,false,Inclusion criteria for the events index,https://github.com/whatwg/html/issues/8340,2022-09-30T14:31:10Z,2022-10-03T04:03:11Z,tidoust,clarification|topic: events,0
+1392531918,false,Inclusion criteria for the events index,https://github.com/whatwg/html/issues/8340,2022-09-30T14:31:10Z,2022-10-04T07:47:03Z,tidoust,clarification|topic: events,0
 1392180603,false,"Allow modal dialogs to trap focus, avoiding tabbing to the URL bar",https://github.com/whatwg/html/issues/8339,2022-09-30T09:54:45Z,2022-10-03T14:37:11Z,koddsson,normative change|needs implementer interest|a11y-tracker|topic: dialog,0
 1391534684,false,HTMLOptionsCollection length setter should specify what happens when you go over the option limit.,https://github.com/whatwg/html/issues/8337,2022-09-29T21:39:17Z,2022-10-03T21:00:07Z,emilio,topic: forms,0
 1391446593,false,Link to updated reporting interface,https://github.com/whatwg/html/issues/8336,2022-09-29T20:18:41Z,2022-09-29T20:18:41Z,jyasskin,,0
@@ -13,8 +13,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1385603026,false,Is a general Script: header a good idea?,https://github.com/whatwg/html/issues/8321,2022-09-26T07:52:23Z,2022-09-30T18:30:21Z,domenic,topic: script,0
 1384729843,false,"Standardize ""writing-mode"" for audio[controls] in UA Stylesheet",https://github.com/whatwg/html/issues/8316,2022-09-24T16:15:02Z,2022-09-27T09:24:20Z,Ahmad-S792,topic: rendering|i18n-tracker|i18n-jlreq|i18n-clreq|i18n-mlreq,0
 1382295147,true,Should location.search use the document encoding?,https://github.com/whatwg/html/issues/8308,2022-09-22T11:30:36Z,2022-09-22T15:28:59Z,annevk,normative change|topic: navigation|interop,0
-1382216046,false,IDREF attributes reflection get out of sync,https://github.com/whatwg/html/issues/8307,2022-09-22T10:28:53Z,2022-09-29T05:33:27Z,mrego,clarification|a11y-tracker,0
-1381902667,false,Reflection of IDREF attributes will leave stale ID value,https://github.com/whatwg/html/issues/8306,2022-09-22T06:25:27Z,2022-10-03T06:59:01Z,rniwa,a11y-tracker,0
+1382216046,true,IDREF attributes reflection get out of sync,https://github.com/whatwg/html/issues/8307,2022-09-22T10:28:53Z,2022-10-04T05:18:47Z,mrego,clarification|a11y-tracker,0
+1381902667,false,Reflection of IDREF attributes will leave stale ID value,https://github.com/whatwg/html/issues/8306,2022-09-22T06:25:27Z,2022-10-04T07:05:38Z,rniwa,a11y-tracker,0
 1381510657,false,"Refactoring environment origin, top-level site, etc into policy container",https://github.com/whatwg/html/issues/8302,2022-09-21T21:27:11Z,2022-09-22T13:09:10Z,wanderview,topic: policy container,0
 1380722735,true,Variable `sandboxFlags` appears out of nowhere in `process a navigate fetch`,https://github.com/whatwg/html/issues/8301,2022-09-21T10:48:15Z,2022-09-21T23:56:50Z,awesomekling,,0
 1379338008,false,Specify non-initial about:blank as parsing synchronously,https://github.com/whatwg/html/issues/8299,2022-09-20T12:26:50Z,2022-09-20T12:26:50Z,hsivonen,,0
@@ -31,7 +31,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1369257900,false,"For attributes which can contain a mix of languages, provide markup for language of parts",https://github.com/whatwg/html/issues/8280,2022-09-12T04:22:54Z,2022-09-21T15:20:31Z,ChasBelov,i18n-tracker,0
 1369238834,false,Support language of parts for portions of the title tag contents,https://github.com/whatwg/html/issues/8279,2022-09-12T03:56:34Z,2022-09-21T15:32:13Z,ChasBelov,,0
 1368685191,false,Optionality of history.pushState/replaceState’s unused argument,https://github.com/whatwg/html/issues/8278,2022-09-10T17:33:31Z,2022-09-30T17:39:37Z,bathos,normative change|needs implementer interest|topic: history,2
-1368315820,false,"Intersection observer and mark paint timing steps should run after (or during) ""update the rendering"", not before.",https://github.com/whatwg/html/issues/8277,2022-09-09T20:53:22Z,2022-09-30T18:30:46Z,emilio,topic: rendering|interop,0
+1368315820,true,"Intersection observer and mark paint timing steps should run after (or during) ""update the rendering"", not before.",https://github.com/whatwg/html/issues/8277,2022-09-09T20:53:22Z,2022-10-04T06:09:02Z,emilio,topic: rendering|interop,0
 1366997910,false,Ordering for Worker termination and Atomics.waitAsync promises,https://github.com/whatwg/html/issues/8276,2022-09-08T21:16:55Z,2022-09-10T22:08:33Z,syg,,0
 1366393164,false,"Why is rel=""canonical"" forbidden on a?",https://github.com/whatwg/html/issues/8274,2022-09-08T13:58:09Z,2022-09-08T13:59:41Z,brennanyoung,,1
 1366002306,false,Iframe session history for JS-created iframes,https://github.com/whatwg/html/issues/8273,2022-09-08T10:30:09Z,2022-09-10T01:47:12Z,jakearchibald,topic: navigation|topic: history,0
@@ -88,7 +88,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1315210946,false,Discuss WebGPU integration issues,https://github.com/whatwg/html/issues/8123,2022-07-22T16:34:13Z,2022-08-29T11:01:46Z,fserb,topic: canvas,0
 1313777312,false,Suggestion: You should be able to load module-scripts in the `file://` protocol.,https://github.com/whatwg/html/issues/8121,2022-07-21T20:40:22Z,2022-08-22T23:27:46Z,CalinZBaenen,,0
 1312599763,false,"Proposal: keep the previous page as a ""menu""",https://github.com/whatwg/html/issues/8119,2022-07-21T04:57:07Z,2022-07-21T04:57:07Z,markmiro,,0
-1311631285,false,"Behavior of createImageBitmap with { imageOrientation: ""flipY"" } is unclear",https://github.com/whatwg/html/issues/8118,2022-07-20T18:08:57Z,2022-10-03T22:31:38Z,junov,topic: canvas,0
+1311631285,false,"Behavior of createImageBitmap with { imageOrientation: ""flipY"" } is unclear",https://github.com/whatwg/html/issues/8118,2022-07-20T18:08:57Z,2022-10-04T08:57:52Z,junov,topic: canvas,0
 1308221885,false,HTML needs a mechaism for extending the parsing algorithm,https://github.com/whatwg/html/issues/8114,2022-07-18T16:41:40Z,2022-09-13T08:39:00Z,plinss,addition/proposal|topic: parser,1
 1307202154,true,"Undeclared ""destination"" in ""fetch an external module script graph""",https://github.com/whatwg/html/issues/8110,2022-07-17T20:32:12Z,2022-08-09T07:29:03Z,nicolo-ribaudo,,1
 1306404648,false,'process a navigate fetch' doesn't load anything ever?,https://github.com/whatwg/html/issues/8108,2022-07-15T19:23:21Z,2022-07-21T06:47:34Z,smaug----,topic: navigation,0
@@ -143,7 +143,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1269261848,true,"interop: Trailing whitespace in h1/h2/.. is removed in chrome, but not firefox",https://github.com/whatwg/html/issues/8003,2022-06-13T10:55:31Z,2022-06-13T19:04:39Z,untitaker,,0
 1268976298,false,How to interpretate 5.1 step of the run steps after a timeout,https://github.com/whatwg/html/issues/8002,2022-06-13T06:39:27Z,2022-06-24T11:31:44Z,dSalieri,,0
 1267889681,true,Add support for WebAuthn's Conditional Mediation / Integration with autocomplete,https://github.com/whatwg/html/issues/7999,2022-06-10T18:41:40Z,2022-06-16T18:49:14Z,nsatragno,,0
-1266607966,false,Editorial cleanups to fetching scripts,https://github.com/whatwg/html/issues/7996,2022-06-09T20:16:26Z,2022-09-27T18:00:25Z,domenic,clarification|topic: script,0
+1266607966,false,Editorial cleanups to fetching scripts,https://github.com/whatwg/html/issues/7996,2022-06-09T20:16:26Z,2022-10-04T06:50:16Z,domenic,clarification|topic: script,0
 1265078307,true,Proposal: Element.computedLang,https://github.com/whatwg/html/issues/7994,2022-06-08T17:30:20Z,2022-06-08T18:58:25Z,nuxodin,,0
 1264920375,false,focus-visible styles do not match browsers.,https://github.com/whatwg/html/issues/7993,2022-06-08T15:19:08Z,2022-06-16T09:48:44Z,emilio,topic: rendering|interop|topic: focus,0
 1260339677,false,Declarative <script> behavior,https://github.com/whatwg/html/issues/7986,2022-06-03T20:21:36Z,2022-06-07T21:39:30Z,jeremyroman,topic: script,0
@@ -687,7 +687,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 836945300,true,Output element value/defaultValue/reset() is not interoperable,https://github.com/whatwg/html/issues/6516,2021-03-20T23:44:59Z,2021-05-18T15:41:54Z,domenic,topic: forms|interop,1
 836327679,false,Having both incumbentNavigationOrigin and the source browsing context's active document's origin seems bad,https://github.com/whatwg/html/issues/6514,2021-03-19T20:18:46Z,2021-04-02T22:25:42Z,domenic,topic: navigation|security/privacy,2
 835244786,true,"""is a registrable domain suffix of or is equal to"" seems pretty broken",https://github.com/whatwg/html/issues/6509,2021-03-18T20:47:32Z,2021-07-21T09:22:32Z,domenic,,0
-834378480,false,"<mirror> element, like <slot>, but not limited to ShadowDOM, elements from anywhere can be assigned to it",https://github.com/whatwg/html/issues/6507,2021-03-18T04:27:23Z,2021-03-24T07:33:08Z,trusktr,,0
+834378480,false,"<mirror> element, like <slot>, but not limited to ShadowDOM, elements from anywhere can be assigned to it",https://github.com/whatwg/html/issues/6507,2021-03-18T04:27:23Z,2022-10-04T11:43:26Z,trusktr,,1
 833751434,false,Consider standardizing default padding / border sizes of unthemed input/button/select,https://github.com/whatwg/html/issues/6505,2021-03-17T13:09:14Z,2021-03-17T23:01:13Z,emilio,topic: rendering|topic: forms|interop,0
 833623350,true,"Allow div elements in h1, h2, h3, h4, h5, h6 elements",https://github.com/whatwg/html/issues/6503,2021-03-17T10:28:20Z,2021-04-12T14:44:59Z,anneke,,0
 833238054,false,A new mode for iframes where they don't add to the joint session history?,https://github.com/whatwg/html/issues/6501,2021-03-16T22:15:48Z,2022-03-16T19:20:28Z,domenic,addition/proposal|topic: navigation|topic: history,0
@@ -1387,7 +1387,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 497040604,false,Define a policy container,https://github.com/whatwg/html/issues/4926,2019-09-23T11:28:43Z,2021-05-21T10:44:17Z,annevk,clarification|needs tests|interop|integration|topic: policy container,6
 496594293,true,Design questions about IDREF/Element attribute reflection,https://github.com/whatwg/html/issues/4925,2019-09-21T00:49:20Z,2022-06-30T08:19:53Z,alice,accessibility,0
 496188244,true,COEP mismatches in dedicated workers should block.,https://github.com/whatwg/html/issues/4924,2019-09-20T07:14:14Z,2020-04-20T09:12:18Z,mikewest,topic: cross-origin-embedder-policy,0
-495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2022-08-22T15:15:08Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,102
+495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2022-08-22T15:15:08Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,103
 495810632,false,Allow an extra dimension to the size array for 3D favicon,https://github.com/whatwg/html/issues/4922,2019-09-19T13:46:29Z,2021-01-28T22:05:11Z,rcabanier,addition/proposal|needs implementer interest|topic: link,0
 495595729,true,Decide how to treat CSP sandbox in COOP,https://github.com/whatwg/html/issues/4921,2019-09-19T06:18:06Z,2020-06-24T17:33:26Z,shhnjk,security/privacy|topic: cross-origin-opener-policy,0
 495587240,true,Consider restricting SharedArrayBuffer to same-origin usage,https://github.com/whatwg/html/issues/4920,2019-09-19T05:50:59Z,2019-12-05T15:38:02Z,annevk,addition/proposal|topic: serialize and transfer,0
@@ -1471,7 +1471,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 471167003,false,"We should probably reinstate HTMLDocument, with a named getter, in the spec",https://github.com/whatwg/html/issues/4792,2019-07-22T16:05:41Z,2020-01-10T16:44:06Z,bzbarsky,,1
 470122528,true,Autofocus element in a <dialog> tries to get focus twice,https://github.com/whatwg/html/issues/4788,2019-07-19T03:41:41Z,2019-11-07T18:58:14Z,tkent-google,topic: focus,0
 469784910,false,Declarative WebWorker?,https://github.com/whatwg/html/issues/4786,2019-07-18T13:56:24Z,2020-04-30T12:07:13Z,fserb,addition/proposal|needs implementer interest|topic: workers,0
-469474452,false,[Proposal] ImageBitmap.getImageData,https://github.com/whatwg/html/issues/4785,2019-07-17T22:19:01Z,2022-07-26T07:08:53Z,dsanders11,addition/proposal|needs implementer interest|topic: canvas,16
+469474452,false,[Proposal] ImageBitmap.getImageData,https://github.com/whatwg/html/issues/4785,2019-07-17T22:19:01Z,2022-07-26T07:08:53Z,dsanders11,addition/proposal|needs implementer interest|topic: canvas,17
 469436105,false,Implement proposed Focus Traversal API,https://github.com/whatwg/html/issues/4784,2019-07-17T20:44:51Z,2019-09-19T06:02:37Z,arei,addition/proposal|needs implementer interest|topic: focus,0
 469368865,false,Initializing Feature Policy is racy,https://github.com/whatwg/html/issues/4783,2019-07-17T18:10:30Z,2019-07-18T19:20:49Z,dtapuska,topic: navigation|topic: browsing context|integration,0
 469173271,false,"User agents, session history, browsing contexts, and agent clusters",https://github.com/whatwg/html/issues/4782,2019-07-17T12:48:01Z,2021-09-14T13:18:32Z,annevk,topic: history|topic: browsing context|topic: agent,0
@@ -2465,7 +2465,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 254541543,true,"Add a ""modern"" parsing API",https://github.com/whatwg/html/issues/2993,2017-09-01T05:43:06Z,2021-03-17T10:04:52Z,dominiccooney,topic: parser,4
 254503272,true,Scoped Web History API,https://github.com/whatwg/html/issues/2992,2017-09-01T00:17:30Z,2021-02-02T18:14:20Z,dvoytenko,topic: history,0
 254472904,false,HTMLImageElement.decode() is not clear about what frame the animated image will tie its completion with resolving the returned promise,https://github.com/whatwg/html/issues/2990,2017-08-31T21:26:19Z,2017-10-04T23:54:50Z,shallawa,topic: img,0
-254236680,false,What's the status of <option label> in cross-browser age?,https://github.com/whatwg/html/issues/2988,2017-08-31T07:09:56Z,2022-09-30T11:23:57Z,saschanaz,topic: forms|interop,0
+254236680,false,What's the status of <option label> in cross-browser age?,https://github.com/whatwg/html/issues/2988,2017-08-31T07:09:56Z,2022-10-04T02:51:55Z,saschanaz,topic: forms|interop,0
 254064387,true,Session history indexing is broken,https://github.com/whatwg/html/issues/2985,2017-08-30T16:41:32Z,2020-07-22T15:30:49Z,bzbarsky,topic: history,0
 253970941,true,rel=noopener for <form> and <base> elements,https://github.com/whatwg/html/issues/2983,2017-08-30T11:51:03Z,2019-02-14T13:25:08Z,ondras,addition/proposal|topic: browsing context|impacts documentation,7
 253894410,false,Can we use HTMLMediaElement or equivalent object without a document?,https://github.com/whatwg/html/issues/2981,2017-08-30T06:44:57Z,2017-09-05T16:28:14Z,guest271314,topic: media,0
@@ -2609,7 +2609,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 232779665,false,Default rendering of <hr>: 'color',https://github.com/whatwg/html/issues/2727,2017-06-01T06:40:03Z,2017-06-01T12:22:24Z,zcorpan,topic: rendering|interop,0
 232612734,false,Define interaction of keyboard and activation more clearly,https://github.com/whatwg/html/issues/2725,2017-05-31T15:53:40Z,2017-06-02T12:04:58Z,bzbarsky,topic: events,1
 232471163,true,More consistently fire 'error' event if URL fails to parse,https://github.com/whatwg/html/issues/2723,2017-05-31T06:57:04Z,2017-05-31T16:46:04Z,zcorpan,addition/proposal|topic: events,0
-232420981,false,Attribute to suggest filename for image elements (<img filename> / <img download>),https://github.com/whatwg/html/issues/2722,2017-05-31T00:34:55Z,2022-08-15T15:46:14Z,JosephPecoraro,addition/proposal|topic: img|needs concrete proposal,43
+232420981,false,Attribute to suggest filename for image elements (<img filename> / <img download>),https://github.com/whatwg/html/issues/2722,2017-05-31T00:34:55Z,2022-10-04T08:23:21Z,JosephPecoraro,addition/proposal|topic: img|needs concrete proposal,43
 232372960,true,Should “Naming form controls” section include a warning about names overriding form properties?,https://github.com/whatwg/html/issues/2720,2017-05-30T20:32:00Z,2018-03-08T03:31:01Z,simevidas,clarification|good first issue|topic: forms,1
 232284236,false,A new attribute to allow limited multiple selections (select and input checkbox),https://github.com/whatwg/html/issues/2719,2017-05-30T15:05:14Z,2017-05-30T18:53:23Z,SpyroTEQ,addition/proposal|needs implementer interest|topic: forms,0
 232235949,false,textarea cols and rows IDL attributes,https://github.com/whatwg/html/issues/2717,2017-05-30T12:26:46Z,2017-06-19T06:35:18Z,zcorpan,topic: forms|interop,0
@@ -3067,7 +3067,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 181241244,false,Single source theme-color values,https://github.com/whatwg/html/issues/1868,2016-10-05T19:15:46Z,2016-10-06T10:22:00Z,kevinSuttle,addition/proposal,0
 181168654,false,"Does the ""script-closable"" definition match reality?",https://github.com/whatwg/html/issues/1866,2016-10-05T14:19:38Z,2022-03-04T22:23:05Z,bzbarsky,compat|topic: browsing context,0
 181138484,true,Meta: commit snapshots server config,https://github.com/whatwg/html/issues/1865,2016-10-05T12:24:45Z,2016-10-06T08:15:28Z,annevk,,0
-181118560,true,Should Symbols be supported in StructuredClone?,https://github.com/whatwg/html/issues/1862,2016-10-05T10:35:13Z,2019-01-02T18:51:10Z,KiChjang,addition/proposal|topic: serialize and transfer,0
+181118560,true,Should Symbols be supported in StructuredClone?,https://github.com/whatwg/html/issues/1862,2016-10-05T10:35:13Z,2019-01-02T18:51:10Z,KiChjang,addition/proposal|topic: serialize and transfer,1
 181090554,false,Define order of the items in DataTranfer's types attribute,https://github.com/whatwg/html/issues/1861,2016-10-05T08:15:52Z,2018-01-22T12:32:28Z,zcorpan,topic: drag and drop,0
 180917864,true,Fetch steps for <link> don't specify destination or type,https://github.com/whatwg/html/issues/1856,2016-10-04T14:59:33Z,2017-09-04T11:15:03Z,jdm,topic: fetch|topic: link,0
 180785338,true,Non-normative note about disabled controls disallows selection,https://github.com/whatwg/html/issues/1852,2016-10-04T01:16:13Z,2016-10-12T17:22:52Z,domenic,clarification|topic: forms,2
@@ -3750,7 +3750,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 123155983,true,Add instructions to TEAM.md how to review remote branches,https://github.com/whatwg/html/issues/434,2015-12-20T11:41:30Z,2016-01-04T17:13:41Z,annevk,spec tooling,0
 123108509,true,time element content model contains contradiction v. body text,https://github.com/whatwg/html/issues/426,2015-12-19T20:15:03Z,2015-12-28T21:19:25Z,gsnedders,good first issue,0
 122994147,true,Consider removing special cancellation behaviour for event handlers,https://github.com/whatwg/html/issues/423,2015-12-18T17:40:20Z,2018-11-18T14:24:42Z,jdm,normative change|compat|topic: events,0
-122952457,false,Iframes should inherit the base URL of the parent document in some cases,https://github.com/whatwg/html/issues/421,2015-12-18T13:52:55Z,2022-10-03T00:49:54Z,foolip,normative change|topic: navigation|interop|topic: browsing context,0
+122952457,false,Iframes should inherit the base URL of the parent document in some cases,https://github.com/whatwg/html/issues/421,2015-12-18T13:52:55Z,2022-10-04T04:44:39Z,foolip,normative change|topic: navigation|interop|topic: browsing context,0
 122841895,true,error event on <source> missing in media event summary,https://github.com/whatwg/html/issues/420,2015-12-17T23:01:19Z,2015-12-21T10:36:57Z,zcorpan,clarification|good first issue,0
 122733147,true,It is unclear why img element's srcset handling depends on is-in-document state,https://github.com/whatwg/html/issues/416,2015-12-17T13:18:53Z,2016-01-19T14:25:15Z,smaug----,,0
 122647042,true,"""If the img element does not have a srcset attribute specified and it either has no parent or it is not a picture element, it is not in a Document, has image data whose resource type is multipart/x-mixed-replace, or the pending request is not null, then abort this algorithm."" is ambiguous",https://github.com/whatwg/html/issues/414,2015-12-17T02:23:00Z,2015-12-17T13:09:05Z,smaug----,,0
