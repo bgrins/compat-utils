@@ -1,10 +1,10 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1388712403,false,Interaction between ElementInternals (e.g. default ARIA) and declarative shadow DOM,https://github.com/WICG/webcomponents/issues/972,2022-09-28T04:35:02Z,2022-10-05T05:21:47Z,rniwa,shadow-dom|custom-elements|a11y-tracker,0
+1388712403,false,Interaction between ElementInternals (e.g. default ARIA) and declarative shadow DOM,https://github.com/WICG/webcomponents/issues/972,2022-09-28T04:35:02Z,2022-10-05T05:21:47Z,rniwa,shadow-dom|custom-elements|a11y-tracker,1
 1385940722,false," without .html in link rel=""import"" and href in web component",https://github.com/WICG/webcomponents/issues/971,2022-09-26T11:50:41Z,2022-09-29T06:21:19Z,codehangen,,0
 1385361268,false,We need the ability to deregister or undefine custom elements.,https://github.com/WICG/webcomponents/issues/970,2022-09-26T03:36:37Z,2022-09-26T03:40:45Z,johngamble,,0
 1363952203,false,[scoped-registries] Interaction with HTML element's overridden constructor steps,https://github.com/WICG/webcomponents/issues/969,2022-09-07T00:49:31Z,2022-09-07T01:15:09Z,xiaochengh,,0
 1360897085,false,Easily provide the template Id to HTMLElement,https://github.com/WICG/webcomponents/issues/968,2022-09-03T16:01:49Z,2022-09-03T16:08:37Z,GabrielBB,,2
-1352835806,false,Interaction between imperative slotting and declarative shadow DOM,https://github.com/WICG/webcomponents/issues/967,2022-08-27T00:02:28Z,2022-10-05T08:24:04Z,rniwa,shadow-dom,0
+1352835806,false,Interaction between imperative slotting and declarative shadow DOM,https://github.com/WICG/webcomponents/issues/967,2022-08-27T00:02:28Z,2022-10-05T17:29:07Z,rniwa,shadow-dom,0
 1340690956,false,TPAC 2022 Web Components Meeting(s),https://github.com/WICG/webcomponents/issues/966,2022-08-16T17:53:55Z,2022-09-22T18:00:54Z,mfreed7,,3
 1326483757,true,Add getElementsByPartName() that returns live collection.,https://github.com/WICG/webcomponents/issues/964,2022-08-02T22:57:55Z,2022-08-29T17:13:38Z,bahrus,,0
 1323328954,false,[custom-elements] Why is `attributeChangedCallback` synchronous?,https://github.com/WICG/webcomponents/issues/963,2022-07-31T00:35:31Z,2022-08-30T04:04:53Z,trusktr,question,1
@@ -29,7 +29,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 989586979,false,"`distributionchange` events, and `distributedNodes()` / `distributedElements()` APIs?",https://github.com/WICG/webcomponents/issues/940,2021-09-07T04:42:57Z,2022-07-29T21:44:37Z,trusktr,,0
 971914425,false,Declarative CSS Module Scripts,https://github.com/WICG/webcomponents/issues/939,2021-08-16T16:38:36Z,2022-07-14T15:38:29Z,justinfagnani,,9
 963937161,false,slotChange event is not working on anything but the slot attribute change,https://github.com/WICG/webcomponents/issues/937,2021-08-09T12:17:23Z,2021-08-16T15:34:28Z,Kokujou,,0
-940256296,false,CSS selector to style slots with slotted elements,https://github.com/WICG/webcomponents/issues/936,2021-07-08T22:08:01Z,2022-08-01T14:22:17Z,justinfagnani,,20
+940256296,false,CSS selector to style slots with slotted elements,https://github.com/WICG/webcomponents/issues/936,2021-07-08T22:08:01Z,2022-08-01T14:22:17Z,justinfagnani,,22
 936031558,true,ignore me,https://github.com/WICG/webcomponents/issues/935,2021-07-02T19:48:25Z,2021-07-02T19:48:52Z,neatonk,,0
 934790044,false,Clarification which pseudo selectors work with `::slotted` and `::part`,https://github.com/WICG/webcomponents/issues/934,2021-07-01T12:26:01Z,2021-08-26T03:25:03Z,MendyBerger,shadow-dom|question|css,0
 930152691,false,"Options for controlling specifics of ""slotchange"" events?",https://github.com/WICG/webcomponents/issues/933,2021-06-25T12:59:40Z,2021-09-16T10:24:19Z,Westbrook,,10
@@ -46,7 +46,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 846046279,true,CSS Shadow Parts Selector ::part() does not work in combination with :disabled pseudo-class in Chrome,https://github.com/WICG/webcomponents/issues/918,2021-03-31T07:04:32Z,2021-04-28T18:51:35Z,Dev89787,shadow-dom|question|css,0
 845828532,false,RfC: API design for aria delegation mechanism,https://github.com/WICG/webcomponents/issues/917,2021-03-31T04:23:50Z,2022-02-09T14:45:37Z,dfreedm,,0
 845508187,false,Add delegatesLabel and a content attribute to specify the label element within a shadow tree,https://github.com/WICG/webcomponents/issues/916,2021-03-31T00:09:28Z,2022-01-13T22:07:53Z,rniwa,shadow-dom|custom-elements|html-dom|a11y-tracker,2
-830432018,false,[scoped-registries] Interaction with declarative shadow DOM,https://github.com/WICG/webcomponents/issues/914,2021-03-12T20:42:55Z,2022-09-28T05:08:48Z,justinfagnani,,5
+830432018,false,[scoped-registries] Interaction with declarative shadow DOM,https://github.com/WICG/webcomponents/issues/914,2021-03-12T20:42:55Z,2022-10-05T20:02:14Z,justinfagnani,,5
 817671672,true,Using attributes as properties,https://github.com/WICG/webcomponents/issues/913,2021-02-26T21:22:42Z,2022-03-09T12:58:04Z,vrugtehagel,custom-elements|needs consensus|needs implementer interest|needs concrete proposal,1
 801354981,true,Why is Chrome Platform Status reporting 70% usage for HTMLSlotElement?,https://github.com/WICG/webcomponents/issues/912,2021-02-04T14:50:06Z,2021-02-18T16:35:52Z,Danny-Engelman,shadow-dom|question,0
 798703023,false,Spring 2021 Virtual Meeting,https://github.com/WICG/webcomponents/issues/911,2021-02-01T20:59:13Z,2021-04-21T04:34:06Z,JanMiksovsky,,12
@@ -329,7 +329,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 179662247,true,The get-the-parent algorithm shouldn't return null until we reach the root of the current tree,https://github.com/WICG/webcomponents/issues/577,2016-09-28T01:55:58Z,2016-10-04T05:28:26Z,rniwa,v1|shadow-dom,0
 179378984,true,[Idea] Distant ShadowDOM.,https://github.com/WICG/webcomponents/issues/576,2016-09-27T01:52:35Z,2016-12-06T04:26:16Z,trusktr,v2|shadow-dom,0
 179159392,true,"integrity attribute in <link rel=""import""/>",https://github.com/WICG/webcomponents/issues/575,2016-09-26T07:42:12Z,2017-07-11T02:13:14Z,zourzouvillys,html-imports,0
-178937252,true,[Shadow] Slotting indirect children,https://github.com/WICG/webcomponents/issues/574,2016-09-23T17:58:25Z,2019-02-26T09:39:27Z,acatscodemonkey,v2|shadow-dom,2
+178937252,true,[Shadow] Slotting indirect children,https://github.com/WICG/webcomponents/issues/574,2016-09-23T17:58:25Z,2019-02-26T09:39:27Z,ghost,v2|shadow-dom,2
 178821337,true,[imports]: Use cases for HTML Imports,https://github.com/WICG/webcomponents/issues/573,2016-09-23T08:58:01Z,2017-07-10T07:17:43Z,tomalec,html-imports,6
 178490097,true,How should autofill work for inputs generated inside shadow roots,https://github.com/WICG/webcomponents/issues/572,2016-09-21T23:53:25Z,2016-12-13T04:03:39Z,bengummer,shadow-dom,16
 177905522,true,slotchange event should not bubble,https://github.com/WICG/webcomponents/issues/571,2016-09-19T21:39:39Z,2021-09-07T05:44:54Z,sorvell,v1|shadow-dom,0
