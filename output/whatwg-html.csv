@@ -1,15 +1,19 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1400071766,false,Allow workers & shared workers to be created within a service worker,https://github.com/whatwg/html/issues/8362,2022-10-06T17:41:40Z,2022-10-06T18:54:28Z,ian97531,,0
-1399126032,false,How do shadow roots and slots elements interact with the content model?,https://github.com/whatwg/html/issues/8361,2022-10-06T08:47:59Z,2022-10-06T09:26:46Z,castholm,,0
-1398190934,false,Proposal: showEmojiPicker() on HTMLInputElement/HTMLTextareaElement,https://github.com/whatwg/html/issues/8358,2022-10-05T18:23:44Z,2022-10-06T14:31:19Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,24
+1400882160,true,Wrong sentence regarding heading structure,https://github.com/whatwg/html/issues/8366,2022-10-07T09:24:49Z,2022-10-07T11:02:01Z,JAWS-test,,0
+1400727625,false,`formDisabledCallback` should always fire when governing fieldset's disabled state changes,https://github.com/whatwg/html/issues/8365,2022-10-07T07:16:02Z,2022-10-07T08:15:06Z,bennypowers,topic: custom elements,0
+1400697596,false,Editorial: align with JavaScript spec conventions on records,https://github.com/whatwg/html/issues/8364,2022-10-07T06:44:11Z,2022-10-07T06:44:11Z,domenic,good first issue|integration,0
+1400696912,false,Editorial: consider using Infra maps instead of JS-spec Records more often,https://github.com/whatwg/html/issues/8363,2022-10-07T06:43:25Z,2022-10-07T06:43:25Z,domenic,clarification|integration,0
+1400071766,false,Allow workers & shared workers to be created within a service worker,https://github.com/whatwg/html/issues/8362,2022-10-06T17:41:40Z,2022-10-07T07:54:30Z,ian97531,addition/proposal|needs implementer interest|topic: workers,0
+1399126032,false,How do shadow roots and slots interact with the content model?,https://github.com/whatwg/html/issues/8361,2022-10-06T08:47:59Z,2022-10-07T10:52:20Z,castholm,,0
+1398190934,false,Proposal: showEmojiPicker() on HTMLInputElement/HTMLTextareaElement,https://github.com/whatwg/html/issues/8358,2022-10-05T18:23:44Z,2022-10-06T14:31:19Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,25
 1397339666,false,Add external import maps,https://github.com/whatwg/html/issues/8355,2022-10-05T07:08:53Z,2022-10-06T15:43:39Z,annevk,addition/proposal|topic: script,1
 1396727910,false,"Which type of replaced elements should a ""`<img>` with empty src or without src"" be treated",https://github.com/whatwg/html/issues/8354,2022-10-04T19:11:52Z,2022-10-04T19:11:52Z,cathiechen,,0
 1396199556,true,Consistify spelling of realm,https://github.com/whatwg/html/issues/8353,2022-10-04T12:32:09Z,2022-10-06T07:14:58Z,annevk,clarification,0
 1393739571,true,"Typo in section ""4.8.13 The area element""",https://github.com/whatwg/html/issues/8346,2022-10-02T11:55:31Z,2022-10-06T07:32:09Z,chalkygames123,good first issue,0
 1392819673,false,Upcoming HTML standard issue triage meeting on 10/13/2022,https://github.com/whatwg/html/issues/8341,2022-09-30T18:38:43Z,2022-09-30T20:28:11Z,past,agenda+,0
-1392531918,false,Inclusion criteria for the events index,https://github.com/whatwg/html/issues/8340,2022-09-30T14:31:10Z,2022-10-04T07:47:03Z,tidoust,clarification|topic: events,0
+1392531918,true,Inclusion criteria for the events index,https://github.com/whatwg/html/issues/8340,2022-09-30T14:31:10Z,2022-10-07T06:20:06Z,tidoust,clarification|topic: events,0
 1392180603,false,"Allow modal dialogs to trap focus, avoiding tabbing to the URL bar",https://github.com/whatwg/html/issues/8339,2022-09-30T09:54:45Z,2022-10-03T14:37:11Z,koddsson,normative change|needs implementer interest|a11y-tracker|topic: dialog,0
-1391534684,false,HTMLOptionsCollection length setter should specify what happens when you go over the option limit.,https://github.com/whatwg/html/issues/8337,2022-09-29T21:39:17Z,2022-10-03T21:00:07Z,emilio,topic: forms,0
+1391534684,false,HTMLOptionsCollection length setter should specify what happens when you go over the option limit.,https://github.com/whatwg/html/issues/8337,2022-09-29T21:39:17Z,2022-10-07T08:44:01Z,emilio,topic: forms,0
 1391446593,false,Link to updated reporting interface,https://github.com/whatwg/html/issues/8336,2022-09-29T20:18:41Z,2022-09-29T20:18:41Z,jyasskin,,0
 1390812834,false,Date picker access in contenteditable elements,https://github.com/whatwg/html/issues/8335,2022-09-29T12:47:01Z,2022-09-29T12:47:38Z,OvidijusParsiunas,,0
 1390400651,false,<link rel=preload> as attribute supports less than potential destination,https://github.com/whatwg/html/issues/8332,2022-09-29T07:37:28Z,2022-09-29T07:52:15Z,annevk,topic: resource hints (inc. preload),0
@@ -94,7 +98,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1315210946,false,Discuss WebGPU integration issues,https://github.com/whatwg/html/issues/8123,2022-07-22T16:34:13Z,2022-08-29T11:01:46Z,fserb,topic: canvas,0
 1313777312,false,Suggestion: You should be able to load module-scripts in the `file://` protocol.,https://github.com/whatwg/html/issues/8121,2022-07-21T20:40:22Z,2022-08-22T23:27:46Z,CalinZBaenen,,0
 1312599763,false,"Proposal: keep the previous page as a ""menu""",https://github.com/whatwg/html/issues/8119,2022-07-21T04:57:07Z,2022-07-21T04:57:07Z,markmiro,,0
-1311631285,false,"Behavior of createImageBitmap with { imageOrientation: ""flipY"" } is unclear",https://github.com/whatwg/html/issues/8118,2022-07-20T18:08:57Z,2022-10-06T19:07:21Z,junov,topic: canvas,0
+1311631285,true,"Behavior of createImageBitmap with { imageOrientation: ""flipY"" } is unclear",https://github.com/whatwg/html/issues/8118,2022-07-20T18:08:57Z,2022-10-07T07:56:32Z,junov,topic: canvas,0
 1308221885,false,HTML needs a mechaism for extending the parsing algorithm,https://github.com/whatwg/html/issues/8114,2022-07-18T16:41:40Z,2022-09-13T08:39:00Z,plinss,addition/proposal|topic: parser,1
 1307202154,true,"Undeclared ""destination"" in ""fetch an external module script graph""",https://github.com/whatwg/html/issues/8110,2022-07-17T20:32:12Z,2022-08-09T07:29:03Z,nicolo-ribaudo,,1
 1306404648,false,'process a navigate fetch' doesn't load anything ever?,https://github.com/whatwg/html/issues/8108,2022-07-15T19:23:21Z,2022-07-21T06:47:34Z,smaug----,topic: navigation,0
@@ -427,7 +431,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1026283126,true,"""<p>The <u>see</u> is full of fish.</p> "" ",https://github.com/whatwg/html/issues/7217,2021-10-14T11:28:10Z,2021-10-14T11:57:21Z,OnkarRuikar,,0
 1026074052,false,Proposal: `beforePutToBFcache` and `afterRestoreFromBFcache` events for DedicatedWorkerGlobalScope,https://github.com/whatwg/html/issues/7216,2021-10-14T07:47:55Z,2022-07-19T06:59:52Z,hajimehoshi,,0
 1025303673,true,Consider changing specified behavior of <meta name=color-scheme> to match WebKit,https://github.com/whatwg/html/issues/7213,2021-10-13T14:11:26Z,2021-10-18T15:30:47Z,emilio,normative change|topic: rendering|interop,1
-1024793036,false,Clarify how ImageBitmap interacts with EXIF orientation and image-orientation property,https://github.com/whatwg/html/issues/7210,2021-10-13T05:11:36Z,2022-05-17T14:20:49Z,heycam,topic: canvas,0
+1024793036,false,Clarify how ImageBitmap interacts with EXIF orientation and image-orientation property,https://github.com/whatwg/html/issues/7210,2021-10-13T05:11:36Z,2022-10-07T07:56:24Z,heycam,topic: canvas,0
 1024282534,true,Should delegatesFocus use the flat tree?,https://github.com/whatwg/html/issues/7207,2021-10-12T20:04:11Z,2021-11-01T15:51:04Z,domenic,topic: shadow|topic: focus|agenda+,2
 1024133516,true,Question about HTML editing program,https://github.com/whatwg/html/issues/7206,2021-10-12T18:29:47Z,2021-10-12T18:39:18Z,iyutr,,0
 1023135821,true,Upcoming HTML standard issue triage meeting on 11/4/2021,https://github.com/whatwg/html/issues/7201,2021-10-11T21:37:12Z,2021-11-05T19:05:20Z,past,agenda+,0
@@ -950,7 +954,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 679495178,true,Paragraph of placeholder attribute on textarea element,https://github.com/whatwg/html/issues/5828,2020-08-15T04:06:48Z,2020-10-01T19:52:46Z,mtrootyy,clarification|good first issue|topic: forms,1
 678893614,true,Should dynamic import()ed script loading delay Window load events?,https://github.com/whatwg/html/issues/5824,2020-08-14T04:46:48Z,2022-07-19T21:07:16Z,hiroshige-g,topic: script|interop,0
 678407193,false,Support Japanese phonetic names to `autocomplete` attribute,https://github.com/whatwg/html/issues/5821,2020-08-13T12:42:54Z,2020-10-16T21:05:57Z,agektmr,addition/proposal|topic: forms|i18n-tracker|i18n-jlreq,6
-678317247,false,Try using dark red for the header font color,https://github.com/whatwg/html/issues/5819,2020-08-13T10:06:48Z,2020-08-17T12:27:49Z,Luchihumphrey,,0
+678317247,false,Try using dark red for the header font color,https://github.com/whatwg/html/issues/5819,2020-08-13T10:06:48Z,2020-08-17T12:27:49Z,luchiified,,0
 677993252,true,"COEP reporting ""blocked-url"" should probably be ""blockedURL""",https://github.com/whatwg/html/issues/5818,2020-08-12T21:34:29Z,2020-08-21T14:57:33Z,domenic,topic: cross-origin-embedder-policy,0
 677391669,false,Allow for the possibility of user agents implementing landmark navigation,https://github.com/whatwg/html/issues/5813,2020-08-12T05:17:57Z,2020-08-19T16:52:10Z,carmacleod,clarification|accessibility|a11y-tracker,0
 677391273,false,Consider allowing label elements to provide a label for landmark elements,https://github.com/whatwg/html/issues/5812,2020-08-12T05:17:05Z,2021-11-12T00:28:02Z,carmacleod,addition/proposal|accessibility|a11y-tracker,0
