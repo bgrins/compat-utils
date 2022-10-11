@@ -1,10 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1403791407,true,Art277,https://github.com/whatwg/html/issues/8377,2022-10-10T22:56:06Z,2022-10-10T22:57:57Z,Martin0555,,0
-1403482205,true,Html,https://github.com/whatwg/html/issues/8376,2022-10-10T17:09:39Z,2022-10-10T17:09:48Z,kingofDaniel,,0
-1403388271,false,request: need a way to prevent mobile browser scrolling when focusing an input,https://github.com/whatwg/html/issues/8375,2022-10-10T15:50:46Z,2022-10-10T15:50:46Z,liamdebeasi,,0
-1403380623,false,"Possible error in the text about <input type=""range"">",https://github.com/whatwg/html/issues/8374,2022-10-10T15:45:07Z,2022-10-10T16:32:52Z,BlueInGreen68,,0
+1403944971,false,User activation: what should happen if there is no browsing context?,https://github.com/whatwg/html/issues/8378,2022-10-11T03:26:37Z,2022-10-11T04:07:01Z,marcoscaceres,topic: user activation,0
+1403388271,false,request: need a way to prevent mobile browser scrolling when focusing an input,https://github.com/whatwg/html/issues/8375,2022-10-10T15:50:46Z,2022-10-11T02:23:54Z,liamdebeasi,addition/proposal|needs implementer interest,0
+1403380623,true,"Possible error in the text about <input type=""range"">",https://github.com/whatwg/html/issues/8374,2022-10-10T15:45:07Z,2022-10-11T04:46:20Z,BlueInGreen68,,0
 1403050872,true,"rel values ""prev"" and ""next"" not allowed in body?",https://github.com/whatwg/html/issues/8372,2022-10-10T11:53:23Z,2022-10-10T13:06:37Z,brennanyoung,document conformance|topic: hyperlink,0
-1402147315,false,"<pre>: line number ",https://github.com/whatwg/html/issues/8369,2022-10-09T04:31:39Z,2022-10-09T04:31:39Z,esdnm,,0
+1402147315,false,"<pre>: line number ",https://github.com/whatwg/html/issues/8369,2022-10-09T04:31:39Z,2022-10-11T10:29:53Z,esdnm,addition/proposal|needs implementer interest,0
 1401110973,false,Consider change to handling focus after dialog dismissal and removal of invoking element,https://github.com/whatwg/html/issues/8367,2022-10-07T12:38:21Z,2022-10-07T12:38:21Z,scottaohara,,1
 1400882160,true,Wrong sentence regarding heading structure,https://github.com/whatwg/html/issues/8366,2022-10-07T09:24:49Z,2022-10-08T08:13:55Z,JAWS-test,,0
 1400727625,false,`formDisabledCallback` should always fire when governing fieldset's disabled state changes,https://github.com/whatwg/html/issues/8365,2022-10-07T07:16:02Z,2022-10-07T15:40:15Z,bennypowers,topic: custom elements,0
@@ -12,7 +11,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1400696912,false,Editorial: consider using Infra maps instead of JS-spec Records more often,https://github.com/whatwg/html/issues/8363,2022-10-07T06:43:25Z,2022-10-07T06:43:25Z,domenic,clarification|integration,0
 1400071766,false,Allow workers & shared workers to be created within a service worker,https://github.com/whatwg/html/issues/8362,2022-10-06T17:41:40Z,2022-10-10T16:35:09Z,ian97531,addition/proposal|needs implementer interest|topic: workers,0
 1399126032,false,How do shadow roots and slots interact with the content model?,https://github.com/whatwg/html/issues/8361,2022-10-06T08:47:59Z,2022-10-07T10:52:20Z,castholm,,0
-1398190934,false,Proposal: showEmojiPicker() on HTMLInputElement/HTMLTextareaElement,https://github.com/whatwg/html/issues/8358,2022-10-05T18:23:44Z,2022-10-06T14:31:19Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,49
+1398190934,false,Proposal: showEmojiPicker() on HTMLInputElement/HTMLTextareaElement,https://github.com/whatwg/html/issues/8358,2022-10-05T18:23:44Z,2022-10-06T14:31:19Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,54
 1397339666,false,Add external import maps,https://github.com/whatwg/html/issues/8355,2022-10-05T07:08:53Z,2022-10-06T15:43:39Z,annevk,addition/proposal|topic: script,1
 1396727910,false,"Which type of replaced elements should a ""`<img>` with empty src or without src"" be treated",https://github.com/whatwg/html/issues/8354,2022-10-04T19:11:52Z,2022-10-04T19:11:52Z,cathiechen,,0
 1396199556,true,Consistify spelling of realm,https://github.com/whatwg/html/issues/8353,2022-10-04T12:32:09Z,2022-10-06T07:14:58Z,annevk,clarification,0
@@ -354,7 +353,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1096359171,false,Behavior of cyclical dynamic import() is unclear,https://github.com/whatwg/html/issues/7472,2022-01-07T14:20:37Z,2022-01-27T16:12:15Z,yoshi-pi,topic: script,0
 1095667242,true,Bug with script-blocking <style> elements,https://github.com/whatwg/html/issues/7469,2022-01-06T20:25:30Z,2022-01-12T16:57:35Z,xiaochengh,topic: style,0
 1095332963,true,allow-custom-protocol-navigation,https://github.com/whatwg/html/issues/7468,2022-01-06T13:42:35Z,2022-03-07T15:50:07Z,ArthurSonzogni,addition/proposal|topic: sandbox,0
-1090922833,false,"Support lazy-loading CSS background-images ",https://github.com/whatwg/html/issues/7457,2021-12-30T07:20:47Z,2022-01-13T02:22:38Z,addyosmani,,3
+1090922833,false,"Support lazy-loading CSS background-images ",https://github.com/whatwg/html/issues/7457,2021-12-30T07:20:47Z,2022-01-13T02:22:38Z,addyosmani,,4
 1090820833,true,Error in the code of the example for TextTrack,https://github.com/whatwg/html/issues/7456,2021-12-30T01:15:47Z,2022-01-11T18:11:07Z,jackdeguest,good first issue,0
 1088670414,true,OffscreenCanvas.getContext: definition missing about unsupported context,https://github.com/whatwg/html/issues/7445,2021-12-25T23:49:29Z,2021-12-26T00:27:58Z,rinsuki,,0
 1087720198,false,Should we remove window.blur?,https://github.com/whatwg/html/issues/7441,2021-12-23T13:31:05Z,2022-01-06T18:13:14Z,camillelamy,,0
@@ -2931,7 +2930,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 195558416,true,"""when a select element does not have a sizes attribute""",https://github.com/whatwg/html/issues/2178,2016-12-14T15:18:37Z,2017-02-23T16:42:03Z,deltab,good first issue,0
 195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2022-04-10T12:45:35Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,72
 195497838,true,selectionStart/End/Direction on input and textarea should not be nullable,https://github.com/whatwg/html/issues/2175,2016-12-14T10:46:42Z,2017-01-18T09:22:04Z,foolip,,0
-195494630,true,pushState title is ignored in all implementations?,https://github.com/whatwg/html/issues/2174,2016-12-14T10:32:35Z,2021-03-15T16:59:58Z,foolip,topic: history|interop,2
+195494630,true,pushState title is ignored in all implementations?,https://github.com/whatwg/html/issues/2174,2016-12-14T10:32:35Z,2021-03-15T16:59:58Z,foolip,topic: history|interop,3
 195385032,true,"""If the element is flagged as ""parser-inserted"",...""",https://github.com/whatwg/html/issues/2173,2016-12-13T22:18:17Z,2016-12-13T22:19:35Z,JosephPecoraro,,0
 195183669,true,Worker Stock Ticker Example is Broken (500 Responses),https://github.com/whatwg/html/issues/2172,2016-12-13T07:47:39Z,2016-12-16T18:55:16Z,JosephPecoraro,,0
 195122486,true,"Should <dialog> actually create a ""control group"" for focus?",https://github.com/whatwg/html/issues/2171,2016-12-13T00:02:02Z,2022-06-16T09:42:37Z,domenic,addition/proposal|needs implementer interest|topic: focus,1

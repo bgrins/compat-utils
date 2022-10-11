@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1403242658,false,Adjust definitions of events fired at source node,https://github.com/whatwg/html/pull/8373,2022-10-10T14:09:20Z,2022-10-10T14:10:44Z,dontcallmedom,,0
+1403242658,true,Adjust definitions of events fired at source node,https://github.com/whatwg/html/pull/8373,2022-10-10T14:09:20Z,2022-10-11T02:39:19Z,dontcallmedom,clarification|topic: events,0
 1401593535,false,Add spec text for rendering suppression during transition,https://github.com/whatwg/html/pull/8368,2022-10-07T19:34:55Z,2022-10-07T19:57:29Z,khushalsagar,,0
 1399031091,true,Editorial: be more assertive,https://github.com/whatwg/html/pull/8360,2022-10-06T07:52:30Z,2022-10-06T08:17:46Z,annevk,,0
 1397959103,true,Editorial: bring order to the realm,https://github.com/whatwg/html/pull/8356,2022-10-05T15:08:15Z,2022-10-06T07:14:58Z,annevk,,0
@@ -62,7 +62,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1310619919,true,Review Draft Publication: July 2022,https://github.com/whatwg/html/pull/8116,2022-07-20T08:04:01Z,2022-07-20T09:14:02Z,domenic,,0
 1307602312,false,Define link processing for prefetch,https://github.com/whatwg/html/pull/8111,2022-07-18T08:44:27Z,2022-09-30T18:31:27Z,noamr,topic: resource hints (inc. preload),0
 1300834820,false,"Editorial: Use ""process the next redirect"" instead of ""Navigation redirect""",https://github.com/whatwg/html/pull/8097,2022-07-11T14:57:32Z,2022-08-22T02:36:08Z,noamr,topic: navigation|topic: fetch,0
-1300605819,false,Move oncopy/oncut/onpaste to GlobalEventHandlers,https://github.com/whatwg/html/pull/8096,2022-07-11T11:56:14Z,2022-08-22T02:36:08Z,foolip,needs tests|topic: events,0
+1300605819,false,Move oncopy/oncut/onpaste to GlobalEventHandlers,https://github.com/whatwg/html/pull/8096,2022-07-11T11:56:14Z,2022-10-11T10:25:29Z,foolip,needs tests|topic: events,0
 1297810150,true,Introduce FocusOptions.focusVisible.,https://github.com/whatwg/html/pull/8087,2022-07-07T17:22:55Z,2022-07-13T06:02:26Z,emilio,addition/proposal|topic: focus,0
 1296464358,true,Do not whitespace-strip <script>'s language attribute,https://github.com/whatwg/html/pull/8084,2022-07-06T21:06:17Z,2022-07-08T05:07:46Z,hiroshige-g,topic: script,0
 1295301121,true,Fix a few broken links to CSS specs from the event loop,https://github.com/whatwg/html/pull/8078,2022-07-06T07:03:07Z,2022-07-06T12:39:34Z,domenic,,0
@@ -635,7 +635,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 793302268,false,Export terms referenced from w3c/ServiceWorker#1545,https://github.com/whatwg/html/pull/6325,2021-01-25T11:31:17Z,2022-08-22T02:36:09Z,yutakahirano,,0
 791994491,true,Editorial: anticlockwise → counterclockwise,https://github.com/whatwg/html/pull/6322,2021-01-22T13:12:36Z,2021-01-22T16:52:54Z,annevk,,0
 791364874,true,Add matrix to the safelisted schemes list,https://github.com/whatwg/html/pull/6320,2021-01-21T17:44:01Z,2021-04-19T14:37:01Z,MayeulC,,13
-790233208,false,Navigation and session history rewrite,https://github.com/whatwg/html/pull/6315,2021-01-20T18:56:59Z,2022-10-10T21:56:46Z,jakearchibald,topic: navigation|topic: history|topic: browsing context|topic: embed and object|topic: document lifecycle|topic: sandbox|topic: policy container,0
+790233208,false,Navigation and session history rewrite,https://github.com/whatwg/html/pull/6315,2021-01-20T18:56:59Z,2022-10-11T03:04:00Z,jakearchibald,topic: navigation|topic: history|topic: browsing context|topic: embed and object|topic: document lifecycle|topic: sandbox|topic: policy container,0
 788899081,true,Meta: minor references cleanup,https://github.com/whatwg/html/pull/6311,2021-01-19T10:26:33Z,2021-01-20T07:10:39Z,annevk,,0
 788419068,true,Review Draft Publication: January 2021,https://github.com/whatwg/html/pull/6308,2021-01-18T16:54:25Z,2021-01-18T16:59:18Z,annevk,,0
 788157232,true,Meta: remove demos/offline/*,https://github.com/whatwg/html/pull/6307,2021-01-18T10:49:29Z,2021-01-19T20:58:34Z,annevk,,0
