@@ -25,7 +25,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1392819673,true,Upcoming HTML standard issue triage meeting on 10/13/2022,https://github.com/whatwg/html/issues/8341,2022-09-30T18:38:43Z,2022-10-13T19:06:25Z,past,agenda+,0
 1392531918,true,Inclusion criteria for the events index,https://github.com/whatwg/html/issues/8340,2022-09-30T14:31:10Z,2022-10-07T06:20:06Z,tidoust,clarification|topic: events,0
 1392180603,false,"Allow modal dialogs to trap focus, avoiding tabbing to the URL bar",https://github.com/whatwg/html/issues/8339,2022-09-30T09:54:45Z,2022-10-07T13:33:50Z,koddsson,normative change|needs implementer interest|a11y-tracker|topic: dialog,0
-1391534684,false,HTMLOptionsCollection length setter should specify what happens when you go over the option limit.,https://github.com/whatwg/html/issues/8337,2022-09-29T21:39:17Z,2022-10-11T14:48:09Z,emilio,topic: forms,0
+1391534684,true,HTMLOptionsCollection length setter should specify what happens when you go over the option limit.,https://github.com/whatwg/html/issues/8337,2022-09-29T21:39:17Z,2022-10-19T04:30:07Z,emilio,topic: forms,0
 1391446593,false,Link to updated reporting interface,https://github.com/whatwg/html/issues/8336,2022-09-29T20:18:41Z,2022-09-29T20:18:41Z,jyasskin,,0
 1390812834,false,Date picker access in contenteditable elements,https://github.com/whatwg/html/issues/8335,2022-09-29T12:47:01Z,2022-09-29T12:47:38Z,OvidijusParsiunas,,0
 1390400651,false,<link rel=preload> as attribute supports less than potential destination,https://github.com/whatwg/html/issues/8332,2022-09-29T07:37:28Z,2022-09-29T07:52:15Z,annevk,topic: resource hints (inc. preload),0
@@ -41,7 +41,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1380722735,true,Variable `sandboxFlags` appears out of nowhere in `process a navigate fetch`,https://github.com/whatwg/html/issues/8301,2022-09-21T10:48:15Z,2022-09-21T23:56:50Z,awesomekling,,0
 1379338008,false,Specify non-initial about:blank as parsing synchronously,https://github.com/whatwg/html/issues/8299,2022-09-20T12:26:50Z,2022-09-20T12:26:50Z,hsivonen,,0
 1379253756,true,Download in sandboxed iframe,https://github.com/whatwg/html/issues/8298,2022-09-20T11:23:02Z,2022-09-30T06:30:37Z,Seppe-d,,0
-1379074836,false,Last-Event-ID response if unavailable,https://github.com/whatwg/html/issues/8297,2022-09-20T09:07:51Z,2022-09-20T09:07:51Z,Tieske,,0
+1379074836,false,Last-Event-ID response if unavailable,https://github.com/whatwg/html/issues/8297,2022-09-20T09:07:51Z,2022-09-20T09:07:51Z,Tieske,,1
 1378099227,false,Define color space for interpolation interface for canvas gradients,https://github.com/whatwg/html/issues/8296,2022-09-19T14:59:49Z,2022-09-20T01:55:06Z,mysteryDate,topic: canvas,0
 1377764311,false,The `shared attribute processing steps for iframe and frame elements` may invoke `iframe load event steps` on frame element,https://github.com/whatwg/html/issues/8295,2022-09-19T10:51:36Z,2022-09-27T11:12:19Z,awesomekling,topic: events|topic: browsing context,0
 1376415998,true,"How can I ""disable"" zoom on a mobile web page?",https://github.com/whatwg/html/issues/8291,2022-09-16T20:04:58Z,2022-09-17T10:59:22Z,Turkmen1Mehmet,,0
@@ -1843,7 +1843,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 376467643,false,Lowercasing of element type selectors,https://github.com/whatwg/html/issues/4155,2018-11-01T16:27:44Z,2018-11-21T22:50:31Z,gsnedders,topic: rendering,0
 376431780,false,"Input type datetime-local does not specify what step value ""any"" means",https://github.com/whatwg/html/issues/4154,2018-11-01T15:04:16Z,2018-11-01T15:32:18Z,a2sheppy,,0
 375895637,false,WebDriver extension for sequential focus navigation,https://github.com/whatwg/html/issues/4151,2018-10-31T10:32:01Z,2019-08-02T13:23:11Z,foolip,topic: focus,0
-375858348,false,Download API,https://github.com/whatwg/html/issues/4148,2018-10-31T08:56:39Z,2020-05-15T08:35:47Z,annevk,addition/proposal,5
+375858348,false,Download API,https://github.com/whatwg/html/issues/4148,2018-10-31T08:56:39Z,2022-10-19T09:38:11Z,annevk,addition/proposal,5
 375798306,false,Expose rendered legends to CSS selectors,https://github.com/whatwg/html/issues/4147,2018-10-31T04:53:57Z,2018-10-31T12:30:31Z,gibson042,,0
 375084398,false,Editorial: cleanup postMessage() invocation for dedicated workers,https://github.com/whatwg/html/issues/4140,2018-10-29T15:49:33Z,2022-10-08T13:55:56Z,annevk,good first issue,0
 374914986,true,""" void postMessage(any message, optional sequenc...""",https://github.com/whatwg/html/issues/4137,2018-10-29T08:59:12Z,2018-11-02T14:02:58Z,bakulf,,0
@@ -3785,7 +3785,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 121457865,true,"""4.8.13.16 Event summary"" missing events for <track>",https://github.com/whatwg/html/issues/392,2015-12-10T10:54:56Z,2015-12-20T14:42:13Z,zcorpan,clarification|good first issue,0
 121204573,false,Unresponsive image maps,https://github.com/whatwg/html/issues/389,2015-12-09T10:18:17Z,2020-06-18T09:48:34Z,AndySky21,addition/proposal|needs implementer interest|needs compat analysis,0
 120865506,true,"""fully active"" needs to be conditional on a document having a browsing context",https://github.com/whatwg/html/issues/388,2015-12-07T20:54:51Z,2016-01-12T17:50:00Z,annevk,clarification|good first issue,0
-120607402,true,"`<object>` without ""data"" attribute probably needs to consider params to figure out its URL",https://github.com/whatwg/html/issues/387,2015-12-06T04:41:24Z,2022-04-21T16:37:56Z,bzbarsky,normative change|compat|topic: embed and object,1
+120607402,true,"`<object>` without ""data"" attribute probably needs to consider params to figure out its URL",https://github.com/whatwg/html/issues/387,2015-12-06T04:41:24Z,2022-10-19T01:18:07Z,bzbarsky,normative change|compat|topic: embed and object,1
 120514309,true,<inject> tag,https://github.com/whatwg/html/issues/386,2015-12-05T00:33:01Z,2015-12-05T01:08:07Z,ghost,,0
 120327932,true,Definition of styles scope object for DrawingStyle and CanvasRenderingContext2D  doesn't make sense,https://github.com/whatwg/html/issues/382,2015-12-04T04:03:30Z,2015-12-15T15:34:26Z,bzbarsky,,0
 120309423,true,Implementation regarding naturalWidth and naturalHeight,https://github.com/whatwg/html/issues/381,2015-12-04T01:06:25Z,2015-12-09T19:37:01Z,davidmh,,0
