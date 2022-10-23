@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1419438332,false,"""Abort a running script"" doesn't abort function invocations",https://github.com/whatwg/html/issues/8421,2022-10-22T18:23:58Z,2022-10-22T18:25:24Z,andreubotella,topic: script,0
+1419438332,false,"""Abort a running script"" doesn't abort function invocations",https://github.com/whatwg/html/issues/8421,2022-10-22T18:23:58Z,2022-10-23T06:55:24Z,andreubotella,topic: script,0
 1419280036,true,Deprecated elements in HTML5; Elementos obsoletos na HTML5,https://github.com/whatwg/html/issues/8418,2022-10-22T12:55:03Z,2022-10-22T14:13:29Z,FellipeAguiar,,0
 1419060576,true,Missing the the process of form data,https://github.com/whatwg/html/issues/8416,2022-10-22T03:55:16Z,2022-10-22T06:08:15Z,chucklu,,0
 1417876245,false,`hidden` and `truespeed` in attributes overview,https://github.com/whatwg/html/issues/8414,2022-10-21T07:20:45Z,2022-10-21T09:06:16Z,j9t,,0
@@ -322,7 +322,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1127115952,false,Consider not exposing ErrorEvent/PromiseRejectionEvent in ShadowRealms,https://github.com/whatwg/html/issues/7591,2022-02-08T11:14:29Z,2022-05-11T13:09:15Z,smaug----,topic: multiple globals|integration,0
 1126672278,false,Deprecate <rp> element,https://github.com/whatwg/html/issues/7590,2022-02-08T01:04:58Z,2022-02-17T11:11:46Z,NagayamaToshiaki,removal/deprecation|document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,3
 1126330353,true,"""prepare a script"" could be more precise about documents",https://github.com/whatwg/html/issues/7589,2022-02-07T18:11:42Z,2022-05-18T23:42:17Z,domenic,clarification|topic: script,1
-1125672254,false,Reconsider the `<rb>` element,https://github.com/whatwg/html/issues/7587,2022-02-07T08:36:17Z,2022-02-17T11:11:35Z,NagayamaToshiaki,i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,0
+1125672254,false,Reconsider the `<rb>` element,https://github.com/whatwg/html/issues/7587,2022-02-07T08:36:17Z,2022-02-17T11:11:35Z,NagayamaToshiaki,i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,1
 1125254296,true,"""Focusing steps"" doesn't initially indicate that ""new focus target"" can be null",https://github.com/whatwg/html/issues/7585,2022-02-06T16:50:25Z,2022-02-07T00:33:18Z,awesomekling,,0
 1125018380,false,Icon sources with multiple embedded icons,https://github.com/whatwg/html/issues/7584,2022-02-05T20:01:01Z,2022-02-16T16:29:16Z,bramus,interop|integration,0
 1123864075,false,Proposal: EnforceRange or Clamp to CreateImageBitmap when param is bigger than max value of signed int.,https://github.com/whatwg/html/issues/7583,2022-02-04T06:31:00Z,2022-02-08T15:55:27Z,thebluewhale,normative change|needs implementer interest|topic: canvas,0
@@ -1136,7 +1136,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 602996850,true,worker global scope's owner set should be updated before CSP initialization,https://github.com/whatwg/html/issues/5469,2020-04-20T07:06:55Z,2020-04-28T14:50:33Z,hiroshige-g,,0
 602570354,false,Allow git+https protocol handlers,https://github.com/whatwg/html/issues/5468,2020-04-18T22:56:40Z,2020-04-20T07:24:34Z,SoniEx2,addition/proposal|topic: custom protocols,0
 602461066,true,[dev edition] Image doesn't show under 'links.html#link-type-modulepreload',https://github.com/whatwg/html/issues/5467,2020-04-18T13:30:33Z,2020-04-20T16:35:15Z,NostraDavid,dev edition,0
-602428251,false,What *is* Canvas desynchronized attribute?,https://github.com/whatwg/html/issues/5466,2020-04-18T10:28:18Z,2020-04-22T21:24:03Z,juj,clarification|topic: canvas,4
+602428251,false,What *is* Canvas desynchronized attribute?,https://github.com/whatwg/html/issues/5466,2020-04-18T10:28:18Z,2020-04-22T21:24:03Z,juj,clarification|topic: canvas,6
 602049599,false,Accessibility of window.opener navigation,https://github.com/whatwg/html/issues/5464,2020-04-17T15:16:47Z,2020-04-24T11:43:07Z,matatk,accessibility|a11y-tracker,0
 601891362,true,Storage object (localStorage/sessionStorage) ordering,https://github.com/whatwg/html/issues/5463,2020-04-17T11:03:54Z,2020-07-10T17:28:43Z,annevk,topic: storage,0
 601057097,false,More clearly distinguish authoring conformance requirements,https://github.com/whatwg/html/issues/5461,2020-04-16T13:31:56Z,2020-04-22T16:59:50Z,domenic,spec tooling|clarification|document conformance|a11y-needs-resolution,1
@@ -3145,7 +3145,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 176669868,true,"audio/video loads should set the ""same-origin data-URL"" flag",https://github.com/whatwg/html/issues/1779,2016-09-13T15:18:52Z,2016-10-10T17:30:06Z,bzbarsky,topic: media|topic: fetch,0
 176668497,true,Errors from data: scripts should not be muted,https://github.com/whatwg/html/issues/1778,2016-09-13T15:13:44Z,2016-10-10T17:30:06Z,bzbarsky,topic: fetch,0
 176634547,true,Merge appropriate parts of File and Directory Entries into HTML when ready,https://github.com/whatwg/html/issues/1777,2016-09-13T13:03:49Z,2020-10-13T10:32:01Z,jez9999,addition/proposal|topic: forms|interop,1
-176243059,false,rb and rtc element should be removed from the list of obsolete features,https://github.com/whatwg/html/issues/1771,2016-09-11T13:09:32Z,2022-02-17T11:12:10Z,upsuper,document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,0
+176243059,false,rb and rtc element should be removed from the list of obsolete features,https://github.com/whatwg/html/issues/1771,2016-09-11T13:09:32Z,2022-10-23T11:54:57Z,upsuper,document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,0
 175980447,false,Specify how to fetch <link rel=icon>,https://github.com/whatwg/html/issues/1769,2016-09-09T10:43:37Z,2016-09-13T15:19:42Z,zcorpan,topic: fetch,0
 175916893,true,Multipage redirection isn't always working anymore,https://github.com/whatwg/html/issues/1767,2016-09-09T03:06:41Z,2016-09-12T21:33:24Z,domenic,spec tooling,0
 175905234,false,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2022-09-28T09:30:39Z,isonmad,addition/proposal|needs implementer interest|topic: events,12

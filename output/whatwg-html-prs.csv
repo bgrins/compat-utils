@@ -1,7 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1419121779,false,Fix HostResolveImportedModule's current realm handling,https://github.com/whatwg/html/pull/8417,2022-10-22T06:26:46Z,2022-10-22T06:28:15Z,domenic,topic: script,0
+1419663940,true,Update 404.html,https://github.com/whatwg/html/pull/8423,2022-10-23T06:30:11Z,2022-10-23T06:47:59Z,Cyberrayon04846,spam,0
+1419121779,false,Fix HostResolveImportedModule's current realm handling,https://github.com/whatwg/html/pull/8417,2022-10-22T06:26:46Z,2022-10-23T09:00:24Z,domenic,topic: script,0
 1418011985,false,fix: add values for `hidden`,https://github.com/whatwg/html/pull/8415,2022-10-21T09:05:11Z,2022-10-21T09:30:41Z,j9t,,0
-1417373943,false,Editorial: fix usage of processResponseConsumeBody,https://github.com/whatwg/html/pull/8412,2022-10-20T22:11:09Z,2022-10-20T22:16:50Z,nicolo-ribaudo,,0
+1417373943,false,Editorial: fix usage of processResponseConsumeBody,https://github.com/whatwg/html/pull/8412,2022-10-20T22:11:09Z,2022-10-23T03:55:23Z,nicolo-ribaudo,,0
 1415701169,true,Update ECMAScript references,https://github.com/whatwg/html/pull/8406,2022-10-19T23:30:46Z,2022-10-20T01:36:58Z,jmdyck,,0
 1415420412,true,Reuse response's has-cross-origin-redirects,https://github.com/whatwg/html/pull/8405,2022-10-19T18:35:08Z,2022-10-22T07:18:10Z,abinpaul1,,0
 1413494298,true,"Fix a link to ""report only value"" that read just ""value"".",https://github.com/whatwg/html/pull/8402,2022-10-18T16:11:32Z,2022-10-19T02:27:49Z,jyasskin,,0
@@ -36,7 +37,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1370447219,true,Reflect changed AO name from ecma262,https://github.com/whatwg/html/pull/8283,2022-09-12T19:58:37Z,2022-09-12T20:53:23Z,bakkot,,0
 1366892345,false,Define contenteditable `plaintext-only` state,https://github.com/whatwg/html/pull/8275,2022-09-08T19:32:18Z,2022-09-08T19:33:56Z,howard-e,,0
 1365802704,true,Remove parse error for <template><tr></tr> </template>,https://github.com/whatwg/html/pull/8271,2022-09-08T08:39:12Z,2022-09-15T19:10:57Z,zcorpan,topic: parser,0
-1362916350,false,Custom handlers automation,https://github.com/whatwg/html/pull/8267,2022-09-06T08:40:07Z,2022-10-21T09:41:55Z,javifernandez,,0
+1362916350,false,Custom handlers automation,https://github.com/whatwg/html/pull/8267,2022-09-06T08:40:07Z,2022-10-23T03:13:20Z,javifernandez,,0
 1362286926,true,"Replace ""asynchronous completions"" with a callback algorithm",https://github.com/whatwg/html/pull/8264,2022-09-05T16:51:35Z,2022-09-28T05:53:02Z,nicolo-ribaudo,clarification|topic: script,0
 1360604905,true,Add a `navigator` interface for user activation state.,https://github.com/whatwg/html/pull/8254,2022-09-02T20:54:59Z,2022-09-15T20:14:24Z,mustaqahmed,,0
 1360247038,false,[ECMA-262 layering] Refactor import-related host hooks,https://github.com/whatwg/html/pull/8253,2022-09-02T14:06:40Z,2022-10-07T08:44:25Z,nicolo-ribaudo,do not merge yet|topic: script,0
@@ -593,7 +594,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 832084079,true,"Explain more of ""create and initialize a Document object""",https://github.com/whatwg/html/pull/6494,2021-03-15T18:33:20Z,2021-03-16T18:01:08Z,domenic,clarification|topic: navigation|topic: browsing context,0
 830972053,true,"I made the change and written ""User Agent"" in place of ""UV"" in the source file.",https://github.com/whatwg/html/pull/6488,2021-03-13T19:22:37Z,2021-08-17T18:40:27Z,Atharva-17,,0
 829653241,true,Ignore title passed to pushState()/replaceState(),https://github.com/whatwg/html/pull/6482,2021-03-12T00:53:53Z,2021-03-15T17:03:03Z,domenic,removal/deprecation|topic: history|impacts documentation,0
-828815807,false,Restore the rb and rtc elements and update ruby content model accordingly,https://github.com/whatwg/html/pull/6478,2021-03-11T06:34:10Z,2022-08-22T02:36:09Z,frivoal,needs implementer interest|do not merge yet|topic: ruby,5
+828815807,false,Restore the rb and rtc elements and update ruby content model accordingly,https://github.com/whatwg/html/pull/6478,2021-03-11T06:34:10Z,2022-08-22T02:36:09Z,frivoal,needs implementer interest|do not merge yet|topic: ruby,6
 828485817,true,Editorial: modernize input activation behavior,https://github.com/whatwg/html/pull/6477,2021-03-10T23:45:05Z,2021-03-11T10:07:50Z,domenic,clarification|topic: forms,1
 828190312,true,Fix same-URL navigation session history handling,https://github.com/whatwg/html/pull/6476,2021-03-10T18:50:20Z,2021-03-12T00:38:17Z,domenic,topic: history,0
 826841719,true,Coalesce |reservedEnvironment| and request's reserved client,https://github.com/whatwg/html/pull/6471,2021-03-10T00:17:20Z,2021-03-10T16:50:55Z,domfarolino,clarification|topic: navigation,0
