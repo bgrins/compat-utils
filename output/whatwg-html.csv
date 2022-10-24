@@ -1,10 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1420311291,true,Can't reach https://html.spec.whatwg.org/multipage/webdatabase/,https://github.com/whatwg/html/issues/8425,2022-10-24T06:50:16Z,2022-10-24T06:55:50Z,madhaven,,0
 1419438332,false,"""Abort a running script"" doesn't abort function invocations",https://github.com/whatwg/html/issues/8421,2022-10-22T18:23:58Z,2022-10-23T22:09:18Z,andreubotella,topic: script,0
 1419280036,true,Deprecated elements in HTML5; Elementos obsoletos na HTML5,https://github.com/whatwg/html/issues/8418,2022-10-22T12:55:03Z,2022-10-22T14:13:29Z,FellipeAguiar,,0
 1419060576,true,Missing the the process of form data,https://github.com/whatwg/html/issues/8416,2022-10-22T03:55:16Z,2022-10-22T06:08:15Z,chucklu,,0
 1417876245,false,`hidden` and `truespeed` in attributes overview,https://github.com/whatwg/html/issues/8414,2022-10-21T07:20:45Z,2022-10-21T09:06:16Z,j9t,,0
-1417384661,false,"Clarify value direction for elements ""progress"" and ""meter"" with vertical writing mode",https://github.com/whatwg/html/issues/8413,2022-10-20T22:17:55Z,2022-10-20T22:17:55Z,dizhang168,,0
-1417116460,false,Module script linking does not push realm execution context required in HostResolveImportedModule,https://github.com/whatwg/html/issues/8410,2022-10-20T19:05:37Z,2022-10-22T06:26:53Z,networkException,topic: script,0
+1417384661,false,"Clarify value direction for elements ""progress"" and ""meter"" with vertical writing mode",https://github.com/whatwg/html/issues/8413,2022-10-20T22:17:55Z,2022-10-24T11:27:42Z,dizhang168,topic: rendering,0
+1417116460,true,Module script linking does not push realm execution context required in HostResolveImportedModule,https://github.com/whatwg/html/issues/8410,2022-10-20T19:05:37Z,2022-10-24T07:42:13Z,networkException,topic: script,0
 1416281572,false,Canvas2D `ellipse()` specs seem to be broken,https://github.com/whatwg/html/issues/8408,2022-10-20T09:27:00Z,2022-10-20T14:34:29Z,Kaiido,topic: canvas,1
 1413459881,false,"Add media attribute to details element, to restrict when it can be collapsed",https://github.com/whatwg/html/issues/8401,2022-10-18T15:47:01Z,2022-10-18T15:53:52Z,AmeliaBR,addition/proposal|topic: media|topic: style,0
 1412193626,false,Undefined behaviour when clicking a label which inside modal dialog that activates the form control,https://github.com/whatwg/html/issues/8399,2022-10-17T20:36:24Z,2022-10-18T07:34:18Z,sefeng211,topic: dialog,0
@@ -126,7 +127,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1303854564,true,About tracking user activation,https://github.com/whatwg/html/issues/8104,2022-07-13T19:34:52Z,2022-07-15T23:32:34Z,dSalieri,,0
 1303237250,false,Clarification needed in step 5 of the text preparation algorithm,https://github.com/whatwg/html/issues/8103,2022-07-13T10:29:52Z,2022-07-14T08:22:24Z,jfkthame,topic: canvas,0
 1301713912,true,"Input type=""color"" with alpha and hi-color support?",https://github.com/whatwg/html/issues/8101,2022-07-12T08:20:04Z,2022-07-12T08:49:41Z,greggman,,0
-1300437093,false,Update navigation's document creation to properly use fetch callbacks,https://github.com/whatwg/html/issues/8095,2022-07-11T09:20:55Z,2022-07-12T20:50:09Z,domenic,topic: navigation,0
+1300437093,false,Update navigation's document creation to properly use fetch callbacks,https://github.com/whatwg/html/issues/8095,2022-07-11T09:20:55Z,2022-10-24T11:40:29Z,domenic,topic: navigation,0
 1299724257,false,"""Each EventTarget object that has one or more ev...""",https://github.com/whatwg/html/issues/8091,2022-07-09T17:02:03Z,2022-08-29T11:16:53Z,ruiconti,clarification,0
 1299514217,false,"Apply/Cancel using showPicker() of type=""color""",https://github.com/whatwg/html/issues/8090,2022-07-08T23:38:19Z,2022-07-12T01:52:00Z,codedread,,0
 1299174100,true,Upcoming HTML standard issue triage meeting on 8/4/2022,https://github.com/whatwg/html/issues/8089,2022-07-08T15:34:38Z,2022-08-05T15:30:52Z,past,agenda+,0
@@ -320,7 +321,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1128211306,true,Formal complaint: search element standardization,https://github.com/whatwg/html/issues/7594,2022-02-09T08:34:31Z,2022-02-10T10:29:31Z,Kaleidea,,0
 1127384263,true,Add a single radius version of CanvasRenderingContext2D.roundRect,https://github.com/whatwg/html/issues/7592,2022-02-08T15:10:56Z,2022-02-17T21:44:59Z,mysteryDate,addition/proposal|needs implementer interest|topic: canvas,1
 1127115952,false,Consider not exposing ErrorEvent/PromiseRejectionEvent in ShadowRealms,https://github.com/whatwg/html/issues/7591,2022-02-08T11:14:29Z,2022-05-11T13:09:15Z,smaug----,topic: multiple globals|integration,0
-1126672278,false,Deprecate <rp> element,https://github.com/whatwg/html/issues/7590,2022-02-08T01:04:58Z,2022-02-17T11:11:46Z,NagayamaToshiaki,removal/deprecation|document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,3
+1126672278,false,Deprecate <rp> element,https://github.com/whatwg/html/issues/7590,2022-02-08T01:04:58Z,2022-10-24T00:45:30Z,NagayamaToshiaki,removal/deprecation|document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,3
 1126330353,true,"""prepare a script"" could be more precise about documents",https://github.com/whatwg/html/issues/7589,2022-02-07T18:11:42Z,2022-05-18T23:42:17Z,domenic,clarification|topic: script,1
 1125672254,false,Reconsider the `<rb>` element,https://github.com/whatwg/html/issues/7587,2022-02-07T08:36:17Z,2022-02-17T11:11:35Z,NagayamaToshiaki,i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,1
 1125254296,true,"""Focusing steps"" doesn't initially indicate that ""new focus target"" can be null",https://github.com/whatwg/html/issues/7585,2022-02-06T16:50:25Z,2022-02-07T00:33:18Z,awesomekling,,0
@@ -902,7 +903,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 723970890,true,Loading attribute is not in correct alphabetical order in the attribute index,https://github.com/whatwg/html/issues/6080,2020-10-18T09:56:39Z,2020-10-19T16:23:44Z,fuzzbomb,,0
 723956877,true,"Web Reality: The spec requires that unscopable properties be included in the compiled event handler lexical scope, but browsers omit them",https://github.com/whatwg/html/issues/6079,2020-10-18T08:31:04Z,2021-03-19T17:57:54Z,ExE-Boss,,1
 723593007,false,Add option to Element.focus() to specify async application,https://github.com/whatwg/html/issues/6077,2020-10-17T00:02:49Z,2020-11-06T02:00:32Z,chrishtr,,3
-723501570,false,Should the “DOM clobbering” note mention the id attribute as well?,https://github.com/whatwg/html/issues/6076,2020-10-16T20:07:06Z,2020-10-17T03:53:08Z,simevidas,,0
+723501570,false,Should the “DOM clobbering” note mention the id attribute as well?,https://github.com/whatwg/html/issues/6076,2020-10-16T20:07:06Z,2022-10-24T10:26:14Z,simevidas,clarification|good first issue,0
 723436345,false,Declarative worklets proposal/tracking issue,https://github.com/whatwg/html/issues/6073,2020-10-16T18:21:31Z,2020-10-16T18:21:31Z,domenic,addition/proposal|needs implementer interest|needs concrete proposal|topic: worklets,0
 722250292,false,Loading CSS Style Sheet with Feature Queries,https://github.com/whatwg/html/issues/6064,2020-10-15T11:32:24Z,2020-10-15T11:32:24Z,tntrifonov,,2
 722040891,false,Element reflection references from inner to outer shadow roots,https://github.com/whatwg/html/issues/6063,2020-10-15T06:31:08Z,2021-01-18T02:19:35Z,chrisosaurus,,3
@@ -3145,7 +3146,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 176669868,true,"audio/video loads should set the ""same-origin data-URL"" flag",https://github.com/whatwg/html/issues/1779,2016-09-13T15:18:52Z,2016-10-10T17:30:06Z,bzbarsky,topic: media|topic: fetch,0
 176668497,true,Errors from data: scripts should not be muted,https://github.com/whatwg/html/issues/1778,2016-09-13T15:13:44Z,2016-10-10T17:30:06Z,bzbarsky,topic: fetch,0
 176634547,true,Merge appropriate parts of File and Directory Entries into HTML when ready,https://github.com/whatwg/html/issues/1777,2016-09-13T13:03:49Z,2020-10-13T10:32:01Z,jez9999,addition/proposal|topic: forms|interop,1
-176243059,false,rb and rtc element should be removed from the list of obsolete features,https://github.com/whatwg/html/issues/1771,2016-09-11T13:09:32Z,2022-10-23T12:34:05Z,upsuper,document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,0
+176243059,false,rb and rtc element should be removed from the list of obsolete features,https://github.com/whatwg/html/issues/1771,2016-09-11T13:09:32Z,2022-10-24T01:32:48Z,upsuper,document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,0
 175980447,false,Specify how to fetch <link rel=icon>,https://github.com/whatwg/html/issues/1769,2016-09-09T10:43:37Z,2016-09-13T15:19:42Z,zcorpan,topic: fetch,0
 175916893,true,Multipage redirection isn't always working anymore,https://github.com/whatwg/html/issues/1767,2016-09-09T03:06:41Z,2016-09-12T21:33:24Z,domenic,spec tooling,0
 175905234,false,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2022-09-28T09:30:39Z,isonmad,addition/proposal|needs implementer interest|topic: events,12
