@@ -2700,7 +2700,7 @@ api/HTMLMenuItemElement/type,,8,,,,,,false,false,true,,NONE
 api/HTMLMetaElement,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/semantics.html#htmlmetaelement,WHATWG
 api/HTMLMetaElement/content,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/semantics.html#dom-meta-content,WHATWG
 api/HTMLMetaElement/httpEquiv,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/semantics.html#dom-meta-httpequiv,WHATWG
-api/HTMLMetaElement/media,,,,93,,15,,false,true,false,https://html.spec.whatwg.org/multipage/semantics.html#dom-meta-media,WHATWG
+api/HTMLMetaElement/media,,106,,93,,15,,false,true,false,https://html.spec.whatwg.org/multipage/semantics.html#dom-meta-media,WHATWG
 api/HTMLMetaElement/name,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/semantics.html#dom-meta-name,WHATWG
 api/HTMLMetaElement/scheme,,1,,1,,1,,false,true,true,https://html.spec.whatwg.org/multipage/semantics.html#dom-meta-scheme,WHATWG
 api/HTMLMeterElement,,16,,6,,6,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#htmlmeterelement,WHATWG
@@ -8471,14 +8471,14 @@ css/properties/grid-row-start,,52,,57,,10.1,,false,true,false,https://w3c.github
 css/properties/grid-template,,52,,57,,10.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-grid/#explicit-grid-shorthand,W3C
 css/properties/grid-template-areas,,52,,57,,10.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-grid/#grid-template-areas-property,W3C
 css/properties/grid-template-columns,,52,,57,,10.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-grid/#track-sizing,W3C
-css/properties/grid-template-columns/animation,,66,,106,,16,,false,true,false,,NONE
+css/properties/grid-template-columns/animation,,66,,107,,16,,false,true,false,,NONE
 css/properties/grid-template-columns/fit-content,,52,,57,,10.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-sizing-4/#sizing-values,W3C
 css/properties/grid-template-columns/masonry,,77,"[{""name"":""layout.css.grid-template-masonry-value.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://w3c.github.io/csswg-drafts/css-grid-3/#masonry-layout,W3C
 css/properties/grid-template-columns/minmax,,52,,57,,10.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-grid/#valdef-grid-template-columns-minmax,W3C
 css/properties/grid-template-columns/repeat,,76,,57,,10.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-grid/#repeat-notation,W3C
 css/properties/grid-template-columns/subgrid,,71,,,,16,,false,true,false,https://w3c.github.io/csswg-drafts/css-grid/#subgrids,W3C
 css/properties/grid-template-rows,,52,,57,,10.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-grid/#track-sizing,W3C
-css/properties/grid-template-rows/animation,,66,,106,,16,,false,true,false,,NONE
+css/properties/grid-template-rows/animation,,66,,107,,16,,false,true,false,,NONE
 css/properties/grid-template-rows/fit-content,,52,,57,,10.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-sizing-4/#sizing-values,W3C
 css/properties/grid-template-rows/masonry,,77,"[{""name"":""layout.css.grid-template-masonry-value.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://w3c.github.io/csswg-drafts/css-grid-3/#masonry-layout,W3C
 css/properties/grid-template-rows/minmax,,52,,57,,10.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-grid/#valdef-grid-template-columns-minmax,W3C
@@ -9522,7 +9522,7 @@ html/elements/blockquote/cite,,1,,true,,true,,false,true,false,,NONE
 html/elements/body,,1,,1,,true,,false,true,false,https://html.spec.whatwg.org/multipage/sections.html#the-body-element,WHATWG
 html/elements/body/alink,,1,,1,,true,,false,true,true,,NONE
 html/elements/body/background,,1,,1,,true,,false,true,true,,NONE
-html/elements/body/bgcolor,,1,,1,,true,,false,true,true,,NONE
+html/elements/body/bgcolor,,1,,1,,1,,false,true,true,,NONE
 html/elements/body/bottommargin,,35,,true,,,,false,true,true,,NONE
 html/elements/body/leftmargin,,35,,true,,,,false,true,true,,NONE
 html/elements/body/link,,1,,1,,true,,false,true,true,,NONE
@@ -9555,7 +9555,7 @@ html/elements/cite,,1,,true,,true,,false,true,false,https://html.spec.whatwg.org
 html/elements/code,,1,,1,,true,,false,true,false,https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-code-element,WHATWG
 html/elements/col,,1,,1,,true,,false,true,false,https://html.spec.whatwg.org/multipage/tables.html#the-col-element,WHATWG
 html/elements/col/align,,,,,,,,false,true,true,,NONE
-html/elements/col/bgcolor,,,,,,,,false,true,true,,NONE
+html/elements/col/bgcolor,,1,,1,,1,,false,true,true,,NONE
 html/elements/col/char,,,,,,,,false,true,true,,NONE
 html/elements/col/charoff,,,,,,,,false,true,true,,NONE
 html/elements/col/span,,1,,1,,true,,false,true,false,,NONE
@@ -9563,7 +9563,7 @@ html/elements/col/valign,,,,,,,,false,true,true,,NONE
 html/elements/col/width,,1,,1,,true,,false,true,true,,NONE
 html/elements/colgroup,,1,,1,,true,,false,true,false,https://html.spec.whatwg.org/multipage/tables.html#the-colgroup-element,WHATWG
 html/elements/colgroup/align,,,,,,,,false,true,true,,NONE
-html/elements/colgroup/bgcolor,,,,,,,,false,true,true,,NONE
+html/elements/colgroup/bgcolor,,1,,1,,1,,false,true,true,,NONE
 html/elements/colgroup/char,,,,,,,,false,true,true,,NONE
 html/elements/colgroup/charoff,,,,,,,,false,true,true,,NONE
 html/elements/colgroup/span,,1,,1,,true,,false,true,false,,NONE
@@ -9929,10 +9929,10 @@ html/elements/section,,4,,5,,5,,false,true,false,https://html.spec.whatwg.org/mu
 html/elements/select,,1,,true,,true,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#the-select-element,WHATWG
 html/elements/select/disabled,,1,,true,,true,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-disabled,WHATWG
 html/elements/select/form,,1,,true,,true,,false,true,false,,NONE
-html/elements/select/multiple,,1,,true,,true,,false,true,false,,NONE
+html/elements/select/multiple,,1,,true,,true,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-select-multiple,WHATWG
 html/elements/select/name,,1,,true,,true,,false,true,false,,NONE
-html/elements/select/required,,4,,true,,true,,false,true,false,,NONE
-html/elements/select/size,,1,,true,,true,,false,true,false,,NONE
+html/elements/select/required,,4,,true,,true,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-select-required,WHATWG
+html/elements/select/size,,1,,true,,true,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-select-size,WHATWG
 html/elements/shadow,,,,35,,,,false,false,true,,NONE
 html/elements/slot,,63,,53,,10,,false,true,false,https://html.spec.whatwg.org/multipage/scripting.html#the-slot-element,WHATWG
 html/elements/slot/name,,63,,53,,10,,false,true,false,,NONE
@@ -9957,7 +9957,7 @@ html/elements/summary/display_list_item,,49,,89,,,,false,true,false,,NONE
 html/elements/sup,,1,,true,,true,,false,true,false,https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-sub-and-sup-elements,WHATWG
 html/elements/table,,1,,1,,true,,false,true,false,https://html.spec.whatwg.org/multipage/tables.html#the-table-element,WHATWG
 html/elements/table/align,,1,,1,,true,,false,true,true,,NONE
-html/elements/table/bgcolor,,1,,1,,true,,false,true,true,,NONE
+html/elements/table/bgcolor,,1,,1,,1,,false,true,true,,NONE
 html/elements/table/border,,1,,1,,true,,false,true,true,,NONE
 html/elements/table/cellpadding,,1,,1,,true,,false,true,true,,NONE
 html/elements/table/cellspacing,,1,,1,,true,,false,true,true,,NONE
@@ -9967,7 +9967,7 @@ html/elements/table/summary,,1,,1,,true,,false,true,true,,NONE
 html/elements/table/width,,1,,1,,true,,false,true,true,,NONE
 html/elements/tbody,,1,,1,,true,,false,true,false,https://html.spec.whatwg.org/multipage/tables.html#the-tbody-element,WHATWG
 html/elements/tbody/align,,,,,,,,false,true,true,,NONE
-html/elements/tbody/bgcolor,,,,,,,,false,true,true,,NONE
+html/elements/tbody/bgcolor,,1,,1,,1,,false,true,true,,NONE
 html/elements/tbody/char,,,,,,,,false,true,true,,NONE
 html/elements/tbody/charoff,,,,,,,,false,true,true,,NONE
 html/elements/tbody/valign,,,,,,,,false,true,true,,NONE
@@ -9975,7 +9975,7 @@ html/elements/td,,1,,1,,true,,false,true,false,https://html.spec.whatwg.org/mult
 html/elements/td/abbr,,1,,1,,true,,false,true,true,,NONE
 html/elements/td/align,,,,,,,,false,true,true,,NONE
 html/elements/td/axis,,1,,1,,true,,false,true,true,,NONE
-html/elements/td/bgcolor,,,,,,,,false,true,true,,NONE
+html/elements/td/bgcolor,,1,,1,,1,,false,true,true,,NONE
 html/elements/td/char,,,,,,,,false,true,true,,NONE
 html/elements/td/charoff,,,,,,,,false,true,true,,NONE
 html/elements/td/colspan,,1,,1,,true,,false,true,false,,NONE
@@ -10005,7 +10005,7 @@ html/elements/textarea/spellcheck,,true,,true,,true,,false,true,false,,NONE
 html/elements/textarea/wrap,,4,,16,,6,,false,true,false,,NONE
 html/elements/tfoot,,1,,1,,true,,false,true,false,https://html.spec.whatwg.org/multipage/tables.html#the-tfoot-element,WHATWG
 html/elements/tfoot/align,,,,,,,,false,true,true,,NONE
-html/elements/tfoot/bgcolor,,,,,,,,false,true,true,,NONE
+html/elements/tfoot/bgcolor,,1,,1,,1,,false,true,true,,NONE
 html/elements/tfoot/char,,,,,,,,false,true,true,,NONE
 html/elements/tfoot/charoff,,,,,,,,false,true,true,,NONE
 html/elements/tfoot/valign,,,,,,,,false,true,true,,NONE
@@ -10013,7 +10013,7 @@ html/elements/th,,1,,1,,true,,false,true,false,https://html.spec.whatwg.org/mult
 html/elements/th/abbr,,1,,1,,true,,false,true,false,,NONE
 html/elements/th/align,,,,,,,,false,true,true,,NONE
 html/elements/th/axis,,1,,1,,true,,false,true,true,,NONE
-html/elements/th/bgcolor,,,,,,,,false,true,true,,NONE
+html/elements/th/bgcolor,,1,,1,,1,,false,true,true,,NONE
 html/elements/th/char,,,,,,,,false,true,true,,NONE
 html/elements/th/charoff,,,,,,,,false,true,true,,NONE
 html/elements/th/colspan,,1,,1,,true,,false,true,false,,NONE
@@ -10025,7 +10025,7 @@ html/elements/th/valign,,,,,,,,false,true,true,,NONE
 html/elements/th/width,,1,,1,,true,,false,true,true,,NONE
 html/elements/thead,,1,,1,,true,,false,true,false,https://html.spec.whatwg.org/multipage/tables.html#the-thead-element,WHATWG
 html/elements/thead/align,,,,,,,,false,true,true,,NONE
-html/elements/thead/bgcolor,,,,,,,,false,true,true,,NONE
+html/elements/thead/bgcolor,,1,,1,,1,,false,true,true,,NONE
 html/elements/thead/char,,,,,,,,false,true,true,,NONE
 html/elements/thead/charoff,,,,,,,,false,true,true,,NONE
 html/elements/thead/valign,,,,,,,,false,true,true,,NONE
@@ -10034,7 +10034,7 @@ html/elements/time/datetime,,22,,62,,7,,false,true,false,,NONE
 html/elements/title,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/semantics.html#the-title-element,WHATWG
 html/elements/tr,,1,,1,,true,,false,true,false,https://html.spec.whatwg.org/multipage/tables.html#the-tr-element,WHATWG
 html/elements/tr/align,,,,,,,,false,true,true,,NONE
-html/elements/tr/bgcolor,,,,,,,,false,true,true,,NONE
+html/elements/tr/bgcolor,,1,,1,,1,,false,true,true,,NONE
 html/elements/tr/char,,,,,,,,false,true,true,,NONE
 html/elements/tr/charoff,,,,,,,,false,true,true,,NONE
 html/elements/tr/valign,,,,,,,,false,true,true,,NONE
