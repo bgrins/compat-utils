@@ -1695,7 +1695,7 @@ api/Element/scrollTop,,1,,1,,1,,false,true,false,https://w3c.github.io/csswg-dra
 api/Element/scrollTopMax,,16,,,,,,false,false,false,,NONE
 api/Element/scrollWidth,,1,,1,,1,,false,true,false,https://w3c.github.io/csswg-drafts/cssom-view/#dom-element-scrollwidth,W3C
 api/Element/scroll_event,,6,,1,,1.3,,false,true,false,https://w3c.github.io/csswg-drafts/cssom-view/#eventdef-document-scroll,W3C
-api/Element/securitypolicyviolation_event,,63,,41,,10,,false,true,true,https://html.spec.whatwg.org/multipage/indices.html#event-securitypolicyviolation,WHATWG
+api/Element/securitypolicyviolation_event,,63,,41,,10,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-securitypolicyviolation,WHATWG
 api/Element/setAttribute,,1,,1,,1,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-element-setattribute①,WHATWG
 api/Element/setAttributeNS,,1,,1,,1,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-element-setattributens①,WHATWG
 api/Element/setAttributeNode,,1,,1,,1,,false,true,false,https://dom.spec.whatwg.org/#dom-element-setattributenode,WHATWG
@@ -1968,8 +1968,9 @@ api/FileSystemFileEntry,,50,,8,,11.1,,false,true,false,https://wicg.github.io/en
 api/FileSystemFileEntry/createWriter,,50,,8,,,,false,false,true,,NONE
 api/FileSystemFileEntry/file,,50,,8,,11.1,,false,true,false,https://wicg.github.io/entries-api/#dom-filesystemfileentry-file,W3CCG
 api/FileSystemFileHandle,,,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemfilehandle,WHATWG
+api/FileSystemFileHandle/createSyncAccessHandle,,,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemfilehandle-createsyncaccesshandle,WHATWG
 api/FileSystemFileHandle/createWritable,,,,86,,preview,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemfilehandle-createwritable,WHATWG
-api/FileSystemFileHandle/getFile,,,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemfilehandle-getfile,WHATWG
+api/FileSystemFileHandle/getFile,,,,86,,15.5,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemfilehandle-getfile,WHATWG
 api/FileSystemHandle,,,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemhandle,WHATWG
 api/FileSystemHandle/isSameEntry,,,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemhandle-issameentry,WHATWG
 api/FileSystemHandle/kind,,,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#ref-for-dom-filesystemhandle-kind①,WHATWG
@@ -1979,6 +1980,17 @@ api/FileSystemHandle/requestPermission,,,,86,,,,true,true,false,https://wicg.git
 api/FileSystemSync,,,,13,,6,,false,false,true,,NONE
 api/FileSystemSync/name,,,,13,,6,,false,false,true,,NONE
 api/FileSystemSync/root,,,,13,,6,,false,false,true,,NONE
+api/FileSystemSyncAccessHandle,,,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle,WHATWG
+api/FileSystemSyncAccessHandle/close,,,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-close,WHATWG
+api/FileSystemSyncAccessHandle/close/sync_version,,,,108,"[{""name"":""Sync Access Handle All Sync Surface"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,,NONE
+api/FileSystemSyncAccessHandle/flush,,,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-flush,WHATWG
+api/FileSystemSyncAccessHandle/flush/sync_version,,,,108,"[{""name"":""Sync Access Handle All Sync Surface"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,,NONE
+api/FileSystemSyncAccessHandle/getSize,,,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-getsize,WHATWG
+api/FileSystemSyncAccessHandle/getSize/sync_version,,,,108,"[{""name"":""Sync Access Handle All Sync Surface"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,,NONE
+api/FileSystemSyncAccessHandle/read,,,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-read,WHATWG
+api/FileSystemSyncAccessHandle/truncate,,,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-truncate,WHATWG
+api/FileSystemSyncAccessHandle/truncate/sync_version,,,,108,"[{""name"":""Sync Access Handle All Sync Surface"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,,NONE
+api/FileSystemSyncAccessHandle/write,,,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-write,WHATWG
 api/FileSystemWritableFileStream,,,,86,,,,true,true,false,https://fs.spec.whatwg.org/#api-filesystemwritablefilestream,WHATWG
 api/FileSystemWritableFileStream/seek,,,,86,,,,true,true,false,https://fs.spec.whatwg.org/#api-filesystemwritablefilestream-seek,WHATWG
 api/FileSystemWritableFileStream/truncate,,,,86,,,,true,true,false,https://fs.spec.whatwg.org/#api-filesystemwritablefilestream-truncate,WHATWG
@@ -3209,6 +3221,10 @@ api/ImageTrackList/selectedIndex,,,,94,,,,true,true,false,https://w3c.github.io/
 api/ImageTrackList/selectedTrack,,,,94,,,,true,true,false,https://w3c.github.io/webcodecs/#dom-imagetracklist-selectedtrack,W3C
 api/Ink,,,,94,,,,true,true,false,https://wicg.github.io/ink-enhancement/#ink-interface,W3CCG
 api/Ink/requestPresenter,,,,94,,,,true,true,false,https://wicg.github.io/ink-enhancement/#dom-ink-requestpresenter,W3CCG
+api/InkPresenter,,,,94,,,,true,true,false,https://wicg.github.io/ink-enhancement/#ink-presenter,W3CCG
+api/InkPresenter/expectedImprovement,,,,94,,,,true,true,false,https://wicg.github.io/ink-enhancement/#dom-inkpresenter-expectedimprovement,W3CCG
+api/InkPresenter/presentationArea,,,,94,,,,true,true,false,https://wicg.github.io/ink-enhancement/#dom-inkpresenter-presentationarea,W3CCG
+api/InkPresenter/updateInkTrailStartPoint,,,,94,,,,true,true,false,https://wicg.github.io/ink-enhancement/#dom-inkpresenter-updateinktrailstartpoint,W3CCG
 api/InputDeviceCapabilities,,,,47,,,,true,true,false,https://wicg.github.io/input-device-capabilities/#dom-inputdevicecapabilities,W3CCG
 api/InputDeviceCapabilities/InputDeviceCapabilities,,,,47,,,,true,true,false,https://wicg.github.io/input-device-capabilities/#dom-inputdevicecapabilities-constructor,W3CCG
 api/InputDeviceCapabilities/firesTouchEvents,,,,47,,,,true,true,false,https://wicg.github.io/input-device-capabilities/#dom-inputdevicecapabilities-firestouchevents,W3CCG
@@ -4377,10 +4393,10 @@ api/PerformanceLongTaskTiming,,,,58,,,,true,true,false,https://w3c.github.io/lon
 api/PerformanceLongTaskTiming/attribution,,,,58,,,,true,true,false,https://w3c.github.io/longtasks/#dom-performancelongtasktiming-attribution,W3C
 api/PerformanceLongTaskTiming/toJSON,,,,58,,,,true,true,false,https://w3c.github.io/longtasks/#dom-performancelongtasktiming-tojson,W3C
 api/PerformanceMark,,38,,28,,11,,false,true,false,https://w3c.github.io/user-timing/#performancemark,W3C
-api/PerformanceMark/PerformanceMark,,,,76,,14.1,,false,true,false,https://w3c.github.io/user-timing/#dom-performancemark-constructor,W3C
-api/PerformanceMark/detail,,,,76,,14.1,,false,true,false,https://w3c.github.io/user-timing/#dom-performancemark-detail,W3C
+api/PerformanceMark/PerformanceMark,,101,,76,,14.1,,false,true,false,https://w3c.github.io/user-timing/#dom-performancemark-constructor,W3C
+api/PerformanceMark/detail,,101,,76,,14.1,,false,true,false,https://w3c.github.io/user-timing/#dom-performancemark-detail,W3C
 api/PerformanceMeasure,,38,,25,,11,,false,true,false,https://w3c.github.io/user-timing/#performancemeasure,W3C
-api/PerformanceMeasure/detail,,,,78,,14.1,,false,true,false,https://w3c.github.io/user-timing/#dom-performancemeasure-detail,W3C
+api/PerformanceMeasure/detail,,103,,78,,14.1,,false,true,false,https://w3c.github.io/user-timing/#dom-performancemeasure-detail,W3C
 api/PerformanceNavigation,,7,,10,,8,,false,true,true,,NONE
 api/PerformanceNavigation/redirectCount,,7,,10,,8,,false,true,true,https://w3c.github.io/navigation-timing/#dom-performancenavigation-redirectcount,W3C
 api/PerformanceNavigation/toJSON,,25,,56,,14.1,,false,true,true,https://w3c.github.io/navigation-timing/#dom-performancenavigation-tojson,W3C
@@ -4421,6 +4437,7 @@ api/PerformanceResourceTiming/initiatorType,,31,,43,,11,,false,true,false,https:
 api/PerformanceResourceTiming/nextHopProtocol,,45,,61,,11,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-nexthopprotocol,W3C
 api/PerformanceResourceTiming/redirectEnd,,31,,43,,11,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-redirectend,W3C
 api/PerformanceResourceTiming/redirectStart,,31,,43,,11,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-redirectstart,W3C
+api/PerformanceResourceTiming/renderBlockingStatus,,,,107,,,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-renderblockingstatus,W3C
 api/PerformanceResourceTiming/requestStart,,31,,43,,11,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-requeststart,W3C
 api/PerformanceResourceTiming/responseEnd,,31,,43,,11,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-responseend,W3C
 api/PerformanceResourceTiming/responseStart,,31,,43,,11,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-responsestart,W3C
@@ -7443,7 +7460,7 @@ api/WorkerGlobalScope/location,,3.5,,4,,4,,false,true,false,https://html.spec.wh
 api/WorkerGlobalScope/navigator,,3.5,,4,,4,,false,true,false,https://html.spec.whatwg.org/multipage/workers.html#dom-worker-navigator-dev,WHATWG
 api/WorkerGlobalScope/offline_event,,29,,,,8,,false,true,false,https://html.spec.whatwg.org/multipage/workers.html#handler-workerglobalscope-onoffline,WHATWG
 api/WorkerGlobalScope/online_event,,29,,,,8,,false,true,false,https://html.spec.whatwg.org/multipage/workers.html#handler-workerglobalscope-ononline,WHATWG
-api/WorkerGlobalScope/securitypolicyviolation_event,,63,,41,,10,,false,true,true,https://html.spec.whatwg.org/multipage/indices.html#event-securitypolicyviolation,WHATWG
+api/WorkerGlobalScope/securitypolicyviolation_event,,63,,41,,10,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-securitypolicyviolation,WHATWG
 api/WorkerGlobalScope/self,,3.5,,4,,4,,false,true,false,https://html.spec.whatwg.org/multipage/workers.html#dom-workerglobalscope-self-dev,WHATWG
 api/WorkerLocation,,3.5,,3,,4,,false,true,false,https://html.spec.whatwg.org/multipage/workers.html#worker-locations,WHATWG
 api/WorkerLocation/hash,,3.5,,3,,4,,false,true,false,https://html.spec.whatwg.org/multipage/workers.html#dom-workerlocation-hash,WHATWG
@@ -8099,6 +8116,7 @@ css/properties/animation-iteration-count,,16,,43,,9,,false,true,false,https://w3
 css/properties/animation-name,,16,,43,,9,,false,true,false,https://w3c.github.io/csswg-drafts/css-animations/#animation-name,W3C
 css/properties/animation-play-state,,16,,43,,9,,false,true,false,https://w3c.github.io/csswg-drafts/css-animations/#animation-play-state,W3C
 css/properties/animation-timeline,,97,"[{""name"":""layout.css.scroll-linked-animations.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://w3c.github.io/csswg-drafts/css-animations-2/#animation-timeline,W3C
+css/properties/animation-timeline/scroll,,101,"[{""name"":""layout.css.scroll-linked-animations.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://w3c.github.io/csswg-drafts/scroll-animations-1/#funcdef-scroll,W3C
 css/properties/animation-timing-function,,16,,43,,9,,false,true,false,https://w3c.github.io/csswg-drafts/css-animations/#animation-timing-function,W3C
 css/properties/animation-timing-function/jump,,65,,77,,14,,false,true,false,,NONE
 css/properties/appearance,,80,,84,,15.4,,false,true,false,https://w3c.github.io/csswg-drafts/css-ui/#appearance-switching,W3C
@@ -8901,7 +8919,7 @@ css/properties/scroll-snap-destination,,39,,,,,,false,false,true,,NONE
 css/properties/scroll-snap-points-x,,39,,,,9,,false,false,true,,NONE
 css/properties/scroll-snap-points-y,,39,,,,9,,false,false,true,,NONE
 css/properties/scroll-snap-stop,,103,,75,,15,,false,true,false,https://w3c.github.io/csswg-drafts/css-scroll-snap/#scroll-snap-stop,W3C
-css/properties/scroll-snap-type,,68,,69,,11,,false,true,false,https://w3c.github.io/csswg-drafts/css-scroll-snap/#scroll-snap-type,W3C
+css/properties/scroll-snap-type,,99,,69,,11,,false,true,false,https://w3c.github.io/csswg-drafts/css-scroll-snap/#scroll-snap-type,W3C
 css/properties/scroll-snap-type-x,,39,,,,9,,false,false,true,,NONE
 css/properties/scroll-snap-type-y,,39,,,,,,false,false,true,,NONE
 css/properties/scroll-timeline,,103,"[{""name"":""layout.css.scroll-linked-animations.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://w3c.github.io/csswg-drafts/scroll-animations/#scroll-timeline-shorthand,W3C
