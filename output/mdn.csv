@@ -4872,7 +4872,7 @@ api/RTCPeerConnection/setLocalDescription,,22,,24,,11,,false,true,false,https://
 api/RTCPeerConnection/setLocalDescription/description_parameter_optional,,75,,80,,14.1,,false,true,false,,NONE
 api/RTCPeerConnection/setLocalDescription/returns_promise,,66,,50,,11,,false,true,false,,NONE
 api/RTCPeerConnection/setRemoteDescription,,22,,24,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-peerconnection-setremotedescription,W3C
-api/RTCPeerConnection/setRemoteDescription/implicit_rollback,,70,,80,,preview,,false,true,false,,NONE
+api/RTCPeerConnection/setRemoteDescription/implicit_rollback,,70,,80,,15.4,,false,true,false,,NONE
 api/RTCPeerConnection/setRemoteDescription/returns_promise,,66,,50,,11,,false,true,false,,NONE
 api/RTCPeerConnection/signalingState,,24,,26,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-peerconnection-signaling-state,W3C
 api/RTCPeerConnection/signalingstatechange_event,,36,,28,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#event-signalingstatechange,W3C
@@ -8035,7 +8035,6 @@ css/at-rules/supports,,22,,28,,9,,false,true,false,https://w3c.github.io/csswg-d
 css/at-rules/supports/font-format,,106,,,,,,false,true,false,,NONE
 css/at-rules/supports/font-tech,,106,,,,,,false,true,false,,NONE
 css/at-rules/supports/selector,,69,,83,,14.1,,false,true,false,,NONE
-css/at-rules/viewport,,,,,,,,false,false,true,,NONE
 css/properties/-moz-binding,,1,,,,,,false,false,true,,NONE
 css/properties/-moz-float-edge,,1,,,,,,false,false,true,,NONE
 css/properties/-moz-force-broken-image-icon,,1,,,,,,false,false,true,,NONE
@@ -8795,6 +8794,7 @@ css/properties/mix-blend-mode/plus-lighter,,99,,100,,9.1,,false,true,false,,NONE
 css/properties/mix-blend-mode/svg,,32,,41,,,,false,true,false,,NONE
 css/properties/object-fit,,36,,32,,10,,false,true,false,https://w3c.github.io/csswg-drafts/css-images/#the-object-fit,W3C
 css/properties/object-position,,36,,32,,10,,false,true,false,https://w3c.github.io/csswg-drafts/css-images/#the-object-position,W3C
+css/properties/object-view-box,,,,104,,,,true,true,false,https://w3c.github.io/csswg-drafts/css-images-4/#the-object-view-box,W3C
 css/properties/offset,,72,,55,,16,,false,true,false,https://drafts.fxtf.org/motion/#offset-shorthand,W3C
 css/properties/offset-anchor,,72,,,,,,false,true,false,https://drafts.fxtf.org/motion/#offset-anchor-property,W3C
 css/properties/offset-distance,,72,,55,,,,false,true,false,https://drafts.fxtf.org/motion/#offset-distance-property,W3C
@@ -8807,7 +8807,7 @@ css/properties/opacity,,1,,1,,2,,false,true,false,https://w3c.github.io/csswg-dr
 css/properties/opacity/percentages,,70,,78,,,,false,true,false,,NONE
 css/properties/order,,20,,29,,9,,false,true,false,https://w3c.github.io/csswg-drafts/css-display/#order-property,W3C
 css/properties/orphans,,,,25,,1.3,,false,true,false,https://w3c.github.io/csswg-drafts/css-break/#widows-orphans,W3C
-css/properties/outline,,1.5,,1,,1.2,,false,true,false,https://w3c.github.io/csswg-drafts/css-ui/#outline,W3C
+css/properties/outline,,88,,94,,1.2,,false,true,false,https://w3c.github.io/csswg-drafts/css-ui/#outline,W3C
 css/properties/outline/invert,,1,,,,,,false,true,false,https://w3c.github.io/csswg-drafts/css-ui/#valdef-outline-color-invert,W3C
 css/properties/outline-color,,1.5,,1,,1.2,,false,true,false,https://w3c.github.io/csswg-drafts/css-ui/#outline-color,W3C
 css/properties/outline-color/invert,,1,,,,,,false,true,false,,NONE
