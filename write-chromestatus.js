@@ -1,6 +1,14 @@
 import features from "https://chromestatus.com/features_v2.json" assert { type: "json" };
 import { json_to_csv } from "./deps.js";
 
+let allTags = new Map();
+features.forEach((f) =>
+  f.tags?.forEach((t) => allTags.set(t, (allTags.get(t) || 0) + 1))
+);
+allTags = new Map([...allTags.entries()].sort((a, b) => b[1] - a[1]));
+
+console.log("Tags -> ", allTags);
+
 let featureMeta = features
   .map((feat) => {
     return {
