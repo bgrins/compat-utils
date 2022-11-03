@@ -9,30 +9,32 @@ allTags = new Map([...allTags.entries()].sort((a, b) => b[1] - a[1]));
 
 console.log("Tags -> ", allTags);
 
+function summarizeString(str, len = 100) {
+  return str
+    ?.substring(0, len)
+    .replaceAll("\r\n", " ")
+    .replaceAll("\n", " ")
+    .replaceAll("\r", " ");
+}
+
 let featureMeta = features
   .map((feat) => {
     return {
       id: feat.id,
       url: `https://chromestatus.com/feature/${feat.id}`,
       name: feat.name,
-      summary: feat.summary
-        ?.substring(0, 100)
-        .replaceAll("\r\n", " ")
-        .replaceAll("\n", " "),
+      summary: summarizeString(feat.summary),
       standards_spec: feat.standards.spec,
       standards_maturity: feat.standards.maturity.short_text,
       fx_view_url: feat.browsers.ff.view.url,
       fx_view_text: feat.browsers.ff.view.text,
       wpt: feat.wpt,
-      wpt_desc: feat.wpt_descr
-        ?.substring(0, 200)
-        .replaceAll("\r\n", " ")
-        .replaceAll("\n", " "),
-      interop_compat_risks: feat.interop_compat_risks
-        ?.substring(0, 100)
-        .replaceAll("\r\n", " ")
-        .replaceAll("\n", " "),
+      wpt_desc: summarizeString(feat.wpt_descr),
+      interop_compat_risks: summarizeString(feat.interop_compat_risks),
       updated: feat.updated.when,
+      created: feat.created.when,
+      creator: feat.creator,
+      tag_review: summarizeString(feat.tag_review),
     };
   })
   .sort((a, b) => {
