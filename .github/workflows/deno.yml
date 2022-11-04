@@ -32,20 +32,14 @@ jobs:
         with:
           deno-version: v1.x
 
-      # Uncomment this step to verify the use of 'deno fmt' on each commit.
-      # - name: Verify formatting
-      #   run: deno fmt --check
-
-      # - name: Run linter
-      #   run: deno lint
-
       - name: Run script
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: GH_TOKEN=$GH_TOKEN deno run -A write-all.js
 
-      # - name: Create report file
-      #   run: date +%s > output/lastaction.txt
+
+      - name: Create sqlite
+        run: ./create-sqlite.sh
 
       - name: Commit report
         run: |

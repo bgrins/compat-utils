@@ -1,0 +1,41 @@
+
+rm -f data.sqlite && sqlite3 data.sqlite -cmd ".mode csv" \
+  ".import ./output/WICG-webcomponents-prs.csv WICG_webcomponents_prs" \
+  ".import ./output/WICG-webcomponents.csv WICG_webcomponents" \
+  ".import ./output/all-comments.csv all_comments" \
+  ".import ./output/caniuse-omit-unoff.csv caniuse_omit_unoff" \
+  ".import ./output/caniuse.csv caniuse" \
+  ".import ./output/chromestatus.csv chromestatus" \
+  ".import ./output/design-reviews.csv design_reviews" \
+  ".import ./output/lastaction.txt lastaction" \
+  ".import ./output/mdn.csv mdn" \
+  ".import ./output/mozilla-standards-positions-prs.csv mozilla_standards_positions_prs" \
+  ".import ./output/mozilla-standards-positions.csv mozilla_standards_positions" \
+  ".import ./output/standards-positions.csv standards_positions" \
+  ".import ./output/w3c-clipboard-apis-prs.csv w3c_clipboard_apis_prs" \
+  ".import ./output/w3c-clipboard-apis.csv w3c_clipboard_apis" \
+  ".import ./output/w3c-editcontext-prs.csv w3c_editcontext_prs" \
+  ".import ./output/w3c-editcontext.csv w3c_editcontext" \
+  ".import ./output/w3c-editing-prs.csv w3c_editing_prs" \
+  ".import ./output/w3c-editing.csv w3c_editing" \
+  ".import ./output/w3c-pointerevents-prs.csv w3c_pointerevents_prs" \
+  ".import ./output/w3c-pointerevents.csv w3c_pointerevents" \
+  ".import ./output/w3c-pointerlock-prs.csv w3c_pointerlock_prs" \
+  ".import ./output/w3c-pointerlock.csv w3c_pointerlock" \
+  ".import ./output/w3ctag-design-reviews-prs.csv w3ctag_design_reviews_prs" \
+  ".import ./output/w3ctag-design-reviews.csv w3ctag_design_reviews" \
+  ".import ./output/webkit-standards-positions-prs.csv webkit_standards_positions_prs" \
+  ".import ./output/webkit-standards-positions.csv webkit_standards_positions" \
+  ".import ./output/whatwg-dom-prs.csv whatwg_dom_prs" \
+  ".import ./output/whatwg-dom.csv whatwg_dom" \
+  ".import ./output/whatwg-encoding-prs.csv whatwg_encoding_prs" \
+  ".import ./output/whatwg-encoding.csv whatwg_encoding" \
+  ".import ./output/whatwg-fullscreen-prs.csv whatwg_fullscreen_prs" \
+  ".import ./output/whatwg-fullscreen.csv whatwg_fullscreen" \
+  ".import ./output/whatwg-html-prs.csv whatwg_html_prs" \
+  ".import ./output/whatwg-html.csv whatwg_html" \
+  ".import ./output/whatwg-notifications-prs.csv whatwg_notifications_prs" \
+  ".import ./output/whatwg-notifications.csv whatwg_notifications" \
+  ".import ./output/whatwg-webidl-prs.csv whatwg_webidl_prs" \
+  ".import ./output/whatwg-webidl.csv whatwg_webidl" \
+  ".exit"
