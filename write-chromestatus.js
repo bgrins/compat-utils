@@ -18,6 +18,7 @@ function summarizeString(str, len = 100) {
 }
 
 let featureMeta = features
+  .filter((feat) => !feat.deleted)
   .map((feat) => {
     return {
       id: feat.id,
@@ -34,6 +35,8 @@ let featureMeta = features
       updated: feat.updated.when,
       created: feat.created.when,
       creator: feat.creator,
+      category: feat.category,
+      intent_stage: feat.intent_stage,
       tag_review: summarizeString(feat.tag_review),
     };
   })
