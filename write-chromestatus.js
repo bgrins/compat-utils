@@ -37,6 +37,8 @@ let featureMeta = features
       creator: feat.creator,
       category: feat.category,
       intent_stage: feat.intent_stage,
+      blink_component: feat.browsers.chrome.blink_components[0],
+      bug: feat.browsers.chrome.bug,
       status_text: feat.browsers.chrome.status.text,
       tag_review: summarizeString(feat.tag_review),
     };
