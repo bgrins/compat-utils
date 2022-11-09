@@ -1969,7 +1969,7 @@ api/FileSystemFileEntry/createWriter,,50,,8,,,,false,false,true,,NONE
 api/FileSystemFileEntry/file,,50,,8,,11.1,,false,true,false,https://wicg.github.io/entries-api/#dom-filesystemfileentry-file,W3CCG
 api/FileSystemFileHandle,,,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemfilehandle,WHATWG
 api/FileSystemFileHandle/createSyncAccessHandle,,,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemfilehandle-createsyncaccesshandle,WHATWG
-api/FileSystemFileHandle/createWritable,,,,86,,preview,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemfilehandle-createwritable,WHATWG
+api/FileSystemFileHandle/createWritable,,,,86,,,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemfilehandle-createwritable,WHATWG
 api/FileSystemFileHandle/getFile,,,,86,,15.5,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemfilehandle-getfile,WHATWG
 api/FileSystemHandle,,,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemhandle,WHATWG
 api/FileSystemHandle/isSameEntry,,,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemhandle-issameentry,WHATWG
@@ -2457,7 +2457,7 @@ api/HTMLIFrameElement/fetchPriority,,,,,,,,true,true,false,https://wicg.github.i
 api/HTMLIFrameElement/frameBorder,,1,,1,,3,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-iframe-frameborder,WHATWG
 api/HTMLIFrameElement/getSVGDocument,,3.5,,1,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/embedded-content-other.html#dom-media-getsvgdocument-dev,WHATWG
 api/HTMLIFrameElement/height,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/embedded-content-other.html#dom-dim-height,WHATWG
-api/HTMLIFrameElement/loading,,,,77,,,,false,true,false,https://html.spec.whatwg.org/multipage/iframe-embed-object.html#dom-iframe-loading,WHATWG
+api/HTMLIFrameElement/loading,,,,77,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/iframe-embed-object.html#dom-iframe-loading,WHATWG
 api/HTMLIFrameElement/longDesc,,1,,1,,3,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-iframe-longdesc,WHATWG
 api/HTMLIFrameElement/marginHeight,,1,,1,,3,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-iframe-marginheight,WHATWG
 api/HTMLIFrameElement/marginWidth,,1,,1,,3,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-iframe-marginwidth,WHATWG
@@ -8511,6 +8511,7 @@ css/properties/height/max-content,,66,,46,,11,,false,true,false,,NONE
 css/properties/height/min-content,,66,,46,,11,,false,true,false,,NONE
 css/properties/height/stretch,,,,28,,9,,false,true,false,,NONE
 css/properties/hyphenate-character,,98,,106,,5.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-text-4/#propdef-hyphenate-character,W3C
+css/properties/hyphenate-limit-chars,,,,109,,,,false,true,false,https://w3c.github.io/csswg-drafts/css-text-4/#propdef-hyphenate-limit-chars,W3C
 css/properties/hyphens,,43,,55,,5.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-text/#hyphens-property,W3C
 css/properties/hyphens/afrikaans,,8,,,,,,false,true,false,,NONE
 css/properties/hyphens/bosnian,,8,,,,,,false,true,false,,NONE
@@ -9428,7 +9429,7 @@ css/types/resolution/dpcm,,8,,29,,,,false,true,false,,NONE
 css/types/resolution/dpi,,8,,29,,,,false,true,false,,NONE
 css/types/resolution/dppx,,16,,29,,,,false,true,false,,NONE
 css/types/resolution/x,,62,,68,,,,false,true,false,,NONE
-css/types/round,,,,,,15.4,,true,true,false,https://w3c.github.io/csswg-drafts/css-values/#exponent-funcs,W3C
+css/types/round,,,,,,15.4,,true,true,false,https://w3c.github.io/csswg-drafts/css-values/#funcdef-round,W3C
 css/types/shape,,1,,1,,1.3,,false,true,true,https://w3c.github.io/csswg-drafts/css2/#value-def-shape,W3C
 css/types/shape/rect,,1,,1,,1.3,,false,true,true,,NONE
 css/types/sign,,,,,,15.4,,true,true,false,https://w3c.github.io/csswg-drafts/css-values/#sign-funcs,W3C
