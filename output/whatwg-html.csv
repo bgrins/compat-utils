@@ -1,8 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1452974568,false,"Standardize the relation between the popup condition, BarProp.visible, and noopener/noreferrer",https://github.com/whatwg/html/issues/8520,2022-11-17T09:07:24Z,2022-11-17T09:07:24Z,arai-a,,0
 1451858654,false,iframes can still be loaded with frame-src: none,https://github.com/whatwg/html/issues/8517,2022-11-16T15:58:18Z,2022-11-16T15:58:18Z,devsnek,,0
 1450949667,true,"""text/pdf"" is not a valid MIME media type for PDF",https://github.com/whatwg/html/issues/8516,2022-11-16T06:20:49Z,2022-11-16T06:28:52Z,petervwyatt,,0
 1450640430,false,One-time `await`able event listeners,https://github.com/whatwg/html/issues/8513,2022-11-16T01:12:56Z,2022-11-16T05:55:25Z,josephrocca,,0
-1450502378,false,"sandboxFlags is never defined in ""create navigation params by fetching""",https://github.com/whatwg/html/issues/8511,2022-11-15T23:01:07Z,2022-11-15T23:01:07Z,jeremyroman,,0
+1450502378,true,"sandboxFlags is never defined in ""create navigation params by fetching""",https://github.com/whatwg/html/issues/8511,2022-11-15T23:01:07Z,2022-11-17T03:04:06Z,jeremyroman,,0
 1449682450,false,Open `<details>` and `<dialog>` if their content is targeted in the URL fragment,https://github.com/whatwg/html/issues/8509,2022-11-15T12:10:26Z,2022-11-15T13:37:17Z,Boldewyn,,3
 1449329706,false,It's time to reinvent the table element,https://github.com/whatwg/html/issues/8507,2022-11-15T07:51:51Z,2022-11-15T07:51:51Z,NagayamaToshiaki,,0
 1449138951,true,Could we make consume user activation return a boolean?,https://github.com/whatwg/html/issues/8505,2022-11-15T04:16:12Z,2022-11-16T00:04:58Z,marcoscaceres,topic: user activation,0
@@ -12,7 +13,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1444119253,false,Define DefaultLocale and DefaultTimeZone,https://github.com/whatwg/html/issues/8493,2022-11-10T15:34:49Z,2022-11-11T09:38:22Z,annevk,topic: script|integration,0
 1443960448,false,Avoid firing 'load' or 'error' events for <img> when the loaded image didn't change,https://github.com/whatwg/html/issues/8492,2022-11-10T14:00:34Z,2022-11-10T14:00:34Z,zcorpan,topic: img|topic: events|needs compat analysis,0
 1443932590,true,Accidental reverts by navigation and session history rewrite,https://github.com/whatwg/html/issues/8491,2022-11-10T13:42:14Z,2022-11-10T14:09:22Z,zcorpan,,0
-1443033901,false,Screen orientation change events as a special kind of user activation,https://github.com/whatwg/html/issues/8490,2022-11-10T00:57:56Z,2022-11-16T15:21:02Z,marcoscaceres,,0
+1443033901,false,Screen orientation change events as a special kind of user activation,https://github.com/whatwg/html/issues/8490,2022-11-10T00:57:56Z,2022-11-17T09:49:41Z,marcoscaceres,,0
 1442883956,false,Proposal: media time in accordance to playbackrate,https://github.com/whatwg/html/issues/8489,2022-11-09T22:55:02Z,2022-11-11T00:56:25Z,hemanth,addition/proposal|needs implementer interest|topic: media,0
 1438586396,false,"COOP inheritance for popups from cross-origin iframes. ",https://github.com/whatwg/html/issues/8481,2022-11-07T15:53:25Z,2022-11-07T15:53:25Z,hemeryar,,0
 1437482012,false,Headers in quoted content,https://github.com/whatwg/html/issues/8478,2022-11-06T17:38:39Z,2022-11-06T17:38:39Z,RappyPhan,,0
@@ -150,7 +151,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1315859584,true,"""would work also"" ",https://github.com/whatwg/html/issues/8127,2022-07-24T09:45:57Z,2022-07-24T11:11:20Z,winstonDeGreef,,0
 1316359061,false,MediaElement and SyntheticMediaElement,https://github.com/whatwg/html/issues/8129,2022-07-22T21:39:56Z,2022-09-16T19:00:15Z,ysulyma,addition/proposal|topic: media,0
 1315210946,false,Discuss WebGPU integration issues,https://github.com/whatwg/html/issues/8123,2022-07-22T16:34:13Z,2022-08-29T11:01:46Z,fserb,topic: canvas,0
-1313777312,false,Suggestion: You should be able to load module-scripts in the `file://` protocol.,https://github.com/whatwg/html/issues/8121,2022-07-21T20:40:22Z,2022-08-22T23:27:46Z,CalinZBaenen,,0
+1313777312,false,Suggestion: You should be able to load module-scripts in the `file://` protocol.,https://github.com/whatwg/html/issues/8121,2022-07-21T20:40:22Z,2022-11-17T02:50:58Z,CalinZBaenen,,0
 1312599763,false,"Proposal: keep the previous page as a ""menu""",https://github.com/whatwg/html/issues/8119,2022-07-21T04:57:07Z,2022-07-21T04:57:07Z,markmiro,,0
 1311631285,true,"Behavior of createImageBitmap with { imageOrientation: ""flipY"" } is unclear",https://github.com/whatwg/html/issues/8118,2022-07-20T18:08:57Z,2022-11-14T22:03:30Z,junov,topic: canvas,0
 1308221885,false,HTML needs a mechaism for extending the parsing algorithm,https://github.com/whatwg/html/issues/8114,2022-07-18T16:41:40Z,2022-09-13T08:39:00Z,plinss,addition/proposal|topic: parser,1
@@ -288,7 +289,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1194256346,false,Feature proposal: input[mask],https://github.com/whatwg/html/issues/7794,2022-04-06T08:28:15Z,2022-04-06T17:05:28Z,Akxe,addition/proposal|needs implementer interest|topic: forms,2
 1193376515,true,EvenSource BOM definition,https://github.com/whatwg/html/issues/7791,2022-04-05T15:48:34Z,2022-04-05T17:33:02Z,johntalton,clarification|topic: eventsource,0
 1192965142,false,showPicker() doesn't allow detecting whether a picker can be shown,https://github.com/whatwg/html/issues/7790,2022-04-05T10:39:32Z,2022-04-05T17:13:15Z,emilio,topic: forms,2
-1192425309,false,New feature proposal: Popup API,https://github.com/whatwg/html/issues/7785,2022-04-04T23:27:05Z,2022-11-16T20:11:48Z,mfreed7,addition/proposal,1
+1192425309,false,New feature proposal: Popup API,https://github.com/whatwg/html/issues/7785,2022-04-04T23:27:05Z,2022-11-17T06:39:36Z,mfreed7,addition/proposal,1
 1191266112,true,Is behavior of structuredClone() + SharedArrayBuffer + no transfer + no isolation intentional?,https://github.com/whatwg/html/issues/7781,2022-04-04T05:14:01Z,2022-06-08T06:43:39Z,bathos,topic: serialize and transfer,0
 1190641435,true,Event loop uses current high resolution time without a global object,https://github.com/whatwg/html/issues/7776,2022-04-02T13:59:34Z,2022-04-14T16:06:23Z,skyrising,integration,0
 1190036505,false,Translating the HTML standard into Spanish,https://github.com/whatwg/html/issues/7774,2022-04-01T16:35:44Z,2022-04-07T14:08:47Z,MasQueElite,meta,2
