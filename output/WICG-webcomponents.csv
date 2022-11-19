@@ -1,11 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1437765621,false,[scoped-registries] CustomElementRegistry to support SDLC of generic browser entities,https://github.com/WICG/webcomponents/issues/976,2022-11-07T04:59:51Z,2022-11-07T05:01:10Z,sashafirsov,,0
 1421839946,false,URLs should be cool (or: maintain historic URLs),https://github.com/WICG/webcomponents/issues/975,2022-10-25T04:45:32Z,2022-10-25T04:45:32Z,gsnedders,,0
-1417329111,false,Can ElementInternals have ARIA properties pointing inside the shadow root?,https://github.com/WICG/webcomponents/issues/974,2022-10-20T21:34:05Z,2022-11-17T22:16:52Z,nolanlawson,,0
+1417329111,false,Can ElementInternals have ARIA properties pointing inside the shadow root?,https://github.com/WICG/webcomponents/issues/974,2022-10-20T21:34:05Z,2022-11-18T14:35:07Z,nolanlawson,,0
 1414269524,true,A simple conceptual way to create web components with js,https://github.com/WICG/webcomponents/issues/973,2022-10-19T04:32:27Z,2022-11-03T22:25:09Z,codehangen,,0
 1388712403,false,Interaction between ElementInternals (e.g. default ARIA) and declarative shadow DOM,https://github.com/WICG/webcomponents/issues/972,2022-09-28T04:35:02Z,2022-10-20T22:03:19Z,rniwa,shadow-dom|custom-elements|a11y-tracker,2
 1385940722,false," without .html in link rel=""import"" and href in web component",https://github.com/WICG/webcomponents/issues/971,2022-09-26T11:50:41Z,2022-11-03T23:02:40Z,codehangen,,0
-1385361268,false,We need the ability to deregister or undefine custom elements.,https://github.com/WICG/webcomponents/issues/970,2022-09-26T03:36:37Z,2022-11-02T05:13:39Z,johngamble,,1
+1385361268,true,We need the ability to deregister or undefine custom elements.,https://github.com/WICG/webcomponents/issues/970,2022-09-26T03:36:37Z,2022-11-18T19:20:31Z,johngamble,,1
 1363952203,false,[scoped-registries] Interaction with HTML element's overridden constructor steps,https://github.com/WICG/webcomponents/issues/969,2022-09-07T00:49:31Z,2022-10-18T23:19:05Z,xiaochengh,,0
 1360897085,false,Easily provide the template Id to HTMLElement,https://github.com/WICG/webcomponents/issues/968,2022-09-03T16:01:49Z,2022-09-03T16:08:37Z,GabrielBB,,2
 1352835806,false,Interaction between imperative slotting and declarative shadow DOM,https://github.com/WICG/webcomponents/issues/967,2022-08-27T00:02:28Z,2022-10-07T01:02:05Z,rniwa,shadow-dom,0
@@ -195,7 +195,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 302599060,false,HTML module should require a new MIME type,https://github.com/WICG/webcomponents/issues/742,2018-03-06T08:00:42Z,2019-01-31T22:51:31Z,annevk,modules,0
 300070007,false,[Template Instantiation] Review the cloning step,https://github.com/WICG/webcomponents/issues/740,2018-02-25T22:55:18Z,2018-02-27T23:20:58Z,zaclummys,templates,0
 298679099,true,[templates] Template proposal essentials (shave the mustache),https://github.com/WICG/webcomponents/issues/739,2018-02-20T17:22:14Z,2018-02-25T23:26:16Z,yuri-karadzhov,templates,1
-298419670,false,Custom pseudo-classes for host elements via shadow roots (:state),https://github.com/WICG/webcomponents/issues/738,2018-02-19T22:40:30Z,2020-04-28T08:28:07Z,trusktr,shadow-dom|needs concrete proposal,0
+298419670,false,Custom pseudo-classes for host elements via shadow roots (:state),https://github.com/WICG/webcomponents/issues/738,2018-02-19T22:40:30Z,2022-11-18T15:57:28Z,trusktr,shadow-dom|needs concrete proposal,0
 298053301,true,Some sort of guarantee on custom element lifecycle order of events,https://github.com/WICG/webcomponents/issues/737,2018-02-18T02:24:12Z,2018-02-22T07:39:25Z,trusktr,v1|custom-elements|needs consensus,0
 297505644,false,It is unclear how elementFromPoint and elementsFromPoint should work,https://github.com/WICG/webcomponents/issues/736,2018-02-15T16:17:25Z,2018-02-19T21:43:15Z,smaug----,v1|shadow-dom,0
 297503004,false,elementsFromPoint behavior is unclear,https://github.com/WICG/webcomponents/issues/735,2018-02-15T16:10:22Z,2018-02-18T09:58:54Z,smaug----,v1|shadow-dom,0
