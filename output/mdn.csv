@@ -4375,8 +4375,11 @@ api/Performance/getEntries,,35,,28,,11,,false,true,false,https://w3c.github.io/p
 api/Performance/getEntriesByName,,35,,28,,11,,false,true,false,https://w3c.github.io/performance-timeline/#dom-performance-getentriesbyname,W3C
 api/Performance/getEntriesByType,,35,,28,,11,,false,true,false,https://w3c.github.io/performance-timeline/#dom-performance-getentriesbytype,W3C
 api/Performance/mark,,41,,28,,11,,false,true,false,https://w3c.github.io/user-timing/#dom-performance-mark,W3C
+api/Performance/mark/markOptions_parameter,,103,,78,,14.1,,false,true,false,,NONE
+api/Performance/mark/returns_performancemark,,103,,78,,14.1,,false,true,false,,NONE
 api/Performance/measure,,41,,28,,11,,false,true,false,https://w3c.github.io/user-timing/#dom-performance-measure,W3C
-api/Performance/measure/returns_undefined,,41,,25,,11,,false,false,true,,NONE
+api/Performance/measure/measureOptions_parameter,,103,,78,,14.1,,false,true,false,,NONE
+api/Performance/measure/returns_performancemeasure,,103,,78,,14.1,,false,true,false,,NONE
 api/Performance/measureUserAgentSpecificMemory,,,,89,,,,true,true,false,https://wicg.github.io/performance-measure-memory/#ref-for-dom-performance-measureuseragentspecificmemory⑤,W3CCG
 api/Performance/memory,,,,7,,,,false,false,false,,NONE
 api/Performance/navigation,,7,,10,,8,,false,true,true,https://w3c.github.io/navigation-timing/#dom-performance-navigation,W3C
@@ -4437,6 +4440,7 @@ api/PerformanceNavigationTiming/unloadEventEnd,,58,,57,,15,,false,true,false,htt
 api/PerformanceNavigationTiming/unloadEventStart,,58,,57,,15,,false,true,false,https://w3c.github.io/navigation-timing/#dom-performancenavigationtiming-unloadeventstart,W3C
 api/PerformanceObserver,,57,,52,,11,,false,true,false,https://w3c.github.io/performance-timeline/#dom-performanceobserver,W3C
 api/PerformanceObserver/PerformanceObserver,,57,,52,,11,,false,true,false,https://w3c.github.io/performance-timeline/#dom-performanceobserver-constructor,W3C
+api/PerformanceObserver/PerformanceObserver/droppedEntriesCount,,,,95,,,,true,true,false,https://w3c.github.io/performance-timeline/#dom-performanceobservercallbackoptions-droppedentriescount,W3C
 api/PerformanceObserver/disconnect,,57,,52,,11,,false,true,false,https://w3c.github.io/performance-timeline/#dom-performanceobserver-disconnect,W3C
 api/PerformanceObserver/observe,,57,,52,,11,,false,true,false,https://w3c.github.io/performance-timeline/#dom-performanceobserver-observe,W3C
 api/PerformanceObserver/supportedEntryTypes,,68,,73,,13,,false,true,false,https://w3c.github.io/performance-timeline/#supportedentrytypes-attribute,W3C
@@ -9435,12 +9439,12 @@ css/types/length/ic,,97,,106,,15.4,,false,true,false,,NONE
 css/types/length/lh,,,,,,,,true,false,false,,NONE
 css/types/length/rem,,3.6,,4,,5,,false,true,false,,NONE
 css/types/length/rlh,,,,,,,,true,false,false,,NONE
-css/types/length/vb,,101,,,,15.4,,false,true,false,,NONE
+css/types/length/vb,,101,,108,,15.4,,false,true,false,,NONE
 css/types/length/vh,,19,,20,,6,,false,true,false,,NONE
-css/types/length/vi,,101,,,,15.4,,false,true,false,,NONE
-css/types/length/viewport_percentage_units_dynamic,,101,,,,15.4,,false,true,false,,NONE
-css/types/length/viewport_percentage_units_large,,101,,,,15.4,,false,true,false,,NONE
-css/types/length/viewport_percentage_units_small,,101,,,,15.4,,false,true,false,,NONE
+css/types/length/vi,,101,,108,,15.4,,false,true,false,,NONE
+css/types/length/viewport_percentage_units_dynamic,,101,,108,,15.4,,false,true,false,,NONE
+css/types/length/viewport_percentage_units_large,,101,,108,,15.4,,false,true,false,,NONE
+css/types/length/viewport_percentage_units_small,,101,,108,,15.4,,false,true,false,,NONE
 css/types/length/vmax,,19,,26,,7,,false,true,false,,NONE
 css/types/length/vmin,,19,,26,,7,,false,true,false,,NONE
 css/types/length/vw,,19,,20,,6,,false,true,false,,NONE
@@ -10182,6 +10186,7 @@ html/manifest/description,,,,,,,,false,true,false,https://w3c.github.io/manifest
 html/manifest/display,,,,39,,,,false,true,false,https://w3c.github.io/manifest/#display-member,W3C
 html/manifest/display_override,,,,89,,,,true,true,false,https://wicg.github.io/manifest-incubations/#display_override-member,W3CCG
 html/manifest/icons,,,,39,,,,false,true,false,https://w3c.github.io/manifest/#icons-member,W3C
+html/manifest/id,,95,,96,,,,false,true,false,https://w3c.github.io/manifest/#id-member,W3C
 html/manifest/name,,,,39,,,,false,true,false,https://w3c.github.io/manifest/#name-member,W3C
 html/manifest/note_taking,,,,95,,,,true,true,false,https://wicg.github.io/manifest-incubations/#note_taking-member,W3CCG
 html/manifest/note_taking/new_note_url,,,,95,,,,true,true,false,https://wicg.github.io/manifest-incubations/#new_note_url-member,W3CCG
