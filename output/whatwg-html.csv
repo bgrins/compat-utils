@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1456644316,false,H,https://github.com/whatwg/html/issues/8527,2022-11-19T20:13:22Z,2022-11-19T20:13:22Z,carlosoncode,,1
+1456832762,false,A means to extend the life of transient activation,https://github.com/whatwg/html/issues/8529,2022-11-20T09:29:10Z,2022-11-20T09:30:13Z,marcoscaceres,topic: user activation,0
 1455877461,false,"What should happen when the last valid <meta name=""referrer"" content=""...""> tag is removed?",https://github.com/whatwg/html/issues/8525,2022-11-18T22:00:32Z,2022-11-18T22:00:32Z,a4sriniv,,0
 1454655720,false,lazy loading attribute and dynamic insertion of src of a previously requested image outside the viewport,https://github.com/whatwg/html/issues/8524,2022-11-18T08:02:45Z,2022-11-18T10:05:04Z,karlcow,,0
 1453701528,true,Bikeshed: Multiple possible 'environment' dfn refs.,https://github.com/whatwg/html/issues/8522,2022-11-17T17:15:57Z,2022-11-19T03:00:41Z,hober,meta,0
@@ -275,7 +275,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1211933864,false,How can microtasks run without a task?,https://github.com/whatwg/html/issues/7845,2022-04-22T07:26:22Z,2022-04-25T12:35:33Z,annevk,topic: event loop,0
 1210820388,false,Can a nested worker outlive its parent worker?,https://github.com/whatwg/html/issues/7840,2022-04-21T10:17:56Z,2022-04-21T11:51:55Z,andreubotella,topic: workers,0
 1209001363,false,Make self.name writable in DedicatedWorkerGlobalScope,https://github.com/whatwg/html/issues/7838,2022-04-20T00:24:33Z,2022-04-25T20:00:23Z,connorjclark,addition/proposal|topic: workers,2
-1208006942,false,"Rendering of ""bitmaprenderer""-backed canvas",https://github.com/whatwg/html/issues/7833,2022-04-19T08:51:04Z,2022-11-20T00:22:34Z,annevk,topic: canvas|interop,0
+1208006942,false,"Rendering of ""bitmaprenderer""-backed canvas",https://github.com/whatwg/html/issues/7833,2022-04-19T08:51:04Z,2022-11-20T00:49:14Z,annevk,topic: canvas|interop,0
 1207220491,false,Specify back button history-entry skipping?,https://github.com/whatwg/html/issues/7832,2022-04-18T16:35:55Z,2022-10-19T13:53:40Z,domenic,topic: history|interop|topic: user activation,4
 1206401736,true,Proposal: extend FocusOptions to allow specifying `:focus-visible` behavior.,https://github.com/whatwg/html/issues/7830,2022-04-17T15:04:38Z,2022-07-13T03:58:59Z,emilio,addition/proposal|topic: focus,7
 1206214916,true,Obsolete schema.org in examples. OK to fix?,https://github.com/whatwg/html/issues/7825,2022-04-16T20:59:00Z,2022-04-19T12:54:55Z,edent,,0
@@ -762,7 +762,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 833238054,false,A new mode for iframes where they don't add to the joint session history?,https://github.com/whatwg/html/issues/6501,2021-03-16T22:15:48Z,2022-03-16T19:20:28Z,domenic,addition/proposal|topic: navigation|topic: history,0
 832610254,true,"window.OriginAgentCluster is true, but there is no isolation between main page and iFrame",https://github.com/whatwg/html/issues/6499,2021-03-16T09:50:09Z,2021-03-16T20:19:57Z,matteotrapani,,1
 832456892,false,What's the difference between these 2 conditions,https://github.com/whatwg/html/issues/6498,2021-03-16T06:22:35Z,2021-03-16T07:51:05Z,scw00,clarification|topic: sandbox,0
-832103358,true,"New feature proposal: add support for `media` attribute to `<meta name=""theme-color"">`",https://github.com/whatwg/html/issues/6495,2021-03-15T18:59:30Z,2022-01-07T04:57:25Z,dcrousso,addition/proposal,5
+832103358,true,"New feature proposal: add support for `media` attribute to `<meta name=""theme-color"">`",https://github.com/whatwg/html/issues/6495,2021-03-15T18:59:30Z,2022-01-07T04:57:25Z,dcrousso,addition/proposal,6
 831969479,true,Which navigations should add/replace new history entry after initial empty document?,https://github.com/whatwg/html/issues/6491,2021-03-15T16:14:40Z,2022-01-12T17:10:29Z,rakina,topic: navigation|topic: history|interop,0
 831140920,true,"Make theme color a matter of CSS, not HTML?",https://github.com/whatwg/html/issues/6490,2021-03-14T12:11:06Z,2021-03-15T08:46:53Z,j9t,,3
 830995406,true,[Feature request] New events for auto scrolling in css,https://github.com/whatwg/html/issues/6489,2021-03-13T21:05:02Z,2021-03-15T07:55:34Z,yhojann-cl,,0
@@ -1221,7 +1221,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 583429816,false,Link rel=sponsored and rel=ugc (rethinking nofollow),https://github.com/whatwg/html/issues/5367,2020-03-18T03:04:55Z,2020-03-20T08:51:10Z,da2x,addition/proposal|document conformance|impacts documentation,0
 583177615,true,Minimum used line-height of text-entry widget doesn't match implementations,https://github.com/whatwg/html/issues/5366,2020-03-17T17:27:46Z,2022-02-11T00:04:01Z,jfkthame,compat|topic: rendering|interop,0
 583058650,false,ImageData alpha premultiplication,https://github.com/whatwg/html/issues/5365,2020-03-17T14:34:57Z,2020-03-19T02:25:26Z,adroitwhiz,addition/proposal|needs implementer interest|topic: canvas,0
-582897401,false,Report runtime error in shared workers,https://github.com/whatwg/html/issues/5363,2020-03-17T10:07:40Z,2020-03-21T07:35:56Z,elkurin,topic: workers,0
+582897401,false,Report runtime error in shared workers,https://github.com/whatwg/html/issues/5363,2020-03-17T10:07:40Z,2022-11-20T09:36:53Z,elkurin,topic: workers,0
 582892300,false,SharedWorker is racy,https://github.com/whatwg/html/issues/5362,2020-03-17T09:58:52Z,2020-07-08T08:56:14Z,elkurin,topic: workers,0
 581435052,true,Removal of translated versions,https://github.com/whatwg/html/issues/5356,2020-03-15T00:26:44Z,2020-03-15T07:32:55Z,u-n-known,,0
 580291257,false,Proposal: permit `Tel` control group for `tel-national` and other telephone-related autofill fields,https://github.com/whatwg/html/issues/5353,2020-03-13T00:04:44Z,2020-04-11T06:57:24Z,adampage,addition/proposal|needs implementer interest|topic: forms,3
