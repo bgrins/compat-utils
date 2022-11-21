@@ -1,4 +1,4 @@
-Feature Name,Status,Categories,Firefox 108,Safari TP,Chrome 110
+Feature Name,Status,Categories,Firefox 109,Safari TP,Chrome 110
 aac,other,Other,Partial,Yes,Yes
 abortcontroller,ls,JS API,Yes,Yes,Yes
 accelerometer,cr,JS API,No,No,Yes
@@ -95,7 +95,7 @@ css-first-letter,rec,CSS,Yes,Yes,Yes
 css-first-line,rec,CSS3,Yes,Yes,Yes
 css-fixed,rec,CSS,Yes,Yes,Yes
 css-focus-visible,wd,CSS,Yes,Yes,Yes
-css-font-palette,wd,CSS,No,Yes,Yes
+css-font-palette,wd,CSS,Yes,Yes,Yes
 css-font-rendering-controls,wd,CSS,Yes,Yes,Yes
 css-font-stretch,rec,CSS,Yes,Yes,Yes
 css-gencontent,rec,"CSS2,CSS3",Yes,Yes,Yes
@@ -223,7 +223,7 @@ font-family-system-ui,wd,CSS,Yes,Yes,Yes
 font-feature,rec,CSS3,Yes,Yes,Yes
 font-kerning,cr,CSS3,Yes,Yes,Yes
 font-loading,wd,"CSS3,JS API",Yes,Yes,Yes
-font-size-adjust,rec,CSS,Yes,No,No
+font-size-adjust,rec,CSS,Yes,Yes,No
 font-unicode-range,cr,CSS3,Yes,Yes,Yes
 font-variant-alternates,wd,CSS3,Yes,Yes,No
 font-variant-numeric,rec,CSS,Yes,Yes,Yes
@@ -313,7 +313,7 @@ mediarecorder,wd,"DOM,JS API",Yes,Yes,Yes
 mediasource,rec,"DOM,JS API",Yes,Yes,Yes
 meta-theme-color,ls,"DOM,Other",No,Yes,Partial
 meter,ls,HTML5,Yes,Yes,Yes
-midi,wd,JS API,No,No,Yes
+midi,wd,JS API,Yes,No,Yes
 minmaxwh,rec,CSS2,Yes,Yes,Yes
 mp3,other,Other,Yes,Yes,Yes
 mpeg-dash,other,Other,No,No,No
@@ -447,7 +447,7 @@ web-animation,wd,"DOM,JS API",Yes,Yes,Yes
 web-app-manifest,wd,"HTML5,Other",No,No,Yes
 web-share,cr,JS API,No,Yes,Partial
 webauthn,rec,Security,Partial,Yes,Yes
-webcodecs,wd,JS API,No,No,Yes
+webcodecs,wd,JS API,No,Partial,Yes
 webgl,other,Canvas,Yes,Yes,Yes
 webgl2,other,Canvas,Yes,Yes,Yes
 webgpu,wd,JS API,No,No,No
