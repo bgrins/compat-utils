@@ -6,7 +6,6 @@ import {
   json_to_csv,
   fetchWithToken,
 } from "./deps.js";
-
 console.log(`Has an API token? ${!!GH_TOKEN}`);
 
 function mapResponse(data) {
@@ -33,8 +32,7 @@ async function fetchIssues(initialURL) {
     let data = await resp.json();
     let linkHeader = (
       resp.headers.get("Link") ? parseLinkHeader(resp.headers.get("Link")) : []
-    )
-      .find((link) => link.rel == "next");
+    ).find((link) => link.rel == "next");
 
     if (!Array.isArray(data)) {
       console.error(data);
@@ -90,7 +88,4 @@ for (const repo of REPOS) {
       input: prs,
     })
   );
-  // Todo - special case s-p to pull the standards link and other details from first comment
-  if (repo == "mozilla/standards-positions") {
-  }
 }

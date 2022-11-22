@@ -1,4 +1,3 @@
-
 export { default as jmespath } from "https://cdn.skypack.dev/jmespath";
 export { default as moment } from "https://esm.sh/moment";
 export { parseLinkHeader } from "./parselinkheader.js";
@@ -37,6 +36,21 @@ export function json_to_csv({ input, options = {} }) {
   };
   const csv = papaparse.unparse(input, opts);
   return csv;
+}
+
+export function csv_to_json({ input, options = {} }) {
+  let header =
+    options.header === false || options.header === "false" ? false : true;
+  const json = papaparse.parse(input, { header });
+  // Note: this returns an object like `{ data: [], errors: [], meta: [] }`.
+  // Just throw on any error and return `data`
+  if (json.errors.length) {
+    console.error(json);
+    throw new Error(
+      "Error transforming csv to json: " + JSON.stringify(json.errors)
+    );
+  }
+  return json.data;
 }
 
 export function fetchWithToken(url) {
