@@ -11,6 +11,7 @@ let browsers = {
   chrome: agents["chrome"].version_list.at(-1).version,
 };
 
+console.log(browsers)
 let output = [
   [
     "Feature Name",

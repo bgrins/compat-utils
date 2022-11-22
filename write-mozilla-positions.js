@@ -78,7 +78,8 @@ console.table({
 console.log([["id", "position"]].concat(Array.from(combined_issues)));
 Deno.writeTextFileSync(
   `./output/combined-standards-positions.csv`,
-  json_to_csv({
-    input: Array.from(combined_issues),
-  })
+  "id,position\n" +
+    json_to_csv({
+      input: Array.from(combined_issues),
+    })
 );
