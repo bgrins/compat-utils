@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1457097101,false,"Bogus assertion in ""prepare the script element""?",https://github.com/whatwg/html/issues/8534,2022-11-20T23:58:15Z,2022-11-20T23:58:15Z,awesomekling,,0
 1456832762,false,A means to extend the life of transient activation,https://github.com/whatwg/html/issues/8529,2022-11-20T09:29:10Z,2022-11-20T09:30:13Z,marcoscaceres,topic: user activation,0
-1455877461,false,"What should happen when the last valid <meta name=""referrer"" content=""...""> tag is removed?",https://github.com/whatwg/html/issues/8525,2022-11-18T22:00:32Z,2022-11-21T02:18:04Z,a4sriniv,topic: fetch,0
+1455877461,false,"What should happen when the last valid <meta name=""referrer"" content=""...""> tag is removed?",https://github.com/whatwg/html/issues/8525,2022-11-18T22:00:32Z,2022-11-21T16:18:17Z,a4sriniv,topic: fetch,0
 1454655720,false,lazy loading attribute and dynamic insertion of src of a previously requested image outside the viewport,https://github.com/whatwg/html/issues/8524,2022-11-18T08:02:45Z,2022-11-21T02:23:08Z,karlcow,,0
 1453701528,true,Bikeshed: Multiple possible 'environment' dfn refs.,https://github.com/whatwg/html/issues/8522,2022-11-17T17:15:57Z,2022-11-21T01:39:08Z,hober,meta,0
 1452974568,false,"Standardize the relation between the popup condition, BarProp.visible, and noopener/noreferrer",https://github.com/whatwg/html/issues/8520,2022-11-17T09:07:24Z,2022-11-17T09:07:24Z,arai-a,,0
@@ -276,7 +276,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1211933864,false,How can microtasks run without a task?,https://github.com/whatwg/html/issues/7845,2022-04-22T07:26:22Z,2022-04-25T12:35:33Z,annevk,topic: event loop,0
 1210820388,false,Can a nested worker outlive its parent worker?,https://github.com/whatwg/html/issues/7840,2022-04-21T10:17:56Z,2022-04-21T11:51:55Z,andreubotella,topic: workers,0
 1209001363,false,Make self.name writable in DedicatedWorkerGlobalScope,https://github.com/whatwg/html/issues/7838,2022-04-20T00:24:33Z,2022-04-25T20:00:23Z,connorjclark,addition/proposal|topic: workers,2
-1208006942,false,"Rendering of ""bitmaprenderer""-backed canvas",https://github.com/whatwg/html/issues/7833,2022-04-19T08:51:04Z,2022-11-21T08:36:19Z,annevk,topic: canvas|interop,0
+1208006942,false,"Rendering of ""bitmaprenderer""-backed canvas",https://github.com/whatwg/html/issues/7833,2022-04-19T08:51:04Z,2022-11-21T20:31:04Z,annevk,topic: canvas|interop,0
 1207220491,false,Specify back button history-entry skipping?,https://github.com/whatwg/html/issues/7832,2022-04-18T16:35:55Z,2022-10-19T13:53:40Z,domenic,topic: history|interop|topic: user activation,4
 1206401736,true,Proposal: extend FocusOptions to allow specifying `:focus-visible` behavior.,https://github.com/whatwg/html/issues/7830,2022-04-17T15:04:38Z,2022-07-13T03:58:59Z,emilio,addition/proposal|topic: focus,7
 1206214916,true,Obsolete schema.org in examples. OK to fix?,https://github.com/whatwg/html/issues/7825,2022-04-16T20:59:00Z,2022-04-19T12:54:55Z,edent,,0
@@ -294,7 +294,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1194256346,false,Feature proposal: input[mask],https://github.com/whatwg/html/issues/7794,2022-04-06T08:28:15Z,2022-04-06T17:05:28Z,Akxe,addition/proposal|needs implementer interest|topic: forms,2
 1193376515,true,EvenSource BOM definition,https://github.com/whatwg/html/issues/7791,2022-04-05T15:48:34Z,2022-04-05T17:33:02Z,johntalton,clarification|topic: eventsource,0
 1192965142,false,showPicker() doesn't allow detecting whether a picker can be shown,https://github.com/whatwg/html/issues/7790,2022-04-05T10:39:32Z,2022-04-05T17:13:15Z,emilio,topic: forms,2
-1192425309,false,New feature proposal: Popup API,https://github.com/whatwg/html/issues/7785,2022-04-04T23:27:05Z,2022-11-18T14:45:47Z,mfreed7,addition/proposal,1
+1192425309,false,New feature proposal: Popup API,https://github.com/whatwg/html/issues/7785,2022-04-04T23:27:05Z,2022-11-21T22:37:38Z,mfreed7,addition/proposal,1
 1191266112,true,Is behavior of structuredClone() + SharedArrayBuffer + no transfer + no isolation intentional?,https://github.com/whatwg/html/issues/7781,2022-04-04T05:14:01Z,2022-06-08T06:43:39Z,bathos,topic: serialize and transfer,0
 1190641435,true,Event loop uses current high resolution time without a global object,https://github.com/whatwg/html/issues/7776,2022-04-02T13:59:34Z,2022-04-14T16:06:23Z,skyrising,integration,0
 1190036505,false,Translating the HTML standard into Spanish,https://github.com/whatwg/html/issues/7774,2022-04-01T16:35:44Z,2022-04-07T14:08:47Z,MasQueElite,meta,2
@@ -985,7 +985,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 692077232,false,Expose XMP information to the browser (and potentially JavaScript),https://github.com/whatwg/html/issues/5890,2020-09-03T15:38:30Z,2021-10-03T07:33:04Z,lrosenthol,addition/proposal|needs implementer interest|topic: media|topic: img,3
 691678305,true,cross-origin-isolated permission tests,https://github.com/whatwg/html/issues/5888,2020-09-03T06:21:36Z,2020-09-24T01:13:42Z,annevk,needs tests|topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,0
 691162250,false,"Explicitly pass ""perform the fetch"" steps through dependent algorithms",https://github.com/whatwg/html/issues/5887,2020-09-02T16:18:34Z,2020-09-07T10:26:36Z,jugglinmike,clarification,0
-690480691,false,Event bubbling on disabled form elements,https://github.com/whatwg/html/issues/5886,2020-09-01T22:05:15Z,2022-11-15T16:21:39Z,josepharhar,topic: forms|topic: events|interop,0
+690480691,false,Event bubbling on disabled form elements,https://github.com/whatwg/html/issues/5886,2020-09-01T22:05:15Z,2022-11-21T15:16:18Z,josepharhar,topic: forms|topic: events|interop,0
 688861626,false,Back-forward cache meta-bug,https://github.com/whatwg/html/issues/5880,2020-08-31T02:58:40Z,2021-10-21T01:13:32Z,rakina,topic: history,0
 688860879,false,Back-forward cache: Specifying ineligibility?,https://github.com/whatwg/html/issues/5879,2020-08-31T02:55:55Z,2022-08-08T08:19:26Z,rakina,topic: history|interop,0
 688847041,true,Back-forward cache: Restoring focus,https://github.com/whatwg/html/issues/5878,2020-08-31T02:07:44Z,2021-12-08T02:31:47Z,rakina,topic: history|topic: focus,0
@@ -1222,7 +1222,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 583429816,false,Link rel=sponsored and rel=ugc (rethinking nofollow),https://github.com/whatwg/html/issues/5367,2020-03-18T03:04:55Z,2020-03-20T08:51:10Z,da2x,addition/proposal|document conformance|impacts documentation,0
 583177615,true,Minimum used line-height of text-entry widget doesn't match implementations,https://github.com/whatwg/html/issues/5366,2020-03-17T17:27:46Z,2022-02-11T00:04:01Z,jfkthame,compat|topic: rendering|interop,0
 583058650,false,ImageData alpha premultiplication,https://github.com/whatwg/html/issues/5365,2020-03-17T14:34:57Z,2020-03-19T02:25:26Z,adroitwhiz,addition/proposal|needs implementer interest|topic: canvas,0
-582897401,false,Report runtime error in shared workers,https://github.com/whatwg/html/issues/5363,2020-03-17T10:07:40Z,2022-11-20T09:36:53Z,elkurin,topic: workers,0
+582897401,false,Report runtime error in shared workers,https://github.com/whatwg/html/issues/5363,2020-03-17T10:07:40Z,2022-11-21T16:01:44Z,elkurin,topic: workers,0
 582892300,false,SharedWorker is racy,https://github.com/whatwg/html/issues/5362,2020-03-17T09:58:52Z,2020-07-08T08:56:14Z,elkurin,topic: workers,0
 581435052,true,Removal of translated versions,https://github.com/whatwg/html/issues/5356,2020-03-15T00:26:44Z,2020-03-15T07:32:55Z,u-n-known,,0
 580291257,false,Proposal: permit `Tel` control group for `tel-national` and other telephone-related autofill fields,https://github.com/whatwg/html/issues/5353,2020-03-13T00:04:44Z,2020-04-11T06:57:24Z,adampage,addition/proposal|needs implementer interest|topic: forms,3
@@ -2982,7 +2982,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 195734740,true,Wring,https://github.com/whatwg/html/issues/2181,2016-12-15T07:24:47Z,2016-12-15T07:25:56Z,cheoklune,,0
 195651796,true,Making Location.ancestorOrigins a FrozenArray is not Web-Compatible,https://github.com/whatwg/html/issues/2179,2016-12-14T21:33:44Z,2017-01-13T00:55:08Z,cdumez,,0
 195558416,true,"""when a select element does not have a sizes attribute""",https://github.com/whatwg/html/issues/2178,2016-12-14T15:18:37Z,2017-02-23T16:42:03Z,deltab,good first issue,0
-195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2022-04-10T12:45:35Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,76
+195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2022-04-10T12:45:35Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,77
 195497838,true,selectionStart/End/Direction on input and textarea should not be nullable,https://github.com/whatwg/html/issues/2175,2016-12-14T10:46:42Z,2017-01-18T09:22:04Z,foolip,,0
 195494630,true,pushState title is ignored in all implementations?,https://github.com/whatwg/html/issues/2174,2016-12-14T10:32:35Z,2021-03-15T16:59:58Z,foolip,topic: history|interop,3
 195385032,true,"""If the element is flagged as ""parser-inserted"",...""",https://github.com/whatwg/html/issues/2173,2016-12-13T22:18:17Z,2016-12-13T22:19:35Z,JosephPecoraro,,0
