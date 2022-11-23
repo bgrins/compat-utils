@@ -2628,7 +2628,7 @@ api/HTMLMarqueeElement/width,,65,,10,,5.1,,false,true,true,https://html.spec.wha
 api/HTMLMediaElement,,3.5,,1,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#htmlmediaelement,WHATWG
 api/HTMLMediaElement/abort_event,,9,,1,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#event-media-abort,WHATWG
 api/HTMLMediaElement/addTextTrack,,31,,23,,6,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#dom-media-addtexttrack-dev,WHATWG
-api/HTMLMediaElement/audioTracks,,33,"[{""name"":""media.track.enabled"",""type"":""preference"",""value_to_set"":""true""}]",37,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",7,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#dom-media-audiotracks-dev,WHATWG
+api/HTMLMediaElement/audioTracks,,33,"[{""name"":""media.track.enabled"",""type"":""preference"",""value_to_set"":""true""}]",37,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""Enabled""}]",7,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#dom-media-audiotracks-dev,WHATWG
 api/HTMLMediaElement/autoplay,,3.5,,1,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#dom-media-autoplay,WHATWG
 api/HTMLMediaElement/buffered,,4,,1,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#dom-media-buffered-dev,WHATWG
 api/HTMLMediaElement/canPlayType,,3.5,,3,,4,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#dom-navigator-canplaytype-dev,WHATWG
@@ -2691,12 +2691,12 @@ api/HTMLMediaElement/setMediaKeys,,38,,42,,12.1,,false,true,false,https://w3c.gi
 api/HTMLMediaElement/setSinkId,,64,"[{""name"":""media.setsinkid.enabled"",""type"":""preference"",""value_to_set"":""true""}]",49,,,,false,true,false,https://w3c.github.io/mediacapture-output/#dom-htmlmediaelement-setsinkid,W3C
 api/HTMLMediaElement/sinkId,,,,49,,,,true,true,false,https://w3c.github.io/mediacapture-output/#dom-htmlmediaelement-sinkid,W3C
 api/HTMLMediaElement/src,,3.5,,1,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#dom-media-src,WHATWG
-api/HTMLMediaElement/srcObject,,42,,52,,11,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#dom-media-srcobject-dev,WHATWG
+api/HTMLMediaElement/srcObject,,42,,108,,11,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#dom-media-srcobject-dev,WHATWG
 api/HTMLMediaElement/stalled_event,,3.5,,3,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#event-media-stalled,WHATWG
 api/HTMLMediaElement/suspend_event,,3.5,,3,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#event-media-suspend,WHATWG
 api/HTMLMediaElement/textTracks,,31,,23,,6,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#dom-media-texttracks-dev,WHATWG
 api/HTMLMediaElement/timeupdate_event,,3.5,,3,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#event-media-timeupdate,WHATWG
-api/HTMLMediaElement/videoTracks,,33,"[{""name"":""media.track.enabled"",""type"":""preference"",""value_to_set"":""true""}]",37,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",7,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#dom-media-videotracks-dev,WHATWG
+api/HTMLMediaElement/videoTracks,,33,"[{""name"":""media.track.enabled"",""type"":""preference"",""value_to_set"":""true""}]",37,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""Enabled""}]",7,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#dom-media-videotracks-dev,WHATWG
 api/HTMLMediaElement/volume,,3.5,,1,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#dom-media-volume-dev,WHATWG
 api/HTMLMediaElement/volumechange_event,,6,,1,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#event-media-volumechange,WHATWG
 api/HTMLMediaElement/waiting_event,,6,,1,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#event-media-waiting,WHATWG
@@ -3544,6 +3544,7 @@ api/MediaSession/setMicrophoneActive,,,,93,,,,true,true,false,https://w3c.github
 api/MediaSession/setPositionState,,82,,81,,15,,false,true,false,https://w3c.github.io/mediasession/#dom-mediasession-setpositionstate,W3C
 api/MediaSource,,42,,31,,8,,false,true,false,https://w3c.github.io/media-source/#mediasource,W3C
 api/MediaSource/MediaSource,,42,,31,,8,,false,true,false,https://w3c.github.io/media-source/#dom-mediasource-constructor,W3C
+api/MediaSource/MediaSource/worker_support,,,,108,,,,true,true,false,,NONE
 api/MediaSource/activeSourceBuffers,,42,,23,,8,,false,true,false,https://w3c.github.io/media-source/#dom-mediasource-activesourcebuffers,W3C
 api/MediaSource/activeSourceBuffers/worker_support,,,,108,,,,true,true,false,,NONE
 api/MediaSource/addSourceBuffer,,42,,23,,8,,false,true,false,https://w3c.github.io/media-source/#dom-mediasource-addsourcebuffer,W3C
@@ -3572,7 +3573,6 @@ api/MediaSource/sourceended_event,,42,,53,,10.1,,false,true,false,https://w3c.gi
 api/MediaSource/sourceended_event/worker_support,,,,108,,,,true,true,false,,NONE
 api/MediaSource/sourceopen_event,,42,,53,,10.1,,false,true,false,https://w3c.github.io/media-source/#dfn-sourceopen,W3C
 api/MediaSource/sourceopen_event/worker_support,,,,108,,,,true,true,false,,NONE
-api/MediaSource/worker_support,,,,108,,,,true,true,false,,NONE
 api/MediaSourceHandle,,,,108,,,,true,true,false,https://w3c.github.io/media-source/#mediasourcehandle,W3C
 api/MediaStream,,15,,55,,11,,false,true,false,https://w3c.github.io/mediacapture-main/#mediastream,W3C
 api/MediaStream/MediaStream,,44,,55,,11,,false,true,false,https://w3c.github.io/mediacapture-main/#dom-mediastream-constructor,W3C
@@ -6049,8 +6049,8 @@ api/SourceBuffer/appendWindowEnd,,42,,23,,8,,false,true,false,https://w3c.github
 api/SourceBuffer/appendWindowEnd/worker_support,,,,108,,,,true,true,false,,NONE
 api/SourceBuffer/appendWindowStart,,42,,23,,8,,false,true,false,https://w3c.github.io/media-source/#dom-sourcebuffer-appendwindowstart,W3C
 api/SourceBuffer/appendWindowStart/worker_support,,,,108,,,,true,true,false,,NONE
-api/SourceBuffer/audioTracks,,,,70,,8,,false,true,false,https://w3c.github.io/media-source/#dom-sourcebuffer-audiotracks,W3C
-api/SourceBuffer/audioTracks/worker_support,,,,108,,,,true,true,false,,NONE
+api/SourceBuffer/audioTracks,,,,70,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""Enabled""}]",8,,false,true,false,https://w3c.github.io/media-source/#dom-sourcebuffer-audiotracks,W3C
+api/SourceBuffer/audioTracks/worker_support,,,,108,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,,NONE
 api/SourceBuffer/buffered,,42,,23,,8,,false,true,false,https://w3c.github.io/media-source/#dom-sourcebuffer-buffered,W3C
 api/SourceBuffer/buffered/worker_support,,,,108,,,,true,true,false,,NONE
 api/SourceBuffer/changeType,,63,,70,,12.1,,false,true,false,https://w3c.github.io/media-source/#dom-sourcebuffer-changetype,W3C
@@ -6062,8 +6062,7 @@ api/SourceBuffer/mode/worker_support,,,,108,,,,true,true,false,,NONE
 api/SourceBuffer/remove,,42,,23,,8,,false,true,false,https://w3c.github.io/media-source/#dom-sourcebuffer-remove,W3C
 api/SourceBuffer/remove/worker_support,,,,108,,,,true,true,false,,NONE
 api/SourceBuffer/removeAsync,,62,"[{""name"":""media.mediasource.experimental.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,false,false,,NONE
-api/SourceBuffer/textTracks,,,,70,,8,,false,true,false,https://w3c.github.io/media-source/#dom-sourcebuffer-texttracks,W3C
-api/SourceBuffer/textTracks/worker_support,,,,108,,,,true,true,false,,NONE
+api/SourceBuffer/textTracks,,,,,,8,,true,true,false,https://w3c.github.io/media-source/#dom-sourcebuffer-texttracks,W3C
 api/SourceBuffer/timestampOffset,,42,,23,,8,,false,true,false,https://w3c.github.io/media-source/#dom-sourcebuffer-timestampoffset,W3C
 api/SourceBuffer/timestampOffset/worker_support,,,,108,,,,true,true,false,,NONE
 api/SourceBuffer/update_event,,42,,53,,10.1,,false,true,false,https://w3c.github.io/media-source/#dfn-update,W3C
@@ -6074,9 +6073,8 @@ api/SourceBuffer/updatestart_event,,42,,53,,10.1,,false,true,false,https://w3c.g
 api/SourceBuffer/updatestart_event/worker_support,,,,108,,,,true,true,false,,NONE
 api/SourceBuffer/updating,,42,,23,,8,,false,true,false,https://w3c.github.io/media-source/#dom-sourcebuffer-updating,W3C
 api/SourceBuffer/updating/worker_support,,,,108,,,,true,true,false,,NONE
-api/SourceBuffer/videoTracks,,,,70,,8,,false,true,false,https://w3c.github.io/media-source/#dom-sourcebuffer-videotracks,W3C
-api/SourceBuffer/videoTracks/worker_support,,,,108,,,,true,true,false,,NONE
-api/SourceBuffer/worker_support,,,,108,,,,true,true,false,,NONE
+api/SourceBuffer/videoTracks,,,,70,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""Enabled""}]",8,,false,true,false,https://w3c.github.io/media-source/#dom-sourcebuffer-videotracks,W3C
+api/SourceBuffer/videoTracks/worker_support,,,,108,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,,NONE
 api/SourceBufferList,,42,,31,,8,,false,true,false,https://w3c.github.io/media-source/#sourcebufferlist,W3C
 api/SourceBufferList/addsourcebuffer_event,,42,,53,,10.1,,false,true,false,https://w3c.github.io/media-source/#dfn-addsourcebuffer,W3C
 api/SourceBufferList/addsourcebuffer_event/worker_support,,,,108,,,,true,true,false,,NONE
@@ -6084,7 +6082,6 @@ api/SourceBufferList/length,,42,,23,,8,,false,true,false,https://w3c.github.io/m
 api/SourceBufferList/length/worker_support,,,,108,,,,true,true,false,,NONE
 api/SourceBufferList/removesourcebuffer_event,,42,,53,,10.1,,false,true,false,https://w3c.github.io/media-source/#dfn-removesourcebuffer,W3C
 api/SourceBufferList/removesourcebuffer_event/worker_support,,,,108,,,,true,true,false,,NONE
-api/SourceBufferList/worker_support,,,,108,,,,true,true,false,,NONE
 api/SpeechGrammar,,44,"[{""name"":""media.webspeech.recognition.enable"",""type"":""preference"",""value_to_set"":""true""}]",25,,,,true,true,false,https://wicg.github.io/speech-api/#speechreco-speechgrammar,W3CCG
 api/SpeechGrammar/SpeechGrammar,,44,"[{""name"":""media.webspeech.recognition.enable"",""type"":""preference"",""value_to_set"":""true""}]",25,,,,true,false,false,,NONE
 api/SpeechGrammar/src,,44,"[{""name"":""media.webspeech.recognition.enable"",""type"":""preference"",""value_to_set"":""true""}]",25,,,,true,true,false,https://wicg.github.io/speech-api/#dom-speechgrammar-src,W3CCG
@@ -6741,16 +6738,10 @@ api/VideoFrame/timestamp,,,,94,,,,true,true,false,https://w3c.github.io/webcodec
 api/VideoFrame/visibleRect,,,,94,,,,true,true,false,https://w3c.github.io/webcodecs/#dom-videoframe-visiblerect,W3C
 api/VideoPlaybackQuality,,42,,23,,8,,false,true,false,https://w3c.github.io/media-playback-quality/#videoplaybackquality-interface,W3C
 api/VideoPlaybackQuality/corruptedVideoFrames,,42,,80,,8,,false,true,true,https://w3c.github.io/media-playback-quality/#dom-videoplaybackquality-corruptedvideoframes,W3C
-api/VideoPlaybackQuality/corruptedVideoFrames/worker_support,,,,108,,,,true,true,false,,NONE
 api/VideoPlaybackQuality/creationTime,,42,,23,,8,,false,true,false,https://w3c.github.io/media-playback-quality/#dom-videoplaybackquality-creationtime,W3C
-api/VideoPlaybackQuality/creationTime/worker_support,,,,108,,,,true,true,false,,NONE
 api/VideoPlaybackQuality/droppedVideoFrames,,42,,23,,8,,false,true,false,https://w3c.github.io/media-playback-quality/#dom-videoplaybackquality-droppedvideoframes,W3C
-api/VideoPlaybackQuality/droppedVideoFrames/worker_support,,,,108,,,,true,true,false,,NONE
 api/VideoPlaybackQuality/totalFrameDelay,,,,23,,8,,false,false,true,,NONE
-api/VideoPlaybackQuality/totalFrameDelay/worker_support,,,,108,,,,true,true,false,,NONE
 api/VideoPlaybackQuality/totalVideoFrames,,42,,23,,8,,false,true,false,https://w3c.github.io/media-playback-quality/#dom-videoplaybackquality-totalvideoframes,W3C
-api/VideoPlaybackQuality/totalVideoFrames/worker_support,,,,108,,,,true,true,false,,NONE
-api/VideoPlaybackQuality/worker_support,,,,108,,,,true,true,false,,NONE
 api/VideoTrack,,33,"[{""name"":""media.track.enabled"",""type"":""preference"",""value_to_set"":""true""}]",37,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",7,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#videotrack,WHATWG
 api/VideoTrack/id,,33,"[{""name"":""media.track.enabled"",""type"":""preference"",""value_to_set"":""true""}]",37,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",7,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#dom-videotrack-id-dev,WHATWG
 api/VideoTrack/kind,,33,"[{""name"":""media.track.enabled"",""type"":""preference"",""value_to_set"":""true""}]",37,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",7,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#dom-videotrack-kind-dev,WHATWG
@@ -9124,7 +9115,7 @@ css/properties/word-break,,15,,1,,3,,false,true,false,https://w3c.github.io/cssw
 css/properties/word-break/break-word,,67,,1,,3,,false,true,true,,NONE
 css/properties/word-break/keep-all,,15,,44,,9,,false,true,false,,NONE
 css/properties/word-spacing,,1,,1,,1,,false,true,false,https://w3c.github.io/csswg-drafts/css-text/#word-spacing-property,W3C
-css/properties/word-spacing/percentages,,45,,,,7,,false,true,false,,NONE
+css/properties/word-spacing/percentages,,45,,,,7,,false,false,true,,NONE
 css/properties/word-spacing/svg,,72,,1,,5.1,,false,true,false,,NONE
 css/properties/writing-mode,,41,,48,,10.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-writing-modes/#block-flow,W3C
 css/properties/writing-mode/horizontal_vertical_values,,43,,48,,9,,false,true,false,,NONE
@@ -9434,6 +9425,7 @@ css/types/length,,1,,1,,1,,false,true,false,https://w3c.github.io/csswg-drafts/c
 css/types/length/Q,,49,,63,,,,false,true,false,,NONE
 css/types/length/cap,,97,,,,,,true,true,false,,NONE
 css/types/length/ch,,1,,27,,7,,false,true,false,,NONE
+css/types/length/container_query_length_units,,108,"[{""name"":""layout.css.container-queries.enabled"",""type"":""preference"",""value_to_set"":""true""}]",105,,16,,false,true,false,,NONE
 css/types/length/ex,,1,,1,,1,,false,true,false,,NONE
 css/types/length/ic,,97,,106,,15.4,,false,true,false,,NONE
 css/types/length/lh,,,,,,,,true,false,false,,NONE
@@ -9483,7 +9475,7 @@ css/types/resolution/dpcm,,8,,29,,,,false,true,false,,NONE
 css/types/resolution/dpi,,8,,29,,,,false,true,false,,NONE
 css/types/resolution/dppx,,16,,29,,,,false,true,false,,NONE
 css/types/resolution/x,,62,,68,,,,false,true,false,,NONE
-css/types/round,,,,,,15.4,,true,true,false,https://w3c.github.io/csswg-drafts/css-values/#funcdef-round,W3C
+css/types/round,,preview,,,,15.4,,true,true,false,https://w3c.github.io/csswg-drafts/css-values/#funcdef-round,W3C
 css/types/shape,,1,,1,,1.3,,false,true,true,https://w3c.github.io/csswg-drafts/css2/#value-def-shape,W3C
 css/types/shape/rect,,1,,1,,1.3,,false,true,true,,NONE
 css/types/sign,,,,,,15.4,,true,true,false,https://w3c.github.io/csswg-drafts/css-values/#sign-funcs,W3C
@@ -10000,6 +9992,7 @@ html/elements/script/referrerpolicy,,65,,70,,13.1,,false,true,false,,NONE
 html/elements/script/src,,1,,1,,true,,false,true,false,,NONE
 html/elements/script/text,,1,,1,,true,,false,true,false,,NONE
 html/elements/script/type,,1,,1,,true,,false,true,false,,NONE
+html/elements/script/type/importmap,,108,,89,,,,false,true,false,https://html.spec.whatwg.org/multipage/webappapis.html#import-map,WHATWG
 html/elements/script/type/module,,60,,61,,10.1,,false,true,false,,NONE
 html/elements/section,,4,,5,,5,,false,true,false,https://html.spec.whatwg.org/multipage/sections.html#the-section-element,WHATWG
 html/elements/select,,1,,true,,true,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#the-select-element,WHATWG
@@ -10226,8 +10219,8 @@ javascript/builtins/Array/flat,,62,,69,,12,,false,true,false,https://tc39.es/ecm
 javascript/builtins/Array/flatMap,,62,,69,,12,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.flatmap,TC39
 javascript/builtins/Array/forEach,,1.5,,1,,3,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.foreach,TC39
 javascript/builtins/Array/from,,32,,45,,9,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.from,TC39
-javascript/builtins/Array/group,,,,,,,,true,true,false,https://tc39.es/proposal-array-grouping/#sec-array.prototype.group,TC39
-javascript/builtins/Array/groupToMap,,,,,,,,true,true,false,https://tc39.es/proposal-array-grouping/#sec-array.prototype.grouptomap,TC39
+javascript/builtins/Array/group,,98,"[{""name"":""javascript.options.experimental.array_grouping"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://tc39.es/proposal-array-grouping/#sec-array.prototype.group,TC39
+javascript/builtins/Array/groupToMap,,98,"[{""name"":""javascript.options.experimental.array_grouping"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://tc39.es/proposal-array-grouping/#sec-array.prototype.grouptomap,TC39
 javascript/builtins/Array/includes,,43,,47,,9,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.includes,TC39
 javascript/builtins/Array/indexOf,,1.5,,1,,3,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.indexof,TC39
 javascript/builtins/Array/isArray,,4,,4,,5,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.isarray,TC39
@@ -11392,6 +11385,7 @@ javascript/grammar/string_literals,,1,,1,,1,,false,true,false,https://tc39.es/ec
 javascript/grammar/template_literals,,34,,41,,9,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-template-literals,TC39
 javascript/grammar/template_literals/template_literal_revision,,53,,62,,11,,false,true,false,,NONE
 javascript/grammar/trailing_commas,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-Elision,TC39
+javascript/grammar/trailing_commas/trailing_commas_in_dynamic_import,,,,91,,15,,false,false,false,,NONE
 javascript/grammar/trailing_commas/trailing_commas_in_functions,,52,,58,,10,,false,true,false,,NONE
 javascript/grammar/trailing_commas/trailing_commas_in_object_literals,,1,,1,,3,,false,true,false,,NONE
 javascript/grammar/unicode_escape_sequences,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/structured-data.html#sec-unicodeescape,TC39
@@ -11432,6 +11426,7 @@ javascript/operators/greater_than,,1,,1,,1,,false,true,false,https://tc39.es/ecm
 javascript/operators/greater_than_or_equal,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators,TC39
 javascript/operators/grouping,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator,TC39
 javascript/operators/import,,67,,63,,11.1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls,TC39
+javascript/operators/import/options_parameter,,,,91,,15,,false,false,false,,NONE
 javascript/operators/import_meta,,62,,64,,11.1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta,TC39
 javascript/operators/in,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators,TC39
 javascript/operators/increment,,1,,2,,4,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator,TC39
@@ -11509,6 +11504,8 @@ javascript/statements/generator_function/not_constructable_with_new,,43,,50,,10,
 javascript/statements/generator_function/trailing_comma_in_parameters,,52,,58,,10,,false,true,false,,NONE
 javascript/statements/if_else,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-if-statement,TC39
 javascript/statements/import,,60,,61,,10.1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#sec-imports,TC39
+javascript/statements/import/import_assertions,,,,91,,15,,false,false,false,,NONE
+javascript/statements/import/import_assertions/type_json,,,,91,,15,,false,false,false,,NONE
 javascript/statements/import/worker_support,,,,80,,15,,false,true,false,,NONE
 javascript/statements/label,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-labelled-statements,TC39
 javascript/statements/let,,44,,49,,10,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-let-and-const-declarations,TC39
