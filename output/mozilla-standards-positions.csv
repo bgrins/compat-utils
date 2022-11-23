@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1459363716,false,"CSS `initial-letter` property ",https://github.com/mozilla/standards-positions/issues/711,2022-11-22T08:18:03Z,2022-11-22T08:18:03Z,yosinch,,2
 1458940638,false,chore: extract labeled issue positions,https://github.com/mozilla/standards-positions/issues/710,2022-11-22T02:55:46Z,2022-11-22T22:42:52Z,bgrins,tooling,0
-1455710984,false,Request for Position: TLS ClientHello extension permutation,https://github.com/mozilla/standards-positions/issues/709,2022-11-18T19:52:53Z,2022-11-18T19:52:53Z,dadrian,,0
+1455710984,true,Request for Position: TLS ClientHello extension permutation,https://github.com/mozilla/standards-positions/issues/709,2022-11-18T19:52:53Z,2022-11-23T00:49:00Z,dadrian,position: positive,0
 1454784476,true,Request for Position: Canvas Floating Point Color Types,https://github.com/mozilla/standards-positions/issues/708,2022-11-18T09:38:57Z,2022-11-22T02:42:02Z,ccameron-chromium,position: positive,0
 1450863262,false,Request for Position: Notification API Incoming Call Extension,https://github.com/mozilla/standards-positions/issues/707,2022-11-16T05:00:44Z,2022-11-16T05:00:44Z,gabrielsanbrito,,0
 1449566613,false,Face Detection MediaStreamTrack constraints and VideoFrame metadata,https://github.com/mozilla/standards-positions/issues/706,2022-11-15T10:45:54Z,2022-11-15T10:45:54Z,ttoivone,,0
@@ -39,7 +39,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1294231944,false,fetch streaming upload,https://github.com/mozilla/standards-positions/issues/663,2022-07-05T12:27:16Z,2022-07-13T11:55:34Z,yutakahirano,whatwg,3
 1288559169,true,Request for position : Render blocking status in Resource Timing,https://github.com/mozilla/standards-positions/issues/662,2022-06-29T11:18:06Z,2022-07-13T18:44:45Z,abinpaul1,position: positive,0
 1284147801,true,Request for position : CSS Overflow for replaced elements,https://github.com/mozilla/standards-positions/issues/659,2022-06-24T20:15:34Z,2022-07-13T00:31:30Z,khushalsagar,position: positive,0
-1280909943,false,Request for position : MediaTrackSupportedConstraints.backgroundBlur,https://github.com/mozilla/standards-positions/issues/658,2022-06-22T21:07:32Z,2022-07-27T22:32:15Z,riju,,0
+1280909943,false,Request for position : MediaTrackSupportedConstraints.backgroundBlur,https://github.com/mozilla/standards-positions/issues/658,2022-06-22T21:07:32Z,2022-11-23T09:07:36Z,riju,,0
 1279211529,false,Request for Position: Gamepad API Trigger-Rumble Haptics Extension,https://github.com/mozilla/standards-positions/issues/656,2022-06-21T23:01:06Z,2022-06-22T20:49:43Z,gabrielsanbrito,,0
 1273990108,false,"Bug in ""activities.py add"": if you provide TR version of spec, you get ""TypeError: 'BetterUrl' object is not subscriptable""",https://github.com/mozilla/standards-positions/issues/655,2022-06-16T19:22:56Z,2022-11-22T22:45:45Z,dholbert,tooling,0
 1273874436,true,DisplayMediaStreamConstraints.surfaceSwitching,https://github.com/mozilla/standards-positions/issues/653,2022-06-16T17:27:27Z,2022-06-17T07:13:05Z,eladalon1983,position: neutral,0
@@ -144,7 +144,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 897310575,false,Virtual Keyboard Control,https://github.com/mozilla/standards-positions/issues/531,2021-05-20T19:11:07Z,2022-06-10T22:06:42Z,snianu,,7
 894891287,true,Request for position on HTTP 103 Early Hints,https://github.com/mozilla/standards-positions/issues/530,2021-05-19T00:48:50Z,2021-05-19T09:30:44Z,bashi,ietf|whatwg,0
 893416073,false,Request for position on Window Controls Overlay,https://github.com/mozilla/standards-positions/issues/529,2021-05-17T14:52:57Z,2021-08-13T01:04:28Z,diekus,,0
-891011314,false,Request for Mozilla Position on :has pseudo class,https://github.com/mozilla/standards-positions/issues/528,2021-05-13T12:49:06Z,2022-05-24T04:10:28Z,byung-woo,w3c,2
+891011314,false,Request for Mozilla Position on :has pseudo class,https://github.com/mozilla/standards-positions/issues/528,2021-05-13T12:49:06Z,2022-05-24T04:10:28Z,byung-woo,w3c,3
 889952236,true,Standards position for TC39 Stage 3 Proposals,https://github.com/mozilla/standards-positions/issues/527,2021-05-12T10:45:17Z,2021-06-22T07:31:19Z,codehag,,0
 889825826,false,User Preference Media Features Client Hints Headers,https://github.com/mozilla/standards-positions/issues/526,2021-05-12T08:36:16Z,2021-08-23T18:27:14Z,tomayac,,3
 888568155,false,"Pickling for Async Clipboard API ",https://github.com/mozilla/standards-positions/issues/525,2021-05-11T20:39:01Z,2021-12-17T13:40:53Z,snianu,,2
@@ -185,7 +185,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 807560296,true,mapping a <source>'s width/height attributes to width/height/aspect-ratio CSS properties on the <img> in a <picture>,https://github.com/mozilla/standards-positions/issues/485,2021-02-12T21:31:26Z,2021-09-30T10:25:56Z,cbiesinger,whatwg,0
 806849867,false,Clipboard DataTransfer read-only files,https://github.com/mozilla/standards-positions/issues/484,2021-02-12T00:19:19Z,2022-11-01T19:11:27Z,joelhockey,w3c,0
 806795079,true,New html attribute indicating searchability in hidden content,https://github.com/mozilla/standards-positions/issues/483,2021-02-11T22:31:40Z,2022-05-20T11:24:22Z,vmpstr,,0
-806757651,false,Custom Highlight API,https://github.com/mozilla/standards-positions/issues/482,2021-02-11T21:28:32Z,2022-06-29T07:45:55Z,sanketj,w3c,5
+806757651,false,Custom Highlight API,https://github.com/mozilla/standards-positions/issues/482,2021-02-11T21:28:32Z,2022-06-29T07:45:55Z,sanketj,w3c,6
 801419243,true,Storage Foundation API,https://github.com/mozilla/standards-positions/issues/481,2021-02-04T16:02:11Z,2021-08-30T12:00:14Z,fivedots,proposal,0
 795055478,false,Critical CH: Client Hints Reliability mechanism,https://github.com/mozilla/standards-positions/issues/479,2021-01-27T12:23:25Z,2021-01-28T14:40:35Z,amtunlimited,ietf|w3c-cg,0
 794693341,true,RegExp match indices,https://github.com/mozilla/standards-positions/issues/478,2021-01-27T01:40:15Z,2021-03-12T17:16:44Z,syg,ecma,0
