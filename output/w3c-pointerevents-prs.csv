@@ -1,8 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1460722882,false,Add popover light dismiss integration,https://github.com/w3c/pointerevents/pull/460,2022-11-22T23:54:28Z,2022-11-22T23:54:34Z,josepharhar,,0
+1460722882,false,Add popover light dismiss integration,https://github.com/w3c/pointerevents/pull/460,2022-11-22T23:54:28Z,2022-11-23T16:46:25Z,josepharhar,future,0
 1421587307,true,Expand explanation for compatibility mouse events,https://github.com/w3c/pointerevents/pull/459,2022-10-24T23:05:25Z,2022-11-23T02:11:55Z,patrickhlauke,,0
 1391511596,true,Add a note and diagram to clarify legacy mouse pointer behavior.,https://github.com/w3c/pointerevents/pull/458,2022-09-29T21:14:55Z,2022-10-27T17:38:33Z,mustaqahmed,,0
-1356315215,true,"Fix stale text around click, auxclick and contextmenu events",https://github.com/w3c/pointerevents/pull/456,2022-08-30T21:10:52Z,2022-10-26T16:10:52Z,mustaqahmed,wpt,0
+1356315215,true,"Fix stale text around click, auxclick and contextmenu events",https://github.com/w3c/pointerevents/pull/456,2022-08-30T21:10:52Z,2022-11-23T15:38:08Z,mustaqahmed,needs-wpt,0
 1296237034,true,Reorder events in the GlobalEventHandlers mixin definition,https://github.com/w3c/pointerevents/pull/455,2022-07-06T18:51:38Z,2022-07-06T18:57:40Z,patrickhlauke,editorial,0
 1296045057,true,"Add `pointerrawupdate` to ""Attributes and Default Actions"" table",https://github.com/w3c/pointerevents/pull/453,2022-07-06T15:55:09Z,2022-07-06T16:02:48Z,patrickhlauke,,0
 1295541076,true,Add missing link to 'fire a pointer event' for pointercancel,https://github.com/w3c/pointerevents/pull/452,2022-07-06T09:23:55Z,2022-07-06T10:56:22Z,dontcallmedom,,0
@@ -15,7 +15,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1252613821,true,Fix links,https://github.com/w3c/pointerevents/pull/442,2022-05-30T11:39:00Z,2022-06-01T18:02:35Z,deniak,,0
 1251902819,true,Cleanup and respec fixes,https://github.com/w3c/pointerevents/pull/441,2022-05-29T14:22:27Z,2022-06-01T16:07:08Z,patrickhlauke,,0
 1232793532,true,Explain relation of coalesced events to parent event (#409),https://github.com/w3c/pointerevents/pull/440,2022-05-11T14:59:18Z,2022-05-25T15:07:41Z,flackr,,0
-1169955551,true,Define a section for suppressing a pointer event stream.,https://github.com/w3c/pointerevents/pull/437,2022-03-15T17:10:16Z,2022-08-17T16:35:09Z,mustaqahmed,wpt,0
+1169955551,true,Define a section for suppressing a pointer event stream.,https://github.com/w3c/pointerevents/pull/437,2022-03-15T17:10:16Z,2022-11-23T15:21:21Z,mustaqahmed,,0
 1169652743,true,Clarify that coalesced events list contain also a clone of the parent event,https://github.com/w3c/pointerevents/pull/436,2022-03-15T13:08:30Z,2022-05-11T15:15:29Z,smaug----,,0
 1155987232,true,Expand bullet about when `pointercancel` fires,https://github.com/w3c/pointerevents/pull/434,2022-03-01T23:57:38Z,2022-03-02T16:37:11Z,patrickhlauke,editorial|v3,0
 1126604895,true,Move click event to correct place in the non-normative note for expected event sequence on non-hover devices,https://github.com/w3c/pointerevents/pull/432,2022-02-07T23:15:44Z,2022-02-07T23:17:54Z,patrickhlauke,,0
@@ -30,32 +30,32 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1071913802,true,"Reword altitudeAngle note, expand tiltX and tiltY explanation",https://github.com/w3c/pointerevents/pull/422,2021-12-06T09:20:08Z,2021-12-07T09:37:29Z,patrickhlauke,,0
 1071448173,true,Update tiltX/tiltY illustrations,https://github.com/w3c/pointerevents/pull/421,2021-12-05T12:33:39Z,2021-12-05T12:51:12Z,patrickhlauke,,1
 1037491674,true,Remove should from boundary events note and move to normative must.,https://github.com/w3c/pointerevents/pull/419,2021-10-27T14:26:15Z,2022-08-17T16:40:15Z,flackr,wpt,0
-1025740242,true,Make fact that click/contextmenu are not compat mouse events normative,https://github.com/w3c/pointerevents/pull/418,2021-10-13T22:12:40Z,2022-08-17T16:40:08Z,patrickhlauke,wpt,0
+1025740242,true,Make fact that click/contextmenu are not compat mouse events normative,https://github.com/w3c/pointerevents/pull/418,2021-10-13T22:12:40Z,2022-11-23T15:33:49Z,patrickhlauke,,0
 1025726929,true,Remove redundant (and now wrong) note about active pointer id,https://github.com/w3c/pointerevents/pull/417,2021-10-13T21:50:56Z,2021-10-13T21:52:31Z,patrickhlauke,,0
 1010127857,true,"Reword legacy properties note to remove the ""must""",https://github.com/w3c/pointerevents/pull/416,2021-09-28T19:30:21Z,2021-09-29T15:55:29Z,patrickhlauke,,0
 1010113324,true,Remove may/should from note about complex gestures,https://github.com/w3c/pointerevents/pull/415,2021-09-28T19:12:41Z,2021-09-29T15:50:47Z,patrickhlauke,,0
-995180722,true,Make note about buttons/buttons and compat events normative,https://github.com/w3c/pointerevents/pull/414,2021-09-13T18:09:37Z,2022-08-17T16:40:02Z,patrickhlauke,wpt,0
+995180722,true,Make note about buttons/buttons and compat events normative,https://github.com/w3c/pointerevents/pull/414,2021-09-13T18:09:37Z,2022-11-23T15:31:58Z,patrickhlauke,,0
 995178563,true,Make note about UAs not firing compat events if they support touch events normative,https://github.com/w3c/pointerevents/pull/413,2021-09-13T18:07:19Z,2022-08-17T16:39:55Z,patrickhlauke,wpt,0
-995177809,true,Move first part of the note about dispatched event order into normative text,https://github.com/w3c/pointerevents/pull/412,2021-09-13T18:06:34Z,2022-08-17T16:39:46Z,patrickhlauke,wpt,0
-995168148,true,Move elements of `pointerId` informative note to normative text,https://github.com/w3c/pointerevents/pull/411,2021-09-13T17:56:17Z,2022-08-17T16:39:39Z,patrickhlauke,wpt,0
+995177809,true,Move first part of the note about dispatched event order into normative text,https://github.com/w3c/pointerevents/pull/412,2021-09-13T18:06:34Z,2022-11-23T15:40:54Z,patrickhlauke,,0
+995168148,true,Move elements of `pointerId` informative note to normative text,https://github.com/w3c/pointerevents/pull/411,2021-09-13T17:56:17Z,2022-11-23T15:19:26Z,patrickhlauke,needs-wpt,0
 995156358,true,"Make ""Converting..."" section normative",https://github.com/w3c/pointerevents/pull/410,2021-09-13T17:41:06Z,2022-08-17T16:39:25Z,patrickhlauke,wpt,0
 961788157,true,Move definition point for PointerEvent,https://github.com/w3c/pointerevents/pull/406,2021-08-05T12:45:42Z,2021-08-08T09:38:05Z,patrickhlauke,editorial|v3,0
-960381697,true,"Add note about rounding coordinates for click, auxclick, contextmenu",https://github.com/w3c/pointerevents/pull/404,2021-08-04T12:38:28Z,2022-08-17T16:38:56Z,patrickhlauke,wpt,0
+960381697,true,"Add note about rounding coordinates for click, auxclick, contextmenu",https://github.com/w3c/pointerevents/pull/404,2021-08-04T12:38:28Z,2022-11-23T15:14:54Z,patrickhlauke,needs-wpt,0
 959590191,true,Expand prose about preventing compatibility mouse events and make it normative,https://github.com/w3c/pointerevents/pull/403,2021-08-03T22:48:26Z,2022-08-17T16:38:49Z,patrickhlauke,wpt,0
 959249393,true,"Change instances of ""a user agent"" to ""the user agent""",https://github.com/w3c/pointerevents/pull/402,2021-08-03T15:42:07Z,2021-08-03T22:17:22Z,patrickhlauke,editorial,0
 959218010,true,"Internal references cleanup, adding () to methods",https://github.com/w3c/pointerevents/pull/401,2021-08-03T15:09:26Z,2021-08-03T15:12:19Z,patrickhlauke,,0
-956926372,true,Clarify `pointercancel` firing behavior on drag.,https://github.com/w3c/pointerevents/pull/398,2021-07-30T17:06:04Z,2022-08-17T16:38:41Z,mustaqahmed,wpt,0
+956926372,true,Clarify `pointercancel` firing behavior on drag.,https://github.com/w3c/pointerevents/pull/398,2021-07-30T17:06:04Z,2022-11-23T15:07:15Z,mustaqahmed,,0
 949726065,true,Remove note about movementX/movementY and coalesced events,https://github.com/w3c/pointerevents/pull/397,2021-07-21T13:46:59Z,2021-07-21T15:43:16Z,patrickhlauke,,0
 939379585,true,Normalize title case used,https://github.com/w3c/pointerevents/pull/396,2021-07-08T01:16:41Z,2021-07-08T15:38:23Z,patrickhlauke,,0
 939358201,true,Tweaks to coalesced/predicted events section,https://github.com/w3c/pointerevents/pull/395,2021-07-08T00:24:30Z,2021-07-21T15:51:27Z,patrickhlauke,,0
 939331674,true,"Change ""event list"" to ""events list""",https://github.com/w3c/pointerevents/pull/394,2021-07-07T23:17:03Z,2021-07-08T10:30:52Z,patrickhlauke,,0
-939135971,true,Tweak definition of predicted events to deal with untrusted events,https://github.com/w3c/pointerevents/pull/393,2021-07-07T18:06:39Z,2022-08-17T16:38:36Z,patrickhlauke,wpt,0
-938815839,true,Tweak the definition of coalesced event list to deal with untrusted e…,https://github.com/w3c/pointerevents/pull/391,2021-07-07T12:00:01Z,2022-08-17T16:38:30Z,smaug----,wpt,0
-938110366,true,Update targets of predicted and coalesced events when trusted event target changes.,https://github.com/w3c/pointerevents/pull/390,2021-07-06T17:26:29Z,2022-08-17T16:38:23Z,flackr,wpt,0
+939135971,true,Tweak definition of predicted events to deal with untrusted events,https://github.com/w3c/pointerevents/pull/393,2021-07-07T18:06:39Z,2022-11-23T15:37:39Z,patrickhlauke,,0
+938815839,true,Tweak the definition of coalesced event list to deal with untrusted e…,https://github.com/w3c/pointerevents/pull/391,2021-07-07T12:00:01Z,2022-11-23T15:10:23Z,smaug----,,0
+938110366,true,Update targets of predicted and coalesced events when trusted event target changes.,https://github.com/w3c/pointerevents/pull/390,2021-07-06T17:26:29Z,2022-11-23T15:26:15Z,flackr,needs-wpt,0
 928514634,true,More minor tweaks,https://github.com/w3c/pointerevents/pull/389,2021-06-23T18:04:30Z,2021-06-23T18:42:00Z,plehegar,editorial,1
 928447319,true,Remove mention of animation frame callback,https://github.com/w3c/pointerevents/pull/388,2021-06-23T16:37:08Z,2021-06-30T19:20:30Z,patrickhlauke,,0
 917650235,true,task queue is not reliable HTML concept. Use event loop instead,https://github.com/w3c/pointerevents/pull/386,2021-06-10T18:04:57Z,2021-06-23T15:21:32Z,plehegar,v3,0
-909970151,true,Explicit note about pointerrawmove having an empty predicted event list,https://github.com/w3c/pointerevents/pull/383,2021-06-02T23:55:44Z,2022-08-17T16:38:11Z,patrickhlauke,v3|wpt,0
+909970151,true,Explicit note about pointerrawmove having an empty predicted event list,https://github.com/w3c/pointerevents/pull/383,2021-06-02T23:55:44Z,2022-11-23T15:59:58Z,patrickhlauke,v3,0
 909579167,true,Expand the definition/explanation of predicted events timestamps,https://github.com/w3c/pointerevents/pull/382,2021-06-02T14:42:45Z,2022-08-17T14:58:48Z,patrickhlauke,v3|wpt,0
 903812634,true,Refreshing references using latest respec magic,https://github.com/w3c/pointerevents/pull/381,2021-05-27T14:06:23Z,2021-06-10T16:53:37Z,plehegar,editorial,0
 899081205,true,Expand explanation for non-coalesced events,https://github.com/w3c/pointerevents/pull/379,2021-05-23T18:36:47Z,2021-07-07T17:53:50Z,patrickhlauke,v3,0
@@ -75,7 +75,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 809269806,true,Reword/expand touch-action definition,https://github.com/w3c/pointerevents/pull/349,2021-02-16T12:28:36Z,2021-04-07T21:12:47Z,patrickhlauke,,0
 809241195,true,Add more info to note about click/contextmenu and user agent heuristics,https://github.com/w3c/pointerevents/pull/348,2021-02-16T11:45:07Z,2021-02-16T12:47:59Z,patrickhlauke,,0
 787587418,true,Reword note about primary/non-primary pointers,https://github.com/w3c/pointerevents/pull/347,2021-01-17T01:00:54Z,2021-01-18T00:25:11Z,patrickhlauke,,0
-784409674,true,Change reserved pointerId for non-pointer events from 0 to -1,https://github.com/w3c/pointerevents/pull/345,2021-01-12T16:52:48Z,2022-08-17T16:37:01Z,patrickhlauke,wpt,0
+784409674,true,Change reserved pointerId for non-pointer events from 0 to -1,https://github.com/w3c/pointerevents/pull/345,2021-01-12T16:52:48Z,2022-11-23T15:52:00Z,patrickhlauke,needs-wpt,0
 765742853,true,Typo,https://github.com/w3c/pointerevents/pull/341,2020-12-14T00:59:55Z,2020-12-14T14:22:10Z,patrickhlauke,,0
 748706867,true,Typos,https://github.com/w3c/pointerevents/pull/340,2020-11-23T11:10:34Z,2020-11-26T14:59:24Z,patrickhlauke,,0
 713052102,true,Re-enable automatic publishing,https://github.com/w3c/pointerevents/pull/337,2020-10-01T17:40:57Z,2021-01-12T18:44:08Z,plehegar,,0
@@ -87,27 +87,27 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 702029499,true,Use defer and make sure to point to patent policy 2020,https://github.com/w3c/pointerevents/pull/330,2020-09-15T15:24:09Z,2020-09-16T13:39:27Z,plehegar,admin,0
 681178577,true,Editorial: Align with Web IDL specification,https://github.com/w3c/pointerevents/pull/329,2020-08-18T16:33:44Z,2020-08-18T17:16:12Z,autokagami,,0
 656201750,true,Change PHL company affiliation,https://github.com/w3c/pointerevents/pull/326,2020-07-13T22:54:25Z,2020-07-13T23:41:27Z,patrickhlauke,,0
-648334694,true,Fix tilt to sperical calculation.,https://github.com/w3c/pointerevents/pull/324,2020-06-30T16:52:48Z,2022-08-17T16:36:37Z,mustaqahmed,wpt,0
+648334694,true,Fix tilt to sperical calculation.,https://github.com/w3c/pointerevents/pull/324,2020-06-30T16:52:48Z,2022-11-23T15:34:47Z,mustaqahmed,,0
 626635155,true,Update azimuth/altitude/tiltX/tiltY to not require default values in pointer events web idl,https://github.com/w3c/pointerevents/pull/323,2020-05-28T16:11:52Z,2022-08-17T16:36:29Z,liviutinta,wpt,0
 624506814,true,Translate between tiltX/tiltY and azimuth/altitude. Fixes #321,https://github.com/w3c/pointerevents/pull/322,2020-05-25T22:28:34Z,2020-07-20T16:01:29Z,liviutinta,,0
-584592164,true,Add secure context criteria to pointerrawupdate and getCoalescedEvents,https://github.com/w3c/pointerevents/pull/318,2020-03-19T17:51:57Z,2022-08-17T16:36:23Z,NavidZ,wpt,0
+584592164,true,Add secure context criteria to pointerrawupdate and getCoalescedEvents,https://github.com/w3c/pointerevents/pull/318,2020-03-19T17:51:57Z,2022-11-23T16:09:39Z,NavidZ,needs-wpt,0
 578079100,true,"Change the type of click, auxclick, and contextmenu to PointerEvent",https://github.com/w3c/pointerevents/pull/317,2020-03-09T17:42:17Z,2022-10-26T14:58:04Z,NavidZ,,0
-566303368,true,add altitudeAngle/azimuthAngle,https://github.com/w3c/pointerevents/pull/316,2020-02-17T13:35:15Z,2022-08-17T16:36:10Z,patrickhlauke,wpt,0
+566303368,true,add altitudeAngle/azimuthAngle,https://github.com/w3c/pointerevents/pull/316,2020-02-17T13:35:15Z,2022-11-23T14:51:29Z,patrickhlauke,,0
 560585758,true,Various README updates,https://github.com/w3c/pointerevents/pull/315,2020-02-05T19:38:02Z,2020-02-05T22:00:37Z,plehegar,,0
 536333130,true,editorial: Avoid duplicate example_6,https://github.com/w3c/pointerevents/pull/314,2019-12-11T12:16:21Z,2019-12-11T12:20:41Z,plehegar,editorial|v3,0
 530606875,true,Prevent the [[CSSOM-VIEW]] reference from pulling its internal references,https://github.com/w3c/pointerevents/pull/313,2019-11-30T17:26:37Z,2019-12-01T09:03:20Z,plehegar,editorial,0
 521166713,true,Remove extension doc,https://github.com/w3c/pointerevents/pull/310,2019-11-11T20:20:12Z,2019-11-11T20:36:47Z,NavidZ,,0
 521155765,true,Add revision history up until now,https://github.com/w3c/pointerevents/pull/309,2019-11-11T19:55:24Z,2019-11-11T20:14:18Z,NavidZ,,0
 514213935,true,"Some slight rewording, for clarity",https://github.com/w3c/pointerevents/pull/308,2019-10-29T20:48:25Z,2019-11-25T22:00:36Z,patrickhlauke,,0
-514081538,true,Add getPredictedEvents API,https://github.com/w3c/pointerevents/pull/307,2019-10-29T17:09:04Z,2022-08-17T16:36:06Z,NavidZ,wpt,0
-507446153,true,Introduce getCoalescedEvents API and pointerrawupdate event,https://github.com/w3c/pointerevents/pull/306,2019-10-15T19:47:03Z,2022-08-17T16:36:01Z,NavidZ,wpt,0
+514081538,true,Add getPredictedEvents API,https://github.com/w3c/pointerevents/pull/307,2019-10-29T17:09:04Z,2022-11-23T12:17:40Z,NavidZ,,0
+507446153,true,Introduce getCoalescedEvents API and pointerrawupdate event,https://github.com/w3c/pointerevents/pull/306,2019-10-15T19:47:03Z,2022-11-23T15:23:31Z,NavidZ,,0
 506881228,true,fixing typo in Example 3,https://github.com/w3c/pointerevents/pull/305,2019-10-14T21:22:56Z,2019-11-25T22:00:34Z,gked,,0
 493828410,true,Editorial: fix some ReSpec issues,https://github.com/w3c/pointerevents/pull/304,2019-09-16T03:15:37Z,2019-09-16T07:33:23Z,marcoscaceres,,1
 487037110,true,Move Rick Byers to former editors,https://github.com/w3c/pointerevents/pull/302,2019-08-29T15:41:17Z,2019-09-02T00:01:58Z,patrickhlauke,,0
 484642655,true,Define active document for the active pointers,https://github.com/w3c/pointerevents/pull/300,2019-08-23T17:48:55Z,2022-08-17T16:35:55Z,NavidZ,wpt,0
 484309659,true,Add dictionary default value,https://github.com/w3c/pointerevents/pull/298,2019-08-23T03:20:33Z,2019-08-23T09:33:26Z,saschanaz,,0
 484078714,true,Set correct references for PE V3,https://github.com/w3c/pointerevents/pull/297,2019-08-22T15:51:25Z,2019-08-29T15:38:38Z,NavidZ,,0
-477517283,true,Add single-directional touch action values,https://github.com/w3c/pointerevents/pull/294,2019-08-06T17:59:14Z,2022-08-17T14:53:39Z,NavidZ,wpt,0
+477517283,true,Add single-directional touch action values,https://github.com/w3c/pointerevents/pull/294,2019-08-06T17:59:14Z,2022-11-23T15:45:33Z,NavidZ,,0
 476291865,true,Amend the note in pointercancel prevention,https://github.com/w3c/pointerevents/pull/293,2019-08-02T17:53:37Z,2019-08-02T19:58:03Z,NavidZ,,0
 460409988,true,Update webkit status in README file,https://github.com/w3c/pointerevents/pull/289,2019-06-25T12:59:54Z,2019-06-25T13:38:05Z,NavidZ,,0
 458817332,true,Add an explainer for the extension document,https://github.com/w3c/pointerevents/pull/287,2019-06-20T18:54:15Z,2019-06-24T17:38:35Z,NavidZ,,0

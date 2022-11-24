@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1458980715,true,"Editorial: consistently link ""promise resolved/rejected with""",https://github.com/whatwg/html/pull/8537,2022-11-22T03:35:36Z,2022-11-22T08:00:27Z,domenic,clarification,0
 1458407046,true,Use correct properties for meter element thickness,https://github.com/whatwg/html/pull/8536,2022-11-21T18:38:45Z,2022-11-22T02:06:17Z,dizhang168,,0
-1456832373,false,Specify scroll restoration in more detail,https://github.com/whatwg/html/pull/8528,2022-11-20T09:27:38Z,2022-11-22T08:56:52Z,domenic,topic: history,0
+1456832373,false,Specify scroll restoration in more detail,https://github.com/whatwg/html/pull/8528,2022-11-20T09:27:38Z,2022-11-23T22:04:42Z,domenic,topic: history,0
 1454375611,true,Minor fixes to COOP enforcement result processing,https://github.com/whatwg/html/pull/8523,2022-11-18T03:28:49Z,2022-11-19T04:51:50Z,domenic,topic: cross-origin-opener-policy,0
 1453616896,true,"Check if a URL's scheme is a fetch scheme, not if the URL itself is.",https://github.com/whatwg/html/pull/8521,2022-11-17T16:17:14Z,2022-11-18T00:38:46Z,jeremyroman,,0
 1452555961,true,Add '...as defined below' when a definition follows its use.,https://github.com/whatwg/html/pull/8519,2022-11-17T01:40:07Z,2022-11-17T02:59:37Z,jeremyroman,,0
@@ -79,7 +79,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1370447219,true,Reflect changed AO name from ecma262,https://github.com/whatwg/html/pull/8283,2022-09-12T19:58:37Z,2022-09-12T20:53:23Z,bakkot,,0
 1366892345,false,Define contenteditable `plaintext-only` state,https://github.com/whatwg/html/pull/8275,2022-09-08T19:32:18Z,2022-11-15T04:12:42Z,howard-e,,0
 1365802704,true,Remove parse error for <template><tr></tr> </template>,https://github.com/whatwg/html/pull/8271,2022-09-08T08:39:12Z,2022-09-15T19:10:57Z,zcorpan,topic: parser,0
-1362916350,false,Custom handlers automation,https://github.com/whatwg/html/pull/8267,2022-09-06T08:40:07Z,2022-11-23T05:48:06Z,javifernandez,,0
+1362916350,false,Custom handlers automation,https://github.com/whatwg/html/pull/8267,2022-09-06T08:40:07Z,2022-11-23T23:18:17Z,javifernandez,,0
 1362286926,true,"Replace ""asynchronous completions"" with a callback algorithm",https://github.com/whatwg/html/pull/8264,2022-09-05T16:51:35Z,2022-09-28T05:53:02Z,nicolo-ribaudo,clarification|topic: script,0
 1360604905,true,Add a `navigator` interface for user activation state.,https://github.com/whatwg/html/pull/8254,2022-09-02T20:54:59Z,2022-09-15T20:14:24Z,mustaqahmed,,0
 1360247038,false,[ECMA-262 layering] Refactor import-related host hooks,https://github.com/whatwg/html/pull/8253,2022-09-02T14:06:40Z,2022-11-03T15:28:12Z,nicolo-ribaudo,do not merge yet|topic: script,0
@@ -94,7 +94,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1355100809,true,Add missing parameters to 'Create the navigation timing entry'.,https://github.com/whatwg/html/pull/8233,2022-08-30T03:04:22Z,2022-10-19T15:22:10Z,jeremyroman,,0
 1354902054,true,Fix webauthn autocomplete token parsing,https://github.com/whatwg/html/pull/8232,2022-08-29T21:39:27Z,2022-09-07T04:01:31Z,nsatragno,,0
 1354471819,false,Remove canvas 2d scrollPathIntoView,https://github.com/whatwg/html/pull/8229,2022-08-29T15:15:06Z,2022-09-30T10:43:31Z,junov,,0
-1350004480,false,Add popover attribute,https://github.com/whatwg/html/pull/8221,2022-08-24T20:48:00Z,2022-11-22T21:16:29Z,josepharhar,,0
+1350004480,false,Add popover attribute,https://github.com/whatwg/html/pull/8221,2022-08-24T20:48:00Z,2022-11-23T23:50:15Z,josepharhar,,0
 1347009137,true,Makes Canvas' ConicGradient match CSS angle,https://github.com/whatwg/html/pull/8213,2022-08-22T21:29:28Z,2022-08-23T17:07:56Z,fserb,normative change|topic: canvas|interop,0
 1343094151,false,Add a performance entry type for visibility state changes,https://github.com/whatwg/html/pull/8206,2022-08-18T13:21:04Z,2022-08-31T12:16:01Z,noamr,,0
 1341952968,true,Saját txt fájl létrehozása tesztelés miatt,https://github.com/whatwg/html/pull/8201,2022-08-17T15:34:09Z,2022-08-17T22:16:00Z,FerencFarkas22,spam,0
@@ -549,7 +549,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 911696257,true,Restore navigator.plugins and navigator.mimeTypes as PDF-focused,https://github.com/whatwg/html/pull/6738,2021-06-04T17:09:58Z,2021-07-13T17:59:17Z,domenic,interop|impacts documentation,0
 911537288,true,Editorial: omit developer-only content from snapshots too,https://github.com/whatwg/html/pull/6737,2021-06-04T14:08:32Z,2021-06-17T17:09:26Z,domenic,dev edition,0
 911466543,true,HTML parser: handle </br> and </p> in SVG,https://github.com/whatwg/html/pull/6736,2021-06-04T12:43:33Z,2021-06-23T23:09:20Z,zcorpan,normative change|compat|topic: parser|interop,0
-910834891,true,"Add a ""cancel"" event for when file upload selection is unchanged",https://github.com/whatwg/html/pull/6735,2021-06-03T20:36:40Z,2021-07-19T15:04:50Z,domenic,addition/proposal|topic: forms|topic: events|agenda+,1
+910834891,true,"Add a ""cancel"" event for when file upload selection is unchanged",https://github.com/whatwg/html/pull/6735,2021-06-03T20:36:40Z,2022-11-23T14:57:49Z,domenic,addition/proposal|topic: forms|topic: events|agenda+,1
 902866693,true,Specify window.clientInformation and Navigator lifetime,https://github.com/whatwg/html/pull/6721,2021-05-26T20:08:17Z,2021-06-17T17:11:46Z,domenic,addition/proposal|interop,0
 901263226,true,Fixes to stopping document loading,https://github.com/whatwg/html/pull/6720,2021-05-25T19:31:30Z,2021-05-26T16:19:18Z,domenic,removal/deprecation|topic: navigation|impacts documentation,0
 900826557,true,target's TLBC made to target BC's TLBC in has focus steps,https://github.com/whatwg/html/pull/6717,2021-05-25T13:38:38Z,2021-06-17T20:04:25Z,Patil2099,topic: focus,0
