@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1463157497,false,HTMLInputElement.list should be an HTMLDataListElement,https://github.com/whatwg/html/issues/8547,2022-11-24T10:55:57Z,2022-11-24T10:55:57Z,emilio,,0
+1463488301,false,`blocking=render` in preload and modulepreload links,https://github.com/whatwg/html/issues/8550,2022-11-24T15:10:56Z,2022-11-24T15:10:56Z,NiedziolkaMichal,,0
+1463157497,true,HTMLInputElement.list should be an HTMLDataListElement,https://github.com/whatwg/html/issues/8547,2022-11-24T10:55:57Z,2022-11-24T14:56:30Z,emilio,,0
 1462804756,false,"Should ""ignore higher-layer caching"" flag get a definition?",https://github.com/whatwg/html/issues/8546,2022-11-24T06:01:25Z,2022-11-24T06:03:01Z,karlcow,,0
 1462764097,false,GC for cached attr-associated elements?,https://github.com/whatwg/html/issues/8545,2022-11-24T05:03:47Z,2022-11-24T05:03:47Z,alice,,0
 1462756977,false,Shadow DOM and ElementInternals ARIAMixin properties,https://github.com/whatwg/html/issues/8544,2022-11-24T04:53:36Z,2022-11-24T08:20:55Z,alice,topic: shadow|topic: custom elements,0
@@ -8,14 +9,14 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1457097101,false,"Bogus assertion in ""prepare the script element""?",https://github.com/whatwg/html/issues/8534,2022-11-20T23:58:15Z,2022-11-20T23:58:15Z,awesomekling,,0
 1456832762,false,A means to extend the life of transient activation,https://github.com/whatwg/html/issues/8529,2022-11-20T09:29:10Z,2022-11-20T09:30:13Z,marcoscaceres,topic: user activation,0
 1455877461,false,"What should happen when the last valid <meta name=""referrer"" content=""...""> tag is removed?",https://github.com/whatwg/html/issues/8525,2022-11-18T22:00:32Z,2022-11-21T16:18:17Z,a4sriniv,topic: fetch,0
-1454655720,false,lazy loading attribute and dynamic insertion of src of a previously requested image outside the viewport,https://github.com/whatwg/html/issues/8524,2022-11-18T08:02:45Z,2022-11-24T06:01:51Z,karlcow,,0
+1454655720,true,lazy loading attribute and dynamic insertion of src of a previously requested image outside the viewport,https://github.com/whatwg/html/issues/8524,2022-11-18T08:02:45Z,2022-11-24T18:51:30Z,karlcow,,0
 1453701528,true,Bikeshed: Multiple possible 'environment' dfn refs.,https://github.com/whatwg/html/issues/8522,2022-11-17T17:15:57Z,2022-11-21T01:39:08Z,hober,meta,0
 1452974568,false,"Standardize the relation between the popup condition, BarProp.visible, and noopener/noreferrer",https://github.com/whatwg/html/issues/8520,2022-11-17T09:07:24Z,2022-11-17T09:07:24Z,arai-a,,0
 1451858654,false,iframes can still be loaded with frame-src: none,https://github.com/whatwg/html/issues/8517,2022-11-16T15:58:18Z,2022-11-16T15:58:18Z,devsnek,,0
 1450949667,true,"""text/pdf"" is not a valid MIME media type for PDF",https://github.com/whatwg/html/issues/8516,2022-11-16T06:20:49Z,2022-11-16T06:28:52Z,petervwyatt,,0
 1450640430,false,One-time `await`able event listeners,https://github.com/whatwg/html/issues/8513,2022-11-16T01:12:56Z,2022-11-16T05:55:25Z,josephrocca,,0
 1450502378,true,"sandboxFlags is never defined in ""create navigation params by fetching""",https://github.com/whatwg/html/issues/8511,2022-11-15T23:01:07Z,2022-11-17T03:04:06Z,jeremyroman,,0
-1449682450,false,Open `<details>` and `<dialog>` if their content is targeted in the URL fragment,https://github.com/whatwg/html/issues/8509,2022-11-15T12:10:26Z,2022-11-17T14:30:40Z,Boldewyn,,4
+1449682450,false,Open `<details>` and `<dialog>` if their content is targeted in the URL fragment,https://github.com/whatwg/html/issues/8509,2022-11-15T12:10:26Z,2022-11-17T14:30:40Z,Boldewyn,,5
 1449329706,false,It's time to reinvent the table element,https://github.com/whatwg/html/issues/8507,2022-11-15T07:51:51Z,2022-11-15T07:51:51Z,NagayamaToshiaki,,0
 1449138951,true,Could we make consume user activation return a boolean?,https://github.com/whatwg/html/issues/8505,2022-11-15T04:16:12Z,2022-11-16T00:04:58Z,marcoscaceres,topic: user activation,0
 1447249807,false,"`<form method=""dialog"">` should probably not check for `noopener`",https://github.com/whatwg/html/issues/8499,2022-11-14T02:07:22Z,2022-11-17T15:42:38Z,nt1m,topic: forms|topic: dialog|agenda+,0
@@ -604,7 +605,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 958420412,true,"[COOP] Wrong type in ""queue a violation report for browsing context group switch when navigating away from a COOP response""",https://github.com/whatwg/html/issues/6925,2021-08-02T18:57:06Z,2021-08-03T19:08:38Z,cdumez,topic: cross-origin-opener-policy,0
 955141045,false,COOP: Navigations to non-initial about:blank,https://github.com/whatwg/html/issues/6913,2021-07-28T18:46:22Z,2021-08-03T08:41:30Z,cdumez,topic: cross-origin-opener-policy,0
 955051236,false,Proposal: blank worker,https://github.com/whatwg/html/issues/6911,2021-07-28T16:52:49Z,2022-01-30T04:03:33Z,wanderview,addition/proposal|needs implementer interest|topic: workers,6
-954670682,true,Proposal: Add a way to open programmatically a date picker,https://github.com/whatwg/html/issues/6909,2021-07-28T09:41:23Z,2022-03-24T17:08:22Z,beaufortfrancois,addition/proposal|needs implementer interest|topic: forms,29
+954670682,true,Proposal: Add a way to open programmatically a date picker,https://github.com/whatwg/html/issues/6909,2021-07-28T09:41:23Z,2022-03-24T17:08:22Z,beaufortfrancois,addition/proposal|needs implementer interest|topic: forms,30
 954564369,false,Add ime-mode to html input,https://github.com/whatwg/html/issues/6908,2021-07-28T07:30:15Z,2021-08-10T08:59:33Z,NagayamaToshiaki,i18n-tracker|i18n-jlreq,0
 954543780,true,Html element's start tag must not be omitted or add new ways to specify lang attribute of the html file,https://github.com/whatwg/html/issues/6907,2021-07-28T07:02:12Z,2021-07-29T06:43:39Z,NagayamaToshiaki,i18n-tracker,0
 954330262,false,"window.stop() does not cancel traversal navigations, but the stop button does",https://github.com/whatwg/html/issues/6905,2021-07-27T23:08:08Z,2021-07-27T23:08:08Z,domenic,topic: navigation|topic: history,0
