@@ -37,9 +37,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: GH_TOKEN=$GH_TOKEN deno run -A write-all.js
 
-
-      - name: Create sqlite
-        run: ./create-sqlite.sh
+      # - name: Create sqlite
+      #   run: ./create-sqlite.sh
 
       - name: Commit report
         run: |
