@@ -1,6 +1,7 @@
 export { default as jmespath } from "https://cdn.skypack.dev/jmespath";
 export { default as moment } from "https://esm.sh/moment";
-export { parseLinkHeader } from "./parselinkheader.js";
+import { parseLinkHeader } from "./parselinkheader.js";
+export { parseLinkHeader };
 
 import papaparse from "https://esm.sh/papaparse/";
 
@@ -59,4 +60,48 @@ export function fetchWithToken(url) {
       Authorization: GH_TOKEN ? `Bearer ${GH_TOKEN}` : "",
     },
   });
+}
+
+export async function fetchIssues(initialURL) {
+  let output = {
+    issues: [],
+    prs: [],
+  };
+  async function getIssues(url) {
+    console.log("Getting issues from", url);
+    let resp = await fetchWithToken(url);
+    let data = await resp.json();
+    let linkHeader = (
+      resp.headers.get("Link") ? parseLinkHeader(resp.headers.get("Link")) : []
+    ).find((link) => link.rel == "next");
+
+    if (!Array.isArray(data)) {
+      console.error(data);
+      throw new Error("Expected an array but got " + JSON.stringify(data));
+    }
+
+    let issues = data.filter((i) => !i.pull_request);
+    let prs = data.filter((i) => i.pull_request);
+
+    output.issues = output.issues.concat(issues);
+    output.prs = output.prs.concat(prs);
+    if (linkHeader) {
+      await getIssues(linkHeader.uri);
+    }
+  }
+  await getIssues(initialURL);
+
+  console.log(
+    `Got ${output.issues.length} issues (${
+      output.issues.filter((i) => i.state != "closed").length
+    } open and ${
+      output.issues.filter((i) => i.state == "closed").length
+    } closed)`
+  );
+  console.log(
+    `Got ${output.prs.length} PRs (${
+      output.prs.filter((i) => i.state != "closed").length
+    } open and ${output.prs.filter((i) => i.state == "closed").length} closed)`
+  );
+  return output;
 }

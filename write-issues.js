@@ -2,9 +2,8 @@ import {
   REPOS,
   GH_TOKEN,
   jmespath,
-  parseLinkHeader,
   json_to_csv,
-  fetchWithToken,
+  fetchIssues,
 } from "./deps.js";
 console.log(`Has an API token? ${!!GH_TOKEN}`);
 
@@ -21,59 +20,14 @@ function mapResponse(data) {
 
   return filtered;
 }
-async function fetchIssues(initialURL) {
-  let output = {
-    issues: [],
-    prs: [],
-  };
-  async function getIssues(url) {
-    console.log("Getting issues from", url);
-    let resp = await fetchWithToken(url);
-    let data = await resp.json();
-    let linkHeader = (
-      resp.headers.get("Link") ? parseLinkHeader(resp.headers.get("Link")) : []
-    ).find((link) => link.rel == "next");
-
-    if (!Array.isArray(data)) {
-      console.error(data);
-      throw new Error("Expected an array but got " + JSON.stringify(data));
-    }
-    // if (SKIP_PRS) {
-    //   let issueLength = data.length;
-    //   data = data.filter((i) => i.pull_request);
-    //   console.log(
-    //     `Removed ${issueLength - data.length} PRs from ${issueLength} issues`
-    //   );
-    // }
-
-    let issues = mapResponse(data.filter((i) => !i.pull_request));
-    let prs = mapResponse(data.filter((i) => i.pull_request));
-
-    output.issues = output.issues.concat(issues);
-    output.prs = output.prs.concat(prs);
-
-    if (linkHeader) {
-      await getIssues(linkHeader.uri);
-    }
-  }
-  await getIssues(initialURL);
-  console.log(
-    `Got ${output.issues.length} issues (${
-      output.issues.filter((i) => !i.closed).length
-    } open and ${output.issues.filter((i) => i.closed).length} closed)`
-  );
-  console.log(
-    `Got ${output.prs.length} PRs (${
-      output.prs.filter((i) => !i.closed).length
-    } open and ${output.prs.filter((i) => i.closed).length} closed)`
-  );
-  return output;
-}
 
 for (const repo of REPOS) {
   let { issues, prs } = await fetchIssues(
     `https://api.github.com/repos/${repo}/issues?per_page=1000&state=all` // &sort=updated
   );
+
+  issues = mapResponse(issues);
+  prs = mapResponse(prs);
 
   // console.log(output);
   Deno.writeTextFileSync(

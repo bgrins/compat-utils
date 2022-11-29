@@ -1,11 +1,14 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1467872424,false,"Should padding be respected on ""natively styled"" form controls?",https://github.com/whatwg/html/issues/8560,2022-11-29T11:06:38Z,2022-11-29T16:37:27Z,emilio,topic: rendering|topic: forms|agenda+,0
+1467248091,false,Need clarification about CDATA and HTML integration point,https://github.com/whatwg/html/issues/8558,2022-11-28T23:54:55Z,2022-11-29T15:29:09Z,alexander-akait,,3
+1466646727,false,ECMAScript Explicit Resource Management proposal integration with web APIs,https://github.com/whatwg/html/issues/8557,2022-11-28T15:42:04Z,2022-11-28T15:42:04Z,rbuckton,,0
 1465142063,false,Running the same failing module script breaks ECMA assumptions,https://github.com/whatwg/html/issues/8553,2022-11-26T12:29:56Z,2022-11-26T12:30:09Z,davidot,,0
 1464304315,false,Permit overriding user agent styles for summary details when closed,https://github.com/whatwg/html/issues/8551,2022-11-25T10:05:15Z,2022-11-25T20:00:38Z,brennanyoung,,1
 1463488301,false,`blocking=render` in preload and modulepreload links,https://github.com/whatwg/html/issues/8550,2022-11-24T15:10:56Z,2022-11-24T15:10:56Z,NiedziolkaMichal,,0
 1463157497,true,HTMLInputElement.list should be an HTMLDataListElement,https://github.com/whatwg/html/issues/8547,2022-11-24T10:55:57Z,2022-11-24T14:56:30Z,emilio,,0
 1462804756,false,"Should ""ignore higher-layer caching"" flag get a definition?",https://github.com/whatwg/html/issues/8546,2022-11-24T06:01:25Z,2022-11-24T06:03:01Z,karlcow,,0
 1462764097,false,GC for cached attr-associated elements?,https://github.com/whatwg/html/issues/8545,2022-11-24T05:03:47Z,2022-11-25T07:32:32Z,alice,,0
-1462756977,false,Shadow DOM and ElementInternals ARIAMixin properties,https://github.com/whatwg/html/issues/8544,2022-11-24T04:53:36Z,2022-11-24T08:20:55Z,alice,topic: shadow|topic: custom elements,0
+1462756977,false,Shadow DOM and ElementInternals ARIAMixin properties,https://github.com/whatwg/html/issues/8544,2022-11-24T04:53:36Z,2022-11-29T17:31:18Z,alice,topic: shadow|topic: custom elements,0
 1461018906,false,Is it possible to allow `<a>` elements to nest within each other in the future?,https://github.com/whatwg/html/issues/8541,2022-11-23T05:01:58Z,2022-11-26T17:41:28Z,LIXiangChen,,0
 1459558712,false,An iframe whose history can be transferred across parent navigations,https://github.com/whatwg/html/issues/8538,2022-11-22T10:15:42Z,2022-11-22T12:24:19Z,jakearchibald,,14
 1457097101,false,"Bogus assertion in ""prepare the script element""?",https://github.com/whatwg/html/issues/8534,2022-11-20T23:58:15Z,2022-11-20T23:58:15Z,awesomekling,,0
@@ -165,7 +168,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1315859584,true,"""would work also"" ",https://github.com/whatwg/html/issues/8127,2022-07-24T09:45:57Z,2022-07-24T11:11:20Z,winstonDeGreef,,0
 1316359061,false,MediaElement and SyntheticMediaElement,https://github.com/whatwg/html/issues/8129,2022-07-22T21:39:56Z,2022-09-16T19:00:15Z,ysulyma,addition/proposal|topic: media,0
 1315210946,false,Discuss WebGPU integration issues,https://github.com/whatwg/html/issues/8123,2022-07-22T16:34:13Z,2022-08-29T11:01:46Z,fserb,topic: canvas,0
-1313777312,false,Suggestion: You should be able to load module-scripts in the `file://` protocol.,https://github.com/whatwg/html/issues/8121,2022-07-21T20:40:22Z,2022-11-20T20:33:01Z,CalinZBaenen,,0
+1313777312,false,Suggestion: You should be able to load module-scripts in the `file://` protocol.,https://github.com/whatwg/html/issues/8121,2022-07-21T20:40:22Z,2022-11-29T01:13:22Z,CalinZBaenen,,0
 1312599763,false,"Proposal: keep the previous page as a ""menu""",https://github.com/whatwg/html/issues/8119,2022-07-21T04:57:07Z,2022-07-21T04:57:07Z,markmiro,,0
 1311631285,true,"Behavior of createImageBitmap with { imageOrientation: ""flipY"" } is unclear",https://github.com/whatwg/html/issues/8118,2022-07-20T18:08:57Z,2022-11-14T22:03:30Z,junov,topic: canvas,0
 1308221885,false,HTML needs a mechaism for extending the parsing algorithm,https://github.com/whatwg/html/issues/8114,2022-07-18T16:41:40Z,2022-09-13T08:39:00Z,plinss,addition/proposal|topic: parser,1
@@ -369,7 +372,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1128916458,false,Copy over the error from inside workers to the Worker error event?,https://github.com/whatwg/html/issues/7596,2022-02-09T19:02:36Z,2022-02-15T17:14:33Z,domenic,addition/proposal|needs implementer interest|topic: workers|topic: serialize and transfer,1
 1128211306,true,Formal complaint: search element standardization,https://github.com/whatwg/html/issues/7594,2022-02-09T08:34:31Z,2022-02-10T10:29:31Z,Kaleidea,,0
 1127384263,true,Add a single radius version of CanvasRenderingContext2D.roundRect,https://github.com/whatwg/html/issues/7592,2022-02-08T15:10:56Z,2022-02-17T21:44:59Z,mysteryDate,addition/proposal|needs implementer interest|topic: canvas,1
-1127115952,false,Consider not exposing ErrorEvent/PromiseRejectionEvent in ShadowRealms,https://github.com/whatwg/html/issues/7591,2022-02-08T11:14:29Z,2022-05-11T13:09:15Z,smaug----,topic: multiple globals|integration,0
+1127115952,false,Consider not exposing ErrorEvent/PromiseRejectionEvent in ShadowRealms,https://github.com/whatwg/html/issues/7591,2022-02-08T11:14:29Z,2022-11-29T16:09:29Z,smaug----,topic: multiple globals|integration,0
 1126672278,false,Deprecate <rp> element,https://github.com/whatwg/html/issues/7590,2022-02-08T01:04:58Z,2022-10-24T00:45:30Z,NagayamaToshiaki,removal/deprecation|document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,3
 1126330353,true,"""prepare a script"" could be more precise about documents",https://github.com/whatwg/html/issues/7589,2022-02-07T18:11:42Z,2022-05-18T23:42:17Z,domenic,clarification|topic: script,1
 1125672254,false,Reconsider the `<rb>` element,https://github.com/whatwg/html/issues/7587,2022-02-07T08:36:17Z,2022-02-17T11:11:35Z,NagayamaToshiaki,i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,1
@@ -607,7 +610,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 958420412,true,"[COOP] Wrong type in ""queue a violation report for browsing context group switch when navigating away from a COOP response""",https://github.com/whatwg/html/issues/6925,2021-08-02T18:57:06Z,2021-08-03T19:08:38Z,cdumez,topic: cross-origin-opener-policy,0
 955141045,false,COOP: Navigations to non-initial about:blank,https://github.com/whatwg/html/issues/6913,2021-07-28T18:46:22Z,2021-08-03T08:41:30Z,cdumez,topic: cross-origin-opener-policy,0
 955051236,false,Proposal: blank worker,https://github.com/whatwg/html/issues/6911,2021-07-28T16:52:49Z,2022-01-30T04:03:33Z,wanderview,addition/proposal|needs implementer interest|topic: workers,6
-954670682,true,Proposal: Add a way to open programmatically a date picker,https://github.com/whatwg/html/issues/6909,2021-07-28T09:41:23Z,2022-03-24T17:08:22Z,beaufortfrancois,addition/proposal|needs implementer interest|topic: forms,30
+954670682,true,Proposal: Add a way to open programmatically a date picker,https://github.com/whatwg/html/issues/6909,2021-07-28T09:41:23Z,2022-03-24T17:08:22Z,beaufortfrancois,addition/proposal|needs implementer interest|topic: forms,31
 954564369,false,Add ime-mode to html input,https://github.com/whatwg/html/issues/6908,2021-07-28T07:30:15Z,2021-08-10T08:59:33Z,NagayamaToshiaki,i18n-tracker|i18n-jlreq,0
 954543780,true,Html element's start tag must not be omitted or add new ways to specify lang attribute of the html file,https://github.com/whatwg/html/issues/6907,2021-07-28T07:02:12Z,2021-07-29T06:43:39Z,NagayamaToshiaki,i18n-tracker,0
 954330262,false,"window.stop() does not cancel traversal navigations, but the stop button does",https://github.com/whatwg/html/issues/6905,2021-07-27T23:08:08Z,2021-07-27T23:08:08Z,domenic,topic: navigation|topic: history,0
@@ -1441,7 +1444,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 504207648,true,Adopt the allowance of headings inside legend from W3C HTML5.2?,https://github.com/whatwg/html/issues/4990,2019-10-08T18:33:50Z,2020-02-19T13:51:38Z,SelenIT,addition/proposal|document conformance|accessibility|impacts documentation,9
 504066480,true,"""Create a similar-origin window agent"" is weird",https://github.com/whatwg/html/issues/4988,2019-10-08T14:06:18Z,2020-03-31T17:10:56Z,annevk,topic: agent,0
 503894667,false,autocomplete attribute for credit-card expiration details,https://github.com/whatwg/html/issues/4987,2019-10-08T08:12:59Z,2019-11-09T00:48:55Z,battre,addition/proposal|topic: forms|i18n-tracker,1
-503891219,false,autocomplete attribute for street-address details,https://github.com/whatwg/html/issues/4986,2019-10-08T08:05:20Z,2022-11-15T08:19:14Z,battre,addition/proposal|needs implementer interest|accessibility|topic: forms|i18n-tracker,35
+503891219,false,autocomplete attribute for street-address details,https://github.com/whatwg/html/issues/4986,2019-10-08T08:05:20Z,2022-11-28T18:08:41Z,battre,addition/proposal|needs implementer interest|accessibility|topic: forms|i18n-tracker,36
 503719928,true,Base6,https://github.com/whatwg/html/issues/4981,2019-10-07T22:17:00Z,2019-10-08T02:10:35Z,Deadmau8772,,0
 503657569,false,Attempt to remove implied-document definition,https://github.com/whatwg/html/issues/4980,2019-10-07T19:55:46Z,2020-06-24T16:37:26Z,dtapuska,clarification|topic: event loop,0
 503606041,false,Multiple Selections from Datalist,https://github.com/whatwg/html/issues/4979,2019-10-07T18:06:20Z,2021-03-21T00:07:52Z,ecc521,addition/proposal|needs implementer interest|topic: forms,1

@@ -1,6 +1,11 @@
 import activities_json from "https://raw.githubusercontent.com/mozilla/standards-positions/main/activities.json" assert { type: "json" };
-
-import { json_to_csv, csv_to_json } from "./deps.js";
+import {
+  json_to_csv,
+  csv_to_json,
+  parseLinkHeader,
+  fetchWithToken,
+  fetchIssues,
+} from "./deps.js";
 
 const known_labels = new Map([
   ["position: positive", "positive"],
@@ -83,3 +88,39 @@ Deno.writeTextFileSync(
       input: Array.from(combined_issues),
     })
 );
+
+function mapResponse(data) {
+  return data.map((i) => {
+    const extracted = {
+      "Specification Title": i.body
+        ?.match(/Specification Title:\s*(.*)/)?.[1]
+        ?.trim(),
+      "Specification or proposal URL": i.body
+        ?.match(/Specification or proposal URL:\s*(.*)/)?.[1]
+        ?.trim(),
+      "Caniuse.com URL (optional)": i.body
+        ?.match(/Caniuse.com URL \(optional\):\s*(.*)/)?.[1]
+        ?.trim(),
+      "Bugzilla URL (optional)": i.body
+        ?.match(/Bugzilla URL \(optional\):\s*(.*)/)?.[1]
+        ?.trim(),
+      "Mozillians who can provide input (optional)": i.body
+        ?.match(/Mozillians who can provide input \(optional\):\s*(.*)/)?.[1]
+        ?.trim(),
+    };
+    return {
+      id: i.id,
+      url: i.html_url,
+      title: i.title,
+      extracted,
+    };
+  });
+}
+
+let { issues, prs } = await fetchIssues(
+  `https://api.github.com/repos/mozilla/standards-positions/issues?per_page=1000&state=all` // &sort=updated
+);
+
+issues = mapResponse(issues);
+
+console.log(issues);
