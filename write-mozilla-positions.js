@@ -6,6 +6,12 @@ import {
   fetchWithToken,
   fetchIssues,
 } from "./deps.js";
+import { parse } from "https://deno.land/std@0.119.0/flags/mod.ts";
+
+const flags = parse(Deno.args, {
+  process_project: false,
+});
+const { "backfill-project-metadata": backfill_project_metadata } = flags;
 
 const known_labels = new Map([
   ["position: positive", "positive"],
@@ -18,39 +24,51 @@ const known_labels_values = new Set(Array.from(known_labels.values()));
 
 const activities_json_map = new Map(
   activities_json.map((pos) => {
-    return [pos.mozPositionIssue, pos.mozPosition];
+    const issue_id = pos.mozPositionIssue;
+    const issue_position = pos.mozPosition;
+    if (!known_labels_values.has(issue_position)) {
+      throw new Error(
+        `Unknown position ${issue_position} for issue ${issue_id}`
+      );
+    }
+    return [
+      issue_id,
+      {
+        issue_position: pos.mozPosition,
+        issue_id,
+        issue_url: `https://github.com/mozilla/standards-positions/issues/${issue_id}`,
+      },
+    ];
   })
 );
-
-// Sanity check that pos.mozPosition is always an expected label
-for (let [issue, pos] of activities_json_map) {
-  if (!known_labels_values.has(pos)) {
-    throw new Error(`Unknown position ${pos} for issue ${issue}`);
-  }
-}
 
 const mozilla_issues = new Map(
   csv_to_json({
     input: Deno.readTextFileSync(`./output/mozilla-standards-positions.csv`),
   }).map((i) => {
-    let id = parseInt(i.url.match(/\/([0-9]*)$/)[1]);
-    let relevant_labels = i.labels
+    let issue_id = parseInt(i.url.match(/\/([0-9]*)$/)[1]);
+    let issue_position = i.labels
       .split("|")
       .filter((l) => known_labels.has(l))
       .map((l) => known_labels.get(l));
-    if (relevant_labels.length > 1) {
+    if (issue_position.length > 1) {
       throw new Error(`More than one position label for issue ${i.id}`);
     }
-    return [id, relevant_labels.length ? relevant_labels[0] : null];
+    return {
+      issue_id,
+      issue_url: i.url,
+      issue_position: issue_position?.[0],
+    };
+    // return [id, relevant_labels.length ? relevant_labels[0] : null];
   })
 );
 
 const mozilla_issues_with_labels = new Map(
-  [...mozilla_issues].filter((i) => i[1])
+  [...mozilla_issues].filter((i) => i.issue_position)
 );
 
 // Sanity check for no conflicting labels between the data sources
-for (let [id, issue_position] of mozilla_issues_with_labels) {
+for (let { id, issue_position } of mozilla_issues_with_labels) {
   if (activities_json_map.has(id)) {
     const pos = activities_json_map.get(id);
     if (pos !== issue_position) {
@@ -80,13 +98,9 @@ console.table({
   combined_issues: combined_issues.size,
 });
 
-console.log([["id", "position"]].concat(Array.from(combined_issues)));
 Deno.writeTextFileSync(
-  `./output/combined-standards-positions.csv`,
-  "id,position\n" +
-    json_to_csv({
-      input: Array.from(combined_issues),
-    })
+  `./output/combined-standards-positions.json`,
+  JSON.stringify(Array.from(combined_issues.values()), null, 2)
 );
 
 function mapResponse(data) {
@@ -117,10 +131,113 @@ function mapResponse(data) {
   });
 }
 
-let { issues, prs } = await fetchIssues(
-  `https://api.github.com/repos/mozilla/standards-positions/issues?per_page=1000&state=all` // &sort=updated
-);
+// let { issues } = await fetchIssues(
+//   `https://api.github.com/repos/mozilla/standards-positions/issues?per_page=1000&state=all` // &sort=updated
+// );
 
-issues = mapResponse(issues);
+// issues = mapResponse(issues);
 
-console.log(issues);
+// console.log(issues);
+
+async function getAllProjectItems({ project_id }) {
+  const output = { nodes: [] };
+
+  async function fetchProjectItems({ endCursor } = {}) {
+    let resp = await fetchWithToken("https://api.github.com/graphql", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        query: `
+      
+    query($project_id: ID!, $endCursor: String) {
+      node(id: $project_id) {
+          ... on ProjectV2 {
+            items(first: 100, after: $endCursor) {
+              nodes{
+                id
+                fieldValues(first: 8) {
+                  nodes{                
+                    ... on ProjectV2ItemFieldTextValue {
+                      text
+                      field {
+                        ... on ProjectV2FieldCommon {
+                          name
+                        }
+                      }
+                    }
+                    ... on ProjectV2ItemFieldDateValue {
+                      date
+                      field {
+                        ... on ProjectV2FieldCommon {
+                          name
+                        }
+                      }
+                    }
+                    ... on ProjectV2ItemFieldSingleSelectValue {
+                      name
+                      field {
+                        ... on ProjectV2FieldCommon {
+                          name
+                        }
+                      }
+                    }
+                  }              
+                }
+                content{
+                  ...on Issue {
+                    title
+                    body
+                    bodyHTML
+                    bodyText
+                    url
+                    id
+                  }
+                }
+              }
+              pageInfo {
+                hasNextPage
+                endCursor
+              }
+            }
+          }
+        }
+        rateLimit {
+          limit     # Your maximum budget. Your budget is reset to this every hour.
+          cost      # The cost of this query.
+          remaining # How much of your API budget remains.
+          resetAt   # The time (in UTC epoch seconds) when your budget will reset.
+        }
+  }
+  `,
+        variables: {
+          project_id,
+          endCursor,
+        },
+      }),
+    });
+    let { data } = await resp.json();
+    console.log(data);
+    output.nodes = output.nodes.concat(...data.node.items.nodes);
+
+    if (data.node.items.pageInfo.hasNextPage) {
+      console.log("another page");
+      await fetchProjectItems({
+        endCursor: data.node.items.pageInfo.endCursor,
+      });
+    }
+  }
+
+  await fetchProjectItems();
+  return output;
+}
+
+if (backfill_project_metadata) {
+  let items = await getAllProjectItems({
+    project_id: "PVT_kwDOAAIBxM4AItcO",
+  });
+  console.log(items);
+  Deno.writeTextFileSync(
+    "temp/temp-api-results.json",
+    JSON.stringify(items, null, 2)
+  );
+}

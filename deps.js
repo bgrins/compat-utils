@@ -54,12 +54,14 @@ export function csv_to_json({ input, options = {} }) {
   return json.data;
 }
 
-export function fetchWithToken(url) {
-  return fetch(url, {
-    headers: {
+export function fetchWithToken(url, options = {}) {
+  options.headers = Object.assign(
+    {
       Authorization: GH_TOKEN ? `Bearer ${GH_TOKEN}` : "",
     },
-  });
+    options.headers || {}
+  );
+  return fetch(url, options);
 }
 
 export async function fetchIssues(initialURL) {
