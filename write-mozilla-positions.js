@@ -131,6 +131,7 @@ function mapResponse(data) {
   });
 }
 
+
 // let { issues } = await fetchIssues(
 //   `https://api.github.com/repos/mozilla/standards-positions/issues?per_page=1000&state=all` // &sort=updated
 // );
