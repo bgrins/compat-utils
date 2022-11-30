@@ -1,17 +1,16 @@
 import activities_json from "https://raw.githubusercontent.com/mozilla/standards-positions/main/activities.json" assert { type: "json" };
-import {
-  json_to_csv,
-  csv_to_json,
-  parseLinkHeader,
-  fetchWithToken,
-  fetchIssues,
-} from "./deps.js";
+import { csv_to_json, fetchWithToken, GH_PROJECT_ID } from "./deps.js";
 import { parse } from "https://deno.land/std@0.119.0/flags/mod.ts";
+import { ensureDirSync } from "https://deno.land/std@0.119.0/fs/mod.ts";
 
 const flags = parse(Deno.args, {
-  process_project: false,
+  backfill_project_metadata: false,
+  remote_fetch_project_issues: false,
 });
-const { "backfill-project-metadata": backfill_project_metadata } = flags;
+const {
+  "backfill-project-metadata": backfill_project_metadata,
+  "remote-fetch-project-issues": remote_fetch_project_issues,
+} = flags;
 
 const known_labels = new Map([
   ["position: positive", "positive"],
@@ -103,44 +102,64 @@ Deno.writeTextFileSync(
   JSON.stringify(Array.from(combined_issues.values()), null, 2)
 );
 
-function mapResponse(data) {
-  return data.map((i) => {
-    const extracted = {
-      "Specification Title": i.body
-        ?.match(/Specification Title:\s*(.*)/)?.[1]
-        ?.trim(),
-      "Specification or proposal URL": i.body
-        ?.match(/Specification or proposal URL:\s*(.*)/)?.[1]
-        ?.trim(),
-      "Caniuse.com URL (optional)": i.body
-        ?.match(/Caniuse.com URL \(optional\):\s*(.*)/)?.[1]
-        ?.trim(),
-      "Bugzilla URL (optional)": i.body
-        ?.match(/Bugzilla URL \(optional\):\s*(.*)/)?.[1]
-        ?.trim(),
-      "Mozillians who can provide input (optional)": i.body
-        ?.match(/Mozillians who can provide input \(optional\):\s*(.*)/)?.[1]
-        ?.trim(),
-    };
-    return {
-      id: i.id,
-      url: i.html_url,
-      title: i.title,
-      extracted,
-    };
-  });
+function extract_from_body(body) {
+  // The titles here map to field names in the project
+  const extracted = {
+    "Specification Title": body
+      ?.match(/Specification Title:\w*(.*)/)?.[1]
+      ?.trim(),
+    "Spec URL": body
+      ?.match(/Specification or proposal URL:\w*(.*)/)?.[1]
+      ?.trim(),
+    "Caniuse URL": body
+      ?.match(/Caniuse.com URL \(optional\):\w*(.*)/)?.[1]
+      ?.trim(),
+    "Bugzilla URL": body
+      ?.match(/Bugzilla URL \(optional\):\w*(.*)/)?.[1]
+      ?.trim(),
+    "Suggested input": body
+      ?.match(/Mozillians who can provide input \(optional\):\w*(.*)/)?.[1]
+      ?.trim(),
+  };
+  return extracted;
 }
 
+async function get_field_to_id_mapping() {
+  const query = `
+    query($project_id: ID!) {
+      node(id: $project_id) {
+        ... on ProjectV2 {
+          fields(first: 50) {
+            nodes {
+              ... on ProjectV2FieldCommon {
+                id
+                name
+              }
+            }
+          }
+        }
+      }
+    }`;
+  const response = await fetchWithToken(`https://api.github.com/graphql`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      query,
+      variables: {
+        project_id: GH_PROJECT_ID,
+      },
+    }),
+  });
+  const json = await response.json();
+  // console.log(json);
+  const fields = json.data.node.fields.nodes;
+  const field_ids = new Map(fields.map((f) => [f.name, f.id]));
+  return Object.fromEntries(field_ids);
+}
 
-// let { issues } = await fetchIssues(
-//   `https://api.github.com/repos/mozilla/standards-positions/issues?per_page=1000&state=all` // &sort=updated
-// );
-
-// issues = mapResponse(issues);
-
-// console.log(issues);
-
-async function getAllProjectItems({ project_id }) {
+async function get_all_project_items({ project_id }) {
   const output = { nodes: [] };
 
   async function fetchProjectItems({ endCursor } = {}) {
@@ -156,6 +175,7 @@ async function getAllProjectItems({ project_id }) {
             items(first: 100, after: $endCursor) {
               nodes{
                 id
+                type
                 fieldValues(first: 8) {
                   nodes{                
                     ... on ProjectV2ItemFieldTextValue {
@@ -163,6 +183,7 @@ async function getAllProjectItems({ project_id }) {
                       field {
                         ... on ProjectV2FieldCommon {
                           name
+                          id
                         }
                       }
                     }
@@ -171,6 +192,7 @@ async function getAllProjectItems({ project_id }) {
                       field {
                         ... on ProjectV2FieldCommon {
                           name
+                          id
                         }
                       }
                     }
@@ -179,6 +201,7 @@ async function getAllProjectItems({ project_id }) {
                       field {
                         ... on ProjectV2FieldCommon {
                           name
+                          id
                         }
                       }
                     }
@@ -186,12 +209,12 @@ async function getAllProjectItems({ project_id }) {
                 }
                 content{
                   ...on Issue {
+                    id
+                    url
                     title
                     body
-                    bodyHTML
+                    bodyHTML,
                     bodyText
-                    url
-                    id
                   }
                 }
               }
@@ -221,7 +244,9 @@ async function getAllProjectItems({ project_id }) {
     output.nodes = output.nodes.concat(...data.node.items.nodes);
 
     if (data.node.items.pageInfo.hasNextPage) {
-      console.log("another page");
+      console.log(
+        `Adding another page with ${data.node.items.pageInfo.endCursor}`
+      );
       await fetchProjectItems({
         endCursor: data.node.items.pageInfo.endCursor,
       });
@@ -232,13 +257,133 @@ async function getAllProjectItems({ project_id }) {
   return output;
 }
 
+// This is a one time job to fill a project board with structured metadata pulled out of issue bodies based on a template
 if (backfill_project_metadata) {
-  let items = await getAllProjectItems({
-    project_id: "PVT_kwDOAAIBxM4AItcO",
-  });
-  console.log(items);
-  Deno.writeTextFileSync(
-    "temp/temp-api-results.json",
-    JSON.stringify(items, null, 2)
+  let field_name_to_id = await get_field_to_id_mapping();
+  console.log(field_name_to_id);
+  let items;
+  if (remote_fetch_project_issues) {
+    items = await get_all_project_items({
+      project_id: GH_PROJECT_ID,
+    });
+    console.log(items);
+    Deno.writeTextFileSync(
+      "temp/graphql_results.json",
+      JSON.stringify(items, null, 2)
+    );
+  } else {
+    items = JSON.parse(Deno.readTextFileSync("./temp/graphql_results.json"));
+  }
+  let issues = items.nodes.filter((i) => i.type === "ISSUE");
+  let prs = items.nodes.filter((i) => i.type === "PULL_REQUEST");
+  console.log(
+    `Found ${items.nodes.length} items (${issues.length} issues and ${prs.length} PRs)`
   );
+  let issues_metadata = new Map(
+    issues.map((i) => [i.content.url, extract_from_body(i.content.body)])
+  );
+  ensureDirSync("./temp");
+  Deno.writeTextFileSync(
+    "temp/project_response.json",
+    JSON.stringify(issues, null, 2)
+  );
+  Deno.writeTextFileSync(
+    "temp/issues_metadata.json",
+    JSON.stringify(Object.fromEntries(issues_metadata), null, 2)
+  );
+
+  // Now write back issues_metadata to the graphql api when the corresponding field
+  // isn't already set on the item:
+  let items_to_update = [];
+  for (let item of issues) {
+    let issue_metadata = issues_metadata.get(item.content.url);
+    if (!issue_metadata) {
+      console.warn("No metadata for", item.content.url);
+      continue;
+    }
+    for (let field of Object.keys(field_name_to_id)) {
+      if (
+        !item.fieldValues.nodes.find(
+          (f) => f.field?.name === field && f.text
+        ) &&
+        issue_metadata[field]
+      ) {
+        // console.log(
+        //   field,
+        //   item.fieldValues.nodes,
+        //   item.fieldValues.nodes.find((f) => f.field?.name === field)
+        // );
+        items_to_update.push({
+          id: item.id,
+          url: item.content.url,
+          field,
+          field_id: field_name_to_id[field],
+          value: issue_metadata[field],
+        });
+      }
+    }
+  }
+  Deno.writeTextFileSync(
+    "temp/issues_to_update.json",
+    JSON.stringify(items_to_update, null, 2)
+  );
+
+  console.log(`Found ${items_to_update.length} items to update`);
+
+  // Summarize how many items_to_update we have for each unique field:
+  let field_counts = {};
+  for (let item of items_to_update) {
+    if (!field_counts[item.field]) {
+      field_counts[item.field] = 0;
+    }
+    field_counts[item.field]++;
+  }
+  console.table(field_counts);
+
+  let issues_to_update = 500;
+  for (let item of items_to_update) {
+    let resp = await fetchWithToken("https://api.github.com/graphql", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        query: `
+        mutation($project_id: ID!, $item_id: ID!, $field_id: ID!, $value: String!) {
+          updateProjectV2ItemFieldValue(input: {
+            projectId: $project_id
+            itemId: $item_id
+            fieldId: $field_id
+            value: {
+              text: $value
+            }
+          }) {
+            projectV2Item {
+              id
+            }
+          }
+        }
+        `,
+        variables: {
+          project_id: GH_PROJECT_ID,
+          item_id: item.id,
+          field_id: item.field_id,
+          value: item.value,
+        },
+      }),
+    });
+
+    console.log({
+      item_id: item.id,
+      field: item.field,
+      field_id: item.field_id,
+      value: {
+        text: item.value,
+      },
+    });
+    let data = await resp.json();
+    console.log(data);
+
+    if (issues_to_update-- === 0) {
+      break;
+    }
+  }
 }

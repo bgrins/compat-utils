@@ -25,7 +25,7 @@ export const REPOS = [
 
 import { configSync } from "https://deno.land/std@0.137.0/dotenv/mod.ts";
 const CONFIG = Object.assign({}, Deno.env.toObject(), configSync());
-export const { GH_TOKEN } = CONFIG;
+export const { GH_TOKEN, GH_PROJECT_ID } = CONFIG;
 
 export function json_to_csv({ input, options = {} }) {
   let header =
