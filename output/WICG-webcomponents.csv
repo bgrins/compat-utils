@@ -1,5 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1437765621,false,[scoped-registries] CustomElementRegistry to support SDLC of generic browser entities,https://github.com/WICG/webcomponents/issues/976,2022-11-07T04:59:51Z,2022-11-07T05:01:10Z,sashafirsov,,0
+1482452217,false,Enabling secure script-like custom elements.,https://github.com/WICG/webcomponents/issues/979,2022-12-07T17:31:47Z,2022-12-07T17:31:47Z,justinfagnani,,0
+1477203304,false,"Spring 2023 ""F2F""",https://github.com/WICG/webcomponents/issues/978,2022-12-05T18:51:29Z,2022-12-05T18:51:29Z,Westbrook,,5
+1471639762,false,"delegatesFocus and non-tabbable, focusable elements",https://github.com/WICG/webcomponents/issues/977,2022-12-01T16:55:39Z,2022-12-08T11:03:04Z,mrtnmgs,shadow-dom|question,0
+1437765621,false,[scoped-registries] CustomElementRegistry to support SDLC of generic browser entities,https://github.com/WICG/webcomponents/issues/976,2022-11-07T04:59:51Z,2022-12-08T00:21:38Z,sashafirsov,,0
 1421839946,false,URLs should be cool (or: maintain historic URLs),https://github.com/WICG/webcomponents/issues/975,2022-10-25T04:45:32Z,2022-10-25T04:45:32Z,gsnedders,,0
 1417329111,false,Can ElementInternals have ARIA properties pointing inside the shadow root?,https://github.com/WICG/webcomponents/issues/974,2022-10-20T21:34:05Z,2022-11-29T14:03:48Z,nolanlawson,,0
 1414269524,true,new conceptual way of creating web components,https://github.com/WICG/webcomponents/issues/973,2022-10-19T04:32:27Z,2022-11-25T11:46:36Z,codehangen,,0
@@ -36,7 +39,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 940256296,false,CSS selector to style slots with slotted elements,https://github.com/WICG/webcomponents/issues/936,2021-07-08T22:08:01Z,2022-08-01T14:22:17Z,justinfagnani,,22
 936031558,true,ignore me,https://github.com/WICG/webcomponents/issues/935,2021-07-02T19:48:25Z,2021-07-02T19:48:52Z,neatonk,,0
 934790044,false,Clarification which pseudo selectors work with `::slotted` and `::part`,https://github.com/WICG/webcomponents/issues/934,2021-07-01T12:26:01Z,2021-08-26T03:25:03Z,MendyBerger,shadow-dom|question|css,0
-930152691,false,"Options for controlling specifics of ""slotchange"" events?",https://github.com/WICG/webcomponents/issues/933,2021-06-25T12:59:40Z,2021-09-16T10:24:19Z,Westbrook,,10
+930152691,false,"Options for controlling specifics of ""slotchange"" events?",https://github.com/WICG/webcomponents/issues/933,2021-06-25T12:59:40Z,2021-09-16T10:24:19Z,Westbrook,,12
 911168574,false,State of all of the proposals.,https://github.com/WICG/webcomponents/issues/928,2021-06-04T06:31:19Z,2021-06-04T06:55:03Z,jogibear9988,,1
 898891331,true,`CustomElementRegistry.define()` should return the new custom element,https://github.com/WICG/webcomponents/issues/927,2021-05-22T22:14:50Z,2022-01-20T01:19:18Z,rpivo,,0
 881341524,true,Autofill of form inside shadow Dom - chrome bug,https://github.com/WICG/webcomponents/issues/926,2021-05-08T21:32:45Z,2021-05-08T22:55:23Z,LukaszKiedrowski,shadow-dom|question,0
@@ -60,7 +63,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 739457200,false,Scoped Custom Element Registry: Moving elements with shadow roots between documents,https://github.com/WICG/webcomponents/issues/907,2020-11-09T23:59:31Z,2021-05-03T10:40:03Z,caridy,,2
 731363834,false,Template batch mutations and side effects,https://github.com/WICG/webcomponents/issues/906,2020-10-28T11:38:36Z,2020-10-29T06:19:27Z,annevk,templates,0
 731024781,true,"Empty innerHTML/textContent in connectedCallback, but the actual content is rendered",https://github.com/WICG/webcomponents/issues/903,2020-10-28T02:22:41Z,2020-10-28T12:58:59Z,dy,custom-elements|question,0
-730866678,false,Template/part proposals - Naming for DOM Parts API,https://github.com/WICG/webcomponents/issues/902,2020-10-27T21:50:51Z,2022-11-30T14:24:41Z,yuzhe-han,templates,0
+730866678,false,Template/part proposals - Naming for DOM Parts API,https://github.com/WICG/webcomponents/issues/902,2020-10-27T21:50:51Z,2022-12-07T21:55:39Z,yuzhe-han,templates,0
 730708491,false,Template/part proposals should explain how and why they improve performance,https://github.com/WICG/webcomponents/issues/901,2020-10-27T18:30:24Z,2020-12-10T10:05:14Z,smaug----,templates,0
 726028268,false,RfC: An alternative approach to accessibility across shadow boundaries,https://github.com/WICG/webcomponents/issues/898,2020-10-21T00:10:49Z,2020-10-22T18:16:11Z,rniwa,,0
 723054840,false,An alternative lazy custom element definition proposal -- conditionalImport,https://github.com/WICG/webcomponents/issues/896,2020-10-16T09:20:48Z,2020-10-16T09:20:48Z,bahrus,,0
@@ -94,7 +97,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 541851780,false,Why do we need a registry?,https://github.com/WICG/webcomponents/issues/861,2019-12-23T18:01:34Z,2019-12-27T13:21:58Z,frank-dspeed,,0
 537316272,true,No point in having closed/open shadow dom creation if we cant use closed?,https://github.com/WICG/webcomponents/issues/859,2019-12-13T02:37:10Z,2019-12-14T02:52:09Z,MisterSirCode,question,0
 530532950,true,Returning a Proxy from a Custom Element constructor,https://github.com/WICG/webcomponents/issues/857,2019-11-30T04:58:16Z,2020-10-12T08:30:00Z,trusktr,,0
-527745038,false,observedStyles,https://github.com/WICG/webcomponents/issues/856,2019-11-24T19:32:30Z,2021-09-02T20:26:11Z,chris70c,custom-elements|needs implementer interest,8
+527745038,false,observedStyles,https://github.com/WICG/webcomponents/issues/856,2019-11-24T19:32:30Z,2021-09-02T20:26:11Z,chris70c,custom-elements|needs implementer interest,9
 526750484,true,2020 Spring Virtual F2F,https://github.com/WICG/webcomponents/issues/855,2019-11-21T17:53:34Z,2021-02-02T03:35:32Z,hober,,5
 521253064,false,Rejecting CSS Modules in Workers,https://github.com/WICG/webcomponents/issues/854,2019-11-12T00:01:47Z,2019-11-18T23:51:38Z,samsebree,,0
 521229748,true,Considering Shader Module Types,https://github.com/WICG/webcomponents/issues/853,2019-11-11T22:47:32Z,2019-11-14T01:00:36Z,guybedford,needs implementer interest|modules,6
@@ -158,7 +161,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 399482944,false,Lazy Custom Element Definitions,https://github.com/WICG/webcomponents/issues/782,2019-01-15T18:46:02Z,2019-12-05T23:47:45Z,justinfagnani,custom-elements|needs concrete proposal,56
 397136029,true,Allow attribute changes/child creation on custom element creation,https://github.com/WICG/webcomponents/issues/781,2019-01-08T23:15:44Z,2019-01-09T16:11:32Z,Snugug,,0
 396564493,true,[Shadow]: return of multiple shadow roots?,https://github.com/WICG/webcomponents/issues/780,2019-01-07T16:49:42Z,2019-01-13T18:02:07Z,andyearnshaw,,1
-388781608,true,Use Case: Would like multiple use of slot by same name,https://github.com/WICG/webcomponents/issues/778,2018-12-07T19:20:40Z,2018-12-24T19:56:37Z,anaran,question,2
+388781608,true,Use Case: Would like multiple use of slot by same name,https://github.com/WICG/webcomponents/issues/778,2018-12-07T19:20:40Z,2018-12-24T19:56:37Z,anaran,question,3
 387454971,false,Discussion: Templates that Don't Destroy Element References,https://github.com/WICG/webcomponents/issues/777,2018-12-04T19:57:30Z,2019-04-24T13:00:45Z,Lonniebiz,templates,0
 385917227,false,Editor support for WebComponents,https://github.com/WICG/webcomponents/issues/776,2018-11-29T20:41:11Z,2022-01-15T10:12:43Z,octref,question,97
 383914218,true,Why can't the registry enumerate the custom elements?,https://github.com/WICG/webcomponents/issues/775,2018-11-23T19:32:52Z,2018-12-07T20:17:12Z,earthlyreason,,0
@@ -180,7 +183,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 345059677,true,"How to introduce global ""css"", such as ""iconfont"" font library",https://github.com/WICG/webcomponents/issues/757,2018-07-27T01:32:29Z,2019-03-16T17:09:13Z,sunxiuming92,,0
 343706142,true,[CSS Scoping] Support two types of pseudo-elements with ::slotted() selectors,https://github.com/WICG/webcomponents/issues/756,2018-07-23T16:30:31Z,2018-07-24T12:57:32Z,Ronaldo-Maciel,,0
 339285747,false,[Template Instantiation] rendered version of proposal is missing all mustache syntax,https://github.com/WICG/webcomponents/issues/755,2018-07-09T02:33:14Z,2018-07-17T03:59:56Z,fergald,templates,0
-338813619,true,Cleaning up (undefining) custom elements?,https://github.com/WICG/webcomponents/issues/754,2018-07-06T05:51:01Z,2022-11-20T22:47:02Z,trusktr,,21
+338813619,true,Cleaning up (undefining) custom elements?,https://github.com/WICG/webcomponents/issues/754,2018-07-06T05:51:01Z,2022-11-20T22:47:02Z,trusktr,,22
 324729956,true,changing slot text node is overly verbose,https://github.com/WICG/webcomponents/issues/753,2018-05-20T18:21:54Z,2019-03-16T17:07:11Z,o-t-w,,0
 324627557,false,HTML module should require a new top level element,https://github.com/WICG/webcomponents/issues/752,2018-05-19T12:52:58Z,2019-03-19T09:25:43Z,ExE-Boss,modules,0
 324560195,false,Isolate WebComponent JS libraries,https://github.com/WICG/webcomponents/issues/751,2018-05-18T21:40:59Z,2019-07-13T22:32:13Z,mmikirtumov,question,0
@@ -213,7 +216,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 285086059,true,Interface/class-based selector,https://github.com/WICG/webcomponents/issues/719,2017-12-29T12:33:09Z,2018-03-05T05:39:47Z,jasmith79,custom-elements|needs implementer interest,0
 282958795,true,Bulk property updates,https://github.com/WICG/webcomponents/issues/718,2017-12-18T17:26:28Z,2020-12-21T20:34:32Z,JanMiksovsky,needs implementer interest,0
 282200986,true,"The way to access current script or current root, from Shadow DOM",https://github.com/WICG/webcomponents/issues/717,2017-12-14T18:45:27Z,2022-06-23T23:58:57Z,tomalec,shadow-dom|needs implementer interest,14
-280602178,false,Scoped Custom Element Registries,https://github.com/WICG/webcomponents/issues/716,2017-12-08T20:05:07Z,2022-09-01T03:21:14Z,justinfagnani,custom-elements|needs concrete proposal,141
+280602178,false,Scoped Custom Element Registries,https://github.com/WICG/webcomponents/issues/716,2017-12-08T20:05:07Z,2022-09-01T03:21:14Z,justinfagnani,custom-elements|needs concrete proposal,140
 279788891,true,Undefined specification for @keyframe scope on slotted content,https://github.com/WICG/webcomponents/issues/715,2017-12-06T15:13:41Z,2018-02-21T11:21:18Z,ruphin,v1|shadow-dom,0
 278678409,true,[Proposal] customElements#hasLocalName(Class),https://github.com/WICG/webcomponents/issues/714,2017-12-02T11:57:29Z,2017-12-03T20:03:40Z,thysultan,,0
 275960655,true,WebPlatform Web Components F2F 2018,https://github.com/WICG/webcomponents/issues/713,2017-11-22T06:45:10Z,2019-03-01T15:07:19Z,TakayoshiKochi,,15
@@ -272,7 +275,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 242065357,true,Lack of implementations of customized built-in elements is hurting Web Components,https://github.com/WICG/webcomponents/issues/648,2017-07-11T14:20:44Z,2017-08-25T00:04:26Z,prushforth,,7
 239487384,true,"Explanation required : Why only direct children of the shadow host can be slotted? ",https://github.com/WICG/webcomponents/issues/647,2017-06-29T13:55:07Z,2017-06-29T15:58:31Z,praveenpuglia,,0
 239109845,true,Custom Elements as submittable elements,https://github.com/WICG/webcomponents/issues/646,2017-06-28T09:47:44Z,2017-06-28T13:23:18Z,nektro,,0
-237252809,false,HTML Modules,https://github.com/WICG/webcomponents/issues/645,2017-06-20T15:30:13Z,2022-11-10T19:06:16Z,justinfagnani,needs concrete proposal|modules,231
+237252809,false,HTML Modules,https://github.com/WICG/webcomponents/issues/645,2017-06-20T15:30:13Z,2022-11-10T19:06:16Z,justinfagnani,needs concrete proposal|modules,232
 236969156,true,"[css-scoping]  Confusion regarding >>> ",https://github.com/WICG/webcomponents/issues/644,2017-06-19T17:49:26Z,2017-06-21T10:54:11Z,Ollie-w,,0
 235775061,true,Extending from a component with shadow dom may be difficult.,https://github.com/WICG/webcomponents/issues/643,2017-06-14T06:29:33Z,2017-06-15T17:17:59Z,trusktr,,0
 232443793,true,Agenda for W3C TPAC 2017 (Web Components),https://github.com/WICG/webcomponents/issues/641,2017-05-31T03:32:54Z,2017-11-16T03:30:30Z,hayatoito,,0
@@ -406,7 +409,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 155140823,true,What does the construct stylesheets proposal mean for web developers?,https://github.com/WICG/webcomponents/issues/501,2016-05-16T22:56:15Z,2016-05-17T02:55:12Z,straker,,0
 154285874,true,Is or how can Shadow DOM be 'SEO friendly'?,https://github.com/WICG/webcomponents/issues/500,2016-05-11T16:26:13Z,2020-01-18T10:46:11Z,Nevraeka,shadow-dom,5
 154242010,true,Alternative proposal for closed shadow DOM,https://github.com/WICG/webcomponents/issues/499,2016-05-11T13:21:14Z,2017-07-24T19:58:52Z,mrmr1993,shadow-dom,0
-153561037,false,HTMLElement.prototype.offsetParent leaks a node inside a shadow tree,https://github.com/WICG/webcomponents/issues/497,2016-05-07T00:11:56Z,2019-04-25T21:17:52Z,rniwa,v1|shadow-dom|needs spec,0
+153561037,false,HTMLElement.prototype.offsetParent leaks a node inside a shadow tree,https://github.com/WICG/webcomponents/issues/497,2016-05-07T00:11:56Z,2022-12-07T22:24:08Z,rniwa,v1|shadow-dom|needs spec,0
 153357338,true,Algorithms in 6.3. Sequential Focus Navigation are too complex,https://github.com/WICG/webcomponents/issues/496,2016-05-06T00:53:31Z,2016-07-19T09:08:01Z,rniwa,v1|shadow-dom,0
 153164892,true,"Umbrella bugs for shadow DOM related issues in other specifications for v1 API ",https://github.com/WICG/webcomponents/issues/495,2016-05-05T04:13:00Z,2017-09-05T08:01:26Z,rniwa,v1|shadow-dom,0
 152937227,true,Retargeting algorithm shouldn't set relatedTarget to null even when target and relatedNode are in two distinct disconnected trees,https://github.com/WICG/webcomponents/issues/494,2016-05-04T06:13:34Z,2016-05-31T08:28:14Z,rniwa,v1|shadow-dom,0

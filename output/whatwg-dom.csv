@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1473647998,false,`Element`'s `toggleAttribute` should have an `-NS` counterpart.,https://github.com/whatwg/dom/issues/1133,2022-12-03T01:40:31Z,2022-12-03T07:13:04Z,bicknellr,needs implementer interest|addition/proposal,0
 1458391232,true,Broken references in DOM Standard,https://github.com/whatwg/dom/issues/1130,2022-11-21T18:25:29Z,2022-11-24T16:51:52Z,dontcallmedom-bot,,0
 1437320217,true,Contradicting text regarding Document.ownerDocument?,https://github.com/whatwg/dom/issues/1126,2022-11-06T07:54:12Z,2022-11-08T11:17:31Z,karfau,,0
 1435682889,true,"Nu HTML checker latest version updated, Running Nu HTML checker error on build result",https://github.com/whatwg/dom/issues/1125,2022-11-04T07:43:13Z,2022-11-04T07:51:27Z,JunLiangWangX,,0
@@ -75,7 +76,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 815897814,true,Add AbortSignal.timeout(ms),https://github.com/whatwg/dom/issues/951,2021-02-24T22:27:13Z,2022-02-02T22:08:53Z,domenic,addition/proposal|topic: aborting,4
 806203904,false,Allow postMessage-ing AbortSignal,https://github.com/whatwg/dom/issues/948,2021-02-11T09:11:10Z,2021-12-19T03:40:35Z,Jamesernator,needs implementer interest|addition/proposal|topic: aborting,1
 806181567,true,Define criteria for StaticRange validation,https://github.com/whatwg/dom/issues/947,2021-02-11T08:34:14Z,2021-08-31T11:00:34Z,sanketj,needs implementer interest|addition/proposal|topic: ranges,0
-801337310,false,Expose an `aborted` promise on AbortSignal?,https://github.com/whatwg/dom/issues/946,2021-02-04T14:29:56Z,2021-05-24T17:44:42Z,benjamingr,needs implementer interest|topic: aborting,0
+801337310,false,Expose an `aborted` promise on AbortSignal?,https://github.com/whatwg/dom/issues/946,2021-02-04T14:29:56Z,2021-05-24T17:44:42Z,benjamingr,needs implementer interest|topic: aborting,1
 783870164,true,Missing Documentation - WebGLContextAttributes,https://github.com/whatwg/dom/issues/942,2021-01-12T03:11:45Z,2021-01-12T10:07:35Z,mrchantey,,0
 783742832,true,"""ownerElement""",https://github.com/whatwg/dom/issues/941,2021-01-11T22:12:12Z,2021-01-12T07:20:56Z,gwagner57,,0
 776139785,false,[idea] toggleAttribute with detault value when attribute is added.,https://github.com/whatwg/dom/issues/939,2020-12-30T00:11:34Z,2022-08-29T09:16:03Z,trusktr,needs implementer interest|addition/proposal,0
@@ -121,7 +122,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 617908106,true,.,https://github.com/whatwg/dom/issues/865,2020-05-14T04:07:26Z,2020-05-14T04:10:49Z,salsmmmas,,0
 614161571,false,Add more explanation for Event concepts,https://github.com/whatwg/dom/issues/863,2020-05-07T15:48:32Z,2020-06-01T17:17:09Z,domenic,topic: events|clarification,10
 613203049,true,Node.setChildren(),https://github.com/whatwg/dom/issues/862,2020-05-06T10:10:27Z,2020-05-06T10:45:16Z,pakastin,,1
-597718543,false,lookupNamespaceURI('xml'),https://github.com/whatwg/dom/issues/857,2020-04-10T06:17:47Z,2021-09-30T11:31:10Z,tkent-google,,1
+597718543,false,lookupNamespaceURI('xml'),https://github.com/whatwg/dom/issues/857,2020-04-10T06:17:47Z,2022-12-05T06:31:06Z,tkent-google,,1
 596400209,true,Use abstraction for high resolution time,https://github.com/whatwg/dom/issues/855,2020-04-08T08:25:31Z,2021-08-12T23:32:10Z,annevk,,0
 595808143,true,Regular expressions do not allow spaces where they should.,https://github.com/whatwg/dom/issues/854,2020-04-07T11:48:31Z,2020-04-07T11:58:57Z,jaroslavtavgen,,0
 585395844,true,"Proposal: MutationObserverInit for optional parameter, elementTypeFilter",https://github.com/whatwg/dom/issues/850,2020-03-21T00:46:57Z,2020-03-23T19:11:02Z,AndrewRot,,0
@@ -142,9 +143,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 545235958,true,page not found 400,https://github.com/whatwg/dom/issues/816,2020-01-04T03:40:25Z,2020-01-04T07:24:34Z,ellis9983,,0
 544192259,false,replaceChild() has odd mutation observer behavior after #754,https://github.com/whatwg/dom/issues/814,2019-12-31T13:42:46Z,2020-03-27T19:44:34Z,TimothyGu,,5
 544131183,false,What does adoptNode() return for DocumentFragment?,https://github.com/whatwg/dom/issues/813,2019-12-31T08:54:50Z,2020-01-03T02:48:42Z,TimothyGu,,0
-543044403,true,Proposal: MutationObserver.unobserve method to selectively stop observing a specific Node,https://github.com/whatwg/dom/issues/812,2019-12-28T02:13:21Z,2020-05-16T04:12:27Z,trusktr,,0
+543044403,true,Proposal: MutationObserver.unobserve method to selectively stop observing a specific Node,https://github.com/whatwg/dom/issues/812,2019-12-28T02:13:21Z,2020-05-16T04:12:27Z,trusktr,,2
 543009071,true,Add '// historical' to initCustomEvent IDL?,https://github.com/whatwg/dom/issues/811,2019-12-27T22:30:42Z,2020-01-14T12:49:46Z,sideshowbarker,good first issue,0
-534942957,false,"Side effects due to tree insertion or removal (script, iframe)",https://github.com/whatwg/dom/issues/808,2019-12-09T13:47:35Z,2020-09-15T05:32:34Z,annevk,web reality,1
+534942957,false,"Side effects due to tree insertion or removal (script, iframe)",https://github.com/whatwg/dom/issues/808,2019-12-09T13:47:35Z,2022-12-09T09:17:31Z,annevk,web reality,1
 533899955,true,Editorial: revert [hr-time] workaround,https://github.com/whatwg/dom/issues/802,2019-12-06T11:13:08Z,2019-12-11T17:40:22Z,annevk,,0
 533867541,true,Editorial: remove parent argument to remove,https://github.com/whatwg/dom/issues/801,2019-12-06T10:11:53Z,2019-12-11T17:40:20Z,annevk,,0
 532637593,false,"Why is `createProcessingInstruction(…)` allowed in HTML, but `createCDATASection(…)` isn’t?",https://github.com/whatwg/dom/issues/798,2019-12-04T11:55:59Z,2019-12-04T12:02:16Z,ExE-Boss,,0
@@ -529,7 +530,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 122942551,true,Node#baseURI need not be nullable,https://github.com/whatwg/dom/issues/131,2015-12-18T12:43:39Z,2016-01-01T15:17:54Z,foolip,,0
 122520253,true,Some fix for replace algo and question,https://github.com/whatwg/dom/issues/129,2015-12-16T14:50:09Z,2015-12-17T16:33:27Z,ArkadiuszMichalski,,0
 121622388,true,Some tweaks for Nodes,https://github.com/whatwg/dom/issues/127,2015-12-11T02:25:49Z,2015-12-15T10:36:57Z,ArkadiuszMichalski,,0
-121260584,false,Disconnect single target instead of all,https://github.com/whatwg/dom/issues/126,2015-12-09T14:51:40Z,2022-09-15T14:48:03Z,zbraniecki,needs implementer interest|addition/proposal,14
+121260584,false,Disconnect single target instead of all,https://github.com/whatwg/dom/issues/126,2015-12-09T14:51:40Z,2022-09-15T14:48:03Z,zbraniecki,needs implementer interest|addition/proposal,15
 120313749,true,Cross-browser inconsistencies with createHTMLDocument,https://github.com/whatwg/dom/issues/124,2015-12-04T01:45:08Z,2015-12-04T13:18:13Z,frewsxcv,,0
 118855978,true,Merge DOMSettableTokenList into DOMTokenList,https://github.com/whatwg/dom/issues/119,2015-11-25T15:08:12Z,2016-01-28T22:46:36Z,annevk,,0
 118581132,true,Document.documentURI and Document.URL attributes behaviour,https://github.com/whatwg/dom/issues/118,2015-11-24T10:51:45Z,2016-01-01T15:41:08Z,ArkadiuszMichalski,,0
@@ -574,7 +575,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 103758118,true,DOMTokenList#toggle: don't treat everything non-undefined as true,https://github.com/whatwg/dom/issues/64,2015-08-28T17:10:47Z,2015-08-29T06:10:24Z,mgol,,1
 100372269,true,Consider banning insertNode() of the Range's start node,https://github.com/whatwg/dom/issues/63,2015-08-11T18:09:21Z,2016-08-16T13:22:45Z,ayg,,0
 98710934,true,More bikeshed problems,https://github.com/whatwg/dom/issues/62,2015-08-03T10:02:59Z,2016-01-04T12:52:40Z,annevk,,0
-98694541,false,Patch HTML's base URL stuff to be in terms of DOM,https://github.com/whatwg/dom/issues/61,2015-08-03T08:14:51Z,2022-11-28T08:44:02Z,annevk,,0
+98694541,false,Patch HTML's base URL stuff to be in terms of DOM,https://github.com/whatwg/dom/issues/61,2015-08-03T08:14:51Z,2022-12-01T09:08:24Z,annevk,,0
 96794284,true,Replacing a child in its parent doesn't correctly queue mutation records,https://github.com/whatwg/dom/issues/59,2015-07-23T11:44:44Z,2015-07-28T11:12:55Z,nox,,0
 96769578,true,Document.defaultCharset,https://github.com/whatwg/dom/issues/58,2015-07-23T09:21:59Z,2022-09-01T12:11:09Z,foolip,,0
 96431537,false,DOM should add hooks for sync events that happen during insert/remove operations,https://github.com/whatwg/dom/issues/57,2015-07-21T22:29:26Z,2017-03-16T11:48:12Z,travisleithead,,0
