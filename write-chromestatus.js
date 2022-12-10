@@ -41,6 +41,8 @@ let featureMeta = features
       bug: feat.browsers.chrome.bug,
       status_text: feat.browsers.chrome.status.text,
       tag_review: summarizeString(feat.tag_review),
+      blink_components: JSON.stringify(feat.browsers.chrome.blink_components),
+      owners: JSON.stringify(feat.browsers.chrome.owners),
     };
   })
   .sort((a, b) => {
