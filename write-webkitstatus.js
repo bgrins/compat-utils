@@ -5,13 +5,25 @@ import WebCore from "https://raw.githubusercontent.com/WebKit/WebKit/main/Source
 import JavaScriptCore from "https://raw.githubusercontent.com/WebKit/WebKit/main/Source/JavaScriptCore/features.json" assert { type: "json" };
 import CSSProperties from "https://raw.githubusercontent.com/WebKit/WebKit/main/Source/WebCore/css/CSSProperties.json" assert { type: "json" };
 
-let webcore_features = WebCore.features.map((f) => {
-  return {
-    name: f.name,
-    status: f.status.status,
-    category: f.category,
-  };
-});
+let webcore_features = WebCore.features
+  .map((f) => {
+    return {
+      name: f.name,
+      status: f.status?.status,
+      category: f.category,
+      type: "feature",
+    };
+  })
+  .concat(
+    WebCore.specification.map((f) => {
+      return {
+        name: f.name,
+        status: f.status?.status,
+        category: f.category,
+        type: "specification",
+      };
+    })
+  );
 
 let javascriptcore_features = JavaScriptCore.features.map((f) => {
   return {

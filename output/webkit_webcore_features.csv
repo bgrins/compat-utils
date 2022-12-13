@@ -1,54 +1,158 @@
-name,status,category
-CSS Cascade Layers,Supported,
-CSS Container Queries,In Development,
-CSS Subgrid,In Development,
-CSS viewport-relative units,Supported,
-CSS Selector :any-link,Supported,
-CSS Selector :focus-visible,Supported,
-CSS Selector :focus-within,Supported,
-CSS Selector :has(),Supported,
-CSS Selector :is(),Supported,
-CSS Selector :lang() level 4,Supported,
-CSS Selector :matches(),Supported,
-CSS Selector :not() level 4,Supported,
-CSS Selector :nth-child(An+B of selector list) and :nth-last-child(An+B of selector list),Supported,
-CSS Selector :placeholder-shown,Supported,
-Case-insensitive attribute selectors,Supported,
-Conic Gradients,Supported,
-Cross-Origin Resource Policy,Supported,
-Custom Elements,Supported,
-Datalist Element,Supported,html
-Date and Time Input Types,Partially Supported,html
-Dialog Element,Supported,html
-Download Attribute,Supported,html
-Element.closest(),Supported,
-Filter Effects backdrop-filter property,Supported,
-Font Palettes,In Development,
-Force Click Events,Supported,
-HTML Interactive Form Validation,Supported,
-HTML imports,Not Considering,
-HTTP Cache Partitioning,Supported,privacy
-ImageBitmap,In Development,
-Imperative Slot API,Supported,webapps
-Initial Letter,Supported,
-Input modalities (inputmode attribute),Supported,
-"Interaction Media Features (pointer, hover, any-pointer, any-hover)",Supported,
-MicroData,Removed,
-Model element,In Development,html
-Offscreen Canvas,In Development,
-Picture element,Supported,html
-Position: sticky,Supported,
-Readable Streams,Supported,
-Shadow DOM,Supported,
-Shared Web Workers,In Development,
-Srcset w descriptor and related sizes attribute,Supported,
-Srcset x descriptor,Supported,
-Strict Mixed Content Checking,Supported,webapps
-Subresource Integrity,Supported,
-Template Element,Supported,
-Upgrade Insecure Requests,Supported,webapps
-Variation Fonts,Supported,
-Web Bluetooth Scanning,Not Considering,
-inert attribute,In Development,
-requestIdleCallback,Under Consideration,
-requestVideoFrameCallback,In Development,
+name,status,category,type
+CSS Cascade Layers,Supported,,feature
+CSS Container Queries,In Development,,feature
+CSS Subgrid,In Development,,feature
+CSS viewport-relative units,Supported,,feature
+CSS Selector :any-link,Supported,,feature
+CSS Selector :focus-visible,Supported,,feature
+CSS Selector :focus-within,Supported,,feature
+CSS Selector :has(),Supported,,feature
+CSS Selector :is(),Supported,,feature
+CSS Selector :lang() level 4,Supported,,feature
+CSS Selector :matches(),Supported,,feature
+CSS Selector :not() level 4,Supported,,feature
+CSS Selector :nth-child(An+B of selector list) and :nth-last-child(An+B of selector list),Supported,,feature
+CSS Selector :placeholder-shown,Supported,,feature
+Case-insensitive attribute selectors,Supported,,feature
+Conic Gradients,Supported,,feature
+Cross-Origin Resource Policy,Supported,,feature
+Custom Elements,Supported,,feature
+Datalist Element,Supported,html,feature
+Date and Time Input Types,Partially Supported,html,feature
+Dialog Element,Supported,html,feature
+Download Attribute,Supported,html,feature
+Element.closest(),Supported,,feature
+Filter Effects backdrop-filter property,Supported,,feature
+Font Palettes,In Development,,feature
+Force Click Events,Supported,,feature
+HTML Interactive Form Validation,Supported,,feature
+HTML imports,Not Considering,,feature
+HTTP Cache Partitioning,Supported,privacy,feature
+ImageBitmap,In Development,,feature
+Imperative Slot API,Supported,webapps,feature
+Initial Letter,Supported,,feature
+Input modalities (inputmode attribute),Supported,,feature
+"Interaction Media Features (pointer, hover, any-pointer, any-hover)",Supported,,feature
+MicroData,Removed,,feature
+Model element,In Development,html,feature
+Offscreen Canvas,In Development,,feature
+Picture element,Supported,html,feature
+Position: sticky,Supported,,feature
+Readable Streams,Supported,,feature
+Shadow DOM,Supported,,feature
+Shared Web Workers,In Development,,feature
+Srcset w descriptor and related sizes attribute,Supported,,feature
+Srcset x descriptor,Supported,,feature
+Strict Mixed Content Checking,Supported,webapps,feature
+Subresource Integrity,Supported,,feature
+Template Element,Supported,,feature
+Upgrade Insecure Requests,Supported,webapps,feature
+Variation Fonts,Supported,,feature
+Web Bluetooth Scanning,Not Considering,,feature
+inert attribute,In Development,,feature
+requestIdleCallback,Under Consideration,,feature
+requestVideoFrameCallback,In Development,,feature
+Application Cache,Deprecated,webapps,specification
+Async Clipboard API,Supported,webapps,specification
+Battery Status API,Not Considering,webapps,specification
+Beacon API,Supported,webapps,specification
+Broadcast Channel API,Supported,html,specification
+CSS Animation Worklet API,Under Consideration,css,specification
+CSS Aspect ratio property,Supported,css,specification
+CSS Cascading and Inheritance Level 5,Supported,css,specification
+CSS Color Level 4,Supported,css,specification
+CSS Containment Level 1,Supported,css,specification
+CSS Custom Highlight API Module Level 1,In Development,css,specification
+CSS Font Display,Supported,css,specification
+CSS Fonts Level 4,Partially Supported,css,specification
+CSS Grid Layout Level 1,Supported,css,specification
+CSS Image Values and Replaced Content Module Level 4,,css,specification
+CSS Inline Layout Module Level 3,Supported,css,specification
+CSS Layout API Level 1,Under Consideration,css,specification
+CSS Logical Properties and Values Level 1,In Development,css,specification
+CSS Masking Level 1,In Development,css,specification
+CSS Media Queries Level 4,,css,specification
+CSS Motion Path Module Level 1,In Development,css,specification
+CSS Overscroll Behavior Module Level 1,Supported,css,specification
+CSS Painting API Level 1,In Development,css,specification
+CSS Positioned Layout Module Level 3,,css,specification
+CSS Properties and Values API Level 1,In Development,css,specification
+CSS Rhythmic Sizing,Under Consideration,css,specification
+CSS Scroll Snap Points Module Level 1,Supported,css,specification
+CSS Selectors Level 4,,css,specification
+CSS Shadow Parts,Supported,css,specification
+CSS Shapes Level 1,Supported,css,specification
+CSS Text Decoration Level 4,Supported,css,specification
+CSS Typed OM Level 1,In Development,css,specification
+CSS Values and Units Module Level 4,,css,specification
+CSS Variables,Supported,css,specification
+CSS Will Change,Supported,css,specification
+Client-Side Storage Partitioning,Supported,privacy,specification
+Compression Streams,Supported,webapps,specification
+Content Security Policy Level 2,Supported,webapps,specification
+Content Security Policy Level 3,Partially Supported,webapps,specification
+Cross-Origin-Embedder-Policy HTTP header,Supported,html,specification
+Cross-Origin-Opener-Policy HTTP header,In Development,html,specification
+DOM,,html,specification
+DeviceOrientation Events,Supported,,specification
+Encoding,Supported,webapps,specification
+Fetch,Supported,webapps,specification
+File and Directory Entries API,Supported,,specification
+Filter Effects Module Level 2,,css,specification
+Gamepad,Supported,webapps,specification
+Geolocation API,Supported,,specification
+Geometry Interfaces,In Development,html,specification
+HTML5,,html,specification
+Idle Detection,Not Considering,,specification
+Indexed Database,Supported,,specification
+Indexed Database 2.0,Supported,,specification
+Input Events,Supported,,specification
+Intersection Observer,Supported,,specification
+Lazy image loading,Supported,html,specification
+Magnetometer,Not Considering,,specification
+Media Capture and Streams,Supported,,specification
+MediaStream Recording API,In Development,,specification
+Navigation Timing Level 1,Supported,,specification
+Navigation Timing Level 2,Supported,,specification
+Network Information,Not Considering,,specification
+Payment Request,Supported,,specification
+Performance Observer,Supported,,specification
+Permissions API,In Development,,specification
+Pointer Events Level 2,Supported,html,specification
+Pointer Lock,Supported,,specification
+Preload,Supported,,specification
+Proximity Sensor,Not Considering,,specification
+Reporting API,In Development,,specification
+Resize Observer,Supported,,specification
+Resource Timing Level 2,Supported,,specification
+SVG 2,In Development,svg,specification
+SVG in OpenType Fonts,Supported,rendering,specification
+Scroll Anchoring,Under Consideration,css,specification
+Service Workers,Supported,webapps,specification
+Streams,,webapps,specification
+User Timing Level 2,Supported,,specification
+Vibration API,Removed,webapps,specification
+Visual Viewport API,Supported,,specification
+WOFF File Format 2.0,Supported,css,specification
+Web Animations,Supported,,specification
+Web App Manifest,Partially Supported,webapps,specification
+Web Audio,Supported,,specification
+Web Authentication,Supported,,specification
+Web Bluetooth,Not Considering,,specification
+Web Components,,webapps,specification
+Web Cryptography API,Supported,webapps,specification
+Web Locks,Supported,webapps,specification
+Web MIDI,Not Considering,,specification
+Web NFC,Not Considering,,specification
+Web SQL Database,Removed,,specification
+Web Serial,Not Considering,,specification
+Web Share,Supported,,specification
+Web Speech,Supported,,specification
+WebGL 1,Supported,html,specification
+WebGL 2,Supported,html,specification
+WebGPU,In Development,,specification
+WebHID,Not Considering,,specification
+WebRTC,Supported,webapps,specification
+WebUSB,Not Considering,,specification
+WebXR,In Development,html,specification
+Worklets Level 1,Under Consideration,,specification
