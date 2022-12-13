@@ -42,8 +42,8 @@ for (let name in CSSProperties.properties) {
   webkit_css_properties.push({
     name: name,
     // Can be string or object
-    status:
-      property.status?.status || property.status?.comment || property.status,
+    status_text: property.status?.status,
+    status_comment: property.status?.comment,
     specification: property?.specification?.category,
   });
 }

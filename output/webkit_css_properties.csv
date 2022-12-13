@@ -1,134 +1,134 @@
-name,status,specification
-accent-color,experimental,css-ui
-color,"All the values from CSS Color Level 3 are supported, as well as the 8- and 4-digit forms of hex color, and the color() function.",css-color
--webkit-font-smoothing,non-standard,
-font-variant-position,in development,css-fonts
--webkit-locale,non-standard,
--webkit-text-size-adjust,experimental,
--webkit-text-zoom,non-standard,
-zoom,non-standard,
-animation-composition,experimental,css-animations
-box-sizing,-webkit-box-sizing worked in Safari 4 and earlier.,css-ui
-counter-set,not implemented,css-lists
--webkit-cursor-visibility,non-standard,
-image-resolution,under consideration,css-images
--webkit-mask-position,experimental,css-masking
--webkit-mask-position-x,experimental,css-masking
--webkit-mask-position-y,experimental,css-masking
-opacity,"Honor -webkit-opacity as a synonym for opacity. This was the only syntax that worked in Safari 1.1, and may be in use on some websites and widgets.",css-color
-overscroll-behavior,in development,
-overscroll-behavior-x,in development,
-overscroll-behavior-y,in development,
-overscroll-behavior-inline,in development,
-overscroll-behavior-block,in development,
-paint-order,supported,css-text-fill-and-stroke
-stroke-linecap,supported,css-text-fill-and-stroke
-stroke-linejoin,supported,css-text-fill-and-stroke
-stroke-miterlimit,supported,css-text-fill-and-stroke
-stroke-color,supported,css-text-fill-and-stroke
-stroke-width,supported,css-text-fill-and-stroke
-text-line-through,removed,css3-text
-text-line-through-color,removed,css3-text
-text-line-through-mode,removed,css3-text
-text-line-through-style,removed,css3-text
-text-line-through-width,removed,css3-text
-text-overline,removed,css3-text
-text-overline-color,removed,css3-text
-text-overline-mode,removed,css3-text
-text-overline-style,removed,css3-text
-text-overline-width,removed,css3-text
-text-underline,removed,css3-text
-text-underline-color,removed,css3-text
-text-underline-mode,removed,css3-text
-text-underline-style,removed,css3-text
-text-underline-width,removed,css3-text
-alt,non-standard,
-appearance,experimental,css-ui
-aspect-ratio,experimental,css-sizing
-contain-intrinsic-size,in development,css-sizing
-contain-intrinsic-height,in development,css-sizing
-contain-intrinsic-width,in development,css-sizing
-contain-intrinsic-block-size,in development,css-sizing
-contain-intrinsic-inline-size,in development,css-sizing
-contain,experimental,css-contain
-container,experimental,css-contain
-container-name,experimental,css-contain
-container-type,experimental,css-contain
-content-visibility,experimental,css-content-visibility
--webkit-background-size,Differs from background-size only in the interpretation of a single value: '-webkit-background-size: l;' is equivalent to 'background-size: l l;' whereas 'background-size: l;' is equivalent to 'background-size: l auto;',
--webkit-border-horizontal-spacing,non-standard,
--webkit-border-image,"Differs from border-image in that it always includes the 'fill' keyword in 'border-image-slice', and makes length values in 'border-image-width' override the corresponding 'border-*-width'.",
--webkit-border-radius,Differs from border-radius only in the interpretation of a value consisting of two lengths: '-webkit-border-radius: l1 l2;' is equivalent to 'border-radius: l1 / l2;'.,
--webkit-border-vertical-spacing,non-standard,
--webkit-box-align,obsolete,css-flexbox
--webkit-box-direction,obsolete,css-flexbox
--webkit-box-flex,obsolete,css-flexbox
--webkit-box-flex-group,obsolete,css-flexbox
--webkit-box-lines,obsolete,css-flexbox
--webkit-box-ordinal-group,obsolete,css-flexbox
--webkit-box-orient,obsolete,css-flexbox
--webkit-box-pack,obsolete,css-flexbox
--webkit-box-reflect,experimental,
--webkit-box-shadow,"Differs from box-shadow in its treatement of blur radii > 8px. Let -webkit-box-shadow blur, radius be w_r and box-shadow blur radius be b_r. For w_r > 8px, b_r = 8 + 4 * sqrt((w_r - 8) / 2).",
--webkit-column-axis,experimental,
--webkit-column-break-after,experimental,css-multicol
--webkit-column-break-before,experimental,css-multicol
--webkit-column-break-inside,experimental,css-multicol
--webkit-column-progression,experimental,
--webkit-box-decoration-break,experimental,css-break
--apple-color-filter,non-standard,
--webkit-backdrop-filter,experimental,css-filters
--webkit-font-size-delta,non-standard,
--webkit-hyphenate-character,experimental,css-text
--webkit-hyphenate-limit-after,non-standard,
--webkit-hyphenate-limit-before,non-standard,
--webkit-hyphenate-limit-lines,experimental,css-text
--webkit-hyphens,experimental,css-text
--webkit-initial-letter,experimental,css-inline
--webkit-line-box-contain,obsolete,
--webkit-line-align,obsolete,css-line-grid
--webkit-line-clamp,non-standard,
--webkit-line-grid,experimental,css-line-grid
--webkit-line-snap,experimental,css-line-grid
--webkit-box-snap,not implemented,css-line-grid
--webkit-marquee-direction,non-standard,
--webkit-marquee-increment,non-standard,
--webkit-marquee-repetition,non-standard,
--webkit-marquee-speed,non-standard,
--webkit-marquee-style,non-standard,
--webkit-mask-box-image,non-standard,css-masking
--webkit-mask-box-image-outset,non-standard,css-masking
--webkit-mask-box-image-repeat,non-standard,css-masking
--webkit-mask-box-image-slice,non-standard,css-masking
--webkit-mask-box-image-source,non-standard,css-masking
--webkit-mask-box-image-width,non-standard,css-masking
--webkit-mask-clip,experimental,css-masking
--webkit-mask-composite,experimental,css-masking
--webkit-mask-source-type,non-standard,css-masking
--webkit-nbsp-mode,non-standard,
-color-scheme,supported,css-color-adjust
--webkit-perspective,"Differs from unprefixed perspective only through support for unitless values, which are interpreted as 'px'.",css-transforms
--webkit-rtl-ordering,non-standard,
--webkit-text-combine,obsolete,
--webkit-text-decoration,experimental,css-text-decor
--webkit-text-decorations-in-effect,non-standard,
--internal-text-autosizing-status,non-standard,
-text-emphasis,experimental,css-text-decor
-text-emphasis-color,experimental,css-text-decor
-text-emphasis-position,experimental,css-text-decor
-text-emphasis-style,experimental,css-text-decor
--webkit-text-fill-color,non-standard,
--webkit-text-security,non-standard,
--webkit-text-stroke,non-standard,
--webkit-text-stroke-color,non-standard,
--webkit-text-stroke-width,non-standard,
--webkit-user-drag,non-standard,
--webkit-user-modify,non-standard,
--webkit-user-select,experimental,css-ui
-scroll-behavior,experimental,
--webkit-tap-highlight-color,non-standard,
--webkit-overflow-scrolling,non-standard,
--webkit-touch-callout,non-standard,
--apple-trailing-word,removed,
--apple-pay-button-style,non-standard,
--apple-pay-button-type,non-standard,
+name,status_text,status_comment,specification
+accent-color,experimental,,css-ui
+color,,"All the values from CSS Color Level 3 are supported, as well as the 8- and 4-digit forms of hex color, and the color() function.",css-color
+-webkit-font-smoothing,,,
+font-variant-position,in development,,css-fonts
+-webkit-locale,,,
+-webkit-text-size-adjust,,,
+-webkit-text-zoom,,,
+zoom,,,
+animation-composition,experimental,,css-animations
+box-sizing,,-webkit-box-sizing worked in Safari 4 and earlier.,css-ui
+counter-set,not implemented,,css-lists
+-webkit-cursor-visibility,,,
+image-resolution,under consideration,,css-images
+-webkit-mask-position,experimental,,css-masking
+-webkit-mask-position-x,experimental,The unprefixed property should be internal-only,css-masking
+-webkit-mask-position-y,experimental,The unprefixed property should be internal-only,css-masking
+opacity,,"Honor -webkit-opacity as a synonym for opacity. This was the only syntax that worked in Safari 1.1, and may be in use on some websites and widgets.",css-color
+overscroll-behavior,in development,,
+overscroll-behavior-x,in development,,
+overscroll-behavior-y,in development,,
+overscroll-behavior-inline,in development,,
+overscroll-behavior-block,in development,,
+paint-order,,,css-text-fill-and-stroke
+stroke-linecap,,,css-text-fill-and-stroke
+stroke-linejoin,,,css-text-fill-and-stroke
+stroke-miterlimit,,,css-text-fill-and-stroke
+stroke-color,,,css-text-fill-and-stroke
+stroke-width,,,css-text-fill-and-stroke
+text-line-through,,,css3-text
+text-line-through-color,,,css3-text
+text-line-through-mode,,,css3-text
+text-line-through-style,,,css3-text
+text-line-through-width,,,css3-text
+text-overline,,,css3-text
+text-overline-color,,,css3-text
+text-overline-mode,,,css3-text
+text-overline-style,,,css3-text
+text-overline-width,,,css3-text
+text-underline,,,css3-text
+text-underline-color,,,css3-text
+text-underline-mode,,,css3-text
+text-underline-style,,,css3-text
+text-underline-width,,,css3-text
+alt,,,
+appearance,experimental,,css-ui
+aspect-ratio,experimental,,css-sizing
+contain-intrinsic-size,in development,,css-sizing
+contain-intrinsic-height,in development,,css-sizing
+contain-intrinsic-width,in development,,css-sizing
+contain-intrinsic-block-size,in development,,css-sizing
+contain-intrinsic-inline-size,in development,,css-sizing
+contain,experimental,,css-contain
+container,experimental,,css-contain
+container-name,experimental,,css-contain
+container-type,experimental,,css-contain
+content-visibility,experimental,,css-content-visibility
+-webkit-background-size,,Differs from background-size only in the interpretation of a single value: '-webkit-background-size: l;' is equivalent to 'background-size: l l;' whereas 'background-size: l;' is equivalent to 'background-size: l auto;',
+-webkit-border-horizontal-spacing,,,
+-webkit-border-image,,"Differs from border-image in that it always includes the 'fill' keyword in 'border-image-slice', and makes length values in 'border-image-width' override the corresponding 'border-*-width'.",
+-webkit-border-radius,,Differs from border-radius only in the interpretation of a value consisting of two lengths: '-webkit-border-radius: l1 l2;' is equivalent to 'border-radius: l1 / l2;'.,
+-webkit-border-vertical-spacing,,,
+-webkit-box-align,,,css-flexbox
+-webkit-box-direction,,,css-flexbox
+-webkit-box-flex,,,css-flexbox
+-webkit-box-flex-group,,,css-flexbox
+-webkit-box-lines,,,css-flexbox
+-webkit-box-ordinal-group,,,css-flexbox
+-webkit-box-orient,,,css-flexbox
+-webkit-box-pack,,,css-flexbox
+-webkit-box-reflect,experimental,,
+-webkit-box-shadow,,"Differs from box-shadow in its treatement of blur radii > 8px. Let -webkit-box-shadow blur, radius be w_r and box-shadow blur radius be b_r. For w_r > 8px, b_r = 8 + 4 * sqrt((w_r - 8) / 2).",
+-webkit-column-axis,experimental,Added in https://bugs.webkit.org/show_bug.cgi?id=71028,
+-webkit-column-break-after,experimental,,css-multicol
+-webkit-column-break-before,experimental,,css-multicol
+-webkit-column-break-inside,experimental,,css-multicol
+-webkit-column-progression,experimental,Added in https://bugs.webkit.org/show_bug.cgi?id=89315,
+-webkit-box-decoration-break,experimental,,css-break
+-apple-color-filter,non-standard,,
+-webkit-backdrop-filter,experimental,,css-filters
+-webkit-font-size-delta,,,
+-webkit-hyphenate-character,experimental,,css-text
+-webkit-hyphenate-limit-after,,,
+-webkit-hyphenate-limit-before,,,
+-webkit-hyphenate-limit-lines,experimental,,css-text
+-webkit-hyphens,experimental,,css-text
+-webkit-initial-letter,experimental,,css-inline
+-webkit-line-box-contain,obsolete,Added in https://trac.webkit.org/changeset/81684,
+-webkit-line-align,obsolete,Added in https://trac.webkit.org/changeset/108133,css-line-grid
+-webkit-line-clamp,,,
+-webkit-line-grid,experimental,,css-line-grid
+-webkit-line-snap,experimental,,css-line-grid
+-webkit-box-snap,not implemented,,css-line-grid
+-webkit-marquee-direction,,,
+-webkit-marquee-increment,,,
+-webkit-marquee-repetition,,,
+-webkit-marquee-speed,,,
+-webkit-marquee-style,,,
+-webkit-mask-box-image,,,css-masking
+-webkit-mask-box-image-outset,,,css-masking
+-webkit-mask-box-image-repeat,,,css-masking
+-webkit-mask-box-image-slice,,,css-masking
+-webkit-mask-box-image-source,,,css-masking
+-webkit-mask-box-image-width,,,css-masking
+-webkit-mask-clip,experimental,,css-masking
+-webkit-mask-composite,experimental,,css-masking
+-webkit-mask-source-type,,,css-masking
+-webkit-nbsp-mode,,,
+color-scheme,supported,,css-color-adjust
+-webkit-perspective,,"Differs from unprefixed perspective only through support for unitless values, which are interpreted as 'px'.",css-transforms
+-webkit-rtl-ordering,,,
+-webkit-text-combine,obsolete,Use text-combine-upright instead.,
+-webkit-text-decoration,experimental,,css-text-decor
+-webkit-text-decorations-in-effect,,,
+-internal-text-autosizing-status,,,
+text-emphasis,experimental,,css-text-decor
+text-emphasis-color,experimental,,css-text-decor
+text-emphasis-position,experimental,,css-text-decor
+text-emphasis-style,experimental,,css-text-decor
+-webkit-text-fill-color,non-standard,Obsoleted by fill-color,
+-webkit-text-security,,,
+-webkit-text-stroke,,,
+-webkit-text-stroke-color,non-standard,Obsoleted by stroke-color,
+-webkit-text-stroke-width,non-standard,Obsoleted by stroke-width,
+-webkit-user-drag,,,
+-webkit-user-modify,,,
+-webkit-user-select,experimental,,css-ui
+scroll-behavior,experimental,,
+-webkit-tap-highlight-color,,,
+-webkit-overflow-scrolling,,,
+-webkit-touch-callout,,,
+-apple-trailing-word,,,
+-apple-pay-button-style,,,
+-apple-pay-button-type,,,
