@@ -1,6 +1,6 @@
 name,status,specification
 accent-color,experimental,css-ui
-color,[object Object],css-color
+color,"All the values from CSS Color Level 3 are supported, as well as the 8- and 4-digit forms of hex color, and the color() function.",css-color
 -webkit-font-smoothing,non-standard,
 font-variant-position,in development,css-fonts
 -webkit-locale,non-standard,
@@ -8,14 +8,14 @@ font-variant-position,in development,css-fonts
 -webkit-text-zoom,non-standard,
 zoom,non-standard,
 animation-composition,experimental,css-animations
-box-sizing,[object Object],css-ui
+box-sizing,-webkit-box-sizing worked in Safari 4 and earlier.,css-ui
 counter-set,not implemented,css-lists
 -webkit-cursor-visibility,non-standard,
 image-resolution,under consideration,css-images
 -webkit-mask-position,experimental,css-masking
 -webkit-mask-position-x,experimental,css-masking
 -webkit-mask-position-y,experimental,css-masking
-opacity,[object Object],css-color
+opacity,"Honor -webkit-opacity as a synonym for opacity. This was the only syntax that worked in Safari 1.1, and may be in use on some websites and widgets.",css-color
 overscroll-behavior,in development,
 overscroll-behavior-x,in development,
 overscroll-behavior-y,in development,
@@ -55,10 +55,10 @@ container,experimental,css-contain
 container-name,experimental,css-contain
 container-type,experimental,css-contain
 content-visibility,experimental,css-content-visibility
--webkit-background-size,[object Object],
+-webkit-background-size,Differs from background-size only in the interpretation of a single value: '-webkit-background-size: l;' is equivalent to 'background-size: l l;' whereas 'background-size: l;' is equivalent to 'background-size: l auto;',
 -webkit-border-horizontal-spacing,non-standard,
--webkit-border-image,[object Object],
--webkit-border-radius,[object Object],
+-webkit-border-image,"Differs from border-image in that it always includes the 'fill' keyword in 'border-image-slice', and makes length values in 'border-image-width' override the corresponding 'border-*-width'.",
+-webkit-border-radius,Differs from border-radius only in the interpretation of a value consisting of two lengths: '-webkit-border-radius: l1 l2;' is equivalent to 'border-radius: l1 / l2;'.,
 -webkit-border-vertical-spacing,non-standard,
 -webkit-box-align,obsolete,css-flexbox
 -webkit-box-direction,obsolete,css-flexbox
@@ -69,7 +69,7 @@ content-visibility,experimental,css-content-visibility
 -webkit-box-orient,obsolete,css-flexbox
 -webkit-box-pack,obsolete,css-flexbox
 -webkit-box-reflect,experimental,
--webkit-box-shadow,[object Object],
+-webkit-box-shadow,"Differs from box-shadow in its treatement of blur radii > 8px. Let -webkit-box-shadow blur, radius be w_r and box-shadow blur radius be b_r. For w_r > 8px, b_r = 8 + 4 * sqrt((w_r - 8) / 2).",
 -webkit-column-axis,experimental,
 -webkit-column-break-after,experimental,css-multicol
 -webkit-column-break-before,experimental,css-multicol
@@ -107,7 +107,7 @@ content-visibility,experimental,css-content-visibility
 -webkit-mask-source-type,non-standard,css-masking
 -webkit-nbsp-mode,non-standard,
 color-scheme,supported,css-color-adjust
--webkit-perspective,[object Object],css-transforms
+-webkit-perspective,"Differs from unprefixed perspective only through support for unitless values, which are interpreted as 'px'.",css-transforms
 -webkit-rtl-ordering,non-standard,
 -webkit-text-combine,obsolete,
 -webkit-text-decoration,experimental,css-text-decor

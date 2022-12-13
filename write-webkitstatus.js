@@ -14,7 +14,11 @@ let webcore_features = WebCore.features.map((f) => {
 });
 
 let javascriptcore_features = JavaScriptCore.features.map((f) => {
-  return { name: f.name, status: f.status.status, category: f.category };
+  return {
+    name: f.name,
+    status: f.status.status,
+    enabled_by_default: f.status["enabled-by-default"],
+  };
 });
 
 let webkit_css_properties = [];
@@ -26,7 +30,8 @@ for (let name in CSSProperties.properties) {
   webkit_css_properties.push({
     name: name,
     // Can be string or object
-    status: property.status?.status || property.status,
+    status:
+      property.status?.status || property.status?.comment || property.status,
     specification: property?.specification?.category,
   });
 }
