@@ -1,5 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1490866260,false,Adds 'Consume User Activation of Window' via WebDriver,https://github.com/whatwg/html/pull/8609,2022-12-12T03:44:37Z,2022-12-14T06:10:01Z,marcoscaceres,,0
+1497331298,false,Fix issues in webappsec-permissions-policy,https://github.com/whatwg/html/pull/8622,2022-12-14T20:24:33Z,2022-12-14T20:27:36Z,arichiv,,0
+1497168616,false,Disallow blocking=render on rel preload & modulepreload,https://github.com/whatwg/html/pull/8621,2022-12-14T18:26:07Z,2022-12-14T18:27:27Z,NiedziolkaMichal,,0
+1490866260,false,Adds 'Consume User Activation of Window' via WebDriver,https://github.com/whatwg/html/pull/8609,2022-12-12T03:44:37Z,2022-12-14T23:48:11Z,marcoscaceres,,0
 1481269321,true,"Re-spec <meta name=""referrer""> to match browsers",https://github.com/whatwg/html/pull/8587,2022-12-07T07:58:20Z,2022-12-08T07:49:02Z,domenic,normative change|compat,0
 1476289857,true,Editorial: document.domain uses scalar value strings,https://github.com/whatwg/html/pull/8584,2022-12-05T11:04:23Z,2022-12-05T22:57:01Z,annevk,,0
 1473435565,false,Provide data-dfn-type to CSS <source-size-*>,https://github.com/whatwg/html/pull/8579,2022-12-02T20:55:53Z,2022-12-05T08:28:13Z,cdoublev,,0
@@ -94,7 +96,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1382612185,true,Make location.search use UTF-8 unconditionally,https://github.com/whatwg/html/pull/8309,2022-09-22T15:09:13Z,2022-09-22T15:28:59Z,annevk,normative change,0
 1379986329,false,Add integration points for WebDriver BiDi load scripts,https://github.com/whatwg/html/pull/8300,2022-09-20T20:57:08Z,2022-09-28T05:56:49Z,jgraham,,0
 1370447219,true,Reflect changed AO name from ecma262,https://github.com/whatwg/html/pull/8283,2022-09-12T19:58:37Z,2022-09-12T20:53:23Z,bakkot,,0
-1366892345,false,Define contenteditable `plaintext-only` state,https://github.com/whatwg/html/pull/8275,2022-09-08T19:32:18Z,2022-11-15T04:12:42Z,howard-e,,0
+1366892345,false,Define contenteditable `plaintext-only` state,https://github.com/whatwg/html/pull/8275,2022-09-08T19:32:18Z,2022-12-14T17:21:38Z,howard-e,,0
 1365802704,true,Remove parse error for <template><tr></tr> </template>,https://github.com/whatwg/html/pull/8271,2022-09-08T08:39:12Z,2022-09-15T19:10:57Z,zcorpan,topic: parser,0
 1362916350,false,Custom handlers automation,https://github.com/whatwg/html/pull/8267,2022-09-06T08:40:07Z,2022-12-07T03:43:24Z,javifernandez,,0
 1362286926,true,"Replace ""asynchronous completions"" with a callback algorithm",https://github.com/whatwg/html/pull/8264,2022-09-05T16:51:35Z,2022-09-28T05:53:02Z,nicolo-ribaudo,clarification|topic: script,0
@@ -111,7 +113,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1355100809,true,Add missing parameters to 'Create the navigation timing entry'.,https://github.com/whatwg/html/pull/8233,2022-08-30T03:04:22Z,2022-10-19T15:22:10Z,jeremyroman,,0
 1354902054,true,Fix webauthn autocomplete token parsing,https://github.com/whatwg/html/pull/8232,2022-08-29T21:39:27Z,2022-09-07T04:01:31Z,nsatragno,,0
 1354471819,false,Remove canvas 2d scrollPathIntoView,https://github.com/whatwg/html/pull/8229,2022-08-29T15:15:06Z,2022-09-30T10:43:31Z,junov,,0
-1350004480,false,Add popover attribute,https://github.com/whatwg/html/pull/8221,2022-08-24T20:48:00Z,2022-12-13T23:51:39Z,josepharhar,,0
+1350004480,false,Add popover attribute,https://github.com/whatwg/html/pull/8221,2022-08-24T20:48:00Z,2022-12-14T18:05:28Z,josepharhar,,0
 1347009137,true,Makes Canvas' ConicGradient match CSS angle,https://github.com/whatwg/html/pull/8213,2022-08-22T21:29:28Z,2022-08-23T17:07:56Z,fserb,normative change|topic: canvas|interop,0
 1343094151,false,Add a performance entry type for visibility state changes,https://github.com/whatwg/html/pull/8206,2022-08-18T13:21:04Z,2022-08-31T12:16:01Z,noamr,,0
 1341952968,true,Saját txt fájl létrehozása tesztelés miatt,https://github.com/whatwg/html/pull/8201,2022-08-17T15:34:09Z,2022-08-17T22:16:00Z,FerencFarkas22,spam,0
@@ -1059,7 +1061,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 603334448,true,Update worker global scope's owner set earlier,https://github.com/whatwg/html/pull/5472,2020-04-20T15:39:13Z,2020-04-28T14:50:35Z,domenic,topic: workers,0
 603319225,true,Align on what we call implementation-defined,https://github.com/whatwg/html/pull/5471,2020-04-20T15:17:56Z,2020-04-20T16:31:12Z,annevk,,0
 603266759,false,Integrate with Reporting API,https://github.com/whatwg/html/pull/5470,2020-04-20T14:07:15Z,2022-08-22T02:36:09Z,clelland,,0
-602258520,false,Add declarative Shadow DOM features,https://github.com/whatwg/html/pull/5465,2020-04-17T22:04:40Z,2022-12-14T04:13:30Z,mfreed7,needs implementer interest|topic: shadow|impacts documentation,5
+602258520,false,Add declarative Shadow DOM features,https://github.com/whatwg/html/pull/5465,2020-04-17T22:04:40Z,2022-12-14T15:29:41Z,mfreed7,needs implementer interest|topic: shadow|impacts documentation,5
 601071702,true,Change how minimum used value for line-height works,https://github.com/whatwg/html/pull/5462,2020-04-16T13:50:43Z,2022-02-11T00:04:30Z,zcorpan,,0
 599834801,true,Remove report long tasks from update the rendering,https://github.com/whatwg/html/pull/5459,2020-04-14T20:21:05Z,2020-04-15T20:03:05Z,npm1,integration,0
 599421153,true,Expand IME  to 'input method editor',https://github.com/whatwg/html/pull/5458,2020-04-14T09:18:47Z,2020-04-14T15:00:36Z,36degrees,clarification,0
