@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1498798099,false,Should open `dialog` elements match `:open`?,https://github.com/whatwg/html/issues/8625,2022-12-15T17:09:54Z,2022-12-15T18:00:39Z,josepharhar,topic: dialog|topic: selectors,1
+1499888644,false,setHTML() and declarative shadow roots,https://github.com/whatwg/html/issues/8627,2022-12-16T09:40:36Z,2022-12-16T09:40:36Z,annevk,topic: shadow|security/privacy,0
+1498798099,false,Should open `dialog` elements match `:open`?,https://github.com/whatwg/html/issues/8625,2022-12-15T17:09:54Z,2022-12-16T03:01:56Z,josepharhar,topic: dialog|topic: selectors,1
 1496562372,false,Session history entries list is assumed to be unlimited in size,https://github.com/whatwg/html/issues/8620,2022-12-14T12:46:37Z,2022-12-15T12:25:35Z,petervanderbeken,topic: history,0
 1496561208,false,https://html.spec.whatwg.org/#getting-the-history-object-length-and-index refers to undefined variable,https://github.com/whatwg/html/issues/8619,2022-12-14T12:45:47Z,2022-12-15T11:35:26Z,smaug----,,0
 1496383804,false,"Overuse of the word ""step"" makes reading history navigation hard",https://github.com/whatwg/html/issues/8617,2022-12-14T11:16:08Z,2022-12-15T12:30:22Z,smaug----,,0
@@ -8,7 +9,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1491385859,false,Define :picture-in-picture,https://github.com/whatwg/html/issues/8611,2022-12-12T09:17:23Z,2022-12-12T09:17:23Z,annevk,topic: media|topic: selectors,0
 1491357323,false,Details and summary styles don't match implementations.,https://github.com/whatwg/html/issues/8610,2022-12-12T09:03:17Z,2022-12-12T16:54:31Z,emilio,topic: rendering|agenda+,0
 1490865121,false,Add a means to consume user activation through automated testing,https://github.com/whatwg/html/issues/8608,2022-12-12T03:43:33Z,2022-12-12T03:43:33Z,marcoscaceres,,0
-1486401098,false,autocomplete attribute for tel-country-code not working well for <select> elements,https://github.com/whatwg/html/issues/8597,2022-12-09T09:22:56Z,2022-12-09T09:22:56Z,battre,,0
+1486401098,false,autocomplete attribute for tel-country-code not working well for <select> elements,https://github.com/whatwg/html/issues/8597,2022-12-09T09:22:56Z,2022-12-09T09:22:56Z,battre,,1
 1486054119,false,`registerProtocolHandler` support triggering events in service worker instead of navigating to page,https://github.com/whatwg/html/issues/8596,2022-12-09T05:38:29Z,2022-12-10T06:20:40Z,hanguokai,,0
 1485008124,true,customElements.whenDefined() is never fulfilled in case of a invalid name is sent as a param.,https://github.com/whatwg/html/issues/8594,2022-12-08T16:41:49Z,2022-12-08T23:41:25Z,raphaelpor,,0
 1483006722,false,"Feature request: Find out when a painted ""frame"" is presented to the screen",https://github.com/whatwg/html/issues/8592,2022-12-07T22:37:40Z,2022-12-08T14:19:09Z,kdashg,,0
@@ -23,7 +24,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1469894140,true,Remove <font> element text decoration color override.,https://github.com/whatwg/html/issues/8566,2022-11-30T16:17:47Z,2022-12-02T03:03:57Z,bfgeek,,0
 1469256930,true,Duplicate definition of the HTMLTableColElement.span IDL attribute,https://github.com/whatwg/html/issues/8564,2022-11-30T08:43:27Z,2022-12-01T11:32:01Z,tidoust,,0
 1469254733,false,Regression: window.name should not be on navigable,https://github.com/whatwg/html/issues/8563,2022-11-30T08:41:31Z,2022-11-30T13:01:40Z,annevk,topic: browsing context|topic: cross-origin-opener-policy,0
-1467872424,false,"Should padding be respected on ""natively styled"" form controls?",https://github.com/whatwg/html/issues/8560,2022-11-29T11:06:38Z,2022-12-13T01:54:09Z,emilio,topic: rendering|topic: forms,0
+1467872424,false,"Should padding be respected on ""natively styled"" form controls?",https://github.com/whatwg/html/issues/8560,2022-11-29T11:06:38Z,2022-12-16T08:07:56Z,emilio,topic: rendering|topic: forms,0
 1467248091,false,Need clarification about CDATA and HTML integration point,https://github.com/whatwg/html/issues/8558,2022-11-28T23:54:55Z,2022-11-29T21:12:51Z,alexander-akait,,3
 1466646727,false,ECMAScript Explicit Resource Management proposal integration with web APIs,https://github.com/whatwg/html/issues/8557,2022-11-28T15:42:04Z,2022-11-29T23:25:50Z,rbuckton,,0
 1465142063,false,Running the same failing module script breaks ECMA assumptions,https://github.com/whatwg/html/issues/8553,2022-11-26T12:29:56Z,2022-11-26T12:30:09Z,davidot,,0
@@ -736,7 +737,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 872435429,true,Cross-Origin-Embedder-Policy: credentialless,https://github.com/whatwg/html/issues/6637,2021-04-30T12:33:31Z,2021-11-02T12:55:38Z,ArthurSonzogni,topic: cross-origin-embedder-policy,0
 872131730,false,Lazy loading video element poster attribute,https://github.com/whatwg/html/issues/6636,2021-04-30T07:54:55Z,2022-11-09T11:48:23Z,asuh,addition/proposal|topic: media,2
 872059164,true,`:active` pseudo-class specification doesn't account for children/labels of disabled form elements,https://github.com/whatwg/html/issues/6635,2021-04-30T02:11:14Z,2022-02-10T19:06:49Z,alystair,topic: rendering|topic: forms,0
-870905892,false,Allow <source> to use <img>'s sizes data as a fallback,https://github.com/whatwg/html/issues/6633,2021-04-29T11:24:34Z,2022-02-04T15:46:29Z,jakearchibald,addition/proposal|topic: img,30
+870905892,false,Allow <source> to use <img>'s sizes data as a fallback,https://github.com/whatwg/html/issues/6633,2021-04-29T11:24:34Z,2022-02-04T15:46:29Z,jakearchibald,addition/proposal|topic: img,31
 870188337,false,import.meta.url always uses percent-encodings,https://github.com/whatwg/html/issues/6630,2021-04-28T17:34:16Z,2021-04-28T18:04:18Z,guybedford,,0
 869976363,true,Contiguous window.name leads to weirdness,https://github.com/whatwg/html/issues/6628,2021-04-28T13:54:39Z,2022-10-31T05:07:05Z,jakearchibald,topic: history|interop,1
 869891051,false,Add alt attributes to source elements,https://github.com/whatwg/html/issues/6627,2021-04-28T12:27:32Z,2021-05-17T15:43:12Z,johannesodland,addition/proposal|needs implementer interest|accessibility|topic: img|i18n-tracker,2
