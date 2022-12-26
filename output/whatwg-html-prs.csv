@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1507345020,false,WIP: Report fallback resource timing for no-TAO iframes,https://github.com/whatwg/html/pull/8643,2022-12-22T06:34:59Z,2022-12-22T06:48:08Z,noamr,,0
-1505930454,false,Navigation fetch initiator should only be set for container-initiated navigations,https://github.com/whatwg/html/pull/8638,2022-12-21T08:51:21Z,2022-12-23T10:11:50Z,noamr,,0
+1505930454,true,Navigation fetch initiator should only be set for container-initiated navigations,https://github.com/whatwg/html/pull/8638,2022-12-21T08:51:21Z,2022-12-26T09:33:16Z,noamr,topic: navigation,0
 1499848612,true,Meta: remove remaining TOPIC comments,https://github.com/whatwg/html/pull/8626,2022-12-16T09:12:50Z,2022-12-16T09:24:00Z,annevk,,0
 1498762162,true,Meta: remove class=no-backref,https://github.com/whatwg/html/pull/8624,2022-12-15T16:44:15Z,2022-12-16T09:06:38Z,annevk,,0
 1498270207,true,"Fix var name in history ""get the history object length and index""",https://github.com/whatwg/html/pull/8623,2022-12-15T11:35:12Z,2022-12-17T10:20:32Z,jakearchibald,topic: history,0
@@ -25,7 +25,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1463161490,true,Make HTMLInputElement.list an HTMLDataListElement.,https://github.com/whatwg/html/pull/8548,2022-11-24T10:59:09Z,2022-11-24T14:58:51Z,emilio,,0
 1458980715,true,"Editorial: consistently link ""promise resolved/rejected with""",https://github.com/whatwg/html/pull/8537,2022-11-22T03:35:36Z,2022-11-22T08:00:27Z,domenic,clarification,0
 1458407046,true,Use correct properties for meter element thickness,https://github.com/whatwg/html/pull/8536,2022-11-21T18:38:45Z,2022-11-22T02:06:17Z,dizhang168,,0
-1456832373,false,Specify scroll restoration in more detail,https://github.com/whatwg/html/pull/8528,2022-11-20T09:27:38Z,2022-12-09T18:26:34Z,domenic,topic: history,0
+1456832373,true,Specify scroll restoration in more detail,https://github.com/whatwg/html/pull/8528,2022-11-20T09:27:38Z,2022-12-26T10:15:58Z,domenic,topic: history,0
 1454375611,true,Minor fixes to COOP enforcement result processing,https://github.com/whatwg/html/pull/8523,2022-11-18T03:28:49Z,2022-11-19T04:51:50Z,domenic,topic: cross-origin-opener-policy,0
 1453616896,true,"Check if a URL's scheme is a fetch scheme, not if the URL itself is.",https://github.com/whatwg/html/pull/8521,2022-11-17T16:17:14Z,2022-11-18T00:38:46Z,jeremyroman,,0
 1452555961,true,Add '...as defined below' when a definition follows its use.,https://github.com/whatwg/html/pull/8519,2022-11-17T01:40:07Z,2022-11-17T02:59:37Z,jeremyroman,,0
@@ -106,7 +106,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1362916350,false,Custom handlers automation,https://github.com/whatwg/html/pull/8267,2022-09-06T08:40:07Z,2022-12-07T03:43:24Z,javifernandez,,0
 1362286926,true,"Replace ""asynchronous completions"" with a callback algorithm",https://github.com/whatwg/html/pull/8264,2022-09-05T16:51:35Z,2022-09-28T05:53:02Z,nicolo-ribaudo,clarification|topic: script,0
 1360604905,true,Add a `navigator` interface for user activation state.,https://github.com/whatwg/html/pull/8254,2022-09-02T20:54:59Z,2022-09-15T20:14:24Z,mustaqahmed,,0
-1360247038,false,[ECMA-262 layering] Refactor import-related host hooks,https://github.com/whatwg/html/pull/8253,2022-09-02T14:06:40Z,2022-12-19T11:51:25Z,nicolo-ribaudo,do not merge yet|topic: script,0
+1360247038,true,[ECMA-262 layering] Refactor import-related host hooks,https://github.com/whatwg/html/pull/8253,2022-09-02T14:06:40Z,2022-12-26T09:58:40Z,nicolo-ribaudo,topic: script,0
 1360149725,true,"Editorial: Add missing space in ""unload a Document"" steps",https://github.com/whatwg/html/pull/8252,2022-09-02T12:47:46Z,2022-09-05T08:21:29Z,linusg,,0
 1358987764,true,Fixed missing </td> tag in the 'link' element.,https://github.com/whatwg/html/pull/8248,2022-09-01T14:58:30Z,2022-09-05T02:51:11Z,amno1,,0
 1357584850,true,Create static.yml,https://github.com/whatwg/html/pull/8245,2022-08-31T16:30:44Z,2022-08-31T22:17:15Z,Lhvictor30,spam,0
