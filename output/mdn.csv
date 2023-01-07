@@ -518,8 +518,8 @@ api/CSSCounterStyleRule/symbols,,33,,91,,,,false,true,false,https://w3c.github.i
 api/CSSCounterStyleRule/system,,33,,91,,,,false,true,false,https://w3c.github.io/csswg-drafts/css-counter-styles/#dom-csscounterstylerule-system,W3C
 api/CSSFontFaceRule,,3.5,,1,,3.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-fonts/#om-fontface,W3C
 api/CSSFontFaceRule/style,,3.5,,1,,3.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-fonts/#dom-cssfontfacerule-style,W3C
-api/CSSFontFeatureValuesRule,,34,,,,preview,,false,true,false,,NONE
-api/CSSFontFeatureValuesRule/fontFamily,,34,,,,preview,,false,true,false,https://w3c.github.io/csswg-drafts/css-fonts-4/#dom-cssfontfeaturevaluesrule-fontfamily,W3C
+api/CSSFontFeatureValuesRule,,34,,,,16.2,,false,true,false,https://w3c.github.io/csswg-drafts/css-fonts-4/#cssfontfeaturevaluesrule,W3C
+api/CSSFontFeatureValuesRule/fontFamily,,34,,,,16.2,,false,true,false,https://w3c.github.io/csswg-drafts/css-fonts-4/#dom-cssfontfeaturevaluesrule-fontfamily,W3C
 api/CSSFontPaletteValuesRule,,107,,101,,15.4,,false,true,false,https://w3c.github.io/csswg-drafts/css-fonts-4/#om-fontpalettevalues,W3C
 api/CSSFontPaletteValuesRule/basePalette,,107,,101,,15.4,,false,true,false,https://w3c.github.io/csswg-drafts/css-fonts-4/#dom-cssfontpalettevaluesrule-basepalette,W3C
 api/CSSFontPaletteValuesRule/fontFamily,,107,,101,,15.4,,false,true,false,https://w3c.github.io/csswg-drafts/css-fonts-4/#dom-cssfontpalettevaluesrule-fontfamily,W3C
@@ -1117,7 +1117,6 @@ api/DOMMatrixReadOnly/toFloat32Array,,33,,61,,11,,false,true,false,https://draft
 api/DOMMatrixReadOnly/toFloat64Array,,33,,61,,11,,false,true,false,https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-tofloat64array,W3C
 api/DOMMatrixReadOnly/toJSON,,62,,61,,11,,false,true,false,https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-tojson,W3C
 api/DOMMatrixReadOnly/toString,,33,,61,,11,,false,true,false,,NONE
-api/DOMMatrixReadOnly/transform,,33,,61,,11,,false,true,false,,NONE
 api/DOMMatrixReadOnly/transformPoint,,33,,61,,11,,false,true,false,https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-transformpoint,W3C
 api/DOMMatrixReadOnly/translate,,33,,61,,11,,false,true,false,https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-translate,W3C
 api/DOMMatrixReadOnly/worker_support,,69,,61,,11,,false,true,false,,NONE
@@ -1974,6 +1973,7 @@ api/FileSystemHandle/isSameEntry,,,,86,,15.2,,false,true,false,https://fs.spec.w
 api/FileSystemHandle/kind,,,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#ref-for-dom-filesystemhandle-kind①,WHATWG
 api/FileSystemHandle/name,,,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#ref-for-dom-filesystemhandle-name①,WHATWG
 api/FileSystemHandle/queryPermission,,,,86,,,,true,true,false,https://wicg.github.io/file-system-access/#api-filesystemhandle-querypermission,W3CCG
+api/FileSystemHandle/remove,,,,110,,,,true,false,false,,NONE
 api/FileSystemHandle/requestPermission,,,,86,,,,true,true,false,https://wicg.github.io/file-system-access/#api-filesystemhandle-requestpermission,W3CCG
 api/FileSystemSync,,,,13,,6,,false,false,true,,NONE
 api/FileSystemSync/name,,,,13,,6,,false,false,true,,NONE
@@ -8519,12 +8519,12 @@ css/properties/font-variant/greek_accented_characters,,,,,,,,false,true,false,,N
 css/properties/font-variant/turkic_is,,14,,31,,8,,false,true,false,,NONE
 css/properties/font-variant/uppercase_eszett,,,,,,,,false,true,false,,NONE
 css/properties/font-variant-alternates,,34,,,,9.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-fonts/#font-variant-alternates-prop,W3C
-css/properties/font-variant-alternates/annotation,,34,,,,preview,,false,true,false,,NONE
-css/properties/font-variant-alternates/character_variant,,34,,,,preview,,false,true,false,,NONE
-css/properties/font-variant-alternates/ornaments,,34,,,,preview,,false,true,false,,NONE
-css/properties/font-variant-alternates/styleset,,34,,,,preview,,false,true,false,,NONE
-css/properties/font-variant-alternates/stylistic,,34,,,,preview,,false,true,false,,NONE
-css/properties/font-variant-alternates/swash,,34,,,,preview,,false,true,false,,NONE
+css/properties/font-variant-alternates/annotation,,34,,,,16.2,,false,true,false,,NONE
+css/properties/font-variant-alternates/character_variant,,34,,,,16.2,,false,true,false,,NONE
+css/properties/font-variant-alternates/ornaments,,34,,,,16.2,,false,true,false,,NONE
+css/properties/font-variant-alternates/styleset,,34,,,,16.2,,false,true,false,,NONE
+css/properties/font-variant-alternates/stylistic,,34,,,,16.2,,false,true,false,,NONE
+css/properties/font-variant-alternates/swash,,34,,,,16.2,,false,true,false,,NONE
 css/properties/font-variant-caps,,34,,52,,9.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-fonts/#font-variant-caps-prop,W3C
 css/properties/font-variant-east-asian,,34,,63,,9.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-fonts/#font-variant-east-asian-prop,W3C
 css/properties/font-variant-emoji,,108,,,,,,false,true,false,https://w3c.github.io/csswg-drafts/css-fonts/#font-variant-emoji-prop,W3C
@@ -9377,6 +9377,7 @@ css/types/color/rgba,,3,,1,,3.1,,false,true,false,https://w3c.github.io/csswg-dr
 css/types/color/rgba/float_values,,52,,66,,12.1,,false,true,false,,NONE
 css/types/color/rgba/space_separated_parameters,,52,,65,,12.1,,false,true,false,,NONE
 css/types/color/system-color,,1,,1,,1,,false,true,false,https://w3c.github.io/csswg-drafts/css-color/#css-system-colors,W3C
+css/types/color/system-color/mark_marktext_buttonborder,,109,,,,,,true,true,false,https://w3c.github.io/csswg-drafts/css-color/#valdef-system-color-mark,W3C
 css/types/color/transparent,,3,,1,,3.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-color/#transparent-color,W3C
 css/types/cos,,108,,,,15.4,,false,true,false,https://w3c.github.io/csswg-drafts/css-values/#trig-funcs,W3C
 css/types/counter,,1,,1,,3,,false,true,false,https://w3c.github.io/csswg-drafts/css-lists/#counter-functions,W3C
