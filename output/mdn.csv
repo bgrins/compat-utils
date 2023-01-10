@@ -1128,7 +1128,7 @@ api/DOMParser/parseFromString/svg,,10,,4,,3,,false,true,false,,NONE
 api/DOMParser/parseFromString/xml,,1,,1,,1.3,,false,true,false,,NONE
 api/DOMPoint,,31,,61,,10.1,,false,true,false,https://drafts.fxtf.org/geometry/#DOMPoint,W3C
 api/DOMPoint/DOMPoint,,31,,61,,10.1,,false,true,false,https://drafts.fxtf.org/geometry/#dom-dompoint-dompoint,W3C
-api/DOMPoint/fromPoint,,31,,61,,10.1,,false,true,false,https://drafts.fxtf.org/geometry/#dom-dompoint-frompoint,W3C
+api/DOMPoint/fromPoint,,62,,61,,10.1,,false,true,false,https://drafts.fxtf.org/geometry/#dom-dompoint-frompoint,W3C
 api/DOMPoint/w,,31,,61,,10.1,,false,true,false,https://drafts.fxtf.org/geometry/#dom-dompointreadonly-w,W3C
 api/DOMPoint/worker_support,,69,,61,,10.1,,false,true,false,,NONE
 api/DOMPoint/x,,31,,61,,10.1,,false,true,false,https://drafts.fxtf.org/geometry/#dom-dompointreadonly-x,W3C
@@ -1244,13 +1244,13 @@ api/DecompressionStream/DecompressionStream/gzip,,,,80,,,,false,true,false,https
 api/DecompressionStream/readable,,,,80,,preview,,false,true,false,https://streams.spec.whatwg.org/#dom-generictransformstream-readable,WHATWG
 api/DecompressionStream/writable,,,,80,,preview,,false,true,false,https://streams.spec.whatwg.org/#dom-generictransformstream-writable,WHATWG
 api/DedicatedWorkerGlobalScope,,3.5,,4,,4,,false,true,false,https://html.spec.whatwg.org/multipage/workers.html#dedicated-workers-and-the-dedicatedworkerglobalscope-interface,WHATWG
-api/DedicatedWorkerGlobalScope/cancelAnimationFrame,,97,,69,,,,false,true,false,https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#animationframeprovider-cancelanimationframe,WHATWG
+api/DedicatedWorkerGlobalScope/cancelAnimationFrame,,99,,69,,,,false,true,false,https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#animationframeprovider-cancelanimationframe,WHATWG
 api/DedicatedWorkerGlobalScope/close,,3.5,,4,,4,,false,true,false,https://html.spec.whatwg.org/multipage/workers.html#dom-dedicatedworkerglobalscope-close-dev,WHATWG
 api/DedicatedWorkerGlobalScope/message_event,,3.5,,4,,4,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-message,WHATWG
 api/DedicatedWorkerGlobalScope/messageerror_event,,57,,60,,,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-messageerror,WHATWG
 api/DedicatedWorkerGlobalScope/name,,55,,70,,12.1,,false,true,false,https://html.spec.whatwg.org/multipage/workers.html#dom-dedicatedworkerglobalscope-name-dev,WHATWG
 api/DedicatedWorkerGlobalScope/postMessage,,3.5,,4,,4,,false,true,false,https://html.spec.whatwg.org/multipage/workers.html#dom-dedicatedworkerglobalscope-postmessage-dev,WHATWG
-api/DedicatedWorkerGlobalScope/requestAnimationFrame,,97,,69,,,,false,true,false,https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#animationframeprovider-requestanimationframe,WHATWG
+api/DedicatedWorkerGlobalScope/requestAnimationFrame,,99,,69,,,,false,true,false,https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#animationframeprovider-requestanimationframe,WHATWG
 api/DedicatedWorkerGlobalScope/rtctransform_event,,,,,,15.4,,true,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-dedicatedworkerglobalscope-onrtctransform,W3C
 api/DelayNode,,25,,24,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#DelayNode,W3C
 api/DelayNode/DelayNode,,53,,55,,14.1,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-delaynode-constructor-delaynode,W3C
@@ -1766,7 +1766,7 @@ api/ElementInternals/reportValidity,,98,,77,,,,false,true,false,https://html.spe
 api/ElementInternals/role,,,,103,,,,true,true,false,https://w3c.github.io/aria/#dom-ariamixin-role,W3C
 api/ElementInternals/setFormValue,,98,,77,,,,false,true,false,https://html.spec.whatwg.org/multipage/custom-elements.html#dom-elementinternals-setformvalue,WHATWG
 api/ElementInternals/setValidity,,98,,77,,,,false,true,false,https://html.spec.whatwg.org/multipage/custom-elements.html#dom-elementinternals-setvalidity,WHATWG
-api/ElementInternals/shadowRoot,,93,,77,,,,false,true,false,https://html.spec.whatwg.org/multipage/custom-elements.html#dom-elementinternals-shadowroot,WHATWG
+api/ElementInternals/shadowRoot,,93,,88,,,,false,true,false,https://html.spec.whatwg.org/multipage/custom-elements.html#dom-elementinternals-shadowroot,WHATWG
 api/ElementInternals/states,,,,90,,,,true,true,false,https://wicg.github.io/custom-state-pseudo-class/#dom-elementinternals-states,W3CCG
 api/ElementInternals/validationMessage,,98,,77,,,,false,true,false,https://html.spec.whatwg.org/multipage/custom-elements.html#dom-elementinternals-validationmessage,WHATWG
 api/ElementInternals/validity,,98,,77,,,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-elementinternals-validity,WHATWG
@@ -2083,7 +2083,7 @@ api/Gamepad/vibrationActuator,,,,68,,,,true,false,false,,NONE
 api/GamepadButton,,29,,21,,10.1,,false,true,false,https://w3c.github.io/gamepad/#gamepadbutton-interface,W3C
 api/GamepadButton/pressed,,29,,21,,10.1,,false,true,false,https://w3c.github.io/gamepad/#dom-gamepadbutton-pressed,W3C
 api/GamepadButton/secure_context_required,,91,,86,"[{""name"":""#restrict-gamepad-access"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,,NONE
-api/GamepadButton/touched,,55,,73,,10.1,,false,true,false,https://w3c.github.io/gamepad/#dom-gamepadbutton-touched,W3C
+api/GamepadButton/touched,,55,,73,,,,false,true,false,https://w3c.github.io/gamepad/#dom-gamepadbutton-touched,W3C
 api/GamepadButton/value,,29,,21,,10.1,,false,true,false,https://w3c.github.io/gamepad/#dom-gamepadbutton-value,W3C
 api/GamepadEvent,,29,,21,,10.1,,false,true,false,https://w3c.github.io/gamepad/#gamepadevent-interface,W3C
 api/GamepadEvent/GamepadEvent,,29,,35,,10.1,,false,true,false,https://w3c.github.io/gamepad/#dom-gamepadevent-constructor,W3C
@@ -3105,11 +3105,11 @@ api/IDBIndex,,16,,24,,8,,false,true,false,https://w3c.github.io/IndexedDB/#index
 api/IDBIndex/count,,10,,23,,8,,false,true,false,https://w3c.github.io/IndexedDB/#ref-for-dom-idbindex-count①,W3C
 api/IDBIndex/get,,10,,23,,8,,false,true,false,https://w3c.github.io/IndexedDB/#ref-for-dom-idbindex-get①,W3C
 api/IDBIndex/getAll,,44,,48,,10.1,,false,true,false,https://w3c.github.io/IndexedDB/#ref-for-dom-idbindex-getall①,W3C
-api/IDBIndex/getAllKeys,,44,"[{""name"":""dom.indexedDB.experimental"",""type"":""preference""}]",48,,10.1,,false,true,false,https://w3c.github.io/IndexedDB/#ref-for-dom-idbindex-getallkeys①,W3C
+api/IDBIndex/getAllKeys,,44,,48,,10.1,,false,true,false,https://w3c.github.io/IndexedDB/#ref-for-dom-idbindex-getallkeys①,W3C
 api/IDBIndex/getKey,,10,,23,,8,,false,true,false,https://w3c.github.io/IndexedDB/#ref-for-dom-idbindex-getkey①,W3C
-api/IDBIndex/isAutoLocale,,43,,,,,,true,false,false,,NONE
+api/IDBIndex/isAutoLocale,,43,"[{""name"":""dom.indexedDB.experimental"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,false,false,,NONE
 api/IDBIndex/keyPath,,10,,23,,8,,false,true,false,https://w3c.github.io/IndexedDB/#dom-idbindex-keypath,W3C
-api/IDBIndex/locale,,43,,,,,,true,false,false,,NONE
+api/IDBIndex/locale,,43,"[{""name"":""dom.indexedDB.experimental"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,false,false,,NONE
 api/IDBIndex/multiEntry,,10,,23,,8,,false,true,false,https://w3c.github.io/IndexedDB/#dom-idbindex-multientry,W3C
 api/IDBIndex/name,,10,,23,,8,,false,true,false,https://w3c.github.io/IndexedDB/#ref-for-dom-idbindex-name①,W3C
 api/IDBIndex/name/renaming_through_name_setter,,49,,55,,10.1,,false,true,false,,NONE
@@ -3655,7 +3655,6 @@ api/MediaStreamTrack/stop,,34,,32,,11,,false,true,false,https://w3c.github.io/me
 api/MediaStreamTrack/unmute_event,,59,,26,,11,,false,true,false,https://w3c.github.io/mediacapture-main/#event-mediastreamtrack-unmute,W3C
 api/MediaStreamTrackAudioSourceNode,,68,,,,,,false,true,false,https://webaudio.github.io/web-audio-api/#MediaStreamTrackAudioSourceNode,W3C
 api/MediaStreamTrackAudioSourceNode/MediaStreamTrackAudioSourceNode,,68,,,,,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-mediastreamtrackaudiosourcenode-mediastreamtrackaudiosourcenode,W3C
-api/MediaStreamTrackAudioSourceNode/mediaStreamTrack,,68,,,,,,false,true,false,,NONE
 api/MediaStreamTrackEvent,,50,,26,,11,,false,true,false,https://w3c.github.io/mediacapture-main/#mediastreamtrackevent,W3C
 api/MediaStreamTrackEvent/MediaStreamTrackEvent,,50,,26,,11,,false,true,false,https://w3c.github.io/mediacapture-main/#dom-mediastreamtrackevent-constructor,W3C
 api/MediaStreamTrackEvent/track,,50,,26,,11,,false,true,false,https://w3c.github.io/mediacapture-main/#dom-mediastreamtrackevent-track,W3C
@@ -4403,17 +4402,17 @@ api/PaymentResponse/shippingAddress,,55,"[{""name"":""dom.payments.request.enabl
 api/PaymentResponse/shippingOption,,55,"[{""name"":""dom.payments.request.enabled"",""type"":""preference"",""value_to_set"":""true""},{""name"":""dom.payments.request.supportedRegions"",""type"":""preference"",""value_to_set"":""A comma-delimited list of one or more 2-character ISO country codes indicating the countries in which to support payments (for example, <code>US,CA</code>).""}]",60,,11.1,,false,false,true,,NONE
 api/PaymentResponse/toJSON,,55,"[{""name"":""dom.payments.request.enabled"",""type"":""preference"",""value_to_set"":""true""},{""name"":""dom.payments.request.supportedRegions"",""type"":""preference"",""value_to_set"":""A comma-delimited list of one or more 2-character ISO country codes indicating the countries in which to support payments (for example, <code>US,CA</code>).""}]",60,,11.1,,false,true,false,,NONE
 api/Performance,,7,,6,,8,,false,true,false,https://w3c.github.io/hr-time/#sec-performance,W3C
-api/Performance/clearMarks,,41,,29,,11,,false,true,false,https://w3c.github.io/user-timing/#dom-performance-clearmarks,W3C
-api/Performance/clearMeasures,,41,,29,,11,,false,true,false,https://w3c.github.io/user-timing/#dom-performance-clearmeasures,W3C
+api/Performance/clearMarks,,38,,29,,11,,false,true,false,https://w3c.github.io/user-timing/#dom-performance-clearmarks,W3C
+api/Performance/clearMeasures,,38,,29,,11,,false,true,false,https://w3c.github.io/user-timing/#dom-performance-clearmeasures,W3C
 api/Performance/clearResourceTimings,,35,,46,,11,,false,true,false,https://w3c.github.io/resource-timing/#dom-performance-clearresourcetimings,W3C
 api/Performance/eventCounts,,89,,85,,,,false,true,false,https://w3c.github.io/event-timing/#dom-performance-eventcounts,W3C
 api/Performance/getEntries,,35,,28,,11,,false,true,false,https://w3c.github.io/performance-timeline/#dom-performance-getentries,W3C
 api/Performance/getEntriesByName,,35,,28,,11,,false,true,false,https://w3c.github.io/performance-timeline/#dom-performance-getentriesbyname,W3C
 api/Performance/getEntriesByType,,35,,28,,11,,false,true,false,https://w3c.github.io/performance-timeline/#dom-performance-getentriesbytype,W3C
-api/Performance/mark,,41,,28,,11,,false,true,false,https://w3c.github.io/user-timing/#dom-performance-mark,W3C
+api/Performance/mark,,38,,28,,11,,false,true,false,https://w3c.github.io/user-timing/#dom-performance-mark,W3C
 api/Performance/mark/markOptions_parameter,,103,,78,,14.1,,false,true,false,,NONE
 api/Performance/mark/returns_performancemark,,103,,78,,14.1,,false,true,false,,NONE
-api/Performance/measure,,41,,28,,11,,false,true,false,https://w3c.github.io/user-timing/#dom-performance-measure,W3C
+api/Performance/measure,,38,,28,,11,,false,true,false,https://w3c.github.io/user-timing/#dom-performance-measure,W3C
 api/Performance/measure/measureOptions_parameter,,103,,78,,14.1,,false,true,false,,NONE
 api/Performance/measure/returns_performancemeasure,,103,,78,,14.1,,false,true,false,,NONE
 api/Performance/measureUserAgentSpecificMemory,,,,89,,,,true,true,false,https://wicg.github.io/performance-measure-memory/#ref-for-dom-performance-measureuseragentspecificmemory⑤,W3CCG
@@ -4455,7 +4454,7 @@ api/PerformanceLongTaskTiming/attribution,,,,58,,,,true,true,false,https://w3c.g
 api/PerformanceLongTaskTiming/toJSON,,,,58,,,,true,true,false,https://w3c.github.io/longtasks/#dom-performancelongtasktiming-tojson,W3C
 api/PerformanceMark,,38,,28,,11,,false,true,false,https://w3c.github.io/user-timing/#performancemark,W3C
 api/PerformanceMark/PerformanceMark,,101,,76,,14.1,,false,true,false,https://w3c.github.io/user-timing/#dom-performancemark-constructor,W3C
-api/PerformanceMark/detail,,101,,76,,14.1,,false,true,false,https://w3c.github.io/user-timing/#dom-performancemark-detail,W3C
+api/PerformanceMark/detail,,101,,78,,14.1,,false,true,false,https://w3c.github.io/user-timing/#dom-performancemark-detail,W3C
 api/PerformanceMeasure,,38,,25,,11,,false,true,false,https://w3c.github.io/user-timing/#performancemeasure,W3C
 api/PerformanceMeasure/detail,,103,,78,,14.1,,false,true,false,https://w3c.github.io/user-timing/#dom-performancemeasure-detail,W3C
 api/PerformanceNavigation,,7,,10,,8,,false,true,true,,NONE
@@ -4506,9 +4505,9 @@ api/PerformanceResourceTiming/responseStart,,31,,43,,11,,false,true,false,https:
 api/PerformanceResourceTiming/responseStatus,,,,109,,,,true,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-responsestatus,W3C
 api/PerformanceResourceTiming/secureConnectionStart,,31,,43,,11,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-secureconnectionstart,W3C
 api/PerformanceResourceTiming/serverTiming,,61,,65,,preview,,false,true,false,https://w3c.github.io/server-timing/#servertiming-attribute,W3C
-api/PerformanceResourceTiming/toJSON,,34,,43,,11,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-tojson,W3C
+api/PerformanceResourceTiming/toJSON,,34,,45,,11,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-tojson,W3C
 api/PerformanceResourceTiming/transferSize,,45,,54,,preview,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-transfersize,W3C
-api/PerformanceResourceTiming/workerStart,,58,,43,,11,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-workerstart,W3C
+api/PerformanceResourceTiming/workerStart,,58,,46,,11,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-workerstart,W3C
 api/PerformanceResourceTiming/worker_support,,60,,43,,12,,false,true,false,,NONE
 api/PerformanceServerTiming,,61,,65,,preview,,false,true,false,https://w3c.github.io/server-timing/#the-performanceservertiming-interface,W3C
 api/PerformanceServerTiming/description,,61,,65,,preview,,false,true,false,https://w3c.github.io/server-timing/#dom-performanceservertiming-description,W3C
