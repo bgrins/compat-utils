@@ -4,7 +4,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1522890101,false,[WIP] Change createImageBitMaps's imageOrientation attributes,https://github.com/whatwg/html/pull/8687,2023-01-06T17:12:57Z,2023-01-06T17:43:24Z,yiyix,,0
 1522704606,false,Fix COOP enforcement in redirects,https://github.com/whatwg/html/pull/8686,2023-01-06T14:52:52Z,2023-01-06T14:54:33Z,hemeryar,,0
 1519578944,false,Fixes transposed words.,https://github.com/whatwg/html/pull/8676,2023-01-04T21:13:39Z,2023-01-04T21:15:18Z,ChristopherFritz,,0
-1507345020,false,Report fallback resource timing for no-TAO iframes,https://github.com/whatwg/html/pull/8643,2022-12-22T06:34:59Z,2023-01-03T13:05:43Z,noamr,,0
+1507345020,false,Report fallback resource timing for no-TAO iframes,https://github.com/whatwg/html/pull/8643,2022-12-22T06:34:59Z,2023-01-09T15:47:33Z,noamr,,0
 1505930454,true,Navigation fetch initiator should only be set for container-initiated navigations,https://github.com/whatwg/html/pull/8638,2022-12-21T08:51:21Z,2022-12-26T17:47:27Z,noamr,topic: navigation,0
 1499848612,true,Meta: remove remaining TOPIC comments,https://github.com/whatwg/html/pull/8626,2022-12-16T09:12:50Z,2022-12-16T09:24:00Z,annevk,,0
 1498762162,true,Meta: remove class=no-backref,https://github.com/whatwg/html/pull/8624,2022-12-15T16:44:15Z,2022-12-16T09:06:38Z,annevk,,0
@@ -62,7 +62,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1429701754,true,Fix the exemplary Jake diagram to match its description,https://github.com/whatwg/html/pull/8457,2022-10-31T11:36:47Z,2022-11-01T10:25:39Z,domenic,topic: navigation,0
 1428304972,true,Create HTML Notes,https://github.com/whatwg/html/pull/8456,2022-10-29T15:02:22Z,2022-10-30T02:57:28Z,jagannath10,spam,0
 1428010364,true,Don't change focus when re-focusing delegatesFocus shadowhost,https://github.com/whatwg/html/pull/8453,2022-10-29T01:33:00Z,2022-11-01T08:58:11Z,josepharhar,topic: shadow|topic: focus|topic: dialog,0
-1426241715,false,Move origin into policy container. (#8302),https://github.com/whatwg/html/pull/8447,2022-10-27T20:41:15Z,2023-01-06T19:50:56Z,wanderview,,0
+1426241715,false,Move origin into policy container. (#8302),https://github.com/whatwg/html/pull/8447,2022-10-27T20:41:15Z,2023-01-09T21:32:16Z,wanderview,,0
 1425246896,true,Correct ariaChecked usage in ElementInternals example,https://github.com/whatwg/html/pull/8441,2022-10-27T08:35:19Z,2022-10-27T09:36:52Z,annevk,topic: custom elements,0
 1423967780,true,Meta: my employer changed,https://github.com/whatwg/html/pull/8435,2022-10-26T12:49:56Z,2022-10-27T01:37:21Z,annevk,,0
 1423040520,true,add `scrollend` event details,https://github.com/whatwg/html/pull/8433,2022-10-25T20:32:52Z,2022-11-01T04:28:16Z,argyleink,addition/proposal|topic: events,1
@@ -123,7 +123,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1355100809,true,Add missing parameters to 'Create the navigation timing entry'.,https://github.com/whatwg/html/pull/8233,2022-08-30T03:04:22Z,2022-10-19T15:22:10Z,jeremyroman,,0
 1354902054,true,Fix webauthn autocomplete token parsing,https://github.com/whatwg/html/pull/8232,2022-08-29T21:39:27Z,2022-09-07T04:01:31Z,nsatragno,,0
 1354471819,false,Remove canvas 2d scrollPathIntoView,https://github.com/whatwg/html/pull/8229,2022-08-29T15:15:06Z,2022-09-30T10:43:31Z,junov,,0
-1350004480,false,Add popover attribute,https://github.com/whatwg/html/pull/8221,2022-08-24T20:48:00Z,2023-01-08T01:12:35Z,josepharhar,,0
+1350004480,false,Add popover attribute,https://github.com/whatwg/html/pull/8221,2022-08-24T20:48:00Z,2023-01-09T21:06:14Z,josepharhar,,0
 1347009137,true,Makes Canvas' ConicGradient match CSS angle,https://github.com/whatwg/html/pull/8213,2022-08-22T21:29:28Z,2022-08-23T17:07:56Z,fserb,normative change|topic: canvas|interop,0
 1343094151,false,Add a performance entry type for visibility state changes,https://github.com/whatwg/html/pull/8206,2022-08-18T13:21:04Z,2022-08-31T12:16:01Z,noamr,,0
 1341952968,true,Saját txt fájl létrehozása tesztelés miatt,https://github.com/whatwg/html/pull/8201,2022-08-17T15:34:09Z,2022-08-17T22:16:00Z,FerencFarkas22,spam,0
@@ -352,7 +352,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1066462865,true,Remove a `setTimeout`'s entry in the map of active timers after it runs,https://github.com/whatwg/html/pull/7377,2021-11-29T20:19:00Z,2021-12-02T18:23:53Z,andreubotella,,0
 1065607775,true,Link to various CharacterData and DocumentType concepts from the parser,https://github.com/whatwg/html/pull/7375,2021-11-29T04:51:43Z,2021-11-30T05:06:02Z,TimothyGu,topic: parser,0
 1063869600,true,"Editorial: Move XHR's definition of ""entry list"" to HTML",https://github.com/whatwg/html/pull/7371,2021-11-25T19:07:14Z,2021-11-29T17:21:15Z,andreubotella,topic: forms,0
-1063857789,false,Add a navigation counter to Documents,https://github.com/whatwg/html/pull/7370,2021-11-25T18:41:12Z,2022-11-17T17:19:28Z,clelland,,0
+1063857789,false,Add a navigation counter to Documents,https://github.com/whatwg/html/pull/7370,2021-11-25T18:41:12Z,2023-01-09T19:40:21Z,clelland,,0
 1062872214,true,Remove inert check from dialog focusing steps,https://github.com/whatwg/html/pull/7366,2021-11-24T20:34:55Z,2022-01-07T22:21:41Z,nt1m,topic: focus|topic: dialog,0
 1062758150,true,Search element: add new note and example,https://github.com/whatwg/html/pull/7365,2021-11-24T18:27:29Z,2021-11-29T20:19:41Z,scottaohara,,0
 1062466744,true,"When opening a COOP+sandbox page, enforce COOP.",https://github.com/whatwg/html/pull/7364,2021-11-24T14:03:28Z,2022-03-29T16:49:44Z,hemeryar,normative change|topic: cross-origin-opener-policy|topic: sandbox,0
