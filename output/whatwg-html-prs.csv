@@ -1,5 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1529820271,false,"Rename createImageBitMaps's imageOrientation from ""none"" to ""from-image""",https://github.com/whatwg/html/pull/8710,2023-01-11T22:44:22Z,2023-01-11T22:45:57Z,yiyix,,0
+1530035385,false,"Meta: export ""navigable container"" and ""nested navigable""",https://github.com/whatwg/html/pull/8712,2023-01-12T03:26:54Z,2023-01-12T03:44:41Z,domenic,,0
+1530012265,true,Fix javascript: URL evaluation origin variable,https://github.com/whatwg/html/pull/8711,2023-01-12T02:51:37Z,2023-01-12T08:24:10Z,domenic,topic: javascript: URLs,0
+1529820271,false,"Rename createImageBitMaps's imageOrientation from ""none"" to ""from-image""",https://github.com/whatwg/html/pull/8710,2023-01-11T22:44:22Z,2023-01-12T04:15:27Z,yiyix,,0
 1525408628,false,Editorial: remove conformance text around limits,https://github.com/whatwg/html/pull/8703,2023-01-09T11:31:18Z,2023-01-10T06:56:11Z,annevk,do not merge yet,0
 1524575537,false,Editorial: Add alternatives for broken drafts.csswg.org reference links,https://github.com/whatwg/html/pull/8699,2023-01-08T16:19:06Z,2023-01-11T05:26:56Z,gibson042,,0
 1522890101,false,[WIP] Change createImageBitMaps's imageOrientation attributes,https://github.com/whatwg/html/pull/8687,2023-01-06T17:12:57Z,2023-01-11T05:20:19Z,yiyix,,0
@@ -54,7 +56,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1435380302,true,Use correct properties for progress element,https://github.com/whatwg/html/pull/8471,2022-11-03T23:49:55Z,2022-11-21T17:27:13Z,dizhang168,,0
 1435209005,false,Add the Priority Hints changes to the html spec,https://github.com/whatwg/html/pull/8470,2022-11-03T20:16:05Z,2023-01-11T18:17:03Z,pmeenan,,0
 1434547038,true,Export rendering opportunity,https://github.com/whatwg/html/pull/8468,2022-11-03T12:02:44Z,2022-11-04T01:16:10Z,jakearchibald,,0
-1433914646,false,Add custom state pseudo class,https://github.com/whatwg/html/pull/8467,2022-11-02T23:30:52Z,2023-01-11T09:48:52Z,josepharhar,,0
+1433914646,false,Add custom state pseudo class,https://github.com/whatwg/html/pull/8467,2022-11-02T23:30:52Z,2023-01-12T08:27:44Z,josepharhar,,0
 1433818435,false,"Add ""user attention"" definition to top-level traversable.",https://github.com/whatwg/html/pull/8466,2022-11-02T21:38:28Z,2022-11-05T01:21:32Z,jan-ivar,,0
 1433811063,true,Missing commas in JSON examples,https://github.com/whatwg/html/pull/8465,2022-11-02T21:30:36Z,2022-11-03T04:53:26Z,NiedziolkaMichal,,0
 1431810817,true,Export nested navigable,https://github.com/whatwg/html/pull/8462,2022-11-01T17:31:41Z,2022-11-02T14:38:39Z,domfarolino,,0
@@ -63,7 +65,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1429701754,true,Fix the exemplary Jake diagram to match its description,https://github.com/whatwg/html/pull/8457,2022-10-31T11:36:47Z,2022-11-01T10:25:39Z,domenic,topic: navigation,0
 1428304972,true,Create HTML Notes,https://github.com/whatwg/html/pull/8456,2022-10-29T15:02:22Z,2022-10-30T02:57:28Z,jagannath10,spam,0
 1428010364,true,Don't change focus when re-focusing delegatesFocus shadowhost,https://github.com/whatwg/html/pull/8453,2022-10-29T01:33:00Z,2022-11-01T08:58:11Z,josepharhar,topic: shadow|topic: focus|topic: dialog,0
-1426241715,false,Move origin into policy container. (#8302),https://github.com/whatwg/html/pull/8447,2022-10-27T20:41:15Z,2023-01-11T17:54:08Z,wanderview,,0
+1426241715,false,Move origin into policy container. (#8302),https://github.com/whatwg/html/pull/8447,2022-10-27T20:41:15Z,2023-01-12T09:13:30Z,wanderview,topic: origin|topic: policy container,0
 1425246896,true,Correct ariaChecked usage in ElementInternals example,https://github.com/whatwg/html/pull/8441,2022-10-27T08:35:19Z,2022-10-27T09:36:52Z,annevk,topic: custom elements,0
 1423967780,true,Meta: my employer changed,https://github.com/whatwg/html/pull/8435,2022-10-26T12:49:56Z,2022-10-27T01:37:21Z,annevk,,0
 1423040520,true,add `scrollend` event details,https://github.com/whatwg/html/pull/8433,2022-10-25T20:32:52Z,2022-11-01T04:28:16Z,argyleink,addition/proposal|topic: events,1
@@ -1072,7 +1074,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 603334448,true,Update worker global scope's owner set earlier,https://github.com/whatwg/html/pull/5472,2020-04-20T15:39:13Z,2020-04-28T14:50:35Z,domenic,topic: workers,0
 603319225,true,Align on what we call implementation-defined,https://github.com/whatwg/html/pull/5471,2020-04-20T15:17:56Z,2020-04-20T16:31:12Z,annevk,,0
 603266759,false,Integrate with Reporting API,https://github.com/whatwg/html/pull/5470,2020-04-20T14:07:15Z,2022-08-22T02:36:09Z,clelland,,0
-602258520,false,Add declarative Shadow DOM features,https://github.com/whatwg/html/pull/5465,2020-04-17T22:04:40Z,2023-01-11T06:24:22Z,mfreed7,needs implementer interest|topic: shadow|impacts documentation,5
+602258520,false,Add declarative Shadow DOM features,https://github.com/whatwg/html/pull/5465,2020-04-17T22:04:40Z,2023-01-12T09:37:57Z,mfreed7,needs implementer interest|topic: shadow|impacts documentation,5
 601071702,true,Change how minimum used value for line-height works,https://github.com/whatwg/html/pull/5462,2020-04-16T13:50:43Z,2022-02-11T00:04:30Z,zcorpan,,0
 599834801,true,Remove report long tasks from update the rendering,https://github.com/whatwg/html/pull/5459,2020-04-14T20:21:05Z,2020-04-15T20:03:05Z,npm1,integration,0
 599421153,true,Expand IME  to 'input method editor',https://github.com/whatwg/html/pull/5458,2020-04-14T09:18:47Z,2020-04-14T15:00:36Z,36degrees,clarification,0
