@@ -1,4 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1532559382,false,Should the spec clarify that character encoding declarations are not actually required?,https://github.com/whatwg/html/issues/8728,2023-01-13T16:10:35Z,2023-01-13T16:34:13Z,gnpivo,,0
+1532347280,true,"`<meta charset=""utf-8"">` missing from intro example",https://github.com/whatwg/html/issues/8726,2023-01-13T14:00:01Z,2023-01-13T15:50:54Z,gnpivo,,0
 1531967499,false,document state's history policy container does not seem to be correctly updated,https://github.com/whatwg/html/issues/8725,2023-01-13T09:20:41Z,2023-01-13T09:20:48Z,antosart,,0
 1531618760,true,Seeking clarity regarding potential mis-implemented behaviour in Chromium,https://github.com/whatwg/html/issues/8724,2023-01-13T02:30:03Z,2023-01-13T02:36:20Z,texonidas,,0
 1531498858,false,Upcoming HTML standard issue triage meeting on 1/26/2023,https://github.com/whatwg/html/issues/8723,2023-01-12T23:52:38Z,2023-01-12T23:52:38Z,past,agenda+,0
@@ -720,7 +722,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 923084614,true,Extend `atob` and `btoa` to support non-ASCII strings,https://github.com/whatwg/html/issues/6779,2021-06-16T20:46:05Z,2021-07-22T22:15:36Z,ethanresnick,addition/proposal|needs implementer interest,1
 922214329,true,Setting document.domain should not work for any public suffix,https://github.com/whatwg/html/issues/6775,2021-06-16T07:36:40Z,2021-06-16T17:09:25Z,thorlacius,,0
 921850934,true,What should history.back() do when sync navigations are involved?,https://github.com/whatwg/html/issues/6773,2021-06-15T22:22:03Z,2022-10-31T05:07:06Z,domenic,topic: history|interop,0
-920923069,false,Failed dynamic import should not always be cached,https://github.com/whatwg/html/issues/6768,2021-06-15T02:19:52Z,2023-01-05T08:59:48Z,sodatea,topic: script,8
+920923069,false,Failed dynamic import should not always be cached,https://github.com/whatwg/html/issues/6768,2021-06-15T02:19:52Z,2023-01-13T21:14:12Z,sodatea,topic: script,9
 918518896,false,Web compat: don't run async scripts between adjacent sync <script>s,https://github.com/whatwg/html/issues/6761,2021-06-11T09:48:42Z,2021-06-16T21:36:30Z,zcorpan,compat|topic: parser|topic: script,0
 917707970,false,How should timers account for system sleep/suspend?,https://github.com/whatwg/html/issues/6759,2021-06-10T18:46:38Z,2021-09-02T00:48:06Z,shaseley,,0
 917578796,false,Additional definitions exports for Pointer Events,https://github.com/whatwg/html/issues/6758,2021-06-10T17:04:44Z,2021-08-04T17:33:43Z,plehegar,anchor permanence|editorial,0
