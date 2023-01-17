@@ -1,11 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1535763785,false,"Refactoring ""determine navigation params policy container"" and ""determine the origin""",https://github.com/whatwg/html/issues/8739,2023-01-17T04:34:12Z,2023-01-17T05:17:20Z,domenic,clarification|topic: navigation|topic: policy container,0
+1535692009,true,Image Srcset: what happens when some image candidate strings do not have width descriptor?,https://github.com/whatwg/html/issues/8738,2023-01-17T02:30:04Z,2023-01-17T03:24:41Z,tlylt,,0
 1532559382,true,Should the spec clarify that character encoding declarations are not actually required?,https://github.com/whatwg/html/issues/8728,2023-01-13T16:10:35Z,2023-01-16T15:55:25Z,gnpivo,i18n-tracker,1
 1532347280,true,"`<meta charset=""utf-8"">` missing from intro example",https://github.com/whatwg/html/issues/8726,2023-01-13T14:00:01Z,2023-01-16T15:56:12Z,gnpivo,i18n-tracker,0
-1531967499,false,document state's history policy container does not seem to be correctly updated,https://github.com/whatwg/html/issues/8725,2023-01-13T09:20:41Z,2023-01-13T09:20:48Z,antosart,,0
+1531967499,false,document state's history policy container does not seem to be correctly updated,https://github.com/whatwg/html/issues/8725,2023-01-13T09:20:41Z,2023-01-17T03:20:12Z,antosart,,0
 1531618760,true,Seeking clarity regarding potential mis-implemented behaviour in Chromium,https://github.com/whatwg/html/issues/8724,2023-01-13T02:30:03Z,2023-01-13T02:36:20Z,texonidas,,0
 1531498858,false,Upcoming HTML standard issue triage meeting on 1/26/2023,https://github.com/whatwg/html/issues/8723,2023-01-12T23:52:38Z,2023-01-12T23:52:38Z,past,agenda+,0
 1530834734,false,Additional accessibility guidance for popover,https://github.com/whatwg/html/issues/8714,2023-01-12T14:42:51Z,2023-01-12T18:21:33Z,scottaohara,,0
-1530043744,false,"""Nested navigable"" and ""child navigable"" are easy to confuse",https://github.com/whatwg/html/issues/8713,2023-01-12T03:40:54Z,2023-01-13T09:01:32Z,domenic,clarification|topic: browsing context,0
+1530043744,false,"""Nested navigable"" and ""child navigable"" are easy to confuse",https://github.com/whatwg/html/issues/8713,2023-01-12T03:40:54Z,2023-01-17T08:58:32Z,domenic,clarification|topic: browsing context,0
 1528456422,false,Is HTMLImgElement.decode() a cross-origin info channel?,https://github.com/whatwg/html/issues/8709,2023-01-11T05:29:17Z,2023-01-11T11:12:18Z,noamr,,1
 1528111766,false,Float16Array + HTML Canvas,https://github.com/whatwg/html/issues/8708,2023-01-10T22:41:56Z,2023-01-10T22:41:56Z,palemieux,,1
 1528108331,false,Selecting text in the <summary> tag activates the details/summary (opens/closes the details tag),https://github.com/whatwg/html/issues/8707,2023-01-10T22:37:46Z,2023-01-12T13:18:14Z,gijsk,topic: events,0
@@ -592,7 +594,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1010570818,false,"Media data processing steps refernce undefined ""initial playback position"" concept",https://github.com/whatwg/html/issues/7129,2021-09-29T07:02:14Z,2021-09-29T08:07:21Z,tidoust,topic: media,0
 1007711778,false,Handle of private fields in the structured cloning,https://github.com/whatwg/html/issues/7123,2021-09-27T05:22:27Z,2021-09-27T21:47:55Z,petamoriken,topic: serialize and transfer|integration,0
 1007347056,true,"Steps for ""update the current document readiness"" should set the document readiness",https://github.com/whatwg/html/issues/7120,2021-09-26T10:18:35Z,2021-10-13T06:59:41Z,awesomekling,topic: document lifecycle,0
-1007095230,false,IMG tag: Omitting the sizes attribute when using width descriptors should be deemed correct.,https://github.com/whatwg/html/issues/7116,2021-09-25T14:05:23Z,2021-09-28T14:56:12Z,ADTC,clarification|topic: img,1
+1007095230,false,IMG tag: Omitting the sizes attribute when using width descriptors should be deemed correct.,https://github.com/whatwg/html/issues/7116,2021-09-25T14:05:23Z,2023-01-17T08:27:11Z,ADTC,clarification|topic: img,1
 1006361184,true,Proposing a Web Privacy standard?,https://github.com/whatwg/html/issues/7113,2021-09-24T11:21:52Z,2022-09-04T12:55:06Z,luap42,,2
 1005500079,true,history.state leaks into null-origin pages,https://github.com/whatwg/html/issues/7107,2021-09-23T14:24:21Z,2022-10-31T05:07:07Z,jakearchibald,topic: history,0
 1005475123,false,History entry state (history & appHistory) and error documents,https://github.com/whatwg/html/issues/7106,2021-09-23T14:02:37Z,2021-09-27T16:40:46Z,jakearchibald,topic: history,0
@@ -1364,7 +1366,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 555407218,true,Use script type for SharedWorkerGlobalScope matching,https://github.com/whatwg/html/issues/5235,2020-01-27T07:47:33Z,2020-02-10T22:31:35Z,elkurin,topic: workers,0
 554992172,true,Abstract out and unify image loading,https://github.com/whatwg/html/issues/5234,2020-01-24T22:53:26Z,2020-02-04T13:30:40Z,eeeps,,0
 553646676,true,Should frameset names be in a window's named properties?,https://github.com/whatwg/html/issues/5230,2020-01-22T16:17:06Z,2020-01-22T19:32:55Z,pshaughn,good first issue,0
-553617925,false,Define <link rel=prefetch>,https://github.com/whatwg/html/issues/5229,2020-01-22T15:31:09Z,2022-07-21T16:02:36Z,iamkumaran,topic: link|integration|topic: resource hints (inc. preload),0
+553617925,true,Define <link rel=prefetch>,https://github.com/whatwg/html/issues/5229,2020-01-22T15:31:09Z,2023-01-17T08:19:12Z,iamkumaran,topic: link|integration|topic: resource hints (inc. preload),0
 553141052,false,pageshow event timeStamp in BFCache,https://github.com/whatwg/html/issues/5226,2020-01-21T21:29:22Z,2020-02-14T20:44:42Z,npm1,,0
 552730493,false,COEP and redirects,https://github.com/whatwg/html/issues/5223,2020-01-21T09:29:59Z,2020-06-15T12:05:31Z,annevk,topic: cross-origin-embedder-policy,0
 552697694,false,"Should ""reload-triggered navigation"" be more strictly defined?",https://github.com/whatwg/html/issues/5222,2020-01-21T08:30:40Z,2020-02-12T10:47:28Z,yoavweiss,topic: navigation,2
