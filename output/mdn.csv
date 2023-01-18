@@ -379,7 +379,6 @@ api/Bluetooth,,,,56,,,,true,true,false,https://webbluetoothcg.github.io/web-blue
 api/Bluetooth/availabilitychanged_event,,,,56,,,,true,true,false,https://webbluetoothcg.github.io/web-bluetooth/#eventdef-bluetooth-availabilitychanged,W3CCG
 api/Bluetooth/getAvailability,,,,78,,,,true,true,false,https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetooth-getavailability,W3CCG
 api/Bluetooth/getDevices,,,,85,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",,,true,true,false,https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetooth-getdevices,W3CCG
-api/Bluetooth/referringDevice,,,,56,,,,true,true,false,https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetooth-referringdevice,W3CCG
 api/Bluetooth/requestDevice,,,,56,,,,true,true,false,https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetooth-requestdevice,W3CCG
 api/BluetoothCharacteristicProperties,,,,56,,,,true,true,false,https://webbluetoothcg.github.io/web-bluetooth/#characteristicproperties-interface,W3CCG
 api/BluetoothCharacteristicProperties/authenticatedSignedWrites,,,,56,,,,true,true,false,https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothcharacteristicproperties-authenticatedsignedwrites,W3CCG
@@ -760,11 +759,11 @@ api/CacheStorage/secure_context_required,,44,,65,,11.1,,false,true,false,,NONE
 api/CacheStorage/worker_support,,44,,43,,11.1,,false,true,false,,NONE
 api/CanMakePaymentEvent,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#the-canmakepaymentevent,W3C
 api/CanMakePaymentEvent/CanMakePaymentEvent,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#dom-canmakepaymentevent-constructor,W3C
-api/CanMakePaymentEvent/methodData,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#dom-canmakepaymentevent-methoddata,W3C
+api/CanMakePaymentEvent/methodData,,,,70,,,,false,false,true,,NONE
 api/CanMakePaymentEvent/modifiers,,,,70,,,,false,false,true,,NONE
-api/CanMakePaymentEvent/paymentRequestOrigin,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#dom-canmakepaymentevent-paymentrequestorigin,W3C
+api/CanMakePaymentEvent/paymentRequestOrigin,,,,70,,,,false,false,true,,NONE
 api/CanMakePaymentEvent/respondWith,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#dom-canmakepaymentevent-respondwith,W3C
-api/CanMakePaymentEvent/topOrigin,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#dom-canmakepaymentevent-toporigin,W3C
+api/CanMakePaymentEvent/topOrigin,,,,70,,,,false,false,true,,NONE
 api/CanvasCaptureMediaStreamTrack,,41,"[{""name"":""canvas.capturestream.enabled"",""type"":""preference"",""value_to_set"":""true""}]",51,,11,,false,true,false,https://w3c.github.io/mediacapture-fromelement/#the-canvascapturemediastreamtrack,W3C
 api/CanvasCaptureMediaStreamTrack/canvas,,41,"[{""name"":""canvas.capturestream.enabled"",""type"":""preference"",""value_to_set"":""true""}]",51,,11,,false,true,false,https://w3c.github.io/mediacapture-fromelement/#dom-canvascapturemediastreamtrack-canvas,W3C
 api/CanvasCaptureMediaStreamTrack/requestFrame,,41,"[{""name"":""canvas.capturestream.enabled"",""type"":""preference"",""value_to_set"":""true""}]",51,,11,,false,true,false,https://w3c.github.io/mediacapture-fromelement/#dom-canvascapturemediastreamtrack-requestframe,W3C
@@ -4344,16 +4343,16 @@ api/PaymentAddress/recipient,,,,60,,11.1,,false,false,true,,NONE
 api/PaymentAddress/region,,,,60,,11.1,,false,false,true,,NONE
 api/PaymentAddress/sortingCode,,,,60,,11.1,,false,false,true,,NONE
 api/PaymentAddress/toJSON,,,,60,,11.1,,false,false,true,,NONE
-api/PaymentInstruments,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#paymentinstruments-interface,W3C
-api/PaymentInstruments/clear,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#dom-paymentinstruments-clear,W3C
-api/PaymentInstruments/delete,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#dom-paymentinstruments-delete,W3C
-api/PaymentInstruments/get,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#dom-paymentinstruments-get,W3C
-api/PaymentInstruments/has,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#dom-paymentinstruments-has,W3C
-api/PaymentInstruments/keys,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#dom-paymentinstruments-keys,W3C
-api/PaymentInstruments/set,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#dom-paymentinstruments-set,W3C
+api/PaymentInstruments,,,,70,,,,false,true,true,https://w3c.github.io/payment-handler/#paymentinstruments-interface,W3C
+api/PaymentInstruments/clear,,,,70,,,,false,true,true,https://w3c.github.io/payment-handler/#dom-paymentinstruments-clear,W3C
+api/PaymentInstruments/delete,,,,70,,,,false,true,true,https://w3c.github.io/payment-handler/#dom-paymentinstruments-delete,W3C
+api/PaymentInstruments/get,,,,70,,,,false,true,true,https://w3c.github.io/payment-handler/#dom-paymentinstruments-get,W3C
+api/PaymentInstruments/has,,,,70,,,,false,true,true,https://w3c.github.io/payment-handler/#dom-paymentinstruments-has,W3C
+api/PaymentInstruments/keys,,,,70,,,,false,true,true,https://w3c.github.io/payment-handler/#dom-paymentinstruments-keys,W3C
+api/PaymentInstruments/set,,,,70,,,,false,true,true,https://w3c.github.io/payment-handler/#dom-paymentinstruments-set,W3C
 api/PaymentManager,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#paymentmanager-interface,W3C
-api/PaymentManager/enableDelegations,,,,80,,,,true,true,false,,NONE
-api/PaymentManager/instruments,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#dom-paymentmanager-instruments,W3C
+api/PaymentManager/enableDelegations,,,,80,,,,true,false,false,,NONE
+api/PaymentManager/instruments,,,,70,,,,false,true,true,https://w3c.github.io/payment-handler/#dom-paymentmanager-instruments,W3C
 api/PaymentManager/userHint,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#dom-paymentmanager-userhint,W3C
 api/PaymentMethodChangeEvent,,55,"[{""name"":""dom.payments.request.enabled"",""type"":""preference"",""value_to_set"":""true""},{""name"":""dom.payments.request.supportedRegions"",""type"":""preference"",""value_to_set"":""A comma-delimited list of one or more 2-character ISO country codes indicating the countries in which to support payments (for example, <code>US,CA</code>).""}]",76,,12.1,,false,true,false,https://w3c.github.io/payment-request/#paymentmethodchangeevent-interface,W3C
 api/PaymentMethodChangeEvent/PaymentMethodChangeEvent,,55,"[{""name"":""dom.payments.request.enabled"",""type"":""preference"",""value_to_set"":""true""},{""name"":""dom.payments.request.supportedRegions"",""type"":""preference"",""value_to_set"":""A comma-delimited list of one or more 2-character ISO country codes indicating the countries in which to support payments (for example, <code>US,CA</code>).""}]",76,,12.1,,false,true,false,https://w3c.github.io/payment-request/#dom-paymentmethodchangeevent-constructor,W3C
@@ -5983,7 +5982,7 @@ api/ServiceWorkerGlobalScope/backgroundfetchabort_event,,,,74,,,,true,true,false
 api/ServiceWorkerGlobalScope/backgroundfetchclick_event,,,,74,,,,true,true,false,,NONE
 api/ServiceWorkerGlobalScope/backgroundfetchfail_event,,,,74,,,,true,true,false,,NONE
 api/ServiceWorkerGlobalScope/backgroundfetchsuccess_event,,,,74,,,,true,true,false,,NONE
-api/ServiceWorkerGlobalScope/canmakepayment_event,,,,70,,,,true,true,false,,NONE
+api/ServiceWorkerGlobalScope/canmakepayment_event,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#the-canmakepaymentevent,W3C
 api/ServiceWorkerGlobalScope/clients,,44,,40,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#service-worker-global-scope-clients,W3C
 api/ServiceWorkerGlobalScope/contentdelete_event,,,,,,,,true,true,false,https://wicg.github.io/content-index/spec/#dom-serviceworkerglobalscope-oncontentdelete,W3CCG
 api/ServiceWorkerGlobalScope/cookieStore,,,,87,,,,true,true,false,https://wicg.github.io/cookie-store/#dom-serviceworkerglobalscope-cookiestore,W3CCG
@@ -5994,7 +5993,7 @@ api/ServiceWorkerGlobalScope/message_event,,44,,40,,11.1,,false,true,false,https
 api/ServiceWorkerGlobalScope/messageerror_event,,65,,81,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#eventdef-serviceworkerglobalscope-messageerror,W3C
 api/ServiceWorkerGlobalScope/notificationclick_event,,44,,40,,16,,false,true,false,https://notifications.spec.whatwg.org/#activating-a-notification,WHATWG
 api/ServiceWorkerGlobalScope/notificationclose_event,,44,,50,,16,,false,true,false,https://notifications.spec.whatwg.org/#dom-serviceworkerglobalscope-onnotificationclose,WHATWG
-api/ServiceWorkerGlobalScope/paymentrequest_event,,,,70,,,,true,true,false,,NONE
+api/ServiceWorkerGlobalScope/paymentrequest_event,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#the-paymentrequestevent,W3C
 api/ServiceWorkerGlobalScope/periodicsync_event,,,,80,,,,true,true,false,https://wicg.github.io/periodic-background-sync/#periodicsync-event,W3CCG
 api/ServiceWorkerGlobalScope/push_event,,44,,40,,16,,false,true,false,https://w3c.github.io/push-api/#extensions-to-the-serviceworkerglobalscope-interface,W3C
 api/ServiceWorkerGlobalScope/pushsubscriptionchange_event,,44,,,,16,,false,true,false,https://w3c.github.io/push-api/#the-pushsubscriptionchange-event,W3C
@@ -6010,7 +6009,7 @@ api/ServiceWorkerRegistration/getNotifications,,44,,40,,16,,false,true,false,htt
 api/ServiceWorkerRegistration/index,,,,,,,,true,true,false,https://wicg.github.io/content-index/spec/#dom-serviceworkerregistration-index,W3CCG
 api/ServiceWorkerRegistration/installing,,44,,40,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#navigator-service-worker-installing,W3C
 api/ServiceWorkerRegistration/navigationPreload,,99,,59,,15.4,,false,true,false,https://w3c.github.io/ServiceWorker/#service-worker-registration-navigationpreload,W3C
-api/ServiceWorkerRegistration/paymentManager,,,,70,,,,false,true,false,https://w3c.github.io/payment-handler/#dom-serviceworkerregistration-paymentmanager,W3C
+api/ServiceWorkerRegistration/paymentManager,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#dom-serviceworkerregistration-paymentmanager,W3C
 api/ServiceWorkerRegistration/periodicSync,,,,80,,,,true,true,false,https://wicg.github.io/periodic-background-sync/#dom-serviceworkerregistration-periodicsync,W3CCG
 api/ServiceWorkerRegistration/pushManager,,44,,40,,16,,false,true,false,https://w3c.github.io/push-api/#dom-serviceworkerregistration-pushmanager,W3C
 api/ServiceWorkerRegistration/scope,,44,,40,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#service-worker-registration-scope,W3C
@@ -7292,13 +7291,13 @@ api/WebTransport/WebTransport/serverCertificateHashes,,,,100,,,,true,true,false,
 api/WebTransport/close,,,,97,,,,true,true,false,https://w3c.github.io/webtransport/#dom-webtransport-close,W3C
 api/WebTransport/closed,,,,97,,,,true,true,false,https://w3c.github.io/webtransport/#dom-webtransport-closed,W3C
 api/WebTransport/createBidirectionalStream,,,,97,,,,true,true,false,https://w3c.github.io/webtransport/#dom-webtransport-createbidirectionalstream,W3C
-api/WebTransport/createUnidirectionalStream,,,,100,,,,true,true,false,https://w3c.github.io/webtransport/#dom-webtransport-createunidirectionalstream,W3C
+api/WebTransport/createUnidirectionalStream,,,,97,,,,true,true,false,https://w3c.github.io/webtransport/#dom-webtransport-createunidirectionalstream,W3C
 api/WebTransport/createUnidirectionalStream/byob_readers,,,,109,,,,true,true,false,,NONE
 api/WebTransport/datagrams,,,,97,,,,true,true,false,https://w3c.github.io/webtransport/#dom-webtransport-datagrams,W3C
-api/WebTransport/incomingBidirectionalStreams,,,,100,,,,true,true,false,https://w3c.github.io/webtransport/#dom-webtransport-incomingbidirectionalstreams,W3C
-api/WebTransport/incomingUnidirectionalStreams,,,,100,,,,true,true,false,https://w3c.github.io/webtransport/#dom-webtransport-incomingunidirectionalstreams,W3C
+api/WebTransport/incomingBidirectionalStreams,,,,97,,,,true,true,false,https://w3c.github.io/webtransport/#dom-webtransport-incomingbidirectionalstreams,W3C
+api/WebTransport/incomingUnidirectionalStreams,,,,97,,,,true,true,false,https://w3c.github.io/webtransport/#dom-webtransport-incomingunidirectionalstreams,W3C
 api/WebTransport/ready,,,,97,,,,true,true,false,https://w3c.github.io/webtransport/#dom-webtransport-ready,W3C
-api/WebTransportBidirectionalStream,,,,100,,,,true,true,false,https://w3c.github.io/webtransport/#webtransportbidirectionalstream,W3C
+api/WebTransportBidirectionalStream,,,,97,,,,true,true,false,https://w3c.github.io/webtransport/#webtransportbidirectionalstream,W3C
 api/WebTransportBidirectionalStream/readable,,,,97,,,,true,true,false,https://w3c.github.io/webtransport/#dom-webtransportbidirectionalstream-readable,W3C
 api/WebTransportBidirectionalStream/writable,,,,97,,,,true,true,false,https://w3c.github.io/webtransport/#dom-webtransportbidirectionalstream-writable,W3C
 api/WebTransportDatagramDuplexStream,,,,97,,,,true,true,false,https://w3c.github.io/webtransport/#duplex-stream,W3C
@@ -7804,7 +7803,7 @@ api/XRSession/depthUsage,,,,90,,,,true,true,false,https://immersive-web.github.i
 api/XRSession/domOverlayState,,,,83,,,,true,true,false,https://immersive-web.github.io/dom-overlays/#dom-xrsession-domoverlaystate,W3CCG
 api/XRSession/end,,,,79,,,,true,true,false,https://immersive-web.github.io/webxr/#dom-xrsession-end,W3CCG
 api/XRSession/end_event,,,,79,,,,true,true,false,https://immersive-web.github.io/webxr/#eventdef-xrsession-end,W3CCG
-api/XRSession/environmentBlendMode,,,,79,,,,true,true,false,https://immersive-web.github.io/webxr-ar-module/#dom-xrsession-environmentblendmode,W3CCG
+api/XRSession/environmentBlendMode,,,,81,,,,true,true,false,https://immersive-web.github.io/webxr-ar-module/#dom-xrsession-environmentblendmode,W3CCG
 api/XRSession/inputSources,,,,79,,,,true,true,false,https://immersive-web.github.io/webxr/#dom-xrsession-inputsources,W3CCG
 api/XRSession/inputsourceschange_event,,,,79,,,,true,true,false,https://immersive-web.github.io/webxr/#eventdef-xrsession-inputsourceschange,W3CCG
 api/XRSession/interactionMode,,,,84,,,,true,true,false,https://immersive-web.github.io/webxr-ar-module/#dom-xrsession-interactionmode,W3CCG
@@ -9272,7 +9271,7 @@ css/selectors/out-of-range,,29,,10,,5.1,,false,true,false,https://html.spec.what
 css/selectors/part,,72,,73,,13.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-shadow-parts/#part,W3C
 css/selectors/past,,,,,,7,,true,true,false,https://w3c.github.io/csswg-drafts/selectors/#the-past-pseudo,W3C
 css/selectors/paused,,,,,,15.4,,false,true,false,https://w3c.github.io/csswg-drafts/selectors/#selectordef-paused,W3C
-css/selectors/picture-in-picture,,,,76,,,,false,true,false,https://w3c.github.io/csswg-drafts/selectors/#pip-state,W3C
+css/selectors/picture-in-picture,,,,110,,,,false,true,false,https://w3c.github.io/csswg-drafts/selectors/#pip-state,W3C
 css/selectors/placeholder,,51,,57,,10.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-pseudo/#placeholder-pseudo,W3C
 css/selectors/placeholder-shown,,51,,47,,9,,false,true,false,https://w3c.github.io/csswg-drafts/selectors/#placeholder,W3C
 css/selectors/placeholder-shown/non_text_types,,59,,47,,9,,false,true,false,,NONE
@@ -10216,6 +10215,10 @@ html/manifest/protocol_handlers/url,,,,96,,,,true,true,false,https://wicg.github
 html/manifest/related_applications,,,,,,,,true,true,false,https://w3c.github.io/manifest/#related_applications-member,W3C
 html/manifest/scope,,,,53,,,,false,true,false,https://w3c.github.io/manifest/#scope-member,W3C
 html/manifest/screenshots,,,,,,,,true,true,false,https://w3c.github.io/manifest-app-info/#screenshots-member,W3C
+html/manifest/serviceworker,,,,70,,,,true,false,false,,NONE
+html/manifest/serviceworker/scope,,,,70,,,,true,false,false,,NONE
+html/manifest/serviceworker/src,,,,70,,,,true,false,false,,NONE
+html/manifest/serviceworker/use_cache,,,,70,,,,true,false,false,,NONE
 html/manifest/share_target,,,,89,,,,true,true,false,https://w3c.github.io/web-share-target/level-2/#share_target-member,W3C
 html/manifest/short_name,,,,39,,,,false,true,false,https://w3c.github.io/manifest/#short_name-member,W3C
 html/manifest/start_url,,,,39,,,,false,true,false,https://w3c.github.io/manifest/#start_url-member,W3C
