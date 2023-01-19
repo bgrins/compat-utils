@@ -1,16 +1,17 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1537525438,false,Meta: should dfns in headings be viewed as exported definitions?,https://github.com/whatwg/html/issues/8743,2023-01-18T07:30:06Z,2023-01-18T23:02:15Z,tidoust,,0
+1548957116,true,[css-view-transitions-1] Interaction with Safari's back/forward previews,https://github.com/whatwg/html/issues/8749,2023-01-19T11:14:58Z,2023-01-19T11:21:46Z,jakearchibald,,0
+1537525438,false,Meta: should dfns in headings be viewed as exported definitions?,https://github.com/whatwg/html/issues/8743,2023-01-18T07:30:06Z,2023-01-19T09:36:33Z,tidoust,,0
 1537442281,false,Add support for rel=stylesheet in Link headers,https://github.com/whatwg/html/issues/8741,2023-01-18T05:55:47Z,2023-01-18T05:55:47Z,domenic,addition/proposal|needs implementer interest|topic: link|topic: style,0
-1537270829,false,Navigation algorithm consults filtered header list,https://github.com/whatwg/html/issues/8740,2023-01-18T01:42:28Z,2023-01-18T20:39:30Z,domenic,topic: navigation,0
+1537270829,false,Navigation algorithm consults filtered header list,https://github.com/whatwg/html/issues/8740,2023-01-18T01:42:28Z,2023-01-19T08:27:29Z,domenic,topic: navigation,0
 1535763785,false,"Refactoring ""determine navigation params policy container"" and ""determine the origin""",https://github.com/whatwg/html/issues/8739,2023-01-17T04:34:12Z,2023-01-17T05:17:20Z,domenic,clarification|topic: navigation|topic: policy container,0
 1535692009,true,Image Srcset: what happens when some image candidate strings do not have width descriptor?,https://github.com/whatwg/html/issues/8738,2023-01-17T02:30:04Z,2023-01-17T03:24:41Z,tlylt,,0
 1532559382,true,Should the spec clarify that character encoding declarations are not actually required?,https://github.com/whatwg/html/issues/8728,2023-01-13T16:10:35Z,2023-01-16T15:55:25Z,gnpivo,i18n-tracker,1
 1532347280,true,"`<meta charset=""utf-8"">` missing from intro example",https://github.com/whatwg/html/issues/8726,2023-01-13T14:00:01Z,2023-01-16T15:56:12Z,gnpivo,i18n-tracker,0
-1531967499,false,document state's history policy container does not seem to be correctly updated,https://github.com/whatwg/html/issues/8725,2023-01-13T09:20:41Z,2023-01-17T03:20:12Z,antosart,,0
+1531967499,false,document state's history policy container does not seem to be correctly updated,https://github.com/whatwg/html/issues/8725,2023-01-13T09:20:41Z,2023-01-19T04:36:13Z,antosart,,0
 1531618760,true,Seeking clarity regarding potential mis-implemented behaviour in Chromium,https://github.com/whatwg/html/issues/8724,2023-01-13T02:30:03Z,2023-01-18T04:34:50Z,texonidas,,0
 1531498858,false,Upcoming HTML standard issue triage meeting on 1/26/2023,https://github.com/whatwg/html/issues/8723,2023-01-12T23:52:38Z,2023-01-12T23:52:38Z,past,agenda+,0
 1530834734,false,Additional accessibility guidance for popover,https://github.com/whatwg/html/issues/8714,2023-01-12T14:42:51Z,2023-01-12T18:21:33Z,scottaohara,,0
-1530043744,false,"""Nested navigable"" and ""child navigable"" are easy to confuse",https://github.com/whatwg/html/issues/8713,2023-01-12T03:40:54Z,2023-01-17T08:58:32Z,domenic,clarification|topic: browsing context,0
+1530043744,true,"""Nested navigable"" and ""child navigable"" are easy to confuse",https://github.com/whatwg/html/issues/8713,2023-01-12T03:40:54Z,2023-01-19T04:29:10Z,domenic,clarification|topic: browsing context,0
 1528456422,false,Is HTMLImgElement.decode() a cross-origin info channel?,https://github.com/whatwg/html/issues/8709,2023-01-11T05:29:17Z,2023-01-11T11:12:18Z,noamr,,1
 1528111766,false,Float16Array + HTML Canvas,https://github.com/whatwg/html/issues/8708,2023-01-10T22:41:56Z,2023-01-10T22:41:56Z,palemieux,,1
 1528108331,false,Selecting text in the <summary> tag activates the details/summary (opens/closes the details tag),https://github.com/whatwg/html/issues/8707,2023-01-10T22:37:46Z,2023-01-12T13:18:14Z,gijsk,topic: events,0
@@ -34,7 +35,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1509918794,false,"Should HTML parsers created for fragment parsing (i.e. innerHTML) or DOMParser spin the event loop in ""stop parsing""?",https://github.com/whatwg/html/issues/8646,2022-12-24T03:09:44Z,2023-01-04T11:50:27Z,Lubrsi,,1
 1503937198,false,A means to conceptually identify if an application is installed,https://github.com/whatwg/html/issues/8635,2022-12-20T03:40:46Z,2022-12-23T01:27:01Z,marcoscaceres,,0
 1503391962,false,favicon description,https://github.com/whatwg/html/issues/8632,2022-12-19T18:33:54Z,2022-12-26T19:34:51Z,hacknorris-aka-penguin,,0
-1499888644,false,setHTML() and declarative shadow roots,https://github.com/whatwg/html/issues/8627,2022-12-16T09:40:36Z,2023-01-16T07:52:20Z,annevk,topic: shadow|security/privacy,0
+1499888644,false,setHTML() and declarative shadow roots,https://github.com/whatwg/html/issues/8627,2022-12-16T09:40:36Z,2023-01-19T07:54:29Z,annevk,topic: shadow|security/privacy,0
 1498798099,false,Should open `dialog` elements match `:open`?,https://github.com/whatwg/html/issues/8625,2022-12-15T17:09:54Z,2022-12-16T03:01:56Z,josepharhar,topic: dialog|topic: selectors,1
 1496562372,false,Session history entries list is assumed to be unlimited in size,https://github.com/whatwg/html/issues/8620,2022-12-14T12:46:37Z,2022-12-15T12:25:35Z,petervanderbeken,topic: history,0
 1496561208,true,https://html.spec.whatwg.org/#getting-the-history-object-length-and-index refers to undefined variable,https://github.com/whatwg/html/issues/8619,2022-12-14T12:45:47Z,2022-12-17T10:20:37Z,smaug----,,0
@@ -1238,7 +1239,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 608634360,false,window.focus() vs system level focus of the window/tab,https://github.com/whatwg/html/issues/5493,2020-04-28T21:41:11Z,2020-08-12T00:18:35Z,mustaqahmed,interop|topic: focus,0
 608243971,false,marquee element and display,https://github.com/whatwg/html/issues/5492,2020-04-28T11:29:56Z,2020-04-28T11:29:56Z,annevk,topic: rendering,0
 607201372,false,Should draggable and <link href> elements be focusable?,https://github.com/whatwg/html/issues/5490,2020-04-27T03:22:04Z,2020-04-27T07:00:17Z,TimothyGu,topic: focus|topic: link,0
-607136818,true,"<input type=""time""> : Time vs. duration",https://github.com/whatwg/html/issues/5488,2020-04-26T23:06:14Z,2022-11-05T22:26:13Z,d-damien,topic: forms,0
+607136818,false,"<input type=""time""> : Time vs. duration",https://github.com/whatwg/html/issues/5488,2020-04-26T23:06:14Z,2023-01-19T10:04:25Z,d-damien,addition/proposal|needs implementer interest|topic: forms,0
 607075310,true,contenteditable elements should be focusable areas,https://github.com/whatwg/html/issues/5487,2020-04-26T18:05:58Z,2020-04-28T14:02:21Z,TimothyGu,topic: editing,1
 607073471,true,execCommand.html dead link,https://github.com/whatwg/html/issues/5486,2020-04-26T17:59:13Z,2020-06-25T14:09:04Z,TimothyGu,topic: editing,0
 606781021,true,Clarify sync vs async nature of Worker::postMessage,https://github.com/whatwg/html/issues/5485,2020-04-25T14:28:53Z,2020-04-28T11:40:07Z,RReverser,topic: serialize and transfer,0
@@ -1927,7 +1928,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 389065483,false,<iframe srcdoc> should handle SVG documents,https://github.com/whatwg/html/issues/4228,2018-12-09T21:21:34Z,2018-12-10T16:57:44Z,tabatkins,addition/proposal|needs implementer interest,2
 388329081,false,Consider blocking navigating frames to non-fetch scheme URLs,https://github.com/whatwg/html/issues/4226,2018-12-06T17:56:56Z,2018-12-06T17:56:56Z,annevk,needs implementer interest,0
 388314876,false,Canvas fill and stroke styles should be clearer about which colors are accepted,https://github.com/whatwg/html/issues/4225,2018-12-06T17:19:23Z,2018-12-10T17:26:16Z,emilio,topic: canvas|needs tests|interop,0
-387942796,false,`Link` header processing not defined,https://github.com/whatwg/html/issues/4224,2018-12-05T20:58:28Z,2023-01-18T05:50:40Z,domfarolino,topic: fetch|topic: link|topic: resource hints (inc. preload),1
+387942796,true,`Link` header processing not defined,https://github.com/whatwg/html/issues/4224,2018-12-05T20:58:28Z,2023-01-19T08:22:08Z,domfarolino,topic: fetch|topic: link|topic: resource hints (inc. preload),1
 387532176,true,Bogus comments,https://github.com/whatwg/html/issues/4222,2018-12-04T23:55:39Z,2018-12-05T08:17:38Z,lazarljubenovic,,0
 386462297,true,Should the innerHTML of void elements include child nodes?,https://github.com/whatwg/html/issues/4220,2018-12-01T14:18:38Z,2018-12-19T20:52:39Z,Zirro,topic: parser|interop,0
 385599781,false,Syntax for <template> variables,https://github.com/whatwg/html/issues/4219,2018-11-29T07:15:18Z,2022-11-20T16:42:04Z,indolering,,1
@@ -3054,7 +3055,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 195734740,true,Wring,https://github.com/whatwg/html/issues/2181,2016-12-15T07:24:47Z,2016-12-15T07:25:56Z,cheoklune,,0
 195651796,true,Making Location.ancestorOrigins a FrozenArray is not Web-Compatible,https://github.com/whatwg/html/issues/2179,2016-12-14T21:33:44Z,2017-01-13T00:55:08Z,cdumez,,0
 195558416,true,"""when a select element does not have a sizes attribute""",https://github.com/whatwg/html/issues/2178,2016-12-14T15:18:37Z,2017-02-23T16:42:03Z,deltab,good first issue,0
-195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2022-04-10T12:45:35Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,84
+195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2023-01-19T09:07:26Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,86
 195497838,true,selectionStart/End/Direction on input and textarea should not be nullable,https://github.com/whatwg/html/issues/2175,2016-12-14T10:46:42Z,2017-01-18T09:22:04Z,foolip,,0
 195494630,true,pushState title is ignored in all implementations?,https://github.com/whatwg/html/issues/2174,2016-12-14T10:32:35Z,2021-03-15T16:59:58Z,foolip,topic: history|interop,3
 195385032,true,"""If the element is flagged as ""parser-inserted"",...""",https://github.com/whatwg/html/issues/2173,2016-12-13T22:18:17Z,2016-12-13T22:19:35Z,JosephPecoraro,,0
