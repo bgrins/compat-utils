@@ -448,18 +448,18 @@ api/ByteLengthQueuingStrategy/ByteLengthQueuingStrategy,,65,,52,,10.1,,false,tru
 api/ByteLengthQueuingStrategy/highWaterMark,,65,,52,,10.1,,false,true,false,https://streams.spec.whatwg.org/#ref-for-blqs-high-water-mark①,WHATWG
 api/ByteLengthQueuingStrategy/size,,65,,52,,10.1,,false,true,false,https://streams.spec.whatwg.org/#blqs-size,WHATWG
 api/CDATASection,,1,,1,,3,,false,true,false,https://dom.spec.whatwg.org/#interface-cdatasection,WHATWG
-api/CSPViolationReportBody,,,,74,,preview,,false,true,false,https://w3c.github.io/webappsec-csp/#cspviolationreportbody,W3C
+api/CSPViolationReportBody,,63,,74,,preview,,false,true,false,https://w3c.github.io/webappsec-csp/#cspviolationreportbody,W3C
 api/CSPViolationReportBody/blockedURL,,,,74,,preview,,false,true,false,https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-blockedurl,W3C
 api/CSPViolationReportBody/columnNumber,,,,74,,preview,,false,true,false,https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-columnnumber,W3C
 api/CSPViolationReportBody/disposition,,,,74,,preview,,false,true,false,https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-disposition,W3C
 api/CSPViolationReportBody/documentURL,,,,74,,preview,,false,true,false,https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-documenturl,W3C
-api/CSPViolationReportBody/effectiveDirective,,,,74,,preview,,false,true,false,https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-effectivedirective,W3C
+api/CSPViolationReportBody/effectiveDirective,,108,,74,,preview,,false,true,false,https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-effectivedirective,W3C
 api/CSPViolationReportBody/lineNumber,,,,74,,preview,,false,true,false,https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-linenumber,W3C
 api/CSPViolationReportBody/originalPolicy,,,,74,,preview,,false,true,false,https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-originalpolicy,W3C
 api/CSPViolationReportBody/referrer,,,,74,,preview,,false,true,false,https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-referrer,W3C
 api/CSPViolationReportBody/sample,,,,74,,preview,,false,true,false,https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-sample,W3C
 api/CSPViolationReportBody/sourceFile,,,,74,,preview,,false,true,false,https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-sourcefile,W3C
-api/CSPViolationReportBody/statusCode,,,,74,,preview,,false,true,false,https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-statuscode,W3C
+api/CSPViolationReportBody/statusCode,,108,,74,,preview,,false,true,false,https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-statuscode,W3C
 api/CSPViolationReportBody/toJSON,,,,74,,preview,,false,true,false,,NONE
 api/CSS,,22,,28,,9,,false,true,false,https://w3c.github.io/csswg-drafts/cssom/#namespacedef-css,W3C
 api/CSS/Hz,,,,66,,,,true,true,false,https://drafts.css-houdini.org/css-typed-om/#dom-css-hz,W3C
@@ -965,9 +965,13 @@ api/CookieChangeEvent/deleted,,,,87,,,,true,true,false,https://wicg.github.io/co
 api/CookieStore,,,,87,,,,true,true,false,https://wicg.github.io/cookie-store/#CookieStore,W3CCG
 api/CookieStore/change_event,,,,87,,,,true,true,false,https://wicg.github.io/cookie-store/#intro-monitor,W3CCG
 api/CookieStore/delete,,,,87,,,,true,true,false,https://wicg.github.io/cookie-store/#dom-cookiestore-delete,W3CCG
+api/CookieStore/delete/partitioned_option,,,,109,,,,true,false,false,,NONE
 api/CookieStore/get,,,,87,,,,true,true,false,https://wicg.github.io/cookie-store/#dom-cookiestore-get,W3CCG
+api/CookieStore/get/partitioned_return_property,,,,109,,,,true,false,false,,NONE
 api/CookieStore/getAll,,,,87,,,,true,true,false,https://wicg.github.io/cookie-store/#dom-cookiestore-getall,W3CCG
+api/CookieStore/getAll/partitioned_return_property,,,,109,,,,true,false,false,,NONE
 api/CookieStore/set,,,,87,,,,true,true,false,https://wicg.github.io/cookie-store/#dom-cookiestore-set,W3CCG
+api/CookieStore/set/partitioned_option,,,,109,,,,true,false,false,,NONE
 api/CookieStoreManager,,,,87,,,,true,true,false,https://wicg.github.io/cookie-store/#cookiestoremanager,W3CCG
 api/CookieStoreManager/getSubscriptions,,,,87,,,,true,true,false,https://wicg.github.io/cookie-store/#dom-cookiestoremanager-getsubscriptions,W3CCG
 api/CookieStoreManager/subscribe,,,,87,,,,true,true,false,https://wicg.github.io/cookie-store/#dom-cookiestoremanager-subscribe,W3CCG
@@ -983,6 +987,7 @@ api/Credential/type,,60,,51,,13,,false,true,false,https://w3c.github.io/webappse
 api/CredentialsContainer,,60,,51,,13,,false,true,false,https://w3c.github.io/webappsec-credential-management/#credentialscontainer,W3C
 api/CredentialsContainer/create,,60,,60,,13,,false,true,false,https://w3c.github.io/webappsec-credential-management/#dom-credentialscontainer-create,W3C
 api/CredentialsContainer/get,,60,,51,,13,,false,true,false,https://w3c.github.io/webappsec-credential-management/#dom-credentialscontainer-get,W3C
+api/CredentialsContainer/get/identity_option,,,,108,,,,true,true,false,https://fedidcg.github.io/FedCM/#dom-credentialrequestoptions-identity,UNKNOWN
 api/CredentialsContainer/preventSilentAccess,,60,,60,,13,,false,true,false,https://w3c.github.io/webappsec-credential-management/#dom-credentialscontainer-preventsilentaccess,W3C
 api/CredentialsContainer/store,,60,,51,,13,,false,true,false,https://w3c.github.io/webappsec-credential-management/#dom-credentialscontainer-store,W3C
 api/CropTarget,,,,104,,,,true,true,false,https://w3c.github.io/mediacapture-region/#crop-target,W3C
@@ -1418,7 +1423,6 @@ api/Document/querySelectorAll,,3.5,,1,,3.1,,false,true,false,https://dom.spec.wh
 api/Document/readyState,,3.6,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#current-document-readiness,WHATWG
 api/Document/readystatechange_event,,4,,9,,5.1,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-readystatechange,WHATWG
 api/Document/referrer,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-document-referrer-dev,WHATWG
-api/Document/registerElement,,,,33,,,,false,false,true,,NONE
 api/Document/releaseCapture,,4,,,,,,false,false,false,,NONE
 api/Document/releaseEvents,,1,,64,,11,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-document-releaseevents,WHATWG
 api/Document/replaceChildren,,78,,86,,14,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-parentnode-replacechildren①,WHATWG
@@ -3186,6 +3190,8 @@ api/IDBVersionChangeEvent/worker_support,,37,,23,,10,,false,true,false,,NONE
 api/IIRFilterNode,,50,,49,,14.1,,false,true,false,https://webaudio.github.io/web-audio-api/#IIRFilterNode,W3C
 api/IIRFilterNode/IIRFilterNode,,53,,55,,14.1,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-iirfilternode-constructor-iirfilternode,W3C
 api/IIRFilterNode/getFrequencyResponse,,50,,49,,14.1,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-iirfilternode-getfrequencyresponse,W3C
+api/IdentityCredential,,,,108,,,,true,true,false,https://fedidcg.github.io/FedCM/#browser-api-identity-credential-interface,UNKNOWN
+api/IdentityCredential/token,,,,108,,,,true,true,false,https://fedidcg.github.io/FedCM/#dom-identitycredential-token,UNKNOWN
 api/IdleDeadline,,55,,47,,,,false,true,false,https://w3c.github.io/requestidlecallback/#the-idledeadline-interface,W3C
 api/IdleDeadline/didTimeout,,55,,47,,,,false,true,false,https://w3c.github.io/requestidlecallback/#dom-idledeadline-didtimeout,W3C
 api/IdleDeadline/timeRemaining,,55,,47,,,,false,true,false,https://w3c.github.io/requestidlecallback/#dom-idledeadline-timeremaining,W3C
@@ -7829,7 +7835,7 @@ api/XRSessionEvent/session,,,,79,,,,false,true,false,https://immersive-web.githu
 api/XRSpace,,,,79,,,,false,true,false,https://immersive-web.github.io/webxr/#xrspace-interface,W3CCG
 api/XRSubImage,,,,,,,,true,true,false,https://immersive-web.github.io/layers/#xrsubimagetype,W3CCG
 api/XRSubImage/viewport,,,,,,,,true,true,false,https://immersive-web.github.io/layers/#dom-xrsubimage-viewport,W3CCG
-api/XRSystem,,,,79,,,,true,true,false,https://immersive-web.github.io/webxr/#xrsystem-interface,W3CCG
+api/XRSystem,,,,83,,,,true,true,false,https://immersive-web.github.io/webxr/#xrsystem-interface,W3CCG
 api/XRSystem/devicechange_event,,,,79,,,,true,true,false,https://immersive-web.github.io/webxr/#eventdef-xrsystem-devicechange,W3CCG
 api/XRSystem/isSessionSupported,,,,79,,,,true,true,false,https://immersive-web.github.io/webxr/#dom-xrsystem-issessionsupported,W3CCG
 api/XRSystem/requestSession,,,,79,,,,true,true,false,https://immersive-web.github.io/webxr/#dom-xrsystem-requestsession,W3CCG
@@ -7951,6 +7957,7 @@ api/crypto,,1,,37,,5,,false,true,false,https://w3c.github.io/webcrypto/#dom-wind
 api/crypto/worker_support,,48,,37,,10.1,,false,true,false,,NONE
 api/fetch,,39,,42,,10.1,,false,true,false,https://fetch.spec.whatwg.org/#fetch-method,WHATWG
 api/fetch/blob_data_support,,39,,48,,10.1,,false,true,false,,NONE
+api/fetch/init_keepalive_parameter,,,,66,,13,,false,true,false,,NONE
 api/fetch/init_referrerPolicy_parameter,,52,,52,,11.1,,false,true,false,,NONE
 api/fetch/init_signal_parameter,,57,,66,,11.1,,false,true,false,,NONE
 api/fetch/worker_support,,39,,42,,10.1,,false,true,false,,NONE
