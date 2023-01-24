@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1553901385,false,Proposal: Add an `isolatehistory` attribute to iframes,https://github.com/whatwg/html/issues/8773,2023-01-23T22:02:53Z,2023-01-23T22:07:09Z,brandonmcconnell,,0
-1553531654,false,CSS selectors cannot reliably identify cells on the edge of their containing table if any cells in the table use the rowSpan attribute,https://github.com/whatwg/html/issues/8772,2023-01-23T18:05:52Z,2023-01-23T21:14:39Z,DavidJCobb,,0
+1553901385,true,Proposal: Add an `isolatehistory` attribute to iframes,https://github.com/whatwg/html/issues/8773,2023-01-23T22:02:53Z,2023-01-24T05:23:17Z,brandonmcconnell,,0
+1553531654,true,CSS selectors cannot reliably identify cells on the edge of their containing table if any cells in the table use the rowSpan attribute,https://github.com/whatwg/html/issues/8772,2023-01-23T18:05:52Z,2023-01-24T00:43:09Z,DavidJCobb,,0
 1552934460,false,Ability to style default summary in <details>,https://github.com/whatwg/html/issues/8770,2023-01-23T11:28:14Z,2023-01-23T11:28:14Z,jakearchibald,,0
 1552047625,false,"Clarify: CSS import assertions use ""script"" as the destination, is that intended?",https://github.com/whatwg/html/issues/8764,2023-01-22T08:56:49Z,2023-01-22T08:57:06Z,noamr,,0
 1550462824,true,MediaError not acccessible for a video element if using it with source elements,https://github.com/whatwg/html/issues/8757,2023-01-20T08:15:13Z,2023-01-23T20:05:48Z,callumgare,,0
@@ -14,7 +14,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1535692009,true,Image Srcset: what happens when some image candidate strings do not have width descriptor?,https://github.com/whatwg/html/issues/8738,2023-01-17T02:30:04Z,2023-01-17T03:24:41Z,tlylt,,0
 1532559382,true,Should the spec clarify that character encoding declarations are not actually required?,https://github.com/whatwg/html/issues/8728,2023-01-13T16:10:35Z,2023-01-16T15:55:25Z,gnpivo,i18n-tracker,1
 1532347280,true,"`<meta charset=""utf-8"">` missing from intro example",https://github.com/whatwg/html/issues/8726,2023-01-13T14:00:01Z,2023-01-16T15:56:12Z,gnpivo,i18n-tracker,0
-1531967499,false,document state's history policy container does not seem to be correctly updated,https://github.com/whatwg/html/issues/8725,2023-01-13T09:20:41Z,2023-01-20T22:06:54Z,antosart,,0
+1531967499,true,document state's history policy container does not seem to be correctly updated,https://github.com/whatwg/html/issues/8725,2023-01-13T09:20:41Z,2023-01-24T04:21:55Z,antosart,,0
 1531618760,true,Seeking clarity regarding potential mis-implemented behaviour in Chromium,https://github.com/whatwg/html/issues/8724,2023-01-13T02:30:03Z,2023-01-18T04:34:50Z,texonidas,,0
 1531498858,false,Upcoming HTML standard issue triage meeting on 1/26/2023,https://github.com/whatwg/html/issues/8723,2023-01-12T23:52:38Z,2023-01-23T15:36:38Z,past,agenda+,0
 1530834734,false,Additional accessibility guidance for popover,https://github.com/whatwg/html/issues/8714,2023-01-12T14:42:51Z,2023-01-12T18:21:33Z,scottaohara,,0
@@ -47,7 +47,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1496562372,false,Session history entries list is assumed to be unlimited in size,https://github.com/whatwg/html/issues/8620,2022-12-14T12:46:37Z,2023-01-23T13:13:11Z,petervanderbeken,topic: history|agenda+,0
 1496561208,true,https://html.spec.whatwg.org/#getting-the-history-object-length-and-index refers to undefined variable,https://github.com/whatwg/html/issues/8619,2022-12-14T12:45:47Z,2022-12-17T10:20:37Z,smaug----,,0
 1496383804,false,"Overuse of the word ""step"" makes reading history navigation hard",https://github.com/whatwg/html/issues/8617,2022-12-14T11:16:08Z,2022-12-15T12:30:22Z,smaug----,,0
-1493465805,false,Add examples of <hgroup>,https://github.com/whatwg/html/issues/8615,2022-12-13T06:11:04Z,2022-12-30T03:05:31Z,carnoxen,,0
+1493465805,false,Add examples of <hgroup>,https://github.com/whatwg/html/issues/8615,2022-12-13T06:11:04Z,2023-01-24T03:59:20Z,carnoxen,,0
 1493156121,true,Upcoming HTML standard issue triage meeting on 1/12/2023,https://github.com/whatwg/html/issues/8614,2022-12-13T01:41:37Z,2023-01-12T23:57:54Z,past,agenda+,0
 1491385859,false,Define :picture-in-picture,https://github.com/whatwg/html/issues/8611,2022-12-12T09:17:23Z,2022-12-18T05:01:43Z,annevk,topic: media|topic: selectors,0
 1491357323,false,Details and summary styles don't match implementations.,https://github.com/whatwg/html/issues/8610,2022-12-12T09:03:17Z,2023-01-23T11:29:07Z,emilio,topic: rendering|agenda+,0
@@ -2296,7 +2296,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
 305492784,false,EventSource.readyState should be CLOSED if created after a self.close() in a Web Worker,https://github.com/whatwg/html/issues/3573,2018-03-15T10:26:52Z,2018-03-15T11:02:30Z,bakulf,topic: eventsource,0
 305486191,true,When will 'probablySupportsContext' be supported?,https://github.com/whatwg/html/issues/3572,2018-03-15T10:07:17Z,2018-07-08T13:48:40Z,bluzi,,0
-305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2022-10-17T20:15:29Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,19
+305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2023-01-24T10:17:49Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,19
 305369552,true,Proposal: Improve control over HTML/XML syntax parse errors,https://github.com/whatwg/html/issues/3569,2018-03-14T23:56:33Z,2022-04-18T15:28:51Z,dvdckl,addition/proposal|needs implementer interest|topic: parser,0
 305147441,true,"<form method> description only says ""HTTP method""",https://github.com/whatwg/html/issues/3568,2018-03-14T12:58:10Z,2018-04-20T07:53:27Z,annevk,good first issue,0
 305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2022-12-31T17:42:19Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,58
