@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1552424839,true,Fix typo introduced by the navigation rewrite,https://github.com/whatwg/html/pull/8768,2023-01-23T02:44:16Z,2023-01-23T02:48:48Z,domfarolino,,0
-1552389720,false,Properly assign history policy container,https://github.com/whatwg/html/pull/8767,2023-01-23T01:55:18Z,2023-01-23T07:23:16Z,domfarolino,topic: navigation|topic: history|topic: policy container,0
+1552389720,false,Properly assign history policy container,https://github.com/whatwg/html/pull/8767,2023-01-23T01:55:18Z,2023-01-23T21:58:18Z,domfarolino,topic: navigation|topic: history|topic: policy container,0
 1552115180,true,Update permisssions policy creation,https://github.com/whatwg/html/pull/8766,2023-01-22T13:24:56Z,2023-01-23T06:00:37Z,clelland,,0
 1550294250,false,Link processing: Update call to Manifest processing algorithm (interface changed),https://github.com/whatwg/html/pull/8754,2023-01-20T04:37:29Z,2023-01-20T06:18:41Z,mgiuca,,0
 1548829156,true,Meta: export “serializable object”,https://github.com/whatwg/html/pull/8748,2023-01-19T09:51:55Z,2023-01-20T01:38:04Z,dontcallmedom,,0
@@ -15,7 +15,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1529820271,true,"Rename createImageBitMaps's imageOrientation from ""none"" to ""from-image""",https://github.com/whatwg/html/pull/8710,2023-01-11T22:44:22Z,2023-01-17T06:19:23Z,yiyix,normative change|topic: canvas|impacts documentation,0
 1525408628,true,Editorial: remove conformance text around limits,https://github.com/whatwg/html/pull/8703,2023-01-09T11:31:18Z,2023-01-16T09:13:58Z,annevk,,0
 1524575537,true,Editorial: Add alternatives for broken drafts.csswg.org reference links,https://github.com/whatwg/html/pull/8699,2023-01-08T16:19:06Z,2023-01-17T00:55:00Z,gibson042,,0
-1522890101,false,[WIP] Change createImageBitMaps's imageOrientation attributes,https://github.com/whatwg/html/pull/8687,2023-01-06T17:12:57Z,2023-01-16T17:56:08Z,yiyix,,0
+1522890101,false,[WIP] Change createImageBitMaps's imageOrientation attributes,https://github.com/whatwg/html/pull/8687,2023-01-06T17:12:57Z,2023-01-23T15:50:02Z,yiyix,,0
 1522704606,true,Fix COOP enforcement in redirects,https://github.com/whatwg/html/pull/8686,2023-01-06T14:52:52Z,2023-01-18T05:34:56Z,hemeryar,topic: navigation|topic: cross-origin-opener-policy,0
 1519578944,true,Fixes transposed words.,https://github.com/whatwg/html/pull/8676,2023-01-04T21:13:39Z,2023-01-10T07:01:12Z,ChristopherFritz,,0
 1507345020,false,Report fallback resource timing for no-TAO iframes,https://github.com/whatwg/html/pull/8643,2022-12-22T06:34:59Z,2023-01-18T08:15:25Z,noamr,,0
@@ -39,7 +39,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1467338679,true,Normative: Integrate with resizable buffers,https://github.com/whatwg/html/pull/8559,2022-11-29T02:09:03Z,2022-12-08T01:11:13Z,syg,addition/proposal|topic: serialize and transfer,0
 1466125022,true,Export navigable container document,https://github.com/whatwg/html/pull/8556,2022-11-28T09:55:28Z,2022-11-30T12:03:40Z,antosart,,0
 1465997116,true,Pass navigable to CSP navigation response check,https://github.com/whatwg/html/pull/8555,2022-11-28T08:17:01Z,2022-12-01T11:44:16Z,antosart,,0
-1465022654,false,Decrement script-blocking style sheet counter when we early-return from response-handling,https://github.com/whatwg/html/pull/8552,2022-11-26T02:29:10Z,2022-12-05T06:18:16Z,domfarolino,,0
+1465022654,false,Replace script-blocking style sheet counter with script-blocking style sheet list,https://github.com/whatwg/html/pull/8552,2022-11-26T02:29:10Z,2023-01-23T21:57:44Z,domfarolino,,0
 1463420649,true,"Remove policy-controlled ""document-domain"" feature",https://github.com/whatwg/html/pull/8549,2022-11-24T14:20:06Z,2022-12-05T04:46:58Z,otherdaniel,,0
 1463161490,true,Make HTMLInputElement.list an HTMLDataListElement.,https://github.com/whatwg/html/pull/8548,2022-11-24T10:59:09Z,2022-11-24T14:58:51Z,emilio,,0
 1458980715,true,"Editorial: consistently link ""promise resolved/rejected with""",https://github.com/whatwg/html/pull/8537,2022-11-22T03:35:36Z,2022-11-22T08:00:27Z,domenic,clarification,0
@@ -1085,7 +1085,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 603334448,true,Update worker global scope's owner set earlier,https://github.com/whatwg/html/pull/5472,2020-04-20T15:39:13Z,2020-04-28T14:50:35Z,domenic,topic: workers,0
 603319225,true,Align on what we call implementation-defined,https://github.com/whatwg/html/pull/5471,2020-04-20T15:17:56Z,2020-04-20T16:31:12Z,annevk,,0
 603266759,false,Integrate with Reporting API,https://github.com/whatwg/html/pull/5470,2020-04-20T14:07:15Z,2022-08-22T02:36:09Z,clelland,,0
-602258520,false,Add declarative Shadow DOM features,https://github.com/whatwg/html/pull/5465,2020-04-17T22:04:40Z,2023-01-20T12:24:42Z,mfreed7,needs implementer interest|topic: shadow|impacts documentation,8
+602258520,false,Add declarative Shadow DOM features,https://github.com/whatwg/html/pull/5465,2020-04-17T22:04:40Z,2023-01-23T23:36:31Z,mfreed7,needs implementer interest|topic: shadow|impacts documentation,8
 601071702,true,Change how minimum used value for line-height works,https://github.com/whatwg/html/pull/5462,2020-04-16T13:50:43Z,2022-02-11T00:04:30Z,zcorpan,,0
 599834801,true,Remove report long tasks from update the rendering,https://github.com/whatwg/html/pull/5459,2020-04-14T20:21:05Z,2020-04-15T20:03:05Z,npm1,integration,0
 599421153,true,Expand IME  to 'input method editor',https://github.com/whatwg/html/pull/5458,2020-04-14T09:18:47Z,2020-04-14T15:00:36Z,36degrees,clarification,0
