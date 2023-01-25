@@ -476,6 +476,12 @@ api/CSS/deg,,,,66,,,,true,true,false,https://drafts.css-houdini.org/css-typed-om
 api/CSS/dpcm,,,,66,,,,true,true,false,https://drafts.css-houdini.org/css-typed-om/#dom-css-dpcm,W3C
 api/CSS/dpi,,,,66,,,,true,true,false,https://drafts.css-houdini.org/css-typed-om/#dom-css-dpi,W3C
 api/CSS/dppx,,,,66,,,,true,true,false,https://drafts.css-houdini.org/css-typed-om/#dom-css-dppx,W3C
+api/CSS/dvb,,,,108,,,,true,true,false,https://drafts.css-houdini.org/css-typed-om-1/#dom-css-dvb,W3C
+api/CSS/dvh,,,,108,,,,true,true,false,https://drafts.css-houdini.org/css-typed-om-1/#dom-css-dvh,W3C
+api/CSS/dvi,,,,108,,,,true,true,false,https://drafts.css-houdini.org/css-typed-om-1/#dom-css-dvi,W3C
+api/CSS/dvmax,,,,108,,,,true,true,false,https://drafts.css-houdini.org/css-typed-om-1/#dom-css-dvmax,W3C
+api/CSS/dvmin,,,,108,,,,true,true,false,https://drafts.css-houdini.org/css-typed-om-1/#dom-css-dvmin,W3C
+api/CSS/dvw,,,,108,,,,true,true,false,https://drafts.css-houdini.org/css-typed-om-1/#dom-css-dvw,W3C
 api/CSS/em,,,,66,,,,true,true,false,https://drafts.css-houdini.org/css-typed-om/#dom-css-em,W3C
 api/CSS/escape,,31,,46,,10.1,,false,true,false,https://w3c.github.io/csswg-drafts/cssom/#the-css.escape()-method,W3C
 api/CSS/ex,,,,66,,,,true,true,false,https://drafts.css-houdini.org/css-typed-om/#dom-css-ex,W3C
@@ -484,6 +490,12 @@ api/CSS/grad,,,,66,,,,true,true,false,https://drafts.css-houdini.org/css-typed-o
 api/CSS/highlights,,,,105,,,,true,true,false,https://w3c.github.io/csswg-drafts/css-highlight-api-1/#dom-css-highlights,W3C
 api/CSS/in,,,,66,,,,true,true,false,https://drafts.css-houdini.org/css-typed-om/#dom-css-in,W3C
 api/CSS/kHz,,,,66,,,,true,true,false,https://drafts.css-houdini.org/css-typed-om/#dom-css-khz,W3C
+api/CSS/lvb,,,,108,,,,true,true,false,https://drafts.css-houdini.org/css-typed-om-1/#dom-css-lvb,W3C
+api/CSS/lvh,,,,108,,,,true,true,false,https://drafts.css-houdini.org/css-typed-om-1/#dom-css-lvh,W3C
+api/CSS/lvi,,,,108,,,,true,true,false,https://drafts.css-houdini.org/css-typed-om-1/#dom-css-lvi,W3C
+api/CSS/lvmax,,,,108,,,,true,true,false,https://drafts.css-houdini.org/css-typed-om-1/#dom-css-lvmax,W3C
+api/CSS/lvmin,,,,108,,,,true,true,false,https://drafts.css-houdini.org/css-typed-om-1/#dom-css-lvmin,W3C
+api/CSS/lvw,,,,108,,,,true,true,false,https://drafts.css-houdini.org/css-typed-om-1/#dom-css-lvw,W3C
 api/CSS/mm,,,,66,,,,true,true,false,https://drafts.css-houdini.org/css-typed-om/#dom-css-mm,W3C
 api/CSS/ms,,,,66,,,,true,true,false,https://drafts.css-houdini.org/css-typed-om/#dom-css-ms,W3C
 api/CSS/number,,,,66,,,,true,true,false,https://drafts.css-houdini.org/css-typed-om/#dom-css-number,W3C
@@ -4567,7 +4579,7 @@ api/Permissions/permission_gyroscope,,,,51,,,,true,true,false,,NONE
 api/Permissions/permission_local-fonts,,,,103,,,,true,true,false,,NONE
 api/Permissions/permission_magnetometer,,,,62,,,,true,true,false,,NONE
 api/Permissions/permission_microphone,,,,64,,16,,false,true,false,,NONE
-api/Permissions/permission_midi,,,,43,,,,true,true,false,,NONE
+api/Permissions/permission_midi,,110,,43,,,,false,true,false,https://webaudio.github.io/web-midi-api/#permissions-integration,W3C
 api/Permissions/permission_notifications,,46,,43,,,,false,true,false,,NONE
 api/Permissions/permission_payment-handler,,,,66,,,,true,true,false,,NONE
 api/Permissions/permission_persistent-storage,,53,,71,,,,false,true,false,,NONE
@@ -6225,7 +6237,7 @@ api/StorageEvent/url,,13,,6,,5,,false,true,false,https://html.spec.whatwg.org/mu
 api/StorageManager,,57,,55,,15.2,,false,true,false,https://storage.spec.whatwg.org/#storagemanager,WHATWG
 api/StorageManager/estimate,,57,,61,,,,false,true,false,https://storage.spec.whatwg.org/#ref-for-dom-storagemanager-estimate,WHATWG
 api/StorageManager/estimate/usageDetails,,,,61,,,,false,false,false,,NONE
-api/StorageManager/getDirectory,,,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#dom-storagemanager-getdirectory,WHATWG
+api/StorageManager/getDirectory,,preview,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#dom-storagemanager-getdirectory,WHATWG
 api/StorageManager/persist,,57,,55,,15.2,,false,true,false,https://storage.spec.whatwg.org/#ref-for-dom-storagemanager-persist,WHATWG
 api/StorageManager/persisted,,57,,55,,15.2,,false,true,false,https://storage.spec.whatwg.org/#dom-storagemanager-persisted,WHATWG
 api/StyleMedia,,,,6,,5,,false,false,true,,NONE
@@ -6797,7 +6809,7 @@ api/WEBGL_compressed_texture_astc,,53,,47,,16.2,,false,true,false,https://regist
 api/WEBGL_compressed_texture_astc/getSupportedProfiles,,53,,47,,16.2,,false,true,false,https://registry.khronos.org/webgl/extensions/WEBGL_compressed_texture_astc/,UNKNOWN
 api/WEBGL_compressed_texture_etc,,51,,63,,16.2,,false,true,false,https://registry.khronos.org/webgl/extensions/WEBGL_compressed_texture_etc/,UNKNOWN
 api/WEBGL_compressed_texture_etc1,,30,,49,,,,false,true,false,https://registry.khronos.org/webgl/extensions/WEBGL_compressed_texture_etc1/,UNKNOWN
-api/WEBGL_compressed_texture_pvrtc,,,,,,,,false,true,false,https://registry.khronos.org/webgl/extensions/WEBGL_compressed_texture_pvrtc/,UNKNOWN
+api/WEBGL_compressed_texture_pvrtc,,,,,,15.4,,false,true,false,https://registry.khronos.org/webgl/extensions/WEBGL_compressed_texture_pvrtc/,UNKNOWN
 api/WEBGL_compressed_texture_s3tc,,22,,26,,8,,false,true,false,https://registry.khronos.org/webgl/extensions/WEBGL_compressed_texture_s3tc/,UNKNOWN
 api/WEBGL_compressed_texture_s3tc_srgb,,55,,60,,,,false,true,false,https://registry.khronos.org/webgl/extensions/WEBGL_compressed_texture_s3tc_srgb/,UNKNOWN
 api/WEBGL_debug_renderer_info,,53,,33,,9.1,,false,true,false,https://registry.khronos.org/webgl/extensions/WEBGL_debug_renderer_info/,UNKNOWN
@@ -8084,7 +8096,7 @@ css/at-rules/media/prefers-contrast,,101,,96,,14.1,,false,true,false,https://w3c
 css/at-rules/media/prefers-reduced-data,,,,85,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,https://w3c.github.io/csswg-drafts/mediaqueries-5/#prefers-reduced-data,W3C
 css/at-rules/media/prefers-reduced-motion,,63,,74,,10.1,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries-5/#prefers-reduced-motion,W3C
 css/at-rules/media/range_syntax,,63,,104,,,,false,true,false,,NONE
-css/at-rules/media/resolution,,8,,29,,,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries/#resolution,W3C
+css/at-rules/media/resolution,,8,,29,,16,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries/#resolution,W3C
 css/at-rules/media/scripting,,,,,,,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries-5/#scripting,W3C
 css/at-rules/media/update,,102,,,,,,true,true,false,https://w3c.github.io/csswg-drafts/mediaqueries/#update,W3C
 css/at-rules/media/video-dynamic-range,,100,,,,,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries-5/#video-dynamic-range,W3C
@@ -8214,7 +8226,7 @@ css/properties/background-image,,1,,1,,1,,false,true,false,https://w3c.github.io
 css/properties/background-image/element,,4,,,,,,true,true,false,https://w3c.github.io/csswg-drafts/css-images-4/#element-notation,W3C
 css/properties/background-image/gradients,,3.6,,1,,4,,false,true,false,https://w3c.github.io/csswg-drafts/css-images-4/#gradients,W3C
 css/properties/background-image/image-rect,,4,,,,,,true,false,false,,NONE
-css/properties/background-image/image-set,,,,21,,preview,,false,true,false,https://w3c.github.io/csswg-drafts/css-images-4/#image-set-notation,W3C
+css/properties/background-image/image-set,,88,,21,,preview,,false,true,false,https://w3c.github.io/csswg-drafts/css-images-4/#image-set-notation,W3C
 css/properties/background-image/multiple_backgrounds,,3.6,,1,,1.3,,false,true,false,,NONE
 css/properties/background-image/svg_images,,4,,8,,5,,false,true,false,,NONE
 css/properties/background-origin,,4,,1,,3,,false,true,false,https://w3c.github.io/csswg-drafts/css-backgrounds/#the-background-origin,W3C
@@ -9029,7 +9041,7 @@ css/properties/text-combine-upright/digits,,,,,,,,false,true,false,,NONE
 css/properties/text-decoration,,1,,1,,1,,false,true,false,https://w3c.github.io/csswg-drafts/css-text-decor/#text-decoration-property,W3C
 css/properties/text-decoration/blink,,1,,,,preview,,false,true,true,,NONE
 css/properties/text-decoration/shorthand,,6,,57,,8,,false,true,false,,NONE
-css/properties/text-decoration/text-decoration-thickness,,70,,87,,,,false,false,false,,NONE
+css/properties/text-decoration/text-decoration-thickness,,70,,87,,,,false,true,false,,NONE
 css/properties/text-decoration-color,,36,,57,,12.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-text-decor/#text-decoration-color-property,W3C
 css/properties/text-decoration-line,,36,,57,,12.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-text-decor/#text-decoration-line-property,W3C
 css/properties/text-decoration-line/blink,,26,,57,,8,,false,true,true,,NONE
@@ -9302,8 +9314,8 @@ css/selectors/type,,1,,1,,1,,false,true,false,https://w3c.github.io/csswg-drafts
 css/selectors/type/namespaces,,1,,1,,1.3,,false,true,false,,NONE
 css/selectors/universal,,1,,1,,1,,false,true,false,https://w3c.github.io/csswg-drafts/selectors/#the-universal-selector,W3C
 css/selectors/universal/namespaces,,1,,1,,1.3,,false,true,false,,NONE
-css/selectors/user-invalid,,88,,,,,,true,true,false,https://w3c.github.io/csswg-drafts/selectors/#user-invalid-pseudo,W3C
-css/selectors/user-valid,,88,,,,,,true,true,false,https://w3c.github.io/csswg-drafts/selectors/#user-valid-pseudo,W3C
+css/selectors/user-invalid,,88,,,,preview,,true,true,false,https://w3c.github.io/csswg-drafts/selectors/#user-invalid-pseudo,W3C
+css/selectors/user-valid,,88,,,,preview,,true,true,false,https://w3c.github.io/csswg-drafts/selectors/#user-valid-pseudo,W3C
 css/selectors/valid,,4,,10,,5,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-valid,WHATWG
 css/selectors/valid/form,,13,,40,,9,,false,true,false,,NONE
 css/selectors/visited,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-visited,WHATWG
@@ -9422,7 +9434,7 @@ css/types/image/element,,57,,,,,,true,true,false,https://w3c.github.io/csswg-dra
 css/types/image/gradient,,3.6,,26,,7,,false,true,false,https://w3c.github.io/csswg-drafts/css-images-4/#gradients,W3C
 css/types/image/gradient/conic-gradient,,83,,69,,12.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-images-4/#conic-gradients,W3C
 css/types/image/gradient/conic-gradient/doubleposition,,83,,72,,12.1,,false,true,false,,NONE
-css/types/image/gradient/linear-gradient,,16,,26,,7,,false,true,false,https://w3c.github.io/csswg-drafts/css-images/#linear-gradients,W3C
+css/types/image/gradient/linear-gradient,,16,,26,,7,,false,true,false,https://w3c.github.io/csswg-drafts/css-images-4/#linear-gradients,W3C
 css/types/image/gradient/linear-gradient/doubleposition,,64,,71,,12.1,,false,true,false,,NONE
 css/types/image/gradient/linear-gradient/interpolation_hints,,36,,40,,7,,false,true,false,,NONE
 css/types/image/gradient/linear-gradient/to,,10,,26,,7,,false,true,false,,NONE
@@ -9453,9 +9465,9 @@ css/types/length/ch,,1,,27,,7,,false,true,false,,NONE
 css/types/length/container_query_length_units,,preview,"[{""name"":""layout.css.container-queries.enabled"",""type"":""preference"",""value_to_set"":""true""}]",105,,16,,false,true,false,,NONE
 css/types/length/ex,,1,,1,,1,,false,true,false,,NONE
 css/types/length/ic,,97,,106,,15.4,,false,true,false,,NONE
-css/types/length/lh,,,,109,,,,true,false,false,,NONE
+css/types/length/lh,,,,109,,,,true,true,false,https://www.w3.org/TR/css-values-4/#lh,W3C
 css/types/length/rem,,3.6,,4,,5,,false,true,false,,NONE
-css/types/length/rlh,,,,,,,,true,false,false,,NONE
+css/types/length/rlh,,,,,,,,true,true,false,https://www.w3.org/TR/css-values-4/#rlh,W3C
 css/types/length/vb,,101,,108,,15.4,,false,true,false,,NONE
 css/types/length/vh,,19,,20,,6,,false,true,false,,NONE
 css/types/length/vi,,101,,108,,15.4,,false,true,false,,NONE
@@ -11476,7 +11488,6 @@ javascript/operators/less_than_or_equal,,1,,1,,1,,false,true,false,https://tc39.
 javascript/operators/logical_and,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression,TC39
 javascript/operators/logical_and_assignment,,79,,85,,14,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators,TC39
 javascript/operators/logical_not,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator,TC39
-javascript/operators/logical_nullish_assignment,,79,,85,,14,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators,TC39
 javascript/operators/logical_or,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression,TC39
 javascript/operators/logical_or_assignment,,79,,85,,14,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators,TC39
 javascript/operators/multiplication,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators,TC39
@@ -11485,6 +11496,7 @@ javascript/operators/new,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/mult
 javascript/operators/new_target,,41,,46,,11,,false,true,false,https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects,TC39
 javascript/operators/null,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/overview.html#sec-null-value,TC39
 javascript/operators/nullish_coalescing,,72,,80,,13.1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression,TC39
+javascript/operators/nullish_coalescing_assignment,,79,,85,,14,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators,TC39
 javascript/operators/object_initializer,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer,TC39
 javascript/operators/object_initializer/computed_property_names,,34,,47,,8,,false,true,false,,NONE
 javascript/operators/object_initializer/shorthand_method_names,,34,,47,,9,,false,true,false,,NONE

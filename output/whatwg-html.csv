@@ -13,7 +13,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1535763785,false,"Refactoring ""determine navigation params policy container"" and ""determine the origin""",https://github.com/whatwg/html/issues/8739,2023-01-17T04:34:12Z,2023-01-17T05:17:20Z,domenic,clarification|topic: navigation|topic: policy container,0
 1535692009,true,Image Srcset: what happens when some image candidate strings do not have width descriptor?,https://github.com/whatwg/html/issues/8738,2023-01-17T02:30:04Z,2023-01-17T03:24:41Z,tlylt,,0
 1532559382,true,Should the spec clarify that character encoding declarations are not actually required?,https://github.com/whatwg/html/issues/8728,2023-01-13T16:10:35Z,2023-01-16T15:55:25Z,gnpivo,i18n-tracker,1
-1532347280,true,"`<meta charset=""utf-8"">` missing from intro example",https://github.com/whatwg/html/issues/8726,2023-01-13T14:00:01Z,2023-01-16T15:56:12Z,gnpivo,i18n-tracker,0
+1532347280,true,"`<meta charset=""utf-8"">` missing from intro example",https://github.com/whatwg/html/issues/8726,2023-01-13T14:00:01Z,2023-01-24T18:11:21Z,gnpivo,i18n-tracker,0
 1531967499,true,document state's history policy container does not seem to be correctly updated,https://github.com/whatwg/html/issues/8725,2023-01-13T09:20:41Z,2023-01-24T04:21:55Z,antosart,,0
 1531618760,true,Seeking clarity regarding potential mis-implemented behaviour in Chromium,https://github.com/whatwg/html/issues/8724,2023-01-13T02:30:03Z,2023-01-18T04:34:50Z,texonidas,,0
 1531498858,false,Upcoming HTML standard issue triage meeting on 1/26/2023,https://github.com/whatwg/html/issues/8723,2023-01-12T23:52:38Z,2023-01-23T15:36:38Z,past,agenda+,0
@@ -43,7 +43,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1503937198,false,A means to conceptually identify if an application is installed,https://github.com/whatwg/html/issues/8635,2022-12-20T03:40:46Z,2022-12-23T01:27:01Z,marcoscaceres,,0
 1503391962,false,favicon description,https://github.com/whatwg/html/issues/8632,2022-12-19T18:33:54Z,2022-12-26T19:34:51Z,hacknorris-aka-penguin,,0
 1499888644,false,setHTML() and declarative shadow roots,https://github.com/whatwg/html/issues/8627,2022-12-16T09:40:36Z,2023-01-19T07:54:29Z,annevk,topic: shadow|security/privacy,0
-1498798099,false,Should open `dialog` elements match `:open`?,https://github.com/whatwg/html/issues/8625,2022-12-15T17:09:54Z,2022-12-16T03:01:56Z,josepharhar,topic: dialog|topic: selectors,1
+1498798099,false,Should open `dialog` elements match `:open`?,https://github.com/whatwg/html/issues/8625,2022-12-15T17:09:54Z,2022-12-16T03:01:56Z,josepharhar,topic: dialog|topic: selectors,2
 1496562372,false,Session history entries list is assumed to be unlimited in size,https://github.com/whatwg/html/issues/8620,2022-12-14T12:46:37Z,2023-01-23T13:13:11Z,petervanderbeken,topic: history|agenda+,0
 1496561208,true,https://html.spec.whatwg.org/#getting-the-history-object-length-and-index refers to undefined variable,https://github.com/whatwg/html/issues/8619,2022-12-14T12:45:47Z,2022-12-17T10:20:37Z,smaug----,,0
 1496383804,false,"Overuse of the word ""step"" makes reading history navigation hard",https://github.com/whatwg/html/issues/8617,2022-12-14T11:16:08Z,2022-12-15T12:30:22Z,smaug----,,0
@@ -2296,7 +2296,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
 305492784,false,EventSource.readyState should be CLOSED if created after a self.close() in a Web Worker,https://github.com/whatwg/html/issues/3573,2018-03-15T10:26:52Z,2018-03-15T11:02:30Z,bakulf,topic: eventsource,0
 305486191,true,When will 'probablySupportsContext' be supported?,https://github.com/whatwg/html/issues/3572,2018-03-15T10:07:17Z,2018-07-08T13:48:40Z,bluzi,,0
-305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2023-01-24T10:17:49Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,19
+305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2023-01-24T10:17:49Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,20
 305369552,true,Proposal: Improve control over HTML/XML syntax parse errors,https://github.com/whatwg/html/issues/3569,2018-03-14T23:56:33Z,2022-04-18T15:28:51Z,dvdckl,addition/proposal|needs implementer interest|topic: parser,0
 305147441,true,"<form method> description only says ""HTTP method""",https://github.com/whatwg/html/issues/3568,2018-03-14T12:58:10Z,2018-04-20T07:53:27Z,annevk,good first issue,0
 305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2022-12-31T17:42:19Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,58
