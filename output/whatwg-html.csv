@@ -1,11 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1557373653,true,The `commit` method on various canvas contexts does not exist,https://github.com/whatwg/html/issues/8777,2023-01-25T22:48:52Z,2023-01-25T23:28:49Z,greggman,,0
+1557070169,false,<meta> http-equiv vs name: which one wins?,https://github.com/whatwg/html/issues/8776,2023-01-25T18:04:27Z,2023-01-25T18:04:27Z,annevk,clarification,0
 1553901385,true,Proposal: Add an `isolatehistory` attribute to iframes,https://github.com/whatwg/html/issues/8773,2023-01-23T22:02:53Z,2023-01-24T05:23:17Z,brandonmcconnell,,0
 1553531654,true,CSS selectors cannot reliably identify cells on the edge of their containing table if any cells in the table use the rowSpan attribute,https://github.com/whatwg/html/issues/8772,2023-01-23T18:05:52Z,2023-01-24T00:43:09Z,DavidJCobb,,0
 1552934460,false,Ability to style default summary in <details>,https://github.com/whatwg/html/issues/8770,2023-01-23T11:28:14Z,2023-01-23T11:28:14Z,jakearchibald,,0
 1552047625,false,"Clarify: CSS import assertions use ""script"" as the destination, is that intended?",https://github.com/whatwg/html/issues/8764,2023-01-22T08:56:49Z,2023-01-22T08:57:06Z,noamr,,0
 1550462824,true,MediaError not acccessible for a video element if using it with source elements,https://github.com/whatwg/html/issues/8757,2023-01-20T08:15:13Z,2023-01-23T20:05:48Z,callumgare,,0
-1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-01-23T21:34:02Z,mfreed7,addition/proposal|topic: shadow,0
-1550024105,false,Native support for indents,https://github.com/whatwg/html/issues/8751,2023-01-19T22:11:32Z,2023-01-20T11:31:03Z,EgonBolton,,0
+1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-01-25T23:57:41Z,mfreed7,addition/proposal|topic: shadow,0
+1550024105,false,Native support for indents,https://github.com/whatwg/html/issues/8751,2023-01-19T22:11:32Z,2023-01-25T23:06:02Z,EgonBolton,,0
 1548957116,true,[css-view-transitions-1] Interaction with Safari's back/forward previews,https://github.com/whatwg/html/issues/8749,2023-01-19T11:14:58Z,2023-01-19T11:21:46Z,jakearchibald,,0
 1537525438,true,Meta: should dfns in headings be viewed as exported definitions?,https://github.com/whatwg/html/issues/8743,2023-01-18T07:30:06Z,2023-01-20T19:24:39Z,tidoust,,0
 1537442281,false,Add support for rel=stylesheet in Link headers,https://github.com/whatwg/html/issues/8741,2023-01-18T05:55:47Z,2023-01-18T05:55:47Z,domenic,addition/proposal|needs implementer interest|topic: link|topic: style,0
@@ -16,7 +18,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1532347280,true,"`<meta charset=""utf-8"">` missing from intro example",https://github.com/whatwg/html/issues/8726,2023-01-13T14:00:01Z,2023-01-24T18:11:21Z,gnpivo,i18n-tracker,0
 1531967499,true,document state's history policy container does not seem to be correctly updated,https://github.com/whatwg/html/issues/8725,2023-01-13T09:20:41Z,2023-01-24T04:21:55Z,antosart,,0
 1531618760,true,Seeking clarity regarding potential mis-implemented behaviour in Chromium,https://github.com/whatwg/html/issues/8724,2023-01-13T02:30:03Z,2023-01-18T04:34:50Z,texonidas,,0
-1531498858,false,Upcoming HTML standard issue triage meeting on 1/26/2023,https://github.com/whatwg/html/issues/8723,2023-01-12T23:52:38Z,2023-01-23T15:36:38Z,past,agenda+,0
+1531498858,false,Upcoming HTML standard issue triage meeting on 1/26/2023,https://github.com/whatwg/html/issues/8723,2023-01-12T23:52:38Z,2023-01-25T18:10:05Z,past,agenda+,0
 1530834734,false,Additional accessibility guidance for popover,https://github.com/whatwg/html/issues/8714,2023-01-12T14:42:51Z,2023-01-12T18:21:33Z,scottaohara,,0
 1530043744,true,"""Nested navigable"" and ""child navigable"" are easy to confuse",https://github.com/whatwg/html/issues/8713,2023-01-12T03:40:54Z,2023-01-19T04:29:10Z,domenic,clarification|topic: browsing context,0
 1528456422,false,Is HTMLImgElement.decode() a cross-origin info channel?,https://github.com/whatwg/html/issues/8709,2023-01-11T05:29:17Z,2023-01-11T11:12:18Z,noamr,,1
@@ -2420,7 +2422,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 288116711,false,createImageBitmap with OffscreenCanvas argument,https://github.com/whatwg/html/issues/3342,2018-01-12T13:19:51Z,2018-01-26T09:33:11Z,Ms2ger,topic: canvas,2
 288061761,false,"""The image argument is not origin-clean"" check allows tainted ImageBitmaps",https://github.com/whatwg/html/issues/3341,2018-01-12T09:47:23Z,2018-01-12T15:23:06Z,Ms2ger,topic: canvas|security/privacy,0
 287881721,true,"""object getStartDate()"" should be ""Date getStartDate()""",https://github.com/whatwg/html/issues/3340,2018-01-11T18:35:28Z,2018-01-11T18:48:57Z,mmotorny,,0
-287518824,false,Proposal: Storage Access API,https://github.com/whatwg/html/issues/3338,2018-01-10T17:37:57Z,2022-08-17T04:47:19Z,johnwilander,addition/proposal|security/privacy|interop|topic: cookie|topic: storage|needs concrete proposal|impacts documentation,28
+287518824,false,Proposal: Storage Access API,https://github.com/whatwg/html/issues/3338,2018-01-10T17:37:57Z,2022-08-17T04:47:19Z,johnwilander,addition/proposal|security/privacy|interop|topic: cookie|topic: storage|needs concrete proposal|impacts documentation,29
 287303589,false,[PROPOSAL] Private Key Authorization System Built in Browser,https://github.com/whatwg/html/issues/3337,2018-01-10T03:22:43Z,2018-01-22T12:57:53Z,xialvjun,addition/proposal,0
 287180467,true,"""Content attributes"" descriptions are weird for fieldsets",https://github.com/whatwg/html/issues/3335,2018-01-09T18:08:48Z,2018-08-17T14:11:53Z,bzbarsky,clarification|good first issue|topic: forms|topic: fieldset,0
 287119130,false,"""at the media resource's intrinsic width and int...""",https://github.com/whatwg/html/issues/3334,2018-01-09T15:03:28Z,2018-01-10T10:10:19Z,Ms2ger,topic: canvas,1
