@@ -1,8 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1560044054,false,Meu site,https://github.com/whatwg/html/issues/8790,2023-01-27T16:25:05Z,2023-01-27T16:29:01Z,Guilimagae,,1
+1560613642,false,Web IDL validation errors,https://github.com/whatwg/html/issues/8792,2023-01-28T01:03:11Z,2023-01-28T01:03:11Z,autokagami,,0
 1559343854,false,HTML cross-document encoding inheritance with bogus Content-Type charset,https://github.com/whatwg/html/issues/8789,2023-01-27T08:12:21Z,2023-01-27T08:12:38Z,annevk,topic: parser|interop,0
 1558881148,false,Upcoming HTML standard issue triage meeting on 2/9/2023,https://github.com/whatwg/html/issues/8786,2023-01-26T22:33:48Z,2023-01-26T22:33:48Z,past,agenda+,0
-1558865836,false,"An un-activated Image Button submitter should add `(0, 0)` entries to the form data set",https://github.com/whatwg/html/issues/8785,2023-01-26T22:18:29Z,2023-01-27T01:18:34Z,jenseng,,0
+1558865836,true,"An un-activated Image Button submitter should add `(0, 0)` entries to the form data set",https://github.com/whatwg/html/issues/8785,2023-01-26T22:18:29Z,2023-01-28T15:38:26Z,jenseng,,0
 1558491226,false,Expose an API to get the top layer element,https://github.com/whatwg/html/issues/8783,2023-01-26T17:16:05Z,2023-01-26T17:17:03Z,straker,,0
 1558379555,false,Tell developer when page transitions should be avoided - popStateEvent.skipTransition,https://github.com/whatwg/html/issues/8782,2023-01-26T16:01:43Z,2023-01-26T22:27:04Z,jakearchibald,,0
 1557491233,false,"Img ""sizes"": is fallback value optional (per MDN) or required (per current spec)?",https://github.com/whatwg/html/issues/8778,2023-01-26T01:15:47Z,2023-01-26T01:15:47Z,tmb-github,,0
@@ -109,7 +109,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1443932590,true,Accidental reverts by navigation and session history rewrite,https://github.com/whatwg/html/issues/8491,2022-11-10T13:42:14Z,2022-11-10T14:09:22Z,zcorpan,,0
 1443033901,false,Screen orientation change events as a special kind of user activation,https://github.com/whatwg/html/issues/8490,2022-11-10T00:57:56Z,2022-11-17T09:49:41Z,marcoscaceres,,0
 1442883956,false,Proposal: media time in accordance to playbackrate,https://github.com/whatwg/html/issues/8489,2022-11-09T22:55:02Z,2022-11-11T00:56:25Z,hemanth,addition/proposal|needs implementer interest|topic: media,0
-1438586396,false,"COOP inheritance for popups from cross-origin iframes. ",https://github.com/whatwg/html/issues/8481,2022-11-07T15:53:25Z,2023-01-27T15:56:33Z,hemeryar,topic: cross-origin-opener-policy,0
+1438586396,false,"COOP inheritance for popups from cross-origin iframes. ",https://github.com/whatwg/html/issues/8481,2022-11-07T15:53:25Z,2023-01-28T04:59:50Z,hemeryar,topic: cross-origin-opener-policy,0
 1437482012,false,Headers in quoted content,https://github.com/whatwg/html/issues/8478,2022-11-06T17:38:39Z,2022-11-06T17:38:39Z,RappyPhan,,0
 1436601363,false,HD link and visited colors,https://github.com/whatwg/html/issues/8477,2022-11-04T20:10:00Z,2022-11-05T00:36:21Z,argyleink,,2
 1436258256,false,Canvas2D layers with filter support,https://github.com/whatwg/html/issues/8476,2022-11-04T15:26:41Z,2023-01-21T08:22:50Z,graveljp,addition/proposal|needs implementer interest|topic: canvas,0
@@ -150,7 +150,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1401110973,false,Consider change to handling focus after dialog dismissal and removal of invoking element,https://github.com/whatwg/html/issues/8367,2022-10-07T12:38:21Z,2022-10-07T12:38:21Z,scottaohara,,2
 1400882160,true,Wrong sentence regarding heading structure,https://github.com/whatwg/html/issues/8366,2022-10-07T09:24:49Z,2022-12-07T16:48:02Z,JAWS-test,,0
 1400727625,false,`formDisabledCallback` should always fire when governing fieldset's disabled state changes,https://github.com/whatwg/html/issues/8365,2022-10-07T07:16:02Z,2022-10-12T22:47:59Z,bennypowers,topic: custom elements,1
-1400697596,false,Editorial: align with JavaScript spec conventions on records,https://github.com/whatwg/html/issues/8364,2022-10-07T06:44:11Z,2023-01-26T09:45:36Z,domenic,good first issue|integration,0
+1400697596,false,Editorial: align with JavaScript spec conventions on records,https://github.com/whatwg/html/issues/8364,2022-10-07T06:44:11Z,2023-01-28T07:45:27Z,domenic,good first issue|integration,0
 1400696912,false,Editorial: consider using Infra maps instead of JS-spec Records more often,https://github.com/whatwg/html/issues/8363,2022-10-07T06:43:25Z,2022-10-07T06:43:25Z,domenic,clarification|integration,0
 1400071766,false,Allow workers & shared workers to be created within a service worker,https://github.com/whatwg/html/issues/8362,2022-10-06T17:41:40Z,2023-01-17T19:24:23Z,ian97531,addition/proposal|needs implementer interest|topic: workers,2
 1399126032,false,How do shadow roots and slots interact with the content model?,https://github.com/whatwg/html/issues/8361,2022-10-06T08:47:59Z,2022-10-07T10:52:20Z,castholm,,0
@@ -1980,7 +1980,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 376467643,false,Lowercasing of element type selectors,https://github.com/whatwg/html/issues/4155,2018-11-01T16:27:44Z,2022-10-28T15:45:36Z,gsnedders,topic: rendering|topic: selectors,0
 376431780,false,"Input type datetime-local does not specify what step value ""any"" means",https://github.com/whatwg/html/issues/4154,2018-11-01T15:04:16Z,2018-11-01T15:32:18Z,a2sheppy,,0
 375895637,false,WebDriver extension for sequential focus navigation,https://github.com/whatwg/html/issues/4151,2018-10-31T10:32:01Z,2019-08-02T13:23:11Z,foolip,topic: focus,0
-375858348,false,Download API,https://github.com/whatwg/html/issues/4148,2018-10-31T08:56:39Z,2023-01-27T17:45:11Z,annevk,addition/proposal|needs implementer interest|topic: navigation,5
+375858348,false,Download API,https://github.com/whatwg/html/issues/4148,2018-10-31T08:56:39Z,2023-01-28T21:28:33Z,annevk,addition/proposal|needs implementer interest|topic: navigation,5
 375798306,false,Expose rendered legends to CSS selectors,https://github.com/whatwg/html/issues/4147,2018-10-31T04:53:57Z,2022-10-28T15:45:36Z,gibson042,topic: selectors,0
 375084398,false,Editorial: cleanup postMessage() invocation for dedicated workers,https://github.com/whatwg/html/issues/4140,2018-10-29T15:49:33Z,2022-10-08T13:55:56Z,annevk,good first issue,0
 374914986,true,""" void postMessage(any message, optional sequenc...""",https://github.com/whatwg/html/issues/4137,2018-10-29T08:59:12Z,2018-11-02T14:02:58Z,bakulf,,0
@@ -2775,7 +2775,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 232231572,true,Focus state is unspecified when user agent itself loses focus.,https://github.com/whatwg/html/issues/2716,2017-05-30T12:08:33Z,2020-12-11T22:35:19Z,tobie,topic: focus,2
 232185004,true,Does <hr> create a new block formatting context?,https://github.com/whatwg/html/issues/2715,2017-05-30T08:57:45Z,2017-06-02T07:18:11Z,zcorpan,compat|topic: rendering|interop,1
 231970358,true,Proposal: Add the option to define the scroll behavior of focus(),https://github.com/whatwg/html/issues/2712,2017-05-29T09:22:06Z,2017-05-30T22:07:26Z,jihyerish,,2
-231747000,false,"Need hook for when a browsing context gains or loses focus ",https://github.com/whatwg/html/issues/2711,2017-05-26T22:19:50Z,2021-05-23T15:51:08Z,tobie,topic: focus|integration,5
+231747000,false,"Need hook for when a browsing context gains or loses focus ",https://github.com/whatwg/html/issues/2711,2017-05-26T22:19:50Z,2021-05-23T15:51:08Z,tobie,topic: focus|integration,6
 231746300,true,Expose `history.index` in addition to `history.length`,https://github.com/whatwg/html/issues/2710,2017-05-26T22:15:11Z,2021-12-07T09:20:04Z,dvoytenko,addition/proposal|topic: history,0
 231212752,true,Form submission: Should check connected twice,https://github.com/whatwg/html/issues/2708,2017-05-25T01:06:01Z,2017-09-22T12:04:33Z,tkent-google,topic: navigation|topic: forms,0
 231138283,true,Incumbent algorithm gives inconsistent results for timer callbacks and event handlers; remove skip-when-determining-incumbent counter?,https://github.com/whatwg/html/issues/2706,2017-05-24T18:56:29Z,2017-06-28T22:55:17Z,dbates-wk,topic: multiple globals,0
