@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1561489906,false,Define eligibility for autofill,https://github.com/whatwg/html/pull/8801,2023-01-29T22:42:38Z,2023-01-29T22:44:27Z,schwering,,0
-1560561601,false,additional accessibility guidance for popover,https://github.com/whatwg/html/pull/8791,2023-01-27T23:33:03Z,2023-01-28T18:10:17Z,scottaohara,,1
+1560561601,false,additional accessibility guidance for popover,https://github.com/whatwg/html/pull/8791,2023-01-27T23:33:03Z,2023-01-30T21:18:41Z,scottaohara,,1
 1559305003,true,Correct <input type=image> form submission behavior,https://github.com/whatwg/html/pull/8788,2023-01-27T07:33:45Z,2023-01-28T15:43:28Z,annevk,,2
 1557919226,false,#8364isssue-solved,https://github.com/whatwg/html/pull/8781,2023-01-26T10:20:10Z,2023-01-27T15:49:01Z,YASHWANTHKESAGONI,,0
 1557846012,true,Make details styles match implementation.,https://github.com/whatwg/html/pull/8780,2023-01-26T09:33:01Z,2023-01-27T03:03:10Z,emilio,topic: style,1
@@ -71,7 +71,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1435689773,false,Added content to DOM clobbering note,https://github.com/whatwg/html/pull/8474,2022-11-04T07:51:14Z,2022-12-09T09:36:13Z,mohit-marathe,,0
 1435662324,true,Meta: use <p> for subheading instead of <h2>,https://github.com/whatwg/html/pull/8473,2022-11-04T07:18:58Z,2022-11-07T12:01:10Z,domenic,,0
 1435380302,true,Use correct properties for progress element,https://github.com/whatwg/html/pull/8471,2022-11-03T23:49:55Z,2022-11-21T17:27:13Z,dizhang168,,0
-1435209005,false,Add the Priority Hints changes to the html spec,https://github.com/whatwg/html/pull/8470,2022-11-03T20:16:05Z,2023-01-29T10:40:16Z,pmeenan,,0
+1435209005,false,Add the Priority Hints changes to the html spec,https://github.com/whatwg/html/pull/8470,2022-11-03T20:16:05Z,2023-01-30T15:15:27Z,pmeenan,,0
 1434547038,true,Export rendering opportunity,https://github.com/whatwg/html/pull/8468,2022-11-03T12:02:44Z,2022-11-04T01:16:10Z,jakearchibald,,0
 1433914646,false,Add custom state pseudo class,https://github.com/whatwg/html/pull/8467,2022-11-02T23:30:52Z,2023-01-13T10:48:27Z,josepharhar,,0
 1433818435,false,"Add ""user attention"" definition to top-level traversable.",https://github.com/whatwg/html/pull/8466,2022-11-02T21:38:28Z,2022-11-05T01:21:32Z,jan-ivar,,0
@@ -229,7 +229,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1232354134,false,[draft] add unload permissions-policy feature,https://github.com/whatwg/html/pull/7915,2022-05-11T09:56:36Z,2022-09-08T04:40:56Z,fergald,,0
 1230897276,false,Add IPFS and IPNS as safelisted schemes for registerProtocolHandler(),https://github.com/whatwg/html/pull/7911,2022-05-10T09:46:44Z,2022-08-22T02:36:08Z,javifernandez,,5
 1229967385,true,Match upstream ECMA-262 change,https://github.com/whatwg/html/pull/7909,2022-05-09T16:25:55Z,2022-05-10T00:37:25Z,mathiasbynens,topic: forms,0
-1229938684,false,Use `v` flag instead of `u` for `pattern` RegExps,https://github.com/whatwg/html/pull/7908,2022-05-09T16:01:15Z,2022-08-22T02:36:08Z,mathiasbynens,,0
+1229938684,false,Use `v` flag instead of `u` for `pattern` RegExps,https://github.com/whatwg/html/pull/7908,2022-05-09T16:01:15Z,2023-01-30T17:07:05Z,mathiasbynens,,0
 1229548516,true,Clarify that modal dialogs escape inertness of ancestors.,https://github.com/whatwg/html/pull/7905,2022-05-09T11:12:49Z,2022-05-18T18:04:24Z,emilio,clarification|topic: dialog,0
 1228863635,false,WIP: Subresource link header,https://github.com/whatwg/html/pull/7904,2022-05-08T11:30:17Z,2022-08-22T02:36:08Z,noamr,,0
 1227330877,true,Fix when a `script` element is implicitly potentially render-blocking,https://github.com/whatwg/html/pull/7894,2022-05-06T01:41:09Z,2022-05-16T21:06:09Z,xiaochengh,topic: rendering|topic: script,0
@@ -1091,7 +1091,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 603334448,true,Update worker global scope's owner set earlier,https://github.com/whatwg/html/pull/5472,2020-04-20T15:39:13Z,2020-04-28T14:50:35Z,domenic,topic: workers,0
 603319225,true,Align on what we call implementation-defined,https://github.com/whatwg/html/pull/5471,2020-04-20T15:17:56Z,2020-04-20T16:31:12Z,annevk,,0
 603266759,false,Integrate with Reporting API,https://github.com/whatwg/html/pull/5470,2020-04-20T14:07:15Z,2022-08-22T02:36:09Z,clelland,,0
-602258520,false,Add declarative Shadow DOM features,https://github.com/whatwg/html/pull/5465,2020-04-17T22:04:40Z,2023-01-27T18:57:03Z,mfreed7,needs implementer interest|topic: shadow|impacts documentation,8
+602258520,false,Add declarative Shadow DOM features,https://github.com/whatwg/html/pull/5465,2020-04-17T22:04:40Z,2023-01-30T16:04:34Z,mfreed7,needs implementer interest|topic: shadow|impacts documentation,8
 601071702,true,Change how minimum used value for line-height works,https://github.com/whatwg/html/pull/5462,2020-04-16T13:50:43Z,2022-02-11T00:04:30Z,zcorpan,,0
 599834801,true,Remove report long tasks from update the rendering,https://github.com/whatwg/html/pull/5459,2020-04-14T20:21:05Z,2020-04-15T20:03:05Z,npm1,integration,0
 599421153,true,Expand IME  to 'input method editor',https://github.com/whatwg/html/pull/5458,2020-04-14T09:18:47Z,2020-04-14T15:00:36Z,36degrees,clarification,0
