@@ -812,7 +812,7 @@ api/CanvasRenderingContext2D/direction,,101,,77,,9,,false,true,false,https://htm
 api/CanvasRenderingContext2D/drawFocusIfNeeded,,32,,37,,8,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-drawfocusifneeded-dev,WHATWG
 api/CanvasRenderingContext2D/drawFocusIfNeeded/path_parameter,,,,37,,8,,false,true,false,,NONE
 api/CanvasRenderingContext2D/drawImage,,1.5,,1,,2,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-drawimage-dev,WHATWG
-api/CanvasRenderingContext2D/drawImage/ImageBitmap_source_image,,42,,30,,,,false,true,false,,NONE
+api/CanvasRenderingContext2D/drawImage/ImageBitmap_source_image,,42,,30,,15,,false,true,false,,NONE
 api/CanvasRenderingContext2D/drawImage/SVGImageElement_source_image,,56,,59,,,,false,true,false,,NONE
 api/CanvasRenderingContext2D/ellipse,,48,,31,,9,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-ellipse-dev,WHATWG
 api/CanvasRenderingContext2D/fill,,1.5,,1,,2,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-fill-dev,WHATWG
@@ -2150,9 +2150,18 @@ api/GeolocationPositionError/code,,3.5,,5,,5,,false,true,false,https://w3c.githu
 api/GeolocationPositionError/message,,3.5,,5,,5,,false,true,false,https://w3c.github.io/geolocation-api/#message-attribute,W3C
 api/GeolocationPositionError/secure_context_required,,55,,47,,10,,false,true,false,,NONE
 api/GestureEvent,,,,,,9,,false,false,false,,NONE
+api/GestureEvent/altKey,,,,,,9,,false,false,false,,NONE
+api/GestureEvent/clientX,,,,,,9,,false,false,false,,NONE
+api/GestureEvent/clientY,,,,,,9,,false,false,false,,NONE
+api/GestureEvent/ctrlKey,,,,,,9,,false,false,false,,NONE
 api/GestureEvent/initGestureEvent,,,,,,9,,false,false,false,,NONE
+api/GestureEvent/metaKey,,,,,,9,,false,false,false,,NONE
 api/GestureEvent/rotation,,,,,,9,,false,false,false,,NONE
 api/GestureEvent/scale,,,,,,9,,false,false,false,,NONE
+api/GestureEvent/screenX,,,,,,9,,false,false,false,,NONE
+api/GestureEvent/screenY,,,,,,9,,false,false,false,,NONE
+api/GestureEvent/shiftKey,,,,,,9,,false,false,false,,NONE
+api/GestureEvent/target,,,,,,9,,false,false,false,,NONE
 api/GravitySensor,,,,91,,,,false,true,false,https://w3c.github.io/accelerometer/#gravitysensor-interface,W3C
 api/GravitySensor/GravitySensor,,,,91,,,,false,true,false,https://w3c.github.io/accelerometer/#dom-gravitysensor-gravitysensor,W3C
 api/Gyroscope,,,,67,,,,false,true,false,https://w3c.github.io/gyroscope/#gyroscope-interface,W3C
@@ -3944,6 +3953,7 @@ api/Navigator/deviceMemory,,,,63,,,,true,true,false,https://www.w3.org/TR/device
 api/Navigator/doNotTrack,,9,,23,,5.1,,false,true,true,https://www.w3.org/TR/tracking-dnt/#dom-navigator-donottrack,W3C
 api/Navigator/geolocation,,3.5,,5,,5,,false,true,false,https://w3c.github.io/geolocation-api/#dom-navigator-geolocation,W3C
 api/Navigator/geolocation/secure_context_required,,55,,47,,10,,false,true,false,,NONE
+api/Navigator/getAutoplayPolicy,,preview,,,,,,true,true,false,https://w3c.github.io/autoplay/#dom-navigator-getautoplaypolicy,W3C
 api/Navigator/getBattery,,43,,38,,,,false,true,false,https://w3c.github.io/battery/#dom-navigator-getbattery,W3C
 api/Navigator/getBattery/secure_context_required,,,,103,,,,true,true,false,,NONE
 api/Navigator/getGamepads,,29,,35,,10.1,,false,true,false,https://w3c.github.io/gamepad/#dom-navigator-getgamepads,W3C
@@ -5259,6 +5269,7 @@ api/SVGAltGlyphDefElement,,,,14,,6,,false,true,true,https://www.w3.org/TR/SVG11/
 api/SVGAltGlyphElement,,4,,1,,4,,false,true,true,https://www.w3.org/TR/SVG11/text.html#InterfaceSVGAltGlyphElement,W3C
 api/SVGAltGlyphElement/format,,20,,1,,4,,false,true,true,https://www.w3.org/TR/SVG11/text.html#__svg__SVGAltGlyphElement__format,W3C
 api/SVGAltGlyphElement/glyphRef,,20,,1,,4,,false,true,true,https://www.w3.org/TR/SVG11/text.html#__svg__SVGGlyphRefElement__glyphRef,W3C
+api/SVGAltGlyphElement/href,,20,,1,,4,,false,true,true,https://svgwg.org/svg2-draft/types.html#__svg__SVGURIReference__href,W3C
 api/SVGAltGlyphItemElement,,,,14,,6,,false,true,true,https://www.w3.org/TR/SVG11/text.html#InterfaceSVGAltGlyphItemElement,W3C
 api/SVGAngle,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/types.html#InterfaceSVGAngle,W3C
 api/SVGAngle/convertToSpecifiedUnits,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/types.html#__svg__SVGAngle__convertToSpecifiedUnits,W3C
@@ -5584,6 +5595,7 @@ api/SVGGlyphRefElement/dx,,,,14,,6,,false,true,true,,NONE
 api/SVGGlyphRefElement/dy,,,,14,,6,,false,true,true,,NONE
 api/SVGGlyphRefElement/format,,,,14,,6,,false,true,true,,NONE
 api/SVGGlyphRefElement/glyphRef,,,,14,,6,,false,true,true,,NONE
+api/SVGGlyphRefElement/href,,,,14,,6,,false,true,true,https://svgwg.org/svg2-draft/types.html#__svg__SVGURIReference__href,W3C
 api/SVGGlyphRefElement/x,,,,14,,6,,false,true,true,,NONE
 api/SVGGlyphRefElement/y,,,,14,,6,,false,true,true,,NONE
 api/SVGGradientElement,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/pservers.html#InterfaceSVGGradientElement,W3C
@@ -7399,6 +7411,7 @@ api/Window/getComputedStyle,,1,,1,,3,,false,true,false,https://w3c.github.io/css
 api/Window/getComputedStyle/pseudo_element_support,,3.5,,11,,5.1,,false,true,false,,NONE
 api/Window/getDefaultComputedStyle,,19,,,,,,false,false,false,,NONE
 api/Window/getDefaultComputedStyle/pseudo_element_support,,19,,,,,,false,false,false,,NONE
+api/Window/getDigitalGoodsService,,,,,,,,true,true,false,https://wicg.github.io/digital-goods/#getdigitalgoodsservice-method,W3CCG
 api/Window/getScreenDetails,,,,100,,,,true,true,false,https://w3c.github.io/window-placement/#api-window-getScreenDetails-method,W3C
 api/Window/getSelection,,1,,1,,1,,false,true,false,https://w3c.github.io/selection-api/#dom-window-getselection,W3C
 api/Window/hashchange_event,,3.6,,8,,5,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-hashchange,WHATWG
@@ -8264,6 +8277,7 @@ css/properties/background-repeat/multiple_backgrounds,,3.6,,1,,1.3,,false,true,f
 css/properties/background-repeat/round_space,,49,,30,,8,,false,true,false,,NONE
 css/properties/background-size,,4,,3,,5,,false,true,false,https://w3c.github.io/csswg-drafts/css-backgrounds/#the-background-size,W3C
 css/properties/background-size/contain_and_cover,,3.6,,3,,5,,false,true,false,,NONE
+css/properties/baseline-source,,,,111,,,,true,true,false,https://w3c.github.io/csswg-drafts/css-inline-3/#baseline-source,W3C
 css/properties/block-size,,41,,57,,12.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-logical/#dimension-properties,W3C
 css/properties/block-size/fit-content,,41,,57,,12.1,,false,true,false,,NONE
 css/properties/block-size/fit-content_function,,91,"[{""name"":""layout.css.fit-content-function.enabled"",""type"":""preference""}]",,,,,true,true,false,,NONE
