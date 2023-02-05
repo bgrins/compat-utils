@@ -190,7 +190,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1374926923,true,`lang` value of document of undetermined language,https://github.com/whatwg/html/issues/8288,2022-09-15T18:33:48Z,2022-09-15T20:02:53Z,myfonj,,0
 1374407488,true,[portal tag] proposal to enable portal of element / text,https://github.com/whatwg/html/issues/8287,2022-09-15T11:53:13Z,2022-10-06T23:33:02Z,yinonov,,0
 1370472787,false,Support scoping `autocomplete` suggestions to the sites domain,https://github.com/whatwg/html/issues/8284,2022-09-12T20:23:20Z,2022-09-12T20:24:54Z,MadLittleMods,,0
-1369863683,false,Incorporate scroll-to-text into HTML,https://github.com/whatwg/html/issues/8282,2022-09-12T12:55:42Z,2022-09-30T13:00:10Z,bokand,,2
+1369863683,false,Incorporate scroll-to-text into HTML,https://github.com/whatwg/html/issues/8282,2022-09-12T12:55:42Z,2022-09-30T13:00:10Z,bokand,,1
 1369321140,false,HTML table from CSV,https://github.com/whatwg/html/issues/8281,2022-09-12T05:55:00Z,2022-09-12T17:05:59Z,esdnm,,0
 1369257900,false,"For attributes which can contain a mix of languages, provide markup for language of parts",https://github.com/whatwg/html/issues/8280,2022-09-12T04:22:54Z,2022-09-21T15:20:31Z,ChasBelov,i18n-tracker,0
 1369238834,false,Support language of parts for portions of the title tag contents,https://github.com/whatwg/html/issues/8279,2022-09-12T03:56:34Z,2022-09-21T15:32:13Z,ChasBelov,,0
@@ -723,7 +723,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 941275378,true,"Let's rename HTML Standard, Developer's Edition",https://github.com/whatwg/html/issues/6844,2021-07-10T15:47:37Z,2021-07-19T19:38:01Z,ghost,dev edition,0
 941212231,true,Nu HTML Checker,https://github.com/whatwg/html/issues/6843,2021-07-10T09:24:53Z,2021-07-20T17:29:16Z,ghost,document conformance,0
 941211699,true,No documentation for web developers,https://github.com/whatwg/html/issues/6842,2021-07-10T09:21:33Z,2021-07-12T02:57:03Z,ghost,,0
-941121411,false,"[meta] Put IDs on all definitions, particularly those in headings",https://github.com/whatwg/html/issues/6840,2021-07-09T23:35:49Z,2021-07-12T21:59:19Z,tabatkins,spec tooling,0
+941121411,false,"[meta] Put IDs on all definitions, particularly those in headings",https://github.com/whatwg/html/issues/6840,2021-07-09T23:35:49Z,2023-02-04T16:37:22Z,tabatkins,spec tooling,0
 939943907,true,Newly created browsing contexts will almost always reject history.pushState/replaceState,https://github.com/whatwg/html/issues/6836,2021-07-08T14:52:38Z,2021-09-09T17:37:03Z,rakina,topic: history|interop,0
 939128352,false,Stuff never gets cleaned up for workers,https://github.com/whatwg/html/issues/6831,2021-07-07T17:56:31Z,2022-02-22T15:45:16Z,domenic,topic: workers|topic: websockets|topic: document lifecycle,0
 937535601,false,Label for content-editable elements?,https://github.com/whatwg/html/issues/6828,2021-07-06T05:36:32Z,2021-07-21T11:48:04Z,NagayamaToshiaki,addition/proposal|topic: forms|topic: editing,0
@@ -2326,7 +2326,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 303398627,true,document.open() doesn't set contentType (document's content type),https://github.com/whatwg/html/issues/3546,2018-03-08T08:42:48Z,2018-03-14T09:28:06Z,annevk,interop,0
 302986749,false,Should OffscreenCanvas use unsigned long long rather than unsigned long,https://github.com/whatwg/html/issues/3542,2018-03-07T07:05:04Z,2018-03-07T07:05:04Z,annevk,topic: canvas,0
 302969333,true,Types of `OffscreenCanvas.width` and `.height` needs to be annotated types,https://github.com/whatwg/html/issues/3540,2018-03-07T05:26:25Z,2018-08-30T08:35:59Z,peria,clarification|good first issue|topic: canvas,0
-302965109,false,Potentially standardize window.find(),https://github.com/whatwg/html/issues/3539,2018-03-07T04:58:43Z,2022-10-09T02:49:05Z,annevk,addition/proposal|i18n-tracker|interop,15
+302965109,false,Potentially standardize window.find(),https://github.com/whatwg/html/issues/3539,2018-03-07T04:58:43Z,2022-10-09T02:49:05Z,annevk,addition/proposal|i18n-tracker|interop,13
 302754441,true,addition/proposal <controlset/> or <formgroup/>,https://github.com/whatwg/html/issues/3537,2018-03-06T15:48:22Z,2018-03-07T01:57:38Z,inoas,,0
 302576085,true,Imperative shadow DOM distribution API,https://github.com/whatwg/html/issues/3534,2018-03-06T06:11:35Z,2021-04-14T17:46:30Z,domenic,addition/proposal|topic: shadow,4
 302443675,true,template.insertAdjacentHTML() not consider as a part of template.contant,https://github.com/whatwg/html/issues/3533,2018-03-05T20:09:54Z,2018-03-06T08:41:54Z,perymimon,,0
@@ -3518,7 +3518,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 154860832,true,Add Travis to this repo,https://github.com/whatwg/html/issues/1250,2016-05-14T15:54:56Z,2016-05-16T21:56:10Z,RReverser,spec tooling,0
 154860588,false,Clarify how CR character tokens can be produced,https://github.com/whatwg/html/issues/1249,2016-05-14T15:50:24Z,2016-05-14T17:52:22Z,RReverser,clarification,0
 154782160,true,owner,https://github.com/whatwg/html/issues/1247,2016-05-13T19:18:27Z,2016-05-13T19:19:55Z,flowocap,,0
-154682119,false,Machine-readable indicies data?,https://github.com/whatwg/html/issues/1246,2016-05-13T10:31:35Z,2016-05-16T11:06:33Z,RReverser,spec tooling,0
+154682119,false,Machine-readable indicies data?,https://github.com/whatwg/html/issues/1246,2016-05-13T10:31:35Z,2023-02-04T17:30:45Z,RReverser,spec tooling,0
 154574676,false,The DataTransfer API should be safer,https://github.com/whatwg/html/issues/1244,2016-05-12T20:32:46Z,2017-05-09T04:38:13Z,hallvors,security/privacy|topic: drag and drop,0
 154545183,true,What is the interaction between data URLs and workers (and some other data URL discussion),https://github.com/whatwg/html/issues/1243,2016-05-12T18:05:03Z,2016-10-10T17:30:06Z,bzbarsky,topic: fetch,0
 154479799,false,XML fragment parsing algorithm clarification,https://github.com/whatwg/html/issues/1241,2016-05-12T13:17:09Z,2016-05-12T22:23:05Z,ArkadiuszMichalski,clarification,0
@@ -3618,7 +3618,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 149193539,true,Explicitly set node document everytime when node is created.,https://github.com/whatwg/html/issues/1065,2016-04-18T15:57:22Z,2016-04-19T16:59:46Z,ArkadiuszMichalski,,0
 148793006,true,"Location, WorkerLocation, and HTMLHyperlinkUtils search setters need to sync with whatwg/url",https://github.com/whatwg/html/issues/1062,2016-04-15T23:38:29Z,2016-04-15T23:40:32Z,domenic,,0
 148710134,true,Frozen base URL definition is broken,https://github.com/whatwg/html/issues/1060,2016-04-15T16:41:33Z,2016-04-20T14:48:08Z,bzbarsky,compat,0
-148662675,false,Source formatting script,https://github.com/whatwg/html/issues/1059,2016-04-15T13:35:30Z,2016-06-01T09:53:14Z,annevk,spec tooling,0
+148662675,false,Source formatting script,https://github.com/whatwg/html/issues/1059,2016-04-15T13:35:30Z,2023-02-04T16:33:49Z,annevk,spec tooling,0
 148633371,true,[Tokenization] Question about the security comment in comment end state,https://github.com/whatwg/html/issues/1058,2016-04-15T11:19:28Z,2016-04-15T12:55:41Z,RReverser,clarification,0
 148607887,true,"""If image's media data has no intrinsic dimensio...""",https://github.com/whatwg/html/issues/1057,2016-04-15T09:27:00Z,2016-04-26T17:59:06Z,doomdavve,clarification|topic: canvas,0
 148602187,true,Why does the value of img.complete can thus change while a script is executing?,https://github.com/whatwg/html/issues/1055,2016-04-15T09:02:37Z,2019-10-15T12:10:04Z,EdgarChen,normative change|compat|topic: img|needs tests,0
@@ -3982,7 +3982,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 114557924,true,"""current URL"" should probably be changed to ""document's address""",https://github.com/whatwg/html/issues/306,2015-11-02T09:30:55Z,2015-12-23T23:47:22Z,jwatt,good first issue,0
 114257836,true,Broken links to https://mimesniff.spec.whatwg.org/#sniffed-mime-type,https://github.com/whatwg/html/issues/305,2015-10-30T12:09:21Z,2016-01-28T06:24:56Z,Ms2ger,,0
 114237893,true,"""the return value converted to a string value""",https://github.com/whatwg/html/issues/301,2015-10-30T10:05:51Z,2016-04-26T13:34:46Z,Ms2ger,good first issue,0
-114196353,false,Allow 2dcontexts to use deeper color buffers,https://github.com/whatwg/html/issues/299,2015-10-30T04:10:38Z,2018-11-09T18:27:35Z,grorg,addition/proposal|topic: canvas,3
+114196353,false,Allow 2dcontexts to use deeper color buffers,https://github.com/whatwg/html/issues/299,2015-10-30T04:10:38Z,2018-11-09T18:27:35Z,grorg,addition/proposal|topic: canvas,4
 114195153,false,2dcontext's transform() should also accept DOMMatrixInit,https://github.com/whatwg/html/issues/298,2015-10-30T03:55:32Z,2016-07-08T17:03:06Z,grorg,normative change|addition/proposal|needs implementer interest|topic: canvas,0
 114138010,true,What to do when WebSocket.send() recieves data that is always too large?,https://github.com/whatwg/html/issues/296,2015-10-29T20:24:28Z,2015-12-03T19:24:16Z,nikkisquared,good first issue,0
 114032834,true,Treat object URLs as local in the media element resource selection algorithm,https://github.com/whatwg/html/issues/295,2015-10-29T11:44:19Z,2016-06-09T09:41:52Z,foolip,topic: media,0
