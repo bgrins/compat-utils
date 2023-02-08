@@ -19,7 +19,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1552934460,false,Ability to style default summary in <details>,https://github.com/whatwg/html/issues/8770,2023-01-23T11:28:14Z,2023-01-27T05:30:09Z,jakearchibald,topic: rendering|topic: selectors,0
 1552047625,false,"Clarify: CSS import assertions use ""script"" as the destination, is that intended?",https://github.com/whatwg/html/issues/8764,2023-01-22T08:56:49Z,2023-01-22T08:57:06Z,noamr,,0
 1550462824,true,MediaError not acccessible for a video element if using it with source elements,https://github.com/whatwg/html/issues/8757,2023-01-20T08:15:13Z,2023-01-26T09:48:49Z,callumgare,,0
-1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-01-26T14:52:44Z,mfreed7,addition/proposal|topic: shadow,0
+1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-02-07T22:16:45Z,mfreed7,addition/proposal|topic: shadow|agenda+,0
 1550024105,false,Native support for indents,https://github.com/whatwg/html/issues/8751,2023-01-19T22:11:32Z,2023-01-25T23:06:02Z,EgonBolton,,0
 1548957116,true,[css-view-transitions-1] Interaction with Safari's back/forward previews,https://github.com/whatwg/html/issues/8749,2023-01-19T11:14:58Z,2023-01-19T11:21:46Z,jakearchibald,,0
 1537525438,true,Meta: should dfns in headings be viewed as exported definitions?,https://github.com/whatwg/html/issues/8743,2023-01-18T07:30:06Z,2023-01-20T19:24:39Z,tidoust,,0
@@ -724,7 +724,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 941275378,true,"Let's rename HTML Standard, Developer's Edition",https://github.com/whatwg/html/issues/6844,2021-07-10T15:47:37Z,2021-07-19T19:38:01Z,ghost,dev edition,0
 941212231,true,Nu HTML Checker,https://github.com/whatwg/html/issues/6843,2021-07-10T09:24:53Z,2021-07-20T17:29:16Z,ghost,document conformance,0
 941211699,true,No documentation for web developers,https://github.com/whatwg/html/issues/6842,2021-07-10T09:21:33Z,2021-07-12T02:57:03Z,ghost,,0
-941121411,false,"[meta] Put IDs on all definitions, particularly those in headings",https://github.com/whatwg/html/issues/6840,2021-07-09T23:35:49Z,2023-02-04T16:37:22Z,tabatkins,spec tooling,0
+941121411,true,"[meta] Put IDs on all definitions, particularly those in headings",https://github.com/whatwg/html/issues/6840,2021-07-09T23:35:49Z,2023-02-07T19:33:38Z,tabatkins,spec tooling,0
 939943907,true,Newly created browsing contexts will almost always reject history.pushState/replaceState,https://github.com/whatwg/html/issues/6836,2021-07-08T14:52:38Z,2021-09-09T17:37:03Z,rakina,topic: history|interop,0
 939128352,false,Stuff never gets cleaned up for workers,https://github.com/whatwg/html/issues/6831,2021-07-07T17:56:31Z,2022-02-22T15:45:16Z,domenic,topic: workers|topic: websockets|topic: document lifecycle,0
 937535601,false,Label for content-editable elements?,https://github.com/whatwg/html/issues/6828,2021-07-06T05:36:32Z,2021-07-21T11:48:04Z,NagayamaToshiaki,addition/proposal|topic: forms|topic: editing,0
@@ -1080,7 +1080,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 692077232,false,Expose XMP information to the browser (and potentially JavaScript),https://github.com/whatwg/html/issues/5890,2020-09-03T15:38:30Z,2021-10-03T07:33:04Z,lrosenthol,addition/proposal|needs implementer interest|topic: media|topic: img,3
 691678305,true,cross-origin-isolated permission tests,https://github.com/whatwg/html/issues/5888,2020-09-03T06:21:36Z,2020-09-24T01:13:42Z,annevk,needs tests|topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,0
 691162250,false,"Explicitly pass ""perform the fetch"" steps through dependent algorithms",https://github.com/whatwg/html/issues/5887,2020-09-02T16:18:34Z,2020-09-07T10:26:36Z,jugglinmike,clarification,0
-690480691,false,Event bubbling on disabled form elements,https://github.com/whatwg/html/issues/5886,2020-09-01T22:05:15Z,2023-02-02T14:57:12Z,josepharhar,topic: forms|topic: events|interop,0
+690480691,false,Event bubbling on disabled form elements,https://github.com/whatwg/html/issues/5886,2020-09-01T22:05:15Z,2023-02-07T23:49:16Z,josepharhar,topic: forms|topic: events|interop,0
 688861626,false,Back-forward cache meta-bug,https://github.com/whatwg/html/issues/5880,2020-08-31T02:58:40Z,2021-10-21T01:13:32Z,rakina,topic: history,0
 688860879,false,Back-forward cache: Specifying ineligibility?,https://github.com/whatwg/html/issues/5879,2020-08-31T02:55:55Z,2022-08-08T08:19:26Z,rakina,topic: history|interop,0
 688847041,true,Back-forward cache: Restoring focus,https://github.com/whatwg/html/issues/5878,2020-08-31T02:07:44Z,2021-12-08T02:31:47Z,rakina,topic: history|topic: focus,0
