@@ -970,9 +970,9 @@ api/ContentIndex/getAll,,,,,,,,true,true,false,https://wicg.github.io/content-in
 api/ContentIndexEvent,,,,,,,,true,true,false,https://wicg.github.io/content-index/spec/#content-index-event,W3CCG
 api/ContentIndexEvent/ContentIndexEvent,,,,,,,,true,true,false,https://wicg.github.io/content-index/spec/#content-index-event,W3CCG
 api/ContentIndexEvent/id,,,,,,,,true,true,false,https://wicg.github.io/content-index/spec/#dom-contentindexevent-id,W3CCG
-api/ContentVisibilityAutoStateChangedEvent,,,,108,,,,true,true,false,https://www.w3.org/TR/css-contain-2/#content-visibility-auto-state-changed,W3C
-api/ContentVisibilityAutoStateChangedEvent/ContentVisibilityAutoStateChangedEvent,,,,108,,,,true,true,false,https://www.w3.org/TR/css-contain-2/#dom-contentvisibilityautostatechangedevent-contentvisibilityautostatechangedevent,W3C
-api/ContentVisibilityAutoStateChangedEvent/skipped,,,,108,,,,true,true,false,https://www.w3.org/TR/css-contain-2/#dom-contentvisibilityautostatechangedevent-skipped,W3C
+api/ContentVisibilityAutoStateChangeEvent,,110,,108,,,,false,true,false,https://www.w3.org/TR/css-contain-2/#content-visibility-auto-state-changed,W3C
+api/ContentVisibilityAutoStateChangeEvent/ContentVisibilityAutoStateChangeEvent,,110,,108,,,,false,true,false,https://www.w3.org/TR/css-contain-2/#dom-contentvisibilityautostatechangedevent-contentvisibilityautostatechangedevent,W3C
+api/ContentVisibilityAutoStateChangeEvent/skipped,,110,,108,,,,false,true,false,https://www.w3.org/TR/css-contain-2/#dom-contentvisibilityautostatechangedevent-skipped,W3C
 api/ConvolverNode,,25,,14,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#ConvolverNode,W3C
 api/ConvolverNode/ConvolverNode,,53,,55,,14.1,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-convolvernode-constructor-convolvernode,W3C
 api/ConvolverNode/buffer,,25,,14,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-convolvernode-buffer,W3C
@@ -1605,7 +1605,7 @@ api/Element/compositionend_event,,9,,15,,5,,false,true,false,https://w3c.github.
 api/Element/compositionstart_event,,9,,15,,5,,false,true,false,https://w3c.github.io/uievents/#event-type-compositionstart,W3C
 api/Element/compositionupdate_event,,9,,18,,5,,false,true,false,https://w3c.github.io/uievents/#event-type-compositionupdate,W3C
 api/Element/computedStyleMap,,,,66,,,,true,true,false,https://drafts.css-houdini.org/css-typed-om/#dom-element-computedstylemap,W3C
-api/Element/contentvisibilityautostatechanged_event,,,,108,,,,true,true,false,https://www.w3.org/TR/css-contain-2/#content-visibility-auto-state-changed,W3C
+api/Element/contentvisibilityautostatechange_event,,110,,108,,,,false,true,false,https://www.w3.org/TR/css-contain-2/#content-visibility-auto-state-changed,W3C
 api/Element/contextmenu_event,,6,,1,,3,,false,true,false,https://w3c.github.io/uievents/#event-type-contextmenu,W3C
 api/Element/copy_event,,22,,1,,3,,false,true,false,https://w3c.github.io/clipboard-apis/#clipboard-event-copy,W3C
 api/Element/cut_event,,22,,1,,3,,false,true,false,https://w3c.github.io/clipboard-apis/#clipboard-event-cut,W3C
@@ -3381,11 +3381,11 @@ api/LargestContentfulPaint/renderTime,,,,77,,,,true,true,false,https://www.w3.or
 api/LargestContentfulPaint/size,,,,77,,,,true,true,false,https://w3c.github.io/largest-contentful-paint/#dom-largestcontentfulpaint-size,W3C
 api/LargestContentfulPaint/toJSON,,,,77,,,,true,true,false,https://w3c.github.io/largest-contentful-paint/#dom-largestcontentfulpaint-tojson,W3C
 api/LargestContentfulPaint/url,,,,77,,,,true,true,false,https://w3c.github.io/largest-contentful-paint/#dom-largestcontentfulpaint-url,W3C
-api/LaunchParams,,,,110,,,,true,true,false,https://wicg.github.io/web-app-launch/#launchparams-interface,W3CCG
-api/LaunchParams/files,,,,110,,,,true,true,false,https://wicg.github.io/web-app-launch/#ref-for-dom-launchparams-files-1,W3CCG
+api/LaunchParams,,,,102,,,,true,true,false,https://wicg.github.io/web-app-launch/#launchparams-interface,W3CCG
+api/LaunchParams/files,,,,102,,,,true,true,false,https://wicg.github.io/web-app-launch/#ref-for-dom-launchparams-files-1,W3CCG
 api/LaunchParams/targetURL,,,,110,,,,true,true,false,https://wicg.github.io/web-app-launch/#ref-for-dom-launchparams-targeturl-7,W3CCG
-api/LaunchQueue,,,,110,,,,true,true,false,https://wicg.github.io/web-app-launch/#launchqueue-interface,W3CCG
-api/LaunchQueue/setConsumer,,,,110,,,,true,true,false,https://wicg.github.io/web-app-launch/#dom-launchqueue-setconsumer,W3CCG
+api/LaunchQueue,,,,102,,,,true,true,false,https://wicg.github.io/web-app-launch/#launchqueue-interface,W3CCG
+api/LaunchQueue/setConsumer,,,,102,,,,true,true,false,https://wicg.github.io/web-app-launch/#dom-launchqueue-setconsumer,W3CCG
 api/LayoutShift,,,,77,,,,true,true,false,https://wicg.github.io/layout-instability/#sec-layout-shift,W3CCG
 api/LayoutShift/hadRecentInput,,,,77,,,,true,true,false,https://wicg.github.io/layout-instability/#dom-layoutshift-hadrecentinput,W3CCG
 api/LayoutShift/lastInputTime,,,,77,,,,true,true,false,https://wicg.github.io/layout-instability/#dom-layoutshift-lastinputtime,W3CCG
@@ -4910,7 +4910,7 @@ api/RTCPeerConnection/addStream,,22,,24,,11,,false,false,true,,NONE
 api/RTCPeerConnection/addTrack,,22,,64,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnection-addtrack,W3C
 api/RTCPeerConnection/addTransceiver,,59,,69,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnection-addtransceiver,W3C
 api/RTCPeerConnection/addTransceiver/init_direction_parameter,,59,,69,,11,,false,true,false,,NONE
-api/RTCPeerConnection/addTransceiver/init_sendEncodings_parameter,,,,69,,14.1,,false,true,false,,NONE
+api/RTCPeerConnection/addTransceiver/init_sendEncodings_parameter,,110,,69,,14.1,,false,true,false,,NONE
 api/RTCPeerConnection/addTransceiver/init_streams_parameter,,59,,69,,12.1,,false,true,false,,NONE
 api/RTCPeerConnection/addstream_event,,22,,24,,,,false,false,true,,NONE
 api/RTCPeerConnection/canTrickleIceCandidates,,47,,83,,15.4,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnection-cantrickleicecandidates,W3C
@@ -4986,13 +4986,13 @@ api/RTCRtpContributingSource/audioLevel,,59,"[{""name"":""media.peerconnection.r
 api/RTCRtpContributingSource/source,,59,"[{""name"":""media.peerconnection.rtpsourcesapi.enable"",""type"":""preference"",""value_to_set"":""true""}]",59,,12.1,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtpcontributingsource-source,W3C
 api/RTCRtpContributingSource/timestamp,,59,"[{""name"":""media.peerconnection.rtpsourcesapi.enable"",""type"":""preference"",""value_to_set"":""true""}]",59,,12.1,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtpcontributingsource-timestamp,W3C
 api/RTCRtpEncodingParameters,,46,,67,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtpencodingparameters,W3C
-api/RTCRtpEncodingParameters/active,,,,67,,11,,false,true,false,,NONE
-api/RTCRtpEncodingParameters/dtx,,,,,,11,,false,true,true,,NONE
+api/RTCRtpEncodingParameters/active,,110,,67,,11,,false,true,false,,NONE
+api/RTCRtpEncodingParameters/dtx,,,,,,11,,false,false,true,,NONE
 api/RTCRtpEncodingParameters/fec,,46,,,,,,false,false,false,,NONE
 api/RTCRtpEncodingParameters/maxBitrate,,46,,67,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtpencodingparameters-maxbitrate,W3C
 api/RTCRtpEncodingParameters/maxFramerate,,101,,81,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtpencodingparameters-maxframerate,W3C
-api/RTCRtpEncodingParameters/priority,,46,,67,,11,,false,false,true,,NONE
-api/RTCRtpEncodingParameters/rid,,46,,,,,,false,false,false,,NONE
+api/RTCRtpEncodingParameters/priority,,46,,67,,11,,false,true,false,https://www.w3.org/TR/webrtc-priority/#dom-rtcrtpencodingparameters-priority,W3C
+api/RTCRtpEncodingParameters/rid,,46,,,,,,false,true,false,,NONE
 api/RTCRtpEncodingParameters/rtx,,46,,,,,,false,false,false,,NONE
 api/RTCRtpEncodingParameters/scaleResolutionDownBy,,46,,74,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtpencodingparameters-scaleresolutiondownby,W3C
 api/RTCRtpEncodingParameters/ssrc,,46,,,,,,false,false,false,,NONE
@@ -5132,6 +5132,7 @@ api/ReadableByteStreamController/enqueue,,102,,89,,,,false,true,false,https://st
 api/ReadableByteStreamController/error,,102,,89,,,,false,true,false,https://streams.spec.whatwg.org/#ref-for-rbs-controller-error①,WHATWG
 api/ReadableStream,,65,,43,,10.1,,false,true,false,https://streams.spec.whatwg.org/#rs-class,WHATWG
 api/ReadableStream/ReadableStream,,65,,43,,10.1,,false,true,false,https://streams.spec.whatwg.org/#ref-for-rs-constructor⑤,WHATWG
+api/ReadableStream/async_iterable,,110,,,,,,false,true,false,https://streams.spec.whatwg.org/#rs-asynciterator,WHATWG
 api/ReadableStream/cancel,,65,,43,,10.1,,false,true,false,https://streams.spec.whatwg.org/#ref-for-rs-cancel③,WHATWG
 api/ReadableStream/getReader,,65,,43,,10.1,,false,true,false,https://streams.spec.whatwg.org/#ref-for-rs-get-reader⑤,WHATWG
 api/ReadableStream/locked,,65,,43,,10.1,,false,true,false,https://streams.spec.whatwg.org/#ref-for-rs-locked②,WHATWG
@@ -7419,7 +7420,7 @@ api/Window/history,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multi
 api/Window/innerHeight,,1,,1,,3,,false,true,false,https://w3c.github.io/csswg-drafts/cssom-view/#dom-window-innerheight,W3C
 api/Window/innerWidth,,1,,1,,3,,false,true,false,https://w3c.github.io/csswg-drafts/cssom-view/#dom-window-innerwidth,W3C
 api/Window/languagechange_event,,32,,37,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-languagechange,WHATWG
-api/Window/launchQueue,,,,110,,,,true,true,false,https://wicg.github.io/web-app-launch/#launchqueue-interface,W3CCG
+api/Window/launchQueue,,,,102,,,,true,true,false,https://wicg.github.io/web-app-launch/#launchqueue-interface,W3CCG
 api/Window/length,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/window-object.html#dom-length-dev,WHATWG
 api/Window/load_event,,1,,1,,1.3,,false,true,false,https://w3c.github.io/uievents/#event-type-load,W3C
 api/Window/localStorage,,3.5,,4,,4,,false,true,false,https://html.spec.whatwg.org/multipage/webstorage.html#dom-localstorage-dev,WHATWG
@@ -8030,7 +8031,7 @@ api/structuredClone/worker_support,,94,,98,,,,false,true,false,,NONE
 api/trustedTypes,,,,83,,,,false,true,false,https://w3c.github.io/trusted-types/dist/spec/#extensions-to-the-windoworworkerglobalscope-interface,W3C
 api/trustedTypes/worker_support,,,,83,,,,false,true,false,,NONE
 css/at-rules/charset,,1.5,,2,,4,,false,true,false,https://w3c.github.io/csswg-drafts/css2/#charset①,W3C
-css/at-rules/container,,preview,,105,,16,,false,true,false,https://w3c.github.io/csswg-drafts/css-contain-3/#container-rule,W3C
+css/at-rules/container,,110,,105,,16,,false,true,false,https://w3c.github.io/csswg-drafts/css-contain-3/#container-rule,W3C
 css/at-rules/counter-style,,33,,91,,,,false,true,false,https://w3c.github.io/csswg-drafts/css-counter-styles/#the-counter-style-rule,W3C
 css/at-rules/counter-style/additive-symbols,,33,,91,,,,false,true,false,https://w3c.github.io/csswg-drafts/css-counter-styles/#counter-style-symbols,W3C
 css/at-rules/counter-style/fallback,,33,,91,,,,false,true,false,https://w3c.github.io/csswg-drafts/css-counter-styles/#counter-style-fallback,W3C
@@ -8102,7 +8103,7 @@ css/at-rules/media/any-pointer,,64,,41,,9,,false,true,false,https://w3c.github.i
 css/at-rules/media/aspect-ratio,,3.5,,3,,5,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries/#aspect-ratio,W3C
 css/at-rules/media/calc,,59,,66,,12,,false,true,false,https://w3c.github.io/csswg-drafts/css-values/#calc-notation,W3C
 css/at-rules/media/color,,2,,1,,3,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries/#color,W3C
-css/at-rules/media/color-gamut,,,,58,,10,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries/#color-gamut,W3C
+css/at-rules/media/color-gamut,,110,,58,,10,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries/#color-gamut,W3C
 css/at-rules/media/color-index,,,,29,,8,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries/#color-index,W3C
 css/at-rules/media/device-aspect-ratio,,2,,1,,3,,false,true,true,https://w3c.github.io/csswg-drafts/mediaqueries/#device-aspect-ratio,W3C
 css/at-rules/media/device-height,,2,,1,,3,,false,true,true,https://w3c.github.io/csswg-drafts/mediaqueries/#device-height,W3C
@@ -8199,7 +8200,7 @@ css/properties/align-items,,20,,29,,9,,false,true,false,https://w3c.github.io/cs
 css/properties/align-items/flex_context,,20,,52,,7,,false,true,false,https://w3c.github.io/csswg-drafts/css-align/#align-items-property,W3C
 css/properties/align-items/flex_context/baseline,,28,,21,,7,,false,true,false,,NONE
 css/properties/align-items/flex_context/first_baseline,,52,,59,,11,,false,true,false,,NONE
-css/properties/align-items/flex_context/last_baseline,,52,,59,,11,,false,true,false,,NONE
+css/properties/align-items/flex_context/last_baseline,,52,,108,,16.2,,false,true,false,,NONE
 css/properties/align-items/flex_context/safe_unsafe,,63,,,,,,false,true,false,,NONE
 css/properties/align-items/flex_context/start_end,,45,,93,,15.4,,false,true,false,,NONE
 css/properties/align-items/grid_context,,52,,57,,10.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-align/#align-items-property,W3C
@@ -8208,7 +8209,7 @@ css/properties/align-self,,20,,29,,9,,false,true,false,https://w3c.github.io/css
 css/properties/align-self/flex_context,,20,,36,,7,,false,true,false,https://w3c.github.io/csswg-drafts/css-align/#align-self-property,W3C
 css/properties/align-self/flex_context/baseline,,28,,21,,7,,false,true,false,,NONE
 css/properties/align-self/flex_context/first_baseline,,52,,59,,11,,false,true,false,,NONE
-css/properties/align-self/flex_context/last_baseline,,52,,59,,11,,false,true,false,,NONE
+css/properties/align-self/flex_context/last_baseline,,52,,108,,16.2,,false,true,false,,NONE
 css/properties/align-self/flex_context/safe_unsafe,,63,,,,,,false,true,false,,NONE
 css/properties/align-self/flex_context/start_end,,45,,93,,15.4,,false,true,false,,NONE
 css/properties/align-self/flex_context/stretch,,52,,57,,9,,false,true,false,,NONE
@@ -8445,9 +8446,9 @@ css/properties/contain-intrinsic-height,,107,,83,,,,false,true,false,https://w3c
 css/properties/contain-intrinsic-inline-size,,107,,95,,,,false,true,false,https://w3c.github.io/csswg-drafts/css-sizing-4/#propdef-contain-intrinsic-inline-size,W3C
 css/properties/contain-intrinsic-size,,107,,83,,,,false,true,false,https://w3c.github.io/csswg-drafts/css-sizing-4/#propdef-contain-intrinsic-size,W3C
 css/properties/contain-intrinsic-width,,107,,83,,,,false,true,false,https://w3c.github.io/csswg-drafts/css-sizing-4/#propdef-contain-intrinsic-width,W3C
-css/properties/container,,preview,,105,,16,,false,true,false,https://w3c.github.io/csswg-drafts/css-contain-3/#container-shorthand,W3C
-css/properties/container-name,,preview,,105,,16,,false,true,false,https://w3c.github.io/csswg-drafts/css-contain-3/#container-name,W3C
-css/properties/container-type,,preview,,105,,16,,false,true,false,https://w3c.github.io/csswg-drafts/css-contain-3/#container-type,W3C
+css/properties/container,,110,,105,,16,,false,true,false,https://w3c.github.io/csswg-drafts/css-contain-3/#container-shorthand,W3C
+css/properties/container-name,,110,,105,,16,,false,true,false,https://w3c.github.io/csswg-drafts/css-contain-3/#container-name,W3C
+css/properties/container-type,,110,,105,,16,,false,true,false,https://w3c.github.io/csswg-drafts/css-contain-3/#container-type,W3C
 css/properties/content,,1,,1,,1,,false,true,false,https://w3c.github.io/csswg-drafts/css-content/#content-property,W3C
 css/properties/content/alt_text,,,,77,,,,false,true,false,,NONE
 css/properties/content/element_replacement,,63,,28,,9,,false,true,false,,NONE
@@ -8674,7 +8675,7 @@ css/properties/image-rendering/optimizeQuality,,3.6,,28,,7,,false,false,true,,NO
 css/properties/image-rendering/optimizeSpeed,,3.6,,28,,7,,false,false,true,,NONE
 css/properties/image-rendering/pixelated,,93,,41,,10,,false,true,false,,NONE
 css/properties/ime-mode,,3,,,,,,false,true,true,https://w3c.github.io/csswg-drafts/css-ui/#input-method-editor,W3C
-css/properties/initial-letter,,,,,,9,,true,true,false,https://w3c.github.io/csswg-drafts/css-inline/#sizing-drop-initials,W3C
+css/properties/initial-letter,,,,110,,9,,true,true,false,https://w3c.github.io/csswg-drafts/css-inline/#sizing-drop-initials,W3C
 css/properties/initial-letter-align,,,,,,,,true,true,false,https://w3c.github.io/csswg-drafts/css-inline/#aligning-initial-letter,W3C
 css/properties/inline-size,,41,,57,,12.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-logical/#dimension-properties,W3C
 css/properties/inline-size/fit-content,,41,,57,,12.1,,false,true,false,,NONE
@@ -9311,7 +9312,7 @@ css/selectors/not,,1,,1,,3.1,,false,true,false,https://w3c.github.io/csswg-draft
 css/selectors/not/selector_list,,84,,88,,9,,false,true,false,,NONE
 css/selectors/nth-child,,3.5,,1,,3.1,,false,true,false,https://w3c.github.io/csswg-drafts/selectors/#nth-child-pseudo,W3C
 css/selectors/nth-child/no_parent_required,,52,,57,,,,false,true,false,,NONE
-css/selectors/nth-child/of_syntax,,,,,,9,,false,true,false,,NONE
+css/selectors/nth-child/of_syntax,,,,111,,9,,false,true,false,,NONE
 css/selectors/nth-last-child,,3.5,,4,,3.1,,false,true,false,https://w3c.github.io/csswg-drafts/selectors/#nth-last-child-pseudo,W3C
 css/selectors/nth-last-child/no_parent_required,,52,,57,,,,false,true,false,,NONE
 css/selectors/nth-last-child/of_syntax,,,,,,9,,false,true,false,,NONE
@@ -9361,16 +9362,16 @@ css/selectors/where,,78,,88,,14,,false,true,false,https://w3c.github.io/csswg-dr
 css/selectors/where/forgiving_selector_list,,82,,88,,14,,false,true,false,,NONE
 css/types/-moz-image-rect,,4,,,,,,true,false,false,,NONE
 css/types/abs,,,,,,15.4,,true,true,false,https://w3c.github.io/csswg-drafts/css-values/#sign-funcs,W3C
-css/types/acos,,108,,,,15.4,,false,true,false,https://w3c.github.io/csswg-drafts/css-values/#trig-funcs,W3C
+css/types/acos,,108,,111,,15.4,,false,true,false,https://w3c.github.io/csswg-drafts/css-values/#trig-funcs,W3C
 css/types/angle,,3.6,,2,,4,,false,true,false,https://w3c.github.io/csswg-drafts/css-values/#angles,W3C
 css/types/angle/deg,,3.6,,2,,4,,false,true,false,,NONE
 css/types/angle/grad,,3.6,,2,,4,,false,true,false,,NONE
 css/types/angle/rad,,3.6,,2,,4,,false,true,false,,NONE
 css/types/angle/turn,,13,,2,,4,,false,true,false,,NONE
 css/types/angle-percentage,,3.6,,2,,4,,false,true,false,https://w3c.github.io/csswg-drafts/css-values/#mixed-percentages,W3C
-css/types/asin,,108,,,,15.4,,false,true,false,https://w3c.github.io/csswg-drafts/css-values/#trig-funcs,W3C
-css/types/atan,,108,,,,15.4,,false,true,false,https://w3c.github.io/csswg-drafts/css-values/#trig-funcs,W3C
-css/types/atan2,,108,,,,15.4,,false,true,false,https://w3c.github.io/csswg-drafts/css-values/#trig-funcs,W3C
+css/types/asin,,108,,111,,15.4,,false,true,false,https://w3c.github.io/csswg-drafts/css-values/#trig-funcs,W3C
+css/types/atan,,108,,111,,15.4,,false,true,false,https://w3c.github.io/csswg-drafts/css-values/#trig-funcs,W3C
+css/types/atan2,,108,,111,,15.4,,false,true,false,https://w3c.github.io/csswg-drafts/css-values/#trig-funcs,W3C
 css/types/attr,,1,,2,,3.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-values-5/#attr-notation,W3C
 css/types/attr/fallback,,,,,,,,true,true,false,,NONE
 css/types/attr/type-or-unit,,,,,,,,true,true,false,,NONE
@@ -9402,9 +9403,9 @@ css/types/calc-constant/infinity,,108,,,,,,true,true,false,,NONE
 css/types/calc-constant/pi,,108,,,,15.4,,false,true,false,,NONE
 css/types/clamp,,75,,79,,13.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-values/#calc-notation,W3C
 css/types/color,,1,,1,,1,,false,true,false,https://w3c.github.io/csswg-drafts/css-color/#color-syntax,W3C
-css/types/color/color,,,,,,15,,true,true,false,https://w3c.github.io/csswg-drafts/css-color/#color-function,W3C
+css/types/color/color,,,,111,,15,,false,true,false,https://w3c.github.io/csswg-drafts/css-color/#color-function,W3C
 css/types/color/color-contrast,,,,,,15,"[{""name"":""CSS color-contrast()"",""type"":""preference""}]",true,true,false,https://w3c.github.io/csswg-drafts/css-color-6/#colorcontrast,W3C
-css/types/color/color-mix,,88,"[{""name"":""layout.css.color-mix.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,15,"[{""name"":""CSS color-mix()"",""type"":""preference""}]",true,true,false,https://w3c.github.io/csswg-drafts/css-color-5/#color-mix,W3C
+css/types/color/color-mix,,88,"[{""name"":""layout.css.color-mix.enabled"",""type"":""preference"",""value_to_set"":""true""}]",111,,15,"[{""name"":""CSS color-mix()"",""type"":""preference""}]",true,true,false,https://w3c.github.io/csswg-drafts/css-color-5/#color-mix,W3C
 css/types/color/currentcolor,,1.5,,1,,4,,false,true,false,https://w3c.github.io/csswg-drafts/css-color/#currentcolor-color,W3C
 css/types/color/hsl,,1,,1,,3.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-color/#the-hsl-notation,W3C
 css/types/color/hsl/alpha_parameter,,52,,65,,12.1,,false,true,false,,NONE
@@ -9430,7 +9431,7 @@ css/types/color/rgba/space_separated_parameters,,52,,65,,12.1,,false,true,false,
 css/types/color/system-color,,1,,1,,1,,false,true,false,https://w3c.github.io/csswg-drafts/css-color/#css-system-colors,W3C
 css/types/color/system-color/mark_marktext_buttonborder,,109,,,,,,true,true,false,https://w3c.github.io/csswg-drafts/css-color/#valdef-system-color-mark,W3C
 css/types/color/transparent,,3,,1,,3.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-color/#transparent-color,W3C
-css/types/cos,,108,,,,15.4,,false,true,false,https://w3c.github.io/csswg-drafts/css-values/#trig-funcs,W3C
+css/types/cos,,108,,111,,15.4,,false,true,false,https://w3c.github.io/csswg-drafts/css-values/#trig-funcs,W3C
 css/types/counter,,1,,1,,3,,false,true,false,https://w3c.github.io/csswg-drafts/css-lists/#counter-functions,W3C
 css/types/counters,,1.5,,1,,3,,false,true,false,https://w3c.github.io/csswg-drafts/css-lists/#counter-functions,W3C
 css/types/dimension,,1,,1,,1,,false,true,false,https://w3c.github.io/csswg-drafts/css-values/#dimensions,W3C
@@ -9497,7 +9498,7 @@ css/types/length,,1,,1,,1,,false,true,false,https://w3c.github.io/csswg-drafts/c
 css/types/length/Q,,49,,63,,,,false,true,false,,NONE
 css/types/length/cap,,97,,,,,,true,true,false,,NONE
 css/types/length/ch,,1,,27,,7,,false,true,false,,NONE
-css/types/length/container_query_length_units,,preview,"[{""name"":""layout.css.container-queries.enabled"",""type"":""preference"",""value_to_set"":""true""}]",105,,16,,false,true,false,,NONE
+css/types/length/container_query_length_units,,110,,105,,16,,false,true,false,,NONE
 css/types/length/ex,,1,,1,,1,,false,true,false,,NONE
 css/types/length/ic,,97,,106,,15.4,,false,true,false,,NONE
 css/types/length/lh,,,,109,,,,true,true,false,https://www.w3.org/TR/css-values-4/#lh,W3C
@@ -9551,11 +9552,11 @@ css/types/round,,preview,,,,15.4,,true,true,false,https://w3c.github.io/csswg-dr
 css/types/shape,,1,,1,,1.3,,false,true,true,https://w3c.github.io/csswg-drafts/css2/#value-def-shape,W3C
 css/types/shape/rect,,1,,1,,1.3,,false,true,true,,NONE
 css/types/sign,,,,,,15.4,,true,true,false,https://w3c.github.io/csswg-drafts/css-values/#sign-funcs,W3C
-css/types/sin,,108,,,,15.4,,false,true,false,https://w3c.github.io/csswg-drafts/css-values/#trig-funcs,W3C
+css/types/sin,,108,,111,,15.4,,false,true,false,https://w3c.github.io/csswg-drafts/css-values/#trig-funcs,W3C
 css/types/sqrt,,,,,,15.4,,true,true,false,https://w3c.github.io/csswg-drafts/css-values/#exponent-funcs,W3C
 css/types/string,,1,,1,,1,,false,true,false,https://w3c.github.io/csswg-drafts/css-values/#strings,W3C
 css/types/string/unicode_escaped_characters,,1,,1,,1,,false,true,false,,NONE
-css/types/tan,,108,,,,15.4,,false,true,false,https://w3c.github.io/csswg-drafts/css-values/#trig-funcs,W3C
+css/types/tan,,108,,111,,15.4,,false,true,false,https://w3c.github.io/csswg-drafts/css-values/#trig-funcs,W3C
 css/types/time,,4,,1,,3.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-values/#time,W3C
 css/types/time-percentage,,4,,1,,3.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-values/#mixed-percentages,W3C
 css/types/transform-function,,3.5,,1,,3.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-transforms/#transform-functions,W3C
@@ -9758,6 +9759,7 @@ html/elements/form/enctype,,true,,true,,true,,false,true,false,,NONE
 html/elements/form/method,,true,,true,,true,,false,true,false,,NONE
 html/elements/form/name,,true,,true,,true,,false,true,false,,NONE
 html/elements/form/novalidate,,4,,10,,10.1,,false,true,false,,NONE
+html/elements/form/rel,,111,,108,,15.4,,false,true,false,,NONE
 html/elements/form/target,,true,,true,,true,,false,true,false,,NONE
 html/elements/frame,,true,,true,,true,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#frame,WHATWG
 html/elements/frame/frameborder,,true,,true,,true,,false,true,true,,NONE
@@ -11512,6 +11514,7 @@ javascript/operators/grouping,,1,,1,,1,,false,true,false,https://tc39.es/ecma262
 javascript/operators/import,,67,,63,,11.1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls,TC39
 javascript/operators/import/options_parameter,,,,91,,15,,false,false,false,,NONE
 javascript/operators/import_meta,,62,,64,,11.1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta,TC39
+javascript/operators/import_meta/resolve,,106,,105,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/webappapis.html#hostgetimportmetaproperties,WHATWG
 javascript/operators/in,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators,TC39
 javascript/operators/increment,,1,,2,,4,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator,TC39
 javascript/operators/inequality,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators,TC39

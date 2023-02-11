@@ -1,6 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1580485988,false,Non-typical slot uses,https://github.com/whatwg/html/issues/8876,2023-02-10T23:34:17Z,2023-02-10T23:34:17Z,szmarczak,,0
+1580163957,false,Proposal: Add a `resizeend` event to the Window,https://github.com/whatwg/html/issues/8874,2023-02-10T18:50:00Z,2023-02-10T19:14:28Z,thegreatercurve,,2
 1578330560,false,Upcoming HTML standard issue triage meeting on 2/23/2023,https://github.com/whatwg/html/issues/8873,2023-02-09T17:43:46Z,2023-02-09T18:11:41Z,past,agenda+,0
-1578001480,false,"Make a way to listen to ""fully active"" state changes",https://github.com/whatwg/html/issues/8872,2023-02-09T14:32:54Z,2023-02-09T16:25:06Z,rakina,integration,0
+1578001480,false,"Make a way to listen to ""fully active"" state changes",https://github.com/whatwg/html/issues/8872,2023-02-09T14:32:54Z,2023-02-10T13:47:15Z,rakina,integration,0
 1577757378,false,SVGs in <use> cannot be preloaded with a link@rel=preload,https://github.com/whatwg/html/issues/8870,2023-02-09T11:58:48Z,2023-02-09T12:31:39Z,Boldewyn,,0
 1577445089,false,Should strict MIME type for importScripts() also be enforced on local URLs?,https://github.com/whatwg/html/issues/8869,2023-02-09T08:20:18Z,2023-02-10T08:58:56Z,Kaiido,topic: workers|interop,0
 1576960664,false,Add `getInnerHTML()` that optionally serializes declarative Shadow DOM,https://github.com/whatwg/html/issues/8867,2023-02-08T23:38:22Z,2023-02-08T23:38:22Z,mfreed7,,0
@@ -30,9 +32,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1550024105,false,Native support for indents,https://github.com/whatwg/html/issues/8751,2023-01-19T22:11:32Z,2023-01-25T23:06:02Z,EgonBolton,,0
 1548957116,true,[css-view-transitions-1] Interaction with Safari's back/forward previews,https://github.com/whatwg/html/issues/8749,2023-01-19T11:14:58Z,2023-01-19T11:21:46Z,jakearchibald,,0
 1537525438,true,Meta: should dfns in headings be viewed as exported definitions?,https://github.com/whatwg/html/issues/8743,2023-01-18T07:30:06Z,2023-01-20T19:24:39Z,tidoust,,0
-1537442281,false,Add support for rel=stylesheet in Link headers,https://github.com/whatwg/html/issues/8741,2023-01-18T05:55:47Z,2023-01-18T05:55:47Z,domenic,addition/proposal|needs implementer interest|topic: link|topic: style,0
+1537442281,false,Add support for rel=stylesheet in Link headers,https://github.com/whatwg/html/issues/8741,2023-01-18T05:55:47Z,2023-02-10T17:07:39Z,domenic,addition/proposal|needs implementer interest|topic: link|topic: style,0
 1537270829,false,Navigation algorithm consults filtered header list,https://github.com/whatwg/html/issues/8740,2023-01-18T01:42:28Z,2023-01-19T08:27:29Z,domenic,topic: navigation,0
-1535763785,false,"Refactoring ""determine navigation params policy container"" and ""determine the origin""",https://github.com/whatwg/html/issues/8739,2023-01-17T04:34:12Z,2023-01-17T05:17:20Z,domenic,clarification|topic: navigation|topic: policy container,0
+1535763785,false,"Refactoring ""determine navigation params policy container"" and ""determine the origin""",https://github.com/whatwg/html/issues/8739,2023-01-17T04:34:12Z,2023-02-10T17:08:58Z,domenic,clarification|topic: navigation|topic: policy container,0
 1535692009,true,Image Srcset: what happens when some image candidate strings do not have width descriptor?,https://github.com/whatwg/html/issues/8738,2023-01-17T02:30:04Z,2023-01-17T03:24:41Z,tlylt,,0
 1532559382,true,Should the spec clarify that character encoding declarations are not actually required?,https://github.com/whatwg/html/issues/8728,2023-01-13T16:10:35Z,2023-01-16T15:55:25Z,gnpivo,i18n-tracker,1
 1532347280,true,"`<meta charset=""utf-8"">` missing from intro example",https://github.com/whatwg/html/issues/8726,2023-01-13T14:00:01Z,2023-01-24T18:11:21Z,gnpivo,i18n-tracker,0
@@ -236,7 +238,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1336937994,false,Rendering <select> as a listbox is a one-line widget that opens a popup on iOS and Android,https://github.com/whatwg/html/issues/8189,2022-08-12T08:57:13Z,2022-09-06T19:45:26Z,zcorpan,topic: rendering|topic: forms,0
 1336733401,false,dropEffect in drop/dragend events not interoperable,https://github.com/whatwg/html/issues/8188,2022-08-12T04:22:46Z,2022-08-12T04:22:46Z,domenic,interop|topic: drag and drop,0
 1336100700,false,Consider adding auto-sizing for <select> as a listbox,https://github.com/whatwg/html/issues/8183,2022-08-11T15:07:22Z,2022-09-30T12:42:39Z,zcorpan,addition/proposal|topic: rendering|topic: forms,0
-1335409877,false,"HTMLSlotElement's assign method should ""assign slottables for a tree"" for slots in other shadow roots",https://github.com/whatwg/html/issues/8179,2022-08-11T02:58:29Z,2022-08-29T10:51:17Z,rniwa,topic: shadow,0
+1335409877,false,"HTMLSlotElement's assign method should ""assign slottables for a tree"" for slots in other shadow roots",https://github.com/whatwg/html/issues/8179,2022-08-11T02:58:29Z,2022-08-29T10:51:17Z,rniwa,topic: shadow,1
 1335292987,false,The missing property values of width/height attributes on source elements,https://github.com/whatwg/html/issues/8178,2022-08-10T23:02:23Z,2022-10-19T12:28:48Z,BorisChiou,topic: rendering|topic: img,0
 1332143254,true,Supporting import maps in worker environments,https://github.com/whatwg/html/issues/8173,2022-08-08T16:58:40Z,2022-08-09T00:16:01Z,guybedford,,0
 1330070447,true,Upcoming HTML standard issue triage meeting on 8/18/2022 (new time!),https://github.com/whatwg/html/issues/8162,2022-08-05T15:19:03Z,2022-08-19T00:21:57Z,past,agenda+,0
@@ -625,7 +627,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1011378851,true,"Feature proposal: `blocking=""render""` attribute on <link>, <script> and <style>",https://github.com/whatwg/html/issues/7131,2021-09-29T19:46:33Z,2022-08-26T17:00:54Z,xiaochengh,addition/proposal|needs implementer interest|topic: rendering,0
 1010653503,false,contextlost follow-up,https://github.com/whatwg/html/issues/7130,2021-09-29T08:27:55Z,2021-11-18T14:13:23Z,annevk,clarification|topic: canvas,0
 1010570818,false,"Media data processing steps refernce undefined ""initial playback position"" concept",https://github.com/whatwg/html/issues/7129,2021-09-29T07:02:14Z,2021-09-29T08:07:21Z,tidoust,topic: media,0
-1007711778,false,Handle of private fields in the structured cloning,https://github.com/whatwg/html/issues/7123,2021-09-27T05:22:27Z,2021-09-27T21:47:55Z,petamoriken,topic: serialize and transfer|integration,0
+1007711778,false,Handle of private fields in the structured cloning,https://github.com/whatwg/html/issues/7123,2021-09-27T05:22:27Z,2021-09-27T21:47:55Z,petamoriken,topic: serialize and transfer|integration,1
 1007347056,true,"Steps for ""update the current document readiness"" should set the document readiness",https://github.com/whatwg/html/issues/7120,2021-09-26T10:18:35Z,2021-10-13T06:59:41Z,awesomekling,topic: document lifecycle,0
 1007095230,false,IMG tag: Omitting the sizes attribute when using width descriptors should be deemed correct.,https://github.com/whatwg/html/issues/7116,2021-09-25T14:05:23Z,2023-01-17T08:27:11Z,ADTC,clarification|topic: img,1
 1006361184,true,Proposing a Web Privacy standard?,https://github.com/whatwg/html/issues/7113,2021-09-24T11:21:52Z,2022-09-04T12:55:06Z,luap42,,2
@@ -859,7 +861,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 836945300,true,Output element value/defaultValue/reset() is not interoperable,https://github.com/whatwg/html/issues/6516,2021-03-20T23:44:59Z,2021-05-18T15:41:54Z,domenic,topic: forms|interop,1
 836327679,true,Having both incumbentNavigationOrigin and the source browsing context's active document's origin seems bad,https://github.com/whatwg/html/issues/6514,2021-03-19T20:18:46Z,2022-10-31T05:07:05Z,domenic,topic: navigation|security/privacy,2
 835244786,true,"""is a registrable domain suffix of or is equal to"" seems pretty broken",https://github.com/whatwg/html/issues/6509,2021-03-18T20:47:32Z,2021-07-21T09:22:32Z,domenic,,0
-834378480,false,"<mirror> element, like <slot>, but not limited to ShadowDOM, elements from anywhere can be assigned to it",https://github.com/whatwg/html/issues/6507,2021-03-18T04:27:23Z,2022-10-06T14:57:23Z,trusktr,,1
+834378480,false,"<mirror> element, like <slot>, but not limited to ShadowDOM, elements from anywhere can be assigned to it",https://github.com/whatwg/html/issues/6507,2021-03-18T04:27:23Z,2022-10-06T14:57:23Z,trusktr,,2
 833751434,false,Consider standardizing default padding / border sizes of unthemed input/button/select,https://github.com/whatwg/html/issues/6505,2021-03-17T13:09:14Z,2021-03-17T23:01:13Z,emilio,topic: rendering|topic: forms|interop,0
 833623350,true,"Allow div elements in h1, h2, h3, h4, h5, h6 elements",https://github.com/whatwg/html/issues/6503,2021-03-17T10:28:20Z,2021-04-12T14:44:59Z,anneke,,0
 833238054,false,A new mode for iframes where they don't add to the joint session history?,https://github.com/whatwg/html/issues/6501,2021-03-16T22:15:48Z,2023-01-31T19:32:17Z,domenic,addition/proposal|topic: navigation|topic: history,0
@@ -3045,7 +3047,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 200170460,true,Integrate SharedArrayBuffers,https://github.com/whatwg/html/issues/2260,2017-01-11T18:25:12Z,2017-04-28T07:38:32Z,domenic,addition/proposal|topic: serialize and transfer,0
 200152591,false,Add sandbox attribute for allow-pointer-capture,https://github.com/whatwg/html/issues/2259,2017-01-11T17:12:08Z,2018-01-23T16:23:07Z,RByers,integration,0
 199972215,false,Should preventDefault() on events affect to the behavior of UA provided interactive elements like the default UI of <audio> and <video>,https://github.com/whatwg/html/issues/2258,2017-01-11T00:29:04Z,2018-07-21T03:52:21Z,smaug----,topic: events,0
-199814411,false,Standardize <template> variables and event handlers,https://github.com/whatwg/html/issues/2254,2017-01-10T12:57:10Z,2021-05-18T09:17:06Z,Mevrael,addition/proposal|needs implementer interest|topic: events,36
+199814411,false,Standardize <template> variables and event handlers,https://github.com/whatwg/html/issues/2254,2017-01-10T12:57:10Z,2021-05-18T09:17:06Z,Mevrael,addition/proposal|needs implementer interest|topic: events,37
 199778666,false,Consider restricting form submissions containing unclosed `<textarea>` or `<select>` elements.,https://github.com/whatwg/html/issues/2253,2017-01-10T10:03:27Z,2017-07-31T00:07:11Z,mikewest,normative change|security/privacy|topic: forms,0
 199771356,true,Consider restricting form submissions containing `<plaintext>`.,https://github.com/whatwg/html/issues/2252,2017-01-10T09:29:49Z,2017-01-12T00:18:37Z,mikewest,normative change|security/privacy|topic: forms,2
 199619250,true,Make underscore-prefixed attributes formally valid (works AS IS in all existing browsers),https://github.com/whatwg/html/issues/2250,2017-01-09T17:58:59Z,2017-01-19T11:57:08Z,Marat-Tanalin,addition/proposal|document conformance,8
