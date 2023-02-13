@@ -1,8 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1581414494,false,"`{Dedicated,Shared}WorkerGlobalScope` instances should be immutable prototype exotic objects",https://github.com/whatwg/html/issues/8879,2023-02-12T21:23:21Z,2023-02-12T23:32:10Z,andreubotella,topic: workers,0
+1581414494,true,"`{Dedicated,Shared}WorkerGlobalScope` instances should be immutable prototype exotic objects",https://github.com/whatwg/html/issues/8879,2023-02-12T21:23:21Z,2023-02-13T00:55:03Z,andreubotella,topic: workers,0
 1581227363,false,"Feature request: `import(url, {importmap: {...}})`",https://github.com/whatwg/html/issues/8877,2023-02-12T11:47:16Z,2023-02-12T12:10:34Z,szmarczak,,1
 1580485988,false,Non-typical slot uses,https://github.com/whatwg/html/issues/8876,2023-02-10T23:34:17Z,2023-02-10T23:34:17Z,szmarczak,,0
-1580163957,false,Proposal: Add a `resizeend` event to the Window,https://github.com/whatwg/html/issues/8874,2023-02-10T18:50:00Z,2023-02-10T19:14:28Z,thegreatercurve,,2
+1580163957,false,Proposal: Add a `resizeend` event to the Window,https://github.com/whatwg/html/issues/8874,2023-02-10T18:50:00Z,2023-02-13T10:39:25Z,thegreatercurve,,2
 1578330560,false,Upcoming HTML standard issue triage meeting on 2/23/2023,https://github.com/whatwg/html/issues/8873,2023-02-09T17:43:46Z,2023-02-09T18:11:41Z,past,agenda+,0
 1578001480,false,"Make a way to listen to ""fully active"" state changes",https://github.com/whatwg/html/issues/8872,2023-02-09T14:32:54Z,2023-02-10T13:47:15Z,rakina,integration,0
 1577757378,false,SVGs in <use> cannot be preloaded with a link@rel=preload,https://github.com/whatwg/html/issues/8870,2023-02-09T11:58:48Z,2023-02-09T12:31:39Z,Boldewyn,,0
@@ -126,7 +126,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1443932590,true,Accidental reverts by navigation and session history rewrite,https://github.com/whatwg/html/issues/8491,2022-11-10T13:42:14Z,2022-11-10T14:09:22Z,zcorpan,,0
 1443033901,false,Screen orientation change events as a special kind of user activation,https://github.com/whatwg/html/issues/8490,2022-11-10T00:57:56Z,2022-11-17T09:49:41Z,marcoscaceres,,0
 1442883956,false,Proposal: media time in accordance to playbackrate,https://github.com/whatwg/html/issues/8489,2022-11-09T22:55:02Z,2022-11-11T00:56:25Z,hemanth,addition/proposal|needs implementer interest|topic: media,0
-1438586396,false,"COOP inheritance for popups from cross-origin iframes. ",https://github.com/whatwg/html/issues/8481,2022-11-07T15:53:25Z,2023-01-28T04:59:50Z,hemeryar,topic: cross-origin-opener-policy,0
+1438586396,false,"COOP inheritance for popups from cross-origin iframes. ",https://github.com/whatwg/html/issues/8481,2022-11-07T15:53:25Z,2023-02-13T09:14:49Z,hemeryar,topic: cross-origin-opener-policy,0
 1437482012,false,Headers in quoted content,https://github.com/whatwg/html/issues/8478,2022-11-06T17:38:39Z,2022-11-06T17:38:39Z,RappyPhan,,0
 1436601363,false,HD link and visited colors,https://github.com/whatwg/html/issues/8477,2022-11-04T20:10:00Z,2022-11-05T00:36:21Z,argyleink,,2
 1436258256,false,Canvas2D layers with filter support,https://github.com/whatwg/html/issues/8476,2022-11-04T15:26:41Z,2023-01-21T08:22:50Z,graveljp,addition/proposal|needs implementer interest|topic: canvas,0
@@ -361,7 +361,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1225610226,false,Rearrange link processing model stuff,https://github.com/whatwg/html/issues/7890,2022-05-04T16:30:47Z,2022-06-03T08:22:52Z,domenic,clarification|topic: link,0
 1224984371,false,Make preload headers work for fetches created by workers,https://github.com/whatwg/html/issues/7889,2022-05-04T06:50:18Z,2022-05-19T11:11:41Z,yoavweiss,addition/proposal|needs implementer interest|topic: link|topic: resource hints (inc. preload),1
 1224983675,false,Enable preload to download variable fonts only in supporting browsers,https://github.com/whatwg/html/issues/7888,2022-05-04T06:49:14Z,2022-05-19T11:17:39Z,yoavweiss,addition/proposal|topic: resource hints (inc. preload),0
-1224980520,false,Allow custom HTTP headers to be defined for a preload request,https://github.com/whatwg/html/issues/7887,2022-05-04T06:44:03Z,2022-08-09T10:19:54Z,yoavweiss,addition/proposal|needs implementer interest|topic: resource hints (inc. preload),0
+1224980520,false,Allow custom HTTP headers to be defined for a preload request,https://github.com/whatwg/html/issues/7887,2022-05-04T06:44:03Z,2023-02-13T11:38:42Z,yoavweiss,addition/proposal|needs implementer interest|topic: resource hints (inc. preload),0
 1223352851,true,Behavior of inline nonce/hash script if source text is modified between preparation and evaluation,https://github.com/whatwg/html/issues/7882,2022-05-02T20:57:44Z,2022-05-05T20:33:35Z,bathos,,0
 1223022771,false,Hidden attribute is no longer boolean,https://github.com/whatwg/html/issues/7881,2022-05-02T15:25:17Z,2022-05-02T15:31:39Z,scottaohara,,0
 1222247714,false,Suboptimal subheading workarounds,https://github.com/whatwg/html/issues/7879,2022-05-01T18:46:15Z,2022-05-15T18:39:52Z,cwinstrol,,0
@@ -1803,7 +1803,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 432733675,true,Proposal: to add a noblock type to script tags,https://github.com/whatwg/html/issues/4529,2019-04-12T20:31:44Z,2021-03-29T19:54:36Z,ahmedHusseinF,,1
 432671204,true,Add onbeforeinput to GlobalEventHandlers,https://github.com/whatwg/html/issues/4526,2019-04-12T17:34:38Z,2022-06-09T19:26:22Z,phistuck,,1
 431923083,true,Chrome's registerProtocolHandler web+ handling is at odds with the specification,https://github.com/whatwg/html/issues/4524,2019-04-11T09:32:10Z,2020-01-20T14:05:18Z,annevk,interop,0
-431891509,false,Proposal: to add the attribute format for input times,https://github.com/whatwg/html/issues/4523,2019-04-11T08:21:17Z,2022-02-19T06:47:05Z,FANMixco,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,5
+431891509,false,Proposal: to add the attribute format for input times,https://github.com/whatwg/html/issues/4523,2019-04-11T08:21:17Z,2022-02-19T06:47:05Z,FANMixco,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,6
 431692194,true,Unexpected behaviour of <picture> and it's children compared to <img>,https://github.com/whatwg/html/issues/4522,2019-04-10T20:15:43Z,2019-04-10T20:42:24Z,MelvinIdema,,0
 431661424,false,Expose transferList on MessageEvent,https://github.com/whatwg/html/issues/4521,2019-04-10T18:55:53Z,2020-01-22T17:17:42Z,surma,addition/proposal|needs implementer interest|topic: serialize and transfer,1
 431573865,true,Handling of not-an-HTMLElement custom element constructor return values is different from DOM,https://github.com/whatwg/html/issues/4520,2019-04-10T15:37:27Z,2019-04-15T22:01:19Z,bzbarsky,topic: custom elements,0
@@ -2747,7 +2747,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 239026363,true,Output caniuse boxes in the dev edition as well,https://github.com/whatwg/html/issues/2794,2017-06-28T01:17:17Z,2017-08-19T13:19:50Z,domenic,dev edition,0
 239022536,false,Allow expanding to the full table of contents in the dev edition,https://github.com/whatwg/html/issues/2793,2017-06-28T00:47:56Z,2017-07-05T18:27:50Z,domenic,spec tooling|dev edition,0
 238786200,true,take port into account for same-origin domain check,https://github.com/whatwg/html/issues/2792,2017-06-27T09:15:55Z,2018-08-07T16:14:03Z,jeisinger,normative change|needs implementer interest|security/privacy|needs compat analysis|topic: origin,0
-238741867,false,Client side include feature for HTML,https://github.com/whatwg/html/issues/2791,2017-06-27T05:36:13Z,2022-12-29T17:49:36Z,TakayoshiKochi,addition/proposal|needs implementer interest,95
+238741867,false,Client side include feature for HTML,https://github.com/whatwg/html/issues/2791,2017-06-27T05:36:13Z,2022-12-29T17:49:36Z,TakayoshiKochi,addition/proposal|needs implementer interest,96
 238161134,true,typo?,https://github.com/whatwg/html/issues/2788,2017-06-23T14:35:44Z,2017-06-26T19:34:34Z,momdo,,0
 238026392,false,"""its associated CSS layout box""",https://github.com/whatwg/html/issues/2786,2017-06-23T02:47:39Z,2017-06-30T18:14:01Z,cvrebert,clarification,0
 237922790,false,Add inline annotations of the bibliography references,https://github.com/whatwg/html/issues/2782,2017-06-22T17:47:29Z,2017-06-22T17:47:29Z,domenic,spec tooling|dev edition,1
@@ -3830,7 +3830,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 131328653,true,Make the spec readable on small screens,https://github.com/whatwg/html/issues/621,2016-02-04T12:16:22Z,2016-03-10T17:32:20Z,foolip,spec tooling|good first issue,0
 131274673,true,Make IDL blocks pretty,https://github.com/whatwg/html/issues/620,2016-02-04T08:09:53Z,2020-04-16T13:19:28Z,foolip,spec tooling,0
 131260891,true,Legacy bugs linked inline from the spec,https://github.com/whatwg/html/issues/619,2016-02-04T06:49:10Z,2018-12-13T02:28:54Z,foolip,spec tooling,0
-131154584,false,A setTimeout that returns a promise that resolves after specified time.,https://github.com/whatwg/html/issues/617,2016-02-03T21:09:46Z,2023-02-09T16:43:37Z,jisaacks,addition/proposal|needs implementer interest,14
+131154584,false,A setTimeout that returns a promise that resolves after specified time.,https://github.com/whatwg/html/issues/617,2016-02-03T21:09:46Z,2023-02-13T10:51:28Z,jisaacks,addition/proposal|needs implementer interest,14
 131058546,true,Spellchecking default descriptions are misleading,https://github.com/whatwg/html/issues/615,2016-02-03T15:30:38Z,2016-02-08T16:19:38Z,domenic,clarification|good first issue,0
 131007337,true,Handling of 301 redirects within script type module,https://github.com/whatwg/html/issues/613,2016-02-03T12:18:00Z,2017-09-01T22:03:50Z,guybedford,topic: script,0
 130789071,true,"""ASCII serialisation of an origin"" and ""domain to ASCII""",https://github.com/whatwg/html/issues/611,2016-02-02T19:25:30Z,2016-03-22T19:13:33Z,SimonSapin,,0
