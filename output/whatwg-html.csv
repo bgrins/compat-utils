@@ -29,7 +29,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1557070169,false,<meta> http-equiv vs name: which one wins?,https://github.com/whatwg/html/issues/8776,2023-01-25T18:04:27Z,2023-01-26T09:45:04Z,annevk,clarification,0
 1553901385,true,Proposal: Add an `isolatehistory` attribute to iframes,https://github.com/whatwg/html/issues/8773,2023-01-23T22:02:53Z,2023-01-24T05:23:17Z,brandonmcconnell,,0
 1553531654,true,CSS selectors cannot reliably identify cells on the edge of their containing table if any cells in the table use the rowSpan attribute,https://github.com/whatwg/html/issues/8772,2023-01-23T18:05:52Z,2023-01-24T00:43:09Z,DavidJCobb,,0
-1552934460,false,Ability to style default summary in <details>,https://github.com/whatwg/html/issues/8770,2023-01-23T11:28:14Z,2023-02-13T23:45:13Z,jakearchibald,addition/proposal|topic: rendering|topic: selectors,0
+1552934460,false,Ability to style default summary in <details>,https://github.com/whatwg/html/issues/8770,2023-01-23T11:28:14Z,2023-02-14T04:07:42Z,jakearchibald,addition/proposal|topic: rendering|topic: selectors,0
 1552047625,false,"Clarify: CSS import assertions use ""script"" as the destination, is that intended?",https://github.com/whatwg/html/issues/8764,2023-01-22T08:56:49Z,2023-01-22T08:57:06Z,noamr,,0
 1550462824,true,MediaError not acccessible for a video element if using it with source elements,https://github.com/whatwg/html/issues/8757,2023-01-20T08:15:13Z,2023-01-26T09:48:49Z,callumgare,,0
 1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-02-09T17:40:49Z,mfreed7,addition/proposal|topic: shadow|agenda+,0
@@ -128,7 +128,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1443932590,true,Accidental reverts by navigation and session history rewrite,https://github.com/whatwg/html/issues/8491,2022-11-10T13:42:14Z,2022-11-10T14:09:22Z,zcorpan,,0
 1443033901,false,Screen orientation change events as a special kind of user activation,https://github.com/whatwg/html/issues/8490,2022-11-10T00:57:56Z,2022-11-17T09:49:41Z,marcoscaceres,,0
 1442883956,false,Proposal: media time in accordance to playbackrate,https://github.com/whatwg/html/issues/8489,2022-11-09T22:55:02Z,2022-11-11T00:56:25Z,hemanth,addition/proposal|needs implementer interest|topic: media,0
-1438586396,false,"COOP inheritance for popups from cross-origin iframes. ",https://github.com/whatwg/html/issues/8481,2022-11-07T15:53:25Z,2023-02-13T09:14:49Z,hemeryar,topic: cross-origin-opener-policy,0
+1438586396,false,"COOP inheritance for popups from cross-origin iframes. ",https://github.com/whatwg/html/issues/8481,2022-11-07T15:53:25Z,2023-02-14T09:45:49Z,hemeryar,topic: cross-origin-opener-policy,0
 1437482012,false,Headers in quoted content,https://github.com/whatwg/html/issues/8478,2022-11-06T17:38:39Z,2022-11-06T17:38:39Z,RappyPhan,,0
 1436601363,false,HD link and visited colors,https://github.com/whatwg/html/issues/8477,2022-11-04T20:10:00Z,2022-11-05T00:36:21Z,argyleink,,2
 1436258256,false,Canvas2D layers with filter support,https://github.com/whatwg/html/issues/8476,2022-11-04T15:26:41Z,2023-01-21T08:22:50Z,graveljp,addition/proposal|needs implementer interest|topic: canvas,0
@@ -996,7 +996,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 761434082,false,"It's unclear how well browsers line up with the ""Killing scripts"" section of the spec",https://github.com/whatwg/html/issues/6210,2020-12-10T17:21:25Z,2020-12-11T14:58:15Z,domenic,topic: script,2
 761420453,false,Specify what happens to focus if focus is in an iframe that loads another document,https://github.com/whatwg/html/issues/6209,2020-12-10T17:06:31Z,2020-12-11T07:44:52Z,hsivonen,interop|topic: focus,0
 761360345,true,Natively lazyload certain web components like tabs etc.,https://github.com/whatwg/html/issues/6208,2020-12-10T15:54:48Z,2021-04-14T21:16:29Z,summercms,,0
-761072127,false,"Clarify history.pushState/replaceState behavior with history navigation, bfcache",https://github.com/whatwg/html/issues/6207,2020-12-10T09:36:51Z,2022-04-19T09:45:12Z,rakina,topic: history,0
+761072127,false,"Clarify history.pushState/replaceState behavior with history navigation, bfcache",https://github.com/whatwg/html/issues/6207,2020-12-10T09:36:51Z,2023-02-14T09:15:25Z,rakina,topic: history|needs tests,0
 760679523,false,Missing list of abbreviations,https://github.com/whatwg/html/issues/6205,2020-12-09T21:18:16Z,2022-08-29T16:14:52Z,jmacura,clarification,1
 759867980,true,Updating the session history: same-URL case is broken,https://github.com/whatwg/html/issues/6202,2020-12-08T23:38:09Z,2021-03-12T00:38:16Z,domenic,topic: navigation|topic: history,0
 757805616,true,Updating the session history seems pretty broken,https://github.com/whatwg/html/issues/6197,2020-12-05T23:37:58Z,2020-12-11T23:34:09Z,domfarolino,topic: history|topic: browsing context,0
@@ -3870,7 +3870,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 127937090,false,<li> in quirks mode should sometimes have list-style-position:inside,https://github.com/whatwg/html/issues/549,2016-01-21T14:35:53Z,2016-07-04T12:51:58Z,zcorpan,compat|topic: rendering,0
 127756609,true,Difference between region behavior for MouseEvent and Touch,https://github.com/whatwg/html/issues/548,2016-01-20T18:46:45Z,2016-10-21T14:19:22Z,RByers,topic: canvas,0
 127727721,true,TouchInit should be augmented to add 'region',https://github.com/whatwg/html/issues/547,2016-01-20T16:54:57Z,2016-10-21T14:19:22Z,RByers,topic: canvas,0
-127723636,false,"Semantics of initial ""about:blank"" elision are unclear; every browser disagrees",https://github.com/whatwg/html/issues/546,2016-01-20T16:37:07Z,2017-12-05T15:13:54Z,avidrissman,compat|topic: navigation|topic: history|interop,0
+127723636,false,"Semantics of initial ""about:blank"" elision are unclear; every browser disagrees",https://github.com/whatwg/html/issues/546,2016-01-20T16:37:07Z,2023-02-14T09:42:53Z,avidrissman,compat|topic: navigation|topic: history|interop,0
 127686121,true,Validation consideration for the template tag,https://github.com/whatwg/html/issues/541,2016-01-20T13:47:59Z,2016-07-07T18:42:26Z,studdugie,document conformance,0
 127680362,false,What should happen when clicking on the edge of an <area> shape?,https://github.com/whatwg/html/issues/540,2016-01-20T13:19:26Z,2017-05-03T10:02:57Z,zcorpan,topic: img|topic: hyperlink,0
 127625820,true,"""Four or more ASCII digits, representing year, w...""",https://github.com/whatwg/html/issues/539,2016-01-20T07:58:39Z,2016-01-28T11:08:07Z,laukstein,,0
