@@ -1,16 +1,18 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1583241797,false,Expand `:open`/`:closed` state to more elements,https://github.com/whatwg/html/issues/8884,2023-02-13T23:44:31Z,2023-02-13T23:44:31Z,nt1m,,0
+1582395799,false,Named access on the Window object: `names` is used before it is defined.,https://github.com/whatwg/html/issues/8881,2023-02-13T13:55:15Z,2023-02-13T13:55:15Z,pygy,,0
 1581414494,true,"`{Dedicated,Shared}WorkerGlobalScope` instances should be immutable prototype exotic objects",https://github.com/whatwg/html/issues/8879,2023-02-12T21:23:21Z,2023-02-13T00:55:03Z,andreubotella,topic: workers,0
 1581227363,false,"Feature request: `import(url, {importmap: {...}})`",https://github.com/whatwg/html/issues/8877,2023-02-12T11:47:16Z,2023-02-12T12:10:34Z,szmarczak,,1
 1580485988,false,Non-typical slot uses,https://github.com/whatwg/html/issues/8876,2023-02-10T23:34:17Z,2023-02-10T23:34:17Z,szmarczak,,0
-1580163957,false,Proposal: Add a `resizeend` event to the Window,https://github.com/whatwg/html/issues/8874,2023-02-10T18:50:00Z,2023-02-13T10:39:25Z,thegreatercurve,,2
+1580163957,false,Proposal: Add a `resizeend` event to the Window,https://github.com/whatwg/html/issues/8874,2023-02-10T18:50:00Z,2023-02-13T20:27:53Z,thegreatercurve,,2
 1578330560,false,Upcoming HTML standard issue triage meeting on 2/23/2023,https://github.com/whatwg/html/issues/8873,2023-02-09T17:43:46Z,2023-02-09T18:11:41Z,past,agenda+,0
 1578001480,false,"Make a way to listen to ""fully active"" state changes",https://github.com/whatwg/html/issues/8872,2023-02-09T14:32:54Z,2023-02-10T13:47:15Z,rakina,integration,0
 1577757378,false,SVGs in <use> cannot be preloaded with a link@rel=preload,https://github.com/whatwg/html/issues/8870,2023-02-09T11:58:48Z,2023-02-09T12:31:39Z,Boldewyn,,0
 1577445089,false,Should strict MIME type for importScripts() also be enforced on local URLs?,https://github.com/whatwg/html/issues/8869,2023-02-09T08:20:18Z,2023-02-10T08:58:56Z,Kaiido,topic: workers|interop,0
-1576960664,false,Add `getInnerHTML()` that optionally serializes declarative Shadow DOM,https://github.com/whatwg/html/issues/8867,2023-02-08T23:38:22Z,2023-02-08T23:38:22Z,mfreed7,,0
+1576960664,false,Add `getInnerHTML()` that optionally serializes declarative Shadow DOM,https://github.com/whatwg/html/issues/8867,2023-02-08T23:38:22Z,2023-02-13T15:37:32Z,mfreed7,addition/proposal|topic: shadow|topic: parser,0
 1576297577,true,DOMParser and MathML,https://github.com/whatwg/html/issues/8866,2023-02-08T14:57:03Z,2023-02-08T16:42:12Z,pygy,,0
 1576149509,false,Subresource link headers are implemented but not specified,https://github.com/whatwg/html/issues/8865,2023-02-08T13:43:48Z,2023-02-08T19:27:41Z,noamr,,0
-1574083586,false,Allow headings in <summary> elements for <details>,https://github.com/whatwg/html/issues/8864,2023-02-07T10:36:10Z,2023-02-07T10:36:10Z,yatil,,0
+1574083586,false,Allow headings in <summary> elements for <details>,https://github.com/whatwg/html/issues/8864,2023-02-07T10:36:10Z,2023-02-13T17:57:41Z,yatil,document conformance|accessibility,0
 1570774154,false,iframe resource timing: entry should only be created for frame-initiated navigation,https://github.com/whatwg/html/issues/8846,2023-02-04T05:31:58Z,2023-02-04T05:31:58Z,noamr,,0
 1566746958,false,Form Elements Missing From Developer Page?,https://github.com/whatwg/html/issues/8810,2023-02-01T20:05:57Z,2023-02-05T15:51:34Z,ronnieroyston,,0
 1566492539,false,"allow input customization ",https://github.com/whatwg/html/issues/8809,2023-02-01T17:11:33Z,2023-02-04T11:46:54Z,royeradames,,0
@@ -27,7 +29,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1557070169,false,<meta> http-equiv vs name: which one wins?,https://github.com/whatwg/html/issues/8776,2023-01-25T18:04:27Z,2023-01-26T09:45:04Z,annevk,clarification,0
 1553901385,true,Proposal: Add an `isolatehistory` attribute to iframes,https://github.com/whatwg/html/issues/8773,2023-01-23T22:02:53Z,2023-01-24T05:23:17Z,brandonmcconnell,,0
 1553531654,true,CSS selectors cannot reliably identify cells on the edge of their containing table if any cells in the table use the rowSpan attribute,https://github.com/whatwg/html/issues/8772,2023-01-23T18:05:52Z,2023-01-24T00:43:09Z,DavidJCobb,,0
-1552934460,false,Ability to style default summary in <details>,https://github.com/whatwg/html/issues/8770,2023-01-23T11:28:14Z,2023-02-10T11:22:10Z,jakearchibald,topic: rendering|topic: selectors,0
+1552934460,false,Ability to style default summary in <details>,https://github.com/whatwg/html/issues/8770,2023-01-23T11:28:14Z,2023-02-13T23:45:13Z,jakearchibald,addition/proposal|topic: rendering|topic: selectors,0
 1552047625,false,"Clarify: CSS import assertions use ""script"" as the destination, is that intended?",https://github.com/whatwg/html/issues/8764,2023-01-22T08:56:49Z,2023-01-22T08:57:06Z,noamr,,0
 1550462824,true,MediaError not acccessible for a video element if using it with source elements,https://github.com/whatwg/html/issues/8757,2023-01-20T08:15:13Z,2023-01-26T09:48:49Z,callumgare,,0
 1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-02-09T17:40:49Z,mfreed7,addition/proposal|topic: shadow|agenda+,0
@@ -721,7 +723,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 947056780,true,"HTML  syntax not correct ",https://github.com/whatwg/html/issues/6875,2021-07-18T15:14:36Z,2021-07-18T16:16:52Z,harshit-dugar,spam,0
 946697785,true,"Missing parameter in the steps of ""7.10.5.8 [[Set]] ( P, V, Receiver )"" ",https://github.com/whatwg/html/issues/6873,2021-07-17T03:27:53Z,2021-07-23T10:30:54Z,yvt,good first issue,0
 946636592,false,setCustomValidity() seems pointless on <fieldset>,https://github.com/whatwg/html/issues/6870,2021-07-16T22:42:56Z,2021-09-03T00:13:03Z,domenic,addition/proposal|needs implementer interest|topic: forms,3
-946624070,false,Add required-attribute support for fieldsets,https://github.com/whatwg/html/issues/6868,2021-07-16T22:08:49Z,2022-01-27T00:25:28Z,fstrr,addition/proposal|topic: forms,1
+946624070,false,Add required-attribute support for fieldsets,https://github.com/whatwg/html/issues/6868,2021-07-16T22:08:49Z,2023-02-13T13:51:43Z,fstrr,addition/proposal|topic: forms,1
 946138075,true,How does authors specify CSS module scripts on script element?,https://github.com/whatwg/html/issues/6864,2021-07-16T10:03:55Z,2021-07-16T15:12:20Z,mtrootyy,,0
 945561794,true,Proposal: stop triggering navigations to about:blank on iframe insertion,https://github.com/whatwg/html/issues/6863,2021-07-15T16:28:37Z,2021-08-10T17:20:50Z,rakina,,2
 944085079,false,specifying BFCache interactions with window.open and browsing context groups,https://github.com/whatwg/html/issues/6858,2021-07-14T06:19:10Z,2022-04-19T21:25:19Z,fergald,topic: navigation|topic: history,0
@@ -1593,7 +1595,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 488420032,false,datalist 'nofilter' attribute,https://github.com/whatwg/html/issues/4882,2019-09-03T06:41:53Z,2020-12-13T05:57:47Z,HarshaLaxman,addition/proposal|needs implementer interest|topic: forms,0
 488055983,true,DocumentOrShadowRoot link errors since #4837,https://github.com/whatwg/html/issues/4879,2019-09-02T08:06:11Z,2019-09-09T19:25:39Z,Ms2ger,,0
 487951246,true,Getter and setter of selectionStart/selectionEnd in spec are inconsistent,https://github.com/whatwg/html/issues/4877,2019-09-02T00:51:44Z,2020-03-27T15:26:49Z,normanzb,topic: forms,0
-487675842,false,Changing virtual keyboard layout dynamically by modifying the inputmode attribute,https://github.com/whatwg/html/issues/4876,2019-08-30T21:23:12Z,2020-12-22T08:07:42Z,mustaqahmed,,2
+487675842,false,Changing virtual keyboard layout dynamically by modifying the inputmode attribute,https://github.com/whatwg/html/issues/4876,2019-08-30T21:23:12Z,2020-12-22T08:07:42Z,mustaqahmed,,3
 487666342,false,Add a new `inputmode` value for password input,https://github.com/whatwg/html/issues/4875,2019-08-30T20:51:20Z,2019-10-01T11:43:31Z,mustaqahmed,addition/proposal|needs implementer interest|topic: forms,0
 487637495,false,The loading algorithm sets the paused attribute to true without firing an event,https://github.com/whatwg/html/issues/4874,2019-08-30T19:26:13Z,2019-09-25T14:05:33Z,mounirlamouri,topic: media,0
 487395185,true,Expose COOP and COEP state to JavaScript,https://github.com/whatwg/html/issues/4872,2019-08-30T09:52:02Z,2020-01-02T14:28:48Z,annevk,topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,0
