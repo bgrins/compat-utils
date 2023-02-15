@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1585687811,false,Allow subclassing of AbortController / AbortSignal,https://github.com/whatwg/dom/issues/1162,2023-02-15T11:24:44Z,2023-02-15T11:24:44Z,keithamus,,0
 1582415032,false,MutationObserver GC section looks bogus,https://github.com/whatwg/dom/issues/1159,2023-02-13T14:06:25Z,2023-02-13T16:51:52Z,annevk,,0
 1578224949,false,[TAG review] Explain the difference between this.shadowRoot and this.internals.shadowRoot,https://github.com/whatwg/dom/issues/1158,2023-02-09T16:35:31Z,2023-02-10T12:50:19Z,rhiaro,clarification,0
 1578223062,false,[TAG review] Describe delegatesFocus propery,https://github.com/whatwg/dom/issues/1157,2023-02-09T16:34:18Z,2023-02-10T12:50:43Z,rhiaro,clarification,0
@@ -156,7 +157,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 544131183,false,What does adoptNode() return for DocumentFragment?,https://github.com/whatwg/dom/issues/813,2019-12-31T08:54:50Z,2020-01-03T02:48:42Z,TimothyGu,,0
 543044403,true,Proposal: MutationObserver.unobserve method to selectively stop observing a specific Node,https://github.com/whatwg/dom/issues/812,2019-12-28T02:13:21Z,2020-05-16T04:12:27Z,trusktr,,2
 543009071,true,Add '// historical' to initCustomEvent IDL?,https://github.com/whatwg/dom/issues/811,2019-12-27T22:30:42Z,2020-01-14T12:49:46Z,sideshowbarker,good first issue,0
-534942957,false,"Side effects due to tree insertion or removal (script, iframe)",https://github.com/whatwg/dom/issues/808,2019-12-09T13:47:35Z,2022-12-09T09:17:31Z,annevk,web reality,1
+534942957,false,"Side effects due to tree insertion or removal (script, iframe)",https://github.com/whatwg/dom/issues/808,2019-12-09T13:47:35Z,2023-02-15T11:21:28Z,annevk,web reality,1
 533899955,true,Editorial: revert [hr-time] workaround,https://github.com/whatwg/dom/issues/802,2019-12-06T11:13:08Z,2019-12-11T17:40:22Z,annevk,,0
 533867541,true,Editorial: remove parent argument to remove,https://github.com/whatwg/dom/issues/801,2019-12-06T10:11:53Z,2019-12-11T17:40:20Z,annevk,,0
 532637593,false,"Why is `createProcessingInstruction(…)` allowed in HTML, but `createCDATASection(…)` isn’t?",https://github.com/whatwg/dom/issues/798,2019-12-04T11:55:59Z,2019-12-04T12:02:16Z,ExE-Boss,,0
@@ -299,7 +300,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 283170774,true,Inconsistency in execution of unclosed attribute selector for querySelector,https://github.com/whatwg/dom/issues/549,2017-12-19T10:11:09Z,2019-02-28T06:54:42Z,TimvdLippe,needs tests,0
 282917298,false,Proposal: Spellcheck API,https://github.com/whatwg/dom/issues/547,2017-12-18T15:26:59Z,2018-01-08T06:12:56Z,Ginden,,1
 282704403,false,"Proposal: Element.elementIndex, Node.nodeIndex",https://github.com/whatwg/dom/issues/546,2017-12-17T16:11:57Z,2019-04-11T09:40:19Z,davidbukacek,needs implementer interest|addition/proposal,15
-281633681,false,Improving ergonomics of events with Observable,https://github.com/whatwg/dom/issues/544,2017-12-13T05:58:13Z,2021-06-13T04:39:01Z,benlesh,needs implementer interest|topic: events|addition/proposal,598
+281633681,false,Improving ergonomics of events with Observable,https://github.com/whatwg/dom/issues/544,2017-12-13T05:58:13Z,2023-02-15T03:11:41Z,benlesh,needs implementer interest|topic: events|addition/proposal,598
 280099708,true,Proposal: RangeList,https://github.com/whatwg/dom/issues/543,2017-12-07T11:44:00Z,2018-01-25T14:37:13Z,WebReflection,needs implementer interest,0
 279507201,false,Define a mapping to a Selectors Element Tree,https://github.com/whatwg/dom/issues/542,2017-12-05T19:50:01Z,2017-12-06T09:00:28Z,gsnedders,,0
 275862932,true,Simply MutationObserver callback handling with optional reference property in MutationObserverInit object,https://github.com/whatwg/dom/issues/539,2017-11-21T21:18:34Z,2018-03-17T08:01:40Z,d2ydx2,,0
