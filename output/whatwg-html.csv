@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1583241797,false,Expand `:open`/`:closed` state to more elements,https://github.com/whatwg/html/issues/8884,2023-02-13T23:44:31Z,2023-02-13T23:44:31Z,nt1m,,0
+1583241797,false,Expand `:open`/`:closed` state to more elements,https://github.com/whatwg/html/issues/8884,2023-02-13T23:44:31Z,2023-02-14T13:22:09Z,nt1m,,0
 1582395799,false,Named access on the Window object: `names` is used before it is defined.,https://github.com/whatwg/html/issues/8881,2023-02-13T13:55:15Z,2023-02-13T13:55:15Z,pygy,,0
 1581414494,true,"`{Dedicated,Shared}WorkerGlobalScope` instances should be immutable prototype exotic objects",https://github.com/whatwg/html/issues/8879,2023-02-12T21:23:21Z,2023-02-13T00:55:03Z,andreubotella,topic: workers,0
 1581227363,false,"Feature request: `import(url, {importmap: {...}})`",https://github.com/whatwg/html/issues/8877,2023-02-12T11:47:16Z,2023-02-12T12:10:34Z,szmarczak,,1
@@ -29,7 +29,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1557070169,false,<meta> http-equiv vs name: which one wins?,https://github.com/whatwg/html/issues/8776,2023-01-25T18:04:27Z,2023-01-26T09:45:04Z,annevk,clarification,0
 1553901385,true,Proposal: Add an `isolatehistory` attribute to iframes,https://github.com/whatwg/html/issues/8773,2023-01-23T22:02:53Z,2023-01-24T05:23:17Z,brandonmcconnell,,0
 1553531654,true,CSS selectors cannot reliably identify cells on the edge of their containing table if any cells in the table use the rowSpan attribute,https://github.com/whatwg/html/issues/8772,2023-01-23T18:05:52Z,2023-01-24T00:43:09Z,DavidJCobb,,0
-1552934460,false,Ability to style default summary in <details>,https://github.com/whatwg/html/issues/8770,2023-01-23T11:28:14Z,2023-02-14T04:07:42Z,jakearchibald,addition/proposal|topic: rendering|topic: selectors,0
+1552934460,false,Ability to style default summary in <details>,https://github.com/whatwg/html/issues/8770,2023-01-23T11:28:14Z,2023-02-14T18:56:50Z,jakearchibald,addition/proposal|topic: rendering|topic: selectors,0
 1552047625,false,"Clarify: CSS import assertions use ""script"" as the destination, is that intended?",https://github.com/whatwg/html/issues/8764,2023-01-22T08:56:49Z,2023-01-22T08:57:06Z,noamr,,0
 1550462824,true,MediaError not acccessible for a video element if using it with source elements,https://github.com/whatwg/html/issues/8757,2023-01-20T08:15:13Z,2023-01-26T09:48:49Z,callumgare,,0
 1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-02-09T17:40:49Z,mfreed7,addition/proposal|topic: shadow|agenda+,0
@@ -128,7 +128,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1443932590,true,Accidental reverts by navigation and session history rewrite,https://github.com/whatwg/html/issues/8491,2022-11-10T13:42:14Z,2022-11-10T14:09:22Z,zcorpan,,0
 1443033901,false,Screen orientation change events as a special kind of user activation,https://github.com/whatwg/html/issues/8490,2022-11-10T00:57:56Z,2022-11-17T09:49:41Z,marcoscaceres,,0
 1442883956,false,Proposal: media time in accordance to playbackrate,https://github.com/whatwg/html/issues/8489,2022-11-09T22:55:02Z,2022-11-11T00:56:25Z,hemanth,addition/proposal|needs implementer interest|topic: media,0
-1438586396,false,"COOP inheritance for popups from cross-origin iframes. ",https://github.com/whatwg/html/issues/8481,2022-11-07T15:53:25Z,2023-02-14T09:45:49Z,hemeryar,topic: cross-origin-opener-policy,0
+1438586396,false,"COOP inheritance for popups from cross-origin iframes. ",https://github.com/whatwg/html/issues/8481,2022-11-07T15:53:25Z,2023-02-14T14:44:37Z,hemeryar,topic: cross-origin-opener-policy,0
 1437482012,false,Headers in quoted content,https://github.com/whatwg/html/issues/8478,2022-11-06T17:38:39Z,2022-11-06T17:38:39Z,RappyPhan,,0
 1436601363,false,HD link and visited colors,https://github.com/whatwg/html/issues/8477,2022-11-04T20:10:00Z,2022-11-05T00:36:21Z,argyleink,,2
 1436258256,false,Canvas2D layers with filter support,https://github.com/whatwg/html/issues/8476,2022-11-04T15:26:41Z,2023-01-21T08:22:50Z,graveljp,addition/proposal|needs implementer interest|topic: canvas,0
@@ -2345,7 +2345,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 302576085,true,Imperative shadow DOM distribution API,https://github.com/whatwg/html/issues/3534,2018-03-06T06:11:35Z,2021-04-14T17:46:30Z,domenic,addition/proposal|topic: shadow,4
 302443675,true,template.insertAdjacentHTML() not consider as a part of template.contant,https://github.com/whatwg/html/issues/3533,2018-03-05T20:09:54Z,2018-03-06T08:41:54Z,perymimon,,0
 302381253,false,Something needs to define the actual behavior of load/error events on `<link>`,https://github.com/whatwg/html/issues/3532,2018-03-05T17:01:33Z,2020-07-06T17:41:40Z,bzbarsky,interop|topic: link|topic: style,0
-302368626,true,"Add autocomplete=""confirm-password"" to <input type=""password"">",https://github.com/whatwg/html/issues/3531,2018-03-05T16:29:59Z,2018-03-05T23:56:43Z,a2sheppy,,8
+302368626,true,"Add autocomplete=""confirm-password"" to <input type=""password"">",https://github.com/whatwg/html/issues/3531,2018-03-05T16:29:59Z,2023-02-14T22:55:14Z,a2sheppy,,9
 302304438,true,HTML Autocomplete,https://github.com/whatwg/html/issues/3530,2018-03-05T13:43:13Z,2018-03-06T08:44:30Z,Tushardk,,0
 302079793,false,Suggestion: event for when `currentSrc` changes,https://github.com/whatwg/html/issues/3529,2018-03-04T11:58:36Z,2018-03-06T08:56:04Z,OliverJAsh,addition/proposal|needs implementer interest|topic: img,2
 301997248,true,Why does BroadcastChannel.postMessage() throw an exception when called after close()?,https://github.com/whatwg/html/issues/3528,2018-03-03T13:12:41Z,2019-01-02T15:30:54Z,bakulf,normative change|topic: serialize and transfer,0
