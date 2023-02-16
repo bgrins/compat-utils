@@ -1,6 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1585369959,false,Should popover events bubble?,https://github.com/whatwg/html/issues/8888,2023-02-15T07:41:17Z,2023-02-15T20:45:21Z,nt1m,,0
-1583241797,false,Expand `:open`/`:closed` state to more elements,https://github.com/whatwg/html/issues/8884,2023-02-13T23:44:31Z,2023-02-14T13:22:09Z,nt1m,,0
+1587393467,false,Allow developers to deliver .wasm apps directly to their users,https://github.com/whatwg/html/issues/8899,2023-02-16T10:07:48Z,2023-02-16T10:07:48Z,sideshowbarker,,0
+1586963695,false,popover*targetElement IDL attributes can be misleading,https://github.com/whatwg/html/issues/8894,2023-02-16T03:58:05Z,2023-02-16T07:43:34Z,nt1m,topic: popover,0
+1586936990,false,Make <details> element use ToggleEvent interface,https://github.com/whatwg/html/issues/8892,2023-02-16T03:21:05Z,2023-02-16T03:47:48Z,nt1m,addition/proposal|topic: events,1
+1585369959,false,Should popover events bubble?,https://github.com/whatwg/html/issues/8888,2023-02-15T07:41:17Z,2023-02-16T07:43:33Z,nt1m,topic: popover,0
+1583241797,false,Expand `:open`/`:closed` state to more elements,https://github.com/whatwg/html/issues/8884,2023-02-13T23:44:31Z,2023-02-16T06:23:20Z,nt1m,topic: selectors,0
 1582395799,false,Named access on the Window object: `names` is used before it is defined.,https://github.com/whatwg/html/issues/8881,2023-02-13T13:55:15Z,2023-02-13T13:55:15Z,pygy,,0
 1581414494,true,"`{Dedicated,Shared}WorkerGlobalScope` instances should be immutable prototype exotic objects",https://github.com/whatwg/html/issues/8879,2023-02-12T21:23:21Z,2023-02-13T00:55:03Z,andreubotella,topic: workers,0
 1581227363,true,"Feature request: `import(url, {importmap: {...}})`",https://github.com/whatwg/html/issues/8877,2023-02-12T11:47:16Z,2023-02-15T06:48:35Z,szmarczak,,1
@@ -46,10 +49,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1531967499,true,document state's history policy container does not seem to be correctly updated,https://github.com/whatwg/html/issues/8725,2023-01-13T09:20:41Z,2023-01-24T04:21:55Z,antosart,,0
 1531618760,true,Seeking clarity regarding potential mis-implemented behaviour in Chromium,https://github.com/whatwg/html/issues/8724,2023-01-13T02:30:03Z,2023-01-18T04:34:50Z,texonidas,,0
 1531498858,true,Upcoming HTML standard issue triage meeting on 1/26/2023,https://github.com/whatwg/html/issues/8723,2023-01-12T23:52:38Z,2023-01-26T22:38:32Z,past,agenda+,0
-1530834734,false,Additional accessibility guidance for popover,https://github.com/whatwg/html/issues/8714,2023-01-12T14:42:51Z,2023-01-12T18:21:33Z,scottaohara,,0
+1530834734,false,Additional accessibility guidance for popover,https://github.com/whatwg/html/issues/8714,2023-01-12T14:42:51Z,2023-02-16T07:43:33Z,scottaohara,topic: popover,0
 1530043744,true,"""Nested navigable"" and ""child navigable"" are easy to confuse",https://github.com/whatwg/html/issues/8713,2023-01-12T03:40:54Z,2023-01-19T04:29:10Z,domenic,clarification|topic: browsing context,0
 1528456422,false,Is HTMLImgElement.decode() a cross-origin info channel?,https://github.com/whatwg/html/issues/8709,2023-01-11T05:29:17Z,2023-01-11T11:12:18Z,noamr,,1
-1528111766,false,Float16Array + HTML Canvas,https://github.com/whatwg/html/issues/8708,2023-01-10T22:41:56Z,2023-02-15T15:55:28Z,palemieux,addition/proposal|needs implementer interest|topic: canvas,1
+1528111766,false,Float16Array + HTML Canvas,https://github.com/whatwg/html/issues/8708,2023-01-10T22:41:56Z,2023-02-16T09:46:53Z,palemieux,addition/proposal|needs implementer interest|topic: canvas,1
 1528108331,false,Selecting text in the <summary> tag activates the details/summary (opens/closes the details tag),https://github.com/whatwg/html/issues/8707,2023-01-10T22:37:46Z,2023-01-12T13:18:14Z,gijsk,topic: events,0
 1527085260,true,How should I convert HTML to Plain Text?,https://github.com/whatwg/html/issues/8705,2023-01-10T09:54:24Z,2023-01-10T10:21:16Z,MAMPAgent,,0
 1524706667,true,"""The XML syntax for HTML was formerly referred t...""",https://github.com/whatwg/html/issues/8700,2023-01-08T22:23:56Z,2023-01-12T01:51:14Z,PuppyPi,,0
@@ -159,7 +162,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1413459881,false,"Add media attribute to details element, to restrict when it can be collapsed",https://github.com/whatwg/html/issues/8401,2022-10-18T15:47:01Z,2022-10-18T15:53:52Z,AmeliaBR,addition/proposal|topic: media|topic: style,0
 1412193626,false,Undefined behaviour when clicking a label which inside modal dialog that activates the form control,https://github.com/whatwg/html/issues/8399,2022-10-17T20:36:24Z,2022-10-18T07:34:18Z,sefeng211,topic: dialog,0
 1411193858,false,Is beforeunload fired in all cases?,https://github.com/whatwg/html/issues/8395,2022-10-17T09:07:40Z,2022-10-17T11:03:32Z,domenic,topic: navigation|interop|topic: javascript: URLs,0
-1408617737,false,"Add `beforeopen`, `afteropen`, `beforeclosed`, and `afterclosed` events?",https://github.com/whatwg/html/issues/8386,2022-10-13T20:28:56Z,2022-11-08T18:36:25Z,mfreed7,,0
+1408617737,true,"Add `beforeopen`, `afteropen`, `beforeclosed`, and `afterclosed` events?",https://github.com/whatwg/html/issues/8386,2022-10-13T20:28:56Z,2023-02-16T07:45:07Z,mfreed7,topic: popover,0
 1408292081,true,Upcoming HTML standard issue triage meeting on 10/27/2022,https://github.com/whatwg/html/issues/8385,2022-10-13T19:05:26Z,2022-10-27T16:57:55Z,past,agenda+,0
 1407210379,true,"Navigation requests destination always set to ""document""",https://github.com/whatwg/html/issues/8383,2022-10-13T06:16:54Z,2022-10-13T07:13:32Z,antosart,topic: navigation,0
 1403944971,false,User activation: what should happen if there is no browsing context?,https://github.com/whatwg/html/issues/8378,2022-10-11T03:26:37Z,2022-11-03T04:46:14Z,marcoscaceres,topic: user activation,0
@@ -399,7 +402,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1197653990,true,Upcoming HTML standard issue triage meeting on 5/5/2022,https://github.com/whatwg/html/issues/7802,2022-04-08T18:20:32Z,2022-05-31T23:34:56Z,past,agenda+,0
 1195606863,false,<canvas> width/height attributes can throw?,https://github.com/whatwg/html/issues/7798,2022-04-07T07:03:42Z,2022-04-15T02:43:36Z,annevk,topic: canvas,1
 1195293940,false,Require user gestures to accept registerProtocolHandler request,https://github.com/whatwg/html/issues/7797,2022-04-06T23:15:58Z,2023-01-23T00:15:11Z,javifernandez,topic: custom protocols,1
-1195246197,false,Inert subtree section is missing requirement that it should NOT be exposed to accessibility,https://github.com/whatwg/html/issues/7796,2022-04-06T22:26:44Z,2022-09-06T19:34:44Z,cookiecrook,,1
+1195246197,true,Inert subtree section is missing requirement that it should NOT be exposed to accessibility,https://github.com/whatwg/html/issues/7796,2022-04-06T22:26:44Z,2023-02-16T06:56:01Z,cookiecrook,,1
 1194256346,false,Feature proposal: input[mask],https://github.com/whatwg/html/issues/7794,2022-04-06T08:28:15Z,2022-04-06T17:05:28Z,Akxe,addition/proposal|needs implementer interest|topic: forms,2
 1193376515,true,EvenSource BOM definition,https://github.com/whatwg/html/issues/7791,2022-04-05T15:48:34Z,2022-04-05T17:33:02Z,johntalton,clarification|topic: eventsource,0
 1192965142,false,showPicker() doesn't allow detecting whether a picker can be shown,https://github.com/whatwg/html/issues/7790,2022-04-05T10:39:32Z,2022-04-05T17:13:15Z,emilio,topic: forms,3
@@ -1728,7 +1731,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 445428418,false,It is unclear how HostPromiseRejectionTracker should work when the Promise is created and rejected by the UA,https://github.com/whatwg/html/issues/4637,2019-05-17T12:54:38Z,2019-05-20T09:55:07Z,smaug----,topic: script,0
 445415497,true,MDN overlay makes content inaccessible,https://github.com/whatwg/html/issues/4635,2019-05-17T12:22:01Z,2019-10-08T06:11:50Z,Krinkle,,0
 445199038,true,"Fixed ""Categories:"" of autonomous-custom-element",https://github.com/whatwg/html/issues/4634,2019-05-16T23:21:57Z,2019-05-31T14:34:12Z,mtrootyy,clarification|document conformance|topic: custom elements,1
-445055689,false,Top layer research,https://github.com/whatwg/html/issues/4633,2019-05-16T16:41:22Z,2020-11-25T16:26:05Z,domenic,addition/proposal|topic: rendering,18
+445055689,false,Top layer research,https://github.com/whatwg/html/issues/4633,2019-05-16T16:41:22Z,2023-02-16T07:43:32Z,domenic,addition/proposal|topic: rendering|topic: popover,18
 444811229,true,"""flow content"" not exported as definition?",https://github.com/whatwg/html/issues/4632,2019-05-16T08:05:25Z,2019-09-19T06:04:19Z,marcoscaceres,,0
 444666582,false,`TimeMarchesOn` won't be ran until media element starts playing or calls seek,https://github.com/whatwg/html/issues/4631,2019-05-15T22:06:45Z,2019-06-03T14:42:02Z,alastor0325,topic: media,0
 444641423,false,Port the ECMAScript Intl API as declarative elements,https://github.com/whatwg/html/issues/4630,2019-05-15T20:56:28Z,2019-05-16T08:00:39Z,phistuck,addition/proposal|needs implementer interest|topic: forms,0
