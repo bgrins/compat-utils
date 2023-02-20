@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1585687811,false,Allow subclassing of AbortController / AbortSignal,https://github.com/whatwg/dom/issues/1162,2023-02-15T11:24:44Z,2023-02-15T18:13:29Z,keithamus,needs implementer interest|addition/proposal|needs concrete proposal|topic: aborting,0
-1582415032,false,MutationObserver GC section looks bogus,https://github.com/whatwg/dom/issues/1159,2023-02-13T14:06:25Z,2023-02-13T16:51:52Z,annevk,,0
+1582415032,true,MutationObserver GC section looks bogus,https://github.com/whatwg/dom/issues/1159,2023-02-13T14:06:25Z,2023-02-20T08:44:38Z,annevk,,0
 1578224949,false,[TAG review] Explain the difference between this.shadowRoot and this.internals.shadowRoot,https://github.com/whatwg/dom/issues/1158,2023-02-09T16:35:31Z,2023-02-10T12:50:19Z,rhiaro,clarification,0
 1578223062,false,[TAG review] Describe delegatesFocus propery,https://github.com/whatwg/dom/issues/1157,2023-02-09T16:34:18Z,2023-02-10T12:50:43Z,rhiaro,clarification,0
 1578190081,false,"[TAG review] Define ""is available to element internals flag""",https://github.com/whatwg/dom/issues/1156,2023-02-09T16:13:04Z,2023-02-10T12:50:56Z,rhiaro,clarification,0
@@ -200,10 +200,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 399011776,true,"Bad ""good first issue"" labels",https://github.com/whatwg/dom/issues/729,2019-01-14T18:14:18Z,2019-01-15T09:46:32Z,David263,,0
 391501114,true,Can the `options` argument to `EventTarget::addEventListener` be omitted?,https://github.com/whatwg/dom/issues/726,2018-12-16T20:18:15Z,2020-02-17T13:37:01Z,amn,,0
 391201134,false,Composed tree infrastructure,https://github.com/whatwg/dom/issues/725,2018-12-14T17:32:24Z,2019-01-14T12:56:05Z,annevk,topic: shadow,4
-386621224,false,"""Append mo to unit of related similar-origin bro...""",https://github.com/whatwg/dom/issues/720,2018-12-03T00:45:39Z,2018-12-04T10:34:21Z,domenic,clarification,0
+386621224,true,"""Append mo to unit of related similar-origin bro...""",https://github.com/whatwg/dom/issues/720,2018-12-03T00:45:39Z,2023-02-20T08:44:39Z,domenic,clarification,0
 386614313,true,"""If node is a Text node""",https://github.com/whatwg/dom/issues/719,2018-12-02T23:40:19Z,2021-08-31T11:11:26Z,domenic,clarification,0
 386489283,true,This text needs to be proof-read for phrasing and grammar.,https://github.com/whatwg/dom/issues/718,2018-12-01T19:32:36Z,2019-01-02T13:33:53Z,kizerkizer,good first issue|clarification,0
-376637622,false,MutationObserver invocation order,https://github.com/whatwg/dom/issues/713,2018-11-02T01:52:26Z,2018-12-14T07:03:59Z,pmdartus,topic: shadow|compat,0
+376637622,true,MutationObserver invocation order,https://github.com/whatwg/dom/issues/713,2018-11-02T01:52:26Z,2023-02-20T08:44:37Z,pmdartus,topic: shadow|compat,0
 373847025,false,Figure out if we want getComposedPath() for Event,https://github.com/whatwg/dom/issues/711,2018-10-25T09:10:58Z,2018-12-14T13:55:45Z,annevk,topic: events|addition/proposal,0
 373834836,true,"When moving APIs from other specs to DOM spec, ensure MDN is updated",https://github.com/whatwg/dom/issues/710,2018-10-25T08:41:07Z,2018-12-14T17:34:36Z,smaug----,impacts documentation,3
 372330263,true,[spec bug?] Element with name attribute breaks Document,https://github.com/whatwg/dom/issues/708,2018-10-21T16:08:36Z,2018-10-23T07:43:32Z,petamoriken,,0
