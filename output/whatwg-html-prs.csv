@@ -1,11 +1,21 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1591592259,false,"Export ""web worker""",https://github.com/whatwg/html/pull/8919,2023-02-20T10:43:25Z,2023-02-20T11:55:11Z,jakearchibald,,0
+1597014859,false,Fix url argument to WebDriver BiDi fragment navigated,https://github.com/whatwg/html/pull/8939,2023-02-23T14:57:33Z,2023-02-23T14:58:50Z,foolip,,0
+1595997662,true,Add onbeforetoggle to GlobalEventHandlers IDL definitions,https://github.com/whatwg/html/pull/8936,2023-02-22T23:37:24Z,2023-02-23T08:41:55Z,josepharhar,,0
+1595325213,false,Document naming convention for element-reflecting attributes,https://github.com/whatwg/html/pull/8933,2023-02-22T15:35:04Z,2023-02-22T16:58:50Z,annevk,clarification,0
+1595120297,false,Give ElementInternals element-reflecting attributes more power,https://github.com/whatwg/html/pull/8932,2023-02-22T13:37:16Z,2023-02-22T13:38:31Z,annevk,addition/proposal|needs implementer interest|topic: shadow|needs tests,0
+1595082040,false,Editorial: formalize reflect's default value,https://github.com/whatwg/html/pull/8931,2023-02-22T13:12:45Z,2023-02-22T13:14:24Z,annevk,clarification,0
+1592240634,true,"Export navigable's ""active browsing context""",https://github.com/whatwg/html/pull/8924,2023-02-20T17:33:09Z,2023-02-21T10:18:19Z,jakearchibald,,0
+1592228594,true,"Export ""map of active timers""",https://github.com/whatwg/html/pull/8923,2023-02-20T17:20:57Z,2023-02-21T04:23:58Z,jakearchibald,,0
+1592193300,true,"Export ""abort a running script""",https://github.com/whatwg/html/pull/8922,2023-02-20T16:55:47Z,2023-02-21T04:23:57Z,jakearchibald,,0
+1591902208,true,Export historyHandling param,https://github.com/whatwg/html/pull/8921,2023-02-20T13:45:53Z,2023-02-21T04:23:56Z,jakearchibald,,0
+1591803378,true,Export incumbent settings object,https://github.com/whatwg/html/pull/8920,2023-02-20T12:45:43Z,2023-02-21T04:24:00Z,jakearchibald,,0
+1591592259,true,Meta: export various terms used by Service Workers,https://github.com/whatwg/html/pull/8919,2023-02-20T10:43:25Z,2023-02-21T09:10:06Z,jakearchibald,meta,0
 1587259107,false,"Add ""regaining document full activity steps""",https://github.com/whatwg/html/pull/8897,2023-02-16T08:36:54Z,2023-02-17T06:30:00Z,rakina,,0
 1586949254,false,Use ToggleEvent for <details> element toggle event,https://github.com/whatwg/html/pull/8893,2023-02-16T03:38:18Z,2023-02-17T16:53:12Z,nt1m,addition/proposal|topic: events,0
-1586841521,false,Change exception thrown when popover attribute is not present,https://github.com/whatwg/html/pull/8891,2023-02-16T01:25:18Z,2023-02-17T21:49:50Z,josepharhar,topic: popover,0
+1586841521,false,Change exception thrown when popover attribute is not present,https://github.com/whatwg/html/pull/8891,2023-02-16T01:25:18Z,2023-02-23T09:15:46Z,josepharhar,topic: popover,0
 1585413980,true,Correct canceling popovers step,https://github.com/whatwg/html/pull/8889,2023-02-15T08:17:51Z,2023-02-16T08:28:27Z,annevk,topic: popover,0
 1585301417,false,"Fix ""document-tree child navigable target name property set""",https://github.com/whatwg/html/pull/8887,2023-02-15T06:33:21Z,2023-02-15T06:35:01Z,domenic,topic: browsing context,1
-1584839535,false,"Add ""hide all popovers"" algorithm",https://github.com/whatwg/html/pull/8886,2023-02-14T21:12:09Z,2023-02-17T18:00:14Z,josepharhar,topic: popover,0
+1584839535,true,"Add ""hide all popovers"" algorithm",https://github.com/whatwg/html/pull/8886,2023-02-14T21:12:09Z,2023-02-23T08:38:46Z,josepharhar,topic: popover,0
 1584809177,true,Export some popover dfns,https://github.com/whatwg/html/pull/8885,2023-02-14T20:51:09Z,2023-02-17T17:28:42Z,josepharhar,meta|topic: popover,1
 1577842845,true,33,https://github.com/whatwg/html/pull/8871,2023-02-09T12:52:48Z,2023-02-12T20:41:04Z,TRCREO,spam,0
 1571305156,true,Editorial: correct popover IDL,https://github.com/whatwg/html/pull/8860,2023-02-05T08:02:34Z,2023-02-06T06:32:33Z,annevk,,0
@@ -45,7 +55,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1481269321,true,"Re-spec <meta name=""referrer""> to match browsers",https://github.com/whatwg/html/pull/8587,2022-12-07T07:58:20Z,2022-12-08T07:49:02Z,domenic,normative change|compat,0
 1476289857,true,Editorial: document.domain uses scalar value strings,https://github.com/whatwg/html/pull/8584,2022-12-05T11:04:23Z,2022-12-05T22:57:01Z,annevk,,0
 1473435565,true,Provide data-dfn-type to CSS <source-size-*>,https://github.com/whatwg/html/pull/8579,2022-12-02T20:55:53Z,2023-01-11T05:35:52Z,cdoublev,,0
-1471124460,false,Use DOM definition of Attr/reflect,https://github.com/whatwg/html/pull/8575,2022-12-01T11:10:19Z,2022-12-01T11:50:21Z,dontcallmedom,,0
+1471124460,false,Use DOM definition of Attr/reflect,https://github.com/whatwg/html/pull/8575,2022-12-01T11:10:19Z,2023-02-22T15:44:20Z,dontcallmedom,,0
 1471102185,true,Remove duplicate definition of col attribute,https://github.com/whatwg/html/pull/8574,2022-12-01T10:57:35Z,2022-12-01T11:31:59Z,dontcallmedom,,0
 1471048051,true,Collapse disowned into opener browsing context,https://github.com/whatwg/html/pull/8573,2022-12-01T10:16:48Z,2023-02-15T07:35:18Z,annevk,clarification|topic: browsing context,0
 1470894523,true,"Add <del> and <picture> to the ""palpable content"" category",https://github.com/whatwg/html/pull/8571,2022-12-01T08:31:41Z,2022-12-05T21:18:59Z,rdeltour,,0
@@ -69,10 +79,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1450508581,true,Correct orphaned variable sandboxFlags to use targetSnapshotParams.,https://github.com/whatwg/html/pull/8512,2022-11-15T23:07:28Z,2022-11-17T03:04:06Z,jeremyroman,,0
 1449664827,true,Meta: zcorpan's employed changed,https://github.com/whatwg/html/pull/8508,2022-11-15T11:58:39Z,2022-11-15T12:33:40Z,zcorpan,,0
 1448000463,false,Support taler: URLs in registerProtocolHandler(),https://github.com/whatwg/html/pull/8503,2022-11-14T12:48:41Z,2022-11-18T22:32:21Z,grothoff,,0
-1447758651,false,Add the navigation API,https://github.com/whatwg/html/pull/8502,2022-11-14T10:08:04Z,2023-02-20T04:58:29Z,domenic,topic: navigation|topic: history,1
+1447758651,false,Add the navigation API,https://github.com/whatwg/html/pull/8502,2022-11-14T10:08:04Z,2023-02-22T03:01:50Z,domenic,topic: navigation|topic: history,1
 1447376783,true,Add page visibility change steps for Screen Orientation,https://github.com/whatwg/html/pull/8501,2022-11-14T04:40:42Z,2022-12-16T22:05:13Z,marcoscaceres,,0
 1447276651,true,Editorial: simplify session history serialized state,https://github.com/whatwg/html/pull/8500,2022-11-14T02:45:58Z,2022-11-15T01:02:16Z,domenic,clarification|topic: history,0
-1445641023,false,Make reflect work for ElementInternals,https://github.com/whatwg/html/pull/8496,2022-11-11T15:32:49Z,2023-02-17T18:54:54Z,annevk,accessibility|topic: custom elements,0
+1445641023,true,Make reflect work for ElementInternals,https://github.com/whatwg/html/pull/8496,2022-11-11T15:32:49Z,2023-02-22T10:39:41Z,annevk,accessibility|topic: custom elements,0
 1444954006,false,Fix the steps to find a point on an ellipse,https://github.com/whatwg/html/pull/8495,2022-11-11T05:28:30Z,2023-01-11T17:57:33Z,Kaiido,topic: canvas,0
 1441749959,true,Update README.md,https://github.com/whatwg/html/pull/8488,2022-11-09T09:37:28Z,2022-11-13T16:00:23Z,EvaKraychek,spam,0
 1441219248,false,Expand non-fetch-scheme navigation params to include more,https://github.com/whatwg/html/pull/8485,2022-11-09T02:01:44Z,2022-11-10T06:09:27Z,domfarolino,,0
@@ -536,7 +546,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 959273707,true,Append missing cases in the switch statement,https://github.com/whatwg/html/pull/6930,2021-08-03T16:08:49Z,2021-08-03T19:06:59Z,bangseongbeom,,0
 957710568,true,Editorial: Correct StructuredSerializeInternal IsSharedArrayBuffer conditional branch,https://github.com/whatwg/html/pull/6924,2021-08-02T03:45:53Z,2021-08-02T04:17:00Z,legendecas,,0
 957228717,true,Added jump on spot function in index.html,https://github.com/whatwg/html/pull/6923,2021-07-31T11:35:39Z,2021-07-31T15:23:48Z,Karen1240,spam,0
-957037648,false,Add navigation hooks for WebDriver BiDi history traversal,https://github.com/whatwg/html/pull/6921,2021-07-30T20:22:27Z,2022-11-25T16:52:03Z,jgraham,topic: history,0
+957037648,false,Add navigation hooks for WebDriver BiDi history traversal,https://github.com/whatwg/html/pull/6921,2021-07-30T20:22:27Z,2023-02-23T14:59:16Z,jgraham,topic: history,0
 956215105,true,Fix best practices for handling media elements.,https://github.com/whatwg/html/pull/6916,2021-07-29T21:19:23Z,2021-08-03T17:59:56Z,dalecurtis,topic: media,0
 955139140,true,Update HTML Drag-and-Drop steps to include pointercancel firing.,https://github.com/whatwg/html/pull/6912,2021-07-28T18:43:25Z,2021-07-30T22:26:43Z,mustaqahmed,,0
 954520276,true,Update Canvas 2d attribute names,https://github.com/whatwg/html/pull/6906,2021-07-28T06:24:35Z,2023-01-04T16:32:53Z,yiyix,normative change|topic: canvas,0
@@ -1800,7 +1810,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 292202759,true,Dev edition: hide IANA considerations,https://github.com/whatwg/html/pull/3417,2018-01-28T13:00:24Z,2018-02-05T16:07:15Z,annevk,dev edition,0
 292201554,true,Make example match address's definition,https://github.com/whatwg/html/pull/3416,2018-01-28T12:41:19Z,2018-01-28T17:07:28Z,annevk,,0
 292187096,true,Clarify disabled for option/optgroup is defined separately,https://github.com/whatwg/html/pull/3415,2018-01-28T08:11:52Z,2018-01-28T18:15:21Z,annevk,clarification,0
-292156496,true,Expose structuredClone,https://github.com/whatwg/html/pull/3414,2018-01-27T22:03:46Z,2021-12-22T12:33:57Z,surma,needs implementer interest|topic: serialize and transfer|impacts documentation,85
+292156496,true,Expose structuredClone,https://github.com/whatwg/html/pull/3414,2018-01-27T22:03:46Z,2021-12-22T12:33:57Z,surma,needs implementer interest|topic: serialize and transfer|impacts documentation,86
 291983948,true,Cleanup Path2D constructor,https://github.com/whatwg/html/pull/3409,2018-01-26T18:03:13Z,2018-01-28T12:15:12Z,annevk,normative change|removal/deprecation|topic: canvas|needs tests,0
 291946012,true," Make createImageBitmap() share more logic ",https://github.com/whatwg/html/pull/3408,2018-01-26T15:57:09Z,2018-01-29T08:41:12Z,annevk,topic: canvas,0
 291877304,true,Correct putImageData() throwing condition,https://github.com/whatwg/html/pull/3406,2018-01-26T11:41:49Z,2018-01-26T17:12:31Z,annevk,topic: canvas,0
