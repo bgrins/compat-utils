@@ -1,4 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1597672687,false,Upcoming HTML standard issue triage meeting on 3/9/2023,https://github.com/whatwg/html/issues/8942,2023-02-23T23:40:16Z,2023-02-23T23:40:16Z,past,agenda+,0
+1597559482,false,Difference between auto popover list and filtered top layer?,https://github.com/whatwg/html/issues/8941,2023-02-23T21:35:03Z,2023-02-23T23:22:12Z,nt1m,,0
 1596728947,false,Add `userValid` to `ValidityState`,https://github.com/whatwg/html/issues/8938,2023-02-23T11:59:04Z,2023-02-23T11:59:04Z,jacobrask,,0
 1596127712,true,Missing removing steps for popover,https://github.com/whatwg/html/issues/8937,2023-02-23T02:48:37Z,2023-02-23T03:01:45Z,nt1m,,0
 1595987306,true,Missing onbeforetoggle IDL definition?,https://github.com/whatwg/html/issues/8935,2023-02-22T23:25:18Z,2023-02-23T08:41:44Z,nt1m,,0
@@ -14,7 +16,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1588826401,false,"""unloading document cleanup steps"" run in an unclear order",https://github.com/whatwg/html/issues/8906,2023-02-17T06:35:28Z,2023-02-17T06:35:28Z,domenic,,0
 1588690305,false,The previous focus change that was applied to dialog close has unexpected behavior for non-modal dialogs,https://github.com/whatwg/html/issues/8904,2023-02-17T03:18:23Z,2023-02-17T16:51:22Z,sirisian,,0
 1587393467,false,Allow developers to deliver .wasm apps directly to their users,https://github.com/whatwg/html/issues/8899,2023-02-16T10:07:48Z,2023-02-16T10:07:48Z,sideshowbarker,,0
-1586963695,false,popover*targetElement IDL attributes can be misleading,https://github.com/whatwg/html/issues/8894,2023-02-16T03:58:05Z,2023-02-21T16:43:25Z,nt1m,topic: popover,0
+1586963695,false,popover*targetElement IDL attributes can be misleading,https://github.com/whatwg/html/issues/8894,2023-02-16T03:58:05Z,2023-02-23T19:49:10Z,nt1m,topic: popover,0
 1586936990,false,Make <details> element use ToggleEvent interface,https://github.com/whatwg/html/issues/8892,2023-02-16T03:21:05Z,2023-02-16T03:47:48Z,nt1m,addition/proposal|topic: events,1
 1585369959,true,Should popover events bubble?,https://github.com/whatwg/html/issues/8888,2023-02-15T07:41:17Z,2023-02-22T19:55:43Z,nt1m,needs tests|topic: popover,0
 1583241797,false,Expand `:open`/`:closed` state to more elements,https://github.com/whatwg/html/issues/8884,2023-02-13T23:44:31Z,2023-02-16T06:23:20Z,nt1m,topic: selectors,0
@@ -23,7 +25,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1581227363,true,"Feature request: `import(url, {importmap: {...}})`",https://github.com/whatwg/html/issues/8877,2023-02-12T11:47:16Z,2023-02-15T06:48:35Z,szmarczak,,1
 1580485988,false,Non-typical slot uses,https://github.com/whatwg/html/issues/8876,2023-02-10T23:34:17Z,2023-02-10T23:34:17Z,szmarczak,,0
 1580163957,false,Proposal: Add a `resizeend` event to the Window,https://github.com/whatwg/html/issues/8874,2023-02-10T18:50:00Z,2023-02-13T20:27:53Z,thegreatercurve,,2
-1578330560,false,Upcoming HTML standard issue triage meeting on 2/23/2023,https://github.com/whatwg/html/issues/8873,2023-02-09T17:43:46Z,2023-02-15T06:39:04Z,past,agenda+,0
+1578330560,true,Upcoming HTML standard issue triage meeting on 2/23/2023,https://github.com/whatwg/html/issues/8873,2023-02-09T17:43:46Z,2023-02-23T23:50:07Z,past,agenda+,0
 1578001480,false,"Make a way to listen to ""fully active"" state changes",https://github.com/whatwg/html/issues/8872,2023-02-09T14:32:54Z,2023-02-10T13:47:15Z,rakina,integration,0
 1577757378,true,SVGs in <use> cannot be preloaded with a link@rel=preload,https://github.com/whatwg/html/issues/8870,2023-02-09T11:58:48Z,2023-02-15T06:47:26Z,Boldewyn,,0
 1577445089,false,Should strict MIME type for importScripts() also be enforced on local URLs?,https://github.com/whatwg/html/issues/8869,2023-02-09T08:20:18Z,2023-02-10T08:58:56Z,Kaiido,topic: workers|interop,0
@@ -121,7 +123,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1463488301,true,`blocking=render` in preload and modulepreload links,https://github.com/whatwg/html/issues/8550,2022-11-24T15:10:56Z,2023-01-10T08:12:24Z,NiedziolkaMichal,,0
 1463157497,true,HTMLInputElement.list should be an HTMLDataListElement,https://github.com/whatwg/html/issues/8547,2022-11-24T10:55:57Z,2022-11-24T14:56:30Z,emilio,,0
 1462804756,false,"Should ""ignore higher-layer caching"" flag get a definition?",https://github.com/whatwg/html/issues/8546,2022-11-24T06:01:25Z,2022-11-24T06:03:01Z,karlcow,,0
-1462764097,false,GC for cached attr-associated elements?,https://github.com/whatwg/html/issues/8545,2022-11-24T05:03:47Z,2023-02-20T17:55:22Z,alice,agenda+,0
+1462764097,false,GC for cached attr-associated elements?,https://github.com/whatwg/html/issues/8545,2022-11-24T05:03:47Z,2023-02-23T23:36:36Z,alice,,0
 1462756977,false,Shadow DOM and ElementInternals ARIAMixin properties,https://github.com/whatwg/html/issues/8544,2022-11-24T04:53:36Z,2023-02-22T13:37:59Z,alice,topic: shadow|topic: custom elements|agenda+,0
 1461018906,false,Is it possible to allow `<a>` elements to nest within each other in the future?,https://github.com/whatwg/html/issues/8541,2022-11-23T05:01:58Z,2022-12-06T17:50:58Z,LIXiangChen,,0
 1459558712,false,An iframe whose history can be transferred across parent navigations,https://github.com/whatwg/html/issues/8538,2022-11-22T10:15:42Z,2022-11-22T12:24:19Z,jakearchibald,,14
@@ -1292,7 +1294,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 608634360,false,window.focus() vs system level focus of the window/tab,https://github.com/whatwg/html/issues/5493,2020-04-28T21:41:11Z,2020-08-12T00:18:35Z,mustaqahmed,interop|topic: focus,0
 608243971,false,marquee element and display,https://github.com/whatwg/html/issues/5492,2020-04-28T11:29:56Z,2020-04-28T11:29:56Z,annevk,topic: rendering,0
 607201372,false,Should draggable and <link href> elements be focusable?,https://github.com/whatwg/html/issues/5490,2020-04-27T03:22:04Z,2020-04-27T07:00:17Z,TimothyGu,topic: focus|topic: link,0
-607136818,false,"<input type=""time""> : Time vs. duration",https://github.com/whatwg/html/issues/5488,2020-04-26T23:06:14Z,2023-02-10T09:42:06Z,d-damien,addition/proposal|needs implementer interest|topic: forms|i18n-tracker|agenda+,0
+607136818,false,"<input type=""time""> : Time vs. duration",https://github.com/whatwg/html/issues/5488,2020-04-26T23:06:14Z,2023-02-23T23:37:05Z,d-damien,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,0
 607075310,true,contenteditable elements should be focusable areas,https://github.com/whatwg/html/issues/5487,2020-04-26T18:05:58Z,2020-04-28T14:02:21Z,TimothyGu,topic: editing,1
 607073471,true,execCommand.html dead link,https://github.com/whatwg/html/issues/5486,2020-04-26T17:59:13Z,2020-06-25T14:09:04Z,TimothyGu,topic: editing,0
 606781021,true,Clarify sync vs async nature of Worker::postMessage,https://github.com/whatwg/html/issues/5485,2020-04-25T14:28:53Z,2020-04-28T11:40:07Z,RReverser,topic: serialize and transfer,0
@@ -3069,7 +3071,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 200170460,true,Integrate SharedArrayBuffers,https://github.com/whatwg/html/issues/2260,2017-01-11T18:25:12Z,2017-04-28T07:38:32Z,domenic,addition/proposal|topic: serialize and transfer,0
 200152591,false,Add sandbox attribute for allow-pointer-capture,https://github.com/whatwg/html/issues/2259,2017-01-11T17:12:08Z,2018-01-23T16:23:07Z,RByers,integration,0
 199972215,false,Should preventDefault() on events affect to the behavior of UA provided interactive elements like the default UI of <audio> and <video>,https://github.com/whatwg/html/issues/2258,2017-01-11T00:29:04Z,2018-07-21T03:52:21Z,smaug----,topic: events,0
-199814411,false,Standardize <template> variables and event handlers,https://github.com/whatwg/html/issues/2254,2017-01-10T12:57:10Z,2021-05-18T09:17:06Z,Mevrael,addition/proposal|needs implementer interest|topic: events,37
+199814411,false,Standardize <template> variables and event handlers,https://github.com/whatwg/html/issues/2254,2017-01-10T12:57:10Z,2021-05-18T09:17:06Z,Mevrael,addition/proposal|needs implementer interest|topic: events,38
 199778666,false,Consider restricting form submissions containing unclosed `<textarea>` or `<select>` elements.,https://github.com/whatwg/html/issues/2253,2017-01-10T10:03:27Z,2017-07-31T00:07:11Z,mikewest,normative change|security/privacy|topic: forms,0
 199771356,true,Consider restricting form submissions containing `<plaintext>`.,https://github.com/whatwg/html/issues/2252,2017-01-10T09:29:49Z,2017-01-12T00:18:37Z,mikewest,normative change|security/privacy|topic: forms,2
 199619250,true,Make underscore-prefixed attributes formally valid (works AS IS in all existing browsers),https://github.com/whatwg/html/issues/2250,2017-01-09T17:58:59Z,2017-01-19T11:57:08Z,Marat-Tanalin,addition/proposal|document conformance,8
