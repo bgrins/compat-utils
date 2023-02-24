@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1597014859,false,Editorial: fix url argument to WebDriver BiDi fragment navigated,https://github.com/whatwg/html/pull/8939,2023-02-23T14:57:33Z,2023-02-23T17:06:07Z,foolip,,0
+1598347237,false,Skip parts of form submission when the method is dialog,https://github.com/whatwg/html/pull/8943,2023-02-24T10:29:21Z,2023-02-24T10:30:42Z,annevk,,0
+1597014859,true,Editorial: fix url argument to WebDriver BiDi fragment navigated,https://github.com/whatwg/html/pull/8939,2023-02-23T14:57:33Z,2023-02-24T03:27:59Z,foolip,,0
 1595997662,true,Add onbeforetoggle to GlobalEventHandlers IDL definitions,https://github.com/whatwg/html/pull/8936,2023-02-22T23:37:24Z,2023-02-23T08:41:55Z,josepharhar,,0
 1595325213,false,Document naming convention for element-reflecting attributes,https://github.com/whatwg/html/pull/8933,2023-02-22T15:35:04Z,2023-02-22T16:58:50Z,annevk,clarification,0
 1595120297,false,Give ElementInternals element-reflecting attributes more power,https://github.com/whatwg/html/pull/8932,2023-02-22T13:37:16Z,2023-02-22T13:38:31Z,annevk,addition/proposal|needs implementer interest|topic: shadow|needs tests,0
@@ -55,7 +56,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1481269321,true,"Re-spec <meta name=""referrer""> to match browsers",https://github.com/whatwg/html/pull/8587,2022-12-07T07:58:20Z,2022-12-08T07:49:02Z,domenic,normative change|compat,0
 1476289857,true,Editorial: document.domain uses scalar value strings,https://github.com/whatwg/html/pull/8584,2022-12-05T11:04:23Z,2022-12-05T22:57:01Z,annevk,,0
 1473435565,true,Provide data-dfn-type to CSS <source-size-*>,https://github.com/whatwg/html/pull/8579,2022-12-02T20:55:53Z,2023-01-11T05:35:52Z,cdoublev,,0
-1471124460,false,Use DOM definition of Attr/reflect,https://github.com/whatwg/html/pull/8575,2022-12-01T11:10:19Z,2023-02-22T15:44:20Z,dontcallmedom,,0
+1471124460,true,Use DOM definition of Attr/reflect,https://github.com/whatwg/html/pull/8575,2022-12-01T11:10:19Z,2023-02-24T08:33:34Z,dontcallmedom,,0
 1471102185,true,Remove duplicate definition of col attribute,https://github.com/whatwg/html/pull/8574,2022-12-01T10:57:35Z,2022-12-01T11:31:59Z,dontcallmedom,,0
 1471048051,true,Collapse disowned into opener browsing context,https://github.com/whatwg/html/pull/8573,2022-12-01T10:16:48Z,2023-02-15T07:35:18Z,annevk,clarification|topic: browsing context,0
 1470894523,true,"Add <del> and <picture> to the ""palpable content"" category",https://github.com/whatwg/html/pull/8571,2022-12-01T08:31:41Z,2022-12-05T21:18:59Z,rdeltour,,0
@@ -79,11 +80,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1450508581,true,Correct orphaned variable sandboxFlags to use targetSnapshotParams.,https://github.com/whatwg/html/pull/8512,2022-11-15T23:07:28Z,2022-11-17T03:04:06Z,jeremyroman,,0
 1449664827,true,Meta: zcorpan's employed changed,https://github.com/whatwg/html/pull/8508,2022-11-15T11:58:39Z,2022-11-15T12:33:40Z,zcorpan,,0
 1448000463,false,Support taler: URLs in registerProtocolHandler(),https://github.com/whatwg/html/pull/8503,2022-11-14T12:48:41Z,2022-11-18T22:32:21Z,grothoff,,0
-1447758651,false,Add the navigation API,https://github.com/whatwg/html/pull/8502,2022-11-14T10:08:04Z,2023-02-22T03:01:50Z,domenic,topic: navigation|topic: history,1
+1447758651,false,Add the navigation API,https://github.com/whatwg/html/pull/8502,2022-11-14T10:08:04Z,2023-02-24T01:17:38Z,domenic,topic: navigation|topic: history,1
 1447376783,true,Add page visibility change steps for Screen Orientation,https://github.com/whatwg/html/pull/8501,2022-11-14T04:40:42Z,2022-12-16T22:05:13Z,marcoscaceres,,0
 1447276651,true,Editorial: simplify session history serialized state,https://github.com/whatwg/html/pull/8500,2022-11-14T02:45:58Z,2022-11-15T01:02:16Z,domenic,clarification|topic: history,0
 1445641023,true,Make reflect work for ElementInternals,https://github.com/whatwg/html/pull/8496,2022-11-11T15:32:49Z,2023-02-22T10:39:41Z,annevk,accessibility|topic: custom elements,0
-1444954006,false,Fix the steps to find a point on an ellipse,https://github.com/whatwg/html/pull/8495,2022-11-11T05:28:30Z,2023-01-11T17:57:33Z,Kaiido,topic: canvas,0
+1444954006,true,Fix the steps to find a point on an ellipse,https://github.com/whatwg/html/pull/8495,2022-11-11T05:28:30Z,2023-02-24T01:04:53Z,Kaiido,topic: canvas,0
 1441749959,true,Update README.md,https://github.com/whatwg/html/pull/8488,2022-11-09T09:37:28Z,2022-11-13T16:00:23Z,EvaKraychek,spam,0
 1441219248,false,Expand non-fetch-scheme navigation params to include more,https://github.com/whatwg/html/pull/8485,2022-11-09T02:01:44Z,2022-11-10T06:09:27Z,domfarolino,,0
 1438727224,true,Adjust adjective used to describe Jake Archibald.,https://github.com/whatwg/html/pull/8482,2022-11-07T17:32:05Z,2022-11-08T14:36:08Z,jeremyroman,,0
