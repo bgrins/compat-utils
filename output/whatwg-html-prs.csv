@@ -13,7 +13,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1591592259,true,Meta: export various terms used by Service Workers,https://github.com/whatwg/html/pull/8919,2023-02-20T10:43:25Z,2023-02-21T09:10:06Z,jakearchibald,meta,0
 1587259107,false,"Add ""regaining document full activity steps""",https://github.com/whatwg/html/pull/8897,2023-02-16T08:36:54Z,2023-02-17T06:30:00Z,rakina,,0
 1586949254,false,Use ToggleEvent for <details> element toggle event,https://github.com/whatwg/html/pull/8893,2023-02-16T03:38:18Z,2023-02-17T16:53:12Z,nt1m,addition/proposal|topic: events,0
-1586841521,false,Change exception thrown when popover attribute is not present,https://github.com/whatwg/html/pull/8891,2023-02-16T01:25:18Z,2023-02-23T09:15:46Z,josepharhar,topic: popover,0
+1586841521,false,Change exception thrown when popover attribute is not present,https://github.com/whatwg/html/pull/8891,2023-02-16T01:25:18Z,2023-02-24T20:02:33Z,josepharhar,topic: popover,0
 1585413980,true,Correct canceling popovers step,https://github.com/whatwg/html/pull/8889,2023-02-15T08:17:51Z,2023-02-16T08:28:27Z,annevk,topic: popover,0
 1585301417,false,"Fix ""document-tree child navigable target name property set""",https://github.com/whatwg/html/pull/8887,2023-02-15T06:33:21Z,2023-02-15T06:35:01Z,domenic,topic: browsing context,1
 1584839535,true,"Add ""hide all popovers"" algorithm",https://github.com/whatwg/html/pull/8886,2023-02-14T21:12:09Z,2023-02-23T08:38:46Z,josepharhar,topic: popover,0
@@ -42,7 +42,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1529820271,true,"Rename createImageBitMaps's imageOrientation from ""none"" to ""from-image""",https://github.com/whatwg/html/pull/8710,2023-01-11T22:44:22Z,2023-01-17T06:19:23Z,yiyix,normative change|topic: canvas|impacts documentation,0
 1525408628,true,Editorial: remove conformance text around limits,https://github.com/whatwg/html/pull/8703,2023-01-09T11:31:18Z,2023-01-16T09:13:58Z,annevk,,0
 1524575537,true,Editorial: Add alternatives for broken drafts.csswg.org reference links,https://github.com/whatwg/html/pull/8699,2023-01-08T16:19:06Z,2023-01-17T00:55:00Z,gibson042,,0
-1522890101,false,[WIP] Change createImageBitMaps's imageOrientation attributes,https://github.com/whatwg/html/pull/8687,2023-01-06T17:12:57Z,2023-01-23T15:50:02Z,yiyix,,0
+1522890101,false,[WIP] Change createImageBitMaps's imageOrientation attributes,https://github.com/whatwg/html/pull/8687,2023-01-06T17:12:57Z,2023-02-24T21:54:33Z,yiyix,,0
 1522704606,true,Fix COOP enforcement in redirects,https://github.com/whatwg/html/pull/8686,2023-01-06T14:52:52Z,2023-01-18T05:34:56Z,hemeryar,topic: navigation|topic: cross-origin-opener-policy,0
 1519578944,true,Fixes transposed words.,https://github.com/whatwg/html/pull/8676,2023-01-04T21:13:39Z,2023-01-10T07:01:12Z,ChristopherFritz,,0
 1507345020,false,Report fallback resource timing for no-TAO iframes,https://github.com/whatwg/html/pull/8643,2022-12-22T06:34:59Z,2023-02-03T01:55:41Z,noamr,,0
@@ -95,7 +95,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1435209005,true,Add the Priority Hints changes to the html spec,https://github.com/whatwg/html/pull/8470,2022-11-03T20:16:05Z,2023-02-17T06:10:16Z,pmeenan,,0
 1434547038,true,Export rendering opportunity,https://github.com/whatwg/html/pull/8468,2022-11-03T12:02:44Z,2022-11-04T01:16:10Z,jakearchibald,,0
 1433914646,false,Add custom state pseudo class,https://github.com/whatwg/html/pull/8467,2022-11-02T23:30:52Z,2023-01-13T10:48:27Z,josepharhar,,0
-1433818435,false,"Add ""user attention"" definition to top-level traversable.",https://github.com/whatwg/html/pull/8466,2022-11-02T21:38:28Z,2022-11-05T01:21:32Z,jan-ivar,,0
+1433818435,false,"Add ""user attention"" definition to top-level traversable.",https://github.com/whatwg/html/pull/8466,2022-11-02T21:38:28Z,2023-02-24T12:48:54Z,jan-ivar,topic: focus|integration,0
 1433811063,true,Missing commas in JSON examples,https://github.com/whatwg/html/pull/8465,2022-11-02T21:30:36Z,2022-11-03T04:53:26Z,NiedziolkaMichal,,0
 1431810817,true,Export nested navigable,https://github.com/whatwg/html/pull/8462,2022-11-01T17:31:41Z,2022-11-02T14:38:39Z,domfarolino,,0
 1431420338,false,Do not forward onscrollend events to the window.,https://github.com/whatwg/html/pull/8461,2022-11-01T13:20:08Z,2022-11-28T16:11:09Z,dlrobertson,,0
@@ -619,7 +619,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 911696257,true,Restore navigator.plugins and navigator.mimeTypes as PDF-focused,https://github.com/whatwg/html/pull/6738,2021-06-04T17:09:58Z,2021-07-13T17:59:17Z,domenic,interop|impacts documentation,0
 911537288,true,Editorial: omit developer-only content from snapshots too,https://github.com/whatwg/html/pull/6737,2021-06-04T14:08:32Z,2021-06-17T17:09:26Z,domenic,dev edition,0
 911466543,true,HTML parser: handle </br> and </p> in SVG,https://github.com/whatwg/html/pull/6736,2021-06-04T12:43:33Z,2021-06-23T23:09:20Z,zcorpan,normative change|compat|topic: parser|interop,0
-910834891,true,"Add a ""cancel"" event for when file upload selection is unchanged",https://github.com/whatwg/html/pull/6735,2021-06-03T20:36:40Z,2022-12-05T05:03:04Z,domenic,addition/proposal|topic: forms|topic: events|agenda+,1
+910834891,true,"Add a ""cancel"" event for when file upload selection is unchanged",https://github.com/whatwg/html/pull/6735,2021-06-03T20:36:40Z,2023-02-24T15:36:11Z,domenic,addition/proposal|topic: forms|topic: events|agenda+,1
 902866693,true,Specify window.clientInformation and Navigator lifetime,https://github.com/whatwg/html/pull/6721,2021-05-26T20:08:17Z,2021-06-17T17:11:46Z,domenic,addition/proposal|interop,0
 901263226,true,Fixes to stopping document loading,https://github.com/whatwg/html/pull/6720,2021-05-25T19:31:30Z,2021-05-26T16:19:18Z,domenic,removal/deprecation|topic: navigation|impacts documentation,0
 900826557,true,target's TLBC made to target BC's TLBC in has focus steps,https://github.com/whatwg/html/pull/6717,2021-05-25T13:38:38Z,2021-06-17T20:04:25Z,Patil2099,topic: focus,0
