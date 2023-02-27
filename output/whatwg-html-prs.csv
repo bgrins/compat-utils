@@ -1,10 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1598347237,false,Skip parts of form submission when the method is dialog,https://github.com/whatwg/html/pull/8943,2023-02-24T10:29:21Z,2023-02-24T10:30:42Z,annevk,,0
+1600468102,true,Preconnect: anonymous links should *not* send credentials,https://github.com/whatwg/html/pull/8957,2023-02-27T04:52:09Z,2023-02-27T06:44:04Z,noamr,,0
+1598347237,false,Skip parts of form submission when the method is dialog,https://github.com/whatwg/html/pull/8943,2023-02-24T10:29:21Z,2023-02-27T04:04:46Z,annevk,needs tests|topic: dialog,0
 1597014859,true,Editorial: fix url argument to WebDriver BiDi fragment navigated,https://github.com/whatwg/html/pull/8939,2023-02-23T14:57:33Z,2023-02-24T03:27:59Z,foolip,,0
 1595997662,true,Add onbeforetoggle to GlobalEventHandlers IDL definitions,https://github.com/whatwg/html/pull/8936,2023-02-22T23:37:24Z,2023-02-23T08:41:55Z,josepharhar,,0
-1595325213,false,Document naming convention for element-reflecting attributes,https://github.com/whatwg/html/pull/8933,2023-02-22T15:35:04Z,2023-02-22T16:58:50Z,annevk,clarification,0
+1595325213,false,Document naming convention for element-reflecting attributes,https://github.com/whatwg/html/pull/8933,2023-02-22T15:35:04Z,2023-02-27T04:05:34Z,annevk,clarification,0
 1595120297,false,Give ElementInternals element-reflecting attributes more power,https://github.com/whatwg/html/pull/8932,2023-02-22T13:37:16Z,2023-02-22T13:38:31Z,annevk,addition/proposal|needs implementer interest|topic: shadow|needs tests,0
-1595082040,false,Editorial: formalize reflect's default value,https://github.com/whatwg/html/pull/8931,2023-02-22T13:12:45Z,2023-02-22T13:14:24Z,annevk,clarification,0
+1595082040,false,Editorial: formalize reflect's default value,https://github.com/whatwg/html/pull/8931,2023-02-22T13:12:45Z,2023-02-27T04:09:43Z,annevk,clarification,0
 1592240634,true,"Export navigable's ""active browsing context""",https://github.com/whatwg/html/pull/8924,2023-02-20T17:33:09Z,2023-02-21T10:18:19Z,jakearchibald,,0
 1592228594,true,"Export ""map of active timers""",https://github.com/whatwg/html/pull/8923,2023-02-20T17:20:57Z,2023-02-21T04:23:58Z,jakearchibald,,0
 1592193300,true,"Export ""abort a running script""",https://github.com/whatwg/html/pull/8922,2023-02-20T16:55:47Z,2023-02-21T04:23:57Z,jakearchibald,,0
@@ -191,7 +192,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1307602312,true,Define link processing for prefetch,https://github.com/whatwg/html/pull/8111,2022-07-18T08:44:27Z,2023-01-17T08:25:00Z,noamr,addition/proposal|topic: resource hints (inc. preload),0
 1300834820,true,"Editorial: Use ""process the next redirect"" instead of ""Navigation redirect""",https://github.com/whatwg/html/pull/8097,2022-07-11T14:57:32Z,2022-10-17T06:38:43Z,noamr,topic: navigation|topic: fetch,0
 1300605819,true,Move oncopy/oncut/onpaste to GlobalEventHandlers,https://github.com/whatwg/html/pull/8096,2022-07-11T11:56:14Z,2022-12-21T08:34:11Z,foolip,needs tests|topic: events,0
-1297810150,true,Introduce FocusOptions.focusVisible.,https://github.com/whatwg/html/pull/8087,2022-07-07T17:22:55Z,2023-01-04T18:18:55Z,emilio,addition/proposal|topic: focus,0
+1297810150,true,Introduce FocusOptions.focusVisible.,https://github.com/whatwg/html/pull/8087,2022-07-07T17:22:55Z,2023-01-04T18:18:55Z,emilio,addition/proposal|topic: focus,1
 1296464358,true,Do not whitespace-strip <script>'s language attribute,https://github.com/whatwg/html/pull/8084,2022-07-06T21:06:17Z,2022-07-08T05:07:46Z,hiroshige-g,topic: script,0
 1295301121,true,Fix a few broken links to CSS specs from the event loop,https://github.com/whatwg/html/pull/8078,2022-07-06T07:03:07Z,2022-07-06T12:39:34Z,domenic,,0
 1293818687,true,Add basic import maps support,https://github.com/whatwg/html/pull/8075,2022-07-05T05:49:22Z,2022-10-05T07:47:50Z,domenic,addition/proposal|topic: script,14
