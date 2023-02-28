@@ -1,11 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1600468102,true,Preconnect: anonymous links should *not* send credentials,https://github.com/whatwg/html/pull/8957,2023-02-27T04:52:09Z,2023-02-27T06:44:04Z,noamr,,0
-1598347237,false,Skip parts of form submission when the method is dialog,https://github.com/whatwg/html/pull/8943,2023-02-24T10:29:21Z,2023-02-27T04:04:46Z,annevk,needs tests|topic: dialog,0
+1598347237,false,Skip parts of form submission when the method is dialog,https://github.com/whatwg/html/pull/8943,2023-02-24T10:29:21Z,2023-02-27T14:18:43Z,annevk,needs tests|topic: dialog,0
 1597014859,true,Editorial: fix url argument to WebDriver BiDi fragment navigated,https://github.com/whatwg/html/pull/8939,2023-02-23T14:57:33Z,2023-02-24T03:27:59Z,foolip,,0
 1595997662,true,Add onbeforetoggle to GlobalEventHandlers IDL definitions,https://github.com/whatwg/html/pull/8936,2023-02-22T23:37:24Z,2023-02-23T08:41:55Z,josepharhar,,0
-1595325213,false,Document naming convention for element-reflecting attributes,https://github.com/whatwg/html/pull/8933,2023-02-22T15:35:04Z,2023-02-27T04:05:34Z,annevk,clarification,0
+1595325213,true,Document naming convention for element-reflecting attributes,https://github.com/whatwg/html/pull/8933,2023-02-22T15:35:04Z,2023-02-27T14:14:49Z,annevk,clarification,0
 1595120297,false,Give ElementInternals element-reflecting attributes more power,https://github.com/whatwg/html/pull/8932,2023-02-22T13:37:16Z,2023-02-22T13:38:31Z,annevk,addition/proposal|needs implementer interest|topic: shadow|needs tests,0
-1595082040,false,Editorial: formalize reflect's default value,https://github.com/whatwg/html/pull/8931,2023-02-22T13:12:45Z,2023-02-27T04:09:43Z,annevk,clarification,0
+1595082040,true,Editorial: formalize reflect's default value,https://github.com/whatwg/html/pull/8931,2023-02-22T13:12:45Z,2023-02-27T23:29:30Z,annevk,clarification,0
 1592240634,true,"Export navigable's ""active browsing context""",https://github.com/whatwg/html/pull/8924,2023-02-20T17:33:09Z,2023-02-21T10:18:19Z,jakearchibald,,0
 1592228594,true,"Export ""map of active timers""",https://github.com/whatwg/html/pull/8923,2023-02-20T17:20:57Z,2023-02-21T04:23:58Z,jakearchibald,,0
 1592193300,true,"Export ""abort a running script""",https://github.com/whatwg/html/pull/8922,2023-02-20T16:55:47Z,2023-02-21T04:23:57Z,jakearchibald,,0
@@ -14,14 +14,14 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1591592259,true,Meta: export various terms used by Service Workers,https://github.com/whatwg/html/pull/8919,2023-02-20T10:43:25Z,2023-02-21T09:10:06Z,jakearchibald,meta,0
 1587259107,false,"Add ""regaining document full activity steps""",https://github.com/whatwg/html/pull/8897,2023-02-16T08:36:54Z,2023-02-17T06:30:00Z,rakina,,0
 1586949254,false,Use ToggleEvent for <details> element toggle event,https://github.com/whatwg/html/pull/8893,2023-02-16T03:38:18Z,2023-02-17T16:53:12Z,nt1m,addition/proposal|topic: events,0
-1586841521,false,Change exception thrown when popover attribute is not present,https://github.com/whatwg/html/pull/8891,2023-02-16T01:25:18Z,2023-02-25T05:39:26Z,josepharhar,topic: popover,0
+1586841521,true,Change exception thrown when popover attribute is not present,https://github.com/whatwg/html/pull/8891,2023-02-16T01:25:18Z,2023-02-27T14:25:24Z,josepharhar,topic: popover,0
 1585413980,true,Correct canceling popovers step,https://github.com/whatwg/html/pull/8889,2023-02-15T08:17:51Z,2023-02-16T08:28:27Z,annevk,topic: popover,0
 1585301417,false,"Fix ""document-tree child navigable target name property set""",https://github.com/whatwg/html/pull/8887,2023-02-15T06:33:21Z,2023-02-15T06:35:01Z,domenic,topic: browsing context,1
 1584839535,true,"Add ""hide all popovers"" algorithm",https://github.com/whatwg/html/pull/8886,2023-02-14T21:12:09Z,2023-02-23T08:38:46Z,josepharhar,topic: popover,0
 1584809177,true,Export some popover dfns,https://github.com/whatwg/html/pull/8885,2023-02-14T20:51:09Z,2023-02-17T17:28:42Z,josepharhar,meta|topic: popover,1
 1577842845,true,33,https://github.com/whatwg/html/pull/8871,2023-02-09T12:52:48Z,2023-02-12T20:41:04Z,TRCREO,spam,0
 1571305156,true,Editorial: correct popover IDL,https://github.com/whatwg/html/pull/8860,2023-02-05T08:02:34Z,2023-02-06T06:32:33Z,annevk,,0
-1561489906,false,Define eligibility for autofill,https://github.com/whatwg/html/pull/8801,2023-01-29T22:42:38Z,2023-02-17T12:31:33Z,schwering,,0
+1561489906,false,Define eligibility for autofill,https://github.com/whatwg/html/pull/8801,2023-01-29T22:42:38Z,2023-02-27T21:09:35Z,schwering,,0
 1560561601,false,additional accessibility guidance for popover,https://github.com/whatwg/html/pull/8791,2023-01-27T23:33:03Z,2023-02-16T07:47:01Z,scottaohara,accessibility|topic: popover,1
 1559305003,true,Correct <input type=image> form submission behavior,https://github.com/whatwg/html/pull/8788,2023-01-27T07:33:45Z,2023-01-28T15:43:28Z,annevk,,2
 1557919226,false,#8364isssue-solved,https://github.com/whatwg/html/pull/8781,2023-01-26T10:20:10Z,2023-01-27T15:49:01Z,YASHWANTHKESAGONI,,0
@@ -43,7 +43,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1529820271,true,"Rename createImageBitMaps's imageOrientation from ""none"" to ""from-image""",https://github.com/whatwg/html/pull/8710,2023-01-11T22:44:22Z,2023-01-17T06:19:23Z,yiyix,normative change|topic: canvas|impacts documentation,0
 1525408628,true,Editorial: remove conformance text around limits,https://github.com/whatwg/html/pull/8703,2023-01-09T11:31:18Z,2023-01-16T09:13:58Z,annevk,,0
 1524575537,true,Editorial: Add alternatives for broken drafts.csswg.org reference links,https://github.com/whatwg/html/pull/8699,2023-01-08T16:19:06Z,2023-01-17T00:55:00Z,gibson042,,0
-1522890101,false,[WIP] Change createImageBitMaps's imageOrientation attributes,https://github.com/whatwg/html/pull/8687,2023-01-06T17:12:57Z,2023-02-25T03:02:39Z,yiyix,,0
+1522890101,false,Change createImageBitMaps's imageOrientation attributes,https://github.com/whatwg/html/pull/8687,2023-01-06T17:12:57Z,2023-02-27T22:51:32Z,yiyix,,0
 1522704606,true,Fix COOP enforcement in redirects,https://github.com/whatwg/html/pull/8686,2023-01-06T14:52:52Z,2023-01-18T05:34:56Z,hemeryar,topic: navigation|topic: cross-origin-opener-policy,0
 1519578944,true,Fixes transposed words.,https://github.com/whatwg/html/pull/8676,2023-01-04T21:13:39Z,2023-01-10T07:01:12Z,ChristopherFritz,,0
 1507345020,false,Report fallback resource timing for no-TAO iframes,https://github.com/whatwg/html/pull/8643,2022-12-22T06:34:59Z,2023-02-03T01:55:41Z,noamr,,0

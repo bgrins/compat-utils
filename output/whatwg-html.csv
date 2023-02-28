@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1600719980,false,"""That logic, in turn, depends on whether on whet...""",https://github.com/whatwg/html/issues/8959,2023-02-27T08:34:27Z,2023-02-27T08:34:27Z,imageck,,0
-1600530152,false,"[Proposal] : Make stylesheets with non-matching media queries imported using ""@import"" non-render blocking.",https://github.com/whatwg/html/issues/8958,2023-02-27T05:58:19Z,2023-02-27T07:52:48Z,yashjoshi-dotcom,,0
+1600530152,false,"[Proposal] : Make stylesheets with non-matching media queries imported using ""@import"" non-render blocking.",https://github.com/whatwg/html/issues/8958,2023-02-27T05:58:19Z,2023-02-27T12:11:02Z,yashjoshi-dotcom,,0
 1599427369,true,"""If options's crossorigin is not Anonymous and o...""",https://github.com/whatwg/html/issues/8949,2023-02-25T00:08:49Z,2023-02-27T06:44:06Z,bnham,,0
 1599407362,false,History API should check origin in push/replace state for opaque origin,https://github.com/whatwg/html/issues/8948,2023-02-24T23:37:04Z,2023-02-25T00:22:42Z,shhnjk,,0
 1598864378,false,"`<input type=""file"" webkitdirectory="""" />` and empty directories",https://github.com/whatwg/html/issues/8946,2023-02-24T15:38:34Z,2023-02-24T15:38:34Z,tomayac,,0
@@ -13,8 +13,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1595987306,true,Missing onbeforetoggle IDL definition?,https://github.com/whatwg/html/issues/8935,2023-02-22T23:25:18Z,2023-02-23T08:41:44Z,nt1m,,0
 1594657642,false,Consider making the reflected target always the interface the IDL attribute is on,https://github.com/whatwg/html/issues/8930,2023-02-22T08:17:59Z,2023-02-22T08:17:59Z,annevk,clarification,0
 1593059975,false,Investigate number parser reuse,https://github.com/whatwg/html/issues/8928,2023-02-21T08:43:51Z,2023-02-22T08:10:06Z,annevk,normative change|clarification,0
-1593054158,false,Formalize default value reflection concept,https://github.com/whatwg/html/issues/8927,2023-02-21T08:39:59Z,2023-02-21T09:39:26Z,annevk,clarification,0
-1593051488,false,Use positive number instead of non-negative number greater than zero,https://github.com/whatwg/html/issues/8926,2023-02-21T08:37:48Z,2023-02-22T18:21:14Z,annevk,clarification,1
+1593054158,true,Formalize default value reflection concept,https://github.com/whatwg/html/issues/8927,2023-02-21T08:39:59Z,2023-02-27T14:10:36Z,annevk,clarification,0
+1593051488,true,Use positive number instead of non-negative number greater than zero,https://github.com/whatwg/html/issues/8926,2023-02-21T08:37:48Z,2023-02-27T14:10:35Z,annevk,clarification,1
 1591498385,true,Feature request: Enable inclusion of .gz CSS and JS files without WebServer and the http protocol,https://github.com/whatwg/html/issues/8918,2023-02-20T09:44:46Z,2023-02-24T13:11:06Z,lucajung,,0
 1591397416,false,Canvas 2D context color serialization,https://github.com/whatwg/html/issues/8917,2023-02-20T08:41:59Z,2023-02-20T15:41:26Z,annevk,topic: canvas,0
 1591084557,false,`<picture>` and `<source>` elements: How should 404s with placeholder image data be handled?,https://github.com/whatwg/html/issues/8916,2023-02-20T03:53:17Z,2023-02-24T21:31:11Z,DavidJCobb,clarification|topic: img|topic: fetch,0
@@ -36,7 +36,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1578001480,false,"Make a way to listen to ""fully active"" state changes",https://github.com/whatwg/html/issues/8872,2023-02-09T14:32:54Z,2023-02-10T13:47:15Z,rakina,integration,0
 1577757378,true,SVGs in <use> cannot be preloaded with a link@rel=preload,https://github.com/whatwg/html/issues/8870,2023-02-09T11:58:48Z,2023-02-15T06:47:26Z,Boldewyn,,0
 1577445089,false,Should strict MIME type for importScripts() also be enforced on local URLs?,https://github.com/whatwg/html/issues/8869,2023-02-09T08:20:18Z,2023-02-10T08:58:56Z,Kaiido,topic: workers|interop,0
-1576960664,false,Add `getInnerHTML()` that optionally serializes declarative Shadow DOM,https://github.com/whatwg/html/issues/8867,2023-02-08T23:38:22Z,2023-02-27T10:38:08Z,mfreed7,addition/proposal|topic: shadow|topic: parser,0
+1576960664,false,Add `getInnerHTML()` that optionally serializes declarative Shadow DOM,https://github.com/whatwg/html/issues/8867,2023-02-08T23:38:22Z,2023-02-27T16:45:34Z,mfreed7,addition/proposal|topic: shadow|topic: parser,0
 1576297577,true,DOMParser and MathML,https://github.com/whatwg/html/issues/8866,2023-02-08T14:57:03Z,2023-02-08T16:42:12Z,pygy,,0
 1576149509,false,Subresource link headers are implemented but not specified,https://github.com/whatwg/html/issues/8865,2023-02-08T13:43:48Z,2023-02-15T06:45:15Z,noamr,topic: link|topic: resource hints (inc. preload),0
 1574083586,false,Allow headings in <summary> elements for <details>,https://github.com/whatwg/html/issues/8864,2023-02-07T10:36:10Z,2023-02-13T17:57:41Z,yatil,document conformance|accessibility,0
@@ -75,7 +75,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1530834734,false,Additional accessibility guidance for popover,https://github.com/whatwg/html/issues/8714,2023-01-12T14:42:51Z,2023-02-16T07:43:33Z,scottaohara,topic: popover,0
 1530043744,true,"""Nested navigable"" and ""child navigable"" are easy to confuse",https://github.com/whatwg/html/issues/8713,2023-01-12T03:40:54Z,2023-01-19T04:29:10Z,domenic,clarification|topic: browsing context,0
 1528456422,false,Is HTMLImgElement.decode() a cross-origin info channel?,https://github.com/whatwg/html/issues/8709,2023-01-11T05:29:17Z,2023-02-24T15:08:57Z,noamr,security/privacy|topic: img,1
-1528111766,false,Float16Array + HTML Canvas,https://github.com/whatwg/html/issues/8708,2023-01-10T22:41:56Z,2023-02-25T09:24:13Z,palemieux,addition/proposal|needs implementer interest|topic: canvas,1
+1528111766,false,Float16Array + HTML Canvas,https://github.com/whatwg/html/issues/8708,2023-01-10T22:41:56Z,2023-02-27T23:57:33Z,palemieux,addition/proposal|needs implementer interest|topic: canvas,1
 1528108331,false,Selecting text in the <summary> tag activates the details/summary (opens/closes the details tag),https://github.com/whatwg/html/issues/8707,2023-01-10T22:37:46Z,2023-01-12T13:18:14Z,gijsk,topic: events,0
 1527085260,true,How should I convert HTML to Plain Text?,https://github.com/whatwg/html/issues/8705,2023-01-10T09:54:24Z,2023-01-10T10:21:16Z,MAMPAgent,,0
 1524706667,true,"""The XML syntax for HTML was formerly referred t...""",https://github.com/whatwg/html/issues/8700,2023-01-08T22:23:56Z,2023-01-12T01:51:14Z,PuppyPi,,0
@@ -130,7 +130,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1463488301,true,`blocking=render` in preload and modulepreload links,https://github.com/whatwg/html/issues/8550,2022-11-24T15:10:56Z,2023-01-10T08:12:24Z,NiedziolkaMichal,,0
 1463157497,true,HTMLInputElement.list should be an HTMLDataListElement,https://github.com/whatwg/html/issues/8547,2022-11-24T10:55:57Z,2022-11-24T14:56:30Z,emilio,,0
 1462804756,false,"Should ""ignore higher-layer caching"" flag get a definition?",https://github.com/whatwg/html/issues/8546,2022-11-24T06:01:25Z,2022-11-24T06:03:01Z,karlcow,,0
-1462764097,false,GC for cached attr-associated elements?,https://github.com/whatwg/html/issues/8545,2022-11-24T05:03:47Z,2023-02-27T11:23:09Z,alice,,0
+1462764097,false,GC for cached attr-associated elements?,https://github.com/whatwg/html/issues/8545,2022-11-24T05:03:47Z,2023-02-27T18:41:31Z,alice,,0
 1462756977,false,Shadow DOM and ElementInternals ARIAMixin properties,https://github.com/whatwg/html/issues/8544,2022-11-24T04:53:36Z,2023-02-22T13:37:59Z,alice,topic: shadow|topic: custom elements|agenda+,0
 1461018906,false,Is it possible to allow `<a>` elements to nest within each other in the future?,https://github.com/whatwg/html/issues/8541,2022-11-23T05:01:58Z,2022-12-06T17:50:58Z,LIXiangChen,,0
 1459558712,false,An iframe whose history can be transferred across parent navigations,https://github.com/whatwg/html/issues/8538,2022-11-22T10:15:42Z,2022-11-22T12:24:19Z,jakearchibald,,14
@@ -480,7 +480,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1149196153,false,Should focus affect selection?,https://github.com/whatwg/html/issues/7657,2022-02-24T11:53:16Z,2022-03-23T13:58:01Z,annevk,topic: focus,0
 1147133455,false,Create a link with a query to search on the user chosen default search engine,https://github.com/whatwg/html/issues/7652,2022-02-22T16:40:17Z,2022-05-24T11:40:55Z,felquis,addition/proposal|needs implementer interest|topic: navigation,0
 1146305197,false,Specify the `hidden` attribute as a presentational hint,https://github.com/whatwg/html/issues/7650,2022-02-21T23:24:56Z,2022-02-21T23:25:14Z,zcorpan,topic: rendering,1
-1143250462,false,"Interop issue with canvas globalCompositeOperation ""normal"" value",https://github.com/whatwg/html/issues/7637,2022-02-18T15:20:39Z,2023-02-26T02:01:06Z,domenic,topic: canvas|interop,1
+1143250462,false,"Interop issue with canvas globalCompositeOperation ""normal"" value",https://github.com/whatwg/html/issues/7637,2022-02-18T15:20:39Z,2023-02-27T23:00:00Z,domenic,topic: canvas|interop,1
 1142131711,true,Web IDL validation errors,https://github.com/whatwg/html/issues/7634,2022-02-18T00:53:12Z,2022-03-07T15:55:34Z,autokagami,topic: canvas,1
 1141867885,false,How is text/event-stream checked?,https://github.com/whatwg/html/issues/7630,2022-02-17T20:54:17Z,2022-02-17T20:54:17Z,domenic,clarification|topic: eventsource,0
 1140636301,false,New browsing context name or keyword for opening links in default browser,https://github.com/whatwg/html/issues/7628,2022-02-16T22:10:34Z,2022-02-22T15:54:54Z,tomayac,addition/proposal,3
@@ -1992,7 +1992,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 387942796,true,`Link` header processing not defined,https://github.com/whatwg/html/issues/4224,2018-12-05T20:58:28Z,2023-01-19T08:22:08Z,domfarolino,topic: fetch|topic: link|topic: resource hints (inc. preload),1
 387532176,true,Bogus comments,https://github.com/whatwg/html/issues/4222,2018-12-04T23:55:39Z,2018-12-05T08:17:38Z,lazarljubenovic,,0
 386462297,true,Should the innerHTML of void elements include child nodes?,https://github.com/whatwg/html/issues/4220,2018-12-01T14:18:38Z,2018-12-19T20:52:39Z,Zirro,topic: parser|interop,0
-385599781,false,Syntax for <template> variables,https://github.com/whatwg/html/issues/4219,2018-11-29T07:15:18Z,2022-11-20T16:42:04Z,indolering,,1
+385599781,false,Syntax for <template> variables,https://github.com/whatwg/html/issues/4219,2018-11-29T07:15:18Z,2023-02-27T16:26:31Z,indolering,,1
 385465256,true,Consider making `X-Frame-Options: deny` to create a new browsing context group,https://github.com/whatwg/html/issues/4218,2018-11-28T21:30:53Z,2018-11-30T22:43:42Z,rniwa,addition/proposal|topic: navigation|topic: browsing context,0
 385405818,false,Image decode() algorithm has odd behavior,https://github.com/whatwg/html/issues/4217,2018-11-28T18:42:41Z,2018-11-30T11:18:06Z,bzbarsky,topic: img|interop,0
 385368034,true,"Make <input type=""file""> reject dropped file(s) that don't match ""accept"" attribute",https://github.com/whatwg/html/issues/4216,2018-11-28T17:04:12Z,2018-12-10T08:52:21Z,caugner,,0
@@ -3323,7 +3323,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 176243059,false,rb and rtc element should be removed from the list of obsolete features,https://github.com/whatwg/html/issues/1771,2016-09-11T13:09:32Z,2022-10-24T01:32:48Z,upsuper,document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,0
 175980447,false,Specify how to fetch <link rel=icon>,https://github.com/whatwg/html/issues/1769,2016-09-09T10:43:37Z,2016-09-13T15:19:42Z,zcorpan,topic: fetch,0
 175916893,true,Multipage redirection isn't always working anymore,https://github.com/whatwg/html/issues/1767,2016-09-09T03:06:41Z,2016-09-12T21:33:24Z,domenic,spec tooling,0
-175905234,false,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2022-09-28T09:30:39Z,isonmad,addition/proposal|needs implementer interest|topic: events,13
+175905234,false,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2022-09-28T09:30:39Z,isonmad,addition/proposal|needs implementer interest|topic: events,14
 175646396,false,HTML  specification allows for cycles in Window / Location prototype chain,https://github.com/whatwg/html/issues/1760,2016-09-08T01:47:55Z,2018-08-23T21:46:52Z,cdumez,integration|topic: location,0
 175630444,true,"does this mean these - ""A settings object      An environment settings ..."" - are equivalent?",https://github.com/whatwg/html/issues/1759,2016-09-07T23:27:46Z,2016-09-16T22:53:50Z,equalsJeffH,,0
 175609093,true,moving well known HTML tags outside of SVG container,https://github.com/whatwg/html/issues/1758,2016-09-07T21:19:02Z,2016-09-08T15:12:43Z,djfd,,0
