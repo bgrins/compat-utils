@@ -1728,7 +1728,6 @@ api/Element/setCapture,,4,,,,,,false,false,true,,NONE
 api/Element/setHTML,,94,"[{""name"":""dom.security.sanitizer.enabled"",""type"":""preference"",""value_to_set"":""true""}]",105,,,,true,true,false,https://wicg.github.io/sanitizer-api/#dom-element-sethtml,W3CCG
 api/Element/setPointerCapture,,59,,55,,13,,false,true,false,https://w3c.github.io/pointerevents/#dom-element-setpointercapture,W3C
 api/Element/shadowRoot,,63,,35,,10,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-element-shadowroot①,WHATWG
-api/Element/show_event,,8,,,,,,false,false,true,,NONE
 api/Element/slot,,63,,53,,10,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-element-slot①,WHATWG
 api/Element/tagName,,1,,1,,1,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-element-tagname①,WHATWG
 api/Element/toggleAttribute,,63,,69,,12,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-element-toggleattribute①,WHATWG
@@ -2356,7 +2355,7 @@ api/HTMLElement/accessKey,,5,,17,,6,,false,true,false,https://html.spec.whatwg.o
 api/HTMLElement/accessKeyLabel,,8,,,,14,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-accesskeylabel,WHATWG
 api/HTMLElement/attachInternals,,93,,77,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/custom-elements.html#dom-attachinternals,WHATWG
 api/HTMLElement/attributeStyleMap,,,,66,,16.4,,false,true,false,https://drafts.css-houdini.org/css-typed-om/#dom-elementcssinlinestyle-attributestylemap,W3C
-api/HTMLElement/autocapitalize,,83,"[{""name"":""dom.forms.autocapitalize"",""type"":""preference"",""value_to_set"":""true""}]",66,,,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-autocapitalize-dev,WHATWG
+api/HTMLElement/autocapitalize,,111,,66,,,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-autocapitalize-dev,WHATWG
 api/HTMLElement/autofocus,,1,,79,,15.4,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-fe-autofocus,WHATWG
 api/HTMLElement/beforeinput_event,,87,,60,,10.1,,false,true,false,https://w3c.github.io/uievents/#event-type-beforeinput,W3C
 api/HTMLElement/beforematch_event,,,,102,,,,true,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-beforematch,WHATWG
@@ -2364,7 +2363,6 @@ api/HTMLElement/blur,,1.5,,1,,3,,false,true,false,https://html.spec.whatwg.org/m
 api/HTMLElement/change_event,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-change,WHATWG
 api/HTMLElement/click,,3,,9,,6,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-click-dev,WHATWG
 api/HTMLElement/contentEditable,,3,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#contenteditable,WHATWG
-api/HTMLElement/contextMenu,,8,,,,,,false,false,true,,NONE
 api/HTMLElement/dataset,,6,,8,,5.1,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-dataset-dev,WHATWG
 api/HTMLElement/dir,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-dir,WHATWG
 api/HTMLElement/drag_event,,9,,1,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#ix-handler-ondrag,WHATWG
@@ -2398,7 +2396,7 @@ api/HTMLElement/spellcheck,,2,,9,,5.1,,false,true,false,https://html.spec.whatwg
 api/HTMLElement/style,,1,,1,,3,,false,true,false,https://w3c.github.io/csswg-drafts/cssom/#dom-elementcssinlinestyle-style,W3C
 api/HTMLElement/tabIndex,,1,,1,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-tabindex,WHATWG
 api/HTMLElement/title,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-title,WHATWG
-api/HTMLElement/translate,,,,19,,6,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-translate,WHATWG
+api/HTMLElement/translate,,111,,19,,6,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-translate,WHATWG
 api/HTMLEmbedElement,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/iframe-embed-object.html#htmlembedelement,WHATWG
 api/HTMLEmbedElement/align,,1,,1,,3,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-embed-align,WHATWG
 api/HTMLEmbedElement/getSVGDocument,,1.5,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/embedded-content-other.html#dom-media-getsvgdocument-dev,WHATWG
@@ -2730,14 +2728,6 @@ api/HTMLMenuElement,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/mult
 api/HTMLMenuElement/compact,,1,,1,,3,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-menu-compact,WHATWG
 api/HTMLMenuElement/label,,8,,,,,,false,false,true,,NONE
 api/HTMLMenuElement/type,,8,,,,,,false,false,true,,NONE
-api/HTMLMenuItemElement,,8,,,,,,false,false,true,,NONE
-api/HTMLMenuItemElement/checked,,8,,,,,,false,false,true,,NONE
-api/HTMLMenuItemElement/default,,8,,,,,,false,false,true,,NONE
-api/HTMLMenuItemElement/disabled,,8,,,,,,false,false,true,,NONE
-api/HTMLMenuItemElement/icon,,8,,,,,,false,false,true,,NONE
-api/HTMLMenuItemElement/label,,8,,,,,,false,false,true,,NONE
-api/HTMLMenuItemElement/radiogroup,,8,,,,,,false,false,true,,NONE
-api/HTMLMenuItemElement/type,,8,,,,,,false,false,true,,NONE
 api/HTMLMetaElement,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/semantics.html#htmlmetaelement,WHATWG
 api/HTMLMetaElement/content,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/semantics.html#dom-meta-content,WHATWG
 api/HTMLMetaElement/httpEquiv,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/semantics.html#dom-meta-httpequiv,WHATWG
@@ -9989,14 +9979,6 @@ html/elements/menu,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multi
 html/elements/menu/hr_separator,,51,,,,,,false,false,true,,NONE
 html/elements/menu/label,,8,,,,,,false,false,true,,NONE
 html/elements/menu/type_menu,,8,,,,,,false,false,true,,NONE
-html/elements/menuitem,,8,,,,,,false,false,true,,NONE
-html/elements/menuitem/checked,,8,,,,,,false,false,true,,NONE
-html/elements/menuitem/command,,8,,,,,,false,false,true,,NONE
-html/elements/menuitem/default,,8,,,,,,false,false,true,,NONE
-html/elements/menuitem/disabled,,8,,,,,,false,false,true,,NONE
-html/elements/menuitem/icon,,8,,,,,,false,false,true,,NONE
-html/elements/menuitem/radiogroup,,8,,,,,,false,false,true,,NONE
-html/elements/menuitem/type,,8,,,,,,false,false,true,,NONE
 html/elements/meta,,1,,true,,true,,false,true,false,https://html.spec.whatwg.org/multipage/semantics.html#the-meta-element,WHATWG
 html/elements/meta/charset,,1,,true,,true,,false,true,false,,NONE
 html/elements/meta/content,,1,,1,,≤4,,false,true,false,,NONE
@@ -10238,7 +10220,7 @@ html/elements/video/width,,3.5,,3,,3.1,,false,true,false,,NONE
 html/elements/wbr,,1,,1,,4,,false,true,false,https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-wbr-element,WHATWG
 html/elements/xmp,,true,,true,,true,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#xmp,WHATWG
 html/global_attributes/accesskey,,true,,true,,true,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute,WHATWG
-html/global_attributes/autocapitalize,,83,"[{""name"":""dom.forms.autocapitalize"",""type"":""preference"",""value_to_set"":""true""}]",43,,,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize,WHATWG
+html/global_attributes/autocapitalize,,111,,43,,,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize,WHATWG
 html/global_attributes/autocomplete,,true,,true,,,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-autocomplete,WHATWG
 html/global_attributes/autocomplete/new-password,,67,,true,,,,false,true,false,,NONE
 html/global_attributes/autofocus,,1,,79,,4,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-fe-autofocus,WHATWG
@@ -10275,7 +10257,7 @@ html/global_attributes/style,,true,,true,,true,,false,true,false,https://html.sp
 html/global_attributes/tabindex,,true,,true,,true,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex,WHATWG
 html/global_attributes/title,,true,,true,,true,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute,WHATWG
 html/global_attributes/title/multi-line-support,,true,,true,,true,,false,true,false,,NONE
-html/global_attributes/translate,,,,19,,6,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#attr-translate,WHATWG
+html/global_attributes/translate,,111,,19,,6,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#attr-translate,WHATWG
 html/manifest/background_color,,,,,,,,true,true,false,https://w3c.github.io/manifest/#background_color-member,W3C
 html/manifest/categories,,,,,,,,true,true,false,https://w3c.github.io/manifest-app-info/#categories-member,W3C
 html/manifest/description,,,,,,,,false,true,false,https://w3c.github.io/manifest-app-info/#description-member,W3C
