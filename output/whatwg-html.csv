@@ -1,14 +1,14 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1602320224,true,HTTP Early hints 103 - How are HTML spec and HTTP RFC differences resolved?,https://github.com/whatwg/html/issues/8960,2023-02-28T03:49:29Z,2023-02-28T07:23:25Z,hamishwillee,,0
-1600719980,false,"""That logic, in turn, depends on whether on whet...""",https://github.com/whatwg/html/issues/8959,2023-02-27T08:34:27Z,2023-02-27T08:34:27Z,imageck,,0
-1600530152,false,"[Proposal] : Make stylesheets with non-matching media queries imported using ""@import"" non-render blocking.",https://github.com/whatwg/html/issues/8958,2023-02-27T05:58:19Z,2023-02-27T12:11:02Z,yashjoshi-dotcom,,0
+1600719980,false,"""That logic, in turn, depends on whether on whet...""",https://github.com/whatwg/html/issues/8959,2023-02-27T08:34:27Z,2023-02-28T20:43:59Z,imageck,clarification|topic: rendering,0
+1600530152,false,"[Proposal] : Make stylesheets with non-matching media queries imported using ""@import"" non-render blocking.",https://github.com/whatwg/html/issues/8958,2023-02-27T05:58:19Z,2023-02-28T20:52:21Z,yashjoshi-dotcom,topic: script|topic: style,0
 1599427369,true,"""If options's crossorigin is not Anonymous and o...""",https://github.com/whatwg/html/issues/8949,2023-02-25T00:08:49Z,2023-02-27T06:44:06Z,bnham,,0
-1599407362,false,History API should check origin in push/replace state for opaque origin,https://github.com/whatwg/html/issues/8948,2023-02-24T23:37:04Z,2023-02-25T00:22:42Z,shhnjk,,0
-1598864378,false,"`<input type=""file"" webkitdirectory="""" />` and empty directories",https://github.com/whatwg/html/issues/8946,2023-02-24T15:38:34Z,2023-02-24T15:38:34Z,tomayac,,0
-1598860758,false,events fired when drag/drop of files leaves set of files unchanged differ from events fired when file chooser leaves set of files unchanged,https://github.com/whatwg/html/issues/8945,2023-02-24T15:36:00Z,2023-02-24T15:36:00Z,dbaron,,0
+1599407362,false,History API should check origin in push/replace state for opaque origin,https://github.com/whatwg/html/issues/8948,2023-02-24T23:37:04Z,2023-02-28T22:07:27Z,shhnjk,security/privacy|topic: history,0
+1598864378,false,"`<input type=""file"" webkitdirectory="""" />` and empty directories",https://github.com/whatwg/html/issues/8946,2023-02-24T15:38:34Z,2023-02-28T21:02:48Z,tomayac,topic: forms|topic: events,0
+1598860758,false,events fired when drag/drop of files leaves set of files unchanged differ from events fired when file chooser leaves set of files unchanged,https://github.com/whatwg/html/issues/8945,2023-02-24T15:36:00Z,2023-02-28T21:04:01Z,dbaron,topic: forms|topic: events,0
 1598855244,false,Add guidance for modal blocking,https://github.com/whatwg/html/issues/8944,2023-02-24T15:31:57Z,2023-02-24T15:32:38Z,SoniEx2,,0
 1597672687,false,Upcoming HTML standard issue triage meeting on 3/9/2023,https://github.com/whatwg/html/issues/8942,2023-02-23T23:40:16Z,2023-02-24T02:49:28Z,past,agenda+,0
-1597559482,false,Difference between auto popover list and filtered top layer?,https://github.com/whatwg/html/issues/8941,2023-02-23T21:35:03Z,2023-02-26T11:44:40Z,nt1m,clarification|topic: popover,0
+1597559482,false,Difference between auto popover list and filtered top layer?,https://github.com/whatwg/html/issues/8941,2023-02-23T21:35:03Z,2023-02-28T21:18:59Z,nt1m,clarification|topic: popover,0
 1596728947,false,Add `userValid` to `ValidityState`,https://github.com/whatwg/html/issues/8938,2023-02-23T11:59:04Z,2023-02-24T13:05:28Z,jacobrask,addition/proposal|topic: forms,1
 1596127712,true,Missing removing steps for popover,https://github.com/whatwg/html/issues/8937,2023-02-23T02:48:37Z,2023-02-23T03:01:45Z,nt1m,,0
 1595987306,true,Missing onbeforetoggle IDL definition?,https://github.com/whatwg/html/issues/8935,2023-02-22T23:25:18Z,2023-02-23T08:41:44Z,nt1m,,0
@@ -60,7 +60,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1552934460,false,Ability to style default summary in <details>,https://github.com/whatwg/html/issues/8770,2023-01-23T11:28:14Z,2023-02-14T18:56:50Z,jakearchibald,addition/proposal|topic: rendering|topic: selectors,0
 1552047625,false,"Clarify: CSS import assertions use ""script"" as the destination, is that intended?",https://github.com/whatwg/html/issues/8764,2023-01-22T08:56:49Z,2023-01-22T08:57:06Z,noamr,,0
 1550462824,true,MediaError not acccessible for a video element if using it with source elements,https://github.com/whatwg/html/issues/8757,2023-01-20T08:15:13Z,2023-01-26T09:48:49Z,callumgare,,0
-1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-02-28T11:23:27Z,mfreed7,addition/proposal|topic: shadow|agenda+,0
+1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-02-28T20:58:34Z,mfreed7,addition/proposal|topic: shadow|agenda+,0
 1550024105,false,Native support for indents,https://github.com/whatwg/html/issues/8751,2023-01-19T22:11:32Z,2023-01-25T23:06:02Z,EgonBolton,,0
 1548957116,true,[css-view-transitions-1] Interaction with Safari's back/forward previews,https://github.com/whatwg/html/issues/8749,2023-01-19T11:14:58Z,2023-01-19T11:21:46Z,jakearchibald,,0
 1537525438,true,Meta: should dfns in headings be viewed as exported definitions?,https://github.com/whatwg/html/issues/8743,2023-01-18T07:30:06Z,2023-01-20T19:24:39Z,tidoust,,0
@@ -76,7 +76,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1530834734,false,Additional accessibility guidance for popover,https://github.com/whatwg/html/issues/8714,2023-01-12T14:42:51Z,2023-02-16T07:43:33Z,scottaohara,topic: popover,0
 1530043744,true,"""Nested navigable"" and ""child navigable"" are easy to confuse",https://github.com/whatwg/html/issues/8713,2023-01-12T03:40:54Z,2023-01-19T04:29:10Z,domenic,clarification|topic: browsing context,0
 1528456422,false,Is HTMLImgElement.decode() a cross-origin info channel?,https://github.com/whatwg/html/issues/8709,2023-01-11T05:29:17Z,2023-02-24T15:08:57Z,noamr,security/privacy|topic: img,1
-1528111766,false,Float16Array + HTML Canvas,https://github.com/whatwg/html/issues/8708,2023-01-10T22:41:56Z,2023-02-28T00:36:24Z,palemieux,addition/proposal|needs implementer interest|topic: canvas,1
+1528111766,false,Float16Array + HTML Canvas,https://github.com/whatwg/html/issues/8708,2023-01-10T22:41:56Z,2023-02-28T18:40:23Z,palemieux,addition/proposal|needs implementer interest|topic: canvas,1
 1528108331,false,Selecting text in the <summary> tag activates the details/summary (opens/closes the details tag),https://github.com/whatwg/html/issues/8707,2023-01-10T22:37:46Z,2023-01-12T13:18:14Z,gijsk,topic: events,0
 1527085260,true,How should I convert HTML to Plain Text?,https://github.com/whatwg/html/issues/8705,2023-01-10T09:54:24Z,2023-01-10T10:21:16Z,MAMPAgent,,0
 1524706667,true,"""The XML syntax for HTML was formerly referred t...""",https://github.com/whatwg/html/issues/8700,2023-01-08T22:23:56Z,2023-01-12T01:51:14Z,PuppyPi,,0
@@ -777,7 +777,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 933565439,true,When does the first browsing context create ?,https://github.com/whatwg/html/issues/6814,2021-06-30T10:55:22Z,2021-07-01T02:55:42Z,scw00,,0
 932775893,true,referer / referrer during reloads & history entry repopulations,https://github.com/whatwg/html/issues/6813,2021-06-29T14:44:30Z,2022-10-31T05:07:07Z,jakearchibald,topic: history|interop,0
 932036472,false,Add modern binary encoding APIs,https://github.com/whatwg/html/issues/6811,2021-06-28T22:16:20Z,2021-07-07T15:59:23Z,lucacasonato,addition/proposal|needs implementer interest,3
-931716900,false,srcdoc and sandbox interaction with session history,https://github.com/whatwg/html/issues/6809,2021-06-28T15:54:01Z,2023-02-15T11:28:42Z,jakearchibald,topic: history,0
+931716900,false,srcdoc and sandbox interaction with session history,https://github.com/whatwg/html/issues/6809,2021-06-28T15:54:01Z,2023-02-28T15:24:37Z,jakearchibald,topic: history,0
 930791283,true,Foster parenting doesn't happen for HTML elements in foreign content,https://github.com/whatwg/html/issues/6808,2021-06-26T20:43:24Z,2021-07-19T12:18:56Z,stevecheckoway,,1
 930577715,false,Allow <textarea> to size to its contents like <div contenteditable>,https://github.com/whatwg/html/issues/6807,2021-06-26T00:42:53Z,2022-05-09T08:31:29Z,randfur,addition/proposal|needs implementer interest|topic: rendering|topic: forms|topic: editing,0
 930149106,true,"In user activation algorithms, ""current high resolution time"" is called without a global",https://github.com/whatwg/html/issues/6806,2021-06-25T12:54:53Z,2022-03-15T15:24:18Z,yoavweiss,good first issue,0
