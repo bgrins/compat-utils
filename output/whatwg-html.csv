@@ -1,17 +1,17 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1604718787,false,Gipnomag,https://github.com/whatwg/html/issues/8965,2023-03-01T10:45:22Z,2023-03-01T10:45:22Z,gipnomag,,0
-1604203290,false,"Should step 3.2 of ""hide a popover"" algorithm check for popover validity?",https://github.com/whatwg/html/issues/8964,2023-03-01T04:13:33Z,2023-03-01T04:13:33Z,nt1m,,0
-1604097708,false,"Issue with ""hide all popovers until"" algorithm",https://github.com/whatwg/html/issues/8963,2023-03-01T02:04:58Z,2023-03-01T02:04:58Z,nt1m,,0
+1605711312,false,Popover: note still talks about anchor attribute,https://github.com/whatwg/html/issues/8968,2023-03-01T21:47:10Z,2023-03-01T21:47:10Z,annevk,topic: popover,0
+1604203290,false,"Should step 3.2 of ""hide a popover"" algorithm check for popover validity?",https://github.com/whatwg/html/issues/8964,2023-03-01T04:13:33Z,2023-03-01T17:22:48Z,nt1m,topic: popover,0
+1604097708,true,"Issue with ""hide all popovers until"" algorithm",https://github.com/whatwg/html/issues/8963,2023-03-01T02:04:58Z,2023-03-01T23:00:37Z,nt1m,topic: popover,0
 1602320224,true,HTTP Early hints 103 - How are HTML spec and HTTP RFC differences resolved?,https://github.com/whatwg/html/issues/8960,2023-02-28T03:49:29Z,2023-02-28T07:23:25Z,hamishwillee,,0
 1600719980,false,"""That logic, in turn, depends on whether on whet...""",https://github.com/whatwg/html/issues/8959,2023-02-27T08:34:27Z,2023-02-28T20:43:59Z,imageck,clarification|topic: rendering,0
 1600530152,false,"[Proposal] : Make stylesheets with non-matching media queries imported using ""@import"" non-render blocking.",https://github.com/whatwg/html/issues/8958,2023-02-27T05:58:19Z,2023-02-28T20:52:21Z,yashjoshi-dotcom,topic: script|topic: style,0
 1599427369,true,"""If options's crossorigin is not Anonymous and o...""",https://github.com/whatwg/html/issues/8949,2023-02-25T00:08:49Z,2023-02-27T06:44:06Z,bnham,,0
-1599407362,false,History API should check origin in push/replace state for opaque origin,https://github.com/whatwg/html/issues/8948,2023-02-24T23:37:04Z,2023-03-01T08:57:26Z,shhnjk,security/privacy|topic: history,0
+1599407362,false,History API should check origin in push/replace state for opaque origin,https://github.com/whatwg/html/issues/8948,2023-02-24T23:37:04Z,2023-03-01T16:02:48Z,shhnjk,security/privacy|topic: history,0
 1598864378,false,"`<input type=""file"" webkitdirectory="""" />` and empty directories",https://github.com/whatwg/html/issues/8946,2023-02-24T15:38:34Z,2023-02-28T21:02:48Z,tomayac,topic: forms|topic: events,0
 1598860758,false,events fired when drag/drop of files leaves set of files unchanged differ from events fired when file chooser leaves set of files unchanged,https://github.com/whatwg/html/issues/8945,2023-02-24T15:36:00Z,2023-02-28T21:04:01Z,dbaron,topic: forms|topic: events,0
-1598855244,false,Add guidance for modal blocking,https://github.com/whatwg/html/issues/8944,2023-02-24T15:31:57Z,2023-02-24T15:32:38Z,SoniEx2,,0
+1598855244,true,Add guidance for modal blocking,https://github.com/whatwg/html/issues/8944,2023-02-24T15:31:57Z,2023-03-01T14:55:55Z,SoniEx2,,0
 1597672687,false,Upcoming HTML standard issue triage meeting on 3/9/2023,https://github.com/whatwg/html/issues/8942,2023-02-23T23:40:16Z,2023-02-24T02:49:28Z,past,agenda+,0
-1597559482,false,Difference between auto popover list and filtered top layer?,https://github.com/whatwg/html/issues/8941,2023-02-23T21:35:03Z,2023-02-28T21:18:59Z,nt1m,clarification|topic: popover,0
+1597559482,false,Difference between auto popover list and filtered top layer?,https://github.com/whatwg/html/issues/8941,2023-02-23T21:35:03Z,2023-03-01T22:01:41Z,nt1m,topic: popover,0
 1596728947,false,Add `userValid` to `ValidityState`,https://github.com/whatwg/html/issues/8938,2023-02-23T11:59:04Z,2023-02-24T13:05:28Z,jacobrask,addition/proposal|topic: forms,1
 1596127712,true,Missing removing steps for popover,https://github.com/whatwg/html/issues/8937,2023-02-23T02:48:37Z,2023-02-23T03:01:45Z,nt1m,,0
 1595987306,true,Missing onbeforetoggle IDL definition?,https://github.com/whatwg/html/issues/8935,2023-02-22T23:25:18Z,2023-02-23T08:41:44Z,nt1m,,0
@@ -35,7 +35,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1581414494,true,"`{Dedicated,Shared}WorkerGlobalScope` instances should be immutable prototype exotic objects",https://github.com/whatwg/html/issues/8879,2023-02-12T21:23:21Z,2023-02-13T00:55:03Z,andreubotella,topic: workers,0
 1581227363,true,"Feature request: `import(url, {importmap: {...}})`",https://github.com/whatwg/html/issues/8877,2023-02-12T11:47:16Z,2023-02-15T06:48:35Z,szmarczak,,1
 1580485988,false,Non-typical slot uses,https://github.com/whatwg/html/issues/8876,2023-02-10T23:34:17Z,2023-02-24T15:07:24Z,szmarczak,clarification|topic: shadow,0
-1580163957,false,Proposal: Add a `resizeend` event to the Window,https://github.com/whatwg/html/issues/8874,2023-02-10T18:50:00Z,2023-02-13T20:27:53Z,thegreatercurve,,2
+1580163957,true,Proposal: Add a `resizeend` event to the Window,https://github.com/whatwg/html/issues/8874,2023-02-10T18:50:00Z,2023-03-01T13:54:29Z,thegreatercurve,,2
 1578330560,true,Upcoming HTML standard issue triage meeting on 2/23/2023,https://github.com/whatwg/html/issues/8873,2023-02-09T17:43:46Z,2023-02-23T23:50:07Z,past,agenda+,0
 1578001480,false,"Make a way to listen to ""fully active"" state changes",https://github.com/whatwg/html/issues/8872,2023-02-09T14:32:54Z,2023-02-10T13:47:15Z,rakina,integration,0
 1577757378,true,SVGs in <use> cannot be preloaded with a link@rel=preload,https://github.com/whatwg/html/issues/8870,2023-02-09T11:58:48Z,2023-02-15T06:47:26Z,Boldewyn,,0
