@@ -1,5 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1605711312,false,Popover: note still talks about anchor attribute,https://github.com/whatwg/html/issues/8968,2023-03-01T21:47:10Z,2023-03-01T21:47:10Z,annevk,topic: popover,0
+1605923313,false,Editorial: topmost popover ancestor should not use a map,https://github.com/whatwg/html/issues/8971,2023-03-02T00:44:09Z,2023-03-02T00:44:09Z,annevk,clarification|topic: popover,0
+1605921295,false,Should popover use the flat tree,https://github.com/whatwg/html/issues/8970,2023-03-02T00:41:39Z,2023-03-02T00:41:56Z,annevk,topic: shadow|topic: popover,0
+1605711312,false,Popover: note still talks about anchor attribute,https://github.com/whatwg/html/issues/8968,2023-03-01T21:47:10Z,2023-03-02T01:30:47Z,annevk,topic: popover,0
 1604203290,false,"Should step 3.2 of ""hide a popover"" algorithm check for popover validity?",https://github.com/whatwg/html/issues/8964,2023-03-01T04:13:33Z,2023-03-01T17:22:48Z,nt1m,topic: popover,0
 1604097708,true,"Issue with ""hide all popovers until"" algorithm",https://github.com/whatwg/html/issues/8963,2023-03-01T02:04:58Z,2023-03-01T23:00:37Z,nt1m,topic: popover,0
 1602320224,true,HTTP Early hints 103 - How are HTML spec and HTTP RFC differences resolved?,https://github.com/whatwg/html/issues/8960,2023-02-28T03:49:29Z,2023-02-28T07:23:25Z,hamishwillee,,0
@@ -63,7 +65,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1552934460,false,Ability to style default summary in <details>,https://github.com/whatwg/html/issues/8770,2023-01-23T11:28:14Z,2023-02-14T18:56:50Z,jakearchibald,addition/proposal|topic: rendering|topic: selectors,0
 1552047625,false,"Clarify: CSS import assertions use ""script"" as the destination, is that intended?",https://github.com/whatwg/html/issues/8764,2023-01-22T08:56:49Z,2023-01-22T08:57:06Z,noamr,,0
 1550462824,true,MediaError not acccessible for a video element if using it with source elements,https://github.com/whatwg/html/issues/8757,2023-01-20T08:15:13Z,2023-01-26T09:48:49Z,callumgare,,0
-1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-02-28T20:58:34Z,mfreed7,addition/proposal|topic: shadow|agenda+,0
+1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-03-02T04:38:41Z,mfreed7,addition/proposal|topic: shadow|agenda+,0
 1550024105,false,Native support for indents,https://github.com/whatwg/html/issues/8751,2023-01-19T22:11:32Z,2023-01-25T23:06:02Z,EgonBolton,,0
 1548957116,true,[css-view-transitions-1] Interaction with Safari's back/forward previews,https://github.com/whatwg/html/issues/8749,2023-01-19T11:14:58Z,2023-01-19T11:21:46Z,jakearchibald,,0
 1537525438,true,Meta: should dfns in headings be viewed as exported definitions?,https://github.com/whatwg/html/issues/8743,2023-01-18T07:30:06Z,2023-01-20T19:24:39Z,tidoust,,0
@@ -1018,7 +1020,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 762693696,false,allow-downloads-from-origin for something in-between nothing and allow-downloads,https://github.com/whatwg/html/issues/6220,2020-12-11T17:56:26Z,2020-12-14T17:42:20Z,tolmasky,addition/proposal|needs implementer interest,0
 762343415,true,new feature suggestion for ordered list,https://github.com/whatwg/html/issues/6219,2020-12-11T13:28:26Z,2021-03-01T17:30:45Z,jadsongmatos,,0
 762153752,false,Consider specifying heuristics for when <ul> represents a list,https://github.com/whatwg/html/issues/6218,2020-12-11T09:41:41Z,2020-12-11T19:56:32Z,zcorpan,accessibility|a11y-tracker,4
-761691540,false,Standardize a way to scroll into view within text controls,https://github.com/whatwg/html/issues/6217,2020-12-10T22:56:55Z,2020-12-11T10:59:44Z,saschanaz,addition/proposal|needs implementer interest|topic: focus,0
+761691540,false,Standardize a way to scroll into view within text controls,https://github.com/whatwg/html/issues/6217,2020-12-10T22:56:55Z,2020-12-11T10:59:44Z,saschanaz,addition/proposal|needs implementer interest|topic: focus,1
 761690307,true,Unset is_modal flag when modal dialog is removed from the document,https://github.com/whatwg/html/issues/6216,2020-12-10T22:54:55Z,2021-04-01T01:49:51Z,sefeng211,topic: dialog,2
 761676284,false,No clear conditions to fire select events from user inputs,https://github.com/whatwg/html/issues/6215,2020-12-10T22:38:19Z,2020-12-11T08:11:33Z,saschanaz,topic: forms|topic: events|interop,0
 761584379,false,Should navigating to the current URL preserve history.state?,https://github.com/whatwg/html/issues/6213,2020-12-10T20:23:35Z,2021-08-02T14:52:42Z,domenic,topic: history|interop,0
@@ -2509,7 +2511,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 281530944,true,Dev edition styling is too zoomed in,https://github.com/whatwg/html/issues/3284,2017-12-12T20:44:11Z,2018-03-05T01:30:29Z,domenic,dev edition,0
 281420267,true,Specify behaviour for sessionStorage with opaque origins,https://github.com/whatwg/html/issues/3283,2017-12-12T15:14:29Z,2020-07-10T17:28:42Z,Zirro,good first issue|interop|topic: storage,0
 281348083,true,Add accessibility role mappings to element definitions,https://github.com/whatwg/html/issues/3282,2017-12-12T11:22:08Z,2019-12-16T17:43:13Z,LJWatson,accessibility|dev edition,13
-280795713,false,"Consider adding <input type=""year"">",https://github.com/whatwg/html/issues/3281,2017-12-10T09:26:30Z,2022-07-18T23:41:06Z,guss77,addition/proposal|topic: forms,50
+280795713,false,"Consider adding <input type=""year"">",https://github.com/whatwg/html/issues/3281,2017-12-10T09:26:30Z,2022-07-18T23:41:06Z,guss77,addition/proposal|topic: forms,51
 280649013,true,Treatment of fallback image on <img src=''>,https://github.com/whatwg/html/issues/3280,2017-12-08T23:39:38Z,2018-01-04T19:41:10Z,mwenge,topic: img|interop,0
 280509596,false,"Cross-reference ""namesake method""",https://github.com/whatwg/html/issues/3278,2017-12-08T14:39:22Z,2017-12-08T15:01:46Z,Ms2ger,clarification|topic: forms,0
 280093497,true,Proposal: RangeList,https://github.com/whatwg/html/issues/3277,2017-12-07T11:22:43Z,2017-12-07T11:45:13Z,WebReflection,,0
