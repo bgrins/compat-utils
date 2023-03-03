@@ -1,6 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1605923313,false,Editorial: topmost popover ancestor should not use a map,https://github.com/whatwg/html/issues/8971,2023-03-02T00:44:09Z,2023-03-02T00:44:09Z,annevk,clarification|topic: popover,0
-1605921295,false,Should popover use the flat tree,https://github.com/whatwg/html/issues/8970,2023-03-02T00:41:39Z,2023-03-02T00:41:56Z,annevk,topic: shadow|topic: popover,0
+1607803310,false,Rename PopoverTargetElement mixin to PopoverInvokerElement,https://github.com/whatwg/html/issues/8979,2023-03-03T01:39:57Z,2023-03-03T01:39:57Z,nt1m,,0
+1607730993,false,"""Some attributes are required to be followed by ...""",https://github.com/whatwg/html/issues/8978,2023-03-03T00:08:48Z,2023-03-03T01:35:35Z,Zectbumo,,0
+1606983982,false,Why does hide popover not have a cancelable event?,https://github.com/whatwg/html/issues/8973,2023-03-02T15:09:45Z,2023-03-02T22:42:49Z,annevk,topic: popover,0
+1605923313,false,Editorial: topmost popover ancestor should not use a map,https://github.com/whatwg/html/issues/8971,2023-03-02T00:44:09Z,2023-03-02T23:03:42Z,annevk,clarification|topic: popover,0
+1605921295,false,Should popover use the flat tree,https://github.com/whatwg/html/issues/8970,2023-03-02T00:41:39Z,2023-03-03T00:00:52Z,annevk,topic: shadow|topic: popover,0
 1605711312,false,Popover: note still talks about anchor attribute,https://github.com/whatwg/html/issues/8968,2023-03-01T21:47:10Z,2023-03-02T01:30:47Z,annevk,topic: popover,0
 1604203290,false,"Should step 3.2 of ""hide a popover"" algorithm check for popover validity?",https://github.com/whatwg/html/issues/8964,2023-03-01T04:13:33Z,2023-03-01T17:22:48Z,nt1m,topic: popover,0
 1604097708,true,"Issue with ""hide all popovers until"" algorithm",https://github.com/whatwg/html/issues/8963,2023-03-01T02:04:58Z,2023-03-01T23:00:37Z,nt1m,topic: popover,0
@@ -65,7 +68,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1552934460,false,Ability to style default summary in <details>,https://github.com/whatwg/html/issues/8770,2023-01-23T11:28:14Z,2023-02-14T18:56:50Z,jakearchibald,addition/proposal|topic: rendering|topic: selectors,0
 1552047625,false,"Clarify: CSS import assertions use ""script"" as the destination, is that intended?",https://github.com/whatwg/html/issues/8764,2023-01-22T08:56:49Z,2023-01-22T08:57:06Z,noamr,,0
 1550462824,true,MediaError not acccessible for a video element if using it with source elements,https://github.com/whatwg/html/issues/8757,2023-01-20T08:15:13Z,2023-01-26T09:48:49Z,callumgare,,0
-1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-03-02T04:38:41Z,mfreed7,addition/proposal|topic: shadow|agenda+,0
+1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-03-02T22:47:24Z,mfreed7,addition/proposal|topic: shadow|agenda+,0
 1550024105,false,Native support for indents,https://github.com/whatwg/html/issues/8751,2023-01-19T22:11:32Z,2023-01-25T23:06:02Z,EgonBolton,,0
 1548957116,true,[css-view-transitions-1] Interaction with Safari's back/forward previews,https://github.com/whatwg/html/issues/8749,2023-01-19T11:14:58Z,2023-01-19T11:21:46Z,jakearchibald,,0
 1537525438,true,Meta: should dfns in headings be viewed as exported definitions?,https://github.com/whatwg/html/issues/8743,2023-01-18T07:30:06Z,2023-01-20T19:24:39Z,tidoust,,0
@@ -576,7 +579,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1071104407,true,"js drawImage ",https://github.com/whatwg/html/issues/7387,2021-12-04T03:00:23Z,2021-12-04T11:57:32Z,Ali-Hassan-Ali,,0
 1071062389,true,What should happen when setting `location.hash = location.hash`?,https://github.com/whatwg/html/issues/7386,2021-12-04T00:07:21Z,2022-01-12T17:14:26Z,cpeterso,topic: navigation|interop,0
 1071037229,true,Upcoming HTML standard issue triage meeting on 1/13/2022,https://github.com/whatwg/html/issues/7385,2021-12-03T23:05:07Z,2022-01-14T00:45:53Z,past,agenda+,0
-1069782109,false,Images should NOT refetch upon insertion even if the document's base URL has changed,https://github.com/whatwg/html/issues/7383,2021-12-02T17:01:36Z,2023-01-31T23:42:08Z,domfarolino,topic: img,0
+1069782109,true,Images should NOT refetch upon insertion even if the document's base URL has changed,https://github.com/whatwg/html/issues/7383,2021-12-02T17:01:36Z,2023-03-02T20:48:05Z,domfarolino,topic: img,0
 1068600418,true,"""obtain a browsing context to use for a navigation response"" appears to have easy-to-hit assert",https://github.com/whatwg/html/issues/7380,2021-12-01T16:14:20Z,2021-12-08T11:07:01Z,annevk,topic: cross-origin-opener-policy,0
 1067387017,false,Proposal: Add Element.isRendered() function,https://github.com/whatwg/html/issues/7379,2021-11-30T15:43:49Z,2021-12-01T21:14:55Z,vmpstr,,1
 1066032725,true,Non-cancelled `setTimeout`s would lead to idle deadlines in the past,https://github.com/whatwg/html/issues/7376,2021-11-29T13:21:50Z,2021-11-30T22:13:53Z,andreubotella,,0
@@ -839,7 +842,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 874600526,false,legend seems to be recognised/used even when not *first* child,https://github.com/whatwg/html/issues/6645,2021-05-03T13:59:41Z,2021-12-03T08:11:21Z,patrickhlauke,clarification,1
 874511738,true,`id` were mis-typed as `is`,https://github.com/whatwg/html/issues/6644,2021-05-03T12:03:10Z,2021-05-03T13:33:05Z,ianthedev,,0
 872435429,true,Cross-Origin-Embedder-Policy: credentialless,https://github.com/whatwg/html/issues/6637,2021-04-30T12:33:31Z,2021-11-02T12:55:38Z,ArthurSonzogni,topic: cross-origin-embedder-policy,0
-872131730,false,Lazy loading video element poster attribute,https://github.com/whatwg/html/issues/6636,2021-04-30T07:54:55Z,2023-01-10T17:09:30Z,asuh,addition/proposal|topic: media,2
+872131730,false,Lazy loading video element poster attribute,https://github.com/whatwg/html/issues/6636,2021-04-30T07:54:55Z,2023-03-02T23:21:00Z,asuh,addition/proposal|topic: media,3
 872059164,true,`:active` pseudo-class specification doesn't account for children/labels of disabled form elements,https://github.com/whatwg/html/issues/6635,2021-04-30T02:11:14Z,2022-02-10T19:06:49Z,alystair,topic: rendering|topic: forms,0
 870905892,false,Allow <source> to use <img>'s sizes data as a fallback,https://github.com/whatwg/html/issues/6633,2021-04-29T11:24:34Z,2022-02-04T15:46:29Z,jakearchibald,addition/proposal|topic: img,31
 870188337,true,import.meta.url always uses percent-encodings,https://github.com/whatwg/html/issues/6630,2021-04-28T17:34:16Z,2023-02-24T16:09:38Z,guybedford,,0
