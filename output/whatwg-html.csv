@@ -1,11 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1607803310,false,Rename PopoverTargetElement mixin to PopoverInvokerElement,https://github.com/whatwg/html/issues/8979,2023-03-03T01:39:57Z,2023-03-03T01:39:57Z,nt1m,,0
-1607730993,false,"""Some attributes are required to be followed by ...""",https://github.com/whatwg/html/issues/8978,2023-03-03T00:08:48Z,2023-03-03T01:35:35Z,Zectbumo,,0
-1606983982,false,Why does hide popover not have a cancelable event?,https://github.com/whatwg/html/issues/8973,2023-03-02T15:09:45Z,2023-03-02T22:42:49Z,annevk,topic: popover,0
+1609365374,false,"Issues with ""Check popover validity"" in popover target attribute activation behavior",https://github.com/whatwg/html/issues/8983,2023-03-03T22:57:38Z,2023-03-03T22:58:06Z,nt1m,topic: popover,0
+1609318866,false,Activation behavior for `<input>` never runs popover activation behavior,https://github.com/whatwg/html/issues/8982,2023-03-03T22:13:30Z,2023-03-03T22:14:09Z,nt1m,topic: popover,0
+1607803310,false,Rename PopoverTargetElement mixin to PopoverInvokerElement,https://github.com/whatwg/html/issues/8979,2023-03-03T01:39:57Z,2023-03-03T15:04:56Z,nt1m,clarification|topic: popover,2
+1607730993,false,"""Some attributes are required to be followed by ...""",https://github.com/whatwg/html/issues/8978,2023-03-03T00:08:48Z,2023-03-03T12:11:13Z,Zectbumo,,0
+1606983982,false,Why does hide popover not have a cancelable event?,https://github.com/whatwg/html/issues/8973,2023-03-02T15:09:45Z,2023-03-02T22:42:49Z,annevk,topic: popover,1
 1605923313,false,Editorial: topmost popover ancestor should not use a map,https://github.com/whatwg/html/issues/8971,2023-03-02T00:44:09Z,2023-03-02T23:03:42Z,annevk,clarification|topic: popover,0
-1605921295,false,Should popover use the flat tree,https://github.com/whatwg/html/issues/8970,2023-03-02T00:41:39Z,2023-03-03T00:00:52Z,annevk,topic: shadow|topic: popover,0
+1605921295,false,Should popover use the flat tree,https://github.com/whatwg/html/issues/8970,2023-03-02T00:41:39Z,2023-03-03T18:13:08Z,annevk,topic: shadow|topic: popover,0
 1605711312,false,Popover: note still talks about anchor attribute,https://github.com/whatwg/html/issues/8968,2023-03-01T21:47:10Z,2023-03-02T01:30:47Z,annevk,topic: popover,0
-1604203290,false,"Should step 3.2 of ""hide a popover"" algorithm check for popover validity?",https://github.com/whatwg/html/issues/8964,2023-03-01T04:13:33Z,2023-03-01T17:22:48Z,nt1m,topic: popover,0
+1604203290,true,"Should step 3.2 of ""hide a popover"" algorithm check for popover validity?",https://github.com/whatwg/html/issues/8964,2023-03-01T04:13:33Z,2023-03-03T14:19:16Z,nt1m,topic: popover,0
 1604097708,true,"Issue with ""hide all popovers until"" algorithm",https://github.com/whatwg/html/issues/8963,2023-03-01T02:04:58Z,2023-03-01T23:00:37Z,nt1m,topic: popover,0
 1602320224,true,HTTP Early hints 103 - How are HTML spec and HTTP RFC differences resolved?,https://github.com/whatwg/html/issues/8960,2023-02-28T03:49:29Z,2023-02-28T07:23:25Z,hamishwillee,,0
 1600719980,false,"""That logic, in turn, depends on whether on whet...""",https://github.com/whatwg/html/issues/8959,2023-02-27T08:34:27Z,2023-02-28T20:43:59Z,imageck,clarification|topic: rendering,0
@@ -16,14 +18,14 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1598860758,false,events fired when drag/drop of files leaves set of files unchanged differ from events fired when file chooser leaves set of files unchanged,https://github.com/whatwg/html/issues/8945,2023-02-24T15:36:00Z,2023-02-28T21:04:01Z,dbaron,topic: forms|topic: events,0
 1598855244,true,Add guidance for modal blocking,https://github.com/whatwg/html/issues/8944,2023-02-24T15:31:57Z,2023-03-01T14:55:55Z,SoniEx2,,0
 1597672687,false,Upcoming HTML standard issue triage meeting on 3/9/2023,https://github.com/whatwg/html/issues/8942,2023-02-23T23:40:16Z,2023-02-24T02:49:28Z,past,agenda+,0
-1597559482,false,Difference between auto popover list and filtered top layer?,https://github.com/whatwg/html/issues/8941,2023-02-23T21:35:03Z,2023-03-01T22:01:41Z,nt1m,topic: popover,0
+1597559482,true,Difference between auto popover list and filtered top layer?,https://github.com/whatwg/html/issues/8941,2023-02-23T21:35:03Z,2023-03-03T14:19:15Z,nt1m,topic: popover,0
 1596728947,false,Add `userValid` to `ValidityState`,https://github.com/whatwg/html/issues/8938,2023-02-23T11:59:04Z,2023-02-24T13:05:28Z,jacobrask,addition/proposal|topic: forms,1
 1596127712,true,Missing removing steps for popover,https://github.com/whatwg/html/issues/8937,2023-02-23T02:48:37Z,2023-02-23T03:01:45Z,nt1m,,0
 1595987306,true,Missing onbeforetoggle IDL definition?,https://github.com/whatwg/html/issues/8935,2023-02-22T23:25:18Z,2023-02-23T08:41:44Z,nt1m,,0
-1594657642,false,Consider making the reflected target always the interface the IDL attribute is on,https://github.com/whatwg/html/issues/8930,2023-02-22T08:17:59Z,2023-02-22T08:17:59Z,annevk,clarification,0
+1594657642,false,Consider making the reflected target always the interface the IDL attribute is on,https://github.com/whatwg/html/issues/8930,2023-02-22T08:17:59Z,2023-03-03T19:01:55Z,annevk,clarification|topic: reflect,0
 1593059975,false,Investigate number parser reuse,https://github.com/whatwg/html/issues/8928,2023-02-21T08:43:51Z,2023-02-22T08:10:06Z,annevk,normative change|clarification,0
-1593054158,true,Formalize default value reflection concept,https://github.com/whatwg/html/issues/8927,2023-02-21T08:39:59Z,2023-02-27T14:10:36Z,annevk,clarification,0
-1593051488,true,Use positive number instead of non-negative number greater than zero,https://github.com/whatwg/html/issues/8926,2023-02-21T08:37:48Z,2023-02-27T14:10:35Z,annevk,clarification,1
+1593054158,true,Formalize default value reflection concept,https://github.com/whatwg/html/issues/8927,2023-02-21T08:39:59Z,2023-03-03T19:05:12Z,annevk,clarification|topic: reflect,0
+1593051488,true,Use positive number instead of non-negative number greater than zero,https://github.com/whatwg/html/issues/8926,2023-02-21T08:37:48Z,2023-03-03T19:04:58Z,annevk,clarification|topic: reflect,1
 1591498385,true,Feature request: Enable inclusion of .gz CSS and JS files without WebServer and the http protocol,https://github.com/whatwg/html/issues/8918,2023-02-20T09:44:46Z,2023-02-24T13:11:06Z,lucajung,,0
 1591397416,false,Canvas 2D context color serialization,https://github.com/whatwg/html/issues/8917,2023-02-20T08:41:59Z,2023-02-20T15:41:26Z,annevk,topic: canvas,0
 1591084557,false,`<picture>` and `<source>` elements: How should 404s with placeholder image data be handled?,https://github.com/whatwg/html/issues/8916,2023-02-20T03:53:17Z,2023-02-24T21:31:11Z,DavidJCobb,clarification|topic: img|topic: fetch,0
@@ -32,7 +34,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1588826401,false,"""unloading document cleanup steps"" run in an unclear order",https://github.com/whatwg/html/issues/8906,2023-02-17T06:35:28Z,2023-02-17T06:35:28Z,domenic,,0
 1588690305,false,The previous focus change that was applied to dialog close has unexpected behavior for non-modal dialogs,https://github.com/whatwg/html/issues/8904,2023-02-17T03:18:23Z,2023-02-17T16:51:22Z,sirisian,,0
 1587393467,false,Allow developers to deliver .wasm apps directly to their users,https://github.com/whatwg/html/issues/8899,2023-02-16T10:07:48Z,2023-02-16T10:07:48Z,sideshowbarker,,0
-1586963695,false,popover*targetElement IDL attributes can be misleading,https://github.com/whatwg/html/issues/8894,2023-02-16T03:58:05Z,2023-02-24T19:53:12Z,nt1m,topic: popover,0
+1586963695,false,popover*targetElement IDL attributes can be misleading,https://github.com/whatwg/html/issues/8894,2023-02-16T03:58:05Z,2023-03-03T19:01:55Z,nt1m,topic: popover|topic: reflect,0
 1586936990,false,Make <details> element use ToggleEvent interface,https://github.com/whatwg/html/issues/8892,2023-02-16T03:21:05Z,2023-02-16T03:47:48Z,nt1m,addition/proposal|topic: events,1
 1585369959,true,Should popover events bubble?,https://github.com/whatwg/html/issues/8888,2023-02-15T07:41:17Z,2023-02-22T19:55:43Z,nt1m,needs tests|topic: popover,0
 1583241797,false,Expand `:open`/`:closed` state to more elements,https://github.com/whatwg/html/issues/8884,2023-02-13T23:44:31Z,2023-02-16T06:23:20Z,nt1m,topic: selectors,0
@@ -139,8 +141,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1463488301,true,`blocking=render` in preload and modulepreload links,https://github.com/whatwg/html/issues/8550,2022-11-24T15:10:56Z,2023-01-10T08:12:24Z,NiedziolkaMichal,,0
 1463157497,true,HTMLInputElement.list should be an HTMLDataListElement,https://github.com/whatwg/html/issues/8547,2022-11-24T10:55:57Z,2022-11-24T14:56:30Z,emilio,,0
 1462804756,false,"Should ""ignore higher-layer caching"" flag get a definition?",https://github.com/whatwg/html/issues/8546,2022-11-24T06:01:25Z,2022-11-24T06:03:01Z,karlcow,,0
-1462764097,false,GC for cached attr-associated elements?,https://github.com/whatwg/html/issues/8545,2022-11-24T05:03:47Z,2023-02-27T18:41:31Z,alice,,0
-1462756977,false,Shadow DOM and ElementInternals ARIAMixin properties,https://github.com/whatwg/html/issues/8544,2022-11-24T04:53:36Z,2023-02-22T13:37:59Z,alice,topic: shadow|topic: custom elements|agenda+,0
+1462764097,false,GC for cached attr-associated elements?,https://github.com/whatwg/html/issues/8545,2022-11-24T05:03:47Z,2023-03-03T19:03:55Z,alice,topic: reflect,0
+1462756977,false,Shadow DOM and ElementInternals ARIAMixin properties,https://github.com/whatwg/html/issues/8544,2022-11-24T04:53:36Z,2023-03-03T19:03:40Z,alice,topic: shadow|topic: custom elements|agenda+|topic: reflect,0
 1461018906,false,Is it possible to allow `<a>` elements to nest within each other in the future?,https://github.com/whatwg/html/issues/8541,2022-11-23T05:01:58Z,2022-12-06T17:50:58Z,LIXiangChen,,0
 1459558712,false,An iframe whose history can be transferred across parent navigations,https://github.com/whatwg/html/issues/8538,2022-11-22T10:15:42Z,2022-11-22T12:24:19Z,jakearchibald,,14
 1457097101,false,"Bogus assertion in ""prepare the script element""?",https://github.com/whatwg/html/issues/8534,2022-11-20T23:58:15Z,2022-11-20T23:58:15Z,awesomekling,,0
@@ -438,7 +440,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1194256346,false,Feature proposal: input[mask],https://github.com/whatwg/html/issues/7794,2022-04-06T08:28:15Z,2022-04-06T17:05:28Z,Akxe,addition/proposal|needs implementer interest|topic: forms,2
 1193376515,true,EvenSource BOM definition,https://github.com/whatwg/html/issues/7791,2022-04-05T15:48:34Z,2022-04-05T17:33:02Z,johntalton,clarification|topic: eventsource,0
 1192965142,false,showPicker() doesn't allow detecting whether a picker can be shown,https://github.com/whatwg/html/issues/7790,2022-04-05T10:39:32Z,2022-04-05T17:13:15Z,emilio,topic: forms,3
-1192425309,true,New feature proposal: Popover API,https://github.com/whatwg/html/issues/7785,2022-04-04T23:27:05Z,2023-03-03T11:01:07Z,mfreed7,addition/proposal,3
+1192425309,true,New feature proposal: Popover API,https://github.com/whatwg/html/issues/7785,2022-04-04T23:27:05Z,2023-03-03T15:28:53Z,mfreed7,addition/proposal,3
 1191266112,true,Is behavior of structuredClone() + SharedArrayBuffer + no transfer + no isolation intentional?,https://github.com/whatwg/html/issues/7781,2022-04-04T05:14:01Z,2022-06-08T06:43:39Z,bathos,topic: serialize and transfer,0
 1190641435,true,Event loop uses current high resolution time without a global object,https://github.com/whatwg/html/issues/7776,2022-04-02T13:59:34Z,2022-04-14T16:06:23Z,skyrising,integration,0
 1190036505,false,Translating the HTML standard into Spanish,https://github.com/whatwg/html/issues/7774,2022-04-01T16:35:44Z,2022-04-07T14:08:47Z,MasQueElite,meta,2
@@ -822,7 +824,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 897523809,true,target's TLBC should be target's BC's TLBC in has focus steps,https://github.com/whatwg/html/issues/6703,2021-05-20T22:42:13Z,2021-06-17T20:04:20Z,domenic,good first issue,0
 897285343,true,"Consider moving XHR's definition of ""entry list"" to HTML",https://github.com/whatwg/html/issues/6701,2021-05-20T18:51:21Z,2021-11-29T17:20:57Z,andreubotella,clarification|integration,0
 896536690,true,Allow certain tasks to run even when document is not fully active?,https://github.com/whatwg/html/issues/6699,2021-05-20T09:25:43Z,2021-05-27T06:23:41Z,rakina,topic: fetch|topic: document lifecycle,0
-895874485,false,Allow HTML web apps to force 24 hour time format in <input type=time>,https://github.com/whatwg/html/issues/6698,2021-05-19T20:49:24Z,2022-05-19T22:14:15Z,skissane,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,39
+895874485,false,Allow HTML web apps to force 24 hour time format in <input type=time>,https://github.com/whatwg/html/issues/6698,2021-05-19T20:49:24Z,2022-05-19T22:14:15Z,skissane,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,40
 895436878,false,Specify scroll into view for find-in-page and sequential focus navigation,https://github.com/whatwg/html/issues/6694,2021-05-19T13:18:38Z,2021-05-20T11:54:29Z,zcorpan,,0
 890889194,false,Navigating to same url - replace or add?,https://github.com/whatwg/html/issues/6682,2021-05-13T09:34:50Z,2021-08-31T13:25:45Z,jakearchibald,topic: navigation|topic: history|interop,0
 890289078,true,Author control and possible race condition in dialog.close,https://github.com/whatwg/html/issues/6681,2021-05-12T16:48:23Z,2021-05-13T16:03:36Z,AutoSponge,,0
@@ -2473,7 +2475,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 289457446,false,Selectors and case-sensitivity,https://github.com/whatwg/html/issues/3372,2018-01-18T00:00:38Z,2022-10-28T15:45:33Z,fantasai,topic: style|topic: selectors,0
 289054174,false,"Remove action at a distance and monkey patching around ""completely loaded"" and ""ready for post-load tasks""",https://github.com/whatwg/html/issues/3367,2018-01-16T21:00:09Z,2018-01-17T13:39:32Z,domenic,clarification,0
 288931658,false,Canvas and bitmaps,https://github.com/whatwg/html/issues/3364,2018-01-16T14:45:07Z,2021-05-06T05:19:51Z,annevk,clarification|topic: canvas,0
-288907829,false,<canvas> width/height setters,https://github.com/whatwg/html/issues/3362,2018-01-16T13:32:28Z,2018-01-24T19:37:01Z,annevk,topic: canvas,0
+288907829,false,<canvas> width/height setters,https://github.com/whatwg/html/issues/3362,2018-01-16T13:32:28Z,2023-03-03T19:03:23Z,annevk,topic: canvas|topic: reflect,0
 288793021,true,"""iframe load event steps"" are run in parallel, but that seems really bad",https://github.com/whatwg/html/issues/3357,2018-01-16T05:48:03Z,2018-01-17T06:36:12Z,domenic,topic: navigation,0
 288789454,true,Incorrect links in <meter> element IDL attribute definitions,https://github.com/whatwg/html/issues/3356,2018-01-16T05:23:39Z,2018-02-19T08:20:23Z,domenic,clarification|good first issue|topic: forms,0
 288700896,true,Define rendering behavior of style sheet loading,https://github.com/whatwg/html/issues/3355,2018-01-15T19:55:39Z,2022-02-10T19:12:20Z,chrishtr,topic: style,1
@@ -2541,7 +2543,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 275429346,false,On the select placeholder (label option),https://github.com/whatwg/html/issues/3244,2017-11-20T17:04:31Z,2018-09-01T10:19:42Z,oh-ren,clarification|document conformance,1
 275192198,true,Activation behavior events should not be cancelable,https://github.com/whatwg/html/issues/3240,2017-11-19T21:02:02Z,2017-11-20T15:05:52Z,domenic,,0
 275192049,true,Radio button activation behavior is not quite right,https://github.com/whatwg/html/issues/3239,2017-11-19T21:00:08Z,2021-02-28T21:18:53Z,domenic,topic: forms,0
-275173257,false,Formalize content attribute reflection,https://github.com/whatwg/html/issues/3238,2017-11-19T16:49:01Z,2020-03-19T19:49:12Z,Zirro,clarification,0
+275173257,false,Formalize content attribute reflection,https://github.com/whatwg/html/issues/3238,2017-11-19T16:49:01Z,2023-03-03T19:02:18Z,Zirro,clarification|topic: reflect,0
 274842593,true,Consider blocking downloads from a sandboxed `<iframe>`.,https://github.com/whatwg/html/issues/3236,2017-11-17T11:57:52Z,2020-05-28T15:18:13Z,mikewest,security/privacy|topic: user activation,7
 274699424,false,Table of contents issue. Orphaned elements.,https://github.com/whatwg/html/issues/3234,2017-11-16T23:23:14Z,2017-12-13T01:55:28Z,JohnLukeBentley,dev edition,0
 274547731,true,"Should <input type=date> have a ""input activation behavior"" defined? ",https://github.com/whatwg/html/issues/3232,2017-11-16T15:04:39Z,2021-12-08T17:04:52Z,stephenmcgruer,topic: forms,0
@@ -2784,7 +2786,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 239026363,true,Output caniuse boxes in the dev edition as well,https://github.com/whatwg/html/issues/2794,2017-06-28T01:17:17Z,2017-08-19T13:19:50Z,domenic,dev edition,0
 239022536,false,Allow expanding to the full table of contents in the dev edition,https://github.com/whatwg/html/issues/2793,2017-06-28T00:47:56Z,2017-07-05T18:27:50Z,domenic,spec tooling|dev edition,0
 238786200,true,take port into account for same-origin domain check,https://github.com/whatwg/html/issues/2792,2017-06-27T09:15:55Z,2018-08-07T16:14:03Z,jeisinger,normative change|needs implementer interest|security/privacy|needs compat analysis|topic: origin,0
-238741867,false,Client side include feature for HTML,https://github.com/whatwg/html/issues/2791,2017-06-27T05:36:13Z,2022-12-29T17:49:36Z,TakayoshiKochi,addition/proposal|needs implementer interest,96
+238741867,false,Client side include feature for HTML,https://github.com/whatwg/html/issues/2791,2017-06-27T05:36:13Z,2022-12-29T17:49:36Z,TakayoshiKochi,addition/proposal|needs implementer interest,97
 238161134,true,typo?,https://github.com/whatwg/html/issues/2788,2017-06-23T14:35:44Z,2017-06-26T19:34:34Z,momdo,,0
 238026392,false,"""its associated CSS layout box""",https://github.com/whatwg/html/issues/2786,2017-06-23T02:47:39Z,2017-06-30T18:14:01Z,cvrebert,clarification,0
 237922790,false,Add inline annotations of the bibliography references,https://github.com/whatwg/html/issues/2782,2017-06-22T17:47:29Z,2017-06-22T17:47:29Z,domenic,spec tooling|dev edition,1
