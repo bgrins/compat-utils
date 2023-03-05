@@ -1504,7 +1504,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 532885949,true,Clarify how to handle postMessage-ing a closing/closed DedicatedWorker,https://github.com/whatwg/html/issues/5125,2019-12-04T19:26:32Z,2019-12-04T22:14:53Z,perryjiang,,0
 532843497,false,"Add a resize observer step to the ""update the rendering"" steps",https://github.com/whatwg/html/issues/5124,2019-12-04T17:56:04Z,2019-12-05T10:57:27Z,smfr,topic: rendering|integration,2
 532638143,true,Offering origin isolation through cross-origin isolation,https://github.com/whatwg/html/issues/5122,2019-12-04T11:57:10Z,2020-07-08T09:05:32Z,annevk,needs compat analysis|topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,1
-531927763,true,Add &nnbsp; entity for U+202F,https://github.com/whatwg/html/issues/5121,2019-12-03T11:46:46Z,2021-09-20T15:08:39Z,ygoe,addition/proposal|needs implementer interest|topic: parser|i18n-tracker|i18n-alreq|i18n-amlreq|i18n-mlreq,3
+531927763,false,Add &nnbsp; entity for U+202F,https://github.com/whatwg/html/issues/5121,2019-12-03T11:46:46Z,2023-03-04T22:12:12Z,ygoe,addition/proposal|needs implementer interest|topic: parser|i18n-tracker|i18n-alreq|i18n-amlreq|i18n-mlreq,3
 531506929,true,Misprint in example code,https://github.com/whatwg/html/issues/5119,2019-12-02T20:03:58Z,2020-01-09T09:07:58Z,johnnygerard,good first issue,0
 531353224,true,Should infinite recursion of custom element constructors be possible?,https://github.com/whatwg/html/issues/5118,2019-12-02T17:47:52Z,2020-01-22T19:39:18Z,mfreed7,topic: custom elements,0
 531174887,true,Parsing of <svg><p> in innerHTML is not interoperable,https://github.com/whatwg/html/issues/5117,2019-12-02T14:45:48Z,2021-03-02T17:08:46Z,zcorpan,topic: parser|interop,0
@@ -2831,7 +2831,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 232231572,true,Focus state is unspecified when user agent itself loses focus.,https://github.com/whatwg/html/issues/2716,2017-05-30T12:08:33Z,2020-12-11T22:35:19Z,tobie,topic: focus,2
 232185004,true,Does <hr> create a new block formatting context?,https://github.com/whatwg/html/issues/2715,2017-05-30T08:57:45Z,2017-06-02T07:18:11Z,zcorpan,compat|topic: rendering|interop,1
 231970358,true,Proposal: Add the option to define the scroll behavior of focus(),https://github.com/whatwg/html/issues/2712,2017-05-29T09:22:06Z,2017-05-30T22:07:26Z,jihyerish,,2
-231747000,false,"Need hook for when a browsing context gains or loses focus ",https://github.com/whatwg/html/issues/2711,2017-05-26T22:19:50Z,2021-05-23T15:51:08Z,tobie,topic: focus|integration,6
+231747000,false,"Need hook for when a browsing context gains or loses focus ",https://github.com/whatwg/html/issues/2711,2017-05-26T22:19:50Z,2023-03-04T12:40:05Z,tobie,topic: focus|integration,7
 231746300,true,Expose `history.index` in addition to `history.length`,https://github.com/whatwg/html/issues/2710,2017-05-26T22:15:11Z,2021-12-07T09:20:04Z,dvoytenko,addition/proposal|topic: history,0
 231212752,true,Form submission: Should check connected twice,https://github.com/whatwg/html/issues/2708,2017-05-25T01:06:01Z,2017-09-22T12:04:33Z,tkent-google,topic: navigation|topic: forms,0
 231138283,true,Incumbent algorithm gives inconsistent results for timer callbacks and event handlers; remove skip-when-determining-incumbent counter?,https://github.com/whatwg/html/issues/2706,2017-05-24T18:56:29Z,2017-06-28T22:55:17Z,dbates-wk,topic: multiple globals,0
