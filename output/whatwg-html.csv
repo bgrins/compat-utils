@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1610405810,false,Worker data: url is opaque cross origin right?,https://github.com/whatwg/html/issues/8986,2023-03-05T23:05:55Z,2023-03-05T23:06:15Z,hamishwillee,,0
 1609365374,false,"Issues with ""Check popover validity"" in popover target attribute activation behavior",https://github.com/whatwg/html/issues/8983,2023-03-03T22:57:38Z,2023-03-04T02:36:59Z,nt1m,topic: popover,0
 1609318866,false,Activation behavior for `<input>` never runs popover activation behavior,https://github.com/whatwg/html/issues/8982,2023-03-03T22:13:30Z,2023-03-04T02:32:17Z,nt1m,topic: popover,0
 1607803310,false,Rename PopoverTargetElement mixin to PopoverInvokerElement,https://github.com/whatwg/html/issues/8979,2023-03-03T01:39:57Z,2023-03-03T15:04:56Z,nt1m,clarification|topic: popover,2
@@ -158,7 +159,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1449682450,false,Open `<details>` and `<dialog>` if their content is targeted in the URL fragment,https://github.com/whatwg/html/issues/8509,2022-11-15T12:10:26Z,2022-11-17T14:30:40Z,Boldewyn,,7
 1449329706,false,It's time to reinvent the table element,https://github.com/whatwg/html/issues/8507,2022-11-15T07:51:51Z,2022-12-23T16:23:51Z,NagayamaToshiaki,,0
 1449138951,true,Could we make consume user activation return a boolean?,https://github.com/whatwg/html/issues/8505,2022-11-15T04:16:12Z,2022-11-16T00:04:58Z,marcoscaceres,topic: user activation,0
-1447249807,false,"`<form method=""dialog"">` should probably not check for `noopener`",https://github.com/whatwg/html/issues/8499,2022-11-14T02:07:22Z,2023-01-30T16:20:09Z,nt1m,topic: forms|topic: dialog,0
+1447249807,true,"`<form method=""dialog"">` should probably not check for `noopener`",https://github.com/whatwg/html/issues/8499,2022-11-14T02:07:22Z,2023-03-06T02:56:46Z,nt1m,topic: forms|topic: dialog,0
 1446105189,true,Upcoming HTML standard issue triage meeting on 12/8/2022,https://github.com/whatwg/html/issues/8497,2022-11-11T23:47:08Z,2022-12-13T01:52:26Z,past,agenda+,0
 1444825638,true,Move APAC/America-friendly triage meeting time to 08:00 Tokyo time / midnight Berlin / 15:00 San Francisco,https://github.com/whatwg/html/issues/8494,2022-11-11T02:21:27Z,2022-12-13T01:36:24Z,sideshowbarker,,1
 1444119253,false,Define DefaultLocale and DefaultTimeZone,https://github.com/whatwg/html/issues/8493,2022-11-10T15:34:49Z,2022-11-11T09:38:22Z,annevk,topic: script|integration,0
@@ -2392,7 +2393,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 301777319,true,"quirk mode ",https://github.com/whatwg/html/issues/3521,2018-03-02T14:08:38Z,2018-03-02T14:09:54Z,ghost,,0
 301686491,false,<meter> interoperability issue with values on boundaries,https://github.com/whatwg/html/issues/3520,2018-03-02T08:19:32Z,2022-03-11T08:40:22Z,tkent-google,clarification|interop,0
 301660842,true,I need feedback to see if I am right?,https://github.com/whatwg/html/issues/3519,2018-03-02T05:50:39Z,2018-03-02T10:10:56Z,Thezone1975,,0
-301576285,false,Proposal: HTML passwordrules attribute,https://github.com/whatwg/html/issues/3518,2018-03-01T22:02:50Z,2022-01-12T15:47:57Z,dbates-wk,addition/proposal|needs implementer interest|document conformance|security/privacy|topic: forms,48
+301576285,false,Proposal: HTML passwordrules attribute,https://github.com/whatwg/html/issues/3518,2018-03-01T22:02:50Z,2022-01-12T15:47:57Z,dbates-wk,addition/proposal|needs implementer interest|document conformance|security/privacy|topic: forms,49
 301126578,false,API for structured serialized data,https://github.com/whatwg/html/issues/3517,2018-02-28T18:07:55Z,2021-05-14T07:06:04Z,devsnek,addition/proposal|needs implementer interest|topic: serialize and transfer,6
 300769187,true,Add element reflection counterparts to id-reference counterparts,https://github.com/whatwg/html/issues/3515,2018-02-27T19:51:04Z,2022-11-11T14:43:18Z,domenic,addition/proposal|topic: shadow|accessibility|impacts documentation,0
 300576902,false,Define all focus events,https://github.com/whatwg/html/issues/3514,2018-02-27T10:41:03Z,2019-11-21T22:48:28Z,annevk,interop|topic: focus|integration,3
@@ -3309,7 +3310,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 178851078,false,"Should the contents of display:none iframes really be considered as ""being rendered""?",https://github.com/whatwg/html/issues/1813,2016-09-23T11:17:56Z,2020-09-09T09:39:20Z,bzbarsky,topic: rendering,0
 178821051,true,Should we use option's label or value to match user's input in list attribute?,https://github.com/whatwg/html/issues/1811,2016-09-23T08:56:45Z,2021-12-11T08:54:28Z,jessi3py-zz,compat|topic: forms,0
 178710781,true,"Drop a, area and frameset from the ""document-tree child browsing context name property set""?",https://github.com/whatwg/html/issues/1810,2016-09-22T20:21:42Z,2016-10-06T08:17:06Z,cdumez,,0
-178611737,false,"[Proposal] New tags <tabsection>, <tablist>, <tab>, <tabpanel>",https://github.com/whatwg/html/issues/1809,2016-09-22T13:36:32Z,2019-07-19T14:15:41Z,Mevrael,addition/proposal|needs implementer interest,17
+178611737,false,"[Proposal] New tags <tabsection>, <tablist>, <tab>, <tabpanel>",https://github.com/whatwg/html/issues/1809,2016-09-22T13:36:32Z,2019-07-19T14:15:41Z,Mevrael,addition/proposal|needs implementer interest,18
 178441326,false,Canvas 2D arcTo assumes current transform is invertible,https://github.com/whatwg/html/issues/1808,2016-09-21T19:31:01Z,2016-09-21T19:45:54Z,junov,topic: canvas,0
 178427470,true,Should accessing location.href cross-origin throw a SecurityError?,https://github.com/whatwg/html/issues/1807,2016-09-21T18:33:59Z,2016-09-26T17:15:48Z,cdumez,,0
 178382703,false,Feature request: preview thumbnail video when seeking a video,https://github.com/whatwg/html/issues/1806,2016-09-21T15:32:16Z,2016-09-21T16:12:21Z,zcorpan,addition/proposal|topic: media,1
