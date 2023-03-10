@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1616877531,false,Storage Access API Standardization,https://github.com/whatwg/html/issues/9000,2023-03-09T10:16:50Z,2023-03-09T10:16:50Z,johannhof,,0
+1618129848,false,Upcoming HTML standard issue triage meeting on 3/23/2023,https://github.com/whatwg/html/issues/9002,2023-03-09T23:18:35Z,2023-03-09T23:18:35Z,past,agenda+,0
+1616877531,false,Storage Access API Standardization,https://github.com/whatwg/html/issues/9000,2023-03-09T10:16:50Z,2023-03-09T10:16:50Z,johannhof,,1
 1616220344,false,togglePopover() algorithm does not check popover validity when force == false and when the popover visibility state is hidden,https://github.com/whatwg/html/issues/8999,2023-03-09T01:04:13Z,2023-03-09T01:31:57Z,nt1m,topic: popover,0
 1614714505,false,WPT testing non-standard behavior for popover focusing steps,https://github.com/whatwg/html/issues/8994,2023-03-08T06:11:02Z,2023-03-08T22:07:11Z,nt1m,topic: focus|topic: popover,0
 1612593381,false,WPT tests for unspecified PopoverInvokerElement removing steps,https://github.com/whatwg/html/issues/8991,2023-03-07T02:28:43Z,2023-03-09T05:23:19Z,nt1m,topic: popover,0
@@ -25,7 +26,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1598864378,false,"`<input type=""file"" webkitdirectory="""" />` and empty directories",https://github.com/whatwg/html/issues/8946,2023-02-24T15:38:34Z,2023-02-28T21:02:48Z,tomayac,topic: forms|topic: events,0
 1598860758,false,events fired when drag/drop of files leaves set of files unchanged differ from events fired when file chooser leaves set of files unchanged,https://github.com/whatwg/html/issues/8945,2023-02-24T15:36:00Z,2023-02-28T21:04:01Z,dbaron,topic: forms|topic: events,0
 1598855244,true,Add guidance for modal blocking,https://github.com/whatwg/html/issues/8944,2023-02-24T15:31:57Z,2023-03-01T14:55:55Z,SoniEx2,,0
-1597672687,false,Upcoming HTML standard issue triage meeting on 3/9/2023,https://github.com/whatwg/html/issues/8942,2023-02-23T23:40:16Z,2023-03-08T19:16:48Z,past,agenda+,0
+1597672687,true,Upcoming HTML standard issue triage meeting on 3/9/2023,https://github.com/whatwg/html/issues/8942,2023-02-23T23:40:16Z,2023-03-09T23:22:13Z,past,agenda+,0
 1597559482,true,Difference between auto popover list and filtered top layer?,https://github.com/whatwg/html/issues/8941,2023-02-23T21:35:03Z,2023-03-03T14:19:15Z,nt1m,topic: popover,0
 1596728947,false,Add `userValid` to `ValidityState`,https://github.com/whatwg/html/issues/8938,2023-02-23T11:59:04Z,2023-02-24T13:05:28Z,jacobrask,addition/proposal|topic: forms,1
 1596127712,true,Missing removing steps for popover,https://github.com/whatwg/html/issues/8937,2023-02-23T02:48:37Z,2023-02-23T03:01:45Z,nt1m,,0
@@ -68,7 +69,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1559343854,false,HTML cross-document encoding inheritance with bogus Content-Type charset,https://github.com/whatwg/html/issues/8789,2023-01-27T08:12:21Z,2023-01-27T08:12:38Z,annevk,topic: parser|interop,0
 1558881148,true,Upcoming HTML standard issue triage meeting on 2/9/2023,https://github.com/whatwg/html/issues/8786,2023-01-26T22:33:48Z,2023-02-09T17:49:43Z,past,agenda+,0
 1558865836,true,"An un-activated Image Button submitter should add `(0, 0)` entries to the form data set",https://github.com/whatwg/html/issues/8785,2023-01-26T22:18:29Z,2023-01-28T15:38:26Z,jenseng,,0
-1558491226,false,Expose an API to get the top layer element,https://github.com/whatwg/html/issues/8783,2023-01-26T17:16:05Z,2023-01-26T17:17:03Z,straker,,0
+1558491226,false,Expose an API to get the top layer element,https://github.com/whatwg/html/issues/8783,2023-01-26T17:16:05Z,2023-01-26T17:17:03Z,straker,,1
 1558379555,false,Tell developer when page transitions should be avoided - popStateEvent.skipTransition,https://github.com/whatwg/html/issues/8782,2023-01-26T16:01:43Z,2023-01-30T09:24:06Z,jakearchibald,,0
 1557491233,false,"Img ""sizes"": is fallback value optional (per MDN) or required (per current spec)?",https://github.com/whatwg/html/issues/8778,2023-01-26T01:15:47Z,2023-01-26T01:15:47Z,tmb-github,,0
 1557373653,true,The `commit` method on various canvas contexts does not exist,https://github.com/whatwg/html/issues/8777,2023-01-25T22:48:52Z,2023-01-25T23:28:49Z,greggman,,0
@@ -78,7 +79,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1552934460,false,Ability to style default summary in <details>,https://github.com/whatwg/html/issues/8770,2023-01-23T11:28:14Z,2023-02-14T18:56:50Z,jakearchibald,addition/proposal|topic: rendering|topic: selectors,0
 1552047625,false,"Clarify: CSS import assertions use ""script"" as the destination, is that intended?",https://github.com/whatwg/html/issues/8764,2023-01-22T08:56:49Z,2023-01-22T08:57:06Z,noamr,,0
 1550462824,true,MediaError not acccessible for a video element if using it with source elements,https://github.com/whatwg/html/issues/8757,2023-01-20T08:15:13Z,2023-01-26T09:48:49Z,callumgare,,0
-1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-03-02T22:47:24Z,mfreed7,addition/proposal|topic: shadow|agenda+,0
+1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-03-09T23:23:22Z,mfreed7,addition/proposal|topic: shadow,0
 1550024105,false,Native support for indents,https://github.com/whatwg/html/issues/8751,2023-01-19T22:11:32Z,2023-01-25T23:06:02Z,EgonBolton,,0
 1548957116,true,[css-view-transitions-1] Interaction with Safari's back/forward previews,https://github.com/whatwg/html/issues/8749,2023-01-19T11:14:58Z,2023-01-19T11:21:46Z,jakearchibald,,0
 1537525438,true,Meta: should dfns in headings be viewed as exported definitions?,https://github.com/whatwg/html/issues/8743,2023-01-18T07:30:06Z,2023-01-20T19:24:39Z,tidoust,,0
@@ -150,7 +151,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1463157497,true,HTMLInputElement.list should be an HTMLDataListElement,https://github.com/whatwg/html/issues/8547,2022-11-24T10:55:57Z,2022-11-24T14:56:30Z,emilio,,0
 1462804756,false,"Should ""ignore higher-layer caching"" flag get a definition?",https://github.com/whatwg/html/issues/8546,2022-11-24T06:01:25Z,2022-11-24T06:03:01Z,karlcow,,0
 1462764097,false,GC for cached attr-associated elements?,https://github.com/whatwg/html/issues/8545,2022-11-24T05:03:47Z,2023-03-03T19:03:55Z,alice,topic: reflect,0
-1462756977,false,Shadow DOM and ElementInternals ARIAMixin properties,https://github.com/whatwg/html/issues/8544,2022-11-24T04:53:36Z,2023-03-03T19:03:40Z,alice,topic: shadow|topic: custom elements|agenda+|topic: reflect,0
+1462756977,false,Shadow DOM and ElementInternals ARIAMixin properties,https://github.com/whatwg/html/issues/8544,2022-11-24T04:53:36Z,2023-03-09T23:24:06Z,alice,topic: shadow|topic: custom elements|topic: reflect,0
 1461018906,false,Is it possible to allow `<a>` elements to nest within each other in the future?,https://github.com/whatwg/html/issues/8541,2022-11-23T05:01:58Z,2022-12-06T17:50:58Z,LIXiangChen,,0
 1459558712,false,An iframe whose history can be transferred across parent navigations,https://github.com/whatwg/html/issues/8538,2022-11-22T10:15:42Z,2023-03-06T12:39:16Z,jakearchibald,,18
 1457097101,false,"Bogus assertion in ""prepare the script element""?",https://github.com/whatwg/html/issues/8534,2022-11-20T23:58:15Z,2022-11-20T23:58:15Z,awesomekling,,0
@@ -1758,7 +1759,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 448530795,true,HTML...,https://github.com/whatwg/html/issues/4662,2019-05-26T05:37:18Z,2019-05-26T06:17:20Z,LalitoConstantino,,0
 447808442,false,Proposal: MessagePort Transfer,https://github.com/whatwg/html/issues/4657,2019-05-23T18:24:23Z,2019-05-24T08:13:54Z,RandyBuchholz,addition/proposal|needs implementer interest|topic: serialize and transfer,0
 447647443,false,Clarify when alt text is shown for lazy-loaded images and images loaded on-demand,https://github.com/whatwg/html/issues/4655,2019-05-23T12:57:27Z,2020-02-12T10:06:30Z,zcorpan,accessibility|topic: img,0
-447636849,false,"Add ""auto sizes"" for lazy-loaded images",https://github.com/whatwg/html/issues/4654,2019-05-23T12:35:47Z,2023-02-02T07:40:34Z,zcorpan,addition/proposal|needs implementer interest|document conformance|topic: img,19
+447636849,false,"Add ""auto sizes"" for lazy-loaded images",https://github.com/whatwg/html/issues/4654,2019-05-23T12:35:47Z,2023-02-02T07:40:34Z,zcorpan,addition/proposal|needs implementer interest|document conformance|topic: img,20
 447504160,true,'Window post message steps' doesn't define which event loop is used for queuing a task,https://github.com/whatwg/html/issues/4653,2019-05-23T07:57:49Z,2019-09-28T02:11:38Z,smaug----,topic: serialize and transfer|topic: event loop,0
 447428523,true,inputmode=number should be inputmode=numeric,https://github.com/whatwg/html/issues/4652,2019-05-23T03:01:58Z,2019-05-23T15:33:29Z,coliff,good first issue,1
 447334382,false,CSP integration for javascript: URLs seems to be broken,https://github.com/whatwg/html/issues/4651,2019-05-22T20:43:58Z,2019-06-12T17:45:21Z,bzbarsky,security/privacy|integration|topic: javascript: URLs,2
