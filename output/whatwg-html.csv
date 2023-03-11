@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1618871157,false,[Proposal] A way to load parts of a page instead of the entire page.,https://github.com/whatwg/html/issues/9003,2023-03-10T12:03:32Z,2023-03-10T12:03:32Z,flavi1,,0
+1619037226,false,[proposal] Integrate handlebars as a native available template engine in html,https://github.com/whatwg/html/issues/9004,2023-03-10T14:06:38Z,2023-03-10T14:16:31Z,flavi1,,0
+1618871157,false,[Proposal] A way to load parts of a page instead of the entire page.,https://github.com/whatwg/html/issues/9003,2023-03-10T12:03:32Z,2023-03-10T19:52:38Z,flavi1,,0
 1618129848,false,Upcoming HTML standard issue triage meeting on 3/23/2023,https://github.com/whatwg/html/issues/9002,2023-03-09T23:18:35Z,2023-03-09T23:18:35Z,past,agenda+,0
 1616877531,false,Storage Access API Standardization,https://github.com/whatwg/html/issues/9000,2023-03-09T10:16:50Z,2023-03-09T10:16:50Z,johannhof,,1
 1616220344,false,togglePopover() algorithm does not check popover validity when force == false and when the popover visibility state is hidden,https://github.com/whatwg/html/issues/8999,2023-03-09T01:04:13Z,2023-03-09T01:31:57Z,nt1m,topic: popover,0
@@ -80,7 +81,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1552934460,false,Ability to style default summary in <details>,https://github.com/whatwg/html/issues/8770,2023-01-23T11:28:14Z,2023-02-14T18:56:50Z,jakearchibald,addition/proposal|topic: rendering|topic: selectors,0
 1552047625,false,"Clarify: CSS import assertions use ""script"" as the destination, is that intended?",https://github.com/whatwg/html/issues/8764,2023-01-22T08:56:49Z,2023-01-22T08:57:06Z,noamr,,0
 1550462824,true,MediaError not acccessible for a video element if using it with source elements,https://github.com/whatwg/html/issues/8757,2023-01-20T08:15:13Z,2023-01-26T09:48:49Z,callumgare,,0
-1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-03-09T23:23:22Z,mfreed7,addition/proposal|topic: shadow,0
+1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-03-10T12:23:54Z,mfreed7,addition/proposal|topic: shadow,0
 1550024105,false,Native support for indents,https://github.com/whatwg/html/issues/8751,2023-01-19T22:11:32Z,2023-01-25T23:06:02Z,EgonBolton,,0
 1548957116,true,[css-view-transitions-1] Interaction with Safari's back/forward previews,https://github.com/whatwg/html/issues/8749,2023-01-19T11:14:58Z,2023-01-19T11:21:46Z,jakearchibald,,0
 1537525438,true,Meta: should dfns in headings be viewed as exported definitions?,https://github.com/whatwg/html/issues/8743,2023-01-18T07:30:06Z,2023-01-20T19:24:39Z,tidoust,,0
@@ -302,7 +303,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1325877836,true,Contradiction in CanvasRenderingContext2D.createPattern for images with bad useability,https://github.com/whatwg/html/issues/8149,2022-08-02T13:41:14Z,2022-08-03T15:27:59Z,mysteryDate,,0
 1323964858,false,support title element containing partially translatable text,https://github.com/whatwg/html/issues/8147,2022-08-01T07:33:35Z,2022-08-01T10:52:21Z,Zhang-Junzhi,i18n-tracker,0
 1323769314,false,Clarify the fill algorithm,https://github.com/whatwg/html/issues/8145,2022-08-01T03:51:58Z,2022-08-01T03:52:09Z,Kaiido,topic: canvas,0
-1323380850,false,"CORS, CORP, TAO & ""public static resource"" metadata",https://github.com/whatwg/html/issues/8143,2022-07-31T07:03:55Z,2023-03-07T16:01:51Z,noamr,security/privacy|topic: fetch,1
+1323380850,false,"CORS, CORP, TAO & ""public static resource"" metadata",https://github.com/whatwg/html/issues/8143,2022-07-31T07:03:55Z,2023-03-10T17:08:04Z,noamr,security/privacy|topic: fetch,1
 1322915430,true,New html element: preview,https://github.com/whatwg/html/issues/8140,2022-07-30T06:29:07Z,2022-07-31T23:22:49Z,ghost,,0
 1321568538,false,Clarify what happens when setting rel content attribute on link element,https://github.com/whatwg/html/issues/8138,2022-07-28T22:45:38Z,2022-09-08T06:59:25Z,rniwa,topic: link,0
 1318917068,false,Which input types should readonly affect constraint validation for?,https://github.com/whatwg/html/issues/8133,2022-07-27T01:40:41Z,2022-08-11T16:30:58Z,nt1m,clarification|topic: forms,0
@@ -2052,7 +2053,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 374914986,true,""" void postMessage(any message, optional sequenc...""",https://github.com/whatwg/html/issues/4137,2018-10-29T08:59:12Z,2018-11-02T14:02:58Z,bakulf,,0
 374880129,true,"Comments ",https://github.com/whatwg/html/issues/4136,2018-10-29T06:51:02Z,2018-10-29T08:07:32Z,ghost,,0
 374532082,true,Consider relaxing same-origin requirements on Worker src,https://github.com/whatwg/html/issues/4131,2018-10-26T20:14:40Z,2021-07-29T14:10:00Z,esprehn,topic: workers,0
-374315759,false,CanvasRenderingContext2D.drawImage does not consider a video element playing only audio,https://github.com/whatwg/html/issues/4128,2018-10-26T10:08:50Z,2023-02-24T17:38:03Z,Pehrsons,topic: media|topic: canvas,0
+374315759,false,CanvasRenderingContext2D.drawImage does not consider a video element playing only audio,https://github.com/whatwg/html/issues/4128,2018-10-26T10:08:50Z,2023-03-10T22:03:18Z,Pehrsons,topic: media|topic: canvas,0
 374153185,true,Alias or clone creator origin of a newly created browsing context,https://github.com/whatwg/html/issues/4126,2018-10-25T22:10:52Z,2019-11-26T17:30:31Z,zetafunction,topic: browsing context|topic: origin,0
 373824327,true,Navigating bfcache isn't guarded by sandboxing,https://github.com/whatwg/html/issues/4121,2018-10-25T08:12:49Z,2022-10-31T05:07:00Z,annevk,security/privacy|topic: history,0
 373626958,true,Redefine specification for innerText on td cell,https://github.com/whatwg/html/issues/4119,2018-10-24T18:51:48Z,2018-10-30T15:42:06Z,brettg2,compat|interop,0
