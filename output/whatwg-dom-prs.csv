@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1612315320,false,Rename Range's 'start' and 'end' to 'range start' and 'range end'.,https://github.com/whatwg/dom/pull/1168,2023-03-06T22:28:49Z,2023-03-10T22:41:42Z,tabatkins,,0
+1612315320,false,Rename Range's 'start' and 'end' to 'range start' and 'range end'.,https://github.com/whatwg/dom/pull/1168,2023-03-06T22:28:49Z,2023-03-13T18:15:01Z,tabatkins,,0
 1595338556,true,Editorial: minor reflect cleanup,https://github.com/whatwg/dom/pull/1166,2023-02-22T15:42:50Z,2023-02-22T15:49:17Z,annevk,,0
 1592699134,true,Update createNSResolver and lookupNamespaceURI(),https://github.com/whatwg/dom/pull/1165,2023-02-21T02:57:39Z,2023-02-22T16:16:21Z,tkent-google,,0
 1585257329,false,Prohibit ServiceWorker event handler update after the initialization.,https://github.com/whatwg/dom/pull/1161,2023-02-15T05:40:39Z,2023-02-15T05:44:25Z,yoshisatoyanagisawa,,0
@@ -295,7 +295,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 182775313,true,Redesign fire an event and target override,https://github.com/whatwg/dom/pull/344,2016-10-13T12:26:06Z,2016-10-14T15:32:48Z,annevk,,0
 182273274,true,Define special dispatch behavior for click events,https://github.com/whatwg/dom/pull/342,2016-10-11T14:06:42Z,2016-10-17T16:55:29Z,annevk,,0
 182110644,true,Change createElement to report exceptions instead of rethrowing,https://github.com/whatwg/dom/pull/341,2016-10-10T20:44:07Z,2016-10-11T07:43:50Z,domenic,topic: custom elements,0
-180583922,true,Do not dispatch a trusted event when target and reletedTarget are identical,https://github.com/whatwg/dom/pull/336,2016-10-03T08:12:07Z,2016-10-21T04:04:31Z,hayatoito,,0
+180583922,true,Do not dispatch a trusted event when target and reletedTarget are identical,https://github.com/whatwg/dom/pull/336,2016-10-03T08:12:07Z,2023-03-13T20:59:08Z,hayatoito,,0
 177088711,true,Make Element's slot attributes Unscopable,https://github.com/whatwg/dom/pull/329,2016-09-15T04:57:34Z,2016-09-15T08:12:05Z,hayatoito,,0
 176586455,true,Shadow: Make Event.composedPath() use closed-shadow-hidden when currentTarget is window,https://github.com/whatwg/dom/pull/327,2016-09-13T08:58:42Z,2016-09-14T04:43:55Z,hayatoito,,0
 174468393,true,Drop support for SVGZoomEvent in createEvent,https://github.com/whatwg/dom/pull/323,2016-09-01T08:45:16Z,2016-11-10T07:36:39Z,foolip,,0
