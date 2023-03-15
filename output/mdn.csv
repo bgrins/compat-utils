@@ -526,7 +526,9 @@ api/CSSAnimation,,75,,84,,13.1,,false,true,false,https://w3c.github.io/csswg-dra
 api/CSSAnimation/animationName,,75,,84,,13.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-animations-2/#dom-cssanimation-animationname,W3C
 api/CSSConditionRule,,20,,56,,14.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-conditional-3/#the-cssconditionrule-interface,W3C
 api/CSSConditionRule/conditionText,,20,,56,,14.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-conditional-3/#dom-cssconditionrule-conditiontext,W3C
-api/CSSContainerRule,,,,105,,16,,false,true,false,https://w3c.github.io/csswg-drafts/css-contain-3/#the-csscontainerrule-interface,W3C
+api/CSSContainerRule,,110,,105,,16,,false,true,false,https://w3c.github.io/csswg-drafts/css-contain-3/#the-csscontainerrule-interface,W3C
+api/CSSContainerRule/containerName,,110,,111,,,,false,true,false,https://w3c.github.io/csswg-drafts/css-contain-3/#dom-csscontainerrule-containername,W3C
+api/CSSContainerRule/containerQuery,,110,,111,,,,false,true,false,https://w3c.github.io/csswg-drafts/css-contain-3/#dom-csscontainerrule-containerquery,W3C
 api/CSSCounterStyleRule,,33,,91,,,,false,true,false,https://w3c.github.io/csswg-drafts/css-counter-styles/#the-csscounterstylerule-interface,W3C
 api/CSSCounterStyleRule/additiveSymbols,,33,,91,,,,false,true,false,https://w3c.github.io/csswg-drafts/css-counter-styles/#dom-csscounterstylerule-additivesymbols,W3C
 api/CSSCounterStyleRule/fallback,,33,,91,,,,false,true,false,https://w3c.github.io/csswg-drafts/css-counter-styles/#dom-csscounterstylerule-fallback,W3C
@@ -541,8 +543,14 @@ api/CSSCounterStyleRule/symbols,,33,,91,,,,false,true,false,https://w3c.github.i
 api/CSSCounterStyleRule/system,,33,,91,,,,false,true,false,https://w3c.github.io/csswg-drafts/css-counter-styles/#dom-csscounterstylerule-system,W3C
 api/CSSFontFaceRule,,3.5,,1,,3.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-fonts/#om-fontface,W3C
 api/CSSFontFaceRule/style,,3.5,,1,,3.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-fonts/#dom-cssfontfacerule-style,W3C
-api/CSSFontFeatureValuesRule,,34,,,,16.2,,false,true,false,https://w3c.github.io/csswg-drafts/css-fonts-4/#cssfontfeaturevaluesrule,W3C
-api/CSSFontFeatureValuesRule/fontFamily,,34,,,,16.2,,false,true,false,https://w3c.github.io/csswg-drafts/css-fonts-4/#dom-cssfontfeaturevaluesrule-fontfamily,W3C
+api/CSSFontFeatureValuesRule,,34,,111,,16.2,,false,true,false,https://w3c.github.io/csswg-drafts/css-fonts-4/#cssfontfeaturevaluesrule,W3C
+api/CSSFontFeatureValuesRule/annotation,,,,111,,,,true,true,false,https://w3c.github.io/csswg-drafts/css-fonts-4/#dom-cssfontfeaturevaluesrule-annotation,W3C
+api/CSSFontFeatureValuesRule/characterVariant,,,,111,,,,true,true,false,https://w3c.github.io/csswg-drafts/css-fonts-4/#dom-cssfontfeaturevaluesrule-charactervariant,W3C
+api/CSSFontFeatureValuesRule/fontFamily,,34,,111,,16.2,,false,true,false,https://w3c.github.io/csswg-drafts/css-fonts-4/#dom-cssfontfeaturevaluesrule-fontfamily,W3C
+api/CSSFontFeatureValuesRule/ornaments,,,,111,,,,true,true,false,https://w3c.github.io/csswg-drafts/css-fonts-4/#dom-cssfontfeaturevaluesrule-ornaments,W3C
+api/CSSFontFeatureValuesRule/styleset,,,,111,,,,true,true,false,https://w3c.github.io/csswg-drafts/css-fonts-4/#dom-cssfontfeaturevaluesrule-styleset,W3C
+api/CSSFontFeatureValuesRule/stylistic,,,,111,,,,true,true,false,https://w3c.github.io/csswg-drafts/css-fonts-4/#dom-cssfontfeaturevaluesrule-stylistic,W3C
+api/CSSFontFeatureValuesRule/swash,,,,111,,,,true,true,false,https://w3c.github.io/csswg-drafts/css-fonts-4/#dom-cssfontfeaturevaluesrule-swash,W3C
 api/CSSFontPaletteValuesRule,,107,,101,,15.4,,false,true,false,https://w3c.github.io/csswg-drafts/css-fonts-4/#om-fontpalettevalues,W3C
 api/CSSFontPaletteValuesRule/basePalette,,107,,101,,15.4,,false,true,false,https://w3c.github.io/csswg-drafts/css-fonts-4/#dom-cssfontpalettevaluesrule-basepalette,W3C
 api/CSSFontPaletteValuesRule/fontFamily,,107,,101,,15.4,,false,true,false,https://w3c.github.io/csswg-drafts/css-fonts-4/#dom-cssfontpalettevaluesrule-fontfamily,W3C
@@ -1963,15 +1971,15 @@ api/FileSystemDirectoryEntry/createReader,,50,,13,,11.1,,false,true,false,https:
 api/FileSystemDirectoryEntry/getDirectory,,50,,8,,11.1,,false,true,false,https://wicg.github.io/entries-api/#dom-filesystemdirectoryentry-getdirectory,W3CCG
 api/FileSystemDirectoryEntry/getFile,,50,,8,,11.1,,false,true,false,https://wicg.github.io/entries-api/#dom-filesystemdirectoryentry-getfile,W3CCG
 api/FileSystemDirectoryEntry/removeRecursively,,50,,8,,,,false,false,true,,NONE
-api/FileSystemDirectoryHandle,,,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle,WHATWG
-api/FileSystemDirectoryHandle/@@asyncIterator,,,,86,,16.4,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-asynciterable,WHATWG
-api/FileSystemDirectoryHandle/entries,,,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-asynciterable,WHATWG
-api/FileSystemDirectoryHandle/getDirectoryHandle,,,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-getdirectoryhandle,WHATWG
-api/FileSystemDirectoryHandle/getFileHandle,,,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-getfilehandle,WHATWG
-api/FileSystemDirectoryHandle/keys,,,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-asynciterable,WHATWG
-api/FileSystemDirectoryHandle/removeEntry,,,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-removeentry,WHATWG
-api/FileSystemDirectoryHandle/resolve,,,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-resolve,WHATWG
-api/FileSystemDirectoryHandle/values,,,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-asynciterable,WHATWG
+api/FileSystemDirectoryHandle,,111,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle,WHATWG
+api/FileSystemDirectoryHandle/@@asyncIterator,,111,,86,,16.4,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-asynciterable,WHATWG
+api/FileSystemDirectoryHandle/entries,,111,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-asynciterable,WHATWG
+api/FileSystemDirectoryHandle/getDirectoryHandle,,111,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-getdirectoryhandle,WHATWG
+api/FileSystemDirectoryHandle/getFileHandle,,111,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-getfilehandle,WHATWG
+api/FileSystemDirectoryHandle/keys,,111,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-asynciterable,WHATWG
+api/FileSystemDirectoryHandle/removeEntry,,111,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-removeentry,WHATWG
+api/FileSystemDirectoryHandle/resolve,,111,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-resolve,WHATWG
+api/FileSystemDirectoryHandle/values,,111,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-asynciterable,WHATWG
 api/FileSystemDirectoryReader,,50,,8,,11.1,,false,true,false,https://wicg.github.io/entries-api/#api-directoryreader,W3CCG
 api/FileSystemDirectoryReader/readEntries,,50,,8,,11.1,,false,true,false,https://wicg.github.io/entries-api/#dom-filesystemdirectoryreader-readentries,W3CCG
 api/FileSystemEntry,,50,,8,,11.1,,false,true,false,https://wicg.github.io/entries-api/#api-entry,W3CCG
@@ -1989,35 +1997,36 @@ api/FileSystemEntry/toURL,,,,8,,,,false,false,true,,NONE
 api/FileSystemFileEntry,,50,,8,,11.1,,false,true,false,https://wicg.github.io/entries-api/#api-fileentry,W3CCG
 api/FileSystemFileEntry/createWriter,,50,,8,,,,false,false,true,,NONE
 api/FileSystemFileEntry/file,,50,,8,,11.1,,false,true,false,https://wicg.github.io/entries-api/#dom-filesystemfileentry-file,W3CCG
-api/FileSystemFileHandle,,,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemfilehandle,WHATWG
-api/FileSystemFileHandle/createSyncAccessHandle,,,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemfilehandle-createsyncaccesshandle,WHATWG
-api/FileSystemFileHandle/createWritable,,,,86,,,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemfilehandle-createwritable,WHATWG
-api/FileSystemFileHandle/getFile,,,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemfilehandle-getfile,WHATWG
-api/FileSystemHandle,,,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemhandle,WHATWG
-api/FileSystemHandle/isSameEntry,,,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemhandle-issameentry,WHATWG
-api/FileSystemHandle/kind,,,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#ref-for-dom-filesystemhandle-kind①,WHATWG
-api/FileSystemHandle/name,,,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#ref-for-dom-filesystemhandle-name①,WHATWG
+api/FileSystemFileHandle,,111,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemfilehandle,WHATWG
+api/FileSystemFileHandle/createSyncAccessHandle,,111,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemfilehandle-createsyncaccesshandle,WHATWG
+api/FileSystemFileHandle/createWritable,,111,,86,,,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemfilehandle-createwritable,WHATWG
+api/FileSystemFileHandle/getFile,,111,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemfilehandle-getfile,WHATWG
+api/FileSystemHandle,,111,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemhandle,WHATWG
+api/FileSystemHandle/isSameEntry,,111,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemhandle-issameentry,WHATWG
+api/FileSystemHandle/kind,,111,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#ref-for-dom-filesystemhandle-kind①,WHATWG
+api/FileSystemHandle/move,,111,,,,,,true,false,false,,NONE
+api/FileSystemHandle/name,,111,,86,,15.2,,false,true,false,https://fs.spec.whatwg.org/#ref-for-dom-filesystemhandle-name①,WHATWG
 api/FileSystemHandle/queryPermission,,,,86,,,,true,true,false,https://wicg.github.io/file-system-access/#api-filesystemhandle-querypermission,W3CCG
 api/FileSystemHandle/remove,,,,110,,,,true,false,false,,NONE
 api/FileSystemHandle/requestPermission,,,,86,,,,true,true,false,https://wicg.github.io/file-system-access/#api-filesystemhandle-requestpermission,W3CCG
 api/FileSystemSync,,,,13,,6,,false,false,true,,NONE
 api/FileSystemSync/name,,,,13,,6,,false,false,true,,NONE
 api/FileSystemSync/root,,,,13,,6,,false,false,true,,NONE
-api/FileSystemSyncAccessHandle,,,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle,WHATWG
-api/FileSystemSyncAccessHandle/close,,,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-close,WHATWG
-api/FileSystemSyncAccessHandle/close/sync_version,,,,108,"[{""name"":""Sync Access Handle All Sync Surface"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,,NONE
-api/FileSystemSyncAccessHandle/flush,,,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-flush,WHATWG
-api/FileSystemSyncAccessHandle/flush/sync_version,,,,108,"[{""name"":""Sync Access Handle All Sync Surface"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,,NONE
-api/FileSystemSyncAccessHandle/getSize,,,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-getsize,WHATWG
-api/FileSystemSyncAccessHandle/getSize/sync_version,,,,108,"[{""name"":""Sync Access Handle All Sync Surface"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,,NONE
-api/FileSystemSyncAccessHandle/read,,,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-read,WHATWG
-api/FileSystemSyncAccessHandle/truncate,,,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-truncate,WHATWG
-api/FileSystemSyncAccessHandle/truncate/sync_version,,,,108,"[{""name"":""Sync Access Handle All Sync Surface"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,,NONE
-api/FileSystemSyncAccessHandle/write,,,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-write,WHATWG
-api/FileSystemWritableFileStream,,,,86,,,,true,true,false,https://fs.spec.whatwg.org/#api-filesystemwritablefilestream,WHATWG
-api/FileSystemWritableFileStream/seek,,,,86,,,,true,true,false,https://fs.spec.whatwg.org/#api-filesystemwritablefilestream-seek,WHATWG
-api/FileSystemWritableFileStream/truncate,,,,86,,,,true,true,false,https://fs.spec.whatwg.org/#api-filesystemwritablefilestream-truncate,WHATWG
-api/FileSystemWritableFileStream/write,,,,86,,,,true,true,false,https://fs.spec.whatwg.org/#api-filesystemwritablefilestream-write,WHATWG
+api/FileSystemSyncAccessHandle,,111,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle,WHATWG
+api/FileSystemSyncAccessHandle/close,,111,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-close,WHATWG
+api/FileSystemSyncAccessHandle/close/sync_version,,111,,108,"[{""name"":""Sync Access Handle All Sync Surface"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,false,true,false,,NONE
+api/FileSystemSyncAccessHandle/flush,,111,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-flush,WHATWG
+api/FileSystemSyncAccessHandle/flush/sync_version,,111,,108,"[{""name"":""Sync Access Handle All Sync Surface"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,false,true,false,,NONE
+api/FileSystemSyncAccessHandle/getSize,,111,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-getsize,WHATWG
+api/FileSystemSyncAccessHandle/getSize/sync_version,,111,,108,"[{""name"":""Sync Access Handle All Sync Surface"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,false,true,false,,NONE
+api/FileSystemSyncAccessHandle/read,,111,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-read,WHATWG
+api/FileSystemSyncAccessHandle/truncate,,111,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-truncate,WHATWG
+api/FileSystemSyncAccessHandle/truncate/sync_version,,111,,108,"[{""name"":""Sync Access Handle All Sync Surface"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,false,true,false,,NONE
+api/FileSystemSyncAccessHandle/write,,111,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-write,WHATWG
+api/FileSystemWritableFileStream,,111,,86,,,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemwritablefilestream,WHATWG
+api/FileSystemWritableFileStream/seek,,111,,86,,,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemwritablefilestream-seek,WHATWG
+api/FileSystemWritableFileStream/truncate,,111,,86,,,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemwritablefilestream-truncate,WHATWG
+api/FileSystemWritableFileStream/write,,111,,86,,,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemwritablefilestream-write,WHATWG
 api/FocusEvent,,24,,26,,7,,false,true,false,https://w3c.github.io/uievents/#interface-focusevent,W3C
 api/FocusEvent/FocusEvent,,24,,26,,7,,false,true,false,https://w3c.github.io/uievents/#dom-focusevent-focusevent,W3C
 api/FocusEvent/relatedTarget,,24,,26,,7,,false,true,false,https://w3c.github.io/uievents/#dom-focusevent-relatedtarget,W3C
@@ -2072,6 +2081,7 @@ api/FontFaceSetLoadEvent/worker_support,,105,,69,,,,false,true,false,,NONE
 api/FormData,,4,,5,,5,,false,true,false,https://xhr.spec.whatwg.org/#interface-formdata,WHATWG
 api/FormData/@@iterator,,44,,50,,11.1,,false,true,false,,NONE
 api/FormData/FormData,,4,,5,,5,,false,true,false,https://xhr.spec.whatwg.org/#dom-formdata,WHATWG
+api/FormData/FormData/submitter,,111,,112,,16.4,,false,true,false,,NONE
 api/FormData/append,,4,,5,,5,,false,true,false,https://xhr.spec.whatwg.org/#dom-formdata-append,WHATWG
 api/FormData/append/filename_parameter,,22,,16,,6,,false,true,false,,NONE
 api/FormData/delete,,39,,50,,11.1,,false,true,false,https://xhr.spec.whatwg.org/#dom-formdata-delete,WHATWG
@@ -2397,6 +2407,7 @@ api/HTMLElement/style,,1,,1,,3,,false,true,false,https://w3c.github.io/csswg-dra
 api/HTMLElement/tabIndex,,1,,1,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-tabindex,WHATWG
 api/HTMLElement/title,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-title,WHATWG
 api/HTMLElement/translate,,111,,19,,6,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-translate,WHATWG
+api/HTMLElement/virtualKeyboardPolicy,,,,94,,,,true,true,false,https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy,W3C
 api/HTMLEmbedElement,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/iframe-embed-object.html#htmlembedelement,WHATWG
 api/HTMLEmbedElement/align,,1,,1,,3,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-embed-align,WHATWG
 api/HTMLEmbedElement/getSVGDocument,,1.5,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/embedded-content-other.html#dom-media-getsvgdocument-dev,WHATWG
@@ -5355,7 +5366,7 @@ api/SVGDefsElement,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/str
 api/SVGDescElement,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/struct.html#InterfaceSVGDescElement,W3C
 api/SVGElement,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement,W3C
 api/SVGElement/attributeStyleMap,,,,66,,16.4,,false,true,false,https://drafts.css-houdini.org/css-typed-om/#dom-elementcssinlinestyle-attributestylemap,W3C
-api/SVGElement/autofocus,,,,79,,15.4,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-fe-autofocus,WHATWG
+api/SVGElement/autofocus,,110,,79,,15.4,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-fe-autofocus,WHATWG
 api/SVGElement/blur,,51,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-blur-dev,WHATWG
 api/SVGElement/className,,1.5,,1,,≤4,,false,true,true,https://svgwg.org/svg2-draft/types.html#__svg__SVGElement__className,W3C
 api/SVGElement/dataset,,51,,55,,5.1,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-dataset-dev,WHATWG
@@ -6023,10 +6034,10 @@ api/ServiceWorkerContainer/startMessages,,64,,74,,11.1,,false,true,false,https:/
 api/ServiceWorkerGlobalScope,,44,,40,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#serviceworkerglobalscope-interface,W3C
 api/ServiceWorkerGlobalScope/abortpayment_event,,,,70,,,,true,true,false,,NONE
 api/ServiceWorkerGlobalScope/activate_event,,44,,40,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#service-worker-global-scope-activate-event,W3C
-api/ServiceWorkerGlobalScope/backgroundfetchabort_event,,,,74,,,,true,true,false,,NONE
-api/ServiceWorkerGlobalScope/backgroundfetchclick_event,,,,74,,,,true,true,false,,NONE
-api/ServiceWorkerGlobalScope/backgroundfetchfail_event,,,,74,,,,true,true,false,,NONE
-api/ServiceWorkerGlobalScope/backgroundfetchsuccess_event,,,,74,,,,true,true,false,,NONE
+api/ServiceWorkerGlobalScope/backgroundfetchabort_event,,,,74,,,,true,true,false,https://wicg.github.io/background-fetch/#dom-serviceworkerglobalscope-onbackgroundfetchabort,W3CCG
+api/ServiceWorkerGlobalScope/backgroundfetchclick_event,,,,74,,,,true,true,false,https://wicg.github.io/background-fetch/#dom-serviceworkerglobalscope-onbackgroundfetchclick,W3CCG
+api/ServiceWorkerGlobalScope/backgroundfetchfail_event,,,,74,,,,true,true,false,https://wicg.github.io/background-fetch/#dom-serviceworkerglobalscope-onbackgroundfetchfail,W3CCG
+api/ServiceWorkerGlobalScope/backgroundfetchsuccess_event,,,,74,,,,true,true,false,https://wicg.github.io/background-fetch/#dom-serviceworkerglobalscope-onbackgroundfetchsuccess,W3CCG
 api/ServiceWorkerGlobalScope/canmakepayment_event,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#the-canmakepaymentevent,W3C
 api/ServiceWorkerGlobalScope/clients,,44,,40,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#service-worker-global-scope-clients,W3C
 api/ServiceWorkerGlobalScope/contentdelete_event,,,,,,,,true,true,false,https://wicg.github.io/content-index/spec/#dom-serviceworkerglobalscope-oncontentdelete,W3CCG
@@ -7858,6 +7869,7 @@ api/XRSession/cancelAnimationFrame,,,,79,,,,true,true,false,https://immersive-we
 api/XRSession/depthDataFormat,,,,90,,,,true,true,false,https://immersive-web.github.io/depth-sensing/#dom-xrsession-depthdataformat,W3CCG
 api/XRSession/depthUsage,,,,90,,,,true,true,false,https://immersive-web.github.io/depth-sensing/#dom-xrsession-depthusage,W3CCG
 api/XRSession/domOverlayState,,,,83,,,,true,true,false,https://immersive-web.github.io/dom-overlays/#dom-xrsession-domoverlaystate,W3CCG
+api/XRSession/enabledFeatures,,,,111,,,,true,true,false,https://immersive-web.github.io/webxr/#dom-xrsession-enabledfeatures,W3CCG
 api/XRSession/end,,,,79,,,,true,true,false,https://immersive-web.github.io/webxr/#dom-xrsession-end,W3CCG
 api/XRSession/end_event,,,,79,,,,true,true,false,https://immersive-web.github.io/webxr/#eventdef-xrsession-end,W3CCG
 api/XRSession/environmentBlendMode,,,,81,,,,true,true,false,https://immersive-web.github.io/webxr-ar-module/#dom-xrsession-environmentblendmode,W3CCG
@@ -10256,11 +10268,13 @@ html/global_attributes/tabindex,,true,,true,,true,,false,true,false,https://html
 html/global_attributes/title,,true,,true,,true,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute,WHATWG
 html/global_attributes/title/multi-line-support,,true,,true,,true,,false,true,false,,NONE
 html/global_attributes/translate,,111,,19,,6,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#attr-translate,WHATWG
+html/global_attributes/virtualkeyboardpolicy,,,,94,,,,true,true,false,https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy,W3C
 html/manifest/background_color,,,,,,,,true,true,false,https://w3c.github.io/manifest/#background_color-member,W3C
 html/manifest/categories,,,,,,,,true,true,false,https://w3c.github.io/manifest-app-info/#categories-member,W3C
 html/manifest/description,,,,,,,,false,true,false,https://w3c.github.io/manifest-app-info/#description-member,W3C
 html/manifest/display,,,,39,,,,false,true,false,https://w3c.github.io/manifest/#display-member,W3C
 html/manifest/display_override,,,,89,,,,true,true,false,https://wicg.github.io/manifest-incubations/#display_override-member,W3CCG
+html/manifest/file_handlers,,,,102,,,,true,true,false,https://wicg.github.io/manifest-incubations/index.html#file_handlers-member,W3CCG
 html/manifest/icons,,,,39,,,,false,true,false,https://w3c.github.io/manifest/#icons-member,W3C
 html/manifest/id,,95,,96,,,,false,true,false,https://w3c.github.io/manifest/#id-member,W3C
 html/manifest/launch_handler,,,,110,,,,true,true,false,https://wicg.github.io/web-app-launch/#launch_handler-member,W3CCG
@@ -11524,6 +11538,7 @@ javascript/operators/greater_than_or_equal,,1,,1,,1,,false,true,false,https://tc
 javascript/operators/grouping,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator,TC39
 javascript/operators/import,,67,,63,,11.1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls,TC39
 javascript/operators/import/options_parameter,,,,91,,15,,false,false,false,,NONE
+javascript/operators/import/worker_support,,,,80,,15,,false,true,false,,NONE
 javascript/operators/import_meta,,62,,64,,11.1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta,TC39
 javascript/operators/import_meta/resolve,,106,,105,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/webappapis.html#hostgetimportmetaproperties,WHATWG
 javascript/operators/in,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators,TC39
