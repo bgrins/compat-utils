@@ -1,6 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1625851825,false,History length/index are not synchronously initialized in new navigables,https://github.com/whatwg/html/issues/9030,2023-03-15T16:23:06Z,2023-03-15T16:23:06Z,domfarolino,topic: navigation|topic: history,0
 1625174180,false,Clarify selection behaviour of setting textarea value via property,https://github.com/whatwg/html/issues/9028,2023-03-15T10:00:22Z,2023-03-15T10:28:25Z,jnjaeschke,topic: forms,0
-1624192148,false,Sandboxed iframes without allow-same-origin and with about:blank or about:srcdoc urls should not inherit a fallback base url.,https://github.com/whatwg/html/issues/9025,2023-03-14T19:50:36Z,2023-03-15T01:36:20Z,wjmaclean,normative change|topic: sandbox|agenda+,0
+1624192148,false,Sandboxed iframes without allow-same-origin and with about:blank or about:srcdoc urls should not inherit a fallback base url.,https://github.com/whatwg/html/issues/9025,2023-03-14T19:50:36Z,2023-03-15T23:03:15Z,wjmaclean,normative change|topic: sandbox|agenda+,0
 1623693519,false,Density-corrected intrinsic width and height when current request's dimensions are unavailable,https://github.com/whatwg/html/issues/9023,2023-03-14T15:13:43Z,2023-03-14T16:04:56Z,zcorpan,topic: img,0
 1622494414,false,Resetting forms on document reactivation,https://github.com/whatwg/html/issues/9019,2023-03-14T00:08:14Z,2023-03-15T06:56:49Z,fergald,agenda+,0
 1621394935,false,"Add ""lbry"" to scheme allowlist",https://github.com/whatwg/html/issues/9016,2023-03-13T12:31:10Z,2023-03-13T12:31:10Z,ben221199,,0
@@ -89,7 +90,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1552934460,false,Ability to style default summary in <details>,https://github.com/whatwg/html/issues/8770,2023-01-23T11:28:14Z,2023-02-14T18:56:50Z,jakearchibald,addition/proposal|topic: rendering|topic: selectors,0
 1552047625,false,"Clarify: CSS import assertions use ""script"" as the destination, is that intended?",https://github.com/whatwg/html/issues/8764,2023-01-22T08:56:49Z,2023-01-22T08:57:06Z,noamr,,0
 1550462824,true,MediaError not acccessible for a video element if using it with source elements,https://github.com/whatwg/html/issues/8757,2023-01-20T08:15:13Z,2023-01-26T09:48:49Z,callumgare,,0
-1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-03-10T12:23:54Z,mfreed7,addition/proposal|topic: shadow,0
+1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-03-15T13:47:46Z,mfreed7,addition/proposal|topic: shadow,0
 1550024105,false,Native support for indents,https://github.com/whatwg/html/issues/8751,2023-01-19T22:11:32Z,2023-01-25T23:06:02Z,EgonBolton,,0
 1548957116,true,[css-view-transitions-1] Interaction with Safari's back/forward previews,https://github.com/whatwg/html/issues/8749,2023-01-19T11:14:58Z,2023-01-19T11:21:46Z,jakearchibald,,0
 1537525438,true,Meta: should dfns in headings be viewed as exported definitions?,https://github.com/whatwg/html/issues/8743,2023-01-18T07:30:06Z,2023-01-20T19:24:39Z,tidoust,,0
@@ -311,7 +312,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1325877836,true,Contradiction in CanvasRenderingContext2D.createPattern for images with bad useability,https://github.com/whatwg/html/issues/8149,2022-08-02T13:41:14Z,2022-08-03T15:27:59Z,mysteryDate,,0
 1323964858,false,support title element containing partially translatable text,https://github.com/whatwg/html/issues/8147,2022-08-01T07:33:35Z,2022-08-01T10:52:21Z,Zhang-Junzhi,i18n-tracker,0
 1323769314,false,Clarify the fill algorithm,https://github.com/whatwg/html/issues/8145,2022-08-01T03:51:58Z,2022-08-01T03:52:09Z,Kaiido,topic: canvas,0
-1323380850,false,"CORS, CORP, TAO & ""public static resource"" metadata",https://github.com/whatwg/html/issues/8143,2022-07-31T07:03:55Z,2023-03-10T17:08:04Z,noamr,security/privacy|topic: fetch,1
+1323380850,false,"CORS, CORP, TAO & ""public static resource"" metadata",https://github.com/whatwg/html/issues/8143,2022-07-31T07:03:55Z,2023-03-15T13:55:05Z,noamr,security/privacy|topic: fetch,1
 1322915430,true,New html element: preview,https://github.com/whatwg/html/issues/8140,2022-07-30T06:29:07Z,2022-07-31T23:22:49Z,ghost,,0
 1321568538,false,Clarify what happens when setting rel content attribute on link element,https://github.com/whatwg/html/issues/8138,2022-07-28T22:45:38Z,2022-09-08T06:59:25Z,rniwa,topic: link,0
 1318917068,false,Which input types should readonly affect constraint validation for?,https://github.com/whatwg/html/issues/8133,2022-07-27T01:40:41Z,2022-08-11T16:30:58Z,nt1m,clarification|topic: forms,0
@@ -572,7 +573,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1096359171,true,Behavior of cyclical dynamic import() is unclear,https://github.com/whatwg/html/issues/7472,2022-01-07T14:20:37Z,2023-02-21T15:46:06Z,yoshi-pi,topic: script,0
 1095667242,true,Bug with script-blocking <style> elements,https://github.com/whatwg/html/issues/7469,2022-01-06T20:25:30Z,2022-01-12T16:57:35Z,xiaochengh,topic: style,0
 1095332963,true,allow-custom-protocol-navigation,https://github.com/whatwg/html/issues/7468,2022-01-06T13:42:35Z,2022-03-07T15:50:07Z,ArthurSonzogni,addition/proposal|topic: sandbox,0
-1090922833,false,"Support lazy-loading CSS background-images ",https://github.com/whatwg/html/issues/7457,2021-12-30T07:20:47Z,2022-01-13T02:22:38Z,addyosmani,,4
+1090922833,false,"Support lazy-loading CSS background-images ",https://github.com/whatwg/html/issues/7457,2021-12-30T07:20:47Z,2022-01-13T02:22:38Z,addyosmani,,5
 1090820833,true,Error in the code of the example for TextTrack,https://github.com/whatwg/html/issues/7456,2021-12-30T01:15:47Z,2022-01-11T18:11:07Z,jackdeguest,good first issue,0
 1088670414,true,OffscreenCanvas.getContext: definition missing about unsupported context,https://github.com/whatwg/html/issues/7445,2021-12-25T23:49:29Z,2021-12-26T00:27:58Z,rinsuki,,0
 1087720198,true,Should we remove window.blur?,https://github.com/whatwg/html/issues/7441,2021-12-23T13:31:05Z,2022-10-31T05:07:08Z,camillelamy,,0
@@ -1622,7 +1623,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 497040604,false,Define a policy container,https://github.com/whatwg/html/issues/4926,2019-09-23T11:28:43Z,2021-05-21T10:44:17Z,annevk,clarification|needs tests|interop|integration|topic: policy container,6
 496594293,true,Design questions about IDREF/Element attribute reflection,https://github.com/whatwg/html/issues/4925,2019-09-21T00:49:20Z,2022-06-30T08:19:53Z,alice,accessibility,0
 496188244,true,COEP mismatches in dedicated workers should block.,https://github.com/whatwg/html/issues/4924,2019-09-20T07:14:14Z,2020-04-20T09:12:18Z,mikewest,topic: cross-origin-embedder-policy,0
-495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2022-10-27T11:18:35Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,115
+495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2022-10-27T11:18:35Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,116
 495810632,false,Allow an extra dimension to the size array for 3D favicon,https://github.com/whatwg/html/issues/4922,2019-09-19T13:46:29Z,2021-01-28T22:05:11Z,rcabanier,addition/proposal|needs implementer interest|topic: link,0
 495595729,true,Decide how to treat CSP sandbox in COOP,https://github.com/whatwg/html/issues/4921,2019-09-19T06:18:06Z,2020-06-24T17:33:26Z,shhnjk,security/privacy|topic: cross-origin-opener-policy,0
 495587240,true,Consider restricting SharedArrayBuffer to same-origin usage,https://github.com/whatwg/html/issues/4920,2019-09-19T05:50:59Z,2019-12-05T15:38:02Z,annevk,addition/proposal|topic: serialize and transfer,0

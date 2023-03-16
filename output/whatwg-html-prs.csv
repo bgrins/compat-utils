@@ -1,9 +1,10 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1623904502,false,accessibility popover guidance,https://github.com/whatwg/html/pull/9024,2023-03-14T16:50:03Z,2023-03-14T22:56:08Z,scottaohara,accessibility|topic: popover,0
+1625594332,false,Define the processing model for dns-prefetch,https://github.com/whatwg/html/pull/9029,2023-03-15T14:03:08Z,2023-03-15T14:04:31Z,noamr,,0
+1623904502,false,accessibility popover guidance,https://github.com/whatwg/html/pull/9024,2023-03-14T16:50:03Z,2023-03-15T16:30:08Z,scottaohara,accessibility|topic: popover,0
 1623084942,false,"Export ""listener"" and ""event handler map"".",https://github.com/whatwg/html/pull/9021,2023-03-14T09:35:47Z,2023-03-15T06:04:24Z,yoshisatoyanagisawa,,0
 1622364099,false,Only restore popover focus if focus is in the popover,https://github.com/whatwg/html/pull/9018,2023-03-13T22:21:25Z,2023-03-15T01:33:32Z,josepharhar,topic: focus|topic: popover,0
 1621431332,false,"Add ""lbry"" scheme to allowlist",https://github.com/whatwg/html/pull/9017,2023-03-13T12:54:29Z,2023-03-13T12:55:44Z,ben221199,,0
-1615814290,false,Clean up popover focusing steps,https://github.com/whatwg/html/pull/8998,2023-03-08T19:39:01Z,2023-03-14T19:25:06Z,nt1m,,0
+1615814290,false,Clean up popover focusing steps,https://github.com/whatwg/html/pull/8998,2023-03-08T19:39:01Z,2023-03-15T14:08:13Z,nt1m,,0
 1615139600,true,Editorial: Remove references to resource hints,https://github.com/whatwg/html/pull/8996,2023-03-08T11:48:50Z,2023-03-13T08:03:17Z,noamr,,0
 1614823849,false,Remove now-unnecessary COOP-specific navigation redirect fix,https://github.com/whatwg/html/pull/8995,2023-03-08T08:06:55Z,2023-03-08T08:08:21Z,domenic,do not merge yet|topic: navigation|integration|topic: cross-origin-opener-policy,0
 1614425839,true,Correct popover invokers,https://github.com/whatwg/html/pull/8993,2023-03-08T00:26:49Z,2023-03-14T15:26:57Z,annevk,topic: popover,0
@@ -21,7 +22,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1597014859,true,Editorial: fix url argument to WebDriver BiDi fragment navigated,https://github.com/whatwg/html/pull/8939,2023-02-23T14:57:33Z,2023-02-24T03:27:59Z,foolip,,0
 1595997662,true,Add onbeforetoggle to GlobalEventHandlers IDL definitions,https://github.com/whatwg/html/pull/8936,2023-02-22T23:37:24Z,2023-02-23T08:41:55Z,josepharhar,,0
 1595325213,true,Document naming convention for element-reflecting attributes,https://github.com/whatwg/html/pull/8933,2023-02-22T15:35:04Z,2023-02-27T14:14:49Z,annevk,clarification,0
-1595120297,false,Give ElementInternals element-reflecting attributes more power,https://github.com/whatwg/html/pull/8932,2023-02-22T13:37:16Z,2023-03-15T09:13:47Z,annevk,addition/proposal|needs implementer interest|topic: shadow|needs tests,0
+1595120297,false,Give ElementInternals element-reflecting attributes more power,https://github.com/whatwg/html/pull/8932,2023-02-22T13:37:16Z,2023-03-15T22:56:04Z,annevk,addition/proposal|needs implementer interest|topic: shadow|needs tests,0
 1595082040,true,Editorial: formalize reflect's default value,https://github.com/whatwg/html/pull/8931,2023-02-22T13:12:45Z,2023-02-28T13:07:02Z,annevk,clarification,0
 1592240634,true,"Export navigable's ""active browsing context""",https://github.com/whatwg/html/pull/8924,2023-02-20T17:33:09Z,2023-02-21T10:18:19Z,jakearchibald,,0
 1592228594,true,"Export ""map of active timers""",https://github.com/whatwg/html/pull/8923,2023-02-20T17:20:57Z,2023-02-21T04:23:58Z,jakearchibald,,0
@@ -98,7 +99,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1450508581,true,Correct orphaned variable sandboxFlags to use targetSnapshotParams.,https://github.com/whatwg/html/pull/8512,2022-11-15T23:07:28Z,2022-11-17T03:04:06Z,jeremyroman,,0
 1449664827,true,Meta: zcorpan's employed changed,https://github.com/whatwg/html/pull/8508,2022-11-15T11:58:39Z,2022-11-15T12:33:40Z,zcorpan,,0
 1448000463,false,Support taler: URLs in registerProtocolHandler(),https://github.com/whatwg/html/pull/8503,2022-11-14T12:48:41Z,2023-03-01T16:19:53Z,grothoff,,0
-1447758651,false,Add the navigation API,https://github.com/whatwg/html/pull/8502,2022-11-14T10:08:04Z,2023-03-14T09:11:18Z,domenic,addition/proposal|topic: navigation|topic: history,2
+1447758651,false,Add the navigation API,https://github.com/whatwg/html/pull/8502,2022-11-14T10:08:04Z,2023-03-14T09:11:18Z,domenic,addition/proposal|topic: navigation|topic: history,3
 1447376783,true,Add page visibility change steps for Screen Orientation,https://github.com/whatwg/html/pull/8501,2022-11-14T04:40:42Z,2022-12-16T22:05:13Z,marcoscaceres,,0
 1447276651,true,Editorial: simplify session history serialized state,https://github.com/whatwg/html/pull/8500,2022-11-14T02:45:58Z,2022-11-15T01:02:16Z,domenic,clarification|topic: history,0
 1445641023,true,Make reflect work for ElementInternals,https://github.com/whatwg/html/pull/8496,2022-11-11T15:32:49Z,2023-02-22T10:39:41Z,annevk,accessibility|topic: custom elements,0
@@ -331,7 +332,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1163578312,true,Process subresource link headers,https://github.com/whatwg/html/pull/7691,2022-03-09T07:20:38Z,2023-02-08T13:44:10Z,noamr,needs tests|topic: link,0
 1163041492,true,Allow script-inserted body to unblock document's rendering,https://github.com/whatwg/html/pull/7690,2022-03-08T19:35:23Z,2022-05-03T18:02:50Z,xiaochengh,topic: rendering,0
 1162753816,true,Editorial: Add note about late CSP,https://github.com/whatwg/html/pull/7688,2022-03-08T14:54:01Z,2022-03-17T12:44:22Z,noamr,clarification,0
-1158802190,false,Add notes to the safelisted schemes list,https://github.com/whatwg/html/pull/7678,2022-03-03T19:13:19Z,2022-08-22T02:36:08Z,DConmy,addition/proposal|needs implementer interest|topic: custom protocols,0
+1158802190,false,Add notes to the safelisted schemes list,https://github.com/whatwg/html/pull/7678,2022-03-03T19:13:19Z,2023-03-15T16:44:15Z,DConmy,addition/proposal|needs implementer interest|topic: custom protocols,0
 1158648586,true,Process early hints (103 responses),https://github.com/whatwg/html/pull/7675,2022-03-03T16:49:25Z,2022-04-14T15:31:44Z,noamr,addition/proposal|topic: navigation,0
 1154005412,true,Do not block the load event for preload,https://github.com/whatwg/html/pull/7670,2022-02-28T11:59:51Z,2022-05-04T14:22:12Z,noamr,topic: link|topic: resource hints (inc. preload),0
 1149781735,true,Editorial: Completion reform for ECMAScript AOs,https://github.com/whatwg/html/pull/7661,2022-02-24T21:46:37Z,2022-02-27T20:58:55Z,syg,,1
