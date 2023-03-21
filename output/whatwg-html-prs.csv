@@ -2,12 +2,12 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1630906313,true,Update 404.html,https://github.com/whatwg/html/pull/9052,2023-03-19T11:55:49Z,2023-03-19T12:29:32Z,Jayshaha1009,spam,0
 1630264564,true,Update README.md,https://github.com/whatwg/html/pull/9050,2023-03-18T10:15:24Z,2023-03-18T10:18:00Z,avinashnaidu77777,spam,0
 1630264474,true,Update README.md,https://github.com/whatwg/html/pull/9049,2023-03-18T10:15:05Z,2023-03-18T10:19:39Z,5hello,spam,0
-1629849072,false,"Add ""check and possibly close popover stack"" algorithm",https://github.com/whatwg/html/pull/9048,2023-03-17T19:38:48Z,2023-03-20T05:31:59Z,josepharhar,,0
+1629849072,false,"Add ""check and possibly close popover stack"" algorithm",https://github.com/whatwg/html/pull/9048,2023-03-17T19:38:48Z,2023-03-20T17:57:09Z,josepharhar,,0
 1629737267,false,Spec :user-invalid & :user-valid,https://github.com/whatwg/html/pull/9047,2023-03-17T18:17:04Z,2023-03-17T19:23:13Z,nt1m,,0
 1627835465,true,Modernize and correct <dialog> show() and showModal(),https://github.com/whatwg/html/pull/9039,2023-03-16T16:15:40Z,2023-03-19T17:22:52Z,annevk,topic: dialog|topic: popover,0
-1627734287,false,Add the HostSystemUTCEpochNanoseconds abstract operation,https://github.com/whatwg/html/pull/9038,2023-03-16T15:21:28Z,2023-03-17T16:15:33Z,Ms2ger,integration,0
+1627734287,false,Add the HostSystemUTCEpochNanoseconds abstract operation,https://github.com/whatwg/html/pull/9038,2023-03-16T15:21:28Z,2023-03-20T17:48:14Z,Ms2ger,integration,1
 1625594332,true,Define the processing model for dns-prefetch,https://github.com/whatwg/html/pull/9029,2023-03-15T14:03:08Z,2023-03-16T12:05:54Z,noamr,topic: link|topic: resource hints (inc. preload),0
-1623904502,false,accessibility popover guidance,https://github.com/whatwg/html/pull/9024,2023-03-14T16:50:03Z,2023-03-17T18:33:22Z,scottaohara,accessibility|topic: popover,0
+1623904502,true,accessibility popover guidance,https://github.com/whatwg/html/pull/9024,2023-03-14T16:50:03Z,2023-03-20T12:55:01Z,scottaohara,accessibility|topic: popover,0
 1623084942,true,"Export ""listener"" and ""event handler map"".",https://github.com/whatwg/html/pull/9021,2023-03-14T09:35:47Z,2023-03-17T08:14:35Z,yoshisatoyanagisawa,,0
 1622364099,false,Only restore popover focus if focus is in the popover,https://github.com/whatwg/html/pull/9018,2023-03-13T22:21:25Z,2023-03-15T01:33:32Z,josepharhar,topic: focus|topic: popover,0
 1621431332,false,"Add ""lbry"" scheme to allowlist",https://github.com/whatwg/html/pull/9017,2023-03-13T12:54:29Z,2023-03-13T12:55:44Z,ben221199,,0
@@ -106,7 +106,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1450508581,true,Correct orphaned variable sandboxFlags to use targetSnapshotParams.,https://github.com/whatwg/html/pull/8512,2022-11-15T23:07:28Z,2022-11-17T03:04:06Z,jeremyroman,,0
 1449664827,true,Meta: zcorpan's employed changed,https://github.com/whatwg/html/pull/8508,2022-11-15T11:58:39Z,2022-11-15T12:33:40Z,zcorpan,,0
 1448000463,false,Support taler: URLs in registerProtocolHandler(),https://github.com/whatwg/html/pull/8503,2022-11-14T12:48:41Z,2023-03-01T16:19:53Z,grothoff,,0
-1447758651,false,Add the navigation API,https://github.com/whatwg/html/pull/8502,2022-11-14T10:08:04Z,2023-03-20T11:55:48Z,domenic,addition/proposal|topic: navigation|topic: history,5
+1447758651,false,Add the navigation API,https://github.com/whatwg/html/pull/8502,2022-11-14T10:08:04Z,2023-03-20T14:16:29Z,domenic,addition/proposal|topic: navigation|topic: history,5
 1447376783,true,Add page visibility change steps for Screen Orientation,https://github.com/whatwg/html/pull/8501,2022-11-14T04:40:42Z,2022-12-16T22:05:13Z,marcoscaceres,,0
 1447276651,true,Editorial: simplify session history serialized state,https://github.com/whatwg/html/pull/8500,2022-11-14T02:45:58Z,2022-11-15T01:02:16Z,domenic,clarification|topic: history,0
 1445641023,true,Make reflect work for ElementInternals,https://github.com/whatwg/html/pull/8496,2022-11-11T15:32:49Z,2023-02-22T10:39:41Z,annevk,accessibility|topic: custom elements,0
@@ -135,7 +135,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1423040520,true,add `scrollend` event details,https://github.com/whatwg/html/pull/8433,2022-10-25T20:32:52Z,2022-11-01T04:28:16Z,argyleink,addition/proposal|topic: events,1
 1422978785,true,Fix example in HTMLElement overridden constructor steps,https://github.com/whatwg/html/pull/8432,2022-10-25T19:42:59Z,2022-10-26T01:44:56Z,ThoseGrapefruits,topic: custom elements,0
 1422797957,true,Update index of global events,https://github.com/whatwg/html/pull/8431,2022-10-25T17:08:03Z,2022-10-26T11:14:34Z,NiedziolkaMichal,,0
-1422515390,false,Add lazy-loading for <video poster>,https://github.com/whatwg/html/pull/8428,2022-10-25T13:58:41Z,2022-11-11T12:58:48Z,zcorpan,addition/proposal|topic: media|impacts documentation,0
+1422515390,false,Add lazy-loading for <video poster>,https://github.com/whatwg/html/pull/8428,2022-10-25T13:58:41Z,2023-03-20T17:06:03Z,zcorpan,addition/proposal|do not merge yet|topic: media|impacts documentation,0
 1419853681,true,feat: change type of window.opener to WindowProxy? in IDL,https://github.com/whatwg/html/pull/8424,2022-10-23T16:44:15Z,2022-10-23T17:51:56Z,mathe42,,0
 1419663940,true,Update 404.html,https://github.com/whatwg/html/pull/8423,2022-10-23T06:30:11Z,2022-10-23T06:47:59Z,Cyberrayon04846,spam,0
 1419121779,true,Fix HostResolveImportedModule's current realm handling,https://github.com/whatwg/html/pull/8417,2022-10-22T06:26:46Z,2022-10-24T07:42:13Z,domenic,topic: script,0
@@ -1623,7 +1623,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 362925992,true,Fix AudioTrack(List)/VideoTrack(List) props syntax,https://github.com/whatwg/html/pull/4047,2018-09-23T08:58:47Z,2021-10-15T11:20:50Z,sideshowbarker,,2
 360415246,true,"Revert ""Add advances to TextMetrics and change baselines API""",https://github.com/whatwg/html/pull/4037,2018-09-14T18:49:20Z,2018-09-17T20:51:51Z,domenic,topic: canvas,0
 360399647,true,"Add type="""" and start="""" to <ul>",https://github.com/whatwg/html/pull/4036,2018-09-14T17:58:31Z,2020-07-08T20:43:40Z,domenic,,1
-360276165,false,Specify -webkit-appearance: fieldset and legend: auto,https://github.com/whatwg/html/pull/4035,2018-09-14T12:00:39Z,2023-03-18T07:51:25Z,zcorpan,addition/proposal|do not merge yet|topic: rendering|topic: fieldset,0
+360276165,true,Specify -webkit-appearance: fieldset and legend: auto,https://github.com/whatwg/html/pull/4035,2018-09-14T12:00:39Z,2023-03-20T14:38:57Z,zcorpan,addition/proposal|do not merge yet|topic: rendering|topic: fieldset,0
 359803279,true,Added dfn data for HTMLOrSVGElement/nonce to fix link error in CSP spec,https://github.com/whatwg/html/pull/4032,2018-09-13T08:57:09Z,2018-09-21T07:34:26Z,andypaicu,,0
 359745804,true,Specify when style sheets are no longer script-blocking,https://github.com/whatwg/html/pull/4031,2018-09-13T05:16:53Z,2019-01-17T16:01:55Z,domfarolino,topic: events|interop|topic: link|topic: style,0
 359465181,true,Change the callback type of queueMicrotask from Function to VoidFunction,https://github.com/whatwg/html/pull/4027,2018-09-12T12:50:24Z,2018-09-12T14:04:34Z,yuki3,clarification,0

@@ -1,13 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1629220956,false,"Timing of `<dialog>` 'close' event, popover 'toggle' event, `<details>` 'toggle' event",https://github.com/whatwg/html/issues/9046,2023-03-17T12:19:27Z,2023-03-17T12:44:36Z,jakearchibald,topic: dialog|topic: popover,0
-1629156392,false,Should popover/dialog show/hide when already shown/hidden throw?,https://github.com/whatwg/html/issues/9045,2023-03-17T11:32:41Z,2023-03-18T08:28:44Z,jakearchibald,topic: dialog|topic: popover,3
+1629156392,false,Should popover/dialog show/hide when already shown/hidden throw?,https://github.com/whatwg/html/issues/9045,2023-03-17T11:32:41Z,2023-03-20T21:53:43Z,jakearchibald,topic: dialog|topic: popover,4
 1629078964,false,<dialog> Unclear method of altering/reading attributes,https://github.com/whatwg/html/issues/9044,2023-03-17T10:35:36Z,2023-03-17T11:06:53Z,jakearchibald,topic: dialog,0
 1628986537,false,Should togglePopover() return a boolean?,https://github.com/whatwg/html/issues/9043,2023-03-17T09:30:48Z,2023-03-17T09:30:48Z,jakearchibald,topic: popover,0
 1628760896,false,popover attribute may not be web compatible,https://github.com/whatwg/html/issues/9042,2023-03-17T06:11:49Z,2023-03-17T19:01:11Z,nt1m,topic: popover,0
 1628624650,false,"What is the web's ""story"" for distributing local-first apps?",https://github.com/whatwg/html/issues/9041,2023-03-17T03:24:01Z,2023-03-17T03:24:01Z,josephrocca,,0
 1628154493,false,change event for textareas doesn't seem to be defined,https://github.com/whatwg/html/issues/9040,2023-03-16T19:44:00Z,2023-03-16T19:44:00Z,nt1m,topic: forms,0
 1627727891,false,WPT subtest testing beforetoggle during showPopover(),https://github.com/whatwg/html/issues/9037,2023-03-16T15:18:02Z,2023-03-17T10:59:39Z,rwlbuis,topic: popover,0
-1627542966,false,Questions/issues with popover spec,https://github.com/whatwg/html/issues/9036,2023-03-16T13:57:50Z,2023-03-20T10:50:12Z,jakearchibald,topic: popover,0
+1627542966,false,Questions/issues with popover spec,https://github.com/whatwg/html/issues/9036,2023-03-16T13:57:50Z,2023-03-20T17:44:49Z,jakearchibald,topic: popover,0
 1627337028,false,Govern dns-prefetch and preconnect with CSP,https://github.com/whatwg/html/issues/9035,2023-03-16T12:04:58Z,2023-03-16T17:07:16Z,annevk,integration|topic: resource hints (inc. preload),0
 1626813114,false,Should attribute change steps fire beforetoggle events?,https://github.com/whatwg/html/issues/9034,2023-03-16T06:34:18Z,2023-03-16T06:45:10Z,nt1m,,0
 1626564469,false,Improve conformance requirements on <link> attributes,https://github.com/whatwg/html/issues/9031,2023-03-16T02:10:53Z,2023-03-16T02:10:53Z,domenic,document conformance|topic: link|topic: resource hints (inc. preload),0
@@ -115,7 +115,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1531967499,true,document state's history policy container does not seem to be correctly updated,https://github.com/whatwg/html/issues/8725,2023-01-13T09:20:41Z,2023-01-24T04:21:55Z,antosart,,0
 1531618760,true,Seeking clarity regarding potential mis-implemented behaviour in Chromium,https://github.com/whatwg/html/issues/8724,2023-01-13T02:30:03Z,2023-01-18T04:34:50Z,texonidas,,0
 1531498858,true,Upcoming HTML standard issue triage meeting on 1/26/2023,https://github.com/whatwg/html/issues/8723,2023-01-12T23:52:38Z,2023-01-26T22:38:32Z,past,agenda+,0
-1530834734,false,Additional accessibility guidance for popover,https://github.com/whatwg/html/issues/8714,2023-01-12T14:42:51Z,2023-02-16T07:43:33Z,scottaohara,topic: popover,0
+1530834734,true,Additional accessibility guidance for popover,https://github.com/whatwg/html/issues/8714,2023-01-12T14:42:51Z,2023-03-20T12:55:09Z,scottaohara,topic: popover,0
 1530043744,true,"""Nested navigable"" and ""child navigable"" are easy to confuse",https://github.com/whatwg/html/issues/8713,2023-01-12T03:40:54Z,2023-01-19T04:29:10Z,domenic,clarification|topic: browsing context,0
 1528456422,false,Is HTMLImgElement.decode() a cross-origin info channel?,https://github.com/whatwg/html/issues/8709,2023-01-11T05:29:17Z,2023-02-24T15:08:57Z,noamr,security/privacy|topic: img,1
 1528111766,false,Float16Array + HTML Canvas,https://github.com/whatwg/html/issues/8708,2023-01-10T22:41:56Z,2023-03-04T05:56:35Z,palemieux,addition/proposal|needs implementer interest|topic: canvas,1
@@ -243,7 +243,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1400696912,false,Editorial: consider using Infra maps instead of JS-spec Records more often,https://github.com/whatwg/html/issues/8363,2022-10-07T06:43:25Z,2022-10-07T06:43:25Z,domenic,clarification|integration,0
 1400071766,false,Allow workers & shared workers to be created within a service worker,https://github.com/whatwg/html/issues/8362,2022-10-06T17:41:40Z,2023-01-17T19:24:23Z,ian97531,addition/proposal|needs implementer interest|topic: workers,2
 1399126032,false,How do shadow roots and slots interact with the content model?,https://github.com/whatwg/html/issues/8361,2022-10-06T08:47:59Z,2022-10-07T10:52:20Z,castholm,,0
-1398190934,false,Proposal: showEmojiPicker() on HTMLInputElement/HTMLTextareaElement,https://github.com/whatwg/html/issues/8358,2022-10-05T18:23:44Z,2022-10-06T14:31:19Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,63
+1398190934,false,Proposal: showEmojiPicker() on HTMLInputElement/HTMLTextareaElement,https://github.com/whatwg/html/issues/8358,2022-10-05T18:23:44Z,2022-10-06T14:31:19Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,64
 1397339666,false,Add external import maps,https://github.com/whatwg/html/issues/8355,2022-10-05T07:08:53Z,2022-10-06T15:43:39Z,annevk,addition/proposal|topic: script,1
 1396727910,false,"Which type of replaced elements should a ""`<img>` with empty src or without src"" be treated",https://github.com/whatwg/html/issues/8354,2022-10-04T19:11:52Z,2022-10-14T18:58:36Z,cathiechen,topic: rendering|topic: img,0
 1396199556,true,Consistify spelling of realm,https://github.com/whatwg/html/issues/8353,2022-10-04T12:32:09Z,2022-10-06T07:14:58Z,annevk,clarification,0
@@ -2188,7 +2188,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 350717238,true,Fieldset and shadow DOM,https://github.com/whatwg/html/issues/3920,2018-08-15T07:49:16Z,2018-08-15T08:23:58Z,zcorpan,topic: shadow|topic: fieldset,0
 350374486,true,fieldset should force used value of 'display' for some values,https://github.com/whatwg/html/issues/3915,2018-08-14T10:44:11Z,2018-09-19T18:04:41Z,zcorpan,topic: rendering|topic: fieldset,0
 350326186,true,fieldset's legend should probably inherit alignment,https://github.com/whatwg/html/issues/3913,2018-08-14T08:19:13Z,2018-09-19T18:04:42Z,zcorpan,topic: rendering|interop|topic: fieldset,0
-350129917,false,Disable fieldset/legend magic with -webkit-appearance: none,https://github.com/whatwg/html/issues/3912,2018-08-13T17:53:01Z,2019-10-17T20:37:02Z,zcorpan,addition/proposal|needs implementer interest|topic: rendering|topic: fieldset,2
+350129917,false,Disable fieldset/legend rendering magic with CSS,https://github.com/whatwg/html/issues/3912,2018-08-13T17:53:01Z,2023-03-20T16:08:37Z,zcorpan,addition/proposal|topic: rendering|needs concrete proposal|topic: fieldset,2
 350117012,true,"paradox issue when ""tabindex"" is used together with ""display: none/contents"" or ""visibility: hidden""",https://github.com/whatwg/html/issues/3910,2018-08-13T17:13:15Z,2018-08-13T22:30:20Z,Zhang-Junzhi,,0
 349992613,false,"""The div element has no special meaning at all"" is inaccurate.",https://github.com/whatwg/html/issues/3908,2018-08-13T11:34:26Z,2018-08-19T06:59:56Z,Zhang-Junzhi,i18n-tracker|i18n-alreq|i18n-hlreq,0
 349715242,false,"Spec needs to make it clear that paragraphs are isolated from surrounding paragraphs, for the purposes of bidirectional text formatting.",https://github.com/whatwg/html/issues/3905,2018-08-11T08:00:33Z,2019-03-06T18:55:47Z,Zhang-Junzhi,i18n-tracker,0
