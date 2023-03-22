@@ -147,6 +147,9 @@ for (let api in bcd.css) {
 for (let api in bcd.html) {
   apiToCSV(bcd.html[api], "html/" + api);
 }
+for (let api in bcd.http) {
+  apiToCSV(bcd.http[api], "http/" + api);
+}
 for (let api in bcd.javascript) {
   apiToCSV(bcd.javascript[api], "javascript/" + api);
 }
