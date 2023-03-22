@@ -862,7 +862,7 @@ api/CanvasRenderingContext2D/reset,,,,99,,,,true,true,false,https://html.spec.wh
 api/CanvasRenderingContext2D/resetTransform,,36,,31,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-resettransform-dev,WHATWG
 api/CanvasRenderingContext2D/restore,,1.5,,1,,2,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-restore-dev,WHATWG
 api/CanvasRenderingContext2D/rotate,,1.5,,1,,2,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-rotate-dev,WHATWG
-api/CanvasRenderingContext2D/roundRect,,,,99,,16,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-roundrect,WHATWG
+api/CanvasRenderingContext2D/roundRect,,112,,99,,16,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-roundrect,WHATWG
 api/CanvasRenderingContext2D/save,,1.5,,1,,2,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-save-dev,WHATWG
 api/CanvasRenderingContext2D/scale,,1.5,,1,,2,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-scale-dev,WHATWG
 api/CanvasRenderingContext2D/scrollPathIntoView,,,,36,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference""}]",,,true,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-scrollpathintoview-dev,WHATWG
@@ -1441,6 +1441,8 @@ api/Document/pointerlockchange_event,,50,,36,,10.1,,false,true,false,https://w3c
 api/Document/pointerlockerror_event,,50,,36,,10.1,,false,true,false,https://w3c.github.io/pointerlock/#pointerlockchange-and-pointerlockerror-events,W3C
 api/Document/preferredStyleSheetSet,,3,,,,,,false,false,true,,NONE
 api/Document/prepend,,49,,54,,10,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-parentnode-prepend①,WHATWG
+api/Document/prerendering,,,,108,,,,true,true,false,https://wicg.github.io/nav-speculation/prerendering.html#dom-document-prerendering,W3CCG
+api/Document/prerenderingchange_event,,,,108,,,,true,true,false,https://wicg.github.io/nav-speculation/prerendering.html#eventdef-document-prerenderingchange,W3CCG
 api/Document/queryCommandEnabled,,41,,1,,2,,false,false,true,,NONE
 api/Document/queryCommandIndeterm,,1,,1,,2,,false,true,true,,NONE
 api/Document/queryCommandState,,1,,1,,2,,false,false,true,,NONE
@@ -2308,8 +2310,8 @@ api/HTMLCanvasElement/getContext/2d_context/options_alpha_parameter,,30,,32,,,,f
 api/HTMLCanvasElement/getContext/2d_context/options_colorSpace_parameter,,,,92,,15.2,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-canvasrenderingcontext2dsettings-colorspace,WHATWG
 api/HTMLCanvasElement/getContext/2d_context/options_desynchronized_parameter,,,,81,,,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-canvasrenderingcontext2dsettings-desynchronized,WHATWG
 api/HTMLCanvasElement/getContext/2d_context/options_willReadFrequently_parameter,,28,,99,,,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-canvasrenderingcontext2dsettings-willreadfrequently,WHATWG
-api/HTMLCanvasElement/getContext/bitmaprenderer_context,,46,,56,,11.1,,false,true,false,,NONE
-api/HTMLCanvasElement/getContext/bitmaprenderer_context/options_alpha_parameter,,46,,56,,11.1,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-imagebitmaprenderingcontextsettings-alpha,WHATWG
+api/HTMLCanvasElement/getContext/bitmaprenderer_context,,46,,66,,11.1,,false,true,false,,NONE
+api/HTMLCanvasElement/getContext/bitmaprenderer_context/options_alpha_parameter,,46,,66,,11.1,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-imagebitmaprenderingcontextsettings-alpha,WHATWG
 api/HTMLCanvasElement/getContext/webgl2_context,,51,,56,,15,,false,true,false,,NONE
 api/HTMLCanvasElement/getContext/webgl2_context/options_alpha_parameter,,30,,56,,,,false,true,false,https://registry.khronos.org/webgl/specs/latest/1.0/#WEBGLCONTEXTATTRIBUTES,UNKNOWN
 api/HTMLCanvasElement/getContext/webgl2_context/options_desynchronized_parameter,,,,81,,,,false,true,false,https://registry.khronos.org/webgl/specs/latest/1.0/#WEBGLCONTEXTATTRIBUTES,UNKNOWN
@@ -3236,9 +3238,9 @@ api/ImageBitmap,,42,,50,,15,,false,true,false,https://html.spec.whatwg.org/multi
 api/ImageBitmap/close,,46,,52,,15,,false,true,false,https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#dom-imagebitmap-close-dev,WHATWG
 api/ImageBitmap/height,,42,,50,,15,,false,true,false,https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#dom-imagebitmap-height-dev,WHATWG
 api/ImageBitmap/width,,42,,50,,15,,false,true,false,https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#dom-imagebitmap-width-dev,WHATWG
-api/ImageBitmapRenderingContext,,46,,56,,15,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#the-imagebitmaprenderingcontext-interface,WHATWG
-api/ImageBitmapRenderingContext/canvas,,97,,56,,15,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-imagebitmaprenderingcontext-canvas-dev,WHATWG
-api/ImageBitmapRenderingContext/transferFromImageBitmap,,50,,56,,15,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-imagebitmaprenderingcontext-transferfromimagebitmap-dev,WHATWG
+api/ImageBitmapRenderingContext,,46,,66,,15,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#the-imagebitmaprenderingcontext-interface,WHATWG
+api/ImageBitmapRenderingContext/canvas,,97,,66,,15,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-imagebitmaprenderingcontext-canvas-dev,WHATWG
+api/ImageBitmapRenderingContext/transferFromImageBitmap,,50,,66,,15,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-imagebitmaprenderingcontext-transferfromimagebitmap-dev,WHATWG
 api/ImageCapture,,,,59,,,,true,true,false,https://w3c.github.io/mediacapture-image/#imagecaptureapi,W3C
 api/ImageCapture/ImageCapture,,,,59,,,,true,true,false,https://w3c.github.io/mediacapture-image/#dom-imagecapture-imagecapture,W3C
 api/ImageCapture/getPhotoCapabilities,,,,59,,,,true,true,false,https://w3c.github.io/mediacapture-image/#dom-imagecapture-getphotocapabilities,W3C
@@ -3955,7 +3957,7 @@ api/Navigator/deviceMemory,,,,63,,,,true,true,false,https://www.w3.org/TR/device
 api/Navigator/doNotTrack,,9,,23,,5.1,,false,true,true,https://www.w3.org/TR/tracking-dnt/#dom-navigator-donottrack,W3C
 api/Navigator/geolocation,,3.5,,5,,5,,false,true,false,https://w3c.github.io/geolocation-api/#dom-navigator-geolocation,W3C
 api/Navigator/geolocation/secure_context_required,,55,,47,,10,,false,true,false,,NONE
-api/Navigator/getAutoplayPolicy,,preview,,,,,,true,true,false,https://w3c.github.io/autoplay/#dom-navigator-getautoplaypolicy,W3C
+api/Navigator/getAutoplayPolicy,,112,,,,,,true,true,false,https://w3c.github.io/autoplay/#dom-navigator-getautoplaypolicy,W3C
 api/Navigator/getBattery,,43,,38,,,,false,true,false,https://w3c.github.io/battery/#dom-navigator-getbattery,W3C
 api/Navigator/getBattery/secure_context_required,,,,103,,,,true,true,false,,NONE
 api/Navigator/getGamepads,,29,,35,,10.1,,false,true,false,https://w3c.github.io/gamepad/#dom-navigator-getgamepads,W3C
@@ -4250,7 +4252,7 @@ api/OffscreenCanvasRenderingContext2D/reset,,,,99,,,,true,true,false,https://htm
 api/OffscreenCanvasRenderingContext2D/resetTransform,,105,,69,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-resettransform-dev,WHATWG
 api/OffscreenCanvasRenderingContext2D/restore,,105,,69,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-restore-dev,WHATWG
 api/OffscreenCanvasRenderingContext2D/rotate,,105,,69,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-rotate-dev,WHATWG
-api/OffscreenCanvasRenderingContext2D/roundRect,,,,99,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-roundrect,WHATWG
+api/OffscreenCanvasRenderingContext2D/roundRect,,112,,99,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-roundrect,WHATWG
 api/OffscreenCanvasRenderingContext2D/save,,105,,69,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-save-dev,WHATWG
 api/OffscreenCanvasRenderingContext2D/scale,,105,,69,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-scale-dev,WHATWG
 api/OffscreenCanvasRenderingContext2D/setLineDash,,105,,69,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-setlinedash-dev,WHATWG
@@ -4369,7 +4371,7 @@ api/Path2D/lineTo,,31,,36,,8,,false,true,false,https://html.spec.whatwg.org/mult
 api/Path2D/moveTo,,31,,36,,8,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-moveto-dev,WHATWG
 api/Path2D/quadraticCurveTo,,31,,36,,8,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-quadraticcurveto-dev,WHATWG
 api/Path2D/rect,,31,,36,,8,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-rect-dev,WHATWG
-api/Path2D/roundRect,,,,99,,16,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-roundrect-dev,WHATWG
+api/Path2D/roundRect,,112,,99,,16,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-roundrect-dev,WHATWG
 api/PaymentAddress,,,,60,,11.1,,false,false,true,,NONE
 api/PaymentAddress/addressLine,,,,60,,11.1,,false,false,true,,NONE
 api/PaymentAddress/city,,,,60,,11.1,,false,false,true,,NONE
@@ -4503,6 +4505,7 @@ api/PerformanceNavigation/redirectCount,,7,,10,,8,,false,true,true,https://w3c.g
 api/PerformanceNavigation/toJSON,,25,,56,,14.1,,false,true,true,https://w3c.github.io/navigation-timing/#dom-performancenavigation-tojson,W3C
 api/PerformanceNavigation/type,,7,,10,,8,,false,true,true,https://w3c.github.io/navigation-timing/#dom-performancenavigation-type,W3C
 api/PerformanceNavigationTiming,,58,,57,,15,,false,true,false,https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming,W3C
+api/PerformanceNavigationTiming/activationStart,,,,108,,,,true,true,false,https://wicg.github.io/nav-speculation/prerendering.html#dom-performancenavigationtiming-activationstart,W3CCG
 api/PerformanceNavigationTiming/domComplete,,58,,57,,15,,false,true,false,https://w3c.github.io/navigation-timing/#dom-performancenavigationtiming-domcomplete,W3C
 api/PerformanceNavigationTiming/domContentLoadedEventEnd,,58,,57,,15,,false,true,false,https://w3c.github.io/navigation-timing/#dom-performancenavigationtiming-domcontentloadedeventend,W3C
 api/PerformanceNavigationTiming/domContentLoadedEventStart,,58,,57,,15,,false,true,false,https://w3c.github.io/navigation-timing/#dom-performancenavigationtiming-domcontentloadedeventstart,W3C
@@ -9061,9 +9064,9 @@ css/properties/scroll-snap-stop,,103,,75,,15,,false,true,false,https://w3c.githu
 css/properties/scroll-snap-type,,99,,69,,11,,false,true,false,https://w3c.github.io/csswg-drafts/css-scroll-snap/#scroll-snap-type,W3C
 css/properties/scroll-snap-type-x,,39,,,,9,,false,false,true,,NONE
 css/properties/scroll-snap-type-y,,39,,,,,,false,false,true,,NONE
-css/properties/scroll-timeline,,103,"[{""name"":""layout.css.scroll-linked-animations.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://w3c.github.io/csswg-drafts/scroll-animations/#scroll-timeline-shorthand,W3C
-css/properties/scroll-timeline-axis,,103,"[{""name"":""layout.css.scroll-linked-animations.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://w3c.github.io/csswg-drafts/scroll-animations/#propdef-scroll-timeline-axis,W3C
-css/properties/scroll-timeline-name,,103,"[{""name"":""layout.css.scroll-linked-animations.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://w3c.github.io/csswg-drafts/scroll-animations/#scroll-timeline-name,W3C
+css/properties/scroll-timeline,,110,"[{""name"":""layout.css.scroll-driven-animations.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://w3c.github.io/csswg-drafts/scroll-animations/#scroll-timeline-shorthand,W3C
+css/properties/scroll-timeline-axis,,110,"[{""name"":""layout.css.scroll-driven-animations.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://w3c.github.io/csswg-drafts/scroll-animations/#propdef-scroll-timeline-axis,W3C
+css/properties/scroll-timeline-name,,110,"[{""name"":""layout.css.scroll-driven-animations.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://w3c.github.io/csswg-drafts/scroll-animations/#scroll-timeline-name,W3C
 css/properties/scrollbar-3dlight-color,,,,,,,,false,false,true,,NONE
 css/properties/scrollbar-arrow-color,,,,,,,,false,false,true,,NONE
 css/properties/scrollbar-base-color,,,,,,,,false,false,true,,NONE

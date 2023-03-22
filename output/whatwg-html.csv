@@ -1,21 +1,22 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1633613880,false,Is it ok for popover to claim general names like :open and :closed?,https://github.com/whatwg/html/issues/9055,2023-03-21T10:28:08Z,2023-03-21T11:58:30Z,jakearchibald,topic: popover,0
-1633590732,false,Add element.popoverOpen,https://github.com/whatwg/html/issues/9054,2023-03-21T10:13:22Z,2023-03-21T11:59:38Z,jakearchibald,topic: popover,0
-1629220956,false,"Timing of `<dialog>` 'close' event, popover 'toggle' event, `<details>` 'toggle' event",https://github.com/whatwg/html/issues/9046,2023-03-17T12:19:27Z,2023-03-17T12:44:36Z,jakearchibald,topic: dialog|topic: popover,0
+1634346770,false,Be able to select for partial attribute names,https://github.com/whatwg/html/issues/9056,2023-03-21T16:57:38Z,2023-03-21T16:58:31Z,keithamus,,1
+1633613880,false,Is it ok for popover to claim general names like :open and :closed?,https://github.com/whatwg/html/issues/9055,2023-03-21T10:28:08Z,2023-03-21T18:54:01Z,jakearchibald,topic: popover,0
+1633590732,false,Add element.popoverOpen,https://github.com/whatwg/html/issues/9054,2023-03-21T10:13:22Z,2023-03-21T18:09:17Z,jakearchibald,addition/proposal|needs implementer interest|topic: popover,0
+1629220956,false,"Timing of `<dialog>` 'close' event, popover 'toggle' event, `<details>` 'toggle' event",https://github.com/whatwg/html/issues/9046,2023-03-17T12:19:27Z,2023-03-21T12:49:55Z,jakearchibald,topic: dialog|topic: popover,0
 1629156392,false,Should popover/dialog show/hide when already shown/hidden throw?,https://github.com/whatwg/html/issues/9045,2023-03-17T11:32:41Z,2023-03-21T10:13:47Z,jakearchibald,topic: dialog|topic: popover,4
 1629078964,false,<dialog> Unclear method of altering/reading attributes,https://github.com/whatwg/html/issues/9044,2023-03-17T10:35:36Z,2023-03-17T11:06:53Z,jakearchibald,topic: dialog,0
-1628986537,false,Should togglePopover() return a boolean?,https://github.com/whatwg/html/issues/9043,2023-03-17T09:30:48Z,2023-03-17T09:30:48Z,jakearchibald,topic: popover,0
+1628986537,false,Should togglePopover() return a boolean?,https://github.com/whatwg/html/issues/9043,2023-03-17T09:30:48Z,2023-03-21T13:37:10Z,jakearchibald,topic: popover,0
 1628760896,false,popover attribute may not be web compatible,https://github.com/whatwg/html/issues/9042,2023-03-17T06:11:49Z,2023-03-17T19:01:11Z,nt1m,topic: popover,0
 1628624650,false,"What is the web's ""story"" for distributing local-first apps?",https://github.com/whatwg/html/issues/9041,2023-03-17T03:24:01Z,2023-03-17T03:24:01Z,josephrocca,,0
-1628154493,false,change event for textareas doesn't seem to be defined,https://github.com/whatwg/html/issues/9040,2023-03-16T19:44:00Z,2023-03-16T19:44:00Z,nt1m,topic: forms,0
-1627727891,false,WPT subtest testing beforetoggle during showPopover(),https://github.com/whatwg/html/issues/9037,2023-03-16T15:18:02Z,2023-03-17T10:59:39Z,rwlbuis,topic: popover,0
-1627542966,false,Questions/issues with popover spec,https://github.com/whatwg/html/issues/9036,2023-03-16T13:57:50Z,2023-03-21T09:56:26Z,jakearchibald,topic: popover,0
+1628154493,false,change event for textareas doesn't seem to be defined,https://github.com/whatwg/html/issues/9040,2023-03-16T19:44:00Z,2023-03-21T22:19:23Z,nt1m,topic: forms|topic: events,0
+1627727891,false,WPT subtest testing beforetoggle during showPopover(),https://github.com/whatwg/html/issues/9037,2023-03-16T15:18:02Z,2023-03-21T23:26:26Z,rwlbuis,topic: popover,0
+1627542966,false,Questions/issues with popover spec,https://github.com/whatwg/html/issues/9036,2023-03-16T13:57:50Z,2023-03-21T18:55:44Z,jakearchibald,topic: popover,0
 1627337028,false,Govern dns-prefetch and preconnect with CSP,https://github.com/whatwg/html/issues/9035,2023-03-16T12:04:58Z,2023-03-21T05:30:20Z,annevk,integration|topic: resource hints (inc. preload),0
 1626813114,false,Should attribute change steps fire beforetoggle events?,https://github.com/whatwg/html/issues/9034,2023-03-16T06:34:18Z,2023-03-16T06:45:10Z,nt1m,,0
 1626564469,false,Improve conformance requirements on <link> attributes,https://github.com/whatwg/html/issues/9031,2023-03-16T02:10:53Z,2023-03-16T02:10:53Z,domenic,document conformance|topic: link|topic: resource hints (inc. preload),0
 1625851825,false,History length/index are not synchronously initialized in new navigables,https://github.com/whatwg/html/issues/9030,2023-03-15T16:23:06Z,2023-03-16T02:21:11Z,domfarolino,topic: navigation|topic: history,0
 1625174180,false,Clarify selection behaviour of setting textarea value via property,https://github.com/whatwg/html/issues/9028,2023-03-15T10:00:22Z,2023-03-15T10:28:25Z,jnjaeschke,topic: forms,0
-1624192148,false,Sandboxed iframes without allow-same-origin and with about:blank or about:srcdoc urls should not inherit a fallback base url.,https://github.com/whatwg/html/issues/9025,2023-03-14T19:50:36Z,2023-03-16T16:14:03Z,wjmaclean,normative change|topic: sandbox|agenda+,0
+1624192148,false,Sandboxed iframes without allow-same-origin and with about:blank or about:srcdoc urls should not inherit a fallback base url.,https://github.com/whatwg/html/issues/9025,2023-03-14T19:50:36Z,2023-03-21T23:51:53Z,wjmaclean,normative change|topic: sandbox|agenda+,0
 1623693519,false,Density-corrected intrinsic width and height when current request's dimensions are unavailable,https://github.com/whatwg/html/issues/9023,2023-03-14T15:13:43Z,2023-03-14T16:04:56Z,zcorpan,topic: img,0
 1622494414,false,Resetting forms on document reactivation,https://github.com/whatwg/html/issues/9019,2023-03-14T00:08:14Z,2023-03-18T02:59:33Z,fergald,agenda+,0
 1621394935,false,"Add ""lbry"" to scheme allowlist",https://github.com/whatwg/html/issues/9016,2023-03-13T12:31:10Z,2023-03-13T12:31:10Z,ben221199,,0
@@ -326,7 +327,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1325877836,true,Contradiction in CanvasRenderingContext2D.createPattern for images with bad useability,https://github.com/whatwg/html/issues/8149,2022-08-02T13:41:14Z,2022-08-03T15:27:59Z,mysteryDate,,0
 1323964858,false,support title element containing partially translatable text,https://github.com/whatwg/html/issues/8147,2022-08-01T07:33:35Z,2022-08-01T10:52:21Z,Zhang-Junzhi,i18n-tracker,0
 1323769314,false,Clarify the fill algorithm,https://github.com/whatwg/html/issues/8145,2022-08-01T03:51:58Z,2022-08-01T03:52:09Z,Kaiido,topic: canvas,0
-1323380850,false,"CORS, CORP, TAO & ""public static resource"" metadata",https://github.com/whatwg/html/issues/8143,2022-07-31T07:03:55Z,2023-03-21T09:43:32Z,noamr,security/privacy|topic: fetch,1
+1323380850,false,"CORS, CORP, TAO & ""public static resource"" metadata",https://github.com/whatwg/html/issues/8143,2022-07-31T07:03:55Z,2023-03-21T18:16:46Z,noamr,security/privacy|topic: fetch,1
 1322915430,true,New html element: preview,https://github.com/whatwg/html/issues/8140,2022-07-30T06:29:07Z,2022-07-31T23:22:49Z,ghost,,0
 1321568538,false,Clarify what happens when setting rel content attribute on link element,https://github.com/whatwg/html/issues/8138,2022-07-28T22:45:38Z,2022-09-08T06:59:25Z,rniwa,topic: link,0
 1318917068,false,Which input types should readonly affect constraint validation for?,https://github.com/whatwg/html/issues/8133,2022-07-27T01:40:41Z,2022-08-11T16:30:58Z,nt1m,clarification|topic: forms,0
