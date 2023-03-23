@@ -1,13 +1,14 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1636539181,false,"""Default fetch and process the linked resource"" does not account for CORS cross-origin fetches, thus preventing cross-origin stylesheets",https://github.com/whatwg/html/issues/9066,2023-03-22T21:45:40Z,2023-03-22T21:45:40Z,Lubrsi,,0
-1636514710,false,Autocomplete on 'contenteditable' Elements,https://github.com/whatwg/html/issues/9065,2023-03-22T21:22:44Z,2023-03-22T21:23:45Z,bmathwig,,0
+1637320041,false,Should the Window named properties object return supported named properties in [[OwnPropertyKeys]]?,https://github.com/whatwg/html/issues/9068,2023-03-23T11:14:44Z,2023-03-23T12:07:34Z,delan,,0
+1636539181,false,"""Default fetch and process the linked resource"" does not account for CORS cross-origin fetches, thus preventing cross-origin stylesheets",https://github.com/whatwg/html/issues/9066,2023-03-22T21:45:40Z,2023-03-23T07:43:01Z,Lubrsi,topic: fetch|integration,0
+1636514710,false,Autocomplete on 'contenteditable' Elements,https://github.com/whatwg/html/issues/9065,2023-03-22T21:22:44Z,2023-03-23T07:57:05Z,bmathwig,addition/proposal|needs implementer interest|topic: forms,0
 1636347345,true,Support for passing CSS styles to an SVG used via img[src],https://github.com/whatwg/html/issues/9064,2023-03-22T19:03:58Z,2023-03-22T20:10:00Z,brandonmcconnell,,0
-1636271789,false,"Should popover and dialog share the same ""previously focused element""?",https://github.com/whatwg/html/issues/9063,2023-03-22T18:12:00Z,2023-03-22T18:12:00Z,cathiechen,,0
+1636271789,false,"Should popover and dialog share the same ""previously focused element""?",https://github.com/whatwg/html/issues/9063,2023-03-22T18:12:00Z,2023-03-23T12:00:56Z,cathiechen,normative change|topic: dialog|topic: popover,0
 1634346770,true,Be able to select for partial attribute names,https://github.com/whatwg/html/issues/9056,2023-03-21T16:57:38Z,2023-03-22T12:36:02Z,keithamus,,1
 1633613880,false,Is it ok for popover to claim general names like :open and :closed?,https://github.com/whatwg/html/issues/9055,2023-03-21T10:28:08Z,2023-03-22T11:48:19Z,jakearchibald,topic: popover,0
 1633590732,false,Add element.popoverOpen,https://github.com/whatwg/html/issues/9054,2023-03-21T10:13:22Z,2023-03-22T08:52:11Z,jakearchibald,addition/proposal|needs implementer interest|topic: popover,0
 1629220956,false,"Timing of `<dialog>` 'close' event, popover 'toggle' event, `<details>` 'toggle' event",https://github.com/whatwg/html/issues/9046,2023-03-17T12:19:27Z,2023-03-21T12:49:55Z,jakearchibald,topic: dialog|topic: popover,0
-1629156392,false,Should popover/dialog show/hide when already shown/hidden throw?,https://github.com/whatwg/html/issues/9045,2023-03-17T11:32:41Z,2023-03-21T10:13:47Z,jakearchibald,topic: dialog|topic: popover,5
+1629156392,false,Should popover/dialog show/hide when already shown/hidden throw?,https://github.com/whatwg/html/issues/9045,2023-03-17T11:32:41Z,2023-03-21T10:13:47Z,jakearchibald,topic: dialog|topic: popover,6
 1629078964,false,<dialog> Unclear method of altering/reading attributes,https://github.com/whatwg/html/issues/9044,2023-03-17T10:35:36Z,2023-03-17T11:06:53Z,jakearchibald,topic: dialog,0
 1628986537,false,Should togglePopover() return a boolean?,https://github.com/whatwg/html/issues/9043,2023-03-17T09:30:48Z,2023-03-21T13:37:10Z,jakearchibald,topic: popover,0
 1628760896,false,popover attribute may not be web compatible,https://github.com/whatwg/html/issues/9042,2023-03-17T06:11:49Z,2023-03-22T08:12:23Z,nt1m,compat|topic: popover,0
@@ -3166,7 +3167,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 195734740,true,Wring,https://github.com/whatwg/html/issues/2181,2016-12-15T07:24:47Z,2016-12-15T07:25:56Z,cheoklune,,0
 195651796,true,Making Location.ancestorOrigins a FrozenArray is not Web-Compatible,https://github.com/whatwg/html/issues/2179,2016-12-14T21:33:44Z,2017-01-13T00:55:08Z,cdumez,,0
 195558416,true,"""when a select element does not have a sizes attribute""",https://github.com/whatwg/html/issues/2178,2016-12-14T15:18:37Z,2017-02-23T16:42:03Z,deltab,good first issue,0
-195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2023-01-19T09:07:26Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,90
+195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2023-01-19T09:07:26Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,91
 195497838,true,selectionStart/End/Direction on input and textarea should not be nullable,https://github.com/whatwg/html/issues/2175,2016-12-14T10:46:42Z,2017-01-18T09:22:04Z,foolip,,0
 195494630,true,pushState title is ignored in all implementations?,https://github.com/whatwg/html/issues/2174,2016-12-14T10:32:35Z,2021-03-15T16:59:58Z,foolip,topic: history|interop,3
 195385032,true,"""If the element is flagged as ""parser-inserted"",...""",https://github.com/whatwg/html/issues/2173,2016-12-13T22:18:17Z,2016-12-13T22:19:35Z,JosephPecoraro,,0
