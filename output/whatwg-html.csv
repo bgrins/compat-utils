@@ -4,7 +4,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1638398517,false,Upcoming HTML standard issue triage meeting on 4/6/2023,https://github.com/whatwg/html/issues/9070,2023-03-23T21:59:20Z,2023-03-23T21:59:20Z,past,agenda+,0
 1637320041,false,Should the Window named properties object return supported named properties in [[OwnPropertyKeys]]?,https://github.com/whatwg/html/issues/9068,2023-03-23T11:14:44Z,2023-03-24T02:14:56Z,delan,clarification,0
 1636539181,false,"""Default fetch and process the linked resource"" does not account for CORS cross-origin fetches, thus preventing cross-origin stylesheets",https://github.com/whatwg/html/issues/9066,2023-03-22T21:45:40Z,2023-03-23T07:43:01Z,Lubrsi,topic: fetch|integration,0
-1636514710,false,Autocomplete on 'contenteditable' Elements,https://github.com/whatwg/html/issues/9065,2023-03-22T21:22:44Z,2023-03-27T15:04:10Z,bmathwig,addition/proposal|needs implementer interest|topic: forms,0
+1636514710,false,Autocomplete on 'contenteditable' Elements,https://github.com/whatwg/html/issues/9065,2023-03-22T21:22:44Z,2023-03-28T09:30:26Z,bmathwig,addition/proposal|needs implementer interest|topic: forms,0
 1636347345,true,Support for passing CSS styles to an SVG used via img[src],https://github.com/whatwg/html/issues/9064,2023-03-22T19:03:58Z,2023-03-22T20:10:00Z,brandonmcconnell,,0
 1636271789,false,"Should popover and dialog share the same ""previously focused element""?",https://github.com/whatwg/html/issues/9063,2023-03-22T18:12:00Z,2023-03-24T18:31:23Z,cathiechen,normative change|topic: dialog|topic: popover,0
 1634346770,true,Be able to select for partial attribute names,https://github.com/whatwg/html/issues/9056,2023-03-21T16:57:38Z,2023-03-22T12:36:02Z,keithamus,,1
@@ -113,7 +113,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1552934460,false,Ability to style default summary in <details>,https://github.com/whatwg/html/issues/8770,2023-01-23T11:28:14Z,2023-02-14T18:56:50Z,jakearchibald,addition/proposal|topic: rendering|topic: selectors,0
 1552047625,false,"Clarify: CSS import assertions use ""script"" as the destination, is that intended?",https://github.com/whatwg/html/issues/8764,2023-01-22T08:56:49Z,2023-01-22T08:57:06Z,noamr,,0
 1550462824,true,MediaError not acccessible for a video element if using it with source elements,https://github.com/whatwg/html/issues/8757,2023-01-20T08:15:13Z,2023-01-26T09:48:49Z,callumgare,,0
-1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-03-24T18:54:39Z,mfreed7,addition/proposal|topic: shadow,0
+1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-03-28T09:57:57Z,mfreed7,addition/proposal|topic: shadow,0
 1550024105,false,Native support for indents,https://github.com/whatwg/html/issues/8751,2023-01-19T22:11:32Z,2023-01-25T23:06:02Z,EgonBolton,,0
 1548957116,true,[css-view-transitions-1] Interaction with Safari's back/forward previews,https://github.com/whatwg/html/issues/8749,2023-01-19T11:14:58Z,2023-01-19T11:21:46Z,jakearchibald,,0
 1537525438,true,Meta: should dfns in headings be viewed as exported definitions?,https://github.com/whatwg/html/issues/8743,2023-01-18T07:30:06Z,2023-01-20T19:24:39Z,tidoust,,0
@@ -720,7 +720,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1005475123,false,History entry state (history & appHistory) and error documents,https://github.com/whatwg/html/issues/7106,2021-09-23T14:02:37Z,2021-09-27T16:40:46Z,jakearchibald,topic: history,0
 1005371479,true,Hide TAO-protected timing info from navigation timing when cross-origin redirects are present,https://github.com/whatwg/html/issues/7104,2021-09-23T12:26:49Z,2022-02-24T09:36:18Z,noamr,,0
 1003976431,false,"Request for adding ""surname"" to the list of values for the attribute ""autocomplete"" of ""text"" inputs",https://github.com/whatwg/html/issues/7096,2021-09-22T08:06:39Z,2021-09-30T11:48:47Z,DanielCoutoVale,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,1
-1003850354,false,Exposing back/forward cache blocking reasons to sites,https://github.com/whatwg/html/issues/7094,2021-09-22T06:01:58Z,2023-02-01T03:37:27Z,rubberyuzu,addition/proposal|needs implementer interest|topic: history,0
+1003850354,false,Exposing back/forward cache blocking reasons to sites,https://github.com/whatwg/html/issues/7094,2021-09-22T06:01:58Z,2023-03-28T08:17:47Z,rubberyuzu,addition/proposal|needs implementer interest|topic: history,0
 1003923758,false,Allow `detail` argument for HTMLElement.click(),https://github.com/whatwg/html/issues/7095,2021-09-21T19:11:31Z,2021-09-27T20:11:08Z,MichaelAllenWarner,addition/proposal|needs implementer interest|interop,0
 1000405876,true,Transferring objects in `BroadcastChannel.postMessage()`,https://github.com/whatwg/html/issues/7088,2021-09-19T20:04:09Z,2021-09-19T20:08:41Z,jespertheend,,0
 1000212229,false,[idea] <pre> tag dedentation,https://github.com/whatwg/html/issues/7087,2021-09-19T05:15:12Z,2021-09-19T20:11:30Z,Jamesernator,addition/proposal|needs implementer interest,1
@@ -1175,7 +1175,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 691678305,true,cross-origin-isolated permission tests,https://github.com/whatwg/html/issues/5888,2020-09-03T06:21:36Z,2020-09-24T01:13:42Z,annevk,needs tests|topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,0
 691162250,false,"Explicitly pass ""perform the fetch"" steps through dependent algorithms",https://github.com/whatwg/html/issues/5887,2020-09-02T16:18:34Z,2020-09-07T10:26:36Z,jugglinmike,clarification,0
 690480691,false,Event bubbling on disabled form elements,https://github.com/whatwg/html/issues/5886,2020-09-01T22:05:15Z,2023-03-24T23:50:38Z,josepharhar,topic: forms|topic: events|interop,0
-688861626,false,Back-forward cache meta-bug,https://github.com/whatwg/html/issues/5880,2020-08-31T02:58:40Z,2023-03-24T03:56:41Z,rakina,topic: history,0
+688861626,false,Back-forward cache meta-bug,https://github.com/whatwg/html/issues/5880,2020-08-31T02:58:40Z,2023-03-28T11:26:48Z,rakina,topic: history,0
 688860879,false,Back-forward cache: Specifying ineligibility?,https://github.com/whatwg/html/issues/5879,2020-08-31T02:55:55Z,2022-08-08T08:19:26Z,rakina,topic: history|interop,0
 688847041,true,Back-forward cache: Restoring focus,https://github.com/whatwg/html/issues/5878,2020-08-31T02:07:44Z,2021-12-08T02:31:47Z,rakina,topic: history|topic: focus,0
 688821785,true,"Back-forward cache: browsing context change & ""fully active"" concept",https://github.com/whatwg/html/issues/5877,2020-08-31T00:24:14Z,2022-10-31T05:07:04Z,rakina,topic: history,0
@@ -3131,7 +3131,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 200170460,true,Integrate SharedArrayBuffers,https://github.com/whatwg/html/issues/2260,2017-01-11T18:25:12Z,2017-04-28T07:38:32Z,domenic,addition/proposal|topic: serialize and transfer,0
 200152591,false,Add sandbox attribute for allow-pointer-capture,https://github.com/whatwg/html/issues/2259,2017-01-11T17:12:08Z,2018-01-23T16:23:07Z,RByers,integration,0
 199972215,false,Should preventDefault() on events affect to the behavior of UA provided interactive elements like the default UI of <audio> and <video>,https://github.com/whatwg/html/issues/2258,2017-01-11T00:29:04Z,2018-07-21T03:52:21Z,smaug----,topic: events,0
-199814411,false,Standardize <template> variables and event handlers,https://github.com/whatwg/html/issues/2254,2017-01-10T12:57:10Z,2023-03-13T09:53:37Z,Mevrael,addition/proposal|needs implementer interest|topic: events,39
+199814411,false,Standardize <template> variables and event handlers,https://github.com/whatwg/html/issues/2254,2017-01-10T12:57:10Z,2023-03-13T09:53:37Z,Mevrael,addition/proposal|needs implementer interest|topic: events,40
 199778666,false,Consider restricting form submissions containing unclosed `<textarea>` or `<select>` elements.,https://github.com/whatwg/html/issues/2253,2017-01-10T10:03:27Z,2017-07-31T00:07:11Z,mikewest,normative change|security/privacy|topic: forms,0
 199771356,true,Consider restricting form submissions containing `<plaintext>`.,https://github.com/whatwg/html/issues/2252,2017-01-10T09:29:49Z,2017-01-12T00:18:37Z,mikewest,normative change|security/privacy|topic: forms,2
 199619250,true,Make underscore-prefixed attributes formally valid (works AS IS in all existing browsers),https://github.com/whatwg/html/issues/2250,2017-01-09T17:58:59Z,2017-01-19T11:57:08Z,Marat-Tanalin,addition/proposal|document conformance,8
