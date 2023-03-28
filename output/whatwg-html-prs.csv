@@ -1,4 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1642657668,true,Heading example (Issue 8366),https://github.com/whatwg/html/pull/9078,2023-03-27T19:05:56Z,2023-03-27T22:15:54Z,JAWS-test,,0
+1642593105,false,Rename :open to :popover and remove :closed,https://github.com/whatwg/html/pull/9077,2023-03-27T18:22:12Z,2023-03-27T18:23:37Z,josepharhar,,0
 1641265653,true,Editorial: fix a few extra domintro spaces,https://github.com/whatwg/html/pull/9074,2023-03-27T02:45:26Z,2023-03-27T06:54:29Z,domenic,,0
 1638327584,true,"Update references from ""import assertions"" to ""import attributes""",https://github.com/whatwg/html/pull/9069,2023-03-23T21:06:49Z,2023-03-25T01:41:17Z,nicolo-ribaudo,normative change|topic: script|integration,0
 1636108930,false,Fix navigator.userActivation getter.,https://github.com/whatwg/html/pull/9062,2023-03-22T16:22:01Z,2023-03-22T17:03:32Z,jan-ivar,,0
@@ -8,7 +10,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1630264564,true,Update README.md,https://github.com/whatwg/html/pull/9050,2023-03-18T10:15:24Z,2023-03-18T10:18:00Z,avinashnaidu77777,spam,0
 1630264474,true,Update README.md,https://github.com/whatwg/html/pull/9049,2023-03-18T10:15:05Z,2023-03-18T10:19:39Z,5hello,spam,0
 1629849072,false,"Add ""check and possibly close popover stack"" algorithm",https://github.com/whatwg/html/pull/9048,2023-03-17T19:38:48Z,2023-03-25T18:09:00Z,josepharhar,topic: popover,0
-1629737267,false,Spec :user-invalid & :user-valid,https://github.com/whatwg/html/pull/9047,2023-03-17T18:17:04Z,2023-03-27T09:42:54Z,nt1m,,0
+1629737267,false,Spec :user-invalid & :user-valid,https://github.com/whatwg/html/pull/9047,2023-03-17T18:17:04Z,2023-03-27T13:23:20Z,nt1m,,0
 1627835465,true,Modernize and correct <dialog> show() and showModal(),https://github.com/whatwg/html/pull/9039,2023-03-16T16:15:40Z,2023-03-19T17:22:52Z,annevk,topic: dialog|topic: popover,0
 1627734287,false,Add the HostSystemUTCEpochNanoseconds abstract operation,https://github.com/whatwg/html/pull/9038,2023-03-16T15:21:28Z,2023-03-20T17:48:14Z,Ms2ger,integration,1
 1625594332,true,Define the processing model for dns-prefetch,https://github.com/whatwg/html/pull/9029,2023-03-15T14:03:08Z,2023-03-16T12:05:54Z,noamr,topic: link|topic: resource hints (inc. preload),0
@@ -111,7 +113,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1450508581,true,Correct orphaned variable sandboxFlags to use targetSnapshotParams.,https://github.com/whatwg/html/pull/8512,2022-11-15T23:07:28Z,2022-11-17T03:04:06Z,jeremyroman,,0
 1449664827,true,Meta: zcorpan's employed changed,https://github.com/whatwg/html/pull/8508,2022-11-15T11:58:39Z,2022-11-15T12:33:40Z,zcorpan,,0
 1448000463,false,Support taler: URLs in registerProtocolHandler(),https://github.com/whatwg/html/pull/8503,2022-11-14T12:48:41Z,2023-03-27T06:52:47Z,grothoff,,0
-1447758651,false,Add the navigation API,https://github.com/whatwg/html/pull/8502,2022-11-14T10:08:04Z,2023-03-24T16:54:19Z,domenic,addition/proposal|topic: navigation|topic: history,5
+1447758651,false,Add the navigation API,https://github.com/whatwg/html/pull/8502,2022-11-14T10:08:04Z,2023-03-27T15:52:42Z,domenic,addition/proposal|topic: navigation|topic: history,5
 1447376783,true,Add page visibility change steps for Screen Orientation,https://github.com/whatwg/html/pull/8501,2022-11-14T04:40:42Z,2022-12-16T22:05:13Z,marcoscaceres,,0
 1447276651,true,Editorial: simplify session history serialized state,https://github.com/whatwg/html/pull/8500,2022-11-14T02:45:58Z,2022-11-15T01:02:16Z,domenic,clarification|topic: history,0
 1445641023,true,Make reflect work for ElementInternals,https://github.com/whatwg/html/pull/8496,2022-11-11T15:32:49Z,2023-02-22T10:39:41Z,annevk,accessibility|topic: custom elements,0
@@ -344,7 +346,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1163578312,true,Process subresource link headers,https://github.com/whatwg/html/pull/7691,2022-03-09T07:20:38Z,2023-02-08T13:44:10Z,noamr,needs tests|topic: link,0
 1163041492,true,Allow script-inserted body to unblock document's rendering,https://github.com/whatwg/html/pull/7690,2022-03-08T19:35:23Z,2022-05-03T18:02:50Z,xiaochengh,topic: rendering,0
 1162753816,true,Editorial: Add note about late CSP,https://github.com/whatwg/html/pull/7688,2022-03-08T14:54:01Z,2022-03-17T12:44:22Z,noamr,clarification,0
-1158802190,false,Add notes to the safelisted schemes list,https://github.com/whatwg/html/pull/7678,2022-03-03T19:13:19Z,2023-03-15T16:44:15Z,DConmy,addition/proposal|needs implementer interest|topic: custom protocols,0
+1158802190,false,Add notes to the safelisted schemes list,https://github.com/whatwg/html/pull/7678,2022-03-03T19:13:19Z,2023-03-27T14:11:58Z,DConmy,addition/proposal|needs implementer interest|topic: custom protocols,0
 1158648586,true,Process early hints (103 responses),https://github.com/whatwg/html/pull/7675,2022-03-03T16:49:25Z,2022-04-14T15:31:44Z,noamr,addition/proposal|topic: navigation,0
 1154005412,true,Do not block the load event for preload,https://github.com/whatwg/html/pull/7670,2022-02-28T11:59:51Z,2022-05-04T14:22:12Z,noamr,topic: link|topic: resource hints (inc. preload),0
 1149781735,true,Editorial: Completion reform for ECMAScript AOs,https://github.com/whatwg/html/pull/7661,2022-02-24T21:46:37Z,2022-02-27T20:58:55Z,syg,,1

@@ -1,9 +1,10 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1642307080,false,"API to get top layer elements ",https://github.com/whatwg/html/issues/9075,2023-03-27T15:18:20Z,2023-03-27T20:13:16Z,sanajaved7,addition/proposal|needs implementer interest,1
 1639018892,false,attr-associated elements use inconsistent trees?,https://github.com/whatwg/html/issues/9071,2023-03-24T09:20:42Z,2023-03-24T09:31:50Z,emilio,clarification|topic: shadow|topic: reflect,0
 1638398517,false,Upcoming HTML standard issue triage meeting on 4/6/2023,https://github.com/whatwg/html/issues/9070,2023-03-23T21:59:20Z,2023-03-23T21:59:20Z,past,agenda+,0
 1637320041,false,Should the Window named properties object return supported named properties in [[OwnPropertyKeys]]?,https://github.com/whatwg/html/issues/9068,2023-03-23T11:14:44Z,2023-03-24T02:14:56Z,delan,clarification,0
 1636539181,false,"""Default fetch and process the linked resource"" does not account for CORS cross-origin fetches, thus preventing cross-origin stylesheets",https://github.com/whatwg/html/issues/9066,2023-03-22T21:45:40Z,2023-03-23T07:43:01Z,Lubrsi,topic: fetch|integration,0
-1636514710,false,Autocomplete on 'contenteditable' Elements,https://github.com/whatwg/html/issues/9065,2023-03-22T21:22:44Z,2023-03-23T21:02:39Z,bmathwig,addition/proposal|needs implementer interest|topic: forms,0
+1636514710,false,Autocomplete on 'contenteditable' Elements,https://github.com/whatwg/html/issues/9065,2023-03-22T21:22:44Z,2023-03-27T15:04:10Z,bmathwig,addition/proposal|needs implementer interest|topic: forms,0
 1636347345,true,Support for passing CSS styles to an SVG used via img[src],https://github.com/whatwg/html/issues/9064,2023-03-22T19:03:58Z,2023-03-22T20:10:00Z,brandonmcconnell,,0
 1636271789,false,"Should popover and dialog share the same ""previously focused element""?",https://github.com/whatwg/html/issues/9063,2023-03-22T18:12:00Z,2023-03-24T18:31:23Z,cathiechen,normative change|topic: dialog|topic: popover,0
 1634346770,true,Be able to select for partial attribute names,https://github.com/whatwg/html/issues/9056,2023-03-21T16:57:38Z,2023-03-22T12:36:02Z,keithamus,,1
@@ -23,7 +24,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1626564469,false,Improve conformance requirements on <link> attributes,https://github.com/whatwg/html/issues/9031,2023-03-16T02:10:53Z,2023-03-16T02:10:53Z,domenic,document conformance|topic: link|topic: resource hints (inc. preload),0
 1625851825,false,History length/index are not synchronously initialized in new navigables,https://github.com/whatwg/html/issues/9030,2023-03-15T16:23:06Z,2023-03-16T02:21:11Z,domfarolino,topic: navigation|topic: history,0
 1625174180,false,Clarify selection behaviour of setting textarea value via property,https://github.com/whatwg/html/issues/9028,2023-03-15T10:00:22Z,2023-03-15T10:28:25Z,jnjaeschke,topic: forms,0
-1624192148,false,Sandboxed iframes without allow-same-origin and with about:blank or about:srcdoc urls should not inherit a fallback base url.,https://github.com/whatwg/html/issues/9025,2023-03-14T19:50:36Z,2023-03-21T23:51:53Z,wjmaclean,normative change|topic: sandbox|agenda+,0
+1624192148,false,Sandboxed iframes without allow-same-origin and with about:blank or about:srcdoc urls should not inherit a fallback base url.,https://github.com/whatwg/html/issues/9025,2023-03-14T19:50:36Z,2023-03-27T14:53:51Z,wjmaclean,normative change|topic: sandbox|agenda+,0
 1623693519,false,Density-corrected intrinsic width and height when current request's dimensions are unavailable,https://github.com/whatwg/html/issues/9023,2023-03-14T15:13:43Z,2023-03-14T16:04:56Z,zcorpan,topic: img,0
 1622494414,false,Resetting forms on document reactivation,https://github.com/whatwg/html/issues/9019,2023-03-14T00:08:14Z,2023-03-24T07:29:44Z,fergald,topic: forms|agenda+,0
 1621394935,false,"Add ""lbry"" to scheme allowlist",https://github.com/whatwg/html/issues/9016,2023-03-13T12:31:10Z,2023-03-13T12:31:10Z,ben221199,,0
@@ -102,7 +103,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1559343854,false,HTML cross-document encoding inheritance with bogus Content-Type charset,https://github.com/whatwg/html/issues/8789,2023-01-27T08:12:21Z,2023-01-27T08:12:38Z,annevk,topic: parser|interop,0
 1558881148,true,Upcoming HTML standard issue triage meeting on 2/9/2023,https://github.com/whatwg/html/issues/8786,2023-01-26T22:33:48Z,2023-02-09T17:49:43Z,past,agenda+,0
 1558865836,true,"An un-activated Image Button submitter should add `(0, 0)` entries to the form data set",https://github.com/whatwg/html/issues/8785,2023-01-26T22:18:29Z,2023-01-28T15:38:26Z,jenseng,,0
-1558491226,false,Expose an API to get the top layer element,https://github.com/whatwg/html/issues/8783,2023-01-26T17:16:05Z,2023-01-26T17:17:03Z,straker,,1
+1558491226,false,Expose an API to get the top layer element,https://github.com/whatwg/html/issues/8783,2023-01-26T17:16:05Z,2023-01-26T17:17:03Z,straker,,2
 1558379555,false,Tell developer when page transitions should be avoided - popStateEvent.skipTransition,https://github.com/whatwg/html/issues/8782,2023-01-26T16:01:43Z,2023-01-30T09:24:06Z,jakearchibald,,0
 1557491233,false,"Img ""sizes"": is fallback value optional (per MDN) or required (per current spec)?",https://github.com/whatwg/html/issues/8778,2023-01-26T01:15:47Z,2023-01-26T01:15:47Z,tmb-github,,0
 1557373653,true,The `commit` method on various canvas contexts does not exist,https://github.com/whatwg/html/issues/8777,2023-01-25T22:48:52Z,2023-01-25T23:28:49Z,greggman,,0
@@ -386,7 +387,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1283190683,true,Should timers be ordered by scheduled time or by passed millis?,https://github.com/whatwg/html/issues/8034,2022-06-24T02:45:27Z,2022-06-26T11:26:06Z,Kaiido,interop|topic: timing,0
 1282742175,false,Blocking tab-under navigations?,https://github.com/whatwg/html/issues/8033,2022-06-23T17:43:53Z,2022-06-23T19:01:52Z,domenic,addition/proposal|topic: navigation,0
 1282588788,true,TABLE TD -> TD Looks Weird,https://github.com/whatwg/html/issues/8032,2022-06-23T15:28:04Z,2022-06-23T16:47:59Z,toptal126,,0
-1282345110,false,Improve support for refresh rate discovery and control,https://github.com/whatwg/html/issues/8031,2022-06-23T12:42:40Z,2022-08-16T00:08:48Z,juj,,0
+1282345110,false,Improve support for refresh rate discovery and control,https://github.com/whatwg/html/issues/8031,2022-06-23T12:42:40Z,2023-03-27T14:04:24Z,juj,,0
 1278018519,false,Normatively define the “elementtiming” content attribute,https://github.com/whatwg/html/issues/8024,2022-06-21T07:34:43Z,2022-06-28T18:55:14Z,sideshowbarker,,1
 1277218382,false,"""BeforeUnloadEvent"" user message presets",https://github.com/whatwg/html/issues/8023,2022-06-20T17:35:02Z,2022-06-21T23:12:34Z,delta-9,addition/proposal|needs implementer interest,0
 1275097690,true,Incorrect autocomplete token in example,https://github.com/whatwg/html/issues/8019,2022-06-17T14:26:31Z,2022-06-17T18:41:00Z,mtrootyy,,0
@@ -2769,7 +2770,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 248552592,true,Change the Image decode API wording / spec.,https://github.com/whatwg/html/issues/2898,2017-08-07T22:48:05Z,2017-09-21T11:45:44Z,vmpstr,topic: img,0
 248504878,true,Add getPath()/setPath() to CanvasRenderingContext2D,https://github.com/whatwg/html/issues/2897,2017-08-07T19:16:17Z,2018-01-26T10:13:22Z,dcrousso,topic: canvas,0
 248501040,false,Add currentX/currentY attributes to CanvasPath,https://github.com/whatwg/html/issues/2896,2017-08-07T18:59:53Z,2018-01-26T10:14:01Z,dcrousso,normative change|addition/proposal|needs implementer interest|topic: canvas,1
-248143714,false,"Deprecate alert(), confirm(), prompt()",https://github.com/whatwg/html/issues/2894,2017-08-05T00:12:25Z,2021-08-05T11:08:31Z,jasonwilliams,removal/deprecation,22
+248143714,false,"Deprecate alert(), confirm(), prompt()",https://github.com/whatwg/html/issues/2894,2017-08-05T00:12:25Z,2021-08-05T11:08:31Z,jasonwilliams,removal/deprecation,23
 247836671,false,"Some events are past tense; we should document why, maybe?",https://github.com/whatwg/html/issues/2891,2017-08-03T21:11:04Z,2017-08-14T14:26:57Z,domenic,clarification,0
 247615168,true,"""defined in the auxclick specification""",https://github.com/whatwg/html/issues/2889,2017-08-03T07:24:27Z,2017-08-29T10:52:29Z,cvrebert,good first issue,0
 247578080,true,Simpler path for adoption of modules in workers,https://github.com/whatwg/html/issues/2888,2017-08-03T02:55:01Z,2017-08-03T15:28:18Z,cesarandreu,topic: workers|topic: script,0
@@ -3336,7 +3337,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 180160522,true,"Using ""report an error"" for deprecation warnings?",https://github.com/whatwg/html/issues/1841,2016-09-29T20:54:48Z,2017-01-19T15:29:07Z,RByers,,1
 180125583,true,Refactor form data submission,https://github.com/whatwg/html/issues/1840,2016-09-29T18:26:24Z,2020-03-19T21:36:33Z,domenic,clarification|topic: custom elements|topic: forms,8
 180060212,false,"How to render <summary> when it has display style like ""table-cell""?",https://github.com/whatwg/html/issues/1839,2016-09-29T14:10:54Z,2018-02-26T10:26:04Z,aethanyc,topic: rendering,0
-179973255,false,"""being rendered"" interaction with display:contents",https://github.com/whatwg/html/issues/1837,2016-09-29T07:34:21Z,2022-09-22T21:40:12Z,zcorpan,topic: rendering,1
+179973255,false,"""being rendered"" interaction with display:contents",https://github.com/whatwg/html/issues/1837,2016-09-29T07:34:21Z,2023-03-27T21:29:00Z,zcorpan,topic: rendering,1
 179833400,false,"[HTMLMediaElement] Pitch Control ",https://github.com/whatwg/html/issues/1833,2016-09-28T17:19:16Z,2018-12-24T19:20:34Z,GarrettS,addition/proposal|needs implementer interest|topic: media,0
 179610943,false,Add readable and writable stream properties to Web Socket API,https://github.com/whatwg/html/issues/1828,2016-09-27T20:54:22Z,2016-10-04T18:42:58Z,AMorgaut,addition/proposal,0
 179540122,true,How should noopener/noreferrer affect link targeting?,https://github.com/whatwg/html/issues/1826,2016-09-27T16:13:06Z,2020-01-30T10:49:59Z,bzbarsky,topic: navigation|interop|topic: browsing context,1
