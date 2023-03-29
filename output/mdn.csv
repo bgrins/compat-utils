@@ -923,7 +923,7 @@ api/Clients/matchAll/options_includeUncontrolled_parameter,,44,,42,,11.1,,false,
 api/Clients/openWindow,,44,,40,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#clients-openwindow,W3C
 api/Clipboard,,63,,66,,13.1,,false,true,false,https://w3c.github.io/clipboard-apis/#clipboard-interface,W3C
 api/Clipboard/read,,90,"[{""name"":""dom.events.asyncClipboard.read"",""type"":""preference"",""value_to_set"":""true""}]",86,,13.1,,false,true,false,https://w3c.github.io/clipboard-apis/#dom-clipboard-read,W3C
-api/Clipboard/readText,,63,,66,,13.1,,false,true,false,https://w3c.github.io/clipboard-apis/#dom-clipboard-readtext,W3C
+api/Clipboard/readText,,,,66,,13.1,,false,true,false,https://w3c.github.io/clipboard-apis/#dom-clipboard-readtext,W3C
 api/Clipboard/write,,87,"[{""name"":""dom.events.asyncClipboard.clipboardItem"",""type"":""preference"",""value_to_set"":""true""}]",66,,13.1,,false,true,false,https://w3c.github.io/clipboard-apis/#dom-clipboard-write,W3C
 api/Clipboard/writeText,,63,,66,,13.1,,false,true,false,https://w3c.github.io/clipboard-apis/#dom-clipboard-writetext,W3C
 api/ClipboardEvent,,22,,41,,10.1,,false,true,false,https://w3c.github.io/clipboard-apis/#clipboard-event-interfaces,W3C
@@ -1960,7 +1960,7 @@ api/FileReader/readyState,,3.6,,6,,6,,false,true,false,https://w3c.github.io/Fil
 api/FileReader/result,,3.6,,6,,6,,false,true,false,https://w3c.github.io/FileAPI/#dom-filereader-result,W3C
 api/FileReader/worker_support,,46,,6,,6,,false,true,false,,NONE
 api/FileReaderSync,,8,,7,,6,,false,true,false,https://w3c.github.io/FileAPI/#FileReaderSync,W3C
-api/FileReaderSync/FileReaderSync,,8,,7,,6,,false,true,false,,NONE
+api/FileReaderSync/FileReaderSync,,8,,7,,6,,false,true,false,https://w3c.github.io/FileAPI/#filereadersyncConstrctr,W3C
 api/FileReaderSync/readAsArrayBuffer,,8,,9,,6,,false,true,false,https://w3c.github.io/FileAPI/#readAsArrayBufferSyncSection,W3C
 api/FileReaderSync/readAsBinaryString,,8,,7,,6,,false,true,true,https://w3c.github.io/FileAPI/#readAsBinaryStringSyncSection,W3C
 api/FileReaderSync/readAsDataURL,,8,,7,,6,,false,true,false,https://w3c.github.io/FileAPI/#readAsDataURLSync-section,W3C
@@ -6089,8 +6089,8 @@ api/ShadowRoot,,63,,53,,10,,false,true,false,https://dom.spec.whatwg.org/#interf
 api/ShadowRoot/activeElement,,63,,53,,10,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-documentorshadowroot-activeelement-dev,WHATWG
 api/ShadowRoot/adoptedStyleSheets,,101,,73,,16.4,,false,true,false,https://w3c.github.io/csswg-drafts/cssom/#dom-documentorshadowroot-adoptedstylesheets,W3C
 api/ShadowRoot/delegatesFocus,,94,,53,,15,,false,true,false,https://dom.spec.whatwg.org/#shadowroot-delegates-focus,WHATWG
-api/ShadowRoot/elementFromPoint,,63,,53,,10.1,,false,true,false,https://w3c.github.io/csswg-drafts/cssom-view/#dom-document-elementfrompoint,W3C
-api/ShadowRoot/elementsFromPoint,,63,,53,,11.1,,false,true,false,https://w3c.github.io/csswg-drafts/cssom-view/#dom-document-elementsfrompoint,W3C
+api/ShadowRoot/elementFromPoint,,63,,53,,10.1,,false,false,false,,NONE
+api/ShadowRoot/elementsFromPoint,,63,,53,,11.1,,false,false,false,,NONE
 api/ShadowRoot/fullscreenElement,,64,,71,,16.4,,false,true,false,https://fullscreen.spec.whatwg.org/#ref-for-dom-document-fullscreenelement②,WHATWG
 api/ShadowRoot/getAnimations,,75,,84,,14,,false,true,false,https://w3c.github.io/csswg-drafts/web-animations-1/#dom-documentorshadowroot-getanimations,W3C
 api/ShadowRoot/getSelection,,,,53,,,,false,false,false,,NONE
@@ -7408,7 +7408,6 @@ api/Window/cookieStore,,,,87,,,,true,true,false,https://wicg.github.io/cookie-st
 api/Window/credentialless,,,,110,,,,true,false,false,,NONE
 api/Window/customElements,,63,,54,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/custom-elements.html#dom-window-customelements,WHATWG
 api/Window/devicePixelRatio,,18,,1,,3,,false,true,false,https://w3c.github.io/csswg-drafts/cssom-view/#dom-window-devicepixelratio,W3C
-api/Window/devicelight_event,,22,,,,,,false,false,true,,NONE
 api/Window/devicemotion_event,,6,,31,,,,false,true,false,https://w3c.github.io/deviceorientation/#devicemotion,W3C
 api/Window/deviceorientation_event,,6,,7,,,,false,true,false,https://w3c.github.io/deviceorientation/#deviceorientation,W3C
 api/Window/deviceorientationabsolute_event,,,,50,,,,false,true,false,https://w3c.github.io/deviceorientation/#dom-window-ondeviceorientationabsolute,W3C
@@ -8240,7 +8239,7 @@ css/properties/align-tracks,,77,"[{""name"":""layout.css.grid-template-masonry-v
 css/properties/all,,27,,37,,9.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-cascade/#all-shorthand,W3C
 css/properties/alt,,,,,,9,,false,false,true,,NONE
 css/properties/animation,,16,,43,,9,,false,true,false,https://w3c.github.io/csswg-drafts/css-animations/#animation,W3C
-css/properties/animation-composition,,104,"[{""name"":""layout.css.animation-composition.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,16,,true,true,false,https://w3c.github.io/csswg-drafts/css-animations-2/#animation-composition,W3C
+css/properties/animation-composition,,104,"[{""name"":""layout.css.animation-composition.enabled"",""type"":""preference"",""value_to_set"":""true""}]",112,,16,,false,true,false,https://w3c.github.io/csswg-drafts/css-animations-2/#animation-composition,W3C
 css/properties/animation-delay,,16,,43,,9,,false,true,false,https://w3c.github.io/csswg-drafts/css-animations/#animation-delay,W3C
 css/properties/animation-direction,,16,,43,,9,,false,true,false,https://w3c.github.io/csswg-drafts/css-animations/#animation-direction,W3C
 css/properties/animation-direction/alternate-reverse,,16,,19,,6,,false,true,false,,NONE
@@ -11854,7 +11853,7 @@ javascript/operators/greater_than_or_equal,,1,,1,,1,,false,true,false,https://tc
 javascript/operators/grouping,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator,TC39
 javascript/operators/import,,67,,63,,11.1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls,TC39
 javascript/operators/import/options_parameter,,,,91,,15,,false,false,false,,NONE
-javascript/operators/import/worker_support,,,,80,,15,,false,true,false,,NONE
+javascript/operators/import/worker_support,,113,"[{""name"":""dom.workers.modules.enabled"",""type"":""preference"",""value_to_set"":""true""}]",80,,15,,false,true,false,,NONE
 javascript/operators/import_meta,,62,,64,,11.1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta,TC39
 javascript/operators/import_meta/resolve,,106,,105,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/webappapis.html#hostgetimportmetaproperties,WHATWG
 javascript/operators/in,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators,TC39
