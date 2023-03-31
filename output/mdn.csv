@@ -1823,7 +1823,7 @@ api/EncodedVideoChunk/timestamp,,,,94,,16.4,,false,true,false,https://w3c.github
 api/EncodedVideoChunk/type,,,,94,,16.4,,false,true,false,https://w3c.github.io/webcodecs/#dom-encodedvideochunk-type,W3C
 api/EntrySync,,,,13,,,,false,false,true,,NONE
 api/ErrorEvent,,27,,10,,6,,false,true,false,https://html.spec.whatwg.org/multipage/webappapis.html#the-errorevent-interface,WHATWG
-api/ErrorEvent/ErrorEvent,,27,,16,,6,,false,true,false,,NONE
+api/ErrorEvent/ErrorEvent,,27,,16,,6,,false,true,false,https://html.spec.whatwg.org/multipage/webappapis.html#errorevent,WHATWG
 api/ErrorEvent/colno,,31,,30,,8,,false,true,false,https://html.spec.whatwg.org/multipage/webappapis.html#dom-errorevent-colno,WHATWG
 api/ErrorEvent/error,,31,,30,,10,,false,true,false,https://html.spec.whatwg.org/multipage/webappapis.html#dom-errorevent-error,WHATWG
 api/ErrorEvent/filename,,27,,10,,6,,false,true,false,https://html.spec.whatwg.org/multipage/webappapis.html#dom-errorevent-filename,WHATWG
@@ -3947,7 +3947,7 @@ api/Navigator/buildID,,2,,,,,,false,false,false,,NONE
 api/Navigator/canShare,,96,"[{""name"":""dom.webshare.enabled"",""type"":""preference"",""value_to_set"":""true""}]",89,,14,,false,true,false,https://w3c.github.io/web-share/#canshare-data-method,W3C
 api/Navigator/canShare/data_files_parameter,,,,89,,15,,false,true,false,https://w3c.github.io/web-share/#dom-sharedata-files,W3C
 api/Navigator/canShare/data_text_parameter,,96,,89,,15,,false,true,false,https://w3c.github.io/web-share/#dom-sharedata-text,W3C
-api/Navigator/clearAppBadge,,,,81,,,,true,true,false,https://w3c.github.io/badging/#clearappbadge-method,W3C
+api/Navigator/clearAppBadge,,,,81,,,,false,true,false,https://w3c.github.io/badging/#clearappbadge-method,W3C
 api/Navigator/clipboard,,63,,66,,13.1,,false,true,false,https://w3c.github.io/clipboard-apis/#navigator-clipboard,W3C
 api/Navigator/connection,,31,,61,,,,true,true,false,https://wicg.github.io/netinfo/#connection-attribute,W3CCG
 api/Navigator/contacts,,,,,,,,true,true,false,https://w3c.github.io/contact-picker/spec/#dom-navigator-contacts,W3C
@@ -4034,7 +4034,7 @@ api/Navigator/scheduling,,,,87,,,,true,true,false,https://wicg.github.io/is-inpu
 api/Navigator/sendBeacon,,31,,39,,11.1,,false,true,false,https://w3c.github.io/beacon/#sendbeacon-method,W3C
 api/Navigator/serial,,,,89,,,,true,true,false,https://wicg.github.io/serial/#extensions-to-the-navigator-interface,W3CCG
 api/Navigator/serviceWorker,,44,,40,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#navigator-service-worker-attribute,W3C
-api/Navigator/setAppBadge,,,,81,,,,true,true,false,https://w3c.github.io/badging/#setappbadge-method,W3C
+api/Navigator/setAppBadge,,,,81,,,,false,true,false,https://w3c.github.io/badging/#setappbadge-method,W3C
 api/Navigator/share,,71,"[{""name"":""dom.webshare.enabled"",""type"":""preference"",""value_to_set"":""true""}]",89,,12.1,,false,true,false,https://w3c.github.io/web-share/#share-method,W3C
 api/Navigator/share/data_files_parameter,,,,89,,15,,false,true,false,https://w3c.github.io/web-share/#dom-sharedata-files,W3C
 api/Navigator/share/data_text_parameter,,71,,89,,15,,false,true,false,https://w3c.github.io/web-share/#dom-sharedata-text,W3C
@@ -8141,8 +8141,8 @@ css/at-rules/media/media_query_values,,59,,66,,,,false,true,false,,NONE
 css/at-rules/media/monochrome,,2,,1,,3,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries/#monochrome,W3C
 css/at-rules/media/nested-queries,,11,,26,,7,,false,true,false,,NONE
 css/at-rules/media/orientation,,2,,3,,5,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries/#orientation,W3C
-css/at-rules/media/overflow-block,,66,,,,,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries/#mf-overflow-block,W3C
-css/at-rules/media/overflow-inline,,66,,,,,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries/#mf-overflow-inline,W3C
+css/at-rules/media/overflow-block,,66,,113,,,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries/#mf-overflow-block,W3C
+css/at-rules/media/overflow-inline,,66,,113,,,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries/#mf-overflow-inline,W3C
 css/at-rules/media/pointer,,64,,41,,9,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries/#pointer,W3C
 css/at-rules/media/prefers-color-scheme,,67,,76,,12.1,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries-5/#prefers-color-scheme,W3C
 css/at-rules/media/prefers-color-scheme/no-preference,,67,,76,,12.1,,false,false,true,,NONE
@@ -8150,10 +8150,11 @@ css/at-rules/media/prefers-color-scheme/respects-inherited-scheme,,105,,,,,,fals
 css/at-rules/media/prefers-contrast,,101,,96,,14.1,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries-5/#prefers-contrast,W3C
 css/at-rules/media/prefers-reduced-data,,,,85,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,https://w3c.github.io/csswg-drafts/mediaqueries-5/#prefers-reduced-data,W3C
 css/at-rules/media/prefers-reduced-motion,,63,,74,,10.1,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries-5/#prefers-reduced-motion,W3C
+css/at-rules/media/prefers-reduced-transparency,,113,"[{""name"":""layout.css.prefers-reduced-transparency.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://w3c.github.io/csswg-drafts/mediaqueries-5/#prefers-reduced-transparency,W3C
 css/at-rules/media/range_syntax,,63,,104,,,,false,true,false,,NONE
 css/at-rules/media/resolution,,8,,29,,16,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries/#resolution,W3C
-css/at-rules/media/scripting,,,,,,,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries-5/#scripting,W3C
-css/at-rules/media/update,,102,,,,,,true,true,false,https://w3c.github.io/csswg-drafts/mediaqueries/#update,W3C
+css/at-rules/media/scripting,,113,,,,,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries-5/#scripting,W3C
+css/at-rules/media/update,,102,,113,,,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries/#update,W3C
 css/at-rules/media/video-dynamic-range,,100,,,,,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries-5/#video-dynamic-range,W3C
 css/at-rules/media/width,,2,,1,,3,,false,true,false,https://w3c.github.io/csswg-drafts/mediaqueries/#width,W3C
 css/at-rules/namespace,,1,,1,,1,,false,true,false,https://w3c.github.io/csswg-drafts/css-namespaces/#declaration,W3C
@@ -9373,8 +9374,8 @@ css/selectors/type,,1,,1,,1,,false,true,false,https://w3c.github.io/csswg-drafts
 css/selectors/type/namespaces,,1,,1,,1.3,,false,true,false,,NONE
 css/selectors/universal,,1,,1,,1,,false,true,false,https://w3c.github.io/csswg-drafts/selectors/#the-universal-selector,W3C
 css/selectors/universal/namespaces,,1,,1,,1.3,,false,true,false,,NONE
-css/selectors/user-invalid,,88,,,,preview,,true,true,false,https://w3c.github.io/csswg-drafts/selectors/#user-invalid-pseudo,W3C
-css/selectors/user-valid,,88,,,,preview,,true,true,false,https://w3c.github.io/csswg-drafts/selectors/#user-valid-pseudo,W3C
+css/selectors/user-invalid,,88,,,,16.4,,false,true,false,https://w3c.github.io/csswg-drafts/selectors/#user-invalid-pseudo,W3C
+css/selectors/user-valid,,88,,,,16.4,,false,true,false,https://w3c.github.io/csswg-drafts/selectors/#user-valid-pseudo,W3C
 css/selectors/valid,,4,,10,,5,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-valid,WHATWG
 css/selectors/valid/form,,13,,40,,9,,false,true,false,,NONE
 css/selectors/view-transition,,,,111,,,,true,true,false,https://w3c.github.io/csswg-drafts/css-view-transitions-1/#selectordef-view-transition,W3C
@@ -9830,7 +9831,7 @@ html/elements/iframe/credentialless,,,,110,,,,true,false,false,,NONE
 html/elements/iframe/external_protocol_urls_blocked,,67,,,,,,false,true,true,,NONE
 html/elements/iframe/frameborder,,true,,1,,true,,false,true,true,,NONE
 html/elements/iframe/height,,true,,1,,true,,false,true,false,,NONE
-html/elements/iframe/loading,,,,77,,,,true,true,false,https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-loading,WHATWG
+html/elements/iframe/loading,,,,77,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-loading,WHATWG
 html/elements/iframe/longdesc,,true,,1,,true,,false,true,true,,NONE
 html/elements/iframe/marginheight,,true,,1,,true,,false,true,true,,NONE
 html/elements/iframe/marginwidth,,true,,1,,true,,false,true,true,,NONE
@@ -10526,7 +10527,7 @@ http/headers/Sec-Fetch-Dest,,90,,80,,,,false,true,false,https://w3c.github.io/we
 http/headers/Sec-Fetch-Mode,,90,,76,,,,false,true,false,https://w3c.github.io/webappsec-fetch-metadata/#sec-fetch-mode-header,W3C
 http/headers/Sec-Fetch-Site,,90,,76,,,,false,true,false,https://w3c.github.io/webappsec-fetch-metadata/#sec-fetch-site-header,W3C
 http/headers/Sec-Fetch-User,,90,,76,,,,false,true,false,https://w3c.github.io/webappsec-fetch-metadata/#sec-fetch-user-header,W3C
-http/headers/Sec-GPC,,95,"[{""name"":""privacy.globalprivacycontrol.enabled"",""type"":""preference"",""value_to_set"":""true""},{""name"":""privacy.globalprivacycontrol.functionality.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,false,false,,NONE
+http/headers/Sec-GPC,,95,"[{""name"":""privacy.globalprivacycontrol.enabled"",""type"":""preference"",""value_to_set"":""true""},{""name"":""privacy.globalprivacycontrol.functionality.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://privacycg.github.io/gpc-spec/#the-sec-gpc-header-field-for-http-requests,W3CCG
 http/headers/Server,,true,,true,,true,,false,true,false,https://httpwg.org/specs/rfc9110.html#field.server,IETF
 http/headers/Server-Timing,,61,,65,,,,false,true,false,https://w3c.github.io/server-timing/#the-server-timing-header-field,W3C
 http/headers/Service-Worker-Navigation-Preload,,preview,,59,,15.4,,false,true,false,https://w3c.github.io/ServiceWorker/#handle-fetch,W3C
@@ -11251,6 +11252,7 @@ javascript/builtins/String/fromCharCode,,1,,1,,1,,false,true,false,https://tc39.
 javascript/builtins/String/fromCodePoint,,29,,41,,9,,false,true,false,https://tc39.es/ecma262/multipage/text-processing.html#sec-string.fromcodepoint,TC39
 javascript/builtins/String/includes,,40,,41,,9,,false,true,false,https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.includes,TC39
 javascript/builtins/String/indexOf,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.indexof,TC39
+javascript/builtins/String/isWellFormed,,,,111,,16.4,,false,true,false,https://tc39.es/proposal-is-usv-string/#sec-string.prototype.iswellformed,TC39
 javascript/builtins/String/italics,,1,,1,,1,,false,true,true,https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-string.prototype.italics,TC39
 javascript/builtins/String/lastIndexOf,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.lastindexof,TC39
 javascript/builtins/String/length,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/text-processing.html#sec-properties-of-string-instances-length,TC39
@@ -11285,6 +11287,7 @@ javascript/builtins/String/toLocaleUpperCase/locale,,55,,58,,10,,false,true,fals
 javascript/builtins/String/toLowerCase,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.tolowercase,TC39
 javascript/builtins/String/toString,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.tostring,TC39
 javascript/builtins/String/toUpperCase,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.touppercase,TC39
+javascript/builtins/String/toWellFormed,,,,111,,16.4,,false,true,false,https://tc39.es/proposal-is-usv-string/#sec-string.prototype.towellformed,TC39
 javascript/builtins/String/trim,,3.5,,4,,5,,false,true,false,https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.trim,TC39
 javascript/builtins/String/trimEnd,,61,,66,,12,,false,true,false,https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.trimend,TC39
 javascript/builtins/String/trimStart,,61,,66,,12,,false,true,false,https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.trimstart,TC39
