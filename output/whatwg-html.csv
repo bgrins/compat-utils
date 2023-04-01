@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1650150293,false,<textarea> should support the [pattern] attribute like the <input> element,https://github.com/whatwg/html/issues/9102,2023-03-31T23:02:41Z,2023-03-31T23:02:41Z,Gambloide,,0
 1648832613,false,PDF version does not link to web version,https://github.com/whatwg/html/issues/9097,2023-03-31T07:32:24Z,2023-03-31T08:37:34Z,nicolesharp100,spec tooling,0
 1648366000,false,"typo ""The autofill field listed above indicate that t...""",https://github.com/whatwg/html/issues/9094,2023-03-30T21:43:18Z,2023-03-30T21:43:18Z,timelsass,,0
 1646524684,false,Early termination of navigation loading spinner on cross-document navigation,https://github.com/whatwg/html/issues/9090,2023-03-29T21:01:44Z,2023-03-30T17:39:42Z,tbondwilkinson,,0
@@ -17,9 +18,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1636271789,false,"Should popover and dialog share the same ""previously focused element""?",https://github.com/whatwg/html/issues/9063,2023-03-22T18:12:00Z,2023-03-24T18:31:23Z,cathiechen,normative change|topic: dialog|topic: popover,0
 1634346770,true,Be able to select for partial attribute names,https://github.com/whatwg/html/issues/9056,2023-03-21T16:57:38Z,2023-03-22T12:36:02Z,keithamus,,1
 1633613880,false,Is it ok for popover to claim general names like :open and :closed?,https://github.com/whatwg/html/issues/9055,2023-03-21T10:28:08Z,2023-03-23T17:14:49Z,jakearchibald,topic: popover,0
-1633590732,false,Add element.popoverOpen,https://github.com/whatwg/html/issues/9054,2023-03-21T10:13:22Z,2023-03-22T08:52:11Z,jakearchibald,addition/proposal|needs implementer interest|topic: popover,0
+1633590732,false,Add element.popoverOpen,https://github.com/whatwg/html/issues/9054,2023-03-21T10:13:22Z,2023-03-31T21:56:15Z,jakearchibald,addition/proposal|needs implementer interest|topic: popover,0
 1629220956,false,"Timing of `<dialog>` 'close' event, popover 'toggle' event, `<details>` 'toggle' event",https://github.com/whatwg/html/issues/9046,2023-03-17T12:19:27Z,2023-03-23T20:59:04Z,jakearchibald,topic: dialog|topic: popover,0
-1629156392,false,Should popover/dialog show/hide when already shown/hidden throw?,https://github.com/whatwg/html/issues/9045,2023-03-17T11:32:41Z,2023-03-23T19:16:52Z,jakearchibald,topic: dialog|topic: popover,6
+1629156392,false,Should popover/dialog show/hide when already shown/hidden throw?,https://github.com/whatwg/html/issues/9045,2023-03-17T11:32:41Z,2023-03-31T22:00:32Z,jakearchibald,topic: dialog|topic: popover,6
 1629078964,false,<dialog> Unclear method of altering/reading attributes,https://github.com/whatwg/html/issues/9044,2023-03-17T10:35:36Z,2023-03-17T11:06:53Z,jakearchibald,topic: dialog,0
 1628986537,false,Should togglePopover() return a boolean?,https://github.com/whatwg/html/issues/9043,2023-03-17T09:30:48Z,2023-03-23T18:13:15Z,jakearchibald,normative change|topic: popover,0
 1628760896,false,popover attribute may not be web compatible,https://github.com/whatwg/html/issues/9042,2023-03-17T06:11:49Z,2023-03-29T08:05:40Z,nt1m,compat|topic: popover,0
@@ -34,7 +35,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1625174180,false,Clarify selection behaviour of setting textarea value via property,https://github.com/whatwg/html/issues/9028,2023-03-15T10:00:22Z,2023-03-15T10:28:25Z,jnjaeschke,topic: forms,0
 1624192148,false,Sandboxed iframes without allow-same-origin and with about:blank or about:srcdoc urls should not inherit a fallback base url.,https://github.com/whatwg/html/issues/9025,2023-03-14T19:50:36Z,2023-03-27T14:53:51Z,wjmaclean,normative change|topic: sandbox|agenda+,0
 1623693519,false,Density-corrected intrinsic width and height when current request's dimensions are unavailable,https://github.com/whatwg/html/issues/9023,2023-03-14T15:13:43Z,2023-03-14T16:04:56Z,zcorpan,topic: img,0
-1622494414,false,Resetting forms on document reactivation,https://github.com/whatwg/html/issues/9019,2023-03-14T00:08:14Z,2023-03-24T07:29:44Z,fergald,topic: forms|agenda+,0
+1622494414,false,Resetting forms on document reactivation,https://github.com/whatwg/html/issues/9019,2023-03-14T00:08:14Z,2023-03-31T22:11:39Z,fergald,topic: forms|agenda+,0
 1621394935,false,"Add ""lbry"" to scheme allowlist",https://github.com/whatwg/html/issues/9016,2023-03-13T12:31:10Z,2023-03-13T12:31:10Z,ben221199,,0
 1620806361,true,Specify processing model for dns-prefetch,https://github.com/whatwg/html/issues/9015,2023-03-13T05:58:50Z,2023-03-16T12:05:56Z,noamr,topic: resource hints (inc. preload),0
 1620435821,true,Need a clean and standardized way to retreive some informations about user agent enabled features from server side,https://github.com/whatwg/html/issues/9014,2023-03-12T17:00:05Z,2023-03-13T10:46:00Z,flavi1,,0
@@ -121,7 +122,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1552934460,false,Ability to style default summary in <details>,https://github.com/whatwg/html/issues/8770,2023-01-23T11:28:14Z,2023-02-14T18:56:50Z,jakearchibald,addition/proposal|topic: rendering|topic: selectors,0
 1552047625,false,"Clarify: CSS import assertions use ""script"" as the destination, is that intended?",https://github.com/whatwg/html/issues/8764,2023-01-22T08:56:49Z,2023-01-22T08:57:06Z,noamr,,0
 1550462824,true,MediaError not acccessible for a video element if using it with source elements,https://github.com/whatwg/html/issues/8757,2023-01-20T08:15:13Z,2023-01-26T09:48:49Z,callumgare,,0
-1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-03-30T17:00:27Z,mfreed7,addition/proposal|topic: shadow,0
+1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-03-31T13:39:19Z,mfreed7,addition/proposal|topic: shadow,0
 1550024105,false,Native support for indents,https://github.com/whatwg/html/issues/8751,2023-01-19T22:11:32Z,2023-01-25T23:06:02Z,EgonBolton,,0
 1548957116,true,[css-view-transitions-1] Interaction with Safari's back/forward previews,https://github.com/whatwg/html/issues/8749,2023-01-19T11:14:58Z,2023-01-19T11:21:46Z,jakearchibald,,0
 1537525438,true,Meta: should dfns in headings be viewed as exported definitions?,https://github.com/whatwg/html/issues/8743,2023-01-18T07:30:06Z,2023-01-20T19:24:39Z,tidoust,,0
@@ -1390,7 +1391,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 592323830,true,ROOT HTML CHANGES SECURITY PROTOCOL RESULT OF HTTP HTTPS HTML PATCH IMO,https://github.com/whatwg/html/issues/5428,2020-04-02T03:00:17Z,2020-04-02T12:43:17Z,Patricia-tech,,0
 592254325,true,Visible text changes when assigning to input.defaultValue,https://github.com/whatwg/html/issues/5427,2020-04-01T23:05:10Z,2020-06-11T01:24:58Z,josepharhar,,0
 591854169,false,Pages with `color-scheme: dark` have too low link color contrast,https://github.com/whatwg/html/issues/5426,2020-04-01T11:48:25Z,2022-05-10T10:26:07Z,tomayac,topic: rendering|accessibility|a11y-needs-resolution,15
-591285463,false,Form-associated custom elements and interactive content,https://github.com/whatwg/html/issues/5423,2020-03-31T17:26:51Z,2020-04-21T04:58:45Z,domenic,normative change|topic: custom elements|topic: forms,0
+591285463,false,Form-associated custom elements and interactive content,https://github.com/whatwg/html/issues/5423,2020-03-31T17:26:51Z,2023-03-31T19:07:10Z,domenic,normative change|topic: custom elements|topic: forms,0
 591271091,true,"Remove ""responsible browsing context""",https://github.com/whatwg/html/issues/5422,2020-03-31T17:04:57Z,2020-04-07T17:45:17Z,domenic,clarification,0
 591001862,false,Proposal: `strong` attribute for <input type=password>,https://github.com/whatwg/html/issues/5421,2020-03-31T10:51:39Z,2020-09-18T13:21:58Z,timruffles,addition/proposal|needs implementer interest|topic: forms,11
 590605101,false,Export attributes common to form controls (e.g. autocomplete) and their values (e.g. autocomplete=one-time-code),https://github.com/whatwg/html/issues/5418,2020-03-30T21:22:04Z,2021-03-24T19:45:37Z,hober,meta,0
