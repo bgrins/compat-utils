@@ -1,7 +1,10 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1651764018,false,Popover does not know what triggered it,https://github.com/whatwg/html/issues/9111,2023-04-03T10:11:47Z,2023-04-03T10:29:57Z,jpzwarte,,0
+1651686034,false,"Support `popovertarget` on custom elements with `role=""button""` ",https://github.com/whatwg/html/issues/9110,2023-04-03T09:26:25Z,2023-04-03T11:02:34Z,jpzwarte,,0
+1651613244,false,`popovertarget` and shadow DOM,https://github.com/whatwg/html/issues/9109,2023-04-03T08:43:23Z,2023-04-03T11:40:41Z,jpzwarte,,0
 1650378616,false,Add BoundingClientRectObserver,https://github.com/whatwg/html/issues/9104,2023-04-01T09:09:22Z,2023-04-01T16:25:03Z,cubuspl42,,0
 1650150293,false,<textarea> should support the [pattern] attribute like the <input> element,https://github.com/whatwg/html/issues/9102,2023-03-31T23:02:41Z,2023-04-01T01:01:40Z,Gambloide,addition/proposal|needs implementer interest|topic: forms,0
-1648832613,false,PDF version does not link to web version,https://github.com/whatwg/html/issues/9097,2023-03-31T07:32:24Z,2023-03-31T08:37:34Z,nicolesharp100,spec tooling,0
+1648832613,true,PDF version does not link to web version,https://github.com/whatwg/html/issues/9097,2023-03-31T07:32:24Z,2023-04-03T07:25:38Z,nicolesharp100,spec tooling,0
 1648366000,false,"typo ""The autofill field listed above indicate that t...""",https://github.com/whatwg/html/issues/9094,2023-03-30T21:43:18Z,2023-03-30T21:43:18Z,timelsass,,0
 1646524684,false,Early termination of navigation loading spinner on cross-document navigation,https://github.com/whatwg/html/issues/9090,2023-03-29T21:01:44Z,2023-03-30T17:39:42Z,tbondwilkinson,,0
 1646464404,true,Confusing/missing words in user activation processing model,https://github.com/whatwg/html/issues/9089,2023-03-29T20:18:22Z,2023-03-31T05:19:32Z,wanderview,,0
@@ -123,7 +126,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1552934460,false,Ability to style default summary in <details>,https://github.com/whatwg/html/issues/8770,2023-01-23T11:28:14Z,2023-02-14T18:56:50Z,jakearchibald,addition/proposal|topic: rendering|topic: selectors,0
 1552047625,false,"Clarify: CSS import assertions use ""script"" as the destination, is that intended?",https://github.com/whatwg/html/issues/8764,2023-01-22T08:56:49Z,2023-01-22T08:57:06Z,noamr,,0
 1550462824,true,MediaError not acccessible for a video element if using it with source elements,https://github.com/whatwg/html/issues/8757,2023-01-20T08:15:13Z,2023-01-26T09:48:49Z,callumgare,,0
-1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-03-31T13:39:19Z,mfreed7,addition/proposal|topic: shadow,0
+1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-04-03T09:52:02Z,mfreed7,addition/proposal|topic: shadow,0
 1550024105,false,Native support for indents,https://github.com/whatwg/html/issues/8751,2023-01-19T22:11:32Z,2023-01-25T23:06:02Z,EgonBolton,,0
 1548957116,true,[css-view-transitions-1] Interaction with Safari's back/forward previews,https://github.com/whatwg/html/issues/8749,2023-01-19T11:14:58Z,2023-01-19T11:21:46Z,jakearchibald,,0
 1537525438,true,Meta: should dfns in headings be viewed as exported definitions?,https://github.com/whatwg/html/issues/8743,2023-01-18T07:30:06Z,2023-01-20T19:24:39Z,tidoust,,0
@@ -158,7 +161,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1512864004,true,Inclusive language in the HTML footer tag,https://github.com/whatwg/html/issues/8653,2022-12-28T14:42:57Z,2022-12-30T12:32:47Z,dudynets,,0
 1511047060,false,Do `<td>` elements inside a `<thead>` get automagically promoted to act like `<th>`,https://github.com/whatwg/html/issues/8650,2022-12-26T15:45:47Z,2023-02-07T04:31:06Z,patrickhlauke,,0
 1510820935,false,"Consider integrating ""scrolled by the user"" with CSSOM",https://github.com/whatwg/html/issues/8649,2022-12-26T10:15:49Z,2023-01-03T14:42:18Z,domenic,,0
-1509918794,false,"Should HTML parsers created for fragment parsing (i.e. innerHTML) or DOMParser spin the event loop in ""stop parsing""?",https://github.com/whatwg/html/issues/8646,2022-12-24T03:09:44Z,2023-01-04T11:50:27Z,Lubrsi,,1
+1509918794,false,"Should HTML parsers created for fragment parsing (i.e. innerHTML) or DOMParser spin the event loop in ""stop parsing""?",https://github.com/whatwg/html/issues/8646,2022-12-24T03:09:44Z,2023-01-04T11:50:27Z,Lubrsi,,2
 1503937198,false,A means to conceptually identify if an application is installed,https://github.com/whatwg/html/issues/8635,2022-12-20T03:40:46Z,2022-12-23T01:27:01Z,marcoscaceres,,0
 1503391962,false,favicon description,https://github.com/whatwg/html/issues/8632,2022-12-19T18:33:54Z,2022-12-26T19:34:51Z,hacknorris-aka-penguin,,0
 1499888644,false,setHTML() and declarative shadow roots,https://github.com/whatwg/html/issues/8627,2022-12-16T09:40:36Z,2023-01-19T07:54:29Z,annevk,topic: shadow|security/privacy,0
@@ -2417,7 +2420,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2023-01-24T10:17:49Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,21
 305369552,true,Proposal: Improve control over HTML/XML syntax parse errors,https://github.com/whatwg/html/issues/3569,2018-03-14T23:56:33Z,2022-04-18T15:28:51Z,dvdckl,addition/proposal|needs implementer interest|topic: parser,0
 305147441,true,"<form method> description only says ""HTTP method""",https://github.com/whatwg/html/issues/3568,2018-03-14T12:58:10Z,2018-04-20T07:53:27Z,annevk,good first issue,0
-305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2023-01-26T13:13:43Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,60
+305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2023-04-03T10:20:46Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,60
 305020324,true,Separate out document.open() method declaration definitions,https://github.com/whatwg/html/issues/3565,2018-03-14T04:36:27Z,2018-06-28T15:27:09Z,domenic,clarification|good first issue|topic: document.open(),0
 305019688,true,At least Blink does not support document.open()'s replace parameter,https://github.com/whatwg/html/issues/3564,2018-03-14T04:31:43Z,2018-08-23T18:40:33Z,domenic,topic: history|interop|topic: document.open(),0
 304874091,false,<template> element capability/semantics in SVG parsing context,https://github.com/whatwg/html/issues/3563,2018-03-13T17:59:50Z,2018-03-15T07:34:25Z,kevinpschaaf,addition/proposal|needs implementer interest|topic: parser,0
