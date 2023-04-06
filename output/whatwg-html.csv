@@ -1,5 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1654846210,false,anonymous fieldset content box's block-size:100% leads to unintuitive behavior,https://github.com/whatwg/html/issues/9123,2023-04-05T02:50:15Z,2023-04-05T02:50:15Z,davidsgrogan,,0
+1656257748,false,Setting input type=date value attribute doesn't pre-populate the input if there's a time,https://github.com/whatwg/html/issues/9128,2023-04-05T20:37:06Z,2023-04-05T20:37:06Z,jfbrennan,,0
+1655838735,false,"Consider allowing <hr> within list elements (ol, ul, menu)",https://github.com/whatwg/html/issues/9126,2023-04-05T15:25:32Z,2023-04-05T15:29:45Z,scottaohara,addition/proposal|document conformance|accessibility|a11y-tracker,2
+1655605700,false,"Popover: The ""map"" in the topmost popover ancestor algorithm does not mean the map element.",https://github.com/whatwg/html/issues/9125,2023-04-05T13:17:24Z,2023-04-05T13:17:24Z,cathiechen,,0
+1654846210,false,anonymous fieldset content box's block-size:100% leads to unintuitive behavior,https://github.com/whatwg/html/issues/9123,2023-04-05T02:50:15Z,2023-04-06T00:00:09Z,davidsgrogan,,0
 1654771406,false,"""Loading a document for inline content that doesn't have a DOM"" uses non-existing response",https://github.com/whatwg/html/issues/9122,2023-04-05T01:03:20Z,2023-04-05T01:29:13Z,kalenikaliaksandr,topic: navigation,0
 1653648731,false,popover-focus-child-dialog.html requires spec update,https://github.com/whatwg/html/issues/9119,2023-04-04T10:50:41Z,2023-04-04T16:50:16Z,rwlbuis,topic: popover,0
 1653083221,false,"Remove `element-attr` from the ""form control maxlength/minlength attribute"" terms",https://github.com/whatwg/html/issues/9116,2023-04-04T02:57:53Z,2023-04-04T02:57:53Z,gnpivo,,0
@@ -7,7 +10,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1652818143,false,"Consider CSP script-src none directive in the ""Enabled/disabled scripting"" definitions",https://github.com/whatwg/html/issues/9113,2023-04-03T21:46:19Z,2023-04-03T21:47:38Z,hackademix,,0
 1652808622,false,Standardize rendering of PQ and HLG HDR image content,https://github.com/whatwg/html/issues/9112,2023-04-03T21:35:40Z,2023-04-03T21:35:40Z,ccameron-chromium,,0
 1651764018,false,Popover does not know what triggered it,https://github.com/whatwg/html/issues/9111,2023-04-03T10:11:47Z,2023-04-05T09:50:03Z,jpzwarte,,0
-1651686034,false,"Support `popovertarget` on custom elements with `role=""button""` ",https://github.com/whatwg/html/issues/9110,2023-04-03T09:26:25Z,2023-04-05T10:05:12Z,jpzwarte,,0
+1651686034,false,"Support `popovertarget` on custom elements with `role=""button""` ",https://github.com/whatwg/html/issues/9110,2023-04-03T09:26:25Z,2023-04-05T12:34:14Z,jpzwarte,,0
 1651613244,false,`popovertarget` and shadow DOM,https://github.com/whatwg/html/issues/9109,2023-04-03T08:43:23Z,2023-04-03T14:08:47Z,jpzwarte,,0
 1650378616,false,Add BoundingClientRectObserver,https://github.com/whatwg/html/issues/9104,2023-04-01T09:09:22Z,2023-04-01T16:25:03Z,cubuspl42,,0
 1650150293,false,<textarea> should support the [pattern] attribute like the <input> element,https://github.com/whatwg/html/issues/9102,2023-03-31T23:02:41Z,2023-04-01T01:01:40Z,Gambloide,addition/proposal|needs implementer interest|topic: forms,0
@@ -44,7 +47,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1626564469,false,Improve conformance requirements on <link> attributes,https://github.com/whatwg/html/issues/9031,2023-03-16T02:10:53Z,2023-03-16T02:10:53Z,domenic,document conformance|topic: link|topic: resource hints (inc. preload),0
 1625851825,false,History length/index are not synchronously initialized in new navigables,https://github.com/whatwg/html/issues/9030,2023-03-15T16:23:06Z,2023-03-16T02:21:11Z,domfarolino,topic: navigation|topic: history,0
 1625174180,false,Clarify selection behaviour of setting textarea value via property,https://github.com/whatwg/html/issues/9028,2023-03-15T10:00:22Z,2023-03-15T10:28:25Z,jnjaeschke,topic: forms,0
-1624192148,false,Sandboxed iframes without allow-same-origin and with about:blank or about:srcdoc urls should not inherit a fallback base url.,https://github.com/whatwg/html/issues/9025,2023-03-14T19:50:36Z,2023-03-27T14:53:51Z,wjmaclean,normative change|topic: sandbox|agenda+,0
+1624192148,false,Sandboxed iframes without allow-same-origin and with about:blank or about:srcdoc urls should not inherit a fallback base url.,https://github.com/whatwg/html/issues/9025,2023-03-14T19:50:36Z,2023-04-05T22:31:35Z,wjmaclean,normative change|topic: sandbox|agenda+,0
 1623693519,false,Density-corrected intrinsic width and height when current request's dimensions are unavailable,https://github.com/whatwg/html/issues/9023,2023-03-14T15:13:43Z,2023-03-14T16:04:56Z,zcorpan,topic: img,0
 1622494414,false,Resetting forms on document reactivation,https://github.com/whatwg/html/issues/9019,2023-03-14T00:08:14Z,2023-03-31T22:11:39Z,fergald,topic: forms|agenda+,0
 1621394935,false,"Add ""lbry"" to scheme allowlist",https://github.com/whatwg/html/issues/9016,2023-03-13T12:31:10Z,2023-03-13T12:31:10Z,ben221199,,0
@@ -305,7 +308,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1374926923,true,`lang` value of document of undetermined language,https://github.com/whatwg/html/issues/8288,2022-09-15T18:33:48Z,2022-09-15T20:02:53Z,myfonj,,0
 1374407488,true,[portal tag] proposal to enable portal of element / text,https://github.com/whatwg/html/issues/8287,2022-09-15T11:53:13Z,2022-10-06T23:33:02Z,yinonov,,0
 1370472787,false,Support scoping `autocomplete` suggestions to the sites domain,https://github.com/whatwg/html/issues/8284,2022-09-12T20:23:20Z,2022-09-12T20:24:54Z,MadLittleMods,,0
-1369863683,false,Incorporate scroll-to-text into HTML,https://github.com/whatwg/html/issues/8282,2022-09-12T12:55:42Z,2023-04-05T07:07:20Z,bokand,,1
+1369863683,false,Incorporate scroll-to-text into HTML,https://github.com/whatwg/html/issues/8282,2022-09-12T12:55:42Z,2023-04-05T13:37:12Z,bokand,addition/proposal|topic: navigation,1
 1369321140,false,HTML table from CSV,https://github.com/whatwg/html/issues/8281,2022-09-12T05:55:00Z,2022-09-12T17:05:59Z,esdnm,,0
 1369257900,false,"For attributes which can contain a mix of languages, provide markup for language of parts",https://github.com/whatwg/html/issues/8280,2022-09-12T04:22:54Z,2022-09-21T15:20:31Z,ChasBelov,i18n-tracker,0
 1369238834,false,Support language of parts for portions of the title tag contents,https://github.com/whatwg/html/issues/8279,2022-09-12T03:56:34Z,2022-09-21T15:32:13Z,ChasBelov,,0
@@ -1788,7 +1791,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 457801017,true,"Table section elements (<tbody>, <thead>, <tfoot>) should have a height attribute that maps into style",https://github.com/whatwg/html/issues/4718,2019-06-19T04:31:23Z,2020-05-06T06:13:23Z,bzbarsky,good first issue|topic: rendering,0
 457799969,true,width attribute on <col> should allow 0 as a value,https://github.com/whatwg/html/issues/4717,2019-06-19T04:26:09Z,2019-09-24T03:21:57Z,bzbarsky,good first issue|topic: rendering,0
 457799322,true,height attribute on <tr> should allow 0 as a value,https://github.com/whatwg/html/issues/4716,2019-06-19T04:23:14Z,2021-02-22T09:46:08Z,bzbarsky,good first issue|topic: rendering,0
-457798284,false,width and height attributes on <table> should perhaps allow 0 as a value,https://github.com/whatwg/html/issues/4715,2019-06-19T04:18:22Z,2023-01-31T08:10:31Z,bzbarsky,good first issue|topic: rendering,0
+457798284,false,width and height attributes on <table> should perhaps allow 0 as a value,https://github.com/whatwg/html/issues/4715,2019-06-19T04:18:22Z,2023-04-05T23:01:28Z,bzbarsky,good first issue|topic: rendering,0
 457045462,true,"Replace ""NPAPI"" with a more reasonable topic in the Abstract diagram",https://github.com/whatwg/html/issues/4711,2019-06-17T17:09:21Z,2020-04-28T17:09:48Z,tabatkins,addition/proposal|clarification,1
 457031790,true,"can use <nav> within a <header>, but that <nav> cannot contain a <header> itself",https://github.com/whatwg/html/issues/4710,2019-06-17T16:35:09Z,2019-06-28T12:52:06Z,SmoothJeor,,1
 456221346,false,"""browsing context scope origin"" is currently a no-op",https://github.com/whatwg/html/issues/4703,2019-06-14T12:24:44Z,2019-06-14T12:24:44Z,annevk,topic: navigation|needs tests,0
@@ -1974,7 +1977,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 420085960,false,window.opener can be cleared,https://github.com/whatwg/html/issues/4429,2019-03-12T16:32:30Z,2019-03-28T21:08:56Z,annevk,topic: browsing context|needs concrete proposal,0
 420082063,true,Need a concept for closed browsing contexts for bfcache,https://github.com/whatwg/html/issues/4428,2019-03-12T16:25:01Z,2022-10-31T05:07:00Z,annevk,topic: history|topic: browsing context,0
 419901151,true,Inconsistently javascript: URL in href attribute of an a element,https://github.com/whatwg/html/issues/4427,2019-03-12T10:10:45Z,2019-03-20T17:48:50Z,johndai1984,interop|topic: javascript: URLs,0
-418544629,false,Responsive images causes performance issues on high-resolution devices,https://github.com/whatwg/html/issues/4421,2019-03-07T22:31:18Z,2022-07-22T12:25:12Z,mor10,topic: img,18
+418544629,false,Responsive images causes performance issues on high-resolution devices,https://github.com/whatwg/html/issues/4421,2019-03-07T22:31:18Z,2022-07-22T12:25:12Z,mor10,topic: img,19
 418484345,true,Extend WebSocket interface to access and use certificates,https://github.com/whatwg/html/issues/4420,2019-03-07T19:51:24Z,2021-07-22T10:44:14Z,d3x0r,,0
 418475982,true,Top-level await integration and multiple script graphs,https://github.com/whatwg/html/issues/4419,2019-03-07T19:30:30Z,2019-08-22T19:26:19Z,domenic,topic: script|integration,0
 418402748,true,"Incorrect use of ""platform object""",https://github.com/whatwg/html/issues/4418,2019-03-07T16:32:54Z,2023-02-24T15:24:42Z,annevk,,0
@@ -2324,7 +2327,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 330668236,false,It is unclear whether elements in Shadow DOM are editable when document is in design mode,https://github.com/whatwg/html/issues/3749,2018-06-08T13:55:26Z,2018-10-25T10:39:26Z,smaug----,topic: shadow,0
 330592840,false,"UA shadow roots are observable via inheritance. ",https://github.com/whatwg/html/issues/3748,2018-06-08T09:49:50Z,2018-10-25T10:36:19Z,emilio,topic: shadow|topic: rendering,0
 330559030,false,"Should ""familiar with"" use same origin or same origin-domain?",https://github.com/whatwg/html/issues/3747,2018-06-08T08:04:33Z,2019-12-06T08:47:23Z,annevk,topic: navigation|security/privacy|needs tests|interop|topic: browsing context,0
-330340664,false,"Confusing ""async"" completion of script fetching",https://github.com/whatwg/html/issues/3746,2018-06-07T16:08:58Z,2018-06-07T19:12:20Z,domenic,topic: script,0
+330340664,false,"Confusing ""async"" completion of script fetching",https://github.com/whatwg/html/issues/3746,2018-06-07T16:08:58Z,2023-04-05T14:42:27Z,domenic,topic: script,0
 329959670,true,Add `one-time-code` autocomplete field,https://github.com/whatwg/html/issues/3745,2018-06-06T17:19:22Z,2019-04-30T12:14:54Z,hober,addition/proposal|topic: forms,16
 329939206,false,import() should use referring script's base URL as the referrer,https://github.com/whatwg/html/issues/3744,2018-06-06T16:17:56Z,2020-05-14T22:32:43Z,domenic,normative change|topic: script,1
 329842132,true,Investigate if we can avoid depending on document's origin concept,https://github.com/whatwg/html/issues/3743,2018-06-06T12:16:22Z,2018-06-07T07:13:52Z,annevk,clarification,0
@@ -2471,7 +2474,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 299768627,true,:heading() CSS pseudo-class: Level ranges,https://github.com/whatwg/html/issues/3500,2018-02-23T16:25:26Z,2022-12-12T09:20:12Z,js-choi,addition/proposal|needs implementer interest|topic: selectors,9
 299443198,true,Editorial: make implicit autofocus algorithm flag explicit,https://github.com/whatwg/html/issues/3498,2018-02-22T17:35:34Z,2020-03-25T21:36:10Z,annevk,clarification|topic: forms,0
 299372660,true,Sync navigation to a fragment identifier is probably not compatible with out-of-process iframes,https://github.com/whatwg/html/issues/3497,2018-02-22T14:24:35Z,2022-10-31T05:06:58Z,bzbarsky,normative change|topic: navigation|interop|topic: agent,0
-299290625,false,Define <meta name=viewport>,https://github.com/whatwg/html/issues/3494,2018-02-22T10:05:31Z,2018-02-22T10:05:31Z,annevk,integration,1
+299290625,false,Define <meta name=viewport>,https://github.com/whatwg/html/issues/3494,2018-02-22T10:05:31Z,2023-04-05T13:26:07Z,annevk,integration,2
 299245028,true,Missing specification for application/x-www-form-urlencoded,https://github.com/whatwg/html/issues/3493,2018-02-22T07:16:23Z,2018-02-22T16:54:07Z,dannyniu,,0
 299233491,true,frame and iframe have different load-event-firing behaviors,https://github.com/whatwg/html/issues/3492,2018-02-22T06:10:31Z,2018-02-23T07:18:25Z,bzbarsky,,0
 299232815,true,"What task is the end of ""Navigating to a fragment"" talking about?",https://github.com/whatwg/html/issues/3491,2018-02-22T06:05:58Z,2021-06-16T17:44:02Z,bzbarsky,good first issue,0
