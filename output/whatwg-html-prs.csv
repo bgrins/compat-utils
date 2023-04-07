@@ -1,11 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1655536568,false,Allow <hr> to be used inside <select> as a separator,https://github.com/whatwg/html/pull/9124,2023-04-05T12:32:26Z,2023-04-05T13:51:03Z,annevk,addition/proposal|document conformance|topic: parser|topic: forms,0
-1654364500,false,Use dialog initial focus for dialog popovers,https://github.com/whatwg/html/pull/9121,2023-04-04T18:27:26Z,2023-04-04T18:28:42Z,josepharhar,,0
-1654233635,false,Skip descendant dialogs and popovers for autofocus,https://github.com/whatwg/html/pull/9120,2023-04-04T16:50:00Z,2023-04-04T18:36:17Z,josepharhar,,0
-1653147495,false,"Remove ""element-attr"" from non-attribute terms",https://github.com/whatwg/html/pull/9118,2023-04-04T04:20:19Z,2023-04-04T04:21:36Z,gnpivo,,0
+1657789416,false,Fix a typo regarding formStateRestoreCallback,https://github.com/whatwg/html/pull/9130,2023-04-06T17:19:55Z,2023-04-06T18:09:07Z,xiaochengh,topic: custom elements,0
+1655536568,false,Allow <hr> to be used inside <select> as a separator,https://github.com/whatwg/html/pull/9124,2023-04-05T12:32:26Z,2023-04-06T13:38:57Z,annevk,addition/proposal|document conformance|topic: parser|topic: forms,0
+1654364500,false,Use dialog initial focus for dialog popovers,https://github.com/whatwg/html/pull/9121,2023-04-04T18:27:26Z,2023-04-06T07:41:01Z,josepharhar,normative change|topic: focus|topic: dialog|topic: popover,0
+1654233635,false,Skip descendant dialogs and popovers for autofocus,https://github.com/whatwg/html/pull/9120,2023-04-04T16:50:00Z,2023-04-06T07:41:27Z,josepharhar,normative change|topic: focus|topic: dialog|topic: popover,0
+1653147495,true,"Remove ""element-attr"" from non-attribute terms",https://github.com/whatwg/html/pull/9118,2023-04-04T04:20:19Z,2023-04-06T05:46:23Z,gnpivo,,0
 1653127603,true,"Remove ""element-attr"" from non-attribute terms",https://github.com/whatwg/html/pull/9117,2023-04-04T03:52:52Z,2023-04-04T04:20:09Z,gnpivo,,0
 1648732472,true,"Export ""reactivate a document""",https://github.com/whatwg/html/pull/9096,2023-03-31T06:09:12Z,2023-03-31T12:25:53Z,rakina,,0
-1648089210,false,Use CSS spec for top layer,https://github.com/whatwg/html/pull/9093,2023-03-30T18:14:31Z,2023-04-03T20:15:01Z,josepharhar,topic: rendering|integration,0
+1648089210,false,Use CSS spec for top layer,https://github.com/whatwg/html/pull/9093,2023-03-30T18:14:31Z,2023-04-06T18:46:51Z,josepharhar,topic: rendering|integration,0
 1646532457,true,Fix a typo in User Activation processing model.,https://github.com/whatwg/html/pull/9091,2023-03-29T21:07:39Z,2023-03-31T05:19:36Z,mustaqahmed,topic: user activation,0
 1646278992,false,editorial: add custom element extensibility bullet,https://github.com/whatwg/html/pull/9088,2023-03-29T18:03:36Z,2023-04-01T15:40:43Z,bkardell,,0
 1644980345,true,Create API top layer,https://github.com/whatwg/html/pull/9085,2023-03-29T03:40:08Z,2023-03-29T05:47:33Z,akshaya-hub,spam,0
@@ -29,7 +30,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1623904502,true,accessibility popover guidance,https://github.com/whatwg/html/pull/9024,2023-03-14T16:50:03Z,2023-03-20T12:55:01Z,scottaohara,accessibility|topic: popover,0
 1623084942,true,"Export ""listener"" and ""event handler map"".",https://github.com/whatwg/html/pull/9021,2023-03-14T09:35:47Z,2023-03-17T08:14:35Z,yoshisatoyanagisawa,,0
 1622364099,false,Only restore popover focus if focus is in the popover,https://github.com/whatwg/html/pull/9018,2023-03-13T22:21:25Z,2023-03-15T01:33:32Z,josepharhar,topic: focus|topic: popover,0
-1621431332,false,"Add ""lbry"" scheme to allowlist",https://github.com/whatwg/html/pull/9017,2023-03-13T12:54:29Z,2023-03-13T12:55:44Z,ben221199,,0
+1621431332,false,"Add ""lbry"" scheme to allowlist",https://github.com/whatwg/html/pull/9017,2023-03-13T12:54:29Z,2023-04-06T07:42:17Z,ben221199,addition/proposal|needs implementer interest,0
 1615814290,false,Clean up popover focusing steps,https://github.com/whatwg/html/pull/8998,2023-03-08T19:39:01Z,2023-03-16T09:48:24Z,nt1m,topic: popover,0
 1615139600,true,Editorial: Remove references to resource hints,https://github.com/whatwg/html/pull/8996,2023-03-08T11:48:50Z,2023-03-13T08:03:17Z,noamr,,0
 1614823849,true,Remove now-unnecessary COOP-specific navigation redirect fix,https://github.com/whatwg/html/pull/8995,2023-03-08T08:06:55Z,2023-03-24T08:01:04Z,domenic,topic: navigation|integration|topic: cross-origin-opener-policy,0
@@ -57,7 +58,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1591803378,true,Export incumbent settings object,https://github.com/whatwg/html/pull/8920,2023-02-20T12:45:43Z,2023-02-21T04:24:00Z,jakearchibald,,0
 1591592259,true,Meta: export various terms used by Service Workers,https://github.com/whatwg/html/pull/8919,2023-02-20T10:43:25Z,2023-02-21T09:10:06Z,jakearchibald,meta,0
 1587259107,true,"Add notes about ordering and other specs's steps in ""reactivating a document"" and ""unloading document cleanup steps""",https://github.com/whatwg/html/pull/8897,2023-02-16T08:36:54Z,2023-03-24T03:54:55Z,rakina,clarification|topic: navigation|integration,0
-1586949254,false,Use ToggleEvent for <details> element toggle event,https://github.com/whatwg/html/pull/8893,2023-02-16T03:38:18Z,2023-02-17T16:53:12Z,nt1m,addition/proposal|topic: events,0
+1586949254,false,Use ToggleEvent for <details> element toggle event,https://github.com/whatwg/html/pull/8893,2023-02-16T03:38:18Z,2023-04-06T07:42:55Z,nt1m,addition/proposal|topic: events,0
 1586841521,true,Change exception thrown when popover attribute is not present,https://github.com/whatwg/html/pull/8891,2023-02-16T01:25:18Z,2023-02-27T14:25:24Z,josepharhar,topic: popover,0
 1585413980,true,Correct canceling popovers step,https://github.com/whatwg/html/pull/8889,2023-02-15T08:17:51Z,2023-02-16T08:28:27Z,annevk,topic: popover,0
 1585301417,true,"Fix ""document-tree child navigable target name property set""",https://github.com/whatwg/html/pull/8887,2023-02-15T06:33:21Z,2023-03-24T08:05:03Z,domenic,topic: browsing context,1
@@ -90,7 +91,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1522890101,false,Change createImageBitMaps's imageOrientation attributes,https://github.com/whatwg/html/pull/8687,2023-01-06T17:12:57Z,2023-03-24T11:21:30Z,yiyix,,0
 1522704606,true,Fix COOP enforcement in redirects,https://github.com/whatwg/html/pull/8686,2023-01-06T14:52:52Z,2023-01-18T05:34:56Z,hemeryar,topic: navigation|topic: cross-origin-opener-policy,0
 1519578944,true,Fixes transposed words.,https://github.com/whatwg/html/pull/8676,2023-01-04T21:13:39Z,2023-01-10T07:01:12Z,ChristopherFritz,,0
-1507345020,false,Report fallback resource timing for no-TAO iframes,https://github.com/whatwg/html/pull/8643,2022-12-22T06:34:59Z,2023-02-03T01:55:41Z,noamr,,0
+1507345020,true,Report fallback resource timing for no-TAO iframes,https://github.com/whatwg/html/pull/8643,2022-12-22T06:34:59Z,2023-04-06T07:54:49Z,noamr,topic: fetch,0
 1505930454,true,Navigation fetch initiator should only be set for container-initiated navigations,https://github.com/whatwg/html/pull/8638,2022-12-21T08:51:21Z,2022-12-26T17:47:27Z,noamr,topic: navigation,0
 1499848612,true,Meta: remove remaining TOPIC comments,https://github.com/whatwg/html/pull/8626,2022-12-16T09:12:50Z,2022-12-16T09:24:00Z,annevk,,0
 1498762162,true,Meta: remove class=no-backref,https://github.com/whatwg/html/pull/8624,2022-12-15T16:44:15Z,2022-12-16T09:06:38Z,annevk,,0
@@ -124,8 +125,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1450694651,true,Meta: export navigable's active window,https://github.com/whatwg/html/pull/8515,2022-11-16T02:04:10Z,2022-11-18T09:29:46Z,domenic,,0
 1450508581,true,Correct orphaned variable sandboxFlags to use targetSnapshotParams.,https://github.com/whatwg/html/pull/8512,2022-11-15T23:07:28Z,2022-11-17T03:04:06Z,jeremyroman,,0
 1449664827,true,Meta: zcorpan's employed changed,https://github.com/whatwg/html/pull/8508,2022-11-15T11:58:39Z,2022-11-15T12:33:40Z,zcorpan,,0
-1448000463,false,Support taler: URLs in registerProtocolHandler(),https://github.com/whatwg/html/pull/8503,2022-11-14T12:48:41Z,2023-03-27T06:52:47Z,grothoff,,0
-1447758651,false,Add the navigation API,https://github.com/whatwg/html/pull/8502,2022-11-14T10:08:04Z,2023-04-05T08:54:40Z,domenic,addition/proposal|topic: navigation|topic: history,5
+1448000463,false,Support taler: URLs in registerProtocolHandler(),https://github.com/whatwg/html/pull/8503,2022-11-14T12:48:41Z,2023-04-06T07:43:36Z,grothoff,addition/proposal|needs implementer interest,0
+1447758651,false,Add the navigation API,https://github.com/whatwg/html/pull/8502,2022-11-14T10:08:04Z,2023-04-06T08:09:26Z,domenic,addition/proposal|topic: navigation|topic: history,5
 1447376783,true,Add page visibility change steps for Screen Orientation,https://github.com/whatwg/html/pull/8501,2022-11-14T04:40:42Z,2022-12-16T22:05:13Z,marcoscaceres,,0
 1447276651,true,Editorial: simplify session history serialized state,https://github.com/whatwg/html/pull/8500,2022-11-14T02:45:58Z,2022-11-15T01:02:16Z,domenic,clarification|topic: history,0
 1445641023,true,Make reflect work for ElementInternals,https://github.com/whatwg/html/pull/8496,2022-11-11T15:32:49Z,2023-02-22T10:39:41Z,annevk,accessibility|topic: custom elements,0
@@ -134,13 +135,13 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1441219248,false,Expand non-fetch-scheme navigation params to include more,https://github.com/whatwg/html/pull/8485,2022-11-09T02:01:44Z,2022-11-10T06:09:27Z,domfarolino,,0
 1438727224,true,Adjust adjective used to describe Jake Archibald.,https://github.com/whatwg/html/pull/8482,2022-11-07T17:32:05Z,2022-11-08T14:36:08Z,jeremyroman,,0
 1437908085,true,Minor fixes to session history traversal step appending,https://github.com/whatwg/html/pull/8480,2022-11-07T07:44:52Z,2022-11-07T12:10:15Z,domenic,topic: history,0
-1435689773,false,Added content to DOM clobbering note,https://github.com/whatwg/html/pull/8474,2022-11-04T07:51:14Z,2022-12-09T09:36:13Z,mohit-marathe,,0
+1435689773,true,Added content to DOM clobbering note,https://github.com/whatwg/html/pull/8474,2022-11-04T07:51:14Z,2023-04-06T10:08:13Z,mohit-marathe,,0
 1435662324,true,Meta: use <p> for subheading instead of <h2>,https://github.com/whatwg/html/pull/8473,2022-11-04T07:18:58Z,2022-11-07T12:01:10Z,domenic,,0
 1435380302,true,Use correct properties for progress element,https://github.com/whatwg/html/pull/8471,2022-11-03T23:49:55Z,2022-11-21T17:27:13Z,dizhang168,,0
 1435209005,true,Add the Priority Hints changes to the html spec,https://github.com/whatwg/html/pull/8470,2022-11-03T20:16:05Z,2023-02-17T06:10:16Z,pmeenan,,0
 1434547038,true,Export rendering opportunity,https://github.com/whatwg/html/pull/8468,2022-11-03T12:02:44Z,2022-11-04T01:16:10Z,jakearchibald,,0
 1433914646,false,Add custom state pseudo class,https://github.com/whatwg/html/pull/8467,2022-11-02T23:30:52Z,2023-01-13T10:48:27Z,josepharhar,,0
-1433818435,false,"Add ""user attention"" definition to top-level traversable.",https://github.com/whatwg/html/pull/8466,2022-11-02T21:38:28Z,2023-04-04T15:35:05Z,jan-ivar,topic: focus|integration,0
+1433818435,false,"Add ""user attention"" definition to top-level traversable.",https://github.com/whatwg/html/pull/8466,2022-11-02T21:38:28Z,2023-04-06T16:52:48Z,jan-ivar,topic: focus|integration,0
 1433811063,true,Missing commas in JSON examples,https://github.com/whatwg/html/pull/8465,2022-11-02T21:30:36Z,2022-11-03T04:53:26Z,NiedziolkaMichal,,0
 1431810817,true,Export nested navigable,https://github.com/whatwg/html/pull/8462,2022-11-01T17:31:41Z,2022-11-02T14:38:39Z,domfarolino,,0
 1431420338,false,Do not forward onscrollend events to the window.,https://github.com/whatwg/html/pull/8461,2022-11-01T13:20:08Z,2022-11-28T16:11:09Z,dlrobertson,,0
@@ -211,7 +212,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1354471819,false,Remove canvas 2d scrollPathIntoView,https://github.com/whatwg/html/pull/8229,2022-08-29T15:15:06Z,2022-09-30T10:43:31Z,junov,,0
 1350004480,true,Add popover attribute,https://github.com/whatwg/html/pull/8221,2022-08-24T20:48:00Z,2023-01-12T21:28:45Z,josepharhar,impacts documentation,0
 1347009137,true,Makes Canvas' ConicGradient match CSS angle,https://github.com/whatwg/html/pull/8213,2022-08-22T21:29:28Z,2022-08-23T17:07:56Z,fserb,normative change|topic: canvas|interop,0
-1343094151,false,Add a performance entry type for visibility state changes,https://github.com/whatwg/html/pull/8206,2022-08-18T13:21:04Z,2022-08-31T12:16:01Z,noamr,,0
+1343094151,false,Add a performance entry type for visibility state changes,https://github.com/whatwg/html/pull/8206,2022-08-18T13:21:04Z,2023-04-06T17:38:18Z,noamr,,0
 1341952968,true,Saját txt fájl létrehozása tesztelés miatt,https://github.com/whatwg/html/pull/8201,2022-08-17T15:34:09Z,2022-08-17T22:16:00Z,FerencFarkas22,spam,0
 1340960779,true,Implement dialog initial focus proposal,https://github.com/whatwg/html/pull/8199,2022-08-16T22:55:06Z,2023-01-26T09:50:29Z,josepharhar,normative change|document conformance|topic: focus|impacts documentation|topic: dialog|agenda+,1
 1340697838,true,Add HostEnsureCanAddPrivateElement definition.,https://github.com/whatwg/html/pull/8198,2022-08-16T18:00:48Z,2022-08-22T02:34:07Z,mgaudet,,0
