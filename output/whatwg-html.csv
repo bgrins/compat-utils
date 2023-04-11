@@ -293,7 +293,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1391534684,true,HTMLOptionsCollection length setter should specify what happens when you go over the option limit.,https://github.com/whatwg/html/issues/8337,2022-09-29T21:39:17Z,2022-10-19T04:30:07Z,emilio,topic: forms,0
 1391446593,false,Link to updated reporting interface,https://github.com/whatwg/html/issues/8336,2022-09-29T20:18:41Z,2022-09-29T20:18:41Z,jyasskin,,0
 1390812834,false,Date picker access in contenteditable elements,https://github.com/whatwg/html/issues/8335,2022-09-29T12:47:01Z,2022-09-29T12:47:38Z,OvidijusParsiunas,,0
-1390400651,false,<link rel=preload> as attribute supports less than potential destination,https://github.com/whatwg/html/issues/8332,2022-09-29T07:37:28Z,2022-09-29T07:52:15Z,annevk,topic: resource hints (inc. preload),0
+1390400651,false,<link rel=preload> as attribute supports less than potential destination,https://github.com/whatwg/html/issues/8332,2022-09-29T07:37:28Z,2023-04-11T11:56:51Z,annevk,topic: resource hints (inc. preload),0
 1390373144,true,Broken link to Latest Editor's Draft,https://github.com/whatwg/html/issues/8331,2022-09-29T07:14:02Z,2022-09-29T07:23:09Z,aldimhr,,0
 1390178846,false,"<link> base URL should use document's base URL, not document's URL",https://github.com/whatwg/html/issues/8330,2022-09-29T02:58:47Z,2022-10-11T15:27:14Z,domenic,topic: link,0
 1389909957,true,Add 'hash' attribute to elements that have a 'src' attribute in order to allow for URI independant cacheing,https://github.com/whatwg/html/issues/8329,2022-09-28T20:29:11Z,2022-09-29T02:36:49Z,schweini,,0
@@ -1082,7 +1082,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 773549775,true,What exactly is a Document's origin?,https://github.com/whatwg/html/issues/6244,2020-12-23T07:24:48Z,2020-12-24T22:28:19Z,domfarolino,,0
 773336296,true,Session History: Step 5 of #initialise-the-document-object seems odd,https://github.com/whatwg/html/issues/6243,2020-12-23T00:37:51Z,2020-12-23T03:44:53Z,domfarolino,,0
 771370239,false,A way to load different resources depending on the browser's support for various HTTP versions,https://github.com/whatwg/html/issues/6240,2020-12-19T12:15:11Z,2020-12-26T22:30:12Z,Atulin,,0
-770186836,false,"Escape ""<"" and "">"" in attributes",https://github.com/whatwg/html/issues/6235,2020-12-17T16:23:48Z,2023-03-24T13:04:30Z,securityMB,normative change|topic: parser|security/privacy|needs compat analysis|security-tracker,4
+770186836,false,"Escape ""<"" and "">"" in attributes",https://github.com/whatwg/html/issues/6235,2020-12-17T16:23:48Z,2023-04-11T10:29:25Z,securityMB,normative change|topic: parser|security/privacy|needs compat analysis|security-tracker,4
 769579263,false,"Update ""intrinsic dimensions"" terminology",https://github.com/whatwg/html/issues/6233,2020-12-17T06:25:35Z,2020-12-18T13:30:52Z,fantasai,topic: rendering|topic: img|integration,0
 769344237,false,Allow form validation on <output> element,https://github.com/whatwg/html/issues/6232,2020-12-16T23:25:31Z,2020-12-30T23:06:27Z,btrem,,2
 769198241,false,"Custom Elements definition/styling challenges/use cases ",https://github.com/whatwg/html/issues/6231,2020-12-16T19:08:08Z,2022-07-25T19:24:19Z,bkardell,,0
@@ -1387,7 +1387,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 607075310,true,contenteditable elements should be focusable areas,https://github.com/whatwg/html/issues/5487,2020-04-26T18:05:58Z,2020-04-28T14:02:21Z,TimothyGu,topic: editing,1
 607073471,true,execCommand.html dead link,https://github.com/whatwg/html/issues/5486,2020-04-26T17:59:13Z,2020-06-25T14:09:04Z,TimothyGu,topic: editing,0
 606781021,true,Clarify sync vs async nature of Worker::postMessage,https://github.com/whatwg/html/issues/5485,2020-04-25T14:28:53Z,2020-04-28T11:40:07Z,RReverser,topic: serialize and transfer,0
-606593641,true,Reparenting iframes without reloading,https://github.com/whatwg/html/issues/5484,2020-04-24T21:26:55Z,2023-03-31T09:14:05Z,josepharhar,addition/proposal|needs implementer interest,7
+606593641,true,Reparenting iframes without reloading,https://github.com/whatwg/html/issues/5484,2020-04-24T21:26:55Z,2023-03-31T09:14:05Z,josepharhar,addition/proposal|needs implementer interest,8
 603962190,true,COEP: define it as a structure header,https://github.com/whatwg/html/issues/5477,2020-04-21T12:34:08Z,2020-04-21T12:45:26Z,empijei,topic: cross-origin-embedder-policy,0
 603754207,false,Is there a proposal for the date range for input?,https://github.com/whatwg/html/issues/5475,2020-04-21T06:54:00Z,2020-10-05T22:45:33Z,cawa-93,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,0
 603733496,true,Should <iframe srcdoc>'s referrer policy reflect updates to parent's referrer policy changes after <iframe> creation?,https://github.com/whatwg/html/issues/5474,2020-04-21T06:10:26Z,2021-06-24T20:15:52Z,hiroshige-g,normative change,1
@@ -3927,7 +3927,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 132102600,true,"""Otherwise, if B is a top-level browsing context...""",https://github.com/whatwg/html/issues/646,2016-02-08T10:20:24Z,2016-02-08T12:14:42Z,triple-underscore,clarification,0
 132071549,true,Validity and processing should be aligned for <time>,https://github.com/whatwg/html/issues/644,2016-02-08T07:29:25Z,2016-03-04T10:12:19Z,foolip,normative change,0
 132030704,true,Shouldn't the Window interface be marked as [ImplicitThis]?,https://github.com/whatwg/html/issues/643,2016-02-08T00:58:45Z,2016-09-08T19:16:59Z,cdumez,,0
-131876439,true,Define that push/replaceState don't affect to :target handling,https://github.com/whatwg/html/issues/639,2016-02-06T17:07:17Z,2022-02-27T15:19:13Z,smaug----,topic: history,7
+131876439,true,Define that push/replaceState don't affect to :target handling,https://github.com/whatwg/html/issues/639,2016-02-06T17:07:17Z,2023-04-11T05:37:47Z,smaug----,topic: history,7
 131821230,true,Content model for the `<time>` element is inverted,https://github.com/whatwg/html/issues/636,2016-02-06T05:15:40Z,2016-05-02T23:29:51Z,foolip,document conformance,0
 131783497,true,"""served over the network"" needs a definition",https://github.com/whatwg/html/issues/635,2016-02-05T23:02:26Z,2016-03-30T22:11:30Z,jdm,clarification,0
 131699205,true,Structured Clone Algorithm doesn't support FormData object,https://github.com/whatwg/html/issues/633,2016-02-05T17:14:39Z,2019-01-02T18:51:09Z,tevko,addition/proposal|needs implementer interest|topic: serialize and transfer,0
