@@ -2593,6 +2593,7 @@ api/HTMLElement/autocapitalize,,111,,66,,,,false,true,false,https://html.spec.wh
 api/HTMLElement/autofocus,,1,,79,,15.4,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-fe-autofocus,WHATWG
 api/HTMLElement/beforeinput_event,,87,,60,,10.1,,false,true,false,https://w3c.github.io/uievents/#event-type-beforeinput,W3C
 api/HTMLElement/beforematch_event,,,,102,,,,true,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-beforematch,WHATWG
+api/HTMLElement/beforetoggle_event,,,,114,,,,true,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-beforetoggle,WHATWG
 api/HTMLElement/blur,,1.5,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-blur-dev,WHATWG
 api/HTMLElement/change_event,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-change,WHATWG
 api/HTMLElement/click,,3,,9,,6,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-click-dev,WHATWG
@@ -2613,6 +2614,7 @@ api/HTMLElement/focus,,1.5,,1,,3,,false,true,false,https://html.spec.whatwg.org/
 api/HTMLElement/focus/options_focusVisible_parameter,,104,,,,,,true,true,false,,NONE
 api/HTMLElement/focus/options_preventScroll_parameter,,68,,64,,15,,false,true,false,,NONE
 api/HTMLElement/hidden,,4,,6,,5.1,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-hidden,WHATWG
+api/HTMLElement/hidePopover,,,,114,,,,true,true,false,https://html.spec.whatwg.org/multipage/popover.html#dom-hidepopover,WHATWG
 api/HTMLElement/inert,,112,,102,,15.5,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-inert,WHATWG
 api/HTMLElement/innerText,,45,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#the-innertext-idl-attribute,WHATWG
 api/HTMLElement/inputMode,,95,,66,,12.1,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-inputmode,WHATWG
@@ -2626,10 +2628,14 @@ api/HTMLElement/offsetParent,,1,,1,,3,,false,true,false,https://w3c.github.io/cs
 api/HTMLElement/offsetTop,,1,,1,,3,,false,true,false,https://w3c.github.io/csswg-drafts/cssom-view/#dom-htmlelement-offsettop,W3C
 api/HTMLElement/offsetWidth,,1,,1,,3,,false,true,false,https://w3c.github.io/csswg-drafts/cssom-view/#dom-htmlelement-offsetwidth,W3C
 api/HTMLElement/outerText,,98,,1,,1.3,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-outertext,WHATWG
+api/HTMLElement/popover,,,,114,,,,true,true,false,https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute,WHATWG
+api/HTMLElement/showPopover,,,,114,,,,true,true,false,https://html.spec.whatwg.org/multipage/popover.html#dom-showpopover,WHATWG
 api/HTMLElement/spellcheck,,2,,9,,5.1,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-spellcheck-dev,WHATWG
 api/HTMLElement/style,,1,,1,,3,,false,true,false,https://w3c.github.io/csswg-drafts/cssom/#dom-elementcssinlinestyle-style,W3C
 api/HTMLElement/tabIndex,,1,,1,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-tabindex,WHATWG
 api/HTMLElement/title,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-title,WHATWG
+api/HTMLElement/togglePopover,,,,114,,,,true,true,false,https://html.spec.whatwg.org/multipage/popover.html#dom-togglepopover,WHATWG
+api/HTMLElement/toggle_event,,,,114,,,,true,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-toggle,WHATWG
 api/HTMLElement/translate,,111,,19,,6,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-translate,WHATWG
 api/HTMLElement/virtualKeyboardPolicy,,,,94,,,,true,true,false,https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy,W3C
 api/HTMLEmbedElement,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/iframe-embed-object.html#htmlembedelement,WHATWG
@@ -4840,14 +4846,6 @@ api/Permissions/query,,46,,43,,16,,false,true,false,https://w3c.github.io/permis
 api/Permissions/request,,,,46,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,https://wicg.github.io/permissions-request/#dom-permissions-request,W3CCG
 api/Permissions/requestAll,,,,48,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,false,false,,NONE
 api/Permissions/revoke,,51,"[{""name"":""dom.permissions.revoke.enable"",""type"":""preference"",""value_to_set"":""true""}]",46,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,false,true,true,https://wicg.github.io/permissions-revoke/#dom-permissions-revoke,W3CCG
-api/PermissionsPolicyViolationReportBody,,,,88,,,,false,true,false,https://w3c.github.io/webappsec-permissions-policy/#permissionspolicyviolationreportbody,W3C
-api/PermissionsPolicyViolationReportBody/columnNumber,,,,88,,,,false,true,false,https://w3c.github.io/webappsec-permissions-policy/#dom-permissionspolicyviolationreportbody-columnnumber,W3C
-api/PermissionsPolicyViolationReportBody/disposition,,,,88,,,,false,true,false,https://w3c.github.io/webappsec-permissions-policy/#dom-permissionspolicyviolationreportbody-disposition,W3C
-api/PermissionsPolicyViolationReportBody/featureId,,,,88,,,,false,true,false,https://w3c.github.io/webappsec-permissions-policy/#dom-permissionspolicyviolationreportbody-featureid,W3C
-api/PermissionsPolicyViolationReportBody/lineNumber,,,,88,,,,false,true,false,https://w3c.github.io/webappsec-permissions-policy/#dom-permissionspolicyviolationreportbody-linenumber,W3C
-api/PermissionsPolicyViolationReportBody/message,,,,88,,,,false,true,false,,NONE
-api/PermissionsPolicyViolationReportBody/sourceFile,,,,88,,,,false,true,false,https://w3c.github.io/webappsec-permissions-policy/#dom-permissionspolicyviolationreportbody-sourcefile,W3C
-api/PermissionsPolicyViolationReportBody/toJSON,,,,88,,,,false,true,false,,NONE
 api/PictureInPictureEvent,,,,85,,16,,false,true,false,https://w3c.github.io/picture-in-picture/#event-types,W3C
 api/PictureInPictureEvent/PictureInPictureEvent,,,,85,,16,,false,true,false,https://w3c.github.io/picture-in-picture/#dom-pictureinpictureevent-pictureinpictureevent,W3C
 api/PictureInPictureEvent/pictureInPictureWindow,,,,69,,13.1,,false,true,false,https://w3c.github.io/picture-in-picture/#dom-pictureinpictureevent-pictureinpicturewindow,W3C
@@ -6253,7 +6251,7 @@ api/ServiceWorkerContainer/error_event,,44,,,,,,false,false,true,,NONE
 api/ServiceWorkerContainer/getRegistration,,44,,40,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#navigator-service-worker-getRegistration,W3C
 api/ServiceWorkerContainer/getRegistrations,,44,,45,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#navigator-service-worker-getRegistrations,W3C
 api/ServiceWorkerContainer/message_event,,44,,40,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#dom-serviceworkercontainer-onmessage,W3C
-api/ServiceWorkerContainer/messageerror_event,,65,,80,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#dom-serviceworkerglobalscope-onmessageerror,W3C
+api/ServiceWorkerContainer/messageerror_event,,65,,80,,16.4,,false,true,false,https://w3c.github.io/ServiceWorker/#dom-serviceworkerglobalscope-onmessageerror,W3C
 api/ServiceWorkerContainer/ready,,44,,40,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#navigator-service-worker-ready,W3C
 api/ServiceWorkerContainer/register,,44,,40,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#navigator-service-worker-register,W3C
 api/ServiceWorkerContainer/startMessages,,64,,74,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#navigator-service-worker-startMessages,W3C
@@ -8389,10 +8387,10 @@ css/at-rules/page/page-orientation,,preview,,85,,,,false,true,false,https://w3c.
 css/at-rules/page/size,,,,15,,,,false,true,false,https://w3c.github.io/csswg-drafts/css-page/#page-size-prop,W3C
 css/at-rules/page/size/jis-b4,,,,83,,,,false,true,false,https://w3c.github.io/csswg-drafts/css-page/#page-size-prop,W3C
 css/at-rules/page/size/jis-b5,,,,83,,,,false,true,false,https://w3c.github.io/csswg-drafts/css-page/#page-size-prop,W3C
-css/at-rules/property,,,,85,,,,true,true,false,https://drafts.css-houdini.org/css-properties-values-api/#at-property-rule,W3C
-css/at-rules/property/inherits,,,,85,,,,true,true,false,https://drafts.css-houdini.org/css-properties-values-api/#inherits-descriptor,W3C
-css/at-rules/property/initial-value,,,,85,,,,true,true,false,https://drafts.css-houdini.org/css-properties-values-api/#initial-value-descriptor,W3C
-css/at-rules/property/syntax,,,,85,,,,true,true,false,https://drafts.css-houdini.org/css-properties-values-api/#the-syntax-descriptor,W3C
+css/at-rules/property,,,,85,,16.4,,false,true,false,https://drafts.css-houdini.org/css-properties-values-api/#at-property-rule,W3C
+css/at-rules/property/inherits,,,,85,,16.4,,false,true,false,https://drafts.css-houdini.org/css-properties-values-api/#inherits-descriptor,W3C
+css/at-rules/property/initial-value,,,,85,,16.4,,false,true,false,https://drafts.css-houdini.org/css-properties-values-api/#initial-value-descriptor,W3C
+css/at-rules/property/syntax,,,,85,,16.4,,false,true,false,https://drafts.css-houdini.org/css-properties-values-api/#the-syntax-descriptor,W3C
 css/at-rules/supports,,22,,28,,9,,false,true,false,https://w3c.github.io/csswg-drafts/css-conditional-4/#at-supports-ext,W3C
 css/at-rules/supports/font-format,,106,,,,,,false,true,false,,NONE
 css/at-rules/supports/font-tech,,106,,,,,,false,true,false,,NONE
@@ -10390,7 +10388,7 @@ html/elements/td/scope,,1,,1,,true,,false,true,true,,NONE
 html/elements/td/valign,,,,,,,,false,true,true,,NONE
 html/elements/td/width,,1,,1,,true,,false,true,true,,NONE
 html/elements/template,,22,,26,,8,,false,true,false,https://html.spec.whatwg.org/multipage/scripting.html#the-template-element,WHATWG
-html/elements/template/shadowrootmode,,,,111,,,,true,true,false,,NONE
+html/elements/template/shadowrootmode,,,,111,,16.4,,false,true,false,,NONE
 html/elements/textarea,,true,,true,,true,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#the-textarea-element,WHATWG
 html/elements/textarea/autocomplete,,59,,66,,true,,false,true,false,,NONE
 html/elements/textarea/cols,,1,,1,,≤4,,false,true,false,,NONE
@@ -10501,6 +10499,7 @@ html/global_attributes/lang,,true,,true,,true,,false,true,false,https://html.spe
 html/global_attributes/nonce,,31,,true,,true,,false,true,false,https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce,WHATWG
 html/global_attributes/nonce/nonce_hiding,,75,,61,,,,false,true,false,,NONE
 html/global_attributes/part,,72,,73,,13.1,,false,true,false,https://w3c.github.io/csswg-drafts/css-shadow-parts/#part-attr,W3C
+html/global_attributes/popover,,,,114,,,,true,true,false,https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute,WHATWG
 html/global_attributes/slot,,63,,53,,10,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#attr-slot,WHATWG
 html/global_attributes/spellcheck,,true,,9,,true,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck,WHATWG
 html/global_attributes/style,,true,,true,,true,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute,WHATWG
@@ -10854,6 +10853,7 @@ http/status/503,,true,,true,,true,,false,true,false,https://httpwg.org/specs/rfc
 http/status/504,,true,,true,,true,,false,true,false,https://httpwg.org/specs/rfc9110.html#status.504,IETF
 javascript/builtins/AggregateError,,79,,85,,14,,false,true,false,https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-aggregate-error-objects,TC39
 javascript/builtins/AggregateError/AggregateError,,79,,85,,14,,false,true,false,https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-aggregate-error-constructor,TC39
+javascript/builtins/AggregateError/errors,,79,,85,,14,,false,true,false,https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-aggregate-error,TC39
 javascript/builtins/AggregateError/serializable_object,,103,,,,,,true,false,false,,NONE
 javascript/builtins/Array,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array-objects,TC39
 javascript/builtins/Array/@@iterator,,36,,38,,10,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype-@@iterator,TC39
@@ -10901,9 +10901,13 @@ javascript/builtins/Array/splice,,1,,1,,1,,false,true,false,https://tc39.es/ecma
 javascript/builtins/Array/toLocaleString,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.tolocalestring,TC39
 javascript/builtins/Array/toLocaleString/locales_parameter,,52,,24,,7,,false,true,false,,NONE
 javascript/builtins/Array/toLocaleString/options_parameter,,52,,24,,7,,false,true,false,,NONE
+javascript/builtins/Array/toReversed,,,,110,,16.3,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.toreversed,TC39
+javascript/builtins/Array/toSorted,,,,110,,16.3,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.tosorted,TC39
+javascript/builtins/Array/toSpliced,,,,110,,16.3,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.tospliced,TC39
 javascript/builtins/Array/toString,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.tostring,TC39
 javascript/builtins/Array/unshift,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.unshift,TC39
 javascript/builtins/Array/values,,60,,66,,9,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.values,TC39
+javascript/builtins/Array/with,,,,110,,16.3,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.with,TC39
 javascript/builtins/ArrayBuffer,,4,,7,,5.1,,false,true,false,https://tc39.es/ecma262/multipage/structured-data.html#sec-arraybuffer-objects,TC39
 javascript/builtins/ArrayBuffer/@@species,,48,,51,,10,,false,true,false,https://tc39.es/ecma262/multipage/structured-data.html#sec-get-arraybuffer-@@species,TC39
 javascript/builtins/ArrayBuffer/ArrayBuffer,,4,,7,,5.1,,false,true,false,https://tc39.es/ecma262/multipage/structured-data.html#sec-arraybuffer-constructor,TC39
@@ -11364,6 +11368,7 @@ javascript/builtins/Object/toString,,1,,1,,1,,false,true,false,https://tc39.es/e
 javascript/builtins/Object/valueOf,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.prototype.valueof,TC39
 javascript/builtins/Object/values,,47,,54,,10.1,,false,true,false,https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.values,TC39
 javascript/builtins/Promise,,29,,32,,8,,false,true,false,https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise-objects,TC39
+javascript/builtins/Promise/@@species,,48,,51,,10,,false,true,false,https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-get-promise-@@species,TC39
 javascript/builtins/Promise/Promise,,29,,32,,8,,false,true,false,https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise-constructor,TC39
 javascript/builtins/Promise/all,,29,,32,,8,,false,true,false,https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.all,TC39
 javascript/builtins/Promise/allSettled,,71,,76,,13,,false,true,false,https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.allsettled,TC39
@@ -11465,6 +11470,7 @@ javascript/builtins/Set/key_equality_for_zeros,,29,,38,,9,,false,true,false,,NON
 javascript/builtins/Set/size,,19,,38,,8,,false,true,false,https://tc39.es/ecma262/multipage/keyed-collections.html#sec-get-set.prototype.size,TC39
 javascript/builtins/Set/values,,24,,38,,8,,false,true,false,https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.values,TC39
 javascript/builtins/SharedArrayBuffer,,78,,68,,15.2,,false,true,false,https://tc39.es/ecma262/multipage/structured-data.html#sec-sharedarraybuffer-objects,TC39
+javascript/builtins/SharedArrayBuffer/@@species,,78,,68,,15.2,,false,true,false,https://tc39.es/ecma262/multipage/structured-data.html#sec-sharedarraybuffer-@@species,TC39
 javascript/builtins/SharedArrayBuffer/SharedArrayBuffer,,78,,68,,15.2,,false,true,false,https://tc39.es/ecma262/multipage/structured-data.html#sec-sharedarraybuffer-constructor,TC39
 javascript/builtins/SharedArrayBuffer/SharedArrayBuffer/maxByteLength_option,,,,111,,16.4,,false,true,false,https://tc39.es/proposal-resizablearraybuffer/#sec-sharedarraybuffer-constructor,TC39
 javascript/builtins/SharedArrayBuffer/byteLength,,78,,68,,15.2,,false,true,false,https://tc39.es/ecma262/multipage/structured-data.html#sec-get-sharedarraybuffer.prototype.bytelength,TC39
@@ -11905,8 +11911,11 @@ javascript/builtins/TypedArray/some,,37,,45,,10,,false,true,false,https://tc39.e
 javascript/builtins/TypedArray/sort,,46,,45,,10,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.sort,TC39
 javascript/builtins/TypedArray/subarray,,4,,7,,5.1,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.subarray,TC39
 javascript/builtins/TypedArray/toLocaleString,,51,,7,,5.1,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.tolocalestring,TC39
+javascript/builtins/TypedArray/toReversed,,,,110,,16.3,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.toreversed,TC39
+javascript/builtins/TypedArray/toSorted,,,,110,,16.3,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.tosorted,TC39
 javascript/builtins/TypedArray/toString,,51,,7,,5.1,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.tostring,TC39
 javascript/builtins/TypedArray/values,,37,,38,,10,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.values,TC39
+javascript/builtins/TypedArray/with,,,,110,,16.3,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.with,TC39
 javascript/builtins/URIError,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-native-error-types-used-in-this-standard-urierror,TC39
 javascript/builtins/URIError/URIError,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-nativeerror-constructors,TC39
 javascript/builtins/URIError/serializable_object,,103,,77,,,,false,true,false,https://html.spec.whatwg.org/multipage/structured-data.html#serializable-objects,WHATWG

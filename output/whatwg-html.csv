@@ -1,10 +1,10 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1663053673,false,"Potential error in connection between ""Document destroy"" and ""Document abort"" algorithms",https://github.com/whatwg/html/issues/9148,2023-04-11T19:02:43Z,2023-04-11T19:03:32Z,kalenikaliaksandr,,0
-1662945190,false,language of an attribute,https://github.com/whatwg/html/issues/9147,2023-04-11T17:35:46Z,2023-04-11T17:35:56Z,fantasai,,0
-1662937464,false,"""The directionality of an attribute of an HTML"" seems weird?",https://github.com/whatwg/html/issues/9146,2023-04-11T17:29:12Z,2023-04-11T21:23:15Z,fantasai,,0
+1663053673,false,"Potential error in connection between ""Document destroy"" and ""Document abort"" algorithms",https://github.com/whatwg/html/issues/9148,2023-04-11T19:02:43Z,2023-04-12T05:31:55Z,kalenikaliaksandr,,0
+1662945190,false,language of an attribute,https://github.com/whatwg/html/issues/9147,2023-04-11T17:35:46Z,2023-04-12T10:55:04Z,fantasai,i18n-tracker,0
+1662937464,false,"""The directionality of an attribute of an HTML"" seems weird?",https://github.com/whatwg/html/issues/9146,2023-04-11T17:29:12Z,2023-04-12T10:44:58Z,fantasai,i18n-tracker,0
 1661175493,false,popover light dismiss behavior is not specified for Esc key,https://github.com/whatwg/html/issues/9143,2023-04-10T18:32:47Z,2023-04-11T20:16:59Z,asurkov,agenda+,0
 1659003302,false,Active frame element should also check if the document's browsing context is non-null,https://github.com/whatwg/html/issues/9136,2023-04-07T16:57:55Z,2023-04-10T08:05:38Z,Lubrsi,topic: browsing context,0
-1658639409,false,Form submission does a replace load depending on whether the form document has completely loaded,https://github.com/whatwg/html/issues/9135,2023-04-07T10:18:16Z,2023-04-11T14:23:26Z,petervanderbeken,topic: forms,0
+1658639409,false,Form submission does a replace load depending on whether the form document has completely loaded,https://github.com/whatwg/html/issues/9135,2023-04-07T10:18:16Z,2023-04-12T08:26:14Z,petervanderbeken,topic: forms,0
 1658447667,false,Navigation sourceDocument for browser-initiated navigations,https://github.com/whatwg/html/issues/9133,2023-04-07T06:56:05Z,2023-04-09T03:58:58Z,domenic,topic: navigation,0
 1658170692,false,Upcoming HTML standard issue triage meeting on 4/20/2023,https://github.com/whatwg/html/issues/9132,2023-04-06T23:39:43Z,2023-04-07T17:30:33Z,past,agenda+,0
 1656257748,false,Setting input type=date value attribute doesn't pre-populate the input if there's a time,https://github.com/whatwg/html/issues/9128,2023-04-05T20:37:06Z,2023-04-05T20:37:06Z,jfbrennan,,0
@@ -273,7 +273,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1408617737,true,"Add `beforeopen`, `afteropen`, `beforeclosed`, and `afterclosed` events?",https://github.com/whatwg/html/issues/8386,2022-10-13T20:28:56Z,2023-02-16T07:45:07Z,mfreed7,topic: popover,0
 1408292081,true,Upcoming HTML standard issue triage meeting on 10/27/2022,https://github.com/whatwg/html/issues/8385,2022-10-13T19:05:26Z,2022-10-27T16:57:55Z,past,agenda+,0
 1407210379,true,"Navigation requests destination always set to ""document""",https://github.com/whatwg/html/issues/8383,2022-10-13T06:16:54Z,2022-10-13T07:13:32Z,antosart,topic: navigation,0
-1403944971,false,User activation: what should happen if there is no browsing context?,https://github.com/whatwg/html/issues/8378,2022-10-11T03:26:37Z,2022-11-03T04:46:14Z,marcoscaceres,topic: user activation,0
+1403944971,true,User activation: what should happen if there is no browsing context?,https://github.com/whatwg/html/issues/8378,2022-10-11T03:26:37Z,2023-04-12T05:47:16Z,marcoscaceres,topic: user activation,0
 1403388271,false,request: need a way to prevent mobile browser scrolling when focusing an input,https://github.com/whatwg/html/issues/8375,2022-10-10T15:50:46Z,2022-10-11T02:23:54Z,liamdebeasi,addition/proposal|needs implementer interest,0
 1403380623,true,"Possible error in the text about <input type=""range"">",https://github.com/whatwg/html/issues/8374,2022-10-10T15:45:07Z,2022-10-11T04:46:20Z,BlueInGreen68,,0
 1403050872,true,"rel values ""prev"" and ""next"" not allowed in body?",https://github.com/whatwg/html/issues/8372,2022-10-10T11:53:23Z,2022-10-10T13:06:37Z,brennanyoung,document conformance|topic: hyperlink,0
@@ -447,7 +447,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1251812493,true,Web Workers and Service Worker,https://github.com/whatwg/html/issues/7964,2022-05-29T07:29:40Z,2022-05-29T18:38:56Z,xkid1,,0
 1251239281,true,"bugs in tag omission ",https://github.com/whatwg/html/issues/7962,2022-05-27T20:27:18Z,2022-05-27T21:27:27Z,alexander-akait,,0
 1247550235,false,"Automatically open option list in a `<select>` (`HTMLSelectElement`) ",https://github.com/whatwg/html/issues/7957,2022-05-25T06:18:11Z,2022-05-25T07:25:49Z,ashmind,addition/proposal|needs implementer interest|topic: forms,0
-1246513904,false,Considerations for providing alternative text to video poster graphics,https://github.com/whatwg/html/issues/7954,2022-05-24T12:57:13Z,2022-05-25T14:23:59Z,scottaohara,addition/proposal|a11y-tracker,4
+1246513904,false,Considerations for providing alternative text to video poster graphics,https://github.com/whatwg/html/issues/7954,2022-05-24T12:57:13Z,2023-04-12T11:09:34Z,scottaohara,addition/proposal|a11y-tracker,4
 1246423393,true,Access to private class members in the windows object is not checked,https://github.com/whatwg/html/issues/7952,2022-05-24T11:48:17Z,2023-02-19T20:40:53Z,joyeecheung,topic: multiple globals,0
 1245490159,false,Consider being strict about range mismatch for media,https://github.com/whatwg/html/issues/7950,2022-05-23T17:27:12Z,2022-05-24T07:26:22Z,noamr,topic: media|interop,1
 1245461464,true,Typo in section 2.1.4 DOM trees,https://github.com/whatwg/html/issues/7949,2022-05-23T16:58:18Z,2022-05-26T15:27:55Z,AegisFair,good first issue,1
@@ -1238,7 +1238,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 677993252,true,"COEP reporting ""blocked-url"" should probably be ""blockedURL""",https://github.com/whatwg/html/issues/5818,2020-08-12T21:34:29Z,2020-08-21T14:57:33Z,domenic,topic: cross-origin-embedder-policy,0
 677391669,false,Allow for the possibility of user agents implementing landmark navigation,https://github.com/whatwg/html/issues/5813,2020-08-12T05:17:57Z,2023-04-07T18:30:10Z,carmacleod,clarification|accessibility|a11y-tracker,0
 677391273,false,Consider allowing label elements to provide a label for landmark elements,https://github.com/whatwg/html/issues/5812,2020-08-12T05:17:05Z,2021-11-12T00:28:02Z,carmacleod,addition/proposal|accessibility|a11y-tracker,0
-677390392,true,Consider creating an HTML search element,https://github.com/whatwg/html/issues/5811,2020-08-12T05:15:08Z,2023-03-24T01:54:41Z,carmacleod,addition/proposal|accessibility|a11y-tracker,16
+677390392,true,Consider creating an HTML search element,https://github.com/whatwg/html/issues/5811,2020-08-12T05:15:08Z,2023-03-24T01:54:41Z,carmacleod,addition/proposal|accessibility|a11y-tracker,22
 676925106,true,"Possible loophole in COOP together with sandbox=""allow-popups""",https://github.com/whatwg/html/issues/5806,2020-08-11T14:28:47Z,2020-08-12T14:24:18Z,zcorpan,topic: sandbox,0
 676541043,true,Confusing description of invalid value default for the `formmethod` attribute,https://github.com/whatwg/html/issues/5804,2020-08-11T02:57:58Z,2020-08-17T14:57:26Z,triple-underscore,topic: forms,1
 676414389,false,BroadcastChannel needs partitioning,https://github.com/whatwg/html/issues/5803,2020-08-10T21:02:22Z,2022-02-15T19:26:48Z,rniwa,normative change|security/privacy|topic: serialize and transfer|topic: storage,9
@@ -1652,7 +1652,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 504207648,true,Adopt the allowance of headings inside legend from W3C HTML5.2?,https://github.com/whatwg/html/issues/4990,2019-10-08T18:33:50Z,2020-02-19T13:51:38Z,SelenIT,addition/proposal|document conformance|accessibility|impacts documentation,9
 504066480,true,"""Create a similar-origin window agent"" is weird",https://github.com/whatwg/html/issues/4988,2019-10-08T14:06:18Z,2020-03-31T17:10:56Z,annevk,topic: agent,0
 503894667,false,autocomplete attribute for credit-card expiration details,https://github.com/whatwg/html/issues/4987,2019-10-08T08:12:59Z,2019-11-09T00:48:55Z,battre,addition/proposal|topic: forms|i18n-tracker,1
-503891219,false,autocomplete attribute for street-address details,https://github.com/whatwg/html/issues/4986,2019-10-08T08:05:20Z,2023-02-04T06:47:45Z,battre,addition/proposal|needs implementer interest|accessibility|topic: forms|i18n-tracker,37
+503891219,false,autocomplete attribute for street-address details,https://github.com/whatwg/html/issues/4986,2019-10-08T08:05:20Z,2023-02-04T06:47:45Z,battre,addition/proposal|needs implementer interest|accessibility|topic: forms|i18n-tracker,38
 503719928,true,Base6,https://github.com/whatwg/html/issues/4981,2019-10-07T22:17:00Z,2019-10-08T02:10:35Z,Deadmau8772,,0
 503657569,false,Attempt to remove implied-document definition,https://github.com/whatwg/html/issues/4980,2019-10-07T19:55:46Z,2020-06-24T16:37:26Z,dtapuska,clarification|topic: event loop,0
 503606041,false,Multiple Selections from Datalist,https://github.com/whatwg/html/issues/4979,2019-10-07T18:06:20Z,2021-03-21T00:07:52Z,ecc521,addition/proposal|needs implementer interest|topic: forms,1
@@ -2232,7 +2232,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 350326186,true,fieldset's legend should probably inherit alignment,https://github.com/whatwg/html/issues/3913,2018-08-14T08:19:13Z,2018-09-19T18:04:42Z,zcorpan,topic: rendering|interop|topic: fieldset,0
 350129917,false,Disable fieldset/legend rendering magic with CSS,https://github.com/whatwg/html/issues/3912,2018-08-13T17:53:01Z,2023-03-20T16:08:37Z,zcorpan,addition/proposal|topic: rendering|needs concrete proposal|topic: fieldset,2
 350117012,true,"paradox issue when ""tabindex"" is used together with ""display: none/contents"" or ""visibility: hidden""",https://github.com/whatwg/html/issues/3910,2018-08-13T17:13:15Z,2018-08-13T22:30:20Z,Zhang-Junzhi,,0
-349992613,false,"""The div element has no special meaning at all"" is inaccurate.",https://github.com/whatwg/html/issues/3908,2018-08-13T11:34:26Z,2018-08-19T06:59:56Z,Zhang-Junzhi,i18n-tracker|i18n-alreq|i18n-hlreq,0
+349992613,true,"""The div element has no special meaning at all"" is inaccurate.",https://github.com/whatwg/html/issues/3908,2018-08-13T11:34:26Z,2023-04-12T00:49:35Z,Zhang-Junzhi,i18n-tracker|i18n-alreq|i18n-hlreq,0
 349715242,false,"Spec needs to make it clear that paragraphs are isolated from surrounding paragraphs, for the purposes of bidirectional text formatting.",https://github.com/whatwg/html/issues/3905,2018-08-11T08:00:33Z,2019-03-06T18:55:47Z,Zhang-Junzhi,i18n-tracker,0
 349661959,true,"""opener"" setter says to return things, but setters can't return stuff",https://github.com/whatwg/html/issues/3904,2018-08-10T21:25:09Z,2018-08-15T15:02:58Z,bzbarsky,clarification,0
 349576524,true,Missing semicolon in enum list,https://github.com/whatwg/html/issues/3903,2018-08-10T16:17:10Z,2018-08-15T07:04:11Z,pyoor,good first issue|topic: forms,2
@@ -2364,7 +2364,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 325653588,true,Split source file into sections,https://github.com/whatwg/html/issues/3705,2018-05-23T10:57:03Z,2018-06-06T13:19:23Z,fserb,spec tooling,0
 325652070,false,"""4.6.6.23 Other link types  Extensions to the ...""",https://github.com/whatwg/html/issues/3704,2018-05-23T10:52:11Z,2019-08-20T01:47:42Z,reschke,integration,0
 325505574,true,"Name of <fieldset> group given by <legend> and <fieldset name=""""> confusable",https://github.com/whatwg/html/issues/3702,2018-05-23T00:12:29Z,2018-08-21T23:09:57Z,fantasai,clarification|topic: forms|topic: fieldset,0
-325018537,false,It is unclear how directionality should be inherited into Shadow DOM,https://github.com/whatwg/html/issues/3699,2018-05-21T18:43:21Z,2022-09-01T09:01:57Z,smaug----,topic: shadow|i18n-tracker|i18n-alreq|i18n-hlreq,0
+325018537,false,It is unclear how directionality should be inherited into Shadow DOM,https://github.com/whatwg/html/issues/3699,2018-05-21T18:43:21Z,2023-04-12T02:28:02Z,smaug----,topic: shadow|i18n-tracker|i18n-alreq|i18n-hlreq,0
 324615436,false,Consider dropping legacy referrer policy value support,https://github.com/whatwg/html/issues/3697,2018-05-19T09:15:59Z,2018-05-30T16:01:05Z,domfarolino,removal/deprecation,0
 324331787,false,A spec-compliant way to mark insertion/deletion of a wrapper element or an attribute?,https://github.com/whatwg/html/issues/3696,2018-05-18T09:16:01Z,2018-05-18T13:18:17Z,danny0838,clarification,0
 324017675,true,"input setSelection() method workflow, when text overflows input container",https://github.com/whatwg/html/issues/3694,2018-05-17T13:14:38Z,2018-05-22T08:06:34Z,Lipata,,0
