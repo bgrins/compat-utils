@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1669058371,false,Make number's and <input>'s get along better,https://github.com/whatwg/html/issues/9172,2023-04-14T23:52:47Z,2023-04-14T23:52:47Z,micDropper,,0
+1669058371,true,Make number's and <input>'s get along better,https://github.com/whatwg/html/issues/9172,2023-04-14T23:52:47Z,2023-04-15T10:36:59Z,micDropper,,0
 1668397306,false,Should hide popover algorithm always restore the previously focused element?,https://github.com/whatwg/html/issues/9169,2023-04-14T14:49:45Z,2023-04-14T17:33:59Z,nt1m,topic: popover,0
 1668166261,false,popover invoker should be boolean,https://github.com/whatwg/html/issues/9168,2023-04-14T12:31:32Z,2023-04-14T13:23:56Z,asurkov,topic: popover,0
 1667926564,false,Should popovertarget be generic?,https://github.com/whatwg/html/issues/9167,2023-04-14T09:50:44Z,2023-04-14T13:15:32Z,jakearchibald,topic: dialog|topic: popover,0
@@ -10,7 +10,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1666005013,false,Consider a different process for standardizing registerProtocolHandler schemes,https://github.com/whatwg/html/issues/9158,2023-04-13T08:55:08Z,2023-04-14T14:42:29Z,zcorpan,meta|topic: custom protocols,0
 1665007054,false,Add payto to registerProtocolHandler safe listed schemes,https://github.com/whatwg/html/issues/9154,2023-04-12T18:01:28Z,2023-04-12T18:01:28Z,rastislavcore,,0
 1664864169,false,Popover invoker example shouldn't have `aria-haspopup`,https://github.com/whatwg/html/issues/9153,2023-04-12T16:18:18Z,2023-04-14T14:07:54Z,mfreed7,topic: popover,0
-1664663316,false,popover focus state weirdness,https://github.com/whatwg/html/issues/9152,2023-04-12T14:17:31Z,2023-04-15T00:20:38Z,jakearchibald,topic: popover,0
+1664663316,false,popover focus state weirdness,https://github.com/whatwg/html/issues/9152,2023-04-12T14:17:31Z,2023-04-15T07:12:02Z,jakearchibald,topic: popover,0
 1663053673,false,"Potential error in connection between ""Document destroy"" and ""Document abort"" algorithms",https://github.com/whatwg/html/issues/9148,2023-04-11T19:02:43Z,2023-04-13T08:03:08Z,kalenikaliaksandr,,0
 1662945190,false,language of an attribute,https://github.com/whatwg/html/issues/9147,2023-04-11T17:35:46Z,2023-04-13T20:47:59Z,fantasai,i18n-tracker,0
 1662937464,false,"""The directionality of an attribute of an HTML"" seems weird?",https://github.com/whatwg/html/issues/9146,2023-04-11T17:29:12Z,2023-04-12T10:44:58Z,fantasai,i18n-tracker,0
@@ -775,7 +775,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 995744188,true,Reusing browsing context groups across navigations and traversals,https://github.com/whatwg/html/issues/7068,2021-09-14T08:33:04Z,2021-09-14T13:08:12Z,jakearchibald,topic: navigation|topic: history|topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,0
 995384289,false,"Clarify, normatively, that speculative fetches should never be duplicated",https://github.com/whatwg/html/issues/7065,2021-09-13T22:08:13Z,2021-09-14T10:17:35Z,mfreed7,topic: parser,0
 994141742,true,Question regarding sandboxed iframes and the size of canvas tags,https://github.com/whatwg/html/issues/7059,2021-09-12T12:08:21Z,2021-09-12T15:15:06Z,gildas-lormeau,,0
-993599960,false,Proposal for: a declarative way to get keyboard navigation for focusable element groups,https://github.com/whatwg/html/issues/7054,2021-09-10T21:14:38Z,2021-09-14T10:57:15Z,travisleithead,addition/proposal|needs implementer interest|accessibility,7
+993599960,false,Proposal for: a declarative way to get keyboard navigation for focusable element groups,https://github.com/whatwg/html/issues/7054,2021-09-10T21:14:38Z,2023-04-15T11:10:22Z,travisleithead,addition/proposal|needs implementer interest|accessibility,7
 993327430,false,Can opaque origin documents navigate to javascript: URLs?,https://github.com/whatwg/html/issues/7052,2021-09-10T15:10:06Z,2021-09-13T14:56:46Z,jakearchibald,topic: history|topic: javascript: URLs,0
 993005130,false,Define rendering rules for all widgets in their native appearance and primitive appearance + pseudo-elements,https://github.com/whatwg/html/issues/7050,2021-09-10T08:22:58Z,2022-09-06T19:39:18Z,zcorpan,topic: rendering,0
 992948428,true,"'Change ""can have its URL rewritten"" to be scheme-based' follow-up",https://github.com/whatwg/html/issues/7049,2021-09-10T07:02:45Z,2021-09-11T11:52:34Z,annevk,clarification,0
