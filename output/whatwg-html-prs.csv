@@ -1,10 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1673620734,false,Check the popover's document in showPopover,https://github.com/whatwg/html/pull/9182,2023-04-18T18:19:28Z,2023-04-18T18:20:42Z,josepharhar,,0
+1675697862,false,Reset the popover invoker in show popover,https://github.com/whatwg/html/pull/9186,2023-04-19T21:54:28Z,2023-04-19T23:46:45Z,josepharhar,topic: popover,0
+1675384787,false,Editorial: Export the browsing context's top-level traversable.,https://github.com/whatwg/html/pull/9185,2023-04-19T18:11:57Z,2023-04-19T18:36:04Z,jyasskin,,0
+1673620734,false,Check the popover's document in showPopover,https://github.com/whatwg/html/pull/9182,2023-04-18T18:19:28Z,2023-04-19T23:47:19Z,josepharhar,topic: popover,0
 1671928914,false,Only restore dialog focus if focus is in the dialog,https://github.com/whatwg/html/pull/9178,2023-04-17T20:35:40Z,2023-04-18T20:24:43Z,josepharhar,topic: focus|topic: dialog,0
 1669042716,false,Only use the used invoker to establish popover hierarchy,https://github.com/whatwg/html/pull/9171,2023-04-14T23:15:12Z,2023-04-17T15:42:52Z,josepharhar,topic: popover,0
 1668446599,true,Fix var/ref name mismatch with s/intendToStoreInBfcache/intendToKeepInBfcache/,https://github.com/whatwg/html/pull/9170,2023-04-14T15:13:52Z,2023-04-17T12:18:58Z,jan-ivar,topic: history,0
-1666970337,false,"Draft: (please ignore this) Reformatting for discussion ",https://github.com/whatwg/html/pull/9166,2023-04-13T18:54:01Z,2023-04-18T18:39:58Z,bkardell,,0
-1666849333,false,Don't fire popover events during attribute change steps,https://github.com/whatwg/html/pull/9165,2023-04-13T17:32:17Z,2023-04-14T13:18:03Z,nt1m,topic: popover,0
+1666970337,false,"Draft: (please ignore this) Reformatting for discussion ",https://github.com/whatwg/html/pull/9166,2023-04-13T18:54:01Z,2023-04-19T23:22:48Z,bkardell,,0
+1666849333,true,Don't fire popover events during attribute change steps,https://github.com/whatwg/html/pull/9165,2023-04-13T17:32:17Z,2023-04-19T22:06:09Z,nt1m,topic: popover,0
 1666310483,true,[meta] Mark seven definitions as exported,https://github.com/whatwg/html/pull/9163,2023-04-13T12:20:28Z,2023-04-17T06:40:51Z,dontcallmedom,,0
 1665915432,false,Do not do same-URL replace navigations when initiated cross-origin,https://github.com/whatwg/html/pull/9157,2023-04-13T07:58:01Z,2023-04-13T07:59:13Z,domenic,normative change|topic: navigation|security/privacy|topic: history,0
 1665882711,false,Fix form submission's replace-before-load logic,https://github.com/whatwg/html/pull/9156,2023-04-13T07:34:01Z,2023-04-13T07:35:18Z,domenic,do not merge yet|topic: navigation|topic: forms|interop,0
@@ -18,7 +20,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1657789416,false,Fix a typo regarding formStateRestoreCallback,https://github.com/whatwg/html/pull/9130,2023-04-06T17:19:55Z,2023-04-06T18:09:07Z,xiaochengh,topic: custom elements,0
 1655536568,false,Allow <hr> to be used inside <select> as a separator,https://github.com/whatwg/html/pull/9124,2023-04-05T12:32:26Z,2023-04-06T13:38:57Z,annevk,addition/proposal|document conformance|topic: parser|topic: forms,0
 1654364500,false,Use dialog initial focus for dialog popovers,https://github.com/whatwg/html/pull/9121,2023-04-04T18:27:26Z,2023-04-10T15:35:58Z,josepharhar,normative change|topic: focus|topic: dialog|topic: popover,0
-1654233635,false,Skip descendant dialogs and popovers for autofocus,https://github.com/whatwg/html/pull/9120,2023-04-04T16:50:00Z,2023-04-11T01:07:18Z,josepharhar,normative change|topic: focus|topic: dialog|topic: popover,0
+1654233635,false,Skip descendant dialogs and popovers for autofocus,https://github.com/whatwg/html/pull/9120,2023-04-04T16:50:00Z,2023-04-19T18:27:26Z,josepharhar,normative change|topic: focus|topic: dialog|topic: popover,0
 1653147495,true,"Remove ""element-attr"" from non-attribute terms",https://github.com/whatwg/html/pull/9118,2023-04-04T04:20:19Z,2023-04-06T05:46:23Z,gnpivo,,0
 1653127603,true,"Remove ""element-attr"" from non-attribute terms",https://github.com/whatwg/html/pull/9117,2023-04-04T03:52:52Z,2023-04-04T04:20:09Z,gnpivo,,0
 1648732472,true,"Export ""reactivate a document""",https://github.com/whatwg/html/pull/9096,2023-03-31T06:09:12Z,2023-03-31T12:25:53Z,rakina,,0
@@ -33,7 +35,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1641265653,true,Editorial: fix a few extra domintro spaces,https://github.com/whatwg/html/pull/9074,2023-03-27T02:45:26Z,2023-03-27T06:54:29Z,domenic,,0
 1638327584,true,"Update references from ""import assertions"" to ""import attributes""",https://github.com/whatwg/html/pull/9069,2023-03-23T21:06:49Z,2023-03-25T01:41:17Z,nicolo-ribaudo,normative change|topic: script|integration,0
 1636108930,true,Fix navigator.userActivation getter.,https://github.com/whatwg/html/pull/9062,2023-03-22T16:22:01Z,2023-04-14T14:43:22Z,jan-ivar,,0
-1634833695,false,Throw exception in originalType check,https://github.com/whatwg/html/pull/9058,2023-03-21T23:26:17Z,2023-04-05T13:17:10Z,josepharhar,topic: popover,0
+1634833695,false,Throw exception in originalType check,https://github.com/whatwg/html/pull/9058,2023-03-21T23:26:17Z,2023-04-19T15:58:39Z,josepharhar,topic: popover,0
 1634431526,true,Modernize and correct <dialog> show() and showModal(),https://github.com/whatwg/html/pull/9057,2023-03-21T17:46:21Z,2023-03-21T18:11:01Z,Jayshaha1009,spam,0
 1630906313,true,Update 404.html,https://github.com/whatwg/html/pull/9052,2023-03-19T11:55:49Z,2023-03-19T12:29:32Z,Jayshaha1009,spam,0
 1630264564,true,Update README.md,https://github.com/whatwg/html/pull/9050,2023-03-18T10:15:24Z,2023-03-18T10:18:00Z,avinashnaidu77777,spam,0
