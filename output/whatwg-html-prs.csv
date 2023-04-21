@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1677427586,false,Add shapeSmoothingEnabled option for CanvasRenderingContext2D,https://github.com/whatwg/html/pull/9192,2023-04-20T21:03:07Z,2023-04-20T22:31:49Z,nornagon,,0
+1678368760,false,Add customElements.getName(constructor),https://github.com/whatwg/html/pull/9195,2023-04-21T11:31:03Z,2023-04-21T11:44:01Z,keithamus,,0
+1677427586,false,Add shapeSmoothingEnabled option for CanvasRenderingContext2D,https://github.com/whatwg/html/pull/9192,2023-04-20T21:03:07Z,2023-04-21T07:40:58Z,nornagon,topic: canvas,0
 1677097386,false,Fix map definition in topmost popover ancestor,https://github.com/whatwg/html/pull/9190,2023-04-20T17:02:55Z,2023-04-20T17:04:10Z,josepharhar,,0
 1675697862,false,Reset the popover invoker in show popover,https://github.com/whatwg/html/pull/9186,2023-04-19T21:54:28Z,2023-04-20T21:53:21Z,josepharhar,topic: popover,1
 1675384787,false,Editorial: Export the browsing context's top-level traversable.,https://github.com/whatwg/html/pull/9185,2023-04-19T18:11:57Z,2023-04-19T18:36:04Z,jyasskin,,0
@@ -95,7 +96,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1552424839,true,Fix typo introduced by the navigation rewrite,https://github.com/whatwg/html/pull/8768,2023-01-23T02:44:16Z,2023-01-23T02:48:48Z,domfarolino,,0
 1552389720,true,Properly assign history policy container,https://github.com/whatwg/html/pull/8767,2023-01-23T01:55:18Z,2023-01-24T04:21:50Z,domfarolino,topic: navigation|topic: history|topic: policy container,0
 1552115180,true,Update permisssions policy creation,https://github.com/whatwg/html/pull/8766,2023-01-22T13:24:56Z,2023-01-23T06:00:37Z,clelland,,0
-1550294250,false,Link processing: Update call to Manifest processing algorithm (interface changed),https://github.com/whatwg/html/pull/8754,2023-01-20T04:37:29Z,2023-03-29T23:52:20Z,mgiuca,,0
+1550294250,false,Link processing: Update call to Manifest processing algorithm (interface changed),https://github.com/whatwg/html/pull/8754,2023-01-20T04:37:29Z,2023-04-21T07:39:52Z,mgiuca,,0
 1548829156,true,Meta: export “serializable object”,https://github.com/whatwg/html/pull/8748,2023-01-19T09:51:55Z,2023-01-20T01:38:04Z,dontcallmedom,,0
 1537448682,true,Remove reference to integrating stylesheet Links,https://github.com/whatwg/html/pull/8742,2023-01-18T06:03:41Z,2023-01-19T08:22:08Z,domenic,,0
 1535123949,true,Meta: markup type definition,https://github.com/whatwg/html/pull/8736,2023-01-16T15:35:16Z,2023-01-17T01:01:50Z,dontcallmedom,,0
@@ -316,7 +317,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1232354134,false,[draft] add unload permissions-policy feature,https://github.com/whatwg/html/pull/7915,2022-05-11T09:56:36Z,2022-09-08T04:40:56Z,fergald,,0
 1230897276,false,Add IPFS and IPNS as safelisted schemes for registerProtocolHandler(),https://github.com/whatwg/html/pull/7911,2022-05-10T09:46:44Z,2023-03-13T12:33:58Z,javifernandez,,5
 1229967385,true,Match upstream ECMA-262 change,https://github.com/whatwg/html/pull/7909,2022-05-09T16:25:55Z,2022-05-10T00:37:25Z,mathiasbynens,topic: forms,0
-1229938684,false,Use `v` flag instead of `u` for `pattern` RegExps,https://github.com/whatwg/html/pull/7908,2022-05-09T16:01:15Z,2023-04-20T14:49:59Z,mathiasbynens,addition/proposal|topic: forms|needs compat analysis,1
+1229938684,false,Use `v` flag instead of `u` for `pattern` RegExps,https://github.com/whatwg/html/pull/7908,2022-05-09T16:01:15Z,2023-04-21T07:37:34Z,mathiasbynens,addition/proposal|topic: forms|needs compat analysis,1
 1229548516,true,Clarify that modal dialogs escape inertness of ancestors.,https://github.com/whatwg/html/pull/7905,2022-05-09T11:12:49Z,2022-05-18T18:04:24Z,emilio,clarification|topic: dialog,0
 1228863635,false,WIP: Subresource link header,https://github.com/whatwg/html/pull/7904,2022-05-08T11:30:17Z,2022-08-22T02:36:08Z,noamr,,0
 1227330877,true,Fix when a `script` element is implicitly potentially render-blocking,https://github.com/whatwg/html/pull/7894,2022-05-06T01:41:09Z,2022-05-16T21:06:09Z,xiaochengh,topic: rendering|topic: script,0
@@ -2303,7 +2304,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 211916091,true,Make all parameters to initMessageEvent() optional except the first one,https://github.com/whatwg/html/pull/2410,2017-03-04T23:21:57Z,2017-03-07T08:39:09Z,cdumez,,0
 211772932,true,"Fix incorrect value space for <link>'s color="""" attribute",https://github.com/whatwg/html/pull/2409,2017-03-03T18:58:03Z,2021-06-15T15:59:47Z,domenic,document conformance|topic: link,0
 211695104,true,"Meta: export ""rules for parsing floating-point number values""",https://github.com/whatwg/html/pull/2407,2017-03-03T13:59:21Z,2017-03-06T22:03:42Z,zcorpan,spec tooling,0
-210206941,true,Remove the dropzone global attribute.,https://github.com/whatwg/html/pull/2402,2017-02-25T03:29:02Z,2022-12-21T00:39:19Z,pwnall,removal/deprecation|needs tests,0
+210206941,true,Remove the dropzone global attribute.,https://github.com/whatwg/html/pull/2402,2017-02-25T03:29:02Z,2023-04-21T08:56:36Z,pwnall,removal/deprecation|needs tests,0
 210192264,true,Tweak [[SetPrototypeOf]] custom internal methods,https://github.com/whatwg/html/pull/2400,2017-02-25T00:22:40Z,2017-03-16T21:37:51Z,domenic,,0
 210191319,true,Editorial: clarify colon parsing for protocol setters,https://github.com/whatwg/html/pull/2399,2017-02-25T00:14:59Z,2017-02-25T08:12:16Z,domenic,clarification,1
 210152848,true,Fix event handler processing algorithm to match implementations,https://github.com/whatwg/html/pull/2398,2017-02-24T20:42:22Z,2017-03-21T13:13:16Z,domenic,normative change|topic: events,0
