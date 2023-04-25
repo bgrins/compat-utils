@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1678618943,true,[scoped-registries] What does `new` mean for elements in multiple registries?,https://github.com/WICG/webcomponents/issues/1007,2023-04-21T14:27:32Z,2023-04-21T18:22:35Z,keithamus,,0
 1677406829,false,Spring 2023 Styling and Theming F2F,https://github.com/WICG/webcomponents/issues/1006,2023-04-20T20:46:16Z,2023-04-20T20:46:16Z,justinfagnani,,0
-1677169561,false,Spring 2023 Cross-Root ARIA F2F,https://github.com/WICG/webcomponents/issues/1005,2023-04-20T17:56:08Z,2023-04-21T23:47:00Z,nolanlawson,,0
+1677169561,false,Spring 2023 Cross-Root ARIA F2F,https://github.com/WICG/webcomponents/issues/1005,2023-04-20T17:56:08Z,2023-04-24T20:46:53Z,nolanlawson,,0
 1677122139,false,Supporting `<noscript>`  when FACE is in play,https://github.com/WICG/webcomponents/issues/1004,2023-04-20T17:20:26Z,2023-04-21T10:42:13Z,bennypowers,,1
 1676866217,false,[dom-parts] Declarative syntax for creating DOM Parts,https://github.com/WICG/webcomponents/issues/1003,2023-04-20T14:40:11Z,2023-04-21T10:08:03Z,tbondwilkinson,,0
 1675555360,false,Isolated web components,https://github.com/WICG/webcomponents/issues/1002,2023-04-19T20:09:44Z,2023-04-20T01:28:12Z,justinfagnani,,4
@@ -115,7 +115,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 603139639,true,Is there a proposal for the date range for input?,https://github.com/WICG/webcomponents/issues/873,2020-04-20T10:48:22Z,2020-04-21T06:52:25Z,cawa-93,,0
 587370954,true,2020 Virtual F2F for Accessibility and Web Components,https://github.com/WICG/webcomponents/issues/872,2020-03-25T01:00:41Z,2020-09-29T23:30:44Z,rniwa,shadow-dom|custom-elements,16
 587300164,true,Expose shadowRoot on element internals,https://github.com/WICG/webcomponents/issues/871,2020-03-24T21:47:42Z,2020-10-05T18:29:05Z,JanMiksovsky,shadow-dom|custom-elements|needs implementer interest,6
-581918720,false,define behavior of `@import` in Cascading Style Sheet (CSS) modules,https://github.com/WICG/webcomponents/issues/870,2020-03-16T01:29:50Z,2023-02-23T01:37:51Z,dbaron,tag-tracker,6
+581918720,false,define behavior of `@import` in Cascading Style Sheet (CSS) modules,https://github.com/WICG/webcomponents/issues/870,2020-03-16T01:29:50Z,2023-02-23T01:37:51Z,dbaron,tag-tracker,7
 579537077,false,odd custom element placement,https://github.com/WICG/webcomponents/issues/869,2020-03-11T20:48:41Z,2020-03-11T20:49:15Z,jutunen,,0
 578278244,true,2020 Spring Virtual F2F Agenda,https://github.com/WICG/webcomponents/issues/868,2020-03-10T01:22:01Z,2020-03-11T05:41:35Z,rniwa,,0
 574893293,true,"I sort of feel like the default parsing should be `<template>`, since that can appear anywhere. Definitely not `<div>`, we don't want to close `<p>` and such.",https://github.com/WICG/webcomponents/issues/867,2020-03-03T19:34:59Z,2020-03-03T19:35:53Z,stonerboy410,,1
@@ -358,7 +358,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 182195770,true,importNode and cloneNode should upgrade cloned resolved custom elements,https://github.com/WICG/webcomponents/issues/584,2016-10-11T07:51:16Z,2016-10-24T06:15:04Z,rniwa,v1|custom-elements,0
 181765213,true,customElements.define should throw on registration of definitions that shadow built-in properties / methods.,https://github.com/WICG/webcomponents/issues/583,2016-10-07T20:52:36Z,2017-09-04T11:58:12Z,bicknellr,custom-elements,1
 181568198,true,Node and Element prototypes need to define their relevant custom element callbacks as no-ops.,https://github.com/WICG/webcomponents/issues/582,2016-10-07T01:48:29Z,2018-03-05T04:59:33Z,bicknellr,custom-elements|needs implementer interest,0
-181010807,true,Allow customizing base URL of a shadow root,https://github.com/WICG/webcomponents/issues/581,2016-10-04T21:33:47Z,2022-04-15T18:31:57Z,dvoytenko,shadow-dom|needs implementer interest,15
+181010807,true,Allow customizing base URL of a shadow root,https://github.com/WICG/webcomponents/issues/581,2016-10-04T21:33:47Z,2022-04-15T18:31:57Z,dvoytenko,shadow-dom|needs implementer interest,16
 179913308,true,"Expected behaviour of contentEditable, slot and distributed nodes",https://github.com/WICG/webcomponents/issues/579,2016-09-28T23:03:45Z,2016-10-05T09:46:42Z,bedeoverend,v1|shadow-dom,0
 179663518,true,Synthetic click activation steps should state whether the event is composed or not,https://github.com/WICG/webcomponents/issues/578,2016-09-28T02:08:22Z,2017-09-06T07:08:33Z,rniwa,v1|shadow-dom,0
 179662247,true,The get-the-parent algorithm shouldn't return null until we reach the root of the current tree,https://github.com/WICG/webcomponents/issues/577,2016-09-28T01:55:58Z,2016-10-04T05:28:26Z,rniwa,v1|shadow-dom,0
