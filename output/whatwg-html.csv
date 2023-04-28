@@ -1,6 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1687240250,false,Form,https://github.com/whatwg/html/issues/9228,2023-04-27T17:12:23Z,2023-04-27T17:12:23Z,moin9916,,0
-1687109600,false,Export Window's navigable,https://github.com/whatwg/html/issues/9226,2023-04-27T15:40:39Z,2023-04-27T15:40:39Z,npm1,,0
+1687109600,true,Export Window's navigable,https://github.com/whatwg/html/issues/9226,2023-04-27T15:40:39Z,2023-04-28T08:11:19Z,npm1,,0
 1686592737,false,Dirname should work with more input types,https://github.com/whatwg/html/issues/9225,2023-04-27T10:45:03Z,2023-04-27T10:49:13Z,r12a,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,0
 1685030989,true,"link prefetch may miss an ""appropriate times to fetch and process""",https://github.com/whatwg/html/issues/9220,2023-04-26T13:25:25Z,2023-04-27T06:43:54Z,Kaiido,topic: link|topic: resource hints (inc. preload),0
 1684422339,false,Introducing Direct Navigation to Client-Side JavaScript-Generated HTML Documents,https://github.com/whatwg/html/issues/9218,2023-04-25T20:04:26Z,2023-04-26T08:14:40Z,Lonniebiz,,0
@@ -9,6 +8,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1678411261,false,Popover: there is a circle for show other auto popover while hiding,https://github.com/whatwg/html/issues/9196,2023-04-21T12:04:32Z,2023-04-24T10:25:14Z,cathiechen,,0
 1677543108,false,Upcoming HTML standard issue triage meeting on 5/4/2023,https://github.com/whatwg/html/issues/9193,2023-04-20T23:18:15Z,2023-04-20T23:18:15Z,past,agenda+,0
 1676587334,false,Clarification on the DOM being a tree,https://github.com/whatwg/html/issues/9189,2023-04-20T12:03:44Z,2023-04-21T09:49:17Z,MrHBS,clarification,0
+1688386216,false,Clarification for <link> behavior in Declarative Shadow DOM,https://github.com/whatwg/html/issues/9232,2023-04-19T04:02:35Z,2023-04-28T11:27:37Z,bakura10,topic: shadow|topic: link,1
 1673113171,false,Make <img> src attribute optional if srcset is present,https://github.com/whatwg/html/issues/9181,2023-04-18T13:13:27Z,2023-04-20T14:42:16Z,foolip,document conformance|topic: img,1
 1671435300,false,The element could move to other document when showPopover,https://github.com/whatwg/html/issues/9177,2023-04-17T15:21:06Z,2023-04-18T18:19:41Z,cathiechen,topic: popover,0
 1669058371,true,Make number's and <input>'s get along better,https://github.com/whatwg/html/issues/9172,2023-04-14T23:52:47Z,2023-04-15T10:36:59Z,micDropper,,0
@@ -24,18 +24,18 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1664864169,false,Popover invoker example shouldn't have `aria-haspopup`,https://github.com/whatwg/html/issues/9153,2023-04-12T16:18:18Z,2023-04-20T20:08:14Z,mfreed7,accessibility|a11y-tracker|topic: popover,0
 1664663316,true,popover focus state weirdness,https://github.com/whatwg/html/issues/9152,2023-04-12T14:17:31Z,2023-04-24T13:54:05Z,jakearchibald,topic: popover,0
 1663053673,false,"Potential error in connection between ""Document destroy"" and ""Document abort"" algorithms",https://github.com/whatwg/html/issues/9148,2023-04-11T19:02:43Z,2023-04-13T08:03:08Z,kalenikaliaksandr,,0
-1662945190,false,language of an attribute,https://github.com/whatwg/html/issues/9147,2023-04-11T17:35:46Z,2023-04-13T20:47:59Z,fantasai,i18n-tracker,0
-1662937464,false,"""The directionality of an attribute of an HTML"" seems weird?",https://github.com/whatwg/html/issues/9146,2023-04-11T17:29:12Z,2023-04-12T10:44:58Z,fantasai,i18n-tracker,0
+1662945190,true,language of an attribute,https://github.com/whatwg/html/issues/9147,2023-04-11T17:35:46Z,2023-04-28T07:47:22Z,fantasai,i18n-tracker,0
+1662937464,false,"""The directionality of an attribute of an HTML"" seems weird?",https://github.com/whatwg/html/issues/9146,2023-04-11T17:29:12Z,2023-04-28T08:20:28Z,fantasai,i18n-tracker,0
 1661175493,false,popover light dismiss behavior is not specified for Esc key,https://github.com/whatwg/html/issues/9143,2023-04-10T18:32:47Z,2023-04-20T23:15:24Z,asurkov,topic: popover,1
-1659003302,false,Active frame element should also check if the document's browsing context is non-null,https://github.com/whatwg/html/issues/9136,2023-04-07T16:57:55Z,2023-04-10T08:05:38Z,Lubrsi,topic: browsing context,0
-1658639409,false,Form submission does a replace load depending on whether the form document has completely loaded,https://github.com/whatwg/html/issues/9135,2023-04-07T10:18:16Z,2023-04-25T13:09:58Z,petervanderbeken,topic: navigation|topic: forms,0
-1658447667,false,Navigation sourceDocument for browser-initiated navigations,https://github.com/whatwg/html/issues/9133,2023-04-07T06:56:05Z,2023-04-09T03:58:58Z,domenic,topic: navigation,0
+1659003302,true,Active frame element should also check if the document's browsing context is non-null,https://github.com/whatwg/html/issues/9136,2023-04-07T16:57:55Z,2023-04-28T07:31:26Z,Lubrsi,topic: browsing context,0
+1658639409,false,Form submission does a replace load depending on whether the form document has completely loaded,https://github.com/whatwg/html/issues/9135,2023-04-07T10:18:16Z,2023-04-28T01:20:00Z,petervanderbeken,topic: navigation|topic: forms,0
+1658447667,false,Navigation sourceDocument for browser-initiated navigations,https://github.com/whatwg/html/issues/9133,2023-04-07T06:56:05Z,2023-04-28T07:55:42Z,domenic,topic: navigation,0
 1658170692,true,Upcoming HTML standard issue triage meeting on 4/20/2023,https://github.com/whatwg/html/issues/9132,2023-04-06T23:39:43Z,2023-04-20T23:23:15Z,past,agenda+,0
-1656257748,false,Setting input type=date value attribute doesn't pre-populate the input if there's a time,https://github.com/whatwg/html/issues/9128,2023-04-05T20:37:06Z,2023-04-05T20:37:06Z,jfbrennan,,0
+1656257748,true,Setting input type=date value attribute doesn't pre-populate the input if there's a time,https://github.com/whatwg/html/issues/9128,2023-04-05T20:37:06Z,2023-04-28T08:19:08Z,jfbrennan,,0
 1655838735,false,"Consider allowing <hr> within list elements (ol, ul, menu)",https://github.com/whatwg/html/issues/9126,2023-04-05T15:25:32Z,2023-04-05T15:29:45Z,scottaohara,addition/proposal|document conformance|accessibility|a11y-tracker,2
 1655605700,true,"Popover: The ""map"" in the topmost popover ancestor algorithm does not mean the map element.",https://github.com/whatwg/html/issues/9125,2023-04-05T13:17:24Z,2023-04-24T14:44:55Z,cathiechen,clarification|topic: popover,0
 1654846210,false,anonymous fieldset content box's block-size:100% leads to unintuitive behavior,https://github.com/whatwg/html/issues/9123,2023-04-05T02:50:15Z,2023-04-19T22:22:03Z,davidsgrogan,topic: rendering|interop|topic: fieldset,0
-1654771406,false,"""Loading a document for inline content that doesn't have a DOM"" uses non-existing response",https://github.com/whatwg/html/issues/9122,2023-04-05T01:03:20Z,2023-04-05T01:29:13Z,kalenikaliaksandr,topic: navigation,0
+1654771406,false,"""Loading a document for inline content that doesn't have a DOM"" uses non-existing response",https://github.com/whatwg/html/issues/9122,2023-04-05T01:03:20Z,2023-04-28T08:01:57Z,kalenikaliaksandr,topic: navigation,0
 1653648731,false,popover-focus-child-dialog.html requires spec update,https://github.com/whatwg/html/issues/9119,2023-04-04T10:50:41Z,2023-04-04T16:50:16Z,rwlbuis,topic: popover,0
 1653083221,true,"Remove `element-attr` from the ""form control maxlength/minlength attribute"" terms",https://github.com/whatwg/html/issues/9116,2023-04-04T02:57:53Z,2023-04-06T05:46:44Z,gnpivo,,0
 1653022362,true,Should FACE formStateRestoreCallback be called with the new value or state?,https://github.com/whatwg/html/issues/9114,2023-04-04T01:38:09Z,2023-04-24T14:47:17Z,xiaochengh,clarification|topic: custom elements|topic: forms,1
@@ -48,7 +48,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1650150293,false,<textarea> should support the [pattern] attribute like the <input> element,https://github.com/whatwg/html/issues/9102,2023-03-31T23:02:41Z,2023-04-01T01:01:40Z,Gambloide,addition/proposal|needs implementer interest|topic: forms,0
 1648832613,true,PDF version does not link to web version,https://github.com/whatwg/html/issues/9097,2023-03-31T07:32:24Z,2023-04-03T07:25:38Z,nicolesharp100,spec tooling,0
 1648366000,false,"typo ""The autofill field listed above indicate that t...""",https://github.com/whatwg/html/issues/9094,2023-03-30T21:43:18Z,2023-03-30T21:43:18Z,timelsass,,0
-1646524684,false,Early termination of navigation loading spinner on cross-document navigation,https://github.com/whatwg/html/issues/9090,2023-03-29T21:01:44Z,2023-03-30T17:39:42Z,tbondwilkinson,,0
+1646524684,false,Early termination of navigation loading spinner on cross-document navigation,https://github.com/whatwg/html/issues/9090,2023-03-29T21:01:44Z,2023-04-28T06:39:48Z,tbondwilkinson,,0
 1646464404,true,Confusing/missing words in user activation processing model,https://github.com/whatwg/html/issues/9089,2023-03-29T20:18:22Z,2023-03-31T05:19:32Z,wanderview,,0
 1645335005,false,"Autocomplete values for input type=""tel""",https://github.com/whatwg/html/issues/9086,2023-03-29T09:01:41Z,2023-03-29T09:08:20Z,wortwart,document conformance|topic: forms,0
 1644550338,false,Accessibility Attribute Request,https://github.com/whatwg/html/issues/9084,2023-03-28T19:35:50Z,2023-04-06T03:57:51Z,JaninaSajka,addition/proposal|accessibility|a11y-tracker|agenda+,0
@@ -81,7 +81,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1625174180,false,Clarify selection behaviour of setting textarea value via property,https://github.com/whatwg/html/issues/9028,2023-03-15T10:00:22Z,2023-03-15T10:28:25Z,jnjaeschke,topic: forms,0
 1624192148,false,Sandboxed iframes without allow-same-origin and with about:blank or about:srcdoc urls should not inherit a fallback base url.,https://github.com/whatwg/html/issues/9025,2023-03-14T19:50:36Z,2023-04-06T23:37:14Z,wjmaclean,normative change|topic: sandbox,0
 1623693519,true,Density-corrected intrinsic width and height when current request's dimensions are unavailable,https://github.com/whatwg/html/issues/9023,2023-03-14T15:13:43Z,2023-04-27T00:42:22Z,zcorpan,topic: img,0
-1622494414,false,Resetting forms on document reactivation,https://github.com/whatwg/html/issues/9019,2023-03-14T00:08:14Z,2023-04-20T23:15:41Z,fergald,topic: forms,0
+1622494414,false,Resetting forms on document reactivation,https://github.com/whatwg/html/issues/9019,2023-03-14T00:08:14Z,2023-04-28T08:03:48Z,fergald,topic: forms,0
 1621394935,false,"Add ""lbry"" to scheme allowlist",https://github.com/whatwg/html/issues/9016,2023-03-13T12:31:10Z,2023-03-13T12:31:10Z,ben221199,,0
 1620806361,true,Specify processing model for dns-prefetch,https://github.com/whatwg/html/issues/9015,2023-03-13T05:58:50Z,2023-03-16T12:05:56Z,noamr,topic: resource hints (inc. preload),0
 1620435821,true,Need a clean and standardized way to retreive some informations about user agent enabled features from server side,https://github.com/whatwg/html/issues/9014,2023-03-12T17:00:05Z,2023-03-13T10:46:00Z,flavi1,,0
@@ -320,7 +320,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1391534684,true,HTMLOptionsCollection length setter should specify what happens when you go over the option limit.,https://github.com/whatwg/html/issues/8337,2022-09-29T21:39:17Z,2022-10-19T04:30:07Z,emilio,topic: forms,0
 1391446593,false,Link to updated reporting interface,https://github.com/whatwg/html/issues/8336,2022-09-29T20:18:41Z,2022-09-29T20:18:41Z,jyasskin,,0
 1390812834,false,Date picker access in contenteditable elements,https://github.com/whatwg/html/issues/8335,2022-09-29T12:47:01Z,2022-09-29T12:47:38Z,OvidijusParsiunas,,0
-1390400651,false,<link rel=preload> as attribute supports less than potential destination,https://github.com/whatwg/html/issues/8332,2022-09-29T07:37:28Z,2023-04-11T11:56:51Z,annevk,topic: resource hints (inc. preload),0
+1390400651,true,<link rel=preload> as attribute supports less than potential destination,https://github.com/whatwg/html/issues/8332,2022-09-29T07:37:28Z,2023-04-28T08:21:46Z,annevk,topic: resource hints (inc. preload),0
 1390373144,true,Broken link to Latest Editor's Draft,https://github.com/whatwg/html/issues/8331,2022-09-29T07:14:02Z,2022-09-29T07:23:09Z,aldimhr,,0
 1390178846,false,"<link> base URL should use document's base URL, not document's URL",https://github.com/whatwg/html/issues/8330,2022-09-29T02:58:47Z,2023-04-27T06:44:45Z,domenic,topic: link,0
 1389909957,true,Add 'hash' attribute to elements that have a 'src' attribute in order to allow for URI independant cacheing,https://github.com/whatwg/html/issues/8329,2022-09-28T20:29:11Z,2022-09-29T02:36:49Z,schweini,,0
@@ -1128,7 +1128,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 761676284,false,No clear conditions to fire select events from user inputs,https://github.com/whatwg/html/issues/6215,2020-12-10T22:38:19Z,2020-12-11T08:11:33Z,saschanaz,topic: forms|topic: events|interop,0
 761584379,false,Should navigating to the current URL preserve history.state?,https://github.com/whatwg/html/issues/6213,2020-12-10T20:23:35Z,2021-08-02T14:52:42Z,domenic,topic: history|interop,0
 761525686,false,"Require visibility & focus at the point of consuming ""transient activation""",https://github.com/whatwg/html/issues/6212,2020-12-10T19:05:40Z,2022-10-28T03:15:39Z,jan-ivar,addition/proposal|topic: user activation,0
-761510623,false,"Need a ""browser window has focus"" algorithm that's true even while user types in URL bar",https://github.com/whatwg/html/issues/6211,2020-12-10T18:47:58Z,2022-11-02T16:37:12Z,jan-ivar,,2
+761510623,true,"Need a ""browser window has focus"" algorithm that's true even while user types in URL bar",https://github.com/whatwg/html/issues/6211,2020-12-10T18:47:58Z,2023-04-28T08:13:27Z,jan-ivar,,2
 761434082,false,"It's unclear how well browsers line up with the ""Killing scripts"" section of the spec",https://github.com/whatwg/html/issues/6210,2020-12-10T17:21:25Z,2020-12-11T14:58:15Z,domenic,topic: script,2
 761420453,false,Specify what happens to focus if focus is in an iframe that loads another document,https://github.com/whatwg/html/issues/6209,2020-12-10T17:06:31Z,2020-12-11T07:44:52Z,hsivonen,interop|topic: focus,0
 761360345,true,Natively lazyload certain web components like tabs etc.,https://github.com/whatwg/html/issues/6208,2020-12-10T15:54:48Z,2021-04-14T21:16:29Z,summercms,,0
@@ -3337,7 +3337,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 184255906,true,Incomplete IDL definition for selection control,https://github.com/whatwg/html/issues/1939,2016-10-20T15:06:04Z,2016-10-25T09:32:24Z,gagern,spec tooling,0
 184197968,true,"Reconsider FAQ: <di>, <div> or <li> wrapping <dt> and <dd>",https://github.com/whatwg/html/issues/1937,2016-10-20T10:58:38Z,2017-09-09T14:44:45Z,Crissov,addition/proposal|document conformance,14
 183938912,false,Expose both requested and actual preload state,https://github.com/whatwg/html/issues/1932,2016-10-19T11:44:41Z,2019-03-29T19:51:43Z,foolip,needs implementer interest|topic: media,0
-183913493,false,"Investigate ""salvageable"" and WebSocket interaction",https://github.com/whatwg/html/issues/1931,2016-10-19T09:42:00Z,2021-08-12T21:39:29Z,zcorpan,topic: navigation|topic: websockets,0
+183913493,false,"Investigate ""salvageable"" and WebSocket interaction",https://github.com/whatwg/html/issues/1931,2016-10-19T09:42:00Z,2023-04-28T06:04:00Z,zcorpan,topic: navigation|topic: websockets,0
 183879706,true,Document object's Window object,https://github.com/whatwg/html/issues/1930,2016-10-19T06:51:32Z,2019-03-01T16:36:54Z,annevk,clarification,0
 183870836,true,unexpected focus results for tabindex + <dialog>.showModal(),https://github.com/whatwg/html/issues/1929,2016-10-19T05:45:10Z,2023-01-26T09:50:33Z,danbeam,accessibility|topic: focus|a11y-tracker|topic: dialog,4
 183750764,false,Lack of interaction event specification,https://github.com/whatwg/html/issues/1927,2016-10-18T17:21:56Z,2017-05-15T21:03:03Z,annevk,topic: events,0
