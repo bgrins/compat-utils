@@ -15,9 +15,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1675384787,true,Editorial: Export the browsing context's top-level traversable.,https://github.com/whatwg/html/pull/9185,2023-04-19T18:11:57Z,2023-04-24T14:16:41Z,jyasskin,,0
 1673620734,false,Check the popover's document in showPopover,https://github.com/whatwg/html/pull/9182,2023-04-18T18:19:28Z,2023-04-26T17:01:25Z,josepharhar,topic: popover,0
 1671928914,false,Only restore dialog focus if focus is in the dialog,https://github.com/whatwg/html/pull/9178,2023-04-17T20:35:40Z,2023-04-26T05:18:28Z,josepharhar,topic: focus|topic: dialog,0
-1669042716,false,Only use the used invoker to establish popover hierarchy,https://github.com/whatwg/html/pull/9171,2023-04-14T23:15:12Z,2023-04-26T16:53:51Z,josepharhar,topic: popover,0
+1669042716,false,Only use the used invoker to establish popover hierarchy,https://github.com/whatwg/html/pull/9171,2023-04-14T23:15:12Z,2023-04-27T20:27:59Z,josepharhar,topic: popover,0
 1668446599,true,Fix var/ref name mismatch with s/intendToStoreInBfcache/intendToKeepInBfcache/,https://github.com/whatwg/html/pull/9170,2023-04-14T15:13:52Z,2023-04-17T12:18:58Z,jan-ivar,topic: history,0
-1666970337,false,"Draft: (please ignore this) Reformatting for discussion ",https://github.com/whatwg/html/pull/9166,2023-04-13T18:54:01Z,2023-04-25T22:27:54Z,bkardell,,0
+1666970337,false,Update the :dir / directionality to include shadow dom,https://github.com/whatwg/html/pull/9166,2023-04-13T18:54:01Z,2023-04-27T16:55:02Z,bkardell,,0
 1666849333,true,Don't fire popover events during attribute change steps,https://github.com/whatwg/html/pull/9165,2023-04-13T17:32:17Z,2023-04-19T22:06:09Z,nt1m,topic: popover,0
 1666310483,true,[meta] Mark seven definitions as exported,https://github.com/whatwg/html/pull/9163,2023-04-13T12:20:28Z,2023-04-17T06:40:51Z,dontcallmedom,,0
 1665915432,false,Do not do same-URL replace navigations when initiated cross-origin,https://github.com/whatwg/html/pull/9157,2023-04-13T07:58:01Z,2023-04-27T01:37:25Z,domenic,normative change|topic: navigation|security/privacy|topic: history,0
@@ -36,7 +36,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1653147495,true,"Remove ""element-attr"" from non-attribute terms",https://github.com/whatwg/html/pull/9118,2023-04-04T04:20:19Z,2023-04-06T05:46:23Z,gnpivo,,0
 1653127603,true,"Remove ""element-attr"" from non-attribute terms",https://github.com/whatwg/html/pull/9117,2023-04-04T03:52:52Z,2023-04-04T04:20:09Z,gnpivo,,0
 1648732472,true,"Export ""reactivate a document""",https://github.com/whatwg/html/pull/9096,2023-03-31T06:09:12Z,2023-03-31T12:25:53Z,rakina,,0
-1648089210,false,Use CSS spec for top layer,https://github.com/whatwg/html/pull/9093,2023-03-30T18:14:31Z,2023-04-26T09:10:14Z,josepharhar,topic: rendering|integration,0
+1648089210,false,Use CSS spec for top layer,https://github.com/whatwg/html/pull/9093,2023-03-30T18:14:31Z,2023-04-27T20:42:16Z,josepharhar,topic: rendering|integration,0
 1646532457,true,Fix a typo in User Activation processing model.,https://github.com/whatwg/html/pull/9091,2023-03-29T21:07:39Z,2023-03-31T05:19:36Z,mustaqahmed,topic: user activation,0
 1646278992,false,editorial: add custom element extensibility bullet,https://github.com/whatwg/html/pull/9088,2023-03-29T18:03:36Z,2023-04-24T14:50:30Z,bkardell,,0
 1644980345,true,Create API top layer,https://github.com/whatwg/html/pull/9085,2023-03-29T03:40:08Z,2023-03-29T05:47:33Z,akshaya-hub,spam,0
@@ -459,7 +459,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1084197890,true,Simplify the After attribute value (quoted) state,https://github.com/whatwg/html/pull/7430,2021-12-19T21:41:00Z,2022-02-01T21:54:07Z,untitaker,,1
 1084111373,true,README.md,https://github.com/whatwg/html/pull/7429,2021-12-19T14:32:03Z,2021-12-19T17:54:08Z,Emeo14,spam,0
 1083188615,true,Make 'true' a truthy value for window.open boolean features,https://github.com/whatwg/html/pull/7425,2021-12-17T11:58:03Z,2022-03-08T12:46:23Z,zcorpan,addition/proposal|impacts documentation,0
-1082627098,false,Added shadow directionality to the dir attribute algorithm,https://github.com/whatwg/html/pull/7424,2021-12-16T20:44:18Z,2022-10-18T09:03:29Z,meyerweb,topic: shadow,0
+1082627098,true,Added shadow directionality to the dir attribute algorithm,https://github.com/whatwg/html/pull/7424,2021-12-16T20:44:18Z,2023-04-27T16:55:17Z,meyerweb,topic: shadow,0
 1079358216,true,Editorial: align with FETCH algo rename,https://github.com/whatwg/html/pull/7418,2021-12-14T06:19:18Z,2021-12-14T10:38:13Z,noamr,,0
 1078541218,true,"Remove ""WebSocket""",https://github.com/whatwg/html/pull/7414,2021-12-13T13:35:52Z,2022-02-18T17:10:58Z,yutakahirano,topic: websockets,0
 1074813643,false,Editorial: more natural wording for `form-associated custom element`,https://github.com/whatwg/html/pull/7400,2021-12-08T20:43:40Z,2022-08-22T02:36:08Z,Kaleidea,,0
