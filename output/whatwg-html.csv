@@ -4,11 +4,12 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1685030989,true,"link prefetch may miss an ""appropriate times to fetch and process""",https://github.com/whatwg/html/issues/9220,2023-04-26T13:25:25Z,2023-04-27T06:43:54Z,Kaiido,topic: link|topic: resource hints (inc. preload),0
 1684422339,false,Introducing Direct Navigation to Client-Side JavaScript-Generated HTML Documents,https://github.com/whatwg/html/issues/9218,2023-04-25T20:04:26Z,2023-04-26T08:14:40Z,Lonniebiz,,0
 1681178104,false,Submitting element directionality for various input element types,https://github.com/whatwg/html/issues/9206,2023-04-24T12:39:05Z,2023-04-27T10:45:57Z,vinhill,topic: forms|i18n-tracker|i18n-alreq|i18n-afrlreq,0
+1688488556,false,Proposal: `Viewport` header for early hints,https://github.com/whatwg/html/issues/9233,2023-04-24T09:02:52Z,2023-04-28T13:59:00Z,noamr,addition/proposal|needs implementer interest,1
 1678606496,false,Popover: we can't guarantee the element calling `hidePopover` is on the top of auto popover list,https://github.com/whatwg/html/issues/9197,2023-04-21T14:18:38Z,2023-04-25T23:16:06Z,cathiechen,topic: popover,0
-1678411261,false,Popover: there is a circle for show other auto popover while hiding,https://github.com/whatwg/html/issues/9196,2023-04-21T12:04:32Z,2023-04-24T10:25:14Z,cathiechen,,0
+1678411261,false,Popover: there is a circle for show other auto popover while hiding,https://github.com/whatwg/html/issues/9196,2023-04-21T12:04:32Z,2023-04-28T16:22:48Z,cathiechen,,0
 1677543108,false,Upcoming HTML standard issue triage meeting on 5/4/2023,https://github.com/whatwg/html/issues/9193,2023-04-20T23:18:15Z,2023-04-20T23:18:15Z,past,agenda+,0
 1676587334,false,Clarification on the DOM being a tree,https://github.com/whatwg/html/issues/9189,2023-04-20T12:03:44Z,2023-04-21T09:49:17Z,MrHBS,clarification,0
-1688386216,false,Clarification for <link> behavior in Declarative Shadow DOM,https://github.com/whatwg/html/issues/9232,2023-04-19T04:02:35Z,2023-04-28T11:27:37Z,bakura10,topic: shadow|topic: link,1
+1688386216,false,Clarification for <link> behavior in Declarative Shadow DOM,https://github.com/whatwg/html/issues/9232,2023-04-19T04:02:35Z,2023-04-28T13:09:57Z,bakura10,topic: shadow|topic: link,1
 1673113171,false,Make <img> src attribute optional if srcset is present,https://github.com/whatwg/html/issues/9181,2023-04-18T13:13:27Z,2023-04-20T14:42:16Z,foolip,document conformance|topic: img,1
 1671435300,false,The element could move to other document when showPopover,https://github.com/whatwg/html/issues/9177,2023-04-17T15:21:06Z,2023-04-18T18:19:41Z,cathiechen,topic: popover,0
 1669058371,true,Make number's and <input>'s get along better,https://github.com/whatwg/html/issues/9172,2023-04-14T23:52:47Z,2023-04-15T10:36:59Z,micDropper,,0
@@ -81,7 +82,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1625174180,false,Clarify selection behaviour of setting textarea value via property,https://github.com/whatwg/html/issues/9028,2023-03-15T10:00:22Z,2023-03-15T10:28:25Z,jnjaeschke,topic: forms,0
 1624192148,false,Sandboxed iframes without allow-same-origin and with about:blank or about:srcdoc urls should not inherit a fallback base url.,https://github.com/whatwg/html/issues/9025,2023-03-14T19:50:36Z,2023-04-06T23:37:14Z,wjmaclean,normative change|topic: sandbox,0
 1623693519,true,Density-corrected intrinsic width and height when current request's dimensions are unavailable,https://github.com/whatwg/html/issues/9023,2023-03-14T15:13:43Z,2023-04-27T00:42:22Z,zcorpan,topic: img,0
-1622494414,false,Resetting forms on document reactivation,https://github.com/whatwg/html/issues/9019,2023-03-14T00:08:14Z,2023-04-28T08:03:48Z,fergald,topic: forms,0
+1622494414,false,Resetting forms on document reactivation,https://github.com/whatwg/html/issues/9019,2023-03-14T00:08:14Z,2023-04-28T14:34:38Z,fergald,topic: forms,0
 1621394935,false,"Add ""lbry"" to scheme allowlist",https://github.com/whatwg/html/issues/9016,2023-03-13T12:31:10Z,2023-03-13T12:31:10Z,ben221199,,0
 1620806361,true,Specify processing model for dns-prefetch,https://github.com/whatwg/html/issues/9015,2023-03-13T05:58:50Z,2023-03-16T12:05:56Z,noamr,topic: resource hints (inc. preload),0
 1620435821,true,Need a clean and standardized way to retreive some informations about user agent enabled features from server side,https://github.com/whatwg/html/issues/9014,2023-03-12T17:00:05Z,2023-03-13T10:46:00Z,flavi1,,0
@@ -3069,7 +3070,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 216942182,true,"Event handler FunctionCreate uses an undefined variable ""global environment""",https://github.com/whatwg/html/issues/2467,2017-03-25T02:14:13Z,2019-07-08T18:16:04Z,domenic,good first issue|topic: script,0
 216835253,false,How does a list of available images used when parsing document with multiple img nodes with same src?,https://github.com/whatwg/html/issues/2465,2017-03-24T16:18:03Z,2020-11-24T17:47:17Z,LeonidVasilyev,topic: img,0
 216619081,true,Add additional feature names to window.open(),https://github.com/whatwg/html/issues/2464,2017-03-24T01:24:09Z,2022-03-04T22:39:37Z,foolip,topic: navigation|interop|topic: browsing context,0
-216579326,false,Proposal: new <radiogroup> element,https://github.com/whatwg/html/issues/2463,2017-03-23T21:32:48Z,2019-08-19T13:12:03Z,LeaVerou,addition/proposal|needs implementer interest|accessibility|topic: forms,9
+216579326,false,Proposal: new <radiogroup> element,https://github.com/whatwg/html/issues/2463,2017-03-23T21:32:48Z,2019-08-19T13:12:03Z,LeaVerou,addition/proposal|needs implementer interest|accessibility|topic: forms,10
 216571238,false,group IDL attribute (RadioNodeList) on HTMLInputElement,https://github.com/whatwg/html/issues/2462,2017-03-23T21:00:27Z,2017-03-27T07:57:16Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,1
 216569674,false,Event for monitoring radio button changes,https://github.com/whatwg/html/issues/2461,2017-03-23T20:54:19Z,2017-03-27T19:49:43Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,0
 216471252,true,The WebSocket constructor does not throw SecurityError on bad port anymore,https://github.com/whatwg/html/issues/2460,2017-03-23T15:34:18Z,2017-03-27T15:54:23Z,nox,,0
@@ -3432,7 +3433,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 176243059,false,rb and rtc element should be removed from the list of obsolete features,https://github.com/whatwg/html/issues/1771,2016-09-11T13:09:32Z,2022-10-24T01:32:48Z,upsuper,document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,0
 175980447,false,Specify how to fetch <link rel=icon>,https://github.com/whatwg/html/issues/1769,2016-09-09T10:43:37Z,2016-09-13T15:19:42Z,zcorpan,topic: fetch,0
 175916893,true,Multipage redirection isn't always working anymore,https://github.com/whatwg/html/issues/1767,2016-09-09T03:06:41Z,2016-09-12T21:33:24Z,domenic,spec tooling,0
-175905234,false,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2023-04-14T01:41:13Z,isonmad,addition/proposal|needs implementer interest|topic: events,14
+175905234,false,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2023-04-14T01:41:13Z,isonmad,addition/proposal|needs implementer interest|topic: events,15
 175646396,false,HTML  specification allows for cycles in Window / Location prototype chain,https://github.com/whatwg/html/issues/1760,2016-09-08T01:47:55Z,2018-08-23T21:46:52Z,cdumez,integration|topic: location,0
 175630444,true,"does this mean these - ""A settings object      An environment settings ..."" - are equivalent?",https://github.com/whatwg/html/issues/1759,2016-09-07T23:27:46Z,2016-09-16T22:53:50Z,equalsJeffH,,0
 175609093,true,moving well known HTML tags outside of SVG container,https://github.com/whatwg/html/issues/1758,2016-09-07T21:19:02Z,2016-09-08T15:12:43Z,djfd,,0
