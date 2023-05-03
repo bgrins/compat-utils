@@ -179,7 +179,6 @@ api/AudioEncoder/isConfigSupported,,,,94,,,,true,true,false,https://w3c.github.i
 api/AudioEncoder/reset,,,,94,,,,true,true,false,https://w3c.github.io/webcodecs/#dom-audioencoder-reset,W3C
 api/AudioEncoder/state,,,,94,,,,true,true,false,https://w3c.github.io/webcodecs/#dom-audioencoder-state,W3C
 api/AudioListener,,25,,14,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#AudioListener,W3C
-api/AudioListener/dopplerFactor,,25,,14,,6,,false,true,true,,NONE
 api/AudioListener/forwardX,,,,52,,14.1,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audiolistener-forwardx,W3C
 api/AudioListener/forwardY,,,,52,,14.1,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audiolistener-forwardy,W3C
 api/AudioListener/forwardZ,,,,52,,14.1,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audiolistener-forwardz,W3C
@@ -188,7 +187,6 @@ api/AudioListener/positionY,,,,52,,14.1,,false,true,false,https://webaudio.githu
 api/AudioListener/positionZ,,,,52,,14.1,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audiolistener-positionz,W3C
 api/AudioListener/setOrientation,,25,,14,,6,,false,true,true,https://webaudio.github.io/web-audio-api/#dom-audiolistener-setorientation,W3C
 api/AudioListener/setPosition,,25,,14,,6,,false,true,true,https://webaudio.github.io/web-audio-api/#dom-audiolistener-setposition,W3C
-api/AudioListener/speedOfSound,,25,,14,,6,,false,true,true,,NONE
 api/AudioListener/upX,,,,52,,14.1,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audiolistener-upx,W3C
 api/AudioListener/upY,,,,52,,14.1,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audiolistener-upy,W3C
 api/AudioListener/upZ,,,,52,,14.1,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audiolistener-upz,W3C
@@ -4599,7 +4597,6 @@ api/PannerNode/refDistance,,25,,14,,6,,false,true,false,https://webaudio.github.
 api/PannerNode/rolloffFactor,,25,,14,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-pannernode-rollofffactor,W3C
 api/PannerNode/setOrientation,,25,,14,,6,,false,true,true,https://webaudio.github.io/web-audio-api/#dom-pannernode-setorientation,W3C
 api/PannerNode/setPosition,,25,,14,,6,,false,true,true,https://webaudio.github.io/web-audio-api/#dom-pannernode-setposition,W3C
-api/PannerNode/setVelocity,,25,,14,,6,,false,true,true,,NONE
 api/PasswordCredential,,,,51,,,,true,true,false,https://w3c.github.io/webappsec-credential-management/#passwordcredential-interface,W3C
 api/PasswordCredential/PasswordCredential,,,,51,,,,true,true,false,https://w3c.github.io/webappsec-credential-management/#dom-passwordcredential-passwordcredential,W3C
 api/PasswordCredential/iconURL,,,,51,,,,true,true,false,https://w3c.github.io/webappsec-credential-management/#dom-credentialuserdata-iconurl,W3C
@@ -5283,7 +5280,7 @@ api/RTCStatsReport/get,,27,,58,,11,,false,true,false,,NONE
 api/RTCStatsReport/has,,27,,58,,11,,false,true,false,,NONE
 api/RTCStatsReport/keys,,48,,58,,11,,false,true,false,,NONE
 api/RTCStatsReport/size,,48,,59,,11,,false,true,false,,NONE
-api/RTCStatsReport/type_candidate-pair,,29,,58,,11,,false,true,false,https://www.w3.org/TR/webrtc-stats/#dom-rtcstatstype-candidate-pair,W3C
+api/RTCStatsReport/type_candidate-pair,,29,,58,,11,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstatstype-candidate-pair,W3C
 api/RTCStatsReport/type_candidate-pair/availableOutgoingBitrate,,,,58,,11,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-availableoutgoingbitrate,W3C
 api/RTCStatsReport/type_candidate-pair/bytesDiscardedOnSend,,,,96,,,,true,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-bytesdiscardedonsend,W3C
 api/RTCStatsReport/type_candidate-pair/bytesReceived,,56,,58,,11,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-bytesreceived,W3C
@@ -5309,14 +5306,14 @@ api/RTCStatsReport/type_candidate-pair/timestamp,,72,,80,,13.1,,false,true,false
 api/RTCStatsReport/type_candidate-pair/totalRoundTripTime,,,,71,,11,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-totalroundtriptime,W3C
 api/RTCStatsReport/type_candidate-pair/transportId,,56,,58,,11,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-transportid,W3C
 api/RTCStatsReport/type_candidate-pair/type,,72,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstats-type,W3C
-api/RTCStatsReport/type_certificate,,,,80,,13.1,,false,true,false,https://www.w3.org/TR/webrtc-stats/#dom-rtcstatstype-certificate,W3C
+api/RTCStatsReport/type_certificate,,,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstatstype-certificate,W3C
 api/RTCStatsReport/type_certificate/base64Certificate,,,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtccertificatestats-base64certificate,W3C
 api/RTCStatsReport/type_certificate/fingerprint,,,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtccertificatestats-fingerprint,W3C
 api/RTCStatsReport/type_certificate/fingerprintAlgorithm,,,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtccertificatestats-fingerprintalgorithm,W3C
 api/RTCStatsReport/type_certificate/id,,,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstats-id,W3C
 api/RTCStatsReport/type_certificate/timestamp,,,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstats-timestamp,W3C
 api/RTCStatsReport/type_certificate/type,,,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstats-type,W3C
-api/RTCStatsReport/type_codec,,98,,80,,13.1,,false,true,false,https://www.w3.org/TR/webrtc-stats/#dom-rtcstatstype-codec,W3C
+api/RTCStatsReport/type_codec,,98,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstatstype-codec,W3C
 api/RTCStatsReport/type_codec/channels,,98,,83,,14.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtccodecstats-channels,W3C
 api/RTCStatsReport/type_codec/clockRate,,98,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtccodecstats-clockrate,W3C
 api/RTCStatsReport/type_codec/id,,98,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstats-id,W3C
@@ -5326,7 +5323,7 @@ api/RTCStatsReport/type_codec/sdpFmtpLine,,98,,108,,,,false,true,false,https://w
 api/RTCStatsReport/type_codec/timestamp,,98,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstats-timestamp,W3C
 api/RTCStatsReport/type_codec/transportId,,98,,89,,,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtccodecstats-transportid,W3C
 api/RTCStatsReport/type_codec/type,,98,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstats-type,W3C
-api/RTCStatsReport/type_data-channel,,78,,80,,13.1,,false,true,false,https://www.w3.org/TR/webrtc-stats/#dom-rtcstatstype-data-channel,W3C
+api/RTCStatsReport/type_data-channel,,78,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstatstype-data-channel,W3C
 api/RTCStatsReport/type_data-channel/bytesReceived,,78,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcdatachannelstats-bytesreceived,W3C
 api/RTCStatsReport/type_data-channel/bytesSent,,78,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcdatachannelstats-bytessent,W3C
 api/RTCStatsReport/type_data-channel/dataChannelIdentifier,,78,,85,,,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcdatachannelstats-datachannelidentifier,W3C
@@ -5338,7 +5335,7 @@ api/RTCStatsReport/type_data-channel/protocol,,78,,80,,13.1,,false,true,false,ht
 api/RTCStatsReport/type_data-channel/state,,78,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcdatachannelstats-state,W3C
 api/RTCStatsReport/type_data-channel/timestamp,,78,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstats-timestamp,W3C
 api/RTCStatsReport/type_data-channel/type,,78,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstats-type,W3C
-api/RTCStatsReport/type_inbound-rtp,,27,,79,,11,,false,true,false,https://www.w3.org/TR/webrtc-stats/#dom-rtcstatstype-inbound-rtp,W3C
+api/RTCStatsReport/type_inbound-rtp,,27,,79,,11,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstatstype-inbound-rtp,W3C
 api/RTCStatsReport/type_inbound-rtp/audioLevel,,106,,86,,14.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcinboundrtpstreamstats-audiolevel,W3C
 api/RTCStatsReport/type_inbound-rtp/bytesReceived,,27,,79,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcinboundrtpstreamstats-bytesreceived,W3C
 api/RTCStatsReport/type_inbound-rtp/codecId,,98,,80,,15.2,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcrtpstreamstats-codecid,W3C
@@ -5362,7 +5359,6 @@ api/RTCStatsReport/type_inbound-rtp/packetsDiscarded,,96,,94,,15.4,,false,true,f
 api/RTCStatsReport/type_inbound-rtp/packetsLost,,72,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcreceivedrtpstreamstats-packetslost,W3C
 api/RTCStatsReport/type_inbound-rtp/packetsReceived,,72,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcreceivedrtpstreamstats-packetsreceived,W3C
 api/RTCStatsReport/type_inbound-rtp/playoutId,,,,111,,,,true,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcinboundrtpstreamstats-playoutid,W3C
-api/RTCStatsReport/type_inbound-rtp/qpSum,,,,,,11,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcinboundrtpstreamstats-qpsum,W3C
 api/RTCStatsReport/type_inbound-rtp/remoteId,,96,,,,,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcinboundrtpstreamstats-remoteid,W3C
 api/RTCStatsReport/type_inbound-rtp/removedSamplesForAcceleration,,106,,86,,14.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcinboundrtpstreamstats-removedsamplesforacceleration,W3C
 api/RTCStatsReport/type_inbound-rtp/silentConcealedSamples,,104,,86,,14.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcinboundrtpstreamstats-silentconcealedsamples,W3C
@@ -5374,7 +5370,7 @@ api/RTCStatsReport/type_inbound-rtp/totalSamplesReceived,,104,,86,,14.1,,false,t
 api/RTCStatsReport/type_inbound-rtp/trackIdentifier,,111,,105,,16.4,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcinboundrtpstreamstats-trackidentifier,W3C
 api/RTCStatsReport/type_inbound-rtp/transportId,,,,80,,11,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcrtpstreamstats-transportid,W3C
 api/RTCStatsReport/type_inbound-rtp/type,,72,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstats-type,W3C
-api/RTCStatsReport/type_local-candidate,,27,,80,,12.1,,false,true,false,https://www.w3.org/TR/webrtc-stats/#dom-rtcstatstype-local-candidate,W3C
+api/RTCStatsReport/type_local-candidate,,27,,80,,12.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstatstype-local-candidate,W3C
 api/RTCStatsReport/type_local-candidate/address,,65,,91,,,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatestats-address,W3C
 api/RTCStatsReport/type_local-candidate/candidateType,,27,,80,,12.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatestats-candidatetype,W3C
 api/RTCStatsReport/type_local-candidate/foundation,,,,108,,,,true,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatestats-foundation,W3C
@@ -5386,7 +5382,7 @@ api/RTCStatsReport/type_local-candidate/timestamp,,72,,80,,13.1,,false,true,fals
 api/RTCStatsReport/type_local-candidate/transportId,,31,,80,,12.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatestats-transportid,W3C
 api/RTCStatsReport/type_local-candidate/type,,72,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstats-type,W3C
 api/RTCStatsReport/type_local-candidate/usernameFragment,,,,108,,,,true,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatestats-usernamefragment,W3C
-api/RTCStatsReport/type_media-playout,,,,111,,,,false,true,false,https://www.w3.org/TR/webrtc-stats/#dom-rtcstatstype-media-playout,W3C
+api/RTCStatsReport/type_media-playout,,,,111,,,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstatstype-media-playout,W3C
 api/RTCStatsReport/type_media-playout/id,,,,111,,,,true,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstats-id,W3C
 api/RTCStatsReport/type_media-playout/kind,,,,111,,,,true,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcaudioplayoutstats-kind,W3C
 api/RTCStatsReport/type_media-playout/synthesizedSamplesDuration,,,,111,,,,true,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcaudioplayoutstats-synthesizedsamplesduration,W3C
@@ -5396,7 +5392,7 @@ api/RTCStatsReport/type_media-playout/totalPlayoutDelay,,,,111,,,,true,true,fals
 api/RTCStatsReport/type_media-playout/totalSamplesCount,,,,111,,,,true,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcaudioplayoutstats-totalsamplescount,W3C
 api/RTCStatsReport/type_media-playout/totalSamplesDuration,,,,111,,,,true,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcaudioplayoutstats-totalsamplesduration,W3C
 api/RTCStatsReport/type_media-playout/type,,,,111,,,,true,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstats-type,W3C
-api/RTCStatsReport/type_media-source,,113,,80,,14.1,,false,true,false,https://www.w3.org/TR/webrtc-stats/#dom-rtcstatstype-media-source,W3C
+api/RTCStatsReport/type_media-source,,113,,80,,14.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstatstype-media-source,W3C
 api/RTCStatsReport/type_media-source/audioLevel,,,,80,,,,true,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcaudiosourcestats-audiolevel,W3C
 api/RTCStatsReport/type_media-source/id,,113,,80,,14.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstats-id,W3C
 api/RTCStatsReport/type_media-source/kind,,113,,80,,14.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcmediasourcestats-kind,W3C
@@ -5405,7 +5401,7 @@ api/RTCStatsReport/type_media-source/totalAudioEnergy,,,,80,,,,true,true,false,h
 api/RTCStatsReport/type_media-source/totalSamplesDuration,,,,80,,,,true,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcaudiosourcestats-totalsamplesduration,W3C
 api/RTCStatsReport/type_media-source/trackIdentifier,,113,,80,,14.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcmediasourcestats-trackidentifier,W3C
 api/RTCStatsReport/type_media-source/type,,113,,80,,14.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstats-type,W3C
-api/RTCStatsReport/type_outbound-rtp,,27,,80,,11,,false,true,false,https://www.w3.org/TR/webrtc-stats/#dom-rtcstatstype-outbound-rtp,W3C
+api/RTCStatsReport/type_outbound-rtp,,27,,80,,11,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstatstype-outbound-rtp,W3C
 api/RTCStatsReport/type_outbound-rtp/active,,,,106,,,,true,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcoutboundrtpstreamstats-active,W3C
 api/RTCStatsReport/type_outbound-rtp/bytesSent,,72,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcsentrtpstreamstats-bytessent,W3C
 api/RTCStatsReport/type_outbound-rtp/codecId,,98,,80,,11,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcrtpstreamstats-codecid,W3C
@@ -5416,7 +5412,6 @@ api/RTCStatsReport/type_outbound-rtp/mediaSourceId,,,,80,,14.1,,false,true,false
 api/RTCStatsReport/type_outbound-rtp/mid,,,,105,,,,true,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcoutboundrtpstreamstats-mid,W3C
 api/RTCStatsReport/type_outbound-rtp/nackCount,,55,,93,,15.4,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcoutboundrtpstreamstats-nackcount,W3C
 api/RTCStatsReport/type_outbound-rtp/packetsSent,,27,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcsentrtpstreamstats-packetssent,W3C
-api/RTCStatsReport/type_outbound-rtp/qpSum,,,,,,11,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcoutboundrtpstreamstats-qpsum,W3C
 api/RTCStatsReport/type_outbound-rtp/remoteId,,27,,,,15.3,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcoutboundrtpstreamstats-remoteid,W3C
 api/RTCStatsReport/type_outbound-rtp/retransmittedBytesSent,,100,,80,,14.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcoutboundrtpstreamstats-retransmittedbytessent,W3C
 api/RTCStatsReport/type_outbound-rtp/retransmittedPacketsSent,,100,,80,,14.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcoutboundrtpstreamstats-retransmittedpacketssent,W3C
@@ -5426,13 +5421,13 @@ api/RTCStatsReport/type_outbound-rtp/timestamp,,72,,80,,13.1,,false,true,false,h
 api/RTCStatsReport/type_outbound-rtp/totalPacketSendDelay,,,,109,,,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcoutboundrtpstreamstats-totalpacketsenddelay,W3C
 api/RTCStatsReport/type_outbound-rtp/transportId,,,,80,,11,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcrtpstreamstats-transportid,W3C
 api/RTCStatsReport/type_outbound-rtp/type,,72,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstats-type,W3C
-api/RTCStatsReport/type_peer-connection,,113,,80,,13.1,,false,true,false,https://www.w3.org/TR/webrtc-stats/#dom-rtcstatstype-peer-connection,W3C
+api/RTCStatsReport/type_peer-connection,,113,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstatstype-peer-connection,W3C
 api/RTCStatsReport/type_peer-connection/dataChannelsClosed,,113,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcpeerconnectionstats-datachannelsclosed,W3C
 api/RTCStatsReport/type_peer-connection/dataChannelsOpened,,113,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcpeerconnectionstats-datachannelsopened,W3C
 api/RTCStatsReport/type_peer-connection/id,,113,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstats-id,W3C
 api/RTCStatsReport/type_peer-connection/timestamp,,113,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstats-timestamp,W3C
 api/RTCStatsReport/type_peer-connection/type,,113,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstats-type,W3C
-api/RTCStatsReport/type_remote-candidate,,27,,80,,12.1,,false,true,false,https://www.w3.org/TR/webrtc-stats/#dom-rtcstatstype-remote-candidate,W3C
+api/RTCStatsReport/type_remote-candidate,,27,,80,,12.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstatstype-remote-candidate,W3C
 api/RTCStatsReport/type_remote-candidate/address,,65,,91,,,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatestats-address,W3C
 api/RTCStatsReport/type_remote-candidate/candidateType,,27,,80,,12.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatestats-candidatetype,W3C
 api/RTCStatsReport/type_remote-candidate/foundation,,,,108,,,,true,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatestats-foundation,W3C
@@ -5444,7 +5439,7 @@ api/RTCStatsReport/type_remote-candidate/timestamp,,72,,80,,13.1,,false,true,fal
 api/RTCStatsReport/type_remote-candidate/transportId,,31,,80,,12.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatestats-transportid,W3C
 api/RTCStatsReport/type_remote-candidate/type,,72,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstats-type,W3C
 api/RTCStatsReport/type_remote-candidate/usernameFragment,,,,108,,,,true,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatestats-usernamefragment,W3C
-api/RTCStatsReport/type_remote-inbound-rtp,,27,,80,,11,,false,true,false,https://www.w3.org/TR/webrtc-stats/#dom-rtcstatstype-remote-inbound-rtp,W3C
+api/RTCStatsReport/type_remote-inbound-rtp,,27,,80,,11,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstatstype-remote-inbound-rtp,W3C
 api/RTCStatsReport/type_remote-inbound-rtp/codecId,,98,,80,,11,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcrtpstreamstats-codecid,W3C
 api/RTCStatsReport/type_remote-inbound-rtp/fractionLost,,106,,91,,,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcremoteinboundrtpstreamstats-fractionlost,W3C
 api/RTCStatsReport/type_remote-inbound-rtp/id,,72,,80,,14.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstats-id,W3C
@@ -5460,7 +5455,7 @@ api/RTCStatsReport/type_remote-inbound-rtp/timestamp,,72,,80,,14.1,,false,true,f
 api/RTCStatsReport/type_remote-inbound-rtp/totalRoundTripTime,,106,,91,,,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcremoteinboundrtpstreamstats-totalroundtriptime,W3C
 api/RTCStatsReport/type_remote-inbound-rtp/transportId,,,,80,,11,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcrtpstreamstats-transportid,W3C
 api/RTCStatsReport/type_remote-inbound-rtp/type,,72,,80,,14.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstats-type,W3C
-api/RTCStatsReport/type_remote-outbound-rtp,,27,,96,,11,,false,true,false,https://www.w3.org/TR/webrtc-stats/#dom-rtcstatstype-remote-outbound-rtp,W3C
+api/RTCStatsReport/type_remote-outbound-rtp,,27,,96,,11,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstatstype-remote-outbound-rtp,W3C
 api/RTCStatsReport/type_remote-outbound-rtp/bytesSent,,72,,96,,,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcsentrtpstreamstats-bytessent,W3C
 api/RTCStatsReport/type_remote-outbound-rtp/codecId,,98,,96,,11,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcrtpstreamstats-codecid,W3C
 api/RTCStatsReport/type_remote-outbound-rtp/id,,72,,96,,,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstats-id,W3C
@@ -5475,7 +5470,7 @@ api/RTCStatsReport/type_remote-outbound-rtp/timestamp,,72,,96,,,,false,true,fals
 api/RTCStatsReport/type_remote-outbound-rtp/totalRoundTripTime,,,,96,,,,true,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcremoteoutboundrtpstreamstats-totalroundtriptime,W3C
 api/RTCStatsReport/type_remote-outbound-rtp/transportId,,,,96,,11,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcrtpstreamstats-transportid,W3C
 api/RTCStatsReport/type_remote-outbound-rtp/type,,72,,96,,,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstats-type,W3C
-api/RTCStatsReport/type_transport,,,,80,,13.1,,false,true,false,https://www.w3.org/TR/webrtc-stats/#dom-rtcstatstype-transport,W3C
+api/RTCStatsReport/type_transport,,,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtcstatstype-transport,W3C
 api/RTCStatsReport/type_transport/bytesReceived,,,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtctransportstats-bytesreceived,W3C
 api/RTCStatsReport/type_transport/bytesSent,,,,80,,13.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtctransportstats-bytessent,W3C
 api/RTCStatsReport/type_transport/dtlsCipher,,,,80,,14.1,,false,true,false,https://w3c.github.io/webrtc-stats/#dom-rtctransportstats-dtlscipher,W3C
@@ -11400,8 +11395,8 @@ javascript/builtins/Intl/NumberFormat/NumberFormat/options_useGrouping_parameter
 javascript/builtins/Intl/NumberFormat/NumberFormat/options_useGrouping_parameter/string_values,,,,,,,,true,true,false,,NONE
 javascript/builtins/Intl/NumberFormat/format,,29,,24,,10,,false,true,false,https://tc39.es/ecma402/#sec-intl.numberformat.prototype.format,TC39
 javascript/builtins/Intl/NumberFormat/format/number_parameter-string_decimal,,,,,,,,true,true,false,,NONE
-javascript/builtins/Intl/NumberFormat/formatRange,,,,106,,15.4,,false,true,false,https://tc39.es/proposal-intl-numberformat-v3/out/numberformat/proposed.html#sec-intl.numberformat.prototype.formatrange,TC39
-javascript/builtins/Intl/NumberFormat/formatRangeToParts,,,,106,,15.4,,false,true,false,https://tc39.es/proposal-intl-numberformat-v3/out/numberformat/proposed.html#sec-intl.numberformat.prototype.formatrangetoparts,TC39
+javascript/builtins/Intl/NumberFormat/formatRange,,,,106,,15.4,,false,true,false,https://tc39.es/ecma402/#sec-intl.numberformat.prototype.formatrange,TC39
+javascript/builtins/Intl/NumberFormat/formatRangeToParts,,,,106,,15.4,,false,true,false,https://tc39.es/ecma402/#sec-intl.numberformat.prototype.formatrangetoparts,TC39
 javascript/builtins/Intl/NumberFormat/formatToParts,,58,,64,,13,,false,true,false,https://tc39.es/ecma402/#sec-intl.numberformat.prototype.formattoparts,TC39
 javascript/builtins/Intl/NumberFormat/resolvedOptions,,29,,24,,10,,false,true,false,https://tc39.es/ecma402/#sec-intl.numberformat.prototype.resolvedoptions,TC39
 javascript/builtins/Intl/NumberFormat/resolvedOptions/result_useGrouping_property,,,,,,,,true,true,false,,NONE
@@ -11410,7 +11405,7 @@ javascript/builtins/Intl/PluralRules,,58,,63,,13,,false,true,false,https://tc39.
 javascript/builtins/Intl/PluralRules/PluralRules,,58,,63,,13,,false,true,false,https://tc39.es/ecma402/#sec-intl-pluralrules-constructor,TC39
 javascript/builtins/Intl/PluralRules/resolvedOptions,,58,,63,,13,,false,true,false,https://tc39.es/ecma402/#sec-intl.pluralrules.prototype.resolvedoptions,TC39
 javascript/builtins/Intl/PluralRules/select,,58,,63,,13,,false,true,false,https://tc39.es/ecma402/#sec-intl.pluralrules.prototype.select,TC39
-javascript/builtins/Intl/PluralRules/selectRange,,,,106,,15.4,,false,true,false,https://tc39.es/proposal-intl-numberformat-v3/out/pluralrules/proposed.html#sec-intl.pluralrules.prototype.selectrange,TC39
+javascript/builtins/Intl/PluralRules/selectRange,,,,106,,15.4,,false,true,false,https://tc39.es/ecma402/#sec-intl.pluralrules.prototype.selectrange,TC39
 javascript/builtins/Intl/PluralRules/supportedLocalesOf,,58,,63,,13,,false,true,false,https://tc39.es/ecma402/#sec-intl.pluralrules.supportedlocalesof,TC39
 javascript/builtins/Intl/RelativeTimeFormat,,65,,71,,14,,false,true,false,https://tc39.es/ecma402/#relativetimeformat-objects,TC39
 javascript/builtins/Intl/RelativeTimeFormat/RelativeTimeFormat,,65,,71,,14,,false,true,false,https://tc39.es/ecma402/#sec-intl-relativetimeformat-constructor,TC39
@@ -11428,7 +11423,7 @@ javascript/builtins/Intl/Segments,,,,87,,14.1,,false,true,false,https://tc39.es/
 javascript/builtins/Intl/Segments/@@iterator,,,,87,,14.1,,false,true,false,https://tc39.es/ecma402/#sec-%segmentsprototype%-@@iterator,TC39
 javascript/builtins/Intl/Segments/containing,,,,87,,14.1,,false,true,false,https://tc39.es/ecma402/#sec-%segmentsprototype%.containing,TC39
 javascript/builtins/Intl/getCanonicalLocales,,48,,54,,10.1,,false,true,false,https://tc39.es/ecma402/#sec-intl.getcanonicallocales,TC39
-javascript/builtins/Intl/supportedValuesOf,,93,,99,,15.4,,false,true,false,https://tc39.es/proposal-intl-enumeration/#sec-intl.supportedvaluesof,TC39
+javascript/builtins/Intl/supportedValuesOf,,93,,99,,15.4,,false,true,false,https://tc39.es/ecma402/#sec-intl.supportedvaluesof,TC39
 javascript/builtins/Iterator,,17,,38,,10,,false,true,false,https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-%iteratorprototype%-object,TC39
 javascript/builtins/Iterator/@@iterator,,36,,38,,10,,false,true,false,https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-%iteratorprototype%-@@iterator,TC39
 javascript/builtins/JSON,,3.5,,3,,4,,false,true,false,https://tc39.es/ecma262/multipage/structured-data.html#sec-json-object,TC39

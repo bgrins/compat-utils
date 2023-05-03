@@ -1,4 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1693123474,false,Why isn't the `hr` element allowed to be used inside the `optgroup` element as a separator?,https://github.com/whatwg/html/issues/9247,2023-05-02T21:26:28Z,2023-05-02T21:26:28Z,mtrootyy,,0
+1692475133,false,Focus delegate algorithm doesn't consider elements assigned to slot,https://github.com/whatwg/html/issues/9245,2023-05-02T13:55:51Z,2023-05-02T13:55:51Z,sefeng211,topic: focus,0
 1692072317,false,Specify expected behavior for when users change input field directionality,https://github.com/whatwg/html/issues/9244,2023-05-02T09:19:39Z,2023-05-02T11:42:54Z,zcorpan,topic: forms|i18n-tracker|topic: editing,0
 1690015106,false,Sharing user activation with an iframe (or implement `allow-X-without-user-activation` for every `X`),https://github.com/whatwg/html/issues/9237,2023-04-30T17:54:15Z,2023-05-01T02:06:25Z,josephrocca,topic: user activation|topic: sandbox,0
 1687109600,true,Export Window's navigable,https://github.com/whatwg/html/issues/9226,2023-04-27T15:40:39Z,2023-04-28T08:11:19Z,npm1,,0
@@ -35,7 +37,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1658447667,false,Navigation sourceDocument for browser-initiated navigations,https://github.com/whatwg/html/issues/9133,2023-04-07T06:56:05Z,2023-04-28T07:55:42Z,domenic,topic: navigation,0
 1658170692,true,Upcoming HTML standard issue triage meeting on 4/20/2023,https://github.com/whatwg/html/issues/9132,2023-04-06T23:39:43Z,2023-04-20T23:23:15Z,past,agenda+,0
 1656257748,true,Setting input type=date value attribute doesn't pre-populate the input if there's a time,https://github.com/whatwg/html/issues/9128,2023-04-05T20:37:06Z,2023-04-28T08:19:08Z,jfbrennan,,0
-1655838735,false,"Consider allowing <hr> within list elements (ol, ul, menu)",https://github.com/whatwg/html/issues/9126,2023-04-05T15:25:32Z,2023-04-05T15:29:45Z,scottaohara,addition/proposal|document conformance|accessibility|a11y-tracker,2
+1655838735,false,"Consider allowing <hr> within list elements (ol, ul, menu)",https://github.com/whatwg/html/issues/9126,2023-04-05T15:25:32Z,2023-04-05T15:29:45Z,scottaohara,addition/proposal|document conformance|accessibility|a11y-tracker,5
 1655605700,true,"Popover: The ""map"" in the topmost popover ancestor algorithm does not mean the map element.",https://github.com/whatwg/html/issues/9125,2023-04-05T13:17:24Z,2023-04-24T14:44:55Z,cathiechen,clarification|topic: popover,0
 1654846210,false,anonymous fieldset content box's block-size:100% leads to unintuitive behavior,https://github.com/whatwg/html/issues/9123,2023-04-05T02:50:15Z,2023-04-19T22:22:03Z,davidsgrogan,topic: rendering|interop|topic: fieldset,0
 1654771406,false,"""Loading a document for inline content that doesn't have a DOM"" uses non-existing response",https://github.com/whatwg/html/issues/9122,2023-04-05T01:03:20Z,2023-04-28T08:01:57Z,kalenikaliaksandr,topic: navigation,0
@@ -72,11 +74,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1629156392,false,Should popover/dialog show/hide when already shown/hidden throw?,https://github.com/whatwg/html/issues/9045,2023-03-17T11:32:41Z,2023-04-10T15:32:10Z,jakearchibald,topic: dialog|topic: popover,6
 1629078964,false,<dialog> Unclear method of altering/reading attributes,https://github.com/whatwg/html/issues/9044,2023-03-17T10:35:36Z,2023-03-17T11:06:53Z,jakearchibald,topic: dialog,0
 1628986537,false,Should togglePopover() return a boolean?,https://github.com/whatwg/html/issues/9043,2023-03-17T09:30:48Z,2023-04-20T14:37:48Z,jakearchibald,addition/proposal|needs implementer interest|topic: popover,0
-1628760896,false,popover attribute may not be web compatible,https://github.com/whatwg/html/issues/9042,2023-03-17T06:11:49Z,2023-04-17T04:48:21Z,nt1m,compat|topic: popover,0
+1628760896,false,popover attribute may not be web compatible,https://github.com/whatwg/html/issues/9042,2023-03-17T06:11:49Z,2023-05-03T00:02:55Z,nt1m,compat|topic: popover,0
 1628624650,false,"What is the web's ""story"" for distributing local-first apps?",https://github.com/whatwg/html/issues/9041,2023-03-17T03:24:01Z,2023-03-17T03:24:01Z,josephrocca,,0
 1628154493,false,change event for textareas doesn't seem to be defined,https://github.com/whatwg/html/issues/9040,2023-03-16T19:44:00Z,2023-03-21T22:19:23Z,nt1m,topic: forms|topic: events,0
 1627727891,false,WPT subtest testing beforetoggle during showPopover(),https://github.com/whatwg/html/issues/9037,2023-03-16T15:18:02Z,2023-03-21T23:26:26Z,rwlbuis,topic: popover,0
-1627542966,false,Questions/issues with popover spec,https://github.com/whatwg/html/issues/9036,2023-03-16T13:57:50Z,2023-05-01T20:05:21Z,jakearchibald,topic: popover,0
+1627542966,false,Questions/issues with popover spec,https://github.com/whatwg/html/issues/9036,2023-03-16T13:57:50Z,2023-05-02T15:35:25Z,jakearchibald,topic: popover,0
 1627337028,false,Govern dns-prefetch and preconnect with CSP,https://github.com/whatwg/html/issues/9035,2023-03-16T12:04:58Z,2023-03-21T05:30:20Z,annevk,integration|topic: resource hints (inc. preload),0
 1626813114,true,Should attribute change steps fire beforetoggle events?,https://github.com/whatwg/html/issues/9034,2023-03-16T06:34:18Z,2023-04-19T22:04:26Z,nt1m,topic: popover,0
 1626564469,false,Improve conformance requirements on <link> attributes,https://github.com/whatwg/html/issues/9031,2023-03-16T02:10:53Z,2023-03-16T02:10:53Z,domenic,document conformance|topic: link|topic: resource hints (inc. preload),0
@@ -325,7 +327,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1390812834,false,Date picker access in contenteditable elements,https://github.com/whatwg/html/issues/8335,2022-09-29T12:47:01Z,2022-09-29T12:47:38Z,OvidijusParsiunas,,0
 1390400651,true,<link rel=preload> as attribute supports less than potential destination,https://github.com/whatwg/html/issues/8332,2022-09-29T07:37:28Z,2023-04-28T08:21:46Z,annevk,topic: resource hints (inc. preload),0
 1390373144,true,Broken link to Latest Editor's Draft,https://github.com/whatwg/html/issues/8331,2022-09-29T07:14:02Z,2022-09-29T07:23:09Z,aldimhr,,0
-1390178846,false,"<link> base URL should use document's base URL, not document's URL",https://github.com/whatwg/html/issues/8330,2022-09-29T02:58:47Z,2023-04-27T06:44:45Z,domenic,topic: link,0
+1390178846,true,"<link> base URL should use document's base URL, not document's URL",https://github.com/whatwg/html/issues/8330,2022-09-29T02:58:47Z,2023-05-02T12:46:48Z,domenic,topic: link,0
 1389909957,true,Add 'hash' attribute to elements that have a 'src' attribute in order to allow for URI independant cacheing,https://github.com/whatwg/html/issues/8329,2022-09-28T20:29:11Z,2022-09-29T02:36:49Z,schweini,,0
 1385603026,true,Is a general Script: header a good idea?,https://github.com/whatwg/html/issues/8321,2022-09-26T07:52:23Z,2022-10-17T02:22:03Z,domenic,topic: script,0
 1384729843,false,"Standardize ""writing-mode"" for audio[controls] in UA Stylesheet",https://github.com/whatwg/html/issues/8316,2022-09-24T16:15:02Z,2022-09-27T09:24:20Z,Ahmad-S792,topic: rendering|i18n-tracker|i18n-jlreq|i18n-clreq|i18n-mlreq,0
@@ -2456,7 +2458,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 307205459,true,Participation status checks not green on master,https://github.com/whatwg/html/issues/3582,2018-03-21T11:22:15Z,2018-04-26T19:14:37Z,annevk,spec tooling,0
 307189256,false,Editorial: (re)adopt ECMAScript conventions,https://github.com/whatwg/html/issues/3581,2018-03-21T10:29:42Z,2018-03-21T10:29:42Z,annevk,clarification,1
 307057087,false,window.customElements.define retrieves the lifetime callbacks in an odd order,https://github.com/whatwg/html/issues/3580,2018-03-20T22:10:12Z,2019-07-09T15:28:51Z,mrbkap,normative change|topic: custom elements,0
-306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2020-05-24T11:41:53Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,16
+306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2020-05-24T11:41:53Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,17
 306030693,false,<embed> and <object> should define cleanup steps,https://github.com/whatwg/html/issues/3576,2018-03-16T18:20:24Z,2018-04-04T14:24:31Z,zetafunction,topic: embed and object,0
 305999314,false,"What is the point of the ""NewTarget is equal to the active function object"" in [HTMLConstructor]?",https://github.com/whatwg/html/issues/3575,2018-03-16T16:43:28Z,2018-05-02T20:42:55Z,bzbarsky,topic: custom elements,0
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
@@ -2552,7 +2554,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 292255532,true,"<script> processing model should use child text content, not the text IDL attribute",https://github.com/whatwg/html/issues/3420,2018-01-29T00:40:50Z,2018-01-29T04:53:33Z,domenic,clarification|good first issue|topic: script,0
 292255410,true,<script> processing model with various children,https://github.com/whatwg/html/issues/3419,2018-01-29T00:39:00Z,2018-02-12T16:00:16Z,domenic,topic: script|interop,0
 292127534,true,"Add value / placeholder behavior to the <input type=""date""> spec",https://github.com/whatwg/html/issues/3413,2018-01-27T15:06:45Z,2018-01-28T11:42:55Z,MrFaul,addition/proposal|needs implementer interest|topic: forms,0
-291996180,false,Proposal: Allow adding separator rows to <select> boxes using <hr>,https://github.com/whatwg/html/issues/3410,2018-01-26T18:50:22Z,2023-04-06T14:15:29Z,a2sheppy,addition/proposal|needs implementer interest|topic: forms,0
+291996180,true,Proposal: Allow adding separator rows to <select> boxes using <hr>,https://github.com/whatwg/html/issues/3410,2018-01-26T18:50:22Z,2023-05-02T14:41:02Z,a2sheppy,addition/proposal|topic: forms,0
 291918679,false,Canvas hit regions proposal,https://github.com/whatwg/html/issues/3407,2018-01-26T14:33:05Z,2022-06-08T09:57:06Z,annevk,addition/proposal|needs implementer interest|topic: canvas|accessibility,3
 291583266,true,Define webgl2 context,https://github.com/whatwg/html/issues/3404,2018-01-25T14:12:40Z,2018-08-30T07:11:30Z,annevk,topic: canvas|integration,1
 291547569,true,How should document.body setter behave when root is not an `<html>`?,https://github.com/whatwg/html/issues/3403,2018-01-25T12:06:56Z,2018-02-12T16:20:10Z,bzbarsky,interop,0

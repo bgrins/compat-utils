@@ -1,7 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1692646410,true,Add parameters to popover attribute change steps,https://github.com/whatwg/html/pull/9246,2023-05-02T15:34:48Z,2023-05-02T15:43:53Z,josepharhar,topic: popover,0
 1691711079,true,Editorial: insert missing double quote characters,https://github.com/whatwg/html/pull/9242,2023-05-02T03:11:13Z,2023-05-02T04:40:06Z,jugglinmike,,0
-1691291442,false,Make auto popover list an algorithm,https://github.com/whatwg/html/pull/9241,2023-05-01T20:05:10Z,2023-05-01T20:06:24Z,josepharhar,,0
-1689834738,false,Use base URL instead of URL for links,https://github.com/whatwg/html/pull/9236,2023-04-30T08:45:24Z,2023-05-01T07:48:12Z,noamr,,0
+1691291442,false,Make auto popover list an algorithm,https://github.com/whatwg/html/pull/9241,2023-05-01T20:05:10Z,2023-05-02T17:28:05Z,josepharhar,topic: popover,0
+1689834738,true,Use base URL instead of URL for links,https://github.com/whatwg/html/pull/9236,2023-04-30T08:45:24Z,2023-05-02T12:47:04Z,noamr,topic: link,0
 1687841765,true,Meta: export Window's navigable,https://github.com/whatwg/html/pull/9229,2023-04-28T03:33:37Z,2023-04-28T08:11:19Z,domenic,,0
 1686196867,true,"Prefetch: Specify ""appropriate times to fetch and process""",https://github.com/whatwg/html/pull/9223,2023-04-27T06:25:14Z,2023-04-27T09:15:22Z,noamr,topic: link|topic: resource hints (inc. preload),0
 1684188006,false,Clarify WebTransport BFCache interaction,https://github.com/whatwg/html/pull/9217,2023-04-26T03:04:11Z,2023-04-26T06:08:11Z,nidhijaju,,0
@@ -21,7 +22,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1671928914,false,Only restore dialog focus if focus is in the dialog,https://github.com/whatwg/html/pull/9178,2023-04-17T20:35:40Z,2023-04-26T05:18:28Z,josepharhar,topic: focus|topic: dialog,0
 1669042716,false,Only use the used invoker to establish popover hierarchy,https://github.com/whatwg/html/pull/9171,2023-04-14T23:15:12Z,2023-04-27T20:27:59Z,josepharhar,topic: popover,0
 1668446599,true,Fix var/ref name mismatch with s/intendToStoreInBfcache/intendToKeepInBfcache/,https://github.com/whatwg/html/pull/9170,2023-04-14T15:13:52Z,2023-04-17T12:18:58Z,jan-ivar,topic: history,0
-1666970337,false,Update the :dir / directionality to include shadow dom,https://github.com/whatwg/html/pull/9166,2023-04-13T18:54:01Z,2023-04-28T15:46:25Z,bkardell,,0
+1666970337,false,Update the :dir / directionality to include shadow dom,https://github.com/whatwg/html/pull/9166,2023-04-13T18:54:01Z,2023-05-02T22:47:07Z,bkardell,,0
 1666849333,true,Don't fire popover events during attribute change steps,https://github.com/whatwg/html/pull/9165,2023-04-13T17:32:17Z,2023-04-19T22:06:09Z,nt1m,topic: popover,0
 1666310483,true,[meta] Mark seven definitions as exported,https://github.com/whatwg/html/pull/9163,2023-04-13T12:20:28Z,2023-04-17T06:40:51Z,dontcallmedom,,0
 1665915432,false,Do not do same-URL replace navigations when initiated cross-origin,https://github.com/whatwg/html/pull/9157,2023-04-13T07:58:01Z,2023-04-27T01:37:25Z,domenic,normative change|topic: navigation|security/privacy|topic: history,0
@@ -34,13 +35,13 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1660416855,true,"Fix ""active frame element"" definition",https://github.com/whatwg/html/pull/9139,2023-04-10T08:08:01Z,2023-04-28T07:31:26Z,domenic,topic: browsing context,0
 1659698554,true,Mudei o titulo (apenas para um teste da aula do youtube),https://github.com/whatwg/html/pull/9137,2023-04-09T01:21:57Z,2023-04-09T04:25:54Z,CharlesRobertoAlegre,spam,0
 1657789416,true,Fix a typo regarding formStateRestoreCallback,https://github.com/whatwg/html/pull/9130,2023-04-06T17:19:55Z,2023-04-24T14:47:24Z,xiaochengh,topic: custom elements,0
-1655536568,false,Allow <hr> to be used inside <select> as a separator,https://github.com/whatwg/html/pull/9124,2023-04-05T12:32:26Z,2023-05-02T11:48:10Z,annevk,addition/proposal|needs implementer interest|document conformance|topic: parser|topic: forms|agenda+,0
-1654364500,true,Use dialog initial focus for dialog popovers,https://github.com/whatwg/html/pull/9121,2023-04-04T18:27:26Z,2023-04-24T16:12:24Z,josepharhar,normative change|topic: focus|topic: dialog|topic: popover,0
+1655536568,true,Allow <hr> to be used inside <select> as a separator,https://github.com/whatwg/html/pull/9124,2023-04-05T12:32:26Z,2023-05-02T16:55:41Z,annevk,addition/proposal|document conformance|topic: parser|topic: forms,0
+1654364500,true,Use dialog initial focus for dialog popovers,https://github.com/whatwg/html/pull/9121,2023-04-04T18:27:26Z,2023-05-02T20:08:46Z,josepharhar,normative change|topic: focus|topic: dialog|topic: popover,0
 1654233635,false,Skip descendant dialogs and popovers for autofocus,https://github.com/whatwg/html/pull/9120,2023-04-04T16:50:00Z,2023-04-19T18:27:26Z,josepharhar,normative change|topic: focus|topic: dialog|topic: popover,0
 1653147495,true,"Remove ""element-attr"" from non-attribute terms",https://github.com/whatwg/html/pull/9118,2023-04-04T04:20:19Z,2023-04-06T05:46:23Z,gnpivo,,0
 1653127603,true,"Remove ""element-attr"" from non-attribute terms",https://github.com/whatwg/html/pull/9117,2023-04-04T03:52:52Z,2023-04-04T04:20:09Z,gnpivo,,0
 1648732472,true,"Export ""reactivate a document""",https://github.com/whatwg/html/pull/9096,2023-03-31T06:09:12Z,2023-03-31T12:25:53Z,rakina,,0
-1648089210,false,Use CSS spec for top layer,https://github.com/whatwg/html/pull/9093,2023-03-30T18:14:31Z,2023-04-28T08:55:11Z,josepharhar,topic: rendering|integration,0
+1648089210,false,Use CSS spec for top layer,https://github.com/whatwg/html/pull/9093,2023-03-30T18:14:31Z,2023-05-02T16:21:49Z,josepharhar,topic: rendering|integration,0
 1646532457,true,Fix a typo in User Activation processing model.,https://github.com/whatwg/html/pull/9091,2023-03-29T21:07:39Z,2023-03-31T05:19:36Z,mustaqahmed,topic: user activation,0
 1646278992,false,editorial: add custom element extensibility bullet,https://github.com/whatwg/html/pull/9088,2023-03-29T18:03:36Z,2023-04-24T14:50:30Z,bkardell,,0
 1644980345,true,Create API top layer,https://github.com/whatwg/html/pull/9085,2023-03-29T03:40:08Z,2023-03-29T05:47:33Z,akshaya-hub,spam,0
