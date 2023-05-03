@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1693123474,false,Why isn't the `hr` element allowed to be used inside the `optgroup` element as a separator?,https://github.com/whatwg/html/issues/9247,2023-05-02T21:26:28Z,2023-05-02T21:26:28Z,mtrootyy,,0
+1693443918,false,param should be an element that serializes as void,https://github.com/whatwg/html/issues/9249,2023-05-03T05:43:30Z,2023-05-03T07:19:44Z,rniwa,,1
+1693123474,false,Why isn't the `hr` element allowed to be used inside the `optgroup` element as a separator?,https://github.com/whatwg/html/issues/9247,2023-05-02T21:26:28Z,2023-05-03T07:13:30Z,mtrootyy,,0
 1692475133,false,Focus delegate algorithm doesn't consider elements assigned to slot,https://github.com/whatwg/html/issues/9245,2023-05-02T13:55:51Z,2023-05-02T13:55:51Z,sefeng211,topic: focus,0
 1692072317,false,Specify expected behavior for when users change input field directionality,https://github.com/whatwg/html/issues/9244,2023-05-02T09:19:39Z,2023-05-02T11:42:54Z,zcorpan,topic: forms|i18n-tracker|topic: editing,0
 1690015106,false,Sharing user activation with an iframe (or implement `allow-X-without-user-activation` for every `X`),https://github.com/whatwg/html/issues/9237,2023-04-30T17:54:15Z,2023-05-01T02:06:25Z,josephrocca,topic: user activation|topic: sandbox,0
@@ -24,7 +25,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1666214684,false,Popover: spec for dealing with element removal is incorrect,https://github.com/whatwg/html/issues/9161,2023-04-13T11:13:30Z,2023-04-17T19:31:41Z,jakearchibald,topic: popover,0
 1666173855,false,Popover parent/child relationship doesn't seem correct,https://github.com/whatwg/html/issues/9160,2023-04-13T10:45:41Z,2023-04-17T22:33:11Z,jakearchibald,topic: popover,0
 1666044457,false,Exporting definitions linked to by 3+ specs,https://github.com/whatwg/html/issues/9159,2023-04-13T09:19:24Z,2023-04-13T12:25:33Z,dontcallmedom,,0
-1666005013,false,Consider a different process for standardizing registerProtocolHandler schemes,https://github.com/whatwg/html/issues/9158,2023-04-13T08:55:08Z,2023-04-24T09:40:50Z,zcorpan,meta|topic: custom protocols,1
+1666005013,false,Consider a different process for standardizing registerProtocolHandler schemes,https://github.com/whatwg/html/issues/9158,2023-04-13T08:55:08Z,2023-05-03T09:34:22Z,zcorpan,meta|topic: custom protocols,1
 1665007054,false,Add payto to registerProtocolHandler safe listed schemes,https://github.com/whatwg/html/issues/9154,2023-04-12T18:01:28Z,2023-04-12T18:01:28Z,rastislavcore,,0
 1664864169,false,Popover invoker example shouldn't have `aria-haspopup`,https://github.com/whatwg/html/issues/9153,2023-04-12T16:18:18Z,2023-04-20T20:08:14Z,mfreed7,accessibility|a11y-tracker|topic: popover,0
 1664663316,true,popover focus state weirdness,https://github.com/whatwg/html/issues/9152,2023-04-12T14:17:31Z,2023-04-24T13:54:05Z,jakearchibald,topic: popover,0
@@ -37,7 +38,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1658447667,false,Navigation sourceDocument for browser-initiated navigations,https://github.com/whatwg/html/issues/9133,2023-04-07T06:56:05Z,2023-04-28T07:55:42Z,domenic,topic: navigation,0
 1658170692,true,Upcoming HTML standard issue triage meeting on 4/20/2023,https://github.com/whatwg/html/issues/9132,2023-04-06T23:39:43Z,2023-04-20T23:23:15Z,past,agenda+,0
 1656257748,true,Setting input type=date value attribute doesn't pre-populate the input if there's a time,https://github.com/whatwg/html/issues/9128,2023-04-05T20:37:06Z,2023-04-28T08:19:08Z,jfbrennan,,0
-1655838735,false,"Consider allowing <hr> within list elements (ol, ul, menu)",https://github.com/whatwg/html/issues/9126,2023-04-05T15:25:32Z,2023-04-05T15:29:45Z,scottaohara,addition/proposal|document conformance|accessibility|a11y-tracker,5
+1655838735,false,"Consider allowing <hr> within list elements (ol, ul, menu)",https://github.com/whatwg/html/issues/9126,2023-04-05T15:25:32Z,2023-04-05T15:29:45Z,scottaohara,addition/proposal|document conformance|accessibility|a11y-tracker,7
 1655605700,true,"Popover: The ""map"" in the topmost popover ancestor algorithm does not mean the map element.",https://github.com/whatwg/html/issues/9125,2023-04-05T13:17:24Z,2023-04-24T14:44:55Z,cathiechen,clarification|topic: popover,0
 1654846210,false,anonymous fieldset content box's block-size:100% leads to unintuitive behavior,https://github.com/whatwg/html/issues/9123,2023-04-05T02:50:15Z,2023-04-19T22:22:03Z,davidsgrogan,topic: rendering|interop|topic: fieldset,0
 1654771406,false,"""Loading a document for inline content that doesn't have a DOM"" uses non-existing response",https://github.com/whatwg/html/issues/9122,2023-04-05T01:03:20Z,2023-04-28T08:01:57Z,kalenikaliaksandr,topic: navigation,0
@@ -395,7 +396,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1325877836,true,Contradiction in CanvasRenderingContext2D.createPattern for images with bad useability,https://github.com/whatwg/html/issues/8149,2022-08-02T13:41:14Z,2022-08-03T15:27:59Z,mysteryDate,,0
 1323964858,false,support title element containing partially translatable text,https://github.com/whatwg/html/issues/8147,2022-08-01T07:33:35Z,2022-08-01T10:52:21Z,Zhang-Junzhi,i18n-tracker,0
 1323769314,false,Clarify the fill algorithm,https://github.com/whatwg/html/issues/8145,2022-08-01T03:51:58Z,2022-08-01T03:52:09Z,Kaiido,topic: canvas,0
-1323380850,false,"CORS, CORP, TAO & ""public static resource"" metadata",https://github.com/whatwg/html/issues/8143,2022-07-31T07:03:55Z,2023-04-02T09:08:23Z,noamr,security/privacy|topic: fetch,1
+1323380850,false,"CORS, CORP, TAO & ""public static resource"" metadata",https://github.com/whatwg/html/issues/8143,2022-07-31T07:03:55Z,2023-05-03T09:07:45Z,noamr,security/privacy|topic: fetch,1
 1322915430,true,New html element: preview,https://github.com/whatwg/html/issues/8140,2022-07-30T06:29:07Z,2022-07-31T23:22:49Z,ghost,,0
 1321568538,false,Clarify what happens when setting rel content attribute on link element,https://github.com/whatwg/html/issues/8138,2022-07-28T22:45:38Z,2022-09-08T06:59:25Z,rniwa,topic: link,0
 1318917068,false,Which input types should readonly affect constraint validation for?,https://github.com/whatwg/html/issues/8133,2022-07-27T01:40:41Z,2022-08-11T16:30:58Z,nt1m,clarification|topic: forms,0
@@ -1790,7 +1791,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 471167003,false,"We should probably reinstate HTMLDocument, with a named getter, in the spec",https://github.com/whatwg/html/issues/4792,2019-07-22T16:05:41Z,2020-01-10T16:44:06Z,bzbarsky,,1
 470122528,true,Autofocus element in a <dialog> tries to get focus twice,https://github.com/whatwg/html/issues/4788,2019-07-19T03:41:41Z,2019-11-07T18:58:14Z,tkent-google,topic: focus,0
 469784910,false,Declarative WebWorker?,https://github.com/whatwg/html/issues/4786,2019-07-18T13:56:24Z,2020-04-30T12:07:13Z,fserb,addition/proposal|needs implementer interest|topic: workers,0
-469474452,false,[Proposal] ImageBitmap.getImageData,https://github.com/whatwg/html/issues/4785,2019-07-17T22:19:01Z,2022-11-08T15:52:01Z,dsanders11,addition/proposal|needs implementer interest|topic: canvas,21
+469474452,false,[Proposal] ImageBitmap.getImageData,https://github.com/whatwg/html/issues/4785,2019-07-17T22:19:01Z,2023-05-03T11:11:35Z,dsanders11,addition/proposal|needs implementer interest|topic: canvas,21
 469436105,false,Implement proposed Focus Traversal API,https://github.com/whatwg/html/issues/4784,2019-07-17T20:44:51Z,2019-09-19T06:02:37Z,arei,addition/proposal|needs implementer interest|topic: focus,0
 469368865,false,Initializing Feature Policy is racy,https://github.com/whatwg/html/issues/4783,2019-07-17T18:10:30Z,2019-07-18T19:20:49Z,dtapuska,topic: navigation|topic: browsing context|integration,0
 469173271,true,"User agents, session history, browsing contexts, and agent clusters",https://github.com/whatwg/html/issues/4782,2019-07-17T12:48:01Z,2022-10-31T05:07:01Z,annevk,topic: history|topic: browsing context|topic: agent,0
