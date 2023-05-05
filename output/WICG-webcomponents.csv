@@ -6,13 +6,13 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1682582951,false,Introducing Direct Navigation to Client-Side JavaScript-Generated HTML Documents,https://github.com/WICG/webcomponents/issues/1008,2023-04-25T07:21:01Z,2023-04-25T07:21:01Z,Lonniebiz,,0
 1678618943,true,[scoped-registries] What does `new` mean for elements in multiple registries?,https://github.com/WICG/webcomponents/issues/1007,2023-04-21T14:27:32Z,2023-04-21T18:22:35Z,keithamus,,0
 1677406829,false,Spring 2023 Styling and Theming F2F,https://github.com/WICG/webcomponents/issues/1006,2023-04-20T20:46:16Z,2023-04-20T20:46:16Z,justinfagnani,,0
-1677169561,false,Spring 2023 Cross-Root ARIA F2F,https://github.com/WICG/webcomponents/issues/1005,2023-04-20T17:56:08Z,2023-05-02T22:40:10Z,nolanlawson,,0
+1677169561,false,Spring 2023 Cross-Root ARIA F2F,https://github.com/WICG/webcomponents/issues/1005,2023-04-20T17:56:08Z,2023-05-04T20:02:12Z,nolanlawson,,0
 1677122139,false,Supporting `<noscript>`  when FACE is in play,https://github.com/WICG/webcomponents/issues/1004,2023-04-20T17:20:26Z,2023-04-21T10:42:13Z,bennypowers,,1
 1676866217,false,[dom-parts] Declarative syntax for creating DOM Parts,https://github.com/WICG/webcomponents/issues/1003,2023-04-20T14:40:11Z,2023-05-03T12:16:45Z,tbondwilkinson,,1
 1675555360,false,Isolated web components,https://github.com/WICG/webcomponents/issues/1002,2023-04-19T20:09:44Z,2023-04-20T01:28:12Z,justinfagnani,,4
 1673550056,false,[scoped-registries] How does customElements.upgrade() work?,https://github.com/WICG/webcomponents/issues/1001,2023-04-18T17:23:52Z,2023-04-18T17:24:02Z,justinfagnani,,1
 1673137616,false,Alternative to customized built-in - Element custom enhancements,https://github.com/WICG/webcomponents/issues/1000,2023-04-18T13:27:39Z,2023-04-25T20:56:48Z,bahrus,,0
-1671885315,false,Spring 2023 DOM Parts F2F,https://github.com/WICG/webcomponents/issues/999,2023-04-17T20:02:37Z,2023-05-02T18:22:12Z,rniwa,html-dom,0
+1671885315,false,Spring 2023 DOM Parts F2F,https://github.com/WICG/webcomponents/issues/999,2023-04-17T20:02:37Z,2023-05-04T17:49:28Z,rniwa,html-dom,0
 1669306134,true,"[scoped-registries] Should WC be usable as ""views""?",https://github.com/WICG/webcomponents/issues/998,2023-04-15T10:47:06Z,2023-04-21T19:12:28Z,chalbert,,0
 1653437521,false,Functionally complete declarative templating,https://github.com/WICG/webcomponents/issues/997,2023-04-04T08:35:07Z,2023-04-30T19:48:55Z,sashafirsov,,5
 1652517552,false,[a11y]: An exhaustive look at support for using HTMLInputElement with Web Components,https://github.com/WICG/webcomponents/issues/996,2023-04-03T18:00:09Z,2023-04-03T18:00:09Z,clshortfuse,,1
@@ -42,7 +42,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1388712403,false,Interaction between ElementInternals (e.g. default ARIA) and declarative shadow DOM,https://github.com/WICG/webcomponents/issues/972,2022-09-28T04:35:02Z,2023-04-20T18:52:38Z,rniwa,shadow-dom|custom-elements|needs concrete proposal|a11y-tracker,2
 1385940722,false," without .html in link rel=""import"" and href in web component",https://github.com/WICG/webcomponents/issues/971,2022-09-26T11:50:41Z,2023-01-29T04:28:05Z,ghost,,0
 1385361268,true,We need the ability to deregister or undefine custom elements.,https://github.com/WICG/webcomponents/issues/970,2022-09-26T03:36:37Z,2022-11-20T19:57:31Z,johngamble,,1
-1363952203,false,[scoped-registries] Interaction with HTML element's overridden constructor steps,https://github.com/WICG/webcomponents/issues/969,2022-09-07T00:49:31Z,2023-03-10T01:33:15Z,xiaochengh,,0
+1363952203,true,[scoped-registries] Interaction with HTML element's overridden constructor steps,https://github.com/WICG/webcomponents/issues/969,2022-09-07T00:49:31Z,2023-05-04T18:58:40Z,xiaochengh,,0
 1360897085,false,Easily provide the template Id to HTMLElement,https://github.com/WICG/webcomponents/issues/968,2022-09-03T16:01:49Z,2022-09-03T16:08:37Z,GabrielBB,,2
 1352835806,false,Interaction between imperative slotting and declarative shadow DOM,https://github.com/WICG/webcomponents/issues/967,2022-08-27T00:02:28Z,2023-04-21T09:27:03Z,rniwa,shadow-dom|needs concrete proposal,0
 1340690956,false,TPAC 2022 Web Components Meeting(s),https://github.com/WICG/webcomponents/issues/966,2022-08-16T17:53:55Z,2022-09-22T18:00:54Z,mfreed7,,3
@@ -249,7 +249,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 285086059,true,Interface/class-based selector,https://github.com/WICG/webcomponents/issues/719,2017-12-29T12:33:09Z,2018-03-05T05:39:47Z,jasmith79,custom-elements|needs implementer interest,0
 282958795,true,Bulk property updates,https://github.com/WICG/webcomponents/issues/718,2017-12-18T17:26:28Z,2020-12-21T20:34:32Z,JanMiksovsky,needs implementer interest,0
 282200986,true,"The way to access current script or current root, from Shadow DOM",https://github.com/WICG/webcomponents/issues/717,2017-12-14T18:45:27Z,2022-06-23T23:58:57Z,tomalec,shadow-dom|needs implementer interest,14
-280602178,false,Scoped Custom Element Registries,https://github.com/WICG/webcomponents/issues/716,2017-12-08T20:05:07Z,2022-09-01T03:21:14Z,justinfagnani,custom-elements|needs concrete proposal,141
+280602178,false,Scoped Custom Element Registries,https://github.com/WICG/webcomponents/issues/716,2017-12-08T20:05:07Z,2023-05-04T19:43:26Z,justinfagnani,custom-elements|needs concrete proposal,141
 279788891,true,Undefined specification for @keyframe scope on slotted content,https://github.com/WICG/webcomponents/issues/715,2017-12-06T15:13:41Z,2018-02-21T11:21:18Z,ruphin,v1|shadow-dom,0
 278678409,true,[Proposal] customElements#hasLocalName(Class),https://github.com/WICG/webcomponents/issues/714,2017-12-02T11:57:29Z,2017-12-03T20:03:40Z,thysultan,,0
 275960655,true,WebPlatform Web Components F2F 2018,https://github.com/WICG/webcomponents/issues/713,2017-11-22T06:45:10Z,2019-03-01T15:07:19Z,TakayoshiKochi,,15
