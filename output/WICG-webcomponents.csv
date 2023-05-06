@@ -8,11 +8,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1677406829,false,Spring 2023 Styling and Theming F2F,https://github.com/WICG/webcomponents/issues/1006,2023-04-20T20:46:16Z,2023-04-20T20:46:16Z,justinfagnani,,0
 1677169561,false,Spring 2023 Cross-Root ARIA F2F,https://github.com/WICG/webcomponents/issues/1005,2023-04-20T17:56:08Z,2023-05-04T20:02:12Z,nolanlawson,,0
 1677122139,false,Supporting `<noscript>`  when FACE is in play,https://github.com/WICG/webcomponents/issues/1004,2023-04-20T17:20:26Z,2023-04-21T10:42:13Z,bennypowers,,1
-1676866217,false,[dom-parts] Declarative syntax for creating DOM Parts,https://github.com/WICG/webcomponents/issues/1003,2023-04-20T14:40:11Z,2023-05-03T12:16:45Z,tbondwilkinson,,1
+1676866217,false,[dom-parts] Declarative syntax for creating DOM Parts,https://github.com/WICG/webcomponents/issues/1003,2023-04-20T14:40:11Z,2023-05-05T23:29:33Z,tbondwilkinson,,1
 1675555360,false,Isolated web components,https://github.com/WICG/webcomponents/issues/1002,2023-04-19T20:09:44Z,2023-04-20T01:28:12Z,justinfagnani,,4
 1673550056,false,[scoped-registries] How does customElements.upgrade() work?,https://github.com/WICG/webcomponents/issues/1001,2023-04-18T17:23:52Z,2023-04-18T17:24:02Z,justinfagnani,,1
 1673137616,false,Alternative to customized built-in - Element custom enhancements,https://github.com/WICG/webcomponents/issues/1000,2023-04-18T13:27:39Z,2023-04-25T20:56:48Z,bahrus,,0
-1671885315,false,Spring 2023 DOM Parts F2F,https://github.com/WICG/webcomponents/issues/999,2023-04-17T20:02:37Z,2023-05-04T17:49:28Z,rniwa,html-dom,0
+1671885315,false,Spring 2023 DOM Parts F2F,https://github.com/WICG/webcomponents/issues/999,2023-04-17T20:02:37Z,2023-05-05T20:44:21Z,rniwa,html-dom,0
 1669306134,true,"[scoped-registries] Should WC be usable as ""views""?",https://github.com/WICG/webcomponents/issues/998,2023-04-15T10:47:06Z,2023-04-21T19:12:28Z,chalbert,,0
 1653437521,false,Functionally complete declarative templating,https://github.com/WICG/webcomponents/issues/997,2023-04-04T08:35:07Z,2023-04-30T19:48:55Z,sashafirsov,,5
 1652517552,false,[a11y]: An exhaustive look at support for using HTMLInputElement with Web Components,https://github.com/WICG/webcomponents/issues/996,2023-04-03T18:00:09Z,2023-04-03T18:00:09Z,clshortfuse,,1
@@ -99,7 +99,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 730866678,false,Template/part proposals - Naming for DOM Parts API,https://github.com/WICG/webcomponents/issues/902,2020-10-27T21:50:51Z,2023-04-21T10:05:37Z,yuzhe-han,templates,0
 730708491,false,Template/part proposals should explain how and why they improve performance,https://github.com/WICG/webcomponents/issues/901,2020-10-27T18:30:24Z,2023-04-21T10:05:22Z,smaug----,templates,0
 726028268,false,RfC: An alternative approach to accessibility across shadow boundaries,https://github.com/WICG/webcomponents/issues/898,2020-10-21T00:10:49Z,2020-10-22T18:16:11Z,rniwa,,0
-723054840,false,An alternative lazy custom element definition proposal -- conditionalImport,https://github.com/WICG/webcomponents/issues/896,2020-10-16T09:20:48Z,2023-05-01T16:06:48Z,bahrus,,0
+723054840,false,An alternative lazy custom element definition proposal -- conditionalImport,https://github.com/WICG/webcomponents/issues/896,2020-10-16T09:20:48Z,2023-05-05T21:46:10Z,bahrus,,0
 722601967,false,Scoped Custom Element Registry: Open Design Issues,https://github.com/WICG/webcomponents/issues/895,2020-10-15T19:20:13Z,2021-10-20T16:17:40Z,leobalter,,0
 700874118,false,Input element autofill strange behavior on Chrome when in shadow DOM,https://github.com/WICG/webcomponents/issues/894,2020-09-14T08:04:02Z,2020-09-14T08:27:30Z,ibinev,,0
 689479176,true,[idea] shadowattach event,https://github.com/WICG/webcomponents/issues/893,2020-08-31T20:19:05Z,2023-04-20T19:00:28Z,trusktr,shadow-dom|needs concrete proposal,0
@@ -169,7 +169,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 441452263,true,Consider functional mixin pattern for form-associated custom elements,https://github.com/WICG/webcomponents/issues/812,2019-05-07T21:22:26Z,2019-08-20T20:56:06Z,JanMiksovsky,custom-elements,0
 441222443,false,Protocols/traits for custom elements,https://github.com/WICG/webcomponents/issues/811,2019-05-07T13:06:46Z,2023-04-20T19:46:30Z,annevk,custom-elements|needs consensus,2
 439467974,false,Extensible template parts,https://github.com/WICG/webcomponents/issues/810,2019-05-02T08:00:01Z,2019-09-13T17:29:10Z,annevk,templates,1
-438611831,false,Need a callback for when children changed or parser finished parsing children,https://github.com/WICG/webcomponents/issues/809,2019-04-30T05:45:33Z,2023-04-21T10:55:58Z,rniwa,custom-elements|html-dom|needs concrete proposal,40
+438611831,false,Need a callback for when children changed or parser finished parsing children,https://github.com/WICG/webcomponents/issues/809,2019-04-30T05:45:33Z,2023-05-05T16:55:49Z,rniwa,custom-elements|html-dom|needs concrete proposal,41
 438098368,true,Using private fields and methods in template instantiation,https://github.com/WICG/webcomponents/issues/808,2019-04-28T20:46:34Z,2019-11-23T00:53:06Z,xlaywan,,0
 436682796,false,Make JavaScript Files a Valid Entry Point to a Web Page,https://github.com/WICG/webcomponents/issues/807,2019-04-24T12:59:33Z,2020-07-08T18:02:16Z,Lonniebiz,,13
 432506452,false,"Document ""layers"" for single-use components",https://github.com/WICG/webcomponents/issues/806,2019-04-12T10:51:42Z,2023-04-20T19:09:22Z,andyearnshaw,shadow-dom|needs implementer interest|needs concrete proposal|css,0
