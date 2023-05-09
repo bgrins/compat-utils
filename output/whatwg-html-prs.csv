@@ -1,18 +1,20 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1699764860,false,Editorial: reorder the navigation params structs,https://github.com/whatwg/html/pull/9261,2023-05-08T08:15:12Z,2023-05-08T08:16:31Z,domenic,clarification|topic: navigation,0
+1700973300,false,Editorial: formalize the concept of a realm's agent,https://github.com/whatwg/html/pull/9264,2023-05-08T21:32:31Z,2023-05-08T21:33:53Z,syg,editorial,0
+1700695424,false,editorial updates for popover example,https://github.com/whatwg/html/pull/9262,2023-05-08T18:10:52Z,2023-05-08T18:12:24Z,scottaohara,,0
+1699764860,true,Editorial: reorder the navigation params structs,https://github.com/whatwg/html/pull/9261,2023-05-08T08:15:12Z,2023-05-08T22:42:31Z,domenic,clarification|topic: navigation,0
 1699589939,true,"Add <param> to the ""serializes as void"" list",https://github.com/whatwg/html/pull/9260,2023-05-08T06:05:32Z,2023-05-08T06:42:56Z,domenic,topic: parser|topic: embed and object,0
-1698484276,false,Account for autofocus attribute for non-modal dialog focusing steps,https://github.com/whatwg/html/pull/9258,2023-05-06T06:00:54Z,2023-05-06T06:12:19Z,nt1m,topic: focus|topic: dialog|topic: popover,0
+1698484276,false,Account for autofocus attribute for non-modal dialog focusing steps,https://github.com/whatwg/html/pull/9258,2023-05-06T06:00:54Z,2023-05-08T17:50:41Z,nt1m,topic: focus|topic: dialog|topic: popover,0
 1697139520,true,Meta: move to GitHub Container Registry,https://github.com/whatwg/html/pull/9256,2023-05-05T07:22:43Z,2023-05-05T07:35:03Z,domenic,,0
 1693271361,true,Update 404.html,https://github.com/whatwg/html/pull/9248,2023-05-03T01:05:30Z,2023-05-03T01:23:35Z,jeanbmiceli,spam,0
 1692646410,true,Add parameters to popover attribute change steps,https://github.com/whatwg/html/pull/9246,2023-05-02T15:34:48Z,2023-05-02T15:43:53Z,josepharhar,topic: popover,0
 1691711079,true,Editorial: insert missing double quote characters,https://github.com/whatwg/html/pull/9242,2023-05-02T03:11:13Z,2023-05-02T04:40:06Z,jugglinmike,,0
-1691291442,false,Make auto popover list an algorithm,https://github.com/whatwg/html/pull/9241,2023-05-01T20:05:10Z,2023-05-03T12:04:45Z,josepharhar,topic: popover,0
+1691291442,false,Make auto popover list an algorithm,https://github.com/whatwg/html/pull/9241,2023-05-01T20:05:10Z,2023-05-08T17:16:37Z,josepharhar,topic: popover,0
 1689834738,true,Use base URL instead of URL for links,https://github.com/whatwg/html/pull/9236,2023-04-30T08:45:24Z,2023-05-02T12:47:04Z,noamr,topic: link,0
 1687841765,true,Meta: export Window's navigable,https://github.com/whatwg/html/pull/9229,2023-04-28T03:33:37Z,2023-04-28T08:11:19Z,domenic,,0
 1686196867,true,"Prefetch: Specify ""appropriate times to fetch and process""",https://github.com/whatwg/html/pull/9223,2023-04-27T06:25:14Z,2023-04-27T09:15:22Z,noamr,topic: link|topic: resource hints (inc. preload),0
 1684188006,false,Clarify WebTransport BFCache interaction,https://github.com/whatwg/html/pull/9217,2023-04-26T03:04:11Z,2023-04-26T06:08:11Z,nidhijaju,,0
 1683549011,false,Remove references to RegExp `v` flag proposal,https://github.com/whatwg/html/pull/9213,2023-04-25T17:11:38Z,2023-04-25T17:12:59Z,mathiasbynens,do not merge yet,0
-1682091177,false,Use top-level module referrer policy for descendant fetches,https://github.com/whatwg/html/pull/9210,2023-04-24T21:47:00Z,2023-05-04T22:33:37Z,domfarolino,do not merge yet|needs tests|topic: script,0
+1682091177,false,Use module referrer policy for descendant fetches,https://github.com/whatwg/html/pull/9210,2023-04-24T21:47:00Z,2023-05-08T15:38:09Z,domfarolino,do not merge yet|needs tests|topic: script,0
 1681873727,true,"Make script's ""base URL"" member nullable, as the spec expects",https://github.com/whatwg/html/pull/9209,2023-04-24T19:14:03Z,2023-04-25T05:15:23Z,domfarolino,topic: script,0
 1681759829,true,Stop exporting 'Web workers' header,https://github.com/whatwg/html/pull/9208,2023-04-24T17:54:05Z,2023-04-26T11:38:50Z,domfarolino,editorial,0
 1681710250,false,Issue #9206: Submit input element directionality only for text and search type,https://github.com/whatwg/html/pull/9207,2023-04-24T17:13:20Z,2023-05-03T12:35:30Z,vinhill,,0
@@ -25,28 +27,28 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1675384787,true,Editorial: Export the browsing context's top-level traversable.,https://github.com/whatwg/html/pull/9185,2023-04-19T18:11:57Z,2023-04-24T14:16:41Z,jyasskin,,0
 1673620734,true,Check the popover's document in showPopover,https://github.com/whatwg/html/pull/9182,2023-04-18T18:19:28Z,2023-05-05T09:13:46Z,josepharhar,topic: popover,0
 1671928914,false,Only restore dialog focus if focus is in the dialog,https://github.com/whatwg/html/pull/9178,2023-04-17T20:35:40Z,2023-04-26T05:18:28Z,josepharhar,topic: focus|topic: dialog,0
-1669042716,false,Only use the used invoker to establish popover hierarchy,https://github.com/whatwg/html/pull/9171,2023-04-14T23:15:12Z,2023-05-05T19:10:11Z,josepharhar,topic: popover,0
+1669042716,true,Only use the used invoker to establish popover hierarchy,https://github.com/whatwg/html/pull/9171,2023-04-14T23:15:12Z,2023-05-08T16:13:13Z,josepharhar,topic: popover,0
 1668446599,true,Fix var/ref name mismatch with s/intendToStoreInBfcache/intendToKeepInBfcache/,https://github.com/whatwg/html/pull/9170,2023-04-14T15:13:52Z,2023-04-17T12:18:58Z,jan-ivar,topic: history,0
 1666970337,false,Update the :dir / directionality to include shadow dom,https://github.com/whatwg/html/pull/9166,2023-04-13T18:54:01Z,2023-05-05T19:44:08Z,bkardell,,0
 1666849333,true,Don't fire popover events during attribute change steps,https://github.com/whatwg/html/pull/9165,2023-04-13T17:32:17Z,2023-04-19T22:06:09Z,nt1m,topic: popover,0
 1666310483,true,[meta] Mark seven definitions as exported,https://github.com/whatwg/html/pull/9163,2023-04-13T12:20:28Z,2023-04-17T06:40:51Z,dontcallmedom,,0
-1665915432,false,Do not do same-URL replace navigations when initiated cross-origin,https://github.com/whatwg/html/pull/9157,2023-04-13T07:58:01Z,2023-04-27T01:37:25Z,domenic,normative change|topic: navigation|security/privacy|topic: history,0
-1665882711,false,Fix form submission's replace-before-load logic,https://github.com/whatwg/html/pull/9156,2023-04-13T07:34:01Z,2023-04-28T01:24:27Z,domenic,topic: navigation|topic: forms|interop,0
+1665915432,true,Do not do same-URL replace navigations when initiated cross-origin,https://github.com/whatwg/html/pull/9157,2023-04-13T07:58:01Z,2023-05-08T22:49:00Z,domenic,normative change|topic: navigation|security/privacy|topic: history,0
+1665882711,false,Fix form submission's replace-before-load logic,https://github.com/whatwg/html/pull/9156,2023-04-13T07:34:01Z,2023-05-08T22:48:04Z,domenic,topic: navigation|topic: forms|interop,0
 1665109294,false,Add payto as a safelisted scheme for registerProtocolHandler(),https://github.com/whatwg/html/pull/9155,2023-04-12T19:17:02Z,2023-04-14T17:39:51Z,rastislavcore,addition/proposal|needs implementer interest|topic: custom protocols,0
 1663489093,false,Move cross-origin opener policy into policy container,https://github.com/whatwg/html/pull/9149,2023-04-12T01:17:19Z,2023-05-08T06:42:33Z,domfarolino,topic: cross-origin-opener-policy|topic: policy container,0
-1661201309,false,Add anchor attribute,https://github.com/whatwg/html/pull/9144,2023-04-10T18:57:34Z,2023-04-17T20:35:05Z,josepharhar,,0
-1660955905,false,Don't throw when popover/dialog is in requested state,https://github.com/whatwg/html/pull/9142,2023-04-10T15:32:00Z,2023-05-05T18:41:22Z,josepharhar,needs tests|topic: dialog|topic: popover,0
+1661201309,false,Add anchor attribute,https://github.com/whatwg/html/pull/9144,2023-04-10T18:57:34Z,2023-05-08T15:42:32Z,josepharhar,,0
+1660955905,false,Don't throw when popover/dialog is in requested state,https://github.com/whatwg/html/pull/9142,2023-04-10T15:32:00Z,2023-05-08T22:20:16Z,josepharhar,needs tests|topic: dialog|topic: popover,0
 1660921767,true,Remove anchor attribute reference in popover note,https://github.com/whatwg/html/pull/9141,2023-04-10T15:05:50Z,2023-04-24T14:03:23Z,josepharhar,topic: popover,0
 1660416855,true,"Fix ""active frame element"" definition",https://github.com/whatwg/html/pull/9139,2023-04-10T08:08:01Z,2023-04-28T07:31:26Z,domenic,topic: browsing context,0
 1659698554,true,Mudei o titulo (apenas para um teste da aula do youtube),https://github.com/whatwg/html/pull/9137,2023-04-09T01:21:57Z,2023-04-09T04:25:54Z,CharlesRobertoAlegre,spam,0
 1657789416,true,Fix a typo regarding formStateRestoreCallback,https://github.com/whatwg/html/pull/9130,2023-04-06T17:19:55Z,2023-04-24T14:47:24Z,xiaochengh,topic: custom elements,0
 1655536568,true,Allow <hr> to be used inside <select> as a separator,https://github.com/whatwg/html/pull/9124,2023-04-05T12:32:26Z,2023-05-03T12:13:26Z,annevk,addition/proposal|document conformance|topic: parser|topic: forms,0
 1654364500,true,Use dialog initial focus for dialog popovers,https://github.com/whatwg/html/pull/9121,2023-04-04T18:27:26Z,2023-05-06T06:11:49Z,josepharhar,normative change|topic: focus|topic: dialog|topic: popover,0
-1654233635,false,Skip descendant dialogs and popovers for autofocus,https://github.com/whatwg/html/pull/9120,2023-04-04T16:50:00Z,2023-04-19T18:27:26Z,josepharhar,normative change|topic: focus|topic: dialog|topic: popover,0
+1654233635,false,Skip descendant dialogs and popovers for autofocus,https://github.com/whatwg/html/pull/9120,2023-04-04T16:50:00Z,2023-05-08T16:25:21Z,josepharhar,normative change|topic: focus|topic: dialog|topic: popover,0
 1653147495,true,"Remove ""element-attr"" from non-attribute terms",https://github.com/whatwg/html/pull/9118,2023-04-04T04:20:19Z,2023-04-06T05:46:23Z,gnpivo,,0
 1653127603,true,"Remove ""element-attr"" from non-attribute terms",https://github.com/whatwg/html/pull/9117,2023-04-04T03:52:52Z,2023-04-04T04:20:09Z,gnpivo,,0
 1648732472,true,"Export ""reactivate a document""",https://github.com/whatwg/html/pull/9096,2023-03-31T06:09:12Z,2023-03-31T12:25:53Z,rakina,,0
-1648089210,false,Use CSS spec for top layer,https://github.com/whatwg/html/pull/9093,2023-03-30T18:14:31Z,2023-05-02T16:21:49Z,josepharhar,topic: rendering|integration,0
+1648089210,false,Use CSS spec for top layer,https://github.com/whatwg/html/pull/9093,2023-03-30T18:14:31Z,2023-05-08T17:36:55Z,josepharhar,topic: rendering|integration,0
 1646532457,true,Fix a typo in User Activation processing model.,https://github.com/whatwg/html/pull/9091,2023-03-29T21:07:39Z,2023-03-31T05:19:36Z,mustaqahmed,topic: user activation,0
 1646278992,true,editorial: add custom element extensibility bullet,https://github.com/whatwg/html/pull/9088,2023-03-29T18:03:36Z,2023-05-05T12:32:50Z,bkardell,,0
 1644980345,true,Create API top layer,https://github.com/whatwg/html/pull/9085,2023-03-29T03:40:08Z,2023-03-29T05:47:33Z,akshaya-hub,spam,0
@@ -62,7 +64,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1630906313,true,Update 404.html,https://github.com/whatwg/html/pull/9052,2023-03-19T11:55:49Z,2023-03-19T12:29:32Z,Jayshaha1009,spam,0
 1630264564,true,Update README.md,https://github.com/whatwg/html/pull/9050,2023-03-18T10:15:24Z,2023-03-18T10:18:00Z,avinashnaidu77777,spam,0
 1630264474,true,Update README.md,https://github.com/whatwg/html/pull/9049,2023-03-18T10:15:05Z,2023-03-18T10:19:39Z,5hello,spam,0
-1629849072,false,"Add ""check and possibly close popover stack"" algorithm",https://github.com/whatwg/html/pull/9048,2023-03-17T19:38:48Z,2023-04-20T14:42:01Z,josepharhar,topic: popover,0
+1629849072,true,"Add ""check and possibly close popover stack"" algorithm",https://github.com/whatwg/html/pull/9048,2023-03-17T19:38:48Z,2023-05-08T16:13:16Z,josepharhar,topic: popover,0
 1629737267,false,Spec :user-invalid & :user-valid,https://github.com/whatwg/html/pull/9047,2023-03-17T18:17:04Z,2023-03-31T23:18:30Z,nt1m,,0
 1627835465,true,Modernize and correct <dialog> show() and showModal(),https://github.com/whatwg/html/pull/9039,2023-03-16T16:15:40Z,2023-03-19T17:22:52Z,annevk,topic: dialog|topic: popover,0
 1627734287,false,Add the HostSystemUTCEpochNanoseconds abstract operation,https://github.com/whatwg/html/pull/9038,2023-03-16T15:21:28Z,2023-04-12T16:45:49Z,Ms2ger,do not merge yet|integration,1
@@ -78,7 +80,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1609116589,true,mudei o titulo (apenas teste),https://github.com/whatwg/html/pull/8981,2023-03-03T19:02:37Z,2023-03-03T23:29:24Z,joaopedro-123,spam,0
 1609111532,true,Clarify how to use reflect in a specification,https://github.com/whatwg/html/pull/8980,2023-03-03T18:58:16Z,2023-03-08T14:04:45Z,annevk,clarification|topic: reflect,0
 1607371234,true,Correct WAI-ARIA integration for custom elements,https://github.com/whatwg/html/pull/8974,2023-03-02T19:27:51Z,2023-03-07T01:25:54Z,annevk,accessibility|a11y-tracker|topic: reflect,0
-1606245718,false,Add steps to destroy documents that are ineligible for receiving message when posting message through broadcast channel,https://github.com/whatwg/html/pull/8972,2023-03-02T07:26:20Z,2023-04-20T07:56:50Z,lozy219,topic: history|topic: serialize and transfer|agenda+,0
+1606245718,false,Add steps to destroy documents that are ineligible for receiving message when posting message through broadcast channel,https://github.com/whatwg/html/pull/8972,2023-03-02T07:26:20Z,2023-05-08T15:44:38Z,lozy219,topic: history|topic: serialize and transfer|agenda+,0
 1605729923,true,Define auto popover list in terms of the top layer,https://github.com/whatwg/html/pull/8969,2023-03-01T22:04:40Z,2023-03-03T14:19:15Z,annevk,topic: popover,0
 1605681428,true,Topmost clicked popover takes one argument,https://github.com/whatwg/html/pull/8967,2023-03-01T21:19:06Z,2023-03-03T14:16:07Z,annevk,topic: popover,0
 1605407010,true,Change endpoint check from null to document,https://github.com/whatwg/html/pull/8966,2023-03-01T17:50:43Z,2023-03-01T23:00:36Z,josepharhar,topic: popover,0
@@ -1491,7 +1493,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 443572976,true,Add code to allocate agent clusters.,https://github.com/whatwg/html/pull/4617,2019-05-13T19:54:23Z,2019-09-09T17:41:24Z,dtapuska,topic: agent,0
 443274066,true,Mention the firing condition of an invalid event,https://github.com/whatwg/html/pull/4616,2019-05-13T08:41:56Z,2019-05-14T14:21:37Z,poyea,,0
 443035399,true,Editorial: cross link to obsolete Document partial,https://github.com/whatwg/html/pull/4614,2019-05-11T20:55:00Z,2019-05-13T16:58:04Z,domenic,clarification,0
-442933959,false,Add Atomics.waitAsync host hook,https://github.com/whatwg/html/pull/4613,2019-05-11T00:21:26Z,2023-05-06T05:56:13Z,littledan,do not merge yet,0
+442933959,false,Add Atomics.waitAsync host hook,https://github.com/whatwg/html/pull/4613,2019-05-11T00:21:26Z,2023-05-08T19:23:54Z,littledan,do not merge yet,0
 442824204,true,Separate the media play algorithm into internal steps.,https://github.com/whatwg/html/pull/4610,2019-05-10T17:37:28Z,2019-05-10T18:09:22Z,dtapuska,topic: media,0
 442633014,true,Add defer attribute to nomodule script example,https://github.com/whatwg/html/pull/4609,2019-05-10T09:47:33Z,2019-05-20T17:36:21Z,andydavies,topic: script,0
 442433816,false,Add disallowdocumentaccess iframe attribute to force a creation of a new agent cluster map,https://github.com/whatwg/html/pull/4606,2019-05-09T21:06:14Z,2022-08-22T02:36:09Z,dtapuska,,0
