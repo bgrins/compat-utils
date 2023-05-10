@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1700748479,false,"Redundant call to ""nearest inclusive open popover"" algorithm?",https://github.com/whatwg/html/issues/9263,2023-05-08T18:50:34Z,2023-05-09T08:09:54Z,nt1m,topic: popover,0
+1700748479,false,"Redundant call to ""nearest inclusive open popover"" algorithm?",https://github.com/whatwg/html/issues/9263,2023-05-08T18:50:34Z,2023-05-09T16:36:40Z,nt1m,topic: popover,0
 1696364615,false,Upcoming HTML standard issue triage meeting on 5/18/2023,https://github.com/whatwg/html/issues/9254,2023-05-04T16:57:23Z,2023-05-04T16:57:23Z,past,agenda+,0
 1694120328,true,Not possible to put non-phrasing content in paragraphs due to tag omission in HTML5,https://github.com/whatwg/html/issues/9251,2023-05-03T13:51:14Z,2023-05-08T08:23:56Z,Cendio-Zeijlon,,0
 1693443918,true,param should be an element that serializes as void,https://github.com/whatwg/html/issues/9249,2023-05-03T05:43:30Z,2023-05-08T06:42:56Z,rniwa,topic: parser|topic: embed and object,1
@@ -18,7 +18,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1677543108,true,Upcoming HTML standard issue triage meeting on 5/4/2023,https://github.com/whatwg/html/issues/9193,2023-04-20T23:18:15Z,2023-05-04T17:03:14Z,past,agenda+,0
 1676587334,false,Clarification on the DOM being a tree,https://github.com/whatwg/html/issues/9189,2023-04-20T12:03:44Z,2023-04-21T09:49:17Z,MrHBS,clarification,0
 1688386216,false,Clarification for <link> behavior in Declarative Shadow DOM,https://github.com/whatwg/html/issues/9232,2023-04-19T04:02:35Z,2023-04-28T13:09:57Z,bakura10,topic: shadow|topic: link,1
-1673113171,false,Make <img> src attribute optional if srcset is present,https://github.com/whatwg/html/issues/9181,2023-04-18T13:13:27Z,2023-05-08T15:52:40Z,foolip,document conformance|topic: img,1
+1673113171,false,Make <img> src attribute optional if srcset is present,https://github.com/whatwg/html/issues/9181,2023-04-18T13:13:27Z,2023-05-09T22:02:08Z,foolip,document conformance|topic: img,1
 1671435300,true,The element could move to other document when showPopover,https://github.com/whatwg/html/issues/9177,2023-04-17T15:21:06Z,2023-05-05T09:13:47Z,cathiechen,topic: popover,0
 1669058371,true,Make number's and <input>'s get along better,https://github.com/whatwg/html/issues/9172,2023-04-14T23:52:47Z,2023-04-15T10:36:59Z,micDropper,,0
 1668397306,false,Should hide popover algorithm always restore the previously focused element?,https://github.com/whatwg/html/issues/9169,2023-04-14T14:49:45Z,2023-04-21T04:15:38Z,nt1m,topic: popover,0
@@ -30,7 +30,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1666044457,false,Exporting definitions linked to by 3+ specs,https://github.com/whatwg/html/issues/9159,2023-04-13T09:19:24Z,2023-04-13T12:25:33Z,dontcallmedom,,0
 1666005013,false,Consider a different process for standardizing registerProtocolHandler schemes,https://github.com/whatwg/html/issues/9158,2023-04-13T08:55:08Z,2023-05-04T01:38:54Z,zcorpan,meta|topic: custom protocols,1
 1665007054,false,Add payto to registerProtocolHandler safe listed schemes,https://github.com/whatwg/html/issues/9154,2023-04-12T18:01:28Z,2023-04-12T18:01:28Z,rastislavcore,,0
-1664864169,false,Popover invoker example shouldn't have `aria-haspopup`,https://github.com/whatwg/html/issues/9153,2023-04-12T16:18:18Z,2023-04-20T20:08:14Z,mfreed7,accessibility|a11y-tracker|topic: popover,0
+1664864169,true,Popover invoker example shouldn't have `aria-haspopup`,https://github.com/whatwg/html/issues/9153,2023-04-12T16:18:18Z,2023-05-09T15:23:43Z,mfreed7,accessibility|a11y-tracker|topic: popover,0
 1664663316,true,popover focus state weirdness,https://github.com/whatwg/html/issues/9152,2023-04-12T14:17:31Z,2023-04-24T13:54:05Z,jakearchibald,topic: popover,0
 1663053673,false,"Potential error in connection between ""Document destroy"" and ""Document abort"" algorithms",https://github.com/whatwg/html/issues/9148,2023-04-11T19:02:43Z,2023-04-13T08:03:08Z,kalenikaliaksandr,,0
 1662945190,true,language of an attribute,https://github.com/whatwg/html/issues/9147,2023-04-11T17:35:46Z,2023-04-28T07:47:22Z,fantasai,i18n-tracker,0
@@ -75,7 +75,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1633613880,true,Is it ok for popover to claim general names like :open and :closed?,https://github.com/whatwg/html/issues/9055,2023-03-21T10:28:08Z,2023-04-06T23:18:08Z,jakearchibald,topic: popover,0
 1633590732,false,Add element.popoverOpen,https://github.com/whatwg/html/issues/9054,2023-03-21T10:13:22Z,2023-03-31T21:56:15Z,jakearchibald,addition/proposal|needs implementer interest|topic: popover,0
 1629220956,false,"Timing of `<dialog>` 'close' event, popover 'toggle' event, `<details>` 'toggle' event",https://github.com/whatwg/html/issues/9046,2023-03-17T12:19:27Z,2023-03-23T20:59:04Z,jakearchibald,topic: dialog|topic: popover,0
-1629156392,true,Should popover/dialog show/hide when already shown/hidden throw?,https://github.com/whatwg/html/issues/9045,2023-03-17T11:32:41Z,2023-05-09T08:08:09Z,jakearchibald,topic: dialog|topic: popover,6
+1629156392,false,Should popover/dialog show/hide when already shown/hidden throw?,https://github.com/whatwg/html/issues/9045,2023-03-17T11:32:41Z,2023-05-09T17:21:36Z,jakearchibald,topic: dialog|topic: popover,6
 1629078964,false,<dialog> Unclear method of altering/reading attributes,https://github.com/whatwg/html/issues/9044,2023-03-17T10:35:36Z,2023-03-17T11:06:53Z,jakearchibald,topic: dialog,0
 1628986537,false,Should togglePopover() return a boolean?,https://github.com/whatwg/html/issues/9043,2023-03-17T09:30:48Z,2023-04-20T14:37:48Z,jakearchibald,addition/proposal|needs implementer interest|topic: popover,0
 1628760896,false,popover attribute may not be web compatible,https://github.com/whatwg/html/issues/9042,2023-03-17T06:11:49Z,2023-05-03T00:02:55Z,nt1m,compat|topic: popover,0
@@ -1122,7 +1122,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 769579263,false,"Update ""intrinsic dimensions"" terminology",https://github.com/whatwg/html/issues/6233,2020-12-17T06:25:35Z,2020-12-18T13:30:52Z,fantasai,topic: rendering|topic: img|integration,0
 769344237,false,Allow form validation on <output> element,https://github.com/whatwg/html/issues/6232,2020-12-16T23:25:31Z,2020-12-30T23:06:27Z,btrem,,2
 769198241,false,"Custom Elements definition/styling challenges/use cases ",https://github.com/whatwg/html/issues/6231,2020-12-16T19:08:08Z,2023-04-20T17:29:17Z,bkardell,,0
-767783731,false,Should two different defer scripts execute in the same task?,https://github.com/whatwg/html/issues/6230,2020-12-15T16:35:11Z,2023-05-09T00:49:40Z,rik,topic: script|topic: event loop,0
+767783731,false,Should two different defer scripts execute in the same task?,https://github.com/whatwg/html/issues/6230,2020-12-15T16:35:11Z,2023-05-09T20:35:39Z,rik,topic: script|topic: event loop,0
 767105790,true,Add scoped attribute back in to the standards,https://github.com/whatwg/html/issues/6228,2020-12-15T02:46:23Z,2020-12-15T07:50:47Z,jabcreations,,1
 766949843,false,wbr should cut through nowrap unconditionally,https://github.com/whatwg/html/issues/6227,2020-12-14T21:34:59Z,2020-12-15T07:49:27Z,fantasai,topic: rendering,0
 766812233,true,Allow <slot> as a child of <table> or any of it descendants,https://github.com/whatwg/html/issues/6226,2020-12-14T18:43:08Z,2020-12-15T09:33:46Z,GeorgeTailor,,0

@@ -1,6 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1700973300,false,Editorial: formalize the concept of a realm's agent,https://github.com/whatwg/html/pull/9264,2023-05-08T21:32:31Z,2023-05-09T09:01:04Z,syg,editorial,0
-1700695424,false,editorial updates for popover example,https://github.com/whatwg/html/pull/9262,2023-05-08T18:10:52Z,2023-05-09T08:13:50Z,scottaohara,topic: popover,0
+1702373150,false,Remove redundant call to nearest open popover,https://github.com/whatwg/html/pull/9267,2023-05-09T16:36:03Z,2023-05-09T17:45:14Z,josepharhar,,0
+1700973300,false,Editorial: formalize the concept of a realm's agent,https://github.com/whatwg/html/pull/9264,2023-05-08T21:32:31Z,2023-05-09T17:35:11Z,syg,editorial,0
+1700695424,true,editorial updates for popover example,https://github.com/whatwg/html/pull/9262,2023-05-08T18:10:52Z,2023-05-09T15:42:39Z,scottaohara,topic: popover,0
 1699764860,true,Editorial: reorder the navigation params structs,https://github.com/whatwg/html/pull/9261,2023-05-08T08:15:12Z,2023-05-08T22:42:31Z,domenic,clarification|topic: navigation,0
 1699589939,true,"Add <param> to the ""serializes as void"" list",https://github.com/whatwg/html/pull/9260,2023-05-08T06:05:32Z,2023-05-08T06:42:56Z,domenic,topic: parser|topic: embed and object,0
 1698484276,false,Account for autofocus attribute for non-modal dialog focusing steps,https://github.com/whatwg/html/pull/9258,2023-05-06T06:00:54Z,2023-05-08T17:50:41Z,nt1m,topic: focus|topic: dialog|topic: popover,0
@@ -14,7 +15,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1686196867,true,"Prefetch: Specify ""appropriate times to fetch and process""",https://github.com/whatwg/html/pull/9223,2023-04-27T06:25:14Z,2023-04-27T09:15:22Z,noamr,topic: link|topic: resource hints (inc. preload),0
 1684188006,false,Clarify WebTransport BFCache interaction,https://github.com/whatwg/html/pull/9217,2023-04-26T03:04:11Z,2023-04-26T06:08:11Z,nidhijaju,,0
 1683549011,false,Remove references to RegExp `v` flag proposal,https://github.com/whatwg/html/pull/9213,2023-04-25T17:11:38Z,2023-04-25T17:12:59Z,mathiasbynens,do not merge yet,0
-1682091177,false,Use module referrer policy for descendant fetches,https://github.com/whatwg/html/pull/9210,2023-04-24T21:47:00Z,2023-05-08T15:38:09Z,domfarolino,do not merge yet|needs tests|topic: script,0
+1682091177,false,Use module referrer policy for descendant fetches,https://github.com/whatwg/html/pull/9210,2023-04-24T21:47:00Z,2023-05-09T16:21:47Z,domfarolino,do not merge yet|needs tests|topic: script,0
 1681873727,true,"Make script's ""base URL"" member nullable, as the spec expects",https://github.com/whatwg/html/pull/9209,2023-04-24T19:14:03Z,2023-04-25T05:15:23Z,domfarolino,topic: script,0
 1681759829,true,Stop exporting 'Web workers' header,https://github.com/whatwg/html/pull/9208,2023-04-24T17:54:05Z,2023-04-26T11:38:50Z,domfarolino,editorial,0
 1681710250,false,Issue #9206: Submit input element directionality only for text and search type,https://github.com/whatwg/html/pull/9207,2023-04-24T17:13:20Z,2023-05-03T12:35:30Z,vinhill,,0
@@ -48,7 +49,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1653147495,true,"Remove ""element-attr"" from non-attribute terms",https://github.com/whatwg/html/pull/9118,2023-04-04T04:20:19Z,2023-04-06T05:46:23Z,gnpivo,,0
 1653127603,true,"Remove ""element-attr"" from non-attribute terms",https://github.com/whatwg/html/pull/9117,2023-04-04T03:52:52Z,2023-04-04T04:20:09Z,gnpivo,,0
 1648732472,true,"Export ""reactivate a document""",https://github.com/whatwg/html/pull/9096,2023-03-31T06:09:12Z,2023-03-31T12:25:53Z,rakina,,0
-1648089210,false,Use CSS spec for top layer,https://github.com/whatwg/html/pull/9093,2023-03-30T18:14:31Z,2023-05-09T07:26:24Z,josepharhar,topic: rendering|integration,0
+1648089210,false,Use CSS spec for top layer,https://github.com/whatwg/html/pull/9093,2023-03-30T18:14:31Z,2023-05-09T14:58:56Z,josepharhar,topic: rendering|integration,0
 1646532457,true,Fix a typo in User Activation processing model.,https://github.com/whatwg/html/pull/9091,2023-03-29T21:07:39Z,2023-03-31T05:19:36Z,mustaqahmed,topic: user activation,0
 1646278992,true,editorial: add custom element extensibility bullet,https://github.com/whatwg/html/pull/9088,2023-03-29T18:03:36Z,2023-05-05T12:32:50Z,bkardell,,0
 1644980345,true,Create API top layer,https://github.com/whatwg/html/pull/9085,2023-03-29T03:40:08Z,2023-03-29T05:47:33Z,akshaya-hub,spam,0
@@ -1493,7 +1494,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 443572976,true,Add code to allocate agent clusters.,https://github.com/whatwg/html/pull/4617,2019-05-13T19:54:23Z,2019-09-09T17:41:24Z,dtapuska,topic: agent,0
 443274066,true,Mention the firing condition of an invalid event,https://github.com/whatwg/html/pull/4616,2019-05-13T08:41:56Z,2019-05-14T14:21:37Z,poyea,,0
 443035399,true,Editorial: cross link to obsolete Document partial,https://github.com/whatwg/html/pull/4614,2019-05-11T20:55:00Z,2019-05-13T16:58:04Z,domenic,clarification,0
-442933959,false,Add Atomics.waitAsync host hook,https://github.com/whatwg/html/pull/4613,2019-05-11T00:21:26Z,2023-05-09T06:50:35Z,littledan,do not merge yet,0
+442933959,false,Add Atomics.waitAsync host hook,https://github.com/whatwg/html/pull/4613,2019-05-11T00:21:26Z,2023-05-09T14:00:21Z,littledan,do not merge yet,0
 442824204,true,Separate the media play algorithm into internal steps.,https://github.com/whatwg/html/pull/4610,2019-05-10T17:37:28Z,2019-05-10T18:09:22Z,dtapuska,topic: media,0
 442633014,true,Add defer attribute to nomodule script example,https://github.com/whatwg/html/pull/4609,2019-05-10T09:47:33Z,2019-05-20T17:36:21Z,andydavies,topic: script,0
 442433816,false,Add disallowdocumentaccess iframe attribute to force a creation of a new agent cluster map,https://github.com/whatwg/html/pull/4606,2019-05-09T21:06:14Z,2022-08-22T02:36:09Z,dtapuska,,0
