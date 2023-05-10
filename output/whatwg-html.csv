@@ -5,7 +5,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1693443918,true,param should be an element that serializes as void,https://github.com/whatwg/html/issues/9249,2023-05-03T05:43:30Z,2023-05-08T06:42:56Z,rniwa,topic: parser|topic: embed and object,1
 1693123474,false,Why isn't the `hr` element allowed to be used inside the `optgroup` element as a separator?,https://github.com/whatwg/html/issues/9247,2023-05-02T21:26:28Z,2023-05-03T07:13:30Z,mtrootyy,,0
 1692475133,false,Focus delegate algorithm doesn't consider elements assigned to slot,https://github.com/whatwg/html/issues/9245,2023-05-02T13:55:51Z,2023-05-08T06:30:22Z,sefeng211,topic: shadow|topic: focus,0
-1692072317,false,Specify expected behavior for when users change input field directionality,https://github.com/whatwg/html/issues/9244,2023-05-02T09:19:39Z,2023-05-02T11:42:54Z,zcorpan,topic: forms|i18n-tracker|topic: editing,0
+1692072317,false,Specify expected behavior for when users change input field directionality,https://github.com/whatwg/html/issues/9244,2023-05-02T09:19:39Z,2023-05-10T08:14:31Z,zcorpan,topic: forms|i18n-tracker|topic: editing,0
 1690015106,false,Sharing user activation with an iframe (or implement `allow-X-without-user-activation` for every `X`),https://github.com/whatwg/html/issues/9237,2023-04-30T17:54:15Z,2023-05-08T14:00:15Z,josephrocca,topic: user activation|topic: sandbox,0
 1687109600,true,Export Window's navigable,https://github.com/whatwg/html/issues/9226,2023-04-27T15:40:39Z,2023-04-28T08:11:19Z,npm1,,0
 1686592737,false,Dirname should work with more input types,https://github.com/whatwg/html/issues/9225,2023-04-27T10:45:03Z,2023-05-02T08:51:08Z,r12a,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,0
@@ -18,12 +18,12 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1677543108,true,Upcoming HTML standard issue triage meeting on 5/4/2023,https://github.com/whatwg/html/issues/9193,2023-04-20T23:18:15Z,2023-05-04T17:03:14Z,past,agenda+,0
 1676587334,false,Clarification on the DOM being a tree,https://github.com/whatwg/html/issues/9189,2023-04-20T12:03:44Z,2023-04-21T09:49:17Z,MrHBS,clarification,0
 1688386216,false,Clarification for <link> behavior in Declarative Shadow DOM,https://github.com/whatwg/html/issues/9232,2023-04-19T04:02:35Z,2023-04-28T13:09:57Z,bakura10,topic: shadow|topic: link,1
-1673113171,false,Make <img> src attribute optional if srcset is present,https://github.com/whatwg/html/issues/9181,2023-04-18T13:13:27Z,2023-05-09T22:02:08Z,foolip,document conformance|topic: img,1
+1673113171,false,Make <img> src attribute optional if srcset is present,https://github.com/whatwg/html/issues/9181,2023-04-18T13:13:27Z,2023-05-10T09:25:53Z,foolip,document conformance|topic: img,1
 1671435300,true,The element could move to other document when showPopover,https://github.com/whatwg/html/issues/9177,2023-04-17T15:21:06Z,2023-05-05T09:13:47Z,cathiechen,topic: popover,0
 1669058371,true,Make number's and <input>'s get along better,https://github.com/whatwg/html/issues/9172,2023-04-14T23:52:47Z,2023-04-15T10:36:59Z,micDropper,,0
 1668397306,false,Should hide popover algorithm always restore the previously focused element?,https://github.com/whatwg/html/issues/9169,2023-04-14T14:49:45Z,2023-04-21T04:15:38Z,nt1m,topic: popover,0
 1668166261,true,popover invoker should be boolean,https://github.com/whatwg/html/issues/9168,2023-04-14T12:31:32Z,2023-05-08T16:13:14Z,asurkov,topic: popover,0
-1667926564,false,Should popovertarget be generic?,https://github.com/whatwg/html/issues/9167,2023-04-14T09:50:44Z,2023-04-20T15:18:35Z,jakearchibald,normative change|needs implementer interest|topic: dialog|topic: popover,2
+1667926564,false,Should popovertarget be generic?,https://github.com/whatwg/html/issues/9167,2023-04-14T09:50:44Z,2023-05-10T10:54:47Z,jakearchibald,normative change|needs implementer interest|topic: dialog|topic: popover,2
 1666754993,false,Need to pass all the descendant of root to handle button invoker's top most popover ancestor,https://github.com/whatwg/html/issues/9164,2023-04-13T16:36:31Z,2023-04-13T17:23:53Z,cathiechen,topic: popover,0
 1666214684,false,Popover: spec for dealing with element removal is incorrect,https://github.com/whatwg/html/issues/9161,2023-04-13T11:13:30Z,2023-04-17T19:31:41Z,jakearchibald,topic: popover,0
 1666173855,true,Popover parent/child relationship doesn't seem correct,https://github.com/whatwg/html/issues/9160,2023-04-13T10:45:41Z,2023-05-08T16:13:14Z,jakearchibald,topic: popover,0
@@ -37,7 +37,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1662937464,false,"""The directionality of an attribute of an HTML"" seems weird?",https://github.com/whatwg/html/issues/9146,2023-04-11T17:29:12Z,2023-04-28T08:20:28Z,fantasai,i18n-tracker,0
 1661175493,false,popover light dismiss behavior is not specified for Esc key,https://github.com/whatwg/html/issues/9143,2023-04-10T18:32:47Z,2023-04-20T23:15:24Z,asurkov,topic: popover,1
 1659003302,true,Active frame element should also check if the document's browsing context is non-null,https://github.com/whatwg/html/issues/9136,2023-04-07T16:57:55Z,2023-04-28T07:31:26Z,Lubrsi,topic: browsing context,0
-1658639409,false,Form submission does a replace load depending on whether the form document has completely loaded,https://github.com/whatwg/html/issues/9135,2023-04-07T10:18:16Z,2023-04-28T01:20:00Z,petervanderbeken,topic: navigation|topic: forms,0
+1658639409,true,Form submission does a replace load depending on whether the form document has completely loaded,https://github.com/whatwg/html/issues/9135,2023-04-07T10:18:16Z,2023-05-10T07:04:47Z,petervanderbeken,topic: navigation|topic: forms,0
 1658447667,false,Navigation sourceDocument for browser-initiated navigations,https://github.com/whatwg/html/issues/9133,2023-04-07T06:56:05Z,2023-04-28T07:55:42Z,domenic,topic: navigation,0
 1658170692,true,Upcoming HTML standard issue triage meeting on 4/20/2023,https://github.com/whatwg/html/issues/9132,2023-04-06T23:39:43Z,2023-04-20T23:23:15Z,past,agenda+,0
 1656257748,true,Setting input type=date value attribute doesn't pre-populate the input if there's a time,https://github.com/whatwg/html/issues/9128,2023-04-05T20:37:06Z,2023-05-05T08:24:53Z,jfbrennan,,0
@@ -1122,7 +1122,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 769579263,false,"Update ""intrinsic dimensions"" terminology",https://github.com/whatwg/html/issues/6233,2020-12-17T06:25:35Z,2020-12-18T13:30:52Z,fantasai,topic: rendering|topic: img|integration,0
 769344237,false,Allow form validation on <output> element,https://github.com/whatwg/html/issues/6232,2020-12-16T23:25:31Z,2020-12-30T23:06:27Z,btrem,,2
 769198241,false,"Custom Elements definition/styling challenges/use cases ",https://github.com/whatwg/html/issues/6231,2020-12-16T19:08:08Z,2023-04-20T17:29:17Z,bkardell,,0
-767783731,false,Should two different defer scripts execute in the same task?,https://github.com/whatwg/html/issues/6230,2020-12-15T16:35:11Z,2023-05-09T20:35:39Z,rik,topic: script|topic: event loop,0
+767783731,false,Should two different defer scripts execute in the same task?,https://github.com/whatwg/html/issues/6230,2020-12-15T16:35:11Z,2023-05-10T10:03:20Z,rik,topic: script|topic: event loop,0
 767105790,true,Add scoped attribute back in to the standards,https://github.com/whatwg/html/issues/6228,2020-12-15T02:46:23Z,2020-12-15T07:50:47Z,jabcreations,,1
 766949843,false,wbr should cut through nowrap unconditionally,https://github.com/whatwg/html/issues/6227,2020-12-14T21:34:59Z,2020-12-15T07:49:27Z,fantasai,topic: rendering,0
 766812233,true,Allow <slot> as a child of <table> or any of it descendants,https://github.com/whatwg/html/issues/6226,2020-12-14T18:43:08Z,2020-12-15T09:33:46Z,GeorgeTailor,,0
@@ -2471,7 +2471,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2023-05-08T15:57:07Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,22
 305369552,true,Proposal: Improve control over HTML/XML syntax parse errors,https://github.com/whatwg/html/issues/3569,2018-03-14T23:56:33Z,2022-04-18T15:28:51Z,dvdckl,addition/proposal|needs implementer interest|topic: parser,0
 305147441,true,"<form method> description only says ""HTTP method""",https://github.com/whatwg/html/issues/3568,2018-03-14T12:58:10Z,2018-04-20T07:53:27Z,annevk,good first issue,0
-305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2023-04-14T13:59:59Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,62
+305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2023-05-10T10:53:13Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,63
 305020324,true,Separate out document.open() method declaration definitions,https://github.com/whatwg/html/issues/3565,2018-03-14T04:36:27Z,2018-06-28T15:27:09Z,domenic,clarification|good first issue|topic: document.open(),0
 305019688,true,At least Blink does not support document.open()'s replace parameter,https://github.com/whatwg/html/issues/3564,2018-03-14T04:31:43Z,2018-08-23T18:40:33Z,domenic,topic: history|interop|topic: document.open(),0
 304874091,false,<template> element capability/semantics in SVG parsing context,https://github.com/whatwg/html/issues/3563,2018-03-13T17:59:50Z,2018-03-15T07:34:25Z,kevinpschaaf,addition/proposal|needs implementer interest|topic: parser,0
