@@ -1,4 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1704779616,false,New,https://github.com/whatwg/html/issues/9273,2023-05-11T00:18:49Z,2023-05-11T00:18:49Z,BronkHonkyTonk,,0
+1703854743,false,Are interfaces inheriting from `[Seralizable]`/`[Transferable]` interfaces required to have their own steps?,https://github.com/whatwg/html/issues/9269,2023-05-10T12:47:44Z,2023-05-10T15:51:49Z,saschanaz,topic: serialize and transfer,0
 1700748479,false,"Redundant call to ""nearest inclusive open popover"" algorithm?",https://github.com/whatwg/html/issues/9263,2023-05-08T18:50:34Z,2023-05-09T16:36:40Z,nt1m,topic: popover,0
 1696364615,false,Upcoming HTML standard issue triage meeting on 5/18/2023,https://github.com/whatwg/html/issues/9254,2023-05-04T16:57:23Z,2023-05-04T16:57:23Z,past,agenda+,0
 1694120328,true,Not possible to put non-phrasing content in paragraphs due to tag omission in HTML5,https://github.com/whatwg/html/issues/9251,2023-05-03T13:51:14Z,2023-05-08T08:23:56Z,Cendio-Zeijlon,,0
@@ -14,7 +16,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1681178104,false,Submitting element directionality for various input element types,https://github.com/whatwg/html/issues/9206,2023-04-24T12:39:05Z,2023-04-27T10:45:57Z,vinhill,topic: forms|i18n-tracker|i18n-alreq|i18n-afrlreq,0
 1688488556,false,Proposal: `Viewport` header for early hints,https://github.com/whatwg/html/issues/9233,2023-04-24T09:02:52Z,2023-04-28T13:59:00Z,noamr,addition/proposal|needs implementer interest,1
 1678606496,false,Popover: we can't guarantee the element calling `hidePopover` is on the top of auto popover list,https://github.com/whatwg/html/issues/9197,2023-04-21T14:18:38Z,2023-04-25T23:16:06Z,cathiechen,topic: popover,0
-1678411261,false,Popover: there is a circle for show other auto popover while hiding,https://github.com/whatwg/html/issues/9196,2023-04-21T12:04:32Z,2023-04-28T16:22:48Z,cathiechen,,0
+1678411261,false,Popover: there is a circle for show other auto popover while hiding,https://github.com/whatwg/html/issues/9196,2023-04-21T12:04:32Z,2023-05-10T20:31:34Z,cathiechen,topic: popover,0
 1677543108,true,Upcoming HTML standard issue triage meeting on 5/4/2023,https://github.com/whatwg/html/issues/9193,2023-04-20T23:18:15Z,2023-05-04T17:03:14Z,past,agenda+,0
 1676587334,false,Clarification on the DOM being a tree,https://github.com/whatwg/html/issues/9189,2023-04-20T12:03:44Z,2023-04-21T09:49:17Z,MrHBS,clarification,0
 1688386216,false,Clarification for <link> behavior in Declarative Shadow DOM,https://github.com/whatwg/html/issues/9232,2023-04-19T04:02:35Z,2023-04-28T13:09:57Z,bakura10,topic: shadow|topic: link,1
@@ -1122,7 +1124,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 769579263,false,"Update ""intrinsic dimensions"" terminology",https://github.com/whatwg/html/issues/6233,2020-12-17T06:25:35Z,2020-12-18T13:30:52Z,fantasai,topic: rendering|topic: img|integration,0
 769344237,false,Allow form validation on <output> element,https://github.com/whatwg/html/issues/6232,2020-12-16T23:25:31Z,2020-12-30T23:06:27Z,btrem,,2
 769198241,false,"Custom Elements definition/styling challenges/use cases ",https://github.com/whatwg/html/issues/6231,2020-12-16T19:08:08Z,2023-04-20T17:29:17Z,bkardell,,0
-767783731,false,Should two different defer scripts execute in the same task?,https://github.com/whatwg/html/issues/6230,2020-12-15T16:35:11Z,2023-05-10T10:03:20Z,rik,topic: script|topic: event loop,0
+767783731,false,Should two different defer scripts execute in the same task?,https://github.com/whatwg/html/issues/6230,2020-12-15T16:35:11Z,2023-05-10T19:33:18Z,rik,topic: script|topic: event loop,0
 767105790,true,Add scoped attribute back in to the standards,https://github.com/whatwg/html/issues/6228,2020-12-15T02:46:23Z,2020-12-15T07:50:47Z,jabcreations,,1
 766949843,false,wbr should cut through nowrap unconditionally,https://github.com/whatwg/html/issues/6227,2020-12-14T21:34:59Z,2020-12-15T07:49:27Z,fantasai,topic: rendering,0
 766812233,true,Allow <slot> as a child of <table> or any of it descendants,https://github.com/whatwg/html/issues/6226,2020-12-14T18:43:08Z,2020-12-15T09:33:46Z,GeorgeTailor,,0
@@ -2471,7 +2473,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2023-05-08T15:57:07Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,22
 305369552,true,Proposal: Improve control over HTML/XML syntax parse errors,https://github.com/whatwg/html/issues/3569,2018-03-14T23:56:33Z,2022-04-18T15:28:51Z,dvdckl,addition/proposal|needs implementer interest|topic: parser,0
 305147441,true,"<form method> description only says ""HTTP method""",https://github.com/whatwg/html/issues/3568,2018-03-14T12:58:10Z,2018-04-20T07:53:27Z,annevk,good first issue,0
-305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2023-05-10T10:53:13Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,63
+305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2023-05-10T10:53:13Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,64
 305020324,true,Separate out document.open() method declaration definitions,https://github.com/whatwg/html/issues/3565,2018-03-14T04:36:27Z,2018-06-28T15:27:09Z,domenic,clarification|good first issue|topic: document.open(),0
 305019688,true,At least Blink does not support document.open()'s replace parameter,https://github.com/whatwg/html/issues/3564,2018-03-14T04:31:43Z,2018-08-23T18:40:33Z,domenic,topic: history|interop|topic: document.open(),0
 304874091,false,<template> element capability/semantics in SVG parsing context,https://github.com/whatwg/html/issues/3563,2018-03-13T17:59:50Z,2018-03-15T07:34:25Z,kevinpschaaf,addition/proposal|needs implementer interest|topic: parser,0

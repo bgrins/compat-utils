@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1704717590,false,Don't restore popover focus for manual popovers,https://github.com/whatwg/html/pull/9271,2023-05-10T22:43:30Z,2023-05-10T22:44:54Z,josepharhar,,0
 1702373150,false,Remove redundant call to nearest open popover,https://github.com/whatwg/html/pull/9267,2023-05-09T16:36:03Z,2023-05-10T09:04:59Z,josepharhar,,0
 1700973300,false,Editorial: formalize the concept of a realm's agent,https://github.com/whatwg/html/pull/9264,2023-05-08T21:32:31Z,2023-05-10T06:52:15Z,syg,do not merge yet|editorial,0
 1700695424,true,editorial updates for popover example,https://github.com/whatwg/html/pull/9262,2023-05-08T18:10:52Z,2023-05-09T15:42:39Z,scottaohara,topic: popover,0
@@ -15,12 +16,12 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1686196867,true,"Prefetch: Specify ""appropriate times to fetch and process""",https://github.com/whatwg/html/pull/9223,2023-04-27T06:25:14Z,2023-04-27T09:15:22Z,noamr,topic: link|topic: resource hints (inc. preload),0
 1684188006,false,Clarify WebTransport BFCache interaction,https://github.com/whatwg/html/pull/9217,2023-04-26T03:04:11Z,2023-04-26T06:08:11Z,nidhijaju,,0
 1683549011,false,Remove references to RegExp `v` flag proposal,https://github.com/whatwg/html/pull/9213,2023-04-25T17:11:38Z,2023-04-25T17:12:59Z,mathiasbynens,do not merge yet,0
-1682091177,false,Use module referrer policy for descendant fetches,https://github.com/whatwg/html/pull/9210,2023-04-24T21:47:00Z,2023-05-09T16:21:47Z,domfarolino,do not merge yet|needs tests|topic: script,0
+1682091177,false,Use module referrer policy for descendant fetches,https://github.com/whatwg/html/pull/9210,2023-04-24T21:47:00Z,2023-05-10T18:14:34Z,domfarolino,do not merge yet|needs tests|topic: script,0
 1681873727,true,"Make script's ""base URL"" member nullable, as the spec expects",https://github.com/whatwg/html/pull/9209,2023-04-24T19:14:03Z,2023-04-25T05:15:23Z,domfarolino,topic: script,0
 1681759829,true,Stop exporting 'Web workers' header,https://github.com/whatwg/html/pull/9208,2023-04-24T17:54:05Z,2023-04-26T11:38:50Z,domfarolino,editorial,0
 1681710250,false,Issue #9206: Submit input element directionality only for text and search type,https://github.com/whatwg/html/pull/9207,2023-04-24T17:13:20Z,2023-05-03T12:35:30Z,vinhill,,0
 1680497412,true,"Export dfn ""CORS settings attribute credentials mode"".",https://github.com/whatwg/html/pull/9204,2023-04-24T05:44:54Z,2023-04-24T05:49:59Z,mgiuca,,0
-1679215284,true,Fix a corner case where `beforetoggle` opens a new popover,https://github.com/whatwg/html/pull/9198,2023-04-21T23:34:07Z,2023-04-25T21:35:06Z,josepharhar,topic: popover,0
+1679215284,true,Fix a corner case where `beforetoggle` opens a new popover,https://github.com/whatwg/html/pull/9198,2023-04-21T23:34:07Z,2023-05-10T21:56:22Z,josepharhar,topic: popover,0
 1678368760,false,Add customElements.getName(constructor),https://github.com/whatwg/html/pull/9195,2023-04-21T11:31:03Z,2023-04-24T13:45:53Z,keithamus,,0
 1677427586,false,Add shapeSmoothingEnabled option for CanvasRenderingContext2D,https://github.com/whatwg/html/pull/9192,2023-04-20T21:03:07Z,2023-04-28T03:53:14Z,nornagon,topic: canvas,0
 1677097386,true,Fix map definition in topmost popover ancestor,https://github.com/whatwg/html/pull/9190,2023-04-20T17:02:55Z,2023-04-24T14:44:53Z,josepharhar,topic: popover,0
@@ -36,7 +37,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1665915432,true,Do not do same-URL replace navigations when initiated cross-origin,https://github.com/whatwg/html/pull/9157,2023-04-13T07:58:01Z,2023-05-08T22:49:00Z,domenic,normative change|topic: navigation|security/privacy|topic: history,0
 1665882711,true,Fix form submission's replace-before-load logic,https://github.com/whatwg/html/pull/9156,2023-04-13T07:34:01Z,2023-05-10T07:05:24Z,domenic,topic: navigation|topic: forms|interop,0
 1665109294,false,Add payto as a safelisted scheme for registerProtocolHandler(),https://github.com/whatwg/html/pull/9155,2023-04-12T19:17:02Z,2023-04-14T17:39:51Z,rastislavcore,addition/proposal|needs implementer interest|topic: custom protocols,0
-1663489093,false,Move cross-origin opener policy into policy container,https://github.com/whatwg/html/pull/9149,2023-04-12T01:17:19Z,2023-05-10T08:47:43Z,domfarolino,topic: cross-origin-opener-policy|topic: policy container,0
+1663489093,false,Move cross-origin opener policy into policy container,https://github.com/whatwg/html/pull/9149,2023-04-12T01:17:19Z,2023-05-10T16:27:11Z,domfarolino,topic: cross-origin-opener-policy|topic: policy container,0
 1661201309,false,Add anchor attribute,https://github.com/whatwg/html/pull/9144,2023-04-10T18:57:34Z,2023-05-08T15:42:32Z,josepharhar,,0
 1660955905,true,Don't throw when popover/dialog is in requested state,https://github.com/whatwg/html/pull/9142,2023-04-10T15:32:00Z,2023-05-09T08:08:39Z,josepharhar,needs tests|topic: dialog|topic: popover,0
 1660921767,true,Remove anchor attribute reference in popover note,https://github.com/whatwg/html/pull/9141,2023-04-10T15:05:50Z,2023-04-24T14:03:23Z,josepharhar,topic: popover,0
@@ -1494,7 +1495,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 443572976,true,Add code to allocate agent clusters.,https://github.com/whatwg/html/pull/4617,2019-05-13T19:54:23Z,2019-09-09T17:41:24Z,dtapuska,topic: agent,0
 443274066,true,Mention the firing condition of an invalid event,https://github.com/whatwg/html/pull/4616,2019-05-13T08:41:56Z,2019-05-14T14:21:37Z,poyea,,0
 443035399,true,Editorial: cross link to obsolete Document partial,https://github.com/whatwg/html/pull/4614,2019-05-11T20:55:00Z,2019-05-13T16:58:04Z,domenic,clarification,0
-442933959,false,Add Atomics.waitAsync host hook,https://github.com/whatwg/html/pull/4613,2019-05-11T00:21:26Z,2023-05-09T14:00:21Z,littledan,do not merge yet,0
+442933959,false,Add Atomics.waitAsync host hook,https://github.com/whatwg/html/pull/4613,2019-05-11T00:21:26Z,2023-05-10T21:17:17Z,littledan,do not merge yet,0
 442824204,true,Separate the media play algorithm into internal steps.,https://github.com/whatwg/html/pull/4610,2019-05-10T17:37:28Z,2019-05-10T18:09:22Z,dtapuska,topic: media,0
 442633014,true,Add defer attribute to nomodule script example,https://github.com/whatwg/html/pull/4609,2019-05-10T09:47:33Z,2019-05-20T17:36:21Z,andydavies,topic: script,0
 442433816,false,Add disallowdocumentaccess iframe attribute to force a creation of a new agent cluster map,https://github.com/whatwg/html/pull/4606,2019-05-09T21:06:14Z,2022-08-22T02:36:09Z,dtapuska,,0
