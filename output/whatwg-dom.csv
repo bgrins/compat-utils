@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1709682685,false,Define XPath's lang() as ASCII case-insensitive,https://github.com/whatwg/dom/issues/1199,2023-05-15T09:24:38Z,2023-05-15T09:24:38Z,annevk,,0
+1709682685,false,Define XPath's lang() as ASCII case-insensitive,https://github.com/whatwg/dom/issues/1199,2023-05-15T09:24:38Z,2023-05-15T22:03:00Z,annevk,,0
 1709677139,false,Import HTML's XPath and XSLT monkey patches,https://github.com/whatwg/dom/issues/1198,2023-05-15T09:21:15Z,2023-05-15T09:21:15Z,annevk,,0
 1706280852,true,Undeprecate document.all,https://github.com/whatwg/dom/issues/1196,2023-05-11T17:52:35Z,2023-05-11T21:45:31Z,jfbrennan,,0
 1697248128,false,Userland AbortSignal,https://github.com/whatwg/dom/issues/1195,2023-05-05T08:51:37Z,2023-05-09T18:50:02Z,annevk,topic: aborting,1
@@ -165,7 +165,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 573000518,false,Proposal: A Range.prototype.replaceContents(...),https://github.com/whatwg/dom/issues/837,2020-02-28T20:57:35Z,2023-02-28T23:50:01Z,WebReflection,needs implementer interest|addition/proposal|topic: ranges,12
 563355953,false,Node insertion step 7.7 isn't upgrading disconnected uncustomized elements that browsers do upgrade,https://github.com/whatwg/dom/issues/833,2020-02-11T17:17:01Z,2020-02-13T12:10:07Z,pshaughn,topic: custom elements,0
 562731160,false,[infra] Integrating generation of W3C-ready review drafts into build pipeline,https://github.com/whatwg/dom/issues/832,2020-02-10T18:02:36Z,2020-02-10T18:10:11Z,sideshowbarker,,0
-561925806,false,Declarative Shadow DOM,https://github.com/whatwg/dom/issues/831,2020-02-07T23:39:21Z,2023-03-10T22:27:09Z,mfreed7,topic: shadow|needs implementer interest|addition/proposal,152
+561925806,false,Declarative Shadow DOM,https://github.com/whatwg/dom/issues/831,2020-02-07T23:39:21Z,2023-05-15T19:36:06Z,mfreed7,topic: shadow|needs implementer interest|addition/proposal,152
 559601115,false,"Update the ""convert nodes into a node"" to accept arrays of nodes.",https://github.com/whatwg/dom/issues/828,2020-02-04T09:47:18Z,2020-02-05T10:55:23Z,pygy,addition/proposal,0
 557875877,false,[proposal] Node.containingShadowRoot,https://github.com/whatwg/dom/issues/826,2020-01-31T02:33:57Z,2020-02-03T08:49:02Z,emilio,topic: shadow|needs implementer interest|addition/proposal,0
 547971626,false,TreeWalker constructor,https://github.com/whatwg/dom/issues/818,2020-01-10T09:46:06Z,2020-01-11T08:07:18Z,bathos,needs implementer interest|addition/proposal,1
@@ -295,7 +295,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 304317220,false,Candidates for AbstractRange,https://github.com/whatwg/dom/issues/591,2018-03-12T10:34:25Z,2019-04-11T09:40:20Z,annevk,needs implementer interest|needs tests|addition/proposal|topic: ranges,0
 304312074,true,Introduce a StaticRange constructor,https://github.com/whatwg/dom/issues/590,2018-03-12T10:19:07Z,2019-08-29T06:33:04Z,annevk,addition/proposal|topic: ranges,0
 303904611,false,Property to distinguish whether listener is passive or no/event is preventable,https://github.com/whatwg/dom/issues/587,2018-03-09T16:45:38Z,2022-08-12T09:30:47Z,FRSgit,needs implementer interest|topic: events|addition/proposal,0
-303551004,false,"Add convenient, ergonomic, performant API for sorting siblings",https://github.com/whatwg/dom/issues/586,2018-03-08T16:49:29Z,2023-02-24T11:24:20Z,fantasai,needs implementer interest|addition/proposal,11
+303551004,false,"Add convenient, ergonomic, performant API for sorting siblings",https://github.com/whatwg/dom/issues/586,2018-03-08T16:49:29Z,2023-05-15T17:29:21Z,fantasai,needs implementer interest|addition/proposal,11
 302351172,false,"Allow custom ""get the parent"" algorithms for EventTargets",https://github.com/whatwg/dom/issues/583,2018-03-05T15:47:38Z,2023-02-04T16:48:21Z,zandaqo,needs implementer interest|topic: events|addition/proposal,15
 301229910,true,dispatch algorithm doesn't seem to handle the case when target or relatedTarget is Window object,https://github.com/whatwg/dom/issues/580,2018-02-28T23:58:39Z,2018-03-28T12:56:28Z,smaug----,topic: shadow,0
 300041398,true,"chrome, doesn't accept preventDefault and still cancelable is true",https://github.com/whatwg/dom/issues/579,2018-02-25T16:52:34Z,2018-02-27T10:45:19Z,Nadya678,,0

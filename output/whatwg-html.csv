@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1709729746,false,Should <dir> behave like a list element?,https://github.com/whatwg/html/issues/9296,2023-05-15T09:51:12Z,2023-05-15T09:51:12Z,annevk,topic: rendering|interop,0
+1710940425,true,Fix document.all,https://github.com/whatwg/html/issues/9298,2023-05-15T22:34:31Z,2023-05-16T00:11:07Z,jfbrennan,,0
+1709729746,false,Should <dir> behave like a list element?,https://github.com/whatwg/html/issues/9296,2023-05-15T09:51:12Z,2023-05-15T15:23:22Z,annevk,topic: rendering|accessibility|interop|a11y-tracker,0
 1709674704,false,Proposal: Web Charts,https://github.com/whatwg/html/issues/9295,2023-05-15T09:19:44Z,2023-05-15T09:19:44Z,AdamSobieski,,0
 1709085324,false,Proposal:  measurement semantic HTML tag,https://github.com/whatwg/html/issues/9294,2023-05-14T21:42:27Z,2023-05-14T21:42:27Z,bahrus,,0
 1708344988,false,Clarify natural dimensions of HAVE_METADATA video element with no frame available,https://github.com/whatwg/html/issues/9279,2023-05-12T23:49:10Z,2023-05-13T00:46:08Z,karlt,,0
@@ -19,7 +20,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1686592737,false,Dirname should work with more input types,https://github.com/whatwg/html/issues/9225,2023-04-27T10:45:03Z,2023-05-02T08:51:08Z,r12a,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,0
 1685030989,true,"link prefetch may miss an ""appropriate times to fetch and process""",https://github.com/whatwg/html/issues/9220,2023-04-26T13:25:25Z,2023-04-27T06:43:54Z,Kaiido,topic: link|topic: resource hints (inc. preload),0
 1684422339,false,Introducing Direct Navigation to Client-Side JavaScript-Generated HTML Documents,https://github.com/whatwg/html/issues/9218,2023-04-25T20:04:26Z,2023-04-26T08:14:40Z,Lonniebiz,,0
-1681178104,false,Submitting element directionality for various input element types,https://github.com/whatwg/html/issues/9206,2023-04-24T12:39:05Z,2023-04-27T10:45:57Z,vinhill,topic: forms|i18n-tracker|i18n-alreq|i18n-afrlreq,0
+1681178104,true,Submitting element directionality for various input element types,https://github.com/whatwg/html/issues/9206,2023-04-24T12:39:05Z,2023-05-15T14:51:41Z,vinhill,topic: forms|i18n-tracker|i18n-alreq|i18n-afrlreq,0
 1688488556,false,Proposal: `Viewport` header for early hints,https://github.com/whatwg/html/issues/9233,2023-04-24T09:02:52Z,2023-04-28T13:59:00Z,noamr,addition/proposal|needs implementer interest,1
 1678606496,false,Popover: we can't guarantee the element calling `hidePopover` is on the top of auto popover list,https://github.com/whatwg/html/issues/9197,2023-04-21T14:18:38Z,2023-04-25T23:16:06Z,cathiechen,topic: popover,0
 1678411261,false,Popover: there is a circle for show other auto popover while hiding,https://github.com/whatwg/html/issues/9196,2023-04-21T12:04:32Z,2023-05-10T20:31:34Z,cathiechen,topic: popover,0
@@ -2842,7 +2843,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 248552592,true,Change the Image decode API wording / spec.,https://github.com/whatwg/html/issues/2898,2017-08-07T22:48:05Z,2017-09-21T11:45:44Z,vmpstr,topic: img,0
 248504878,true,Add getPath()/setPath() to CanvasRenderingContext2D,https://github.com/whatwg/html/issues/2897,2017-08-07T19:16:17Z,2018-01-26T10:13:22Z,dcrousso,topic: canvas,0
 248501040,false,Add currentX/currentY attributes to CanvasPath,https://github.com/whatwg/html/issues/2896,2017-08-07T18:59:53Z,2018-01-26T10:14:01Z,dcrousso,normative change|addition/proposal|needs implementer interest|topic: canvas,1
-248143714,false,"Deprecate alert(), confirm(), prompt()",https://github.com/whatwg/html/issues/2894,2017-08-05T00:12:25Z,2023-05-15T08:54:28Z,jasonwilliams,removal/deprecation,24
+248143714,false,"Deprecate alert(), confirm(), prompt()",https://github.com/whatwg/html/issues/2894,2017-08-05T00:12:25Z,2023-05-16T00:07:05Z,jasonwilliams,removal/deprecation,24
 247836671,false,"Some events are past tense; we should document why, maybe?",https://github.com/whatwg/html/issues/2891,2017-08-03T21:11:04Z,2017-08-14T14:26:57Z,domenic,clarification,0
 247615168,true,"""defined in the auxclick specification""",https://github.com/whatwg/html/issues/2889,2017-08-03T07:24:27Z,2017-08-29T10:52:29Z,cvrebert,good first issue,0
 247578080,true,Simpler path for adoption of modules in workers,https://github.com/whatwg/html/issues/2888,2017-08-03T02:55:01Z,2017-08-03T15:28:18Z,cesarandreu,topic: workers|topic: script,0
