@@ -1,10 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1717546148,false,Update RO loop to include content-visibility,https://github.com/whatwg/html/pull/9312,2023-05-19T16:56:53Z,2023-05-19T16:58:53Z,vmpstr,,0
 1716303125,false,Ignore dangling markup in target name,https://github.com/whatwg/html/pull/9309,2023-05-18T21:39:56Z,2023-05-19T01:25:01Z,shhnjk,,0
 1714880100,false,Add not restored reasons,https://github.com/whatwg/html/pull/9307,2023-05-18T02:16:46Z,2023-05-19T04:40:51Z,rubberyuzu,,0
-1712881320,false,Cleaned up the tables for getContext(),https://github.com/whatwg/html/pull/9305,2023-05-16T23:51:51Z,2023-05-17T13:33:04Z,trevorspiniolas,,0
+1712881320,false,Cleaned up the tables for getContext(),https://github.com/whatwg/html/pull/9305,2023-05-16T23:51:51Z,2023-05-19T20:43:10Z,trevorspiniolas,,0
 1712520196,true,Editorial: Remove duplicate delaying the load event requirement,https://github.com/whatwg/html/pull/9303,2023-05-16T18:24:14Z,2023-05-17T01:12:49Z,domfarolino,topic: embed and object|editorial,0
 1710018774,false,Meta: load some scripts with defer to make their DOMContentLoaded listener reliable,https://github.com/whatwg/html/pull/9297,2023-05-15T12:41:28Z,2023-05-18T12:01:11Z,jsnajdr,,0
-1704717590,false,Don't restore popover focus for manual popovers,https://github.com/whatwg/html/pull/9271,2023-05-10T22:43:30Z,2023-05-15T14:43:04Z,josepharhar,topic: focus|topic: popover,0
+1704717590,true,Don't restore popover focus for manual popovers,https://github.com/whatwg/html/pull/9271,2023-05-10T22:43:30Z,2023-05-19T12:34:25Z,josepharhar,topic: focus|topic: popover,0
 1702373150,false,Remove redundant call to nearest open popover,https://github.com/whatwg/html/pull/9267,2023-05-09T16:36:03Z,2023-05-12T15:38:08Z,josepharhar,topic: popover,0
 1700973300,false,Editorial: formalize the concept of a realm's agent,https://github.com/whatwg/html/pull/9264,2023-05-08T21:32:31Z,2023-05-13T21:41:09Z,syg,do not merge yet|editorial,0
 1700695424,true,editorial updates for popover example,https://github.com/whatwg/html/pull/9262,2023-05-08T18:10:52Z,2023-05-09T15:42:39Z,scottaohara,topic: popover,0
@@ -21,7 +22,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1686196867,true,"Prefetch: Specify ""appropriate times to fetch and process""",https://github.com/whatwg/html/pull/9223,2023-04-27T06:25:14Z,2023-04-27T09:15:22Z,noamr,topic: link|topic: resource hints (inc. preload),0
 1684188006,false,Clarify WebTransport BFCache interaction,https://github.com/whatwg/html/pull/9217,2023-04-26T03:04:11Z,2023-04-26T06:08:11Z,nidhijaju,,0
 1683549011,false,Remove references to RegExp `v` flag proposal,https://github.com/whatwg/html/pull/9213,2023-04-25T17:11:38Z,2023-04-25T17:12:59Z,mathiasbynens,do not merge yet,0
-1682091177,false,Use module referrer policy for descendant fetches,https://github.com/whatwg/html/pull/9210,2023-04-24T21:47:00Z,2023-05-10T18:14:34Z,domfarolino,do not merge yet|needs tests|topic: script,0
+1682091177,false,Use module referrer policy for descendant fetches,https://github.com/whatwg/html/pull/9210,2023-04-24T21:47:00Z,2023-05-19T13:13:34Z,domfarolino,do not merge yet|needs tests|topic: script,0
 1681873727,true,"Make script's ""base URL"" member nullable, as the spec expects",https://github.com/whatwg/html/pull/9209,2023-04-24T19:14:03Z,2023-04-25T05:15:23Z,domfarolino,topic: script,0
 1681759829,true,Stop exporting 'Web workers' header,https://github.com/whatwg/html/pull/9208,2023-04-24T17:54:05Z,2023-04-26T11:38:50Z,domfarolino,editorial,0
 1681710250,true,Issue #9206: Submit input element directionality only for text and search type,https://github.com/whatwg/html/pull/9207,2023-04-24T17:13:20Z,2023-05-15T14:51:35Z,vinhill,,0
@@ -55,7 +56,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1653147495,true,"Remove ""element-attr"" from non-attribute terms",https://github.com/whatwg/html/pull/9118,2023-04-04T04:20:19Z,2023-04-06T05:46:23Z,gnpivo,,0
 1653127603,true,"Remove ""element-attr"" from non-attribute terms",https://github.com/whatwg/html/pull/9117,2023-04-04T03:52:52Z,2023-04-04T04:20:09Z,gnpivo,,0
 1648732472,true,"Export ""reactivate a document""",https://github.com/whatwg/html/pull/9096,2023-03-31T06:09:12Z,2023-03-31T12:25:53Z,rakina,,0
-1648089210,false,Use CSS spec for top layer,https://github.com/whatwg/html/pull/9093,2023-03-30T18:14:31Z,2023-05-18T20:15:25Z,josepharhar,topic: rendering|integration,0
+1648089210,false,Use CSS spec for top layer,https://github.com/whatwg/html/pull/9093,2023-03-30T18:14:31Z,2023-05-19T12:48:20Z,josepharhar,topic: rendering|integration,0
 1646532457,true,Fix a typo in User Activation processing model.,https://github.com/whatwg/html/pull/9091,2023-03-29T21:07:39Z,2023-03-31T05:19:36Z,mustaqahmed,topic: user activation,0
 1646278992,true,editorial: add custom element extensibility bullet,https://github.com/whatwg/html/pull/9088,2023-03-29T18:03:36Z,2023-05-05T12:32:50Z,bkardell,,0
 1644980345,true,Create API top layer,https://github.com/whatwg/html/pull/9085,2023-03-29T03:40:08Z,2023-03-29T05:47:33Z,akshaya-hub,spam,0

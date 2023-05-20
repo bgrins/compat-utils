@@ -4,13 +4,13 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1715965888,false,Upcoming HTML standard issue triage meeting on 6/1/2023,https://github.com/whatwg/html/issues/9308,2023-05-18T17:03:06Z,2023-05-18T17:03:06Z,past,agenda+,0
 1714172992,true,[csp] nonce attribute moving needs timing details,https://github.com/whatwg/html/issues/9306,2023-05-17T15:33:11Z,2023-05-17T21:07:37Z,emilio,,0
 1712189784,false,Add a note for relevant vs current settings object for constructors,https://github.com/whatwg/html/issues/9301,2023-05-16T14:51:05Z,2023-05-16T15:35:29Z,zcorpan,clarification|topic: multiple globals,0
-1712036945,false,Update the wording of resize observer steps in update the rendering,https://github.com/whatwg/html/issues/9300,2023-05-16T13:30:35Z,2023-05-17T00:47:05Z,vmpstr,,0
+1712036945,false,Update the wording of resize observer steps in update the rendering,https://github.com/whatwg/html/issues/9300,2023-05-16T13:30:35Z,2023-05-19T12:38:11Z,vmpstr,topic: event loop,0
 1710940425,true,Fix document.all,https://github.com/whatwg/html/issues/9298,2023-05-15T22:34:31Z,2023-05-19T06:38:03Z,jfbrennan,,0
 1709729746,false,Should <dir> behave like a list element?,https://github.com/whatwg/html/issues/9296,2023-05-15T09:51:12Z,2023-05-15T15:23:22Z,annevk,topic: rendering|accessibility|interop|a11y-tracker,0
-1709674704,false,Proposal: Web Charts,https://github.com/whatwg/html/issues/9295,2023-05-15T09:19:44Z,2023-05-19T11:34:33Z,AdamSobieski,,3
+1709674704,false,Proposal: Web Charts,https://github.com/whatwg/html/issues/9295,2023-05-15T09:19:44Z,2023-05-19T16:51:20Z,AdamSobieski,,3
 1709085324,false,Proposal:  measurement semantic HTML tag,https://github.com/whatwg/html/issues/9294,2023-05-14T21:42:27Z,2023-05-17T21:12:48Z,bahrus,addition/proposal|needs implementer interest,0
 1708344988,false,Clarify natural dimensions of HAVE_METADATA video element with no frame available,https://github.com/whatwg/html/issues/9279,2023-05-12T23:49:10Z,2023-05-17T13:46:46Z,karlt,topic: media|interop,0
-1708075642,false,Keep sharedWorker alive durning reload / next-page,https://github.com/whatwg/html/issues/9278,2023-05-12T19:02:47Z,2023-05-12T19:04:19Z,jimmywarting,,0
+1708075642,false,Keep sharedWorker alive durning reload / next-page,https://github.com/whatwg/html/issues/9278,2023-05-12T19:02:47Z,2023-05-19T13:17:19Z,jimmywarting,topic: workers|needs tests,0
 1706694082,false,Normalize COOP inheritance with policy container,https://github.com/whatwg/html/issues/9277,2023-05-11T23:23:49Z,2023-05-11T23:23:49Z,domfarolino,topic: cross-origin-opener-policy|topic: policy container,0
 1705526325,false,"Import maps cannot be used with HTTP Link rel=modulepreload ",https://github.com/whatwg/html/issues/9274,2023-05-11T10:25:29Z,2023-05-12T01:57:18Z,allstarschh,topic: resource hints (inc. preload),0
 1703854743,false,Are interfaces inheriting from `[Seralizable]`/`[Transferable]` interfaces required to have their own steps?,https://github.com/whatwg/html/issues/9269,2023-05-10T12:47:44Z,2023-05-10T15:51:49Z,saschanaz,topic: serialize and transfer,0
@@ -58,7 +58,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1656257748,true,Setting input type=date value attribute doesn't pre-populate the input if there's a time,https://github.com/whatwg/html/issues/9128,2023-04-05T20:37:06Z,2023-05-05T08:24:53Z,jfbrennan,,0
 1655838735,false,"Consider allowing <hr> within list elements (ol, ul, menu)",https://github.com/whatwg/html/issues/9126,2023-04-05T15:25:32Z,2023-04-05T15:29:45Z,scottaohara,addition/proposal|document conformance|accessibility|a11y-tracker,9
 1655605700,true,"Popover: The ""map"" in the topmost popover ancestor algorithm does not mean the map element.",https://github.com/whatwg/html/issues/9125,2023-04-05T13:17:24Z,2023-04-24T14:44:55Z,cathiechen,clarification|topic: popover,0
-1654846210,false,anonymous fieldset content box's block-size:100% leads to unintuitive behavior,https://github.com/whatwg/html/issues/9123,2023-04-05T02:50:15Z,2023-05-08T16:40:45Z,davidsgrogan,topic: rendering|interop|topic: fieldset,0
+1654846210,false,anonymous fieldset content box's block-size:100% leads to unintuitive behavior,https://github.com/whatwg/html/issues/9123,2023-04-05T02:50:15Z,2023-05-19T12:25:27Z,davidsgrogan,topic: rendering|interop|topic: fieldset,0
 1654771406,false,"""Loading a document for inline content that doesn't have a DOM"" uses non-existing response",https://github.com/whatwg/html/issues/9122,2023-04-05T01:03:20Z,2023-04-28T08:01:57Z,kalenikaliaksandr,topic: navigation,0
 1653648731,true,popover-focus-child-dialog.html requires spec update,https://github.com/whatwg/html/issues/9119,2023-04-04T10:50:41Z,2023-05-16T18:28:31Z,rwlbuis,topic: popover,0
 1653083221,true,"Remove `element-attr` from the ""form control maxlength/minlength attribute"" terms",https://github.com/whatwg/html/issues/9116,2023-04-04T02:57:53Z,2023-04-06T05:46:44Z,gnpivo,,0
@@ -966,7 +966,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 874600526,false,legend seems to be recognised/used even when not *first* child,https://github.com/whatwg/html/issues/6645,2021-05-03T13:59:41Z,2021-12-03T08:11:21Z,patrickhlauke,clarification,1
 874511738,true,`id` were mis-typed as `is`,https://github.com/whatwg/html/issues/6644,2021-05-03T12:03:10Z,2021-05-03T13:33:05Z,ianthedev,,0
 872435429,true,Cross-Origin-Embedder-Policy: credentialless,https://github.com/whatwg/html/issues/6637,2021-04-30T12:33:31Z,2021-11-02T12:55:38Z,ArthurSonzogni,topic: cross-origin-embedder-policy,0
-872131730,false,Lazy loading video element poster attribute,https://github.com/whatwg/html/issues/6636,2021-04-30T07:54:55Z,2023-05-08T16:39:04Z,asuh,addition/proposal|topic: media,4
+872131730,false,Lazy loading video element poster attribute,https://github.com/whatwg/html/issues/6636,2021-04-30T07:54:55Z,2023-05-19T12:30:06Z,asuh,addition/proposal|topic: media,4
 872059164,true,`:active` pseudo-class specification doesn't account for children/labels of disabled form elements,https://github.com/whatwg/html/issues/6635,2021-04-30T02:11:14Z,2022-02-10T19:06:49Z,alystair,topic: rendering|topic: forms,0
 870905892,false,Allow <source> to use <img>'s sizes data as a fallback,https://github.com/whatwg/html/issues/6633,2021-04-29T11:24:34Z,2022-02-04T15:46:29Z,jakearchibald,addition/proposal|topic: img,32
 870188337,true,import.meta.url always uses percent-encodings,https://github.com/whatwg/html/issues/6630,2021-04-28T17:34:16Z,2023-02-24T16:09:38Z,guybedford,,0
