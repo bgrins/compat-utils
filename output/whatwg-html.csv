@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1721120977,false,New FocusEvent property for getting the FocusOptions,https://github.com/whatwg/html/issues/9322,2023-05-23T04:01:49Z,2023-05-23T04:01:49Z,woody-li,,1
 1720358205,false,"States should be worded explicitly in getContext() tables where context mode and contextIDs match ",https://github.com/whatwg/html/issues/9320,2023-05-22T19:39:09Z,2023-05-22T22:35:58Z,trevorspiniolas,,0
 1720326931,false,Another corner case about nested popovers,https://github.com/whatwg/html/issues/9319,2023-05-22T19:22:28Z,2023-05-22T19:22:28Z,cathiechen,,0
 1718431698,false,Proposal: fire an event before the first rendering opportunity after activation,https://github.com/whatwg/html/issues/9315,2023-05-21T09:24:24Z,2023-05-21T12:04:07Z,noamr,,0
@@ -10,7 +11,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1712036945,false,Update the wording of resize observer steps in update the rendering,https://github.com/whatwg/html/issues/9300,2023-05-16T13:30:35Z,2023-05-19T12:38:11Z,vmpstr,topic: event loop,0
 1710940425,true,Fix document.all,https://github.com/whatwg/html/issues/9298,2023-05-15T22:34:31Z,2023-05-19T06:38:03Z,jfbrennan,,0
 1709729746,false,Should <dir> behave like a list element?,https://github.com/whatwg/html/issues/9296,2023-05-15T09:51:12Z,2023-05-15T15:23:22Z,annevk,topic: rendering|accessibility|interop|a11y-tracker,0
-1709674704,false,Proposal: Web Charts,https://github.com/whatwg/html/issues/9295,2023-05-15T09:19:44Z,2023-05-22T15:41:30Z,AdamSobieski,,3
+1709674704,false,Proposal: Web Charts,https://github.com/whatwg/html/issues/9295,2023-05-15T09:19:44Z,2023-05-23T05:42:43Z,AdamSobieski,,3
 1709085324,false,Proposal:  measurement semantic HTML tag,https://github.com/whatwg/html/issues/9294,2023-05-14T21:42:27Z,2023-05-17T21:12:48Z,bahrus,addition/proposal|needs implementer interest,0
 1708344988,false,Clarify natural dimensions of HAVE_METADATA video element with no frame available,https://github.com/whatwg/html/issues/9279,2023-05-12T23:49:10Z,2023-05-17T13:46:46Z,karlt,topic: media|interop,0
 1708075642,false,Keep sharedWorker alive durning reload / next-page,https://github.com/whatwg/html/issues/9278,2023-05-12T19:02:47Z,2023-05-19T13:17:19Z,jimmywarting,topic: workers|needs tests,0
@@ -66,7 +67,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1653648731,true,popover-focus-child-dialog.html requires spec update,https://github.com/whatwg/html/issues/9119,2023-04-04T10:50:41Z,2023-05-16T18:28:31Z,rwlbuis,topic: popover,0
 1653083221,true,"Remove `element-attr` from the ""form control maxlength/minlength attribute"" terms",https://github.com/whatwg/html/issues/9116,2023-04-04T02:57:53Z,2023-04-06T05:46:44Z,gnpivo,,0
 1653022362,true,Should FACE formStateRestoreCallback be called with the new value or state?,https://github.com/whatwg/html/issues/9114,2023-04-04T01:38:09Z,2023-04-24T14:47:17Z,xiaochengh,clarification|topic: custom elements|topic: forms,1
-1652818143,false,"Consider CSP script-src none directive in the ""Enabled/disabled scripting"" definitions",https://github.com/whatwg/html/issues/9113,2023-04-03T21:46:19Z,2023-05-19T10:09:01Z,hackademix,addition/proposal|security/privacy|integration,0
+1652818143,false,"Consider CSP script-src none directive in the ""Enabled/disabled scripting"" definitions",https://github.com/whatwg/html/issues/9113,2023-04-03T21:46:19Z,2023-05-19T10:09:01Z,hackademix,addition/proposal|security/privacy|integration,1
 1652808622,false,Standardize rendering of PQ and HLG HDR image content,https://github.com/whatwg/html/issues/9112,2023-04-03T21:35:40Z,2023-05-18T18:48:43Z,ccameron-chromium,,0
 1651764018,false,Popover does not know what triggered it,https://github.com/whatwg/html/issues/9111,2023-04-03T10:11:47Z,2023-05-22T21:37:05Z,jpzwarte,addition/proposal|topic: popover,0
 1651686034,false,"Support `popovertarget` on custom elements with `role=""button""` ",https://github.com/whatwg/html/issues/9110,2023-04-03T09:26:25Z,2023-04-20T14:50:23Z,jpzwarte,addition/proposal|topic: custom elements|topic: popover,1
@@ -307,7 +308,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1425480606,false,Proposal: add `print` attribute to `<a>` tag,https://github.com/whatwg/html/issues/8444,2022-10-27T11:28:31Z,2022-12-23T16:26:31Z,muaddeepcode,addition/proposal|needs implementer interest,0
 1425413365,false,Task queuing for document creation is sketchy,https://github.com/whatwg/html/issues/8443,2022-10-27T10:34:40Z,2022-10-27T10:35:15Z,domenic,topic: navigation|topic: event loop|topic: agent,0
 1425268051,true,ElementInternals's ARIAMixin,https://github.com/whatwg/html/issues/8442,2022-10-27T08:51:11Z,2023-02-22T10:39:41Z,annevk,accessibility|topic: custom elements|a11y-tracker,0
-1424823883,false,"After scrolling to the beginning of the document, the sequential focus navigation starting point should be unset.",https://github.com/whatwg/html/issues/8439,2022-10-26T23:50:26Z,2023-05-22T15:04:13Z,simevidas,normative change|needs implementer interest|topic: focus,0
+1424823883,false,"After scrolling to the beginning of the document, the sequential focus navigation starting point should be unset.",https://github.com/whatwg/html/issues/8439,2022-10-26T23:50:26Z,2023-05-23T11:17:21Z,simevidas,normative change|needs implementer interest|topic: focus,0
 1424802846,true,"""Here are some examples of valid headings contai...""",https://github.com/whatwg/html/issues/8438,2022-10-26T23:12:26Z,2022-10-27T13:52:53Z,Oznogco,,0
 1422630890,false,Is it correct that Drag and Drop fires a `pointercancel` to a text node?,https://github.com/whatwg/html/issues/8430,2022-10-25T15:11:54Z,2022-10-26T10:04:54Z,mustaqahmed,,0
 1420311291,true,Can't reach https://html.spec.whatwg.org/multipage/webdatabase/,https://github.com/whatwg/html/issues/8425,2022-10-24T06:50:16Z,2022-10-24T06:55:50Z,madhaven,,0
@@ -1096,7 +1097,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 804798139,true,Auto-open details when seeking content within it,https://github.com/whatwg/html/issues/6370,2021-02-09T18:21:20Z,2021-02-10T06:27:04Z,fantasai,,3
 804761074,false,Surprising secure context inheritance behavior for opened windows,https://github.com/whatwg/html/issues/6369,2021-02-09T17:33:45Z,2021-04-19T15:28:38Z,letitz,,0
 802699195,false,"Allowing top-level communication for cross-origin isolated documents ",https://github.com/whatwg/html/issues/6364,2021-02-06T13:07:49Z,2023-03-29T17:59:14Z,arturjanc,topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,0
-802248120,false,HTML Video Element: Proposal For Reintroduction of Media (and srcset/sizes) in Source Elements,https://github.com/whatwg/html/issues/6363,2021-02-05T15:18:23Z,2023-05-22T21:30:37Z,scottjehl,addition/proposal|needs implementer interest|topic: media,22
+802248120,false,HTML Video Element: Proposal For Reintroduction of Media (and srcset/sizes) in Source Elements,https://github.com/whatwg/html/issues/6363,2021-02-05T15:18:23Z,2023-05-23T05:02:13Z,scottjehl,addition/proposal|needs implementer interest|topic: media,22
 801055941,false,Interoperable <video> underflow,https://github.com/whatwg/html/issues/6359,2021-02-04T08:35:02Z,2021-04-09T23:12:54Z,chcunningham,topic: media,3
 799368677,false,What kind of new 'session' is created on manual navigation?,https://github.com/whatwg/html/issues/6356,2021-02-02T15:11:09Z,2022-02-17T11:59:21Z,jakearchibald,topic: navigation|topic: history|interop,1
 799189344,false,Fetch's request's credentials mode not set correctly,https://github.com/whatwg/html/issues/6354,2021-02-02T11:20:39Z,2021-02-23T05:14:37Z,annevk,topic: fetch|integration,0
@@ -1850,7 +1851,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 457801017,true,"Table section elements (<tbody>, <thead>, <tfoot>) should have a height attribute that maps into style",https://github.com/whatwg/html/issues/4718,2019-06-19T04:31:23Z,2020-05-06T06:13:23Z,bzbarsky,good first issue|topic: rendering,0
 457799969,true,width attribute on <col> should allow 0 as a value,https://github.com/whatwg/html/issues/4717,2019-06-19T04:26:09Z,2019-09-24T03:21:57Z,bzbarsky,good first issue|topic: rendering,0
 457799322,true,height attribute on <tr> should allow 0 as a value,https://github.com/whatwg/html/issues/4716,2019-06-19T04:23:14Z,2021-02-22T09:46:08Z,bzbarsky,good first issue|topic: rendering,0
-457798284,false,width and height attributes on <table> should perhaps allow 0 as a value,https://github.com/whatwg/html/issues/4715,2019-06-19T04:18:22Z,2023-05-22T21:13:40Z,bzbarsky,good first issue|topic: rendering,0
+457798284,false,width and height attributes on <table> should perhaps allow 0 as a value,https://github.com/whatwg/html/issues/4715,2019-06-19T04:18:22Z,2023-05-23T04:43:16Z,bzbarsky,good first issue|topic: rendering,0
 457045462,true,"Replace ""NPAPI"" with a more reasonable topic in the Abstract diagram",https://github.com/whatwg/html/issues/4711,2019-06-17T17:09:21Z,2020-04-28T17:09:48Z,tabatkins,addition/proposal|clarification,1
 457031790,true,"can use <nav> within a <header>, but that <nav> cannot contain a <header> itself",https://github.com/whatwg/html/issues/4710,2019-06-17T16:35:09Z,2019-06-28T12:52:06Z,SmoothJeor,,1
 456221346,false,"""browsing context scope origin"" is currently a no-op",https://github.com/whatwg/html/issues/4703,2019-06-14T12:24:44Z,2019-06-14T12:24:44Z,annevk,topic: navigation|needs tests,0
