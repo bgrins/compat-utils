@@ -1,10 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1726270402,false,"""check popover algorithm"" check for open dialogs is weak",https://github.com/whatwg/html/issues/9335,2023-05-25T18:10:32Z,2023-05-25T18:12:17Z,nt1m,topic: dialog|topic: popover,0
+1726046900,false,Proposal: Meta Tag for AI Consent Management,https://github.com/whatwg/html/issues/9334,2023-05-25T15:27:38Z,2023-05-25T19:21:18Z,brennancaldwell,,0
+1725842986,false,Extend render-blocking to support other resources and Document,https://github.com/whatwg/html/issues/9332,2023-05-25T13:33:50Z,2023-05-25T13:33:50Z,khushalsagar,,0
 1723771024,false,browsers handle document.open'ed iframe documents differently in session history,https://github.com/whatwg/html/issues/9330,2023-05-24T11:30:34Z,2023-05-24T11:30:34Z,smaug----,,0
 1723381350,true,link type preload has a recursive refLink,https://github.com/whatwg/html/issues/9327,2023-05-24T07:45:31Z,2023-05-25T05:14:45Z,Kaiido,,0
 1721120977,false,New FocusEvent property for getting the FocusOptions,https://github.com/whatwg/html/issues/9322,2023-05-23T04:01:49Z,2023-05-23T04:01:49Z,woody-li,,1
 1720358205,false,"States should be worded explicitly in getContext() tables where context mode and contextIDs match ",https://github.com/whatwg/html/issues/9320,2023-05-22T19:39:09Z,2023-05-23T14:25:56Z,trevorspiniolas,topic: canvas,0
-1720326931,false,Another corner case about nested popovers,https://github.com/whatwg/html/issues/9319,2023-05-22T19:22:28Z,2023-05-23T18:09:27Z,cathiechen,topic: popover,0
-1718431698,false,Proposal: fire an event before the first rendering opportunity after activation,https://github.com/whatwg/html/issues/9315,2023-05-21T09:24:24Z,2023-05-23T17:42:15Z,noamr,,0
+1720326931,false,Another corner case about nested popovers,https://github.com/whatwg/html/issues/9319,2023-05-22T19:22:28Z,2023-05-25T16:12:21Z,cathiechen,topic: popover,0
+1718431698,false,Proposal: fire an event before the first rendering opportunity after activation,https://github.com/whatwg/html/issues/9315,2023-05-21T09:24:24Z,2023-05-25T20:56:01Z,noamr,,0
 1716840969,false,Interaction between Popover API and CSS Anchor Positioning specs,https://github.com/whatwg/html/issues/9311,2023-05-19T08:17:41Z,2023-05-22T19:49:20Z,jpzwarte,topic: popover,0
 1716713700,false,"""fallback base URL"" algorithm seems wrong for popups?",https://github.com/whatwg/html/issues/9310,2023-05-19T06:38:16Z,2023-05-25T08:36:34Z,domenic,interop|topic: browsing context,0
 1715965888,false,Upcoming HTML standard issue triage meeting on 6/1/2023,https://github.com/whatwg/html/issues/9308,2023-05-18T17:03:06Z,2023-05-18T17:03:06Z,past,agenda+,0
@@ -111,7 +114,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1625174180,false,Clarify selection behaviour of setting textarea value via property,https://github.com/whatwg/html/issues/9028,2023-03-15T10:00:22Z,2023-03-15T10:28:25Z,jnjaeschke,topic: forms,0
 1624192148,false,Sandboxed iframes without allow-same-origin and with about:blank or about:srcdoc urls should not inherit a fallback base url.,https://github.com/whatwg/html/issues/9025,2023-03-14T19:50:36Z,2023-04-06T23:37:14Z,wjmaclean,normative change|topic: sandbox,0
 1623693519,true,Density-corrected intrinsic width and height when current request's dimensions are unavailable,https://github.com/whatwg/html/issues/9023,2023-03-14T15:13:43Z,2023-04-27T00:42:22Z,zcorpan,topic: img,0
-1622494414,false,Resetting forms on document reactivation,https://github.com/whatwg/html/issues/9019,2023-03-14T00:08:14Z,2023-05-25T10:46:16Z,fergald,topic: forms,0
+1622494414,false,Resetting forms on document reactivation,https://github.com/whatwg/html/issues/9019,2023-03-14T00:08:14Z,2023-05-25T12:43:05Z,fergald,topic: forms,0
 1621394935,false,"Add ""lbry"" to scheme allowlist",https://github.com/whatwg/html/issues/9016,2023-03-13T12:31:10Z,2023-03-13T12:31:10Z,ben221199,,0
 1620806361,true,Specify processing model for dns-prefetch,https://github.com/whatwg/html/issues/9015,2023-03-13T05:58:50Z,2023-03-16T12:05:56Z,noamr,topic: resource hints (inc. preload),0
 1620435821,true,Need a clean and standardized way to retreive some informations about user agent enabled features from server side,https://github.com/whatwg/html/issues/9014,2023-03-12T17:00:05Z,2023-03-13T10:46:00Z,flavi1,,0
@@ -587,7 +590,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1177177506,true,Question: Expected behavior for Object.keys with storage objects,https://github.com/whatwg/html/issues/7741,2022-03-22T18:50:05Z,2022-03-22T18:55:43Z,jasonnutter,,0
 1176559847,true,HTML syntax: omitting <body> should not be allowed if first child is <noscript>,https://github.com/whatwg/html/issues/7737,2022-03-22T10:14:53Z,2022-09-15T17:15:31Z,zcorpan,good first issue|document conformance,0
 1176210826,true,Should a preload with SRI and a main request without SRI be matched?,https://github.com/whatwg/html/issues/7736,2022-03-22T03:17:51Z,2022-05-19T00:42:57Z,hiroshige-g,security/privacy|topic: fetch|topic: resource hints (inc. preload),0
-1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2022-11-03T14:02:13Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,11
+1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2022-11-03T14:02:13Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,14
 1175078464,false,"Modern browsers don't implement ""4.10.21.2 Implicit submission"" correctly",https://github.com/whatwg/html/issues/7730,2022-03-21T08:59:00Z,2022-03-21T12:40:28Z,IliasDewachter,topic: forms,0
 1172930450,false,<a download> can sometimes just navigate,https://github.com/whatwg/html/issues/7718,2022-03-17T21:19:34Z,2022-03-23T21:36:38Z,domenic,topic: navigation|interop,1
 1172424410,true,Iframe's sandbox IDL definition. Why is it readonly?,https://github.com/whatwg/html/issues/7717,2022-03-17T13:59:33Z,2022-03-17T15:25:41Z,ArthurSonzogni,,0
@@ -1099,7 +1102,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 804798139,true,Auto-open details when seeking content within it,https://github.com/whatwg/html/issues/6370,2021-02-09T18:21:20Z,2021-02-10T06:27:04Z,fantasai,,3
 804761074,false,Surprising secure context inheritance behavior for opened windows,https://github.com/whatwg/html/issues/6369,2021-02-09T17:33:45Z,2021-04-19T15:28:38Z,letitz,,0
 802699195,false,"Allowing top-level communication for cross-origin isolated documents ",https://github.com/whatwg/html/issues/6364,2021-02-06T13:07:49Z,2023-03-29T17:59:14Z,arturjanc,topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,0
-802248120,false,HTML Video Element: Proposal For Reintroduction of Media (and srcset/sizes) in Source Elements,https://github.com/whatwg/html/issues/6363,2021-02-05T15:18:23Z,2023-05-24T19:17:00Z,scottjehl,addition/proposal|topic: media,23
+802248120,false,HTML Video Element: Proposal For Reintroduction of Media (and srcset/sizes) in Source Elements,https://github.com/whatwg/html/issues/6363,2021-02-05T15:18:23Z,2023-05-24T19:17:00Z,scottjehl,addition/proposal|topic: media,24
 801055941,false,Interoperable <video> underflow,https://github.com/whatwg/html/issues/6359,2021-02-04T08:35:02Z,2021-04-09T23:12:54Z,chcunningham,topic: media,3
 799368677,false,What kind of new 'session' is created on manual navigation?,https://github.com/whatwg/html/issues/6356,2021-02-02T15:11:09Z,2022-02-17T11:59:21Z,jakearchibald,topic: navigation|topic: history|interop,1
 799189344,false,Fetch's request's credentials mode not set correctly,https://github.com/whatwg/html/issues/6354,2021-02-02T11:20:39Z,2021-02-23T05:14:37Z,annevk,topic: fetch|integration,0
