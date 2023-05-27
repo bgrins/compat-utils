@@ -1,5 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1726270402,false,"""check popover algorithm"" check for open dialogs is weak",https://github.com/whatwg/html/issues/9335,2023-05-25T18:10:32Z,2023-05-25T18:12:17Z,nt1m,topic: dialog|topic: popover,0
+1727904410,false,Using <h4> in a <figure> to record title content within XHTML,https://github.com/whatwg/html/issues/9342,2023-05-26T16:18:41Z,2023-05-26T18:25:13Z,KD-3240,,0
+1727581751,false,Proposal: Improve support for multiple target origins for Window#postMessage,https://github.com/whatwg/html/issues/9340,2023-05-26T12:58:54Z,2023-05-26T14:30:46Z,eliasm307,addition/proposal|needs implementer interest|topic: serialize and transfer,0
+1726270402,false,"""check popover algorithm"" check for open dialogs is weak",https://github.com/whatwg/html/issues/9335,2023-05-25T18:10:32Z,2023-05-26T19:35:50Z,nt1m,topic: dialog|topic: popover,0
 1726046900,false,Proposal: Meta Tag for AI Consent Management,https://github.com/whatwg/html/issues/9334,2023-05-25T15:27:38Z,2023-05-26T09:04:42Z,brennancaldwell,,0
 1725842986,false,Extend render-blocking to support other resources and Document,https://github.com/whatwg/html/issues/9332,2023-05-25T13:33:50Z,2023-05-26T03:48:08Z,khushalsagar,,0
 1723771024,false,browsers handle document.open'ed iframe documents differently in session history,https://github.com/whatwg/html/issues/9330,2023-05-24T11:30:34Z,2023-05-24T11:30:34Z,smaug----,,0
@@ -7,8 +9,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1721120977,false,New FocusEvent property for getting the FocusOptions,https://github.com/whatwg/html/issues/9322,2023-05-23T04:01:49Z,2023-05-26T09:20:11Z,woody-li,addition/proposal|needs implementer interest|topic: focus,1
 1720358205,false,"States should be worded explicitly in getContext() tables where context mode and contextIDs match ",https://github.com/whatwg/html/issues/9320,2023-05-22T19:39:09Z,2023-05-23T14:25:56Z,trevorspiniolas,topic: canvas,0
 1720326931,false,Another corner case about nested popovers,https://github.com/whatwg/html/issues/9319,2023-05-22T19:22:28Z,2023-05-25T16:12:21Z,cathiechen,topic: popover,0
-1718431698,false,Proposal: fire an event before the first rendering opportunity after activation,https://github.com/whatwg/html/issues/9315,2023-05-21T09:24:24Z,2023-05-25T20:56:01Z,noamr,,0
-1716840969,false,Interaction between Popover API and CSS Anchor Positioning specs,https://github.com/whatwg/html/issues/9311,2023-05-19T08:17:41Z,2023-05-22T19:49:20Z,jpzwarte,topic: popover,0
+1718431698,false,Proposal: fire an event before the first rendering opportunity after activation,https://github.com/whatwg/html/issues/9315,2023-05-21T09:24:24Z,2023-05-26T17:40:22Z,noamr,,0
+1716840969,false,Interaction between Popover API and CSS Anchor Positioning specs,https://github.com/whatwg/html/issues/9311,2023-05-19T08:17:41Z,2023-05-26T23:17:50Z,jpzwarte,topic: popover,0
 1716713700,false,"""fallback base URL"" algorithm seems wrong for popups?",https://github.com/whatwg/html/issues/9310,2023-05-19T06:38:16Z,2023-05-25T08:36:34Z,domenic,interop|topic: browsing context,0
 1715965888,false,Upcoming HTML standard issue triage meeting on 6/1/2023,https://github.com/whatwg/html/issues/9308,2023-05-18T17:03:06Z,2023-05-18T17:03:06Z,past,agenda+,0
 1714172992,true,[csp] nonce attribute moving needs timing details,https://github.com/whatwg/html/issues/9306,2023-05-17T15:33:11Z,2023-05-17T21:07:37Z,emilio,,0
@@ -102,7 +104,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1629156392,false,Should popover/dialog show/hide when already shown/hidden throw?,https://github.com/whatwg/html/issues/9045,2023-03-17T11:32:41Z,2023-05-13T01:20:38Z,jakearchibald,topic: dialog|topic: popover,6
 1629078964,false,<dialog> Unclear method of altering/reading attributes,https://github.com/whatwg/html/issues/9044,2023-03-17T10:35:36Z,2023-03-17T11:06:53Z,jakearchibald,topic: dialog,0
 1628986537,false,Should togglePopover() return a boolean?,https://github.com/whatwg/html/issues/9043,2023-03-17T09:30:48Z,2023-04-20T14:37:48Z,jakearchibald,addition/proposal|needs implementer interest|topic: popover,0
-1628760896,false,popover attribute may not be web compatible,https://github.com/whatwg/html/issues/9042,2023-03-17T06:11:49Z,2023-05-26T07:44:46Z,nt1m,compat|topic: popover,0
+1628760896,false,popover attribute may not be web compatible,https://github.com/whatwg/html/issues/9042,2023-03-17T06:11:49Z,2023-05-26T19:50:50Z,nt1m,compat|topic: popover,0
 1628624650,false,"What is the web's ""story"" for distributing local-first apps?",https://github.com/whatwg/html/issues/9041,2023-03-17T03:24:01Z,2023-03-17T03:24:01Z,josephrocca,,0
 1628154493,false,change event for textareas doesn't seem to be defined,https://github.com/whatwg/html/issues/9040,2023-03-16T19:44:00Z,2023-03-21T22:19:23Z,nt1m,topic: forms|topic: events,0
 1627727891,true,WPT subtest testing beforetoggle during showPopover(),https://github.com/whatwg/html/issues/9037,2023-03-16T15:18:02Z,2023-05-26T09:11:35Z,rwlbuis,topic: popover,0
@@ -114,7 +116,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1625174180,false,Clarify selection behaviour of setting textarea value via property,https://github.com/whatwg/html/issues/9028,2023-03-15T10:00:22Z,2023-03-15T10:28:25Z,jnjaeschke,topic: forms,0
 1624192148,false,Sandboxed iframes without allow-same-origin and with about:blank or about:srcdoc urls should not inherit a fallback base url.,https://github.com/whatwg/html/issues/9025,2023-03-14T19:50:36Z,2023-04-06T23:37:14Z,wjmaclean,normative change|topic: sandbox,0
 1623693519,true,Density-corrected intrinsic width and height when current request's dimensions are unavailable,https://github.com/whatwg/html/issues/9023,2023-03-14T15:13:43Z,2023-04-27T00:42:22Z,zcorpan,topic: img,0
-1622494414,false,Resetting forms on document reactivation,https://github.com/whatwg/html/issues/9019,2023-03-14T00:08:14Z,2023-05-25T12:43:05Z,fergald,topic: forms,0
+1622494414,false,Resetting forms on document reactivation,https://github.com/whatwg/html/issues/9019,2023-03-14T00:08:14Z,2023-05-26T19:33:30Z,fergald,topic: forms,0
 1621394935,false,"Add ""lbry"" to scheme allowlist",https://github.com/whatwg/html/issues/9016,2023-03-13T12:31:10Z,2023-03-13T12:31:10Z,ben221199,,0
 1620806361,true,Specify processing model for dns-prefetch,https://github.com/whatwg/html/issues/9015,2023-03-13T05:58:50Z,2023-03-16T12:05:56Z,noamr,topic: resource hints (inc. preload),0
 1620435821,true,Need a clean and standardized way to retreive some informations about user agent enabled features from server side,https://github.com/whatwg/html/issues/9014,2023-03-12T17:00:05Z,2023-03-13T10:46:00Z,flavi1,,0
@@ -1102,7 +1104,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 804798139,true,Auto-open details when seeking content within it,https://github.com/whatwg/html/issues/6370,2021-02-09T18:21:20Z,2021-02-10T06:27:04Z,fantasai,,3
 804761074,false,Surprising secure context inheritance behavior for opened windows,https://github.com/whatwg/html/issues/6369,2021-02-09T17:33:45Z,2021-04-19T15:28:38Z,letitz,,0
 802699195,false,"Allowing top-level communication for cross-origin isolated documents ",https://github.com/whatwg/html/issues/6364,2021-02-06T13:07:49Z,2023-03-29T17:59:14Z,arturjanc,topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,0
-802248120,false,HTML Video Element: Proposal For Reintroduction of Media (and srcset/sizes) in Source Elements,https://github.com/whatwg/html/issues/6363,2021-02-05T15:18:23Z,2023-05-24T19:17:00Z,scottjehl,addition/proposal|topic: media,25
+802248120,false,HTML Video Element: Proposal For Reintroduction of Media in Source Elements,https://github.com/whatwg/html/issues/6363,2021-02-05T15:18:23Z,2023-05-26T14:18:32Z,scottjehl,addition/proposal|topic: media,25
 801055941,false,Interoperable <video> underflow,https://github.com/whatwg/html/issues/6359,2021-02-04T08:35:02Z,2021-04-09T23:12:54Z,chcunningham,topic: media,3
 799368677,false,What kind of new 'session' is created on manual navigation?,https://github.com/whatwg/html/issues/6356,2021-02-02T15:11:09Z,2022-02-17T11:59:21Z,jakearchibald,topic: navigation|topic: history|interop,1
 799189344,false,Fetch's request's credentials mode not set correctly,https://github.com/whatwg/html/issues/6354,2021-02-02T11:20:39Z,2021-02-23T05:14:37Z,annevk,topic: fetch|integration,0
@@ -1881,7 +1883,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 448530795,true,HTML...,https://github.com/whatwg/html/issues/4662,2019-05-26T05:37:18Z,2019-05-26T06:17:20Z,LalitoConstantino,,0
 447808442,false,Proposal: MessagePort Transfer,https://github.com/whatwg/html/issues/4657,2019-05-23T18:24:23Z,2019-05-24T08:13:54Z,RandyBuchholz,addition/proposal|needs implementer interest|topic: serialize and transfer,0
 447647443,false,Clarify when alt text is shown for lazy-loaded images and images loaded on-demand,https://github.com/whatwg/html/issues/4655,2019-05-23T12:57:27Z,2020-02-12T10:06:30Z,zcorpan,accessibility|topic: img,0
-447636849,false,"Add ""auto sizes"" for lazy-loaded images",https://github.com/whatwg/html/issues/4654,2019-05-23T12:35:47Z,2023-02-02T07:40:34Z,zcorpan,addition/proposal|needs implementer interest|document conformance|topic: img,20
+447636849,false,"Add ""auto sizes"" for lazy-loaded images",https://github.com/whatwg/html/issues/4654,2019-05-23T12:35:47Z,2023-02-02T07:40:34Z,zcorpan,addition/proposal|needs implementer interest|document conformance|topic: img,21
 447504160,true,'Window post message steps' doesn't define which event loop is used for queuing a task,https://github.com/whatwg/html/issues/4653,2019-05-23T07:57:49Z,2019-09-28T02:11:38Z,smaug----,topic: serialize and transfer|topic: event loop,0
 447428523,true,inputmode=number should be inputmode=numeric,https://github.com/whatwg/html/issues/4652,2019-05-23T03:01:58Z,2019-05-23T15:33:29Z,coliff,good first issue,1
 447334382,false,CSP integration for javascript: URLs seems to be broken,https://github.com/whatwg/html/issues/4651,2019-05-22T20:43:58Z,2019-06-12T17:45:21Z,bzbarsky,security/privacy|integration|topic: javascript: URLs,2
@@ -2513,7 +2515,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 302576085,true,Imperative shadow DOM distribution API,https://github.com/whatwg/html/issues/3534,2018-03-06T06:11:35Z,2021-04-14T17:46:30Z,domenic,addition/proposal|topic: shadow,4
 302443675,true,template.insertAdjacentHTML() not consider as a part of template.contant,https://github.com/whatwg/html/issues/3533,2018-03-05T20:09:54Z,2018-03-06T08:41:54Z,perymimon,,0
 302381253,false,Something needs to define the actual behavior of load/error events on `<link>`,https://github.com/whatwg/html/issues/3532,2018-03-05T17:01:33Z,2020-07-06T17:41:40Z,bzbarsky,interop|topic: link|topic: style,0
-302368626,true,"Add autocomplete=""confirm-password"" to <input type=""password"">",https://github.com/whatwg/html/issues/3531,2018-03-05T16:29:59Z,2023-02-14T22:55:14Z,a2sheppy,,9
+302368626,true,"Add autocomplete=""confirm-password"" to <input type=""password"">",https://github.com/whatwg/html/issues/3531,2018-03-05T16:29:59Z,2023-02-14T22:55:14Z,a2sheppy,,10
 302304438,true,HTML Autocomplete,https://github.com/whatwg/html/issues/3530,2018-03-05T13:43:13Z,2018-03-06T08:44:30Z,Tushardk,,0
 302079793,false,Suggestion: event for when `currentSrc` changes,https://github.com/whatwg/html/issues/3529,2018-03-04T11:58:36Z,2018-03-06T08:56:04Z,OliverJAsh,addition/proposal|needs implementer interest|topic: img,2
 301997248,true,Why does BroadcastChannel.postMessage() throw an exception when called after close()?,https://github.com/whatwg/html/issues/3528,2018-03-03T13:12:41Z,2019-01-02T15:30:54Z,bakulf,normative change|topic: serialize and transfer,0
