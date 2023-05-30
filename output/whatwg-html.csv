@@ -1,4 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1731281629,false,Deprecate `<select multiple>`,https://github.com/whatwg/html/issues/9357,2023-05-29T22:14:30Z,2023-05-29T22:27:37Z,SoniEx2,,0
+1730765075,false,"Fetches for element resources should use the response's ""unsafe response"" for network status and response bodies",https://github.com/whatwg/html/issues/9355,2023-05-29T13:28:40Z,2023-05-29T13:36:50Z,trflynn89,,0
 1729858588,true,Is there any proposal to optimize the user experience issue where it's difficult to select a specific word within the text of a hyperlink?,https://github.com/whatwg/html/issues/9354,2023-05-29T01:57:14Z,2023-05-29T09:21:27Z,lovetingyuan,,0
 1728676092,false,""" autocomplete cols;"" missing a semicolon",https://github.com/whatwg/html/issues/9347,2023-05-27T11:58:27Z,2023-05-27T11:58:27Z,Potherca,,0
 1728670275,false,<img>.complete should take <source> elements into account,https://github.com/whatwg/html/issues/9346,2023-05-27T11:43:15Z,2023-05-27T11:43:15Z,johannesodland,,0
@@ -111,7 +113,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1628760896,false,popover attribute may not be web compatible,https://github.com/whatwg/html/issues/9042,2023-03-17T06:11:49Z,2023-05-26T19:50:50Z,nt1m,compat|topic: popover,0
 1628624650,false,"What is the web's ""story"" for distributing local-first apps?",https://github.com/whatwg/html/issues/9041,2023-03-17T03:24:01Z,2023-03-17T03:24:01Z,josephrocca,,0
 1628154493,false,change event for textareas doesn't seem to be defined,https://github.com/whatwg/html/issues/9040,2023-03-16T19:44:00Z,2023-03-21T22:19:23Z,nt1m,topic: forms|topic: events,0
-1627727891,true,WPT subtest testing beforetoggle during showPopover(),https://github.com/whatwg/html/issues/9037,2023-03-16T15:18:02Z,2023-05-26T09:11:35Z,rwlbuis,topic: popover,0
+1627727891,true,WPT subtest testing beforetoggle during showPopover(),https://github.com/whatwg/html/issues/9037,2023-03-16T15:18:02Z,2023-05-29T23:21:08Z,rwlbuis,topic: popover,0
 1627542966,true,Questions/issues with popover spec,https://github.com/whatwg/html/issues/9036,2023-03-16T13:57:50Z,2023-05-09T07:03:29Z,jakearchibald,topic: popover,0
 1627337028,false,Govern dns-prefetch and preconnect with CSP,https://github.com/whatwg/html/issues/9035,2023-03-16T12:04:58Z,2023-03-21T05:30:20Z,annevk,integration|topic: resource hints (inc. preload),0
 1626813114,true,Should attribute change steps fire beforetoggle events?,https://github.com/whatwg/html/issues/9034,2023-03-16T06:34:18Z,2023-04-19T22:04:26Z,nt1m,topic: popover,0
@@ -120,7 +122,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1625174180,false,Clarify selection behaviour of setting textarea value via property,https://github.com/whatwg/html/issues/9028,2023-03-15T10:00:22Z,2023-03-15T10:28:25Z,jnjaeschke,topic: forms,0
 1624192148,false,Sandboxed iframes without allow-same-origin and with about:blank or about:srcdoc urls should not inherit a fallback base url.,https://github.com/whatwg/html/issues/9025,2023-03-14T19:50:36Z,2023-04-06T23:37:14Z,wjmaclean,normative change|topic: sandbox,0
 1623693519,true,Density-corrected intrinsic width and height when current request's dimensions are unavailable,https://github.com/whatwg/html/issues/9023,2023-03-14T15:13:43Z,2023-04-27T00:42:22Z,zcorpan,topic: img,0
-1622494414,false,Resetting forms on document reactivation,https://github.com/whatwg/html/issues/9019,2023-03-14T00:08:14Z,2023-05-26T19:33:30Z,fergald,topic: forms,0
+1622494414,false,Resetting forms on document reactivation,https://github.com/whatwg/html/issues/9019,2023-03-14T00:08:14Z,2023-05-29T18:08:09Z,fergald,topic: forms,0
 1621394935,false,"Add ""lbry"" to scheme allowlist",https://github.com/whatwg/html/issues/9016,2023-03-13T12:31:10Z,2023-03-13T12:31:10Z,ben221199,,0
 1620806361,true,Specify processing model for dns-prefetch,https://github.com/whatwg/html/issues/9015,2023-03-13T05:58:50Z,2023-03-16T12:05:56Z,noamr,topic: resource hints (inc. preload),0
 1620435821,true,Need a clean and standardized way to retreive some informations about user agent enabled features from server side,https://github.com/whatwg/html/issues/9014,2023-03-12T17:00:05Z,2023-03-13T10:46:00Z,flavi1,,0
@@ -2529,7 +2531,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 301777319,true,"quirk mode ",https://github.com/whatwg/html/issues/3521,2018-03-02T14:08:38Z,2018-03-02T14:09:54Z,ghost,,0
 301686491,false,<meter> interoperability issue with values on boundaries,https://github.com/whatwg/html/issues/3520,2018-03-02T08:19:32Z,2022-03-11T08:40:22Z,tkent-google,clarification|interop,0
 301660842,true,I need feedback to see if I am right?,https://github.com/whatwg/html/issues/3519,2018-03-02T05:50:39Z,2018-03-02T10:10:56Z,Thezone1975,,0
-301576285,false,Proposal: HTML passwordrules attribute,https://github.com/whatwg/html/issues/3518,2018-03-01T22:02:50Z,2022-01-12T15:47:57Z,dbates-wk,addition/proposal|needs implementer interest|document conformance|security/privacy|topic: forms,51
+301576285,false,Proposal: HTML passwordrules attribute,https://github.com/whatwg/html/issues/3518,2018-03-01T22:02:50Z,2022-01-12T15:47:57Z,dbates-wk,addition/proposal|needs implementer interest|document conformance|security/privacy|topic: forms,60
 301126578,false,API for structured serialized data,https://github.com/whatwg/html/issues/3517,2018-02-28T18:07:55Z,2021-05-14T07:06:04Z,devsnek,addition/proposal|needs implementer interest|topic: serialize and transfer,6
 300769187,true,Add element reflection counterparts to id-reference counterparts,https://github.com/whatwg/html/issues/3515,2018-02-27T19:51:04Z,2022-11-11T14:43:18Z,domenic,addition/proposal|topic: shadow|accessibility|impacts documentation,0
 300576902,false,Define all focus events,https://github.com/whatwg/html/issues/3514,2018-02-27T10:41:03Z,2019-11-21T22:48:28Z,annevk,interop|topic: focus|integration,3
@@ -2566,7 +2568,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 295755062,true,PCENChar defines valid tag names as including Unicode characters BUT...which Unicode representation?,https://github.com/whatwg/html/issues/3464,2018-02-09T04:57:12Z,2018-02-09T18:06:00Z,cubiclesoft,topic: custom elements,0
 295697412,true,Consider a standardized way to detect PDF in HTML?,https://github.com/whatwg/html/issues/3462,2018-02-08T23:04:24Z,2021-09-30T16:44:27Z,travisleithead,addition/proposal|needs concrete proposal,0
 294944333,true,Does the `for` attribute allow multiple space-separated values?,https://github.com/whatwg/html/issues/3459,2018-02-06T22:59:45Z,2018-02-07T08:39:34Z,impressivewebs,,0
-294931782,false,postMessage should return a promise,https://github.com/whatwg/html/issues/3458,2018-02-06T22:12:41Z,2023-05-29T10:57:34Z,spanicker,addition/proposal|needs concrete proposal,0
+294931782,false,postMessage should return a promise,https://github.com/whatwg/html/issues/3458,2018-02-06T22:12:41Z,2023-05-29T12:24:34Z,spanicker,addition/proposal|topic: serialize and transfer|needs concrete proposal,0
 294850106,false,"Do browsers allow empty/missing Content-Type headers on <link rel=""stylesheet"">?",https://github.com/whatwg/html/issues/3457,2018-02-06T17:40:29Z,2020-05-30T16:24:49Z,domenic,interop|topic: link,0
 294520451,false,WebIDL extended attribute for element(s) that implement the interface,https://github.com/whatwg/html/issues/3452,2018-02-05T19:50:47Z,2018-02-16T15:40:57Z,dstorey,clarification,0
 294358954,true,Clarify how to cancel a navigation,https://github.com/whatwg/html/issues/3447,2018-02-05T11:24:04Z,2022-10-31T05:06:57Z,zcorpan,topic: navigation,1
@@ -3117,7 +3119,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 215708819,false,Semantics in enabling/disabling port message queues and the has_been_shipped flag in MessagePorts,https://github.com/whatwg/html/issues/2453,2017-03-21T11:37:06Z,2017-03-28T09:25:01Z,KiChjang,topic: serialize and transfer,0
 215373991,true,figure/figcaption sparse flow content not valid,https://github.com/whatwg/html/issues/2450,2017-03-20T10:06:34Z,2018-01-17T13:34:44Z,felixsanz,document conformance,0
 215272662,true,https://www.saeedalnahsi.net/,https://github.com/whatwg/html/issues/2448,2017-03-19T15:47:33Z,2017-03-19T15:53:52Z,saeedalnahsi,,0
-215241648,false,`details` Element Should Not Be a Sectioning Root for Outline Algorithm,https://github.com/whatwg/html/issues/2447,2017-03-19T05:00:26Z,2018-09-01T11:05:50Z,patrickdark,normative change|needs compat analysis,0
+215241648,true,`details` Element Should Not Be a Sectioning Root for Outline Algorithm,https://github.com/whatwg/html/issues/2447,2017-03-19T05:00:26Z,2023-05-29T18:22:46Z,patrickdark,normative change|needs compat analysis,0
 215220877,true,innerText setter uses pointer + position instead of sticking with one variable name,https://github.com/whatwg/html/issues/2446,2017-03-18T20:53:17Z,2017-03-20T08:10:58Z,domenic,good first issue,0
 215088694,true,The getter namedItem() for MimeTypeArray PluginArray and Plugin should be Nonenumerable,https://github.com/whatwg/html/issues/2445,2017-03-17T18:38:07Z,2017-03-19T04:13:34Z,LoonyBean,,0
 215029157,true,Entry settings object's definition of environment settings object is wrong,https://github.com/whatwg/html/issues/2444,2017-03-17T15:01:41Z,2017-03-17T17:09:46Z,jdm,,0
