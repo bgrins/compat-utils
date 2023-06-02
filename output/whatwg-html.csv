@@ -1,7 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1736830044,false,Add light dismiss functionality to `<dialog>`,https://github.com/whatwg/html/issues/9373,2023-06-01T18:07:13Z,2023-06-01T20:14:21Z,mfreed7,,6
+1736289421,false,"The width attribute should not be a relevant mutation ",https://github.com/whatwg/html/issues/9371,2023-06-01T13:04:26Z,2023-06-01T13:04:26Z,zcorpan,topic: img,0
 1733790661,false,"When the popover attribute is removed, the hide popover algorithm will return too early",https://github.com/whatwg/html/issues/9367,2023-05-31T09:44:23Z,2023-06-01T08:42:36Z,mbrodesser-Igalia,topic: popover,0
 1733283807,false,auto popover list definition isn't quite correct,https://github.com/whatwg/html/issues/9366,2023-05-31T02:27:08Z,2023-06-01T01:46:07Z,nt1m,topic: popover,0
-1733137301,false,Privacy-preserving single-keyed cache via declarative preloading,https://github.com/whatwg/html/issues/9365,2023-05-30T23:02:55Z,2023-06-01T07:37:34Z,josephrocca,addition/proposal|needs implementer interest,0
+1733137301,false,Privacy-preserving single-keyed cache via declarative preloading,https://github.com/whatwg/html/issues/9365,2023-05-30T23:02:55Z,2023-06-01T12:51:38Z,josephrocca,addition/proposal|needs implementer interest,0
 1733099762,false,code should default to translate=no,https://github.com/whatwg/html/issues/9364,2023-05-30T22:19:18Z,2023-06-01T07:16:19Z,fantasai,normative change|addition/proposal|needs implementer interest,5
 1731345418,true,"Make HTML 5.4 or 5.5 exclusive to 64-bit x86 and ARM processors, once either gets announced.",https://github.com/whatwg/html/issues/9358,2023-05-30T00:23:04Z,2023-05-30T04:56:03Z,Wadmodder,,1
 1731281629,false,Deprecate `<select multiple>`,https://github.com/whatwg/html/issues/9357,2023-05-29T22:14:30Z,2023-05-30T10:43:21Z,SoniEx2,topic: forms,0
@@ -72,7 +74,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1663053673,false,"Potential error in connection between ""Document destroy"" and ""Document abort"" algorithms",https://github.com/whatwg/html/issues/9148,2023-04-11T19:02:43Z,2023-04-13T08:03:08Z,kalenikaliaksandr,,0
 1662945190,true,language of an attribute,https://github.com/whatwg/html/issues/9147,2023-04-11T17:35:46Z,2023-04-28T07:47:22Z,fantasai,i18n-tracker,0
 1662937464,false,"""The directionality of an attribute of an HTML"" seems weird?",https://github.com/whatwg/html/issues/9146,2023-04-11T17:29:12Z,2023-04-28T08:20:28Z,fantasai,i18n-tracker,0
-1661175493,false,popover light dismiss behavior is not specified for Esc key,https://github.com/whatwg/html/issues/9143,2023-04-10T18:32:47Z,2023-04-20T23:15:24Z,asurkov,topic: popover,1
+1661175493,false,popover light dismiss behavior is not specified for Esc key,https://github.com/whatwg/html/issues/9143,2023-04-10T18:32:47Z,2023-06-01T12:49:44Z,asurkov,topic: popover,1
 1659003302,true,Active frame element should also check if the document's browsing context is non-null,https://github.com/whatwg/html/issues/9136,2023-04-07T16:57:55Z,2023-04-28T07:31:26Z,Lubrsi,topic: browsing context,0
 1658639409,true,Form submission does a replace load depending on whether the form document has completely loaded,https://github.com/whatwg/html/issues/9135,2023-04-07T10:18:16Z,2023-05-10T07:04:47Z,petervanderbeken,topic: navigation|topic: forms,0
 1658447667,false,Navigation sourceDocument for browser-initiated navigations,https://github.com/whatwg/html/issues/9133,2023-04-07T06:56:05Z,2023-04-28T07:55:42Z,domenic,topic: navigation,0
@@ -115,7 +117,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1629156392,false,Should popover/dialog show/hide when already shown/hidden throw?,https://github.com/whatwg/html/issues/9045,2023-03-17T11:32:41Z,2023-05-13T01:20:38Z,jakearchibald,topic: dialog|topic: popover,6
 1629078964,false,<dialog> Unclear method of altering/reading attributes,https://github.com/whatwg/html/issues/9044,2023-03-17T10:35:36Z,2023-03-17T11:06:53Z,jakearchibald,topic: dialog,0
 1628986537,false,Should togglePopover() return a boolean?,https://github.com/whatwg/html/issues/9043,2023-03-17T09:30:48Z,2023-04-20T14:37:48Z,jakearchibald,addition/proposal|needs implementer interest|topic: popover,0
-1628760896,false,popover attribute may not be web compatible,https://github.com/whatwg/html/issues/9042,2023-03-17T06:11:49Z,2023-05-26T19:50:50Z,nt1m,compat|topic: popover,0
+1628760896,false,popover attribute may not be web compatible,https://github.com/whatwg/html/issues/9042,2023-03-17T06:11:49Z,2023-06-01T19:02:47Z,nt1m,compat|topic: popover,0
 1628624650,false,"What is the web's ""story"" for distributing local-first apps?",https://github.com/whatwg/html/issues/9041,2023-03-17T03:24:01Z,2023-03-17T03:24:01Z,josephrocca,,0
 1628154493,false,change event for textareas doesn't seem to be defined,https://github.com/whatwg/html/issues/9040,2023-03-16T19:44:00Z,2023-03-21T22:19:23Z,nt1m,topic: forms|topic: events,0
 1627727891,true,WPT subtest testing beforetoggle during showPopover(),https://github.com/whatwg/html/issues/9037,2023-03-16T15:18:02Z,2023-05-29T23:21:08Z,rwlbuis,topic: popover,0
@@ -993,7 +995,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 870905892,false,Allow <source> to use <img>'s sizes data as a fallback,https://github.com/whatwg/html/issues/6633,2021-04-29T11:24:34Z,2022-02-04T15:46:29Z,jakearchibald,addition/proposal|topic: img,32
 870188337,true,import.meta.url always uses percent-encodings,https://github.com/whatwg/html/issues/6630,2021-04-28T17:34:16Z,2023-02-24T16:09:38Z,guybedford,,0
 869976363,true,Contiguous window.name leads to weirdness,https://github.com/whatwg/html/issues/6628,2021-04-28T13:54:39Z,2022-10-31T05:07:05Z,jakearchibald,topic: history|interop,1
-869891051,false,Add alt attributes to source elements,https://github.com/whatwg/html/issues/6627,2021-04-28T12:27:32Z,2021-05-17T15:43:12Z,johannesodland,addition/proposal|needs implementer interest|accessibility|topic: img|i18n-tracker,2
+869891051,false,Add alt attributes to source elements,https://github.com/whatwg/html/issues/6627,2021-04-28T12:27:32Z,2021-05-17T15:43:12Z,johannesodland,addition/proposal|needs implementer interest|accessibility|topic: img|i18n-tracker,3
 868503655,true,Ability to write canvas bitmap to an existing ImageBitmap or other buffer-backed object,https://github.com/whatwg/html/issues/6625,2021-04-27T06:27:17Z,2021-04-27T06:34:41Z,trusktr,,0
 867240994,true,"assertion in ""update the source set"" steps can fire",https://github.com/whatwg/html/issues/6621,2021-04-26T04:24:26Z,2021-05-04T15:47:56Z,heycam,,0
 867205358,true,"""Insert last node into node, first removing it f...""",https://github.com/whatwg/html/issues/6620,2021-04-26T02:48:47Z,2021-05-04T15:08:19Z,scw00,topic: parser,0
@@ -2508,7 +2510,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2023-05-08T15:57:07Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,22
 305369552,true,Proposal: Improve control over HTML/XML syntax parse errors,https://github.com/whatwg/html/issues/3569,2018-03-14T23:56:33Z,2022-04-18T15:28:51Z,dvdckl,addition/proposal|needs implementer interest|topic: parser,0
 305147441,true,"<form method> description only says ""HTTP method""",https://github.com/whatwg/html/issues/3568,2018-03-14T12:58:10Z,2018-04-20T07:53:27Z,annevk,good first issue,0
-305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2023-05-10T10:53:13Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,64
+305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2023-06-01T18:07:37Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,64
 305020324,true,Separate out document.open() method declaration definitions,https://github.com/whatwg/html/issues/3565,2018-03-14T04:36:27Z,2018-06-28T15:27:09Z,domenic,clarification|good first issue|topic: document.open(),0
 305019688,true,At least Blink does not support document.open()'s replace parameter,https://github.com/whatwg/html/issues/3564,2018-03-14T04:31:43Z,2018-08-23T18:40:33Z,domenic,topic: history|interop|topic: document.open(),0
 304874091,false,<template> element capability/semantics in SVG parsing context,https://github.com/whatwg/html/issues/3563,2018-03-13T17:59:50Z,2018-03-15T07:34:25Z,kevinpschaaf,addition/proposal|needs implementer interest|topic: parser,0
