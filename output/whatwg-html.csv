@@ -11,7 +11,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1729858588,true,Is there any proposal to optimize the user experience issue where it's difficult to select a specific word within the text of a hyperlink?,https://github.com/whatwg/html/issues/9354,2023-05-29T01:57:14Z,2023-05-29T09:21:27Z,lovetingyuan,,0
 1728676092,false,""" autocomplete cols;"" missing a semicolon",https://github.com/whatwg/html/issues/9347,2023-05-27T11:58:27Z,2023-06-01T03:48:24Z,Potherca,clarification|good first issue,0
 1728670275,false,<img>.complete should take <source> elements into account,https://github.com/whatwg/html/issues/9346,2023-05-27T11:43:15Z,2023-05-30T11:35:53Z,johannesodland,topic: img,0
-1728512290,false,"pushState/replaceState have special handling for the empty string, which is not in the spec",https://github.com/whatwg/html/issues/9343,2023-05-27T07:17:59Z,2023-05-31T14:11:17Z,domenic,topic: history|interop,0
+1728512290,true,"pushState/replaceState have special handling for the empty string, which is not in the spec",https://github.com/whatwg/html/issues/9343,2023-05-27T07:17:59Z,2023-06-02T03:06:20Z,domenic,topic: history|interop,0
 1727904410,true,Using <h4> in a <figure> to record title content within XHTML,https://github.com/whatwg/html/issues/9342,2023-05-26T16:18:41Z,2023-05-27T01:54:43Z,KD-3240,,0
 1727581751,false,Proposal: Improve support for multiple target origins for Window#postMessage,https://github.com/whatwg/html/issues/9340,2023-05-26T12:58:54Z,2023-05-26T14:30:46Z,eliasm307,addition/proposal|needs implementer interest|topic: serialize and transfer,0
 1726270402,false,"""check popover algorithm"" check for open dialogs is weak",https://github.com/whatwg/html/issues/9335,2023-05-25T18:10:32Z,2023-05-27T09:01:28Z,nt1m,topic: dialog|topic: popover,0
@@ -889,7 +889,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 958428700,true,"[COOP] Undefined activeDocumentCOOP in ""enforce a response's cross-origin opener policy"" section",https://github.com/whatwg/html/issues/6926,2021-08-02T19:07:28Z,2021-08-03T19:08:38Z,cdumez,topic: cross-origin-opener-policy,0
 958420412,true,"[COOP] Wrong type in ""queue a violation report for browsing context group switch when navigating away from a COOP response""",https://github.com/whatwg/html/issues/6925,2021-08-02T18:57:06Z,2021-08-03T19:08:38Z,cdumez,topic: cross-origin-opener-policy,0
 955141045,false,COOP: Navigations to non-initial about:blank,https://github.com/whatwg/html/issues/6913,2021-07-28T18:46:22Z,2021-08-03T08:41:30Z,cdumez,topic: cross-origin-opener-policy,0
-955051236,false,Proposal: blank worker,https://github.com/whatwg/html/issues/6911,2021-07-28T16:52:49Z,2022-01-30T04:03:33Z,wanderview,addition/proposal|needs implementer interest|topic: workers,6
+955051236,false,Proposal: blank worker,https://github.com/whatwg/html/issues/6911,2021-07-28T16:52:49Z,2023-06-02T06:06:02Z,wanderview,addition/proposal|needs implementer interest|topic: workers,6
 954670682,true,Proposal: Add a way to open programmatically a date picker,https://github.com/whatwg/html/issues/6909,2021-07-28T09:41:23Z,2022-03-24T17:08:22Z,beaufortfrancois,addition/proposal|needs implementer interest|topic: forms,32
 954564369,false,Add ime-mode to html input,https://github.com/whatwg/html/issues/6908,2021-07-28T07:30:15Z,2021-08-10T08:59:33Z,NagayamaToshiaki,i18n-tracker|i18n-jlreq,0
 954543780,true,Html element's start tag must not be omitted or add new ways to specify lang attribute of the html file,https://github.com/whatwg/html/issues/6907,2021-07-28T07:02:12Z,2021-07-29T06:43:39Z,NagayamaToshiaki,i18n-tracker,0
@@ -947,7 +947,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 923084614,true,Extend `atob` and `btoa` to support non-ASCII strings,https://github.com/whatwg/html/issues/6779,2021-06-16T20:46:05Z,2021-07-22T22:15:36Z,ethanresnick,addition/proposal|needs implementer interest,1
 922214329,true,Setting document.domain should not work for any public suffix,https://github.com/whatwg/html/issues/6775,2021-06-16T07:36:40Z,2021-06-16T17:09:25Z,thorlacius,,0
 921850934,true,What should history.back() do when sync navigations are involved?,https://github.com/whatwg/html/issues/6773,2021-06-15T22:22:03Z,2022-10-31T05:07:06Z,domenic,topic: history|interop,0
-920923069,false,Failed dynamic import should not always be cached,https://github.com/whatwg/html/issues/6768,2021-06-15T02:19:52Z,2023-05-16T12:43:29Z,sodatea,topic: script,13
+920923069,false,Failed dynamic import should not always be cached,https://github.com/whatwg/html/issues/6768,2021-06-15T02:19:52Z,2023-05-16T12:43:29Z,sodatea,topic: script,14
 918518896,false,Web compat: don't run async scripts between adjacent sync <script>s,https://github.com/whatwg/html/issues/6761,2021-06-11T09:48:42Z,2021-06-16T21:36:30Z,zcorpan,compat|topic: parser|topic: script,0
 917707970,false,How should timers account for system sleep/suspend?,https://github.com/whatwg/html/issues/6759,2021-06-10T18:46:38Z,2021-09-02T00:48:06Z,shaseley,,0
 917578796,false,Additional definitions exports for Pointer Events,https://github.com/whatwg/html/issues/6758,2021-06-10T17:04:44Z,2021-08-04T17:33:43Z,plehegar,anchor permanence|editorial,0

@@ -7764,14 +7764,13 @@ api/WebTransport/WebTransport/options_allowPooling_parameter,,114,,,,,,true,true
 api/WebTransport/WebTransport/options_congestionControl_parameter,,114,,,,,,true,true,false,https://w3c.github.io/webtransport/#dom-webtransportoptions-congestioncontrol,W3C
 api/WebTransport/WebTransport/options_requireUnreliable_parameter,,114,,,,,,true,true,false,https://w3c.github.io/webtransport/#dom-webtransportoptions-requireunreliable,W3C
 api/WebTransport/WebTransport/options_serverCertificateHashes_parameter,,,,100,,,,true,true,false,https://w3c.github.io/webtransport/#dom-webtransportoptions-servercertificatehashes,W3C
+api/WebTransport/byob_readers,,114,,109,,,,false,true,false,,NONE
 api/WebTransport/close,,114,,97,,,,false,true,false,https://w3c.github.io/webtransport/#dom-webtransport-close,W3C
 api/WebTransport/closed,,114,,97,,,,false,true,false,https://w3c.github.io/webtransport/#dom-webtransport-closed,W3C
 api/WebTransport/congestionControl,,114,,,,,,true,true,false,https://w3c.github.io/webtransport/#dom-webtransport-congestioncontrol,W3C
 api/WebTransport/createBidirectionalStream,,114,,97,,,,false,true,false,https://w3c.github.io/webtransport/#dom-webtransport-createbidirectionalstream,W3C
-api/WebTransport/createBidirectionalStream/options_sendOrder_parameter,,114,,,,,,true,true,false,https://w3c.github.io/webtransport/#dom-webtransportsendstreamoptions-sendorder,W3C
 api/WebTransport/createUnidirectionalStream,,114,,97,,,,false,true,false,https://w3c.github.io/webtransport/#dom-webtransport-createunidirectionalstream,W3C
 api/WebTransport/createUnidirectionalStream/byob_readers,,114,,109,,,,false,true,false,,NONE
-api/WebTransport/createUnidirectionalStream/options_sendOrder_parameter,,114,,,,,,true,true,false,https://w3c.github.io/webtransport/#dom-webtransportsendstreamoptions-sendorder,W3C
 api/WebTransport/datagrams,,114,,97,,,,false,true,false,https://w3c.github.io/webtransport/#dom-webtransport-datagrams,W3C
 api/WebTransport/draining,,114,,,,,,true,true,false,https://w3c.github.io/webtransport/#dom-webtransport-draining,W3C
 api/WebTransport/getStats,,114,,,,,,true,true,false,https://w3c.github.io/webtransport/#dom-webtransport-getstats,W3C
@@ -7783,6 +7782,7 @@ api/WebTransportBidirectionalStream,,114,,97,,,,false,true,false,https://w3c.git
 api/WebTransportBidirectionalStream/readable,,114,,97,,,,false,true,false,https://w3c.github.io/webtransport/#dom-webtransportbidirectionalstream-readable,W3C
 api/WebTransportBidirectionalStream/writable,,114,,97,,,,false,true,false,https://w3c.github.io/webtransport/#dom-webtransportbidirectionalstream-writable,W3C
 api/WebTransportDatagramDuplexStream,,114,,97,,,,false,true,false,https://w3c.github.io/webtransport/#duplex-stream,W3C
+api/WebTransportDatagramDuplexStream/byob_readers,,,,109,,,,false,true,false,,NONE
 api/WebTransportDatagramDuplexStream/incomingHighWaterMark,,114,,97,,,,false,true,false,https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-incominghighwatermark,W3C
 api/WebTransportDatagramDuplexStream/incomingMaxAge,,114,,97,,,,false,true,false,https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-incomingmaxage,W3C
 api/WebTransportDatagramDuplexStream/maxDatagramSize,,114,,97,,,,false,true,false,https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-maxdatagramsize,W3C
@@ -8670,8 +8670,8 @@ css/properties/animation-fill-mode,,16,,43,,9,,false,true,false,https://drafts.c
 css/properties/animation-iteration-count,,16,,43,,9,,false,true,false,https://drafts.csswg.org/css-animations/#animation-iteration-count,W3C
 css/properties/animation-name,,16,,43,,9,,false,true,false,https://drafts.csswg.org/css-animations/#animation-name,W3C
 css/properties/animation-play-state,,16,,43,,9,,false,true,false,https://drafts.csswg.org/css-animations/#animation-play-state,W3C
-css/properties/animation-timeline,,97,"[{""name"":""layout.css.scroll-linked-animations.enabled"",""type"":""preference"",""value_to_set"":""true""}]",85,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",,,true,true,false,https://drafts.csswg.org/css-animations-2/#animation-timeline,W3C
-css/properties/animation-timeline/scroll,,101,"[{""name"":""layout.css.scroll-linked-animations.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://drafts.csswg.org/scroll-animations/#funcdef-scroll,W3C
+css/properties/animation-timeline,,110,"[{""name"":""layout.css.scroll-driven-animations.enabled"",""type"":""preference"",""value_to_set"":""true""}]",115,,,,true,true,false,https://drafts.csswg.org/css-animations-2/#animation-timeline,W3C
+css/properties/animation-timeline/scroll,,110,"[{""name"":""layout.css.scroll-driven-animations.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://drafts.csswg.org/scroll-animations/#funcdef-scroll,W3C
 css/properties/animation-timing-function,,16,,43,,9,,false,true,false,https://drafts.csswg.org/css-animations/#animation-timing-function,W3C
 css/properties/animation-timing-function/jump,,65,,77,,14,,false,true,false,,NONE
 css/properties/appearance,,80,,84,,15.4,,false,true,false,https://drafts.csswg.org/css-ui/#appearance-switching,W3C
@@ -8894,6 +8894,8 @@ css/properties/container-type,,110,,105,,16,,false,true,false,https://drafts.css
 css/properties/content,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-content/#content-property,W3C
 css/properties/content/alt_text,,,,77,,,,false,true,false,,NONE
 css/properties/content/element_replacement,,63,,28,,9,,false,true,false,,NONE
+css/properties/content/gradient,,113,,26,,,,false,true,false,https://drafts.csswg.org/css-images-4/#gradients,W3C
+css/properties/content/image-set,,113,,113,,,,false,true,false,https://drafts.csswg.org/css-images-4/#image-set-notation,W3C
 css/properties/content/none_applies_to_elements,,91,"[{""name"":""layout.css.element-content-none.enabled"",""type"":""preference""}]",,,,,true,true,false,,NONE
 css/properties/content/url,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-values/#urls,W3C
 css/properties/content-visibility,,preview,,85,,,,true,true,false,https://drafts.csswg.org/css-contain/#content-visibility,W3C
@@ -10852,7 +10854,7 @@ http/headers/DNT,,4,,23,,6,,false,true,true,https://www.w3.org/TR/tracking-dnt/#
 http/headers/DPR,,,,46,,,,false,false,true,,NONE
 http/headers/Date,,true,,true,,true,,false,true,false,https://www.rfc-editor.org/rfc/rfc9110#field.date,UNKNOWN
 http/headers/Device-Memory,,,,61,,,,true,true,false,https://www.w3.org/TR/device-memory/#iana-device-memory,W3C
-http/headers/Digest,,,,,,,,false,true,false,https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers#section-3,IETF
+http/headers/Digest,,,,,,,,false,true,true,https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers#section-3,IETF
 http/headers/ETag,,true,,true,,true,,false,true,false,https://www.rfc-editor.org/rfc/rfc9110#field.etag,UNKNOWN
 http/headers/Early-Data,,58,,,,,,true,true,false,https://httpwg.org/specs/rfc8470.html#header,IETF
 http/headers/Expect,,,,,,,,false,true,false,https://www.rfc-editor.org/rfc/rfc9110#field.expect,UNKNOWN
@@ -11005,7 +11007,7 @@ http/headers/WWW-Authenticate/Digest/SHA-512,,,,,,,,false,true,false,,NONE
 http/headers/WWW-Authenticate/Digest/md5,,true,,true,,,,false,true,false,,NONE
 http/headers/WWW-Authenticate/NTLM,,true,,true,,,,false,true,false,,NONE
 http/headers/WWW-Authenticate/Negotiate,,true,,true,,,,false,true,false,https://www.rfc-editor.org/rfc/rfc4120#top,UNKNOWN
-http/headers/Want-Digest,,,,,,,,false,true,false,https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers#section-4,IETF
+http/headers/Want-Digest,,,,,,,,false,true,true,https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers#section-4,IETF
 http/headers/Warning,,true,,true,,true,,false,true,true,https://www.rfc-editor.org/rfc/rfc9111#field.warning,UNKNOWN
 http/headers/Width,,,,46,,,,false,false,true,,NONE
 http/headers/X-Content-Type-Options,,50,,64,,11,,false,true,false,https://fetch.spec.whatwg.org/#x-content-type-options-header,WHATWG
@@ -11196,6 +11198,7 @@ javascript/builtins/Date,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/mult
 javascript/builtins/Date/@@toPrimitive,,44,,47,,10,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype-@@toprimitive,TC39
 javascript/builtins/Date/Date,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date-constructor,TC39
 javascript/builtins/Date/UTC,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.utc,TC39
+javascript/builtins/Date/UTC/optional_monthIndex,,54,,57,,12,,false,true,false,,NONE
 javascript/builtins/Date/getDate,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.getdate,TC39
 javascript/builtins/Date/getDay,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.getday,TC39
 javascript/builtins/Date/getFullYear,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.getfullyear,TC39
