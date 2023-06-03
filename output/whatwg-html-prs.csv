@@ -1,12 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1737326853,false,Change table's height attribute to allow zero-like values,https://github.com/whatwg/html/pull/9374,2023-06-02T01:38:18Z,2023-06-02T02:58:18Z,sivakusayan,,0
-1736485521,false,Disallow interactive content in <summary>.,https://github.com/whatwg/html/pull/9372,2023-06-01T14:45:34Z,2023-06-01T20:04:20Z,dbaron,document conformance,2
+1737326853,false,Change table's height attribute to allow zero-like values,https://github.com/whatwg/html/pull/9374,2023-06-02T01:38:18Z,2023-06-02T14:12:30Z,sivakusayan,,0
+1736485521,false,Disallow interactive content in <summary>.,https://github.com/whatwg/html/pull/9372,2023-06-01T14:45:34Z,2023-06-02T16:27:40Z,dbaron,do not merge yet|document conformance,2
 1735662308,true,Add empty string special case for pushState/replaceState,https://github.com/whatwg/html/pull/9370,2023-06-01T07:26:49Z,2023-06-02T03:06:20Z,domenic,topic: history|interop,0
 1735288504,false,Tighten auto popover list definition,https://github.com/whatwg/html/pull/9369,2023-06-01T01:45:56Z,2023-06-01T09:21:14Z,josepharhar,needs tests,0
 1732189866,false,Use the fetched unsafe response for network status and response bodies,https://github.com/whatwg/html/pull/9362,2023-05-30T12:47:15Z,2023-05-30T13:59:15Z,trflynn89,,0
 1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-06-01T08:14:01Z,rubberyuzu,,0
 1729857566,true,Add files via upload,https://github.com/whatwg/html/pull/9353,2023-05-29T01:56:27Z,2023-05-29T04:36:27Z,jakex666x,spam,0
-1728531782,false,Check dialog is modal flag instead of open attribute in 'check popover validity' algorithm,https://github.com/whatwg/html/pull/9344,2023-05-27T08:09:19Z,2023-06-01T18:37:01Z,nt1m,normative change|topic: popover,0
+1728531782,false,Check dialog is modal flag instead of open attribute in 'check popover validity' algorithm,https://github.com/whatwg/html/pull/9344,2023-05-27T08:09:19Z,2023-06-02T17:49:50Z,nt1m,normative change|topic: popover,0
 1727729022,false,Re-add <source media> for media elements,https://github.com/whatwg/html/pull/9341,2023-05-26T14:21:19Z,2023-05-31T18:45:46Z,zcorpan,,1
 1727043109,true,Build nrr document,https://github.com/whatwg/html/pull/9336,2023-05-26T07:16:43Z,2023-05-30T06:27:22Z,rubberyuzu,,0
 1726031741,true,"Fix typo ""traversible""",https://github.com/whatwg/html/pull/9333,2023-05-25T15:20:13Z,2023-05-25T16:06:03Z,schwering,,0
@@ -104,7 +104,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1609116589,true,mudei o titulo (apenas teste),https://github.com/whatwg/html/pull/8981,2023-03-03T19:02:37Z,2023-03-03T23:29:24Z,joaopedro-123,spam,0
 1609111532,true,Clarify how to use reflect in a specification,https://github.com/whatwg/html/pull/8980,2023-03-03T18:58:16Z,2023-03-08T14:04:45Z,annevk,clarification|topic: reflect,0
 1607371234,true,Correct WAI-ARIA integration for custom elements,https://github.com/whatwg/html/pull/8974,2023-03-02T19:27:51Z,2023-03-07T01:25:54Z,annevk,accessibility|a11y-tracker|topic: reflect,0
-1606245718,false,Add steps to destroy documents that are ineligible for receiving message when posting message through broadcast channel,https://github.com/whatwg/html/pull/8972,2023-03-02T07:26:20Z,2023-06-01T08:39:46Z,lozy219,topic: history|topic: serialize and transfer|agenda+,0
+1606245718,false,Add steps to destroy documents that are ineligible for receiving message when posting message through broadcast channel,https://github.com/whatwg/html/pull/8972,2023-03-02T07:26:20Z,2023-06-02T16:46:20Z,lozy219,topic: history|topic: serialize and transfer,0
 1605729923,true,Define auto popover list in terms of the top layer,https://github.com/whatwg/html/pull/8969,2023-03-01T22:04:40Z,2023-03-03T14:19:15Z,annevk,topic: popover,0
 1605681428,true,Topmost clicked popover takes one argument,https://github.com/whatwg/html/pull/8967,2023-03-01T21:19:06Z,2023-03-03T14:16:07Z,annevk,topic: popover,0
 1605407010,true,Change endpoint check from null to document,https://github.com/whatwg/html/pull/8966,2023-03-01T17:50:43Z,2023-03-01T23:00:36Z,josepharhar,topic: popover,0
@@ -327,7 +327,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1274141161,true,Export 'the body element' for other specifications to use,https://github.com/whatwg/html/pull/8017,2022-06-16T22:23:05Z,2022-06-16T22:53:22Z,zcorpan,,0
 1273830563,false,Add IntersectionObserver target requirement to Event Loops Processing Model,https://github.com/whatwg/html/pull/8016,2022-06-16T16:45:47Z,2022-08-22T02:36:08Z,nathaneliason,,0
 1270712984,true,Integrate with WebDriver-BiDi user prompt handling.,https://github.com/whatwg/html/pull/8010,2022-06-14T12:14:42Z,2022-06-17T18:46:26Z,jgraham,,0
-1270116125,false,Add sizes=auto to lazy-loaded <img>,https://github.com/whatwg/html/pull/8008,2022-06-14T00:47:59Z,2023-06-02T05:03:19Z,zcorpan,do not merge yet,28
+1270116125,true,Add sizes=auto to lazy-loaded <img>,https://github.com/whatwg/html/pull/8008,2022-06-14T00:47:59Z,2023-06-02T14:24:03Z,zcorpan,,29
 1269893795,true,"Add ""webauthn"" autocomplete token",https://github.com/whatwg/html/pull/8006,2022-06-13T20:03:26Z,2022-06-16T18:49:14Z,nsatragno,,0
 1267714744,true,Export `HTMLTemplateElement`'s `content`.,https://github.com/whatwg/html/pull/7998,2022-06-10T15:39:14Z,2022-06-13T08:51:58Z,mozfreddyb,,0
 1265300355,true,Compare against storage key when creating a SharedWorker. (#7913),https://github.com/whatwg/html/pull/7995,2022-06-08T20:56:35Z,2022-06-15T17:09:57Z,wanderview,topic: workers,0
