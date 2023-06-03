@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1738596106,false,Should we deprecate `dialog.show()`?,https://github.com/whatwg/html/issues/9376,2023-06-02T18:02:06Z,2023-06-02T21:45:35Z,mfreed7,removal/deprecation|topic: dialog,6
+1738596106,false,Should we deprecate `dialog.show()`?,https://github.com/whatwg/html/issues/9376,2023-06-02T18:02:06Z,2023-06-03T07:59:25Z,mfreed7,removal/deprecation|topic: dialog,6
 1738480470,false,Upcoming HTML standard issue triage meeting on 6/15/2023,https://github.com/whatwg/html/issues/9375,2023-06-02T16:22:45Z,2023-06-02T16:22:45Z,past,agenda+,0
-1736830044,false,Add light dismiss functionality to `<dialog>`,https://github.com/whatwg/html/issues/9373,2023-06-01T18:07:13Z,2023-06-02T12:40:34Z,mfreed7,addition/proposal|needs implementer interest|topic: dialog,6
+1736830044,false,Add light dismiss functionality to `<dialog>`,https://github.com/whatwg/html/issues/9373,2023-06-01T18:07:13Z,2023-06-03T02:36:43Z,mfreed7,addition/proposal|needs implementer interest|topic: dialog,6
 1736289421,false,"The width attribute should not be a relevant mutation ",https://github.com/whatwg/html/issues/9371,2023-06-01T13:04:26Z,2023-06-01T13:04:26Z,zcorpan,topic: img,0
 1733790661,false,"When the popover attribute is removed, the hide popover algorithm will return too early",https://github.com/whatwg/html/issues/9367,2023-05-31T09:44:23Z,2023-06-01T08:42:36Z,mbrodesser-Igalia,topic: popover,0
 1733283807,false,auto popover list definition isn't quite correct,https://github.com/whatwg/html/issues/9366,2023-05-31T02:27:08Z,2023-06-01T01:46:07Z,nt1m,topic: popover,0
@@ -359,7 +359,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1400696912,false,Editorial: consider using Infra maps instead of JS-spec Records more often,https://github.com/whatwg/html/issues/8363,2022-10-07T06:43:25Z,2022-10-07T06:43:25Z,domenic,clarification|integration,0
 1400071766,false,Allow workers & shared workers to be created within a service worker,https://github.com/whatwg/html/issues/8362,2022-10-06T17:41:40Z,2023-01-17T19:24:23Z,ian97531,addition/proposal|needs implementer interest|topic: workers,4
 1399126032,false,How do shadow roots and slots interact with the content model?,https://github.com/whatwg/html/issues/8361,2022-10-06T08:47:59Z,2022-10-07T10:52:20Z,castholm,,0
-1398190934,false,Proposal: showEmojiPicker() on HTMLInputElement/HTMLTextareaElement,https://github.com/whatwg/html/issues/8358,2022-10-05T18:23:44Z,2022-10-06T14:31:19Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,64
+1398190934,false,Proposal: showEmojiPicker() on HTMLInputElement/HTMLTextareaElement,https://github.com/whatwg/html/issues/8358,2022-10-05T18:23:44Z,2022-10-06T14:31:19Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,65
 1397339666,false,Add external import maps,https://github.com/whatwg/html/issues/8355,2022-10-05T07:08:53Z,2022-10-06T15:43:39Z,annevk,addition/proposal|topic: script,1
 1396727910,false,"Which type of replaced elements should a ""`<img>` with empty src or without src"" be treated",https://github.com/whatwg/html/issues/8354,2022-10-04T19:11:52Z,2022-10-14T18:58:36Z,cathiechen,topic: rendering|topic: img,0
 1396199556,true,Consistify spelling of realm,https://github.com/whatwg/html/issues/8353,2022-10-04T12:32:09Z,2022-10-06T07:14:58Z,annevk,clarification,0
@@ -1873,7 +1873,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 457801017,true,"Table section elements (<tbody>, <thead>, <tfoot>) should have a height attribute that maps into style",https://github.com/whatwg/html/issues/4718,2019-06-19T04:31:23Z,2020-05-06T06:13:23Z,bzbarsky,good first issue|topic: rendering,0
 457799969,true,width attribute on <col> should allow 0 as a value,https://github.com/whatwg/html/issues/4717,2019-06-19T04:26:09Z,2019-09-24T03:21:57Z,bzbarsky,good first issue|topic: rendering,0
 457799322,true,height attribute on <tr> should allow 0 as a value,https://github.com/whatwg/html/issues/4716,2019-06-19T04:23:14Z,2021-02-22T09:46:08Z,bzbarsky,good first issue|topic: rendering,0
-457798284,false,width and height attributes on <table> should perhaps allow 0 as a value,https://github.com/whatwg/html/issues/4715,2019-06-19T04:18:22Z,2023-05-23T04:43:16Z,bzbarsky,good first issue|topic: rendering,0
+457798284,true,width and height attributes on <table> should perhaps allow 0 as a value,https://github.com/whatwg/html/issues/4715,2019-06-19T04:18:22Z,2023-06-03T02:56:36Z,bzbarsky,good first issue|topic: rendering,0
 457045462,true,"Replace ""NPAPI"" with a more reasonable topic in the Abstract diagram",https://github.com/whatwg/html/issues/4711,2019-06-17T17:09:21Z,2020-04-28T17:09:48Z,tabatkins,addition/proposal|clarification,1
 457031790,true,"can use <nav> within a <header>, but that <nav> cannot contain a <header> itself",https://github.com/whatwg/html/issues/4710,2019-06-17T16:35:09Z,2019-06-28T12:52:06Z,SmoothJeor,,1
 456221346,false,"""browsing context scope origin"" is currently a no-op",https://github.com/whatwg/html/issues/4703,2019-06-14T12:24:44Z,2019-06-14T12:24:44Z,annevk,topic: navigation|needs tests,0
@@ -3224,7 +3224,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 202087095,true,input.select() with not-applied types,https://github.com/whatwg/html/issues/2275,2017-01-20T09:01:54Z,2017-02-09T17:36:11Z,tkent-google,,0
 202076709,true,"""A 002E FULL STOP character (.)""",https://github.com/whatwg/html/issues/2274,2017-01-20T08:01:35Z,2017-01-21T00:14:48Z,cvrebert,good first issue,0
 201967740,true,Cross-origin getters seem to ask impossible things,https://github.com/whatwg/html/issues/2273,2017-01-19T20:32:34Z,2017-05-16T15:56:02Z,domenic,topic: multiple globals,0
-201825957,false,Disallow interactive content in <summary>,https://github.com/whatwg/html/issues/2272,2017-01-19T10:54:39Z,2023-06-02T19:40:26Z,zcorpan,document conformance,0
+201825957,false,Disallow interactive content in <summary>,https://github.com/whatwg/html/issues/2272,2017-01-19T10:54:39Z,2023-06-03T06:49:47Z,zcorpan,document conformance|accessibility|a11y-tracker,0
 201312087,false,Make custom attribute rules consistent with custom element name rules,https://github.com/whatwg/html/issues/2271,2017-01-17T15:04:58Z,2022-04-18T18:21:59Z,LeaVerou,addition/proposal|needs implementer interest|topic: custom elements,75
 201247626,true,"Definition of ""User Agent (UA)""",https://github.com/whatwg/html/issues/2270,2017-01-17T11:11:25Z,2017-01-17T16:39:32Z,vkatsikaros,,0
 200765661,true,The pending dialog stack and the stack of top layer,https://github.com/whatwg/html/issues/2268,2017-01-14T00:39:30Z,2017-09-05T09:48:25Z,upsuper,,0
