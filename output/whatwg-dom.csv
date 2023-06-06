@@ -2,7 +2,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1728881591,true,"Undefined variable in the ""add an event listener"" algorithm",https://github.com/whatwg/dom/issues/1203,2023-05-27T18:23:06Z,2023-05-31T10:44:19Z,jeremydavis519,,1
 1719588040,false,Event.composedPath() inconsistency between implementors.,https://github.com/whatwg/dom/issues/1201,2023-05-22T12:26:32Z,2023-05-27T06:25:46Z,Jack-Works,interop|topic: events,1
 1709682685,false,Define XPath's lang() as ASCII case-insensitive,https://github.com/whatwg/dom/issues/1199,2023-05-15T09:24:38Z,2023-05-15T22:03:00Z,annevk,,0
-1709677139,false,Import HTML's XPath and XSLT monkey patches,https://github.com/whatwg/dom/issues/1198,2023-05-15T09:21:15Z,2023-06-05T11:36:26Z,annevk,,0
+1709677139,false,Import HTML's XPath and XSLT monkey patches,https://github.com/whatwg/dom/issues/1198,2023-05-15T09:21:15Z,2023-06-05T17:04:25Z,annevk,,1
 1706280852,true,Undeprecate document.all,https://github.com/whatwg/dom/issues/1196,2023-05-11T17:52:35Z,2023-05-11T21:45:31Z,jfbrennan,,0
 1697248128,false,Userland AbortSignal,https://github.com/whatwg/dom/issues/1195,2023-05-05T08:51:37Z,2023-05-20T11:47:55Z,annevk,topic: aborting,1
 1697012948,false,Stop exporting AbortSignal's signal abort,https://github.com/whatwg/dom/issues/1194,2023-05-05T05:04:17Z,2023-05-05T05:09:25Z,annevk,clarification|topic: aborting,0
@@ -477,7 +477,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 163808031,true,Upstream retargeting algorithm,https://github.com/whatwg/dom/issues/276,2016-07-05T09:28:53Z,2016-07-22T07:39:19Z,annevk,topic: shadow,0
 161349408,true,Note that about:blank also results in quirks mode,https://github.com/whatwg/dom/issues/272,2016-06-21T04:55:48Z,2016-07-05T09:22:21Z,annevk,,0
 161216942,true,selectionchange possible improvements,https://github.com/whatwg/dom/issues/271,2016-06-20T15:02:20Z,2016-06-20T18:14:22Z,caub,,0
-161112784,false,Proposal: DOMChangeList,https://github.com/whatwg/dom/issues/270,2016-06-20T03:54:43Z,2018-02-19T13:22:26Z,wycats,,97
+161112784,false,Proposal: DOMChangeList,https://github.com/whatwg/dom/issues/270,2016-06-20T03:54:43Z,2018-02-19T13:22:26Z,wycats,,100
 159624707,true,Point out that initial about:blank also results in quirks mode,https://github.com/whatwg/dom/issues/268,2016-06-10T12:30:10Z,2016-07-05T09:22:49Z,annevk,good first issue,0
 158750924,true,What happens if a 'once' eventListener dispatches a similar event?,https://github.com/whatwg/dom/issues/265,2016-06-06T19:06:49Z,2016-06-07T16:51:53Z,cdumez,,0
 158732710,true,.createElement's namespace handling doesn't seem to match what UAs do,https://github.com/whatwg/dom/issues/264,2016-06-06T17:36:17Z,2016-06-08T13:21:50Z,smaug----,,0
