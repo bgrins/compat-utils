@@ -1,9 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1744750273,false,Make togglePopover return a boolean,https://github.com/whatwg/html/pull/9393,2023-06-06T23:08:50Z,2023-06-06T23:10:13Z,josepharhar,,0
-1744629222,false,Fix modal check in dialog closing algorithm,https://github.com/whatwg/html/pull/9391,2023-06-06T21:19:10Z,2023-06-06T22:02:33Z,josepharhar,topic: popover,0
+1745722348,false,Null checks for img pending request,https://github.com/whatwg/html/pull/9399,2023-06-07T11:52:31Z,2023-06-07T11:53:43Z,zcorpan,,0
+1745244513,false,"Add asserting element's popover invoker is null in the ""show popover"" algorithm",https://github.com/whatwg/html/pull/9397,2023-06-07T07:27:12Z,2023-06-07T08:58:20Z,mbrodesser-Igalia,,0
+1745032688,false,"Guard ""close a top-level traversable""",https://github.com/whatwg/html/pull/9396,2023-06-07T04:55:44Z,2023-06-07T04:56:56Z,domenic,topic: browsing context,0
+1745024754,false,Define :modal pseudo-class and start using it,https://github.com/whatwg/html/pull/9395,2023-06-07T04:46:13Z,2023-06-07T07:16:11Z,nt1m,topic: dialog|topic: selectors,0
+1744750273,false,Make togglePopover return a boolean,https://github.com/whatwg/html/pull/9393,2023-06-06T23:08:50Z,2023-06-07T08:29:09Z,josepharhar,topic: popover,0
+1744629222,true,Fix modal check in dialog closing algorithm,https://github.com/whatwg/html/pull/9391,2023-06-06T21:19:10Z,2023-06-07T10:19:12Z,josepharhar,topic: dialog,0
 1743956398,false,chore: add semicolon to textarea autocomplete attribute,https://github.com/whatwg/html/pull/9389,2023-06-06T14:08:35Z,2023-06-06T17:45:18Z,kaf-lamed-beyt,editorial,0
 1742856727,true,[editorial] Fix typo & quoting inconsistency in popover example,https://github.com/whatwg/html/pull/9388,2023-06-06T00:25:06Z,2023-06-06T05:08:59Z,nt1m,editorial|topic: popover,0
-1742660557,false,Fix ::backdrop user-agent rule for popovers,https://github.com/whatwg/html/pull/9387,2023-06-05T21:37:33Z,2023-06-06T10:58:57Z,josepharhar,topic: popover,0
+1742660557,false,Fix ::backdrop user-agent rule for popovers,https://github.com/whatwg/html/pull/9387,2023-06-05T21:37:33Z,2023-06-07T07:17:39Z,josepharhar,topic: popover,0
 1737326853,true,Change table's height attribute to allow zero-like values,https://github.com/whatwg/html/pull/9374,2023-06-02T01:38:18Z,2023-06-03T02:56:29Z,sivakusayan,topic: rendering|topic: table,0
 1736485521,true,Disallow interactive content in <summary>.,https://github.com/whatwg/html/pull/9372,2023-06-01T14:45:34Z,2023-06-05T14:31:21Z,dbaron,do not merge yet|document conformance,2
 1735662308,true,Add empty string special case for pushState/replaceState,https://github.com/whatwg/html/pull/9370,2023-06-01T07:26:49Z,2023-06-02T03:06:20Z,domenic,topic: history|interop,0
@@ -21,7 +25,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1722651100,true,Editorial: Fix typo in Ian Kilpatrick's name.,https://github.com/whatwg/html/pull/9325,2023-05-23T19:22:16Z,2023-05-23T22:51:14Z,dbaron,,0
 1721407841,true,Make document unsalvageable,https://github.com/whatwg/html/pull/9324,2023-05-23T07:27:14Z,2023-05-30T06:27:15Z,rubberyuzu,,0
 1717546148,false,Update RO loop to include content-visibility,https://github.com/whatwg/html/pull/9312,2023-05-19T16:56:53Z,2023-06-01T15:49:56Z,vmpstr,,0
-1716303125,false,Ignore dangling markup in target name,https://github.com/whatwg/html/pull/9309,2023-05-18T21:39:56Z,2023-06-06T21:18:58Z,shhnjk,,0
+1716303125,false,Ignore dangling markup in target name,https://github.com/whatwg/html/pull/9309,2023-05-18T21:39:56Z,2023-06-07T11:09:12Z,shhnjk,,0
 1714880100,true,Add not restored reasons,https://github.com/whatwg/html/pull/9307,2023-05-18T02:16:46Z,2023-05-30T06:27:07Z,rubberyuzu,,0
 1712881320,true,Cleaned up the tables for getContext(),https://github.com/whatwg/html/pull/9305,2023-05-16T23:51:51Z,2023-05-23T14:27:22Z,trevorspiniolas,clarification|topic: canvas,0
 1712520196,true,Editorial: Remove duplicate delaying the load event requirement,https://github.com/whatwg/html/pull/9303,2023-05-16T18:24:14Z,2023-05-17T01:12:49Z,domfarolino,topic: embed and object|editorial,0
@@ -80,7 +84,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1648089210,false,Use CSS spec for top layer,https://github.com/whatwg/html/pull/9093,2023-03-30T18:14:31Z,2023-06-06T11:26:03Z,josepharhar,topic: rendering|integration,0
 1646532457,true,Fix a typo in User Activation processing model.,https://github.com/whatwg/html/pull/9091,2023-03-29T21:07:39Z,2023-03-31T05:19:36Z,mustaqahmed,topic: user activation,0
 1646278992,true,editorial: add custom element extensibility bullet,https://github.com/whatwg/html/pull/9088,2023-03-29T18:03:36Z,2023-05-05T12:32:50Z,bkardell,,0
-1644980345,true,Create API top layer,https://github.com/whatwg/html/pull/9085,2023-03-29T03:40:08Z,2023-03-29T05:47:33Z,akshaya-hub,spam,0
+1644980345,true,Create API top layer,https://github.com/whatwg/html/pull/9085,2023-03-29T03:40:08Z,2023-03-29T05:47:33Z,akshayamadhuri,spam,0
 1644352617,true,Overlayed -> overlaid,https://github.com/whatwg/html/pull/9083,2023-03-28T17:06:16Z,2023-03-31T18:18:25Z,meyerweb,,0
 1643694723,true,Clarify #named-access-on-the-window-object,https://github.com/whatwg/html/pull/9080,2023-03-28T10:56:40Z,2023-03-29T07:19:43Z,delan,,0
 1642657668,true,Heading example (Issue 8366),https://github.com/whatwg/html/pull/9078,2023-03-27T19:05:56Z,2023-03-29T05:52:23Z,JAWS-test,,0
@@ -102,7 +106,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1623084942,true,"Export ""listener"" and ""event handler map"".",https://github.com/whatwg/html/pull/9021,2023-03-14T09:35:47Z,2023-03-17T08:14:35Z,yoshisatoyanagisawa,,0
 1622364099,true,Only restore popover focus if focus is in the popover,https://github.com/whatwg/html/pull/9018,2023-03-13T22:21:25Z,2023-05-12T17:19:50Z,josepharhar,topic: focus|topic: popover,0
 1621431332,false,"Add ""lbry"" scheme to allowlist",https://github.com/whatwg/html/pull/9017,2023-03-13T12:54:29Z,2023-04-06T07:42:17Z,ben221199,addition/proposal|needs implementer interest,0
-1615814290,false,Clean up popover focusing steps,https://github.com/whatwg/html/pull/8998,2023-03-08T19:39:01Z,2023-04-25T04:19:58Z,nt1m,topic: popover,0
+1615814290,false,Clean up popover focusing steps,https://github.com/whatwg/html/pull/8998,2023-03-08T19:39:01Z,2023-06-07T05:12:25Z,nt1m,topic: popover,0
 1615139600,true,Editorial: Remove references to resource hints,https://github.com/whatwg/html/pull/8996,2023-03-08T11:48:50Z,2023-03-13T08:03:17Z,noamr,,0
 1614823849,true,Remove now-unnecessary COOP-specific navigation redirect fix,https://github.com/whatwg/html/pull/8995,2023-03-08T08:06:55Z,2023-03-24T08:01:04Z,domenic,topic: navigation|integration|topic: cross-origin-opener-policy,0
 1614425839,true,Correct popover invokers,https://github.com/whatwg/html/pull/8993,2023-03-08T00:26:49Z,2023-03-14T15:26:57Z,annevk,topic: popover,0
