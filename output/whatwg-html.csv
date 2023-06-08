@@ -1,17 +1,17 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1745526561,false,"""Update the image data"" can dereference null ""pending request"" in multiple places",https://github.com/whatwg/html/issues/9398,2023-06-07T10:06:19Z,2023-06-07T10:45:07Z,awesomekling,topic: img,0
-1744994841,false,Is it expected that Document has [LegacyOverrideBuiltIns]?,https://github.com/whatwg/html/issues/9394,2023-06-07T04:11:51Z,2023-06-07T10:33:53Z,yuki3,,0
+1744994841,true,Is it expected that Document has [LegacyOverrideBuiltIns]?,https://github.com/whatwg/html/issues/9394,2023-06-07T04:11:51Z,2023-06-07T12:14:44Z,yuki3,,0
 1743957228,false,"issues with optionality of oldParent in HTML element removing steps, particularly with removal of optgroups",https://github.com/whatwg/html/issues/9390,2023-06-06T14:09:00Z,2023-06-06T14:09:00Z,dbaron,,0
 1742040804,false,anonymous fieldset content box should inherit scroll-start,https://github.com/whatwg/html/issues/9386,2023-06-05T15:35:38Z,2023-06-05T15:35:38Z,DavMila,,0
 1742022432,false,Constraint Validation IDL is reiterated multiple times,https://github.com/whatwg/html/issues/9385,2023-06-05T15:24:07Z,2023-06-05T18:44:07Z,clshortfuse,,0
-1741686583,false,"Should ""show popover"" assert the element's popover invoker is null?",https://github.com/whatwg/html/issues/9383,2023-06-05T12:38:07Z,2023-06-07T07:03:09Z,mbrodesser-Igalia,clarification|topic: popover,0
+1741686583,true,"Should ""show popover"" assert the element's popover invoker is null?",https://github.com/whatwg/html/issues/9383,2023-06-05T12:38:07Z,2023-06-07T20:19:28Z,mbrodesser-Igalia,clarification|topic: popover,0
 1740502906,false,"popover: expect a way to watch all ""`toggle`"" events even in shadow DOM on `window`",https://github.com/whatwg/html/issues/9381,2023-06-04T17:44:23Z,2023-06-05T04:56:13Z,gdh1995,addition/proposal|topic: popover,0
 1740428387,false,Add `class` & `for` aliases for `className` and `htmlFor`,https://github.com/whatwg/html/issues/9379,2023-06-04T15:17:46Z,2023-06-06T10:05:13Z,jakearchibald,addition/proposal|needs implementer interest,181
 1738596106,false,Should we deprecate `dialog.show()`?,https://github.com/whatwg/html/issues/9376,2023-06-02T18:02:06Z,2023-06-03T07:59:25Z,mfreed7,removal/deprecation|topic: dialog,8
 1738480470,false,Upcoming HTML standard issue triage meeting on 6/15/2023,https://github.com/whatwg/html/issues/9375,2023-06-02T16:22:45Z,2023-06-02T16:22:45Z,past,agenda+,0
 1736830044,false,Add light dismiss functionality to `<dialog>`,https://github.com/whatwg/html/issues/9373,2023-06-01T18:07:13Z,2023-06-05T16:14:05Z,mfreed7,addition/proposal|needs implementer interest|topic: dialog,10
 1736289421,false,"The width attribute should not be a relevant mutation ",https://github.com/whatwg/html/issues/9371,2023-06-01T13:04:26Z,2023-06-01T13:04:26Z,zcorpan,topic: img,0
-1733790661,false,"When the popover attribute is removed, the hide popover algorithm will return too early",https://github.com/whatwg/html/issues/9367,2023-05-31T09:44:23Z,2023-06-06T07:53:19Z,mbrodesser-Igalia,topic: popover,0
+1733790661,false,"When the popover attribute is removed, the hide popover algorithm will return too early",https://github.com/whatwg/html/issues/9367,2023-05-31T09:44:23Z,2023-06-07T21:40:49Z,mbrodesser-Igalia,topic: popover,0
 1733283807,true,auto popover list definition isn't quite correct,https://github.com/whatwg/html/issues/9366,2023-05-31T02:27:08Z,2023-06-06T05:20:53Z,nt1m,topic: popover,0
 1733137301,false,Privacy-preserving single-keyed cache via declarative preloading,https://github.com/whatwg/html/issues/9365,2023-05-30T23:02:55Z,2023-06-01T12:51:38Z,josephrocca,addition/proposal|needs implementer interest,0
 1733099762,false,code should default to translate=no,https://github.com/whatwg/html/issues/9364,2023-05-30T22:19:18Z,2023-06-01T07:16:19Z,fantasai,normative change|addition/proposal|needs implementer interest,5
@@ -103,7 +103,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1651686034,false,"Support `popovertarget` on custom elements with `role=""button""` ",https://github.com/whatwg/html/issues/9110,2023-04-03T09:26:25Z,2023-04-20T14:50:23Z,jpzwarte,addition/proposal|topic: custom elements|topic: popover,1
 1651613244,false,`popovertarget` and shadow DOM,https://github.com/whatwg/html/issues/9109,2023-04-03T08:43:23Z,2023-04-20T14:47:44Z,jpzwarte,addition/proposal|topic: shadow|topic: popover,0
 1650378616,false,Add BoundingClientRectObserver,https://github.com/whatwg/html/issues/9104,2023-04-01T09:09:22Z,2023-04-01T16:25:03Z,cubuspl42,,0
-1650150293,false,<textarea> should support the [pattern] attribute like the <input> element,https://github.com/whatwg/html/issues/9102,2023-03-31T23:02:41Z,2023-06-07T12:05:15Z,Gambloide,addition/proposal|needs implementer interest|topic: forms,3
+1650150293,false,<textarea> should support the [pattern] attribute like the <input> element,https://github.com/whatwg/html/issues/9102,2023-03-31T23:02:41Z,2023-06-07T13:37:07Z,Gambloide,addition/proposal|needs implementer interest|topic: forms,3
 1648832613,true,PDF version does not link to web version,https://github.com/whatwg/html/issues/9097,2023-03-31T07:32:24Z,2023-04-03T07:25:38Z,nicolesharp100,spec tooling,0
 1648366000,false,"typo ""The autofill field listed above indicate that t...""",https://github.com/whatwg/html/issues/9094,2023-03-30T21:43:18Z,2023-03-30T21:43:18Z,timelsass,,0
 1646524684,false,Early termination of navigation loading spinner on cross-document navigation,https://github.com/whatwg/html/issues/9090,2023-03-29T21:01:44Z,2023-05-11T00:25:52Z,tbondwilkinson,addition/proposal|topic: navigation,0
@@ -148,7 +148,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1618871157,false,[Proposal] A way to load parts of a page instead of the entire page.,https://github.com/whatwg/html/issues/9003,2023-03-10T12:03:32Z,2023-03-10T19:52:38Z,flavi1,,0
 1618129848,true,Upcoming HTML standard issue triage meeting on 3/23/2023,https://github.com/whatwg/html/issues/9002,2023-03-09T23:18:35Z,2023-03-23T22:01:10Z,past,agenda+,0
 1616877531,false,Storage Access API Standardization,https://github.com/whatwg/html/issues/9000,2023-03-09T10:16:50Z,2023-03-23T21:57:18Z,johannhof,addition/proposal|topic: cookie,2
-1616220344,false,togglePopover() algorithm does not check popover validity when force == false and when the popover visibility state is hidden,https://github.com/whatwg/html/issues/8999,2023-03-09T01:04:13Z,2023-06-06T08:27:50Z,nt1m,topic: popover,0
+1616220344,false,togglePopover() algorithm does not check popover validity when force == false and when the popover visibility state is hidden,https://github.com/whatwg/html/issues/8999,2023-03-09T01:04:13Z,2023-06-07T20:31:41Z,nt1m,topic: popover,0
 1614714505,false,WPT testing non-standard behavior for popover focusing steps,https://github.com/whatwg/html/issues/8994,2023-03-08T06:11:02Z,2023-03-14T19:25:50Z,nt1m,topic: focus|topic: popover,0
 1612593381,true,WPT tests for unspecified PopoverInvokerElement removing steps,https://github.com/whatwg/html/issues/8991,2023-03-07T02:28:43Z,2023-06-06T06:42:40Z,nt1m,topic: popover,0
 1612445163,false,Proposal: fallback/mirror hrefs,https://github.com/whatwg/html/issues/8990,2023-03-07T00:12:00Z,2023-03-07T00:17:16Z,rhendric,,0
@@ -615,7 +615,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1177177506,true,Question: Expected behavior for Object.keys with storage objects,https://github.com/whatwg/html/issues/7741,2022-03-22T18:50:05Z,2022-03-22T18:55:43Z,jasonnutter,,0
 1176559847,true,HTML syntax: omitting <body> should not be allowed if first child is <noscript>,https://github.com/whatwg/html/issues/7737,2022-03-22T10:14:53Z,2022-09-15T17:15:31Z,zcorpan,good first issue|document conformance,0
 1176210826,true,Should a preload with SRI and a main request without SRI be matched?,https://github.com/whatwg/html/issues/7736,2022-03-22T03:17:51Z,2022-05-19T00:42:57Z,hiroshige-g,security/privacy|topic: fetch|topic: resource hints (inc. preload),0
-1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2023-06-06T20:53:20Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,15
+1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2023-06-06T20:53:20Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,16
 1175078464,false,"Modern browsers don't implement ""4.10.21.2 Implicit submission"" correctly",https://github.com/whatwg/html/issues/7730,2022-03-21T08:59:00Z,2022-03-21T12:40:28Z,IliasDewachter,topic: forms,0
 1172930450,false,<a download> can sometimes just navigate,https://github.com/whatwg/html/issues/7718,2022-03-17T21:19:34Z,2022-03-23T21:36:38Z,domenic,topic: navigation|interop,1
 1172424410,true,Iframe's sandbox IDL definition. Why is it readonly?,https://github.com/whatwg/html/issues/7717,2022-03-17T13:59:33Z,2022-03-17T15:25:41Z,ArthurSonzogni,,0
@@ -819,7 +819,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1016775991,false,Suggestion: Revisit spec copy for quote need and consistency,https://github.com/whatwg/html/issues/7158,2021-10-05T20:19:27Z,2021-10-06T15:12:07Z,j9t,,0
 1015361028,false,"Add asynchronous version of alert, prompt, and confirm that return promises",https://github.com/whatwg/html/issues/7151,2021-10-04T16:04:08Z,2021-10-05T14:30:57Z,achristensen07,addition/proposal|needs implementer interest,0
 1015313888,true,Standardize Priority Hints,https://github.com/whatwg/html/issues/7150,2021-10-04T15:18:43Z,2023-02-17T06:10:47Z,pmeenan,addition/proposal|topic: fetch,0
-1013183795,false,Require `img` to be able to load the same video formats as `video` supports,https://github.com/whatwg/html/issues/7141,2021-10-01T10:33:10Z,2021-10-04T12:54:07Z,zcorpan,topic: img,22
+1013183795,false,Require `img` to be able to load the same video formats as `video` supports,https://github.com/whatwg/html/issues/7141,2021-10-01T10:33:10Z,2021-10-04T12:54:07Z,zcorpan,topic: img,23
 1013085041,true,`<embed>` elements (HTMLEmbedElement) do not have contentWindow or contentDocument,https://github.com/whatwg/html/issues/7140,2021-10-01T08:54:14Z,2023-04-26T15:29:12Z,Rob--W,addition/proposal|needs implementer interest|topic: embed and object,0
 1012275325,false,Add request metadata to COEP Reporting,https://github.com/whatwg/html/issues/7133,2021-09-30T14:48:44Z,2021-10-29T06:12:33Z,agampafb,topic: cross-origin-embedder-policy,0
 1011378851,true,"Feature proposal: `blocking=""render""` attribute on <link>, <script> and <style>",https://github.com/whatwg/html/issues/7131,2021-09-29T19:46:33Z,2022-08-26T17:00:54Z,xiaochengh,addition/proposal|needs implementer interest|topic: rendering,0
@@ -2114,7 +2114,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 404249030,false,Prevent programmatic focus in iframe,https://github.com/whatwg/html/issues/4326,2019-01-29T11:37:42Z,2021-06-21T14:07:04Z,marian-r,addition/proposal|security/privacy|topic: focus,0
 404242319,true,Script-blocking style sheet counter possibly not decremented,https://github.com/whatwg/html/issues/4325,2019-01-29T11:19:44Z,2023-01-27T00:57:36Z,ytausky,topic: script|topic: link,0
 403158959,false,Additional module types,https://github.com/whatwg/html/issues/4321,2019-01-25T13:32:56Z,2019-07-06T18:19:56Z,Jamesernator,addition/proposal|topic: script,0
-403141477,false,Add referrerpolicy to <form>,https://github.com/whatwg/html/issues/4320,2019-01-25T12:40:11Z,2022-10-30T02:00:29Z,annevk,addition/proposal|topic: forms,2
+403141477,false,Add referrerpolicy to <form>,https://github.com/whatwg/html/issues/4320,2019-01-25T12:40:11Z,2023-06-07T13:37:12Z,annevk,addition/proposal|topic: forms,2
 401934423,true,JSON modules,https://github.com/whatwg/html/issues/4315,2019-01-22T20:12:57Z,2020-03-21T03:51:28Z,MylesBorins,addition/proposal|topic: script,35
 401852094,true,Consider not setting browsing context name when noopener/noreferrer are used,https://github.com/whatwg/html/issues/4314,2019-01-22T16:39:24Z,2019-01-29T15:04:17Z,annevk,topic: navigation|security/privacy|topic: browsing context,0
 401771775,false,Provide a way to indicate the form data volatility,https://github.com/whatwg/html/issues/4313,2019-01-22T13:46:42Z,2019-01-22T22:23:47Z,Lcfvs,,0
