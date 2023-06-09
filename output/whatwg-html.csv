@@ -100,7 +100,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1652818143,false,"Consider CSP script-src none directive in the ""Enabled/disabled scripting"" definitions",https://github.com/whatwg/html/issues/9113,2023-04-03T21:46:19Z,2023-05-19T10:09:01Z,hackademix,addition/proposal|security/privacy|integration,1
 1652808622,false,Standardize rendering of PQ and HLG HDR image content,https://github.com/whatwg/html/issues/9112,2023-04-03T21:35:40Z,2023-05-18T18:48:43Z,ccameron-chromium,,0
 1651764018,false,Popover does not know what triggered it,https://github.com/whatwg/html/issues/9111,2023-04-03T10:11:47Z,2023-05-22T21:37:05Z,jpzwarte,addition/proposal|topic: popover,0
-1651686034,false,"Support `popovertarget` on custom elements with `role=""button""` ",https://github.com/whatwg/html/issues/9110,2023-04-03T09:26:25Z,2023-04-20T14:50:23Z,jpzwarte,addition/proposal|topic: custom elements|topic: popover,1
+1651686034,false,"Support `popovertarget` on custom elements with `role=""button""` ",https://github.com/whatwg/html/issues/9110,2023-04-03T09:26:25Z,2023-04-20T14:50:23Z,jpzwarte,addition/proposal|topic: custom elements|topic: popover,2
 1651613244,false,`popovertarget` and shadow DOM,https://github.com/whatwg/html/issues/9109,2023-04-03T08:43:23Z,2023-04-20T14:47:44Z,jpzwarte,addition/proposal|topic: shadow|topic: popover,0
 1650378616,false,Add BoundingClientRectObserver,https://github.com/whatwg/html/issues/9104,2023-04-01T09:09:22Z,2023-04-01T16:25:03Z,cubuspl42,,0
 1650150293,false,<textarea> should support the [pattern] attribute like the <input> element,https://github.com/whatwg/html/issues/9102,2023-03-31T23:02:41Z,2023-06-08T07:30:38Z,Gambloide,addition/proposal|needs implementer interest|topic: forms,3
@@ -500,7 +500,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1283190683,true,Should timers be ordered by scheduled time or by passed millis?,https://github.com/whatwg/html/issues/8034,2022-06-24T02:45:27Z,2022-06-26T11:26:06Z,Kaiido,interop|topic: timing,0
 1282742175,false,Blocking tab-under navigations?,https://github.com/whatwg/html/issues/8033,2022-06-23T17:43:53Z,2022-06-23T19:01:52Z,domenic,addition/proposal|topic: navigation,0
 1282588788,true,TABLE TD -> TD Looks Weird,https://github.com/whatwg/html/issues/8032,2022-06-23T15:28:04Z,2022-06-23T16:47:59Z,toptal126,,0
-1282345110,false,Improve support for refresh rate discovery and control,https://github.com/whatwg/html/issues/8031,2022-06-23T12:42:40Z,2023-03-27T14:04:24Z,juj,,0
+1282345110,false,Improve support for refresh rate discovery and control,https://github.com/whatwg/html/issues/8031,2022-06-23T12:42:40Z,2023-06-09T00:15:11Z,juj,,0
 1278018519,false,Normatively define the “elementtiming” content attribute,https://github.com/whatwg/html/issues/8024,2022-06-21T07:34:43Z,2022-06-28T18:55:14Z,sideshowbarker,,1
 1277218382,false,"""BeforeUnloadEvent"" user message presets",https://github.com/whatwg/html/issues/8023,2022-06-20T17:35:02Z,2022-06-21T23:12:34Z,delta-9,addition/proposal|needs implementer interest,0
 1275097690,true,Incorrect autocomplete token in example,https://github.com/whatwg/html/issues/8019,2022-06-17T14:26:31Z,2022-06-17T18:41:00Z,mtrootyy,,0
@@ -2520,7 +2520,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2023-05-08T15:57:07Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,22
 305369552,true,Proposal: Improve control over HTML/XML syntax parse errors,https://github.com/whatwg/html/issues/3569,2018-03-14T23:56:33Z,2022-04-18T15:28:51Z,dvdckl,addition/proposal|needs implementer interest|topic: parser,0
 305147441,true,"<form method> description only says ""HTTP method""",https://github.com/whatwg/html/issues/3568,2018-03-14T12:58:10Z,2018-04-20T07:53:27Z,annevk,good first issue,0
-305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2023-06-02T18:02:54Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,79
+305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2023-06-02T18:02:54Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,83
 305020324,true,Separate out document.open() method declaration definitions,https://github.com/whatwg/html/issues/3565,2018-03-14T04:36:27Z,2018-06-28T15:27:09Z,domenic,clarification|good first issue|topic: document.open(),0
 305019688,true,At least Blink does not support document.open()'s replace parameter,https://github.com/whatwg/html/issues/3564,2018-03-14T04:31:43Z,2018-08-23T18:40:33Z,domenic,topic: history|interop|topic: document.open(),0
 304874091,false,<template> element capability/semantics in SVG parsing context,https://github.com/whatwg/html/issues/3563,2018-03-13T17:59:50Z,2018-03-15T07:34:25Z,kevinpschaaf,addition/proposal|needs implementer interest|topic: parser,0
@@ -3877,7 +3877,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 144235836,true,"""get the current value of the event handler"" has backwards script-enabled check",https://github.com/whatwg/html/issues/957,2016-03-29T11:34:09Z,2016-04-29T20:33:12Z,Ms2ger,good first issue,0
 144208959,true,Should we preserve the playbackRate between play/pause from user interface?,https://github.com/whatwg/html/issues/956,2016-03-29T09:30:38Z,2016-04-05T09:57:19Z,alastor0325,topic: media,0
 144194271,true,Move https://images.whatwg.org/robots.jpeg into this repository,https://github.com/whatwg/html/issues/955,2016-03-29T08:34:17Z,2016-03-29T22:47:15Z,annevk,good first issue,0
-144165132,true,Event to indicate download started and/or finished,https://github.com/whatwg/html/issues/954,2016-03-29T06:01:14Z,2020-05-15T08:11:01Z,sicking,addition/proposal|needs implementer interest,7
+144165132,true,Event to indicate download started and/or finished,https://github.com/whatwg/html/issues/954,2016-03-29T06:01:14Z,2020-05-15T08:11:01Z,sicking,addition/proposal|needs implementer interest,8
 144079645,false,"HTML should require UAs to apply ""overflow-wrap"" to <textarea>",https://github.com/whatwg/html/issues/953,2016-03-28T20:49:52Z,2018-10-21T14:12:36Z,tabatkins,topic: rendering|topic: forms,0
 144078566,true,Should the spec require the page-specified onbeforeunload message not be used?,https://github.com/whatwg/html/issues/952,2016-03-28T20:44:45Z,2016-04-08T00:19:32Z,avidrissman,removal/deprecation,0
 143924946,true,Add domintro sections to workers,https://github.com/whatwg/html/issues/949,2016-03-28T08:17:54Z,2016-04-05T05:35:16Z,mchaov,clarification,0
