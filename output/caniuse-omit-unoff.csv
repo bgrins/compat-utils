@@ -162,6 +162,7 @@ css-text-box-trim,wd,CSS,No,Yes,No
 css-text-indent,cr,CSS,Partial,Yes,Partial
 css-text-justify,cr,CSS,Yes,No,No
 css-text-orientation,rec,CSS,Yes,Yes,Yes
+css-text-wrap-balance,wd,CSS,No,No,Yes
 css-textshadow,cr,CSS3,Yes,Yes,Yes
 css-touch-action,rec,CSS,Yes,No,Yes
 css-transitions,wd,CSS3,Yes,Yes,Yes
@@ -244,7 +245,7 @@ getrandomvalues,rec,"JS API,Security",Yes,Yes,Yes
 gyroscope,cr,JS API,No,No,Yes
 hardwareconcurrency,ls,JS API,Yes,Yes,Yes
 hashchange,ls,"HTML5,JS API",Yes,Yes,Yes
-heif,other,Other,No,No,No
+heif,other,Other,No,Yes,No
 hevc,other,Other,No,Yes,Partial
 hidden,ls,HTML5,Yes,Yes,Yes
 high-resolution-time,rec,JS API,Yes,Yes,Yes
@@ -285,7 +286,7 @@ intersectionobserver,wd,"DOM,JS API",Yes,Yes,Yes
 intl-pluralrules,other,"JS,JS",Yes,Yes,Yes
 intrinsic-width,wd,CSS3,Partial,Yes,Yes
 jpeg2000,other,Other,No,Yes,No
-jpegxl,other,Other,No,No,No
+jpegxl,other,Other,No,Yes,No
 jpegxr,other,Other,No,No,No
 js-regexp-lookbehind,other,JS,Yes,Yes,Yes
 json,other,JS,Yes,Yes,Yes
@@ -447,7 +448,7 @@ wasm,other,Other,Yes,Yes,Yes
 wav,other,Other,Yes,Yes,Yes
 wbr-element,ls,HTML5,Yes,Yes,Yes
 web-animation,wd,"DOM,JS API",Yes,Yes,Yes
-web-app-manifest,wd,"HTML5,Other",No,No,Yes
+web-app-manifest,wd,"HTML5,Other",No,Partial,Yes
 web-share,cr,JS API,No,Yes,Partial
 webauthn,rec,Security,Partial,Yes,Yes
 webcodecs,wd,JS API,No,Partial,Yes

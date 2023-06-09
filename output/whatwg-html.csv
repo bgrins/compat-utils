@@ -1,12 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1748867844,false,Timer initialization steps for repeating timers does not match UA behavior,https://github.com/whatwg/html/issues/9402,2023-06-09T00:42:31Z,2023-06-09T06:26:46Z,shaseley,compat|topic: event loop,2
 1745526561,false,"""Update the image data"" can dereference null ""pending request"" in multiple places",https://github.com/whatwg/html/issues/9398,2023-06-07T10:06:19Z,2023-06-07T10:45:07Z,awesomekling,topic: img,0
 1744994841,true,Is it expected that Document has [LegacyOverrideBuiltIns]?,https://github.com/whatwg/html/issues/9394,2023-06-07T04:11:51Z,2023-06-07T12:14:44Z,yuki3,,0
 1743957228,false,"issues with optionality of oldParent in HTML element removing steps, particularly with removal of optgroups",https://github.com/whatwg/html/issues/9390,2023-06-06T14:09:00Z,2023-06-06T14:09:00Z,dbaron,,0
-1742040804,false,anonymous fieldset content box should inherit scroll-start,https://github.com/whatwg/html/issues/9386,2023-06-05T15:35:38Z,2023-06-05T15:35:38Z,DavMila,,0
-1742022432,false,Constraint Validation IDL is reiterated multiple times,https://github.com/whatwg/html/issues/9385,2023-06-05T15:24:07Z,2023-06-05T18:44:07Z,clshortfuse,,0
+1742040804,false,anonymous fieldset content box should inherit scroll-start,https://github.com/whatwg/html/issues/9386,2023-06-05T15:35:38Z,2023-06-09T07:22:26Z,DavMila,topic: rendering|topic: forms,0
+1742022432,false,Constraint Validation IDL is reiterated multiple times,https://github.com/whatwg/html/issues/9385,2023-06-05T15:24:07Z,2023-06-09T07:20:27Z,clshortfuse,clarification|topic: forms,0
 1741686583,true,"Should ""show popover"" assert the element's popover invoker is null?",https://github.com/whatwg/html/issues/9383,2023-06-05T12:38:07Z,2023-06-07T20:19:28Z,mbrodesser-Igalia,clarification|topic: popover,0
 1740502906,false,"popover: expect a way to watch all ""`toggle`"" events even in shadow DOM on `window`",https://github.com/whatwg/html/issues/9381,2023-06-04T17:44:23Z,2023-06-05T04:56:13Z,gdh1995,addition/proposal|topic: popover,0
-1740428387,false,Add `class` & `for` aliases for `className` and `htmlFor`,https://github.com/whatwg/html/issues/9379,2023-06-04T15:17:46Z,2023-06-06T10:05:13Z,jakearchibald,addition/proposal|needs implementer interest,181
+1740428387,false,Add `class` & `for` aliases for `className` and `htmlFor`,https://github.com/whatwg/html/issues/9379,2023-06-04T15:17:46Z,2023-06-06T10:05:13Z,jakearchibald,addition/proposal|needs implementer interest,183
 1738596106,false,Should we deprecate `dialog.show()`?,https://github.com/whatwg/html/issues/9376,2023-06-02T18:02:06Z,2023-06-03T07:59:25Z,mfreed7,removal/deprecation|topic: dialog,8
 1738480470,false,Upcoming HTML standard issue triage meeting on 6/15/2023,https://github.com/whatwg/html/issues/9375,2023-06-02T16:22:45Z,2023-06-02T16:22:45Z,past,agenda+,0
 1736830044,false,Add light dismiss functionality to `<dialog>`,https://github.com/whatwg/html/issues/9373,2023-06-01T18:07:13Z,2023-06-05T16:14:05Z,mfreed7,addition/proposal|needs implementer interest|topic: dialog,10
@@ -500,7 +501,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1283190683,true,Should timers be ordered by scheduled time or by passed millis?,https://github.com/whatwg/html/issues/8034,2022-06-24T02:45:27Z,2022-06-26T11:26:06Z,Kaiido,interop|topic: timing,0
 1282742175,false,Blocking tab-under navigations?,https://github.com/whatwg/html/issues/8033,2022-06-23T17:43:53Z,2022-06-23T19:01:52Z,domenic,addition/proposal|topic: navigation,0
 1282588788,true,TABLE TD -> TD Looks Weird,https://github.com/whatwg/html/issues/8032,2022-06-23T15:28:04Z,2022-06-23T16:47:59Z,toptal126,,0
-1282345110,false,Improve support for refresh rate discovery and control,https://github.com/whatwg/html/issues/8031,2022-06-23T12:42:40Z,2023-06-09T00:15:11Z,juj,,0
+1282345110,false,Improve support for refresh rate discovery and control,https://github.com/whatwg/html/issues/8031,2022-06-23T12:42:40Z,2023-06-09T07:27:49Z,juj,,0
 1278018519,false,Normatively define the “elementtiming” content attribute,https://github.com/whatwg/html/issues/8024,2022-06-21T07:34:43Z,2022-06-28T18:55:14Z,sideshowbarker,,1
 1277218382,false,"""BeforeUnloadEvent"" user message presets",https://github.com/whatwg/html/issues/8023,2022-06-20T17:35:02Z,2022-06-21T23:12:34Z,delta-9,addition/proposal|needs implementer interest,0
 1275097690,true,Incorrect autocomplete token in example,https://github.com/whatwg/html/issues/8019,2022-06-17T14:26:31Z,2022-06-17T18:41:00Z,mtrootyy,,0
@@ -2419,7 +2420,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 330559030,false,"Should ""familiar with"" use same origin or same origin-domain?",https://github.com/whatwg/html/issues/3747,2018-06-08T08:04:33Z,2019-12-06T08:47:23Z,annevk,topic: navigation|security/privacy|needs tests|interop|topic: browsing context,0
 330340664,false,"Confusing ""async"" completion of script fetching",https://github.com/whatwg/html/issues/3746,2018-06-07T16:08:58Z,2023-04-05T14:42:27Z,domenic,topic: script,0
 329959670,true,Add `one-time-code` autocomplete field,https://github.com/whatwg/html/issues/3745,2018-06-06T17:19:22Z,2019-04-30T12:14:54Z,hober,addition/proposal|topic: forms,16
-329939206,false,import() should use referring script's base URL as the referrer,https://github.com/whatwg/html/issues/3744,2018-06-06T16:17:56Z,2020-05-14T22:32:43Z,domenic,normative change|topic: script,1
+329939206,false,import() should use referring script's base URL as the referrer,https://github.com/whatwg/html/issues/3744,2018-06-06T16:17:56Z,2023-06-09T12:05:19Z,domenic,normative change|topic: script,1
 329842132,true,Investigate if we can avoid depending on document's origin concept,https://github.com/whatwg/html/issues/3743,2018-06-06T12:16:22Z,2018-06-07T07:13:52Z,annevk,clarification,0
 329645814,true,Restricting cross-origin WindowProxy access (Cross-Origin-Opener-Policy),https://github.com/whatwg/html/issues/3740,2018-06-05T22:20:59Z,2020-12-19T15:17:42Z,rniwa,addition/proposal|security/privacy|topic: browsing context|impacts documentation|topic: cross-origin-opener-policy,8
 329616239,true,Add the ability to query if a user gesture is active,https://github.com/whatwg/html/issues/3739,2018-06-05T20:39:34Z,2018-06-27T21:10:43Z,dtapuska,,0
