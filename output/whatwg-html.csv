@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1748867844,false,Timer initialization steps for repeating timers does not match UA behavior,https://github.com/whatwg/html/issues/9402,2023-06-09T00:42:31Z,2023-06-09T06:26:46Z,shaseley,compat|topic: event loop,2
-1745526561,false,"""Update the image data"" can dereference null ""pending request"" in multiple places",https://github.com/whatwg/html/issues/9398,2023-06-07T10:06:19Z,2023-06-07T10:45:07Z,awesomekling,topic: img,0
+1745526561,true,"""Update the image data"" can dereference null ""pending request"" in multiple places",https://github.com/whatwg/html/issues/9398,2023-06-07T10:06:19Z,2023-06-09T12:15:43Z,awesomekling,topic: img,0
 1744994841,true,Is it expected that Document has [LegacyOverrideBuiltIns]?,https://github.com/whatwg/html/issues/9394,2023-06-07T04:11:51Z,2023-06-07T12:14:44Z,yuki3,,0
 1743957228,false,"issues with optionality of oldParent in HTML element removing steps, particularly with removal of optgroups",https://github.com/whatwg/html/issues/9390,2023-06-06T14:09:00Z,2023-06-06T14:09:00Z,dbaron,,0
 1742040804,false,anonymous fieldset content box should inherit scroll-start,https://github.com/whatwg/html/issues/9386,2023-06-05T15:35:38Z,2023-06-09T07:22:26Z,DavMila,topic: rendering|topic: forms,0
@@ -101,7 +101,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1652818143,false,"Consider CSP script-src none directive in the ""Enabled/disabled scripting"" definitions",https://github.com/whatwg/html/issues/9113,2023-04-03T21:46:19Z,2023-05-19T10:09:01Z,hackademix,addition/proposal|security/privacy|integration,1
 1652808622,false,Standardize rendering of PQ and HLG HDR image content,https://github.com/whatwg/html/issues/9112,2023-04-03T21:35:40Z,2023-05-18T18:48:43Z,ccameron-chromium,,0
 1651764018,false,Popover does not know what triggered it,https://github.com/whatwg/html/issues/9111,2023-04-03T10:11:47Z,2023-05-22T21:37:05Z,jpzwarte,addition/proposal|topic: popover,0
-1651686034,false,"Support `popovertarget` on custom elements with `role=""button""` ",https://github.com/whatwg/html/issues/9110,2023-04-03T09:26:25Z,2023-04-20T14:50:23Z,jpzwarte,addition/proposal|topic: custom elements|topic: popover,2
+1651686034,false,"Support `popovertarget` on custom elements with `role=""button""` ",https://github.com/whatwg/html/issues/9110,2023-04-03T09:26:25Z,2023-06-09T20:35:46Z,jpzwarte,addition/proposal|topic: custom elements|topic: popover,2
 1651613244,false,`popovertarget` and shadow DOM,https://github.com/whatwg/html/issues/9109,2023-04-03T08:43:23Z,2023-04-20T14:47:44Z,jpzwarte,addition/proposal|topic: shadow|topic: popover,0
 1650378616,false,Add BoundingClientRectObserver,https://github.com/whatwg/html/issues/9104,2023-04-01T09:09:22Z,2023-04-01T16:25:03Z,cubuspl42,,0
 1650150293,false,<textarea> should support the [pattern] attribute like the <input> element,https://github.com/whatwg/html/issues/9102,2023-03-31T23:02:41Z,2023-06-08T07:30:38Z,Gambloide,addition/proposal|needs implementer interest|topic: forms,3
@@ -918,7 +918,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 947056780,true,"HTML  syntax not correct ",https://github.com/whatwg/html/issues/6875,2021-07-18T15:14:36Z,2021-07-18T16:16:52Z,harshit-dugar,spam,0
 946697785,true,"Missing parameter in the steps of ""7.10.5.8 [[Set]] ( P, V, Receiver )"" ",https://github.com/whatwg/html/issues/6873,2021-07-17T03:27:53Z,2021-07-23T10:30:54Z,yvt,good first issue,0
 946636592,false,setCustomValidity() seems pointless on <fieldset>,https://github.com/whatwg/html/issues/6870,2021-07-16T22:42:56Z,2021-09-03T00:13:03Z,domenic,addition/proposal|needs implementer interest|topic: forms,3
-946624070,false,Add required-attribute support for fieldsets,https://github.com/whatwg/html/issues/6868,2021-07-16T22:08:49Z,2023-02-13T13:51:43Z,fstrr,addition/proposal|topic: forms,1
+946624070,false,Add required-attribute support for fieldsets,https://github.com/whatwg/html/issues/6868,2021-07-16T22:08:49Z,2023-02-13T13:51:43Z,fstrr,addition/proposal|topic: forms,2
 946138075,true,How does authors specify CSS module scripts on script element?,https://github.com/whatwg/html/issues/6864,2021-07-16T10:03:55Z,2021-07-16T15:12:20Z,mtrootyy,,0
 945561794,true,Proposal: stop triggering navigations to about:blank on iframe insertion,https://github.com/whatwg/html/issues/6863,2021-07-15T16:28:37Z,2021-08-10T17:20:50Z,rakina,,2
 944085079,false,specifying BFCache interactions with window.open and browsing context groups,https://github.com/whatwg/html/issues/6858,2021-07-14T06:19:10Z,2022-04-19T21:25:19Z,fergald,topic: navigation|topic: history,0
@@ -2420,7 +2420,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 330559030,false,"Should ""familiar with"" use same origin or same origin-domain?",https://github.com/whatwg/html/issues/3747,2018-06-08T08:04:33Z,2019-12-06T08:47:23Z,annevk,topic: navigation|security/privacy|needs tests|interop|topic: browsing context,0
 330340664,false,"Confusing ""async"" completion of script fetching",https://github.com/whatwg/html/issues/3746,2018-06-07T16:08:58Z,2023-04-05T14:42:27Z,domenic,topic: script,0
 329959670,true,Add `one-time-code` autocomplete field,https://github.com/whatwg/html/issues/3745,2018-06-06T17:19:22Z,2019-04-30T12:14:54Z,hober,addition/proposal|topic: forms,16
-329939206,false,import() should use referring script's base URL as the referrer,https://github.com/whatwg/html/issues/3744,2018-06-06T16:17:56Z,2023-06-09T12:05:19Z,domenic,normative change|topic: script,1
+329939206,false,import() should use referring script's base URL as the referrer,https://github.com/whatwg/html/issues/3744,2018-06-06T16:17:56Z,2023-06-09T14:15:15Z,domenic,normative change|topic: script,1
 329842132,true,Investigate if we can avoid depending on document's origin concept,https://github.com/whatwg/html/issues/3743,2018-06-06T12:16:22Z,2018-06-07T07:13:52Z,annevk,clarification,0
 329645814,true,Restricting cross-origin WindowProxy access (Cross-Origin-Opener-Policy),https://github.com/whatwg/html/issues/3740,2018-06-05T22:20:59Z,2020-12-19T15:17:42Z,rniwa,addition/proposal|security/privacy|topic: browsing context|impacts documentation|topic: cross-origin-opener-policy,8
 329616239,true,Add the ability to query if a user gesture is active,https://github.com/whatwg/html/issues/3739,2018-06-05T20:39:34Z,2018-06-27T21:10:43Z,dtapuska,,0

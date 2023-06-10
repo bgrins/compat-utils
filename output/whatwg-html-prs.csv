@@ -1,23 +1,25 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1750102943,false,Require support for AsyncContext,https://github.com/whatwg/html/pull/9408,2023-06-09T15:28:34Z,2023-06-09T15:29:56Z,Ms2ger,,0
+1749982433,false,Propagate fetch referrer in dynamic imports,https://github.com/whatwg/html/pull/9407,2023-06-09T14:14:59Z,2023-06-09T14:58:44Z,nicolo-ribaudo,,0
 1745979749,false,Add name attribute for grouping details elements into an exclusive accordion,https://github.com/whatwg/html/pull/9400,2023-06-07T13:59:20Z,2023-06-08T19:57:14Z,dbaron,,0
-1745722348,false,Null checks for img pending request,https://github.com/whatwg/html/pull/9399,2023-06-07T11:52:31Z,2023-06-08T13:08:06Z,zcorpan,,0
+1745722348,true,Null checks for img pending request,https://github.com/whatwg/html/pull/9399,2023-06-07T11:52:31Z,2023-06-09T12:15:43Z,zcorpan,,0
 1745244513,true,"Add asserting element's popover invoker is null in the ""show popover"" algorithm",https://github.com/whatwg/html/pull/9397,2023-06-07T07:27:12Z,2023-06-07T20:19:27Z,mbrodesser-Igalia,topic: popover,0
 1745032688,true,"Guard ""close a top-level traversable""",https://github.com/whatwg/html/pull/9396,2023-06-07T04:55:44Z,2023-06-09T05:32:47Z,domenic,topic: browsing context,0
 1745024754,true,Define :modal pseudo-class and start using it,https://github.com/whatwg/html/pull/9395,2023-06-07T04:46:13Z,2023-06-09T11:20:48Z,nt1m,topic: dialog|topic: selectors,0
 1744750273,false,Make togglePopover return a boolean,https://github.com/whatwg/html/pull/9393,2023-06-06T23:08:50Z,2023-06-08T06:24:34Z,josepharhar,topic: popover,0
 1744629222,true,Fix modal check in dialog closing algorithm,https://github.com/whatwg/html/pull/9391,2023-06-06T21:19:10Z,2023-06-07T10:19:12Z,josepharhar,topic: dialog,0
-1743956398,false,chore: add semicolon to textarea autocomplete attribute,https://github.com/whatwg/html/pull/9389,2023-06-06T14:08:35Z,2023-06-08T10:23:48Z,kaf-lamed-beyt,editorial,0
+1743956398,false,chore: add semicolon to textarea autocomplete attribute,https://github.com/whatwg/html/pull/9389,2023-06-06T14:08:35Z,2023-06-09T19:55:22Z,kaf-lamed-beyt,editorial,0
 1742856727,true,[editorial] Fix typo & quoting inconsistency in popover example,https://github.com/whatwg/html/pull/9388,2023-06-06T00:25:06Z,2023-06-06T05:08:59Z,nt1m,editorial|topic: popover,0
 1742660557,false,Fix ::backdrop user-agent rule for popovers,https://github.com/whatwg/html/pull/9387,2023-06-05T21:37:33Z,2023-06-08T02:45:54Z,josepharhar,topic: popover,0
 1737326853,true,Change table's height attribute to allow zero-like values,https://github.com/whatwg/html/pull/9374,2023-06-02T01:38:18Z,2023-06-03T02:56:29Z,sivakusayan,topic: rendering|topic: table,0
 1736485521,true,Disallow interactive content in <summary>.,https://github.com/whatwg/html/pull/9372,2023-06-01T14:45:34Z,2023-06-05T14:31:21Z,dbaron,do not merge yet|document conformance,2
 1735662308,true,Add empty string special case for pushState/replaceState,https://github.com/whatwg/html/pull/9370,2023-06-01T07:26:49Z,2023-06-02T03:06:20Z,domenic,topic: history|interop,0
 1735288504,true,Tighten auto popover list definition,https://github.com/whatwg/html/pull/9369,2023-06-01T01:45:56Z,2023-06-06T19:53:27Z,josepharhar,topic: popover,0
-1732189866,false,Use the fetched unsafe response for network status and response bodies,https://github.com/whatwg/html/pull/9362,2023-05-30T12:47:15Z,2023-05-30T13:59:15Z,trflynn89,,0
+1732189866,false,Use the fetched unsafe response for network status and response bodies,https://github.com/whatwg/html/pull/9362,2023-05-30T12:47:15Z,2023-06-09T14:24:49Z,trflynn89,,0
 1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-06-01T08:14:01Z,rubberyuzu,,0
 1729857566,true,Add files via upload,https://github.com/whatwg/html/pull/9353,2023-05-29T01:56:27Z,2023-05-29T04:36:27Z,jakex666x,spam,0
 1728531782,true,Check dialog is modal flag instead of open attribute in 'check popover validity' algorithm,https://github.com/whatwg/html/pull/9344,2023-05-27T08:09:19Z,2023-06-06T05:15:40Z,nt1m,normative change|topic: popover,0
-1727729022,false,Re-add <source media> for media elements,https://github.com/whatwg/html/pull/9341,2023-05-26T14:21:19Z,2023-05-31T18:45:46Z,zcorpan,,1
+1727729022,false,Re-add <source media> for media elements,https://github.com/whatwg/html/pull/9341,2023-05-26T14:21:19Z,2023-06-09T14:42:24Z,zcorpan,,1
 1727043109,true,Build nrr document,https://github.com/whatwg/html/pull/9336,2023-05-26T07:16:43Z,2023-05-30T06:27:22Z,rubberyuzu,,0
 1726031741,true,"Fix typo ""traversible""",https://github.com/whatwg/html/pull/9333,2023-05-25T15:20:13Z,2023-05-25T16:06:03Z,schwering,,0
 1724043101,true,rahul5403/converted UTF-8,https://github.com/whatwg/html/pull/9331,2023-05-24T13:45:41Z,2023-05-26T09:30:41Z,rahul5403,spam,0
@@ -734,7 +736,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 915237087,true,Meta: mark up definitions inside IDL fragments,https://github.com/whatwg/html/pull/6751,2021-06-08T16:33:07Z,2021-06-09T09:06:39Z,dontcallmedom,,0
 915185248,true,Align element definitions with markup conventions,https://github.com/whatwg/html/pull/6750,2021-06-08T15:37:41Z,2021-06-08T16:04:17Z,dontcallmedom,spec tooling,0
 914830027,true,Remove <head> requirement for <meta name=referrer>,https://github.com/whatwg/html/pull/6748,2021-06-08T11:02:48Z,2021-06-08T16:31:33Z,dergoegge,normative change|impacts documentation,0
-914382450,true,Meta: link to new Chat page,https://github.com/whatwg/html/pull/6747,2021-06-08T05:41:42Z,2022-06-30T05:29:02Z,annevk,,2
+914382450,true,Meta: link to new Chat page,https://github.com/whatwg/html/pull/6747,2021-06-08T05:41:42Z,2023-06-09T21:04:19Z,annevk,,2
 913826588,true,Make text/plugin/media/ua-inline no-quirks documents,https://github.com/whatwg/html/pull/6745,2021-06-07T18:21:22Z,2021-06-24T16:10:37Z,mfreed7,normative change,0
 913809053,true,"Fix wrong variable name in ""queue a microtask""",https://github.com/whatwg/html/pull/6744,2021-06-07T18:00:13Z,2021-06-17T09:11:43Z,domenic,topic: event loop,0
 913799909,true,Add a global event handler for beforeinput,https://github.com/whatwg/html/pull/6743,2021-06-07T17:47:36Z,2022-06-07T23:44:35Z,mfreed7,topic: events|impacts documentation,0
