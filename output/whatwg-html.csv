@@ -1,4 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1752408827,false,https://html.spec.whatwg.org/#hide-popover-algorithm's invocation of https://html.spec.whatwg.org/#hide-all-popovers-until loops infinitely for certain nested popovers,https://github.com/whatwg/html/issues/9415,2023-06-12T10:19:05Z,2023-06-12T10:19:29Z,mbrodesser-Igalia,topic: popover,0
+1752342253,false,"Popover: consider renaming ""auto popover list"" to ""auto showing popover list"" ",https://github.com/whatwg/html/issues/9413,2023-06-12T09:44:30Z,2023-06-12T09:44:30Z,mbrodesser-Igalia,topic: popover,0
+1752223030,false,https://html.spec.whatwg.org/#hide-popover-algorithm lacks initial value for `nestedHide` variable,https://github.com/whatwg/html/issues/9412,2023-06-12T08:37:30Z,2023-06-12T08:38:56Z,mbrodesser-Igalia,topic: popover,0
 1748867844,false,Timer initialization steps for repeating timers does not match UA behavior,https://github.com/whatwg/html/issues/9402,2023-06-09T00:42:31Z,2023-06-09T06:26:46Z,shaseley,compat|topic: event loop,2
 1745526561,true,"""Update the image data"" can dereference null ""pending request"" in multiple places",https://github.com/whatwg/html/issues/9398,2023-06-07T10:06:19Z,2023-06-09T12:15:43Z,awesomekling,topic: img,0
 1744994841,true,Is it expected that Document has [LegacyOverrideBuiltIns]?,https://github.com/whatwg/html/issues/9394,2023-06-07T04:11:51Z,2023-06-07T12:14:44Z,yuki3,,0
@@ -7,7 +10,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1742022432,false,Constraint Validation IDL is reiterated multiple times,https://github.com/whatwg/html/issues/9385,2023-06-05T15:24:07Z,2023-06-09T07:20:27Z,clshortfuse,clarification|topic: forms,0
 1741686583,true,"Should ""show popover"" assert the element's popover invoker is null?",https://github.com/whatwg/html/issues/9383,2023-06-05T12:38:07Z,2023-06-07T20:19:28Z,mbrodesser-Igalia,clarification|topic: popover,0
 1740502906,false,"popover: expect a way to watch all ""`toggle`"" events even in shadow DOM on `window`",https://github.com/whatwg/html/issues/9381,2023-06-04T17:44:23Z,2023-06-05T04:56:13Z,gdh1995,addition/proposal|topic: popover,0
-1740428387,false,Add `class` & `for` aliases for `className` and `htmlFor`,https://github.com/whatwg/html/issues/9379,2023-06-04T15:17:46Z,2023-06-06T10:05:13Z,jakearchibald,addition/proposal|needs implementer interest,184
+1740428387,false,Add `class` & `for` aliases for `className` and `htmlFor`,https://github.com/whatwg/html/issues/9379,2023-06-04T15:17:46Z,2023-06-06T10:05:13Z,jakearchibald,addition/proposal|needs implementer interest,186
 1738596106,false,Should we deprecate `dialog.show()`?,https://github.com/whatwg/html/issues/9376,2023-06-02T18:02:06Z,2023-06-03T07:59:25Z,mfreed7,removal/deprecation|topic: dialog,9
 1738480470,false,Upcoming HTML standard issue triage meeting on 6/15/2023,https://github.com/whatwg/html/issues/9375,2023-06-02T16:22:45Z,2023-06-02T16:22:45Z,past,agenda+,0
 1736830044,false,Add light dismiss functionality to `<dialog>`,https://github.com/whatwg/html/issues/9373,2023-06-01T18:07:13Z,2023-06-05T16:14:05Z,mfreed7,addition/proposal|needs implementer interest|topic: dialog,10
@@ -20,7 +23,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1731281629,false,Deprecate `<select multiple>`,https://github.com/whatwg/html/issues/9357,2023-05-29T22:14:30Z,2023-05-30T10:43:21Z,SoniEx2,topic: forms,0
 1730765075,false,"Fetches for element resources should use the response's ""unsafe response"" for network status and response bodies",https://github.com/whatwg/html/issues/9355,2023-05-29T13:28:40Z,2023-05-30T12:48:19Z,trflynn89,security/privacy|topic: fetch,0
 1729858588,true,Is there any proposal to optimize the user experience issue where it's difficult to select a specific word within the text of a hyperlink?,https://github.com/whatwg/html/issues/9354,2023-05-29T01:57:14Z,2023-05-29T09:21:27Z,lovetingyuan,,0
-1728676092,false,""" autocomplete cols;"" missing a semicolon",https://github.com/whatwg/html/issues/9347,2023-05-27T11:58:27Z,2023-06-06T14:18:08Z,Potherca,clarification|good first issue,0
+1728676092,true,""" autocomplete cols;"" missing a semicolon",https://github.com/whatwg/html/issues/9347,2023-05-27T11:58:27Z,2023-06-12T09:27:43Z,Potherca,clarification|good first issue,0
 1728670275,false,<img>.complete should take <source> elements into account,https://github.com/whatwg/html/issues/9346,2023-05-27T11:43:15Z,2023-05-30T11:35:53Z,johannesodland,topic: img,0
 1728512290,true,"pushState/replaceState have special handling for the empty string, which is not in the spec",https://github.com/whatwg/html/issues/9343,2023-05-27T07:17:59Z,2023-06-02T03:06:20Z,domenic,topic: history|interop,0
 1727904410,true,Using <h4> in a <figure> to record title content within XHTML,https://github.com/whatwg/html/issues/9342,2023-05-26T16:18:41Z,2023-05-27T01:54:43Z,KD-3240,,0
@@ -218,7 +221,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1558881148,true,Upcoming HTML standard issue triage meeting on 2/9/2023,https://github.com/whatwg/html/issues/8786,2023-01-26T22:33:48Z,2023-02-09T17:49:43Z,past,agenda+,0
 1558865836,true,"An un-activated Image Button submitter should add `(0, 0)` entries to the form data set",https://github.com/whatwg/html/issues/8785,2023-01-26T22:18:29Z,2023-01-28T15:38:26Z,jenseng,,0
 1558491226,false,Expose an API to get the top layer element,https://github.com/whatwg/html/issues/8783,2023-01-26T17:16:05Z,2023-01-26T17:17:03Z,straker,,2
-1558379555,false,Detect UA transitions on same-document navigations,https://github.com/whatwg/html/issues/8782,2023-01-26T16:01:43Z,2023-05-04T16:55:04Z,jakearchibald,,0
+1558379555,false,Detect UA transitions on same-document navigations,https://github.com/whatwg/html/issues/8782,2023-01-26T16:01:43Z,2023-06-12T11:29:44Z,jakearchibald,,0
 1557491233,false,"Img ""sizes"": is fallback value optional (per MDN) or required (per current spec)?",https://github.com/whatwg/html/issues/8778,2023-01-26T01:15:47Z,2023-01-26T01:15:47Z,tmb-github,,0
 1557373653,true,The `commit` method on various canvas contexts does not exist,https://github.com/whatwg/html/issues/8777,2023-01-25T22:48:52Z,2023-01-25T23:28:49Z,greggman,,0
 1557070169,false,<meta> http-equiv vs name: which one wins?,https://github.com/whatwg/html/issues/8776,2023-01-25T18:04:27Z,2023-01-26T09:45:04Z,annevk,clarification,0
