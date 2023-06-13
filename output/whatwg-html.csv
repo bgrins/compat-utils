@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1752408827,false,https://html.spec.whatwg.org/#hide-popover-algorithm's invocation of https://html.spec.whatwg.org/#hide-all-popovers-until loops infinitely for certain nested popovers,https://github.com/whatwg/html/issues/9415,2023-06-12T10:19:05Z,2023-06-12T10:19:29Z,mbrodesser-Igalia,topic: popover,0
-1752342253,false,"Popover: consider renaming ""auto popover list"" to ""auto showing popover list"" ",https://github.com/whatwg/html/issues/9413,2023-06-12T09:44:30Z,2023-06-12T09:44:30Z,mbrodesser-Igalia,topic: popover,0
+1752342253,false,"Popover: consider renaming ""auto popover list"" to ""auto showing popover list"" ",https://github.com/whatwg/html/issues/9413,2023-06-12T09:44:30Z,2023-06-12T14:25:30Z,mbrodesser-Igalia,clarification|topic: popover,1
 1752223030,false,https://html.spec.whatwg.org/#hide-popover-algorithm lacks initial value for `nestedHide` variable,https://github.com/whatwg/html/issues/9412,2023-06-12T08:37:30Z,2023-06-12T08:38:56Z,mbrodesser-Igalia,topic: popover,0
 1748867844,false,Timer initialization steps for repeating timers does not match UA behavior,https://github.com/whatwg/html/issues/9402,2023-06-09T00:42:31Z,2023-06-09T06:26:46Z,shaseley,compat|topic: event loop,2
 1745526561,true,"""Update the image data"" can dereference null ""pending request"" in multiple places",https://github.com/whatwg/html/issues/9398,2023-06-07T10:06:19Z,2023-06-09T12:15:43Z,awesomekling,topic: img,0
@@ -107,7 +107,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1651686034,false,"Support `popovertarget` on custom elements with `role=""button""` ",https://github.com/whatwg/html/issues/9110,2023-04-03T09:26:25Z,2023-06-10T12:02:51Z,jpzwarte,addition/proposal|topic: custom elements|topic: popover,2
 1651613244,false,`popovertarget` and shadow DOM,https://github.com/whatwg/html/issues/9109,2023-04-03T08:43:23Z,2023-04-20T14:47:44Z,jpzwarte,addition/proposal|topic: shadow|topic: popover,0
 1650378616,false,Add BoundingClientRectObserver,https://github.com/whatwg/html/issues/9104,2023-04-01T09:09:22Z,2023-04-01T16:25:03Z,cubuspl42,,0
-1650150293,false,<textarea> should support the [pattern] attribute like the <input> element,https://github.com/whatwg/html/issues/9102,2023-03-31T23:02:41Z,2023-06-08T07:30:38Z,Gambloide,addition/proposal|needs implementer interest|topic: forms,3
+1650150293,false,<textarea> should support the [pattern] attribute like the <input> element,https://github.com/whatwg/html/issues/9102,2023-03-31T23:02:41Z,2023-06-12T21:33:54Z,Gambloide,addition/proposal|needs implementer interest|topic: forms,3
 1648832613,true,PDF version does not link to web version,https://github.com/whatwg/html/issues/9097,2023-03-31T07:32:24Z,2023-04-03T07:25:38Z,nicolesharp100,spec tooling,0
 1648366000,false,"typo ""The autofill field listed above indicate that t...""",https://github.com/whatwg/html/issues/9094,2023-03-30T21:43:18Z,2023-03-30T21:43:18Z,timelsass,,0
 1646524684,false,Early termination of navigation loading spinner on cross-document navigation,https://github.com/whatwg/html/issues/9090,2023-03-29T21:01:44Z,2023-05-11T00:25:52Z,tbondwilkinson,addition/proposal|topic: navigation,0
@@ -278,7 +278,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1491385859,false,Define :picture-in-picture,https://github.com/whatwg/html/issues/8611,2022-12-12T09:17:23Z,2022-12-18T05:01:43Z,annevk,topic: media|topic: selectors,0
 1491357323,true,Details and summary styles don't match implementations.,https://github.com/whatwg/html/issues/8610,2022-12-12T09:03:17Z,2023-01-27T03:03:11Z,emilio,topic: rendering,0
 1490865121,true,Add a means to consume user activation through automated testing,https://github.com/whatwg/html/issues/8608,2022-12-12T03:43:33Z,2023-03-07T21:10:41Z,marcoscaceres,,0
-1486401098,false,autocomplete attribute for tel-country-code not working well for <select> elements,https://github.com/whatwg/html/issues/8597,2022-12-09T09:22:56Z,2022-12-24T11:08:58Z,battre,,1
+1486401098,false,autocomplete attribute for tel-country-code not working well for <select> elements,https://github.com/whatwg/html/issues/8597,2022-12-09T09:22:56Z,2022-12-24T11:08:58Z,battre,,2
 1486054119,false,`registerProtocolHandler` support triggering events in service worker instead of navigating to page,https://github.com/whatwg/html/issues/8596,2022-12-09T05:38:29Z,2023-03-17T03:24:16Z,hanguokai,,0
 1485008124,true,customElements.whenDefined() is never fulfilled in case of a invalid name is sent as a param.,https://github.com/whatwg/html/issues/8594,2022-12-08T16:41:49Z,2022-12-08T23:41:25Z,raphaelpor,,0
 1483006722,false,"Feature request: Find out when a painted ""frame"" is presented to the screen",https://github.com/whatwg/html/issues/8592,2022-12-07T22:37:40Z,2022-12-08T14:19:09Z,kdashg,,0
@@ -706,7 +706,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1103475849,false,Clarify how canvas fallback content relates to the accessibility tree,https://github.com/whatwg/html/issues/7490,2022-01-14T11:05:24Z,2022-02-16T10:08:34Z,brennanyoung,topic: canvas|accessibility|a11y-tracker,0
 1102610281,true,Upcoming HTML standard issue triage meeting on 2/3/2022,https://github.com/whatwg/html/issues/7488,2022-01-14T00:00:01Z,2022-02-03T23:55:19Z,past,agenda+,0
 1099808638,true,Fieldset and legend grouping related text elements.,https://github.com/whatwg/html/issues/7486,2022-01-12T02:32:50Z,2022-01-13T00:43:20Z,LaurenceRLewis,document conformance,0
-1099540188,false,Modernized version of window.open() API,https://github.com/whatwg/html/issues/7485,2022-01-11T19:27:17Z,2023-04-27T08:07:09Z,domenic,addition/proposal|needs implementer interest,6
+1099540188,false,Modernized version of window.open() API,https://github.com/whatwg/html/issues/7485,2022-01-11T19:27:17Z,2023-06-12T18:14:17Z,domenic,addition/proposal|needs implementer interest,6
 1099015226,false,Clarification of feed autodiscovery in the presence of a application/atom+xml;type=entry parameter,https://github.com/whatwg/html/issues/7483,2022-01-11T11:09:38Z,2022-01-12T12:20:14Z,sewe,clarification|topic: link,0
 1096925300,false,"Hyperlink Auditing (<a ping>) Fetch keepalive flag ",https://github.com/whatwg/html/issues/7478,2022-01-08T13:17:09Z,2022-01-12T12:56:08Z,fowl2,topic: fetch|topic: hyperlink|integration,0
 1096902821,true,Hyperlink Auditing (<a ping>) doesn't specify Content-Type to use for pings,https://github.com/whatwg/html/issues/7477,2022-01-08T11:19:37Z,2022-02-17T17:30:42Z,fowl2,,0
@@ -1131,7 +1131,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 804798139,true,Auto-open details when seeking content within it,https://github.com/whatwg/html/issues/6370,2021-02-09T18:21:20Z,2021-02-10T06:27:04Z,fantasai,,3
 804761074,false,Surprising secure context inheritance behavior for opened windows,https://github.com/whatwg/html/issues/6369,2021-02-09T17:33:45Z,2021-04-19T15:28:38Z,letitz,,0
 802699195,false,"Allowing top-level communication for cross-origin isolated documents ",https://github.com/whatwg/html/issues/6364,2021-02-06T13:07:49Z,2023-03-29T17:59:14Z,arturjanc,topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,0
-802248120,false,HTML Video Element: Proposal For Reintroduction of Media in Source Elements,https://github.com/whatwg/html/issues/6363,2021-02-05T15:18:23Z,2023-05-30T22:30:41Z,scottjehl,addition/proposal|topic: media,26
+802248120,true,HTML Video Element: Proposal For Reintroduction of Media in Source Elements,https://github.com/whatwg/html/issues/6363,2021-02-05T15:18:23Z,2023-06-12T12:20:28Z,scottjehl,addition/proposal|topic: media,26
 801055941,false,Interoperable <video> underflow,https://github.com/whatwg/html/issues/6359,2021-02-04T08:35:02Z,2021-04-09T23:12:54Z,chcunningham,topic: media,3
 799368677,false,What kind of new 'session' is created on manual navigation?,https://github.com/whatwg/html/issues/6356,2021-02-02T15:11:09Z,2022-02-17T11:59:21Z,jakearchibald,topic: navigation|topic: history|interop,1
 799189344,false,Fetch's request's credentials mode not set correctly,https://github.com/whatwg/html/issues/6354,2021-02-02T11:20:39Z,2021-02-23T05:14:37Z,annevk,topic: fetch|integration,0
@@ -3248,7 +3248,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 200170460,true,Integrate SharedArrayBuffers,https://github.com/whatwg/html/issues/2260,2017-01-11T18:25:12Z,2017-04-28T07:38:32Z,domenic,addition/proposal|topic: serialize and transfer,0
 200152591,false,Add sandbox attribute for allow-pointer-capture,https://github.com/whatwg/html/issues/2259,2017-01-11T17:12:08Z,2018-01-23T16:23:07Z,RByers,integration,0
 199972215,false,Should preventDefault() on events affect to the behavior of UA provided interactive elements like the default UI of <audio> and <video>,https://github.com/whatwg/html/issues/2258,2017-01-11T00:29:04Z,2018-07-21T03:52:21Z,smaug----,topic: events,0
-199814411,false,Standardize <template> variables and event handlers,https://github.com/whatwg/html/issues/2254,2017-01-10T12:57:10Z,2023-03-13T09:53:37Z,Mevrael,addition/proposal|needs implementer interest|topic: events,40
+199814411,false,Standardize <template> variables and event handlers,https://github.com/whatwg/html/issues/2254,2017-01-10T12:57:10Z,2023-03-13T09:53:37Z,Mevrael,addition/proposal|needs implementer interest|topic: events,41
 199778666,false,Consider restricting form submissions containing unclosed `<textarea>` or `<select>` elements.,https://github.com/whatwg/html/issues/2253,2017-01-10T10:03:27Z,2017-07-31T00:07:11Z,mikewest,normative change|security/privacy|topic: forms,0
 199771356,true,Consider restricting form submissions containing `<plaintext>`.,https://github.com/whatwg/html/issues/2252,2017-01-10T09:29:49Z,2017-01-12T00:18:37Z,mikewest,normative change|security/privacy|topic: forms,2
 199619250,true,Make underscore-prefixed attributes formally valid (works AS IS in all existing browsers),https://github.com/whatwg/html/issues/2250,2017-01-09T17:58:59Z,2017-01-19T11:57:08Z,Marat-Tanalin,addition/proposal|document conformance,8
