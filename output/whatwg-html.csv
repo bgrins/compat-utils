@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1752408827,false,https://html.spec.whatwg.org/#hide-popover-algorithm's invocation of https://html.spec.whatwg.org/#hide-all-popovers-until loops infinitely for certain nested popovers,https://github.com/whatwg/html/issues/9415,2023-06-12T10:19:05Z,2023-06-12T10:19:29Z,mbrodesser-Igalia,topic: popover,0
-1752342253,false,"Popover: consider renaming ""auto popover list"" to ""auto showing popover list"" ",https://github.com/whatwg/html/issues/9413,2023-06-12T09:44:30Z,2023-06-12T14:25:30Z,mbrodesser-Igalia,clarification|topic: popover,1
+1752408827,false,https://html.spec.whatwg.org/#hide-popover-algorithm's invocation of https://html.spec.whatwg.org/#hide-all-popovers-until loops infinitely for certain nested popovers,https://github.com/whatwg/html/issues/9415,2023-06-12T10:19:05Z,2023-06-13T01:00:01Z,mbrodesser-Igalia,topic: popover,0
+1752342253,false,"Popover: consider renaming ""auto popover list"" to ""auto showing popover list"" ",https://github.com/whatwg/html/issues/9413,2023-06-12T09:44:30Z,2023-06-13T07:25:42Z,mbrodesser-Igalia,clarification|editorial|topic: popover,1
 1752223030,false,https://html.spec.whatwg.org/#hide-popover-algorithm lacks initial value for `nestedHide` variable,https://github.com/whatwg/html/issues/9412,2023-06-12T08:37:30Z,2023-06-12T08:38:56Z,mbrodesser-Igalia,topic: popover,0
 1748867844,false,Timer initialization steps for repeating timers does not match UA behavior,https://github.com/whatwg/html/issues/9402,2023-06-09T00:42:31Z,2023-06-09T06:26:46Z,shaseley,compat|topic: event loop,2
 1745526561,true,"""Update the image data"" can dereference null ""pending request"" in multiple places",https://github.com/whatwg/html/issues/9398,2023-06-07T10:06:19Z,2023-06-09T12:15:43Z,awesomekling,topic: img,0
@@ -1004,7 +1004,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 874600526,false,legend seems to be recognised/used even when not *first* child,https://github.com/whatwg/html/issues/6645,2021-05-03T13:59:41Z,2021-12-03T08:11:21Z,patrickhlauke,clarification,1
 874511738,true,`id` were mis-typed as `is`,https://github.com/whatwg/html/issues/6644,2021-05-03T12:03:10Z,2021-05-03T13:33:05Z,ianthedev,,0
 872435429,true,Cross-Origin-Embedder-Policy: credentialless,https://github.com/whatwg/html/issues/6637,2021-04-30T12:33:31Z,2021-11-02T12:55:38Z,ArthurSonzogni,topic: cross-origin-embedder-policy,0
-872131730,false,Lazy loading video element poster attribute,https://github.com/whatwg/html/issues/6636,2021-04-30T07:54:55Z,2023-05-19T12:30:06Z,asuh,addition/proposal|topic: media,4
+872131730,false,Lazy loading video element poster attribute,https://github.com/whatwg/html/issues/6636,2021-04-30T07:54:55Z,2023-06-13T07:41:14Z,asuh,addition/proposal|topic: media,5
 872059164,true,`:active` pseudo-class specification doesn't account for children/labels of disabled form elements,https://github.com/whatwg/html/issues/6635,2021-04-30T02:11:14Z,2022-02-10T19:06:49Z,alystair,topic: rendering|topic: forms,0
 870905892,false,Allow <source> to use <img>'s sizes data as a fallback,https://github.com/whatwg/html/issues/6633,2021-04-29T11:24:34Z,2022-02-04T15:46:29Z,jakearchibald,addition/proposal|topic: img,32
 870188337,true,import.meta.url always uses percent-encodings,https://github.com/whatwg/html/issues/6630,2021-04-28T17:34:16Z,2023-02-24T16:09:38Z,guybedford,,0
@@ -1131,7 +1131,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 804798139,true,Auto-open details when seeking content within it,https://github.com/whatwg/html/issues/6370,2021-02-09T18:21:20Z,2021-02-10T06:27:04Z,fantasai,,3
 804761074,false,Surprising secure context inheritance behavior for opened windows,https://github.com/whatwg/html/issues/6369,2021-02-09T17:33:45Z,2021-04-19T15:28:38Z,letitz,,0
 802699195,false,"Allowing top-level communication for cross-origin isolated documents ",https://github.com/whatwg/html/issues/6364,2021-02-06T13:07:49Z,2023-03-29T17:59:14Z,arturjanc,topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,0
-802248120,true,HTML Video Element: Proposal For Reintroduction of Media in Source Elements,https://github.com/whatwg/html/issues/6363,2021-02-05T15:18:23Z,2023-06-12T12:20:28Z,scottjehl,addition/proposal|topic: media,26
+802248120,true,HTML Video Element: Proposal For Reintroduction of Media in Source Elements,https://github.com/whatwg/html/issues/6363,2021-02-05T15:18:23Z,2023-06-13T05:44:06Z,scottjehl,addition/proposal|topic: media,26
 801055941,false,Interoperable <video> underflow,https://github.com/whatwg/html/issues/6359,2021-02-04T08:35:02Z,2021-04-09T23:12:54Z,chcunningham,topic: media,3
 799368677,false,What kind of new 'session' is created on manual navigation?,https://github.com/whatwg/html/issues/6356,2021-02-02T15:11:09Z,2022-02-17T11:59:21Z,jakearchibald,topic: navigation|topic: history|interop,1
 799189344,false,Fetch's request's credentials mode not set correctly,https://github.com/whatwg/html/issues/6354,2021-02-02T11:20:39Z,2021-02-23T05:14:37Z,annevk,topic: fetch|integration,0
@@ -2264,7 +2264,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 357490424,false,Should XHR etc. still fire events after its document has gone inactive?,https://github.com/whatwg/html/issues/4007,2018-09-06T04:16:32Z,2018-09-07T14:16:46Z,TimothyGu,topic: fetch|topic: document lifecycle,0
 357460068,true,"""Hexademical character reference start state""",https://github.com/whatwg/html/issues/4006,2018-09-06T01:18:36Z,2018-09-10T12:32:01Z,stevecheckoway,good first issue|topic: parser,0
 357331672,false,WindowProxy exposes cross-origin side channel,https://github.com/whatwg/html/issues/4005,2018-09-05T17:35:35Z,2018-09-06T14:48:10Z,jakemco,security/privacy|topic: multiple globals,0
-357287740,false,The <video> poster attribute should accept multiple sources,https://github.com/whatwg/html/issues/4004,2018-09-05T15:37:34Z,2018-09-07T03:58:43Z,benwiley4000,addition/proposal|topic: media,5
+357287740,false,The <video> poster attribute should accept multiple sources,https://github.com/whatwg/html/issues/4004,2018-09-05T15:37:34Z,2023-06-13T05:24:47Z,benwiley4000,addition/proposal|topic: media,5
 357276278,false,meta refresh waiting is broken,https://github.com/whatwg/html/issues/4003,2018-09-05T15:11:39Z,2018-09-05T15:11:39Z,TimothyGu,topic: navigation,0
 356971691,false,Consider a blocklist for schemes instead of a safelist,https://github.com/whatwg/html/issues/3998,2018-09-04T20:52:06Z,2020-04-20T10:13:11Z,asankah,addition/proposal|topic: custom protocols,2
 356945492,false,Chrome/Safari handles bareword calls to Window methods differently than Firefox,https://github.com/whatwg/html/issues/3997,2018-09-04T19:29:56Z,2018-09-07T14:41:18Z,TimothyGu,topic: multiple globals|interop,0
