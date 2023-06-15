@@ -1,4 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1757361836,false,Allow elements with display:contents to be focusable.,https://github.com/whatwg/html/pull/9425,2023-06-14T17:31:45Z,2023-06-14T17:54:13Z,dbaron,topic: focus,2
+1757211335,true,Fix markup so that word is linked correctly.,https://github.com/whatwg/html/pull/9424,2023-06-14T15:53:15Z,2023-06-14T16:02:52Z,dbaron,,0
 1755990245,true,"new changes ",https://github.com/whatwg/html/pull/9421,2023-06-14T03:35:59Z,2023-06-14T03:44:38Z,Amrit-ghale,spam,0
 1754881399,true,"Initialize `nestedHide` variable in the ""hide a popover"" algorithm",https://github.com/whatwg/html/pull/9419,2023-06-13T13:20:06Z,2023-06-14T11:17:55Z,mbrodesser-Igalia,topic: popover,0
 1754473779,false,source modified,https://github.com/whatwg/html/pull/9418,2023-06-13T09:42:16Z,2023-06-13T16:04:36Z,arup1221,,0
@@ -31,7 +33,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1722651100,true,Editorial: Fix typo in Ian Kilpatrick's name.,https://github.com/whatwg/html/pull/9325,2023-05-23T19:22:16Z,2023-05-23T22:51:14Z,dbaron,,0
 1721407841,true,Make document unsalvageable,https://github.com/whatwg/html/pull/9324,2023-05-23T07:27:14Z,2023-05-30T06:27:15Z,rubberyuzu,,0
 1717546148,false,Update RO loop to include content-visibility,https://github.com/whatwg/html/pull/9312,2023-05-19T16:56:53Z,2023-06-01T15:49:56Z,vmpstr,,0
-1716303125,false,Ignore dangling markup in target name,https://github.com/whatwg/html/pull/9309,2023-05-18T21:39:56Z,2023-06-12T14:56:18Z,shhnjk,,0
+1716303125,false,Ignore dangling markup in target name,https://github.com/whatwg/html/pull/9309,2023-05-18T21:39:56Z,2023-06-14T16:52:31Z,shhnjk,,0
 1714880100,true,Add not restored reasons,https://github.com/whatwg/html/pull/9307,2023-05-18T02:16:46Z,2023-05-30T06:27:07Z,rubberyuzu,,0
 1712881320,true,Cleaned up the tables for getContext(),https://github.com/whatwg/html/pull/9305,2023-05-16T23:51:51Z,2023-05-23T14:27:22Z,trevorspiniolas,clarification|topic: canvas,0
 1712520196,true,Editorial: Remove duplicate delaying the load event requirement,https://github.com/whatwg/html/pull/9303,2023-05-16T18:24:14Z,2023-05-17T01:12:49Z,domfarolino,topic: embed and object|editorial,0
@@ -68,7 +70,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1671928914,true,Only restore dialog focus if focus is in the dialog,https://github.com/whatwg/html/pull/9178,2023-04-17T20:35:40Z,2023-06-06T21:19:25Z,josepharhar,topic: focus|topic: dialog,0
 1669042716,true,Only use the used invoker to establish popover hierarchy,https://github.com/whatwg/html/pull/9171,2023-04-14T23:15:12Z,2023-05-08T16:13:13Z,josepharhar,topic: popover,0
 1668446599,true,Fix var/ref name mismatch with s/intendToStoreInBfcache/intendToKeepInBfcache/,https://github.com/whatwg/html/pull/9170,2023-04-14T15:13:52Z,2023-04-17T12:18:58Z,jan-ivar,topic: history,0
-1666970337,true,Update the :dir / directionality to include shadow dom,https://github.com/whatwg/html/pull/9166,2023-04-13T18:54:01Z,2023-06-14T06:11:30Z,bkardell,,0
+1666970337,false,Update the :dir / directionality to include shadow dom,https://github.com/whatwg/html/pull/9166,2023-04-13T18:54:01Z,2023-06-14T14:30:10Z,bkardell,,0
 1666849333,true,Don't fire popover events during attribute change steps,https://github.com/whatwg/html/pull/9165,2023-04-13T17:32:17Z,2023-04-19T22:06:09Z,nt1m,topic: popover,0
 1666310483,true,[meta] Mark seven definitions as exported,https://github.com/whatwg/html/pull/9163,2023-04-13T12:20:28Z,2023-04-17T06:40:51Z,dontcallmedom,,0
 1665915432,true,Do not do same-URL replace navigations when initiated cross-origin,https://github.com/whatwg/html/pull/9157,2023-04-13T07:58:01Z,2023-05-08T22:49:00Z,domenic,normative change|topic: navigation|security/privacy|topic: history,0
@@ -377,7 +379,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1232354134,false,[draft] add unload permissions-policy feature,https://github.com/whatwg/html/pull/7915,2022-05-11T09:56:36Z,2022-09-08T04:40:56Z,fergald,,0
 1230897276,false,Add IPFS and IPNS as safelisted schemes for registerProtocolHandler(),https://github.com/whatwg/html/pull/7911,2022-05-10T09:46:44Z,2023-03-13T12:33:58Z,javifernandez,,5
 1229967385,true,Match upstream ECMA-262 change,https://github.com/whatwg/html/pull/7909,2022-05-09T16:25:55Z,2022-05-10T00:37:25Z,mathiasbynens,topic: forms,0
-1229938684,true,Use `v` flag instead of `u` for `pattern` RegExps,https://github.com/whatwg/html/pull/7908,2022-05-09T16:01:15Z,2023-04-25T17:13:57Z,mathiasbynens,addition/proposal|topic: forms|needs compat analysis,1
+1229938684,true,Use `v` flag instead of `u` for `pattern` RegExps,https://github.com/whatwg/html/pull/7908,2022-05-09T16:01:15Z,2023-06-14T19:49:45Z,mathiasbynens,addition/proposal|topic: forms|needs compat analysis,1
 1229548516,true,Clarify that modal dialogs escape inertness of ancestors.,https://github.com/whatwg/html/pull/7905,2022-05-09T11:12:49Z,2022-05-18T18:04:24Z,emilio,clarification|topic: dialog,0
 1228863635,false,WIP: Subresource link header,https://github.com/whatwg/html/pull/7904,2022-05-08T11:30:17Z,2022-08-22T02:36:08Z,noamr,,0
 1227330877,true,Fix when a `script` element is implicitly potentially render-blocking,https://github.com/whatwg/html/pull/7894,2022-05-06T01:41:09Z,2022-05-16T21:06:09Z,xiaochengh,topic: rendering|topic: script,0
@@ -1532,7 +1534,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 443572976,true,Add code to allocate agent clusters.,https://github.com/whatwg/html/pull/4617,2019-05-13T19:54:23Z,2019-09-09T17:41:24Z,dtapuska,topic: agent,0
 443274066,true,Mention the firing condition of an invalid event,https://github.com/whatwg/html/pull/4616,2019-05-13T08:41:56Z,2019-05-14T14:21:37Z,poyea,,0
 443035399,true,Editorial: cross link to obsolete Document partial,https://github.com/whatwg/html/pull/4614,2019-05-11T20:55:00Z,2019-05-13T16:58:04Z,domenic,clarification,0
-442933959,false,Add Atomics.waitAsync host hook,https://github.com/whatwg/html/pull/4613,2019-05-11T00:21:26Z,2023-06-08T00:11:40Z,littledan,do not merge yet,0
+442933959,false,Add Atomics.waitAsync host hook,https://github.com/whatwg/html/pull/4613,2019-05-11T00:21:26Z,2023-06-14T23:16:13Z,littledan,do not merge yet,0
 442824204,true,Separate the media play algorithm into internal steps.,https://github.com/whatwg/html/pull/4610,2019-05-10T17:37:28Z,2019-05-10T18:09:22Z,dtapuska,topic: media,0
 442633014,true,Add defer attribute to nomodule script example,https://github.com/whatwg/html/pull/4609,2019-05-10T09:47:33Z,2019-05-20T17:36:21Z,andydavies,topic: script,0
 442433816,false,Add disallowdocumentaccess iframe attribute to force a creation of a new agent cluster map,https://github.com/whatwg/html/pull/4606,2019-05-09T21:06:14Z,2022-08-22T02:36:09Z,dtapuska,,0
