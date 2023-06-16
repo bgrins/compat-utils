@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1757290866,false,Give SharedArrayBuffer a dedicated type,https://github.com/whatwg/webidl/issues/1320,2023-06-14T16:44:39Z,2023-06-15T03:23:52Z,annevk,,0
+1759702520,false,Defining AbstractModuleSource interface type,https://github.com/whatwg/webidl/issues/1322,2023-06-16T00:13:01Z,2023-06-16T00:13:01Z,guybedford,,0
+1757290866,false,Give SharedArrayBuffer a dedicated type (downstream),https://github.com/whatwg/webidl/issues/1320,2023-06-14T16:44:39Z,2023-06-15T15:06:04Z,annevk,,0
 1739653794,false,Simple exceptions “apart from...” list is incomplete,https://github.com/whatwg/webidl/issues/1314,2023-06-03T16:15:09Z,2023-06-05T06:49:57Z,bathos,,0
 1737666638,true,Editorial: pick JavaScript or ECMAScript and stick with it,https://github.com/whatwg/webidl/issues/1313,2023-06-02T08:07:20Z,2023-06-02T09:04:19Z,annevk,,0
 1737641805,false,Buffer source types infrastructure,https://github.com/whatwg/webidl/issues/1312,2023-06-02T07:49:44Z,2023-06-02T09:22:47Z,annevk,,0
@@ -102,7 +103,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 836345526,true,Consider adding `[Legacy​ASCII​Case​Insentive​Enum]` for `element​.insertAdjacent*` APIs,https://github.com/whatwg/webidl/issues/968,2021-03-19T20:41:47Z,2022-09-14T13:08:26Z,ExE-Boss,,0
 830776334,false,Dictionary types being nullable doesn't make sense,https://github.com/whatwg/webidl/issues/967,2021-03-13T02:07:06Z,2021-04-23T01:48:36Z,tabatkins,,0
 825715282,true,undefined can't be a member of a union type,https://github.com/whatwg/webidl/issues/962,2021-03-09T10:47:24Z,2021-04-22T22:55:51Z,petervanderbeken,,0
-821342209,false,It is unclear if [AllowShared] BufferSource is valid,https://github.com/whatwg/webidl/issues/961,2021-03-03T17:49:51Z,2023-05-08T08:10:41Z,smaug----,topic: arraybuffer,0
+821342209,true,It is unclear if [AllowShared] BufferSource is valid,https://github.com/whatwg/webidl/issues/961,2021-03-03T17:49:51Z,2023-06-15T14:23:56Z,smaug----,topic: arraybuffer,0
 818129247,true,Intent to use Constants,https://github.com/whatwg/webidl/issues/960,2021-02-28T05:40:21Z,2021-02-28T05:40:32Z,OstraMrN,,0
 816148547,true,Intent to use bigint/numeric union,https://github.com/whatwg/webidl/issues/959,2021-02-25T06:59:19Z,2021-08-02T16:23:18Z,namm356,,0
 814475536,true,Browsers do not consistently seem to check this?,https://github.com/whatwg/webidl/issues/958,2021-02-23T13:41:36Z,2021-02-25T10:01:11Z,annevk,,0
@@ -152,7 +153,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 594555309,true,Is a TypedArray a sequence?,https://github.com/whatwg/webidl/issues/868,2020-04-05T16:57:56Z,2020-04-05T18:47:15Z,guest271314,,0
 594305076,false,"""Extended attributes associated with ..."" omits UnionMemberType first alt?",https://github.com/whatwg/webidl/issues/867,2020-04-05T07:23:07Z,2020-04-05T19:40:43Z,bathos,,0
 589118306,true,Make null an explicit type (remove nullable types),https://github.com/whatwg/webidl/issues/866,2020-03-27T13:02:22Z,2020-03-27T14:55:09Z,annevk,,1
-589112259,false,How to return a SharedArrayBuffer object,https://github.com/whatwg/webidl/issues/865,2020-03-27T12:51:27Z,2021-08-02T16:09:33Z,annevk,topic: arraybuffer,1
+589112259,true,How to return a SharedArrayBuffer object,https://github.com/whatwg/webidl/issues/865,2020-03-27T12:51:27Z,2023-06-15T14:23:55Z,annevk,topic: arraybuffer,1
 587507818,false,Editorial: align with HTML on calling ECMAScript JavaScript,https://github.com/whatwg/webidl/issues/863,2020-03-25T07:53:34Z,2020-04-16T13:55:45Z,annevk,,1
 581668127,false,Should stringifiers have the `[ImplicitThis]` behaviour?,https://github.com/whatwg/webidl/issues/855,2020-03-15T13:09:37Z,2020-03-22T21:21:29Z,ExE-Boss,,0
 580669276,true,Can a dictionary with default values ever have a not present member?,https://github.com/whatwg/webidl/issues/852,2020-03-13T15:17:44Z,2020-03-25T19:44:38Z,domenic,,0
