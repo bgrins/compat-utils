@@ -4,14 +4,14 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1758198099,false,HTML fragment parser creates a token which is only used for <annotation-xml encoding>,https://github.com/whatwg/html/issues/9428,2023-06-15T07:18:35Z,2023-06-15T09:38:51Z,zcorpan,clarification|topic: parser,0
 1757555620,true,"""    name — Metadata name     http-equiv — Prag...""",https://github.com/whatwg/html/issues/9427,2023-06-14T20:02:52Z,2023-06-15T00:51:36Z,SteveComstock,,0
 1757474219,false,"Make the HTML parser's scripting flag not depend on ""scripting was enabled""",https://github.com/whatwg/html/issues/9426,2023-06-14T18:57:54Z,2023-06-15T13:42:32Z,zcorpan,topic: parser,0
-1755175183,false,Making checkboxes behave like radio buttons,https://github.com/whatwg/html/issues/9420,2023-06-13T15:38:46Z,2023-06-16T11:03:25Z,sovetski,addition/proposal|topic: forms,0
+1755175183,false,Making checkboxes behave like radio buttons,https://github.com/whatwg/html/issues/9420,2023-06-13T15:38:46Z,2023-06-16T14:47:06Z,sovetski,addition/proposal|topic: forms,0
 1752408827,true,https://html.spec.whatwg.org/#hide-popover-algorithm's invocation of https://html.spec.whatwg.org/#hide-all-popovers-until loops infinitely for certain nested popovers,https://github.com/whatwg/html/issues/9415,2023-06-12T10:19:05Z,2023-06-14T12:34:26Z,mbrodesser-Igalia,topic: popover,0
 1752342253,false,"Popover: consider renaming ""auto popover list"" to ""auto showing popover list"" ",https://github.com/whatwg/html/issues/9413,2023-06-12T09:44:30Z,2023-06-13T16:05:49Z,mbrodesser-Igalia,clarification|editorial|topic: popover,1
 1752223030,true,https://html.spec.whatwg.org/#hide-popover-algorithm lacks initial value for `nestedHide` variable,https://github.com/whatwg/html/issues/9412,2023-06-12T08:37:30Z,2023-06-14T11:17:57Z,mbrodesser-Igalia,topic: popover,0
 1748867844,false,Timer initialization steps for repeating timers does not match UA behavior,https://github.com/whatwg/html/issues/9402,2023-06-09T00:42:31Z,2023-06-09T06:26:46Z,shaseley,compat|topic: event loop,2
 1745526561,true,"""Update the image data"" can dereference null ""pending request"" in multiple places",https://github.com/whatwg/html/issues/9398,2023-06-07T10:06:19Z,2023-06-09T12:15:43Z,awesomekling,topic: img,0
 1744994841,true,Is it expected that Document has [LegacyOverrideBuiltIns]?,https://github.com/whatwg/html/issues/9394,2023-06-07T04:11:51Z,2023-06-07T12:14:44Z,yuki3,,0
-1743957228,false,"issues with optionality of oldParent in HTML element removing steps, particularly with removal of optgroups",https://github.com/whatwg/html/issues/9390,2023-06-06T14:09:00Z,2023-06-15T20:41:00Z,dbaron,topic: forms|topic: img|integration,0
+1743957228,false,"issues with optionality of oldParent in HTML element removing steps, particularly with removal of optgroups",https://github.com/whatwg/html/issues/9390,2023-06-06T14:09:00Z,2023-06-16T13:26:11Z,dbaron,topic: forms|topic: img|integration,0
 1742040804,false,anonymous fieldset content box should inherit scroll-start,https://github.com/whatwg/html/issues/9386,2023-06-05T15:35:38Z,2023-06-09T07:22:26Z,DavMila,topic: rendering|topic: forms,0
 1742022432,false,Constraint Validation IDL is reiterated multiple times,https://github.com/whatwg/html/issues/9385,2023-06-05T15:24:07Z,2023-06-09T07:20:27Z,clshortfuse,clarification|topic: forms,0
 1741686583,true,"Should ""show popover"" assert the element's popover invoker is null?",https://github.com/whatwg/html/issues/9383,2023-06-05T12:38:07Z,2023-06-07T20:19:28Z,mbrodesser-Igalia,clarification|topic: popover,0
@@ -87,7 +87,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1666214684,false,Popover: spec for dealing with element removal is incorrect,https://github.com/whatwg/html/issues/9161,2023-04-13T11:13:30Z,2023-04-17T19:31:41Z,jakearchibald,topic: popover,0
 1666173855,true,Popover parent/child relationship doesn't seem correct,https://github.com/whatwg/html/issues/9160,2023-04-13T10:45:41Z,2023-05-08T16:13:14Z,jakearchibald,topic: popover,0
 1666044457,false,Exporting definitions linked to by 3+ specs,https://github.com/whatwg/html/issues/9159,2023-04-13T09:19:24Z,2023-04-13T12:25:33Z,dontcallmedom,,0
-1666005013,false,Consider a different process for standardizing registerProtocolHandler schemes,https://github.com/whatwg/html/issues/9158,2023-04-13T08:55:08Z,2023-05-24T06:24:48Z,zcorpan,meta|topic: custom protocols,1
+1666005013,false,Consider a different process for standardizing registerProtocolHandler schemes,https://github.com/whatwg/html/issues/9158,2023-04-13T08:55:08Z,2023-06-16T13:06:40Z,zcorpan,meta|topic: custom protocols,1
 1665007054,false,Add payto to registerProtocolHandler safe listed schemes,https://github.com/whatwg/html/issues/9154,2023-04-12T18:01:28Z,2023-04-12T18:01:28Z,rastislavcore,,0
 1664864169,true,Popover invoker example shouldn't have `aria-haspopup`,https://github.com/whatwg/html/issues/9153,2023-04-12T16:18:18Z,2023-05-09T15:23:43Z,mfreed7,accessibility|a11y-tracker|topic: popover,0
 1664663316,true,popover focus state weirdness,https://github.com/whatwg/html/issues/9152,2023-04-12T14:17:31Z,2023-04-24T13:54:05Z,jakearchibald,topic: popover,0
@@ -1200,7 +1200,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 761434082,false,"It's unclear how well browsers line up with the ""Killing scripts"" section of the spec",https://github.com/whatwg/html/issues/6210,2020-12-10T17:21:25Z,2020-12-11T14:58:15Z,domenic,topic: script,2
 761420453,false,Specify what happens to focus if focus is in an iframe that loads another document,https://github.com/whatwg/html/issues/6209,2020-12-10T17:06:31Z,2020-12-11T07:44:52Z,hsivonen,interop|topic: focus,0
 761360345,true,Natively lazyload certain web components like tabs etc.,https://github.com/whatwg/html/issues/6208,2020-12-10T15:54:48Z,2021-04-14T21:16:29Z,summercms,,0
-761072127,false,"Clarify history.pushState/replaceState behavior with history navigation, bfcache",https://github.com/whatwg/html/issues/6207,2020-12-10T09:36:51Z,2023-02-14T09:15:25Z,rakina,topic: history|needs tests,0
+761072127,false,"Clarify history.pushState/replaceState behavior with history navigation, bfcache",https://github.com/whatwg/html/issues/6207,2020-12-10T09:36:51Z,2023-06-16T21:21:32Z,rakina,topic: history|needs tests,0
 760679523,false,Missing list of abbreviations,https://github.com/whatwg/html/issues/6205,2020-12-09T21:18:16Z,2022-08-29T16:14:52Z,jmacura,clarification,1
 759867980,true,Updating the session history: same-URL case is broken,https://github.com/whatwg/html/issues/6202,2020-12-08T23:38:09Z,2021-03-12T00:38:16Z,domenic,topic: navigation|topic: history,0
 757805616,true,Updating the session history seems pretty broken,https://github.com/whatwg/html/issues/6197,2020-12-05T23:37:58Z,2020-12-11T23:34:09Z,domfarolino,topic: history|topic: browsing context,0
@@ -1853,7 +1853,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 471167003,false,"We should probably reinstate HTMLDocument, with a named getter, in the spec",https://github.com/whatwg/html/issues/4792,2019-07-22T16:05:41Z,2020-01-10T16:44:06Z,bzbarsky,,1
 470122528,true,Autofocus element in a <dialog> tries to get focus twice,https://github.com/whatwg/html/issues/4788,2019-07-19T03:41:41Z,2019-11-07T18:58:14Z,tkent-google,topic: focus,0
 469784910,false,Declarative WebWorker?,https://github.com/whatwg/html/issues/4786,2019-07-18T13:56:24Z,2020-04-30T12:07:13Z,fserb,addition/proposal|needs implementer interest|topic: workers,0
-469474452,false,[Proposal] ImageBitmap.getImageData,https://github.com/whatwg/html/issues/4785,2019-07-17T22:19:01Z,2023-05-03T11:11:35Z,dsanders11,addition/proposal|needs implementer interest|topic: canvas,24
+469474452,false,[Proposal] ImageBitmap.getImageData,https://github.com/whatwg/html/issues/4785,2019-07-17T22:19:01Z,2023-05-03T11:11:35Z,dsanders11,addition/proposal|needs implementer interest|topic: canvas,25
 469436105,false,Implement proposed Focus Traversal API,https://github.com/whatwg/html/issues/4784,2019-07-17T20:44:51Z,2019-09-19T06:02:37Z,arei,addition/proposal|needs implementer interest|topic: focus,0
 469368865,false,Initializing Feature Policy is racy,https://github.com/whatwg/html/issues/4783,2019-07-17T18:10:30Z,2019-07-18T19:20:49Z,dtapuska,topic: navigation|topic: browsing context|integration,0
 469173271,true,"User agents, session history, browsing contexts, and agent clusters",https://github.com/whatwg/html/issues/4782,2019-07-17T12:48:01Z,2022-10-31T05:07:01Z,annevk,topic: history|topic: browsing context|topic: agent,0
