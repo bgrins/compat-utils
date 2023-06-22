@@ -1,7 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1767925840,false,Possible performance optimizations of structured clone algorithm against ArrayBufferView?,https://github.com/whatwg/html/issues/9450,2023-06-21T15:57:33Z,2023-06-21T23:48:24Z,shuhaowu,topic: serialize and transfer,0
+1767690214,false,auto-sizes concrete object size ignoring natural dimensions is not implementable,https://github.com/whatwg/html/issues/9448,2023-06-21T14:08:37Z,2023-06-21T20:19:43Z,zcorpan,topic: img,0
 1765973926,false,HTML Video Element: Proposal For Support for Srcset and Sizes attributes on source elements,https://github.com/whatwg/html/issues/9446,2023-06-20T18:52:24Z,2023-06-21T07:29:11Z,scottjehl,addition/proposal|topic: media,3
 1764161923,true,Spec clarification: Are values in fontVariant & fontKerning case sensitive?,https://github.com/whatwg/html/issues/9445,2023-06-19T20:09:46Z,2023-06-19T22:59:06Z,yiyix,,0
-1763904590,false,"Import with type text, bytes, and URL",https://github.com/whatwg/html/issues/9444,2023-06-19T17:07:43Z,2023-06-20T16:49:42Z,kriskowal,addition/proposal|needs implementer interest|topic: script,1
+1763904590,false,"Import with type text, bytes, and URL",https://github.com/whatwg/html/issues/9444,2023-06-19T17:07:43Z,2023-06-20T16:49:42Z,kriskowal,addition/proposal|needs implementer interest|topic: script,2
 1763586145,false,Why is checking document validity skipped sometimes?,https://github.com/whatwg/html/issues/9441,2023-06-19T13:47:43Z,2023-06-19T13:47:43Z,mbrodesser-Igalia,topic: popover,0
 1759295446,false,Upcoming HTML standard issue triage meeting on 6/29/2023,https://github.com/whatwg/html/issues/9432,2023-06-15T17:52:32Z,2023-06-15T17:52:32Z,past,agenda+,0
 1758822017,false,`nestedShow` is not initialized in https://html.spec.whatwg.org/#show-popover,https://github.com/whatwg/html/issues/9429,2023-06-15T13:17:53Z,2023-06-15T16:30:39Z,mbrodesser-Igalia,topic: popover,0
@@ -18,7 +20,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1743957228,false,"issues with optionality of oldParent in HTML element removing steps, particularly with removal of optgroups",https://github.com/whatwg/html/issues/9390,2023-06-06T14:09:00Z,2023-06-16T13:26:11Z,dbaron,topic: forms|topic: img|integration,0
 1742040804,false,anonymous fieldset content box should inherit scroll-start,https://github.com/whatwg/html/issues/9386,2023-06-05T15:35:38Z,2023-06-09T07:22:26Z,DavMila,topic: rendering|topic: forms,0
 1742022432,false,Constraint Validation IDL is reiterated multiple times,https://github.com/whatwg/html/issues/9385,2023-06-05T15:24:07Z,2023-06-09T07:20:27Z,clshortfuse,clarification|topic: forms,0
-1741686583,true,"Should ""show popover"" assert the element's popover invoker is null?",https://github.com/whatwg/html/issues/9383,2023-06-05T12:38:07Z,2023-06-07T20:19:28Z,mbrodesser-Igalia,clarification|topic: popover,0
+1741686583,false,"Should ""show popover"" assert the element's popover invoker is null?",https://github.com/whatwg/html/issues/9383,2023-06-05T12:38:07Z,2023-06-21T18:26:51Z,mbrodesser-Igalia,clarification|topic: popover,0
 1740502906,false,"popover: expect a way to watch all ""`toggle`"" events even in shadow DOM on `window`",https://github.com/whatwg/html/issues/9381,2023-06-04T17:44:23Z,2023-06-05T04:56:13Z,gdh1995,addition/proposal|topic: popover,0
 1740428387,false,Add `class` & `for` aliases for `className` and `htmlFor`,https://github.com/whatwg/html/issues/9379,2023-06-04T15:17:46Z,2023-06-06T10:05:13Z,jakearchibald,addition/proposal|needs implementer interest,186
 1738596106,false,Should we deprecate `dialog.show()`?,https://github.com/whatwg/html/issues/9376,2023-06-02T18:02:06Z,2023-06-03T07:59:25Z,mfreed7,removal/deprecation|topic: dialog,9
@@ -162,7 +164,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1618871157,false,[Proposal] A way to load parts of a page instead of the entire page.,https://github.com/whatwg/html/issues/9003,2023-03-10T12:03:32Z,2023-03-10T19:52:38Z,flavi1,,0
 1618129848,true,Upcoming HTML standard issue triage meeting on 3/23/2023,https://github.com/whatwg/html/issues/9002,2023-03-09T23:18:35Z,2023-03-23T22:01:10Z,past,agenda+,0
 1616877531,false,Storage Access API Standardization,https://github.com/whatwg/html/issues/9000,2023-03-09T10:16:50Z,2023-03-23T21:57:18Z,johannhof,addition/proposal|topic: cookie,2
-1616220344,false,togglePopover() algorithm does not check popover validity when force == false and when the popover visibility state is hidden,https://github.com/whatwg/html/issues/8999,2023-03-09T01:04:13Z,2023-06-08T06:25:48Z,nt1m,topic: popover,0
+1616220344,false,togglePopover() algorithm does not check popover validity when force == false and when the popover visibility state is hidden,https://github.com/whatwg/html/issues/8999,2023-03-09T01:04:13Z,2023-06-21T20:57:01Z,nt1m,topic: popover,0
 1614714505,true,WPT testing non-standard behavior for popover focusing steps,https://github.com/whatwg/html/issues/8994,2023-03-08T06:11:02Z,2023-06-08T05:51:31Z,nt1m,topic: focus|topic: popover,0
 1612593381,true,WPT tests for unspecified PopoverInvokerElement removing steps,https://github.com/whatwg/html/issues/8991,2023-03-07T02:28:43Z,2023-06-06T06:42:40Z,nt1m,topic: popover,0
 1612445163,false,Proposal: fallback/mirror hrefs,https://github.com/whatwg/html/issues/8990,2023-03-07T00:12:00Z,2023-03-07T00:17:16Z,rhendric,,0
@@ -695,7 +697,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1121252070,true,Remove concept of expressly inert?,https://github.com/whatwg/html/issues/7564,2022-02-01T22:10:09Z,2022-02-07T01:19:46Z,Loirooriol,topic: focus,0
 1120480673,false,Clarify the semantic scope of the menu element,https://github.com/whatwg/html/issues/7562,2022-02-01T10:23:18Z,2022-02-16T11:24:18Z,kantoche,accessibility,0
 1119962138,false,"Suggestion - Allow ""<slot>"" to provide options for select or datalist",https://github.com/whatwg/html/issues/7560,2022-01-31T21:40:11Z,2022-02-15T11:13:30Z,jogibear9988,addition/proposal|needs implementer interest|topic: shadow,0
-1116552451,false,Allow authors to apply new css features (like cascade layers) while linking stylesheets,https://github.com/whatwg/html/issues/7540,2022-01-27T17:28:58Z,2023-06-20T12:30:06Z,mirisuzanne,addition/proposal|needs implementer interest|topic: style,14
+1116552451,false,Allow authors to apply new css features (like cascade layers) while linking stylesheets,https://github.com/whatwg/html/issues/7540,2022-01-27T17:28:58Z,2023-06-21T18:17:02Z,mirisuzanne,addition/proposal|needs implementer interest|topic: style,15
 1115846973,false,Can I set image as image data instead of base64??,https://github.com/whatwg/html/issues/7538,2022-01-27T07:04:18Z,2022-02-10T08:19:30Z,slugger941,,0
 1114394627,false,Explicit display:none should prevent element from being used as relevant canvas fallback content,https://github.com/whatwg/html/issues/7534,2022-01-25T21:46:53Z,2022-02-16T14:20:15Z,Loirooriol,topic: canvas|accessibility|topic: focus|a11y-tracker,0
 1114233124,false,URL-bar triggered prerendering,https://github.com/whatwg/html/issues/7533,2022-01-25T18:35:01Z,2022-02-03T21:27:07Z,domenic,addition/proposal|topic: navigation|topic: browsing context,2
@@ -2513,7 +2515,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 309585107,true,Should `img` in a template load src/srcset?,https://github.com/whatwg/html/issues/3600,2018-03-29T01:12:35Z,2018-03-29T04:28:29Z,marcoscaceres,,0
 309506211,false,Figure out if submit and reset events need to be handled in special way during dispatch,https://github.com/whatwg/html/issues/3599,2018-03-28T19:48:48Z,2018-09-06T07:23:14Z,smaug----,topic: forms,0
 309328992,false,Weird use of <strong> in <h1>–</h6>,https://github.com/whatwg/html/issues/3597,2018-03-28T11:34:47Z,2018-04-01T10:14:18Z,prlbr,clarification|document conformance,0
-309229896,false,Allow adding icons/images to <select> and <datalist> <option>s,https://github.com/whatwg/html/issues/3596,2018-03-28T05:52:24Z,2021-04-30T03:54:13Z,alekseyg,addition/proposal|needs implementer interest|topic: forms,37
+309229896,false,Allow adding icons/images to <select> and <datalist> <option>s,https://github.com/whatwg/html/issues/3596,2018-03-28T05:52:24Z,2021-04-30T03:54:13Z,alekseyg,addition/proposal|needs implementer interest|topic: forms,38
 309218000,false,Add autocorrect content attribute to HTMLElement,https://github.com/whatwg/html/issues/3595,2018-03-28T04:34:08Z,2020-10-26T20:48:11Z,rniwa,addition/proposal|document conformance|i18n-tracker|impacts documentation,10
 308839918,true,"Proposal: DecodeVideoData API, exposed at Window and Worker",https://github.com/whatwg/html/issues/3593,2018-03-27T06:39:53Z,2018-03-27T08:45:41Z,guest271314,,0
 308722774,false,Move all members except href in SVGAElement to mixin in HTML,https://github.com/whatwg/html/issues/3591,2018-03-26T20:26:33Z,2018-04-21T15:22:50Z,dstorey,topic: hyperlink|integration,0
@@ -2989,7 +2991,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 233417356,true,"""The length attribute's getter must this DOMStri...""",https://github.com/whatwg/html/issues/2736,2017-06-04T07:27:57Z,2017-06-19T17:15:48Z,harttle,good first issue,0
 233314545,false,[Parser] We can get rid of Decimal character reference start state in tokenizer,https://github.com/whatwg/html/issues/2733,2017-06-02T22:07:56Z,2021-12-20T15:55:56Z,inikulin,clarification|topic: parser,0
 233079366,true,"""The parser sets the Document to quirks mode in ...""",https://github.com/whatwg/html/issues/2732,2017-06-02T05:20:09Z,2017-06-21T10:32:47Z,zcorpan,clarification,0
-232886713,true,Remove <menuitem> and context menu specs,https://github.com/whatwg/html/issues/2730,2017-06-01T13:53:17Z,2022-04-29T06:57:11Z,domenic,removal/deprecation,39
+232886713,true,Remove <menuitem> and context menu specs,https://github.com/whatwg/html/issues/2730,2017-06-01T13:53:17Z,2022-04-29T06:57:11Z,domenic,removal/deprecation,40
 232807613,true,Default style for <legend>: 'padding',https://github.com/whatwg/html/issues/2729,2017-06-01T08:49:27Z,2018-08-15T21:05:45Z,zcorpan,topic: rendering|interop|topic: fieldset,0
 232779665,false,Default rendering of <hr>: 'color',https://github.com/whatwg/html/issues/2727,2017-06-01T06:40:03Z,2017-06-01T12:22:24Z,zcorpan,topic: rendering|interop,0
 232612734,false,Define interaction of keyboard and activation more clearly,https://github.com/whatwg/html/issues/2725,2017-05-31T15:53:40Z,2017-06-02T12:04:58Z,bzbarsky,topic: events,1

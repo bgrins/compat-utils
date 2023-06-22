@@ -1,4 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1768695537,false,"Editorial rework of directionality ",https://github.com/whatwg/html/pull/9452,2023-06-22T00:09:07Z,2023-06-22T00:10:22Z,bkardell,,0
+1768470617,false,Make togglePopover throw more exceptions,https://github.com/whatwg/html/pull/9451,2023-06-21T20:56:50Z,2023-06-21T20:58:05Z,josepharhar,,0
 1763558894,true,Editorial: remove plugin language from media elements,https://github.com/whatwg/html/pull/9440,2023-06-19T13:32:54Z,2023-06-20T06:28:12Z,annevk,,0
 1763113582,false,"Change ""show popover"" to call ""check popover validity"" first",https://github.com/whatwg/html/pull/9439,2023-06-19T09:19:32Z,2023-06-19T12:24:58Z,mbrodesser-Igalia,topic: popover,0
 1760637113,false,Account for optgroup removal,https://github.com/whatwg/html/pull/9434,2023-06-16T13:25:40Z,2023-06-16T13:26:56Z,annevk,,0
@@ -43,7 +45,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1712520196,true,Editorial: Remove duplicate delaying the load event requirement,https://github.com/whatwg/html/pull/9303,2023-05-16T18:24:14Z,2023-05-17T01:12:49Z,domfarolino,topic: embed and object|editorial,0
 1710018774,true,Meta: load some scripts with defer to make their DOMContentLoaded listener reliable,https://github.com/whatwg/html/pull/9297,2023-05-15T12:41:28Z,2023-06-02T07:08:42Z,jsnajdr,,0
 1704717590,true,Don't restore popover focus for manual popovers,https://github.com/whatwg/html/pull/9271,2023-05-10T22:43:30Z,2023-05-19T12:34:25Z,josepharhar,topic: focus|topic: popover,0
-1702373150,false,Remove redundant call to nearest open popover,https://github.com/whatwg/html/pull/9267,2023-05-09T16:36:03Z,2023-06-08T06:16:15Z,josepharhar,topic: popover,0
+1702373150,false,Remove redundant call to nearest open popover,https://github.com/whatwg/html/pull/9267,2023-05-09T16:36:03Z,2023-06-21T18:52:10Z,josepharhar,topic: popover,0
 1700973300,true,Editorial: formalize the concept of a realm's agent,https://github.com/whatwg/html/pull/9264,2023-05-08T21:32:31Z,2023-05-31T07:13:41Z,syg,editorial,1
 1700695424,true,editorial updates for popover example,https://github.com/whatwg/html/pull/9262,2023-05-08T18:10:52Z,2023-05-09T15:42:39Z,scottaohara,topic: popover,0
 1699764860,true,Editorial: reorder the navigation params structs,https://github.com/whatwg/html/pull/9261,2023-05-08T08:15:12Z,2023-05-08T22:42:31Z,domenic,clarification|topic: navigation,0
@@ -65,7 +67,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1681710250,true,Issue #9206: Submit input element directionality only for text and search type,https://github.com/whatwg/html/pull/9207,2023-04-24T17:13:20Z,2023-05-15T14:51:35Z,vinhill,,0
 1680497412,true,"Export dfn ""CORS settings attribute credentials mode"".",https://github.com/whatwg/html/pull/9204,2023-04-24T05:44:54Z,2023-04-24T05:49:59Z,mgiuca,,0
 1679215284,true,Improve popover event handling in nested showing and hiding,https://github.com/whatwg/html/pull/9198,2023-04-21T23:34:07Z,2023-06-08T11:51:43Z,josepharhar,topic: popover,0
-1678368760,false,Add customElements.getName(constructor),https://github.com/whatwg/html/pull/9195,2023-04-21T11:31:03Z,2023-06-08T22:12:41Z,keithamus,,0
+1678368760,false,Add customElements.getName(constructor),https://github.com/whatwg/html/pull/9195,2023-04-21T11:31:03Z,2023-06-21T15:40:31Z,keithamus,,0
 1677427586,false,Add shapeSmoothingEnabled option for CanvasRenderingContext2D,https://github.com/whatwg/html/pull/9192,2023-04-20T21:03:07Z,2023-04-28T03:53:14Z,nornagon,topic: canvas,0
 1677097386,true,Fix map definition in topmost popover ancestor,https://github.com/whatwg/html/pull/9190,2023-04-20T17:02:55Z,2023-04-24T14:44:53Z,josepharhar,topic: popover,0
 1675697862,true,Reset the popover invoker in show popover,https://github.com/whatwg/html/pull/9186,2023-04-19T21:54:28Z,2023-05-11T12:41:16Z,josepharhar,topic: popover,1
@@ -74,7 +76,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1671928914,true,Only restore dialog focus if focus is in the dialog,https://github.com/whatwg/html/pull/9178,2023-04-17T20:35:40Z,2023-06-06T21:19:25Z,josepharhar,topic: focus|topic: dialog,0
 1669042716,true,Only use the used invoker to establish popover hierarchy,https://github.com/whatwg/html/pull/9171,2023-04-14T23:15:12Z,2023-05-08T16:13:13Z,josepharhar,topic: popover,0
 1668446599,true,Fix var/ref name mismatch with s/intendToStoreInBfcache/intendToKeepInBfcache/,https://github.com/whatwg/html/pull/9170,2023-04-14T15:13:52Z,2023-04-17T12:18:58Z,jan-ivar,topic: history,0
-1666970337,false,Update the :dir / directionality to include shadow dom,https://github.com/whatwg/html/pull/9166,2023-04-13T18:54:01Z,2023-06-21T08:03:34Z,bkardell,topic: shadow|topic: selectors,0
+1666970337,false,Update the :dir / directionality to include shadow dom,https://github.com/whatwg/html/pull/9166,2023-04-13T18:54:01Z,2023-06-21T13:23:43Z,bkardell,topic: shadow|topic: selectors,0
 1666849333,true,Don't fire popover events during attribute change steps,https://github.com/whatwg/html/pull/9165,2023-04-13T17:32:17Z,2023-04-19T22:06:09Z,nt1m,topic: popover,0
 1666310483,true,[meta] Mark seven definitions as exported,https://github.com/whatwg/html/pull/9163,2023-04-13T12:20:28Z,2023-04-17T06:40:51Z,dontcallmedom,,0
 1665915432,true,Do not do same-URL replace navigations when initiated cross-origin,https://github.com/whatwg/html/pull/9157,2023-04-13T07:58:01Z,2023-05-08T22:49:00Z,domenic,normative change|topic: navigation|security/privacy|topic: history,0
@@ -340,7 +342,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1285261705,true,Fix HostPromiseRejectionHandler when running script is null,https://github.com/whatwg/html/pull/8043,2022-06-27T05:23:09Z,2022-12-05T09:59:23Z,domenic,topic: script,0
 1283808531,false,Add cross-site ancestor flag to environment. (privacycg/storage-parti…,https://github.com/whatwg/html/pull/8036,2022-06-24T14:16:39Z,2022-08-22T02:36:08Z,wanderview,,0
 1281837141,true,Add note about last activation timestamp spanning navigations,https://github.com/whatwg/html/pull/8029,2022-06-23T05:47:01Z,2022-06-27T06:56:12Z,rakina,clarification|topic: user activation,0
-1281180383,false,Add new UA style rules for overflow changes; see w3c/csswg-drafts#7144,https://github.com/whatwg/html/pull/8028,2022-06-22T23:00:59Z,2023-06-21T09:44:37Z,tabatkins,topic: rendering|integration,0
+1281180383,false,Add new UA style rules for overflow changes; see w3c/csswg-drafts#7144,https://github.com/whatwg/html/pull/8028,2022-06-22T23:00:59Z,2023-06-21T12:49:41Z,tabatkins,topic: rendering|integration,0
 1280773484,false,Add top-level site to environment. (#8014),https://github.com/whatwg/html/pull/8027,2022-06-22T19:33:12Z,2022-08-22T02:36:08Z,wanderview,,0
 1280748717,true,"Editorial: use <iframe>, not <object>, for content-venn.svg",https://github.com/whatwg/html/pull/8026,2022-06-22T19:10:44Z,2022-07-06T10:10:10Z,domenic,topic: embed and object,0
 1276077310,false,Add a warning sentence for iframe load event step,https://github.com/whatwg/html/pull/8022,2022-06-19T14:24:22Z,2022-08-22T02:36:08Z,negibokken,,0
@@ -397,7 +399,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1219450270,true,Improve clarity of render-blocking related terms,https://github.com/whatwg/html/pull/7870,2022-04-28T23:35:27Z,2022-05-03T17:19:22Z,xiaochengh,clarification|topic: rendering,0
 1219005122,true,"Added HTML tags, body tag, and indentation",https://github.com/whatwg/html/pull/7868,2022-04-28T16:49:28Z,2022-04-28T19:20:36Z,codesalot,spam,4
 1218370191,true,Editorial: refactor link headers to be declared per-type,https://github.com/whatwg/html/pull/7866,2022-04-28T08:17:30Z,2022-05-26T17:03:34Z,noamr,topic: resource hints (inc. preload),0
-1216305678,false,`modulepreload` in Link header & early hints,https://github.com/whatwg/html/pull/7862,2022-04-26T18:07:26Z,2023-05-23T07:37:20Z,noamr,topic: resource hints (inc. preload),0
+1216305678,false,`modulepreload` in Link header & early hints,https://github.com/whatwg/html/pull/7862,2022-04-26T18:07:26Z,2023-06-21T20:30:47Z,noamr,topic: resource hints (inc. preload),0
 1215253561,true,Don't unblock rendering for implicitly render-blocking elements on `blocking` attribute changes,https://github.com/whatwg/html/pull/7857,2022-04-26T02:00:34Z,2022-05-03T18:02:51Z,xiaochengh,normative change|topic: rendering,0
 1214729525,false,Rework media element removal steps,https://github.com/whatwg/html/pull/7855,2022-04-25T16:02:34Z,2022-08-22T02:36:08Z,annevk,topic: media|topic: event loop,0
 1213600576,true,Only preload resources with matching type/as attributes,https://github.com/whatwg/html/pull/7851,2022-04-24T09:32:30Z,2022-05-04T14:22:14Z,noamr,topic: link|topic: resource hints (inc. preload),0
