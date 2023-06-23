@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1768695537,false,"Editorial rework of directionality ",https://github.com/whatwg/html/pull/9452,2023-06-22T00:09:07Z,2023-06-22T00:10:22Z,bkardell,,0
+1768695537,false,"Editorial rework of directionality ",https://github.com/whatwg/html/pull/9452,2023-06-22T00:09:07Z,2023-06-22T13:40:27Z,bkardell,,0
 1768470617,false,Make togglePopover throw more exceptions,https://github.com/whatwg/html/pull/9451,2023-06-21T20:56:50Z,2023-06-21T20:58:05Z,josepharhar,,0
 1763558894,true,Editorial: remove plugin language from media elements,https://github.com/whatwg/html/pull/9440,2023-06-19T13:32:54Z,2023-06-20T06:28:12Z,annevk,,0
 1763113582,false,"Change ""show popover"" to call ""check popover validity"" first",https://github.com/whatwg/html/pull/9439,2023-06-19T09:19:32Z,2023-06-19T12:24:58Z,mbrodesser-Igalia,topic: popover,0
@@ -11,7 +11,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1754881399,true,"Initialize `nestedHide` variable in the ""hide a popover"" algorithm",https://github.com/whatwg/html/pull/9419,2023-06-13T13:20:06Z,2023-06-14T11:17:55Z,mbrodesser-Igalia,topic: popover,0
 1754473779,true,source modified,https://github.com/whatwg/html/pull/9418,2023-06-13T09:42:16Z,2023-06-15T13:55:09Z,arup1221,,0
 1750102943,false,Require support for AsyncContext,https://github.com/whatwg/html/pull/9408,2023-06-09T15:28:34Z,2023-06-10T08:44:43Z,Ms2ger,,0
-1749982433,false,Propagate fetch referrer in dynamic imports,https://github.com/whatwg/html/pull/9407,2023-06-09T14:14:59Z,2023-06-19T20:57:47Z,nicolo-ribaudo,normative change|topic: script,0
+1749982433,false,Propagate fetch referrer in dynamic imports,https://github.com/whatwg/html/pull/9407,2023-06-09T14:14:59Z,2023-06-22T18:27:47Z,nicolo-ribaudo,normative change|topic: script,0
 1745979749,false,Add name attribute for grouping details elements into an exclusive accordion,https://github.com/whatwg/html/pull/9400,2023-06-07T13:59:20Z,2023-06-21T06:09:35Z,dbaron,addition/proposal|needs implementer interest,0
 1745722348,true,Null checks for img pending request,https://github.com/whatwg/html/pull/9399,2023-06-07T11:52:31Z,2023-06-09T12:15:43Z,zcorpan,,0
 1745244513,true,"Add asserting element's popover invoker is null in the ""show popover"" algorithm",https://github.com/whatwg/html/pull/9397,2023-06-07T07:27:12Z,2023-06-07T20:19:27Z,mbrodesser-Igalia,topic: popover,0
@@ -45,7 +45,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1712520196,true,Editorial: Remove duplicate delaying the load event requirement,https://github.com/whatwg/html/pull/9303,2023-05-16T18:24:14Z,2023-05-17T01:12:49Z,domfarolino,topic: embed and object|editorial,0
 1710018774,true,Meta: load some scripts with defer to make their DOMContentLoaded listener reliable,https://github.com/whatwg/html/pull/9297,2023-05-15T12:41:28Z,2023-06-02T07:08:42Z,jsnajdr,,0
 1704717590,true,Don't restore popover focus for manual popovers,https://github.com/whatwg/html/pull/9271,2023-05-10T22:43:30Z,2023-05-19T12:34:25Z,josepharhar,topic: focus|topic: popover,0
-1702373150,false,Remove redundant call to nearest open popover,https://github.com/whatwg/html/pull/9267,2023-05-09T16:36:03Z,2023-06-21T18:52:10Z,josepharhar,topic: popover,0
+1702373150,true,Remove redundant call to nearest open popover,https://github.com/whatwg/html/pull/9267,2023-05-09T16:36:03Z,2023-06-22T16:40:04Z,josepharhar,topic: popover,0
 1700973300,true,Editorial: formalize the concept of a realm's agent,https://github.com/whatwg/html/pull/9264,2023-05-08T21:32:31Z,2023-05-31T07:13:41Z,syg,editorial,1
 1700695424,true,editorial updates for popover example,https://github.com/whatwg/html/pull/9262,2023-05-08T18:10:52Z,2023-05-09T15:42:39Z,scottaohara,topic: popover,0
 1699764860,true,Editorial: reorder the navigation params structs,https://github.com/whatwg/html/pull/9261,2023-05-08T08:15:12Z,2023-05-08T22:42:31Z,domenic,clarification|topic: navigation,0
@@ -61,13 +61,13 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1686196867,true,"Prefetch: Specify ""appropriate times to fetch and process""",https://github.com/whatwg/html/pull/9223,2023-04-27T06:25:14Z,2023-04-27T09:15:22Z,noamr,topic: link|topic: resource hints (inc. preload),0
 1684188006,true,Clarify WebTransport BFCache interaction,https://github.com/whatwg/html/pull/9217,2023-04-26T03:04:11Z,2023-06-02T03:03:44Z,nidhijaju,,0
 1683549011,true,Remove references to RegExp `v` flag proposal,https://github.com/whatwg/html/pull/9213,2023-04-25T17:11:38Z,2023-06-16T10:38:02Z,mathiasbynens,,0
-1682091177,false,Use module referrer policy for descendant fetches,https://github.com/whatwg/html/pull/9210,2023-04-24T21:47:00Z,2023-05-19T13:13:34Z,domfarolino,do not merge yet|needs tests|topic: script,0
+1682091177,false,Use module referrer policy for descendant fetches,https://github.com/whatwg/html/pull/9210,2023-04-24T21:47:00Z,2023-06-22T19:38:55Z,domfarolino,do not merge yet|needs tests|topic: script,0
 1681873727,true,"Make script's ""base URL"" member nullable, as the spec expects",https://github.com/whatwg/html/pull/9209,2023-04-24T19:14:03Z,2023-04-25T05:15:23Z,domfarolino,topic: script,0
 1681759829,true,Stop exporting 'Web workers' header,https://github.com/whatwg/html/pull/9208,2023-04-24T17:54:05Z,2023-04-26T11:38:50Z,domfarolino,editorial,0
 1681710250,true,Issue #9206: Submit input element directionality only for text and search type,https://github.com/whatwg/html/pull/9207,2023-04-24T17:13:20Z,2023-05-15T14:51:35Z,vinhill,,0
 1680497412,true,"Export dfn ""CORS settings attribute credentials mode"".",https://github.com/whatwg/html/pull/9204,2023-04-24T05:44:54Z,2023-04-24T05:49:59Z,mgiuca,,0
 1679215284,true,Improve popover event handling in nested showing and hiding,https://github.com/whatwg/html/pull/9198,2023-04-21T23:34:07Z,2023-06-08T11:51:43Z,josepharhar,topic: popover,0
-1678368760,false,Add customElements.getName(constructor),https://github.com/whatwg/html/pull/9195,2023-04-21T11:31:03Z,2023-06-21T15:40:31Z,keithamus,,0
+1678368760,false,Add customElements.getName(constructor),https://github.com/whatwg/html/pull/9195,2023-04-21T11:31:03Z,2023-06-22T15:49:07Z,keithamus,,0
 1677427586,false,Add shapeSmoothingEnabled option for CanvasRenderingContext2D,https://github.com/whatwg/html/pull/9192,2023-04-20T21:03:07Z,2023-04-28T03:53:14Z,nornagon,topic: canvas,0
 1677097386,true,Fix map definition in topmost popover ancestor,https://github.com/whatwg/html/pull/9190,2023-04-20T17:02:55Z,2023-04-24T14:44:53Z,josepharhar,topic: popover,0
 1675697862,true,Reset the popover invoker in show popover,https://github.com/whatwg/html/pull/9186,2023-04-19T21:54:28Z,2023-05-11T12:41:16Z,josepharhar,topic: popover,1
@@ -83,7 +83,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1665882711,true,Fix form submission's replace-before-load logic,https://github.com/whatwg/html/pull/9156,2023-04-13T07:34:01Z,2023-05-10T07:05:24Z,domenic,topic: navigation|topic: forms|interop,0
 1665109294,false,Add payto as a safelisted scheme for registerProtocolHandler(),https://github.com/whatwg/html/pull/9155,2023-04-12T19:17:02Z,2023-04-14T17:39:51Z,rastislavcore,addition/proposal|needs implementer interest|topic: custom protocols,0
 1663489093,false,Move cross-origin opener policy into policy container,https://github.com/whatwg/html/pull/9149,2023-04-12T01:17:19Z,2023-06-03T21:24:00Z,domfarolino,topic: cross-origin-opener-policy|topic: policy container,0
-1661201309,false,Add anchor attribute,https://github.com/whatwg/html/pull/9144,2023-04-10T18:57:34Z,2023-06-06T16:58:44Z,josepharhar,,0
+1661201309,false,Add anchor attribute,https://github.com/whatwg/html/pull/9144,2023-04-10T18:57:34Z,2023-06-22T16:29:59Z,josepharhar,,0
 1660955905,true,Don't throw when popover/dialog is in requested state,https://github.com/whatwg/html/pull/9142,2023-04-10T15:32:00Z,2023-06-20T13:07:13Z,josepharhar,needs tests|topic: dialog|topic: popover,0
 1660921767,true,Remove anchor attribute reference in popover note,https://github.com/whatwg/html/pull/9141,2023-04-10T15:05:50Z,2023-04-24T14:03:23Z,josepharhar,topic: popover,0
 1660416855,true,"Fix ""active frame element"" definition",https://github.com/whatwg/html/pull/9139,2023-04-10T08:08:01Z,2023-04-28T07:31:26Z,domenic,topic: browsing context,0
@@ -155,7 +155,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1584809177,true,Export some popover dfns,https://github.com/whatwg/html/pull/8885,2023-02-14T20:51:09Z,2023-02-17T17:28:42Z,josepharhar,meta|topic: popover,1
 1577842845,true,33,https://github.com/whatwg/html/pull/8871,2023-02-09T12:52:48Z,2023-02-12T20:41:04Z,TRCREO,spam,0
 1571305156,true,Editorial: correct popover IDL,https://github.com/whatwg/html/pull/8860,2023-02-05T08:02:34Z,2023-02-06T06:32:33Z,annevk,,0
-1561489906,false,Define eligibility for autofill,https://github.com/whatwg/html/pull/8801,2023-01-29T22:42:38Z,2023-06-16T14:02:11Z,schwering,addition/proposal|needs implementer interest|topic: forms,0
+1561489906,false,Define eligibility for autofill,https://github.com/whatwg/html/pull/8801,2023-01-29T22:42:38Z,2023-06-22T17:09:41Z,schwering,addition/proposal|needs implementer interest|topic: forms,0
 1560561601,true,additional accessibility guidance for popover,https://github.com/whatwg/html/pull/8791,2023-01-27T23:33:03Z,2023-03-14T17:02:10Z,scottaohara,accessibility|topic: popover,1
 1559305003,true,Correct <input type=image> form submission behavior,https://github.com/whatwg/html/pull/8788,2023-01-27T07:33:45Z,2023-01-28T15:43:28Z,annevk,,2
 1557919226,true,#8364isssue-solved,https://github.com/whatwg/html/pull/8781,2023-01-26T10:20:10Z,2023-03-08T01:07:06Z,YASHWANTHKESAGONI,,0
