@@ -1,11 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1770843958,false,Proposal for built-in method to synchronize elements with virtual DOM representation,https://github.com/whatwg/dom/issues/1213,2023-06-23T06:09:14Z,2023-06-23T08:53:38Z,irony,needs implementer interest|needs concrete proposal|topic: nodes,0
-1761761705,false,Delegate to Iterator helper methods on NodeList,https://github.com/whatwg/dom/issues/1211,2023-06-17T10:06:44Z,2023-06-17T18:32:30Z,keithamus,needs implementer interest|addition/proposal|topic: nodes,0
+1770843958,false,Proposal for built-in method to synchronize elements with virtual DOM representation,https://github.com/whatwg/dom/issues/1213,2023-06-23T06:09:14Z,2023-06-23T12:27:35Z,irony,needs implementer interest|needs concrete proposal|topic: nodes,1
+1761761705,false,Delegate to Iterator helper methods on NodeList,https://github.com/whatwg/dom/issues/1211,2023-06-17T10:06:44Z,2023-06-23T12:28:21Z,keithamus,needs implementer interest|addition/proposal|topic: nodes,0
 1750141335,true,Proposal: Colour API,https://github.com/whatwg/dom/issues/1208,2023-06-09T15:56:20Z,2023-06-09T16:30:57Z,keithamus,needs implementer interest|addition/proposal|needs concrete proposal,0
 1728881591,true,"Undefined variable in the ""add an event listener"" algorithm",https://github.com/whatwg/dom/issues/1203,2023-05-27T18:23:06Z,2023-05-31T10:44:19Z,jeremydavis519,,1
-1719588040,false,Event.composedPath() inconsistency between implementors.,https://github.com/whatwg/dom/issues/1201,2023-05-22T12:26:32Z,2023-05-27T06:25:46Z,Jack-Works,interop|topic: events,1
+1719588040,false,Event.composedPath() inconsistency between implementors.,https://github.com/whatwg/dom/issues/1201,2023-05-22T12:26:32Z,2023-06-23T12:35:16Z,Jack-Works,interop|topic: events,1
 1709682685,false,Define XPath's lang() as ASCII case-insensitive,https://github.com/whatwg/dom/issues/1199,2023-05-15T09:24:38Z,2023-05-15T22:03:00Z,annevk,,0
-1709677139,false,Import HTML's XPath and XSLT monkey patches,https://github.com/whatwg/dom/issues/1198,2023-05-15T09:21:15Z,2023-06-05T17:04:25Z,annevk,,1
+1709677139,false,Import HTML's XPath and XSLT monkey patches,https://github.com/whatwg/dom/issues/1198,2023-05-15T09:21:15Z,2023-06-23T12:35:35Z,annevk,,1
 1706280852,true,Undeprecate document.all,https://github.com/whatwg/dom/issues/1196,2023-05-11T17:52:35Z,2023-05-11T21:45:31Z,jfbrennan,,0
 1697248128,false,Userland AbortSignal,https://github.com/whatwg/dom/issues/1195,2023-05-05T08:51:37Z,2023-05-20T11:47:55Z,annevk,topic: aborting,1
 1697012948,false,Stop exporting AbortSignal's signal abort,https://github.com/whatwg/dom/issues/1194,2023-05-05T05:04:17Z,2023-05-05T05:09:25Z,annevk,clarification|topic: aborting,0
@@ -599,7 +599,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 107589132,true,Consider making `timestamp` a DOMHighResTimestamp,https://github.com/whatwg/dom/issues/80,2015-09-21T20:10:59Z,2015-09-22T13:24:09Z,RByers,,0
 107463930,true,Read-only OS time formatting preferences,https://github.com/whatwg/dom/issues/79,2015-09-21T08:20:44Z,2015-09-21T08:23:34Z,zbraniecki,,0
 107286309,true,MutationObserver callbacks should be called before executing defer scritps,https://github.com/whatwg/dom/issues/78,2015-09-18T22:03:36Z,2015-09-21T05:57:40Z,zbraniecki,,0
-107286149,true,MutationObserver with querySelector for elements,https://github.com/whatwg/dom/issues/77,2015-09-18T22:02:11Z,2018-03-13T07:14:24Z,zbraniecki,needs implementer interest,11
+107286149,true,MutationObserver with querySelector for elements,https://github.com/whatwg/dom/issues/77,2015-09-18T22:02:11Z,2018-03-13T07:14:24Z,zbraniecki,needs implementer interest,12
 107258728,false,Should EventInit contain 'timestamp'?,https://github.com/whatwg/dom/issues/76,2015-09-18T19:02:40Z,2019-04-11T09:40:29Z,RByers,needs implementer interest|topic: events|addition/proposal,0
 106792140,true,Incorrect link in createEvent definition,https://github.com/whatwg/dom/issues/73,2015-09-16T15:01:08Z,2015-09-16T15:28:43Z,bzbarsky,,0
 106510418,true,Make createAttribute() lowercase the input in HTML documents,https://github.com/whatwg/dom/issues/72,2015-09-15T08:43:38Z,2015-09-15T08:58:18Z,foolip,,0

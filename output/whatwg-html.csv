@@ -2,8 +2,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1769582158,true,`longpress` DOM event,https://github.com/whatwg/html/issues/9454,2023-06-22T12:31:26Z,2023-06-22T14:54:49Z,jpzwarte,,0
 1769559940,false,The canvas fontStretch attribute should accept percentage values as well as keywords,https://github.com/whatwg/html/issues/9453,2023-06-22T12:16:35Z,2023-06-22T12:16:35Z,jfkthame,,0
 1767925840,false,Possible performance optimizations of structured clone algorithm against ArrayBufferView?,https://github.com/whatwg/html/issues/9450,2023-06-21T15:57:33Z,2023-06-21T23:48:24Z,shuhaowu,topic: serialize and transfer,0
-1767690214,false,auto-sizes concrete object size ignoring natural dimensions is not implementable,https://github.com/whatwg/html/issues/9448,2023-06-21T14:08:37Z,2023-06-22T21:14:50Z,zcorpan,topic: img,0
-1765973926,false,HTML Video Element: Proposal For Support for Srcset and Sizes attributes on source elements,https://github.com/whatwg/html/issues/9446,2023-06-20T18:52:24Z,2023-06-21T07:29:11Z,scottjehl,addition/proposal|topic: media,3
+1767690214,false,auto-sizes concrete object size ignoring natural dimensions is not implementable,https://github.com/whatwg/html/issues/9448,2023-06-21T14:08:37Z,2023-06-23T19:39:09Z,zcorpan,topic: img,0
+1765973926,false,HTML Video Element: Proposal For Support for Srcset and Sizes attributes on source elements,https://github.com/whatwg/html/issues/9446,2023-06-20T18:52:24Z,2023-06-21T07:29:11Z,scottjehl,addition/proposal|topic: media,9
 1764161923,true,Spec clarification: Are values in fontVariant & fontKerning case sensitive?,https://github.com/whatwg/html/issues/9445,2023-06-19T20:09:46Z,2023-06-19T22:59:06Z,yiyix,,0
 1763904590,false,"Import with type text, bytes, and URL",https://github.com/whatwg/html/issues/9444,2023-06-19T17:07:43Z,2023-06-20T16:49:42Z,kriskowal,addition/proposal|needs implementer interest|topic: script,2
 1763586145,false,Why is checking document validity skipped sometimes?,https://github.com/whatwg/html/issues/9441,2023-06-19T13:47:43Z,2023-06-19T13:47:43Z,mbrodesser-Igalia,topic: popover,0
@@ -43,7 +43,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1727904410,true,Using <h4> in a <figure> to record title content within XHTML,https://github.com/whatwg/html/issues/9342,2023-05-26T16:18:41Z,2023-05-27T01:54:43Z,KD-3240,,0
 1727581751,false,Proposal: Improve support for multiple target origins for Window#postMessage,https://github.com/whatwg/html/issues/9340,2023-05-26T12:58:54Z,2023-06-11T13:22:49Z,eliasm307,addition/proposal|needs implementer interest|topic: serialize and transfer,0
 1726270402,true,"""check popover algorithm"" check for open dialogs is weak",https://github.com/whatwg/html/issues/9335,2023-05-25T18:10:32Z,2023-06-06T05:15:42Z,nt1m,topic: dialog|topic: popover,0
-1726046900,false,Proposal: Meta Tag for AI Consent Management,https://github.com/whatwg/html/issues/9334,2023-05-25T15:27:38Z,2023-06-01T07:37:33Z,brennancaldwell,addition/proposal|needs implementer interest,0
+1726046900,false,Proposal: Meta Tag for AI Consent Management,https://github.com/whatwg/html/issues/9334,2023-05-25T15:27:38Z,2023-06-23T22:46:29Z,brennancaldwell,addition/proposal|needs implementer interest,0
 1725842986,false,[View Transitions] Extend render-blocking to support Document,https://github.com/whatwg/html/issues/9332,2023-05-25T13:33:50Z,2023-06-15T20:44:55Z,khushalsagar,addition/proposal|topic: rendering,0
 1723771024,false,browsers handle document.open'ed iframe documents differently in session history,https://github.com/whatwg/html/issues/9330,2023-05-24T11:30:34Z,2023-06-01T07:36:22Z,smaug----,topic: history|interop|topic: document.open(),0
 1723381350,true,link type preload has a recursive refLink,https://github.com/whatwg/html/issues/9327,2023-05-24T07:45:31Z,2023-05-25T05:14:45Z,Kaiido,,0
@@ -1018,7 +1018,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 874600526,false,legend seems to be recognised/used even when not *first* child,https://github.com/whatwg/html/issues/6645,2021-05-03T13:59:41Z,2021-12-03T08:11:21Z,patrickhlauke,clarification,1
 874511738,true,`id` were mis-typed as `is`,https://github.com/whatwg/html/issues/6644,2021-05-03T12:03:10Z,2021-05-03T13:33:05Z,ianthedev,,0
 872435429,true,Cross-Origin-Embedder-Policy: credentialless,https://github.com/whatwg/html/issues/6637,2021-04-30T12:33:31Z,2021-11-02T12:55:38Z,ArthurSonzogni,topic: cross-origin-embedder-policy,0
-872131730,false,Lazy loading video element poster attribute,https://github.com/whatwg/html/issues/6636,2021-04-30T07:54:55Z,2023-06-13T07:41:14Z,asuh,addition/proposal|topic: media,5
+872131730,false,Lazy loading video element poster attribute,https://github.com/whatwg/html/issues/6636,2021-04-30T07:54:55Z,2023-06-13T07:41:14Z,asuh,addition/proposal|topic: media,6
 872059164,true,`:active` pseudo-class specification doesn't account for children/labels of disabled form elements,https://github.com/whatwg/html/issues/6635,2021-04-30T02:11:14Z,2022-02-10T19:06:49Z,alystair,topic: rendering|topic: forms,0
 870905892,false,Allow <source> to use <img>'s sizes data as a fallback,https://github.com/whatwg/html/issues/6633,2021-04-29T11:24:34Z,2022-02-04T15:46:29Z,jakearchibald,addition/proposal|topic: img,32
 870188337,true,import.meta.url always uses percent-encodings,https://github.com/whatwg/html/issues/6630,2021-04-28T17:34:16Z,2023-02-24T16:09:38Z,guybedford,,0
