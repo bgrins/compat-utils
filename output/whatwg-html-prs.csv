@@ -27,7 +27,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1735662308,true,Add empty string special case for pushState/replaceState,https://github.com/whatwg/html/pull/9370,2023-06-01T07:26:49Z,2023-06-02T03:06:20Z,domenic,topic: history|interop,0
 1735288504,true,Tighten auto popover list definition,https://github.com/whatwg/html/pull/9369,2023-06-01T01:45:56Z,2023-06-06T19:53:27Z,josepharhar,topic: popover,0
 1732189866,false,Use the fetched unsafe response for network status and response bodies,https://github.com/whatwg/html/pull/9362,2023-05-30T12:47:15Z,2023-06-09T14:24:49Z,trflynn89,,0
-1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-06-23T07:29:21Z,rubberyuzu,,0
+1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-06-26T08:06:03Z,rubberyuzu,,0
 1729857566,true,Add files via upload,https://github.com/whatwg/html/pull/9353,2023-05-29T01:56:27Z,2023-05-29T04:36:27Z,jakex666x,spam,0
 1728531782,true,Check dialog is modal flag instead of open attribute in 'check popover validity' algorithm,https://github.com/whatwg/html/pull/9344,2023-05-27T08:09:19Z,2023-06-12T06:54:45Z,nt1m,normative change|topic: popover,0
 1727729022,true,Re-add <source media> for media elements,https://github.com/whatwg/html/pull/9341,2023-05-26T14:21:19Z,2023-06-12T12:20:28Z,zcorpan,,3
@@ -39,7 +39,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1722651100,true,Editorial: Fix typo in Ian Kilpatrick's name.,https://github.com/whatwg/html/pull/9325,2023-05-23T19:22:16Z,2023-05-23T22:51:14Z,dbaron,,0
 1721407841,true,Make document unsalvageable,https://github.com/whatwg/html/pull/9324,2023-05-23T07:27:14Z,2023-05-30T06:27:15Z,rubberyuzu,,0
 1717546148,false,Update RO loop to include content-visibility,https://github.com/whatwg/html/pull/9312,2023-05-19T16:56:53Z,2023-06-01T15:49:56Z,vmpstr,,0
-1716303125,false,Ignore dangling markup in target name,https://github.com/whatwg/html/pull/9309,2023-05-18T21:39:56Z,2023-06-16T10:02:08Z,shhnjk,,0
+1716303125,false,Ignore dangling markup in target name,https://github.com/whatwg/html/pull/9309,2023-05-18T21:39:56Z,2023-06-26T07:28:24Z,shhnjk,,0
 1714880100,true,Add not restored reasons,https://github.com/whatwg/html/pull/9307,2023-05-18T02:16:46Z,2023-05-30T06:27:07Z,rubberyuzu,,0
 1712881320,true,Cleaned up the tables for getContext(),https://github.com/whatwg/html/pull/9305,2023-05-16T23:51:51Z,2023-05-23T14:27:22Z,trevorspiniolas,clarification|topic: canvas,0
 1712520196,true,Editorial: Remove duplicate delaying the load event requirement,https://github.com/whatwg/html/pull/9303,2023-05-16T18:24:14Z,2023-05-17T01:12:49Z,domfarolino,topic: embed and object|editorial,0
@@ -215,7 +215,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1450508581,true,Correct orphaned variable sandboxFlags to use targetSnapshotParams.,https://github.com/whatwg/html/pull/8512,2022-11-15T23:07:28Z,2022-11-17T03:04:06Z,jeremyroman,,0
 1449664827,true,Meta: zcorpan's employed changed,https://github.com/whatwg/html/pull/8508,2022-11-15T11:58:39Z,2022-11-15T12:33:40Z,zcorpan,,0
 1448000463,false,Support taler: URLs in registerProtocolHandler(),https://github.com/whatwg/html/pull/8503,2022-11-14T12:48:41Z,2023-04-06T07:43:36Z,grothoff,addition/proposal|needs implementer interest,0
-1447758651,false,Add the navigation API,https://github.com/whatwg/html/pull/8502,2022-11-14T10:08:04Z,2023-06-22T03:04:40Z,domenic,addition/proposal|topic: navigation|topic: history,5
+1447758651,true,Add the navigation API,https://github.com/whatwg/html/pull/8502,2022-11-14T10:08:04Z,2023-06-26T09:09:50Z,domenic,addition/proposal|topic: navigation|topic: history,5
 1447376783,true,Add page visibility change steps for Screen Orientation,https://github.com/whatwg/html/pull/8501,2022-11-14T04:40:42Z,2022-12-16T22:05:13Z,marcoscaceres,,0
 1447276651,true,Editorial: simplify session history serialized state,https://github.com/whatwg/html/pull/8500,2022-11-14T02:45:58Z,2022-11-15T01:02:16Z,domenic,clarification|topic: history,0
 1445641023,true,Make reflect work for ElementInternals,https://github.com/whatwg/html/pull/8496,2022-11-11T15:32:49Z,2023-02-22T10:39:41Z,annevk,accessibility|topic: custom elements,0
@@ -350,7 +350,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1274141161,true,Export 'the body element' for other specifications to use,https://github.com/whatwg/html/pull/8017,2022-06-16T22:23:05Z,2022-06-16T22:53:22Z,zcorpan,,0
 1273830563,false,Add IntersectionObserver target requirement to Event Loops Processing Model,https://github.com/whatwg/html/pull/8016,2022-06-16T16:45:47Z,2022-08-22T02:36:08Z,nathaneliason,,0
 1270712984,true,Integrate with WebDriver-BiDi user prompt handling.,https://github.com/whatwg/html/pull/8010,2022-06-14T12:14:42Z,2022-06-17T18:46:26Z,jgraham,,0
-1270116125,true,Add sizes=auto to lazy-loaded <img>,https://github.com/whatwg/html/pull/8008,2022-06-14T00:47:59Z,2023-06-02T14:24:03Z,zcorpan,,35
+1270116125,true,Add sizes=auto to lazy-loaded <img>,https://github.com/whatwg/html/pull/8008,2022-06-14T00:47:59Z,2023-06-02T14:24:03Z,zcorpan,,36
 1269893795,true,"Add ""webauthn"" autocomplete token",https://github.com/whatwg/html/pull/8006,2022-06-13T20:03:26Z,2022-06-16T18:49:14Z,nsatragno,,0
 1267714744,true,Export `HTMLTemplateElement`'s `content`.,https://github.com/whatwg/html/pull/7998,2022-06-10T15:39:14Z,2022-06-13T08:51:58Z,mozfreddyb,,0
 1265300355,true,Compare against storage key when creating a SharedWorker. (#7913),https://github.com/whatwg/html/pull/7995,2022-06-08T20:56:35Z,2022-06-15T17:09:57Z,wanderview,topic: workers,0
@@ -1707,7 +1707,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 373725861,true,Change,https://github.com/whatwg/html/pull/4120,2018-10-25T00:20:58Z,2018-10-25T09:10:48Z,Alex150,,0
 373306232,true,converted the lines into points and highlighted the main words,https://github.com/whatwg/html/pull/4118,2018-10-24T05:04:09Z,2018-10-24T06:00:18Z,Rahul-Ratusaria,,0
 373286743,true,I add the css in a file,https://github.com/whatwg/html/pull/4117,2018-10-24T03:13:07Z,2018-10-24T05:57:38Z,ghost,,0
-373034695,true,"Add prefetch processing model, including double-key caching privacy protections",https://github.com/whatwg/html/pull/4115,2018-10-23T14:34:49Z,2022-12-01T04:46:39Z,yoavweiss,security/privacy,0
+373034695,true,"Add prefetch processing model, including double-key caching privacy protections",https://github.com/whatwg/html/pull/4115,2018-10-23T14:34:49Z,2023-06-26T10:15:28Z,yoavweiss,security/privacy,0
 371761753,true,upgrade in the loading phrase,https://github.com/whatwg/html/pull/4108,2018-10-19T00:22:27Z,2018-10-19T07:13:30Z,JoslaGG,,0
 371538861,true,"Treat CR, LF, CRLF the same for alert/confirm/prompt",https://github.com/whatwg/html/pull/4105,2018-10-18T13:46:44Z,2018-11-21T16:36:29Z,domenic,,0
 371538253,true,Integrate with requestIdleCallback,https://github.com/whatwg/html/pull/4104,2018-10-18T13:45:21Z,2018-10-25T14:57:46Z,rmcilroy,topic: event loop,2
