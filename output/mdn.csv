@@ -5116,7 +5116,7 @@ api/RTCPeerConnection/RTCPeerConnection/configuration_certificates_parameter,,42
 api/RTCPeerConnection/RTCPeerConnection/configuration_iceCandidatePoolSize_parameter,,,,23,,11,,false,true,false,,NONE
 api/RTCPeerConnection/RTCPeerConnection/configuration_iceServers_parameter,,22,,23,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcconfiguration-iceservers,W3C
 api/RTCPeerConnection/RTCPeerConnection/configuration_iceTransportPolicy_parameter,,42,,23,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcconfiguration-icetransportpolicy,W3C
-api/RTCPeerConnection/RTCPeerConnection/configuration_peerIdentity_parameter,,32,,23,,12.1,,false,true,false,,NONE
+api/RTCPeerConnection/RTCPeerConnection/configuration_peerIdentity_parameter,,32,,,,,,false,true,false,,NONE
 api/RTCPeerConnection/RTCPeerConnection/configuration_rtcpMuxPolicy_parameter,,,,57,,12.1,,false,true,false,,NONE
 api/RTCPeerConnection/addIceCandidate,,22,,24,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-peerconnection-addicecandidate,W3C
 api/RTCPeerConnection/addIceCandidate/returns_promise,,66,,50,,11,,false,true,false,,NONE
@@ -5133,7 +5133,7 @@ api/RTCPeerConnection/connectionState,,113,,72,,11,,false,true,false,https://w3c
 api/RTCPeerConnection/connectionstatechange_event,,113,,72,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnection-onconnectionstatechange,W3C
 api/RTCPeerConnection/createAnswer,,22,,24,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnection-createanswer,W3C
 api/RTCPeerConnection/createAnswer/returns_promise,,66,,51,,11,,false,true,false,,NONE
-api/RTCPeerConnection/createDTMFSender,,22,,27,,,,false,true,true,,NONE
+api/RTCPeerConnection/createDTMFSender,,,,27,,,,false,true,true,,NONE
 api/RTCPeerConnection/createDataChannel,,22,,24,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-peerconnection-createdatachannel,W3C
 api/RTCPeerConnection/createOffer,,22,,24,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnection-createoffer,W3C
 api/RTCPeerConnection/createOffer/returns_promise,,66,,51,,11,,false,true,false,,NONE
@@ -5611,7 +5611,6 @@ api/Request/Request,,39,,40,,10.1,,false,true,false,https://fetch.spec.whatwg.or
 api/Request/Request/cross_origin_stripped,,54,,69,,10.1,,false,true,false,,NONE
 api/Request/Request/init_priority_parameter,,,,101,,,,true,true,false,https://fetch.spec.whatwg.org/#dom-requestinit-priority,WHATWG
 api/Request/Request/init_referrer_parameter,,47,,47,,10.1,,false,true,false,https://fetch.spec.whatwg.org/#dom-requestinit-referrer,WHATWG
-api/Request/Request/navigate_mode,,46,,49,,10.1,,false,true,false,,NONE
 api/Request/Request/request_body_readablestream,,,,105,,,,true,true,false,,NONE
 api/Request/Request/response_body_readablestream,,65,,43,,,,false,true,false,,NONE
 api/Request/arrayBuffer,,39,,42,,10.1,,false,true,false,https://fetch.spec.whatwg.org/#ref-for-dom-body-arraybuffer①,WHATWG
@@ -8513,7 +8512,7 @@ css/at-rules/font-face/ascent-override,,89,,87,,,,false,true,false,https://draft
 css/at-rules/font-face/descent-override,,89,,87,,,,false,true,false,https://drafts.csswg.org/css-fonts/#font-metrics-override-desc,W3C
 css/at-rules/font-face/font-display,,58,,60,,11.1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-display-desc,W3C
 css/at-rules/font-face/font-family,,3.5,,4,,3.1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-family-desc,W3C
-css/at-rules/font-face/font-feature-settings,,34,,,,,,false,true,false,,NONE
+css/at-rules/font-face/font-feature-settings,,34,,,,,,false,true,false,https://drafts.csswg.org/css-fonts/#font-rend-desc,W3C
 css/at-rules/font-face/font-stretch,,62,,62,,10.1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-prop-desc,W3C
 css/at-rules/font-face/font-style,,3.5,,4,,3.1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-prop-desc,W3C
 css/at-rules/font-face/font-variant,,3.5,,4,,3.1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-variant-prop,W3C
@@ -8643,7 +8642,7 @@ css/properties/align-content/flex_context,,28,,21,,9,,false,true,false,https://d
 css/properties/align-content/flex_context/baseline,,45,,57,,9,,false,true,false,,NONE
 css/properties/align-content/flex_context/first_baseline,,52,,59,,11,,false,true,false,,NONE
 css/properties/align-content/flex_context/last_baseline,,52,,59,,11,,false,true,false,,NONE
-css/properties/align-content/flex_context/safe_unsafe,,63,,,,,,false,true,false,,NONE
+css/properties/align-content/flex_context/safe_unsafe,,63,,115,,,,false,true,false,,NONE
 css/properties/align-content/flex_context/space-evenly,,52,,60,,11,,false,true,false,,NONE
 css/properties/align-content/flex_context/start_end,,45,,93,,15.6,,false,true,false,,NONE
 css/properties/align-content/flex_context/stretch,,52,,57,,9,,false,true,false,,NONE
@@ -8653,7 +8652,7 @@ css/properties/align-items/flex_context,,20,,52,,7,,false,true,false,https://dra
 css/properties/align-items/flex_context/baseline,,28,,21,,7,,false,true,false,,NONE
 css/properties/align-items/flex_context/first_baseline,,52,,59,,11,,false,true,false,,NONE
 css/properties/align-items/flex_context/last_baseline,,52,,108,,16.2,,false,true,false,,NONE
-css/properties/align-items/flex_context/safe_unsafe,,63,,,,,,false,true,false,,NONE
+css/properties/align-items/flex_context/safe_unsafe,,63,,115,,,,false,true,false,,NONE
 css/properties/align-items/flex_context/start_end,,45,,93,,15.4,,false,true,false,,NONE
 css/properties/align-items/grid_context,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-align/#align-items-property,W3C
 css/properties/align-items/grid_context/start_end,,52,,57,,11,,false,true,false,,NONE
@@ -8662,7 +8661,7 @@ css/properties/align-self/flex_context,,20,,36,,7,,false,true,false,https://draf
 css/properties/align-self/flex_context/baseline,,28,,21,,7,,false,true,false,,NONE
 css/properties/align-self/flex_context/first_baseline,,52,,59,,11,,false,true,false,,NONE
 css/properties/align-self/flex_context/last_baseline,,52,,108,,16.2,,false,true,false,,NONE
-css/properties/align-self/flex_context/safe_unsafe,,63,,,,,,false,true,false,,NONE
+css/properties/align-self/flex_context/safe_unsafe,,63,,115,,,,false,true,false,,NONE
 css/properties/align-self/flex_context/start_end,,45,,93,,15.4,,false,true,false,,NONE
 css/properties/align-self/flex_context/stretch,,52,,57,,9,,false,true,false,,NONE
 css/properties/align-self/grid_context,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-align/#align-self-property,W3C
@@ -9153,7 +9152,7 @@ css/properties/isolation,,36,,41,,8,,false,true,false,https://drafts.fxtf.org/co
 css/properties/justify-content,,20,,29,,9,,false,true,false,https://drafts.csswg.org/css-align/#align-justify-content,W3C
 css/properties/justify-content/flex_context,,20,,52,,7,,false,true,false,https://drafts.csswg.org/css-align/#align-justify-content,W3C
 css/properties/justify-content/flex_context/left_right,,52,,93,,9,,false,true,false,,NONE
-css/properties/justify-content/flex_context/safe_unsafe,,63,,,,,,false,true,false,,NONE
+css/properties/justify-content/flex_context/safe_unsafe,,63,,115,,,,false,true,false,,NONE
 css/properties/justify-content/flex_context/space-evenly,,52,,60,,11,,false,true,false,,NONE
 css/properties/justify-content/flex_context/start_end,,45,,93,,15.4,,false,true,false,,NONE
 css/properties/justify-content/flex_context/stretch,,52,,57,,9,,false,true,false,,NONE
@@ -9268,7 +9267,7 @@ css/properties/list-style-type/trad-chinese-formal,,28,,45,,15,,false,true,false
 css/properties/list-style-type/trad-chinese-informal,,28,,45,,15,,false,true,false,,NONE
 css/properties/list-style-type/upper-alpha,,1,,1,,1,,false,true,false,,NONE
 css/properties/list-style-type/upper-armenian,,33,,13,,5.1,,false,true,false,,NONE
-css/properties/list-style-type/upper-greek,,1,,1,,1,,false,true,false,,NONE
+css/properties/list-style-type/upper-greek,,1,,91,,1,,false,true,false,,NONE
 css/properties/list-style-type/upper-hexadecimal,,,,91,,5,,false,true,false,,NONE
 css/properties/list-style-type/upper-latin,,1,,1,,1,,false,true,false,,NONE
 css/properties/list-style-type/upper-norwegian,,,,91,,5,,false,true,false,,NONE
@@ -10978,6 +10977,7 @@ http/headers/Sec-Fetch-Mode,,90,,76,,16.4,,false,true,false,https://w3c.github.i
 http/headers/Sec-Fetch-Site,,90,,76,,16.4,,false,true,false,https://w3c.github.io/webappsec-fetch-metadata/#sec-fetch-site-header,W3C
 http/headers/Sec-Fetch-User,,90,,76,,16.4,,false,true,false,https://w3c.github.io/webappsec-fetch-metadata/#sec-fetch-user-header,W3C
 http/headers/Sec-GPC,,95,"[{""name"":""privacy.globalprivacycontrol.enabled"",""type"":""preference"",""value_to_set"":""true""},{""name"":""privacy.globalprivacycontrol.functionality.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://privacycg.github.io/gpc-spec/#the-sec-gpc-header-field-for-http-requests,W3CCG
+http/headers/Sec-Purpose,,115,,,,,,false,true,false,https://fetch.spec.whatwg.org/#sec-purpose-header,WHATWG
 http/headers/Server,,true,,true,,true,,false,true,false,https://www.rfc-editor.org/rfc/rfc9110#field.server,UNKNOWN
 http/headers/Server-Timing,,61,,65,,,,false,true,false,https://w3c.github.io/server-timing/#the-server-timing-header-field,W3C
 http/headers/Service-Worker-Navigation-Preload,,preview,,59,,15.4,,false,true,false,https://w3c.github.io/ServiceWorker/#handle-fetch,W3C
