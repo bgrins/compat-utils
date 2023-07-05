@@ -4,7 +4,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1724291480,false,Making PointerEvents a living standard after v3?,https://github.com/w3c/pointerevents/issues/471,2023-05-24T15:44:40Z,2023-05-24T15:44:40Z,mustaqahmed,,0
 1663584710,false,"Support for pens that report ""hover distance""",https://github.com/w3c/pointerevents/issues/469,2023-04-12T02:34:25Z,2023-04-12T09:12:15Z,vinhowe,future,0
 1606591399,true,Investigate if `tangentialPressure` is correctly implemented/working in browsers/documented appropriately in spec,https://github.com/w3c/pointerevents/issues/467,2023-03-02T11:04:02Z,2023-03-31T21:43:27Z,patrickhlauke,v3,0
-1487135626,false,Coordinates of a `pointercancel` event,https://github.com/w3c/pointerevents/issues/463,2022-12-09T17:30:09Z,2023-06-21T14:28:02Z,mustaqahmed,v3,0
+1487135626,true,Coordinates of a `pointercancel` event,https://github.com/w3c/pointerevents/issues/463,2022-12-09T17:30:09Z,2023-07-04T15:42:58Z,mustaqahmed,v3,0
 1468385468,true,API to determine difference between trackpad and mouse events,https://github.com/w3c/pointerevents/issues/462,2022-11-29T16:49:15Z,2022-11-29T19:05:01Z,funwithtriangles,,0
 1380718527,true,pointerout even if the pointer doesn't move?,https://github.com/w3c/pointerevents/issues/457,2022-09-21T10:44:45Z,2023-05-25T10:55:17Z,smaug----,v3,0
 1296139350,true,Order of pointerover/enter/move and corresponding mouse events is different on browsers,https://github.com/w3c/pointerevents/issues/454,2022-07-06T17:06:55Z,2022-10-31T11:38:18Z,saschanaz,v3,0
@@ -40,7 +40,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 858311203,true,Clarify that pointer event listeners are passive by default,https://github.com/w3c/pointerevents/issues/360,2021-04-14T22:26:56Z,2021-04-22T17:02:32Z,patrickhlauke,v3,0
 858182243,true,Implement penover / pendown / penmove / penup events and similar for other new pointer types.,https://github.com/w3c/pointerevents/issues/359,2021-04-14T19:01:56Z,2021-04-22T07:03:48Z,flackr,future,0
 846927861,false,Clarify when lostpointercapture should fire,https://github.com/w3c/pointerevents/issues/357,2021-03-31T16:21:31Z,2023-06-21T15:19:50Z,smaug----,v3,0
-846922562,false,Clarify what the target of the click event should be after capturing pointer events,https://github.com/w3c/pointerevents/issues/356,2021-03-31T16:16:30Z,2023-06-18T16:20:15Z,smaug----,v3,0
+846922562,true,Clarify what the target of the click event should be after capturing pointer events,https://github.com/w3c/pointerevents/issues/356,2021-03-31T16:16:30Z,2023-07-04T13:58:09Z,smaug----,v3,0
 846823656,true,"Order of pointer events across frames when using pointer capture ",https://github.com/w3c/pointerevents/issues/355,2021-03-31T15:00:57Z,2022-11-28T14:59:27Z,liviutinta,v3,0
 849820902,false,touch-action: disable webview swipe back behavior,https://github.com/w3c/pointerevents/issues/358,2021-03-30T13:59:06Z,2023-03-14T11:29:35Z,liamdebeasi,future,18
 819611060,false,Multi-pen support and persistent pointerId,https://github.com/w3c/pointerevents/issues/353,2021-03-02T04:48:16Z,2022-12-12T15:55:26Z,scottlow,future,0
