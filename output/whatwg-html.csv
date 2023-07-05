@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1788871531,false,Add VideoPlaybackQuality and HTMLVideoElement»getVideoPlaybackQuality(),https://github.com/whatwg/html/issues/9489,2023-07-05T06:36:23Z,2023-07-05T06:36:23Z,sideshowbarker,addition/proposal|topic: media,0
 1788359824,false,"Should #fallback-base-url and #navigate use ""matches"" about:blank?",https://github.com/whatwg/html/issues/9488,2023-07-04T19:09:29Z,2023-07-04T19:09:29Z,domfarolino,topic: navigation,0
 1787902159,false,"Showing only a child popover causes ""beforetoggle"" and ""toggle"" events but popover is invisble",https://github.com/whatwg/html/issues/9487,2023-07-04T13:07:44Z,2023-07-04T13:07:44Z,mbrodesser-Igalia,topic: popover,0
 1785504701,true,Input.valueAsNumber can not be manually set to NaN despite it being a valid value for it,https://github.com/whatwg/html/issues/9480,2023-07-03T07:19:15Z,2023-07-03T22:11:25Z,alexandertrefz,,0
@@ -16,7 +17,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1769582158,true,`longpress` DOM event,https://github.com/whatwg/html/issues/9454,2023-06-22T12:31:26Z,2023-06-22T14:54:49Z,jpzwarte,,0
 1769559940,false,The canvas fontStretch attribute should accept percentage values as well as keywords,https://github.com/whatwg/html/issues/9453,2023-06-22T12:16:35Z,2023-06-22T12:16:35Z,jfkthame,,0
 1767925840,false,Possible performance optimizations of structured clone algorithm against ArrayBufferView?,https://github.com/whatwg/html/issues/9450,2023-06-21T15:57:33Z,2023-06-21T23:48:24Z,shuhaowu,topic: serialize and transfer,0
-1767690214,false,auto-sizes concrete object size ignoring natural dimensions is not implementable,https://github.com/whatwg/html/issues/9448,2023-06-21T14:08:37Z,2023-06-30T18:51:06Z,zcorpan,topic: img,0
+1767690214,false,auto-sizes concrete object size ignoring natural dimensions is not implementable,https://github.com/whatwg/html/issues/9448,2023-06-21T14:08:37Z,2023-07-05T08:35:26Z,zcorpan,topic: img,0
 1765973926,false,HTML Video Element: Proposal For Support for Srcset and Sizes attributes on source elements,https://github.com/whatwg/html/issues/9446,2023-06-20T18:52:24Z,2023-06-21T07:29:11Z,scottjehl,addition/proposal|topic: media,12
 1764161923,true,Spec clarification: Are values in fontVariant & fontKerning case sensitive?,https://github.com/whatwg/html/issues/9445,2023-06-19T20:09:46Z,2023-06-19T22:59:06Z,yiyix,,0
 1763904590,false,"Import with type text, bytes, and URL",https://github.com/whatwg/html/issues/9444,2023-06-19T17:07:43Z,2023-06-29T06:29:24Z,kriskowal,addition/proposal|needs implementer interest|topic: script,3
@@ -2552,7 +2553,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2023-06-14T18:51:29Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,22
 305369552,true,Proposal: Improve control over HTML/XML syntax parse errors,https://github.com/whatwg/html/issues/3569,2018-03-14T23:56:33Z,2022-04-18T15:28:51Z,dvdckl,addition/proposal|needs implementer interest|topic: parser,0
 305147441,true,"<form method> description only says ""HTTP method""",https://github.com/whatwg/html/issues/3568,2018-03-14T12:58:10Z,2018-04-20T07:53:27Z,annevk,good first issue,0
-305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2023-06-26T18:14:07Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,122
+305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2023-06-26T18:14:07Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,123
 305020324,true,Separate out document.open() method declaration definitions,https://github.com/whatwg/html/issues/3565,2018-03-14T04:36:27Z,2018-06-28T15:27:09Z,domenic,clarification|good first issue|topic: document.open(),0
 305019688,true,At least Blink does not support document.open()'s replace parameter,https://github.com/whatwg/html/issues/3564,2018-03-14T04:31:43Z,2018-08-23T18:40:33Z,domenic,topic: history|interop|topic: document.open(),0
 304874091,false,<template> element capability/semantics in SVG parsing context,https://github.com/whatwg/html/issues/3563,2018-03-13T17:59:50Z,2018-03-15T07:34:25Z,kevinpschaaf,addition/proposal|needs implementer interest|topic: parser,0
@@ -3315,7 +3316,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 195734740,true,Wring,https://github.com/whatwg/html/issues/2181,2016-12-15T07:24:47Z,2016-12-15T07:25:56Z,cheoklune,,0
 195651796,true,Making Location.ancestorOrigins a FrozenArray is not Web-Compatible,https://github.com/whatwg/html/issues/2179,2016-12-14T21:33:44Z,2017-01-13T00:55:08Z,cdumez,,0
 195558416,true,"""when a select element does not have a sizes attribute""",https://github.com/whatwg/html/issues/2178,2016-12-14T15:18:37Z,2017-02-23T16:42:03Z,deltab,good first issue,0
-195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2023-06-28T15:26:26Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,103
+195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2023-06-28T15:26:26Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,104
 195497838,true,selectionStart/End/Direction on input and textarea should not be nullable,https://github.com/whatwg/html/issues/2175,2016-12-14T10:46:42Z,2017-01-18T09:22:04Z,foolip,,0
 195494630,true,pushState title is ignored in all implementations?,https://github.com/whatwg/html/issues/2174,2016-12-14T10:32:35Z,2021-03-15T16:59:58Z,foolip,topic: history|interop,3
 195385032,true,"""If the element is flagged as ""parser-inserted"",...""",https://github.com/whatwg/html/issues/2173,2016-12-13T22:18:17Z,2016-12-13T22:19:35Z,JosephPecoraro,,0
@@ -3836,7 +3837,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 150496662,true,Module workers are fetched with incorrect referrer.,https://github.com/whatwg/html/issues/1111,2016-04-22T23:53:24Z,2016-05-11T10:57:24Z,mkruisselbrink,,0
 150488846,true,Specify resource hints link rels?,https://github.com/whatwg/html/issues/1109,2016-04-22T22:48:37Z,2016-05-10T16:56:21Z,domenic,addition/proposal,0
 150459986,true,Make <input name=isindex> non-conforming,https://github.com/whatwg/html/issues/1104,2016-04-22T20:06:43Z,2016-07-28T07:23:05Z,zcorpan,document conformance,0
-150459498,false,"Define `<input capture>`, ideally with a hint for which camera to use",https://github.com/whatwg/html/issues/1102,2016-04-22T20:04:37Z,2022-09-12T23:21:04Z,hober,topic: forms|integration,0
+150459498,false,"Define `<input capture>`, ideally with a hint for which camera to use",https://github.com/whatwg/html/issues/1102,2016-04-22T20:04:37Z,2023-07-05T06:48:25Z,hober,good first issue|topic: forms|integration,0
 150364672,true,Reconsider currentColor in a display:none canvas,https://github.com/whatwg/html/issues/1099,2016-04-22T13:04:42Z,2016-07-06T20:05:41Z,Ms2ger,compat|topic: canvas,0
 150364441,false,Should fetch algorithm failure detaching the MediaSource object?,https://github.com/whatwg/html/issues/1098,2016-04-22T13:03:26Z,2016-09-13T15:49:52Z,foolip,topic: media|topic: fetch,0
 150306167,true,Expand a bit on origins' invariants,https://github.com/whatwg/html/issues/1093,2016-04-22T08:34:30Z,2016-04-24T13:31:00Z,Ms2ger,,0
