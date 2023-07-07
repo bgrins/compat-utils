@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1792169588,false,Correct description of `readonly` attribute (or mutability),https://github.com/whatwg/html/issues/9496,2023-07-06T20:13:27Z,2023-07-06T21:33:29Z,aaronadamsCA,clarification|topic: forms,0
-1791166125,false,Allow self-closing tags everywhere,https://github.com/whatwg/html/issues/9491,2023-07-06T09:26:20Z,2023-07-06T21:59:20Z,jakearchibald,addition/proposal|needs implementer interest|topic: parser|needs compat analysis,48
+1791166125,false,Allow self-closing tags everywhere,https://github.com/whatwg/html/issues/9491,2023-07-06T09:26:20Z,2023-07-07T08:21:41Z,jakearchibald,addition/proposal|needs implementer interest|topic: parser|needs compat analysis,61
 1788871531,false,Add VideoPlaybackQuality and HTMLVideoElement»getVideoPlaybackQuality(),https://github.com/whatwg/html/issues/9489,2023-07-05T06:36:23Z,2023-07-05T06:36:23Z,sideshowbarker,addition/proposal|topic: media,0
 1788359824,false,"Should #fallback-base-url and #navigate use ""matches"" about:blank?",https://github.com/whatwg/html/issues/9488,2023-07-04T19:09:29Z,2023-07-04T19:09:29Z,domfarolino,topic: navigation,1
 1787902159,false,"Showing only a child popover causes ""beforetoggle"" and ""toggle"" events but popover is invisble",https://github.com/whatwg/html/issues/9487,2023-07-04T13:07:44Z,2023-07-05T17:06:13Z,mbrodesser-Igalia,topic: popover,0
@@ -19,7 +19,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1769582158,true,`longpress` DOM event,https://github.com/whatwg/html/issues/9454,2023-06-22T12:31:26Z,2023-06-22T14:54:49Z,jpzwarte,,0
 1769559940,false,The canvas fontStretch attribute should accept percentage values as well as keywords,https://github.com/whatwg/html/issues/9453,2023-06-22T12:16:35Z,2023-06-22T12:16:35Z,jfkthame,,0
 1767925840,false,Possible performance optimizations of structured clone algorithm against ArrayBufferView?,https://github.com/whatwg/html/issues/9450,2023-06-21T15:57:33Z,2023-06-21T23:48:24Z,shuhaowu,topic: serialize and transfer,0
-1767690214,false,auto-sizes concrete object size ignoring natural dimensions is not implementable,https://github.com/whatwg/html/issues/9448,2023-06-21T14:08:37Z,2023-07-06T21:04:46Z,zcorpan,topic: img,0
+1767690214,false,auto-sizes concrete object size ignoring natural dimensions is not implementable,https://github.com/whatwg/html/issues/9448,2023-06-21T14:08:37Z,2023-07-07T08:40:07Z,zcorpan,topic: img,0
 1765973926,false,HTML Video Element: Proposal For Support for Srcset and Sizes attributes on source elements,https://github.com/whatwg/html/issues/9446,2023-06-20T18:52:24Z,2023-06-21T07:29:11Z,scottjehl,addition/proposal|topic: media,12
 1764161923,true,Spec clarification: Are values in fontVariant & fontKerning case sensitive?,https://github.com/whatwg/html/issues/9445,2023-06-19T20:09:46Z,2023-06-19T22:59:06Z,yiyix,,0
 1763904590,false,"Import with type text, bytes, and URL",https://github.com/whatwg/html/issues/9444,2023-06-19T17:07:43Z,2023-06-29T06:29:24Z,kriskowal,addition/proposal|needs implementer interest|topic: script,3
@@ -1202,7 +1202,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 773549775,true,What exactly is a Document's origin?,https://github.com/whatwg/html/issues/6244,2020-12-23T07:24:48Z,2020-12-24T22:28:19Z,domfarolino,,0
 773336296,true,Session History: Step 5 of #initialise-the-document-object seems odd,https://github.com/whatwg/html/issues/6243,2020-12-23T00:37:51Z,2020-12-23T03:44:53Z,domfarolino,,0
 771370239,false,A way to load different resources depending on the browser's support for various HTTP versions,https://github.com/whatwg/html/issues/6240,2020-12-19T12:15:11Z,2020-12-26T22:30:12Z,Atulin,,0
-770186836,false,"Escape ""<"" and "">"" in attributes",https://github.com/whatwg/html/issues/6235,2020-12-17T16:23:48Z,2023-07-05T15:11:00Z,securityMB,normative change|topic: parser|security/privacy|needs compat analysis|security-tracker,9
+770186836,false,"Escape ""<"" and "">"" in attributes",https://github.com/whatwg/html/issues/6235,2020-12-17T16:23:48Z,2023-07-07T07:45:02Z,securityMB,normative change|topic: parser|security/privacy|needs compat analysis|security-tracker,9
 769579263,true,"Update ""intrinsic dimensions"" terminology",https://github.com/whatwg/html/issues/6233,2020-12-17T06:25:35Z,2023-05-26T09:36:22Z,fantasai,topic: rendering|topic: img|integration,0
 769344237,false,Allow form validation on <output> element,https://github.com/whatwg/html/issues/6232,2020-12-16T23:25:31Z,2020-12-30T23:06:27Z,btrem,,2
 769198241,false,"Custom Elements definition/styling challenges/use cases ",https://github.com/whatwg/html/issues/6231,2020-12-16T19:08:08Z,2023-04-20T17:29:17Z,bkardell,,0
@@ -2583,7 +2583,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 301777319,true,"quirk mode ",https://github.com/whatwg/html/issues/3521,2018-03-02T14:08:38Z,2018-03-02T14:09:54Z,ghost,,0
 301686491,false,<meter> interoperability issue with values on boundaries,https://github.com/whatwg/html/issues/3520,2018-03-02T08:19:32Z,2022-03-11T08:40:22Z,tkent-google,clarification|interop,0
 301660842,true,I need feedback to see if I am right?,https://github.com/whatwg/html/issues/3519,2018-03-02T05:50:39Z,2018-03-02T10:10:56Z,Thezone1975,,0
-301576285,false,Proposal: HTML passwordrules attribute,https://github.com/whatwg/html/issues/3518,2018-03-01T22:02:50Z,2023-07-06T16:20:49Z,dbates-wk,addition/proposal|needs implementer interest|document conformance|security/privacy|topic: forms,64
+301576285,false,Proposal: HTML passwordrules attribute,https://github.com/whatwg/html/issues/3518,2018-03-01T22:02:50Z,2023-07-07T03:02:31Z,dbates-wk,addition/proposal|needs implementer interest|document conformance|security/privacy|topic: forms,64
 301126578,false,API for structured serialized data,https://github.com/whatwg/html/issues/3517,2018-02-28T18:07:55Z,2021-05-14T07:06:04Z,devsnek,addition/proposal|needs implementer interest|topic: serialize and transfer,6
 300769187,true,Add element reflection counterparts to id-reference counterparts,https://github.com/whatwg/html/issues/3515,2018-02-27T19:51:04Z,2022-11-11T14:43:18Z,domenic,addition/proposal|topic: shadow|accessibility|impacts documentation,0
 300576902,false,Define all focus events,https://github.com/whatwg/html/issues/3514,2018-02-27T10:41:03Z,2019-11-21T22:48:28Z,annevk,interop|topic: focus|integration,3
