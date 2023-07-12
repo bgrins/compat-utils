@@ -1,20 +1,20 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1799781601,true,"Editorial: Remove unused param from ""fetch the descendants of and link a module script""",https://github.com/whatwg/html/pull/9508,2023-07-11T21:29:47Z,2023-07-12T00:24:29Z,domfarolino,topic: script,0
 1793324979,false,"Editorial: Use the right ""active document"" definition in a focus algorithm",https://github.com/whatwg/html/pull/9498,2023-07-07T11:00:52Z,2023-07-11T12:54:49Z,rakuco,,0
-1791560609,false,Populate document state origin/initiator origin upon creation,https://github.com/whatwg/html/pull/9494,2023-07-06T13:24:00Z,2023-07-06T13:26:42Z,domfarolino,topic: navigation,0
+1791560609,false,Populate document state origin/initiator origin upon creation,https://github.com/whatwg/html/pull/9494,2023-07-06T13:24:00Z,2023-07-12T05:20:45Z,domfarolino,topic: navigation,0
 1791506923,false,Force size containment for auto-sizes,https://github.com/whatwg/html/pull/9493,2023-07-06T12:54:24Z,2023-07-07T09:08:27Z,zcorpan,,1
-1789491788,false,Make dirname apply to hidden/tel/url/email inputs,https://github.com/whatwg/html/pull/9490,2023-07-05T12:51:28Z,2023-07-11T13:14:10Z,zcorpan,,0
-1787684142,false,Use appropriate fetch destination for JSON&CSS modules,https://github.com/whatwg/html/pull/9486,2023-07-04T10:48:45Z,2023-07-04T11:17:17Z,nicolo-ribaudo,,0
+1789491788,false,Make dirname apply to hidden/tel/url/email inputs,https://github.com/whatwg/html/pull/9490,2023-07-05T12:51:28Z,2023-07-12T05:21:46Z,zcorpan,normative change|topic: forms,0
+1787684142,false,Use appropriate fetch destination for JSON&CSS modules,https://github.com/whatwg/html/pull/9486,2023-07-04T10:48:45Z,2023-07-12T05:35:14Z,nicolo-ribaudo,,0
 1787565314,true,Test PR,https://github.com/whatwg/html/pull/9485,2023-07-04T09:43:04Z,2023-07-04T12:37:01Z,cijian23,spam,0
 1787464058,true,Fix links to fetch request initiator type,https://github.com/whatwg/html/pull/9484,2023-07-04T08:48:29Z,2023-07-04T10:07:11Z,nicolo-ribaudo,,0
 1787141228,true,Editorial: fix popover attribute index entries,https://github.com/whatwg/html/pull/9483,2023-07-04T04:52:27Z,2023-07-11T09:12:59Z,domenic,topic: popover,0
 1786022406,false,"Set popover invoker immediately after changing popover's visibility state to ""showing""",https://github.com/whatwg/html/pull/9481,2023-07-03T11:52:48Z,2023-07-11T07:15:14Z,mbrodesser-Igalia,topic: popover,0
 1779632972,true,Only use sourceOrigin for all about:-schemed Documents,https://github.com/whatwg/html/pull/9465,2023-06-28T19:43:40Z,2023-07-04T02:38:55Z,domfarolino,clarification|topic: navigation,0
-1779529030,false,Snapshot fallback base URL for about:-schemed Documents,https://github.com/whatwg/html/pull/9464,2023-06-28T18:51:33Z,2023-07-10T15:10:23Z,domfarolino,normative change|topic: navigation,0
+1779529030,false,Snapshot fallback base URL for about:-schemed Documents,https://github.com/whatwg/html/pull/9464,2023-06-28T18:51:33Z,2023-07-12T05:55:35Z,domfarolino,normative change|topic: navigation,0
 1778497411,true,Synchronously populate non-initial about:blank documents,https://github.com/whatwg/html/pull/9463,2023-06-28T08:50:34Z,2023-07-11T09:13:17Z,domenic,topic: navigation|topic: parser,0
 1778332031,false,Add close signals and close watchers,https://github.com/whatwg/html/pull/9462,2023-06-28T06:57:55Z,2023-07-04T09:24:39Z,domenic,addition/proposal|topic: dialog|topic: popover,1
-1775374251,false,Ignore DOM state when hiding popovers if needed,https://github.com/whatwg/html/pull/9457,2023-06-26T18:45:19Z,2023-07-11T17:52:56Z,josepharhar,,0
-1775234651,false,add dialogmodaltarget attribute,https://github.com/whatwg/html/pull/9456,2023-06-26T17:17:30Z,2023-07-11T21:34:06Z,keithamus,,1
+1775374251,false,Ignore DOM state when hiding popovers if needed,https://github.com/whatwg/html/pull/9457,2023-06-26T18:45:19Z,2023-07-12T09:11:18Z,josepharhar,,0
+1775234651,false,add dialogmodaltarget attribute,https://github.com/whatwg/html/pull/9456,2023-06-26T17:17:30Z,2023-07-12T06:23:51Z,keithamus,,1
 1768695537,false,"Editorial rework of directionality ",https://github.com/whatwg/html/pull/9452,2023-06-22T00:09:07Z,2023-06-30T14:12:02Z,bkardell,,0
 1768470617,true,Make togglePopover throw more exceptions,https://github.com/whatwg/html/pull/9451,2023-06-21T20:56:50Z,2023-06-28T14:34:58Z,josepharhar,topic: popover,0
 1763558894,true,Editorial: remove plugin language from media elements,https://github.com/whatwg/html/pull/9440,2023-06-19T13:32:54Z,2023-06-20T06:28:12Z,annevk,,0
@@ -77,7 +77,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1686196867,true,"Prefetch: Specify ""appropriate times to fetch and process""",https://github.com/whatwg/html/pull/9223,2023-04-27T06:25:14Z,2023-04-27T09:15:22Z,noamr,topic: link|topic: resource hints (inc. preload),0
 1684188006,true,Clarify WebTransport BFCache interaction,https://github.com/whatwg/html/pull/9217,2023-04-26T03:04:11Z,2023-06-02T03:03:44Z,nidhijaju,,0
 1683549011,true,Remove references to RegExp `v` flag proposal,https://github.com/whatwg/html/pull/9213,2023-04-25T17:11:38Z,2023-06-16T10:38:02Z,mathiasbynens,,0
-1682091177,false,Use module referrer policy for descendant fetches,https://github.com/whatwg/html/pull/9210,2023-04-24T21:47:00Z,2023-07-05T21:43:38Z,domfarolino,topic: script,0
+1682091177,true,Use module referrer policy for descendant fetches,https://github.com/whatwg/html/pull/9210,2023-04-24T21:47:00Z,2023-07-12T05:02:15Z,domfarolino,topic: script,0
 1681873727,true,"Make script's ""base URL"" member nullable, as the spec expects",https://github.com/whatwg/html/pull/9209,2023-04-24T19:14:03Z,2023-04-25T05:15:23Z,domfarolino,topic: script,0
 1681759829,true,Stop exporting 'Web workers' header,https://github.com/whatwg/html/pull/9208,2023-04-24T17:54:05Z,2023-04-26T11:38:50Z,domfarolino,editorial,0
 1681710250,true,Issue #9206: Submit input element directionality only for text and search type,https://github.com/whatwg/html/pull/9207,2023-04-24T17:13:20Z,2023-05-15T14:51:35Z,vinhill,,0
@@ -92,7 +92,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1671928914,true,Only restore dialog focus if focus is in the dialog,https://github.com/whatwg/html/pull/9178,2023-04-17T20:35:40Z,2023-06-06T21:19:25Z,josepharhar,topic: focus|topic: dialog,0
 1669042716,true,Only use the used invoker to establish popover hierarchy,https://github.com/whatwg/html/pull/9171,2023-04-14T23:15:12Z,2023-05-08T16:13:13Z,josepharhar,topic: popover,0
 1668446599,true,Fix var/ref name mismatch with s/intendToStoreInBfcache/intendToKeepInBfcache/,https://github.com/whatwg/html/pull/9170,2023-04-14T15:13:52Z,2023-04-17T12:18:58Z,jan-ivar,topic: history,0
-1666970337,false,Update the :dir / directionality to include shadow dom,https://github.com/whatwg/html/pull/9166,2023-04-13T18:54:01Z,2023-07-11T23:38:48Z,bkardell,topic: shadow|topic: selectors,0
+1666970337,false,Update the :dir / directionality to include shadow dom,https://github.com/whatwg/html/pull/9166,2023-04-13T18:54:01Z,2023-07-12T11:59:54Z,bkardell,topic: shadow|topic: selectors,0
 1666849333,true,Don't fire popover events during attribute change steps,https://github.com/whatwg/html/pull/9165,2023-04-13T17:32:17Z,2023-04-19T22:06:09Z,nt1m,topic: popover,0
 1666310483,true,[meta] Mark seven definitions as exported,https://github.com/whatwg/html/pull/9163,2023-04-13T12:20:28Z,2023-04-17T06:40:51Z,dontcallmedom,,0
 1665915432,true,Do not do same-URL replace navigations when initiated cross-origin,https://github.com/whatwg/html/pull/9157,2023-04-13T07:58:01Z,2023-05-08T22:49:00Z,domenic,normative change|topic: navigation|security/privacy|topic: history,0
