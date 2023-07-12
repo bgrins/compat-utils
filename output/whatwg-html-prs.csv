@@ -1,8 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1793324979,false,"Editorial: Use the right ""active document"" definition in a focus algorithm",https://github.com/whatwg/html/pull/9498,2023-07-07T11:00:52Z,2023-07-11T10:56:17Z,rakuco,,0
+1799781601,true,"Editorial: Remove unused param from ""fetch the descendants of and link a module script""",https://github.com/whatwg/html/pull/9508,2023-07-11T21:29:47Z,2023-07-12T00:24:29Z,domfarolino,topic: script,0
+1793324979,false,"Editorial: Use the right ""active document"" definition in a focus algorithm",https://github.com/whatwg/html/pull/9498,2023-07-07T11:00:52Z,2023-07-11T12:54:49Z,rakuco,,0
 1791560609,false,Populate document state origin/initiator origin upon creation,https://github.com/whatwg/html/pull/9494,2023-07-06T13:24:00Z,2023-07-06T13:26:42Z,domfarolino,topic: navigation,0
 1791506923,false,Force size containment for auto-sizes,https://github.com/whatwg/html/pull/9493,2023-07-06T12:54:24Z,2023-07-07T09:08:27Z,zcorpan,,1
-1789491788,false,Make dirname apply to hidden/tel/url/email inputs,https://github.com/whatwg/html/pull/9490,2023-07-05T12:51:28Z,2023-07-10T07:53:20Z,zcorpan,,0
+1789491788,false,Make dirname apply to hidden/tel/url/email inputs,https://github.com/whatwg/html/pull/9490,2023-07-05T12:51:28Z,2023-07-11T13:14:10Z,zcorpan,,0
 1787684142,false,Use appropriate fetch destination for JSON&CSS modules,https://github.com/whatwg/html/pull/9486,2023-07-04T10:48:45Z,2023-07-04T11:17:17Z,nicolo-ribaudo,,0
 1787565314,true,Test PR,https://github.com/whatwg/html/pull/9485,2023-07-04T09:43:04Z,2023-07-04T12:37:01Z,cijian23,spam,0
 1787464058,true,Fix links to fetch request initiator type,https://github.com/whatwg/html/pull/9484,2023-07-04T08:48:29Z,2023-07-04T10:07:11Z,nicolo-ribaudo,,0
@@ -12,8 +13,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1779529030,false,Snapshot fallback base URL for about:-schemed Documents,https://github.com/whatwg/html/pull/9464,2023-06-28T18:51:33Z,2023-07-10T15:10:23Z,domfarolino,normative change|topic: navigation,0
 1778497411,true,Synchronously populate non-initial about:blank documents,https://github.com/whatwg/html/pull/9463,2023-06-28T08:50:34Z,2023-07-11T09:13:17Z,domenic,topic: navigation|topic: parser,0
 1778332031,false,Add close signals and close watchers,https://github.com/whatwg/html/pull/9462,2023-06-28T06:57:55Z,2023-07-04T09:24:39Z,domenic,addition/proposal|topic: dialog|topic: popover,1
-1775374251,false,Ignore DOM state when hiding popovers if needed,https://github.com/whatwg/html/pull/9457,2023-06-26T18:45:19Z,2023-07-09T13:40:42Z,josepharhar,,0
-1775234651,false,add dialogmodaltarget attribute,https://github.com/whatwg/html/pull/9456,2023-06-26T17:17:30Z,2023-07-10T23:18:23Z,keithamus,,1
+1775374251,false,Ignore DOM state when hiding popovers if needed,https://github.com/whatwg/html/pull/9457,2023-06-26T18:45:19Z,2023-07-11T17:52:56Z,josepharhar,,0
+1775234651,false,add dialogmodaltarget attribute,https://github.com/whatwg/html/pull/9456,2023-06-26T17:17:30Z,2023-07-11T21:34:06Z,keithamus,,1
 1768695537,false,"Editorial rework of directionality ",https://github.com/whatwg/html/pull/9452,2023-06-22T00:09:07Z,2023-06-30T14:12:02Z,bkardell,,0
 1768470617,true,Make togglePopover throw more exceptions,https://github.com/whatwg/html/pull/9451,2023-06-21T20:56:50Z,2023-06-28T14:34:58Z,josepharhar,topic: popover,0
 1763558894,true,Editorial: remove plugin language from media elements,https://github.com/whatwg/html/pull/9440,2023-06-19T13:32:54Z,2023-06-20T06:28:12Z,annevk,,0
@@ -91,7 +92,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1671928914,true,Only restore dialog focus if focus is in the dialog,https://github.com/whatwg/html/pull/9178,2023-04-17T20:35:40Z,2023-06-06T21:19:25Z,josepharhar,topic: focus|topic: dialog,0
 1669042716,true,Only use the used invoker to establish popover hierarchy,https://github.com/whatwg/html/pull/9171,2023-04-14T23:15:12Z,2023-05-08T16:13:13Z,josepharhar,topic: popover,0
 1668446599,true,Fix var/ref name mismatch with s/intendToStoreInBfcache/intendToKeepInBfcache/,https://github.com/whatwg/html/pull/9170,2023-04-14T15:13:52Z,2023-04-17T12:18:58Z,jan-ivar,topic: history,0
-1666970337,false,Update the :dir / directionality to include shadow dom,https://github.com/whatwg/html/pull/9166,2023-04-13T18:54:01Z,2023-06-21T13:23:43Z,bkardell,topic: shadow|topic: selectors,0
+1666970337,false,Update the :dir / directionality to include shadow dom,https://github.com/whatwg/html/pull/9166,2023-04-13T18:54:01Z,2023-07-11T23:38:48Z,bkardell,topic: shadow|topic: selectors,0
 1666849333,true,Don't fire popover events during attribute change steps,https://github.com/whatwg/html/pull/9165,2023-04-13T17:32:17Z,2023-04-19T22:06:09Z,nt1m,topic: popover,0
 1666310483,true,[meta] Mark seven definitions as exported,https://github.com/whatwg/html/pull/9163,2023-04-13T12:20:28Z,2023-04-17T06:40:51Z,dontcallmedom,,0
 1665915432,true,Do not do same-URL replace navigations when initiated cross-origin,https://github.com/whatwg/html/pull/9157,2023-04-13T07:58:01Z,2023-05-08T22:49:00Z,domenic,normative change|topic: navigation|security/privacy|topic: history,0
@@ -365,7 +366,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1274141161,true,Export 'the body element' for other specifications to use,https://github.com/whatwg/html/pull/8017,2022-06-16T22:23:05Z,2022-06-16T22:53:22Z,zcorpan,,0
 1273830563,false,Add IntersectionObserver target requirement to Event Loops Processing Model,https://github.com/whatwg/html/pull/8016,2022-06-16T16:45:47Z,2022-08-22T02:36:08Z,nathaneliason,,0
 1270712984,true,Integrate with WebDriver-BiDi user prompt handling.,https://github.com/whatwg/html/pull/8010,2022-06-14T12:14:42Z,2022-06-17T18:46:26Z,jgraham,,0
-1270116125,true,Add sizes=auto to lazy-loaded <img>,https://github.com/whatwg/html/pull/8008,2022-06-14T00:47:59Z,2023-06-02T14:24:03Z,zcorpan,,37
+1270116125,true,Add sizes=auto to lazy-loaded <img>,https://github.com/whatwg/html/pull/8008,2022-06-14T00:47:59Z,2023-06-02T14:24:03Z,zcorpan,,38
 1269893795,true,"Add ""webauthn"" autocomplete token",https://github.com/whatwg/html/pull/8006,2022-06-13T20:03:26Z,2022-06-16T18:49:14Z,nsatragno,,0
 1267714744,true,Export `HTMLTemplateElement`'s `content`.,https://github.com/whatwg/html/pull/7998,2022-06-10T15:39:14Z,2022-06-13T08:51:58Z,mozfreddyb,,0
 1265300355,true,Compare against storage key when creating a SharedWorker. (#7913),https://github.com/whatwg/html/pull/7995,2022-06-08T20:56:35Z,2022-06-15T17:09:57Z,wanderview,topic: workers,0
