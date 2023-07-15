@@ -3,7 +3,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1803279067,false,Non-fetch scheme navigation params initiator origin isn't always set correctly,https://github.com/whatwg/html/issues/9517,2023-07-13T15:32:56Z,2023-07-13T15:33:02Z,domfarolino,topic: navigation,0
 1802890973,true,Add support for `<fieldset>` like custom elements using `ElementInternals`,https://github.com/whatwg/html/issues/9516,2023-07-13T12:12:40Z,2023-07-13T12:35:48Z,jpzwarte,,0
 1802491482,false,Upcoming HTML standard issue triage meeting on 7/27/2023,https://github.com/whatwg/html/issues/9515,2023-07-13T08:31:01Z,2023-07-13T08:31:01Z,past,agenda+,0
-1802170077,false,What to do with non-srcdoc about:srcdoc documents,https://github.com/whatwg/html/issues/9514,2023-07-13T04:56:34Z,2023-07-14T01:48:08Z,domenic,topic: document.open()|topic: javascript: URLs,0
+1802170077,false,What to do with non-srcdoc about:srcdoc documents,https://github.com/whatwg/html/issues/9514,2023-07-13T04:56:34Z,2023-07-14T22:33:04Z,domenic,topic: document.open()|topic: javascript: URLs,0
 1802134162,false,Module worker descendant script fetching regression,https://github.com/whatwg/html/issues/9513,2023-07-13T04:29:33Z,2023-07-13T12:05:25Z,domenic,topic: workers|topic: fetch|topic: script,0
 1800802358,true,Can a fully active document have a null browsing context?,https://github.com/whatwg/html/issues/9509,2023-07-12T11:46:06Z,2023-07-13T01:09:06Z,rakuco,,0
 1796721387,false,Add nonce as a Content attribute for <link>,https://github.com/whatwg/html/issues/9505,2023-07-10T12:56:12Z,2023-07-12T04:58:55Z,evilpie,clarification|topic: script|topic: link,0
@@ -2463,7 +2463,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 330668236,false,It is unclear whether elements in Shadow DOM are editable when document is in design mode,https://github.com/whatwg/html/issues/3749,2018-06-08T13:55:26Z,2018-10-25T10:39:26Z,smaug----,topic: shadow,0
 330592840,false,"UA shadow roots are observable via inheritance. ",https://github.com/whatwg/html/issues/3748,2018-06-08T09:49:50Z,2018-10-25T10:36:19Z,emilio,topic: shadow|topic: rendering,0
 330559030,false,"Should ""familiar with"" use same origin or same origin-domain?",https://github.com/whatwg/html/issues/3747,2018-06-08T08:04:33Z,2019-12-06T08:47:23Z,annevk,topic: navigation|security/privacy|needs tests|interop|topic: browsing context,0
-330340664,false,"Confusing ""async"" completion of script fetching",https://github.com/whatwg/html/issues/3746,2018-06-07T16:08:58Z,2023-04-05T14:42:27Z,domenic,topic: script,0
+330340664,false,"Confusing ""async"" completion of script fetching",https://github.com/whatwg/html/issues/3746,2018-06-07T16:08:58Z,2023-07-14T20:40:15Z,domenic,topic: script,0
 329959670,true,Add `one-time-code` autocomplete field,https://github.com/whatwg/html/issues/3745,2018-06-06T17:19:22Z,2019-04-30T12:14:54Z,hober,addition/proposal|topic: forms,16
 329939206,true,import() should use referring script's base URL as the referrer,https://github.com/whatwg/html/issues/3744,2018-06-06T16:17:56Z,2023-07-04T05:26:04Z,domenic,normative change|topic: script,1
 329842132,true,Investigate if we can avoid depending on document's origin concept,https://github.com/whatwg/html/issues/3743,2018-06-06T12:16:22Z,2018-06-07T07:13:52Z,annevk,clarification,0
@@ -3536,7 +3536,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 176243059,false,rb and rtc element should be removed from the list of obsolete features,https://github.com/whatwg/html/issues/1771,2016-09-11T13:09:32Z,2022-10-24T01:32:48Z,upsuper,document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,0
 175980447,false,Specify how to fetch <link rel=icon>,https://github.com/whatwg/html/issues/1769,2016-09-09T10:43:37Z,2016-09-13T15:19:42Z,zcorpan,topic: fetch,0
 175916893,true,Multipage redirection isn't always working anymore,https://github.com/whatwg/html/issues/1767,2016-09-09T03:06:41Z,2016-09-12T21:33:24Z,domenic,spec tooling,0
-175905234,false,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2023-04-14T01:41:13Z,isonmad,addition/proposal|needs implementer interest|topic: events,17
+175905234,false,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2023-04-14T01:41:13Z,isonmad,addition/proposal|needs implementer interest|topic: events,18
 175646396,false,HTML  specification allows for cycles in Window / Location prototype chain,https://github.com/whatwg/html/issues/1760,2016-09-08T01:47:55Z,2018-08-23T21:46:52Z,cdumez,integration|topic: location,0
 175630444,true,"does this mean these - ""A settings object      An environment settings ..."" - are equivalent?",https://github.com/whatwg/html/issues/1759,2016-09-07T23:27:46Z,2016-09-16T22:53:50Z,equalsJeffH,,0
 175609093,true,moving well known HTML tags outside of SVG container,https://github.com/whatwg/html/issues/1758,2016-09-07T21:19:02Z,2016-09-08T15:12:43Z,djfd,,0
