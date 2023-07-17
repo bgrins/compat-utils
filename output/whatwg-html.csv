@@ -11,7 +11,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1793651320,true,Introduce scopes to openers,https://github.com/whatwg/html/issues/9500,2023-07-07T14:31:13Z,2023-07-07T17:25:24Z,SoniEx2,,0
 1793601014,true,fetch client settings object isn't used in `fetch the descendants of and link a module script`,https://github.com/whatwg/html/issues/9499,2023-07-07T13:58:54Z,2023-07-13T04:29:54Z,allstarschh,,0
 1792169588,false,Improve description of `readonly` attribute,https://github.com/whatwg/html/issues/9496,2023-07-06T20:13:27Z,2023-07-13T17:32:38Z,aaronadamsCA,clarification|topic: forms,0
-1791166125,false,Allow self-closing tags everywhere,https://github.com/whatwg/html/issues/9491,2023-07-06T09:26:20Z,2023-07-12T18:52:39Z,jakearchibald,addition/proposal|needs implementer interest|topic: parser|needs compat analysis,75
+1791166125,false,Allow self-closing tags everywhere,https://github.com/whatwg/html/issues/9491,2023-07-06T09:26:20Z,2023-07-12T18:52:39Z,jakearchibald,addition/proposal|needs implementer interest|topic: parser|needs compat analysis,76
 1788871531,false,Add VideoPlaybackQuality and HTMLVideoElement»getVideoPlaybackQuality(),https://github.com/whatwg/html/issues/9489,2023-07-05T06:36:23Z,2023-07-05T06:36:23Z,sideshowbarker,addition/proposal|topic: media,0
 1788359824,false,"Should #fallback-base-url and #navigate use ""matches"" about:blank?",https://github.com/whatwg/html/issues/9488,2023-07-04T19:09:29Z,2023-07-14T03:40:21Z,domfarolino,topic: navigation,1
 1787902159,false,"Showing only a child popover causes ""beforetoggle"" and ""toggle"" events but popover is invisble",https://github.com/whatwg/html/issues/9487,2023-07-04T13:07:44Z,2023-07-12T23:31:37Z,mbrodesser-Igalia,topic: popover,0
@@ -25,7 +25,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1780709912,false,Export structuredClone steps,https://github.com/whatwg/html/issues/9466,2023-06-29T12:19:21Z,2023-06-29T14:05:52Z,saschanaz,topic: serialize and transfer|integration,0
 1778139940,false,Adding support for High Dynamic Range (HDR) imagery to HTML Canvas: a baseline proposal,https://github.com/whatwg/html/issues/9461,2023-06-28T04:09:43Z,2023-06-29T03:58:18Z,palemieux,topic: canvas,0
 1777648161,true,Should we assign #document-state-origin on new child navigable creation?,https://github.com/whatwg/html/issues/9460,2023-06-27T19:45:05Z,2023-07-14T03:40:48Z,domfarolino,topic: navigation|topic: history,0
-1776546933,false,"When atrribute value changes, do we run hiding popover algorithm regardless?",https://github.com/whatwg/html/issues/9459,2023-06-27T10:02:28Z,2023-07-11T09:20:47Z,ziransun,topic: popover,0
+1776546933,false,"When attribute value changes, do we run hiding popover algorithm regardless?",https://github.com/whatwg/html/issues/9459,2023-06-27T10:02:28Z,2023-07-17T10:06:40Z,ziransun,topic: popover,0
 1776445033,false,"Add width/height support in DataTransfer.setDragImage ",https://github.com/whatwg/html/issues/9458,2023-06-27T09:08:34Z,2023-07-05T14:33:46Z,Idered,addition/proposal|needs implementer interest|topic: drag and drop,2
 1769582158,true,`longpress` DOM event,https://github.com/whatwg/html/issues/9454,2023-06-22T12:31:26Z,2023-06-22T14:54:49Z,jpzwarte,,0
 1769559940,false,The canvas fontStretch attribute should accept percentage values as well as keywords,https://github.com/whatwg/html/issues/9453,2023-06-22T12:16:35Z,2023-07-14T03:41:24Z,jfkthame,addition/proposal|topic: canvas,0
@@ -2056,7 +2056,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 430486533,true,getContext() table cleanup,https://github.com/whatwg/html/issues/4511,2019-04-08T14:33:43Z,2023-05-23T14:27:23Z,annevk,clarification|good first issue|topic: canvas,0
 430465464,false,The document open steps should set document's CSP to entryDocument's CSP,https://github.com/whatwg/html/issues/4510,2019-04-08T13:54:28Z,2019-06-30T09:34:37Z,andypaicu,integration|topic: document.open(),0
 430200265,true,Default rendering of <svg> depending on viewBox attribute presence,https://github.com/whatwg/html/issues/4509,2019-04-07T22:31:57Z,2019-04-18T13:45:45Z,SelenIT,,0
-430199958,false,Reinstate <style scoped>,https://github.com/whatwg/html/issues/4508,2019-04-07T22:28:11Z,2019-04-15T23:07:11Z,wolfbeast,addition/proposal|needs implementer interest|topic: style,16
+430199958,false,Reinstate <style scoped>,https://github.com/whatwg/html/issues/4508,2019-04-07T22:28:11Z,2019-04-15T23:07:11Z,wolfbeast,addition/proposal|needs implementer interest|topic: style,17
 429831279,false,"Update all ""queue a task"" invocations to explicitly specify their task source",https://github.com/whatwg/html/issues/4506,2019-04-05T16:09:19Z,2019-05-15T10:04:09Z,domenic,clarification|good first issue|topic: event loop,1
 429262835,false,Define <meta name=supported-color-schemes>,https://github.com/whatwg/html/issues/4504,2019-04-04T12:54:56Z,2021-11-03T00:06:38Z,lilles,addition/proposal|topic: style|impacts documentation,2
 428972778,false,select element sizing should ignore optgroup labels,https://github.com/whatwg/html/issues/4502,2019-04-03T21:00:19Z,2022-08-11T20:29:46Z,heycam,compat|topic: rendering|topic: forms,0
