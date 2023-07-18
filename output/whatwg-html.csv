@@ -4,7 +4,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1802890973,true,Add support for `<fieldset>` like custom elements using `ElementInternals`,https://github.com/whatwg/html/issues/9516,2023-07-13T12:12:40Z,2023-07-13T12:35:48Z,jpzwarte,,0
 1802491482,false,Upcoming HTML standard issue triage meeting on 7/27/2023,https://github.com/whatwg/html/issues/9515,2023-07-13T08:31:01Z,2023-07-16T17:40:39Z,past,agenda+,0
 1802170077,false,What to do with non-srcdoc about:srcdoc documents,https://github.com/whatwg/html/issues/9514,2023-07-13T04:56:34Z,2023-07-17T15:46:16Z,domenic,topic: document.open()|topic: javascript: URLs,0
-1802134162,false,Module worker descendant script fetching regression,https://github.com/whatwg/html/issues/9513,2023-07-13T04:29:33Z,2023-07-13T12:05:25Z,domenic,topic: workers|topic: fetch|topic: script,0
+1802134162,true,Module worker descendant script fetching regression,https://github.com/whatwg/html/issues/9513,2023-07-13T04:29:33Z,2023-07-18T04:26:13Z,domenic,topic: workers|topic: fetch|topic: script,0
 1800802358,true,Can a fully active document have a null browsing context?,https://github.com/whatwg/html/issues/9509,2023-07-12T11:46:06Z,2023-07-13T01:09:06Z,rakuco,,0
 1796721387,false,Add nonce as a Content attribute for <link>,https://github.com/whatwg/html/issues/9505,2023-07-10T12:56:12Z,2023-07-12T04:58:55Z,evilpie,clarification|topic: script|topic: link,0
 1794878723,false,Broken MathML links,https://github.com/whatwg/html/issues/9502,2023-07-08T10:16:09Z,2023-07-09T13:25:29Z,lauch788,integration,1
@@ -263,7 +263,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1558881148,true,Upcoming HTML standard issue triage meeting on 2/9/2023,https://github.com/whatwg/html/issues/8786,2023-01-26T22:33:48Z,2023-02-09T17:49:43Z,past,agenda+,0
 1558865836,true,"An un-activated Image Button submitter should add `(0, 0)` entries to the form data set",https://github.com/whatwg/html/issues/8785,2023-01-26T22:18:29Z,2023-01-28T15:38:26Z,jenseng,,0
 1558491226,false,Expose an API to get the top layer element,https://github.com/whatwg/html/issues/8783,2023-01-26T17:16:05Z,2023-01-26T17:17:03Z,straker,,2
-1558379555,false,Detect UA transitions on same-document navigations,https://github.com/whatwg/html/issues/8782,2023-01-26T16:01:43Z,2023-07-11T20:54:16Z,jakearchibald,,0
+1558379555,false,Detect UA transitions on same-document navigations,https://github.com/whatwg/html/issues/8782,2023-01-26T16:01:43Z,2023-07-18T10:41:36Z,jakearchibald,,0
 1557491233,false,"Img ""sizes"": is fallback value optional (per MDN) or required (per current spec)?",https://github.com/whatwg/html/issues/8778,2023-01-26T01:15:47Z,2023-01-26T01:15:47Z,tmb-github,,0
 1557373653,true,The `commit` method on various canvas contexts does not exist,https://github.com/whatwg/html/issues/8777,2023-01-25T22:48:52Z,2023-01-25T23:28:49Z,greggman,,0
 1557070169,false,<meta> http-equiv vs name: which one wins?,https://github.com/whatwg/html/issues/8776,2023-01-25T18:04:27Z,2023-01-26T09:45:04Z,annevk,clarification,0
@@ -3536,7 +3536,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 176243059,false,rb and rtc element should be removed from the list of obsolete features,https://github.com/whatwg/html/issues/1771,2016-09-11T13:09:32Z,2022-10-24T01:32:48Z,upsuper,document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,0
 175980447,false,Specify how to fetch <link rel=icon>,https://github.com/whatwg/html/issues/1769,2016-09-09T10:43:37Z,2016-09-13T15:19:42Z,zcorpan,topic: fetch,0
 175916893,true,Multipage redirection isn't always working anymore,https://github.com/whatwg/html/issues/1767,2016-09-09T03:06:41Z,2016-09-12T21:33:24Z,domenic,spec tooling,0
-175905234,false,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2023-04-14T01:41:13Z,isonmad,addition/proposal|needs implementer interest|topic: events,18
+175905234,false,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2023-04-14T01:41:13Z,isonmad,addition/proposal|needs implementer interest|topic: events,19
 175646396,false,HTML  specification allows for cycles in Window / Location prototype chain,https://github.com/whatwg/html/issues/1760,2016-09-08T01:47:55Z,2018-08-23T21:46:52Z,cdumez,integration|topic: location,0
 175630444,true,"does this mean these - ""A settings object      An environment settings ..."" - are equivalent?",https://github.com/whatwg/html/issues/1759,2016-09-07T23:27:46Z,2016-09-16T22:53:50Z,equalsJeffH,,0
 175609093,true,moving well known HTML tags outside of SVG container,https://github.com/whatwg/html/issues/1758,2016-09-07T21:19:02Z,2016-09-08T15:12:43Z,djfd,,0

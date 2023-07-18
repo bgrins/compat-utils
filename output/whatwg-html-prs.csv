@@ -1,11 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1809663999,false,Script fetching algorithms signatures,https://github.com/whatwg/html/pull/9530,2023-07-18T10:39:07Z,2023-07-18T10:44:30Z,nicolo-ribaudo,,0
+1809036701,false,Mention WorkletGlobalScope as a type of global object,https://github.com/whatwg/html/pull/9529,2023-07-18T04:00:31Z,2023-07-18T04:01:49Z,domenic,clarification,0
 1808188120,false,Remove erroneous break in hide popover algorithm,https://github.com/whatwg/html/pull/9528,2023-07-17T17:00:26Z,2023-07-17T17:01:40Z,josepharhar,,0
-1808046317,false,Update dom-focus to specify the inline and block arguments to scroll a target into view,https://github.com/whatwg/html/pull/9527,2023-07-17T15:34:15Z,2023-07-17T15:35:46Z,dlrobertson,,0
-1807784981,false,Add popover open check in attribute change steps,https://github.com/whatwg/html/pull/9526,2023-07-17T13:26:17Z,2023-07-17T16:34:51Z,josepharhar,,0
+1808046317,false,Update dom-focus to specify the inline and block arguments to scroll a target into view,https://github.com/whatwg/html/pull/9527,2023-07-17T15:34:15Z,2023-07-18T04:50:50Z,dlrobertson,,0
+1807784981,false,Add popover open check in attribute change steps,https://github.com/whatwg/html/pull/9526,2023-07-17T13:26:17Z,2023-07-18T11:49:02Z,josepharhar,,0
 1807621232,true,added thank you,https://github.com/whatwg/html/pull/9525,2023-07-17T12:01:23Z,2023-07-17T13:23:23Z,Wolitz,spam,0
-1807510084,false,Integration with css-view-transitions-1,https://github.com/whatwg/html/pull/9524,2023-07-17T10:59:29Z,2023-07-17T14:12:31Z,noamr,,0
+1807510084,true,Integration with css-view-transitions-1,https://github.com/whatwg/html/pull/9524,2023-07-17T10:59:29Z,2023-07-18T08:22:52Z,noamr,,0
 1806925706,false,Review Draft Publication: July 2023,https://github.com/whatwg/html/pull/9523,2023-07-17T04:23:18Z,2023-07-17T04:24:29Z,domenic,,0
-1805476655,false,Propagate the fetch settings object when loading module graphs,https://github.com/whatwg/html/pull/9520,2023-07-14T19:57:39Z,2023-07-17T15:06:19Z,nicolo-ribaudo,,0
+1805476655,true,Propagate the fetch settings object when loading module graphs,https://github.com/whatwg/html/pull/9520,2023-07-14T19:57:39Z,2023-07-18T04:50:37Z,nicolo-ribaudo,topic: script,0
 1801448149,true,"""Initialize the navigable"": get document from the right place",https://github.com/whatwg/html/pull/9511,2023-07-12T17:36:20Z,2023-07-13T03:22:15Z,domfarolino,topic: navigation,0
 1801007380,true,Editorial: Finish removing unused script-fetching param,https://github.com/whatwg/html/pull/9510,2023-07-12T13:38:38Z,2023-07-13T03:24:21Z,domfarolino,topic: script,0
 1799781601,true,"Editorial: Remove unused param from ""fetch the descendants of and link a module script""",https://github.com/whatwg/html/pull/9508,2023-07-11T21:29:47Z,2023-07-12T00:24:29Z,domfarolino,topic: script,0
@@ -21,8 +23,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1779632972,true,Only use sourceOrigin for all about:-schemed Documents,https://github.com/whatwg/html/pull/9465,2023-06-28T19:43:40Z,2023-07-04T02:38:55Z,domfarolino,clarification|topic: navigation,0
 1779529030,true,Snapshot fallback base URL for about:-schemed Documents,https://github.com/whatwg/html/pull/9464,2023-06-28T18:51:33Z,2023-07-13T20:55:06Z,domfarolino,normative change|topic: navigation,0
 1778497411,true,Synchronously populate non-initial about:blank documents,https://github.com/whatwg/html/pull/9463,2023-06-28T08:50:34Z,2023-07-11T09:13:17Z,domenic,topic: navigation|topic: parser,0
-1778332031,false,Add close signals and close watchers,https://github.com/whatwg/html/pull/9462,2023-06-28T06:57:55Z,2023-07-14T08:10:14Z,domenic,addition/proposal|topic: dialog|topic: popover,2
-1775374251,false,Ignore DOM state when hiding popovers if needed,https://github.com/whatwg/html/pull/9457,2023-06-26T18:45:19Z,2023-07-17T15:56:31Z,josepharhar,,0
+1778332031,false,Add close signals and close watchers,https://github.com/whatwg/html/pull/9462,2023-06-28T06:57:55Z,2023-07-18T02:20:38Z,domenic,addition/proposal|topic: dialog|topic: popover,2
+1775374251,false,Ignore DOM state when hiding popovers if needed,https://github.com/whatwg/html/pull/9457,2023-06-26T18:45:19Z,2023-07-18T12:00:29Z,josepharhar,,0
 1775234651,false,add dialogmodaltarget attribute,https://github.com/whatwg/html/pull/9456,2023-06-26T17:17:30Z,2023-07-17T04:51:52Z,keithamus,,1
 1768695537,false,"Editorial rework of directionality ",https://github.com/whatwg/html/pull/9452,2023-06-22T00:09:07Z,2023-07-15T19:01:55Z,bkardell,,0
 1768470617,true,Make togglePopover throw more exceptions,https://github.com/whatwg/html/pull/9451,2023-06-21T20:56:50Z,2023-06-28T14:34:58Z,josepharhar,topic: popover,0
@@ -52,7 +54,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1735662308,true,Add empty string special case for pushState/replaceState,https://github.com/whatwg/html/pull/9370,2023-06-01T07:26:49Z,2023-06-02T03:06:20Z,domenic,topic: history|interop,0
 1735288504,true,Tighten auto popover list definition,https://github.com/whatwg/html/pull/9369,2023-06-01T01:45:56Z,2023-06-06T19:53:27Z,josepharhar,topic: popover,0
 1732189866,false,Use the fetched unsafe response for network status and response bodies,https://github.com/whatwg/html/pull/9362,2023-05-30T12:47:15Z,2023-06-09T14:24:49Z,trflynn89,,0
-1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-07-14T07:35:51Z,rubberyuzu,,0
+1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-07-18T08:25:19Z,rubberyuzu,,0
 1729857566,true,Add files via upload,https://github.com/whatwg/html/pull/9353,2023-05-29T01:56:27Z,2023-05-29T04:36:27Z,jakex666x,spam,0
 1728531782,true,Check dialog is modal flag instead of open attribute in 'check popover validity' algorithm,https://github.com/whatwg/html/pull/9344,2023-05-27T08:09:19Z,2023-06-12T06:54:45Z,nt1m,normative change|topic: popover,0
 1727729022,true,Re-add <source media> for media elements,https://github.com/whatwg/html/pull/9341,2023-05-26T14:21:19Z,2023-06-12T12:20:28Z,zcorpan,,3
