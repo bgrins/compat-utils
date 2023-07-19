@@ -1,14 +1,14 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1810870126,false,Define srcdoc documents as matching about:srcdoc URL,https://github.com/whatwg/html/pull/9534,2023-07-18T23:37:14Z,2023-07-18T23:46:46Z,domfarolino,,0
-1810164917,false,Fix non-fetch-scheme-params-initiator-origin assignment,https://github.com/whatwg/html/pull/9532,2023-07-18T15:25:02Z,2023-07-18T15:26:17Z,domfarolino,topic: navigation,0
-1809663999,false,Add types to parameters of script fetching algorithms,https://github.com/whatwg/html/pull/9530,2023-07-18T10:39:07Z,2023-07-18T15:59:18Z,nicolo-ribaudo,,0
-1809036701,false,Mention WorkletGlobalScope as a type of global object,https://github.com/whatwg/html/pull/9529,2023-07-18T04:00:31Z,2023-07-18T14:44:16Z,domenic,clarification,0
+1810870126,false,Define srcdoc documents as matching about:srcdoc URL,https://github.com/whatwg/html/pull/9534,2023-07-18T23:37:14Z,2023-07-19T07:25:19Z,domfarolino,,0
+1810164917,true,Fix non-fetch-scheme-params-initiator-origin assignment,https://github.com/whatwg/html/pull/9532,2023-07-18T15:25:02Z,2023-07-19T07:17:21Z,domfarolino,topic: navigation,0
+1809663999,false,Add types to parameters of script fetching algorithms,https://github.com/whatwg/html/pull/9530,2023-07-18T10:39:07Z,2023-07-19T10:55:06Z,nicolo-ribaudo,,0
+1809036701,true,Mention WorkletGlobalScope as a type of global object,https://github.com/whatwg/html/pull/9529,2023-07-18T04:00:31Z,2023-07-19T01:10:36Z,domenic,clarification,0
 1808188120,false,Remove erroneous break in hide popover algorithm,https://github.com/whatwg/html/pull/9528,2023-07-17T17:00:26Z,2023-07-17T17:01:40Z,josepharhar,,0
-1808046317,false,Update dom-focus to specify the inline and block arguments to scroll a target into view,https://github.com/whatwg/html/pull/9527,2023-07-17T15:34:15Z,2023-07-18T14:05:05Z,dlrobertson,,0
+1808046317,true,Update dom-focus to specify the inline and block arguments to scroll a target into view,https://github.com/whatwg/html/pull/9527,2023-07-17T15:34:15Z,2023-07-19T10:58:55Z,dlrobertson,,0
 1807784981,false,Add popover open check in attribute change steps,https://github.com/whatwg/html/pull/9526,2023-07-17T13:26:17Z,2023-07-18T19:44:06Z,josepharhar,,0
 1807621232,true,added thank you,https://github.com/whatwg/html/pull/9525,2023-07-17T12:01:23Z,2023-07-17T13:23:23Z,Wolitz,spam,0
 1807510084,true,Integration with css-view-transitions-1,https://github.com/whatwg/html/pull/9524,2023-07-17T10:59:29Z,2023-07-18T08:22:52Z,noamr,,0
-1806925706,false,Review Draft Publication: July 2023,https://github.com/whatwg/html/pull/9523,2023-07-17T04:23:18Z,2023-07-17T04:24:29Z,domenic,,0
+1806925706,true,Review Draft Publication: July 2023,https://github.com/whatwg/html/pull/9523,2023-07-17T04:23:18Z,2023-07-19T03:13:04Z,domenic,,0
 1805476655,true,Propagate the fetch settings object when loading module graphs,https://github.com/whatwg/html/pull/9520,2023-07-14T19:57:39Z,2023-07-18T04:50:37Z,nicolo-ribaudo,topic: script,0
 1801448149,true,"""Initialize the navigable"": get document from the right place",https://github.com/whatwg/html/pull/9511,2023-07-12T17:36:20Z,2023-07-13T03:22:15Z,domfarolino,topic: navigation,0
 1801007380,true,Editorial: Finish removing unused script-fetching param,https://github.com/whatwg/html/pull/9510,2023-07-12T13:38:38Z,2023-07-13T03:24:21Z,domfarolino,topic: script,0
@@ -56,7 +56,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1735662308,true,Add empty string special case for pushState/replaceState,https://github.com/whatwg/html/pull/9370,2023-06-01T07:26:49Z,2023-06-02T03:06:20Z,domenic,topic: history|interop,0
 1735288504,true,Tighten auto popover list definition,https://github.com/whatwg/html/pull/9369,2023-06-01T01:45:56Z,2023-06-06T19:53:27Z,josepharhar,topic: popover,0
 1732189866,false,Use the fetched unsafe response for network status and response bodies,https://github.com/whatwg/html/pull/9362,2023-05-30T12:47:15Z,2023-06-09T14:24:49Z,trflynn89,,0
-1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-07-18T14:15:40Z,rubberyuzu,,0
+1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-07-19T05:04:05Z,rubberyuzu,,0
 1729857566,true,Add files via upload,https://github.com/whatwg/html/pull/9353,2023-05-29T01:56:27Z,2023-05-29T04:36:27Z,jakex666x,spam,0
 1728531782,true,Check dialog is modal flag instead of open attribute in 'check popover validity' algorithm,https://github.com/whatwg/html/pull/9344,2023-05-27T08:09:19Z,2023-06-12T06:54:45Z,nt1m,normative change|topic: popover,0
 1727729022,true,Re-add <source media> for media elements,https://github.com/whatwg/html/pull/9341,2023-05-26T14:21:19Z,2023-06-12T12:20:28Z,zcorpan,,3
