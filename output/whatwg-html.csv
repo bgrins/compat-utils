@@ -1,11 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1812387860,false,Consider making `=` in unquoted attribute values not a parse error,https://github.com/whatwg/html/issues/9536,2023-07-19T17:26:24Z,2023-07-19T17:26:24Z,tabatkins,,1
-1812006723,false,Environment settings objects used when fetching a module worker script graph are still wrong,https://github.com/whatwg/html/issues/9535,2023-07-19T13:53:30Z,2023-07-19T13:54:12Z,nicolo-ribaudo,,0
+1813687586,false,Disabled dates for input type=date,https://github.com/whatwg/html/issues/9542,2023-07-20T10:42:52Z,2023-07-20T10:42:52Z,thany,,0
+1813664808,false,Considering event.waitUntil(promise) for async listeners,https://github.com/whatwg/html/issues/9540,2023-07-20T10:30:06Z,2023-07-20T10:39:23Z,WebReflection,,1
+1812387860,false,Consider making `=` in unquoted attribute values not a parse error,https://github.com/whatwg/html/issues/9536,2023-07-19T17:26:24Z,2023-07-20T03:58:11Z,tabatkins,document conformance,1
+1812006723,false,Environment settings objects used when fetching a module worker script graph are still wrong,https://github.com/whatwg/html/issues/9535,2023-07-19T13:53:30Z,2023-07-20T03:58:24Z,nicolo-ribaudo,topic: script,0
 1803859412,true,Define the block flow and inline base directions for dom-focus,https://github.com/whatwg/html/issues/9518,2023-07-13T22:43:11Z,2023-07-19T06:50:53Z,dlrobertson,topic: focus,0
 1803279067,true,Non-fetch scheme navigation params initiator origin isn't always set correctly,https://github.com/whatwg/html/issues/9517,2023-07-13T15:32:56Z,2023-07-19T07:17:21Z,domfarolino,topic: navigation,1
 1802890973,true,Add support for `<fieldset>` like custom elements using `ElementInternals`,https://github.com/whatwg/html/issues/9516,2023-07-13T12:12:40Z,2023-07-13T12:35:48Z,jpzwarte,,0
 1802491482,false,Upcoming HTML standard issue triage meeting on 7/27/2023,https://github.com/whatwg/html/issues/9515,2023-07-13T08:31:01Z,2023-07-16T17:40:39Z,past,agenda+,0
-1802170077,false,What to do with non-srcdoc about:srcdoc documents,https://github.com/whatwg/html/issues/9514,2023-07-13T04:56:34Z,2023-07-18T22:40:15Z,domenic,topic: document.open()|topic: javascript: URLs,0
+1802170077,true,What to do with non-srcdoc about:srcdoc documents,https://github.com/whatwg/html/issues/9514,2023-07-13T04:56:34Z,2023-07-20T03:48:49Z,domenic,topic: document.open()|topic: javascript: URLs,0
 1802134162,true,Module worker descendant script fetching regression,https://github.com/whatwg/html/issues/9513,2023-07-13T04:29:33Z,2023-07-18T04:26:13Z,domenic,topic: workers|topic: fetch|topic: script,0
 1800802358,true,Can a fully active document have a null browsing context?,https://github.com/whatwg/html/issues/9509,2023-07-12T11:46:06Z,2023-07-13T01:09:06Z,rakuco,,0
 1796721387,false,Add nonce as a Content attribute for <link>,https://github.com/whatwg/html/issues/9505,2023-07-10T12:56:12Z,2023-07-12T04:58:55Z,evilpie,clarification|topic: script|topic: link,0
@@ -52,7 +54,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1743957228,false,"issues with optionality of oldParent in HTML element removing steps, particularly with removal of optgroups",https://github.com/whatwg/html/issues/9390,2023-06-06T14:09:00Z,2023-06-16T13:26:11Z,dbaron,topic: forms|topic: img|integration,0
 1742040804,false,anonymous fieldset content box should inherit scroll-start,https://github.com/whatwg/html/issues/9386,2023-06-05T15:35:38Z,2023-06-09T07:22:26Z,DavMila,topic: rendering|topic: forms,0
 1742022432,false,Constraint Validation IDL is reiterated multiple times,https://github.com/whatwg/html/issues/9385,2023-06-05T15:24:07Z,2023-06-09T07:20:27Z,clshortfuse,clarification|topic: forms,0
-1741686583,false,"Should ""show popover"" assert the element's popover invoker is null?",https://github.com/whatwg/html/issues/9383,2023-06-05T12:38:07Z,2023-07-03T11:25:54Z,mbrodesser-Igalia,clarification|topic: popover,0
+1741686583,true,"Should ""show popover"" assert the element's popover invoker is null?",https://github.com/whatwg/html/issues/9383,2023-06-05T12:38:07Z,2023-07-20T06:32:40Z,mbrodesser-Igalia,clarification|topic: popover,0
 1740502906,false,"popover: expect a way to watch all ""`toggle`"" events even in shadow DOM on `window`",https://github.com/whatwg/html/issues/9381,2023-06-04T17:44:23Z,2023-06-05T04:56:13Z,gdh1995,addition/proposal|topic: popover,0
 1740428387,false,Add `class` & `for` aliases for `className` and `htmlFor`,https://github.com/whatwg/html/issues/9379,2023-06-04T15:17:46Z,2023-06-06T10:05:13Z,jakearchibald,addition/proposal|needs implementer interest,188
 1738596106,false,Should we deprecate `dialog.show()`?,https://github.com/whatwg/html/issues/9376,2023-06-02T18:02:06Z,2023-06-03T07:59:25Z,mfreed7,removal/deprecation|topic: dialog,11
@@ -563,7 +565,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1269261848,true,"interop: Trailing whitespace in h1/h2/.. is removed in chrome, but not firefox",https://github.com/whatwg/html/issues/8003,2022-06-13T10:55:31Z,2022-06-13T19:04:39Z,untitaker,,0
 1268976298,false,How to interpretate 5.1 step of the run steps after a timeout,https://github.com/whatwg/html/issues/8002,2022-06-13T06:39:27Z,2022-06-24T11:31:44Z,dSalieri,,0
 1267889681,true,Add support for WebAuthn's Conditional Mediation / Integration with autocomplete,https://github.com/whatwg/html/issues/7999,2022-06-10T18:41:40Z,2022-06-16T18:49:14Z,nsatragno,,0
-1266607966,false,Editorial cleanups to fetching scripts,https://github.com/whatwg/html/issues/7996,2022-06-09T20:16:26Z,2022-12-26T10:02:37Z,domenic,clarification|topic: script,0
+1266607966,true,Editorial cleanups to fetching scripts,https://github.com/whatwg/html/issues/7996,2022-06-09T20:16:26Z,2023-07-20T03:42:28Z,domenic,clarification|topic: script,0
 1265078307,true,Proposal: Element.computedLang,https://github.com/whatwg/html/issues/7994,2022-06-08T17:30:20Z,2022-06-08T18:58:25Z,nuxodin,,0
 1264920375,false,focus-visible styles do not match browsers.,https://github.com/whatwg/html/issues/7993,2022-06-08T15:19:08Z,2022-06-16T09:48:44Z,emilio,topic: rendering|interop|topic: focus,0
 1260339677,false,Declarative <script> behavior,https://github.com/whatwg/html/issues/7986,2022-06-03T20:21:36Z,2022-06-07T21:39:30Z,jeremyroman,topic: script,0
@@ -1217,7 +1219,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 771370239,false,A way to load different resources depending on the browser's support for various HTTP versions,https://github.com/whatwg/html/issues/6240,2020-12-19T12:15:11Z,2020-12-26T22:30:12Z,Atulin,,0
 770186836,false,"Escape ""<"" and "">"" in attributes",https://github.com/whatwg/html/issues/6235,2020-12-17T16:23:48Z,2023-07-07T07:45:02Z,securityMB,normative change|topic: parser|security/privacy|needs compat analysis|security-tracker,9
 769579263,true,"Update ""intrinsic dimensions"" terminology",https://github.com/whatwg/html/issues/6233,2020-12-17T06:25:35Z,2023-05-26T09:36:22Z,fantasai,topic: rendering|topic: img|integration,0
-769344237,false,Allow form validation on <output> element,https://github.com/whatwg/html/issues/6232,2020-12-16T23:25:31Z,2020-12-30T23:06:27Z,btrem,,2
+769344237,false,Allow form validation on <output> element,https://github.com/whatwg/html/issues/6232,2020-12-16T23:25:31Z,2023-07-20T11:52:21Z,btrem,,2
 769198241,false,"Custom Elements definition/styling challenges/use cases ",https://github.com/whatwg/html/issues/6231,2020-12-16T19:08:08Z,2023-04-20T17:29:17Z,bkardell,,0
 767783731,false,Should two different defer scripts execute in the same task?,https://github.com/whatwg/html/issues/6230,2020-12-15T16:35:11Z,2023-05-11T04:32:58Z,rik,topic: script|topic: event loop,0
 767105790,true,Add scoped attribute back in to the standards,https://github.com/whatwg/html/issues/6228,2020-12-15T02:46:23Z,2020-12-15T07:50:47Z,jabcreations,,1
@@ -2531,7 +2533,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 314154308,false,Proposal: autoselect attribute for editable elements,https://github.com/whatwg/html/issues/3627,2018-04-13T15:33:05Z,2021-12-17T19:45:03Z,jfbrennan,addition/proposal|needs implementer interest,3
 313602166,true,History traversal is probably out of date,https://github.com/whatwg/html/issues/3625,2018-04-12T07:09:01Z,2022-10-31T05:06:58Z,yutakahirano,topic: history,0
 313355101,false,Add a note why module map uses request URLs,https://github.com/whatwg/html/issues/3624,2018-04-11T14:41:59Z,2018-04-15T17:29:24Z,annevk,clarification|topic: script,0
-313325302,false," Async constraint form validation",https://github.com/whatwg/html/issues/3623,2018-04-11T13:31:28Z,2018-04-30T13:43:09Z,jimmywarting,needs implementer interest|topic: forms,1
+313325302,false," Async constraint form validation",https://github.com/whatwg/html/issues/3623,2018-04-11T13:31:28Z,2018-04-30T13:43:09Z,jimmywarting,needs implementer interest|topic: forms,2
 313089139,true,import.meta.url needs its fragment censored,https://github.com/whatwg/html/issues/3622,2018-04-10T21:05:55Z,2018-05-10T17:06:09Z,domenic,needs tests|topic: script,0
 312283497,true,Media: add method to discover whether playback is allowed before calling `play()`,https://github.com/whatwg/html/issues/3617,2018-04-08T08:06:33Z,2018-11-19T19:53:31Z,mounirlamouri,addition/proposal|topic: media,0
 312052108,true,Traverse history by a delta is unclear for deltas larger than 1,https://github.com/whatwg/html/issues/3615,2018-04-06T17:15:15Z,2022-10-31T05:06:58Z,cbrewster,topic: history|interop,0
@@ -3678,7 +3680,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 161565361,true,Consider rewriting session history to follow closer what implementations do using list of trees,https://github.com/whatwg/html/issues/1454,2016-06-21T23:49:23Z,2022-10-31T05:06:56Z,smaug----,topic: history,0
 161546694,true,"Comment ending with ""<!-->"" should be allowed",https://github.com/whatwg/html/issues/1453,2016-06-21T21:42:43Z,2016-06-23T16:20:26Z,zcorpan,document conformance|topic: parser,0
 161534829,true,Inconsistent behavior of ctx.fillText from different browsers,https://github.com/whatwg/html/issues/1452,2016-06-21T20:43:44Z,2016-06-22T00:24:18Z,xidachen,topic: canvas,0
-161464290,false,Add IBAN/BIC to autofill options,https://github.com/whatwg/html/issues/1448,2016-06-21T15:15:16Z,2022-10-27T11:25:54Z,anselmh,addition/proposal|topic: forms,9
+161464290,false,Add IBAN/BIC to autofill options,https://github.com/whatwg/html/issues/1448,2016-06-21T15:15:16Z,2023-07-20T10:24:56Z,anselmh,addition/proposal|topic: forms,9
 161422481,true,How to handle URL schemes that are not understood during navigation,https://github.com/whatwg/html/issues/1446,2016-06-21T12:22:37Z,2016-07-04T08:38:22Z,annevk,topic: navigation,0
 161414926,true,Initializing a document from a response,https://github.com/whatwg/html/issues/1445,2016-06-21T11:42:44Z,2021-01-22T22:35:55Z,annevk,topic: navigation,1
 161295851,true,"<nomodule>, or other patterns for loading both classic and module scripts?",https://github.com/whatwg/html/issues/1442,2016-06-20T21:09:59Z,2017-01-31T18:47:13Z,domenic,addition/proposal|needs implementer interest,0
