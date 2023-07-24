@@ -1,18 +1,19 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1817297523,false,Tweak `thead` description to clarify it can contain non-header cells,https://github.com/whatwg/html/pull/9552,2023-07-23T21:11:39Z,2023-07-23T21:12:53Z,patrickhlauke,,0
+1818258169,false,Make the directionality account for missing parent element,https://github.com/whatwg/html/pull/9554,2023-07-24T11:49:33Z,2023-07-24T11:54:59Z,annevk,i18n-tracker,0
+1817297523,false,Tweak `thead` description to clarify it can contain non-header cells,https://github.com/whatwg/html/pull/9552,2023-07-23T21:11:39Z,2023-07-24T09:52:03Z,patrickhlauke,,0
 1815020757,false,selectmenu,https://github.com/whatwg/html/pull/9547,2023-07-21T01:27:53Z,2023-07-21T02:52:23Z,josepharhar,,1
 1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2023-07-21T07:12:09Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms|needs tests,3
 1813916540,true,This Pull Request implements form validation on the HTML <output> element to display the calculated result.,https://github.com/whatwg/html/pull/9544,2023-07-20T12:44:22Z,2023-07-20T13:26:04Z,cijian23,spam,1
-1813671797,false,Use correct settings object for modules imported in workers,https://github.com/whatwg/html/pull/9541,2023-07-20T10:34:11Z,2023-07-21T06:44:41Z,nicolo-ribaudo,topic: script,0
+1813671797,true,Use correct settings object for modules imported in workers,https://github.com/whatwg/html/pull/9541,2023-07-20T10:34:11Z,2023-07-24T07:22:54Z,nicolo-ribaudo,topic: script,0
 1812982540,false,Add setHTMLUnsafe and parseHTMLUnsafe methods,https://github.com/whatwg/html/pull/9538,2023-07-20T01:31:03Z,2023-07-20T15:51:03Z,josepharhar,,0
-1812629719,false,Add a layer and filter interface in the 2D canvas,https://github.com/whatwg/html/pull/9537,2023-07-19T19:49:25Z,2023-07-20T18:09:21Z,graveljp,,0
+1812629719,false,Add a layer and filter interface in the 2D canvas,https://github.com/whatwg/html/pull/9537,2023-07-19T19:49:25Z,2023-07-24T05:58:34Z,graveljp,,0
 1810870126,true,Define srcdoc documents as matching about:srcdoc URL,https://github.com/whatwg/html/pull/9534,2023-07-18T23:37:14Z,2023-07-20T03:49:15Z,domfarolino,topic: browsing context|topic: document.open()|topic: javascript: URLs,0
 1810164917,true,Fix non-fetch-scheme-params-initiator-origin assignment,https://github.com/whatwg/html/pull/9532,2023-07-18T15:25:02Z,2023-07-19T07:17:21Z,domfarolino,topic: navigation,0
 1809663999,true,Add types to parameters of script fetching algorithms,https://github.com/whatwg/html/pull/9530,2023-07-18T10:39:07Z,2023-07-20T06:18:13Z,nicolo-ribaudo,,0
 1809036701,true,Mention WorkletGlobalScope as a type of global object,https://github.com/whatwg/html/pull/9529,2023-07-18T04:00:31Z,2023-07-19T01:10:36Z,domenic,clarification,0
-1808188120,false,Remove erroneous break in hide popover algorithm,https://github.com/whatwg/html/pull/9528,2023-07-17T17:00:26Z,2023-07-17T17:01:40Z,josepharhar,,0
+1808188120,false,Remove erroneous break in hide popover algorithm,https://github.com/whatwg/html/pull/9528,2023-07-17T17:00:26Z,2023-07-24T06:15:29Z,josepharhar,topic: popover,0
 1808046317,true,Update dom-focus to specify the inline and block arguments to scroll a target into view,https://github.com/whatwg/html/pull/9527,2023-07-17T15:34:15Z,2023-07-19T10:58:55Z,dlrobertson,,0
-1807784981,false,Add popover open check in attribute change steps,https://github.com/whatwg/html/pull/9526,2023-07-17T13:26:17Z,2023-07-18T19:44:06Z,josepharhar,,0
+1807784981,false,Add popover open check in attribute change steps,https://github.com/whatwg/html/pull/9526,2023-07-17T13:26:17Z,2023-07-24T06:15:29Z,josepharhar,topic: popover,0
 1807621232,true,added thank you,https://github.com/whatwg/html/pull/9525,2023-07-17T12:01:23Z,2023-07-17T13:23:23Z,Wolitz,spam,0
 1807510084,true,Integration with css-view-transitions-1,https://github.com/whatwg/html/pull/9524,2023-07-17T10:59:29Z,2023-07-18T08:22:52Z,noamr,,0
 1806925706,true,Review Draft Publication: July 2023,https://github.com/whatwg/html/pull/9523,2023-07-17T04:23:18Z,2023-07-19T03:13:04Z,domenic,,0
@@ -23,7 +24,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1793324979,false,"Editorial: Use the right ""active document"" definition in a focus algorithm",https://github.com/whatwg/html/pull/9498,2023-07-07T11:00:52Z,2023-07-11T12:54:49Z,rakuco,,0
 1791560609,true,Populate document state origin/initiator origin upon creation,https://github.com/whatwg/html/pull/9494,2023-07-06T13:24:00Z,2023-07-14T03:40:48Z,domfarolino,topic: navigation,0
 1791506923,false,Force size containment for auto-sizes,https://github.com/whatwg/html/pull/9493,2023-07-06T12:54:24Z,2023-07-21T21:02:53Z,zcorpan,,1
-1789491788,false,Make dirname apply to hidden/tel/url/email inputs,https://github.com/whatwg/html/pull/9490,2023-07-05T12:51:28Z,2023-07-12T05:21:46Z,zcorpan,normative change|topic: forms,0
+1789491788,true,Make dirname apply to hidden/tel/url/email inputs,https://github.com/whatwg/html/pull/9490,2023-07-05T12:51:28Z,2023-07-24T08:55:35Z,zcorpan,normative change|topic: forms,0
 1787684142,false,Use appropriate fetch destination for JSON&CSS modules,https://github.com/whatwg/html/pull/9486,2023-07-04T10:48:45Z,2023-07-21T14:31:37Z,nicolo-ribaudo,,0
 1787565314,true,Test PR,https://github.com/whatwg/html/pull/9485,2023-07-04T09:43:04Z,2023-07-04T12:37:01Z,cijian23,spam,0
 1787464058,true,Fix links to fetch request initiator type,https://github.com/whatwg/html/pull/9484,2023-07-04T08:48:29Z,2023-07-04T10:07:11Z,nicolo-ribaudo,,0
@@ -39,7 +40,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1768470617,true,Make togglePopover throw more exceptions,https://github.com/whatwg/html/pull/9451,2023-06-21T20:56:50Z,2023-06-28T14:34:58Z,josepharhar,topic: popover,0
 1763558894,true,Editorial: remove plugin language from media elements,https://github.com/whatwg/html/pull/9440,2023-06-19T13:32:54Z,2023-06-20T06:28:12Z,annevk,,0
 1763113582,true,"Editorial: change ""show popover"" to call ""check popover validity"" first",https://github.com/whatwg/html/pull/9439,2023-06-19T09:19:32Z,2023-07-03T09:12:04Z,mbrodesser-Igalia,topic: popover,0
-1760637113,false,Account for optgroup removal,https://github.com/whatwg/html/pull/9434,2023-06-16T13:25:40Z,2023-06-16T13:26:56Z,annevk,,0
+1760637113,false,Account for optgroup removal,https://github.com/whatwg/html/pull/9434,2023-06-16T13:25:40Z,2023-07-24T06:17:53Z,annevk,,0
 1758889108,false,Clarify the fake token step in fragment parsing,https://github.com/whatwg/html/pull/9430,2023-06-15T13:51:00Z,2023-07-04T16:06:44Z,zcorpan,clarification|topic: parser,0
 1757361836,false,Allow elements with display:contents to be focusable.,https://github.com/whatwg/html/pull/9425,2023-06-14T17:31:45Z,2023-06-14T17:54:13Z,dbaron,topic: focus,3
 1757211335,true,Fix markup so that word is linked correctly.,https://github.com/whatwg/html/pull/9424,2023-06-14T15:53:15Z,2023-06-14T16:02:52Z,dbaron,,0
@@ -63,7 +64,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1735662308,true,Add empty string special case for pushState/replaceState,https://github.com/whatwg/html/pull/9370,2023-06-01T07:26:49Z,2023-06-02T03:06:20Z,domenic,topic: history|interop,0
 1735288504,true,Tighten auto popover list definition,https://github.com/whatwg/html/pull/9369,2023-06-01T01:45:56Z,2023-06-06T19:53:27Z,josepharhar,topic: popover,0
 1732189866,false,Use the fetched unsafe response for network status and response bodies,https://github.com/whatwg/html/pull/9362,2023-05-30T12:47:15Z,2023-06-09T14:24:49Z,trflynn89,,0
-1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-07-21T08:48:46Z,rubberyuzu,,0
+1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-07-24T10:39:23Z,rubberyuzu,,0
 1729857566,true,Add files via upload,https://github.com/whatwg/html/pull/9353,2023-05-29T01:56:27Z,2023-05-29T04:36:27Z,jakex666x,spam,0
 1728531782,true,Check dialog is modal flag instead of open attribute in 'check popover validity' algorithm,https://github.com/whatwg/html/pull/9344,2023-05-27T08:09:19Z,2023-06-12T06:54:45Z,nt1m,normative change|topic: popover,0
 1727729022,true,Re-add <source media> for media elements,https://github.com/whatwg/html/pull/9341,2023-05-26T14:21:19Z,2023-06-12T12:20:28Z,zcorpan,,3
@@ -265,7 +266,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1435380302,true,Use correct properties for progress element,https://github.com/whatwg/html/pull/8471,2022-11-03T23:49:55Z,2022-11-21T17:27:13Z,dizhang168,,0
 1435209005,true,Add the Priority Hints changes to the html spec,https://github.com/whatwg/html/pull/8470,2022-11-03T20:16:05Z,2023-02-17T06:10:16Z,pmeenan,,0
 1434547038,true,Export rendering opportunity,https://github.com/whatwg/html/pull/8468,2022-11-03T12:02:44Z,2022-11-04T01:16:10Z,jakearchibald,,0
-1433914646,false,Add custom state pseudo class,https://github.com/whatwg/html/pull/8467,2022-11-02T23:30:52Z,2023-07-15T01:05:47Z,josepharhar,agenda+,0
+1433914646,false,Add custom state pseudo class,https://github.com/whatwg/html/pull/8467,2022-11-02T23:30:52Z,2023-07-24T09:23:09Z,josepharhar,agenda+,0
 1433818435,true,"Add ""user attention"" definition to top-level traversable.",https://github.com/whatwg/html/pull/8466,2022-11-02T21:38:28Z,2023-04-28T08:13:38Z,jan-ivar,topic: focus|integration,0
 1433811063,true,Missing commas in JSON examples,https://github.com/whatwg/html/pull/8465,2022-11-02T21:30:36Z,2022-11-03T04:53:26Z,NiedziolkaMichal,,0
 1431810817,true,Export nested navigable,https://github.com/whatwg/html/pull/8462,2022-11-01T17:31:41Z,2023-04-24T16:14:33Z,domfarolino,,0
@@ -423,7 +424,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1229967385,true,Match upstream ECMA-262 change,https://github.com/whatwg/html/pull/7909,2022-05-09T16:25:55Z,2022-05-10T00:37:25Z,mathiasbynens,topic: forms,0
 1229938684,true,Use `v` flag instead of `u` for `pattern` RegExps,https://github.com/whatwg/html/pull/7908,2022-05-09T16:01:15Z,2023-06-24T14:39:53Z,mathiasbynens,addition/proposal|topic: forms|needs compat analysis,1
 1229548516,true,Clarify that modal dialogs escape inertness of ancestors.,https://github.com/whatwg/html/pull/7905,2022-05-09T11:12:49Z,2022-05-18T18:04:24Z,emilio,clarification|topic: dialog,0
-1228863635,false,WIP: Subresource link header,https://github.com/whatwg/html/pull/7904,2022-05-08T11:30:17Z,2022-08-22T02:36:08Z,noamr,,0
+1228863635,false,WIP: Subresource link header,https://github.com/whatwg/html/pull/7904,2022-05-08T11:30:17Z,2023-07-24T06:38:48Z,noamr,,0
 1227330877,true,Fix when a `script` element is implicitly potentially render-blocking,https://github.com/whatwg/html/pull/7894,2022-05-06T01:41:09Z,2022-05-16T21:06:09Z,xiaochengh,topic: rendering|topic: script,0
 1227289062,true,Fix typo FAQ.md,https://github.com/whatwg/html/pull/7892,2022-05-06T00:03:19Z,2022-05-07T01:07:29Z,yamanoku,,0
 1224495706,true,Remove UA style for h2-h5 in hgroup,https://github.com/whatwg/html/pull/7886,2022-05-03T19:00:13Z,2022-05-03T21:52:52Z,zcorpan,topic: rendering,0
@@ -435,7 +436,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1219450270,true,Improve clarity of render-blocking related terms,https://github.com/whatwg/html/pull/7870,2022-04-28T23:35:27Z,2022-05-03T17:19:22Z,xiaochengh,clarification|topic: rendering,0
 1219005122,true,"Added HTML tags, body tag, and indentation",https://github.com/whatwg/html/pull/7868,2022-04-28T16:49:28Z,2022-04-28T19:20:36Z,codesalot,spam,4
 1218370191,true,Editorial: refactor link headers to be declared per-type,https://github.com/whatwg/html/pull/7866,2022-04-28T08:17:30Z,2022-05-26T17:03:34Z,noamr,topic: resource hints (inc. preload),0
-1216305678,false,`modulepreload` in Link header & early hints,https://github.com/whatwg/html/pull/7862,2022-04-26T18:07:26Z,2023-06-21T20:30:47Z,noamr,topic: resource hints (inc. preload),0
+1216305678,false,`modulepreload` in Link header & early hints,https://github.com/whatwg/html/pull/7862,2022-04-26T18:07:26Z,2023-07-24T06:39:59Z,noamr,topic: resource hints (inc. preload),0
 1215253561,true,Don't unblock rendering for implicitly render-blocking elements on `blocking` attribute changes,https://github.com/whatwg/html/pull/7857,2022-04-26T02:00:34Z,2022-05-03T18:02:51Z,xiaochengh,normative change|topic: rendering,0
 1214729525,false,Rework media element removal steps,https://github.com/whatwg/html/pull/7855,2022-04-25T16:02:34Z,2022-08-22T02:36:08Z,annevk,topic: media|topic: event loop,0
 1213600576,true,Only preload resources with matching type/as attributes,https://github.com/whatwg/html/pull/7851,2022-04-24T09:32:30Z,2022-05-04T14:22:14Z,noamr,topic: link|topic: resource hints (inc. preload),0
@@ -2012,7 +2013,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 288854403,true,Regression fix: run iframe load event steps immediately,https://github.com/whatwg/html/pull/3359,2018-01-16T10:24:06Z,2018-01-17T06:36:21Z,annevk,,0
 288835969,true,Add some examples for <figcaption>,https://github.com/whatwg/html/pull/3358,2018-01-16T09:23:44Z,2018-01-17T13:34:47Z,annevk,clarification|document conformance,0
 288567289,true,Restrict the main element to be used once per document,https://github.com/whatwg/html/pull/3354,2018-01-15T11:45:32Z,2018-02-01T14:31:42Z,annevk,document conformance|accessibility,8
-288531093,false,Add initiators for prefetch and prerender,https://github.com/whatwg/html/pull/3353,2018-01-15T09:36:56Z,2022-08-22T02:36:09Z,yoavweiss,,0
+288531093,true,Add initiators for prefetch and prerender,https://github.com/whatwg/html/pull/3353,2018-01-15T09:36:56Z,2023-07-24T06:51:06Z,yoavweiss,,0
 288447502,true,Initialize script's base URL earlier,https://github.com/whatwg/html/pull/3352,2018-01-14T23:01:12Z,2018-01-16T03:55:39Z,TimothyGu,topic: script,0
 288234706,true,Meta: update for new WHATWG copyright,https://github.com/whatwg/html/pull/3349,2018-01-12T20:17:37Z,2018-01-18T13:11:05Z,domenic,do not merge yet,0
 288159638,true,Editorial: define arc() and ellipse() in terms of shared steps,https://github.com/whatwg/html/pull/3348,2018-01-12T15:44:53Z,2018-01-12T17:32:10Z,annevk,topic: canvas,0
