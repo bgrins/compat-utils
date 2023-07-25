@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1818258169,false,Make the directionality account for missing parent element,https://github.com/whatwg/html/pull/9554,2023-07-24T11:49:33Z,2023-07-24T11:54:59Z,annevk,i18n-tracker,0
+1818258169,false,Make the directionality account for missing parent element,https://github.com/whatwg/html/pull/9554,2023-07-24T11:49:33Z,2023-07-24T16:37:45Z,annevk,needs implementer interest|i18n-tracker|needs tests,1
 1817297523,false,Tweak `thead` description to clarify it can contain non-header cells,https://github.com/whatwg/html/pull/9552,2023-07-23T21:11:39Z,2023-07-24T09:52:03Z,patrickhlauke,,0
 1815020757,false,selectmenu,https://github.com/whatwg/html/pull/9547,2023-07-21T01:27:53Z,2023-07-21T02:52:23Z,josepharhar,,1
 1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2023-07-21T07:12:09Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms|needs tests,3
@@ -36,7 +36,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1778332031,false,Add close signals and close watchers,https://github.com/whatwg/html/pull/9462,2023-06-28T06:57:55Z,2023-07-21T05:27:37Z,domenic,addition/proposal|topic: dialog|topic: popover,3
 1775374251,false,Ignore DOM state when hiding popovers if needed,https://github.com/whatwg/html/pull/9457,2023-06-26T18:45:19Z,2023-07-19T13:17:06Z,josepharhar,,0
 1775234651,false,add dialogmodaltarget attribute,https://github.com/whatwg/html/pull/9456,2023-06-26T17:17:30Z,2023-07-17T04:51:52Z,keithamus,,2
-1768695537,false,"Editorial rework of directionality ",https://github.com/whatwg/html/pull/9452,2023-06-22T00:09:07Z,2023-07-21T12:19:52Z,bkardell,,0
+1768695537,false,"Editorial rework of directionality ",https://github.com/whatwg/html/pull/9452,2023-06-22T00:09:07Z,2023-07-24T12:15:25Z,bkardell,,0
 1768470617,true,Make togglePopover throw more exceptions,https://github.com/whatwg/html/pull/9451,2023-06-21T20:56:50Z,2023-06-28T14:34:58Z,josepharhar,topic: popover,0
 1763558894,true,Editorial: remove plugin language from media elements,https://github.com/whatwg/html/pull/9440,2023-06-19T13:32:54Z,2023-06-20T06:28:12Z,annevk,,0
 1763113582,true,"Editorial: change ""show popover"" to call ""check popover validity"" first",https://github.com/whatwg/html/pull/9439,2023-06-19T09:19:32Z,2023-07-03T09:12:04Z,mbrodesser-Igalia,topic: popover,0
@@ -75,7 +75,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1723408581,true,Editorial: use quoted string instead of url() for @namespace,https://github.com/whatwg/html/pull/9328,2023-05-24T08:02:46Z,2023-05-24T09:21:04Z,foolip,,0
 1722651100,true,Editorial: Fix typo in Ian Kilpatrick's name.,https://github.com/whatwg/html/pull/9325,2023-05-23T19:22:16Z,2023-05-23T22:51:14Z,dbaron,,0
 1721407841,true,Make document unsalvageable,https://github.com/whatwg/html/pull/9324,2023-05-23T07:27:14Z,2023-05-30T06:27:15Z,rubberyuzu,,0
-1717546148,false,Update RO loop to include content-visibility,https://github.com/whatwg/html/pull/9312,2023-05-19T16:56:53Z,2023-07-21T18:28:59Z,vmpstr,,0
+1717546148,false,Update RO loop to include content-visibility,https://github.com/whatwg/html/pull/9312,2023-05-19T16:56:53Z,2023-07-24T19:41:36Z,vmpstr,,0
 1716303125,false,Ignore dangling markup in target name,https://github.com/whatwg/html/pull/9309,2023-05-18T21:39:56Z,2023-07-10T03:27:30Z,shhnjk,,0
 1714880100,true,Add not restored reasons,https://github.com/whatwg/html/pull/9307,2023-05-18T02:16:46Z,2023-05-30T06:27:07Z,rubberyuzu,,0
 1712881320,true,Cleaned up the tables for getContext(),https://github.com/whatwg/html/pull/9305,2023-05-16T23:51:51Z,2023-05-23T14:27:22Z,trevorspiniolas,clarification|topic: canvas,0
@@ -266,7 +266,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1435380302,true,Use correct properties for progress element,https://github.com/whatwg/html/pull/8471,2022-11-03T23:49:55Z,2022-11-21T17:27:13Z,dizhang168,,0
 1435209005,true,Add the Priority Hints changes to the html spec,https://github.com/whatwg/html/pull/8470,2022-11-03T20:16:05Z,2023-02-17T06:10:16Z,pmeenan,,0
 1434547038,true,Export rendering opportunity,https://github.com/whatwg/html/pull/8468,2022-11-03T12:02:44Z,2022-11-04T01:16:10Z,jakearchibald,,0
-1433914646,false,Add custom state pseudo class,https://github.com/whatwg/html/pull/8467,2022-11-02T23:30:52Z,2023-07-24T09:23:09Z,josepharhar,agenda+,0
+1433914646,false,Add custom state pseudo class,https://github.com/whatwg/html/pull/8467,2022-11-02T23:30:52Z,2023-07-25T00:11:20Z,josepharhar,agenda+,0
 1433818435,true,"Add ""user attention"" definition to top-level traversable.",https://github.com/whatwg/html/pull/8466,2022-11-02T21:38:28Z,2023-04-28T08:13:38Z,jan-ivar,topic: focus|integration,0
 1433811063,true,Missing commas in JSON examples,https://github.com/whatwg/html/pull/8465,2022-11-02T21:30:36Z,2022-11-03T04:53:26Z,NiedziolkaMichal,,0
 1431810817,true,Export nested navigable,https://github.com/whatwg/html/pull/8462,2022-11-01T17:31:41Z,2023-04-24T16:14:33Z,domfarolino,,0
