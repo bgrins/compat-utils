@@ -1,9 +1,10 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1821261026,false,HTML Parser: confusion about  adoption agency algorithm,https://github.com/whatwg/html/issues/9559,2023-07-25T22:29:47Z,2023-07-25T22:29:47Z,stasoid,,0
+1822122560,false,Proposal: js-selector attribute (similar to data-attributes),https://github.com/whatwg/html/issues/9561,2023-07-26T10:43:42Z,2023-07-26T11:49:43Z,LeTraceurSnork,,2
+1821261026,false,HTML Parser: confusion about  adoption agency algorithm,https://github.com/whatwg/html/issues/9559,2023-07-25T22:29:47Z,2023-07-26T08:53:21Z,stasoid,clarification|topic: parser,0
 1819321957,true,Evolving the HTML base tag further,https://github.com/whatwg/html/issues/9555,2023-07-25T00:13:44Z,2023-07-25T02:17:59Z,linuxguist,,0
 1817304169,true,"""This requirement is not a hard requirement, how...""",https://github.com/whatwg/html/issues/9553,2023-07-23T21:37:56Z,2023-07-25T18:23:27Z,Lanpun,,0
-1813687586,false,Disabled dates for input type=date,https://github.com/whatwg/html/issues/9542,2023-07-20T10:42:52Z,2023-07-25T12:39:41Z,thany,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,1
-1813664808,false,Considering event.waitUntil(promise) for async listeners,https://github.com/whatwg/html/issues/9540,2023-07-20T10:30:06Z,2023-07-25T08:58:24Z,WebReflection,,2
+1813687586,false,Disabled dates for input type=date,https://github.com/whatwg/html/issues/9542,2023-07-20T10:42:52Z,2023-07-26T10:58:28Z,thany,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,1
+1813664808,false,Considering event.waitUntil(promise) for async listeners,https://github.com/whatwg/html/issues/9540,2023-07-20T10:30:06Z,2023-07-26T11:24:59Z,WebReflection,,2
 1812387860,false,Consider making `=` in unquoted attribute values not a parse error,https://github.com/whatwg/html/issues/9536,2023-07-19T17:26:24Z,2023-07-20T03:58:11Z,tabatkins,document conformance,1
 1812006723,true,Environment settings objects used when fetching a module worker script graph are still wrong,https://github.com/whatwg/html/issues/9535,2023-07-19T13:53:30Z,2023-07-24T06:15:07Z,nicolo-ribaudo,topic: script,0
 1803859412,true,Define the block flow and inline base directions for dom-focus,https://github.com/whatwg/html/issues/9518,2023-07-13T22:43:11Z,2023-07-19T06:50:53Z,dlrobertson,topic: focus,0
@@ -20,7 +21,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1792169588,false,Improve description of `readonly` attribute,https://github.com/whatwg/html/issues/9496,2023-07-06T20:13:27Z,2023-07-13T17:32:38Z,aaronadamsCA,clarification|topic: forms,0
 1791166125,false,Allow self-closing tags everywhere,https://github.com/whatwg/html/issues/9491,2023-07-06T09:26:20Z,2023-07-12T18:52:39Z,jakearchibald,addition/proposal|needs implementer interest|topic: parser|needs compat analysis,79
 1788871531,false,Add VideoPlaybackQuality and HTMLVideoElement»getVideoPlaybackQuality(),https://github.com/whatwg/html/issues/9489,2023-07-05T06:36:23Z,2023-07-05T06:36:23Z,sideshowbarker,addition/proposal|topic: media,0
-1788359824,false,"Use ""matches about:blank"" and ""matches about:srcdoc"" in more places",https://github.com/whatwg/html/issues/9488,2023-07-04T19:09:29Z,2023-07-25T19:26:50Z,domfarolino,topic: navigation,1
+1788359824,false,"Use ""matches about:blank"" and ""matches about:srcdoc"" in more places",https://github.com/whatwg/html/issues/9488,2023-07-04T19:09:29Z,2023-07-26T03:09:30Z,domfarolino,topic: navigation,1
 1787902159,false,"Showing only a child popover causes ""beforetoggle"" and ""toggle"" events but popover is invisble",https://github.com/whatwg/html/issues/9487,2023-07-04T13:07:44Z,2023-07-12T23:31:37Z,mbrodesser-Igalia,topic: popover,0
 1785504701,true,Input.valueAsNumber can not be manually set to NaN despite it being a valid value for it,https://github.com/whatwg/html/issues/9480,2023-07-03T07:19:15Z,2023-07-03T22:11:25Z,alexandertrefz,,0
 1784674592,false,Proposal: Meta Tag for AI Generated Content,https://github.com/whatwg/html/issues/9479,2023-07-02T14:49:11Z,2023-07-23T03:57:04Z,evayde,addition/proposal|needs implementer interest,8
@@ -953,7 +954,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 958420412,true,"[COOP] Wrong type in ""queue a violation report for browsing context group switch when navigating away from a COOP response""",https://github.com/whatwg/html/issues/6925,2021-08-02T18:57:06Z,2021-08-03T19:08:38Z,cdumez,topic: cross-origin-opener-policy,0
 955141045,false,COOP: Navigations to non-initial about:blank,https://github.com/whatwg/html/issues/6913,2021-07-28T18:46:22Z,2021-08-03T08:41:30Z,cdumez,topic: cross-origin-opener-policy,0
 955051236,false,Proposal: blank worker,https://github.com/whatwg/html/issues/6911,2021-07-28T16:52:49Z,2023-06-02T06:06:02Z,wanderview,addition/proposal|needs implementer interest|topic: workers,6
-954670682,true,Proposal: Add a way to open programmatically a date picker,https://github.com/whatwg/html/issues/6909,2021-07-28T09:41:23Z,2022-03-24T17:08:22Z,beaufortfrancois,addition/proposal|needs implementer interest|topic: forms,33
+954670682,true,Proposal: Add a way to open programmatically a date picker,https://github.com/whatwg/html/issues/6909,2021-07-28T09:41:23Z,2022-03-24T17:08:22Z,beaufortfrancois,addition/proposal|needs implementer interest|topic: forms,34
 954564369,false,Add ime-mode to html input,https://github.com/whatwg/html/issues/6908,2021-07-28T07:30:15Z,2021-08-10T08:59:33Z,NagayamaToshiaki,i18n-tracker|i18n-jlreq,0
 954543780,true,Html element's start tag must not be omitted or add new ways to specify lang attribute of the html file,https://github.com/whatwg/html/issues/6907,2021-07-28T07:02:12Z,2021-07-29T06:43:39Z,NagayamaToshiaki,i18n-tracker,0
 954330262,false,"window.stop() does not cancel traversal navigations, but the stop button does",https://github.com/whatwg/html/issues/6905,2021-07-27T23:08:08Z,2021-07-27T23:08:08Z,domenic,topic: navigation|topic: history,0
@@ -1097,7 +1098,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 846831038,true,"Should ""fetch a single module script"" set mode to same-origin for serviceworker destination?",https://github.com/whatwg/html/issues/6544,2021-03-31T15:06:04Z,2021-04-12T15:12:02Z,wanderview,,0
 843461196,true,Create resource timing entries for HTML resources,https://github.com/whatwg/html/issues/6542,2021-03-29T15:01:55Z,2022-03-31T18:43:16Z,noamr,topic: fetch|integration,0
 843385207,true,Script tag extension for secure local computing,https://github.com/whatwg/html/issues/6541,2021-03-29T13:44:07Z,2021-04-06T15:19:02Z,ghost,addition/proposal|needs implementer interest,0
-843318881,false,Proposal: Button attribute to store text that can be copied to clipboard on trigger (click/enter key),https://github.com/whatwg/html/issues/6540,2021-03-29T12:25:43Z,2021-04-12T13:53:33Z,sangeeth96,addition/proposal|needs implementer interest,0
+843318881,false,Proposal: Button attribute to store text that can be copied to clipboard on trigger (click/enter key),https://github.com/whatwg/html/issues/6540,2021-03-29T12:25:43Z,2021-04-12T13:53:33Z,sangeeth96,addition/proposal|needs implementer interest,1
 843291188,true,When does the `otherwise` (inner `If there is a match`) occur?,https://github.com/whatwg/html/issues/6539,2021-03-29T11:48:15Z,2021-03-29T12:20:01Z,scw00,,0
 842978921,false,Apply text-align: match-parent to the option element in the UA stylesheet,https://github.com/whatwg/html/issues/6538,2021-03-29T05:21:47Z,2022-03-02T09:29:23Z,frivoal,topic: rendering|i18n-tracker|i18n-alreq|i18n-hlreq|i18n-afrlreq,0
 842156022,true,New feature proposal: Circular input range,https://github.com/whatwg/html/issues/6534,2021-03-26T17:11:58Z,2021-04-12T13:50:19Z,jimmywarting,,0
@@ -2423,7 +2424,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 341314000,false,Proposal: Web Worker Constructor Parameters,https://github.com/whatwg/html/issues/3823,2018-07-15T11:31:48Z,2018-07-23T14:26:48Z,RandyBuchholz,addition/proposal|topic: workers,0
 341288464,true,Simplify Window.alert IDL,https://github.com/whatwg/html/issues/3822,2018-07-15T03:17:46Z,2018-07-16T10:06:26Z,saschanaz,,0
 341057251,false,It is unclear how title attribute should work in Shadow DOM,https://github.com/whatwg/html/issues/3821,2018-07-13T15:13:04Z,2018-10-25T10:51:55Z,smaug----,topic: shadow,0
-340970109,false,HTML element is not a custom element?,https://github.com/whatwg/html/issues/3820,2018-07-13T10:39:52Z,2018-07-31T06:30:14Z,dSalieri,clarification,0
+340970109,false,HTML element is not a custom element?,https://github.com/whatwg/html/issues/3820,2018-07-13T10:39:52Z,2023-07-26T11:05:45Z,dSalieri,clarification|topic: custom elements,0
 340855727,false,innerText for ::first-letter with visibility:hidden,https://github.com/whatwg/html/issues/3819,2018-07-13T02:03:50Z,2018-10-26T22:55:10Z,yosinch,topic: rendering,0
 340818234,true,Tracking issue for document.open() overhaul,https://github.com/whatwg/html/issues/3818,2018-07-12T22:19:32Z,2018-09-06T21:43:20Z,TimothyGu,interop|topic: document.open(),1
 340715638,false,Inconsistencies with multiple keydown's triggering click events on form buttons,https://github.com/whatwg/html/issues/3817,2018-07-12T16:43:04Z,2018-11-29T22:48:08Z,jasonwilliams,topic: forms|topic: events|interop,0
