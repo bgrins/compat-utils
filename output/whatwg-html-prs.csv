@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1818258169,false,Make the directionality account for missing parent element,https://github.com/whatwg/html/pull/9554,2023-07-24T11:49:33Z,2023-07-25T07:07:21Z,annevk,needs implementer interest|i18n-tracker|needs tests,1
+1820909965,false,Use matches about:blank in more cases,https://github.com/whatwg/html/pull/9558,2023-07-25T18:29:32Z,2023-07-25T19:05:43Z,domfarolino,,0
+1818258169,false,Make the directionality account for missing parent element,https://github.com/whatwg/html/pull/9554,2023-07-24T11:49:33Z,2023-07-25T12:16:02Z,annevk,needs implementer interest|i18n-tracker|needs tests,1
 1817297523,true,Tweak `thead` description to clarify it can contain non-header cells,https://github.com/whatwg/html/pull/9552,2023-07-23T21:11:39Z,2023-07-25T09:17:22Z,patrickhlauke,,0
 1815020757,false,selectmenu,https://github.com/whatwg/html/pull/9547,2023-07-21T01:27:53Z,2023-07-21T02:52:23Z,josepharhar,,1
 1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2023-07-21T07:12:09Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms|needs tests,3
@@ -11,7 +12,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1810164917,true,Fix non-fetch-scheme-params-initiator-origin assignment,https://github.com/whatwg/html/pull/9532,2023-07-18T15:25:02Z,2023-07-19T07:17:21Z,domfarolino,topic: navigation,0
 1809663999,true,Add types to parameters of script fetching algorithms,https://github.com/whatwg/html/pull/9530,2023-07-18T10:39:07Z,2023-07-20T06:18:13Z,nicolo-ribaudo,,0
 1809036701,true,Mention WorkletGlobalScope as a type of global object,https://github.com/whatwg/html/pull/9529,2023-07-18T04:00:31Z,2023-07-19T01:10:36Z,domenic,clarification,0
-1808188120,false,Remove erroneous break in hide popover algorithm,https://github.com/whatwg/html/pull/9528,2023-07-17T17:00:26Z,2023-07-24T06:15:29Z,josepharhar,topic: popover,0
+1808188120,true,Remove erroneous break in hide popover algorithm,https://github.com/whatwg/html/pull/9528,2023-07-17T17:00:26Z,2023-07-25T12:11:07Z,josepharhar,topic: popover,0
 1808046317,true,Update dom-focus to specify the inline and block arguments to scroll a target into view,https://github.com/whatwg/html/pull/9527,2023-07-17T15:34:15Z,2023-07-19T10:58:55Z,dlrobertson,,0
 1807784981,false,Add popover open check in attribute change steps,https://github.com/whatwg/html/pull/9526,2023-07-17T13:26:17Z,2023-07-24T06:15:29Z,josepharhar,topic: popover,0
 1807621232,true,added thank you,https://github.com/whatwg/html/pull/9525,2023-07-17T12:01:23Z,2023-07-17T13:23:23Z,Wolitz,spam,0
@@ -25,7 +26,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1791560609,true,Populate document state origin/initiator origin upon creation,https://github.com/whatwg/html/pull/9494,2023-07-06T13:24:00Z,2023-07-14T03:40:48Z,domfarolino,topic: navigation,0
 1791506923,false,Force size containment for auto-sizes,https://github.com/whatwg/html/pull/9493,2023-07-06T12:54:24Z,2023-07-21T21:02:53Z,zcorpan,,1
 1789491788,true,Make dirname apply to hidden/tel/url/email inputs,https://github.com/whatwg/html/pull/9490,2023-07-05T12:51:28Z,2023-07-24T08:55:35Z,zcorpan,normative change|topic: forms,0
-1787684142,false,Use appropriate fetch destination for JSON&CSS modules,https://github.com/whatwg/html/pull/9486,2023-07-04T10:48:45Z,2023-07-25T08:40:52Z,nicolo-ribaudo,,0
+1787684142,false,Use appropriate fetch destination for JSON&CSS modules,https://github.com/whatwg/html/pull/9486,2023-07-04T10:48:45Z,2023-07-25T16:03:39Z,nicolo-ribaudo,needs tests,0
 1787565314,true,Test PR,https://github.com/whatwg/html/pull/9485,2023-07-04T09:43:04Z,2023-07-04T12:37:01Z,cijian23,spam,0
 1787464058,true,Fix links to fetch request initiator type,https://github.com/whatwg/html/pull/9484,2023-07-04T08:48:29Z,2023-07-04T10:07:11Z,nicolo-ribaudo,,0
 1787141228,true,Editorial: fix popover attribute index entries,https://github.com/whatwg/html/pull/9483,2023-07-04T04:52:27Z,2023-07-11T09:12:59Z,domenic,topic: popover,0
@@ -75,7 +76,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1723408581,true,Editorial: use quoted string instead of url() for @namespace,https://github.com/whatwg/html/pull/9328,2023-05-24T08:02:46Z,2023-05-24T09:21:04Z,foolip,,0
 1722651100,true,Editorial: Fix typo in Ian Kilpatrick's name.,https://github.com/whatwg/html/pull/9325,2023-05-23T19:22:16Z,2023-05-23T22:51:14Z,dbaron,,0
 1721407841,true,Make document unsalvageable,https://github.com/whatwg/html/pull/9324,2023-05-23T07:27:14Z,2023-05-30T06:27:15Z,rubberyuzu,,0
-1717546148,false,Update RO loop to include content-visibility,https://github.com/whatwg/html/pull/9312,2023-05-19T16:56:53Z,2023-07-24T19:41:36Z,vmpstr,,0
+1717546148,false,Update RO loop to include content-visibility,https://github.com/whatwg/html/pull/9312,2023-05-19T16:56:53Z,2023-07-25T19:02:23Z,vmpstr,,0
 1716303125,false,Ignore dangling markup in target name,https://github.com/whatwg/html/pull/9309,2023-05-18T21:39:56Z,2023-07-10T03:27:30Z,shhnjk,,0
 1714880100,true,Add not restored reasons,https://github.com/whatwg/html/pull/9307,2023-05-18T02:16:46Z,2023-05-30T06:27:07Z,rubberyuzu,,0
 1712881320,true,Cleaned up the tables for getContext(),https://github.com/whatwg/html/pull/9305,2023-05-16T23:51:51Z,2023-05-23T14:27:22Z,trevorspiniolas,clarification|topic: canvas,0
@@ -113,7 +114,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1671928914,true,Only restore dialog focus if focus is in the dialog,https://github.com/whatwg/html/pull/9178,2023-04-17T20:35:40Z,2023-06-06T21:19:25Z,josepharhar,topic: focus|topic: dialog,0
 1669042716,true,Only use the used invoker to establish popover hierarchy,https://github.com/whatwg/html/pull/9171,2023-04-14T23:15:12Z,2023-05-08T16:13:13Z,josepharhar,topic: popover,0
 1668446599,true,Fix var/ref name mismatch with s/intendToStoreInBfcache/intendToKeepInBfcache/,https://github.com/whatwg/html/pull/9170,2023-04-14T15:13:52Z,2023-04-17T12:18:58Z,jan-ivar,topic: history,0
-1666970337,false,Update the :dir / directionality to include shadow dom,https://github.com/whatwg/html/pull/9166,2023-04-13T18:54:01Z,2023-07-12T12:45:31Z,bkardell,topic: shadow|topic: selectors,0
+1666970337,false,Update the :dir / directionality to include shadow dom,https://github.com/whatwg/html/pull/9166,2023-04-13T18:54:01Z,2023-07-25T12:16:52Z,bkardell,topic: shadow|topic: selectors,0
 1666849333,true,Don't fire popover events during attribute change steps,https://github.com/whatwg/html/pull/9165,2023-04-13T17:32:17Z,2023-04-19T22:06:09Z,nt1m,topic: popover,0
 1666310483,true,[meta] Mark seven definitions as exported,https://github.com/whatwg/html/pull/9163,2023-04-13T12:20:28Z,2023-04-17T06:40:51Z,dontcallmedom,,0
 1665915432,true,Do not do same-URL replace navigations when initiated cross-origin,https://github.com/whatwg/html/pull/9157,2023-04-13T07:58:01Z,2023-05-08T22:49:00Z,domenic,normative change|topic: navigation|security/privacy|topic: history,0
@@ -2093,7 +2094,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 267446147,true,"replace ""abort these steps"" ",https://github.com/whatwg/html/pull/3152,2017-10-22T08:24:03Z,2017-11-01T20:21:17Z,sam0410,,0
 267372048,true,Drop creator context security,https://github.com/whatwg/html/pull/3150,2017-10-21T11:12:52Z,2017-10-22T07:39:21Z,annevk,,0
 267168459,true,Correct affiliation for zcorpan,https://github.com/whatwg/html/pull/3148,2017-10-20T13:02:06Z,2017-10-20T13:26:17Z,zcorpan,,0
-267160270,true,Delegate srcdoc's CSP list initialization to CSP.,https://github.com/whatwg/html/pull/3147,2017-10-20T12:31:09Z,2021-04-28T13:21:12Z,ghost,,0
 267160270,true,Delegate srcdoc's CSP list initialization to CSP.,https://github.com/whatwg/html/pull/3147,2017-10-20T12:31:09Z,2021-04-28T13:21:12Z,ghost,,0
 267160099,true,Annevk/percent decode,https://github.com/whatwg/html/pull/3146,2017-10-20T12:30:25Z,2017-10-20T12:47:44Z,ghost,,0
 267159754,true,Specify br and wbr rendering as magic,https://github.com/whatwg/html/pull/3145,2017-10-20T12:29:01Z,2017-10-20T12:46:50Z,ghost,,0
