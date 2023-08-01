@@ -6,7 +6,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1818258169,false,Make the directionality account for missing parent element,https://github.com/whatwg/html/pull/9554,2023-07-24T11:49:33Z,2023-07-28T21:08:11Z,annevk,needs implementer interest|i18n-tracker|needs tests,1
 1817297523,true,Tweak `thead` description to clarify it can contain non-header cells,https://github.com/whatwg/html/pull/9552,2023-07-23T21:11:39Z,2023-07-25T09:17:22Z,patrickhlauke,,0
 1815020757,false,selectmenu,https://github.com/whatwg/html/pull/9547,2023-07-21T01:27:53Z,2023-07-21T02:52:23Z,josepharhar,,1
-1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2023-07-21T07:12:09Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms|needs tests,3
+1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2023-07-31T15:36:07Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms|needs tests,3
 1813916540,true,This Pull Request implements form validation on the HTML <output> element to display the calculated result.,https://github.com/whatwg/html/pull/9544,2023-07-20T12:44:22Z,2023-07-20T13:26:04Z,cijian23,spam,1
 1813671797,true,Use correct settings object for modules imported in workers,https://github.com/whatwg/html/pull/9541,2023-07-20T10:34:11Z,2023-07-24T07:22:54Z,nicolo-ribaudo,topic: script,0
 1812982540,false,Add setHTMLUnsafe and parseHTMLUnsafe methods,https://github.com/whatwg/html/pull/9538,2023-07-20T01:31:03Z,2023-07-20T15:51:03Z,josepharhar,,0
@@ -79,7 +79,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1723408581,true,Editorial: use quoted string instead of url() for @namespace,https://github.com/whatwg/html/pull/9328,2023-05-24T08:02:46Z,2023-05-24T09:21:04Z,foolip,,0
 1722651100,true,Editorial: Fix typo in Ian Kilpatrick's name.,https://github.com/whatwg/html/pull/9325,2023-05-23T19:22:16Z,2023-05-23T22:51:14Z,dbaron,,0
 1721407841,true,Make document unsalvageable,https://github.com/whatwg/html/pull/9324,2023-05-23T07:27:14Z,2023-05-30T06:27:15Z,rubberyuzu,,0
-1717546148,false,Update RO loop to include content-visibility,https://github.com/whatwg/html/pull/9312,2023-05-19T16:56:53Z,2023-07-27T01:46:30Z,vmpstr,topic: rendering|integration,0
+1717546148,false,Update RO loop to include content-visibility,https://github.com/whatwg/html/pull/9312,2023-05-19T16:56:53Z,2023-07-31T16:42:21Z,vmpstr,topic: rendering|integration,0
 1716303125,false,Ignore dangling markup in target name,https://github.com/whatwg/html/pull/9309,2023-05-18T21:39:56Z,2023-07-10T03:27:30Z,shhnjk,,0
 1714880100,true,Add not restored reasons,https://github.com/whatwg/html/pull/9307,2023-05-18T02:16:46Z,2023-05-30T06:27:07Z,rubberyuzu,,0
 1712881320,true,Cleaned up the tables for getContext(),https://github.com/whatwg/html/pull/9305,2023-05-16T23:51:51Z,2023-05-23T14:27:22Z,trevorspiniolas,clarification|topic: canvas,0
@@ -569,7 +569,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1066462865,true,Remove a `setTimeout`'s entry in the map of active timers after it runs,https://github.com/whatwg/html/pull/7377,2021-11-29T20:19:00Z,2021-12-02T18:23:53Z,andreubotella,,0
 1065607775,true,Link to various CharacterData and DocumentType concepts from the parser,https://github.com/whatwg/html/pull/7375,2021-11-29T04:51:43Z,2021-11-30T05:06:02Z,TimothyGu,topic: parser,0
 1063869600,true,"Editorial: Move XHR's definition of ""entry list"" to HTML",https://github.com/whatwg/html/pull/7371,2021-11-25T19:07:14Z,2021-11-29T17:21:15Z,andreubotella,topic: forms,0
-1063857789,false,Add a navigation counter to Documents,https://github.com/whatwg/html/pull/7370,2021-11-25T18:41:12Z,2023-01-09T19:40:21Z,clelland,,0
+1063857789,true,Add a navigation counter to Documents,https://github.com/whatwg/html/pull/7370,2021-11-25T18:41:12Z,2023-07-31T12:18:03Z,clelland,,0
 1062872214,true,Remove inert check from dialog focusing steps,https://github.com/whatwg/html/pull/7366,2021-11-24T20:34:55Z,2022-01-07T22:21:41Z,nt1m,topic: focus|topic: dialog,0
 1062758150,true,Search element: add new note and example,https://github.com/whatwg/html/pull/7365,2021-11-24T18:27:29Z,2021-11-29T20:19:41Z,scottaohara,,0
 1062466744,true,"When opening a COOP+sandbox page, enforce COOP.",https://github.com/whatwg/html/pull/7364,2021-11-24T14:03:28Z,2022-03-29T16:49:44Z,hemeryar,normative change|topic: cross-origin-opener-policy|topic: sandbox,0
