@@ -15,6 +15,12 @@ let standing_map = new Map(
     specs.filter((s) => s.standing === o).length,
   ])
 );
+let source_map = new Map(
+  [...new Set(specs.map((s) => s.source))].map((o) => [
+    o,
+    specs.filter((s) => s.source === o).length,
+  ])
+);
 let series_map = new Map(
   [...new Set(specs.map((s) => s.seriesComposition))].map((o) => [
     o,
@@ -48,6 +54,7 @@ let groups_map = new Map(
 let output = {
   specs_per_org: Object.fromEntries(orgs_map),
   specs_per_standing: Object.fromEntries(standing_map),
+  specs_per_source: Object.fromEntries(source_map),
   specs_per_series: Object.fromEntries(series_map),
   specs_per_group: Object.fromEntries(groups_map),
   specs_per_repo_host: Object.fromEntries(repo_url_map),
