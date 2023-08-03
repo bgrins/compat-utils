@@ -1,4 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1833113198,true,Add earlier snapshots than 2015 and add yearly snapshots,https://github.com/whatwg/html/issues/9577,2023-08-02T12:42:48Z,2023-08-02T13:12:58Z,Janghou,,0
+1833061471,true,Allow adding custom headers in WebSocket connection,https://github.com/whatwg/html/issues/9576,2023-08-02T12:10:41Z,2023-08-02T12:19:05Z,josephrocca,,0
 1831743537,true,event.source for message events from a BroadcastChannel,https://github.com/whatwg/html/issues/9574,2023-08-01T17:37:46Z,2023-08-02T02:26:46Z,vrugtehagel,,0
 1830647462,false,"Allow empty input[type=""color""] value",https://github.com/whatwg/html/issues/9572,2023-08-01T07:34:59Z,2023-08-01T07:38:45Z,ksa242,,0
 1829921287,false,Use inside settings to fetch the descendants of module worker in the worker module script graph,https://github.com/whatwg/html/issues/9571,2023-07-31T19:56:40Z,2023-08-01T12:00:36Z,allstarschh,,1
@@ -8,7 +10,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1821261026,false,HTML Parser: confusion about  adoption agency algorithm,https://github.com/whatwg/html/issues/9559,2023-07-25T22:29:47Z,2023-08-01T15:14:09Z,stasoid,clarification|topic: parser,0
 1819321957,true,Evolving the HTML base tag further,https://github.com/whatwg/html/issues/9555,2023-07-25T00:13:44Z,2023-07-25T02:17:59Z,linuxguist,,0
 1817304169,true,"""This requirement is not a hard requirement, how...""",https://github.com/whatwg/html/issues/9553,2023-07-23T21:37:56Z,2023-07-25T18:23:27Z,Lanpun,,0
-1813687586,false,Disabled dates for input type=date,https://github.com/whatwg/html/issues/9542,2023-07-20T10:42:52Z,2023-07-31T13:31:58Z,thany,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,1
+1813687586,false,Disabled dates for input type=date,https://github.com/whatwg/html/issues/9542,2023-07-20T10:42:52Z,2023-08-02T19:53:54Z,thany,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,1
 1813664808,false,Considering event.waitUntil(promise) for async listeners,https://github.com/whatwg/html/issues/9540,2023-07-20T10:30:06Z,2023-07-26T20:02:41Z,WebReflection,,2
 1812387860,false,Consider making `=` in unquoted attribute values not a parse error,https://github.com/whatwg/html/issues/9536,2023-07-19T17:26:24Z,2023-07-20T03:58:11Z,tabatkins,document conformance,1
 1812006723,true,Environment settings objects used when fetching a module worker script graph are still wrong,https://github.com/whatwg/html/issues/9535,2023-07-19T13:53:30Z,2023-07-24T06:15:07Z,nicolo-ribaudo,topic: script,0
@@ -302,7 +304,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1530043744,true,"""Nested navigable"" and ""child navigable"" are easy to confuse",https://github.com/whatwg/html/issues/8713,2023-01-12T03:40:54Z,2023-01-19T04:29:10Z,domenic,clarification|topic: browsing context,0
 1528456422,false,Is HTMLImgElement.decode() a cross-origin info channel?,https://github.com/whatwg/html/issues/8709,2023-01-11T05:29:17Z,2023-02-24T15:08:57Z,noamr,security/privacy|topic: img,1
 1528111766,false,Float16Array + HTML Canvas,https://github.com/whatwg/html/issues/8708,2023-01-10T22:41:56Z,2023-05-18T12:22:30Z,palemieux,addition/proposal|needs implementer interest|topic: canvas,2
-1528108331,false,Selecting text in the <summary> tag activates the details/summary (opens/closes the details tag),https://github.com/whatwg/html/issues/8707,2023-01-10T22:37:46Z,2023-06-22T15:01:57Z,gijsk,topic: events|integration|topic: user activation,0
+1528108331,false,Selecting text in the <summary> tag activates the details/summary (opens/closes the details tag),https://github.com/whatwg/html/issues/8707,2023-01-10T22:37:46Z,2023-08-02T20:32:12Z,gijsk,topic: events|integration|topic: user activation,0
 1527085260,true,How should I convert HTML to Plain Text?,https://github.com/whatwg/html/issues/8705,2023-01-10T09:54:24Z,2023-01-10T10:21:16Z,MAMPAgent,,0
 1524706667,true,"""The XML syntax for HTML was formerly referred t...""",https://github.com/whatwg/html/issues/8700,2023-01-08T22:23:56Z,2023-01-12T01:51:14Z,PuppyPi,,0
 1524326598,false,"Don't mangle """"""username"""""" and """"""password"""""" in ""web+"" protocol handlers",https://github.com/whatwg/html/issues/8697,2023-01-08T04:56:24Z,2023-02-24T15:26:29Z,SoniEx2,security/privacy|topic: custom protocols,0
@@ -559,7 +561,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1283190683,true,Should timers be ordered by scheduled time or by passed millis?,https://github.com/whatwg/html/issues/8034,2022-06-24T02:45:27Z,2022-06-26T11:26:06Z,Kaiido,interop|topic: timing,0
 1282742175,false,Blocking tab-under navigations?,https://github.com/whatwg/html/issues/8033,2022-06-23T17:43:53Z,2022-06-23T19:01:52Z,domenic,addition/proposal|topic: navigation,0
 1282588788,true,TABLE TD -> TD Looks Weird,https://github.com/whatwg/html/issues/8032,2022-06-23T15:28:04Z,2022-06-23T16:47:59Z,toptal126,,0
-1282345110,false,Improve support for refresh rate discovery and control,https://github.com/whatwg/html/issues/8031,2022-06-23T12:42:40Z,2023-06-09T07:27:49Z,juj,,1
+1282345110,false,Improve support for refresh rate discovery and control,https://github.com/whatwg/html/issues/8031,2022-06-23T12:42:40Z,2023-08-02T20:02:03Z,juj,,1
 1278018519,false,Normatively define the “elementtiming” content attribute,https://github.com/whatwg/html/issues/8024,2022-06-21T07:34:43Z,2022-06-28T18:55:14Z,sideshowbarker,,1
 1277218382,false,"""BeforeUnloadEvent"" user message presets",https://github.com/whatwg/html/issues/8023,2022-06-20T17:35:02Z,2022-06-21T23:12:34Z,delta-9,addition/proposal|needs implementer interest,0
 1275097690,true,Incorrect autocomplete token in example,https://github.com/whatwg/html/issues/8019,2022-06-17T14:26:31Z,2022-06-17T18:41:00Z,mtrootyy,,0
@@ -2607,7 +2609,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 301777319,true,"quirk mode ",https://github.com/whatwg/html/issues/3521,2018-03-02T14:08:38Z,2018-03-02T14:09:54Z,ghost,,0
 301686491,false,<meter> interoperability issue with values on boundaries,https://github.com/whatwg/html/issues/3520,2018-03-02T08:19:32Z,2022-03-11T08:40:22Z,tkent-google,clarification|interop,0
 301660842,true,I need feedback to see if I am right?,https://github.com/whatwg/html/issues/3519,2018-03-02T05:50:39Z,2018-03-02T10:10:56Z,Thezone1975,,0
-301576285,false,Proposal: HTML passwordrules attribute,https://github.com/whatwg/html/issues/3518,2018-03-01T22:02:50Z,2023-08-02T09:17:17Z,dbates-wk,addition/proposal|needs implementer interest|document conformance|security/privacy|topic: forms,64
+301576285,false,Proposal: HTML passwordrules attribute,https://github.com/whatwg/html/issues/3518,2018-03-01T22:02:50Z,2023-08-02T19:30:37Z,dbates-wk,addition/proposal|needs implementer interest|document conformance|security/privacy|topic: forms,64
 301126578,false,API for structured serialized data,https://github.com/whatwg/html/issues/3517,2018-02-28T18:07:55Z,2021-05-14T07:06:04Z,devsnek,addition/proposal|needs implementer interest|topic: serialize and transfer,6
 300769187,true,Add element reflection counterparts to id-reference counterparts,https://github.com/whatwg/html/issues/3515,2018-02-27T19:51:04Z,2022-11-11T14:43:18Z,domenic,addition/proposal|topic: shadow|accessibility|impacts documentation,0
 300576902,false,Define all focus events,https://github.com/whatwg/html/issues/3514,2018-02-27T10:41:03Z,2019-11-21T22:48:28Z,annevk,interop|topic: focus|integration,3
