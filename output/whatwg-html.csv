@@ -2753,7 +2753,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 276934417,false,"Consider recording the ""duplicate-attribute"" error state.",https://github.com/whatwg/html/issues/3257,2017-11-27T08:22:53Z,2018-12-05T14:10:14Z,mikewest,topic: parser|security/privacy,0
 276619973,false,Nosniffing for Worker Scripts,https://github.com/whatwg/html/issues/3255,2017-11-24T13:40:40Z,2022-05-16T14:50:55Z,otherdaniel,security/privacy|topic: script,0
 276311439,true,Rewrite spec text for the Storage interface operations to use ordered maps,https://github.com/whatwg/html/issues/3252,2017-11-23T09:38:11Z,2020-07-08T14:15:49Z,sideshowbarker,clarification|topic: storage,0
-276270497,false,Touch Bar Web API: <menu type=touch-bar> and <menuitem>,https://github.com/whatwg/html/issues/3251,2017-11-23T05:40:11Z,2017-11-23T20:36:04Z,js-choi,addition/proposal|needs implementer interest,9
+276270497,true,Touch Bar Web API: <menu type=touch-bar> and <menuitem>,https://github.com/whatwg/html/issues/3251,2017-11-23T05:40:11Z,2023-08-07T08:01:00Z,js-choi,addition/proposal|needs implementer interest,9
 276211659,true,Seemingly contradictions in the srcset attribute guidelines for Images,https://github.com/whatwg/html/issues/3250,2017-11-22T21:40:20Z,2018-10-09T08:24:56Z,treyeckels,good first issue|document conformance|topic: img,0
 275968603,true,"Consider to make ""loading inside onload handler"" replace previous session history entry.",https://github.com/whatwg/html/issues/3247,2017-11-22T07:28:02Z,2021-06-23T16:24:21Z,freesamael,topic: navigation|topic: forms,0
 275904225,false,"does ""update the rendering or user interface"" mean flushing style and layout?",https://github.com/whatwg/html/issues/3246,2017-11-22T00:20:03Z,2018-09-01T10:26:04Z,dbaron,topic: style|integration,0
@@ -3684,7 +3684,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 163317853,true,Algorithm of how fullscreen enabled flag is handled is not web-compatible,https://github.com/whatwg/html/issues/1481,2016-07-01T04:34:28Z,2016-07-06T19:47:43Z,upsuper,compat,0
 163291522,true,Presentational hint for bdo elements,https://github.com/whatwg/html/issues/1480,2016-06-30T23:52:37Z,2016-07-01T03:37:46Z,upsuper,,0
 163137606,true,Email Validation,https://github.com/whatwg/html/issues/1475,2016-06-30T10:56:26Z,2016-07-07T18:26:59Z,imlunek,,0
-162581934,false,textarea[maxlength] interoperability issue,https://github.com/whatwg/html/issues/1467,2016-06-28T01:13:36Z,2021-12-08T18:07:02Z,tkent-google,compat|topic: forms|i18n-tracker|interop,3
+162581934,true,textarea[maxlength] interoperability issue,https://github.com/whatwg/html/issues/1467,2016-06-28T01:13:36Z,2023-08-07T08:01:45Z,tkent-google,compat|topic: forms|i18n-tracker|interop,3
 162456957,true,"Correctly validate against RFC 5322 for <input type=""email"">",https://github.com/whatwg/html/issues/1465,2016-06-27T13:52:13Z,2016-08-05T09:13:16Z,Y-Less,,0
 161910705,true,<embed> does not handle network errors,https://github.com/whatwg/html/issues/1461,2016-06-23T12:28:51Z,2021-09-09T09:48:16Z,annevk,topic: embed and object,0
 161910485,false,Figuring out <embed> and <object>,https://github.com/whatwg/html/issues/1460,2016-06-23T12:27:45Z,2017-05-22T14:09:56Z,annevk,topic: navigation|topic: embed and object,0
@@ -3879,7 +3879,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 150013916,true,ApplicationCache event description/sequence unclear,https://github.com/whatwg/html/issues/1084,2016-04-21T09:09:05Z,2016-04-28T09:39:04Z,stoppeye,clarification,0
 149869882,true,Spec the disabled content and IDL attribute for HTMLLinkElement (and HTMLStyleElement)?,https://github.com/whatwg/html/issues/1081,2016-04-20T19:58:22Z,2020-05-29T06:17:27Z,domenic,addition/proposal|compat|topic: style,0
 149868617,false,The ordering of input and change events isn't clear,https://github.com/whatwg/html/issues/1080,2016-04-20T19:52:31Z,2016-10-25T11:58:08Z,smaug----,topic: events,0
-149867725,false,Canvas stroke(): Subpaths of length 0 should render their line caps.,https://github.com/whatwg/html/issues/1079,2016-04-20T19:48:34Z,2023-07-17T22:36:21Z,junov,clarification|topic: canvas,0
+149867725,false,Canvas stroke(): Subpaths of length 0 should render their line caps.,https://github.com/whatwg/html/issues/1079,2016-04-20T19:48:34Z,2023-08-07T09:10:40Z,junov,clarification|topic: canvas,0
 149729723,true,Cleanup around the HTML parser and how it sniffs encodings,https://github.com/whatwg/html/issues/1077,2016-04-20T10:32:32Z,2020-03-24T09:02:18Z,ArkadiuszMichalski,clarification,0
 149621691,true,Consider improving the language about reportValidity,https://github.com/whatwg/html/issues/1075,2016-04-20T00:49:04Z,2016-04-25T06:03:37Z,smaug----,clarification,0
 149514314,true,"Does removing an iframe make its current document stop being ""active""?",https://github.com/whatwg/html/issues/1073,2016-04-19T16:33:56Z,2022-10-31T05:06:53Z,bzbarsky,topic: browsing context,0
