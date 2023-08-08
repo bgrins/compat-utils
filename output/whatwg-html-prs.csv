@@ -8,11 +8,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1818258169,false,Make the directionality account for missing parent element,https://github.com/whatwg/html/pull/9554,2023-07-24T11:49:33Z,2023-07-28T21:08:11Z,annevk,needs implementer interest|i18n-tracker|needs tests,1
 1817297523,true,Tweak `thead` description to clarify it can contain non-header cells,https://github.com/whatwg/html/pull/9552,2023-07-23T21:11:39Z,2023-07-25T09:17:22Z,patrickhlauke,,0
 1815020757,false,selectmenu,https://github.com/whatwg/html/pull/9547,2023-07-21T01:27:53Z,2023-07-21T02:52:23Z,josepharhar,,1
-1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2023-08-07T11:46:45Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms|needs tests,3
+1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2023-08-07T16:35:26Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms|needs tests,3
 1813916540,true,This Pull Request implements form validation on the HTML <output> element to display the calculated result.,https://github.com/whatwg/html/pull/9544,2023-07-20T12:44:22Z,2023-07-20T13:26:04Z,cijian23,spam,1
 1813671797,true,Use correct settings object for modules imported in workers,https://github.com/whatwg/html/pull/9541,2023-07-20T10:34:11Z,2023-07-24T07:22:54Z,nicolo-ribaudo,topic: script,0
 1812982540,false,Add setHTMLUnsafe and parseHTMLUnsafe methods,https://github.com/whatwg/html/pull/9538,2023-07-20T01:31:03Z,2023-07-20T15:51:03Z,josepharhar,,0
-1812629719,false,Add a layer and filter interface in the 2D canvas,https://github.com/whatwg/html/pull/9537,2023-07-19T19:49:25Z,2023-08-05T05:05:18Z,graveljp,,0
+1812629719,false,Add a layer and filter interface in the 2D canvas,https://github.com/whatwg/html/pull/9537,2023-07-19T19:49:25Z,2023-08-07T19:11:24Z,graveljp,,0
 1810870126,true,Define srcdoc documents as matching about:srcdoc URL,https://github.com/whatwg/html/pull/9534,2023-07-18T23:37:14Z,2023-07-20T03:49:15Z,domfarolino,topic: browsing context|topic: document.open()|topic: javascript: URLs,0
 1810164917,true,Fix non-fetch-scheme-params-initiator-origin assignment,https://github.com/whatwg/html/pull/9532,2023-07-18T15:25:02Z,2023-07-19T07:17:21Z,domfarolino,topic: navigation,0
 1809663999,true,Add types to parameters of script fetching algorithms,https://github.com/whatwg/html/pull/9530,2023-07-18T10:39:07Z,2023-07-20T06:18:13Z,nicolo-ribaudo,,0
@@ -155,7 +155,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1630264564,true,Update README.md,https://github.com/whatwg/html/pull/9050,2023-03-18T10:15:24Z,2023-03-18T10:18:00Z,avinashnaidu77777,spam,0
 1630264474,true,Update README.md,https://github.com/whatwg/html/pull/9049,2023-03-18T10:15:05Z,2023-03-18T10:19:39Z,5hello,spam,0
 1629849072,true,"Add ""check and possibly close popover stack"" algorithm",https://github.com/whatwg/html/pull/9048,2023-03-17T19:38:48Z,2023-05-08T16:13:16Z,josepharhar,topic: popover,0
-1629737267,false,Spec :user-invalid & :user-valid,https://github.com/whatwg/html/pull/9047,2023-03-17T18:17:04Z,2023-08-01T15:32:05Z,nt1m,,0
+1629737267,false,Spec :user-invalid & :user-valid,https://github.com/whatwg/html/pull/9047,2023-03-17T18:17:04Z,2023-08-07T20:05:46Z,nt1m,,0
 1627835465,true,Modernize and correct <dialog> show() and showModal(),https://github.com/whatwg/html/pull/9039,2023-03-16T16:15:40Z,2023-03-19T17:22:52Z,annevk,topic: dialog|topic: popover,0
 1627734287,false,Add the HostSystemUTCEpochNanoseconds abstract operation,https://github.com/whatwg/html/pull/9038,2023-03-16T15:21:28Z,2023-04-12T16:45:49Z,Ms2ger,do not merge yet|integration,1
 1625594332,true,Define the processing model for dns-prefetch,https://github.com/whatwg/html/pull/9029,2023-03-15T14:03:08Z,2023-03-16T12:05:54Z,noamr,topic: link|topic: resource hints (inc. preload),0
@@ -587,7 +587,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1053602749,true,Specify how `timeOrigin` is computed,https://github.com/whatwg/html/pull/7339,2021-11-15T12:19:57Z,2021-11-29T17:08:00Z,noamr,,0
 1053218162,true,Editorial: export page visibilty concepts,https://github.com/whatwg/html/pull/7337,2021-11-15T05:03:13Z,2021-11-17T09:15:53Z,marcoscaceres,,0
 1049222362,true,"add more content to search element ",https://github.com/whatwg/html/pull/7322,2021-11-09T23:17:40Z,2021-11-09T23:24:04Z,scottaohara,,0
-1047996504,true,Add the <search> element,https://github.com/whatwg/html/pull/7320,2021-11-08T22:47:00Z,2023-03-24T02:00:03Z,domenic,addition/proposal|topic: parser|impacts documentation,16
+1047996504,true,Add the <search> element,https://github.com/whatwg/html/pull/7320,2021-11-08T22:47:00Z,2023-03-24T02:00:03Z,domenic,addition/proposal|topic: parser|impacts documentation,17
 1047887873,true,Add showPicker() to <input> elements,https://github.com/whatwg/html/pull/7319,2021-11-08T20:27:08Z,2021-12-14T09:52:30Z,domenic,addition/proposal|topic: forms,1
 1046668434,true,readme.md updated,https://github.com/whatwg/html/pull/7305,2021-11-07T05:55:27Z,2021-11-07T16:56:43Z,mandiraghosh783,spam,0
 1046211174,true,Export user activation gated APIs for linking from other specs.,https://github.com/whatwg/html/pull/7300,2021-11-05T20:12:07Z,2021-11-24T20:55:28Z,mustaqahmed,,0
