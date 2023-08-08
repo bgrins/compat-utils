@@ -677,7 +677,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1177177506,true,Question: Expected behavior for Object.keys with storage objects,https://github.com/whatwg/html/issues/7741,2022-03-22T18:50:05Z,2022-03-22T18:55:43Z,jasonnutter,,0
 1176559847,true,HTML syntax: omitting <body> should not be allowed if first child is <noscript>,https://github.com/whatwg/html/issues/7737,2022-03-22T10:14:53Z,2022-09-15T17:15:31Z,zcorpan,good first issue|document conformance,0
 1176210826,true,Should a preload with SRI and a main request without SRI be matched?,https://github.com/whatwg/html/issues/7736,2022-03-22T03:17:51Z,2022-05-19T00:42:57Z,hiroshige-g,security/privacy|topic: fetch|topic: resource hints (inc. preload),0
-1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2023-07-05T13:55:37Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,19
+1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2023-07-05T13:55:37Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,20
 1175078464,false,"Modern browsers don't implement ""4.10.21.2 Implicit submission"" correctly",https://github.com/whatwg/html/issues/7730,2022-03-21T08:59:00Z,2022-03-21T12:40:28Z,IliasDewachter,topic: forms,0
 1172930450,false,<a download> can sometimes just navigate,https://github.com/whatwg/html/issues/7718,2022-03-17T21:19:34Z,2022-03-23T21:36:38Z,domenic,topic: navigation|interop,1
 1172424410,true,Iframe's sandbox IDL definition. Why is it readonly?,https://github.com/whatwg/html/issues/7717,2022-03-17T13:59:33Z,2022-03-17T15:25:41Z,ArthurSonzogni,,0
@@ -1007,7 +1007,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 932036472,false,Add modern binary encoding APIs,https://github.com/whatwg/html/issues/6811,2021-06-28T22:16:20Z,2021-07-07T15:59:23Z,lucacasonato,addition/proposal|needs implementer interest,4
 931716900,false,srcdoc and sandbox interaction with session history,https://github.com/whatwg/html/issues/6809,2021-06-28T15:54:01Z,2023-02-28T15:24:37Z,jakearchibald,topic: history,0
 930791283,true,Foster parenting doesn't happen for HTML elements in foreign content,https://github.com/whatwg/html/issues/6808,2021-06-26T20:43:24Z,2021-07-19T12:18:56Z,stevecheckoway,,1
-930577715,false,Allow <textarea> to size to its contents like <div contenteditable>,https://github.com/whatwg/html/issues/6807,2021-06-26T00:42:53Z,2022-05-09T08:31:29Z,randfur,addition/proposal|needs implementer interest|topic: rendering|topic: forms|topic: editing,0
+930577715,false,Allow <textarea> to size to its contents like <div contenteditable>,https://github.com/whatwg/html/issues/6807,2021-06-26T00:42:53Z,2023-08-08T08:10:51Z,randfur,addition/proposal|needs implementer interest|topic: rendering|topic: forms|topic: editing,0
 930149106,true,"In user activation algorithms, ""current high resolution time"" is called without a global",https://github.com/whatwg/html/issues/6806,2021-06-25T12:54:53Z,2022-03-15T15:24:18Z,yoavweiss,good first issue,0
 928256156,true,How javascript URLs interact with session history,https://github.com/whatwg/html/issues/6798,2021-06-23T13:24:11Z,2022-10-31T05:07:06Z,jakearchibald,topic: history|topic: javascript: URLs,0
 927621196,true,pageshow bubbles in browsers but not in the spec,https://github.com/whatwg/html/issues/6794,2021-06-22T20:48:41Z,2021-06-24T16:12:38Z,domenic,topic: events|topic: document lifecycle,0
@@ -3282,7 +3282,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 202961019,false,Allow webauthors to customize what controls are shown for HTMLMediaElement,https://github.com/whatwg/html/issues/2293,2017-01-24T22:36:57Z,2021-07-14T08:59:25Z,avayvod,addition/proposal|needs implementer interest|topic: media,2
 202939006,false,UA style for <br> and <wbr>,https://github.com/whatwg/html/issues/2291,2017-01-24T21:02:08Z,2017-03-17T00:39:56Z,zcorpan,topic: rendering,0
 202889219,false,freeze()-like API for HTMLCanvasElement,https://github.com/whatwg/html/issues/2290,2017-01-24T17:40:39Z,2018-01-26T22:22:58Z,grorg,addition/proposal|needs implementer interest|topic: canvas,0
-202799594,false,Fire an ErrorEvent instead an Event,https://github.com/whatwg/html/issues/2289,2017-01-24T12:02:42Z,2022-09-07T00:27:36Z,bakulf,topic: workers|topic: events,0
+202799594,false,Fire an ErrorEvent instead an Event,https://github.com/whatwg/html/issues/2289,2017-01-24T12:02:42Z,2023-08-08T10:15:16Z,bakulf,topic: workers|topic: events,0
 202688519,false,"""Invoke the Function. Use the third and subseque...""",https://github.com/whatwg/html/issues/2287,2017-01-24T00:09:30Z,2017-01-24T16:17:35Z,tbodt,clarification,0
 202633614,false,"Would be nice if ""steps to (re)determine what the object element represents"" were linkable",https://github.com/whatwg/html/issues/2285,2017-01-23T19:53:27Z,2017-05-17T12:38:50Z,bzbarsky,topic: embed and object,0
 202564378,true,"Location shouldn't use %ObjProto_toString% as the value of its ""toString"" property",https://github.com/whatwg/html/issues/2284,2017-01-23T15:25:51Z,2017-02-14T09:10:28Z,anba,,1
