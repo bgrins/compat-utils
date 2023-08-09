@@ -1,4 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1842597164,true,"Input tag is not working as expected - with attributes type=""date"" min=""2017-03-01"" max=""2017-03-25"", placeholder inside get distorted showing dd/03/2017 instead of dd/mm/yyyy",https://github.com/whatwg/html/issues/9594,2023-08-09T06:46:26Z,2023-08-09T06:58:05Z,nchauhan46,,0
+1842520551,true,min max attribute are making the value shown inside as a distorted one,https://github.com/whatwg/html/issues/9593,2023-08-09T05:35:43Z,2023-08-09T05:50:39Z,nchauhan46,,0
+1842277927,true,Proposal:  Retrofit time HTML tag to support intl.DateTimeFormat,https://github.com/whatwg/html/issues/9592,2023-08-09T00:39:13Z,2023-08-09T02:49:04Z,bahrus,,0
 1842214177,false,Upcoming HTML standard issue triage meeting on 8/10/2023,https://github.com/whatwg/html/issues/9591,2023-08-08T23:00:50Z,2023-08-08T23:00:50Z,past,agenda+,0
 1837932617,false,ComputeDeadline always returns a value less than 16ms (on 60Hz refresh-rate devices),https://github.com/whatwg/html/issues/9584,2023-08-05T20:43:17Z,2023-08-05T20:43:17Z,rniwa,,0
 1833113198,true,Add earlier snapshots than 2015 and add yearly snapshots,https://github.com/whatwg/html/issues/9577,2023-08-02T12:42:48Z,2023-08-02T13:12:58Z,Janghou,,0
@@ -105,7 +108,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1710940425,true,Fix document.all,https://github.com/whatwg/html/issues/9298,2023-05-15T22:34:31Z,2023-05-19T06:38:03Z,jfbrennan,,0
 1709729746,false,Should <dir> behave like a list element?,https://github.com/whatwg/html/issues/9296,2023-05-15T09:51:12Z,2023-05-15T15:23:22Z,annevk,topic: rendering|accessibility|interop|a11y-tracker,0
 1709674704,false,Proposal: Web Charts,https://github.com/whatwg/html/issues/9295,2023-05-15T09:19:44Z,2023-07-29T12:39:27Z,AdamSobieski,addition/proposal|needs implementer interest,3
-1709085324,false,Proposal:  measurement or number or quantity semantic HTML tag,https://github.com/whatwg/html/issues/9294,2023-05-14T21:42:27Z,2023-07-22T21:32:41Z,bahrus,addition/proposal|needs implementer interest,0
+1709085324,false,Proposal:  measurement or number or quantity semantic HTML tag,https://github.com/whatwg/html/issues/9294,2023-05-14T21:42:27Z,2023-08-09T01:32:23Z,bahrus,addition/proposal|needs implementer interest,0
 1708344988,false,Clarify natural dimensions of HAVE_METADATA video element with no frame available,https://github.com/whatwg/html/issues/9279,2023-05-12T23:49:10Z,2023-05-17T13:46:46Z,karlt,topic: media|interop,0
 1708075642,false,Keep sharedWorker alive durning reload / next-page,https://github.com/whatwg/html/issues/9278,2023-05-12T19:02:47Z,2023-05-19T13:17:19Z,jimmywarting,topic: workers|needs tests,0
 1706694082,false,Normalize COOP inheritance with policy container,https://github.com/whatwg/html/issues/9277,2023-05-11T23:23:49Z,2023-05-11T23:23:49Z,domfarolino,topic: cross-origin-opener-policy|topic: policy container,0
@@ -648,7 +651,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1206023411,true,Should Element.id spec reflect what browser actually implement,https://github.com/whatwg/html/issues/7824,2022-04-16T05:48:42Z,2022-04-24T15:41:38Z,greggman,document conformance,5
 1204707421,false,Early hints followup issues,https://github.com/whatwg/html/issues/7823,2022-04-14T15:51:56Z,2022-06-02T12:14:16Z,domenic,,1
 1204498851,false,Add referrerpolicy to media elements (<audio> and <video>),https://github.com/whatwg/html/issues/7822,2022-04-14T12:59:02Z,2022-04-21T17:55:49Z,SegaraRai,addition/proposal|needs implementer interest|topic: media|topic: fetch,0
-1200400029,false,Add support to the window.open function for the Accept header.,https://github.com/whatwg/html/issues/7810,2022-04-11T18:54:19Z,2023-03-17T07:49:04Z,codecando-x,addition/proposal|needs implementer interest|topic: navigation,8
+1200400029,false,Add support to the window.open function for the Accept header.,https://github.com/whatwg/html/issues/7810,2022-04-11T18:54:19Z,2023-03-17T07:49:04Z,codecando-x,addition/proposal|needs implementer interest|topic: navigation,9
 1200302682,true,Should adding inert attribute force a blur?,https://github.com/whatwg/html/issues/7809,2022-04-11T17:32:47Z,2022-04-11T17:48:14Z,emilio,,0
 1200291987,true,inert on an ancestor of modal dialog,https://github.com/whatwg/html/issues/7808,2022-04-11T17:25:44Z,2022-05-18T17:53:25Z,emilio,topic: dialog,0
 1198621719,false,"""Fetch a classic worker-imported script"" uses fetch's synchronous flag, which is no longer defined",https://github.com/whatwg/html/issues/7804,2022-04-09T14:03:10Z,2022-04-25T13:20:59Z,Lubrsi,topic: workers|topic: fetch|integration,0
@@ -744,7 +747,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1121252070,true,Remove concept of expressly inert?,https://github.com/whatwg/html/issues/7564,2022-02-01T22:10:09Z,2022-02-07T01:19:46Z,Loirooriol,topic: focus,0
 1120480673,false,Clarify the semantic scope of the menu element,https://github.com/whatwg/html/issues/7562,2022-02-01T10:23:18Z,2022-02-16T11:24:18Z,kantoche,accessibility,0
 1119962138,false,"Suggestion - Allow ""<slot>"" to provide options for select or datalist",https://github.com/whatwg/html/issues/7560,2022-01-31T21:40:11Z,2022-02-15T11:13:30Z,jogibear9988,addition/proposal|needs implementer interest|topic: shadow,0
-1116552451,false,Allow authors to apply new css features (like cascade layers) while linking stylesheets,https://github.com/whatwg/html/issues/7540,2022-01-27T17:28:58Z,2023-06-21T18:17:02Z,mirisuzanne,addition/proposal|needs implementer interest|topic: style,15
+1116552451,false,Allow authors to apply new css features (like cascade layers) while linking stylesheets,https://github.com/whatwg/html/issues/7540,2022-01-27T17:28:58Z,2023-06-21T18:17:02Z,mirisuzanne,addition/proposal|needs implementer interest|topic: style,18
 1115846973,false,Can I set image as image data instead of base64??,https://github.com/whatwg/html/issues/7538,2022-01-27T07:04:18Z,2022-02-10T08:19:30Z,slugger941,,0
 1114394627,false,Explicit display:none should prevent element from being used as relevant canvas fallback content,https://github.com/whatwg/html/issues/7534,2022-01-25T21:46:53Z,2022-02-16T14:20:15Z,Loirooriol,topic: canvas|accessibility|topic: focus|a11y-tracker,0
 1114233124,false,URL-bar triggered prerendering,https://github.com/whatwg/html/issues/7533,2022-01-25T18:35:01Z,2022-02-03T21:27:07Z,domenic,addition/proposal|topic: navigation|topic: browsing context,2
@@ -3225,7 +3228,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 211719444,true,"innerText license was MIT, not CC BY",https://github.com/whatwg/html/issues/2408,2017-03-03T15:29:07Z,2017-03-07T09:59:11Z,annevk,,0
 211513300,true,`contextmenu` and multiple `<menu>`s,https://github.com/whatwg/html/issues/2406,2017-03-02T20:50:33Z,2018-01-22T12:47:04Z,Yay295,,0
 211350495,true,Should UA style for dialog contain display:block?,https://github.com/whatwg/html/issues/2405,2017-03-02T10:31:42Z,2017-03-24T04:11:58Z,ghost,topic: rendering,0
-211311639,false,A tag to display date and/or time to the user in his preferred format.,https://github.com/whatwg/html/issues/2404,2017-03-02T07:33:07Z,2022-08-16T09:50:54Z,lostmsu,addition/proposal|needs implementer interest|i18n-tracker,5
+211311639,false,A tag to display date and/or time to the user in his preferred format.,https://github.com/whatwg/html/issues/2404,2017-03-02T07:33:07Z,2023-08-09T09:34:11Z,lostmsu,addition/proposal|needs implementer interest|i18n-tracker,6
 210689268,true,setRangeText one-argument form doesn't define what the selection mode should be,https://github.com/whatwg/html/issues/2403,2017-02-28T05:15:04Z,2018-05-07T09:39:50Z,bzbarsky,clarification|good first issue,0
 210080003,true,Processing the result of a redirect fetch during navigation relies on nonexistent tasks queued by Fetch,https://github.com/whatwg/html/issues/2396,2017-02-24T15:38:41Z,2017-03-20T12:30:02Z,jdm,topic: navigation,0
 210038745,true,There is no field on the error event that would carry an error reason when adding a script to DOM fails,https://github.com/whatwg/html/issues/2395,2017-02-24T12:39:11Z,2017-03-09T23:37:40Z,juj,,0
@@ -3283,7 +3286,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 202961019,false,Allow webauthors to customize what controls are shown for HTMLMediaElement,https://github.com/whatwg/html/issues/2293,2017-01-24T22:36:57Z,2021-07-14T08:59:25Z,avayvod,addition/proposal|needs implementer interest|topic: media,2
 202939006,false,UA style for <br> and <wbr>,https://github.com/whatwg/html/issues/2291,2017-01-24T21:02:08Z,2017-03-17T00:39:56Z,zcorpan,topic: rendering,0
 202889219,false,freeze()-like API for HTMLCanvasElement,https://github.com/whatwg/html/issues/2290,2017-01-24T17:40:39Z,2018-01-26T22:22:58Z,grorg,addition/proposal|needs implementer interest|topic: canvas,0
-202799594,false,Fire an ErrorEvent instead an Event,https://github.com/whatwg/html/issues/2289,2017-01-24T12:02:42Z,2023-08-08T10:15:16Z,bakulf,topic: workers|topic: events,0
+202799594,false,Fire an ErrorEvent instead an Event,https://github.com/whatwg/html/issues/2289,2017-01-24T12:02:42Z,2023-08-09T05:11:43Z,bakulf,topic: workers|topic: events,0
 202688519,false,"""Invoke the Function. Use the third and subseque...""",https://github.com/whatwg/html/issues/2287,2017-01-24T00:09:30Z,2017-01-24T16:17:35Z,tbodt,clarification,0
 202633614,false,"Would be nice if ""steps to (re)determine what the object element represents"" were linkable",https://github.com/whatwg/html/issues/2285,2017-01-23T19:53:27Z,2017-05-17T12:38:50Z,bzbarsky,topic: embed and object,0
 202564378,true,"Location shouldn't use %ObjProto_toString% as the value of its ""toString"" property",https://github.com/whatwg/html/issues/2284,2017-01-23T15:25:51Z,2017-02-14T09:10:28Z,anba,,1
