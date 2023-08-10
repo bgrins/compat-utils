@@ -45,7 +45,8 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
            git config --global user.name 'Action Committer'
            git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-           git commit -am "Action: update data"
+           git add -A
+           git commit -m "Action: update data"
            git push
           fi
 
