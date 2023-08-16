@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1852163330,false,Introduce allow-cache for iframe sandbox attribute,https://github.com/whatwg/html/issues/9610,2023-08-15T21:37:45Z,2023-08-15T23:15:58Z,antja0,,0
+1852163330,false,Introduce allow-cache for iframe sandbox attribute,https://github.com/whatwg/html/issues/9610,2023-08-15T21:37:45Z,2023-08-16T07:23:11Z,antja0,,0
 1851137986,false,Allow creating Custom Elements exclusively via HTML,https://github.com/whatwg/html/issues/9608,2023-08-15T09:18:29Z,2023-08-15T13:09:31Z,aartaka,,0
 1848694977,false,Titling levels for site vs. page titles in the post-outline-algorithm world,https://github.com/whatwg/html/issues/9604,2023-08-13T18:35:39Z,2023-08-13T18:44:38Z,dpk,,0
 1847227178,false,"Incorrect fieldname meaning for ""sex""",https://github.com/whatwg/html/issues/9600,2023-08-11T18:05:52Z,2023-08-12T16:31:58Z,pavankjadda,,0
@@ -43,7 +43,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1788359824,true,"Use ""matches about:blank"" and ""matches about:srcdoc"" in more places",https://github.com/whatwg/html/issues/9488,2023-07-04T19:09:29Z,2023-07-28T00:45:03Z,domfarolino,topic: navigation,1
 1787902159,false,"Showing only a child popover causes ""beforetoggle"" and ""toggle"" events but popover is invisble",https://github.com/whatwg/html/issues/9487,2023-07-04T13:07:44Z,2023-07-12T23:31:37Z,mbrodesser-Igalia,topic: popover,0
 1785504701,true,Input.valueAsNumber can not be manually set to NaN despite it being a valid value for it,https://github.com/whatwg/html/issues/9480,2023-07-03T07:19:15Z,2023-07-03T22:11:25Z,alexandertrefz,,0
-1784674592,false,Proposal: Meta Tag for AI Generated Content,https://github.com/whatwg/html/issues/9479,2023-07-02T14:49:11Z,2023-08-16T00:08:12Z,evayde,addition/proposal|needs implementer interest,9
+1784674592,false,Proposal: Meta Tag for AI Generated Content,https://github.com/whatwg/html/issues/9479,2023-07-02T14:49:11Z,2023-08-16T00:08:12Z,evayde,addition/proposal|needs implementer interest,10
 1782549061,true,Upcoming HTML standard issue triage meeting on 7/13/2023,https://github.com/whatwg/html/issues/9474,2023-06-30T13:38:01Z,2023-07-13T19:37:28Z,past,agenda+,1
 1782419433,false,Define `X-DNS-Prefetch-Control`,https://github.com/whatwg/html/issues/9473,2023-06-30T12:08:13Z,2023-06-30T12:18:22Z,yoavweiss,removal/deprecation|topic: resource hints (inc. preload),0
 1781091258,false,Specify a maximal depth of backtracking for the pattern attribute on input elements,https://github.com/whatwg/html/issues/9469,2023-06-29T15:38:55Z,2023-07-07T00:24:27Z,vinhill,topic: forms|integration,0
@@ -105,7 +105,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1721120977,false,New FocusEvent property for getting the FocusOptions,https://github.com/whatwg/html/issues/9322,2023-05-23T04:01:49Z,2023-05-26T09:20:11Z,woody-li,addition/proposal|needs implementer interest|topic: focus,1
 1720358205,false,"States should be worded explicitly in getContext() tables where context mode and contextIDs match ",https://github.com/whatwg/html/issues/9320,2023-05-22T19:39:09Z,2023-05-23T14:25:56Z,trevorspiniolas,topic: canvas,0
 1720326931,true,Another corner case about nested popovers,https://github.com/whatwg/html/issues/9319,2023-05-22T19:22:28Z,2023-06-08T11:51:45Z,cathiechen,topic: popover,0
-1718431698,false,Proposal: fire an event before the first rendering opportunity after activation,https://github.com/whatwg/html/issues/9315,2023-05-21T09:24:24Z,2023-08-15T05:57:28Z,noamr,addition/proposal|topic: rendering|topic: navigation|topic: events,0
+1718431698,false,Proposal: fire an event before the first rendering opportunity after activation,https://github.com/whatwg/html/issues/9315,2023-05-21T09:24:24Z,2023-08-16T11:41:19Z,noamr,addition/proposal|topic: rendering|topic: navigation|topic: events,0
 1716840969,false,Interaction between Popover API and CSS Anchor Positioning specs,https://github.com/whatwg/html/issues/9311,2023-05-19T08:17:41Z,2023-05-26T23:17:50Z,jpzwarte,topic: popover,0
 1716713700,true,"""fallback base URL"" algorithm seems wrong for popups?",https://github.com/whatwg/html/issues/9310,2023-05-19T06:38:16Z,2023-06-01T09:18:19Z,domenic,interop|topic: browsing context,0
 1715965888,true,Upcoming HTML standard issue triage meeting on 6/1/2023,https://github.com/whatwg/html/issues/9308,2023-05-18T17:03:06Z,2023-06-02T16:55:44Z,past,agenda+,0
@@ -429,7 +429,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1408292081,true,Upcoming HTML standard issue triage meeting on 10/27/2022,https://github.com/whatwg/html/issues/8385,2022-10-13T19:05:26Z,2022-10-27T16:57:55Z,past,agenda+,0
 1407210379,true,"Navigation requests destination always set to ""document""",https://github.com/whatwg/html/issues/8383,2022-10-13T06:16:54Z,2022-10-13T07:13:32Z,antosart,topic: navigation,0
 1403944971,true,User activation: what should happen if there is no browsing context?,https://github.com/whatwg/html/issues/8378,2022-10-11T03:26:37Z,2023-04-12T05:47:16Z,marcoscaceres,topic: user activation,0
-1403388271,false,request: need a way to prevent mobile browser scrolling when focusing an input,https://github.com/whatwg/html/issues/8375,2022-10-10T15:50:46Z,2022-10-11T02:23:54Z,liamdebeasi,addition/proposal|needs implementer interest,0
+1403388271,false,request: need a way to prevent mobile browser scrolling when focusing an input,https://github.com/whatwg/html/issues/8375,2022-10-10T15:50:46Z,2022-10-11T02:23:54Z,liamdebeasi,addition/proposal|needs implementer interest,1
 1403380623,true,"Possible error in the text about <input type=""range"">",https://github.com/whatwg/html/issues/8374,2022-10-10T15:45:07Z,2022-10-11T04:46:20Z,BlueInGreen68,,0
 1403050872,true,"rel values ""prev"" and ""next"" not allowed in body?",https://github.com/whatwg/html/issues/8372,2022-10-10T11:53:23Z,2022-10-10T13:06:37Z,brennanyoung,document conformance|topic: hyperlink,0
 1402147315,false,"<pre>: line number ",https://github.com/whatwg/html/issues/8369,2022-10-09T04:31:39Z,2023-04-23T17:29:54Z,esdnm,addition/proposal|needs implementer interest,1
@@ -658,7 +658,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1206023411,true,Should Element.id spec reflect what browser actually implement,https://github.com/whatwg/html/issues/7824,2022-04-16T05:48:42Z,2022-04-24T15:41:38Z,greggman,document conformance,5
 1204707421,false,Early hints followup issues,https://github.com/whatwg/html/issues/7823,2022-04-14T15:51:56Z,2022-06-02T12:14:16Z,domenic,,1
 1204498851,false,Add referrerpolicy to media elements (<audio> and <video>),https://github.com/whatwg/html/issues/7822,2022-04-14T12:59:02Z,2022-04-21T17:55:49Z,SegaraRai,addition/proposal|needs implementer interest|topic: media|topic: fetch,0
-1200400029,false,Add support to the window.open function for the Accept header.,https://github.com/whatwg/html/issues/7810,2022-04-11T18:54:19Z,2023-03-17T07:49:04Z,codecando-x,addition/proposal|needs implementer interest|topic: navigation,9
+1200400029,false,Add support to the window.open function for the Accept header.,https://github.com/whatwg/html/issues/7810,2022-04-11T18:54:19Z,2023-03-17T07:49:04Z,codecando-x,addition/proposal|needs implementer interest|topic: navigation,10
 1200302682,true,Should adding inert attribute force a blur?,https://github.com/whatwg/html/issues/7809,2022-04-11T17:32:47Z,2022-04-11T17:48:14Z,emilio,,0
 1200291987,true,inert on an ancestor of modal dialog,https://github.com/whatwg/html/issues/7808,2022-04-11T17:25:44Z,2022-05-18T17:53:25Z,emilio,topic: dialog,0
 1198621719,false,"""Fetch a classic worker-imported script"" uses fetch's synchronous flag, which is no longer defined",https://github.com/whatwg/html/issues/7804,2022-04-09T14:03:10Z,2022-04-25T13:20:59Z,Lubrsi,topic: workers|topic: fetch|integration,0
