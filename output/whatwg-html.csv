@@ -16,7 +16,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1833061471,true,Allow adding custom headers in WebSocket connection,https://github.com/whatwg/html/issues/9576,2023-08-02T12:10:41Z,2023-08-02T12:19:05Z,josephrocca,,0
 1831743537,true,event.source for message events from a BroadcastChannel,https://github.com/whatwg/html/issues/9574,2023-08-01T17:37:46Z,2023-08-02T02:26:46Z,vrugtehagel,,0
 1830647462,false,"Allow empty input[type=""color""] value",https://github.com/whatwg/html/issues/9572,2023-08-01T07:34:59Z,2023-08-06T15:20:21Z,ksa242,,0
-1829921287,false,Use inside settings to fetch the descendants of module worker in the worker module script graph,https://github.com/whatwg/html/issues/9571,2023-07-31T19:56:40Z,2023-08-01T12:00:36Z,allstarschh,,1
+1829921287,false,Use inside settings to fetch the descendants of module worker in the worker module script graph,https://github.com/whatwg/html/issues/9571,2023-07-31T19:56:40Z,2023-08-17T10:09:05Z,allstarschh,,1
 1827227550,true,Should trailing periods in the username portion of email addresses be valid?,https://github.com/whatwg/html/issues/9567,2023-07-29T00:05:18Z,2023-07-31T17:10:04Z,josepharhar,,0
 1826703340,false,Standardize UA styles / presentational hints for `embed hidden`,https://github.com/whatwg/html/issues/9564,2023-07-28T16:14:28Z,2023-08-14T14:14:40Z,nt1m,,0
 1822122560,true,Proposal: js-selector attribute (similar to data-attributes),https://github.com/whatwg/html/issues/9561,2023-07-26T10:43:42Z,2023-07-27T08:34:23Z,LeTraceurSnork,,2
@@ -106,7 +106,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1721120977,false,New FocusEvent property for getting the FocusOptions,https://github.com/whatwg/html/issues/9322,2023-05-23T04:01:49Z,2023-05-26T09:20:11Z,woody-li,addition/proposal|needs implementer interest|topic: focus,1
 1720358205,false,"States should be worded explicitly in getContext() tables where context mode and contextIDs match ",https://github.com/whatwg/html/issues/9320,2023-05-22T19:39:09Z,2023-05-23T14:25:56Z,trevorspiniolas,topic: canvas,0
 1720326931,true,Another corner case about nested popovers,https://github.com/whatwg/html/issues/9319,2023-05-22T19:22:28Z,2023-06-08T11:51:45Z,cathiechen,topic: popover,0
-1718431698,false,Proposal: fire an event before the first rendering opportunity after activation,https://github.com/whatwg/html/issues/9315,2023-05-21T09:24:24Z,2023-08-16T19:59:44Z,noamr,addition/proposal|topic: rendering|topic: navigation|topic: events,0
+1718431698,false,Proposal: fire an event before the first rendering opportunity after activation,https://github.com/whatwg/html/issues/9315,2023-05-21T09:24:24Z,2023-08-17T06:27:54Z,noamr,addition/proposal|topic: rendering|topic: navigation|topic: events,0
 1716840969,false,Interaction between Popover API and CSS Anchor Positioning specs,https://github.com/whatwg/html/issues/9311,2023-05-19T08:17:41Z,2023-05-26T23:17:50Z,jpzwarte,topic: popover,0
 1716713700,true,"""fallback base URL"" algorithm seems wrong for popups?",https://github.com/whatwg/html/issues/9310,2023-05-19T06:38:16Z,2023-06-01T09:18:19Z,domenic,interop|topic: browsing context,0
 1715965888,true,Upcoming HTML standard issue triage meeting on 6/1/2023,https://github.com/whatwg/html/issues/9308,2023-05-18T17:03:06Z,2023-06-02T16:55:44Z,past,agenda+,0
@@ -291,7 +291,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1558881148,true,Upcoming HTML standard issue triage meeting on 2/9/2023,https://github.com/whatwg/html/issues/8786,2023-01-26T22:33:48Z,2023-02-09T17:49:43Z,past,agenda+,0
 1558865836,true,"An un-activated Image Button submitter should add `(0, 0)` entries to the form data set",https://github.com/whatwg/html/issues/8785,2023-01-26T22:18:29Z,2023-01-28T15:38:26Z,jenseng,,0
 1558491226,false,Expose an API to get the top layer element,https://github.com/whatwg/html/issues/8783,2023-01-26T17:16:05Z,2023-01-26T17:17:03Z,straker,,2
-1558379555,false,Detect UA transitions on same-document navigations,https://github.com/whatwg/html/issues/8782,2023-01-26T16:01:43Z,2023-07-18T14:21:46Z,jakearchibald,,0
+1558379555,true,Detect UA transitions on same-document navigations,https://github.com/whatwg/html/issues/8782,2023-01-26T16:01:43Z,2023-08-17T03:06:46Z,jakearchibald,,0
 1557491233,false,"Img ""sizes"": is fallback value optional (per MDN) or required (per current spec)?",https://github.com/whatwg/html/issues/8778,2023-01-26T01:15:47Z,2023-01-26T01:15:47Z,tmb-github,,0
 1557373653,true,The `commit` method on various canvas contexts does not exist,https://github.com/whatwg/html/issues/8777,2023-01-25T22:48:52Z,2023-01-25T23:28:49Z,greggman,,0
 1557070169,false,<meta> http-equiv vs name: which one wins?,https://github.com/whatwg/html/issues/8776,2023-01-25T18:04:27Z,2023-01-26T09:45:04Z,annevk,clarification,0
@@ -4228,7 +4228,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 118451490,false,Add links to relevant web platform tests,https://github.com/whatwg/html/issues/354,2015-11-23T19:16:00Z,2017-05-03T19:30:23Z,domenic,spec tooling,0
 118364257,true,Autofill off: consider 'must not' instead of 'should not',https://github.com/whatwg/html/issues/353,2015-11-23T11:40:33Z,2015-11-30T20:30:49Z,kennardconsulting,,0
 118251748,true,Mark tfoot before tbody as obsolete but conforming feature,https://github.com/whatwg/html/issues/352,2015-11-22T08:57:16Z,2015-12-16T20:01:42Z,takenspc,normative change|good first issue,0
-118062941,false,base64url variant of btoa/atob,https://github.com/whatwg/html/issues/351,2015-11-20T15:26:15Z,2015-11-23T15:43:58Z,beverloo,addition/proposal|needs implementer interest,3
+118062941,false,base64url variant of btoa/atob,https://github.com/whatwg/html/issues/351,2015-11-20T15:26:15Z,2015-11-23T15:43:58Z,beverloo,addition/proposal|needs implementer interest,4
 117719062,true,Clarify in the spec that 'scroll restoration mode' 'manual'  doesn't affect to scrolling at all in case pageshow.persisted == true,https://github.com/whatwg/html/issues/350,2015-11-19T01:20:37Z,2016-07-07T18:55:44Z,smaug----,topic: history,0
 117702887,true,scroll restoration mode handling doesn't specify which scroll position restoration it is about,https://github.com/whatwg/html/issues/349,2015-11-18T23:05:54Z,2016-07-07T18:55:44Z,smaug----,topic: history,0
 117654871,true,navigator.javaEnabled spec does not match implementations,https://github.com/whatwg/html/issues/348,2015-11-18T18:53:36Z,2015-11-30T17:55:59Z,domenic,good first issue,0
