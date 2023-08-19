@@ -1026,6 +1026,8 @@ api/CredentialsContainer/create/publicKey_option/requireResidentKey,,,,89,,,,tru
 api/CredentialsContainer/create/publicKey_option/residentKey,,,,89,,,,true,true,false,https://w3c.github.io/webauthn/#dom-authenticatorselectioncriteria-residentkey,W3C
 api/CredentialsContainer/get,,60,,51,,13,,false,true,false,https://w3c.github.io/webappsec-credential-management/#dom-credentialscontainer-get,W3C
 api/CredentialsContainer/get/identity_option,,,,108,,,,true,true,false,https://fedidcg.github.io/FedCM/#dom-credentialrequestoptions-identity,UNKNOWN
+api/CredentialsContainer/get/identity_option/context_option,,,,116,,,,true,true,false,https://fedidcg.github.io/FedCM/#dom-identitycredentialrequestoptions-context,UNKNOWN
+api/CredentialsContainer/get/identity_option/loginHint,,,,116,,,,true,true,false,https://fedidcg.github.io/FedCM/#dom-identityproviderconfig-loginhint,UNKNOWN
 api/CredentialsContainer/get/otp_option,,,,93,,,,true,true,false,https://wicg.github.io/web-otp/#dom-credentialrequestoptions-otp,W3CCG
 api/CredentialsContainer/get/publicKey_option,,60,,67,,13,,false,true,false,https://w3c.github.io/webauthn/#sctn-credentialrequestoptions-extension,W3C
 api/CredentialsContainer/get/publicKey_option/extensions,,60,,67,,13,,false,true,false,https://w3c.github.io/webauthn/#dom-publickeycredentialrequestoptions-extensions,W3C
@@ -3492,6 +3494,8 @@ api/IIRFilterNode/IIRFilterNode,,53,,55,,14.1,,false,true,false,https://webaudio
 api/IIRFilterNode/getFrequencyResponse,,50,,49,,14.1,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-iirfilternode-getfrequencyresponse,W3C
 api/IdentityCredential,,,,108,,,,true,true,false,https://fedidcg.github.io/FedCM/#browser-api-identity-credential-interface,UNKNOWN
 api/IdentityCredential/token,,,,108,,,,true,true,false,https://fedidcg.github.io/FedCM/#dom-identitycredential-token,UNKNOWN
+api/IdentityProvider,,,,116,,,,true,true,false,https://fedidcg.github.io/FedCM/#browser-api-identity-provider-interface,UNKNOWN
+api/IdentityProvider/getUserInfo,,,,116,,,,true,true,false,https://fedidcg.github.io/FedCM/#dom-identityprovider-getuserinfo,UNKNOWN
 api/IdleDeadline,,55,,47,,,,false,true,false,https://w3c.github.io/requestidlecallback/#the-idledeadline-interface,W3C
 api/IdleDeadline/didTimeout,,55,,47,,,,false,true,false,https://w3c.github.io/requestidlecallback/#dom-idledeadline-didtimeout,W3C
 api/IdleDeadline/timeRemaining,,55,,47,,,,false,true,false,https://w3c.github.io/requestidlecallback/#dom-idledeadline-timeremaining,W3C
@@ -9088,14 +9092,14 @@ css/properties/grid-template-columns/fit-content,,94,,57,,10.1,,false,true,false
 css/properties/grid-template-columns/masonry,,77,"[{""name"":""layout.css.grid-template-masonry-value.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,preview,,true,true,false,https://drafts.csswg.org/css-grid-3/#masonry-layout,W3C
 css/properties/grid-template-columns/minmax,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid/#valdef-grid-template-columns-minmax,W3C
 css/properties/grid-template-columns/repeat,,76,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid/#repeat-notation,W3C
-css/properties/grid-template-columns/subgrid,,71,,114,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""Enabled""}]",16,,false,true,false,https://drafts.csswg.org/css-grid/#subgrids,W3C
+css/properties/grid-template-columns/subgrid,,71,,117,,16,,false,true,false,https://drafts.csswg.org/css-grid/#subgrids,W3C
 css/properties/grid-template-rows,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid/#track-sizing,W3C
 css/properties/grid-template-rows/animation,,66,,107,,16,,false,true,false,,NONE
 css/properties/grid-template-rows/fit-content,,94,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-sizing-4/#sizing-values,W3C
 css/properties/grid-template-rows/masonry,,77,"[{""name"":""layout.css.grid-template-masonry-value.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,preview,,true,true,false,https://drafts.csswg.org/css-grid-3/#masonry-layout,W3C
 css/properties/grid-template-rows/minmax,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid/#valdef-grid-template-columns-minmax,W3C
 css/properties/grid-template-rows/repeat,,76,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid/#repeat-notation,W3C
-css/properties/grid-template-rows/subgrid,,71,,114,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""Enabled""}]",16,,false,true,false,https://drafts.csswg.org/css-grid/#subgrids,W3C
+css/properties/grid-template-rows/subgrid,,71,,117,,16,,false,true,false,https://drafts.csswg.org/css-grid/#subgrids,W3C
 css/properties/hanging-punctuation,,,,,,10,,false,true,false,https://drafts.csswg.org/css-text/#hanging-punctuation-property,W3C
 css/properties/height,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-sizing/#preferred-size-properties,W3C
 css/properties/height/fit-content,,94,,46,,11,,false,true,false,,NONE
@@ -9596,6 +9600,7 @@ css/properties/text-underline-position/from-font,,74,,87,,12.1,,false,true,false
 css/properties/text-underline-position/left_right,,74,,71,,,,false,true,false,,NONE
 css/properties/text-underline-position/under,,74,,33,,12.1,,false,true,false,,NONE
 css/properties/text-wrap,,,,114,,,,true,true,false,https://drafts.csswg.org/css-text-4/#text-wrap,W3C
+css/properties/text-wrap/pretty,,,,117,,,,true,true,false,https://drafts.csswg.org/css-text-4/#valdef-text-wrap-pretty,W3C
 css/properties/timeline-scope,,,,116,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,https://drafts.csswg.org/scroll-animations/#propdef-timeline-scope,W3C
 css/properties/top,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-position/#insets,W3C
 css/properties/touch-action,,52,,36,,13,,false,true,false,https://compat.spec.whatwg.org/#touch-action,WHATWG
@@ -9791,7 +9796,7 @@ css/selectors/marker/animation_and_transition_support,,80,,86,,,,false,true,fals
 css/selectors/modal,,103,,105,,15.6,,false,true,false,https://drafts.csswg.org/selectors/#modal-state,W3C
 css/selectors/muted,,,,,,15.4,,false,true,false,https://drafts.csswg.org/selectors/#selectordef-muted,W3C
 css/selectors/namespace,,1,,1,,3,,false,true,false,https://drafts.csswg.org/css-namespaces/#declaration,W3C
-css/selectors/nesting,,,,112,,16.5,,false,true,false,https://drafts.csswg.org/css-nesting/#nesting-selector,W3C
+css/selectors/nesting,,117,,112,,16.5,,false,true,false,https://drafts.csswg.org/css-nesting/#nest-selector,W3C
 css/selectors/not,,1,,1,,3.1,,false,true,false,https://drafts.csswg.org/selectors/#negation,W3C
 css/selectors/not/selector_list,,84,,88,,9,,false,true,false,,NONE
 css/selectors/nth-child,,3.5,,1,,3.1,,false,true,false,https://drafts.csswg.org/selectors/#nth-child-pseudo,W3C
@@ -10287,7 +10292,7 @@ html/elements/iframe,,1,,1,,≤4,,false,true,false,https://html.spec.whatwg.org/
 html/elements/iframe/align,,1,,1,,3,,false,true,true,,NONE
 html/elements/iframe/allow,,74,,60,,11.1,,false,true,false,https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-allow,WHATWG
 html/elements/iframe/allowfullscreen,,18,,38,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-allowfullscreen,WHATWG
-html/elements/iframe/allowpaymentrequest,,56,,,,,,true,true,false,,NONE
+html/elements/iframe/allowpaymentrequest,,56,,60,,,,true,true,false,,NONE
 html/elements/iframe/credentialless,,,,110,,,,true,false,false,,NONE
 html/elements/iframe/external_protocol_urls_blocked,,67,,,,,,false,true,true,,NONE
 html/elements/iframe/frameborder,,1,,1,,3,,false,true,true,,NONE
