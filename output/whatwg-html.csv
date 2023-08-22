@@ -3,7 +3,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1857932079,true,"remove <input type=“password”> ",https://github.com/whatwg/html/issues/9617,2023-08-20T02:47:37Z,2023-08-20T03:59:47Z,MichaelMcGlothlin,,0
 1856567331,false,<teleport> element,https://github.com/whatwg/html/issues/9614,2023-08-18T11:32:18Z,2023-08-18T14:14:22Z,CyberAP,,0
 1853590814,false,Meta: Get info on authors sentiment and awareness on various HTML features,https://github.com/whatwg/html/issues/9611,2023-08-16T16:47:09Z,2023-08-18T05:20:56Z,LeaVerou,meta,0
-1852163330,false,Introduce allow-cache for iframe sandbox attribute,https://github.com/whatwg/html/issues/9610,2023-08-15T21:37:45Z,2023-08-18T08:32:58Z,antja0,addition/proposal,0
+1852163330,true,Introduce allow-cache for iframe sandbox attribute,https://github.com/whatwg/html/issues/9610,2023-08-15T21:37:45Z,2023-08-21T23:28:24Z,antja0,addition/proposal,0
 1851137986,true,Allow creating Custom Elements exclusively via HTML,https://github.com/whatwg/html/issues/9608,2023-08-15T09:18:29Z,2023-08-18T14:45:27Z,aartaka,,0
 1848694977,false,Titling levels for site vs. page titles in the post-outline-algorithm world,https://github.com/whatwg/html/issues/9604,2023-08-13T18:35:39Z,2023-08-18T09:03:24Z,dpk,clarification|document conformance,0
 1847227178,true,"Incorrect fieldname meaning for ""sex""",https://github.com/whatwg/html/issues/9600,2023-08-11T18:05:52Z,2023-08-18T08:37:17Z,pavankjadda,,0
@@ -18,7 +18,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1833113198,true,Add earlier snapshots than 2015 and add yearly snapshots,https://github.com/whatwg/html/issues/9577,2023-08-02T12:42:48Z,2023-08-02T13:12:58Z,Janghou,,0
 1833061471,true,Allow adding custom headers in WebSocket connection,https://github.com/whatwg/html/issues/9576,2023-08-02T12:10:41Z,2023-08-02T12:19:05Z,josephrocca,,0
 1831743537,true,event.source for message events from a BroadcastChannel,https://github.com/whatwg/html/issues/9574,2023-08-01T17:37:46Z,2023-08-02T02:26:46Z,vrugtehagel,,0
-1830647462,false,"Allow empty input[type=""color""] value",https://github.com/whatwg/html/issues/9572,2023-08-01T07:34:59Z,2023-08-18T08:39:45Z,ksa242,addition/proposal|needs implementer interest,0
+1830647462,false,"Allow empty input[type=""color""] value",https://github.com/whatwg/html/issues/9572,2023-08-01T07:34:59Z,2023-08-21T19:45:42Z,ksa242,addition/proposal|needs implementer interest,0
 1829921287,false,Use inside settings to fetch the descendants of module worker in the worker module script graph,https://github.com/whatwg/html/issues/9571,2023-07-31T19:56:40Z,2023-08-17T10:09:05Z,allstarschh,,1
 1827227550,true,Should trailing periods in the username portion of email addresses be valid?,https://github.com/whatwg/html/issues/9567,2023-07-29T00:05:18Z,2023-07-31T17:10:04Z,josepharhar,,0
 1826703340,true,Standardize UA styles / presentational hints for `embed hidden`,https://github.com/whatwg/html/issues/9564,2023-07-28T16:14:28Z,2023-08-18T08:44:40Z,nt1m,,0
@@ -303,7 +303,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1552934460,false,Ability to style default summary in <details>,https://github.com/whatwg/html/issues/8770,2023-01-23T11:28:14Z,2023-05-05T08:34:11Z,jakearchibald,addition/proposal|topic: rendering|topic: selectors,0
 1552047625,true,"Clarify: CSS import assertions use ""script"" as the destination, is that intended?",https://github.com/whatwg/html/issues/8764,2023-01-22T08:56:49Z,2023-06-11T06:26:34Z,noamr,,0
 1550462824,true,MediaError not acccessible for a video element if using it with source elements,https://github.com/whatwg/html/issues/8757,2023-01-20T08:15:13Z,2023-01-26T09:48:49Z,callumgare,,0
-1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-04-03T09:52:02Z,mfreed7,addition/proposal|topic: shadow,0
+1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-08-21T19:16:06Z,mfreed7,addition/proposal|topic: shadow,0
 1550024105,false,Native support for indents,https://github.com/whatwg/html/issues/8751,2023-01-19T22:11:32Z,2023-01-25T23:06:02Z,GermanJablo,,1
 1548957116,true,[css-view-transitions-1] Interaction with Safari's back/forward previews,https://github.com/whatwg/html/issues/8749,2023-01-19T11:14:58Z,2023-01-19T11:21:46Z,jakearchibald,,0
 1537525438,true,Meta: should dfns in headings be viewed as exported definitions?,https://github.com/whatwg/html/issues/8743,2023-01-18T07:30:06Z,2023-01-20T19:24:39Z,tidoust,,0
@@ -320,7 +320,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1530043744,true,"""Nested navigable"" and ""child navigable"" are easy to confuse",https://github.com/whatwg/html/issues/8713,2023-01-12T03:40:54Z,2023-01-19T04:29:10Z,domenic,clarification|topic: browsing context,0
 1528456422,false,Is HTMLImgElement.decode() a cross-origin info channel?,https://github.com/whatwg/html/issues/8709,2023-01-11T05:29:17Z,2023-02-24T15:08:57Z,noamr,security/privacy|topic: img,1
 1528111766,false,Float16Array + HTML Canvas,https://github.com/whatwg/html/issues/8708,2023-01-10T22:41:56Z,2023-08-03T15:14:18Z,palemieux,addition/proposal|needs implementer interest|topic: canvas,2
-1528108331,false,Selecting text in the <summary> tag activates the details/summary (opens/closes the details tag),https://github.com/whatwg/html/issues/8707,2023-01-10T22:37:46Z,2023-08-02T20:32:12Z,gijsk,topic: events|integration|topic: user activation,0
+1528108331,false,Selecting text in the <summary> tag activates the details/summary (opens/closes the details tag),https://github.com/whatwg/html/issues/8707,2023-01-10T22:37:46Z,2023-08-21T18:58:57Z,gijsk,topic: events|integration|topic: user activation,0
 1527085260,true,How should I convert HTML to Plain Text?,https://github.com/whatwg/html/issues/8705,2023-01-10T09:54:24Z,2023-01-10T10:21:16Z,MAMPAgent,,0
 1524706667,true,"""The XML syntax for HTML was formerly referred t...""",https://github.com/whatwg/html/issues/8700,2023-01-08T22:23:56Z,2023-01-12T01:51:14Z,PuppyPi,,0
 1524326598,false,"Don't mangle """"""username"""""" and """"""password"""""" in ""web+"" protocol handlers",https://github.com/whatwg/html/issues/8697,2023-01-08T04:56:24Z,2023-02-24T15:26:29Z,SoniEx2,security/privacy|topic: custom protocols,0
@@ -1489,7 +1489,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 634846936,true,Batch drawImage for Canvas2D,https://github.com/whatwg/html/issues/5615,2020-06-08T18:44:49Z,2021-02-11T16:48:10Z,fserb,addition/proposal|needs implementer interest|topic: canvas,0
 634845778,true,willReadFrequently for Canvas2D,https://github.com/whatwg/html/issues/5614,2020-06-08T18:43:31Z,2022-03-07T20:44:26Z,fserb,addition/proposal|topic: canvas,0
 634844185,true,Modern Canvas2D API,https://github.com/whatwg/html/issues/5613,2020-06-08T18:40:45Z,2023-05-18T12:26:06Z,fserb,addition/proposal|needs implementer interest|topic: canvas,2
-633537671,false,Should <ins> and <del> have `unicode-bidi: isolate`?,https://github.com/whatwg/html/issues/5611,2020-06-07T16:06:47Z,2020-10-29T18:02:49Z,kojiishi,addition/proposal|needs implementer interest|i18n-tracker|i18n-alreq|i18n-hlreq,0
+633537671,true,Should <ins> and <del> have `unicode-bidi: isolate`?,https://github.com/whatwg/html/issues/5611,2020-06-07T16:06:47Z,2023-08-21T23:50:53Z,kojiishi,addition/proposal|needs implementer interest|i18n-tracker|i18n-alreq|i18n-hlreq,0
 631526605,false,"Clarify ""current pixel density""",https://github.com/whatwg/html/issues/5607,2020-06-05T11:39:25Z,2020-06-05T11:39:25Z,zcorpan,clarification|topic: img,0
 630637992,true,E-mail validation: RFC 6532 violation,https://github.com/whatwg/html/issues/5605,2020-06-04T08:53:51Z,2020-06-04T09:15:56Z,rutek,,0
 630479280,true,Uncertainty around support and validity of imagesrcset and imagesizes on link element,https://github.com/whatwg/html/issues/5604,2020-06-04T03:18:51Z,2020-07-08T17:52:05Z,schalkneethling,clarification|document conformance|topic: link,0
@@ -2523,7 +2523,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 325653588,true,Split source file into sections,https://github.com/whatwg/html/issues/3705,2018-05-23T10:57:03Z,2018-06-06T13:19:23Z,fserb,spec tooling,0
 325652070,false,"""4.6.6.23 Other link types  Extensions to the ...""",https://github.com/whatwg/html/issues/3704,2018-05-23T10:52:11Z,2019-08-20T01:47:42Z,reschke,integration,0
 325505574,true,"Name of <fieldset> group given by <legend> and <fieldset name=""""> confusable",https://github.com/whatwg/html/issues/3702,2018-05-23T00:12:29Z,2018-08-21T23:09:57Z,fantasai,clarification|topic: forms|topic: fieldset,0
-325018537,false,It is unclear how directionality should be inherited into Shadow DOM,https://github.com/whatwg/html/issues/3699,2018-05-21T18:43:21Z,2023-08-10T15:58:13Z,smaug----,topic: shadow|i18n-tracker|i18n-alreq|i18n-hlreq,0
+325018537,false,It is unclear how directionality should be inherited into Shadow DOM,https://github.com/whatwg/html/issues/3699,2018-05-21T18:43:21Z,2023-08-21T21:32:40Z,smaug----,topic: shadow|i18n-tracker|i18n-alreq|i18n-hlreq,0
 324615436,false,Consider dropping legacy referrer policy value support,https://github.com/whatwg/html/issues/3697,2018-05-19T09:15:59Z,2018-05-30T16:01:05Z,domfarolino,removal/deprecation,0
 324331787,false,A spec-compliant way to mark insertion/deletion of a wrapper element or an attribute?,https://github.com/whatwg/html/issues/3696,2018-05-18T09:16:01Z,2018-05-18T13:18:17Z,danny0838,clarification,0
 324017675,true,"input setSelection() method workflow, when text overflows input container",https://github.com/whatwg/html/issues/3694,2018-05-17T13:14:38Z,2018-05-22T08:06:34Z,Lipata,,0
@@ -2597,7 +2597,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2023-06-14T18:51:29Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,22
 305369552,true,Proposal: Improve control over HTML/XML syntax parse errors,https://github.com/whatwg/html/issues/3569,2018-03-14T23:56:33Z,2022-04-18T15:28:51Z,dvdckl,addition/proposal|needs implementer interest|topic: parser,0
 305147441,true,"<form method> description only says ""HTTP method""",https://github.com/whatwg/html/issues/3568,2018-03-14T12:58:10Z,2018-04-20T07:53:27Z,annevk,good first issue,0
-305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2023-06-26T18:14:07Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,131
+305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2023-06-26T18:14:07Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,132
 305020324,true,Separate out document.open() method declaration definitions,https://github.com/whatwg/html/issues/3565,2018-03-14T04:36:27Z,2018-06-28T15:27:09Z,domenic,clarification|good first issue|topic: document.open(),0
 305019688,true,At least Blink does not support document.open()'s replace parameter,https://github.com/whatwg/html/issues/3564,2018-03-14T04:31:43Z,2018-08-23T18:40:33Z,domenic,topic: history|interop|topic: document.open(),0
 304874091,false,<template> element capability/semantics in SVG parsing context,https://github.com/whatwg/html/issues/3563,2018-03-13T17:59:50Z,2018-03-15T07:34:25Z,kevinpschaaf,addition/proposal|needs implementer interest|topic: parser,0
@@ -3529,7 +3529,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 180060212,false,"How to render <summary> when it has display style like ""table-cell""?",https://github.com/whatwg/html/issues/1839,2016-09-29T14:10:54Z,2018-02-26T10:26:04Z,aethanyc,topic: rendering,0
 179973255,false,"""being rendered"" interaction with display:contents",https://github.com/whatwg/html/issues/1837,2016-09-29T07:34:21Z,2023-03-27T21:29:00Z,zcorpan,topic: rendering,1
 179833400,false,"[HTMLMediaElement] Pitch Control ",https://github.com/whatwg/html/issues/1833,2016-09-28T17:19:16Z,2018-12-24T19:20:34Z,GarrettS,addition/proposal|needs implementer interest|topic: media,0
-179610943,false,Add readable and writable stream properties to Web Socket API,https://github.com/whatwg/html/issues/1828,2016-09-27T20:54:22Z,2016-10-04T18:42:58Z,AMorgaut,addition/proposal,0
 179540122,true,How should noopener/noreferrer affect link targeting?,https://github.com/whatwg/html/issues/1826,2016-09-27T16:13:06Z,2020-01-30T10:49:59Z,bzbarsky,topic: navigation|interop|topic: browsing context,1
 179520637,true,"Consider changing ""unit of related similar-origin browsing contexts""",https://github.com/whatwg/html/issues/1825,2016-09-27T15:06:34Z,2020-02-26T00:01:05Z,smaug----,clarification,0
 179473392,true,Define when :drop applies,https://github.com/whatwg/html/issues/1824,2016-09-27T11:59:51Z,2018-11-21T22:36:35Z,zcorpan,addition/proposal|topic: drag and drop,0
