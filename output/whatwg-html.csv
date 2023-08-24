@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2023-08-23T09:37:12Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,2
+1864127558,false,Upcoming HTML standard issue triage meeting on 9/7/2023,https://github.com/whatwg/html/issues/9629,2023-08-23T23:03:34Z,2023-08-23T23:03:34Z,past,agenda+,0
+1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2023-08-23T09:37:12Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,10
 1862349856,false,Add `allow-unique-origin` keyword in iframe/CSP sandbox,https://github.com/whatwg/html/issues/9623,2023-08-22T23:56:53Z,2023-08-22T23:56:53Z,shhnjk,,0
 1858440019,true,[Question] Should mouseover event propagates across shadowDom?,https://github.com/whatwg/html/issues/9619,2023-08-21T02:32:55Z,2023-08-21T05:48:45Z,woody-li,,0
 1857932079,true,"remove <input type=“password”> ",https://github.com/whatwg/html/issues/9617,2023-08-20T02:47:37Z,2023-08-20T03:59:47Z,MichaelMcGlothlin,,0
@@ -8,8 +9,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1852163330,true,Introduce allow-cache for iframe sandbox attribute,https://github.com/whatwg/html/issues/9610,2023-08-15T21:37:45Z,2023-08-21T23:28:24Z,antja0,addition/proposal,0
 1851137986,true,Allow creating Custom Elements exclusively via HTML,https://github.com/whatwg/html/issues/9608,2023-08-15T09:18:29Z,2023-08-18T14:45:27Z,aartaka,,0
 1848694977,false,Titling levels for site vs. page titles in the post-outline-algorithm world,https://github.com/whatwg/html/issues/9604,2023-08-13T18:35:39Z,2023-08-18T09:03:24Z,dpk,clarification|document conformance,0
-1847227178,true,"Incorrect fieldname meaning for ""sex""",https://github.com/whatwg/html/issues/9600,2023-08-11T18:05:52Z,2023-08-18T08:37:17Z,pavankjadda,,0
-1846016949,false,Upcoming HTML standard issue triage meeting on 8/24/2023,https://github.com/whatwg/html/issues/9598,2023-08-10T23:31:30Z,2023-08-10T23:31:30Z,past,agenda+,0
+1847227178,true,"Incorrect fieldname meaning for ""sex""",https://github.com/whatwg/html/issues/9600,2023-08-11T18:05:52Z,2023-08-18T08:37:17Z,pavankjadda,,1
+1846016949,true,Upcoming HTML standard issue triage meeting on 8/24/2023,https://github.com/whatwg/html/issues/9598,2023-08-10T23:31:30Z,2023-08-23T23:01:44Z,past,agenda+,0
 1844861591,false,The spec should not imply a specific point of execution of inline async module scripts that don't have external dependencies,https://github.com/whatwg/html/issues/9597,2023-08-10T10:05:21Z,2023-08-10T11:33:21Z,hsivonen,,0
 1843495847,true,Clarification required on ideal markup for multiline code in <pre> tag.,https://github.com/whatwg/html/issues/9596,2023-08-09T15:17:59Z,2023-08-09T15:56:57Z,Girgias,,1
 1842597164,true,"Input tag is not working as expected - with attributes type=""date"" min=""2017-03-01"" max=""2017-03-25"", placeholder inside get distorted showing dd/03/2017 instead of dd/mm/yyyy",https://github.com/whatwg/html/issues/9594,2023-08-09T06:46:26Z,2023-08-09T06:58:05Z,nchauhan46,,0
@@ -1366,7 +1367,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 692077232,false,Expose XMP information to the browser (and potentially JavaScript),https://github.com/whatwg/html/issues/5890,2020-09-03T15:38:30Z,2021-10-03T07:33:04Z,lrosenthol,addition/proposal|needs implementer interest|topic: media|topic: img,3
 691678305,true,cross-origin-isolated permission tests,https://github.com/whatwg/html/issues/5888,2020-09-03T06:21:36Z,2020-09-24T01:13:42Z,annevk,needs tests|topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,0
 691162250,true,"Explicitly pass ""perform the fetch"" steps through dependent algorithms",https://github.com/whatwg/html/issues/5887,2020-09-02T16:18:34Z,2023-04-07T06:27:21Z,jugglinmike,clarification|topic: script,0
-690480691,false,Event bubbling on disabled form elements,https://github.com/whatwg/html/issues/5886,2020-09-01T22:05:15Z,2023-07-01T15:12:32Z,josepharhar,topic: forms|topic: events|interop,0
+690480691,false,Event bubbling on disabled form elements,https://github.com/whatwg/html/issues/5886,2020-09-01T22:05:15Z,2023-08-23T18:59:51Z,josepharhar,topic: forms|topic: events|interop,0
 688861626,false,Back-forward cache meta-bug,https://github.com/whatwg/html/issues/5880,2020-08-31T02:58:40Z,2023-06-15T05:43:47Z,rakina,topic: history,0
 688860879,false,Back-forward cache: Specifying ineligibility?,https://github.com/whatwg/html/issues/5879,2020-08-31T02:55:55Z,2022-08-08T08:19:26Z,rakina,topic: history|interop,1
 688847041,true,Back-forward cache: Restoring focus,https://github.com/whatwg/html/issues/5878,2020-08-31T02:07:44Z,2021-12-08T02:31:47Z,rakina,topic: history|topic: focus,0
