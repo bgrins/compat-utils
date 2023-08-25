@@ -1,13 +1,14 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1866045497,false,Treat .d/ as same-origin for file:// URLs,https://github.com/whatwg/html/issues/9635,2023-08-25T00:06:41Z,2023-08-25T00:06:41Z,SoniEx2,,0
+1866648537,false,"""note about 103 and HTTP/2"" makes normative assertion",https://github.com/whatwg/html/issues/9637,2023-08-25T09:01:04Z,2023-08-25T09:01:04Z,annevk,,0
+1866045497,true,Treat .d/ as same-origin for file:// URLs,https://github.com/whatwg/html/issues/9635,2023-08-25T00:06:41Z,2023-08-25T10:32:24Z,SoniEx2,,0
 1865899743,true,Initialization of NavigateEvent info property,https://github.com/whatwg/html/issues/9634,2023-08-24T21:18:14Z,2023-08-24T21:44:23Z,ADKaster,topic: navigation,0
 1865624285,false,Are the “active script” & “base URL” assertions in the timer initialization steps correct?,https://github.com/whatwg/html/issues/9633,2023-08-24T17:51:06Z,2023-08-24T18:01:48Z,bathos,,0
-1865552680,false,Allow additional elements to be considered labelable,https://github.com/whatwg/html/issues/9632,2023-08-24T16:58:56Z,2023-08-24T16:59:56Z,dmjohnsson23,,0
+1865552680,false,Allow additional elements to be considered labelable,https://github.com/whatwg/html/issues/9632,2023-08-24T16:58:56Z,2023-08-25T08:32:07Z,dmjohnsson23,addition/proposal|needs implementer interest|a11y-tracker,1
 1865087034,true,timer initialization steps has vague reference to WindowProxy,https://github.com/whatwg/html/issues/9631,2023-08-24T12:48:16Z,2023-08-24T16:29:11Z,Ms2ger,,0
 1864127558,false,Upcoming HTML standard issue triage meeting on 9/7/2023,https://github.com/whatwg/html/issues/9629,2023-08-23T23:03:34Z,2023-08-23T23:03:34Z,past,agenda+,0
 1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2023-08-24T23:22:05Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,17
 1862349856,false,Add `allow-unique-origin` keyword in iframe/CSP sandbox,https://github.com/whatwg/html/issues/9623,2023-08-22T23:56:53Z,2023-08-22T23:56:53Z,shhnjk,,0
-1858440019,true,[Question] Should mouseover event propagates across shadowDom?,https://github.com/whatwg/html/issues/9619,2023-08-21T02:32:55Z,2023-08-21T05:48:45Z,woody-li,,0
+1858440019,true,[Question] Should mouseover event propagates across shadowDom?,https://github.com/whatwg/html/issues/9619,2023-08-21T02:32:55Z,2023-08-25T09:36:17Z,woody-li,,0
 1857932079,true,"remove <input type=“password”> ",https://github.com/whatwg/html/issues/9617,2023-08-20T02:47:37Z,2023-08-20T03:59:47Z,MichaelMcGlothlin,,0
 1856567331,false,<teleport> element,https://github.com/whatwg/html/issues/9614,2023-08-18T11:32:18Z,2023-08-18T14:14:22Z,CyberAP,,0
 1853590814,false,Meta: Get info on authors sentiment and awareness on various HTML features,https://github.com/whatwg/html/issues/9611,2023-08-16T16:47:09Z,2023-08-24T18:33:59Z,LeaVerou,meta,0
@@ -86,7 +87,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1748867844,false,Timer initialization steps for repeating timers does not match UA behavior,https://github.com/whatwg/html/issues/9402,2023-06-09T00:42:31Z,2023-06-09T06:26:46Z,shaseley,compat|topic: event loop,3
 1745526561,true,"""Update the image data"" can dereference null ""pending request"" in multiple places",https://github.com/whatwg/html/issues/9398,2023-06-07T10:06:19Z,2023-06-09T12:15:43Z,awesomekling,topic: img,0
 1744994841,true,Is it expected that Document has [LegacyOverrideBuiltIns]?,https://github.com/whatwg/html/issues/9394,2023-06-07T04:11:51Z,2023-06-07T12:14:44Z,yuki3,,0
-1743957228,false,"issues with optionality of oldParent in HTML element removing steps, particularly with removal of optgroups",https://github.com/whatwg/html/issues/9390,2023-06-06T14:09:00Z,2023-06-16T13:26:11Z,dbaron,topic: forms|topic: img|integration,0
+1743957228,true,"issues with optionality of oldParent in HTML element removing steps, particularly with removal of optgroups",https://github.com/whatwg/html/issues/9390,2023-06-06T14:09:00Z,2023-08-25T10:54:15Z,dbaron,topic: forms|topic: img|integration,0
 1742040804,false,anonymous fieldset content box should inherit scroll-start,https://github.com/whatwg/html/issues/9386,2023-06-05T15:35:38Z,2023-06-09T07:22:26Z,DavMila,topic: rendering|topic: forms,0
 1742022432,false,Constraint Validation IDL is reiterated multiple times,https://github.com/whatwg/html/issues/9385,2023-06-05T15:24:07Z,2023-06-09T07:20:27Z,clshortfuse,clarification|topic: forms,0
 1741686583,true,"Should ""show popover"" assert the element's popover invoker is null?",https://github.com/whatwg/html/issues/9383,2023-06-05T12:38:07Z,2023-07-20T06:32:40Z,mbrodesser-Igalia,clarification|topic: popover,0
@@ -202,7 +203,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1638398517,true,Upcoming HTML standard issue triage meeting on 4/6/2023,https://github.com/whatwg/html/issues/9070,2023-03-23T21:59:20Z,2023-04-06T23:46:33Z,past,agenda+,0
 1637320041,true,Should the Window named properties object return supported named properties in [[OwnPropertyKeys]]?,https://github.com/whatwg/html/issues/9068,2023-03-23T11:14:44Z,2023-03-29T05:59:34Z,delan,clarification,0
 1636539181,false,"""Default fetch and process the linked resource"" does not account for CORS cross-origin fetches, thus preventing cross-origin stylesheets",https://github.com/whatwg/html/issues/9066,2023-03-22T21:45:40Z,2023-03-23T07:43:01Z,Lubrsi,topic: fetch|integration,0
-1636514710,false,Autocomplete on 'contenteditable' Elements,https://github.com/whatwg/html/issues/9065,2023-03-22T21:22:44Z,2023-08-03T23:07:54Z,bmathwig,addition/proposal|topic: forms|needs concrete proposal,0
+1636514710,false,Autocomplete on 'contenteditable' Elements,https://github.com/whatwg/html/issues/9065,2023-03-22T21:22:44Z,2023-08-25T10:49:02Z,bmathwig,addition/proposal|topic: forms|needs concrete proposal,0
 1636347345,true,Support for passing CSS styles to an SVG used via img[src],https://github.com/whatwg/html/issues/9064,2023-03-22T19:03:58Z,2023-03-22T20:10:00Z,brandonmcconnell,,0
 1636271789,false,"Should popover and dialog share the same ""previously focused element""?",https://github.com/whatwg/html/issues/9063,2023-03-22T18:12:00Z,2023-03-24T18:31:23Z,cathiechen,normative change|topic: dialog|topic: popover,0
 1634346770,true,Be able to select for partial attribute names,https://github.com/whatwg/html/issues/9056,2023-03-21T16:57:38Z,2023-03-22T12:36:02Z,keithamus,,1
@@ -1720,7 +1721,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 540456251,true,Add Accessibility considerations for ACE and FACE,https://github.com/whatwg/html/issues/5170,2019-12-19T17:36:13Z,2019-12-19T19:09:09Z,carmacleod,,0
 540399807,true,The 'id' property of <form> gets hijacked by content <input name='id'>,https://github.com/whatwg/html/issues/5169,2019-12-19T15:52:30Z,2019-12-19T21:09:25Z,i-am-al-x,,0
 539639452,false,COOP about:blank inheritance not clearly defined,https://github.com/whatwg/html/issues/5168,2019-12-18T12:02:42Z,2020-01-08T14:43:10Z,zcorpan,topic: cross-origin-opener-policy,0
-539383978,false,ElementInternals should work with customized built-in elements,https://github.com/whatwg/html/issues/5166,2019-12-18T00:30:07Z,2023-07-31T18:28:11Z,tkent-google,addition/proposal|topic: custom elements,6
+539383978,false,ElementInternals should work with customized built-in elements,https://github.com/whatwg/html/issues/5166,2019-12-18T00:30:07Z,2023-08-25T09:17:04Z,tkent-google,addition/proposal|topic: custom elements,6
 539152447,true,"COOP: choosing a browsing context doesn't consider ""same-origin + COEP""",https://github.com/whatwg/html/issues/5165,2019-12-17T15:51:15Z,2019-12-20T13:30:40Z,zcorpan,topic: cross-origin-embedder-policy,0
 539090773,true,Questions about COOP/COEP and secure context,https://github.com/whatwg/html/issues/5164,2019-12-17T14:11:31Z,2020-01-08T14:57:21Z,zcorpan,topic: cross-origin-embedder-policy,0
 539074949,true,COEP/CORP: same-origin with cross-origin fetch isn't blocked,https://github.com/whatwg/html/issues/5163,2019-12-17T13:44:18Z,2019-12-18T14:42:33Z,zcorpan,topic: cross-origin-embedder-policy,0
@@ -2521,7 +2522,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 327567496,false,Allow link rel=copyright to be conforming,https://github.com/whatwg/html/issues/3724,2018-05-30T04:12:01Z,2022-04-18T15:29:19Z,reschke,document conformance,2
 327536728,true,Reflecting string attributes when the attribute isn't present,https://github.com/whatwg/html/issues/3722,2018-05-30T01:00:29Z,2019-06-24T00:16:34Z,domenic,good first issue,0
 327417138,true,IDL attributes named required should have leading underscore,https://github.com/whatwg/html/issues/3720,2018-05-29T17:28:44Z,2018-05-30T13:16:04Z,csnardi,good first issue,0
-327232345,false,Prevent autofill of hidden fields,https://github.com/whatwg/html/issues/3719,2018-05-29T09:09:40Z,2023-08-10T22:21:12Z,LJWatson,security/privacy|topic: forms,3
+327232345,false,Prevent autofill of hidden fields,https://github.com/whatwg/html/issues/3719,2018-05-29T09:09:40Z,2023-08-25T09:22:17Z,LJWatson,security/privacy|topic: forms,3
 327214043,false,Privacy concern with ping attribute,https://github.com/whatwg/html/issues/3718,2018-05-29T08:16:23Z,2018-05-30T12:24:27Z,LJWatson,security/privacy,0
 327123402,true,Issues,https://github.com/whatwg/html/issues/3717,2018-05-28T21:54:45Z,2018-05-28T22:16:38Z,daniel123frame,,0
 327052988,true,Remove longdesc as obsolete for <img>?,https://github.com/whatwg/html/issues/3716,2018-05-28T14:57:02Z,2018-05-28T16:09:13Z,Malvoz,topic: img,0
