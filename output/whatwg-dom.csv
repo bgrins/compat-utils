@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1858314450,false,"Provide a ""deep clone"" shorthand ",https://github.com/whatwg/dom/issues/1220,2023-08-20T23:59:19Z,2023-08-20T23:59:19Z,marcoscaceres,,0
+1858314450,false,"Provide a ""deep clone"" shorthand ",https://github.com/whatwg/dom/issues/1220,2023-08-20T23:59:19Z,2023-08-25T15:31:25Z,marcoscaceres,clarification,0
 1833792810,false,clone with clone children flag set should append clone before cloning children,https://github.com/whatwg/dom/issues/1219,2023-08-02T19:31:00Z,2023-08-02T19:31:00Z,dbaron,,1
 1827891393,false,Proposal: DOM APIs in web workers?,https://github.com/whatwg/dom/issues/1217,2023-07-30T10:53:39Z,2023-08-01T14:12:50Z,BenjaminAster,,1
 1788580524,false,Variable strength aborting,https://github.com/whatwg/dom/issues/1215,2023-07-05T00:14:31Z,2023-07-05T09:24:53Z,bojavou,,0
@@ -175,7 +175,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 573000518,false,Proposal: A Range.prototype.replaceContents(...),https://github.com/whatwg/dom/issues/837,2020-02-28T20:57:35Z,2023-02-28T23:50:01Z,WebReflection,needs implementer interest|addition/proposal|topic: ranges,12
 563355953,false,Node insertion step 7.7 isn't upgrading disconnected uncustomized elements that browsers do upgrade,https://github.com/whatwg/dom/issues/833,2020-02-11T17:17:01Z,2020-02-13T12:10:07Z,pshaughn,topic: custom elements,0
 562731160,false,[infra] Integrating generation of W3C-ready review drafts into build pipeline,https://github.com/whatwg/dom/issues/832,2020-02-10T18:02:36Z,2020-02-10T18:10:11Z,sideshowbarker,,0
-561925806,false,Declarative Shadow DOM,https://github.com/whatwg/dom/issues/831,2020-02-07T23:39:21Z,2023-05-16T18:20:23Z,mfreed7,topic: shadow|needs implementer interest|addition/proposal,154
+561925806,false,Declarative Shadow DOM,https://github.com/whatwg/dom/issues/831,2020-02-07T23:39:21Z,2023-08-25T21:48:27Z,mfreed7,topic: shadow|needs implementer interest|addition/proposal,154
 559601115,false,"Update the ""convert nodes into a node"" to accept arrays of nodes.",https://github.com/whatwg/dom/issues/828,2020-02-04T09:47:18Z,2020-02-05T10:55:23Z,pygy,addition/proposal,0
 557875877,false,[proposal] Node.containingShadowRoot,https://github.com/whatwg/dom/issues/826,2020-01-31T02:33:57Z,2020-02-03T08:49:02Z,emilio,topic: shadow|needs implementer interest|addition/proposal,0
 547971626,false,TreeWalker constructor,https://github.com/whatwg/dom/issues/818,2020-01-10T09:46:06Z,2020-01-11T08:07:18Z,bathos,needs implementer interest|addition/proposal,1
@@ -220,7 +220,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 423017912,true,Wrong return type of Node::getRootNode(),https://github.com/whatwg/dom/issues/739,2019-03-20T00:53:42Z,2019-03-20T07:57:20Z,SetTrend,,0
 422508516,true,Reference to struct in inner invoke,https://github.com/whatwg/dom/issues/738,2019-03-19T01:57:21Z,2020-06-29T08:27:07Z,Zirro,,0
 418687232,false,isEqualNode and <template>,https://github.com/whatwg/dom/issues/737,2019-03-08T08:39:44Z,2019-04-05T12:53:37Z,jakearchibald,,1
-418208052,false,Proposal: a DocumentFragment whose nodes do not get removed once inserted,https://github.com/whatwg/dom/issues/736,2019-03-06T19:28:54Z,2021-07-06T07:01:26Z,WebReflection,needs implementer interest|addition/proposal,60
+418208052,false,Proposal: a DocumentFragment whose nodes do not get removed once inserted,https://github.com/whatwg/dom/issues/736,2019-03-06T19:28:54Z,2021-07-06T07:01:26Z,WebReflection,needs implementer interest|addition/proposal,61
 413102117,true,window.event and IFRAMEs,https://github.com/whatwg/dom/issues/735,2019-02-21T20:08:55Z,2020-12-08T19:09:14Z,cvazac,topic: events,0
 411169284,true,Dispatching slotchange within a compound microtask,https://github.com/whatwg/dom/issues/734,2019-02-17T09:52:36Z,2019-03-29T15:11:22Z,annevk,topic: shadow,0
 407741641,true,Should adopting change an element's prototype?,https://github.com/whatwg/dom/issues/731,2019-02-07T15:00:08Z,2019-02-07T15:25:33Z,jakearchibald,,0
@@ -570,7 +570,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 122942551,true,Node#baseURI need not be nullable,https://github.com/whatwg/dom/issues/131,2015-12-18T12:43:39Z,2016-01-01T15:17:54Z,foolip,,0
 122520253,true,Some fix for replace algo and question,https://github.com/whatwg/dom/issues/129,2015-12-16T14:50:09Z,2015-12-17T16:33:27Z,ArkadiuszMichalski,,0
 121622388,true,Some tweaks for Nodes,https://github.com/whatwg/dom/issues/127,2015-12-11T02:25:49Z,2015-12-15T10:36:57Z,ArkadiuszMichalski,,0
-121260584,false,Disconnect single target instead of all,https://github.com/whatwg/dom/issues/126,2015-12-09T14:51:40Z,2023-08-24T15:42:02Z,zbraniecki,needs implementer interest|addition/proposal,18
+121260584,false,Disconnect single target instead of all,https://github.com/whatwg/dom/issues/126,2015-12-09T14:51:40Z,2023-08-25T20:48:38Z,zbraniecki,needs implementer interest|addition/proposal,19
 120313749,true,Cross-browser inconsistencies with createHTMLDocument,https://github.com/whatwg/dom/issues/124,2015-12-04T01:45:08Z,2015-12-04T13:18:13Z,frewsxcv,,0
 118855978,true,Merge DOMSettableTokenList into DOMTokenList,https://github.com/whatwg/dom/issues/119,2015-11-25T15:08:12Z,2016-01-28T22:46:36Z,annevk,,0
 118581132,true,Document.documentURI and Document.URL attributes behaviour,https://github.com/whatwg/dom/issues/118,2015-11-24T10:51:45Z,2016-01-01T15:41:08Z,ArkadiuszMichalski,,0

@@ -9886,6 +9886,8 @@ css/types/basic-shape/ellipse,,54,,37,,10.1,,false,true,false,https://drafts.css
 css/types/basic-shape/inset,,54,,37,,10.1,,false,true,false,https://drafts.csswg.org/css-shapes/#funcdef-basic-shape-inset,W3C
 css/types/basic-shape/path,,97,,46,,,,false,true,false,https://drafts.csswg.org/css-shapes/#funcdef-basic-shape-path,W3C
 css/types/basic-shape/polygon,,54,,37,,10.1,,false,true,false,https://drafts.csswg.org/css-shapes/#funcdef-basic-shape-polygon,W3C
+css/types/basic-shape/rect,,117,"[{""name"":""layout.css.basic-shape-rect.enabled, layout.css.motion-path-basic-shapes.enabled"",""type"":""preference"",""value_to_set"":""true""}]",115,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,https://drafts.csswg.org/css-shapes-1/#funcdef-basic-shape-rect,W3C
+css/types/basic-shape/xywh,,117,"[{""name"":""layout.css.basic-shape-xywh.enabled, layout.css.motion-path-basic-shapes.enabled"",""type"":""preference"",""value_to_set"":""true""}]",115,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,https://drafts.csswg.org/css-shapes-1/#funcdef-basic-shape-xywh,W3C
 css/types/blend-mode,,30,,35,,8,,false,true,false,https://drafts.fxtf.org/compositing/#ltblendmodegt,W3C
 css/types/calc,,16,,26,,7,,false,true,false,https://drafts.csswg.org/css-values/#calc-func,W3C
 css/types/calc/gradient_color_stops,,19,,19,,6,,false,true,false,,NONE
@@ -10098,7 +10100,7 @@ css/types/transform-function/translateZ,,10,,12,,4,,false,true,false,https://dra
 css/types/url,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-values/#urls,W3C
 html/elements/a,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element,WHATWG
 html/elements/a/charset,,1,,1,,1,,false,true,true,,NONE
-html/elements/a/coords,,1,,,,,,false,true,true,,NONE
+html/elements/a/coords,,1,,,,1,,false,true,true,,NONE
 html/elements/a/download,,20,,14,,10.1,,false,true,false,,NONE
 html/elements/a/href,,1,,1,,1,,false,true,false,,NONE
 html/elements/a/href/href_top,,10,,1,,≤4,,false,true,false,,NONE
@@ -10111,7 +10113,7 @@ html/elements/a/rel,,1,,1,,1,,false,true,false,,NONE
 html/elements/a/rel/noopener,,52,,49,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#link-type-noopener,WHATWG
 html/elements/a/rel/noreferrer,,33,,16,,5,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#link-type-noreferrer,WHATWG
 html/elements/a/rev,,1,,1,,1,,false,true,true,,NONE
-html/elements/a/shape,,1,,,,,,false,true,true,,NONE
+html/elements/a/shape,,1,,,,1,,false,true,true,,NONE
 html/elements/a/target,,1,,1,,1,,false,true,false,,NONE
 html/elements/a/text_fragments,,,,80,,16.1,,false,true,false,,NONE
 html/elements/a/type,,1,,1,,1,,false,true,false,,NONE
@@ -10440,7 +10442,7 @@ html/elements/link/rel/prefetch,,2,,8,,,,false,true,false,https://html.spec.what
 html/elements/link/rel/preload,,85,,50,,,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#link-type-preload,WHATWG
 html/elements/link/rel/prerender,,,,13,,,,false,false,true,,NONE
 html/elements/link/rev,,1,,1,,≤4,,false,true,true,,NONE
-html/elements/link/sizes,,,,,,,,true,true,false,,NONE
+html/elements/link/sizes,,,,,,6,,true,true,false,,NONE
 html/elements/link/target,,1,,1,,≤4,,false,true,true,,NONE
 html/elements/link/title,,1,,1,,true,,false,true,false,,NONE
 html/elements/link/type,,1,,1,,≤4,,false,true,false,,NONE
@@ -11504,6 +11506,19 @@ javascript/builtins/Intl/getCanonicalLocales,,48,,54,,10.1,,false,true,false,htt
 javascript/builtins/Intl/supportedValuesOf,,93,,99,,15.4,,false,true,false,https://tc39.es/ecma402/#sec-intl.supportedvaluesof,TC39
 javascript/builtins/Iterator,,17,,38,,10,,false,true,false,https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-%iteratorprototype%-object,TC39
 javascript/builtins/Iterator/@@iterator,,36,,38,,10,,false,true,false,https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-%iteratorprototype%-@@iterator,TC39
+javascript/builtins/Iterator/Iterator,,,,117,,,,true,true,false,https://tc39.es/proposal-iterator-helpers/#sec-iterator-constructor,TC39
+javascript/builtins/Iterator/drop,,,,117,,,,true,true,false,https://tc39.es/proposal-iterator-helpers/#sec-iteratorprototype.drop,TC39
+javascript/builtins/Iterator/every,,,,117,,,,true,true,false,https://tc39.es/proposal-iterator-helpers/#sec-iteratorprototype.every,TC39
+javascript/builtins/Iterator/filter,,,,117,,,,true,true,false,https://tc39.es/proposal-iterator-helpers/#sec-iteratorprototype.filter,TC39
+javascript/builtins/Iterator/find,,,,117,,,,true,true,false,https://tc39.es/proposal-iterator-helpers/#sec-iteratorprototype.find,TC39
+javascript/builtins/Iterator/flatMap,,,,117,,,,true,true,false,https://tc39.es/proposal-iterator-helpers/#sec-iteratorprototype.flatmap,TC39
+javascript/builtins/Iterator/forEach,,,,117,,,,true,true,false,https://tc39.es/proposal-iterator-helpers/#sec-iteratorprototype.foreach,TC39
+javascript/builtins/Iterator/from,,,,117,,,,true,true,false,https://tc39.es/proposal-iterator-helpers/#sec-iterator.from,TC39
+javascript/builtins/Iterator/map,,,,117,,,,true,true,false,https://tc39.es/proposal-iterator-helpers/#sec-iteratorprototype.map,TC39
+javascript/builtins/Iterator/reduce,,,,117,,,,true,true,false,https://tc39.es/proposal-iterator-helpers/#sec-iteratorprototype.reduce,TC39
+javascript/builtins/Iterator/some,,,,117,,,,true,true,false,https://tc39.es/proposal-iterator-helpers/#sec-iteratorprototype.some,TC39
+javascript/builtins/Iterator/take,,,,117,,,,true,true,false,https://tc39.es/proposal-iterator-helpers/#sec-iteratorprototype.take,TC39
+javascript/builtins/Iterator/toArray,,,,117,,,,true,true,false,https://tc39.es/proposal-iterator-helpers/#sec-iteratorprototype.toarray,TC39
 javascript/builtins/JSON,,3.5,,3,,4,,false,true,false,https://tc39.es/ecma262/multipage/structured-data.html#sec-json-object,TC39
 javascript/builtins/JSON/json_superset,,62,,66,,12,,false,true,false,,NONE
 javascript/builtins/JSON/parse,,3.5,,3,,4,,false,true,false,https://tc39.es/ecma262/multipage/structured-data.html#sec-json.parse,TC39
