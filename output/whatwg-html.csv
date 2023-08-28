@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1868260579,false,Dialog initial focus when dialog contains a slot element,https://github.com/whatwg/html/issues/9640,2023-08-26T20:31:00Z,2023-08-26T20:31:00Z,josepharhar,,0
-1867981093,false,Define :user-invalid / :user-valid for form-associated custom elements,https://github.com/whatwg/html/issues/9639,2023-08-26T08:41:03Z,2023-08-26T08:41:03Z,nt1m,,0
+1868260579,false,Dialog initial focus when dialog contains a slot element,https://github.com/whatwg/html/issues/9640,2023-08-26T20:31:00Z,2023-08-28T09:02:39Z,josepharhar,topic: shadow|topic: focus,0
+1867981093,false,Define :user-invalid / :user-valid for form-associated custom elements,https://github.com/whatwg/html/issues/9639,2023-08-26T08:41:03Z,2023-08-28T08:50:34Z,nt1m,addition/proposal|topic: custom elements|topic: forms,0
 1867975363,false,Make cloneNode() copy files of <input type=file>,https://github.com/whatwg/html/issues/9638,2023-08-26T08:26:25Z,2023-08-26T08:26:25Z,annevk,topic: forms,0
 1866648537,false,"""note about 103 and HTTP/2"" makes normative assertion",https://github.com/whatwg/html/issues/9637,2023-08-25T09:01:04Z,2023-08-26T21:13:02Z,annevk,,1
 1866045497,true,Treat .d/ as same-origin for file:// URLs,https://github.com/whatwg/html/issues/9635,2023-08-25T00:06:41Z,2023-08-25T10:32:24Z,SoniEx2,,0
@@ -54,7 +54,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1793651320,true,Introduce scopes to openers,https://github.com/whatwg/html/issues/9500,2023-07-07T14:31:13Z,2023-07-07T17:25:24Z,SoniEx2,,0
 1793601014,true,fetch client settings object isn't used in `fetch the descendants of and link a module script`,https://github.com/whatwg/html/issues/9499,2023-07-07T13:58:54Z,2023-07-13T04:29:54Z,allstarschh,,0
 1792169588,false,Improve description of `readonly` attribute,https://github.com/whatwg/html/issues/9496,2023-07-06T20:13:27Z,2023-07-13T17:32:38Z,aaronadamsCA,clarification|topic: forms,0
-1791166125,false,Allow self-closing tags everywhere,https://github.com/whatwg/html/issues/9491,2023-07-06T09:26:20Z,2023-07-12T18:52:39Z,jakearchibald,addition/proposal|needs implementer interest|topic: parser|needs compat analysis,83
+1791166125,false,Allow self-closing tags everywhere,https://github.com/whatwg/html/issues/9491,2023-07-06T09:26:20Z,2023-08-28T11:18:37Z,jakearchibald,addition/proposal|needs implementer interest|topic: parser|needs compat analysis,83
 1788871531,false,Add VideoPlaybackQuality and HTMLVideoElement»getVideoPlaybackQuality(),https://github.com/whatwg/html/issues/9489,2023-07-05T06:36:23Z,2023-07-05T06:36:23Z,sideshowbarker,addition/proposal|topic: media,0
 1788359824,true,"Use ""matches about:blank"" and ""matches about:srcdoc"" in more places",https://github.com/whatwg/html/issues/9488,2023-07-04T19:09:29Z,2023-07-28T00:45:03Z,domfarolino,topic: navigation,1
 1787902159,false,"Showing only a child popover causes ""beforetoggle"" and ""toggle"" events but popover is invisble",https://github.com/whatwg/html/issues/9487,2023-07-04T13:07:44Z,2023-07-12T23:31:37Z,mbrodesser-Igalia,topic: popover,0
@@ -264,7 +264,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1598855244,true,Add guidance for modal blocking,https://github.com/whatwg/html/issues/8944,2023-02-24T15:31:57Z,2023-03-01T14:55:55Z,SoniEx2,,0
 1597672687,true,Upcoming HTML standard issue triage meeting on 3/9/2023,https://github.com/whatwg/html/issues/8942,2023-02-23T23:40:16Z,2023-03-09T23:22:13Z,past,agenda+,0
 1597559482,true,Difference between auto popover list and filtered top layer?,https://github.com/whatwg/html/issues/8941,2023-02-23T21:35:03Z,2023-03-03T14:19:15Z,nt1m,topic: popover,0
-1596728947,false,Add `userValid` to `ValidityState`,https://github.com/whatwg/html/issues/8938,2023-02-23T11:59:04Z,2023-02-24T13:05:28Z,jacobrask,addition/proposal|topic: forms,1
+1596728947,false,Add `userValid` to `ValidityState`,https://github.com/whatwg/html/issues/8938,2023-02-23T11:59:04Z,2023-08-28T08:53:44Z,jacobrask,addition/proposal|topic: forms,1
 1596127712,true,Missing removing steps for popover,https://github.com/whatwg/html/issues/8937,2023-02-23T02:48:37Z,2023-02-23T03:01:45Z,nt1m,,0
 1595987306,true,Missing onbeforetoggle IDL definition?,https://github.com/whatwg/html/issues/8935,2023-02-22T23:25:18Z,2023-02-23T08:41:44Z,nt1m,,0
 1594657642,false,Consider making the reflected target always the interface the IDL attribute is on,https://github.com/whatwg/html/issues/8930,2023-02-22T08:17:59Z,2023-03-03T19:01:55Z,annevk,clarification|topic: reflect,0
@@ -418,7 +418,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1432396917,false,"""target browsing context"" should probably be target navigable",https://github.com/whatwg/html/issues/8463,2022-11-02T02:57:55Z,2022-11-21T01:35:31Z,domenic,topic: navigation,0
 1430142414,true,Textarea resize does not have documented keyboard operator,https://github.com/whatwg/html/issues/8458,2022-10-31T16:37:20Z,2022-11-01T00:56:25Z,mbgower,,0
 1428141217,true,HTML or JavaScript: Why did the code work yesterday but not today?,https://github.com/whatwg/html/issues/8454,2022-10-29T07:49:36Z,2022-10-29T08:25:34Z,mycar98765,,0
-1427445296,false,Define :user-valid and :user-invalid pseudo-classes,https://github.com/whatwg/html/issues/8452,2022-10-28T15:42:40Z,2023-03-16T18:29:08Z,annevk,topic: forms|topic: selectors,1
+1427445296,true,Define :user-valid and :user-invalid pseudo-classes,https://github.com/whatwg/html/issues/8452,2022-10-28T15:42:40Z,2023-08-28T08:28:11Z,annevk,topic: forms|topic: selectors,1
 1427433862,false,Define :blank pseudo-class behavior,https://github.com/whatwg/html/issues/8451,2022-10-28T15:34:48Z,2022-12-19T17:36:20Z,annevk,topic: forms|topic: selectors,0
 1427257160,false,Executing finalizers on unload/exit,https://github.com/whatwg/html/issues/8450,2022-10-28T13:21:28Z,2022-10-28T13:21:28Z,jimmywarting,,0
 1426748599,true,"Export ""create a new top-level browsing context""?",https://github.com/whatwg/html/issues/8449,2022-10-28T06:22:32Z,2022-10-31T05:07:08Z,alancutter,topic: browsing context,0
