@@ -2037,15 +2037,15 @@ api/FileSystemSync,,,,13,,6,,false,false,true,,NONE
 api/FileSystemSync/name,,,,13,,6,,false,false,true,,NONE
 api/FileSystemSync/root,,,,13,,6,,false,false,true,,NONE
 api/FileSystemSyncAccessHandle,,111,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle,WHATWG
-api/FileSystemSyncAccessHandle/close,,111,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-close,WHATWG
-api/FileSystemSyncAccessHandle/close/sync_version,,111,,108,"[{""name"":""Sync Access Handle All Sync Surface"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,false,true,false,,NONE
-api/FileSystemSyncAccessHandle/flush,,111,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-flush,WHATWG
-api/FileSystemSyncAccessHandle/flush/sync_version,,111,,108,"[{""name"":""Sync Access Handle All Sync Surface"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,false,true,false,,NONE
-api/FileSystemSyncAccessHandle/getSize,,111,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-getsize,WHATWG
-api/FileSystemSyncAccessHandle/getSize/sync_version,,111,,108,"[{""name"":""Sync Access Handle All Sync Surface"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,false,true,false,,NONE
+api/FileSystemSyncAccessHandle/close,,111,,109,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-close,WHATWG
+api/FileSystemSyncAccessHandle/close/async_version,,,,102,"[{""name"":""Sync Access Handle All Sync Surface"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,false,true,false,,NONE
+api/FileSystemSyncAccessHandle/flush,,111,,109,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-flush,WHATWG
+api/FileSystemSyncAccessHandle/flush/async_version,,,,102,"[{""name"":""Sync Access Handle All Sync Surface"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,false,true,false,,NONE
+api/FileSystemSyncAccessHandle/getSize,,111,,109,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-getsize,WHATWG
+api/FileSystemSyncAccessHandle/getSize/async_version,,,,102,"[{""name"":""Sync Access Handle All Sync Surface"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,false,true,false,,NONE
 api/FileSystemSyncAccessHandle/read,,111,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-read,WHATWG
-api/FileSystemSyncAccessHandle/truncate,,111,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-truncate,WHATWG
-api/FileSystemSyncAccessHandle/truncate/sync_version,,111,,108,"[{""name"":""Sync Access Handle All Sync Surface"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,false,true,false,,NONE
+api/FileSystemSyncAccessHandle/truncate,,111,,109,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-truncate,WHATWG
+api/FileSystemSyncAccessHandle/truncate/async_version,,,,102,"[{""name"":""Sync Access Handle All Sync Surface"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,false,true,false,,NONE
 api/FileSystemSyncAccessHandle/write,,111,,102,,15.2,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle-write,WHATWG
 api/FileSystemWritableFileStream,,111,,86,,,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemwritablefilestream,WHATWG
 api/FileSystemWritableFileStream/seek,,111,,86,,,,false,true,false,https://fs.spec.whatwg.org/#api-filesystemwritablefilestream-seek,WHATWG
@@ -10985,6 +10985,7 @@ http/headers/Permissions-Policy/xr-spatial-tracking,,,,88,,,,true,true,false,htt
 http/headers/Pragma,,true,,true,,true,,false,true,true,https://www.rfc-editor.org/rfc/rfc9111#field.pragma,UNKNOWN
 http/headers/Proxy-Authenticate,,1,,1,,,,false,true,false,https://www.rfc-editor.org/rfc/rfc9110#field.proxy-authenticate,UNKNOWN
 http/headers/Range,,true,,true,,true,,false,true,false,https://www.rfc-editor.org/rfc/rfc9110#field.range,UNKNOWN
+http/headers/Range/cors_safe,,117,,99,,16,,false,true,false,,NONE
 http/headers/Referer,,true,,true,,true,,false,true,false,https://www.rfc-editor.org/rfc/rfc9110#field.referer,UNKNOWN
 http/headers/Referer/length_limit_4096B,,70,,77,,14,,false,true,false,,NONE
 http/headers/Referrer-Policy,,50,,56,,11.1,,false,true,false,https://w3c.github.io/webappsec-referrer-policy/#referrer-policy-header,W3C
