@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1872680854,false,Support for HTML/XML stream parsing/rewriting.,https://github.com/whatwg/dom/issues/1222,2023-08-30T00:24:47Z,2023-09-01T02:46:26Z,bahrus,,0
+1872680854,false,Support for HTML/XML stream parsing/rewriting.,https://github.com/whatwg/dom/issues/1222,2023-08-30T00:24:47Z,2023-09-02T17:34:12Z,bahrus,,0
 1868354273,true,Explicitly update the child's parent,https://github.com/whatwg/dom/issues/1221,2023-08-27T04:41:58Z,2023-08-27T14:10:38Z,TomokiMiyauci,,0
 1858314450,false,"Provide a ""deep clone"" shorthand ",https://github.com/whatwg/dom/issues/1220,2023-08-20T23:59:19Z,2023-08-25T15:31:25Z,marcoscaceres,clarification,0
 1833792810,false,clone with clone children flag set should append clone before cloning children,https://github.com/whatwg/dom/issues/1219,2023-08-02T19:31:00Z,2023-08-28T09:40:43Z,dbaron,topic: nodes,1
@@ -143,7 +143,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 729900008,false,NodeIterator's pre-removing steps does not match browsers,https://github.com/whatwg/dom/issues/907,2020-10-26T20:56:32Z,2020-11-05T10:00:51Z,TRowbotham,,1
 729831439,true,Missing comma in a sentence - makes it somewhat confusing to read,https://github.com/whatwg/dom/issues/906,2020-10-26T19:08:27Z,2020-10-27T13:09:26Z,JasonTheKitten,,0
 725915817,false,Proposal: add `childFilter` option to `MutationObserverInit`,https://github.com/whatwg/dom/issues/905,2020-10-20T20:21:56Z,2020-10-23T09:40:53Z,WebReflection,needs implementer interest|addition/proposal,2
-720132986,false,Proposal - Update XPath to (at least) v2.0,https://github.com/whatwg/dom/issues/903,2020-10-13T11:15:11Z,2020-11-17T07:31:55Z,WebReflection,needs implementer interest|addition/proposal,92
+720132986,false,Proposal - Update XPath to (at least) v2.0,https://github.com/whatwg/dom/issues/903,2020-10-13T11:15:11Z,2020-11-17T07:31:55Z,WebReflection,needs implementer interest|addition/proposal,93
 718676541,true,replaceChildren contains a step that is incorrect when node is null,https://github.com/whatwg/dom/issues/901,2020-10-10T18:31:01Z,2020-10-11T01:13:25Z,darinadler,,0
 716269478,true,Dead key symbols not included in KeyboardEvent,https://github.com/whatwg/dom/issues/900,2020-10-07T07:20:39Z,2023-03-03T11:49:36Z,CendioOssman,,0
 714191940,true,[shadow-dom] Why does attributeChangedCallback fire before connectedCallback during parsing?,https://github.com/whatwg/dom/issues/899,2020-10-03T22:59:12Z,2020-10-05T15:12:05Z,trusktr,,0
@@ -266,7 +266,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 343063976,true,Could toggleAttribute set the attribute name?,https://github.com/whatwg/dom/issues/668,2018-07-20T10:55:56Z,2018-07-20T17:11:30Z,jonathanKingston,,0
 341700328,true,TreeWalker's nextNode() method can result in an infinite loop because the value of node never changes if it doesn't have a child,https://github.com/whatwg/dom/issues/667,2018-07-16T22:26:52Z,2019-11-08T14:14:54Z,TRowbotham,,0
 341378157,true,"""When a DOMTokenList object is created, then: ...""",https://github.com/whatwg/dom/issues/666,2018-07-16T03:02:19Z,2018-08-08T15:26:23Z,TRowbotham,good first issue,0
-340493705,true,A faster way to find open shadow roots (or shadow hosts),https://github.com/whatwg/dom/issues/665,2018-07-12T05:27:03Z,2021-09-27T11:55:57Z,TakayoshiKochi,topic: shadow|needs implementer interest|addition/proposal,9
+340493705,true,A faster way to find open shadow roots (or shadow hosts),https://github.com/whatwg/dom/issues/665,2018-07-12T05:27:03Z,2021-09-27T11:55:57Z,TakayoshiKochi,topic: shadow|needs implementer interest|addition/proposal,10
 338303481,true,"Order of ""contains"" in removeEventListener",https://github.com/whatwg/dom/issues/664,2018-07-04T14:46:33Z,2019-01-11T11:20:15Z,TimothyGu,good first issue|clarification,0
 336944450,false,"Custom element callback/promise for ""connected and parsed""",https://github.com/whatwg/dom/issues/662,2018-06-29T10:18:39Z,2019-04-30T05:45:54Z,jakearchibald,topic: custom elements|interop,3
 336013180,false,"Non-builtin custom elements which don't have definition yet, may get non-null is-value",https://github.com/whatwg/dom/issues/659,2018-06-26T22:25:21Z,2018-06-28T21:01:50Z,smaug----,,0
