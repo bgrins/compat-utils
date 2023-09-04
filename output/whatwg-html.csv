@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1879119462,false,Split the definition of web-based protocol handler from the definition of registerProtocolHandler,https://github.com/whatwg/html/issues/9678,2023-09-03T14:29:34Z,2023-09-03T17:51:35Z,SoniEx2,,0
+1879119462,false,Split the definition of web-based protocol handler from the definition of registerProtocolHandler,https://github.com/whatwg/html/issues/9678,2023-09-03T14:29:34Z,2023-09-04T09:07:45Z,SoniEx2,,0
 1879031905,false,Rendering of <input type=image> that does not represent an image,https://github.com/whatwg/html/issues/9677,2023-09-03T09:55:33Z,2023-09-03T18:52:16Z,annevk,topic: rendering|topic: forms|a11y-tracker,0
 1877435173,true,"`HTMLSelectElement.add()` exists, but `HTMLOptGroupElement.add()` and `HTMLDataListElement.add()` don't",https://github.com/whatwg/html/issues/9670,2023-09-01T13:31:32Z,2023-09-01T14:31:26Z,tomayac,,0
 1877256968,false,Should dirname work for password fields and buttons?,https://github.com/whatwg/html/issues/9669,2023-09-01T11:32:17Z,2023-09-01T14:52:46Z,annevk,topic: forms|i18n-tracker,0
@@ -10,14 +10,14 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1868260579,true,Dialog initial focus when dialog contains a slot element,https://github.com/whatwg/html/issues/9640,2023-08-26T20:31:00Z,2023-08-30T07:33:58Z,josepharhar,topic: shadow|topic: focus,0
 1867981093,false,Define :user-invalid / :user-valid for form-associated custom elements,https://github.com/whatwg/html/issues/9639,2023-08-26T08:41:03Z,2023-08-28T08:50:34Z,nt1m,addition/proposal|topic: custom elements|topic: forms,0
 1867975363,false,Make cloneNode() copy files of <input type=file>,https://github.com/whatwg/html/issues/9638,2023-08-26T08:26:25Z,2023-08-26T08:26:25Z,annevk,topic: forms,0
-1866648537,false,"""note about 103 and HTTP/2"" makes normative assertion",https://github.com/whatwg/html/issues/9637,2023-08-25T09:01:04Z,2023-08-30T14:38:45Z,annevk,,1
+1866648537,true,"""note about 103 and HTTP/2"" makes normative assertion",https://github.com/whatwg/html/issues/9637,2023-08-25T09:01:04Z,2023-09-04T08:30:18Z,annevk,,1
 1866045497,true,Treat .d/ as same-origin for file:// URLs,https://github.com/whatwg/html/issues/9635,2023-08-25T00:06:41Z,2023-08-25T10:32:24Z,SoniEx2,,0
 1865899743,true,Initialization of NavigateEvent info property,https://github.com/whatwg/html/issues/9634,2023-08-24T21:18:14Z,2023-08-24T21:44:23Z,ADKaster,topic: navigation,0
 1865624285,false,Are the “active script” & “base URL” assertions in the timer initialization steps correct?,https://github.com/whatwg/html/issues/9633,2023-08-24T17:51:06Z,2023-08-24T18:01:48Z,bathos,,0
 1865552680,false,Allow additional elements to be considered labelable,https://github.com/whatwg/html/issues/9632,2023-08-24T16:58:56Z,2023-08-30T14:31:45Z,dmjohnsson23,addition/proposal|needs implementer interest|a11y-tracker,3
 1865087034,true,timer initialization steps has vague reference to WindowProxy,https://github.com/whatwg/html/issues/9631,2023-08-24T12:48:16Z,2023-08-24T16:29:11Z,Ms2ger,,0
 1864127558,false,Upcoming HTML standard issue triage meeting on 9/7/2023,https://github.com/whatwg/html/issues/9629,2023-08-23T23:03:34Z,2023-08-23T23:03:34Z,past,agenda+,0
-1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2023-09-01T23:11:50Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,17
+1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2023-09-04T11:11:12Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,17
 1862349856,false,Add `allow-unique-origin` keyword in iframe/CSP sandbox,https://github.com/whatwg/html/issues/9623,2023-08-22T23:56:53Z,2023-08-22T23:56:53Z,shhnjk,,0
 1858440019,true,[Question] Should mouseover event propagates across shadowDom?,https://github.com/whatwg/html/issues/9619,2023-08-21T02:32:55Z,2023-08-28T19:21:24Z,woody-li,,0
 1857932079,true,"remove <input type=“password”> ",https://github.com/whatwg/html/issues/9617,2023-08-20T02:47:37Z,2023-08-20T03:59:47Z,MichaelMcGlothlin,,0
@@ -102,7 +102,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1742040804,false,anonymous fieldset content box should inherit scroll-start,https://github.com/whatwg/html/issues/9386,2023-06-05T15:35:38Z,2023-06-09T07:22:26Z,DavMila,topic: rendering|topic: forms,0
 1742022432,false,Constraint Validation IDL is reiterated multiple times,https://github.com/whatwg/html/issues/9385,2023-06-05T15:24:07Z,2023-06-09T07:20:27Z,clshortfuse,clarification|topic: forms,0
 1741686583,true,"Should ""show popover"" assert the element's popover invoker is null?",https://github.com/whatwg/html/issues/9383,2023-06-05T12:38:07Z,2023-07-20T06:32:40Z,mbrodesser-Igalia,clarification|topic: popover,0
-1740502906,false,"popover: expect a way to watch all ""`toggle`"" events even in shadow DOM on `window`",https://github.com/whatwg/html/issues/9381,2023-06-04T17:44:23Z,2023-06-05T04:56:13Z,gdh1995,addition/proposal|topic: popover,0
+1740502906,false,"popover: expect a way to watch all ""`toggle`"" events even in shadow DOM on `window`",https://github.com/whatwg/html/issues/9381,2023-06-04T17:44:23Z,2023-09-04T11:31:37Z,gdh1995,addition/proposal|topic: popover,0
 1740428387,false,Add `class` & `for` aliases for `className` and `htmlFor`,https://github.com/whatwg/html/issues/9379,2023-06-04T15:17:46Z,2023-06-06T10:05:13Z,jakearchibald,addition/proposal|needs implementer interest,188
 1738596106,false,Should we deprecate `dialog.show()`?,https://github.com/whatwg/html/issues/9376,2023-06-02T18:02:06Z,2023-08-18T15:40:31Z,mfreed7,removal/deprecation|topic: dialog,13
 1738480470,true,Upcoming HTML standard issue triage meeting on 6/15/2023,https://github.com/whatwg/html/issues/9375,2023-06-02T16:22:45Z,2023-06-15T17:55:09Z,past,agenda+,0
@@ -130,7 +130,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1720358205,false,"States should be worded explicitly in getContext() tables where context mode and contextIDs match ",https://github.com/whatwg/html/issues/9320,2023-05-22T19:39:09Z,2023-05-23T14:25:56Z,trevorspin,topic: canvas,0
 1720326931,true,Another corner case about nested popovers,https://github.com/whatwg/html/issues/9319,2023-05-22T19:22:28Z,2023-06-08T11:51:45Z,cathiechen,topic: popover,0
 1718431698,false,Proposal: fire an event before the first rendering opportunity after activation,https://github.com/whatwg/html/issues/9315,2023-05-21T09:24:24Z,2023-08-29T19:12:49Z,noamr,addition/proposal|topic: rendering|topic: navigation|topic: events,0
-1716840969,false,Interaction between Popover API and CSS Anchor Positioning specs,https://github.com/whatwg/html/issues/9311,2023-05-19T08:17:41Z,2023-05-26T23:17:50Z,jpzwarte,topic: popover,0
+1716840969,true,Interaction between Popover API and CSS Anchor Positioning specs,https://github.com/whatwg/html/issues/9311,2023-05-19T08:17:41Z,2023-09-04T11:25:49Z,jpzwarte,topic: popover,0
 1716713700,true,"""fallback base URL"" algorithm seems wrong for popups?",https://github.com/whatwg/html/issues/9310,2023-05-19T06:38:16Z,2023-06-01T09:18:19Z,domenic,interop|topic: browsing context,0
 1715965888,true,Upcoming HTML standard issue triage meeting on 6/1/2023,https://github.com/whatwg/html/issues/9308,2023-05-18T17:03:06Z,2023-06-02T16:55:44Z,past,agenda+,0
 1714172992,true,[csp] nonce attribute moving needs timing details,https://github.com/whatwg/html/issues/9306,2023-05-17T15:33:11Z,2023-05-17T21:07:37Z,emilio,,0
@@ -196,7 +196,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1653022362,true,Should FACE formStateRestoreCallback be called with the new value or state?,https://github.com/whatwg/html/issues/9114,2023-04-04T01:38:09Z,2023-04-24T14:47:17Z,xiaochengh,clarification|topic: custom elements|topic: forms,1
 1652818143,false,"Consider CSP script-src none directive in the ""Enabled/disabled scripting"" definitions",https://github.com/whatwg/html/issues/9113,2023-04-03T21:46:19Z,2023-05-19T10:09:01Z,hackademix,addition/proposal|security/privacy|integration,1
 1652808622,false,Standardize rendering of PQ and HLG HDR image content,https://github.com/whatwg/html/issues/9112,2023-04-03T21:35:40Z,2023-07-20T15:52:48Z,ccameron-chromium,,0
-1651764018,false,Popover does not know what triggered it,https://github.com/whatwg/html/issues/9111,2023-04-03T10:11:47Z,2023-05-22T21:37:05Z,jpzwarte,addition/proposal|topic: popover,0
+1651764018,false,Popover does not know what triggered it,https://github.com/whatwg/html/issues/9111,2023-04-03T10:11:47Z,2023-09-04T11:26:15Z,jpzwarte,addition/proposal|topic: popover,0
 1651686034,false,"Support `popovertarget` on custom elements with `role=""button""` ",https://github.com/whatwg/html/issues/9110,2023-04-03T09:26:25Z,2023-06-10T12:02:51Z,jpzwarte,addition/proposal|topic: custom elements|topic: popover,2
 1651613244,false,`popovertarget` and shadow DOM,https://github.com/whatwg/html/issues/9109,2023-04-03T08:43:23Z,2023-04-20T14:47:44Z,jpzwarte,addition/proposal|topic: shadow|topic: popover,0
 1650378616,false,Add BoundingClientRectObserver,https://github.com/whatwg/html/issues/9104,2023-04-01T09:09:22Z,2023-04-01T16:25:03Z,cubuspl42,,0
@@ -216,7 +216,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1636539181,false,"""Default fetch and process the linked resource"" does not account for CORS cross-origin fetches, thus preventing cross-origin stylesheets",https://github.com/whatwg/html/issues/9066,2023-03-22T21:45:40Z,2023-03-23T07:43:01Z,Lubrsi,topic: fetch|integration,0
 1636514710,false,Autocomplete on 'contenteditable' Elements,https://github.com/whatwg/html/issues/9065,2023-03-22T21:22:44Z,2023-09-01T17:34:00Z,bmathwig,addition/proposal|topic: forms|needs concrete proposal,0
 1636347345,true,Support for passing CSS styles to an SVG used via img[src],https://github.com/whatwg/html/issues/9064,2023-03-22T19:03:58Z,2023-03-22T20:10:00Z,brandonmcconnell,,0
-1636271789,false,"Should popover and dialog share the same ""previously focused element""?",https://github.com/whatwg/html/issues/9063,2023-03-22T18:12:00Z,2023-03-24T18:31:23Z,cathiechen,normative change|topic: dialog|topic: popover,0
+1636271789,true,"Should popover and dialog share the same ""previously focused element""?",https://github.com/whatwg/html/issues/9063,2023-03-22T18:12:00Z,2023-09-04T11:07:45Z,cathiechen,normative change|topic: dialog|topic: popover,0
 1634346770,true,Be able to select for partial attribute names,https://github.com/whatwg/html/issues/9056,2023-03-21T16:57:38Z,2023-03-22T12:36:02Z,keithamus,,1
 1633613880,true,Is it ok for popover to claim general names like :open and :closed?,https://github.com/whatwg/html/issues/9055,2023-03-21T10:28:08Z,2023-04-06T23:18:08Z,jakearchibald,topic: popover,0
 1633590732,true,Add element.popoverOpen,https://github.com/whatwg/html/issues/9054,2023-03-21T10:13:22Z,2023-06-06T06:25:59Z,jakearchibald,addition/proposal|needs implementer interest|topic: popover,0
@@ -257,8 +257,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1607803310,true,Rename PopoverTargetElement mixin to PopoverInvokerElement,https://github.com/whatwg/html/issues/8979,2023-03-03T01:39:57Z,2023-03-08T14:42:44Z,nt1m,clarification|topic: popover,2
 1607730993,false,"""Some attributes are required to be followed by ...""",https://github.com/whatwg/html/issues/8978,2023-03-03T00:08:48Z,2023-03-03T12:11:13Z,Zectbumo,,0
 1606983982,true,Why does hide popover not have a cancelable event?,https://github.com/whatwg/html/issues/8973,2023-03-02T15:09:45Z,2023-04-12T13:59:50Z,annevk,topic: popover,1
-1605923313,false,Editorial: topmost popover ancestor should not use a map,https://github.com/whatwg/html/issues/8971,2023-03-02T00:44:09Z,2023-03-02T23:03:42Z,annevk,clarification|topic: popover,1
-1605921295,false,Should popover use the flat tree,https://github.com/whatwg/html/issues/8970,2023-03-02T00:41:39Z,2023-08-29T23:11:07Z,annevk,topic: shadow|topic: popover,0
+1605923313,false,Editorial: topmost popover ancestor should not use a map,https://github.com/whatwg/html/issues/8971,2023-03-02T00:44:09Z,2023-09-04T10:31:30Z,annevk,clarification|topic: popover,1
+1605921295,false,Should popover use the flat tree,https://github.com/whatwg/html/issues/8970,2023-03-02T00:41:39Z,2023-09-04T10:24:57Z,annevk,topic: shadow|topic: popover,0
 1605711312,true,Popover: note still talks about anchor attribute,https://github.com/whatwg/html/issues/8968,2023-03-01T21:47:10Z,2023-04-24T14:03:24Z,annevk,topic: popover,0
 1604203290,true,"Should step 3.2 of ""hide a popover"" algorithm check for popover validity?",https://github.com/whatwg/html/issues/8964,2023-03-01T04:13:33Z,2023-03-03T14:19:16Z,nt1m,topic: popover,0
 1604097708,true,"Issue with ""hide all popovers until"" algorithm",https://github.com/whatwg/html/issues/8963,2023-03-01T02:04:58Z,2023-03-01T23:00:37Z,nt1m,topic: popover,0
@@ -2018,7 +2018,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 445428418,false,It is unclear how HostPromiseRejectionTracker should work when the Promise is created and rejected by the UA,https://github.com/whatwg/html/issues/4637,2019-05-17T12:54:38Z,2019-05-20T09:55:07Z,smaug----,topic: script,0
 445415497,true,MDN overlay makes content inaccessible,https://github.com/whatwg/html/issues/4635,2019-05-17T12:22:01Z,2019-10-08T06:11:50Z,Krinkle,,0
 445199038,true,"Fixed ""Categories:"" of autonomous-custom-element",https://github.com/whatwg/html/issues/4634,2019-05-16T23:21:57Z,2019-05-31T14:34:12Z,mtrootyy,clarification|document conformance|topic: custom elements,1
-445055689,false,Top layer research,https://github.com/whatwg/html/issues/4633,2019-05-16T16:41:22Z,2023-02-16T07:43:32Z,domenic,addition/proposal|topic: rendering|topic: popover,18
+445055689,false,Top layer research,https://github.com/whatwg/html/issues/4633,2019-05-16T16:41:22Z,2023-09-04T09:09:52Z,domenic,addition/proposal|topic: rendering|topic: popover,19
 444811229,true,"""flow content"" not exported as definition?",https://github.com/whatwg/html/issues/4632,2019-05-16T08:05:25Z,2019-09-19T06:04:19Z,marcoscaceres,,0
 444666582,false,`TimeMarchesOn` won't be ran until media element starts playing or calls seek,https://github.com/whatwg/html/issues/4631,2019-05-15T22:06:45Z,2019-06-03T14:42:02Z,alastor0325,topic: media,0
 444641423,false,Port the ECMAScript Intl API as declarative elements,https://github.com/whatwg/html/issues/4630,2019-05-15T20:56:28Z,2019-05-16T08:00:39Z,phistuck,addition/proposal|needs implementer interest|topic: forms,0
@@ -3656,7 +3656,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 168432198,true,Email validation regex not handling new TLDs like .rocks,https://github.com/whatwg/html/issues/1611,2016-07-29T23:16:55Z,2016-07-30T15:36:00Z,brianhogg,,0
 168154455,true,"""treat as absent"" has unclear meaning",https://github.com/whatwg/html/issues/1608,2016-07-28T17:42:17Z,2016-08-04T09:55:36Z,KiChjang,,0
 168127623,false,Spec for worker error reporting is broken,https://github.com/whatwg/html/issues/1607,2016-07-28T15:38:37Z,2018-02-27T16:50:14Z,bzbarsky,topic: workers|topic: multiple globals|interop,0
-168085082,true,style tag should be allowed in body,https://github.com/whatwg/html/issues/1605,2016-07-28T12:37:12Z,2022-01-08T01:47:26Z,workguy66,normative change|document conformance,26
+168085082,true,style tag should be allowed in body,https://github.com/whatwg/html/issues/1605,2016-07-28T12:37:12Z,2022-01-08T01:47:26Z,workguy66,normative change|document conformance,28
 168012882,true,"Confusing note about parser pause flag, document.write, and custom elements",https://github.com/whatwg/html/issues/1603,2016-07-28T04:44:01Z,2016-08-15T08:33:52Z,dominiccooney,clarification|topic: parser|topic: custom elements,0
 167946850,true,"BroadcastChannel (and MessagePort) implicitly call for dispatched events to not be trusted, but browsers mark them as trusted and they should be trusted",https://github.com/whatwg/html/issues/1602,2016-07-27T20:19:51Z,2016-10-25T17:33:24Z,asutherland,topic: events,0
 167766271,true,Custom elements created with 'new' should have a definition associated with them,https://github.com/whatwg/html/issues/1597,2016-07-27T04:10:16Z,2016-07-28T07:21:56Z,dominiccooney,topic: custom elements,0

@@ -1,11 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1876998445,false,No longer allow a policy exception just for workers,https://github.com/whatwg/html/pull/9668,2023-09-01T08:35:46Z,2023-09-02T06:54:43Z,annevk,topic: workers,0
+1876998445,true,No longer allow a policy exception just for workers,https://github.com/whatwg/html/pull/9668,2023-09-01T08:35:46Z,2023-09-04T06:31:05Z,annevk,topic: workers,0
 1876900917,true,"Editorial: uniformize list-based ""or""s and ""and""s",https://github.com/whatwg/html/pull/9667,2023-09-01T07:29:07Z,2023-09-01T08:03:18Z,domenic,,0
 1875313284,true,Editorial: Replace 'unique origin' with 'unique opaque origin',https://github.com/whatwg/html/pull/9666,2023-08-31T11:11:20Z,2023-08-31T13:05:12Z,mozfreddyb,,1
 1875264785,true,Forbid data: and javascript: URLs in <base>,https://github.com/whatwg/html/pull/9665,2023-08-31T10:43:20Z,2023-09-01T07:10:13Z,annevk,,0
 1875209204,false,Fix specificity issue for <embed hidden>,https://github.com/whatwg/html/pull/9664,2023-08-31T10:07:33Z,2023-09-01T00:53:23Z,zcorpan,topic: rendering,0
 1874829220,false,"Remove the step ""Prune all zero-length line segments from path"" in path Tracing",https://github.com/whatwg/html/pull/9663,2023-08-31T05:50:52Z,2023-08-31T07:25:58Z,yiyix,normative change|topic: canvas,0
-1873822118,false,Further clarification of the Early Hints HTTP/2 note,https://github.com/whatwg/html/pull/9660,2023-08-30T14:38:22Z,2023-09-03T06:17:15Z,tunetheweb,,0
+1873822118,true,Further clarification of the Early Hints HTTP/2 note,https://github.com/whatwg/html/pull/9660,2023-08-30T14:38:22Z,2023-09-04T08:30:17Z,tunetheweb,,0
 1873655608,true,Editorial: Replace 'unique origin' with 'opaque origin',https://github.com/whatwg/html/pull/9659,2023-08-30T13:12:49Z,2023-08-30T16:04:44Z,mozfreddyb,,1
 1871552267,false,Update WebDriver-BiDi user prompt algorithm,https://github.com/whatwg/html/pull/9645,2023-08-29T12:20:12Z,2023-08-30T07:27:45Z,Lightning00Blade,,0
 1870044735,false,Provide more context around the permissibility of the XHTML slash on void elements,https://github.com/whatwg/html/pull/9642,2023-08-28T16:03:55Z,2023-08-29T04:02:58Z,hsivonen,,0
@@ -59,7 +59,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1779529030,true,Snapshot fallback base URL for about:-schemed Documents,https://github.com/whatwg/html/pull/9464,2023-06-28T18:51:33Z,2023-07-13T20:55:06Z,domfarolino,normative change|topic: navigation,0
 1778497411,true,Synchronously populate non-initial about:blank documents,https://github.com/whatwg/html/pull/9463,2023-06-28T08:50:34Z,2023-07-11T09:13:17Z,domenic,topic: navigation|topic: parser,0
 1778332031,false,Add close requests and close watchers,https://github.com/whatwg/html/pull/9462,2023-06-28T06:57:55Z,2023-08-10T03:29:19Z,domenic,addition/proposal|topic: dialog|topic: popover,3
-1775374251,false,Ignore DOM state when hiding popovers if needed,https://github.com/whatwg/html/pull/9457,2023-06-26T18:45:19Z,2023-07-19T13:17:06Z,josepharhar,,0
+1775374251,false,Ignore DOM state when hiding popovers if needed,https://github.com/whatwg/html/pull/9457,2023-06-26T18:45:19Z,2023-09-04T11:23:19Z,josepharhar,,0
 1775234651,false,add dialogmodaltarget attribute,https://github.com/whatwg/html/pull/9456,2023-06-26T17:17:30Z,2023-08-23T09:36:44Z,keithamus,,2
 1768695537,true,"Editorial rework of directionality ",https://github.com/whatwg/html/pull/9452,2023-06-22T00:09:07Z,2023-08-29T08:32:48Z,bkardell,,0
 1768470617,true,Make togglePopover throw more exceptions,https://github.com/whatwg/html/pull/9451,2023-06-21T20:56:50Z,2023-06-28T14:34:58Z,josepharhar,topic: popover,0
