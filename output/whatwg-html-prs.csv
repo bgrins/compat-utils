@@ -1,9 +1,10 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1880220474,false,"Rename ""auto popover list"" to ""showing auto popover list""",https://github.com/whatwg/html/pull/9680,2023-09-04T12:50:32Z,2023-09-04T12:52:00Z,josepharhar,,0
 1876998445,true,No longer allow a policy exception just for workers,https://github.com/whatwg/html/pull/9668,2023-09-01T08:35:46Z,2023-09-04T06:31:05Z,annevk,topic: workers,0
 1876900917,true,"Editorial: uniformize list-based ""or""s and ""and""s",https://github.com/whatwg/html/pull/9667,2023-09-01T07:29:07Z,2023-09-01T08:03:18Z,domenic,,0
 1875313284,true,Editorial: Replace 'unique origin' with 'unique opaque origin',https://github.com/whatwg/html/pull/9666,2023-08-31T11:11:20Z,2023-08-31T13:05:12Z,mozfreddyb,,1
 1875264785,true,Forbid data: and javascript: URLs in <base>,https://github.com/whatwg/html/pull/9665,2023-08-31T10:43:20Z,2023-09-01T07:10:13Z,annevk,,0
-1875209204,false,Fix specificity issue for <embed hidden>,https://github.com/whatwg/html/pull/9664,2023-08-31T10:07:33Z,2023-09-01T00:53:23Z,zcorpan,topic: rendering,0
+1875209204,true,Fix specificity issue for <embed hidden>,https://github.com/whatwg/html/pull/9664,2023-08-31T10:07:33Z,2023-09-04T19:25:48Z,zcorpan,topic: rendering,0
 1874829220,false,"Remove the step ""Prune all zero-length line segments from path"" in path Tracing",https://github.com/whatwg/html/pull/9663,2023-08-31T05:50:52Z,2023-08-31T07:25:58Z,yiyix,normative change|topic: canvas,0
 1873822118,true,Further clarification of the Early Hints HTTP/2 note,https://github.com/whatwg/html/pull/9660,2023-08-30T14:38:22Z,2023-09-04T08:30:17Z,tunetheweb,,0
 1873655608,true,Editorial: Replace 'unique origin' with 'opaque origin',https://github.com/whatwg/html/pull/9659,2023-08-30T13:12:49Z,2023-08-30T16:04:44Z,mozfreddyb,,1
@@ -49,7 +50,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1793324979,true,"Editorial: Use the right ""active document"" definition in a focus algorithm",https://github.com/whatwg/html/pull/9498,2023-07-07T11:00:52Z,2023-08-09T07:49:47Z,rakuco,,0
 1791560609,true,Populate document state origin/initiator origin upon creation,https://github.com/whatwg/html/pull/9494,2023-07-06T13:24:00Z,2023-07-14T03:40:48Z,domfarolino,topic: navigation,0
 1791506923,false,Force size containment for auto-sizes,https://github.com/whatwg/html/pull/9493,2023-07-06T12:54:24Z,2023-08-29T16:51:01Z,zcorpan,,1
-1789491788,true,Make dirname apply to hidden/tel/url/email inputs,https://github.com/whatwg/html/pull/9490,2023-07-05T12:51:28Z,2023-07-24T08:55:35Z,zcorpan,normative change|topic: forms,0
+1789491788,true,Make dirname apply to hidden/tel/url/email inputs,https://github.com/whatwg/html/pull/9490,2023-07-05T12:51:28Z,2023-09-04T22:11:39Z,zcorpan,normative change|topic: forms,0
 1787684142,false,Use appropriate fetch destination for JSON&CSS modules,https://github.com/whatwg/html/pull/9486,2023-07-04T10:48:45Z,2023-08-28T16:24:43Z,nicolo-ribaudo,needs tests,0
 1787565314,true,Test PR,https://github.com/whatwg/html/pull/9485,2023-07-04T09:43:04Z,2023-07-04T12:37:01Z,cijian23,spam,0
 1787464058,true,Fix links to fetch request initiator type,https://github.com/whatwg/html/pull/9484,2023-07-04T08:48:29Z,2023-07-04T10:07:11Z,nicolo-ribaudo,,0
@@ -83,7 +84,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1744629222,true,Fix modal check in dialog closing algorithm,https://github.com/whatwg/html/pull/9391,2023-06-06T21:19:10Z,2023-06-07T10:19:12Z,josepharhar,topic: dialog,0
 1743956398,true,chore: add semicolon to textarea autocomplete attribute,https://github.com/whatwg/html/pull/9389,2023-06-06T14:08:35Z,2023-06-12T10:06:32Z,kaf-lamed-beyt,editorial,0
 1742856727,true,[editorial] Fix typo & quoting inconsistency in popover example,https://github.com/whatwg/html/pull/9388,2023-06-06T00:25:06Z,2023-06-06T05:08:59Z,nt1m,editorial|topic: popover,0
-1742660557,false,Fix user-agent style rules for top layer transitions,https://github.com/whatwg/html/pull/9387,2023-06-05T21:37:33Z,2023-08-31T18:24:34Z,josepharhar,topic: rendering|topic: popover,0
+1742660557,false,Fix user-agent style rules for top layer transitions,https://github.com/whatwg/html/pull/9387,2023-06-05T21:37:33Z,2023-09-04T12:37:47Z,josepharhar,topic: rendering|topic: popover,0
 1737326853,true,Change table's height attribute to allow zero-like values,https://github.com/whatwg/html/pull/9374,2023-06-02T01:38:18Z,2023-06-03T02:56:29Z,sivakusayan,topic: rendering|topic: table,0
 1736485521,true,Disallow interactive content in <summary>.,https://github.com/whatwg/html/pull/9372,2023-06-01T14:45:34Z,2023-06-05T14:31:21Z,dbaron,do not merge yet|document conformance,2
 1735662308,true,Add empty string special case for pushState/replaceState,https://github.com/whatwg/html/pull/9370,2023-06-01T07:26:49Z,2023-06-02T03:06:20Z,domenic,topic: history|interop,0
