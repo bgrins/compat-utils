@@ -1,8 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1882811500,false,should navigation algorithm check if navigable was destroyed,https://github.com/whatwg/html/issues/9690,2023-09-05T22:33:13Z,2023-09-05T22:33:13Z,kalenikaliaksandr,,0
+1883527421,false,<link rel=stylesheet> has a weird reference to resulting URL string,https://github.com/whatwg/html/issues/9695,2023-09-06T08:36:28Z,2023-09-06T08:37:41Z,annevk,topic: link,0
+1883499736,false,Split the `source` file into multiple files,https://github.com/whatwg/html/issues/9694,2023-09-06T08:20:01Z,2023-09-06T11:16:33Z,not-my-profile,,0
+1883480006,false,"Specify steps for ""preparing an image for presentation"" for the EXIF-arriving-late case",https://github.com/whatwg/html/issues/9693,2023-09-06T08:07:35Z,2023-09-06T08:51:23Z,yarusome,topic: img|integration,0
+1883239948,false,"""follow the hyperlink"" calls ""navigate"" with a URL string, but it should instead pass a URL",https://github.com/whatwg/html/issues/9692,2023-09-06T05:17:52Z,2023-09-06T05:19:04Z,domenic,topic: hyperlink,1
+1882811500,false,should navigation algorithm check if navigable was destroyed,https://github.com/whatwg/html/issues/9690,2023-09-05T22:33:13Z,2023-09-06T06:57:07Z,kalenikaliaksandr,topic: navigation,0
 1881629478,false,window.clientInformation is Replaceable in Chromium and WebKit,https://github.com/whatwg/html/issues/9687,2023-09-05T09:57:21Z,2023-09-05T09:57:21Z,annevk,normative change,1
-1881569991,false,"""create a new child navigable"" fails for navigables nesting > 1",https://github.com/whatwg/html/issues/9686,2023-09-05T09:22:36Z,2023-09-05T09:22:36Z,kalenikaliaksandr,,0
-1881412226,false,<track>'s track URL concept is used incorrectly,https://github.com/whatwg/html/issues/9683,2023-09-05T07:51:51Z,2023-09-05T07:51:51Z,annevk,topic: media,0
+1881569991,false,"""create a new child navigable"" fails for navigables nesting > 1",https://github.com/whatwg/html/issues/9686,2023-09-05T09:22:36Z,2023-09-06T06:56:55Z,kalenikaliaksandr,topic: navigation,0
+1881412226,false,<track>'s track URL concept is used incorrectly,https://github.com/whatwg/html/issues/9683,2023-09-05T07:51:51Z,2023-09-06T05:26:07Z,annevk,topic: media|needs tests,0
 1880630071,false,HTMLOptionElement's dirtiness concept is lacking,https://github.com/whatwg/html/issues/9682,2023-09-04T16:52:30Z,2023-09-04T16:52:30Z,annevk,topic: forms|interop,0
 1879119462,false,Split the definition of web-based protocol handler from the definition of registerProtocolHandler,https://github.com/whatwg/html/issues/9678,2023-09-03T14:29:34Z,2023-09-04T09:07:45Z,SoniEx2,,0
 1879031905,false,Rendering of <input type=image> that does not represent an image,https://github.com/whatwg/html/issues/9677,2023-09-03T09:55:33Z,2023-09-03T18:52:16Z,annevk,topic: rendering|topic: forms|a11y-tracker,0
@@ -75,7 +79,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1784674592,false,Proposal: Meta Tag for AI Generated Content,https://github.com/whatwg/html/issues/9479,2023-07-02T14:49:11Z,2023-08-19T14:53:26Z,evayde,addition/proposal|needs implementer interest,10
 1782549061,true,Upcoming HTML standard issue triage meeting on 7/13/2023,https://github.com/whatwg/html/issues/9474,2023-06-30T13:38:01Z,2023-07-13T19:37:28Z,past,agenda+,1
 1782419433,false,Define `X-DNS-Prefetch-Control`,https://github.com/whatwg/html/issues/9473,2023-06-30T12:08:13Z,2023-06-30T12:18:22Z,yoavweiss,removal/deprecation|topic: resource hints (inc. preload),0
-1781091258,false,Specify a maximal depth of backtracking for the pattern attribute on input elements,https://github.com/whatwg/html/issues/9469,2023-06-29T15:38:55Z,2023-09-05T18:36:34Z,vinhill,topic: forms|integration,0
+1781091258,false,Specify a maximal depth of backtracking for the pattern attribute on input elements,https://github.com/whatwg/html/issues/9469,2023-06-29T15:38:55Z,2023-09-06T06:47:23Z,vinhill,topic: forms|integration,0
 1780852819,true,Should step 7 of  https://html.spec.whatwg.org/#hide-popover-algorithm be a while loop?,https://github.com/whatwg/html/issues/9468,2023-06-29T13:46:15Z,2023-07-25T12:11:09Z,mbrodesser-Igalia,topic: popover,0
 1780834317,false,`play()` must not fail here: `HTMLMediaElement.remove(); el.play()`,https://github.com/whatwg/html/issues/9467,2023-06-29T13:35:24Z,2023-06-30T11:22:45Z,WofWca,topic: media,0
 1780709912,false,Export structuredClone steps,https://github.com/whatwg/html/issues/9466,2023-06-29T12:19:21Z,2023-06-29T14:05:52Z,saschanaz,topic: serialize and transfer|integration,0
@@ -582,7 +586,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1295622672,false,Review accessibility of the content models venn diagram,https://github.com/whatwg/html/issues/8081,2022-07-06T10:29:39Z,2022-08-09T10:24:29Z,zcorpan,accessibility|editorial,0
 1295519751,false,Update the image data - setting src to the same value logic seems incorrect,https://github.com/whatwg/html/issues/8080,2022-07-06T09:10:17Z,2022-09-06T08:15:03Z,zcorpan,topic: img,0
 1295361713,false,"gamepadconnected and gamepaddisconnected should be listed ",https://github.com/whatwg/html/issues/8079,2022-07-06T07:38:09Z,2022-07-06T07:41:47Z,marcoscaceres,,0
-1294763306,false,Proposal: baseURL argument to `import.meta.resolve`,https://github.com/whatwg/html/issues/8077,2022-07-05T20:59:08Z,2022-07-15T14:19:34Z,guybedford,,2
+1294763306,false,Proposal: baseURL argument to `import.meta.resolve`,https://github.com/whatwg/html/issues/8077,2022-07-05T20:59:08Z,2022-07-15T14:19:34Z,guybedford,,3
 1293286178,false,The change event for textarea elements isn't fired per spec?,https://github.com/whatwg/html/issues/8073,2022-07-04T15:00:27Z,2022-07-04T15:00:27Z,foolip,,0
 1292754080,true,There are no error when you're using reject function along with throw statement,https://github.com/whatwg/html/issues/8071,2022-07-04T07:34:55Z,2022-09-14T07:30:48Z,dSalieri,,0
 1292671141,false,"""Headings and outline"" -- Recommended root h1 usage",https://github.com/whatwg/html/issues/8070,2022-07-04T06:05:40Z,2022-07-04T06:26:48Z,kai-tub,,0
@@ -3591,7 +3595,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 176243059,false,rb and rtc element should be removed from the list of obsolete features,https://github.com/whatwg/html/issues/1771,2016-09-11T13:09:32Z,2022-10-24T01:32:48Z,upsuper,document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,0
 175980447,false,Specify how to fetch <link rel=icon>,https://github.com/whatwg/html/issues/1769,2016-09-09T10:43:37Z,2016-09-13T15:19:42Z,zcorpan,topic: fetch,0
 175916893,true,Multipage redirection isn't always working anymore,https://github.com/whatwg/html/issues/1767,2016-09-09T03:06:41Z,2016-09-12T21:33:24Z,domenic,spec tooling,0
-175905234,false,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2023-04-14T01:41:13Z,isonmad,addition/proposal|needs implementer interest|topic: events,19
+175905234,false,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2023-09-06T09:51:20Z,isonmad,addition/proposal|needs implementer interest|topic: events,19
 175646396,false,HTML  specification allows for cycles in Window / Location prototype chain,https://github.com/whatwg/html/issues/1760,2016-09-08T01:47:55Z,2018-08-23T21:46:52Z,cdumez,integration|topic: location,0
 175630444,true,"does this mean these - ""A settings object      An environment settings ..."" - are equivalent?",https://github.com/whatwg/html/issues/1759,2016-09-07T23:27:46Z,2016-09-16T22:53:50Z,equalsJeffH,,0
 175609093,true,moving well known HTML tags outside of SVG container,https://github.com/whatwg/html/issues/1758,2016-09-07T21:19:02Z,2016-09-08T15:12:43Z,djfd,,0

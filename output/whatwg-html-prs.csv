@@ -1,8 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1883685050,false,"Editorial: link ""character reference"" in Named character references",https://github.com/whatwg/html/pull/9696,2023-09-06T10:09:01Z,2023-09-06T10:10:29Z,not-my-profile,,0
 1882070872,false,Change auto directionality of password and button controls,https://github.com/whatwg/html/pull/9689,2023-09-05T14:12:54Z,2023-09-05T23:03:27Z,annevk,normative change|i18n-tracker|needs tests,0
 1881650840,false,Mark window.clientInformation [Replaceable],https://github.com/whatwg/html/pull/9688,2023-09-05T10:09:52Z,2023-09-05T10:29:16Z,annevk,,0
-1881492557,false,Correct some element references in <link rel=stylesheet>,https://github.com/whatwg/html/pull/9685,2023-09-05T08:39:15Z,2023-09-05T08:40:53Z,annevk,,0
-1881425896,false,Editorial: add parse and serialize a URL,https://github.com/whatwg/html/pull/9684,2023-09-05T08:00:14Z,2023-09-05T08:39:59Z,annevk,,0
+1881492557,true,Correct some element references in <link rel=stylesheet>,https://github.com/whatwg/html/pull/9685,2023-09-05T08:39:15Z,2023-09-06T05:13:52Z,annevk,topic: link,0
+1881425896,true,Editorial: add parse and serialize a URL,https://github.com/whatwg/html/pull/9684,2023-09-05T08:00:14Z,2023-09-06T08:33:05Z,annevk,,0
 1880220474,false,"Rename ""auto popover list"" to ""showing auto popover list""",https://github.com/whatwg/html/pull/9680,2023-09-04T12:50:32Z,2023-09-04T12:52:00Z,josepharhar,,0
 1876998445,true,No longer allow a policy exception just for workers,https://github.com/whatwg/html/pull/9668,2023-09-01T08:35:46Z,2023-09-04T06:31:05Z,annevk,topic: workers,0
 1876900917,true,"Editorial: uniformize list-based ""or""s and ""and""s",https://github.com/whatwg/html/pull/9667,2023-09-01T07:29:07Z,2023-09-01T08:03:18Z,domenic,,0
@@ -12,7 +13,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1874829220,false,"Remove the step ""Prune all zero-length line segments from path"" in path Tracing",https://github.com/whatwg/html/pull/9663,2023-08-31T05:50:52Z,2023-08-31T07:25:58Z,yiyix,normative change|topic: canvas,0
 1873822118,true,Further clarification of the Early Hints HTTP/2 note,https://github.com/whatwg/html/pull/9660,2023-08-30T14:38:22Z,2023-09-04T08:30:17Z,tunetheweb,,0
 1873655608,true,Editorial: Replace 'unique origin' with 'opaque origin',https://github.com/whatwg/html/pull/9659,2023-08-30T13:12:49Z,2023-08-30T16:04:44Z,mozfreddyb,,1
-1871552267,false,Update WebDriver-BiDi user prompt algorithm,https://github.com/whatwg/html/pull/9645,2023-08-29T12:20:12Z,2023-08-30T07:27:45Z,Lightning00Blade,,0
+1871552267,true,Update WebDriver-BiDi user prompt algorithm,https://github.com/whatwg/html/pull/9645,2023-08-29T12:20:12Z,2023-09-06T08:06:07Z,Lightning00Blade,,0
 1870044735,false,Provide more context around the permissibility of the XHTML slash on void elements,https://github.com/whatwg/html/pull/9642,2023-08-28T16:03:55Z,2023-08-29T04:02:58Z,hsivonen,,0
 1864466821,true,Use DOM manipulation task source for firing popover toggle event,https://github.com/whatwg/html/pull/9630,2023-08-24T06:05:51Z,2023-08-25T19:10:42Z,sideshowbarker,,0
 1864088245,true,Add hasUAVisualTransition to PopStateEventInit and NavigateEventInit,https://github.com/whatwg/html/pull/9628,2023-08-23T22:14:38Z,2023-08-24T21:26:43Z,ADKaster,,0
@@ -35,7 +36,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2023-08-31T19:28:51Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms|needs tests,3
 1813916540,true,This Pull Request implements form validation on the HTML <output> element to display the calculated result.,https://github.com/whatwg/html/pull/9544,2023-07-20T12:44:22Z,2023-07-20T13:26:04Z,cijian23,spam,1
 1813671797,true,Use correct settings object for modules imported in workers,https://github.com/whatwg/html/pull/9541,2023-07-20T10:34:11Z,2023-07-24T07:22:54Z,nicolo-ribaudo,topic: script,0
-1812982540,false,Add setHTMLUnsafe and parseHTMLUnsafe methods,https://github.com/whatwg/html/pull/9538,2023-07-20T01:31:03Z,2023-09-05T10:32:38Z,josepharhar,addition/proposal|topic: parser,0
+1812982540,false,Add setHTMLUnsafe and parseHTMLUnsafe methods,https://github.com/whatwg/html/pull/9538,2023-07-20T01:31:03Z,2023-09-06T11:12:40Z,josepharhar,addition/proposal|topic: parser,0
 1812629719,false,Add a layer and filter interface in the 2D canvas,https://github.com/whatwg/html/pull/9537,2023-07-19T19:49:25Z,2023-08-07T19:11:24Z,graveljp,,0
 1810870126,true,Define srcdoc documents as matching about:srcdoc URL,https://github.com/whatwg/html/pull/9534,2023-07-18T23:37:14Z,2023-07-20T03:49:15Z,domfarolino,topic: browsing context|topic: document.open()|topic: javascript: URLs,0
 1810164917,true,Fix non-fetch-scheme-params-initiator-origin assignment,https://github.com/whatwg/html/pull/9532,2023-07-18T15:25:02Z,2023-07-19T07:17:21Z,domfarolino,topic: navigation,0
@@ -88,13 +89,13 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1744629222,true,Fix modal check in dialog closing algorithm,https://github.com/whatwg/html/pull/9391,2023-06-06T21:19:10Z,2023-06-07T10:19:12Z,josepharhar,topic: dialog,0
 1743956398,true,chore: add semicolon to textarea autocomplete attribute,https://github.com/whatwg/html/pull/9389,2023-06-06T14:08:35Z,2023-06-12T10:06:32Z,kaf-lamed-beyt,editorial,0
 1742856727,true,[editorial] Fix typo & quoting inconsistency in popover example,https://github.com/whatwg/html/pull/9388,2023-06-06T00:25:06Z,2023-06-06T05:08:59Z,nt1m,editorial|topic: popover,0
-1742660557,false,Fix user-agent style rules for top layer transitions,https://github.com/whatwg/html/pull/9387,2023-06-05T21:37:33Z,2023-09-04T12:37:47Z,josepharhar,topic: rendering|topic: popover,0
+1742660557,false,Fix user-agent style rules for top layer transitions,https://github.com/whatwg/html/pull/9387,2023-06-05T21:37:33Z,2023-09-06T07:02:30Z,josepharhar,topic: rendering|topic: popover,0
 1737326853,true,Change table's height attribute to allow zero-like values,https://github.com/whatwg/html/pull/9374,2023-06-02T01:38:18Z,2023-06-03T02:56:29Z,sivakusayan,topic: rendering|topic: table,0
 1736485521,true,Disallow interactive content in <summary>.,https://github.com/whatwg/html/pull/9372,2023-06-01T14:45:34Z,2023-06-05T14:31:21Z,dbaron,do not merge yet|document conformance,2
 1735662308,true,Add empty string special case for pushState/replaceState,https://github.com/whatwg/html/pull/9370,2023-06-01T07:26:49Z,2023-06-02T03:06:20Z,domenic,topic: history|interop,0
 1735288504,true,Tighten auto popover list definition,https://github.com/whatwg/html/pull/9369,2023-06-01T01:45:56Z,2023-06-06T19:53:27Z,josepharhar,topic: popover,0
 1732189866,false,Use the fetched unsafe response for network status and response bodies,https://github.com/whatwg/html/pull/9362,2023-05-30T12:47:15Z,2023-06-09T14:24:49Z,trflynn89,,0
-1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-09-05T06:23:15Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
+1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-09-06T09:00:18Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
 1729857566,true,Add files via upload,https://github.com/whatwg/html/pull/9353,2023-05-29T01:56:27Z,2023-05-29T04:36:27Z,jakex666x,spam,0
 1728531782,true,Check dialog is modal flag instead of open attribute in 'check popover validity' algorithm,https://github.com/whatwg/html/pull/9344,2023-05-27T08:09:19Z,2023-06-12T06:54:45Z,nt1m,normative change|topic: popover,0
 1727729022,true,Re-add <source media> for media elements,https://github.com/whatwg/html/pull/9341,2023-05-26T14:21:19Z,2023-06-12T12:20:28Z,zcorpan,,3
