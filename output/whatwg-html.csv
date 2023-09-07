@@ -1,10 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1884393327,false,[View Transition] Event on old Document to set transition state,https://github.com/whatwg/html/issues/9702,2023-09-06T16:48:16Z,2023-09-07T00:16:54Z,khushalsagar,,0
 1883527421,false,<link rel=stylesheet> has a weird reference to resulting URL string,https://github.com/whatwg/html/issues/9695,2023-09-06T08:36:28Z,2023-09-06T08:37:41Z,annevk,topic: link,0
-1883499736,false,Split the `source` file into multiple files,https://github.com/whatwg/html/issues/9694,2023-09-06T08:20:01Z,2023-09-06T11:16:33Z,not-my-profile,,0
+1883499736,false,Enable `git diff` for individual sections of the `source` file,https://github.com/whatwg/html/issues/9694,2023-09-06T08:20:01Z,2023-09-06T14:49:03Z,not-my-profile,,0
 1883480006,false,"Specify steps for ""preparing an image for presentation"" for the EXIF-arriving-late case",https://github.com/whatwg/html/issues/9693,2023-09-06T08:07:35Z,2023-09-06T08:51:23Z,yarusome,topic: img|integration,0
 1883239948,false,"""follow the hyperlink"" calls ""navigate"" with a URL string, but it should instead pass a URL",https://github.com/whatwg/html/issues/9692,2023-09-06T05:17:52Z,2023-09-06T05:19:04Z,domenic,topic: hyperlink,1
 1882811500,false,should navigation algorithm check if navigable was destroyed,https://github.com/whatwg/html/issues/9690,2023-09-05T22:33:13Z,2023-09-06T06:57:07Z,kalenikaliaksandr,topic: navigation,0
-1881629478,false,window.clientInformation is Replaceable in Chromium and WebKit,https://github.com/whatwg/html/issues/9687,2023-09-05T09:57:21Z,2023-09-05T09:57:21Z,annevk,normative change,1
+1881629478,true,window.clientInformation is Replaceable in Chromium and WebKit,https://github.com/whatwg/html/issues/9687,2023-09-05T09:57:21Z,2023-09-06T16:59:21Z,annevk,normative change,1
 1881569991,false,"""create a new child navigable"" fails for navigables nesting > 1",https://github.com/whatwg/html/issues/9686,2023-09-05T09:22:36Z,2023-09-06T06:56:55Z,kalenikaliaksandr,topic: navigation,0
 1881412226,false,<track>'s track URL concept is used incorrectly,https://github.com/whatwg/html/issues/9683,2023-09-05T07:51:51Z,2023-09-06T05:26:07Z,annevk,topic: media|needs tests,0
 1880630071,false,HTMLOptionElement's dirtiness concept is lacking,https://github.com/whatwg/html/issues/9682,2023-09-04T16:52:30Z,2023-09-04T16:52:30Z,annevk,topic: forms|interop,0
@@ -266,7 +267,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1607803310,true,Rename PopoverTargetElement mixin to PopoverInvokerElement,https://github.com/whatwg/html/issues/8979,2023-03-03T01:39:57Z,2023-03-08T14:42:44Z,nt1m,clarification|topic: popover,2
 1607730993,false,"""Some attributes are required to be followed by ...""",https://github.com/whatwg/html/issues/8978,2023-03-03T00:08:48Z,2023-03-03T12:11:13Z,Zectbumo,,0
 1606983982,true,Why does hide popover not have a cancelable event?,https://github.com/whatwg/html/issues/8973,2023-03-02T15:09:45Z,2023-04-12T13:59:50Z,annevk,topic: popover,1
-1605923313,false,Editorial: topmost popover ancestor should not use a map,https://github.com/whatwg/html/issues/8971,2023-03-02T00:44:09Z,2023-09-04T10:31:30Z,annevk,clarification|topic: popover,1
+1605923313,false,Editorial: topmost popover ancestor should not use a map,https://github.com/whatwg/html/issues/8971,2023-03-02T00:44:09Z,2023-09-06T23:01:37Z,annevk,clarification|topic: popover,1
 1605921295,false,Should popover use the flat tree,https://github.com/whatwg/html/issues/8970,2023-03-02T00:41:39Z,2023-09-04T10:24:57Z,annevk,topic: shadow|topic: popover,0
 1605711312,true,Popover: note still talks about anchor attribute,https://github.com/whatwg/html/issues/8968,2023-03-01T21:47:10Z,2023-04-24T14:03:24Z,annevk,topic: popover,0
 1604203290,true,"Should step 3.2 of ""hide a popover"" algorithm check for popover validity?",https://github.com/whatwg/html/issues/8964,2023-03-01T04:13:33Z,2023-03-03T14:19:16Z,nt1m,topic: popover,0
@@ -3339,7 +3340,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 202076709,true,"""A 002E FULL STOP character (.)""",https://github.com/whatwg/html/issues/2274,2017-01-20T08:01:35Z,2017-01-21T00:14:48Z,cvrebert,good first issue,0
 201967740,true,Cross-origin getters seem to ask impossible things,https://github.com/whatwg/html/issues/2273,2017-01-19T20:32:34Z,2017-05-16T15:56:02Z,domenic,topic: multiple globals,0
 201825957,false,Disallow interactive content in <summary>,https://github.com/whatwg/html/issues/2272,2017-01-19T10:54:39Z,2023-08-22T16:02:46Z,zcorpan,document conformance|accessibility|a11y-tracker,0
-201312087,false,Make custom attribute rules consistent with custom element name rules,https://github.com/whatwg/html/issues/2271,2017-01-17T15:04:58Z,2022-04-18T18:21:59Z,LeaVerou,addition/proposal|needs implementer interest|topic: custom elements,78
+201312087,false,Make custom attribute rules consistent with custom element name rules,https://github.com/whatwg/html/issues/2271,2017-01-17T15:04:58Z,2022-04-18T18:21:59Z,LeaVerou,addition/proposal|needs implementer interest|topic: custom elements,79
 201247626,true,"Definition of ""User Agent (UA)""",https://github.com/whatwg/html/issues/2270,2017-01-17T11:11:25Z,2017-01-17T16:39:32Z,vkatsikaros,,0
 200765661,true,The pending dialog stack and the stack of top layer,https://github.com/whatwg/html/issues/2268,2017-01-14T00:39:30Z,2017-09-05T09:48:25Z,upsuper,,0
 200730663,false,Clarify DnD behavior when dragging file from file browser over document,https://github.com/whatwg/html/issues/2267,2017-01-13T21:06:03Z,2017-05-09T04:38:13Z,mystor,topic: drag and drop,0
@@ -3595,7 +3596,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 176243059,false,rb and rtc element should be removed from the list of obsolete features,https://github.com/whatwg/html/issues/1771,2016-09-11T13:09:32Z,2022-10-24T01:32:48Z,upsuper,document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,0
 175980447,false,Specify how to fetch <link rel=icon>,https://github.com/whatwg/html/issues/1769,2016-09-09T10:43:37Z,2016-09-13T15:19:42Z,zcorpan,topic: fetch,0
 175916893,true,Multipage redirection isn't always working anymore,https://github.com/whatwg/html/issues/1767,2016-09-09T03:06:41Z,2016-09-12T21:33:24Z,domenic,spec tooling,0
-175905234,false,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2023-09-06T09:51:20Z,isonmad,addition/proposal|needs implementer interest|topic: events,19
+175905234,false,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2023-09-06T21:42:25Z,isonmad,addition/proposal|needs implementer interest|topic: events,19
 175646396,false,HTML  specification allows for cycles in Window / Location prototype chain,https://github.com/whatwg/html/issues/1760,2016-09-08T01:47:55Z,2018-08-23T21:46:52Z,cdumez,integration|topic: location,0
 175630444,true,"does this mean these - ""A settings object      An environment settings ..."" - are equivalent?",https://github.com/whatwg/html/issues/1759,2016-09-07T23:27:46Z,2016-09-16T22:53:50Z,equalsJeffH,,0
 175609093,true,moving well known HTML tags outside of SVG container,https://github.com/whatwg/html/issues/1758,2016-09-07T21:19:02Z,2016-09-08T15:12:43Z,djfd,,0
