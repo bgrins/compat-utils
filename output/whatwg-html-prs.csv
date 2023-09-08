@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1886397562,false,docs: fix typo,https://github.com/whatwg/html/pull/9704,2023-09-07T18:37:18Z,2023-09-07T18:38:53Z,zyachel,,0
-1884164093,false,Add diff.py to diff individual sections of the source file,https://github.com/whatwg/html/pull/9700,2023-09-06T14:40:42Z,2023-09-06T14:54:26Z,not-my-profile,,0
-1883918592,false,Editorial: define stylesheet location in terms of response,https://github.com/whatwg/html/pull/9697,2023-09-06T12:32:33Z,2023-09-07T02:28:56Z,annevk,topic: link,0
+1886397562,false,docs: fix typo,https://github.com/whatwg/html/pull/9704,2023-09-07T18:37:18Z,2023-09-08T01:02:08Z,zyachel,,0
+1884164093,true,Add diff.py to diff individual sections of the source file,https://github.com/whatwg/html/pull/9700,2023-09-06T14:40:42Z,2023-09-08T01:15:17Z,not-my-profile,,0
+1883918592,true,Editorial: define stylesheet location in terms of response,https://github.com/whatwg/html/pull/9697,2023-09-06T12:32:33Z,2023-09-08T09:09:16Z,annevk,topic: link,0
 1883685050,false,"Editorial: link ""character reference"" in Named character references",https://github.com/whatwg/html/pull/9696,2023-09-06T10:09:01Z,2023-09-06T10:10:29Z,not-my-profile,,0
 1882070872,false,Change auto directionality of password and button controls,https://github.com/whatwg/html/pull/9689,2023-09-05T14:12:54Z,2023-09-05T23:03:27Z,annevk,normative change|i18n-tracker|needs tests,0
 1881650840,true,Mark window.clientInformation [Replaceable],https://github.com/whatwg/html/pull/9688,2023-09-05T10:09:52Z,2023-09-06T16:59:20Z,annevk,,0
@@ -36,7 +36,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1818258169,true,Make the directionality account for missing parent element,https://github.com/whatwg/html/pull/9554,2023-07-24T11:49:33Z,2023-08-31T05:41:01Z,annevk,i18n-tracker,1
 1817297523,true,Tweak `thead` description to clarify it can contain non-header cells,https://github.com/whatwg/html/pull/9552,2023-07-23T21:11:39Z,2023-07-25T09:17:22Z,patrickhlauke,,0
 1815020757,false,selectmenu,https://github.com/whatwg/html/pull/9547,2023-07-21T01:27:53Z,2023-07-21T02:52:23Z,josepharhar,,1
-1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2023-08-31T19:28:51Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms|needs tests,3
+1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2023-08-31T19:28:51Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms|needs tests,4
 1813916540,true,This Pull Request implements form validation on the HTML <output> element to display the calculated result.,https://github.com/whatwg/html/pull/9544,2023-07-20T12:44:22Z,2023-07-20T13:26:04Z,cijian23,spam,1
 1813671797,true,Use correct settings object for modules imported in workers,https://github.com/whatwg/html/pull/9541,2023-07-20T10:34:11Z,2023-07-24T07:22:54Z,nicolo-ribaudo,topic: script,0
 1812982540,false,Add setHTMLUnsafe and parseHTMLUnsafe methods,https://github.com/whatwg/html/pull/9538,2023-07-20T01:31:03Z,2023-09-06T11:12:40Z,josepharhar,addition/proposal|topic: parser,0
@@ -57,7 +57,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1799781601,true,"Editorial: Remove unused param from ""fetch the descendants of and link a module script""",https://github.com/whatwg/html/pull/9508,2023-07-11T21:29:47Z,2023-07-12T00:24:29Z,domfarolino,topic: script,0
 1793324979,true,"Editorial: Use the right ""active document"" definition in a focus algorithm",https://github.com/whatwg/html/pull/9498,2023-07-07T11:00:52Z,2023-08-09T07:49:47Z,rakuco,,0
 1791560609,true,Populate document state origin/initiator origin upon creation,https://github.com/whatwg/html/pull/9494,2023-07-06T13:24:00Z,2023-07-14T03:40:48Z,domfarolino,topic: navigation,0
-1791506923,false,Force size containment for auto-sizes,https://github.com/whatwg/html/pull/9493,2023-07-06T12:54:24Z,2023-09-05T11:31:57Z,zcorpan,,1
+1791506923,false,Force size containment for auto-sizes,https://github.com/whatwg/html/pull/9493,2023-07-06T12:54:24Z,2023-09-08T09:53:47Z,zcorpan,,1
 1789491788,true,Make dirname apply to hidden/tel/url/email inputs,https://github.com/whatwg/html/pull/9490,2023-07-05T12:51:28Z,2023-09-04T22:11:39Z,zcorpan,normative change|topic: forms,0
 1787684142,false,Use appropriate fetch destination for JSON&CSS modules,https://github.com/whatwg/html/pull/9486,2023-07-04T10:48:45Z,2023-08-28T16:24:43Z,nicolo-ribaudo,needs tests,0
 1787565314,true,Test PR,https://github.com/whatwg/html/pull/9485,2023-07-04T09:43:04Z,2023-07-04T12:37:01Z,cijian23,spam,0
@@ -98,7 +98,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1735662308,true,Add empty string special case for pushState/replaceState,https://github.com/whatwg/html/pull/9370,2023-06-01T07:26:49Z,2023-06-02T03:06:20Z,domenic,topic: history|interop,0
 1735288504,true,Tighten auto popover list definition,https://github.com/whatwg/html/pull/9369,2023-06-01T01:45:56Z,2023-06-06T19:53:27Z,josepharhar,topic: popover,0
 1732189866,false,Use the fetched unsafe response for network status and response bodies,https://github.com/whatwg/html/pull/9362,2023-05-30T12:47:15Z,2023-06-09T14:24:49Z,trflynn89,,0
-1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-09-07T23:10:12Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
+1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-09-08T06:13:08Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
 1729857566,true,Add files via upload,https://github.com/whatwg/html/pull/9353,2023-05-29T01:56:27Z,2023-05-29T04:36:27Z,jakex666x,spam,0
 1728531782,true,Check dialog is modal flag instead of open attribute in 'check popover validity' algorithm,https://github.com/whatwg/html/pull/9344,2023-05-27T08:09:19Z,2023-06-12T06:54:45Z,nt1m,normative change|topic: popover,0
 1727729022,true,Re-add <source media> for media elements,https://github.com/whatwg/html/pull/9341,2023-05-26T14:21:19Z,2023-06-12T12:20:28Z,zcorpan,,3
