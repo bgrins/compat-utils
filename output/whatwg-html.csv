@@ -1,4 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1888909986,true,Begin,https://github.com/whatwg/html/issues/9713,2023-09-10T00:06:33Z,2023-09-10T00:07:48Z,Vinceyandy,,0
+1888842595,false,aborting a document load does not abort ongoing navigation of descendant navigables,https://github.com/whatwg/html/issues/9711,2023-09-09T18:50:34Z,2023-09-09T21:05:07Z,kalenikaliaksandr,,0
+1888725252,false,"Could we have progress event HTMLScriptElement  ",https://github.com/whatwg/html/issues/9710,2023-09-09T12:30:29Z,2023-09-09T15:56:52Z,Thaina,addition/proposal|needs implementer interest,0
 1887654479,false,navigate() should not use parse a URL,https://github.com/whatwg/html/issues/9708,2023-09-08T13:05:43Z,2023-09-09T11:31:10Z,annevk,topic: navigation,1
 1886589682,false,Upcoming HTML standard issue triage meeting on 10/5/2023,https://github.com/whatwg/html/issues/9706,2023-09-07T21:34:34Z,2023-09-07T21:34:34Z,past,agenda+,0
 1886572380,false,Why is the content model for `<button>` limited to phrasing content?,https://github.com/whatwg/html/issues/9705,2023-09-07T21:14:57Z,2023-09-09T06:37:10Z,mfreed7,document conformance,0
@@ -26,7 +29,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1866648537,true,"""note about 103 and HTTP/2"" makes normative assertion",https://github.com/whatwg/html/issues/9637,2023-08-25T09:01:04Z,2023-09-04T08:30:18Z,annevk,,1
 1866045497,true,Treat .d/ as same-origin for file:// URLs,https://github.com/whatwg/html/issues/9635,2023-08-25T00:06:41Z,2023-08-25T10:32:24Z,SoniEx2,,0
 1865899743,true,Initialization of NavigateEvent info property,https://github.com/whatwg/html/issues/9634,2023-08-24T21:18:14Z,2023-08-24T21:44:23Z,ADKaster,topic: navigation,0
-1865624285,false,Are the “active script” & “base URL” assertions in the timer initialization steps correct?,https://github.com/whatwg/html/issues/9633,2023-08-24T17:51:06Z,2023-08-24T18:01:48Z,bathos,,0
+1865624285,false,Are the “active script” & “base URL” assertions in the timer initialization steps correct?,https://github.com/whatwg/html/issues/9633,2023-08-24T17:51:06Z,2023-09-09T18:38:49Z,bathos,,0
 1865552680,false,Allow additional elements to be considered labelable,https://github.com/whatwg/html/issues/9632,2023-08-24T16:58:56Z,2023-08-30T14:31:45Z,dmjohnsson23,addition/proposal|needs implementer interest|a11y-tracker,3
 1865087034,true,timer initialization steps has vague reference to WindowProxy,https://github.com/whatwg/html/issues/9631,2023-08-24T12:48:16Z,2023-08-24T16:29:11Z,Ms2ger,,0
 1864127558,true,Upcoming HTML standard issue triage meeting on 9/7/2023,https://github.com/whatwg/html/issues/9629,2023-08-23T23:03:34Z,2023-09-07T21:38:07Z,past,agenda+,0
@@ -115,7 +118,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1742040804,false,anonymous fieldset content box should inherit scroll-start,https://github.com/whatwg/html/issues/9386,2023-06-05T15:35:38Z,2023-06-09T07:22:26Z,DavMila,topic: rendering|topic: forms,0
 1742022432,false,Constraint Validation IDL is reiterated multiple times,https://github.com/whatwg/html/issues/9385,2023-06-05T15:24:07Z,2023-06-09T07:20:27Z,clshortfuse,clarification|topic: forms,0
 1741686583,true,"Should ""show popover"" assert the element's popover invoker is null?",https://github.com/whatwg/html/issues/9383,2023-06-05T12:38:07Z,2023-07-20T06:32:40Z,mbrodesser-Igalia,clarification|topic: popover,0
-1740502906,false,"popover: expect a way to watch all ""`toggle`"" events even in shadow DOM on `window`",https://github.com/whatwg/html/issues/9381,2023-06-04T17:44:23Z,2023-09-04T11:31:37Z,gdh1995,addition/proposal|topic: popover,0
+1740502906,false,"popover: expect a way to watch all ""`toggle`"" events even in shadow DOM on `window`",https://github.com/whatwg/html/issues/9381,2023-06-04T17:44:23Z,2023-09-09T14:03:08Z,gdh1995,addition/proposal|topic: popover,0
 1740428387,false,Add `class` & `for` aliases for `className` and `htmlFor`,https://github.com/whatwg/html/issues/9379,2023-06-04T15:17:46Z,2023-06-06T10:05:13Z,jakearchibald,addition/proposal|needs implementer interest,188
 1738596106,false,Should we deprecate `dialog.show()`?,https://github.com/whatwg/html/issues/9376,2023-06-02T18:02:06Z,2023-08-18T15:40:31Z,mfreed7,removal/deprecation|topic: dialog,13
 1738480470,true,Upcoming HTML standard issue triage meeting on 6/15/2023,https://github.com/whatwg/html/issues/9375,2023-06-02T16:22:45Z,2023-06-15T17:55:09Z,past,agenda+,0
@@ -1009,7 +1012,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 958428700,true,"[COOP] Undefined activeDocumentCOOP in ""enforce a response's cross-origin opener policy"" section",https://github.com/whatwg/html/issues/6926,2021-08-02T19:07:28Z,2021-08-03T19:08:38Z,cdumez,topic: cross-origin-opener-policy,0
 958420412,true,"[COOP] Wrong type in ""queue a violation report for browsing context group switch when navigating away from a COOP response""",https://github.com/whatwg/html/issues/6925,2021-08-02T18:57:06Z,2021-08-03T19:08:38Z,cdumez,topic: cross-origin-opener-policy,0
 955141045,false,COOP: Navigations to non-initial about:blank,https://github.com/whatwg/html/issues/6913,2021-07-28T18:46:22Z,2021-08-03T08:41:30Z,cdumez,topic: cross-origin-opener-policy,0
-955051236,false,Proposal: blank worker,https://github.com/whatwg/html/issues/6911,2021-07-28T16:52:49Z,2023-09-08T15:47:49Z,wanderview,addition/proposal|needs implementer interest|topic: workers,7
+955051236,false,Proposal: blank worker,https://github.com/whatwg/html/issues/6911,2021-07-28T16:52:49Z,2023-09-09T20:49:16Z,wanderview,addition/proposal|needs implementer interest|topic: workers,7
 954670682,true,Proposal: Add a way to open programmatically a date picker,https://github.com/whatwg/html/issues/6909,2021-07-28T09:41:23Z,2022-03-24T17:08:22Z,beaufortfrancois,addition/proposal|needs implementer interest|topic: forms,34
 954564369,false,Add ime-mode to html input,https://github.com/whatwg/html/issues/6908,2021-07-28T07:30:15Z,2021-08-10T08:59:33Z,NagayamaToshiaki,i18n-tracker|i18n-jlreq,0
 954543780,true,Html element's start tag must not be omitted or add new ways to specify lang attribute of the html file,https://github.com/whatwg/html/issues/6907,2021-07-28T07:02:12Z,2021-07-29T06:43:39Z,NagayamaToshiaki,i18n-tracker,0
@@ -2262,7 +2265,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 390342023,true,Content in print version blocked by aside elements,https://github.com/whatwg/html/issues/4236,2018-12-12T17:58:28Z,2022-01-12T21:33:10Z,mattpham,,1
 390306254,false,Consider a new flag `was_parser_inserted` to record initial `parser_inserted` state,https://github.com/whatwg/html/issues/4235,2018-12-12T16:30:38Z,2018-12-19T18:53:34Z,andypaicu,topic: script|integration,0
 389755744,true,Can HTMLOrSVGElement be `partial interface Element`?,https://github.com/whatwg/html/issues/4232,2018-12-11T13:07:11Z,2020-03-20T16:25:35Z,saschanaz,clarification,0
-389481064,false,editorial: use logical coordinates to describe fieldset/legend layout,https://github.com/whatwg/html/issues/4231,2018-12-10T20:51:13Z,2019-01-09T10:13:24Z,MatsPalmgren,clarification|topic: rendering|topic: fieldset,0
+389481064,false,editorial: use logical coordinates to describe fieldset/legend layout,https://github.com/whatwg/html/issues/4231,2018-12-10T20:51:13Z,2019-01-09T10:13:24Z,MatsPalmgren,clarification|topic: rendering|topic: fieldset,1
 389065483,false,<iframe srcdoc> should handle SVG documents,https://github.com/whatwg/html/issues/4228,2018-12-09T21:21:34Z,2018-12-10T16:57:44Z,tabatkins,addition/proposal|needs implementer interest,2
 388329081,false,Consider blocking navigating frames to non-fetch scheme URLs,https://github.com/whatwg/html/issues/4226,2018-12-06T17:56:56Z,2018-12-06T17:56:56Z,annevk,needs implementer interest,0
 388314876,false,Canvas fill and stroke styles should be clearer about which colors are accepted,https://github.com/whatwg/html/issues/4225,2018-12-06T17:19:23Z,2018-12-10T17:26:16Z,emilio,topic: canvas|needs tests|interop,0
