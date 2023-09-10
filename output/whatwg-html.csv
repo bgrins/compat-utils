@@ -1,8 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1888909986,true,Begin,https://github.com/whatwg/html/issues/9713,2023-09-10T00:06:33Z,2023-09-10T00:07:48Z,Vinceyandy,,0
+1888952600,false,Take encoding into account when parsing link headers & early hints,https://github.com/whatwg/html/issues/9715,2023-09-10T03:51:44Z,2023-09-10T07:00:20Z,noamr,,0
 1888842595,false,aborting a document load does not abort ongoing navigation of descendant navigables,https://github.com/whatwg/html/issues/9711,2023-09-09T18:50:34Z,2023-09-09T21:05:07Z,kalenikaliaksandr,,0
 1888725252,false,"Could we have progress event HTMLScriptElement  ",https://github.com/whatwg/html/issues/9710,2023-09-09T12:30:29Z,2023-09-09T15:56:52Z,Thaina,addition/proposal|needs implementer interest,0
-1887654479,false,navigate() should not use parse a URL,https://github.com/whatwg/html/issues/9708,2023-09-08T13:05:43Z,2023-09-09T11:31:10Z,annevk,topic: navigation,1
+1887654479,false,navigate() should not use parse a URL,https://github.com/whatwg/html/issues/9708,2023-09-08T13:05:43Z,2023-09-10T07:59:13Z,annevk,topic: navigation,1
 1886589682,false,Upcoming HTML standard issue triage meeting on 10/5/2023,https://github.com/whatwg/html/issues/9706,2023-09-07T21:34:34Z,2023-09-07T21:34:34Z,past,agenda+,0
 1886572380,false,Why is the content model for `<button>` limited to phrasing content?,https://github.com/whatwg/html/issues/9705,2023-09-07T21:14:57Z,2023-09-09T06:37:10Z,mfreed7,document conformance,0
 1884393327,false,[View Transition] Event on old Document to set transition state,https://github.com/whatwg/html/issues/9702,2023-09-06T16:48:16Z,2023-09-07T00:16:54Z,khushalsagar,,0
@@ -855,7 +855,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1067387017,false,Proposal: Add Element.isRendered() function,https://github.com/whatwg/html/issues/7379,2021-11-30T15:43:49Z,2021-12-01T21:14:55Z,vmpstr,,1
 1066032725,true,Non-cancelled `setTimeout`s would lead to idle deadlines in the past,https://github.com/whatwg/html/issues/7376,2021-11-29T13:21:50Z,2021-11-30T22:13:53Z,andreubotella,,0
 1065446998,true,"""classic script"" definition incomplete",https://github.com/whatwg/html/issues/7374,2021-11-28T21:57:10Z,2021-11-29T16:40:08Z,SmashManiac,,0
-1062927220,false,Adding scriptElement.exports for configuration use cases,https://github.com/whatwg/html/issues/7367,2021-11-24T21:32:38Z,2023-08-28T19:47:19Z,domenic,addition/proposal|topic: script,2
+1062927220,false,Adding scriptElement.exports for configuration use cases,https://github.com/whatwg/html/issues/7367,2021-11-24T21:32:38Z,2023-08-28T19:47:19Z,domenic,addition/proposal|topic: script,3
 1062394112,false,Last-Event-ID value space follow-up,https://github.com/whatwg/html/issues/7363,2021-11-24T12:53:55Z,2021-11-26T07:45:47Z,annevk,topic: eventsource,0
 1061879455,false,"Geolocations uses ""page visibility change steps""",https://github.com/whatwg/html/issues/7362,2021-11-24T01:18:05Z,2021-11-24T01:18:05Z,marcoscaceres,,0
 1060944661,false,Nit: timer initialization steps should define maximum for id,https://github.com/whatwg/html/issues/7358,2021-11-23T08:15:28Z,2021-11-24T16:16:55Z,annevk,clarification,0
@@ -1327,7 +1327,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 745653640,false,Expand what MIME types are processed as text files,https://github.com/whatwg/html/issues/6162,2020-11-18T13:19:36Z,2022-08-08T07:21:46Z,annevk,topic: navigation|interop,1
 745569600,true,What is the expected result of constructing a focus chain?,https://github.com/whatwg/html/issues/6161,2020-11-18T11:16:41Z,2020-12-01T16:45:30Z,EdgarChen,topic: focus,0
 745378079,false,Alternative style sheet rules fail to handle titles,https://github.com/whatwg/html/issues/6159,2020-11-18T06:37:26Z,2020-11-18T14:21:18Z,fantasai,,0
-745281729,false,a figure of Ideographic baseline differs from the definition,https://github.com/whatwg/html/issues/6157,2020-11-18T02:51:56Z,2023-08-29T02:35:29Z,mandel59,i18n-tracker|i18n-jlreq,0
+745281729,false,a figure of Ideographic baseline differs from the definition,https://github.com/whatwg/html/issues/6157,2020-11-18T02:51:56Z,2023-09-10T05:58:48Z,mandel59,i18n-tracker|i18n-jlreq,0
 745061236,true,Internal pause step grammar,https://github.com/whatwg/html/issues/6155,2020-11-17T20:25:02Z,2020-11-19T09:25:49Z,koceskik,good first issue,1
 745026176,true,HTML Carousel Not Working as Expected,https://github.com/whatwg/html/issues/6154,2020-11-17T19:29:23Z,2020-11-17T20:49:19Z,DaleMFrancis,,0
 743942146,false,"Include a div/textarea ""keywords"" property!",https://github.com/whatwg/html/issues/6152,2020-11-16T15:44:51Z,2020-11-16T16:45:56Z,Seagat2011,,0
