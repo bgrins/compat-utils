@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1889491307,false,We need something like `requestFinalFrame()` to run logic after all `*Observer` callbacks,https://github.com/whatwg/html/issues/9721,2023-09-11T01:59:03Z,2023-09-11T10:16:09Z,trusktr,addition/proposal,0
 1888952600,false,Take encoding into account when parsing link headers & early hints,https://github.com/whatwg/html/issues/9715,2023-09-10T03:51:44Z,2023-09-10T07:00:20Z,noamr,,0
 1888842595,false,aborting a document load does not abort ongoing navigation of descendant navigables,https://github.com/whatwg/html/issues/9711,2023-09-09T18:50:34Z,2023-09-10T15:19:38Z,kalenikaliaksandr,,0
 1888725252,false,"Could we have progress event HTMLScriptElement  ",https://github.com/whatwg/html/issues/9710,2023-09-09T12:30:29Z,2023-09-09T15:56:52Z,Thaina,addition/proposal|needs implementer interest,0
@@ -21,7 +22,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1877256968,false,Should dirname work for password fields and buttons?,https://github.com/whatwg/html/issues/9669,2023-09-01T11:32:17Z,2023-09-01T14:52:46Z,annevk,topic: forms|i18n-tracker,0
 1872073380,false,Auto-sizes: parsing of `auto` in `sizes` is bogus,https://github.com/whatwg/html/issues/9649,2023-08-29T17:04:39Z,2023-09-05T11:30:39Z,zcorpan,topic: img,0
 1872056317,false,Auto-sizes: fall back to next value in sizes if the image is not lazy-loading,https://github.com/whatwg/html/issues/9648,2023-08-29T16:53:29Z,2023-09-05T11:30:16Z,zcorpan,topic: img,1
-1871074320,false,Proposal: Allow sites to target navigations at split tabs,https://github.com/whatwg/html/issues/9644,2023-08-29T07:34:46Z,2023-09-08T14:35:42Z,xuzhengyi1995,addition/proposal|needs implementer interest,3
+1871074320,false,Proposal: Allow sites to target navigations at split tabs,https://github.com/whatwg/html/issues/9644,2023-08-29T07:34:46Z,2023-09-08T14:35:42Z,xuzhengyi1995,addition/proposal|needs implementer interest,4
 1870830199,true,404,https://github.com/whatwg/html/issues/9643,2023-08-29T03:49:27Z,2023-08-30T08:16:45Z,ToBeJazz,,0
 1868260579,true,Dialog initial focus when dialog contains a slot element,https://github.com/whatwg/html/issues/9640,2023-08-26T20:31:00Z,2023-08-30T07:33:58Z,josepharhar,topic: shadow|topic: focus,0
 1867981093,false,Define :user-invalid / :user-valid for form-associated custom elements,https://github.com/whatwg/html/issues/9639,2023-08-26T08:41:03Z,2023-08-28T08:50:34Z,nt1m,addition/proposal|topic: custom elements|topic: forms,0
@@ -83,7 +84,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1788359824,true,"Use ""matches about:blank"" and ""matches about:srcdoc"" in more places",https://github.com/whatwg/html/issues/9488,2023-07-04T19:09:29Z,2023-07-28T00:45:03Z,domfarolino,topic: navigation,1
 1787902159,false,"Showing only a child popover causes ""beforetoggle"" and ""toggle"" events but popover is invisble",https://github.com/whatwg/html/issues/9487,2023-07-04T13:07:44Z,2023-07-12T23:31:37Z,mbrodesser-Igalia,topic: popover,0
 1785504701,true,Input.valueAsNumber can not be manually set to NaN despite it being a valid value for it,https://github.com/whatwg/html/issues/9480,2023-07-03T07:19:15Z,2023-07-03T22:11:25Z,alexandertrefz,,0
-1784674592,false,Proposal: Meta Tag for AI Generated Content,https://github.com/whatwg/html/issues/9479,2023-07-02T14:49:11Z,2023-08-19T14:53:26Z,evayde,addition/proposal|needs implementer interest,10
+1784674592,false,Proposal: Meta Tag for AI Generated Content,https://github.com/whatwg/html/issues/9479,2023-07-02T14:49:11Z,2023-09-11T04:49:53Z,evayde,addition/proposal|needs implementer interest,10
 1782549061,true,Upcoming HTML standard issue triage meeting on 7/13/2023,https://github.com/whatwg/html/issues/9474,2023-06-30T13:38:01Z,2023-07-13T19:37:28Z,past,agenda+,1
 1782419433,false,Define `X-DNS-Prefetch-Control`,https://github.com/whatwg/html/issues/9473,2023-06-30T12:08:13Z,2023-06-30T12:18:22Z,yoavweiss,removal/deprecation|topic: resource hints (inc. preload),0
 1781091258,false,Specify a maximal depth of backtracking for the pattern attribute on input elements,https://github.com/whatwg/html/issues/9469,2023-06-29T15:38:55Z,2023-09-06T06:47:23Z,vinhill,topic: forms|integration,0
@@ -215,7 +216,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1651764018,false,Popover does not know what triggered it,https://github.com/whatwg/html/issues/9111,2023-04-03T10:11:47Z,2023-09-05T22:02:06Z,jpzwarte,addition/proposal|topic: popover,0
 1651686034,false,"Support `popovertarget` on custom elements with `role=""button""` ",https://github.com/whatwg/html/issues/9110,2023-04-03T09:26:25Z,2023-06-10T12:02:51Z,jpzwarte,addition/proposal|topic: custom elements|topic: popover,2
 1651613244,false,`popovertarget` and shadow DOM,https://github.com/whatwg/html/issues/9109,2023-04-03T08:43:23Z,2023-04-20T14:47:44Z,jpzwarte,addition/proposal|topic: shadow|topic: popover,0
-1650378616,false,Add BoundingClientRectObserver,https://github.com/whatwg/html/issues/9104,2023-04-01T09:09:22Z,2023-04-01T16:25:03Z,cubuspl42,,0
+1650378616,false,Add BoundingClientRectObserver,https://github.com/whatwg/html/issues/9104,2023-04-01T09:09:22Z,2023-09-11T10:17:40Z,cubuspl42,addition/proposal|needs implementer interest,1
 1650150293,false,<textarea> should support the [pattern] attribute like the <input> element,https://github.com/whatwg/html/issues/9102,2023-03-31T23:02:41Z,2023-06-20T19:41:25Z,Gambloide,addition/proposal|needs implementer interest|topic: forms|needs compat analysis,4
 1648832613,true,PDF version does not link to web version,https://github.com/whatwg/html/issues/9097,2023-03-31T07:32:24Z,2023-04-03T07:25:38Z,NicoleSharp,spec tooling,0
 1648366000,false,"typo ""The autofill field listed above indicate that t...""",https://github.com/whatwg/html/issues/9094,2023-03-30T21:43:18Z,2023-03-30T21:43:18Z,timelsass,,0
@@ -472,7 +473,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1403388271,false,request: need a way to prevent mobile browser scrolling when focusing an input,https://github.com/whatwg/html/issues/8375,2022-10-10T15:50:46Z,2022-10-11T02:23:54Z,liamdebeasi,addition/proposal|needs implementer interest,3
 1403380623,true,"Possible error in the text about <input type=""range"">",https://github.com/whatwg/html/issues/8374,2022-10-10T15:45:07Z,2022-10-11T04:46:20Z,BlueInGreen68,,0
 1403050872,true,"rel values ""prev"" and ""next"" not allowed in body?",https://github.com/whatwg/html/issues/8372,2022-10-10T11:53:23Z,2022-10-10T13:06:37Z,brennanyoung,document conformance|topic: hyperlink,0
-1402147315,false,"<pre>: line number ",https://github.com/whatwg/html/issues/8369,2022-10-09T04:31:39Z,2023-04-23T17:29:54Z,esdnm,addition/proposal|needs implementer interest,1
+1402147315,false,"<pre>: line number ",https://github.com/whatwg/html/issues/8369,2022-10-09T04:31:39Z,2023-09-11T11:27:11Z,esdnm,addition/proposal|needs implementer interest,1
 1401110973,false,Consider change to handling focus after dialog dismissal and removal of invoking element,https://github.com/whatwg/html/issues/8367,2022-10-07T12:38:21Z,2023-06-02T21:47:49Z,scottaohara,topic: focus|topic: dialog,2
 1400882160,true,Wrong sentence regarding heading structure,https://github.com/whatwg/html/issues/8366,2022-10-07T09:24:49Z,2022-12-07T16:48:02Z,JAWS-test,,0
 1400727625,false,`formDisabledCallback` should always fire when governing fieldset's disabled state changes,https://github.com/whatwg/html/issues/8365,2022-10-07T07:16:02Z,2022-10-12T22:47:59Z,bennypowers,topic: custom elements,1
@@ -1327,7 +1328,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 745653640,false,Expand what MIME types are processed as text files,https://github.com/whatwg/html/issues/6162,2020-11-18T13:19:36Z,2022-08-08T07:21:46Z,annevk,topic: navigation|interop,1
 745569600,true,What is the expected result of constructing a focus chain?,https://github.com/whatwg/html/issues/6161,2020-11-18T11:16:41Z,2020-12-01T16:45:30Z,EdgarChen,topic: focus,0
 745378079,false,Alternative style sheet rules fail to handle titles,https://github.com/whatwg/html/issues/6159,2020-11-18T06:37:26Z,2020-11-18T14:21:18Z,fantasai,,0
-745281729,false,a figure of Ideographic baseline differs from the definition,https://github.com/whatwg/html/issues/6157,2020-11-18T02:51:56Z,2023-09-10T05:58:48Z,mandel59,i18n-tracker|i18n-jlreq,0
+745281729,false,a figure of Ideographic baseline differs from the definition,https://github.com/whatwg/html/issues/6157,2020-11-18T02:51:56Z,2023-09-11T05:04:08Z,mandel59,i18n-tracker|i18n-jlreq,0
 745061236,true,Internal pause step grammar,https://github.com/whatwg/html/issues/6155,2020-11-17T20:25:02Z,2020-11-19T09:25:49Z,koceskik,good first issue,1
 745026176,true,HTML Carousel Not Working as Expected,https://github.com/whatwg/html/issues/6154,2020-11-17T19:29:23Z,2020-11-17T20:49:19Z,DaleMFrancis,,0
 743942146,false,"Include a div/textarea ""keywords"" property!",https://github.com/whatwg/html/issues/6152,2020-11-16T15:44:51Z,2020-11-16T16:45:56Z,Seagat2011,,0

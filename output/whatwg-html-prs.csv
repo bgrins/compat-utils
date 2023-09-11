@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1889175241,false,Add endpoints for specifications needing to parse URLs,https://github.com/whatwg/html/pull/9719,2023-09-10T14:53:53Z,2023-09-10T15:26:54Z,annevk,,0
+1889585280,true,Throw TypeError if `window.opener` setter fails to reconfigure the property,https://github.com/whatwg/html/pull/9722,2023-09-11T03:35:29Z,2023-09-11T06:04:16Z,shvaikalesh,,0
+1889175241,false,Add endpoints for specifications needing to parse URLs,https://github.com/whatwg/html/pull/9719,2023-09-10T14:53:53Z,2023-09-11T10:39:16Z,annevk,,0
 1889166861,true,"Editorial: fix ""apply the history step"" wrapper placement",https://github.com/whatwg/html/pull/9718,2023-09-10T14:28:49Z,2023-09-10T15:19:51Z,domenic,topic: navigation,0
 1889164710,true,"Editorial: rename and explain Document's ""navigation id""",https://github.com/whatwg/html/pull/9717,2023-09-10T14:22:24Z,2023-09-10T15:14:37Z,domenic,,0
 1889144523,true,Fix target step when creating a child navigable,https://github.com/whatwg/html/pull/9716,2023-09-10T13:21:51Z,2023-09-10T15:14:00Z,domenic,topic: navigation,0
@@ -83,7 +84,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1763113582,true,"Editorial: change ""show popover"" to call ""check popover validity"" first",https://github.com/whatwg/html/pull/9439,2023-06-19T09:19:32Z,2023-07-03T09:12:04Z,mbrodesser-Igalia,topic: popover,0
 1760637113,true,Account for optgroup removal,https://github.com/whatwg/html/pull/9434,2023-06-16T13:25:40Z,2023-08-25T10:54:57Z,annevk,,0
 1758889108,false,Clarify the fake token step in fragment parsing,https://github.com/whatwg/html/pull/9430,2023-06-15T13:51:00Z,2023-07-04T16:06:44Z,zcorpan,clarification|topic: parser,0
-1757361836,false,Allow elements with display:contents to be focusable.,https://github.com/whatwg/html/pull/9425,2023-06-14T17:31:45Z,2023-06-14T17:54:13Z,dbaron,topic: focus,3
+1757361836,false,Allow elements with display:contents to be focusable.,https://github.com/whatwg/html/pull/9425,2023-06-14T17:31:45Z,2023-06-14T17:54:13Z,dbaron,topic: focus,4
 1757211335,true,Fix markup so that word is linked correctly.,https://github.com/whatwg/html/pull/9424,2023-06-14T15:53:15Z,2023-06-14T16:02:52Z,dbaron,,0
 1755990245,true,"new changes ",https://github.com/whatwg/html/pull/9421,2023-06-14T03:35:59Z,2023-06-14T03:44:38Z,Amrit-ghale,spam,0
 1754881399,true,"Initialize `nestedHide` variable in the ""hide a popover"" algorithm",https://github.com/whatwg/html/pull/9419,2023-06-13T13:20:06Z,2023-06-14T11:17:55Z,mbrodesser-Igalia,topic: popover,0
@@ -105,7 +106,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1735662308,true,Add empty string special case for pushState/replaceState,https://github.com/whatwg/html/pull/9370,2023-06-01T07:26:49Z,2023-06-02T03:06:20Z,domenic,topic: history|interop,0
 1735288504,true,Tighten auto popover list definition,https://github.com/whatwg/html/pull/9369,2023-06-01T01:45:56Z,2023-06-06T19:53:27Z,josepharhar,topic: popover,0
 1732189866,false,Use the fetched unsafe response for network status and response bodies,https://github.com/whatwg/html/pull/9362,2023-05-30T12:47:15Z,2023-06-09T14:24:49Z,trflynn89,,0
-1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-09-10T08:13:17Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
+1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-09-11T04:57:39Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
 1729857566,true,Add files via upload,https://github.com/whatwg/html/pull/9353,2023-05-29T01:56:27Z,2023-05-29T04:36:27Z,jakex666x,spam,0
 1728531782,true,Check dialog is modal flag instead of open attribute in 'check popover validity' algorithm,https://github.com/whatwg/html/pull/9344,2023-05-27T08:09:19Z,2023-06-12T06:54:45Z,nt1m,normative change|topic: popover,0
 1727729022,true,Re-add <source media> for media elements,https://github.com/whatwg/html/pull/9341,2023-05-26T14:21:19Z,2023-06-12T12:20:28Z,zcorpan,,3
