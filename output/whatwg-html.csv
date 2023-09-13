@@ -1,9 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1894241096,false,"[Cookie Layering] Add a ""has cross-site ancestor"" bit to pass on to Fetch",https://github.com/whatwg/html/issues/9729,2023-09-13T10:33:38Z,2023-09-13T10:33:38Z,johannhof,,0
+1894172116,false,Use HTML's URL-parser wrapper in EventSource,https://github.com/whatwg/html/issues/9728,2023-09-13T09:54:35Z,2023-09-13T09:54:35Z,domenic,clarification|topic: eventsource,0
 1890555238,false,spec should be clearer about what CORS-same-origin means,https://github.com/whatwg/html/issues/9726,2023-09-11T13:45:26Z,2023-09-11T14:48:26Z,dbaron,clarification|topic: fetch,0
 1890529724,false,Define user-agent <details> legend in rendering section,https://github.com/whatwg/html/issues/9725,2023-09-11T13:33:02Z,2023-09-11T13:33:02Z,annevk,topic: shadow|topic: rendering,0
 1890451089,false,"Can we consolidate ""execution ready flag"" and ""scripts may run for the newly-created document""?",https://github.com/whatwg/html/issues/9724,2023-09-11T12:55:42Z,2023-09-11T13:38:19Z,domenic,topic: navigation,0
 1889491307,false,We need something like `requestFinalFrame()` to run logic after all `*Observer` callbacks,https://github.com/whatwg/html/issues/9721,2023-09-11T01:59:03Z,2023-09-11T10:16:09Z,trusktr,addition/proposal,0
-1888952600,false,Take encoding into account when parsing link headers & early hints,https://github.com/whatwg/html/issues/9715,2023-09-10T03:51:44Z,2023-09-10T07:00:20Z,noamr,,0
+1888952600,false,Take encoding into account when parsing link headers & early hints,https://github.com/whatwg/html/issues/9715,2023-09-10T03:51:44Z,2023-09-13T05:52:15Z,noamr,,0
 1888842595,false,aborting a document load does not abort ongoing navigation of descendant navigables,https://github.com/whatwg/html/issues/9711,2023-09-09T18:50:34Z,2023-09-10T15:19:38Z,kalenikaliaksandr,,0
 1888725252,false,"Could we have progress event HTMLScriptElement  ",https://github.com/whatwg/html/issues/9710,2023-09-09T12:30:29Z,2023-09-09T15:56:52Z,Thaina,addition/proposal|needs implementer interest,0
 1887654479,false,navigate() should not use parse a URL,https://github.com/whatwg/html/issues/9708,2023-09-08T13:05:43Z,2023-09-10T07:59:13Z,annevk,topic: navigation,1
@@ -59,7 +61,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1833061471,true,Allow adding custom headers in WebSocket connection,https://github.com/whatwg/html/issues/9576,2023-08-02T12:10:41Z,2023-08-02T12:19:05Z,josephrocca,,0
 1831743537,true,event.source for message events from a BroadcastChannel,https://github.com/whatwg/html/issues/9574,2023-08-01T17:37:46Z,2023-08-02T02:26:46Z,vrugtehagel,,0
 1830647462,false,"Allow empty input[type=""color""] value",https://github.com/whatwg/html/issues/9572,2023-08-01T07:34:59Z,2023-08-21T19:45:42Z,ksa242,addition/proposal|needs implementer interest,0
-1829921287,false,Use inside settings to fetch the descendants of module worker in the worker module script graph,https://github.com/whatwg/html/issues/9571,2023-07-31T19:56:40Z,2023-09-01T07:42:03Z,allstarschh,agenda+,1
+1829921287,false,Use inside settings to fetch the descendants of module worker in the worker module script graph,https://github.com/whatwg/html/issues/9571,2023-07-31T19:56:40Z,2023-09-13T09:00:01Z,allstarschh,agenda+,1
 1827227550,true,Should trailing periods in the username portion of email addresses be valid?,https://github.com/whatwg/html/issues/9567,2023-07-29T00:05:18Z,2023-07-31T17:10:04Z,josepharhar,,0
 1826703340,true,Standardize UA styles / presentational hints for `embed hidden`,https://github.com/whatwg/html/issues/9564,2023-07-28T16:14:28Z,2023-09-04T19:24:44Z,nt1m,,0
 1822122560,true,Proposal: js-selector attribute (similar to data-attributes),https://github.com/whatwg/html/issues/9561,2023-07-26T10:43:42Z,2023-07-27T08:34:23Z,LeTraceurSnork,,2
@@ -87,7 +89,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1788359824,true,"Use ""matches about:blank"" and ""matches about:srcdoc"" in more places",https://github.com/whatwg/html/issues/9488,2023-07-04T19:09:29Z,2023-07-28T00:45:03Z,domfarolino,topic: navigation,1
 1787902159,false,"Showing only a child popover causes ""beforetoggle"" and ""toggle"" events but popover is invisble",https://github.com/whatwg/html/issues/9487,2023-07-04T13:07:44Z,2023-07-12T23:31:37Z,mbrodesser-Igalia,topic: popover,0
 1785504701,true,Input.valueAsNumber can not be manually set to NaN despite it being a valid value for it,https://github.com/whatwg/html/issues/9480,2023-07-03T07:19:15Z,2023-07-03T22:11:25Z,alexandertrefz,,0
-1784674592,false,Proposal: Meta Tag for AI Generated Content,https://github.com/whatwg/html/issues/9479,2023-07-02T14:49:11Z,2023-09-12T14:59:18Z,evayde,addition/proposal|needs implementer interest,11
+1784674592,false,Proposal: Meta Tag for AI Generated Content,https://github.com/whatwg/html/issues/9479,2023-07-02T14:49:11Z,2023-09-13T03:57:27Z,evayde,addition/proposal|needs implementer interest,11
 1782549061,true,Upcoming HTML standard issue triage meeting on 7/13/2023,https://github.com/whatwg/html/issues/9474,2023-06-30T13:38:01Z,2023-07-13T19:37:28Z,past,agenda+,1
 1782419433,false,Define `X-DNS-Prefetch-Control`,https://github.com/whatwg/html/issues/9473,2023-06-30T12:08:13Z,2023-06-30T12:18:22Z,yoavweiss,removal/deprecation|topic: resource hints (inc. preload),0
 1781091258,false,Specify a maximal depth of backtracking for the pattern attribute on input elements,https://github.com/whatwg/html/issues/9469,2023-06-29T15:38:55Z,2023-09-06T06:47:23Z,vinhill,topic: forms|integration,0
@@ -234,7 +236,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1638398517,true,Upcoming HTML standard issue triage meeting on 4/6/2023,https://github.com/whatwg/html/issues/9070,2023-03-23T21:59:20Z,2023-04-06T23:46:33Z,past,agenda+,0
 1637320041,true,Should the Window named properties object return supported named properties in [[OwnPropertyKeys]]?,https://github.com/whatwg/html/issues/9068,2023-03-23T11:14:44Z,2023-03-29T05:59:34Z,delan,clarification,0
 1636539181,false,"""Default fetch and process the linked resource"" does not account for CORS cross-origin fetches, thus preventing cross-origin stylesheets",https://github.com/whatwg/html/issues/9066,2023-03-22T21:45:40Z,2023-03-23T07:43:01Z,Lubrsi,topic: fetch|integration,0
-1636514710,false,Autocomplete on 'contenteditable' Elements,https://github.com/whatwg/html/issues/9065,2023-03-22T21:22:44Z,2023-09-11T20:54:55Z,bmathwig,addition/proposal|topic: forms|needs concrete proposal,0
+1636514710,false,Autocomplete on 'contenteditable' Elements,https://github.com/whatwg/html/issues/9065,2023-03-22T21:22:44Z,2023-09-13T08:29:49Z,bmathwig,addition/proposal|topic: forms|needs concrete proposal,0
 1636347345,true,Support for passing CSS styles to an SVG used via img[src],https://github.com/whatwg/html/issues/9064,2023-03-22T19:03:58Z,2023-03-22T20:10:00Z,brandonmcconnell,,0
 1636271789,true,"Should popover and dialog share the same ""previously focused element""?",https://github.com/whatwg/html/issues/9063,2023-03-22T18:12:00Z,2023-09-04T11:07:45Z,cathiechen,normative change|topic: dialog|topic: popover,0
 1634346770,true,Be able to select for partial attribute names,https://github.com/whatwg/html/issues/9056,2023-03-21T16:57:38Z,2023-03-22T12:36:02Z,keithamus,,1
@@ -365,7 +367,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1524706667,true,"""The XML syntax for HTML was formerly referred t...""",https://github.com/whatwg/html/issues/8700,2023-01-08T22:23:56Z,2023-01-12T01:51:14Z,PuppyPi,,0
 1524326598,false,"Don't mangle """"""username"""""" and """"""password"""""" in ""web+"" protocol handlers",https://github.com/whatwg/html/issues/8697,2023-01-08T04:56:24Z,2023-02-24T15:26:29Z,SoniEx2,security/privacy|topic: custom protocols,0
 1524286757,false,There's no way to declare character set (not encoding),https://github.com/whatwg/html/issues/8696,2023-01-08T02:37:06Z,2023-01-08T02:37:06Z,keiyakins,,0
-1523666956,false,Proposal: Elements for a more semantic web,https://github.com/whatwg/html/issues/8693,2023-01-07T09:54:18Z,2023-09-12T19:45:01Z,skwee357,,0
+1523666956,false,Proposal: Elements for a more semantic web,https://github.com/whatwg/html/issues/8693,2023-01-07T09:54:18Z,2023-09-13T08:27:00Z,skwee357,,0
 1521956909,false,12.2.1 The Storage interface says storage[key] returns null but actually returns undefined.,https://github.com/whatwg/html/issues/8684,2023-01-06T05:11:19Z,2023-01-07T00:18:48Z,babatakao,,0
 1521326222,false,Support for rel attribute on iframe,https://github.com/whatwg/html/issues/8682,2023-01-05T20:04:55Z,2023-02-03T10:21:17Z,0xdevwrite,,1
 1521187504,false,Should the `dialog` element be considered interactive content?,https://github.com/whatwg/html/issues/8680,2023-01-05T18:24:04Z,2023-01-05T20:10:25Z,gnpivo,,0
@@ -382,7 +384,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1503937198,false,A means to conceptually identify if an application is installed,https://github.com/whatwg/html/issues/8635,2022-12-20T03:40:46Z,2022-12-23T01:27:01Z,marcoscaceres,,0
 1503391962,false,favicon description,https://github.com/whatwg/html/issues/8632,2022-12-19T18:33:54Z,2022-12-26T19:34:51Z,hacknorris-code,,0
 1499888644,false,setHTML() and declarative shadow roots,https://github.com/whatwg/html/issues/8627,2022-12-16T09:40:36Z,2023-01-19T07:54:29Z,annevk,topic: shadow|security/privacy,0
-1498798099,false,Should open `dialog` elements match `:open`?,https://github.com/whatwg/html/issues/8625,2022-12-15T17:09:54Z,2023-04-13T21:45:19Z,josepharhar,topic: dialog|topic: selectors,2
+1498798099,false,Should open `dialog` elements match `:open`?,https://github.com/whatwg/html/issues/8625,2022-12-15T17:09:54Z,2023-09-13T08:16:44Z,josepharhar,topic: dialog|topic: selectors,2
 1496562372,false,Session history entries list is assumed to be unlimited in size,https://github.com/whatwg/html/issues/8620,2022-12-14T12:46:37Z,2023-05-18T22:53:54Z,petervanderbeken,topic: history,0
 1496561208,true,https://html.spec.whatwg.org/#getting-the-history-object-length-and-index refers to undefined variable,https://github.com/whatwg/html/issues/8619,2022-12-14T12:45:47Z,2022-12-17T10:20:37Z,smaug----,,0
 1496383804,false,"Overuse of the word ""step"" makes reading history navigation hard",https://github.com/whatwg/html/issues/8617,2022-12-14T11:16:08Z,2022-12-15T12:30:22Z,smaug----,,0
