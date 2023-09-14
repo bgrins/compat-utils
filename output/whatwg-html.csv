@@ -1,5 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1894241096,false,"[Cookie Layering] Add a ""has cross-site ancestor"" bit to pass on to Fetch",https://github.com/whatwg/html/issues/9729,2023-09-13T10:33:38Z,2023-09-13T10:33:38Z,johannhof,,0
+1895271934,false,html,https://github.com/whatwg/html/issues/9732,2023-09-13T21:11:31Z,2023-09-13T21:11:31Z,dh-orko,,0
+1895159373,true,StructuredClone of prototype objects,https://github.com/whatwg/html/issues/9730,2023-09-13T19:47:08Z,2023-09-13T19:56:01Z,ADKaster,,0
+1894241096,false,"[Cookie Layering] Add a ""has cross-site ancestor"" bit to pass on to Fetch",https://github.com/whatwg/html/issues/9729,2023-09-13T10:33:38Z,2023-09-13T16:29:49Z,johannhof,addition/proposal|topic: fetch|needs concrete proposal,0
 1894172116,false,Use HTML's URL-parser wrapper in EventSource,https://github.com/whatwg/html/issues/9728,2023-09-13T09:54:35Z,2023-09-13T09:54:35Z,domenic,clarification|topic: eventsource,0
 1890555238,false,spec should be clearer about what CORS-same-origin means,https://github.com/whatwg/html/issues/9726,2023-09-11T13:45:26Z,2023-09-11T14:48:26Z,dbaron,clarification|topic: fetch,0
 1890529724,false,Define user-agent <details> legend in rendering section,https://github.com/whatwg/html/issues/9725,2023-09-11T13:33:02Z,2023-09-11T13:33:02Z,annevk,topic: shadow|topic: rendering,0
@@ -68,7 +70,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1821261026,false,HTML Parser: confusion about  adoption agency algorithm,https://github.com/whatwg/html/issues/9559,2023-07-25T22:29:47Z,2023-09-03T00:44:33Z,stasoid,clarification|topic: parser,0
 1819321957,true,Evolving the HTML base tag further,https://github.com/whatwg/html/issues/9555,2023-07-25T00:13:44Z,2023-07-25T02:17:59Z,linuxguist,,0
 1817304169,true,"""This requirement is not a hard requirement, how...""",https://github.com/whatwg/html/issues/9553,2023-07-23T21:37:56Z,2023-07-25T18:23:27Z,Lanpun,,0
-1813687586,false,Disabled dates for input type=date,https://github.com/whatwg/html/issues/9542,2023-07-20T10:42:52Z,2023-08-02T19:53:54Z,thany,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,2
+1813687586,false,Disabled dates for input type=date,https://github.com/whatwg/html/issues/9542,2023-07-20T10:42:52Z,2023-08-02T19:53:54Z,thany,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,3
 1813664808,false,Considering event.waitUntil(promise) for async listeners,https://github.com/whatwg/html/issues/9540,2023-07-20T10:30:06Z,2023-07-26T20:02:41Z,WebReflection,,2
 1812387860,true,Consider making `=` in unquoted attribute values not a parse error,https://github.com/whatwg/html/issues/9536,2023-07-19T17:26:24Z,2023-08-18T08:47:13Z,tabatkins,document conformance,1
 1812006723,true,Environment settings objects used when fetching a module worker script graph are still wrong,https://github.com/whatwg/html/issues/9535,2023-07-19T13:53:30Z,2023-07-24T06:15:07Z,nicolo-ribaudo,topic: script,0
@@ -89,7 +91,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1788359824,true,"Use ""matches about:blank"" and ""matches about:srcdoc"" in more places",https://github.com/whatwg/html/issues/9488,2023-07-04T19:09:29Z,2023-07-28T00:45:03Z,domfarolino,topic: navigation,1
 1787902159,false,"Showing only a child popover causes ""beforetoggle"" and ""toggle"" events but popover is invisble",https://github.com/whatwg/html/issues/9487,2023-07-04T13:07:44Z,2023-07-12T23:31:37Z,mbrodesser-Igalia,topic: popover,0
 1785504701,true,Input.valueAsNumber can not be manually set to NaN despite it being a valid value for it,https://github.com/whatwg/html/issues/9480,2023-07-03T07:19:15Z,2023-07-03T22:11:25Z,alexandertrefz,,0
-1784674592,false,Proposal: Meta Tag for AI Generated Content,https://github.com/whatwg/html/issues/9479,2023-07-02T14:49:11Z,2023-09-13T03:57:27Z,evayde,addition/proposal|needs implementer interest,11
+1784674592,false,Proposal: Meta Tag for AI Generated Content,https://github.com/whatwg/html/issues/9479,2023-07-02T14:49:11Z,2023-09-13T18:43:01Z,evayde,addition/proposal|needs implementer interest,11
 1782549061,true,Upcoming HTML standard issue triage meeting on 7/13/2023,https://github.com/whatwg/html/issues/9474,2023-06-30T13:38:01Z,2023-07-13T19:37:28Z,past,agenda+,1
 1782419433,false,Define `X-DNS-Prefetch-Control`,https://github.com/whatwg/html/issues/9473,2023-06-30T12:08:13Z,2023-06-30T12:18:22Z,yoavweiss,removal/deprecation|topic: resource hints (inc. preload),0
 1781091258,false,Specify a maximal depth of backtracking for the pattern attribute on input elements,https://github.com/whatwg/html/issues/9469,2023-06-29T15:38:55Z,2023-09-06T06:47:23Z,vinhill,topic: forms|integration,0
@@ -236,7 +238,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1638398517,true,Upcoming HTML standard issue triage meeting on 4/6/2023,https://github.com/whatwg/html/issues/9070,2023-03-23T21:59:20Z,2023-04-06T23:46:33Z,past,agenda+,0
 1637320041,true,Should the Window named properties object return supported named properties in [[OwnPropertyKeys]]?,https://github.com/whatwg/html/issues/9068,2023-03-23T11:14:44Z,2023-03-29T05:59:34Z,delan,clarification,0
 1636539181,false,"""Default fetch and process the linked resource"" does not account for CORS cross-origin fetches, thus preventing cross-origin stylesheets",https://github.com/whatwg/html/issues/9066,2023-03-22T21:45:40Z,2023-03-23T07:43:01Z,Lubrsi,topic: fetch|integration,0
-1636514710,false,Autocomplete on 'contenteditable' Elements,https://github.com/whatwg/html/issues/9065,2023-03-22T21:22:44Z,2023-09-13T08:29:49Z,bmathwig,addition/proposal|topic: forms|needs concrete proposal,0
+1636514710,false,Autocomplete on 'contenteditable' Elements,https://github.com/whatwg/html/issues/9065,2023-03-22T21:22:44Z,2023-09-13T23:52:50Z,bmathwig,addition/proposal|topic: forms|needs concrete proposal,0
 1636347345,true,Support for passing CSS styles to an SVG used via img[src],https://github.com/whatwg/html/issues/9064,2023-03-22T19:03:58Z,2023-03-22T20:10:00Z,brandonmcconnell,,0
 1636271789,true,"Should popover and dialog share the same ""previously focused element""?",https://github.com/whatwg/html/issues/9063,2023-03-22T18:12:00Z,2023-09-04T11:07:45Z,cathiechen,normative change|topic: dialog|topic: popover,0
 1634346770,true,Be able to select for partial attribute names,https://github.com/whatwg/html/issues/9056,2023-03-21T16:57:38Z,2023-03-22T12:36:02Z,keithamus,,1
@@ -696,8 +698,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1212616847,false,[canvas] Define OffscreenCanvasRenderingContext2D's font setter in detail,https://github.com/whatwg/html/issues/7847,2022-04-22T17:37:11Z,2023-05-04T18:52:08Z,emilio,topic: canvas,0
 1211933864,false,How can microtasks run without a task?,https://github.com/whatwg/html/issues/7845,2022-04-22T07:26:22Z,2022-04-25T12:35:33Z,annevk,topic: event loop,0
 1210820388,false,Can a nested worker outlive its parent worker?,https://github.com/whatwg/html/issues/7840,2022-04-21T10:17:56Z,2022-04-21T11:51:55Z,andreubotella,topic: workers,0
-1209001363,false,Make self.name writable in DedicatedWorkerGlobalScope,https://github.com/whatwg/html/issues/7838,2022-04-20T00:24:33Z,2022-04-25T20:00:23Z,connorjclark,addition/proposal|topic: workers,2
-1208006942,false,"Rendering of ""bitmaprenderer""-backed canvas",https://github.com/whatwg/html/issues/7833,2022-04-19T08:51:04Z,2022-11-23T16:36:28Z,annevk,topic: canvas|interop,0
+1209001363,false,Make self.name writable in DedicatedWorkerGlobalScope,https://github.com/whatwg/html/issues/7838,2022-04-20T00:24:33Z,2022-04-25T20:00:23Z,connorjclark,addition/proposal|topic: workers,3
+1208006942,false,"Rendering of ""bitmaprenderer""-backed canvas",https://github.com/whatwg/html/issues/7833,2022-04-19T08:51:04Z,2023-09-13T16:52:38Z,annevk,topic: canvas|interop,0
 1207220491,false,Specify back button history-entry skipping?,https://github.com/whatwg/html/issues/7832,2022-04-18T16:35:55Z,2023-05-27T15:05:01Z,domenic,topic: history|interop|topic: user activation,6
 1206401736,true,Proposal: extend FocusOptions to allow specifying `:focus-visible` behavior.,https://github.com/whatwg/html/issues/7830,2022-04-17T15:04:38Z,2022-07-13T03:58:59Z,emilio,addition/proposal|topic: focus,9
 1206214916,true,Obsolete schema.org in examples. OK to fix?,https://github.com/whatwg/html/issues/7825,2022-04-16T20:59:00Z,2022-04-19T12:54:55Z,edent,,0
@@ -1340,7 +1342,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 741945399,true,Preloading gzip archives,https://github.com/whatwg/html/issues/6147,2020-11-12T21:37:49Z,2020-11-17T20:42:33Z,morris,,2
 741875255,true,"""create a new browsing context"" creates settingsObject but doesn't do anything with it",https://github.com/whatwg/html/issues/6146,2020-11-12T19:39:09Z,2020-11-20T18:24:13Z,ytausky,good first issue,0
 740687303,false,"Add a new `<a target=""_browser"">` browsing context keyword",https://github.com/whatwg/html/issues/6143,2020-11-11T11:18:51Z,2020-11-11T13:12:57Z,tomayac,,6
-739654980,false,Directionality of input element whose type attribute is in the Telephone state,https://github.com/whatwg/html/issues/6140,2020-11-10T07:15:35Z,2020-11-13T02:40:35Z,MyidShin,topic: forms|i18n-tracker|interop|i18n-alreq|i18n-hlreq|i18n-afrlreq,0
+739654980,false,Directionality of input element whose type attribute is in the Telephone state,https://github.com/whatwg/html/issues/6140,2020-11-10T07:15:35Z,2023-09-13T18:56:26Z,MyidShin,topic: forms|i18n-tracker|interop|i18n-alreq|i18n-hlreq|i18n-afrlreq,0
 739368928,true,Standardize on no beforeunload dialog for windows without sticky activation?,https://github.com/whatwg/html/issues/6139,2020-11-09T21:16:45Z,2020-12-02T17:59:19Z,domenic,topic: navigation|interop,0
 739301848,true,"Make loading of link rel=""stylesheet"" optional",https://github.com/whatwg/html/issues/6138,2020-11-09T19:27:04Z,2020-11-09T21:08:27Z,vincentbernat,,0
 738511526,false,Support multiple items of the same type in DataTransfer API for drag and drop,https://github.com/whatwg/html/issues/6136,2020-11-08T17:16:11Z,2021-03-13T08:44:41Z,devongovett,addition/proposal|needs implementer interest|topic: drag and drop,1
@@ -2863,7 +2865,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 269274088,false,ImageBitmapRenderingContext: transferFromImageBitmap should just be transfer,https://github.com/whatwg/html/issues/3167,2017-10-28T01:35:59Z,2018-01-29T06:52:57Z,grorg,normative change|topic: canvas,0
 269273918,false,ImageBitmapRenderingContext: transferFromImageBitmap algorithm sort-of duplicates steps,https://github.com/whatwg/html/issues/3166,2017-10-28T01:33:13Z,2018-01-26T11:33:59Z,grorg,clarification|topic: canvas,1
 269273590,false,ImageBitmapRenderingContext: why create a blank buffer of canvas dimensions?,https://github.com/whatwg/html/issues/3165,2017-10-28T01:27:45Z,2017-11-01T14:50:53Z,grorg,topic: canvas,0
-269273339,false,ImageBitmapRenderingContext: should transferFromImageBitmap update canvas dimensions?,https://github.com/whatwg/html/issues/3164,2017-10-28T01:23:31Z,2018-01-26T10:11:52Z,grorg,clarification|topic: canvas,0
+269273339,false,ImageBitmapRenderingContext: should transferFromImageBitmap update canvas dimensions?,https://github.com/whatwg/html/issues/3164,2017-10-28T01:23:31Z,2023-09-13T16:02:27Z,grorg,clarification|topic: canvas,0
 269218812,false,Should the focused area of the control group change when losing focus?,https://github.com/whatwg/html/issues/3162,2017-10-27T19:59:12Z,2017-11-17T16:52:37Z,avallee,topic: focus,0
 268972943,true,Proposal - named/mapped base URLs,https://github.com/whatwg/html/issues/3161,2017-10-27T02:52:49Z,2021-06-24T21:42:00Z,shannon,addition/proposal|topic: script,4
 268891928,true,"Dev edition: ""About this specification"" is on every page, oops!",https://github.com/whatwg/html/issues/3160,2017-10-26T19:59:56Z,2017-10-31T22:13:41Z,domenic,dev edition,0
@@ -3352,7 +3354,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 202076709,true,"""A 002E FULL STOP character (.)""",https://github.com/whatwg/html/issues/2274,2017-01-20T08:01:35Z,2017-01-21T00:14:48Z,cvrebert,good first issue,0
 201967740,true,Cross-origin getters seem to ask impossible things,https://github.com/whatwg/html/issues/2273,2017-01-19T20:32:34Z,2017-05-16T15:56:02Z,domenic,topic: multiple globals,0
 201825957,false,Disallow interactive content in <summary>,https://github.com/whatwg/html/issues/2272,2017-01-19T10:54:39Z,2023-08-22T16:02:46Z,zcorpan,document conformance|accessibility|a11y-tracker,0
-201312087,false,Make custom attribute rules consistent with custom element name rules,https://github.com/whatwg/html/issues/2271,2017-01-17T15:04:58Z,2022-04-18T18:21:59Z,LeaVerou,addition/proposal|needs implementer interest|topic: custom elements,79
+201312087,false,Make custom attribute rules consistent with custom element name rules,https://github.com/whatwg/html/issues/2271,2017-01-17T15:04:58Z,2022-04-18T18:21:59Z,LeaVerou,addition/proposal|needs implementer interest|topic: custom elements,80
 201247626,true,"Definition of ""User Agent (UA)""",https://github.com/whatwg/html/issues/2270,2017-01-17T11:11:25Z,2017-01-17T16:39:32Z,vkatsikaros,,0
 200765661,true,The pending dialog stack and the stack of top layer,https://github.com/whatwg/html/issues/2268,2017-01-14T00:39:30Z,2017-09-05T09:48:25Z,upsuper,,0
 200730663,false,Clarify DnD behavior when dragging file from file browser over document,https://github.com/whatwg/html/issues/2267,2017-01-13T21:06:03Z,2017-05-09T04:38:13Z,mystor,topic: drag and drop,0
