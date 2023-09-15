@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1896342838,false,Fix an article 'an' to 'a' in FAQ,https://github.com/whatwg/html/pull/9734,2023-09-14T11:11:17Z,2023-09-14T11:11:17Z,ismailarilik,,0
+1896342838,false,Fix an article 'an' to 'a' in FAQ,https://github.com/whatwg/html/pull/9734,2023-09-14T11:11:17Z,2023-09-14T13:39:42Z,ismailarilik,editorial,0
 1889585280,true,Throw TypeError if `window.opener` setter fails to reconfigure the property,https://github.com/whatwg/html/pull/9722,2023-09-11T03:35:29Z,2023-09-11T06:04:16Z,shvaikalesh,,0
 1889175241,false,Add endpoints for specifications needing to parse URLs,https://github.com/whatwg/html/pull/9719,2023-09-10T14:53:53Z,2023-09-13T09:56:29Z,annevk,,0
 1889166861,true,"Editorial: fix ""apply the history step"" wrapper placement",https://github.com/whatwg/html/pull/9718,2023-09-10T14:28:49Z,2023-09-10T15:19:51Z,domenic,topic: navigation,0
@@ -76,7 +76,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1779632972,true,Only use sourceOrigin for all about:-schemed Documents,https://github.com/whatwg/html/pull/9465,2023-06-28T19:43:40Z,2023-07-04T02:38:55Z,domfarolino,clarification|topic: navigation,0
 1779529030,true,Snapshot fallback base URL for about:-schemed Documents,https://github.com/whatwg/html/pull/9464,2023-06-28T18:51:33Z,2023-07-13T20:55:06Z,domfarolino,normative change|topic: navigation,0
 1778497411,true,Synchronously populate non-initial about:blank documents,https://github.com/whatwg/html/pull/9463,2023-06-28T08:50:34Z,2023-07-11T09:13:17Z,domenic,topic: navigation|topic: parser,0
-1778332031,false,Add close requests and close watchers,https://github.com/whatwg/html/pull/9462,2023-06-28T06:57:55Z,2023-08-10T03:29:19Z,domenic,addition/proposal|topic: dialog|topic: popover,3
+1778332031,false,Add close requests and close watchers,https://github.com/whatwg/html/pull/9462,2023-06-28T06:57:55Z,2023-09-14T21:17:54Z,domenic,addition/proposal|topic: dialog|topic: popover,3
 1775374251,false,Ignore DOM state when hiding popovers if needed,https://github.com/whatwg/html/pull/9457,2023-06-26T18:45:19Z,2023-09-05T17:26:38Z,josepharhar,,0
 1775234651,false,add dialogmodaltarget attribute,https://github.com/whatwg/html/pull/9456,2023-06-26T17:17:30Z,2023-08-23T09:36:44Z,keithamus,,2
 1768695537,true,"Editorial rework of directionality ",https://github.com/whatwg/html/pull/9452,2023-06-22T00:09:07Z,2023-08-29T08:32:48Z,bkardell,,0
@@ -92,7 +92,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1754473779,true,source modified,https://github.com/whatwg/html/pull/9418,2023-06-13T09:42:16Z,2023-06-15T13:55:09Z,arup1221,,0
 1750102943,false,Require support for AsyncContext,https://github.com/whatwg/html/pull/9408,2023-06-09T15:28:34Z,2023-06-10T08:44:43Z,Ms2ger,,0
 1749982433,true,Propagate fetch referrer in dynamic imports,https://github.com/whatwg/html/pull/9407,2023-06-09T14:14:59Z,2023-07-04T07:59:05Z,nicolo-ribaudo,normative change|topic: script,0
-1745979749,false,Add name attribute for grouping details elements into an exclusive accordion,https://github.com/whatwg/html/pull/9400,2023-06-07T13:59:20Z,2023-09-03T19:14:13Z,dbaron,addition/proposal|needs implementer interest,0
+1745979749,false,Add name attribute for grouping details elements into an exclusive accordion,https://github.com/whatwg/html/pull/9400,2023-06-07T13:59:20Z,2023-09-14T12:30:16Z,dbaron,addition/proposal|needs implementer interest,0
 1745722348,true,Null checks for img pending request,https://github.com/whatwg/html/pull/9399,2023-06-07T11:52:31Z,2023-06-09T12:15:43Z,zcorpan,,0
 1745244513,true,"Add asserting element's popover invoker is null in the ""show popover"" algorithm",https://github.com/whatwg/html/pull/9397,2023-06-07T07:27:12Z,2023-06-07T20:19:27Z,mbrodesser-Igalia,topic: popover,0
 1745032688,true,"Guard ""close a top-level traversable""",https://github.com/whatwg/html/pull/9396,2023-06-07T04:55:44Z,2023-06-09T05:32:47Z,domenic,topic: browsing context,0
@@ -533,7 +533,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1154005412,true,Do not block the load event for preload,https://github.com/whatwg/html/pull/7670,2022-02-28T11:59:51Z,2022-05-04T14:22:12Z,noamr,topic: link|topic: resource hints (inc. preload),0
 1149781735,true,Editorial: Completion reform for ECMAScript AOs,https://github.com/whatwg/html/pull/7661,2022-02-24T21:46:37Z,2022-02-27T20:58:55Z,syg,,1
 1149728829,true,Make radii argument optional for roundrect,https://github.com/whatwg/html/pull/7659,2022-02-24T20:43:17Z,2022-03-07T15:55:34Z,mysteryDate,topic: canvas,0
-1149587630,false,Import condition,https://github.com/whatwg/html/pull/7658,2022-02-24T18:04:10Z,2023-07-18T22:57:48Z,mirisuzanne,topic: link|topic: style,0
+1149587630,false,Import condition,https://github.com/whatwg/html/pull/7658,2022-02-24T18:04:10Z,2023-09-14T23:41:37Z,mirisuzanne,topic: link|topic: style,0
 1148394531,true,Specify range fetching for media,https://github.com/whatwg/html/pull/7655,2022-02-23T17:46:12Z,2022-04-04T12:47:30Z,noamr,topic: media,0
 1148132338,true,allow-top-navigation-to-custom-protocols,https://github.com/whatwg/html/pull/7654,2022-02-23T14:00:34Z,2022-03-07T15:50:03Z,ArthurSonzogni,addition/proposal|topic: navigation|topic: browsing context|impacts documentation|topic: sandbox,0
 1147929414,true,Remove callerRealm from HostEnsureCanCompileStrings,https://github.com/whatwg/html/pull/7653,2022-02-23T10:44:47Z,2022-04-22T09:06:42Z,antosart,,0
