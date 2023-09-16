@@ -5287,7 +5287,9 @@ api/RTCRtpSynchronizationSource,,59,,,,12.1,,false,true,false,https://w3c.github
 api/RTCRtpSynchronizationSource/voiceActivityFlag,,59,,,,12.1,,false,false,true,,NONE
 api/RTCRtpTransceiver,,59,,69,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#rtcrtptransceiver-interface,W3C
 api/RTCRtpTransceiver/currentDirection,,59,,69,,12.1,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtptransceiver-currentdirection,W3C
+api/RTCRtpTransceiver/currentDirection/stopped_value,,118,,103,,,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtptransceiverdirection-stopped,W3C
 api/RTCRtpTransceiver/direction,,59,,69,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtptransceiver-direction,W3C
+api/RTCRtpTransceiver/direction/value_stopped,,118,,103,,,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtptransceiverdirection-stopped,W3C
 api/RTCRtpTransceiver/mid,,59,,69,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtptransceiver-mid,W3C
 api/RTCRtpTransceiver/receiver,,59,,69,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtptransceiver-receiver,W3C
 api/RTCRtpTransceiver/sender,,59,,69,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtptransceiver-sender,W3C
@@ -6822,8 +6824,8 @@ api/TextMetrics/actualBoundingBoxDescent,,74,,77,,11.1,,false,true,false,https:/
 api/TextMetrics/actualBoundingBoxLeft,,74,,77,,11.1,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-textmetrics-actualboundingboxleft-dev,WHATWG
 api/TextMetrics/actualBoundingBoxRight,,74,,77,,11.1,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-textmetrics-actualboundingboxright-dev,WHATWG
 api/TextMetrics/alphabeticBaseline,,116,,,,11.1,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-textmetrics-alphabeticbaseline-dev,WHATWG
-api/TextMetrics/emHeightAscent,,74,"[{""name"":""dom.textMetrics.emHeight.enabled"",""type"":""preference"",""value_to_set"":""true""}]",35,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference""}]",11.1,,true,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-textmetrics-emheightascent-dev,WHATWG
-api/TextMetrics/emHeightDescent,,74,"[{""name"":""dom.textMetrics.emHeight.enabled"",""type"":""preference"",""value_to_set"":""true""}]",35,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference""}]",11.1,,true,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-textmetrics-emheightdescent-dev,WHATWG
+api/TextMetrics/emHeightAscent,,118,,77,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference""}]",11.1,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-textmetrics-emheightascent-dev,WHATWG
+api/TextMetrics/emHeightDescent,,118,,77,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference""}]",11.1,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-textmetrics-emheightdescent-dev,WHATWG
 api/TextMetrics/fontBoundingBoxAscent,,116,,87,,11.1,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-textmetrics-fontboundingboxascent-dev,WHATWG
 api/TextMetrics/fontBoundingBoxDescent,,116,,87,,11.1,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-textmetrics-fontboundingboxdescent-dev,WHATWG
 api/TextMetrics/hangingBaseline,,116,,,,11.1,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-textmetrics-hangingbaseline-dev,WHATWG
@@ -7854,6 +7856,7 @@ api/Window/beforeinstallprompt_event,,,,61,,,,false,true,false,https://wicg.gith
 api/Window/beforeprint_event,,6,,63,,13,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-beforeprint,WHATWG
 api/Window/beforeunload_event,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-beforeunload,WHATWG
 api/Window/beforeunload_event/event_returnvalue_activation,,6,,30,,8,,false,true,true,,NONE
+api/Window/beforeunload_event/generic_string_displayed,,44,,51,,9.1,,false,true,true,,NONE
 api/Window/beforeunload_event/preventdefault_activation,,6,,,,11,,false,true,false,,NONE
 api/Window/beforeunload_event/return_string_activation,,1,,1,,3,,false,true,true,,NONE
 api/Window/blur,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-window-blur,WHATWG
@@ -9036,7 +9039,8 @@ css/properties/font-size/math,,117,,109,,,,false,true,false,,NONE
 css/properties/font-size/rem_values,,31,,31,,7,,false,true,false,,NONE
 css/properties/font-size/xxx-large,,70,,79,,16.4,,false,true,false,,NONE
 css/properties/font-size-adjust,,3,,,,16.4,,false,true,false,https://drafts.csswg.org/css-fonts-5/#font-size-adjust-prop,W3C
-css/properties/font-size-adjust/two-values,,92,,,,17,,false,true,false,https://drafts.csswg.org/css-fonts-5/#font-size-adjust-prop,W3C
+css/properties/font-size-adjust/from-font,,118,,,,17,,false,true,false,,NONE
+css/properties/font-size-adjust/two-values,,92,,,,17,,false,true,false,,NONE
 css/properties/font-smooth,,25,,5,,4,,false,false,false,,NONE
 css/properties/font-stretch,,9,,60,,11,,false,true,false,https://drafts.csswg.org/css-fonts/#font-stretch-prop,W3C
 css/properties/font-stretch/percentage,,61,,62,,11.1,,false,true,false,,NONE
@@ -11000,7 +11004,7 @@ http/headers/Retry-After,,,,,,,,false,true,false,https://www.rfc-editor.org/rfc/
 http/headers/Save-Data,,,,49,,,,true,true,false,https://wicg.github.io/savedata/#save-data-request-header-field,W3CCG
 http/headers/Sec-CH-Prefers-Color-Scheme,,,,93,,,,true,true,false,https://wicg.github.io/user-preference-media-features-headers/#sec-ch-prefers-color-scheme,W3CCG
 http/headers/Sec-CH-Prefers-Reduced-Motion,,,,108,,,,true,true,false,https://wicg.github.io/user-preference-media-features-headers/#sec-ch-prefers-reduced-motion,W3CCG
-http/headers/Sec-CH-Prefers-Reduced-Transparency,,,,118,,,,true,true,false,https://wicg.github.io/user-preference-media-features-headers/#sec-ch-prefers-reduced-transparency,W3CCG
+http/headers/Sec-CH-Prefers-Reduced-Transparency,,,,119,,,,true,true,false,https://wicg.github.io/user-preference-media-features-headers/#sec-ch-prefers-reduced-transparency,W3CCG
 http/headers/Sec-CH-Save-Data,,,,102,,,,true,true,false,,NONE
 http/headers/Sec-CH-UA,,,,89,,,,true,true,false,https://wicg.github.io/ua-client-hints/#sec-ch-ua,W3CCG
 http/headers/Sec-CH-UA-Arch,,,,89,,,,true,true,false,https://wicg.github.io/ua-client-hints/#sec-ch-ua-arch,W3CCG
