@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1899506717,false,"Missing links in ""Kinds of content"" list",https://github.com/whatwg/html/issues/9748,2023-09-16T17:14:26Z,2023-09-16T17:14:26Z,lauch788,,0
 1898699206,false,`<details>` element does not fire a `beforetoggle` event.,https://github.com/whatwg/html/issues/9743,2023-09-15T15:53:21Z,2023-09-15T15:57:08Z,keithamus,addition/proposal|topic: events,0
 1898282732,false,Make the currentTime setter clamp to duration,https://github.com/whatwg/html/issues/9742,2023-09-15T12:01:03Z,2023-09-15T14:12:57Z,foolip,topic: media,0
 1897463521,false,<link rel=preconnect> doesn't support the media attribute,https://github.com/whatwg/html/issues/9737,2023-09-14T23:06:06Z,2023-09-14T23:06:06Z,zcorpan,topic: link|topic: resource hints (inc. preload),0
@@ -7,7 +8,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1895159373,true,StructuredClone of prototype objects,https://github.com/whatwg/html/issues/9730,2023-09-13T19:47:08Z,2023-09-14T07:24:25Z,ADKaster,,0
 1894241096,false,"[Cookie Layering] Add a ""has cross-site ancestor"" bit to pass on to Fetch",https://github.com/whatwg/html/issues/9729,2023-09-13T10:33:38Z,2023-09-13T16:29:49Z,johannhof,addition/proposal|topic: fetch|needs concrete proposal,0
 1894172116,false,Use HTML's URL-parser wrapper in EventSource,https://github.com/whatwg/html/issues/9728,2023-09-13T09:54:35Z,2023-09-13T09:54:35Z,domenic,clarification|topic: eventsource,0
-1890555238,false,spec should be clearer about what CORS-same-origin means,https://github.com/whatwg/html/issues/9726,2023-09-11T13:45:26Z,2023-09-16T00:49:42Z,dbaron,clarification|topic: fetch,0
+1890555238,false,spec should be clearer about what CORS-same-origin means,https://github.com/whatwg/html/issues/9726,2023-09-11T13:45:26Z,2023-09-16T15:01:07Z,dbaron,clarification|topic: fetch,0
 1890529724,false,Define user-agent <details> legend in rendering section,https://github.com/whatwg/html/issues/9725,2023-09-11T13:33:02Z,2023-09-14T08:32:01Z,annevk,topic: shadow|topic: rendering,0
 1890451089,false,"Can we consolidate ""execution ready flag"" and ""scripts may run for the newly-created document""?",https://github.com/whatwg/html/issues/9724,2023-09-11T12:55:42Z,2023-09-11T13:38:19Z,domenic,topic: navigation,0
 1889491307,false,We need something like `requestFinalFrame()` to run logic after all `*Observer` callbacks,https://github.com/whatwg/html/issues/9721,2023-09-11T01:59:03Z,2023-09-11T10:16:09Z,trusktr,addition/proposal,0
@@ -36,7 +37,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1871074320,false,Proposal: Allow sites to target navigations at split tabs,https://github.com/whatwg/html/issues/9644,2023-08-29T07:34:46Z,2023-09-14T19:22:07Z,xuzhengyi1995,addition/proposal|needs implementer interest,6
 1870830199,true,404,https://github.com/whatwg/html/issues/9643,2023-08-29T03:49:27Z,2023-08-30T08:16:45Z,ToBeJazz,,0
 1868260579,true,Dialog initial focus when dialog contains a slot element,https://github.com/whatwg/html/issues/9640,2023-08-26T20:31:00Z,2023-08-30T07:33:58Z,josepharhar,topic: shadow|topic: focus,0
-1867981093,false,Define :user-invalid / :user-valid for form-associated custom elements,https://github.com/whatwg/html/issues/9639,2023-08-26T08:41:03Z,2023-09-16T06:45:58Z,nt1m,addition/proposal|topic: custom elements|topic: forms,0
+1867981093,false,Define :user-invalid / :user-valid for form-associated custom elements,https://github.com/whatwg/html/issues/9639,2023-08-26T08:41:03Z,2023-09-16T18:29:08Z,nt1m,addition/proposal|topic: custom elements|topic: forms,0
 1867975363,false,Make cloneNode() copy files of <input type=file>,https://github.com/whatwg/html/issues/9638,2023-08-26T08:26:25Z,2023-08-26T08:26:25Z,annevk,topic: forms,0
 1866648537,true,"""note about 103 and HTTP/2"" makes normative assertion",https://github.com/whatwg/html/issues/9637,2023-08-25T09:01:04Z,2023-09-04T08:30:18Z,annevk,,1
 1866045497,true,Treat .d/ as same-origin for file:// URLs,https://github.com/whatwg/html/issues/9635,2023-08-25T00:06:41Z,2023-08-25T10:32:24Z,SoniEx2,,0
@@ -1597,7 +1598,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 607075310,true,contenteditable elements should be focusable areas,https://github.com/whatwg/html/issues/5487,2020-04-26T18:05:58Z,2020-04-28T14:02:21Z,TimothyGu,topic: editing,1
 607073471,true,execCommand.html dead link,https://github.com/whatwg/html/issues/5486,2020-04-26T17:59:13Z,2020-06-25T14:09:04Z,TimothyGu,topic: editing,0
 606781021,true,Clarify sync vs async nature of Worker::postMessage,https://github.com/whatwg/html/issues/5485,2020-04-25T14:28:53Z,2020-04-28T11:40:07Z,RReverser,topic: serialize and transfer,0
-606593641,true,Reparenting iframes without reloading,https://github.com/whatwg/html/issues/5484,2020-04-24T21:26:55Z,2023-09-14T16:14:16Z,josepharhar,addition/proposal|needs implementer interest,9
+606593641,true,Reparenting iframes without reloading,https://github.com/whatwg/html/issues/5484,2020-04-24T21:26:55Z,2023-09-16T20:23:09Z,josepharhar,addition/proposal|needs implementer interest,9
 603962190,true,COEP: define it as a structure header,https://github.com/whatwg/html/issues/5477,2020-04-21T12:34:08Z,2020-04-21T12:45:26Z,empijei,topic: cross-origin-embedder-policy,0
 603754207,false,Is there a proposal for the date range for input?,https://github.com/whatwg/html/issues/5475,2020-04-21T06:54:00Z,2020-10-05T22:45:33Z,cawa-93,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,0
 603733496,true,Should <iframe srcdoc>'s referrer policy reflect updates to parent's referrer policy changes after <iframe> creation?,https://github.com/whatwg/html/issues/5474,2020-04-21T06:10:26Z,2021-06-24T20:15:52Z,hiroshige-g,normative change,1
@@ -1833,7 +1834,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 512330703,false,Meta referrer being able to loosen Referrer-Policy header restrictions is a security vulnerability,https://github.com/whatwg/html/issues/5041,2019-10-25T06:34:26Z,2022-05-31T13:48:55Z,chris-morgan,,0
 512069720,false,HTML sandbox form restriction bypass when scripts allowed,https://github.com/whatwg/html/issues/5040,2019-10-24T17:05:19Z,2019-10-25T15:11:31Z,tsangtmc,clarification|security/privacy,0
 511584833,false,HTMLConstructor construction steps: inconsistent evaluation order/error cases in implementations,https://github.com/whatwg/html/issues/5037,2019-10-23T21:35:34Z,2019-10-24T08:54:23Z,bathos,topic: custom elements|interop,0
-510489260,false,Consider adding a headinglevelstart attribute,https://github.com/whatwg/html/issues/5033,2019-10-22T07:57:09Z,2023-09-15T23:57:44Z,annevk,addition/proposal|accessibility,8
+510489260,false,Consider adding a headinglevelstart attribute,https://github.com/whatwg/html/issues/5033,2019-10-22T07:57:09Z,2023-09-16T16:28:38Z,annevk,addition/proposal|accessibility,8
 509880741,true,---------,https://github.com/whatwg/html/issues/5029,2019-10-21T10:42:33Z,2019-10-22T04:41:25Z,dhilip89,,0
 509693572,true,delegatesFocus doesn't work well with autofocus,https://github.com/whatwg/html/issues/5027,2019-10-21T02:13:20Z,2019-11-11T16:44:20Z,tkent-google,topic: focus,0
 509685886,true,Code Regions,https://github.com/whatwg/html/issues/5026,2019-10-21T01:32:06Z,2019-10-21T16:16:12Z,AdamSobieski,,0
