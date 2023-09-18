@@ -1,13 +1,14 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1900786704,false,Editorial: correct MathML references,https://github.com/whatwg/html/pull/9751,2023-09-18T12:03:18Z,2023-09-18T12:05:05Z,annevk,,0
 1899339551,true,improve workere test.html,https://github.com/whatwg/html/pull/9747,2023-09-16T07:36:54Z,2023-09-16T11:03:53Z,B2-krunalrana,spam,0
-1896342838,false,Fix an article 'an' to 'a' in FAQ,https://github.com/whatwg/html/pull/9734,2023-09-14T11:11:17Z,2023-09-15T05:38:25Z,ismailarilik,editorial,0
+1896342838,false,Fix an article 'an' to 'a' in FAQ,https://github.com/whatwg/html/pull/9734,2023-09-14T11:11:17Z,2023-09-18T10:32:12Z,ismailarilik,editorial,0
 1889585280,true,Throw TypeError if `window.opener` setter fails to reconfigure the property,https://github.com/whatwg/html/pull/9722,2023-09-11T03:35:29Z,2023-09-11T06:04:16Z,shvaikalesh,,0
 1889175241,false,Add endpoints for specifications needing to parse URLs,https://github.com/whatwg/html/pull/9719,2023-09-10T14:53:53Z,2023-09-16T14:53:40Z,annevk,,0
 1889166861,true,"Editorial: fix ""apply the history step"" wrapper placement",https://github.com/whatwg/html/pull/9718,2023-09-10T14:28:49Z,2023-09-10T15:19:51Z,domenic,topic: navigation,0
 1889164710,true,"Editorial: rename and explain Document's ""navigation id""",https://github.com/whatwg/html/pull/9717,2023-09-10T14:22:24Z,2023-09-10T15:14:37Z,domenic,,0
 1889144523,true,Fix target step when creating a child navigable,https://github.com/whatwg/html/pull/9716,2023-09-10T13:21:51Z,2023-09-10T15:14:00Z,domenic,topic: navigation,0
-1888911982,false,feat: adding a beginner-level HTML cheatsheet,https://github.com/whatwg/html/pull/9714,2023-09-10T00:13:53Z,2023-09-10T00:13:53Z,CBID2,,0
-1888887149,false,Fix setTimeout() when there's no active script,https://github.com/whatwg/html/pull/9712,2023-09-09T22:06:18Z,2023-09-12T22:21:07Z,domenic,topic: script,0
+1888911982,true,feat: adding a beginner-level HTML cheatsheet,https://github.com/whatwg/html/pull/9714,2023-09-10T00:13:53Z,2023-09-18T07:01:17Z,CBID2,,0
+1888887149,false,Fix setTimeout() when there's no active script,https://github.com/whatwg/html/pull/9712,2023-09-09T22:06:18Z,2023-09-18T09:49:49Z,domenic,topic: script,0
 1887758575,true,Editorial: refactor parse a url,https://github.com/whatwg/html/pull/9709,2023-09-08T14:05:55Z,2023-09-10T13:11:21Z,annevk,,0
 1886397562,true,docs: fix typo,https://github.com/whatwg/html/pull/9704,2023-09-07T18:37:18Z,2023-09-10T13:20:27Z,zyachel,,0
 1884164093,true,Add diff.py to diff individual sections of the source file,https://github.com/whatwg/html/pull/9700,2023-09-06T14:40:42Z,2023-09-08T01:15:17Z,not-my-profile,,0
@@ -17,7 +18,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1881650840,true,Mark window.clientInformation [Replaceable],https://github.com/whatwg/html/pull/9688,2023-09-05T10:09:52Z,2023-09-06T16:59:20Z,annevk,,0
 1881492557,true,Correct some element references in <link rel=stylesheet>,https://github.com/whatwg/html/pull/9685,2023-09-05T08:39:15Z,2023-09-06T05:13:52Z,annevk,topic: link,0
 1881425896,true,Editorial: add parse and serialize a URL,https://github.com/whatwg/html/pull/9684,2023-09-05T08:00:14Z,2023-09-06T08:33:05Z,annevk,,0
-1880220474,false,"Rename ""auto popover list"" to ""showing auto popover list""",https://github.com/whatwg/html/pull/9680,2023-09-04T12:50:32Z,2023-09-04T12:52:00Z,josepharhar,,0
+1880220474,false,"Rename ""auto popover list"" to ""showing auto popover list""",https://github.com/whatwg/html/pull/9680,2023-09-04T12:50:32Z,2023-09-18T10:05:40Z,josepharhar,,0
 1876998445,true,No longer allow a policy exception just for workers,https://github.com/whatwg/html/pull/9668,2023-09-01T08:35:46Z,2023-09-04T06:31:05Z,annevk,topic: workers,0
 1876900917,true,"Editorial: uniformize list-based ""or""s and ""and""s",https://github.com/whatwg/html/pull/9667,2023-09-01T07:29:07Z,2023-09-01T08:03:18Z,domenic,,0
 1875313284,true,Editorial: Replace 'unique origin' with 'unique opaque origin',https://github.com/whatwg/html/pull/9666,2023-08-31T11:11:20Z,2023-08-31T13:05:12Z,mozfreddyb,,1
@@ -49,7 +50,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2023-08-31T19:28:51Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms|needs tests,4
 1813916540,true,This Pull Request implements form validation on the HTML <output> element to display the calculated result.,https://github.com/whatwg/html/pull/9544,2023-07-20T12:44:22Z,2023-07-20T13:26:04Z,cijian23,spam,1
 1813671797,true,Use correct settings object for modules imported in workers,https://github.com/whatwg/html/pull/9541,2023-07-20T10:34:11Z,2023-07-24T07:22:54Z,nicolo-ribaudo,topic: script,0
-1812982540,false,Add setHTMLUnsafe and parseHTMLUnsafe methods,https://github.com/whatwg/html/pull/9538,2023-07-20T01:31:03Z,2023-09-09T18:14:49Z,josepharhar,addition/proposal|topic: parser,0
+1812982540,false,Add setHTMLUnsafe and parseHTMLUnsafe methods,https://github.com/whatwg/html/pull/9538,2023-07-20T01:31:03Z,2023-09-18T11:47:20Z,josepharhar,addition/proposal|topic: parser,0
 1812629719,false,Add a layer and filter interface in the 2D canvas,https://github.com/whatwg/html/pull/9537,2023-07-19T19:49:25Z,2023-08-07T19:11:24Z,graveljp,,0
 1810870126,true,Define srcdoc documents as matching about:srcdoc URL,https://github.com/whatwg/html/pull/9534,2023-07-18T23:37:14Z,2023-07-20T03:49:15Z,domfarolino,topic: browsing context|topic: document.open()|topic: javascript: URLs,0
 1810164917,true,Fix non-fetch-scheme-params-initiator-origin assignment,https://github.com/whatwg/html/pull/9532,2023-07-18T15:25:02Z,2023-07-19T07:17:21Z,domfarolino,topic: navigation,0
@@ -305,7 +306,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1441219248,true,Expand non-fetch-scheme navigation params to include more,https://github.com/whatwg/html/pull/8485,2022-11-09T02:01:44Z,2023-05-08T08:14:25Z,domfarolino,clarification|topic: navigation,0
 1438727224,true,Adjust adjective used to describe Jake Archibald.,https://github.com/whatwg/html/pull/8482,2022-11-07T17:32:05Z,2022-11-08T14:36:08Z,jeremyroman,,0
 1437908085,true,Minor fixes to session history traversal step appending,https://github.com/whatwg/html/pull/8480,2022-11-07T07:44:52Z,2022-11-07T12:10:15Z,domenic,topic: history,0
-1435689773,true,Added content to DOM clobbering note,https://github.com/whatwg/html/pull/8474,2022-11-04T07:51:14Z,2023-09-14T06:38:06Z,mohit-marathe,,0
+1435689773,true,Added content to DOM clobbering note,https://github.com/whatwg/html/pull/8474,2022-11-04T07:51:14Z,2023-09-18T07:55:17Z,mohit-marathe,,0
 1435662324,true,Meta: use <p> for subheading instead of <h2>,https://github.com/whatwg/html/pull/8473,2022-11-04T07:18:58Z,2022-11-07T12:01:10Z,domenic,,0
 1435380302,true,Use correct properties for progress element,https://github.com/whatwg/html/pull/8471,2022-11-03T23:49:55Z,2022-11-21T17:27:13Z,dizhang168,,0
 1435209005,true,Add the Priority Hints changes to the html spec,https://github.com/whatwg/html/pull/8470,2022-11-03T20:16:05Z,2023-02-17T06:10:16Z,pmeenan,,0
@@ -1328,7 +1329,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 603334448,true,Update worker global scope's owner set earlier,https://github.com/whatwg/html/pull/5472,2020-04-20T15:39:13Z,2020-04-28T14:50:35Z,domenic,topic: workers,0
 603319225,true,Align on what we call implementation-defined,https://github.com/whatwg/html/pull/5471,2020-04-20T15:17:56Z,2020-04-20T16:31:12Z,annevk,,0
 603266759,false,Integrate with Reporting API,https://github.com/whatwg/html/pull/5470,2020-04-20T14:07:15Z,2022-08-22T02:36:09Z,clelland,,0
-602258520,false,Add declarative Shadow DOM features,https://github.com/whatwg/html/pull/5465,2020-04-17T22:04:40Z,2023-09-15T17:26:32Z,mfreed7,do not merge yet|topic: shadow|impacts documentation,12
+602258520,false,Add declarative Shadow DOM features,https://github.com/whatwg/html/pull/5465,2020-04-17T22:04:40Z,2023-09-18T08:33:19Z,mfreed7,do not merge yet|topic: shadow|impacts documentation,12
 601071702,true,Change how minimum used value for line-height works,https://github.com/whatwg/html/pull/5462,2020-04-16T13:50:43Z,2022-02-11T00:04:30Z,zcorpan,,0
 599834801,true,Remove report long tasks from update the rendering,https://github.com/whatwg/html/pull/5459,2020-04-14T20:21:05Z,2020-04-15T20:03:05Z,npm1,integration,0
 599421153,true,Expand IME  to 'input method editor',https://github.com/whatwg/html/pull/5458,2020-04-14T09:18:47Z,2020-04-14T15:00:36Z,36degrees,clarification,0
