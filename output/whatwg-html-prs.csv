@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1904941276,false,Specify URL encoding for links (header+element),https://github.com/whatwg/html/pull/9764,2023-09-20T12:56:24Z,2023-09-20T14:44:07Z,noamr,,0
+1904941276,false,Specify URL encoding for links (header+element),https://github.com/whatwg/html/pull/9764,2023-09-20T12:56:24Z,2023-09-21T06:38:35Z,noamr,,0
 1902888166,false,Make navigate() use UTF-8 in the URL parser,https://github.com/whatwg/html/pull/9756,2023-09-19T12:36:19Z,2023-09-19T12:37:46Z,annevk,normative change|topic: navigation,0
 1902869687,true,Editorial: remove API URL character encoding,https://github.com/whatwg/html/pull/9755,2023-09-19T12:25:50Z,2023-09-19T15:11:58Z,annevk,,0
 1901979709,false,Add showPicker to <select> elements,https://github.com/whatwg/html/pull/9754,2023-09-19T00:31:48Z,2023-09-20T21:16:30Z,lukewarlow,,0
@@ -33,7 +33,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1873822118,true,Further clarification of the Early Hints HTTP/2 note,https://github.com/whatwg/html/pull/9660,2023-08-30T14:38:22Z,2023-09-04T08:30:17Z,tunetheweb,,0
 1873655608,true,Editorial: Replace 'unique origin' with 'opaque origin',https://github.com/whatwg/html/pull/9659,2023-08-30T13:12:49Z,2023-08-30T16:04:44Z,mozfreddyb,,1
 1871552267,true,Update WebDriver-BiDi user prompt algorithm,https://github.com/whatwg/html/pull/9645,2023-08-29T12:20:12Z,2023-09-06T08:06:07Z,Lightning00Blade,,0
-1870044735,false,Provide more context around the permissibility of the XHTML slash on void elements,https://github.com/whatwg/html/pull/9642,2023-08-28T16:03:55Z,2023-08-29T04:02:58Z,hsivonen,,1
+1870044735,false,Provide more context around the permissibility of the XHTML slash on void elements,https://github.com/whatwg/html/pull/9642,2023-08-28T16:03:55Z,2023-09-21T02:07:07Z,hsivonen,,1
 1864466821,true,Use DOM manipulation task source for firing popover toggle event,https://github.com/whatwg/html/pull/9630,2023-08-24T06:05:51Z,2023-08-25T19:10:42Z,sideshowbarker,,0
 1864088245,true,Add hasUAVisualTransition to PopStateEventInit and NavigateEventInit,https://github.com/whatwg/html/pull/9628,2023-08-23T22:14:38Z,2023-08-24T21:26:43Z,ADKaster,,0
 1863213592,true,"Editorial: Remove unused variable in ""create a JavaScript module script""",https://github.com/whatwg/html/pull/9626,2023-08-23T12:14:16Z,2023-08-23T16:48:58Z,nicolo-ribaudo,clarification|topic: script,0
@@ -52,10 +52,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1818258169,true,Make the directionality account for missing parent element,https://github.com/whatwg/html/pull/9554,2023-07-24T11:49:33Z,2023-08-31T05:41:01Z,annevk,i18n-tracker,1
 1817297523,true,Tweak `thead` description to clarify it can contain non-header cells,https://github.com/whatwg/html/pull/9552,2023-07-23T21:11:39Z,2023-07-25T09:17:22Z,patrickhlauke,,0
 1815020757,false,selectmenu,https://github.com/whatwg/html/pull/9547,2023-07-21T01:27:53Z,2023-07-21T02:52:23Z,josepharhar,,1
-1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2023-08-31T19:28:51Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms|needs tests,4
+1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2023-09-21T12:05:33Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms|needs tests,4
 1813916540,true,This Pull Request implements form validation on the HTML <output> element to display the calculated result.,https://github.com/whatwg/html/pull/9544,2023-07-20T12:44:22Z,2023-07-20T13:26:04Z,cijian23,spam,1
 1813671797,true,Use correct settings object for modules imported in workers,https://github.com/whatwg/html/pull/9541,2023-07-20T10:34:11Z,2023-07-24T07:22:54Z,nicolo-ribaudo,topic: script,0
-1812982540,false,Add setHTMLUnsafe and parseHTMLUnsafe methods,https://github.com/whatwg/html/pull/9538,2023-07-20T01:31:03Z,2023-09-18T11:47:20Z,josepharhar,addition/proposal|topic: parser,0
+1812982540,false,Add setHTMLUnsafe and parseHTMLUnsafe methods,https://github.com/whatwg/html/pull/9538,2023-07-20T01:31:03Z,2023-09-21T06:43:57Z,josepharhar,addition/proposal|topic: parser,0
 1812629719,false,Add a layer and filter interface in the 2D canvas,https://github.com/whatwg/html/pull/9537,2023-07-19T19:49:25Z,2023-08-07T19:11:24Z,graveljp,,0
 1810870126,true,Define srcdoc documents as matching about:srcdoc URL,https://github.com/whatwg/html/pull/9534,2023-07-18T23:37:14Z,2023-07-20T03:49:15Z,domfarolino,topic: browsing context|topic: document.open()|topic: javascript: URLs,0
 1810164917,true,Fix non-fetch-scheme-params-initiator-origin assignment,https://github.com/whatwg/html/pull/9532,2023-07-18T15:25:02Z,2023-07-19T07:17:21Z,domfarolino,topic: navigation,0
@@ -83,9 +83,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1779632972,true,Only use sourceOrigin for all about:-schemed Documents,https://github.com/whatwg/html/pull/9465,2023-06-28T19:43:40Z,2023-07-04T02:38:55Z,domfarolino,clarification|topic: navigation,0
 1779529030,true,Snapshot fallback base URL for about:-schemed Documents,https://github.com/whatwg/html/pull/9464,2023-06-28T18:51:33Z,2023-07-13T20:55:06Z,domfarolino,normative change|topic: navigation,0
 1778497411,true,Synchronously populate non-initial about:blank documents,https://github.com/whatwg/html/pull/9463,2023-06-28T08:50:34Z,2023-07-11T09:13:17Z,domenic,topic: navigation|topic: parser,0
-1778332031,false,Add close requests and close watchers,https://github.com/whatwg/html/pull/9462,2023-06-28T06:57:55Z,2023-09-14T21:17:54Z,domenic,addition/proposal|topic: dialog|topic: popover,3
+1778332031,false,Add close requests and close watchers,https://github.com/whatwg/html/pull/9462,2023-06-28T06:57:55Z,2023-09-21T09:25:20Z,domenic,addition/proposal|topic: dialog|topic: popover,3
 1775374251,false,Ignore DOM state when hiding popovers if needed,https://github.com/whatwg/html/pull/9457,2023-06-26T18:45:19Z,2023-09-05T17:26:38Z,josepharhar,,0
-1775234651,false,add dialogmodaltarget attribute,https://github.com/whatwg/html/pull/9456,2023-06-26T17:17:30Z,2023-08-23T09:36:44Z,keithamus,,2
+1775234651,true,add dialogmodaltarget attribute,https://github.com/whatwg/html/pull/9456,2023-06-26T17:17:30Z,2023-09-21T10:30:44Z,keithamus,,2
 1768695537,true,"Editorial rework of directionality ",https://github.com/whatwg/html/pull/9452,2023-06-22T00:09:07Z,2023-08-29T08:32:48Z,bkardell,,0
 1768470617,true,Make togglePopover throw more exceptions,https://github.com/whatwg/html/pull/9451,2023-06-21T20:56:50Z,2023-06-28T14:34:58Z,josepharhar,topic: popover,0
 1763558894,true,Editorial: remove plugin language from media elements,https://github.com/whatwg/html/pull/9440,2023-06-19T13:32:54Z,2023-06-20T06:28:12Z,annevk,,0
@@ -214,7 +214,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1609116589,true,mudei o titulo (apenas teste),https://github.com/whatwg/html/pull/8981,2023-03-03T19:02:37Z,2023-03-03T23:29:24Z,joaopedro-123,spam,0
 1609111532,true,Clarify how to use reflect in a specification,https://github.com/whatwg/html/pull/8980,2023-03-03T18:58:16Z,2023-03-08T14:04:45Z,annevk,clarification|topic: reflect,0
 1607371234,true,Correct WAI-ARIA integration for custom elements,https://github.com/whatwg/html/pull/8974,2023-03-02T19:27:51Z,2023-03-07T01:25:54Z,annevk,accessibility|a11y-tracker|topic: reflect,0
-1606245718,false,Add steps to destroy documents that are ineligible for receiving message when posting message through broadcast channel,https://github.com/whatwg/html/pull/8972,2023-03-02T07:26:20Z,2023-09-20T08:41:32Z,lozy219,topic: history|topic: serialize and transfer,0
+1606245718,false,Add steps to destroy documents that are ineligible for receiving message when posting message through broadcast channel,https://github.com/whatwg/html/pull/8972,2023-03-02T07:26:20Z,2023-09-21T08:22:42Z,lozy219,topic: history|topic: serialize and transfer,0
 1605729923,true,Define auto popover list in terms of the top layer,https://github.com/whatwg/html/pull/8969,2023-03-01T22:04:40Z,2023-03-03T14:19:15Z,annevk,topic: popover,0
 1605681428,true,Topmost clicked popover takes one argument,https://github.com/whatwg/html/pull/8967,2023-03-01T21:19:06Z,2023-03-03T14:16:07Z,annevk,topic: popover,0
 1605407010,true,Change endpoint check from null to document,https://github.com/whatwg/html/pull/8966,2023-03-01T17:50:43Z,2023-03-01T23:00:36Z,josepharhar,topic: popover,0
