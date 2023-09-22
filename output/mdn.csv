@@ -9430,6 +9430,7 @@ css/properties/offset-path/basic-shape,,116,"[{""name"":""layout.css.motion-path
 css/properties/offset-path/coord-box,,116,"[{""name"":""layout.css.motion-path-coord-box.enabled"",""type"":""preference"",""value_to_set"":""true""}]",116,,,,true,true,false,,NONE
 css/properties/offset-path/path,,72,,64,,preview,,false,true,false,,NONE
 css/properties/offset-path/ray,,112,"[{""name"":""layout.css.motion-path-ray.enabled"",""type"":""preference"",""value_to_set"":""true""}]",116,,preview,,false,true,false,,NONE
+css/properties/offset-path/url,,118,"[{""name"":""layout.css.motion-path-url.enabled"",""type"":""preference"",""value_to_set"":""true""}]",116,,17,,false,true,false,,NONE
 css/properties/offset-position,,116,"[{""name"":""layout.css.motion-path-offset-position.enabled"",""type"":""preference"",""value_to_set"":""true""}]",116,,preview,,true,true,false,https://drafts.fxtf.org/motion/#offset-position-property,W3C
 css/properties/offset-position/normal,,116,"[{""name"":""layout.css.motion-path-offset-position.enabled"",""type"":""preference"",""value_to_set"":""true""}]",116,,,,false,true,false,,NONE
 css/properties/offset-rotate,,72,,56,,preview,,false,true,false,https://drafts.fxtf.org/motion/#offset-rotate-property,W3C
@@ -10932,7 +10933,7 @@ http/headers/Expires,,true,,true,,true,,false,true,false,https://www.rfc-editor.
 http/headers/Feature-Policy,,74,,60,,11.1,,false,true,false,https://w3c.github.io/webappsec-permissions-policy/#permissions-policy-http-header-field,W3C
 http/headers/Feature-Policy/accelerometer,,,,67,,,,true,true,false,https://w3c.github.io/accelerometer/#ref-for-policy-controlled-feature,W3C
 http/headers/Feature-Policy/ambient-light-sensor,,,,67,,,,true,true,false,https://w3c.github.io/ambient-light/#ref-for-policy-controlled-feature,W3C
-http/headers/Feature-Policy/autoplay,,74,"[{""name"":""dom.security.featurePolicy.header.enabled"",""type"":""preference"",""value_to_set"":""true""}]",64,,,,true,true,false,https://html.spec.whatwg.org/multipage/infrastructure.html#autoplay-feature,WHATWG
+http/headers/Feature-Policy/autoplay,,74,,64,,,,false,true,false,https://html.spec.whatwg.org/multipage/infrastructure.html#autoplay-feature,WHATWG
 http/headers/Feature-Policy/battery,,,,,,,,true,true,false,https://w3c.github.io/battery/#permissions-policy-integration,W3C
 http/headers/Feature-Policy/camera,,74,,60,,11.1,,false,true,false,https://w3c.github.io/mediacapture-main/#dfn-camera,W3C
 http/headers/Feature-Policy/display-capture,,74,,94,,13,,false,true,false,https://w3c.github.io/mediacapture-screen-share/#permissions-policy-integration,W3C
@@ -10978,7 +10979,7 @@ http/headers/Origin,,70,,true,,true,,false,true,false,https://www.rfc-editor.org
 http/headers/Permissions-Policy,,74,,88,,11.1,,false,true,false,https://w3c.github.io/webappsec-permissions-policy/#permissions-policy-http-header-field,W3C
 http/headers/Permissions-Policy/accelerometer,,,,88,,,,true,true,false,https://w3c.github.io/sensors/#permissions-policy,W3C
 http/headers/Permissions-Policy/ambient-light-sensor,,,,88,,,,true,true,false,https://w3c.github.io/sensors/#permissions-policy,W3C
-http/headers/Permissions-Policy/autoplay,,74,"[{""name"":""dom.security.featurePolicy.header.enabled"",""type"":""preference"",""value_to_set"":""true""}]",88,,,,true,true,false,https://html.spec.whatwg.org/multipage/infrastructure.html#autoplay-feature,WHATWG
+http/headers/Permissions-Policy/autoplay,,74,,88,,,,true,true,false,https://html.spec.whatwg.org/multipage/infrastructure.html#autoplay-feature,WHATWG
 http/headers/Permissions-Policy/battery,,,,,,,,true,true,false,https://w3c.github.io/battery/#permissions-policy-integration,W3C
 http/headers/Permissions-Policy/camera,,74,,88,,11.1,,false,true,false,https://w3c.github.io/mediacapture-main/#permissions-policy-integration,W3C
 http/headers/Permissions-Policy/display-capture,,74,,94,,13,,false,true,false,https://w3c.github.io/mediacapture-screen-share/#permissions-policy-integration,W3C
