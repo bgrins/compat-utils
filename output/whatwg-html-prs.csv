@@ -1,4 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1909692719,false,"Fix: make note about ""in body"" insertion mode account for edge case",https://github.com/whatwg/html/pull/9780,2023-09-23T03:33:03Z,2023-09-23T09:42:17Z,not-my-profile,,0
+1909681938,false,Meta: make Wattsi Syntax link more prominent in CONTRIBUTING.md,https://github.com/whatwg/html/pull/9779,2023-09-23T02:46:33Z,2023-09-23T02:46:33Z,not-my-profile,,0
+1909677474,false,Add popover=hint,https://github.com/whatwg/html/pull/9778,2023-09-23T02:27:22Z,2023-09-23T02:28:47Z,josepharhar,,0
 1909479750,false,Queue toggle events and dialog close with microtasks,https://github.com/whatwg/html/pull/9775,2023-09-22T20:24:57Z,2023-09-22T20:26:26Z,josepharhar,,0
 1908359160,true,Un-break build by making review-drafts/2023-07.wattsi use non-void <ref></ref>,https://github.com/whatwg/html/pull/9772,2023-09-22T07:38:51Z,2023-09-22T08:38:40Z,sideshowbarker,,0
 1907618502,false,Add TextTrackCue ctor & cue + cuebackground attributes,https://github.com/whatwg/html/pull/9771,2023-09-21T19:22:21Z,2023-09-22T17:04:32Z,marcoscaceres,,1
@@ -19,9 +22,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1888887149,false,Fix setTimeout() when there's no active script,https://github.com/whatwg/html/pull/9712,2023-09-09T22:06:18Z,2023-09-18T09:49:49Z,domenic,topic: script,0
 1887758575,true,Editorial: refactor parse a url,https://github.com/whatwg/html/pull/9709,2023-09-08T14:05:55Z,2023-09-10T13:11:21Z,annevk,,0
 1886397562,true,docs: fix typo,https://github.com/whatwg/html/pull/9704,2023-09-07T18:37:18Z,2023-09-10T13:20:27Z,zyachel,,0
-1884164093,true,Add diff.py to diff individual sections of the source file,https://github.com/whatwg/html/pull/9700,2023-09-06T14:40:42Z,2023-09-08T01:15:17Z,not-my-profile,,0
+1884164093,true,Add diff.py to diff individual sections of the source file,https://github.com/whatwg/html/pull/9700,2023-09-06T14:40:42Z,2023-09-23T02:54:10Z,not-my-profile,,0
 1883918592,true,Editorial: define stylesheet location in terms of response,https://github.com/whatwg/html/pull/9697,2023-09-06T12:32:33Z,2023-09-08T09:09:16Z,annevk,topic: link,0
-1883685050,false,"Editorial: link ""character reference"" in Named character references",https://github.com/whatwg/html/pull/9696,2023-09-06T10:09:01Z,2023-09-09T17:26:17Z,not-my-profile,,0
+1883685050,false,"Editorial: link ""character reference"" in Named character references",https://github.com/whatwg/html/pull/9696,2023-09-06T10:09:01Z,2023-09-23T02:50:03Z,not-my-profile,,0
 1882070872,false,Change auto directionality of password and button controls,https://github.com/whatwg/html/pull/9689,2023-09-05T14:12:54Z,2023-09-18T14:25:03Z,annevk,normative change|i18n-tracker|needs tests,0
 1881650840,true,Mark window.clientInformation [Replaceable],https://github.com/whatwg/html/pull/9688,2023-09-05T10:09:52Z,2023-09-06T16:59:20Z,annevk,,0
 1881492557,true,Correct some element references in <link rel=stylesheet>,https://github.com/whatwg/html/pull/9685,2023-09-05T08:39:15Z,2023-09-06T05:13:52Z,annevk,topic: link,0
@@ -801,7 +804,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 940985024,true,Update 404.html,https://github.com/whatwg/html/pull/6838,2021-07-09T18:35:15Z,2021-07-09T18:57:02Z,alenjohn05,spam,0
 939644119,false,Add COOP same-origin-allow-popups-plus-coep,https://github.com/whatwg/html/pull/6834,2021-07-08T09:09:17Z,2022-08-22T02:36:09Z,camillelamy,,0
 938073289,true,Fix custom elements example getter,https://github.com/whatwg/html/pull/6829,2021-07-06T16:34:47Z,2021-07-07T19:26:41Z,Patil2099,topic: custom elements,0
-936436765,true,changed minor problems,https://github.com/whatwg/html/pull/6825,2021-07-04T11:32:19Z,2021-07-07T19:26:28Z,Ayush2020012016,,0
+936436765,true,changed minor problems,https://github.com/whatwg/html/pull/6825,2021-07-04T11:32:19Z,2021-07-07T19:26:28Z,ayushnau,,0
 934640792,true,Meta: markup input type states and attribute values as such,https://github.com/whatwg/html/pull/6820,2021-07-01T09:42:11Z,2021-08-04T13:23:42Z,dontcallmedom,,0
 934294169,true,Add 'keyup' and 'keypress' to 'activation triggering input event',https://github.com/whatwg/html/pull/6818,2021-07-01T02:12:53Z,2021-12-08T06:32:51Z,marcoscaceres,normative change|needs tests|topic: user activation,0
 933867424,true,Meta: Align arguments in definition of IDL operations with their IDL declaration,https://github.com/whatwg/html/pull/6817,2021-06-30T16:04:29Z,2021-08-04T13:23:55Z,dontcallmedom,,0
