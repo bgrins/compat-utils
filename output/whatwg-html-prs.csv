@@ -1,6 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1911295610,false,Editorial: clarify adoption agency step 13.3,https://github.com/whatwg/html/pull/9785,2023-09-25T11:40:32Z,2023-09-25T11:56:56Z,not-my-profile,,0
 1909692719,false,"Fix: make note about ""in body"" insertion mode account for edge case",https://github.com/whatwg/html/pull/9780,2023-09-23T03:33:03Z,2023-09-23T13:41:27Z,not-my-profile,,0
-1909681938,false,Meta: make Wattsi Syntax link more prominent in CONTRIBUTING.md,https://github.com/whatwg/html/pull/9779,2023-09-23T02:46:33Z,2023-09-23T02:46:33Z,not-my-profile,,0
+1909681938,true,Meta: make Wattsi Syntax link more prominent in CONTRIBUTING.md,https://github.com/whatwg/html/pull/9779,2023-09-23T02:46:33Z,2023-09-25T07:35:18Z,not-my-profile,,0
 1909677474,false,Add popover=hint,https://github.com/whatwg/html/pull/9778,2023-09-23T02:27:22Z,2023-09-23T02:28:47Z,josepharhar,,0
 1909479750,false,Queue toggle events and dialog close with microtasks,https://github.com/whatwg/html/pull/9775,2023-09-22T20:24:57Z,2023-09-22T20:26:26Z,josepharhar,,0
 1908359160,true,Un-break build by making review-drafts/2023-07.wattsi use non-void <ref></ref>,https://github.com/whatwg/html/pull/9772,2023-09-22T07:38:51Z,2023-09-22T08:38:40Z,sideshowbarker,,0
@@ -24,7 +25,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1886397562,true,docs: fix typo,https://github.com/whatwg/html/pull/9704,2023-09-07T18:37:18Z,2023-09-10T13:20:27Z,zyachel,,0
 1884164093,true,Add diff.py to diff individual sections of the source file,https://github.com/whatwg/html/pull/9700,2023-09-06T14:40:42Z,2023-09-24T06:19:11Z,not-my-profile,,0
 1883918592,true,Editorial: define stylesheet location in terms of response,https://github.com/whatwg/html/pull/9697,2023-09-06T12:32:33Z,2023-09-08T09:09:16Z,annevk,topic: link,0
-1883685050,false,"Editorial: link ""character reference"" in Named character references",https://github.com/whatwg/html/pull/9696,2023-09-06T10:09:01Z,2023-09-23T02:50:03Z,not-my-profile,,0
+1883685050,false,"Editorial: link ""character reference"" in Named character references",https://github.com/whatwg/html/pull/9696,2023-09-06T10:09:01Z,2023-09-25T11:43:18Z,not-my-profile,,0
 1882070872,false,Change auto directionality of password and button controls,https://github.com/whatwg/html/pull/9689,2023-09-05T14:12:54Z,2023-09-18T14:25:03Z,annevk,normative change|i18n-tracker|needs tests,0
 1881650840,true,Mark window.clientInformation [Replaceable],https://github.com/whatwg/html/pull/9688,2023-09-05T10:09:52Z,2023-09-06T16:59:20Z,annevk,,0
 1881492557,true,Correct some element references in <link rel=stylesheet>,https://github.com/whatwg/html/pull/9685,2023-09-05T08:39:15Z,2023-09-06T05:13:52Z,annevk,topic: link,0
@@ -105,7 +106,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1754473779,true,source modified,https://github.com/whatwg/html/pull/9418,2023-06-13T09:42:16Z,2023-06-15T13:55:09Z,arup1221,,0
 1750102943,false,Require support for AsyncContext,https://github.com/whatwg/html/pull/9408,2023-06-09T15:28:34Z,2023-06-10T08:44:43Z,Ms2ger,,0
 1749982433,true,Propagate fetch referrer in dynamic imports,https://github.com/whatwg/html/pull/9407,2023-06-09T14:14:59Z,2023-07-04T07:59:05Z,nicolo-ribaudo,normative change|topic: script,0
-1745979749,false,Add name attribute for grouping details elements into an exclusive accordion,https://github.com/whatwg/html/pull/9400,2023-06-07T13:59:20Z,2023-09-24T19:18:59Z,dbaron,addition/proposal|needs implementer interest,0
+1745979749,false,Add name attribute for grouping details elements into an exclusive accordion,https://github.com/whatwg/html/pull/9400,2023-06-07T13:59:20Z,2023-09-25T03:56:52Z,dbaron,addition/proposal|needs implementer interest,0
 1745722348,true,Null checks for img pending request,https://github.com/whatwg/html/pull/9399,2023-06-07T11:52:31Z,2023-06-09T12:15:43Z,zcorpan,,0
 1745244513,true,"Add asserting element's popover invoker is null in the ""show popover"" algorithm",https://github.com/whatwg/html/pull/9397,2023-06-07T07:27:12Z,2023-06-07T20:19:27Z,mbrodesser-Igalia,topic: popover,0
 1745032688,true,"Guard ""close a top-level traversable""",https://github.com/whatwg/html/pull/9396,2023-06-07T04:55:44Z,2023-06-09T05:32:47Z,domenic,topic: browsing context,0
@@ -120,7 +121,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1735662308,true,Add empty string special case for pushState/replaceState,https://github.com/whatwg/html/pull/9370,2023-06-01T07:26:49Z,2023-06-02T03:06:20Z,domenic,topic: history|interop,0
 1735288504,true,Tighten auto popover list definition,https://github.com/whatwg/html/pull/9369,2023-06-01T01:45:56Z,2023-06-06T19:53:27Z,josepharhar,topic: popover,0
 1732189866,false,Use the fetched unsafe response for network status and response bodies,https://github.com/whatwg/html/pull/9362,2023-05-30T12:47:15Z,2023-06-09T14:24:49Z,trflynn89,,0
-1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-09-15T05:52:31Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
+1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-09-25T11:19:47Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
 1729857566,true,Add files via upload,https://github.com/whatwg/html/pull/9353,2023-05-29T01:56:27Z,2023-05-29T04:36:27Z,jakex666x,spam,0
 1728531782,true,Check dialog is modal flag instead of open attribute in 'check popover validity' algorithm,https://github.com/whatwg/html/pull/9344,2023-05-27T08:09:19Z,2023-06-12T06:54:45Z,nt1m,normative change|topic: popover,0
 1727729022,true,Re-add <source media> for media elements,https://github.com/whatwg/html/pull/9341,2023-05-26T14:21:19Z,2023-06-12T12:20:28Z,zcorpan,,3
