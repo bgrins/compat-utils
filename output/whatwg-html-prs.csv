@@ -1,16 +1,16 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1911295610,false,Editorial: clarify adoption agency step 13.3,https://github.com/whatwg/html/pull/9785,2023-09-25T11:40:32Z,2023-09-25T11:56:56Z,not-my-profile,,0
-1909692719,false,"Fix: make note about ""in body"" insertion mode account for edge case",https://github.com/whatwg/html/pull/9780,2023-09-23T03:33:03Z,2023-09-23T13:41:27Z,not-my-profile,,0
+1909692719,false,"Fix: make note about ""in body"" insertion mode account for edge case",https://github.com/whatwg/html/pull/9780,2023-09-23T03:33:03Z,2023-09-25T12:53:24Z,not-my-profile,topic: parser,0
 1909681938,true,Meta: make Wattsi Syntax link more prominent in CONTRIBUTING.md,https://github.com/whatwg/html/pull/9779,2023-09-23T02:46:33Z,2023-09-25T07:35:18Z,not-my-profile,,0
 1909677474,false,Add popover=hint,https://github.com/whatwg/html/pull/9778,2023-09-23T02:27:22Z,2023-09-23T02:28:47Z,josepharhar,,0
 1909479750,false,Queue toggle events and dialog close with microtasks,https://github.com/whatwg/html/pull/9775,2023-09-22T20:24:57Z,2023-09-22T20:26:26Z,josepharhar,,0
 1908359160,true,Un-break build by making review-drafts/2023-07.wattsi use non-void <ref></ref>,https://github.com/whatwg/html/pull/9772,2023-09-22T07:38:51Z,2023-09-22T08:38:40Z,sideshowbarker,,0
-1907618502,false,Add TextTrackCue ctor & cue + cuebackground attributes,https://github.com/whatwg/html/pull/9771,2023-09-21T19:22:21Z,2023-09-22T17:04:32Z,marcoscaceres,,1
-1904941276,false,Specify URL encoding for links (header+element),https://github.com/whatwg/html/pull/9764,2023-09-20T12:56:24Z,2023-09-21T06:38:35Z,noamr,,0
+1907618502,false,Add TextTrackCue ctor & cue + cuebackground attributes,https://github.com/whatwg/html/pull/9771,2023-09-21T19:22:21Z,2023-09-25T18:08:49Z,marcoscaceres,addition/proposal|topic: media,1
+1904941276,false,Specify URL encoding for links (header+element),https://github.com/whatwg/html/pull/9764,2023-09-20T12:56:24Z,2023-09-25T16:49:42Z,noamr,,0
 1902888166,false,Make navigate() use UTF-8 in the URL parser,https://github.com/whatwg/html/pull/9756,2023-09-19T12:36:19Z,2023-09-19T12:37:46Z,annevk,normative change|topic: navigation,0
 1902869687,true,Editorial: remove API URL character encoding,https://github.com/whatwg/html/pull/9755,2023-09-19T12:25:50Z,2023-09-19T15:11:58Z,annevk,,0
 1901979709,false,Add showPicker to <select> elements,https://github.com/whatwg/html/pull/9754,2023-09-19T00:31:48Z,2023-09-21T13:32:03Z,lukewarlow,,0
-1901138540,false,Correct <source> dimension property handling,https://github.com/whatwg/html/pull/9752,2023-09-18T15:00:56Z,2023-09-20T09:52:58Z,annevk,do not merge yet,0
+1901138540,true,Correct <source> dimension property handling,https://github.com/whatwg/html/pull/9752,2023-09-18T15:00:56Z,2023-09-25T15:24:56Z,annevk,do not merge yet,0
 1900786704,false,Editorial: correct MathML references,https://github.com/whatwg/html/pull/9751,2023-09-18T12:03:18Z,2023-09-18T12:05:05Z,annevk,,0
 1899339551,true,improve workere test.html,https://github.com/whatwg/html/pull/9747,2023-09-16T07:36:54Z,2023-09-16T11:03:53Z,B2-krunalrana,spam,0
 1896342838,false,Fix an article 'an' to 'a' in FAQ,https://github.com/whatwg/html/pull/9734,2023-09-14T11:11:17Z,2023-09-18T10:32:12Z,ismailarilik,editorial,0
@@ -30,7 +30,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1881650840,true,Mark window.clientInformation [Replaceable],https://github.com/whatwg/html/pull/9688,2023-09-05T10:09:52Z,2023-09-06T16:59:20Z,annevk,,0
 1881492557,true,Correct some element references in <link rel=stylesheet>,https://github.com/whatwg/html/pull/9685,2023-09-05T08:39:15Z,2023-09-06T05:13:52Z,annevk,topic: link,0
 1881425896,true,Editorial: add parse and serialize a URL,https://github.com/whatwg/html/pull/9684,2023-09-05T08:00:14Z,2023-09-06T08:33:05Z,annevk,,0
-1880220474,false,"Rename ""auto popover list"" to ""showing auto popover list""",https://github.com/whatwg/html/pull/9680,2023-09-04T12:50:32Z,2023-09-21T20:54:13Z,josepharhar,,0
+1880220474,false,"Rename ""auto popover list"" to ""showing auto popover list""",https://github.com/whatwg/html/pull/9680,2023-09-04T12:50:32Z,2023-09-25T18:33:08Z,josepharhar,,0
 1876998445,true,No longer allow a policy exception just for workers,https://github.com/whatwg/html/pull/9668,2023-09-01T08:35:46Z,2023-09-04T06:31:05Z,annevk,topic: workers,0
 1876900917,true,"Editorial: uniformize list-based ""or""s and ""and""s",https://github.com/whatwg/html/pull/9667,2023-09-01T07:29:07Z,2023-09-01T08:03:18Z,domenic,,0
 1875313284,true,Editorial: Replace 'unique origin' with 'unique opaque origin',https://github.com/whatwg/html/pull/9666,2023-08-31T11:11:20Z,2023-08-31T13:05:12Z,mozfreddyb,,1
@@ -106,7 +106,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1754473779,true,source modified,https://github.com/whatwg/html/pull/9418,2023-06-13T09:42:16Z,2023-06-15T13:55:09Z,arup1221,,0
 1750102943,false,Require support for AsyncContext,https://github.com/whatwg/html/pull/9408,2023-06-09T15:28:34Z,2023-06-10T08:44:43Z,Ms2ger,,0
 1749982433,true,Propagate fetch referrer in dynamic imports,https://github.com/whatwg/html/pull/9407,2023-06-09T14:14:59Z,2023-07-04T07:59:05Z,nicolo-ribaudo,normative change|topic: script,0
-1745979749,false,Add name attribute for grouping details elements into an exclusive accordion,https://github.com/whatwg/html/pull/9400,2023-06-07T13:59:20Z,2023-09-25T03:56:52Z,dbaron,addition/proposal|needs implementer interest,0
+1745979749,false,Add name attribute for grouping details elements into an exclusive accordion,https://github.com/whatwg/html/pull/9400,2023-06-07T13:59:20Z,2023-09-25T21:14:03Z,dbaron,addition/proposal|needs implementer interest,0
 1745722348,true,Null checks for img pending request,https://github.com/whatwg/html/pull/9399,2023-06-07T11:52:31Z,2023-06-09T12:15:43Z,zcorpan,,0
 1745244513,true,"Add asserting element's popover invoker is null in the ""show popover"" algorithm",https://github.com/whatwg/html/pull/9397,2023-06-07T07:27:12Z,2023-06-07T20:19:27Z,mbrodesser-Igalia,topic: popover,0
 1745032688,true,"Guard ""close a top-level traversable""",https://github.com/whatwg/html/pull/9396,2023-06-07T04:55:44Z,2023-06-09T05:32:47Z,domenic,topic: browsing context,0
@@ -183,7 +183,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1660416855,true,"Fix ""active frame element"" definition",https://github.com/whatwg/html/pull/9139,2023-04-10T08:08:01Z,2023-04-28T07:31:26Z,domenic,topic: browsing context,0
 1659698554,true,Mudei o titulo (apenas para um teste da aula do youtube),https://github.com/whatwg/html/pull/9137,2023-04-09T01:21:57Z,2023-04-09T04:25:54Z,CharlesRobertoAlegre,spam,0
 1657789416,true,Fix a typo regarding formStateRestoreCallback,https://github.com/whatwg/html/pull/9130,2023-04-06T17:19:55Z,2023-05-17T23:45:43Z,xiaochengh,topic: custom elements,0
-1655536568,true,Allow <hr> to be used inside <select> as a separator,https://github.com/whatwg/html/pull/9124,2023-04-05T12:32:26Z,2023-05-03T12:13:26Z,annevk,addition/proposal|document conformance|topic: parser|topic: forms,1
+1655536568,true,Allow <hr> to be used inside <select> as a separator,https://github.com/whatwg/html/pull/9124,2023-04-05T12:32:26Z,2023-05-03T12:13:26Z,annevk,addition/proposal|document conformance|topic: parser|topic: forms,2
 1654364500,true,Use dialog initial focus for dialog popovers,https://github.com/whatwg/html/pull/9121,2023-04-04T18:27:26Z,2023-05-06T06:11:49Z,josepharhar,normative change|topic: focus|topic: dialog|topic: popover,0
 1654233635,true,Skip descendant dialogs and popovers for autofocus,https://github.com/whatwg/html/pull/9120,2023-04-04T16:50:00Z,2023-05-16T18:16:02Z,josepharhar,normative change|topic: focus|topic: dialog|topic: popover,0
 1653147495,true,"Remove ""element-attr"" from non-attribute terms",https://github.com/whatwg/html/pull/9118,2023-04-04T04:20:19Z,2023-04-06T05:46:23Z,gnpivo,,0
@@ -323,7 +323,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1435380302,true,Use correct properties for progress element,https://github.com/whatwg/html/pull/8471,2022-11-03T23:49:55Z,2022-11-21T17:27:13Z,dizhang168,,0
 1435209005,true,Add the Priority Hints changes to the html spec,https://github.com/whatwg/html/pull/8470,2022-11-03T20:16:05Z,2023-02-17T06:10:16Z,pmeenan,,0
 1434547038,true,Export rendering opportunity,https://github.com/whatwg/html/pull/8468,2022-11-03T12:02:44Z,2022-11-04T01:16:10Z,jakearchibald,,0
-1433914646,false,Add custom state pseudo class,https://github.com/whatwg/html/pull/8467,2022-11-02T23:30:52Z,2023-09-21T22:55:39Z,josepharhar,,0
+1433914646,false,Add custom state pseudo class,https://github.com/whatwg/html/pull/8467,2022-11-02T23:30:52Z,2023-09-25T17:37:29Z,josepharhar,,0
 1433818435,true,"Add ""user attention"" definition to top-level traversable.",https://github.com/whatwg/html/pull/8466,2022-11-02T21:38:28Z,2023-09-19T12:28:25Z,jan-ivar,topic: focus|integration,0
 1433811063,true,Missing commas in JSON examples,https://github.com/whatwg/html/pull/8465,2022-11-02T21:30:36Z,2022-11-03T04:53:26Z,NiedziolkaMichal,,0
 1431810817,true,Export nested navigable,https://github.com/whatwg/html/pull/8462,2022-11-01T17:31:41Z,2023-04-24T16:14:33Z,domfarolino,,0
@@ -1341,7 +1341,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 603334448,true,Update worker global scope's owner set earlier,https://github.com/whatwg/html/pull/5472,2020-04-20T15:39:13Z,2020-04-28T14:50:35Z,domenic,topic: workers,0
 603319225,true,Align on what we call implementation-defined,https://github.com/whatwg/html/pull/5471,2020-04-20T15:17:56Z,2020-04-20T16:31:12Z,annevk,,0
 603266759,false,Integrate with Reporting API,https://github.com/whatwg/html/pull/5470,2020-04-20T14:07:15Z,2022-08-22T02:36:09Z,clelland,,0
-602258520,false,Add declarative Shadow DOM features,https://github.com/whatwg/html/pull/5465,2020-04-17T22:04:40Z,2023-09-21T16:56:11Z,mfreed7,do not merge yet|topic: shadow|impacts documentation,14
+602258520,false,Add declarative Shadow DOM features,https://github.com/whatwg/html/pull/5465,2020-04-17T22:04:40Z,2023-09-25T15:15:17Z,mfreed7,do not merge yet|topic: shadow|impacts documentation,14
 601071702,true,Change how minimum used value for line-height works,https://github.com/whatwg/html/pull/5462,2020-04-16T13:50:43Z,2022-02-11T00:04:30Z,zcorpan,,0
 599834801,true,Remove report long tasks from update the rendering,https://github.com/whatwg/html/pull/5459,2020-04-14T20:21:05Z,2020-04-15T20:03:05Z,npm1,integration,0
 599421153,true,Expand IME  to 'input method editor',https://github.com/whatwg/html/pull/5458,2020-04-14T09:18:47Z,2020-04-14T15:00:36Z,36degrees,clarification,0
@@ -2003,7 +2003,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 300555187,true,Mark focus events composed,https://github.com/whatwg/html/pull/3512,2018-02-27T09:36:57Z,2018-03-02T08:20:55Z,annevk,normative change|topic: focus,0
 300226229,true,No duplicates in StructuredSerializeWithTransfer's transferList,https://github.com/whatwg/html/pull/3508,2018-02-26T12:52:27Z,2018-02-26T15:36:59Z,annevk,topic: serialize and transfer,0
 300021575,true,"Fix issue #3503: phrasing of ""as good, if not better, as""",https://github.com/whatwg/html/pull/3504,2018-02-25T12:18:16Z,2018-02-26T08:36:34Z,ediosyncratic,,0
-299733910,true,Add heading-focused outlines and :heading,https://github.com/whatwg/html/pull/3499,2018-02-23T14:44:28Z,2022-08-29T16:15:21Z,annevk,normative change|addition/proposal|accessibility|needs tests,22
+299733910,true,Add heading-focused outlines and :heading,https://github.com/whatwg/html/pull/3499,2018-02-23T14:44:28Z,2022-08-29T16:15:21Z,annevk,normative change|addition/proposal|accessibility|needs tests,23
 299347542,true,Editorial: align currentcolor with CSS,https://github.com/whatwg/html/pull/3496,2018-02-22T13:10:40Z,2018-02-23T05:18:45Z,annevk,clarification,0
 299312645,true,"Make <frame> fire load synchronously with ""completely loaded""",https://github.com/whatwg/html/pull/3495,2018-02-22T11:11:43Z,2018-02-23T07:18:28Z,annevk,,0
 298754341,true,Queue a task to run all the autofocusing steps,https://github.com/whatwg/html/pull/3488,2018-02-20T21:25:54Z,2018-03-07T05:32:43Z,domenic,topic: focus,0
