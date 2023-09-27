@@ -4241,7 +4241,7 @@ api/Navigator/getGamepads/secure_context_required,,91,,86,"[{""name"":""#restric
 api/Navigator/getInstalledRelatedApps,,,,85,,,,true,true,false,https://wicg.github.io/get-installed-related-apps/spec/#dom-navigator-getinstalledrelatedapps,W3CCG
 api/Navigator/getUserMedia,,17,,53,,11,,false,true,true,https://w3c.github.io/mediacapture-main/#dom-navigator-getusermedia,W3C
 api/Navigator/getVRDisplays,,98,"[{""name"":""dom.vr.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,false,false,true,,NONE
-api/Navigator/globalPrivacyControl,,95,"[{""name"":""privacy.globalprivacycontrol.enabled"",""type"":""preference"",""value_to_set"":""true""},{""name"":""privacy.globalprivacycontrol.functionality.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,false,false,,NONE
+api/Navigator/globalPrivacyControl,,preview,,,,,,true,true,false,https://privacycg.github.io/gpc-spec/#dom-globalprivacycontrol,W3CCG
 api/Navigator/gpu,,preview,,113,,,,true,true,false,https://gpuweb.github.io/gpuweb/#navigator-gpu,UNKNOWN
 api/Navigator/hardwareConcurrency,,48,,37,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/workers.html#dom-navigator-hardwareconcurrency-dev,WHATWG
 api/Navigator/hid,,,,89,,,,true,true,false,https://wicg.github.io/webhid/#dom-navigator-hid,W3CCG
@@ -8072,6 +8072,7 @@ api/WorkerNavigator/appName,,3.5,,4,,4,,false,true,true,https://html.spec.whatwg
 api/WorkerNavigator/appVersion,,3.5,,4,,4,,false,true,true,https://html.spec.whatwg.org/multipage/system-state.html#dom-navigator-appversion-dev,WHATWG
 api/WorkerNavigator/connection,,,,61,,,,false,true,false,https://wicg.github.io/netinfo/#connection-attribute,W3CCG
 api/WorkerNavigator/deviceMemory,,,,65,,,,false,true,false,https://www.w3.org/TR/device-memory/#sec-device-memory-js-api,W3C
+api/WorkerNavigator/globalPrivacyControl,,preview,,,,,,true,true,false,https://privacycg.github.io/gpc-spec/#dom-globalprivacycontrol,W3CCG
 api/WorkerNavigator/gpu,,,,113,,,,true,true,false,https://gpuweb.github.io/gpuweb/#navigator-gpu,UNKNOWN
 api/WorkerNavigator/hardwareConcurrency,,48,,37,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/workers.html#dom-navigator-hardwareconcurrency-dev,WHATWG
 api/WorkerNavigator/language,,3.5,,4,,10,,false,true,false,https://html.spec.whatwg.org/multipage/system-state.html#dom-navigator-language-dev,WHATWG
@@ -8532,7 +8533,7 @@ css/at-rules/counter-style/pad,,33,,91,,17,,false,true,false,https://drafts.cssw
 css/at-rules/counter-style/prefix,,33,,91,,17,,false,true,false,https://drafts.csswg.org/css-counter-styles/#counter-style-prefix,W3C
 css/at-rules/counter-style/range,,33,,91,,17,,false,true,false,https://drafts.csswg.org/css-counter-styles/#counter-style-range,W3C
 css/at-rules/counter-style/speak-as,,33,,,,,,false,true,false,https://drafts.csswg.org/css-counter-styles/#counter-style-speak-as,W3C
-css/at-rules/counter-style/suffix,,33,,91,,,,false,true,false,https://drafts.csswg.org/css-counter-styles/#counter-style-suffix,W3C
+css/at-rules/counter-style/suffix,,33,,91,,17,,false,true,false,https://drafts.csswg.org/css-counter-styles/#counter-style-suffix,W3C
 css/at-rules/counter-style/symbols,,33,,91,,17,,false,true,false,https://drafts.csswg.org/css-counter-styles/#counter-style-symbols,W3C
 css/at-rules/counter-style/system,,33,,91,,17,,false,true,false,https://drafts.csswg.org/css-counter-styles/#counter-style-system,W3C
 css/at-rules/document,,61,,,,,,false,false,true,,NONE
@@ -9134,9 +9135,9 @@ css/properties/height/fit-content_function,,91,"[{""name"":""layout.css.fit-cont
 css/properties/height/max-content,,66,,46,,11,,false,true,false,,NONE
 css/properties/height/min-content,,66,,46,,11,,false,true,false,,NONE
 css/properties/height/stretch,,,,28,,9,,false,true,false,,NONE
-css/properties/hyphenate-character,,98,,106,,5.1,,false,true,false,https://drafts.csswg.org/css-text-4/#propdef-hyphenate-character,W3C
+css/properties/hyphenate-character,,98,,106,,17,,false,true,false,https://drafts.csswg.org/css-text-4/#propdef-hyphenate-character,W3C
 css/properties/hyphenate-limit-chars,,,,109,,,,false,true,false,https://drafts.csswg.org/css-text-4/#propdef-hyphenate-limit-chars,W3C
-css/properties/hyphens,,43,,55,,5.1,,false,true,false,https://drafts.csswg.org/css-text/#hyphens-property,W3C
+css/properties/hyphens,,43,,55,,17,,false,true,false,https://drafts.csswg.org/css-text/#hyphens-property,W3C
 css/properties/hyphens/auto_value,,6,,88,,5.1,,false,true,false,,NONE
 css/properties/hyphens/language_afrikaans,,8,,,,,,false,true,false,,NONE
 css/properties/hyphens/language_bosnian,,8,,,,,,false,true,false,,NONE
@@ -10767,9 +10768,9 @@ html/global_attributes/lang,,1,,1,,≤4,,false,true,false,https://html.spec.what
 html/global_attributes/nonce,,31,,true,,true,,false,true,false,https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce,WHATWG
 html/global_attributes/nonce/nonce_hiding,,75,,61,,,,false,true,false,,NONE
 html/global_attributes/part,,72,,73,,13.1,,false,true,false,https://drafts.csswg.org/css-shadow-parts/#part-attr,W3C
-html/global_attributes/popover,,114,"[{""name"":""dom.element.popover.enabled"",""type"":""preference"",""value_to_set"":""true""}]",114,,preview,,true,true,false,https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute,WHATWG
-html/global_attributes/popovertarget,,114,"[{""name"":""dom.element.popover.enabled"",""type"":""preference"",""value_to_set"":""true""}]",114,,preview,,true,true,false,https://html.spec.whatwg.org/multipage/popover.html#attr-popovertarget,WHATWG
-html/global_attributes/popovertargetaction,,114,"[{""name"":""dom.element.popover.enabled"",""type"":""preference"",""value_to_set"":""true""}]",114,,preview,,true,true,false,https://html.spec.whatwg.org/multipage/popover.html#attr-popovertargetaction,WHATWG
+html/global_attributes/popover,,114,"[{""name"":""dom.element.popover.enabled"",""type"":""preference"",""value_to_set"":""true""}]",114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute,WHATWG
+html/global_attributes/popovertarget,,114,"[{""name"":""dom.element.popover.enabled"",""type"":""preference"",""value_to_set"":""true""}]",114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#attr-popovertarget,WHATWG
+html/global_attributes/popovertargetaction,,114,"[{""name"":""dom.element.popover.enabled"",""type"":""preference"",""value_to_set"":""true""}]",114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#attr-popovertargetaction,WHATWG
 html/global_attributes/slot,,63,,53,,10,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#attr-slot,WHATWG
 html/global_attributes/spellcheck,,true,,9,,true,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck,WHATWG
 html/global_attributes/style,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute,WHATWG
@@ -11043,7 +11044,7 @@ http/headers/Sec-Fetch-Dest,,90,,80,,16.4,,false,true,false,https://w3c.github.i
 http/headers/Sec-Fetch-Mode,,90,,76,,16.4,,false,true,false,https://w3c.github.io/webappsec-fetch-metadata/#sec-fetch-mode-header,W3C
 http/headers/Sec-Fetch-Site,,90,,76,,16.4,,false,true,false,https://w3c.github.io/webappsec-fetch-metadata/#sec-fetch-site-header,W3C
 http/headers/Sec-Fetch-User,,90,,76,,16.4,,false,true,false,https://w3c.github.io/webappsec-fetch-metadata/#sec-fetch-user-header,W3C
-http/headers/Sec-GPC,,95,"[{""name"":""privacy.globalprivacycontrol.enabled"",""type"":""preference"",""value_to_set"":""true""},{""name"":""privacy.globalprivacycontrol.functionality.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://privacycg.github.io/gpc-spec/#the-sec-gpc-header-field-for-http-requests,W3CCG
+http/headers/Sec-GPC,,preview,"[{""name"":""privacy.globalprivacycontrol.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://privacycg.github.io/gpc-spec/#the-sec-gpc-header-field-for-http-requests,W3CCG
 http/headers/Sec-Purpose,,115,,,,,,false,true,false,https://fetch.spec.whatwg.org/#sec-purpose-header,WHATWG
 http/headers/Server,,true,,true,,true,,false,true,false,https://www.rfc-editor.org/rfc/rfc9110#field.server,UNKNOWN
 http/headers/Server-Timing,,61,,65,,,,false,true,false,https://w3c.github.io/server-timing/#the-server-timing-header-field,W3C
