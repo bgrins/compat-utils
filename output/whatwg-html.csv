@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1914439377,false,Navigables:  fireNavigateEventOnCommit is unused in apply the history step,https://github.com/whatwg/html/issues/9800,2023-09-26T23:34:38Z,2023-09-27T07:42:41Z,ADKaster,topic: navigation,0
-1914386972,false,The `<selectlist>` element,https://github.com/whatwg/html/issues/9799,2023-09-26T22:24:36Z,2023-09-27T07:40:51Z,josepharhar,addition/proposal|topic: forms,4
+1914386972,false,The `<selectlist>` element,https://github.com/whatwg/html/issues/9799,2023-09-26T22:24:36Z,2023-09-27T07:40:51Z,josepharhar,addition/proposal|topic: forms,5
 1913709777,false,Should MathML references be to MathML-Core instead of full?,https://github.com/whatwg/html/issues/9795,2023-09-26T14:56:47Z,2023-09-26T19:42:39Z,bkardell,normative change,0
 1913666731,false,Should throw SecurityError when loading a worker with a cross-origin script,https://github.com/whatwg/html/issues/9794,2023-09-26T14:37:14Z,2023-09-26T14:58:30Z,edenchuang,topic: workers|agenda+,0
 1913245177,false,Add `autopause` attribute to media elements to allow automatic pausing of media,https://github.com/whatwg/html/issues/9793,2023-09-26T10:54:58Z,2023-09-27T08:18:26Z,keithamus,needs implementer interest|topic: media|agenda+,6
@@ -15,7 +15,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1904487020,false,"Which status codes are allowed for various tags such as script, video, audio?",https://github.com/whatwg/html/issues/9763,2023-09-20T08:42:40Z,2023-09-26T16:50:41Z,JannisBush,security/privacy|topic: fetch|security-tracker,0
 1904434955,false,Interactions of Content-Disposition with CSP-FA/XFO and Status Codes,https://github.com/whatwg/html/issues/9762,2023-09-20T08:16:30Z,2023-09-26T19:11:42Z,JannisBush,security/privacy|topic: fetch|security-tracker,0
 1904405325,true,link should have attribute for ailang,https://github.com/whatwg/html/issues/9761,2023-09-20T07:59:32Z,2023-09-25T23:51:26Z,BLamy,,1
-1904388480,false,Expose information about last activation/cross-document navigation,https://github.com/whatwg/html/issues/9760,2023-09-20T07:50:50Z,2023-09-27T17:28:17Z,noamr,,1
+1904388480,false,Expose information about last activation/cross-document navigation,https://github.com/whatwg/html/issues/9760,2023-09-20T07:50:50Z,2023-09-28T07:34:45Z,noamr,,1
 1903500453,true,System visibility change reaction code incorrectly tries getting inclusive descendant navigables of a traversable navigable,https://github.com/whatwg/html/issues/9758,2023-09-19T18:14:50Z,2023-09-27T00:58:37Z,awesomekling,,0
 1903392884,false,Can showPicker() focus a control?,https://github.com/whatwg/html/issues/9757,2023-09-19T16:59:56Z,2023-09-20T14:46:45Z,annevk,topic: forms|topic: focus,1
 1899693712,true,Modification GIF Folder Preview Script,https://github.com/whatwg/html/issues/9749,2023-09-17T07:50:44Z,2023-09-17T08:10:35Z,deiraf,,0
@@ -178,7 +178,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1721120977,false,New FocusEvent property for getting the FocusOptions,https://github.com/whatwg/html/issues/9322,2023-05-23T04:01:49Z,2023-05-26T09:20:11Z,woody-li,addition/proposal|needs implementer interest|topic: focus,1
 1720358205,false,"States should be worded explicitly in getContext() tables where context mode and contextIDs match ",https://github.com/whatwg/html/issues/9320,2023-05-22T19:39:09Z,2023-05-23T14:25:56Z,trevorspin,topic: canvas,0
 1720326931,true,Another corner case about nested popovers,https://github.com/whatwg/html/issues/9319,2023-05-22T19:22:28Z,2023-06-08T11:51:45Z,cathiechen,topic: popover,0
-1718431698,false,Proposal: fire an event before the first rendering opportunity after activation,https://github.com/whatwg/html/issues/9315,2023-05-21T09:24:24Z,2023-09-27T16:25:46Z,noamr,addition/proposal|topic: rendering|topic: navigation|topic: events,0
+1718431698,false,Proposal: fire an event before the first rendering opportunity after activation,https://github.com/whatwg/html/issues/9315,2023-05-21T09:24:24Z,2023-09-28T07:52:35Z,noamr,addition/proposal|topic: rendering|topic: navigation|topic: events,0
 1716840969,true,Interaction between Popover API and CSS Anchor Positioning specs,https://github.com/whatwg/html/issues/9311,2023-05-19T08:17:41Z,2023-09-04T11:25:49Z,jpzwarte,topic: popover,0
 1716713700,true,"""fallback base URL"" algorithm seems wrong for popups?",https://github.com/whatwg/html/issues/9310,2023-05-19T06:38:16Z,2023-06-01T09:18:19Z,domenic,interop|topic: browsing context,0
 1715965888,true,Upcoming HTML standard issue triage meeting on 6/1/2023,https://github.com/whatwg/html/issues/9308,2023-05-18T17:03:06Z,2023-06-02T16:55:44Z,past,agenda+,0
@@ -1614,7 +1614,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 608634360,false,window.focus() vs system level focus of the window/tab,https://github.com/whatwg/html/issues/5493,2020-04-28T21:41:11Z,2020-08-12T00:18:35Z,mustaqahmed,interop|topic: focus,0
 608243971,false,marquee element and display,https://github.com/whatwg/html/issues/5492,2020-04-28T11:29:56Z,2020-04-28T11:29:56Z,annevk,topic: rendering,0
 607201372,false,Should draggable and <link href> elements be focusable?,https://github.com/whatwg/html/issues/5490,2020-04-27T03:22:04Z,2020-04-27T07:00:17Z,TimothyGu,topic: focus|topic: link,0
-607136818,false,"<input type=""time""> : Time vs. duration",https://github.com/whatwg/html/issues/5488,2020-04-26T23:06:14Z,2023-02-24T01:02:14Z,d-damien,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,1
+607136818,false,"<input type=""time""> : Time vs. duration",https://github.com/whatwg/html/issues/5488,2020-04-26T23:06:14Z,2023-09-28T06:42:04Z,d-damien,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,1
 607075310,true,contenteditable elements should be focusable areas,https://github.com/whatwg/html/issues/5487,2020-04-26T18:05:58Z,2020-04-28T14:02:21Z,TimothyGu,topic: editing,1
 607073471,true,execCommand.html dead link,https://github.com/whatwg/html/issues/5486,2020-04-26T17:59:13Z,2020-06-25T14:09:04Z,TimothyGu,topic: editing,0
 606781021,true,Clarify sync vs async nature of Worker::postMessage,https://github.com/whatwg/html/issues/5485,2020-04-25T14:28:53Z,2020-04-28T11:40:07Z,RReverser,topic: serialize and transfer,0
@@ -1854,7 +1854,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 512330703,false,Meta referrer being able to loosen Referrer-Policy header restrictions is a security vulnerability,https://github.com/whatwg/html/issues/5041,2019-10-25T06:34:26Z,2022-05-31T13:48:55Z,chris-morgan,,0
 512069720,false,HTML sandbox form restriction bypass when scripts allowed,https://github.com/whatwg/html/issues/5040,2019-10-24T17:05:19Z,2019-10-25T15:11:31Z,tsangtmc,clarification|security/privacy,0
 511584833,false,HTMLConstructor construction steps: inconsistent evaluation order/error cases in implementations,https://github.com/whatwg/html/issues/5037,2019-10-23T21:35:34Z,2019-10-24T08:54:23Z,bathos,topic: custom elements|interop,0
-510489260,false,Consider adding a headinglevelstart attribute,https://github.com/whatwg/html/issues/5033,2019-10-22T07:57:09Z,2023-09-27T13:37:19Z,annevk,addition/proposal|accessibility,9
+510489260,false,Consider adding a headinglevelstart attribute,https://github.com/whatwg/html/issues/5033,2019-10-22T07:57:09Z,2023-09-28T05:27:13Z,annevk,addition/proposal|accessibility,9
 509880741,true,---------,https://github.com/whatwg/html/issues/5029,2019-10-21T10:42:33Z,2019-10-22T04:41:25Z,dhilip89,,0
 509693572,true,delegatesFocus doesn't work well with autofocus,https://github.com/whatwg/html/issues/5027,2019-10-21T02:13:20Z,2019-11-11T16:44:20Z,tkent-google,topic: focus,0
 509685886,true,Code Regions,https://github.com/whatwg/html/issues/5026,2019-10-21T01:32:06Z,2019-10-21T16:16:12Z,AdamSobieski,,0
@@ -2196,7 +2196,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 426611187,true,The OverrideBuiltins should be avoided on privileged JavaScript environment,https://github.com/whatwg/html/issues/4458,2019-03-28T17:10:37Z,2019-03-29T02:06:17Z,gdh1995,,0
 426601713,false,Canvas.filter requires clarification in Shadow DOM context,https://github.com/whatwg/html/issues/4457,2019-03-28T16:50:41Z,2019-03-29T08:56:58Z,yGuy,topic: canvas|topic: shadow,1
 426344125,true,Proposal: navigator.supportsProtocolHandler,https://github.com/whatwg/html/issues/4456,2019-03-28T07:44:39Z,2019-11-08T09:48:11Z,GianlucaGuarini,,4
-426011125,false,Create input unit attributes,https://github.com/whatwg/html/issues/4454,2019-03-27T14:59:25Z,2019-04-08T13:55:20Z,shakyjake,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,0
+426011125,false,Create input unit attributes,https://github.com/whatwg/html/issues/4454,2019-03-27T14:59:25Z,2023-09-28T07:33:48Z,shakyjake,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,0
 425665792,false,"""Firing a synthetic mouse event"" has steps that might not make sense for .click()",https://github.com/whatwg/html/issues/4452,2019-03-26T21:52:30Z,2019-03-26T21:52:54Z,domenic,,0
 425664793,true,"""Fire a synthetic mouse event at this element"" for click() is underspecified",https://github.com/whatwg/html/issues/4451,2019-03-26T21:49:36Z,2019-03-28T20:20:14Z,domenic,good first issue,0
 425280982,true,History traversal and the request's `origin`.,https://github.com/whatwg/html/issues/4446,2019-03-26T08:21:51Z,2023-04-07T06:30:02Z,mikewest,topic: history,0
