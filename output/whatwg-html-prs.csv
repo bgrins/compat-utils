@@ -1,7 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1915965993,false,Draft: Update mathml-related references to use MathML-Core instead of Full…,https://github.com/whatwg/html/pull/9804,2023-09-27T16:45:11Z,2023-09-27T16:47:04Z,bkardell,,0
+1915671884,true,Meta: update repository files,https://github.com/whatwg/html/pull/9803,2023-09-27T14:06:38Z,2023-09-27T14:07:23Z,annevk,,0
+1915623756,true,Meta: update repository files,https://github.com/whatwg/html/pull/9802,2023-09-27T13:43:13Z,2023-09-27T15:18:49Z,annevk,,0
+1915425899,true,Meta: update repository files,https://github.com/whatwg/html/pull/9801,2023-09-27T12:10:11Z,2023-09-27T13:48:44Z,annevk,,0
 1913903583,false,Specify what happens when “disabled” is added to a link@rel=stylesheet,https://github.com/whatwg/html/pull/9798,2023-09-26T16:38:35Z,2023-09-26T16:39:01Z,sideshowbarker,,0
 1913824830,false,Stop requiring an event loop for queue a microtask,https://github.com/whatwg/html/pull/9797,2023-09-26T15:53:11Z,2023-09-26T15:54:42Z,annevk,,0
-1913810629,false,Make computation of directionality account for Shadow DOM.,https://github.com/whatwg/html/pull/9796,2023-09-26T15:44:56Z,2023-09-26T17:41:02Z,dbaron,,0
+1913810629,false,Make computation of directionality account for Shadow DOM.,https://github.com/whatwg/html/pull/9796,2023-09-26T15:44:56Z,2023-09-27T20:37:39Z,dbaron,addition/proposal|topic: shadow|i18n-tracker,0
 1913240533,false,"Editorial: remove two wrong ""(fragment case)"" annotations",https://github.com/whatwg/html/pull/9792,2023-09-26T10:52:07Z,2023-09-26T11:08:27Z,not-my-profile,,0
 1913164081,false,Add `readytorender` event,https://github.com/whatwg/html/pull/9791,2023-09-26T10:05:40Z,2023-09-26T11:53:37Z,noamr,,0
 1912751580,true,Editorial: fix broken setAttribute link,https://github.com/whatwg/html/pull/9790,2023-09-26T06:07:57Z,2023-09-26T06:12:50Z,not-my-profile,,0
@@ -15,7 +19,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1909677474,false,Add popover=hint,https://github.com/whatwg/html/pull/9778,2023-09-23T02:27:22Z,2023-09-23T02:28:47Z,josepharhar,,0
 1909479750,false,Queue toggle events and dialog close with microtasks,https://github.com/whatwg/html/pull/9775,2023-09-22T20:24:57Z,2023-09-26T15:46:59Z,josepharhar,,0
 1908359160,true,Un-break build by making review-drafts/2023-07.wattsi use non-void <ref></ref>,https://github.com/whatwg/html/pull/9772,2023-09-22T07:38:51Z,2023-09-22T08:38:40Z,sideshowbarker,,0
-1907618502,false,Add TextTrackCue ctor & cue + cuebackground attributes,https://github.com/whatwg/html/pull/9771,2023-09-21T19:22:21Z,2023-09-26T14:45:11Z,marcoscaceres,addition/proposal|topic: media,1
+1907618502,false,Add TextTrackCue ctor & cue + cuebackground attributes,https://github.com/whatwg/html/pull/9771,2023-09-21T19:22:21Z,2023-09-27T16:25:06Z,marcoscaceres,addition/proposal|topic: media,1
 1904941276,false,Specify URL encoding for links (header+element),https://github.com/whatwg/html/pull/9764,2023-09-20T12:56:24Z,2023-09-25T16:49:42Z,noamr,,0
 1902888166,false,Make navigate() use UTF-8 in the URL parser,https://github.com/whatwg/html/pull/9756,2023-09-19T12:36:19Z,2023-09-26T09:33:06Z,annevk,normative change|topic: navigation|needs tests,0
 1902869687,true,Editorial: remove API URL character encoding,https://github.com/whatwg/html/pull/9755,2023-09-19T12:25:50Z,2023-09-19T15:11:58Z,annevk,,0
@@ -116,7 +120,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1754473779,true,source modified,https://github.com/whatwg/html/pull/9418,2023-06-13T09:42:16Z,2023-06-15T13:55:09Z,arup1221,,0
 1750102943,false,Require support for AsyncContext,https://github.com/whatwg/html/pull/9408,2023-06-09T15:28:34Z,2023-06-10T08:44:43Z,Ms2ger,,0
 1749982433,true,Propagate fetch referrer in dynamic imports,https://github.com/whatwg/html/pull/9407,2023-06-09T14:14:59Z,2023-07-04T07:59:05Z,nicolo-ribaudo,normative change|topic: script,0
-1745979749,false,Add name attribute for grouping details elements into an exclusive accordion,https://github.com/whatwg/html/pull/9400,2023-06-07T13:59:20Z,2023-09-27T06:32:16Z,dbaron,addition/proposal|needs implementer interest,0
+1745979749,false,Add name attribute for grouping details elements into an exclusive accordion,https://github.com/whatwg/html/pull/9400,2023-06-07T13:59:20Z,2023-09-27T14:08:39Z,dbaron,addition/proposal|needs implementer interest,0
 1745722348,true,Null checks for img pending request,https://github.com/whatwg/html/pull/9399,2023-06-07T11:52:31Z,2023-06-09T12:15:43Z,zcorpan,,0
 1745244513,true,"Add asserting element's popover invoker is null in the ""show popover"" algorithm",https://github.com/whatwg/html/pull/9397,2023-06-07T07:27:12Z,2023-06-07T20:19:27Z,mbrodesser-Igalia,topic: popover,0
 1745032688,true,"Guard ""close a top-level traversable""",https://github.com/whatwg/html/pull/9396,2023-06-07T04:55:44Z,2023-06-09T05:32:47Z,domenic,topic: browsing context,0
@@ -333,7 +337,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1435380302,true,Use correct properties for progress element,https://github.com/whatwg/html/pull/8471,2022-11-03T23:49:55Z,2022-11-21T17:27:13Z,dizhang168,,0
 1435209005,true,Add the Priority Hints changes to the html spec,https://github.com/whatwg/html/pull/8470,2022-11-03T20:16:05Z,2023-02-17T06:10:16Z,pmeenan,,0
 1434547038,true,Export rendering opportunity,https://github.com/whatwg/html/pull/8468,2022-11-03T12:02:44Z,2022-11-04T01:16:10Z,jakearchibald,,0
-1433914646,false,Add custom state pseudo class,https://github.com/whatwg/html/pull/8467,2022-11-02T23:30:52Z,2023-09-26T18:54:13Z,josepharhar,,0
+1433914646,false,Add custom state pseudo class,https://github.com/whatwg/html/pull/8467,2022-11-02T23:30:52Z,2023-09-27T18:43:00Z,josepharhar,,0
 1433818435,true,"Add ""user attention"" definition to top-level traversable.",https://github.com/whatwg/html/pull/8466,2022-11-02T21:38:28Z,2023-09-19T12:28:25Z,jan-ivar,topic: focus|integration,0
 1433811063,true,Missing commas in JSON examples,https://github.com/whatwg/html/pull/8465,2022-11-02T21:30:36Z,2022-11-03T04:53:26Z,NiedziolkaMichal,,0
 1431810817,true,Export nested navigable,https://github.com/whatwg/html/pull/8462,2022-11-01T17:31:41Z,2023-04-24T16:14:33Z,domfarolino,,0
