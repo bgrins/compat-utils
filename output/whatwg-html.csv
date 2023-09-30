@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1918999120,false,"Move ""Parse state"" section under ""Tree construction"" section",https://github.com/whatwg/html/issues/9814,2023-09-29T10:16:57Z,2023-09-29T14:14:27Z,not-my-profile,clarification|topic: parser,0
 1918851525,false,Meta: `dfn` elements made interactive by `html-dfn.js` aren't keyboard accessible,https://github.com/whatwg/html/issues/9813,2023-09-29T08:40:23Z,2023-09-29T10:37:09Z,not-my-profile,,0
-1918848965,false,HTML Video Element: Proposal for adding [srcset] + [posterset] + [sizes] on video element as well [posterset] on source elements,https://github.com/whatwg/html/issues/9812,2023-09-29T08:38:35Z,2023-09-29T21:48:50Z,Schepp,,1
+1918848965,false,HTML Video Element: Proposal for adding [srcset] + [posterset] + [sizes] on video element as well [posterset] on source elements,https://github.com/whatwg/html/issues/9812,2023-09-29T08:38:35Z,2023-09-30T06:23:20Z,Schepp,addition/proposal|needs implementer interest,2
 1918809473,false,Meta: Links that take you where you already are,https://github.com/whatwg/html/issues/9811,2023-09-29T08:17:19Z,2023-09-29T16:54:58Z,not-my-profile,,0
 1917630242,false,consider whether document-level language fallback rules make sense in all cases,https://github.com/whatwg/html/issues/9807,2023-09-28T14:06:24Z,2023-09-28T14:28:53Z,dbaron,i18n-tracker|needs tests,0
 1914439377,false,Navigables:  fireNavigateEventOnCommit is unused in apply the history step,https://github.com/whatwg/html/issues/9800,2023-09-26T23:34:38Z,2023-09-29T08:57:46Z,ADKaster,topic: navigation,0
@@ -9,7 +9,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1913709777,false,Should MathML references be to MathML-Core instead of full?,https://github.com/whatwg/html/issues/9795,2023-09-26T14:56:47Z,2023-09-26T19:42:39Z,bkardell,normative change,0
 1913666731,false,Should throw SecurityError when loading a worker with a cross-origin script,https://github.com/whatwg/html/issues/9794,2023-09-26T14:37:14Z,2023-09-26T14:58:30Z,edenchuang,topic: workers|agenda+,0
 1913245177,false,Add `autopause` attribute to media elements to allow automatic pausing of media,https://github.com/whatwg/html/issues/9793,2023-09-26T10:54:58Z,2023-09-27T08:18:26Z,keithamus,needs implementer interest|topic: media|agenda+,6
-1909491215,false,popover=hint,https://github.com/whatwg/html/issues/9776,2023-09-22T20:36:33Z,2023-09-29T23:30:09Z,josepharhar,topic: popover,0
+1909491215,false,popover=hint,https://github.com/whatwg/html/issues/9776,2023-09-22T20:36:33Z,2023-09-29T23:30:09Z,josepharhar,topic: popover,1
 1909406598,true,Navigation: inner navigate firing algorithm does not say what to do if invoking NavigationInterceptHandler throws,https://github.com/whatwg/html/issues/9774,2023-09-22T19:17:05Z,2023-09-26T03:55:04Z,ADKaster,clarification|topic: navigation,0
 1909396065,false,Attribute index for script's type attribute was not updated for import maps,https://github.com/whatwg/html/issues/9773,2023-09-22T19:07:37Z,2023-09-22T19:07:37Z,domenic,clarification|topic: script,0
 1907577267,false,popover: should audio/video in a popover keep playing after popover is dismissed?,https://github.com/whatwg/html/issues/9770,2023-09-21T18:51:42Z,2023-09-27T15:18:58Z,xiaochengh,clarification|topic: popover,0
@@ -1859,7 +1859,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 512330703,false,Meta referrer being able to loosen Referrer-Policy header restrictions is a security vulnerability,https://github.com/whatwg/html/issues/5041,2019-10-25T06:34:26Z,2022-05-31T13:48:55Z,chris-morgan,,0
 512069720,false,HTML sandbox form restriction bypass when scripts allowed,https://github.com/whatwg/html/issues/5040,2019-10-24T17:05:19Z,2019-10-25T15:11:31Z,tsangtmc,clarification|security/privacy,0
 511584833,false,HTMLConstructor construction steps: inconsistent evaluation order/error cases in implementations,https://github.com/whatwg/html/issues/5037,2019-10-23T21:35:34Z,2019-10-24T08:54:23Z,bathos,topic: custom elements|interop,0
-510489260,false,Consider adding a headinglevelstart attribute,https://github.com/whatwg/html/issues/5033,2019-10-22T07:57:09Z,2023-09-29T22:08:46Z,annevk,addition/proposal|accessibility,10
+510489260,false,Consider adding a headinglevelstart attribute,https://github.com/whatwg/html/issues/5033,2019-10-22T07:57:09Z,2023-09-30T04:33:19Z,annevk,addition/proposal|accessibility,11
 509880741,true,---------,https://github.com/whatwg/html/issues/5029,2019-10-21T10:42:33Z,2019-10-22T04:41:25Z,dhilip89,,0
 509693572,true,delegatesFocus doesn't work well with autofocus,https://github.com/whatwg/html/issues/5027,2019-10-21T02:13:20Z,2019-11-11T16:44:20Z,tkent-google,topic: focus,0
 509685886,true,Code Regions,https://github.com/whatwg/html/issues/5026,2019-10-21T01:32:06Z,2019-10-21T16:16:12Z,AdamSobieski,,0
