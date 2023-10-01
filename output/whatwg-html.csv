@@ -1,4 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1920394348,false,Clipboard API Doesn't have onChange event,https://github.com/whatwg/html/issues/9817,2023-09-30T20:44:41Z,2023-09-30T20:44:41Z,Mahmoudgalalz,,0
+1920253804,false,Defining a Non-Script Native HTML Component Model,https://github.com/whatwg/html/issues/9815,2023-09-30T13:13:26Z,2023-09-30T16:33:26Z,brandonmcconnell,addition/proposal|needs implementer interest,0
 1918999120,false,"Move ""Parse state"" section under ""Tree construction"" section",https://github.com/whatwg/html/issues/9814,2023-09-29T10:16:57Z,2023-09-29T14:14:27Z,not-my-profile,clarification|topic: parser,0
 1918851525,false,Meta: `dfn` elements made interactive by `html-dfn.js` aren't keyboard accessible,https://github.com/whatwg/html/issues/9813,2023-09-29T08:40:23Z,2023-09-29T10:37:09Z,not-my-profile,,0
 1918848965,false,HTML Video Element: Proposal for adding [srcset] + [posterset] + [sizes] on video element as well [posterset] on source elements,https://github.com/whatwg/html/issues/9812,2023-09-29T08:38:35Z,2023-09-30T06:23:20Z,Schepp,addition/proposal|needs implementer interest,2
@@ -1496,7 +1498,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 666334122,false,"Proposal for fillAndStroke function ",https://github.com/whatwg/html/issues/5762,2020-07-27T14:21:28Z,2023-05-18T12:23:40Z,GMartigny,addition/proposal|needs implementer interest|topic: canvas,0
 666166685,true,"""Web Content Accessibility Guidelines (WCAG) 2.0...""",https://github.com/whatwg/html/issues/5761,2020-07-27T10:10:38Z,2020-11-18T09:33:03Z,stevefaulkner,good first issue|accessibility,0
 665327723,true,Window opening steps return WindowProxy despite COOP,https://github.com/whatwg/html/issues/5759,2020-07-24T17:58:57Z,2020-08-10T18:12:18Z,jugglinmike,topic: cross-origin-opener-policy,0
-663869445,true,How does a script added into a shadow DOM work with that shadow dom/the element that built it?,https://github.com/whatwg/html/issues/5754,2020-07-22T15:53:57Z,2020-08-17T09:40:03Z,Pomax,,0
+663869445,true,How does a script added into a shadow DOM work with that shadow dom/the element that built it?,https://github.com/whatwg/html/issues/5754,2020-07-22T15:53:57Z,2020-08-17T09:40:03Z,Pomax,,1
 663532617,true,classic script's base URL should be sanitized when muted errors flag is set,https://github.com/whatwg/html/issues/5751,2020-07-22T07:13:35Z,2020-07-24T19:12:26Z,hiroshige-g,,0
 662723840,true,back-forward cache: specify interaction with unload & beforeunload,https://github.com/whatwg/html/issues/5748,2020-07-21T08:06:43Z,2020-10-12T16:11:17Z,rakina,topic: history,1
 661438283,false,Add an API to opt-out of back-forward cache?,https://github.com/whatwg/html/issues/5744,2020-07-20T06:33:22Z,2021-06-02T12:16:15Z,rakina,addition/proposal|topic: history,13
@@ -1859,7 +1861,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 512330703,false,Meta referrer being able to loosen Referrer-Policy header restrictions is a security vulnerability,https://github.com/whatwg/html/issues/5041,2019-10-25T06:34:26Z,2022-05-31T13:48:55Z,chris-morgan,,0
 512069720,false,HTML sandbox form restriction bypass when scripts allowed,https://github.com/whatwg/html/issues/5040,2019-10-24T17:05:19Z,2019-10-25T15:11:31Z,tsangtmc,clarification|security/privacy,0
 511584833,false,HTMLConstructor construction steps: inconsistent evaluation order/error cases in implementations,https://github.com/whatwg/html/issues/5037,2019-10-23T21:35:34Z,2019-10-24T08:54:23Z,bathos,topic: custom elements|interop,0
-510489260,false,Consider adding a headinglevelstart attribute,https://github.com/whatwg/html/issues/5033,2019-10-22T07:57:09Z,2023-09-30T04:33:19Z,annevk,addition/proposal|accessibility,11
+510489260,false,Consider adding a headinglevelstart attribute,https://github.com/whatwg/html/issues/5033,2019-10-22T07:57:09Z,2023-09-30T17:05:08Z,annevk,addition/proposal|accessibility,11
 509880741,true,---------,https://github.com/whatwg/html/issues/5029,2019-10-21T10:42:33Z,2019-10-22T04:41:25Z,dhilip89,,0
 509693572,true,delegatesFocus doesn't work well with autofocus,https://github.com/whatwg/html/issues/5027,2019-10-21T02:13:20Z,2019-11-11T16:44:20Z,tkent-google,topic: focus,0
 509685886,true,Code Regions,https://github.com/whatwg/html/issues/5026,2019-10-21T01:32:06Z,2019-10-21T16:16:12Z,AdamSobieski,,0
@@ -2671,7 +2673,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2023-06-14T18:51:29Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,22
 305369552,true,Proposal: Improve control over HTML/XML syntax parse errors,https://github.com/whatwg/html/issues/3569,2018-03-14T23:56:33Z,2022-04-18T15:28:51Z,dvdckl,addition/proposal|needs implementer interest|topic: parser,0
 305147441,true,"<form method> description only says ""HTTP method""",https://github.com/whatwg/html/issues/3568,2018-03-14T12:58:10Z,2018-04-20T07:53:27Z,annevk,good first issue,0
-305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2023-08-23T09:36:50Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,138
+305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2023-08-23T09:36:50Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,139
 305020324,true,Separate out document.open() method declaration definitions,https://github.com/whatwg/html/issues/3565,2018-03-14T04:36:27Z,2018-06-28T15:27:09Z,domenic,clarification|good first issue|topic: document.open(),0
 305019688,true,At least Blink does not support document.open()'s replace parameter,https://github.com/whatwg/html/issues/3564,2018-03-14T04:31:43Z,2018-08-23T18:40:33Z,domenic,topic: history|interop|topic: document.open(),0
 304874091,false,<template> element capability/semantics in SVG parsing context,https://github.com/whatwg/html/issues/3563,2018-03-13T17:59:50Z,2018-03-15T07:34:25Z,kevinpschaaf,addition/proposal|needs implementer interest|topic: parser,0
