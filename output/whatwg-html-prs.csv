@@ -1,7 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1923043046,false,"Various minor fixes to ""apply the history step""",https://github.com/whatwg/html/pull/9827,2023-10-03T00:16:29Z,2023-10-03T00:17:51Z,domenic,topic: navigation,0
 1921372545,false,Make rAF and web-animation timestamps relative and coarsened,https://github.com/whatwg/html/pull/9823,2023-10-02T07:15:37Z,2023-10-02T07:17:05Z,noamr,,0
-1921347979,false,Meta: stop using file-issue.js,https://github.com/whatwg/html/pull/9822,2023-10-02T06:54:06Z,2023-10-02T06:58:21Z,annevk,,0
-1920824912,false,WIP-reveal,https://github.com/whatwg/html/pull/9818,2023-10-01T15:29:03Z,2023-10-01T15:30:42Z,noamr,,0
+1921347979,false,Meta: stop using file-issue.js,https://github.com/whatwg/html/pull/9822,2023-10-02T06:54:06Z,2023-10-02T20:18:52Z,annevk,,0
+1920824912,false,WIP-reveal,https://github.com/whatwg/html/pull/9818,2023-10-01T15:29:03Z,2023-10-02T18:42:58Z,noamr,,0
 1918764380,false,"Remove unreachable fragment case in ""in cell"" insertion mode",https://github.com/whatwg/html/pull/9810,2023-09-29T07:42:23Z,2023-09-29T08:08:23Z,not-my-profile,,0
 1918684895,false,Stop reporting redundant fragment parser error in foreign content,https://github.com/whatwg/html/pull/9809,2023-09-29T06:42:05Z,2023-09-29T08:21:23Z,not-my-profile,clarification|topic: parser,0
 1918430862,true,Update 404.html,https://github.com/whatwg/html/pull/9808,2023-09-29T00:24:00Z,2023-09-29T02:19:22Z,Ahmedsolimann03,spam,0
@@ -13,9 +14,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1915425899,true,Meta: update repository files,https://github.com/whatwg/html/pull/9801,2023-09-27T12:10:11Z,2023-09-27T13:48:44Z,annevk,,0
 1913903583,true,Specify what happens when “disabled” is added to a link@rel=stylesheet,https://github.com/whatwg/html/pull/9798,2023-09-26T16:38:35Z,2023-09-28T08:41:43Z,sideshowbarker,,0
 1913824830,true,Stop requiring an event loop for queue a microtask,https://github.com/whatwg/html/pull/9797,2023-09-26T15:53:11Z,2023-09-29T06:57:47Z,annevk,topic: event loop,0
-1913810629,false,Make computation of directionality account for Shadow DOM.,https://github.com/whatwg/html/pull/9796,2023-09-26T15:44:56Z,2023-09-28T21:16:07Z,dbaron,addition/proposal|topic: shadow|i18n-tracker,0
+1913810629,false,Make computation of directionality account for Shadow DOM.,https://github.com/whatwg/html/pull/9796,2023-09-26T15:44:56Z,2023-10-02T21:10:05Z,dbaron,addition/proposal|topic: shadow|i18n-tracker,0
 1913240533,false,"Editorial: remove two wrong ""(fragment case)"" annotations",https://github.com/whatwg/html/pull/9792,2023-09-26T10:52:07Z,2023-09-26T11:08:27Z,not-my-profile,,0
-1913164081,false,Add `readytorender` event,https://github.com/whatwg/html/pull/9791,2023-09-26T10:05:40Z,2023-09-26T11:53:37Z,noamr,,0
+1913164081,false,Add `pagereveal` event,https://github.com/whatwg/html/pull/9791,2023-09-26T10:05:40Z,2023-10-02T16:19:21Z,noamr,,0
 1912751580,true,Editorial: fix broken setAttribute link,https://github.com/whatwg/html/pull/9790,2023-09-26T06:07:57Z,2023-09-26T06:12:50Z,not-my-profile,,0
 1912626859,true,"Fix ""inclusive descendant navigables"" usage in page visibility",https://github.com/whatwg/html/pull/9789,2023-09-26T03:50:19Z,2023-09-27T00:58:42Z,domenic,topic: navigation,0
 1912610264,true,Editorial: put conditions in more intuitive order,https://github.com/whatwg/html/pull/9788,2023-09-26T03:25:58Z,2023-09-26T05:40:30Z,not-my-profile,clarification|topic: parser,0
@@ -31,7 +32,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1904941276,false,Specify URL encoding for links (header+element),https://github.com/whatwg/html/pull/9764,2023-09-20T12:56:24Z,2023-09-28T06:17:27Z,noamr,needs tests|topic: link|topic: resource hints (inc. preload),0
 1902888166,false,Make navigate() use UTF-8 in the URL parser,https://github.com/whatwg/html/pull/9756,2023-09-19T12:36:19Z,2023-09-26T09:33:06Z,annevk,normative change|topic: navigation|needs tests,0
 1902869687,true,Editorial: remove API URL character encoding,https://github.com/whatwg/html/pull/9755,2023-09-19T12:25:50Z,2023-09-19T15:11:58Z,annevk,,0
-1901979709,false,Add showPicker to <select> elements,https://github.com/whatwg/html/pull/9754,2023-09-19T00:31:48Z,2023-10-02T10:54:53Z,lukewarlow,,0
+1901979709,false,Add showPicker to <select> elements,https://github.com/whatwg/html/pull/9754,2023-09-19T00:31:48Z,2023-10-02T17:47:28Z,lukewarlow,,0
 1901138540,true,Correct <source> dimension property handling,https://github.com/whatwg/html/pull/9752,2023-09-18T15:00:56Z,2023-09-25T15:24:56Z,annevk,do not merge yet,0
 1900786704,true,Editorial: correct MathML references,https://github.com/whatwg/html/pull/9751,2023-09-18T12:03:18Z,2023-09-26T07:24:52Z,annevk,,0
 1899339551,true,improve workere test.html,https://github.com/whatwg/html/pull/9747,2023-09-16T07:36:54Z,2023-09-16T11:03:53Z,B2-krunalrana,spam,0
@@ -128,7 +129,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1754473779,true,source modified,https://github.com/whatwg/html/pull/9418,2023-06-13T09:42:16Z,2023-06-15T13:55:09Z,arup1221,,0
 1750102943,false,Require support for AsyncContext,https://github.com/whatwg/html/pull/9408,2023-06-09T15:28:34Z,2023-06-10T08:44:43Z,Ms2ger,,0
 1749982433,true,Propagate fetch referrer in dynamic imports,https://github.com/whatwg/html/pull/9407,2023-06-09T14:14:59Z,2023-07-04T07:59:05Z,nicolo-ribaudo,normative change|topic: script,0
-1745979749,false,Add name attribute for grouping details elements into an exclusive accordion,https://github.com/whatwg/html/pull/9400,2023-06-07T13:59:20Z,2023-09-30T09:51:48Z,dbaron,addition/proposal|needs implementer interest,1
+1745979749,true,Add name attribute for grouping details elements into an exclusive accordion,https://github.com/whatwg/html/pull/9400,2023-06-07T13:59:20Z,2023-10-02T21:40:16Z,dbaron,addition/proposal|needs implementer interest,1
 1745722348,true,Null checks for img pending request,https://github.com/whatwg/html/pull/9399,2023-06-07T11:52:31Z,2023-06-09T12:15:43Z,zcorpan,,0
 1745244513,true,"Add asserting element's popover invoker is null in the ""show popover"" algorithm",https://github.com/whatwg/html/pull/9397,2023-06-07T07:27:12Z,2023-06-07T20:19:27Z,mbrodesser-Igalia,topic: popover,0
 1745032688,true,"Guard ""close a top-level traversable""",https://github.com/whatwg/html/pull/9396,2023-06-07T04:55:44Z,2023-06-09T05:32:47Z,domenic,topic: browsing context,0
@@ -1363,7 +1364,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 603334448,true,Update worker global scope's owner set earlier,https://github.com/whatwg/html/pull/5472,2020-04-20T15:39:13Z,2020-04-28T14:50:35Z,domenic,topic: workers,0
 603319225,true,Align on what we call implementation-defined,https://github.com/whatwg/html/pull/5471,2020-04-20T15:17:56Z,2020-04-20T16:31:12Z,annevk,,0
 603266759,false,Integrate with Reporting API,https://github.com/whatwg/html/pull/5470,2020-04-20T14:07:15Z,2022-08-22T02:36:09Z,clelland,,0
-602258520,false,Add declarative Shadow DOM features,https://github.com/whatwg/html/pull/5465,2020-04-17T22:04:40Z,2023-09-29T19:39:57Z,mfreed7,do not merge yet|topic: shadow|impacts documentation,14
+602258520,false,Add declarative Shadow DOM features,https://github.com/whatwg/html/pull/5465,2020-04-17T22:04:40Z,2023-10-02T17:17:36Z,mfreed7,do not merge yet|topic: shadow|impacts documentation,14
 601071702,true,Change how minimum used value for line-height works,https://github.com/whatwg/html/pull/5462,2020-04-16T13:50:43Z,2022-02-11T00:04:30Z,zcorpan,,0
 599834801,true,Remove report long tasks from update the rendering,https://github.com/whatwg/html/pull/5459,2020-04-14T20:21:05Z,2020-04-15T20:03:05Z,npm1,integration,0
 599421153,true,Expand IME  to 'input method editor',https://github.com/whatwg/html/pull/5458,2020-04-14T09:18:47Z,2020-04-14T15:00:36Z,36degrees,clarification,0
