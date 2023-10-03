@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1922743343,false,Navigation: navigate to a fragment updates the navigation api for same-document navigation twice.,https://github.com/whatwg/html/issues/9826,2023-10-02T21:23:00Z,2023-10-02T21:23:00Z,ADKaster,,0
+1923913566,false,Proposed Element : Transcript,https://github.com/whatwg/html/issues/9829,2023-10-03T11:25:04Z,2023-10-03T11:35:25Z,brennanyoung,addition/proposal|needs implementer interest,0
+1922743343,false,Navigation: navigate to a fragment updates the navigation api for same-document navigation twice.,https://github.com/whatwg/html/issues/9826,2023-10-02T21:23:00Z,2023-10-03T01:08:26Z,ADKaster,topic: navigation,0
 1921479717,false,Event loop: update the rendering step mismatches implementations in subtle ways,https://github.com/whatwg/html/issues/9824,2023-10-02T08:34:58Z,2023-10-02T12:35:52Z,noamr,topic: event loop,1
 1920922082,false,document's url never gets updated on a fragment navigation,https://github.com/whatwg/html/issues/9820,2023-10-01T19:08:23Z,2023-10-01T19:11:09Z,kalenikaliaksandr,topic: navigation,0
 1920835431,false,document should not be unloaded during same-document navigation,https://github.com/whatwg/html/issues/9819,2023-10-01T15:52:29Z,2023-10-01T15:52:59Z,kalenikaliaksandr,topic: navigation,0
@@ -7,7 +8,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1920253804,false,Defining a Non-Script Native HTML Component Model,https://github.com/whatwg/html/issues/9815,2023-09-30T13:13:26Z,2023-10-01T13:42:28Z,brandonmcconnell,addition/proposal|needs implementer interest,0
 1918999120,false,"Move ""Parse state"" section under ""Tree construction"" section",https://github.com/whatwg/html/issues/9814,2023-09-29T10:16:57Z,2023-10-01T13:42:45Z,not-my-profile,clarification|topic: parser,0
 1918851525,false,Meta: `dfn` elements made interactive by `html-dfn.js` aren't keyboard accessible,https://github.com/whatwg/html/issues/9813,2023-09-29T08:40:23Z,2023-10-01T13:43:05Z,not-my-profile,,0
-1918848965,false,HTML Video Element: Proposal for adding [srcset] + [posterset] + [sizes] on video element as well [posterset] on source elements,https://github.com/whatwg/html/issues/9812,2023-09-29T08:38:35Z,2023-10-01T13:43:30Z,Schepp,addition/proposal|needs implementer interest,2
+1918848965,false,HTML Video Element: Proposal for adding [srcset] + [posterset] + [sizes] on video element as well [posterset] on source elements,https://github.com/whatwg/html/issues/9812,2023-09-29T08:38:35Z,2023-10-03T08:48:49Z,Schepp,addition/proposal|needs implementer interest,2
 1918809473,false,Meta: Links that take you where you already are,https://github.com/whatwg/html/issues/9811,2023-09-29T08:17:19Z,2023-10-01T13:43:49Z,not-my-profile,,0
 1917630242,false,consider whether document-level language fallback rules make sense in all cases,https://github.com/whatwg/html/issues/9807,2023-09-28T14:06:24Z,2023-10-01T13:44:10Z,dbaron,i18n-tracker|needs tests,0
 1914439377,false,Navigables:  fireNavigateEventOnCommit is unused in apply the history step,https://github.com/whatwg/html/issues/9800,2023-09-26T23:34:38Z,2023-10-02T23:59:30Z,ADKaster,topic: navigation,0
@@ -18,7 +19,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1909491215,false,popover=hint,https://github.com/whatwg/html/issues/9776,2023-09-22T20:36:33Z,2023-10-01T13:48:08Z,josepharhar,topic: popover,1
 1909406598,true,Navigation: inner navigate firing algorithm does not say what to do if invoking NavigationInterceptHandler throws,https://github.com/whatwg/html/issues/9774,2023-09-22T19:17:05Z,2023-09-26T03:55:04Z,ADKaster,clarification|topic: navigation,0
 1909396065,false,Attribute index for script's type attribute was not updated for import maps,https://github.com/whatwg/html/issues/9773,2023-09-22T19:07:37Z,2023-10-01T13:48:56Z,domenic,clarification|topic: script,0
-1907577267,false,popover: should audio/video in a popover keep playing after popover is dismissed?,https://github.com/whatwg/html/issues/9770,2023-09-21T18:51:42Z,2023-10-01T13:49:43Z,xiaochengh,clarification|topic: popover,0
+1907577267,false,popover: should audio/video in a popover keep playing after popover is dismissed?,https://github.com/whatwg/html/issues/9770,2023-09-21T18:51:42Z,2023-10-03T08:42:26Z,xiaochengh,clarification|topic: popover,0
 1907562012,false,Rowgroup headers should go into headers list directly after step 3 (assignment of row headers),https://github.com/whatwg/html/issues/9769,2023-09-21T18:43:22Z,2023-10-01T13:51:32Z,jameslpetersen,topic: table,0
 1906566239,true,Proposal : Spoiler content semantics,https://github.com/whatwg/html/issues/9768,2023-09-21T09:48:00Z,2023-09-21T11:05:07Z,brennanyoung,,0
 1906535781,false,Steps for attempt to populate the history entry's document seem to be missing a level of nesting,https://github.com/whatwg/html/issues/9767,2023-09-21T09:31:51Z,2023-10-01T13:52:16Z,ADKaster,,0
@@ -405,7 +406,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1524706667,true,"""The XML syntax for HTML was formerly referred t...""",https://github.com/whatwg/html/issues/8700,2023-01-08T22:23:56Z,2023-01-12T01:51:14Z,PuppyPi,,0
 1524326598,false,"Don't mangle """"""username"""""" and """"""password"""""" in ""web+"" protocol handlers",https://github.com/whatwg/html/issues/8697,2023-01-08T04:56:24Z,2023-02-24T15:26:29Z,SoniEx2,security/privacy|topic: custom protocols,0
 1524286757,false,There's no way to declare character set (not encoding),https://github.com/whatwg/html/issues/8696,2023-01-08T02:37:06Z,2023-01-08T02:37:06Z,keiyakins,,0
-1523666956,false,Proposal: Elements for a more semantic web,https://github.com/whatwg/html/issues/8693,2023-01-07T09:54:18Z,2023-09-24T18:54:19Z,skwee357,,2
+1523666956,false,Proposal: Elements for a more semantic web,https://github.com/whatwg/html/issues/8693,2023-01-07T09:54:18Z,2023-10-03T09:21:59Z,skwee357,,2
 1521956909,false,12.2.1 The Storage interface says storage[key] returns null but actually returns undefined.,https://github.com/whatwg/html/issues/8684,2023-01-06T05:11:19Z,2023-01-07T00:18:48Z,babatakao,,0
 1521326222,false,Support for rel attribute on iframe,https://github.com/whatwg/html/issues/8682,2023-01-05T20:04:55Z,2023-02-03T10:21:17Z,0xdevwrite,,1
 1521187504,false,Should the `dialog` element be considered interactive content?,https://github.com/whatwg/html/issues/8680,2023-01-05T18:24:04Z,2023-01-05T20:10:25Z,gnpivo,,0
@@ -1916,7 +1917,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 497040604,false,Define a policy container,https://github.com/whatwg/html/issues/4926,2019-09-23T11:28:43Z,2021-05-21T10:44:17Z,annevk,clarification|needs tests|interop|integration|topic: policy container,6
 496594293,true,Design questions about IDREF/Element attribute reflection,https://github.com/whatwg/html/issues/4925,2019-09-21T00:49:20Z,2022-06-30T08:19:53Z,alice,accessibility,0
 496188244,true,COEP mismatches in dedicated workers should block.,https://github.com/whatwg/html/issues/4924,2019-09-20T07:14:14Z,2020-04-20T09:12:18Z,mikewest,topic: cross-origin-embedder-policy,0
-495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2022-10-27T11:18:35Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,134
+495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2022-10-27T11:18:35Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,135
 495810632,false,Allow an extra dimension to the size array for 3D favicon,https://github.com/whatwg/html/issues/4922,2019-09-19T13:46:29Z,2021-01-28T22:05:11Z,rcabanier,addition/proposal|needs implementer interest|topic: link,0
 495595729,true,Decide how to treat CSP sandbox in COOP,https://github.com/whatwg/html/issues/4921,2019-09-19T06:18:06Z,2020-06-24T17:33:26Z,shhnjk,security/privacy|topic: cross-origin-opener-policy,0
 495587240,true,Consider restricting SharedArrayBuffer to same-origin usage,https://github.com/whatwg/html/issues/4920,2019-09-19T05:50:59Z,2019-12-05T15:38:02Z,annevk,addition/proposal|topic: serialize and transfer,0
