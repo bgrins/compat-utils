@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1923100117,false,Fix setting document's URL in fragment navigations,https://github.com/whatwg/html/pull/9828,2023-10-03T01:19:31Z,2023-10-03T11:56:45Z,domenic,topic: navigation,0
+1923100117,true,Fix setting document's URL in fragment navigations,https://github.com/whatwg/html/pull/9828,2023-10-03T01:19:31Z,2023-10-04T07:00:52Z,domenic,topic: navigation,0
 1923043046,false,"Various minor fixes to ""apply the history step""",https://github.com/whatwg/html/pull/9827,2023-10-03T00:16:29Z,2023-10-03T00:17:51Z,domenic,topic: navigation,0
 1921372545,false,Make rAF and web-animation timestamps relative and coarsened,https://github.com/whatwg/html/pull/9823,2023-10-02T07:15:37Z,2023-10-03T11:22:02Z,noamr,,0
 1921347979,true,Meta: stop using file-issue.js,https://github.com/whatwg/html/pull/9822,2023-10-02T06:54:06Z,2023-10-03T06:01:22Z,annevk,,0
@@ -15,7 +15,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1915425899,true,Meta: update repository files,https://github.com/whatwg/html/pull/9801,2023-09-27T12:10:11Z,2023-09-27T13:48:44Z,annevk,,0
 1913903583,true,Specify what happens when “disabled” is added to a link@rel=stylesheet,https://github.com/whatwg/html/pull/9798,2023-09-26T16:38:35Z,2023-09-28T08:41:43Z,sideshowbarker,,0
 1913824830,true,Stop requiring an event loop for queue a microtask,https://github.com/whatwg/html/pull/9797,2023-09-26T15:53:11Z,2023-09-29T06:57:47Z,annevk,topic: event loop,0
-1913810629,false,Make computation of directionality account for Shadow DOM.,https://github.com/whatwg/html/pull/9796,2023-09-26T15:44:56Z,2023-10-02T21:10:05Z,dbaron,addition/proposal|topic: shadow|i18n-tracker,0
+1913810629,false,Make computation of directionality account for Shadow DOM.,https://github.com/whatwg/html/pull/9796,2023-09-26T15:44:56Z,2023-10-04T09:02:53Z,dbaron,addition/proposal|topic: shadow|i18n-tracker,0
 1913240533,false,"Editorial: remove two wrong ""(fragment case)"" annotations",https://github.com/whatwg/html/pull/9792,2023-09-26T10:52:07Z,2023-09-26T11:08:27Z,not-my-profile,,0
 1913164081,false,Add `pagereveal` event,https://github.com/whatwg/html/pull/9791,2023-09-26T10:05:40Z,2023-10-02T16:19:21Z,noamr,,0
 1912751580,true,Editorial: fix broken setAttribute link,https://github.com/whatwg/html/pull/9790,2023-09-26T06:07:57Z,2023-09-26T06:12:50Z,not-my-profile,,0
@@ -1365,7 +1365,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 603334448,true,Update worker global scope's owner set earlier,https://github.com/whatwg/html/pull/5472,2020-04-20T15:39:13Z,2020-04-28T14:50:35Z,domenic,topic: workers,0
 603319225,true,Align on what we call implementation-defined,https://github.com/whatwg/html/pull/5471,2020-04-20T15:17:56Z,2020-04-20T16:31:12Z,annevk,,0
 603266759,false,Integrate with Reporting API,https://github.com/whatwg/html/pull/5470,2020-04-20T14:07:15Z,2022-08-22T02:36:09Z,clelland,,0
-602258520,false,Add declarative Shadow DOM features,https://github.com/whatwg/html/pull/5465,2020-04-17T22:04:40Z,2023-10-02T17:17:36Z,mfreed7,do not merge yet|topic: shadow|impacts documentation,14
+602258520,false,Add declarative Shadow DOM features,https://github.com/whatwg/html/pull/5465,2020-04-17T22:04:40Z,2023-10-04T09:35:14Z,mfreed7,do not merge yet|topic: shadow|impacts documentation,14
 601071702,true,Change how minimum used value for line-height works,https://github.com/whatwg/html/pull/5462,2020-04-16T13:50:43Z,2022-02-11T00:04:30Z,zcorpan,,0
 599834801,true,Remove report long tasks from update the rendering,https://github.com/whatwg/html/pull/5459,2020-04-14T20:21:05Z,2020-04-15T20:03:05Z,npm1,integration,0
 599421153,true,Expand IME  to 'input method editor',https://github.com/whatwg/html/pull/5458,2020-04-14T09:18:47Z,2020-04-14T15:00:36Z,36degrees,clarification,0
