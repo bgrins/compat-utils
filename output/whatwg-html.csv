@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1929163454,false,Upcoming HTML standard issue triage meeting on 10/19/2023,https://github.com/whatwg/html/issues/9836,2023-10-05T22:24:28Z,2023-10-05T22:24:28Z,past,agenda+,0
-1927438850,false,Support Markdown text input,https://github.com/whatwg/html/issues/9833,2023-10-05T05:56:29Z,2023-10-05T06:03:53Z,Crissov,addition/proposal|needs implementer interest,0
+1929163454,false,Upcoming HTML standard issue triage meeting on 10/19/2023,https://github.com/whatwg/html/issues/9836,2023-10-05T22:24:28Z,2023-10-06T11:53:48Z,past,agenda+,0
+1927438850,false,Support Markdown text input,https://github.com/whatwg/html/issues/9833,2023-10-05T05:56:29Z,2023-10-05T06:03:53Z,Crissov,addition/proposal|needs implementer interest,1
 1926931991,false,The spec language for `enumerated attributes` is not consistent,https://github.com/whatwg/html/issues/9832,2023-10-04T20:29:09Z,2023-10-05T07:06:06Z,mfreed7,good first issue|editorial,0
 1925910247,false,User Activation: siblings are not processed,https://github.com/whatwg/html/issues/9831,2023-10-04T10:37:18Z,2023-10-05T14:30:09Z,CanadaHonk,interop|topic: user activation,0
 1924272839,false,Don't force <details> to be a block.,https://github.com/whatwg/html/issues/9830,2023-10-03T14:27:09Z,2023-10-03T21:30:57Z,emilio,topic: rendering,2
@@ -21,7 +21,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1913709777,false,Should MathML references be to MathML-Core instead of full?,https://github.com/whatwg/html/issues/9795,2023-09-26T14:56:47Z,2023-10-01T13:45:45Z,bkardell,normative change,0
 1913666731,false,Should throw SecurityError when loading a worker with a cross-origin script,https://github.com/whatwg/html/issues/9794,2023-09-26T14:37:14Z,2023-10-01T13:46:34Z,edenchuang,topic: workers|agenda+,0
 1913245177,false,Add `autopause` attribute to media elements to allow automatic pausing of media,https://github.com/whatwg/html/issues/9793,2023-09-26T10:54:58Z,2023-10-05T22:13:34Z,keithamus,needs implementer interest|topic: media,7
-1909491215,false,popover=hint,https://github.com/whatwg/html/issues/9776,2023-09-22T20:36:33Z,2023-10-05T22:18:06Z,josepharhar,topic: popover,1
+1909491215,false,popover=hint,https://github.com/whatwg/html/issues/9776,2023-09-22T20:36:33Z,2023-10-06T07:09:15Z,josepharhar,topic: popover,1
 1909406598,true,Navigation: inner navigate firing algorithm does not say what to do if invoking NavigationInterceptHandler throws,https://github.com/whatwg/html/issues/9774,2023-09-22T19:17:05Z,2023-09-26T03:55:04Z,ADKaster,clarification|topic: navigation,0
 1909396065,false,Attribute index for script's type attribute was not updated for import maps,https://github.com/whatwg/html/issues/9773,2023-09-22T19:07:37Z,2023-10-01T13:48:56Z,domenic,clarification|topic: script,0
 1907577267,false,popover: should audio/video in a popover keep playing after popover is dismissed?,https://github.com/whatwg/html/issues/9770,2023-09-21T18:51:42Z,2023-10-05T08:32:10Z,xiaochengh,clarification|topic: popover,0
@@ -740,7 +740,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1212616847,false,[canvas] Define OffscreenCanvasRenderingContext2D's font setter in detail,https://github.com/whatwg/html/issues/7847,2022-04-22T17:37:11Z,2023-05-04T18:52:08Z,emilio,topic: canvas,0
 1211933864,false,How can microtasks run without a task?,https://github.com/whatwg/html/issues/7845,2022-04-22T07:26:22Z,2022-04-25T12:35:33Z,annevk,topic: event loop,0
 1210820388,false,Can a nested worker outlive its parent worker?,https://github.com/whatwg/html/issues/7840,2022-04-21T10:17:56Z,2022-04-21T11:51:55Z,andreubotella,topic: workers,0
-1209001363,false,Make self.name writable in DedicatedWorkerGlobalScope,https://github.com/whatwg/html/issues/7838,2022-04-20T00:24:33Z,2023-10-05T23:05:41Z,connorjclark,addition/proposal|topic: workers,3
+1209001363,false,Make self.name writable in DedicatedWorkerGlobalScope,https://github.com/whatwg/html/issues/7838,2022-04-20T00:24:33Z,2023-10-06T04:42:27Z,connorjclark,addition/proposal|needs implementer interest|topic: workers,3
 1208006942,false,"Rendering of ""bitmaprenderer""-backed canvas",https://github.com/whatwg/html/issues/7833,2022-04-19T08:51:04Z,2023-09-18T20:31:05Z,annevk,topic: canvas|interop,0
 1207220491,false,Specify back button history-entry skipping?,https://github.com/whatwg/html/issues/7832,2022-04-18T16:35:55Z,2023-05-27T15:05:01Z,domenic,topic: history|interop|topic: user activation,6
 1206401736,true,Proposal: extend FocusOptions to allow specifying `:focus-visible` behavior.,https://github.com/whatwg/html/issues/7830,2022-04-17T15:04:38Z,2022-07-13T03:58:59Z,emilio,addition/proposal|topic: focus,9
@@ -2112,7 +2112,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 440099712,true,List contains duplicates,https://github.com/whatwg/html/issues/4593,2019-05-03T15:31:20Z,2020-03-20T15:45:51Z,ceving,clarification|topic: parser,0
 439982554,false,Recommend iframe/img over embed/object for some content types,https://github.com/whatwg/html/issues/4592,2019-05-03T10:21:38Z,2022-06-16T15:03:50Z,zcorpan,clarification|topic: embed and object,2
 439969042,false,Passage of time with SharedArrayBuffer and setTimeout,https://github.com/whatwg/html/issues/4591,2019-05-03T09:45:43Z,2023-02-24T15:25:53Z,littledan,integration|topic: timing,1
-439936239,false,Add `twitter` for `<input>`'s `type` and global `inputmode` attributes?,https://github.com/whatwg/html/issues/4589,2019-05-03T08:14:33Z,2021-05-11T05:47:42Z,upsuper,addition/proposal|needs implementer interest,3
+439936239,false,Add `twitter` for `<input>`'s `type` and global `inputmode` attributes?,https://github.com/whatwg/html/issues/4589,2019-05-03T08:14:33Z,2021-05-11T05:47:42Z,upsuper,addition/proposal|needs implementer interest,4
 439451314,true,"Similar-origin window agent definition (un)clarity ",https://github.com/whatwg/html/issues/4587,2019-05-02T07:03:27Z,2019-05-02T12:10:11Z,gterzian,,0
 439343598,false,autocomplete=one-time-code underspecified,https://github.com/whatwg/html/issues/4586,2019-05-01T22:02:02Z,2020-04-29T15:18:25Z,jyasskin,topic: forms,0
 438916444,false,Fallback URI handlers on a webpage,https://github.com/whatwg/html/issues/4584,2019-04-30T18:31:34Z,2020-08-19T15:59:45Z,SoniEx2,addition/proposal|needs implementer interest|topic: custom protocols,1
@@ -2130,7 +2130,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 437011192,false,Unpredictable availability of template's content,https://github.com/whatwg/html/issues/4566,2019-04-25T05:07:56Z,2019-05-01T05:42:07Z,tomalec,,0
 436847516,true,"add ""oncopy"", ""oncut"", ""onpaste"" attribute to list of event handler content attributes",https://github.com/whatwg/html/issues/4564,2019-04-24T18:36:09Z,2019-05-09T15:56:07Z,mtrootyy,good first issue,0
 436589633,true,Move autofocus content attribute to HTMLElement,https://github.com/whatwg/html/issues/4563,2019-04-24T09:26:11Z,2019-08-30T18:56:27Z,tkent-google,addition/proposal|topic: focus,2
-436466726,false,"Validating internationalized mail addresses in <input type=""email"">",https://github.com/whatwg/html/issues/4562,2019-04-24T02:23:14Z,2023-10-05T19:27:01Z,jrlevine,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,8
+436466726,false,"Validating internationalized mail addresses in <input type=""email"">",https://github.com/whatwg/html/issues/4562,2019-04-24T02:23:14Z,2023-10-06T08:33:38Z,jrlevine,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,8
 436404158,false,"add explain about ""user-scalable=no"" and ""maximum-scale=1.0"" to section of <meta> element",https://github.com/whatwg/html/issues/4561,2019-04-23T21:45:12Z,2019-04-30T21:27:39Z,mtrootyy,,0
 436316823,false,warning of security should be added to section of <audio> element,https://github.com/whatwg/html/issues/4560,2019-04-23T17:59:08Z,2019-06-05T16:12:34Z,mtrootyy,topic: media|security/privacy,0
 436315802,false,clarify support of audio codecs in <video> element,https://github.com/whatwg/html/issues/4559,2019-04-23T17:56:28Z,2019-04-24T18:38:47Z,mtrootyy,topic: media,0
