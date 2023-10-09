@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1932898937,false,Document base URL does not conform to RFC3986 re. fragment identifiers,https://github.com/whatwg/html/issues/9843,2023-10-09T11:54:33Z,2023-10-09T12:01:35Z,namedgraph,,0
 1929163454,false,Upcoming HTML standard issue triage meeting on 10/19/2023,https://github.com/whatwg/html/issues/9836,2023-10-05T22:24:28Z,2023-10-06T11:53:48Z,past,agenda+,0
 1927438850,false,Support Markdown text input,https://github.com/whatwg/html/issues/9833,2023-10-05T05:56:29Z,2023-10-05T06:03:53Z,Crissov,addition/proposal|needs implementer interest,1
 1926931991,false,The spec language for `enumerated attributes` is not consistent,https://github.com/whatwg/html/issues/9832,2023-10-04T20:29:09Z,2023-10-07T09:45:48Z,mfreed7,good first issue|editorial,0
@@ -286,7 +287,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1634346770,true,Be able to select for partial attribute names,https://github.com/whatwg/html/issues/9056,2023-03-21T16:57:38Z,2023-03-22T12:36:02Z,keithamus,,1
 1633613880,true,Is it ok for popover to claim general names like :open and :closed?,https://github.com/whatwg/html/issues/9055,2023-03-21T10:28:08Z,2023-04-06T23:18:08Z,jakearchibald,topic: popover,0
 1633590732,true,Add element.popoverOpen,https://github.com/whatwg/html/issues/9054,2023-03-21T10:13:22Z,2023-06-06T06:25:59Z,jakearchibald,addition/proposal|needs implementer interest|topic: popover,0
-1629220956,false,"Timing of `<dialog>` 'close' event, popover 'toggle' event, `<details>` 'toggle' event",https://github.com/whatwg/html/issues/9046,2023-03-17T12:19:27Z,2023-10-06T17:36:22Z,jakearchibald,topic: dialog|topic: popover,0
+1629220956,false,"Timing of `<dialog>` 'close' event, popover 'toggle' event, `<details>` 'toggle' event",https://github.com/whatwg/html/issues/9046,2023-03-17T12:19:27Z,2023-10-09T10:33:17Z,jakearchibald,topic: dialog|topic: popover,0
 1629156392,true,Should popover/dialog show/hide when already shown/hidden throw?,https://github.com/whatwg/html/issues/9045,2023-03-17T11:32:41Z,2023-06-06T06:39:49Z,jakearchibald,topic: dialog|topic: popover,6
 1629078964,false,<dialog> Unclear method of altering/reading attributes,https://github.com/whatwg/html/issues/9044,2023-03-17T10:35:36Z,2023-03-17T11:06:53Z,jakearchibald,topic: dialog,0
 1628986537,true,Should togglePopover() return a boolean?,https://github.com/whatwg/html/issues/9043,2023-03-17T09:30:48Z,2023-06-20T06:33:38Z,jakearchibald,addition/proposal|topic: popover,0
@@ -3842,7 +3843,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 157783300,true,"Events list that trigger ""allowed to show a popup"" seems too small",https://github.com/whatwg/html/issues/1358,2016-05-31T22:17:23Z,2016-10-15T00:20:45Z,domenic,,0
 157658318,true,Navigate improvements,https://github.com/whatwg/html/issues/1352,2016-05-31T12:22:11Z,2017-05-05T09:40:07Z,annevk,topic: navigation,0
 157609617,true,Remove parse error for dashes in comments <!-- -- -->,https://github.com/whatwg/html/issues/1351,2016-05-31T07:48:30Z,2017-02-06T08:11:21Z,zcorpan,document conformance|topic: parser,5
-157550701,false,Define parser behavior for in-body external stylesheets,https://github.com/whatwg/html/issues/1349,2016-05-30T20:00:32Z,2023-09-27T16:39:17Z,pmeenan,compat|topic: parser|topic: style,0
+157550701,false,Define parser behavior for in-body external stylesheets,https://github.com/whatwg/html/issues/1349,2016-05-30T20:00:32Z,2023-10-09T07:31:41Z,pmeenan,compat|topic: parser|topic: style,0
 157515981,true,The Worker's Lifetime TOC entry is broken,https://github.com/whatwg/html/issues/1347,2016-05-30T14:44:11Z,2016-05-30T15:00:02Z,jdm,,0
 157368757,true,"""This event must not bubble, must not be cancela...""",https://github.com/whatwg/html/issues/1341,2016-05-29T04:34:10Z,2016-05-29T04:59:40Z,dannyid,,0
 157356866,true,HTMLHyperlinkElementUtils set the url doesn't say what to do when the attribute is absent,https://github.com/whatwg/html/issues/1340,2016-05-28T21:05:38Z,2016-06-30T21:30:50Z,domenic,clarification|good first issue,0
