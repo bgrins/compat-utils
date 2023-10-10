@@ -7,7 +7,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1918788299,false,CSS State Container Queries [css-contain-4],https://github.com/mozilla/standards-positions/issues/896,2023-09-29T08:01:13Z,2023-10-02T17:23:22Z,lilles,,0
 1917050579,true,MediaStreamTrack Statistics,https://github.com/mozilla/standards-positions/issues/895,2023-09-28T09:08:43Z,2023-09-29T02:30:19Z,henbos,position: positive,1
 1915787245,false,TextTrackCue enhancements for programmatic subtitle and caption presentation,https://github.com/mozilla/standards-positions/issues/891,2023-09-27T15:01:39Z,2023-10-03T19:04:54Z,marcoscaceres,,0
-1905345261,false,Feature detection for supported clipboard formats,https://github.com/mozilla/standards-positions/issues/889,2023-09-20T16:26:20Z,2023-10-04T08:44:05Z,snianu,,0
+1905345261,false,Feature detection for supported clipboard formats,https://github.com/mozilla/standards-positions/issues/889,2023-09-20T16:26:20Z,2023-10-09T18:21:56Z,snianu,ready to add|position: positive,0
 1905274819,true,"CaptureStartFocusBehavior enum value ""focus-capturing-application""",https://github.com/mozilla/standards-positions/issues/888,2023-09-20T15:44:51Z,2023-09-20T22:53:53Z,beaufortfrancois,position: positive,1
 1905203647,true,Allow `<hr>` tags inside `<select>` tags,https://github.com/mozilla/standards-positions/issues/887,2023-09-20T15:08:18Z,2023-10-02T17:21:57Z,josepharhar,position: positive,2
 1905194747,true,HTMLSelectElement `showPicker()`,https://github.com/mozilla/standards-positions/issues/886,2023-09-20T15:03:46Z,2023-10-02T17:19:48Z,lukewarlow,position: positive,0
@@ -149,7 +149,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1471751420,false,Request for Position: Extending the PointerEvent with Unique DeviceId Attribute,https://github.com/mozilla/standards-positions/issues/715,2022-12-01T18:21:20Z,2022-12-01T18:21:20Z,bmathwig,,0
 1470500113,false,Request for Position: Fullscreen Popup Windows,https://github.com/mozilla/standards-positions/issues/714,2022-12-01T01:21:42Z,2022-12-01T01:21:42Z,bradtriebwasser,,0
 1467877054,true,Request for position: WebRTC RTP header extension control,https://github.com/mozilla/standards-positions/issues/713,2022-11-29T11:09:58Z,2023-06-02T06:30:02Z,fippo,position: positive,0
-1463406318,false,Request for Position: Additional Windowing Controls,https://github.com/mozilla/standards-positions/issues/712,2022-11-24T14:09:40Z,2022-12-14T19:57:37Z,ivansandrk,,1
+1463406318,false,Request for Position: Additional Windowing Controls,https://github.com/mozilla/standards-positions/issues/712,2022-11-24T14:09:40Z,2023-10-09T13:36:23Z,ivansandrk,,1
 1459363716,false,"CSS `initial-letter` property ",https://github.com/mozilla/standards-positions/issues/711,2022-11-22T08:18:03Z,2023-02-13T18:13:57Z,yosinch,,2
 1458940638,false,chore: extract labeled issue positions,https://github.com/mozilla/standards-positions/issues/710,2022-11-22T02:55:46Z,2022-12-20T13:59:20Z,bgrins,tooling,0
 1455710984,true,Request for Position: TLS ClientHello extension permutation,https://github.com/mozilla/standards-positions/issues/709,2022-11-18T19:52:53Z,2023-09-07T00:09:52Z,dadrian,position: positive,0
@@ -157,7 +157,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1450863262,false,Request for Position: Notification API Incoming Call Extension,https://github.com/mozilla/standards-positions/issues/707,2022-11-16T05:00:44Z,2022-11-16T05:00:44Z,gabrielsanbrito,,0
 1449566613,false,Face Detection MediaStreamTrack constraints and VideoFrame metadata,https://github.com/mozilla/standards-positions/issues/706,2022-11-15T10:45:54Z,2023-04-12T13:39:34Z,ttoivone,,0
 1447827420,true,Content-type in Resource Timing,https://github.com/mozilla/standards-positions/issues/705,2022-11-14T10:52:48Z,2023-01-12T14:26:18Z,abinpaul1,position: positive,0
-1441250609,false,PendingBeacon API,https://github.com/mozilla/standards-positions/issues/703,2022-11-09T02:36:39Z,2023-07-18T02:54:28Z,mingyc,,0
+1441250609,false,fetchLater() API,https://github.com/mozilla/standards-positions/issues/703,2022-11-09T02:36:39Z,2023-10-09T14:53:19Z,mingyc,,0
 1434777206,true,FedCM Permissions Policy,https://github.com/mozilla/standards-positions/issues/701,2022-11-03T14:41:17Z,2022-11-16T16:37:53Z,npm1,position: positive,0
 1415559819,true,ECMAScript Decorators,https://github.com/mozilla/standards-positions/issues/700,2022-10-19T20:42:02Z,2022-10-20T15:14:13Z,bennypowers,,2
 1411609731,true,CSS lh and rlh units,https://github.com/mozilla/standards-positions/issues/699,2022-10-17T13:43:02Z,2022-10-17T19:54:46Z,lilles,position: positive,0
@@ -187,7 +187,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1305725722,true,"Subset of CSP 3: script-src-elem, script-src-attr, style-src-elem and style-src-attr",https://github.com/mozilla/standards-positions/issues/666,2022-07-15T08:13:34Z,2022-07-29T17:55:40Z,evilpie,position: positive,0
 1303318899,true,Request for position : HTTP response status code in Resource Timing,https://github.com/mozilla/standards-positions/issues/665,2022-07-13T11:46:02Z,2023-01-19T17:00:27Z,abinpaul1,position: positive,0
 1300973240,false,ContentVisibilityAutoStateChanged event,https://github.com/mozilla/standards-positions/issues/664,2022-07-11T16:53:11Z,2022-08-24T15:50:48Z,vmpstr,position: under consideration,0
-1294231944,false,fetch streaming upload,https://github.com/mozilla/standards-positions/issues/663,2022-07-05T12:27:16Z,2022-07-13T11:55:34Z,yutakahirano,whatwg,7
+1294231944,false,fetch streaming upload,https://github.com/mozilla/standards-positions/issues/663,2022-07-05T12:27:16Z,2023-10-09T19:19:49Z,yutakahirano,whatwg,7
 1288559169,true,Request for position : Render blocking status in Resource Timing,https://github.com/mozilla/standards-positions/issues/662,2022-06-29T11:18:06Z,2022-07-13T18:44:45Z,abinpaul1,position: positive,0
 1284147801,true,Request for position : CSS Overflow for replaced elements,https://github.com/mozilla/standards-positions/issues/659,2022-06-24T20:15:34Z,2022-07-13T00:31:30Z,khushalsagar,position: positive,0
 1280909943,false,Request for position : MediaTrackSupportedConstraints.backgroundBlur,https://github.com/mozilla/standards-positions/issues/658,2022-06-22T21:07:32Z,2023-03-20T23:10:38Z,riju,,0
