@@ -2,12 +2,12 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1935018189,true,Editorial: make kind attributes consistent,https://github.com/whatwg/html/pull/9847,2023-10-10T10:34:57Z,2023-10-10T11:59:18Z,keithamus,editorial,0
 1933058172,false,Implement WebDriver BiDi interception in the `show the picker` algorithm,https://github.com/whatwg/html/pull/9844,2023-10-09T13:22:03Z,2023-10-09T22:55:41Z,jrandolf,,0
 1932809665,true,Editorial: make fetch priority attributes consistent,https://github.com/whatwg/html/pull/9842,2023-10-09T10:59:10Z,2023-10-09T11:41:54Z,keithamus,editorial,0
-1932098948,false,Add InvokeElement & InvokeEvent IDLs & invocation steps for Invoke proposal,https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2023-10-09T09:58:51Z,keithamus,,0
+1932098948,false,Add InvokeElement & InvokeEvent IDLs & invocation steps for Invoke proposal,https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2023-10-10T22:30:15Z,keithamus,,0
 1931367969,true,Editorial: remove some copypasta around CORS settings attribute,https://github.com/whatwg/html/pull/9840,2023-10-07T14:14:19Z,2023-10-08T14:25:55Z,annevk,,0
 1930976617,true,"Fix typo in ""History-action activation-consuming APIs""",https://github.com/whatwg/html/pull/9839,2023-10-06T21:55:17Z,2023-10-10T04:56:14Z,CanadaHonk,,0
 1930460108,true,Perform a microtask checkpoint only after a task,https://github.com/whatwg/html/pull/9838,2023-10-06T15:38:05Z,2023-10-10T05:26:36Z,annevk,topic: event loop,0
 1929821283,true,make lazy loading attributes consistent,https://github.com/whatwg/html/pull/9837,2023-10-06T09:57:48Z,2023-10-06T12:29:05Z,keithamus,editorial,0
-1928350943,false,add invokeevent,https://github.com/whatwg/html/pull/9835,2023-10-05T13:52:51Z,2023-10-05T13:55:05Z,keithamus,,0
+1928350943,true,add invokeevent,https://github.com/whatwg/html/pull/9835,2023-10-05T13:52:51Z,2023-10-10T21:39:49Z,keithamus,,0
 1927730685,true,make CORS settings attributes consistent,https://github.com/whatwg/html/pull/9834,2023-10-05T08:49:00Z,2023-10-07T14:15:22Z,keithamus,editorial,0
 1923100117,true,Fix setting document's URL in fragment navigations,https://github.com/whatwg/html/pull/9828,2023-10-03T01:19:31Z,2023-10-04T07:00:52Z,domenic,topic: navigation,0
 1923043046,false,"Various minor fixes to ""apply the history step""",https://github.com/whatwg/html/pull/9827,2023-10-03T00:16:29Z,2023-10-03T00:17:51Z,domenic,topic: navigation,0
@@ -60,7 +60,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1884164093,true,Add diff.py to diff individual sections of the source file,https://github.com/whatwg/html/pull/9700,2023-09-06T14:40:42Z,2023-09-24T06:19:11Z,not-my-profile,,0
 1883918592,true,Editorial: define stylesheet location in terms of response,https://github.com/whatwg/html/pull/9697,2023-09-06T12:32:33Z,2023-09-08T09:09:16Z,annevk,topic: link,0
 1883685050,true,"Editorial: link ""character reference"" in Named character references",https://github.com/whatwg/html/pull/9696,2023-09-06T10:09:01Z,2023-09-26T04:01:57Z,not-my-profile,,0
-1882070872,false,"Change auto directionality of hidden, password, and button controls",https://github.com/whatwg/html/pull/9689,2023-09-05T14:12:54Z,2023-10-10T09:48:31Z,annevk,normative change|topic: forms|i18n-tracker,0
+1882070872,false,"Change auto directionality of hidden, password, and button controls",https://github.com/whatwg/html/pull/9689,2023-09-05T14:12:54Z,2023-10-10T15:15:10Z,annevk,normative change|topic: forms|i18n-tracker,0
 1881650840,true,Mark window.clientInformation [Replaceable],https://github.com/whatwg/html/pull/9688,2023-09-05T10:09:52Z,2023-09-06T16:59:20Z,annevk,,0
 1881492557,true,Correct some element references in <link rel=stylesheet>,https://github.com/whatwg/html/pull/9685,2023-09-05T08:39:15Z,2023-09-06T05:13:52Z,annevk,topic: link,0
 1881425896,true,Editorial: add parse and serialize a URL,https://github.com/whatwg/html/pull/9684,2023-09-05T08:00:14Z,2023-09-06T08:33:05Z,annevk,,0
@@ -1375,7 +1375,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 603334448,true,Update worker global scope's owner set earlier,https://github.com/whatwg/html/pull/5472,2020-04-20T15:39:13Z,2020-04-28T14:50:35Z,domenic,topic: workers,0
 603319225,true,Align on what we call implementation-defined,https://github.com/whatwg/html/pull/5471,2020-04-20T15:17:56Z,2020-04-20T16:31:12Z,annevk,,0
 603266759,false,Integrate with Reporting API,https://github.com/whatwg/html/pull/5470,2020-04-20T14:07:15Z,2022-08-22T02:36:09Z,clelland,,0
-602258520,false,Add declarative Shadow DOM features,https://github.com/whatwg/html/pull/5465,2020-04-17T22:04:40Z,2023-10-05T09:20:21Z,mfreed7,do not merge yet|topic: shadow|impacts documentation,14
+602258520,false,Add declarative Shadow DOM features,https://github.com/whatwg/html/pull/5465,2020-04-17T22:04:40Z,2023-10-10T15:05:08Z,mfreed7,do not merge yet|topic: shadow|impacts documentation,14
 601071702,true,Change how minimum used value for line-height works,https://github.com/whatwg/html/pull/5462,2020-04-16T13:50:43Z,2022-02-11T00:04:30Z,zcorpan,,0
 599834801,true,Remove report long tasks from update the rendering,https://github.com/whatwg/html/pull/5459,2020-04-14T20:21:05Z,2020-04-15T20:03:05Z,npm1,integration,0
 599421153,true,Expand IME  to 'input method editor',https://github.com/whatwg/html/pull/5458,2020-04-14T09:18:47Z,2020-04-14T15:00:36Z,36degrees,clarification,0

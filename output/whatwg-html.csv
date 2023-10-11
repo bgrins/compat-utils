@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1933644840,false,Clarify arrow key behavior for <input type=number> in vertical writing mode,https://github.com/whatwg/html/issues/9846,2023-10-09T19:11:08Z,2023-10-10T06:28:39Z,dizhang168,topic: forms,0
+1933644840,true,Clarify arrow key behavior for <input type=number> in vertical writing mode,https://github.com/whatwg/html/issues/9846,2023-10-09T19:11:08Z,2023-10-10T18:42:59Z,dizhang168,topic: forms,0
 1933445371,true,Born accessible table summary,https://github.com/whatwg/html/issues/9845,2023-10-09T16:42:28Z,2023-10-10T11:35:50Z,LaZay,addition/proposal|needs implementer interest|a11y-tracker,0
 1932898937,true,Document base URL does not conform to RFC3986 re. fragment identifiers,https://github.com/whatwg/html/issues/9843,2023-10-09T11:54:33Z,2023-10-09T15:17:46Z,namedgraph,,0
 1929163454,false,Upcoming HTML standard issue triage meeting on 10/19/2023,https://github.com/whatwg/html/issues/9836,2023-10-05T22:24:28Z,2023-10-06T11:53:48Z,past,agenda+,0
@@ -37,7 +37,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1904405325,true,link should have attribute for ailang,https://github.com/whatwg/html/issues/9761,2023-09-20T07:59:32Z,2023-09-25T23:51:26Z,BLamy,,1
 1904388480,false,Expose information about last activation/cross-document navigation,https://github.com/whatwg/html/issues/9760,2023-09-20T07:50:50Z,2023-10-01T13:55:00Z,noamr,,1
 1903500453,true,System visibility change reaction code incorrectly tries getting inclusive descendant navigables of a traversable navigable,https://github.com/whatwg/html/issues/9758,2023-09-19T18:14:50Z,2023-09-27T00:58:37Z,awesomekling,,0
-1903392884,false,Can showPicker() focus a control?,https://github.com/whatwg/html/issues/9757,2023-09-19T16:59:56Z,2023-10-10T11:52:09Z,annevk,topic: forms|topic: focus,1
+1903392884,false,Can showPicker() focus a control?,https://github.com/whatwg/html/issues/9757,2023-09-19T16:59:56Z,2023-10-10T18:57:39Z,annevk,topic: forms|topic: focus,1
 1899693712,true,Modification GIF Folder Preview Script,https://github.com/whatwg/html/issues/9749,2023-09-17T07:50:44Z,2023-09-17T08:10:35Z,deiraf,,0
 1899506717,true,"Missing links in ""Kinds of content"" list",https://github.com/whatwg/html/issues/9748,2023-09-16T17:14:26Z,2023-09-23T11:44:17Z,lauch788,editorial,0
 1898699206,false,`<details>` element does not fire a `beforetoggle` event.,https://github.com/whatwg/html/issues/9743,2023-09-15T15:53:21Z,2023-10-01T13:56:00Z,keithamus,addition/proposal|topic: events,0
@@ -781,7 +781,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1177177506,true,Question: Expected behavior for Object.keys with storage objects,https://github.com/whatwg/html/issues/7741,2022-03-22T18:50:05Z,2022-03-22T18:55:43Z,jasonnutter,,0
 1176559847,true,HTML syntax: omitting <body> should not be allowed if first child is <noscript>,https://github.com/whatwg/html/issues/7737,2022-03-22T10:14:53Z,2022-09-15T17:15:31Z,zcorpan,good first issue|document conformance,0
 1176210826,true,Should a preload with SRI and a main request without SRI be matched?,https://github.com/whatwg/html/issues/7736,2022-03-22T03:17:51Z,2022-05-19T00:42:57Z,hiroshige-g,security/privacy|topic: fetch|topic: resource hints (inc. preload),0
-1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2023-10-06T23:25:56Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,30
+1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2023-10-06T23:25:56Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,31
 1175078464,false,"Modern browsers don't implement ""4.10.21.2 Implicit submission"" correctly",https://github.com/whatwg/html/issues/7730,2022-03-21T08:59:00Z,2022-03-21T12:40:28Z,IliasDewachter,topic: forms,0
 1172930450,false,<a download> can sometimes just navigate,https://github.com/whatwg/html/issues/7718,2022-03-17T21:19:34Z,2022-03-23T21:36:38Z,domenic,topic: navigation|interop,1
 1172424410,true,Iframe's sandbox IDL definition. Why is it readonly?,https://github.com/whatwg/html/issues/7717,2022-03-17T13:59:33Z,2022-03-17T15:25:41Z,ArthurSonzogni,,0
@@ -2498,7 +2498,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 347139617,true,Clarify steps when embed tag has unhandled MIME type,https://github.com/whatwg/html/issues/3876,2018-08-02T19:14:47Z,2018-08-20T13:36:40Z,qdot,clarification|topic: embed and object,1
 347003061,true,Promise returning version of `setTimeout`,https://github.com/whatwg/html/issues/3875,2018-08-02T13:05:10Z,2018-08-02T14:16:44Z,benjamingr,addition/proposal|needs implementer interest,0
 346971983,true,`opener` attribute setter and disowning,https://github.com/whatwg/html/issues/3874,2018-08-02T11:31:15Z,2019-01-23T15:18:22Z,gterzian,topic: browsing context,0
-346547968,true,Proposal: import.meta.resolve (was: import.meta.resolveURL),https://github.com/whatwg/html/issues/3871,2018-08-01T10:49:35Z,2023-09-01T23:22:24Z,guybedford,addition/proposal|needs implementer interest|topic: script,8
+346547968,true,Proposal: import.meta.resolve (was: import.meta.resolveURL),https://github.com/whatwg/html/issues/3871,2018-08-01T10:49:35Z,2023-09-01T23:22:24Z,guybedford,addition/proposal|needs implementer interest|topic: script,9
 346289126,false,stepUp/stepDown shouldn't preserve empty value,https://github.com/whatwg/html/issues/3869,2018-07-31T17:37:54Z,2018-08-09T11:37:12Z,psimonyi,topic: forms|interop,0
 346214261,true,Being hacked,https://github.com/whatwg/html/issues/3868,2018-07-31T14:30:32Z,2018-07-31T15:42:40Z,bretjoe,,0
 346139953,true,"Feature Request: allow href="""" on more elements",https://github.com/whatwg/html/issues/3867,2018-07-31T11:06:37Z,2018-08-13T06:03:06Z,deanedridge,addition/proposal|topic: hyperlink,0
