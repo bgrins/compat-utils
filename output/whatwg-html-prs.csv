@@ -1,4 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1939541692,true,Editorial: make dir attributes table consistent,https://github.com/whatwg/html/pull/9852,2023-10-12T09:03:46Z,2023-10-12T10:29:15Z,keithamus,,0
+1939509360,false,Editorial: make shape attributes table consistent,https://github.com/whatwg/html/pull/9851,2023-10-12T08:45:02Z,2023-10-12T11:13:29Z,keithamus,,0
+1939502897,false,Editorial: make http-equiv attributes table consistent,https://github.com/whatwg/html/pull/9850,2023-10-12T08:41:13Z,2023-10-12T10:56:42Z,keithamus,,0
+1939480920,false,Editorial: make preload attributes table consistent,https://github.com/whatwg/html/pull/9849,2023-10-12T08:27:32Z,2023-10-12T11:14:05Z,keithamus,,0
 1935018189,true,Editorial: make kind attributes consistent,https://github.com/whatwg/html/pull/9847,2023-10-10T10:34:57Z,2023-10-10T11:59:18Z,keithamus,editorial,0
 1933058172,false,Implement WebDriver BiDi interception in the `show the picker` algorithm,https://github.com/whatwg/html/pull/9844,2023-10-09T13:22:03Z,2023-10-09T22:55:41Z,jrandolf,,0
 1932809665,true,Editorial: make fetch priority attributes consistent,https://github.com/whatwg/html/pull/9842,2023-10-09T10:59:10Z,2023-10-09T11:41:54Z,keithamus,editorial,0
@@ -10,7 +14,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1928350943,true,add invokeevent,https://github.com/whatwg/html/pull/9835,2023-10-05T13:52:51Z,2023-10-10T21:39:49Z,keithamus,,0
 1927730685,true,make CORS settings attributes consistent,https://github.com/whatwg/html/pull/9834,2023-10-05T08:49:00Z,2023-10-07T14:15:22Z,keithamus,editorial,0
 1923100117,true,Fix setting document's URL in fragment navigations,https://github.com/whatwg/html/pull/9828,2023-10-03T01:19:31Z,2023-10-04T07:00:52Z,domenic,topic: navigation,0
-1923043046,false,"Various minor fixes to ""apply the history step""",https://github.com/whatwg/html/pull/9827,2023-10-03T00:16:29Z,2023-10-11T22:54:45Z,domenic,topic: navigation,0
+1923043046,false,"Various minor fixes to ""apply the history step""",https://github.com/whatwg/html/pull/9827,2023-10-03T00:16:29Z,2023-10-12T01:25:46Z,domenic,topic: navigation,0
 1921372545,true,Make rAF and web-animation timestamps relative and coarsened,https://github.com/whatwg/html/pull/9823,2023-10-02T07:15:37Z,2023-10-04T14:06:34Z,noamr,,0
 1921347979,true,Meta: stop using file-issue.js,https://github.com/whatwg/html/pull/9822,2023-10-02T06:54:06Z,2023-10-03T06:01:22Z,annevk,,0
 1920824912,false,WIP-reveal,https://github.com/whatwg/html/pull/9818,2023-10-01T15:29:03Z,2023-10-02T18:42:58Z,noamr,,0
@@ -25,7 +29,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1915425899,true,Meta: update repository files,https://github.com/whatwg/html/pull/9801,2023-09-27T12:10:11Z,2023-09-27T13:48:44Z,annevk,,0
 1913903583,true,Specify what happens when “disabled” is added to a link@rel=stylesheet,https://github.com/whatwg/html/pull/9798,2023-09-26T16:38:35Z,2023-09-28T08:41:43Z,sideshowbarker,,0
 1913824830,true,Stop requiring an event loop for queue a microtask,https://github.com/whatwg/html/pull/9797,2023-09-26T15:53:11Z,2023-09-29T06:57:47Z,annevk,topic: event loop,0
-1913810629,true,Make computation of directionality account for Shadow DOM.,https://github.com/whatwg/html/pull/9796,2023-09-26T15:44:56Z,2023-10-06T13:38:39Z,dbaron,addition/proposal|topic: shadow|i18n-tracker,0
+1913810629,true,Make computation of directionality account for Shadow DOM.,https://github.com/whatwg/html/pull/9796,2023-09-26T15:44:56Z,2023-10-12T07:06:09Z,dbaron,addition/proposal|topic: shadow|i18n-tracker|i18n-alreq|i18n-hlreq,0
 1913240533,false,"Editorial: remove two wrong ""(fragment case)"" annotations",https://github.com/whatwg/html/pull/9792,2023-09-26T10:52:07Z,2023-09-26T11:08:27Z,not-my-profile,,0
 1913164081,false,Add `pagereveal` event,https://github.com/whatwg/html/pull/9791,2023-09-26T10:05:40Z,2023-10-02T16:19:21Z,noamr,,0
 1912751580,true,Editorial: fix broken setAttribute link,https://github.com/whatwg/html/pull/9790,2023-09-26T06:07:57Z,2023-09-26T06:12:50Z,not-my-profile,,0
@@ -155,7 +159,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1735662308,true,Add empty string special case for pushState/replaceState,https://github.com/whatwg/html/pull/9370,2023-06-01T07:26:49Z,2023-06-02T03:06:20Z,domenic,topic: history|interop,0
 1735288504,true,Tighten auto popover list definition,https://github.com/whatwg/html/pull/9369,2023-06-01T01:45:56Z,2023-06-06T19:53:27Z,josepharhar,topic: popover,0
 1732189866,false,Use the fetched unsafe response for network status and response bodies,https://github.com/whatwg/html/pull/9362,2023-05-30T12:47:15Z,2023-06-09T14:24:49Z,trflynn89,,0
-1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-10-10T02:14:00Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
+1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-10-12T04:54:02Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
 1729857566,true,Add files via upload,https://github.com/whatwg/html/pull/9353,2023-05-29T01:56:27Z,2023-05-29T04:36:27Z,jakex666x,spam,0
 1728531782,true,Check dialog is modal flag instead of open attribute in 'check popover validity' algorithm,https://github.com/whatwg/html/pull/9344,2023-05-27T08:09:19Z,2023-06-12T06:54:45Z,nt1m,normative change|topic: popover,0
 1727729022,true,Re-add <source media> for media elements,https://github.com/whatwg/html/pull/9341,2023-05-26T14:21:19Z,2023-06-12T12:20:28Z,zcorpan,,3
