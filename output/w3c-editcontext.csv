@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1933805048,false,Does the composition range need to be exposed on EditContext/TextUpdate?,https://github.com/w3c/edit-context/issues/69,2023-10-09T20:59:39Z,2023-10-09T21:33:01Z,dandclark,Agenda+,0
-1907892438,false,`editContext` is on HTMLElement but `attachedElements()` returns Element.,https://github.com/w3c/edit-context/issues/68,2023-09-21T23:03:22Z,2023-10-03T01:02:04Z,dandclark,Agenda+,0
+1933805048,false,Does the composition range need to be exposed on EditContext/TextUpdate?,https://github.com/w3c/edit-context/issues/69,2023-10-09T20:59:39Z,2023-10-12T21:00:37Z,dandclark,,0
+1907892438,false,`editContext` is on HTMLElement but `attachedElements()` returns Element.,https://github.com/w3c/edit-context/issues/68,2023-09-21T23:03:22Z,2023-10-12T21:00:28Z,dandclark,,0
 1862027556,true,Should attachedElements() return elements that aren't in the DOM?,https://github.com/w3c/edit-context/issues/59,2023-08-22T18:58:11Z,2023-09-18T17:29:32Z,dandclark,needs-spec-edits,0
 1829715886,true,Should TextFormat.underlineStyle be an enum?,https://github.com/w3c/edit-context/issues/55,2023-07-31T17:35:03Z,2023-09-18T17:28:59Z,dandclark,needs-spec-edits,0
 1829700989,true,Can we remove TextFormat.textColor?,https://github.com/w3c/edit-context/issues/54,2023-07-31T17:24:11Z,2023-08-23T20:46:34Z,dandclark,needs-spec-edits,1
@@ -22,7 +22,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1211602749,true,"""Squiggle"" should be ""Wavy"" as a value of underlineStyle of TextFormat",https://github.com/w3c/edit-context/issues/29,2021-12-13T12:47:11Z,2023-03-14T20:28:26Z,masayuki-nakano,,0
 1211602615,false,"When EditContext.updateSelection is called with offset between a surrogate pair, what should happen?",https://github.com/w3c/edit-context/issues/28,2021-12-13T12:26:43Z,2022-07-14T06:13:08Z,masayuki-nakano,i18n-tracker,0
 1211602470,false,EditContext has compositionRange(Start|End) but TextUpdateEvent has composition(Start|End),https://github.com/w3c/edit-context/issues/27,2021-12-13T12:14:06Z,2022-04-21T22:11:47Z,masayuki-nakano,,0
-1211602310,false,Shuold the methods of EditContext throw an exception if they abort due to not activated?,https://github.com/w3c/edit-context/issues/26,2021-12-13T12:01:25Z,2023-10-05T01:01:38Z,masayuki-nakano,Agenda+,0
+1211602310,false,Should the methods of EditContext throw an exception if they abort due to not activated?,https://github.com/w3c/edit-context/issues/26,2021-12-13T12:01:25Z,2023-10-12T21:00:10Z,masayuki-nakano,,0
 1211602164,false,"It might help to write clearer code, if EditContext would have some attributes",https://github.com/w3c/edit-context/issues/25,2021-12-13T05:37:02Z,2022-04-21T22:11:23Z,masayuki-nakano,,0
 1211602059,true,EditContext.isInComposition should be renamed to `isComposing`,https://github.com/w3c/edit-context/issues/24,2021-12-13T05:21:13Z,2023-03-14T20:28:19Z,masayuki-nakano,,0
 1211601930,true,EditContext: processing model,https://github.com/w3c/edit-context/issues/23,2021-12-10T09:27:14Z,2023-10-03T01:01:20Z,annevk,,0
