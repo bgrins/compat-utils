@@ -1,6 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1942763757,true,HTMLImageElement.src in about:blank documents,https://github.com/whatwg/html/issues/9855,2023-10-13T23:05:30Z,2023-10-15T05:16:29Z,josepharhar,,1
-1942151900,false,"<dialog> should be able to focus the previously focused element in other frames ",https://github.com/whatwg/html/issues/9854,2023-10-13T15:16:58Z,2023-10-13T15:17:14Z,sefeng211,topic: dialog,0
+1946142512,false,Allow HTML content with rules as for LI tag to OPTION tag,https://github.com/whatwg/html/issues/9859,2023-10-16T21:35:55Z,2023-10-16T21:35:55Z,koteisaev,addition/proposal|needs implementer interest,0
+1942763757,true,HTMLImageElement.src in about:blank documents,https://github.com/whatwg/html/issues/9855,2023-10-13T23:05:30Z,2023-10-16T20:43:36Z,josepharhar,,1
+1942151900,false,"<dialog> should be able to focus the previously focused element in other frames ",https://github.com/whatwg/html/issues/9854,2023-10-13T15:16:58Z,2023-10-16T14:50:58Z,sefeng211,topic: focus|topic: dialog,0
 1937039613,true,"For the button element, make 'button' the default value for the type attribute (instead of 'submit')",https://github.com/whatwg/html/issues/9848,2023-10-11T07:20:15Z,2023-10-11T07:35:55Z,ni11c,,0
 1933644840,true,Clarify arrow key behavior for <input type=number> in vertical writing mode,https://github.com/whatwg/html/issues/9846,2023-10-09T19:11:08Z,2023-10-11T09:32:31Z,dizhang168,topic: forms,0
 1933445371,true,Born accessible table summary,https://github.com/whatwg/html/issues/9845,2023-10-09T16:42:28Z,2023-10-10T11:35:50Z,LaZay,addition/proposal|needs implementer interest|a11y-tracker,0
@@ -40,7 +41,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1904405325,true,link should have attribute for ailang,https://github.com/whatwg/html/issues/9761,2023-09-20T07:59:32Z,2023-09-25T23:51:26Z,BLamy,,1
 1904388480,false,Expose information about last activation/cross-document navigation,https://github.com/whatwg/html/issues/9760,2023-09-20T07:50:50Z,2023-10-01T13:55:00Z,noamr,,1
 1903500453,true,System visibility change reaction code incorrectly tries getting inclusive descendant navigables of a traversable navigable,https://github.com/whatwg/html/issues/9758,2023-09-19T18:14:50Z,2023-09-27T00:58:37Z,awesomekling,,0
-1903392884,false,Can showPicker() focus a control?,https://github.com/whatwg/html/issues/9757,2023-09-19T16:59:56Z,2023-10-16T12:08:29Z,annevk,topic: forms|topic: focus,1
+1903392884,false,Can showPicker() focus a control?,https://github.com/whatwg/html/issues/9757,2023-09-19T16:59:56Z,2023-10-16T12:25:40Z,annevk,topic: forms|topic: focus,1
 1899693712,true,Modification GIF Folder Preview Script,https://github.com/whatwg/html/issues/9749,2023-09-17T07:50:44Z,2023-09-17T08:10:35Z,deiraf,,0
 1899506717,true,"Missing links in ""Kinds of content"" list",https://github.com/whatwg/html/issues/9748,2023-09-16T17:14:26Z,2023-09-23T11:44:17Z,lauch788,editorial,0
 1898699206,false,`<details>` element does not fire a `beforetoggle` event.,https://github.com/whatwg/html/issues/9743,2023-09-15T15:53:21Z,2023-10-01T13:56:00Z,keithamus,addition/proposal|topic: events,0
@@ -1881,7 +1882,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 509880741,true,---------,https://github.com/whatwg/html/issues/5029,2019-10-21T10:42:33Z,2019-10-22T04:41:25Z,dhilip89,,0
 509693572,true,delegatesFocus doesn't work well with autofocus,https://github.com/whatwg/html/issues/5027,2019-10-21T02:13:20Z,2019-11-11T16:44:20Z,tkent-google,topic: focus,0
 509685886,true,Code Regions,https://github.com/whatwg/html/issues/5026,2019-10-21T01:32:06Z,2019-10-21T16:16:12Z,AdamSobieski,,0
-509602016,false,Allow animations to be given a target framerate,https://github.com/whatwg/html/issues/5025,2019-10-20T14:25:44Z,2023-10-11T18:50:14Z,jakearchibald,,18
+509602016,false,Allow animations to be given a target framerate,https://github.com/whatwg/html/issues/5025,2019-10-20T14:25:44Z,2023-10-16T12:15:41Z,jakearchibald,addition/proposal|needs implementer interest|topic: event loop,18
 509100548,false,Browsing context hierarchy needs to go through the embedding document,https://github.com/whatwg/html/issues/5020,2019-10-18T14:01:04Z,2022-03-03T16:32:59Z,annevk,topic: history|topic: browsing context,0
 508932938,true,Reconsider making <style> in body valid,https://github.com/whatwg/html/issues/5019,2019-10-18T08:30:23Z,2019-10-18T16:02:27Z,prlbr,document conformance|topic: style,0
 508302220,false,Form-associated custom elements missing features,https://github.com/whatwg/html/issues/5016,2019-10-17T07:57:12Z,2022-09-10T00:20:08Z,annevk,addition/proposal|accessibility|topic: custom elements|topic: forms,4
