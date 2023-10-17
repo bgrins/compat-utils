@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1946142512,false,Allow HTML content with rules as for LI tag to OPTION tag,https://github.com/whatwg/html/issues/9859,2023-10-16T21:35:55Z,2023-10-16T21:35:55Z,koteisaev,addition/proposal|needs implementer interest,0
+1946142512,false,Allow HTML content with rules as for LI tag to OPTION tag,https://github.com/whatwg/html/issues/9859,2023-10-16T21:35:55Z,2023-10-17T11:40:00Z,koteisaev,addition/proposal|needs implementer interest,0
 1942763757,true,HTMLImageElement.src in about:blank documents,https://github.com/whatwg/html/issues/9855,2023-10-13T23:05:30Z,2023-10-16T20:43:36Z,josepharhar,,1
 1942151900,false,"<dialog> should be able to focus the previously focused element in other frames ",https://github.com/whatwg/html/issues/9854,2023-10-13T15:16:58Z,2023-10-16T14:50:58Z,sefeng211,topic: focus|topic: dialog,0
 1937039613,true,"For the button element, make 'button' the default value for the type attribute (instead of 'submit')",https://github.com/whatwg/html/issues/9848,2023-10-11T07:20:15Z,2023-10-11T07:35:55Z,ni11c,,0
@@ -23,7 +23,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1918848965,false,HTML Video Element: Proposal for adding [srcset] + [posterset] + [sizes] on video element as well [posterset] on source elements,https://github.com/whatwg/html/issues/9812,2023-09-29T08:38:35Z,2023-10-03T08:48:49Z,Schepp,addition/proposal|needs implementer interest,2
 1918809473,false,Meta: Links that take you where you already are,https://github.com/whatwg/html/issues/9811,2023-09-29T08:17:19Z,2023-10-01T13:43:49Z,not-my-profile,,0
 1917630242,false,consider whether document-level language fallback rules make sense in all cases,https://github.com/whatwg/html/issues/9807,2023-09-28T14:06:24Z,2023-10-01T13:44:10Z,dbaron,i18n-tracker|needs tests,0
-1914439377,false,Navigables:  fireNavigateEventOnCommit is unused in apply the history step,https://github.com/whatwg/html/issues/9800,2023-09-26T23:34:38Z,2023-10-02T23:59:30Z,ADKaster,topic: navigation,0
+1914439377,true,Navigables:  fireNavigateEventOnCommit is unused in apply the history step,https://github.com/whatwg/html/issues/9800,2023-09-26T23:34:38Z,2023-10-17T03:43:27Z,ADKaster,topic: navigation,0
 1914386972,false,The `<selectlist>` element,https://github.com/whatwg/html/issues/9799,2023-09-26T22:24:36Z,2023-10-05T04:11:18Z,josepharhar,addition/proposal|topic: forms|stage: 0,7
 1913709777,false,Should MathML references be to MathML-Core instead of full?,https://github.com/whatwg/html/issues/9795,2023-09-26T14:56:47Z,2023-10-01T13:45:45Z,bkardell,normative change,0
 1913666731,false,Should throw SecurityError when loading a worker with a cross-origin script,https://github.com/whatwg/html/issues/9794,2023-09-26T14:37:14Z,2023-10-01T13:46:34Z,edenchuang,topic: workers|agenda+,0
@@ -1296,7 +1296,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 805098484,true,Upcoming HTML standard issue triage meeting on 3/4/2021,https://github.com/whatwg/html/issues/6371,2021-02-10T02:16:37Z,2021-03-11T21:25:16Z,past,agenda+,0
 804798139,true,Auto-open details when seeking content within it,https://github.com/whatwg/html/issues/6370,2021-02-09T18:21:20Z,2021-02-10T06:27:04Z,fantasai,,3
 804761074,false,Surprising secure context inheritance behavior for opened windows,https://github.com/whatwg/html/issues/6369,2021-02-09T17:33:45Z,2021-04-19T15:28:38Z,letitz,,0
-802699195,false,"Allowing top-level communication for cross-origin isolated documents ",https://github.com/whatwg/html/issues/6364,2021-02-06T13:07:49Z,2023-09-05T08:08:07Z,arturjanc,topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,0
+802699195,false,"Allowing top-level communication for cross-origin isolated documents ",https://github.com/whatwg/html/issues/6364,2021-02-06T13:07:49Z,2023-10-17T07:25:16Z,arturjanc,topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,0
 802248120,true,HTML Video Element: Proposal For Reintroduction of Media in Source Elements,https://github.com/whatwg/html/issues/6363,2021-02-05T15:18:23Z,2023-06-20T18:53:32Z,scottjehl,addition/proposal|topic: media,27
 801055941,false,Interoperable <video> underflow,https://github.com/whatwg/html/issues/6359,2021-02-04T08:35:02Z,2021-04-09T23:12:54Z,chcunningham,topic: media,3
 799368677,false,What kind of new 'session' is created on manual navigation?,https://github.com/whatwg/html/issues/6356,2021-02-02T15:11:09Z,2022-02-17T11:59:21Z,jakearchibald,topic: navigation|topic: history|interop,1
@@ -3453,7 +3453,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 195734740,true,Wring,https://github.com/whatwg/html/issues/2181,2016-12-15T07:24:47Z,2016-12-15T07:25:56Z,cheoklune,,0
 195651796,true,Making Location.ancestorOrigins a FrozenArray is not Web-Compatible,https://github.com/whatwg/html/issues/2179,2016-12-14T21:33:44Z,2017-01-13T00:55:08Z,cdumez,,0
 195558416,true,"""when a select element does not have a sizes attribute""",https://github.com/whatwg/html/issues/2178,2016-12-14T15:18:37Z,2017-02-23T16:42:03Z,deltab,good first issue,0
-195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2023-09-22T19:11:23Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,114
+195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2023-09-22T19:11:23Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,115
 195497838,true,selectionStart/End/Direction on input and textarea should not be nullable,https://github.com/whatwg/html/issues/2175,2016-12-14T10:46:42Z,2017-01-18T09:22:04Z,foolip,,0
 195494630,true,pushState title is ignored in all implementations?,https://github.com/whatwg/html/issues/2174,2016-12-14T10:32:35Z,2021-03-15T16:59:58Z,foolip,topic: history|interop,3
 195385032,true,"""If the element is flagged as ""parser-inserted"",...""",https://github.com/whatwg/html/issues/2173,2016-12-13T22:18:17Z,2016-12-13T22:19:35Z,JosephPecoraro,,0
