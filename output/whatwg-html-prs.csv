@@ -3,7 +3,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1956084796,false,Add invoke popover defaults,https://github.com/whatwg/html/pull/9875,2023-10-22T22:44:20Z,2023-10-22T22:46:27Z,keithamus,,0
 1954210461,false,Editorial: clarify spec around scripts,https://github.com/whatwg/html/pull/9872,2023-10-20T12:41:11Z,2023-10-23T08:58:30Z,Ms2ger,editorial,0
 1953548150,false,Specify what happens when “disabled” is added to a link@rel=stylesheet,https://github.com/whatwg/html/pull/9870,2023-10-20T05:17:46Z,2023-10-20T05:21:38Z,sideshowbarker,,0
-1952215790,false,Fix errors related to <slot> elements in auto directionality traversal.,https://github.com/whatwg/html/pull/9868,2023-10-19T13:05:50Z,2023-10-20T03:49:40Z,dbaron,,0
+1952215790,false,Fix errors related to <slot> elements in auto directionality traversal.,https://github.com/whatwg/html/pull/9868,2023-10-19T13:05:50Z,2023-10-23T16:44:33Z,dbaron,,0
 1950199580,true,Fix dir=auto handling of descendant <slot> elements.,https://github.com/whatwg/html/pull/9863,2023-10-18T16:40:39Z,2023-10-19T13:06:46Z,dbaron,,0
 1947037733,false,Define the `privacy-policy` link type.,https://github.com/whatwg/html/pull/9860,2023-10-17T10:01:32Z,2023-10-23T06:45:31Z,mikewest,addition/proposal|security/privacy|privacy-tracker,1
 1945446494,true,Deleted extra brackets,https://github.com/whatwg/html/pull/9858,2023-10-16T15:03:45Z,2023-10-16T15:22:16Z,GTgyani206,spam,0
@@ -14,7 +14,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1939502897,false,Editorial: make http-equiv attributes table consistent,https://github.com/whatwg/html/pull/9850,2023-10-12T08:41:13Z,2023-10-12T10:56:42Z,keithamus,,0
 1939480920,true,Editorial: make preload attributes table consistent,https://github.com/whatwg/html/pull/9849,2023-10-12T08:27:32Z,2023-10-17T09:43:48Z,keithamus,,0
 1935018189,true,Editorial: make kind attributes consistent,https://github.com/whatwg/html/pull/9847,2023-10-10T10:34:57Z,2023-10-10T11:59:18Z,keithamus,editorial,0
-1933058172,false,Implement WebDriver BiDi interception in the `show the picker` algorithm,https://github.com/whatwg/html/pull/9844,2023-10-09T13:22:03Z,2023-10-23T05:09:05Z,jrandolf,do not merge yet|integration,0
+1933058172,false,Implement WebDriver BiDi interception in the `show the picker` algorithm,https://github.com/whatwg/html/pull/9844,2023-10-09T13:22:03Z,2023-10-24T00:10:46Z,jrandolf,do not merge yet|integration,0
 1932809665,true,Editorial: make fetch priority attributes consistent,https://github.com/whatwg/html/pull/9842,2023-10-09T10:59:10Z,2023-10-09T11:41:54Z,keithamus,editorial,0
 1932098948,false,Add InvokeElement & InvokeEvent IDLs & invocation steps for Invoke proposal,https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2023-10-20T14:05:00Z,keithamus,,0
 1931367969,true,Editorial: remove some copypasta around CORS settings attribute,https://github.com/whatwg/html/pull/9840,2023-10-07T14:14:19Z,2023-10-08T14:25:55Z,annevk,,0
@@ -27,7 +27,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1923043046,true,"Various minor fixes to ""apply the history step""",https://github.com/whatwg/html/pull/9827,2023-10-03T00:16:29Z,2023-10-17T03:43:27Z,domenic,topic: navigation,0
 1921372545,true,Make rAF and web-animation timestamps relative and coarsened,https://github.com/whatwg/html/pull/9823,2023-10-02T07:15:37Z,2023-10-04T14:06:34Z,noamr,,0
 1921347979,true,Meta: stop using file-issue.js,https://github.com/whatwg/html/pull/9822,2023-10-02T06:54:06Z,2023-10-03T06:01:22Z,annevk,,0
-1920824912,false,Add `pagereveal` event,https://github.com/whatwg/html/pull/9818,2023-10-01T15:29:03Z,2023-10-21T07:45:08Z,noamr,,0
+1920824912,false,Add `pagereveal` event,https://github.com/whatwg/html/pull/9818,2023-10-01T15:29:03Z,2023-10-23T17:01:41Z,noamr,,0
 1918764380,false,"Remove unreachable fragment case in ""in cell"" insertion mode",https://github.com/whatwg/html/pull/9810,2023-09-29T07:42:23Z,2023-10-03T01:27:25Z,not-my-profile,topic: parser,0
 1918684895,false,Stop reporting redundant fragment parser error in foreign content,https://github.com/whatwg/html/pull/9809,2023-09-29T06:42:05Z,2023-09-29T08:21:23Z,not-my-profile,clarification|topic: parser,0
 1918430862,true,Update 404.html,https://github.com/whatwg/html/pull/9808,2023-09-29T00:24:00Z,2023-09-29T02:19:22Z,Ahmedsolimann03,spam,0
@@ -54,7 +54,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1909479750,false,Queue toggle events and dialog close with microtasks,https://github.com/whatwg/html/pull/9775,2023-09-22T20:24:57Z,2023-10-06T17:34:53Z,josepharhar,,0
 1908359160,true,Un-break build by making review-drafts/2023-07.wattsi use non-void <ref></ref>,https://github.com/whatwg/html/pull/9772,2023-09-22T07:38:51Z,2023-09-22T08:38:40Z,sideshowbarker,,0
 1907618502,false,Add TextTrackCue ctor & cue + cuebackground attributes,https://github.com/whatwg/html/pull/9771,2023-09-21T19:22:21Z,2023-10-20T18:07:59Z,marcoscaceres,addition/proposal|topic: media,1
-1904941276,false,Specify URL encoding for links (header+element),https://github.com/whatwg/html/pull/9764,2023-09-20T12:56:24Z,2023-10-23T05:09:47Z,noamr,needs tests|topic: link|topic: resource hints (inc. preload),0
+1904941276,false,Specify URL encoding for links (header+element),https://github.com/whatwg/html/pull/9764,2023-09-20T12:56:24Z,2023-10-23T15:51:50Z,noamr,needs tests|topic: link|topic: resource hints (inc. preload),0
 1902888166,false,Make navigate() use UTF-8 in the URL parser,https://github.com/whatwg/html/pull/9756,2023-09-19T12:36:19Z,2023-09-26T09:33:06Z,annevk,normative change|topic: navigation|needs tests,0
 1902869687,true,Editorial: remove API URL character encoding,https://github.com/whatwg/html/pull/9755,2023-09-19T12:25:50Z,2023-09-19T15:11:58Z,annevk,,0
 1901979709,false,Add showPicker to <select> elements,https://github.com/whatwg/html/pull/9754,2023-09-19T00:31:48Z,2023-10-16T12:23:33Z,lukewarlow,,0
@@ -107,7 +107,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1818258169,true,Make the directionality account for missing parent element,https://github.com/whatwg/html/pull/9554,2023-07-24T11:49:33Z,2023-08-31T05:41:01Z,annevk,i18n-tracker,1
 1817297523,true,Tweak `thead` description to clarify it can contain non-header cells,https://github.com/whatwg/html/pull/9552,2023-07-23T21:11:39Z,2023-07-25T09:17:22Z,patrickhlauke,,0
 1815020757,true,selectmenu,https://github.com/whatwg/html/pull/9547,2023-07-21T01:27:53Z,2023-09-23T13:34:59Z,josepharhar,,1
-1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2023-10-12T21:30:24Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms|needs tests,4
+1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2023-10-23T14:20:06Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms|needs tests,4
 1813916540,true,This Pull Request implements form validation on the HTML <output> element to display the calculated result.,https://github.com/whatwg/html/pull/9544,2023-07-20T12:44:22Z,2023-07-20T13:26:04Z,cijian23,spam,1
 1813671797,true,Use correct settings object for modules imported in workers,https://github.com/whatwg/html/pull/9541,2023-07-20T10:34:11Z,2023-07-24T07:22:54Z,nicolo-ribaudo,topic: script,0
 1812982540,true,Add setHTMLUnsafe and parseHTMLUnsafe methods,https://github.com/whatwg/html/pull/9538,2023-07-20T01:31:03Z,2023-10-11T23:22:22Z,josepharhar,addition/proposal|topic: parser|impacts documentation,0
@@ -371,7 +371,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1435380302,true,Use correct properties for progress element,https://github.com/whatwg/html/pull/8471,2022-11-03T23:49:55Z,2022-11-21T17:27:13Z,dizhang168,,0
 1435209005,true,Add the Priority Hints changes to the html spec,https://github.com/whatwg/html/pull/8470,2022-11-03T20:16:05Z,2023-02-17T06:10:16Z,pmeenan,,0
 1434547038,true,Export rendering opportunity,https://github.com/whatwg/html/pull/8468,2022-11-03T12:02:44Z,2022-11-04T01:16:10Z,jakearchibald,,0
-1433914646,false,Add custom state pseudo class,https://github.com/whatwg/html/pull/8467,2022-11-02T23:30:52Z,2023-10-11T21:33:31Z,josepharhar,,0
+1433914646,false,Add custom state pseudo class,https://github.com/whatwg/html/pull/8467,2022-11-02T23:30:52Z,2023-10-23T16:07:53Z,josepharhar,,0
 1433818435,true,"Add ""user attention"" definition to top-level traversable.",https://github.com/whatwg/html/pull/8466,2022-11-02T21:38:28Z,2023-09-19T12:28:25Z,jan-ivar,topic: focus|integration,0
 1433811063,true,Missing commas in JSON examples,https://github.com/whatwg/html/pull/8465,2022-11-02T21:30:36Z,2022-11-03T04:53:26Z,NiedziolkaMichal,,0
 1431810817,true,Export nested navigable,https://github.com/whatwg/html/pull/8462,2022-11-01T17:31:41Z,2023-04-24T16:14:33Z,domfarolino,,0
