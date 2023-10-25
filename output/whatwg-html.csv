@@ -1,4 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1960081159,false,Third-party cookie blocking and rendering media URLs with Content-Security-Policy,https://github.com/whatwg/html/issues/9879,2023-10-24T21:10:35Z,2023-10-24T21:10:43Z,DCtheTall,,0
+1959607137,false,Missing `reportValidity()` hook,https://github.com/whatwg/html/issues/9878,2023-10-24T16:10:13Z,2023-10-24T16:32:59Z,jpzwarte,,0
 1954805614,false,Upcoming HTML standard issue triage meeting on 11/2/2023,https://github.com/whatwg/html/issues/9874,2023-10-20T18:11:00Z,2023-10-23T15:51:39Z,past,agenda+,0
 1953949668,false,Web Socket Link is Gone,https://github.com/whatwg/html/issues/9871,2023-10-20T10:02:18Z,2023-10-20T10:32:02Z,FenrirSoftworks,,0
 1952847100,false,Navigables reloading does not work,https://github.com/whatwg/html/issues/9869,2023-10-19T18:36:45Z,2023-10-22T04:47:01Z,kalenikaliaksandr,,0
@@ -83,7 +85,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1879119462,false,Split the definition of web-based protocol handler from the definition of registerProtocolHandler,https://github.com/whatwg/html/issues/9678,2023-09-03T14:29:34Z,2023-10-01T14:41:55Z,SoniEx2,,0
 1879031905,false,Rendering of <input type=image> that does not represent an image,https://github.com/whatwg/html/issues/9677,2023-09-03T09:55:33Z,2023-10-01T14:42:41Z,annevk,topic: rendering|topic: forms|a11y-tracker,0
 1877435173,true,"`HTMLSelectElement.add()` exists, but `HTMLOptGroupElement.add()` and `HTMLDataListElement.add()` don't",https://github.com/whatwg/html/issues/9670,2023-09-01T13:31:32Z,2023-09-01T14:31:26Z,tomayac,,0
-1877256968,false,Should dirname work for password fields and buttons?,https://github.com/whatwg/html/issues/9669,2023-09-01T11:32:17Z,2023-10-09T17:09:07Z,annevk,topic: forms|i18n-tracker,0
+1877256968,true,Should dirname work for password fields and buttons?,https://github.com/whatwg/html/issues/9669,2023-09-01T11:32:17Z,2023-10-24T13:29:24Z,annevk,topic: forms|i18n-tracker,0
 1872073380,false,Auto-sizes: parsing of `auto` in `sizes` is bogus,https://github.com/whatwg/html/issues/9649,2023-08-29T17:04:39Z,2023-10-01T14:45:27Z,zcorpan,topic: img,0
 1872056317,false,Auto-sizes: fall back to next value in sizes if the image is not lazy-loading,https://github.com/whatwg/html/issues/9648,2023-08-29T16:53:29Z,2023-10-01T14:46:17Z,zcorpan,topic: img,2
 1871074320,false,Proposal: Allow sites to target navigations at split tabs,https://github.com/whatwg/html/issues/9644,2023-08-29T07:34:46Z,2023-10-01T14:48:27Z,xuzhengyi1995,addition/proposal|needs implementer interest,7
@@ -543,7 +545,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1400727625,false,`formDisabledCallback` should always fire when governing fieldset's disabled state changes,https://github.com/whatwg/html/issues/8365,2022-10-07T07:16:02Z,2022-10-12T22:47:59Z,bennypowers,topic: custom elements,1
 1400697596,false,Editorial: align with JavaScript spec conventions on records,https://github.com/whatwg/html/issues/8364,2022-10-07T06:44:11Z,2023-02-25T17:55:36Z,domenic,good first issue|integration,0
 1400696912,false,Editorial: consider using Infra maps instead of JS-spec Records more often,https://github.com/whatwg/html/issues/8363,2022-10-07T06:43:25Z,2022-10-07T06:43:25Z,domenic,clarification|integration,0
-1400071766,false,Allow workers & shared workers to be created within a service worker,https://github.com/whatwg/html/issues/8362,2022-10-06T17:41:40Z,2023-09-21T23:11:07Z,ian97531,addition/proposal|needs implementer interest|topic: workers,5
+1400071766,false,Allow workers & shared workers to be created within a service worker,https://github.com/whatwg/html/issues/8362,2022-10-06T17:41:40Z,2023-10-24T17:17:46Z,ian97531,addition/proposal|needs implementer interest|topic: workers,5
 1399126032,false,How do shadow roots and slots interact with the content model?,https://github.com/whatwg/html/issues/8361,2022-10-06T08:47:59Z,2022-10-07T10:52:20Z,castholm,,0
 1398190934,false,Proposal: showEmojiPicker() on HTMLInputElement/HTMLTextareaElement,https://github.com/whatwg/html/issues/8358,2022-10-05T18:23:44Z,2022-10-06T14:31:19Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,68
 1397339666,false,Add external import maps,https://github.com/whatwg/html/issues/8355,2022-10-05T07:08:53Z,2022-10-06T15:43:39Z,annevk,addition/proposal|topic: script,1
@@ -1094,7 +1096,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 948054143,true,Upcoming HTML standard issue triage meeting on 8/5/2021,https://github.com/whatwg/html/issues/6884,2021-07-19T21:47:51Z,2021-09-02T23:46:39Z,past,agenda+,0
 947056780,true,"HTML  syntax not correct ",https://github.com/whatwg/html/issues/6875,2021-07-18T15:14:36Z,2021-07-18T16:16:52Z,harshit-dugar,spam,0
 946697785,true,"Missing parameter in the steps of ""7.10.5.8 [[Set]] ( P, V, Receiver )"" ",https://github.com/whatwg/html/issues/6873,2021-07-17T03:27:53Z,2021-07-23T10:30:54Z,yvt,good first issue,0
-946636592,false,setCustomValidity() seems pointless on <fieldset>,https://github.com/whatwg/html/issues/6870,2021-07-16T22:42:56Z,2021-09-03T00:13:03Z,domenic,addition/proposal|needs implementer interest|topic: forms,4
+946636592,false,setCustomValidity() seems pointless on <fieldset>,https://github.com/whatwg/html/issues/6870,2021-07-16T22:42:56Z,2021-09-03T00:13:03Z,domenic,addition/proposal|needs implementer interest|topic: forms,5
 946624070,false,Add required-attribute support for fieldsets,https://github.com/whatwg/html/issues/6868,2021-07-16T22:08:49Z,2023-02-13T13:51:43Z,fstrr,addition/proposal|topic: forms,6
 946138075,true,How does authors specify CSS module scripts on script element?,https://github.com/whatwg/html/issues/6864,2021-07-16T10:03:55Z,2021-07-16T15:12:20Z,mtrootyy,,0
 945561794,true,Proposal: stop triggering navigations to about:blank on iframe insertion,https://github.com/whatwg/html/issues/6863,2021-07-15T16:28:37Z,2021-08-10T17:20:50Z,rakina,,2
@@ -1120,7 +1122,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 933646279,true,"Adding elements to Autocomplete ComboBox by script ",https://github.com/whatwg/html/issues/6815,2021-06-30T12:18:16Z,2021-06-30T14:03:54Z,satishxbow,,0
 933565439,true,When does the first browsing context create ?,https://github.com/whatwg/html/issues/6814,2021-06-30T10:55:22Z,2021-07-01T02:55:42Z,scw00,,0
 932775893,true,referer / referrer during reloads & history entry repopulations,https://github.com/whatwg/html/issues/6813,2021-06-29T14:44:30Z,2022-10-31T05:07:07Z,jakearchibald,topic: history|interop,0
-932036472,false,Add modern binary encoding APIs,https://github.com/whatwg/html/issues/6811,2021-06-28T22:16:20Z,2021-07-07T15:59:23Z,lucacasonato,addition/proposal|needs implementer interest,4
+932036472,false,Add modern binary encoding APIs,https://github.com/whatwg/html/issues/6811,2021-06-28T22:16:20Z,2021-07-07T15:59:23Z,lucacasonato,addition/proposal|needs implementer interest,5
 931716900,false,srcdoc and sandbox interaction with session history,https://github.com/whatwg/html/issues/6809,2021-06-28T15:54:01Z,2023-02-28T15:24:37Z,jakearchibald,topic: history,0
 930791283,true,Foster parenting doesn't happen for HTML elements in foreign content,https://github.com/whatwg/html/issues/6808,2021-06-26T20:43:24Z,2021-07-19T12:18:56Z,stevecheckoway,,1
 930577715,false,Allow <textarea> to size to its contents like <div contenteditable>,https://github.com/whatwg/html/issues/6807,2021-06-26T00:42:53Z,2023-09-22T01:13:06Z,randfur,addition/proposal|needs implementer interest|topic: rendering|topic: forms|topic: editing,0
@@ -1399,7 +1401,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 741945399,true,Preloading gzip archives,https://github.com/whatwg/html/issues/6147,2020-11-12T21:37:49Z,2020-11-17T20:42:33Z,morris,,2
 741875255,true,"""create a new browsing context"" creates settingsObject but doesn't do anything with it",https://github.com/whatwg/html/issues/6146,2020-11-12T19:39:09Z,2020-11-20T18:24:13Z,ytausky,good first issue,0
 740687303,false,"Add a new `<a target=""_browser"">` browsing context keyword",https://github.com/whatwg/html/issues/6143,2020-11-11T11:18:51Z,2020-11-11T13:12:57Z,tomayac,,6
-739654980,true,Directionality of input element whose type attribute is in the Telephone state,https://github.com/whatwg/html/issues/6140,2020-11-10T07:15:35Z,2023-10-06T15:02:07Z,MyidShin,topic: forms|i18n-tracker|interop|i18n-alreq|i18n-hlreq|i18n-afrlreq,0
+739654980,true,Directionality of input element whose type attribute is in the Telephone state,https://github.com/whatwg/html/issues/6140,2020-11-10T07:15:35Z,2023-10-24T14:33:31Z,MyidShin,topic: forms|i18n-tracker|interop|i18n-alreq|i18n-hlreq|i18n-afrlreq,0
 739368928,true,Standardize on no beforeunload dialog for windows without sticky activation?,https://github.com/whatwg/html/issues/6139,2020-11-09T21:16:45Z,2020-12-02T17:59:19Z,domenic,topic: navigation|interop,0
 739301848,true,"Make loading of link rel=""stylesheet"" optional",https://github.com/whatwg/html/issues/6138,2020-11-09T19:27:04Z,2020-11-09T21:08:27Z,vincentbernat,,0
 738511526,false,Support multiple items of the same type in DataTransfer API for drag and drop,https://github.com/whatwg/html/issues/6136,2020-11-08T17:16:11Z,2021-03-13T08:44:41Z,devongovett,addition/proposal|needs implementer interest|topic: drag and drop,1
@@ -2826,7 +2828,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 286893524,false,Disallow XHRs after unload,https://github.com/whatwg/html/issues/3333,2018-01-08T21:28:10Z,2018-01-10T19:14:56Z,spanicker,needs implementer interest|topic: navigation|topic: fetch,0
 286602432,true,meta name comparison should be explicitly ASCII case-insensitive,https://github.com/whatwg/html/issues/3332,2018-01-07T21:48:20Z,2018-03-16T03:54:46Z,domenic,clarification|good first issue,0
 286482636,true,"The definition of ""rendered legend"" should use the box tree, or at least the flat tree.",https://github.com/whatwg/html/issues/3331,2018-01-06T12:53:28Z,2018-09-19T18:04:42Z,emilio,topic: rendering|interop|topic: fieldset,0
-286478891,false,"The ""value"" attribute of <input type=""button""> should be directionality-capable",https://github.com/whatwg/html/issues/3330,2018-01-06T11:40:12Z,2023-09-01T16:19:23Z,jfkthame,normative change|topic: forms|i18n-tracker,0
+286478891,true,"The ""value"" attribute of <input type=""button""> should be directionality-capable",https://github.com/whatwg/html/issues/3330,2018-01-06T11:40:12Z,2023-10-24T13:29:23Z,jfkthame,normative change|topic: forms|i18n-tracker,0
 286465701,false,Feature Request: Adding a <tail> to HTML documents,https://github.com/whatwg/html/issues/3328,2018-01-06T07:06:52Z,2018-01-11T11:36:33Z,gja,addition/proposal,0
 286355850,true,"Move stuff out of the middle of ""process a navigate response""",https://github.com/whatwg/html/issues/3327,2018-01-05T17:38:49Z,2019-02-27T18:56:13Z,domenic,clarification|topic: navigation,0
 286248858,false,Maybe standardize window.sidebar,https://github.com/whatwg/html/issues/3325,2018-01-05T10:26:06Z,2018-01-22T13:30:57Z,DavidBruant,addition/proposal|compat,0

@@ -1,14 +1,14 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1958950645,false,Define the `terms-of-service` link type.,https://github.com/whatwg/html/pull/9877,2023-10-24T10:25:33Z,2023-10-24T10:41:36Z,mikewest,,0
-1956248354,false,ruby: Remove the segmentation algorithm,https://github.com/whatwg/html/pull/9876,2023-10-23T02:44:59Z,2023-10-24T08:24:34Z,tkent-google,removal/deprecation|document conformance|topic: ruby,0
+1958950645,false,Define the `terms-of-service` link type.,https://github.com/whatwg/html/pull/9877,2023-10-24T10:25:33Z,2023-10-24T10:41:36Z,mikewest,,1
+1956248354,false,ruby: Remove the segmentation algorithm,https://github.com/whatwg/html/pull/9876,2023-10-23T02:44:59Z,2023-10-24T12:13:56Z,tkent-google,removal/deprecation|document conformance|topic: ruby,0
 1956084796,false,Add invoke popover defaults,https://github.com/whatwg/html/pull/9875,2023-10-22T22:44:20Z,2023-10-22T22:46:27Z,keithamus,,0
 1954210461,false,Editorial: clarify spec around scripts,https://github.com/whatwg/html/pull/9872,2023-10-20T12:41:11Z,2023-10-23T08:58:30Z,Ms2ger,editorial,0
 1953548150,false,Specify what happens when “disabled” is added to a link@rel=stylesheet,https://github.com/whatwg/html/pull/9870,2023-10-20T05:17:46Z,2023-10-20T05:21:38Z,sideshowbarker,,0
-1952215790,false,Fix errors related to <slot> elements in auto directionality traversal.,https://github.com/whatwg/html/pull/9868,2023-10-19T13:05:50Z,2023-10-23T16:44:33Z,dbaron,,0
+1952215790,true,Fix errors related to <slot> elements in auto directionality traversal.,https://github.com/whatwg/html/pull/9868,2023-10-19T13:05:50Z,2023-10-24T13:44:40Z,dbaron,,0
 1950199580,true,Fix dir=auto handling of descendant <slot> elements.,https://github.com/whatwg/html/pull/9863,2023-10-18T16:40:39Z,2023-10-19T13:06:46Z,dbaron,,0
 1947037733,false,Define the `privacy-policy` link type.,https://github.com/whatwg/html/pull/9860,2023-10-17T10:01:32Z,2023-10-24T10:41:49Z,mikewest,addition/proposal|security/privacy|privacy-tracker,1
 1945446494,true,Deleted extra brackets,https://github.com/whatwg/html/pull/9858,2023-10-16T15:03:45Z,2023-10-16T15:22:16Z,GTgyani206,spam,0
-1944741361,false,"Navigation API : ""activation info""",https://github.com/whatwg/html/pull/9856,2023-10-16T09:10:04Z,2023-10-20T09:03:06Z,noamr,,0
+1944741361,false,"Navigation API : ""activation info""",https://github.com/whatwg/html/pull/9856,2023-10-16T09:10:04Z,2023-10-24T18:08:53Z,noamr,,0
 1941988607,true,Fix error (resulting from confusing text) in auto directionality traversal,https://github.com/whatwg/html/pull/9853,2023-10-13T13:39:56Z,2023-10-19T13:06:31Z,dbaron,,0
 1939541692,true,Editorial: make dir attributes table consistent,https://github.com/whatwg/html/pull/9852,2023-10-12T09:03:46Z,2023-10-12T10:29:15Z,keithamus,,0
 1939509360,false,Editorial: make shape attributes table consistent,https://github.com/whatwg/html/pull/9851,2023-10-12T08:45:02Z,2023-10-17T07:01:03Z,keithamus,,0
@@ -28,9 +28,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1923043046,true,"Various minor fixes to ""apply the history step""",https://github.com/whatwg/html/pull/9827,2023-10-03T00:16:29Z,2023-10-17T03:43:27Z,domenic,topic: navigation,0
 1921372545,true,Make rAF and web-animation timestamps relative and coarsened,https://github.com/whatwg/html/pull/9823,2023-10-02T07:15:37Z,2023-10-04T14:06:34Z,noamr,,0
 1921347979,true,Meta: stop using file-issue.js,https://github.com/whatwg/html/pull/9822,2023-10-02T06:54:06Z,2023-10-03T06:01:22Z,annevk,,0
-1920824912,false,Add `pagereveal` event,https://github.com/whatwg/html/pull/9818,2023-10-01T15:29:03Z,2023-10-23T17:01:41Z,noamr,,0
-1918764380,false,"Remove unreachable fragment case in ""in cell"" insertion mode",https://github.com/whatwg/html/pull/9810,2023-09-29T07:42:23Z,2023-10-24T01:20:02Z,not-my-profile,topic: parser,0
-1918684895,false,Stop reporting redundant fragment parser error in foreign content,https://github.com/whatwg/html/pull/9809,2023-09-29T06:42:05Z,2023-10-24T01:20:11Z,not-my-profile,clarification|topic: parser,0
+1920824912,false,Add `pagereveal` event,https://github.com/whatwg/html/pull/9818,2023-10-01T15:29:03Z,2023-10-24T18:07:00Z,noamr,,0
+1918764380,false,"Remove unreachable fragment case in ""in cell"" insertion mode",https://github.com/whatwg/html/pull/9810,2023-09-29T07:42:23Z,2023-10-24T13:13:38Z,not-my-profile,topic: parser,0
+1918684895,false,Stop reporting redundant fragment parser error in foreign content,https://github.com/whatwg/html/pull/9809,2023-09-29T06:42:05Z,2023-10-24T13:10:17Z,not-my-profile,clarification|topic: parser,0
 1918430862,true,Update 404.html,https://github.com/whatwg/html/pull/9808,2023-09-29T00:24:00Z,2023-09-29T02:19:22Z,Ahmedsolimann03,spam,0
 1917231207,true,Editorial: clarify prepare to run script,https://github.com/whatwg/html/pull/9806,2023-09-28T10:54:39Z,2023-09-29T08:37:28Z,annevk,,0
 1917125207,true,Use camelCase for the driver extension command enumerations,https://github.com/whatwg/html/pull/9805,2023-09-28T09:51:47Z,2023-10-23T05:11:52Z,javifernandez,,0
@@ -75,7 +75,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1884164093,true,Add diff.py to diff individual sections of the source file,https://github.com/whatwg/html/pull/9700,2023-09-06T14:40:42Z,2023-09-24T06:19:11Z,not-my-profile,,0
 1883918592,true,Editorial: define stylesheet location in terms of response,https://github.com/whatwg/html/pull/9697,2023-09-06T12:32:33Z,2023-09-08T09:09:16Z,annevk,topic: link,0
 1883685050,true,"Editorial: link ""character reference"" in Named character references",https://github.com/whatwg/html/pull/9696,2023-09-06T10:09:01Z,2023-09-26T04:01:57Z,not-my-profile,,0
-1882070872,false,"Change auto directionality of hidden, password, and button controls",https://github.com/whatwg/html/pull/9689,2023-09-05T14:12:54Z,2023-10-24T10:01:32Z,annevk,normative change|topic: forms|i18n-tracker,0
+1882070872,true,"Change auto directionality of hidden, password, and button controls",https://github.com/whatwg/html/pull/9689,2023-09-05T14:12:54Z,2023-10-24T15:54:26Z,annevk,normative change|topic: forms|i18n-tracker,0
 1881650840,true,Mark window.clientInformation [Replaceable],https://github.com/whatwg/html/pull/9688,2023-09-05T10:09:52Z,2023-09-06T16:59:20Z,annevk,,0
 1881492557,true,Correct some element references in <link rel=stylesheet>,https://github.com/whatwg/html/pull/9685,2023-09-05T08:39:15Z,2023-09-06T05:13:52Z,annevk,topic: link,0
 1881425896,true,Editorial: add parse and serialize a URL,https://github.com/whatwg/html/pull/9684,2023-09-05T08:00:14Z,2023-09-06T08:33:05Z,annevk,,0
