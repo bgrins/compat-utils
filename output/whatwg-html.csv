@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1961555431,false,Tie in AbortControllers with CustomElements,https://github.com/whatwg/html/issues/9881,2023-10-25T14:24:15Z,2023-10-25T15:47:09Z,keithamus,addition/proposal|needs implementer interest|topic: custom elements,1
 1960081159,false,Third-party cookie blocking and rendering media URLs with Content-Security-Policy,https://github.com/whatwg/html/issues/9879,2023-10-24T21:10:35Z,2023-10-25T11:09:07Z,DCtheTall,,0
 1959607137,false,Missing `reportValidity()` hook,https://github.com/whatwg/html/issues/9878,2023-10-24T16:10:13Z,2023-10-25T07:43:14Z,jpzwarte,,0
 1954805614,false,Upcoming HTML standard issue triage meeting on 11/2/2023,https://github.com/whatwg/html/issues/9874,2023-10-20T18:11:00Z,2023-10-23T15:51:39Z,past,agenda+,0
@@ -1137,7 +1138,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 923084614,true,Extend `atob` and `btoa` to support non-ASCII strings,https://github.com/whatwg/html/issues/6779,2021-06-16T20:46:05Z,2021-07-22T22:15:36Z,ethanresnick,addition/proposal|needs implementer interest,1
 922214329,true,Setting document.domain should not work for any public suffix,https://github.com/whatwg/html/issues/6775,2021-06-16T07:36:40Z,2021-06-16T17:09:25Z,thorlacius,,0
 921850934,true,What should history.back() do when sync navigations are involved?,https://github.com/whatwg/html/issues/6773,2021-06-15T22:22:03Z,2022-10-31T05:07:06Z,domenic,topic: history|interop,0
-920923069,false,Failed dynamic import should not always be cached,https://github.com/whatwg/html/issues/6768,2021-06-15T02:19:52Z,2023-05-16T12:43:29Z,sodatea,topic: script,15
+920923069,false,Failed dynamic import should not always be cached,https://github.com/whatwg/html/issues/6768,2021-06-15T02:19:52Z,2023-10-26T00:13:25Z,sodatea,topic: script,16
 918518896,false,Web compat: don't run async scripts between adjacent sync <script>s,https://github.com/whatwg/html/issues/6761,2021-06-11T09:48:42Z,2021-06-16T21:36:30Z,zcorpan,compat|topic: parser|topic: script,0
 917707970,false,How should timers account for system sleep/suspend?,https://github.com/whatwg/html/issues/6759,2021-06-10T18:46:38Z,2021-09-02T00:48:06Z,shaseley,,0
 917578796,false,Additional definitions exports for Pointer Events,https://github.com/whatwg/html/issues/6758,2021-06-10T17:04:44Z,2021-08-04T17:33:43Z,plehegar,anchor permanence|editorial,0
@@ -1939,7 +1940,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 497040604,false,Define a policy container,https://github.com/whatwg/html/issues/4926,2019-09-23T11:28:43Z,2021-05-21T10:44:17Z,annevk,clarification|needs tests|interop|integration|topic: policy container,6
 496594293,true,Design questions about IDREF/Element attribute reflection,https://github.com/whatwg/html/issues/4925,2019-09-21T00:49:20Z,2022-06-30T08:19:53Z,alice,accessibility,0
 496188244,true,COEP mismatches in dedicated workers should block.,https://github.com/whatwg/html/issues/4924,2019-09-20T07:14:14Z,2020-04-20T09:12:18Z,mikewest,topic: cross-origin-embedder-policy,0
-495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2022-10-27T11:18:35Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,140
+495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2022-10-27T11:18:35Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,141
 495810632,false,Allow an extra dimension to the size array for 3D favicon,https://github.com/whatwg/html/issues/4922,2019-09-19T13:46:29Z,2021-01-28T22:05:11Z,rcabanier,addition/proposal|needs implementer interest|topic: link,0
 495595729,true,Decide how to treat CSP sandbox in COOP,https://github.com/whatwg/html/issues/4921,2019-09-19T06:18:06Z,2020-06-24T17:33:26Z,shhnjk,security/privacy|topic: cross-origin-opener-policy,0
 495587240,true,Consider restricting SharedArrayBuffer to same-origin usage,https://github.com/whatwg/html/issues/4920,2019-09-19T05:50:59Z,2019-12-05T15:38:02Z,annevk,addition/proposal|topic: serialize and transfer,0
@@ -2680,7 +2681,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 309506211,false,Figure out if submit and reset events need to be handled in special way during dispatch,https://github.com/whatwg/html/issues/3599,2018-03-28T19:48:48Z,2018-09-06T07:23:14Z,smaug----,topic: forms,0
 309328992,false,Weird use of <strong> in <h1>–</h6>,https://github.com/whatwg/html/issues/3597,2018-03-28T11:34:47Z,2018-04-01T10:14:18Z,prlbr,clarification|document conformance,0
 309229896,false,Allow adding icons/images to <select> and <datalist> <option>s,https://github.com/whatwg/html/issues/3596,2018-03-28T05:52:24Z,2021-04-30T03:54:13Z,alekseyg,addition/proposal|needs implementer interest|topic: forms,38
-309218000,false,Add autocorrect content attribute to HTMLElement,https://github.com/whatwg/html/issues/3595,2018-03-28T04:34:08Z,2020-10-26T20:48:11Z,rniwa,addition/proposal|document conformance|i18n-tracker|impacts documentation,10
+309218000,false,Add autocorrect content attribute to HTMLElement,https://github.com/whatwg/html/issues/3595,2018-03-28T04:34:08Z,2020-10-26T20:48:11Z,rniwa,addition/proposal|document conformance|i18n-tracker|impacts documentation,11
 308839918,true,"Proposal: DecodeVideoData API, exposed at Window and Worker",https://github.com/whatwg/html/issues/3593,2018-03-27T06:39:53Z,2018-03-27T08:45:41Z,guest271314,,0
 308722774,false,Move all members except href in SVGAElement to mixin in HTML,https://github.com/whatwg/html/issues/3591,2018-03-26T20:26:33Z,2018-04-21T15:22:50Z,dstorey,topic: hyperlink|integration,0
 308112326,true,Why is No CORS the default state for CORS settings attributes?,https://github.com/whatwg/html/issues/3589,2018-03-23T17:12:25Z,2020-03-19T21:31:46Z,Ajedi32,clarification|topic: canvas,0
@@ -2691,7 +2692,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 307205459,true,Participation status checks not green on master,https://github.com/whatwg/html/issues/3582,2018-03-21T11:22:15Z,2018-04-26T19:14:37Z,annevk,spec tooling,0
 307189256,false,Editorial: (re)adopt ECMAScript conventions,https://github.com/whatwg/html/issues/3581,2018-03-21T10:29:42Z,2018-03-21T10:29:42Z,annevk,clarification,1
 307057087,false,window.customElements.define retrieves the lifetime callbacks in an odd order,https://github.com/whatwg/html/issues/3580,2018-03-20T22:10:12Z,2019-07-09T15:28:51Z,mrbkap,normative change|topic: custom elements,0
-306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2020-05-24T11:41:53Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,24
+306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2020-05-24T11:41:53Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,27
 306030693,false,<embed> and <object> should define cleanup steps,https://github.com/whatwg/html/issues/3576,2018-03-16T18:20:24Z,2018-04-04T14:24:31Z,zetafunction,topic: embed and object,0
 305999314,false,"What is the point of the ""NewTarget is equal to the active function object"" in [HTMLConstructor]?",https://github.com/whatwg/html/issues/3575,2018-03-16T16:43:28Z,2018-05-02T20:42:55Z,bzbarsky,topic: custom elements,0
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
@@ -3600,7 +3601,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 183062750,true,"iframe src=""javascript:stuff"" should be subject to inline-behavior CSP checks",https://github.com/whatwg/html/issues/1901,2016-10-14T14:21:19Z,2016-11-14T10:14:59Z,bzbarsky,compat|security/privacy,0
 183047262,true,"""If any event listeners were triggered""",https://github.com/whatwg/html/issues/1900,2016-10-14T13:16:29Z,2020-10-12T16:13:40Z,annevk,topic: events,0
 182842632,true,Move inputmode to not be dependent on forms,https://github.com/whatwg/html/issues/1897,2016-10-13T16:49:37Z,2017-12-14T18:35:28Z,dtapuska,normative change|topic: forms,0
-182842071,false,javascript URLs that do not return strings is apparently wrong,https://github.com/whatwg/html/issues/1896,2016-10-13T16:47:12Z,2018-08-16T17:23:43Z,domenic,compat|topic: navigation|interop|topic: javascript: URLs,0
+182842071,false,javascript URLs that do not return strings is apparently wrong,https://github.com/whatwg/html/issues/1896,2016-10-13T16:47:12Z,2023-10-25T17:52:59Z,domenic,compat|topic: navigation|interop|topic: javascript: URLs,0
 182827390,false,Iframe with initial javascript: source needs to fire the load event in various cases,https://github.com/whatwg/html/issues/1895,2016-10-13T15:47:17Z,2018-06-15T21:27:03Z,bzbarsky,topic: navigation|topic: javascript: URLs,0
 182798592,false,"Suggest to allow ""autocomplete"" on input type=checkbox|radio",https://github.com/whatwg/html/issues/1894,2016-10-13T14:03:25Z,2022-10-03T20:52:14Z,SpyroTEQ,addition/proposal|needs implementer interest|topic: forms,5
 182782604,true,checkbox cannot be checked through a synthetic click event when not in a document,https://github.com/whatwg/html/issues/1893,2016-10-13T12:59:25Z,2016-10-25T10:35:12Z,annevk,topic: forms|topic: events,0
