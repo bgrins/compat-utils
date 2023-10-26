@@ -1,15 +1,15 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 1961825121,false,Export TextTrackMode's enum values,https://github.com/whatwg/html/pull/9883,2023-10-25T16:40:49Z,2023-10-25T17:21:23Z,marcoscaceres,,0
-1961564202,false,Make language of a node consider lang attribute on SVG elements.,https://github.com/whatwg/html/pull/9882,2023-10-25T14:27:52Z,2023-10-25T17:24:02Z,dbaron,,0
-1961464046,false,Revert recent changes to rendering of <slot>,https://github.com/whatwg/html/pull/9880,2023-10-25T13:42:26Z,2023-10-25T21:07:12Z,dbaron,,0
-1958950645,false,Define the `terms-of-service` link type.,https://github.com/whatwg/html/pull/9877,2023-10-24T10:25:33Z,2023-10-25T05:55:18Z,mikewest,,1
+1961564202,true,Make language of a node consider lang attribute on SVG elements.,https://github.com/whatwg/html/pull/9882,2023-10-25T14:27:52Z,2023-10-26T02:10:33Z,dbaron,,0
+1961464046,false,Revert recent changes to rendering of <slot>,https://github.com/whatwg/html/pull/9880,2023-10-25T13:42:26Z,2023-10-26T04:53:02Z,dbaron,,0
+1958950645,false,Define the `terms-of-service` link type.,https://github.com/whatwg/html/pull/9877,2023-10-24T10:25:33Z,2023-10-26T06:02:19Z,mikewest,,1
 1956248354,false,ruby: Remove the segmentation algorithm,https://github.com/whatwg/html/pull/9876,2023-10-23T02:44:59Z,2023-10-25T17:10:56Z,tkent-google,removal/deprecation|document conformance|topic: ruby,0
 1956084796,false,Add invoke popover defaults,https://github.com/whatwg/html/pull/9875,2023-10-22T22:44:20Z,2023-10-22T22:46:27Z,keithamus,,0
 1954210461,false,Editorial: clarify spec around scripts,https://github.com/whatwg/html/pull/9872,2023-10-20T12:41:11Z,2023-10-23T08:58:30Z,Ms2ger,editorial,0
 1953548150,false,Specify what happens when “disabled” is added to a link@rel=stylesheet,https://github.com/whatwg/html/pull/9870,2023-10-20T05:17:46Z,2023-10-20T05:21:38Z,sideshowbarker,,0
 1952215790,true,Fix errors related to <slot> elements in auto directionality traversal.,https://github.com/whatwg/html/pull/9868,2023-10-19T13:05:50Z,2023-10-24T13:44:40Z,dbaron,,0
 1950199580,true,Fix dir=auto handling of descendant <slot> elements.,https://github.com/whatwg/html/pull/9863,2023-10-18T16:40:39Z,2023-10-19T13:06:46Z,dbaron,,0
-1947037733,false,Define the `privacy-policy` link type.,https://github.com/whatwg/html/pull/9860,2023-10-17T10:01:32Z,2023-10-25T20:59:45Z,mikewest,addition/proposal|security/privacy|privacy-tracker,1
+1947037733,false,Define the `privacy-policy` link type.,https://github.com/whatwg/html/pull/9860,2023-10-17T10:01:32Z,2023-10-26T06:01:20Z,mikewest,addition/proposal|security/privacy|privacy-tracker,1
 1945446494,true,Deleted extra brackets,https://github.com/whatwg/html/pull/9858,2023-10-16T15:03:45Z,2023-10-16T15:22:16Z,GTgyani206,spam,0
 1944741361,false,"Navigation API : ""activation info""",https://github.com/whatwg/html/pull/9856,2023-10-16T09:10:04Z,2023-10-24T18:08:53Z,noamr,,0
 1941988607,true,Fix error (resulting from confusing text) in auto directionality traversal,https://github.com/whatwg/html/pull/9853,2023-10-13T13:39:56Z,2023-10-19T13:06:31Z,dbaron,,0
@@ -58,7 +58,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1909479750,false,Queue toggle events and dialog close with microtasks,https://github.com/whatwg/html/pull/9775,2023-09-22T20:24:57Z,2023-10-06T17:34:53Z,josepharhar,,0
 1908359160,true,Un-break build by making review-drafts/2023-07.wattsi use non-void <ref></ref>,https://github.com/whatwg/html/pull/9772,2023-09-22T07:38:51Z,2023-09-22T08:38:40Z,sideshowbarker,,0
 1907618502,false,Add TextTrackCue ctor & cue + cuebackground attributes,https://github.com/whatwg/html/pull/9771,2023-09-21T19:22:21Z,2023-10-25T16:20:49Z,marcoscaceres,addition/proposal|topic: media,1
-1904941276,false,Specify URL encoding for links (header+element),https://github.com/whatwg/html/pull/9764,2023-09-20T12:56:24Z,2023-10-23T15:51:50Z,noamr,needs tests|topic: link|topic: resource hints (inc. preload),0
+1904941276,false,Specify URL encoding for links (header+element),https://github.com/whatwg/html/pull/9764,2023-09-20T12:56:24Z,2023-10-26T04:27:03Z,noamr,needs tests|topic: link|topic: resource hints (inc. preload),0
 1902888166,false,Make navigate() use UTF-8 in the URL parser,https://github.com/whatwg/html/pull/9756,2023-09-19T12:36:19Z,2023-09-26T09:33:06Z,annevk,normative change|topic: navigation|needs tests,0
 1902869687,true,Editorial: remove API URL character encoding,https://github.com/whatwg/html/pull/9755,2023-09-19T12:25:50Z,2023-09-19T15:11:58Z,annevk,,0
 1901979709,false,Add showPicker to <select> elements,https://github.com/whatwg/html/pull/9754,2023-09-19T00:31:48Z,2023-10-25T11:51:50Z,lukewarlow,,0
@@ -173,7 +173,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1735662308,true,Add empty string special case for pushState/replaceState,https://github.com/whatwg/html/pull/9370,2023-06-01T07:26:49Z,2023-06-02T03:06:20Z,domenic,topic: history|interop,0
 1735288504,true,Tighten auto popover list definition,https://github.com/whatwg/html/pull/9369,2023-06-01T01:45:56Z,2023-06-06T19:53:27Z,josepharhar,topic: popover,0
 1732189866,false,Use the fetched unsafe response for network status and response bodies,https://github.com/whatwg/html/pull/9362,2023-05-30T12:47:15Z,2023-06-09T14:24:49Z,trflynn89,,0
-1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-10-23T07:50:14Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
+1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-10-26T06:37:30Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
 1729857566,true,Add files via upload,https://github.com/whatwg/html/pull/9353,2023-05-29T01:56:27Z,2023-05-29T04:36:27Z,jakex666x,spam,0
 1728531782,true,Check dialog is modal flag instead of open attribute in 'check popover validity' algorithm,https://github.com/whatwg/html/pull/9344,2023-05-27T08:09:19Z,2023-06-12T06:54:45Z,nt1m,normative change|topic: popover,0
 1727729022,true,Re-add <source media> for media elements,https://github.com/whatwg/html/pull/9341,2023-05-26T14:21:19Z,2023-06-12T12:20:28Z,zcorpan,,3

@@ -20,15 +20,15 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1625153816,true,The `compositionend` event is no longer fired,https://github.com/w3c/edit-context/issues/34,2023-03-15T09:52:08Z,2023-09-18T22:29:50Z,tidoust,,0
 1332802531,true,"Typo in ""Extensions to the Element interface""",https://github.com/w3c/edit-context/issues/32,2022-08-09T06:59:11Z,2023-03-14T20:28:31Z,heycam,,0
 1211589894,true,Some thoughts on accessibility,https://github.com/w3c/edit-context/issues/6,2022-04-21T21:54:17Z,2023-10-07T00:23:10Z,travisleithead,,0
-1211587567,false,Custom spellchecking,https://github.com/w3c/edit-context/issues/5,2022-04-21T21:51:00Z,2022-04-21T21:51:00Z,travisleithead,,0
-1211583848,false,Would it be useful to have an activeEditContext property on document?,https://github.com/w3c/edit-context/issues/4,2022-04-21T21:46:07Z,2023-10-23T20:11:37Z,travisleithead,,0
+1211587567,true,Custom spellchecking,https://github.com/w3c/edit-context/issues/5,2022-04-21T21:51:00Z,2023-10-26T00:45:16Z,travisleithead,,0
+1211583848,false,Would it be useful to have an activeEditContext property on document?,https://github.com/w3c/edit-context/issues/4,2022-04-21T21:46:07Z,2023-10-26T00:40:17Z,travisleithead,enhancement,0
 1211579844,true,inputMode property of EditContext,https://github.com/w3c/edit-context/issues/3,2022-04-21T21:40:37Z,2023-08-22T18:25:16Z,travisleithead,,0
-1121331912,false,ITextEditProvider::GetActiveComposition and GetConversionTarget,https://github.com/w3c/edit-context/issues/1,2022-02-02T00:11:26Z,2023-10-23T20:13:02Z,alexkeng,,0
+1121331912,false,ITextEditProvider::GetActiveComposition and GetConversionTarget,https://github.com/w3c/edit-context/issues/1,2022-02-02T00:11:26Z,2023-10-26T00:39:28Z,alexkeng,enhancement,0
 1211602749,true,"""Squiggle"" should be ""Wavy"" as a value of underlineStyle of TextFormat",https://github.com/w3c/edit-context/issues/29,2021-12-13T12:47:11Z,2023-03-14T20:28:26Z,masayuki-nakano,,0
 1211602615,false,"When EditContext.updateSelection is called with offset between a surrogate pair, what should happen?",https://github.com/w3c/edit-context/issues/28,2021-12-13T12:26:43Z,2022-07-14T06:13:08Z,masayuki-nakano,i18n-tracker,0
-1211602470,false,EditContext has compositionRange(Start|End) but TextUpdateEvent has composition(Start|End),https://github.com/w3c/edit-context/issues/27,2021-12-13T12:14:06Z,2022-04-21T22:11:47Z,masayuki-nakano,,0
+1211602470,true,EditContext has compositionRange(Start|End) but TextUpdateEvent has composition(Start|End),https://github.com/w3c/edit-context/issues/27,2021-12-13T12:14:06Z,2023-10-26T00:38:46Z,masayuki-nakano,,0
 1211602310,true,Should the methods of EditContext throw an exception if they abort due to not activated?,https://github.com/w3c/edit-context/issues/26,2021-12-13T12:01:25Z,2023-10-16T16:12:37Z,masayuki-nakano,,0
-1211602164,false,"It might help to write clearer code, if EditContext would have some attributes",https://github.com/w3c/edit-context/issues/25,2021-12-13T05:37:02Z,2022-04-21T22:11:23Z,masayuki-nakano,,0
+1211602164,false,"It might help to write clearer code, if EditContext would have some attributes",https://github.com/w3c/edit-context/issues/25,2021-12-13T05:37:02Z,2023-10-26T00:36:49Z,masayuki-nakano,enhancement,0
 1211602059,true,EditContext.isInComposition should be renamed to `isComposing`,https://github.com/w3c/edit-context/issues/24,2021-12-13T05:21:13Z,2023-03-14T20:28:19Z,masayuki-nakano,,0
 1211601930,true,EditContext: processing model,https://github.com/w3c/edit-context/issues/23,2021-12-10T09:27:14Z,2023-10-03T01:01:20Z,annevk,,0
 1211600073,true,EditContext: define internal model,https://github.com/w3c/edit-context/issues/22,2021-12-06T17:11:07Z,2023-05-17T13:55:46Z,annevk,,0
@@ -38,10 +38,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1211598555,true,EditContext: should editContext be on Element?,https://github.com/w3c/edit-context/issues/18,2021-12-06T17:04:38Z,2023-03-14T20:28:11Z,annevk,,0
 1211598369,true,EditContext: how is bold represented?,https://github.com/w3c/edit-context/issues/17,2021-12-06T17:02:54Z,2023-10-06T23:21:06Z,annevk,,0
 1211598097,true,EditContext: event constructors are wrong,https://github.com/w3c/edit-context/issues/16,2021-12-06T17:01:30Z,2023-03-14T20:27:46Z,annevk,,0
-1211597918,false,Expose keyboard language?,https://github.com/w3c/edit-context/issues/15,2021-10-07T19:08:21Z,2022-04-21T22:05:53Z,alexkeng,,0
+1211597918,false,Expose keyboard language?,https://github.com/w3c/edit-context/issues/15,2021-10-07T19:08:21Z,2023-10-26T00:36:28Z,alexkeng,enhancement,0
 1211597366,true,EditContext: Should throw exception when `Element.editContext` is set to specific elements?,https://github.com/w3c/edit-context/issues/14,2021-09-28T01:11:24Z,2023-08-21T23:51:20Z,masayuki-nakano,,0
 1211597210,true,"EditContext: If nested elements attached by `EditContext`, what happens?",https://github.com/w3c/edit-context/issues/13,2021-09-28T01:05:10Z,2023-08-21T23:53:21Z,masayuki-nakano,,0
-1211597044,false,EditContext: Is a pseudo class selecting elements which is attached by an `EditContext` useful?,https://github.com/w3c/edit-context/issues/12,2021-09-28T00:58:29Z,2022-04-21T22:04:32Z,masayuki-nakano,,0
+1211597044,false,EditContext: Is a pseudo class selecting elements which is attached by an `EditContext` useful?,https://github.com/w3c/edit-context/issues/12,2021-09-28T00:58:29Z,2023-10-26T00:35:54Z,masayuki-nakano,enhancement,0
 1211596892,true,Secure context for EditContext?,https://github.com/w3c/edit-context/issues/11,2021-09-28T00:38:04Z,2023-09-14T18:05:57Z,snianu,Agenda+,0
 1211596225,true,EditContext: Should `selectionStart` and `selectionEnd` be upadeted when `updateText()` is called?,https://github.com/w3c/edit-context/issues/10,2021-09-28T00:35:15Z,2023-08-22T00:25:40Z,masayuki-nakano,,0
 1211595059,true,EditContext: Do IME see the plaintext in `EditContext`?,https://github.com/w3c/edit-context/issues/9,2021-09-28T00:20:13Z,2023-08-22T00:01:08Z,masayuki-nakano,,0

@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1961555431,false,Tie in AbortControllers with CustomElements,https://github.com/whatwg/html/issues/9881,2023-10-25T14:24:15Z,2023-10-25T15:47:09Z,keithamus,addition/proposal|needs implementer interest|topic: custom elements,1
+1961555431,false,Tie in AbortControllers with CustomElements,https://github.com/whatwg/html/issues/9881,2023-10-25T14:24:15Z,2023-10-26T10:42:26Z,keithamus,addition/proposal|needs implementer interest|topic: custom elements,3
 1960081159,false,Third-party cookie blocking and rendering media URLs with Content-Security-Policy,https://github.com/whatwg/html/issues/9879,2023-10-24T21:10:35Z,2023-10-25T11:09:07Z,DCtheTall,,0
 1959607137,false,Missing `reportValidity()` hook,https://github.com/whatwg/html/issues/9878,2023-10-24T16:10:13Z,2023-10-25T07:43:14Z,jpzwarte,,0
 1954805614,false,Upcoming HTML standard issue triage meeting on 11/2/2023,https://github.com/whatwg/html/issues/9874,2023-10-20T18:11:00Z,2023-10-23T15:51:39Z,past,agenda+,0
@@ -844,7 +844,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1128211306,true,Formal complaint: search element standardization,https://github.com/whatwg/html/issues/7594,2022-02-09T08:34:31Z,2022-02-10T10:29:31Z,Kaleidea,,0
 1127384263,true,Add a single radius version of CanvasRenderingContext2D.roundRect,https://github.com/whatwg/html/issues/7592,2022-02-08T15:10:56Z,2022-02-17T21:44:59Z,mysteryDate,addition/proposal|needs implementer interest|topic: canvas,1
 1127115952,false,Consider not exposing ErrorEvent/PromiseRejectionEvent in ShadowRealms,https://github.com/whatwg/html/issues/7591,2022-02-08T11:14:29Z,2023-01-27T08:47:01Z,smaug----,topic: multiple globals|integration,0
-1126672278,false,Deprecate <rp> element,https://github.com/whatwg/html/issues/7590,2022-02-08T01:04:58Z,2022-10-24T00:45:30Z,NagayamaToshiaki,removal/deprecation|document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,3
+1126672278,false,Deprecate <rp> element,https://github.com/whatwg/html/issues/7590,2022-02-08T01:04:58Z,2023-10-26T11:37:35Z,NagayamaToshiaki,removal/deprecation|document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,3
 1126330353,true,"""prepare a script"" could be more precise about documents",https://github.com/whatwg/html/issues/7589,2022-02-07T18:11:42Z,2022-05-18T23:42:17Z,domenic,clarification|topic: script,1
 1125672254,false,Reconsider the `<rb>` element,https://github.com/whatwg/html/issues/7587,2022-02-07T08:36:17Z,2022-02-17T11:11:35Z,NagayamaToshiaki,i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,1
 1125254296,true,"""Focusing steps"" doesn't initially indicate that ""new focus target"" can be null",https://github.com/whatwg/html/issues/7585,2022-02-06T16:50:25Z,2022-02-07T00:33:18Z,awesomekling,,0
@@ -2295,7 +2295,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 404249030,false,Prevent programmatic focus in iframe,https://github.com/whatwg/html/issues/4326,2019-01-29T11:37:42Z,2021-06-21T14:07:04Z,marian-r,addition/proposal|security/privacy|topic: focus,0
 404242319,true,Script-blocking style sheet counter possibly not decremented,https://github.com/whatwg/html/issues/4325,2019-01-29T11:19:44Z,2023-01-27T00:57:36Z,ytausky,topic: script|topic: link,0
 403158959,true,Additional module types,https://github.com/whatwg/html/issues/4321,2019-01-25T13:32:56Z,2023-06-29T06:26:06Z,Jamesernator,addition/proposal|topic: script,0
-403141477,false,Add referrerpolicy to <form>,https://github.com/whatwg/html/issues/4320,2019-01-25T12:40:11Z,2023-06-07T13:37:12Z,annevk,addition/proposal|topic: forms,2
+403141477,false,Add referrerpolicy to <form>,https://github.com/whatwg/html/issues/4320,2019-01-25T12:40:11Z,2023-06-07T13:37:12Z,annevk,addition/proposal|topic: forms,3
 401934423,true,JSON modules,https://github.com/whatwg/html/issues/4315,2019-01-22T20:12:57Z,2023-07-25T07:33:07Z,MylesBorins,addition/proposal|topic: script,35
 401852094,true,Consider not setting browsing context name when noopener/noreferrer are used,https://github.com/whatwg/html/issues/4314,2019-01-22T16:39:24Z,2019-01-29T15:04:17Z,annevk,topic: navigation|security/privacy|topic: browsing context,0
 401771775,false,Provide a way to indicate the form data volatility,https://github.com/whatwg/html/issues/4313,2019-01-22T13:46:42Z,2019-01-22T22:23:47Z,Lcfvs,,0
@@ -2692,7 +2692,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 307205459,true,Participation status checks not green on master,https://github.com/whatwg/html/issues/3582,2018-03-21T11:22:15Z,2018-04-26T19:14:37Z,annevk,spec tooling,0
 307189256,false,Editorial: (re)adopt ECMAScript conventions,https://github.com/whatwg/html/issues/3581,2018-03-21T10:29:42Z,2018-03-21T10:29:42Z,annevk,clarification,1
 307057087,false,window.customElements.define retrieves the lifetime callbacks in an odd order,https://github.com/whatwg/html/issues/3580,2018-03-20T22:10:12Z,2019-07-09T15:28:51Z,mrbkap,normative change|topic: custom elements,0
-306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2020-05-24T11:41:53Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,27
+306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2020-05-24T11:41:53Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,28
 306030693,false,<embed> and <object> should define cleanup steps,https://github.com/whatwg/html/issues/3576,2018-03-16T18:20:24Z,2018-04-04T14:24:31Z,zetafunction,topic: embed and object,0
 305999314,false,"What is the point of the ""NewTarget is equal to the active function object"" in [HTMLConstructor]?",https://github.com/whatwg/html/issues/3575,2018-03-16T16:43:28Z,2018-05-02T20:42:55Z,bzbarsky,topic: custom elements,0
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
@@ -2887,7 +2887,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 274201914,false,"Should ""script-src 'none'"" CSP in HTTP headers count as scripting being disabled?",https://github.com/whatwg/html/issues/3230,2017-11-15T15:41:20Z,2018-06-01T06:17:27Z,bzbarsky,topic: script,0
 273882856,false,text/plain form submission seems broken encoding-wise,https://github.com/whatwg/html/issues/3228,2017-11-14T17:45:39Z,2020-05-07T10:52:08Z,annevk,topic: forms,0
 273662558,false,Should we clear image data or not after the image is adopted into a data document.,https://github.com/whatwg/html/issues/3226,2017-11-14T04:16:29Z,2017-12-04T13:51:59Z,allstarschh,topic: img,0
-273471544,false,Add readystatechange event to HTMLMediaElement,https://github.com/whatwg/html/issues/3225,2017-11-13T15:33:17Z,2017-11-13T17:16:22Z,maxschmeling,addition/proposal|needs implementer interest|topic: media,0
+273471544,false,Add readystatechange event to HTMLMediaElement,https://github.com/whatwg/html/issues/3225,2017-11-13T15:33:17Z,2017-11-13T17:16:22Z,maxschmeling,addition/proposal|needs implementer interest|topic: media,1
 273159140,true,Specify HTML numeric character reference fallback encoding for multipart upload filename characters not representable in form charset,https://github.com/whatwg/html/issues/3223,2017-11-11T16:57:19Z,2021-03-01T14:55:01Z,bsittler,topic: forms,0
 273157511,true,"""dataTransfer = new DataTransfer() Creates a new...""",https://github.com/whatwg/html/issues/3222,2017-11-11T16:33:18Z,2017-11-12T02:52:50Z,guest271314,,0
 272950195,true,The spec for parsing a sizes attribute is not what impls do or what WPT tests,https://github.com/whatwg/html/issues/3220,2017-11-10T14:31:08Z,2017-11-10T21:40:50Z,emilio,topic: img,0
