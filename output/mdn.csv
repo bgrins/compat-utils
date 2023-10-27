@@ -274,7 +274,7 @@ api/AuthenticatorAttestationResponse/attestationObject,,60,,67,,13,,false,true,f
 api/AuthenticatorAttestationResponse/getAuthenticatorData,,119,,85,,16,,false,true,false,https://w3c.github.io/webauthn/#dom-authenticatorattestationresponse-getauthenticatordata,W3C
 api/AuthenticatorAttestationResponse/getPublicKey,,119,,85,,16,,false,true,false,https://w3c.github.io/webauthn/#dom-authenticatorattestationresponse-getpublickey,W3C
 api/AuthenticatorAttestationResponse/getPublicKeyAlgorithm,,119,,85,,16,,false,true,false,https://w3c.github.io/webauthn/#dom-authenticatorattestationresponse-getpublickeyalgorithm,W3C
-api/AuthenticatorAttestationResponse/getTransports,,,,74,,16,,false,true,false,https://w3c.github.io/webauthn/#dom-authenticatorattestationresponse-gettransports,W3C
+api/AuthenticatorAttestationResponse/getTransports,,119,,74,,16,,false,true,false,https://w3c.github.io/webauthn/#dom-authenticatorattestationresponse-gettransports,W3C
 api/AuthenticatorResponse,,60,,67,,13,,false,true,false,https://w3c.github.io/webauthn/#authenticatorresponse,W3C
 api/AuthenticatorResponse/clientDataJSON,,60,,67,,13,,false,true,false,https://w3c.github.io/webauthn/#dom-authenticatorresponse-clientdatajson,W3C
 api/BackgroundFetchEvent,,,,74,,,,true,true,false,https://wicg.github.io/background-fetch/#background-fetch-event,W3CCG
@@ -1745,7 +1745,7 @@ api/Element/requestFullscreen/options_screen_parameter,,,,100,,,,true,true,false
 api/Element/requestFullscreen/returns_promise,,64,,71,,16.4,,false,true,false,,NONE
 api/Element/requestPointerLock,,50,,37,,10.1,,false,true,false,https://w3c.github.io/pointerlock/#dom-element-requestpointerlock,W3C
 api/Element/requestPointerLock/options_unadjustedMovement_parameter,,,,88,,,,true,false,false,,NONE
-api/Element/role,,,,103,,12.1,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-role,W3C
+api/Element/role,,119,,103,,12.1,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-role,W3C
 api/Element/scroll,,36,,61,,10.1,,false,true,false,https://drafts.csswg.org/cssom-view/#dom-element-scroll,W3C
 api/Element/scroll/options_behavior_parameter,,36,,61,,14,,false,true,false,,NONE
 api/Element/scroll/options_left_parameter,,36,,61,,10.1,,false,true,false,,NONE
@@ -5043,7 +5043,7 @@ api/PromiseRejectionEvent/reason,,69,,49,,11,,false,true,false,https://html.spec
 api/PublicKeyCredential,,60,,67,,13,,false,true,false,https://w3c.github.io/webauthn/#iface-pkcredential,W3C
 api/PublicKeyCredential/authenticatorAttachment,,,,98,,15.5,,false,true,false,https://w3c.github.io/webauthn/#dom-publickeycredential-authenticatorattachment,W3C
 api/PublicKeyCredential/getClientExtensionResults,,60,,67,,13,,false,true,false,https://w3c.github.io/webauthn/#ref-for-dom-publickeycredential-getclientextensionresults,W3C
-api/PublicKeyCredential/isConditionalMediationAvailable_static,,,,108,,16,,false,true,false,https://w3c.github.io/webauthn/#dom-publickeycredential-isconditionalmediationavailable,W3C
+api/PublicKeyCredential/isConditionalMediationAvailable_static,,119,,108,,16,,false,true,false,https://w3c.github.io/webauthn/#dom-publickeycredential-isconditionalmediationavailable,W3C
 api/PublicKeyCredential/isUserVerifyingPlatformAuthenticatorAvailable_static,,60,,67,,13,,false,true,false,https://w3c.github.io/webauthn/#dom-publickeycredential-isuserverifyingplatformauthenticatoravailable,W3C
 api/PublicKeyCredential/parseCreationOptionsFromJSON_static,,119,,,,,,true,true,false,https://w3c.github.io/webauthn/#dom-publickeycredential-parsecreationoptionsfromjson,W3C
 api/PublicKeyCredential/parseRequestOptionsFromJSON_static,,119,,,,,,true,true,false,https://w3c.github.io/webauthn/#dom-publickeycredential-parserequestoptionsfromjson,W3C
@@ -5767,9 +5767,6 @@ api/SVGAElement/href,,4,,1,,3,,false,true,false,https://html.spec.whatwg.org/mul
 api/SVGAElement/hreflang,,61,,,,,,false,true,false,https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__hreflang,W3C
 api/SVGAElement/ping,,61,,,,,,false,true,false,https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__ping,W3C
 api/SVGAElement/referrerPolicy,,61,,,,,,false,true,false,https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__referrerPolicy,W3C
-api/SVGAElement/referrerPolicy/no-referrer-when-downgrade,,61,,,,,,false,true,false,,NONE
-api/SVGAElement/referrerPolicy/origin-when-cross-origin,,61,,,,,,false,true,false,,NONE
-api/SVGAElement/referrerPolicy/unsafe-url,,61,,,,,,false,true,false,,NONE
 api/SVGAElement/rel,,61,,,,14,,false,true,false,https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__rel,W3C
 api/SVGAElement/relList,,61,,,,14,,false,true,false,https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__relList,W3C
 api/SVGAElement/target,,3,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__target,W3C
@@ -10717,6 +10714,7 @@ html/elements/script/type/importmap,,108,,89,,16.4,,false,true,false,https://htm
 html/elements/script/type/module,,60,,61,,10.1,,false,true,false,,NONE
 html/elements/script/type/speculationrules,,,,109,,,,true,true,false,https://wicg.github.io/nav-speculation/speculation-rules.html#speculation-rules-script,W3CCG
 html/elements/script/type/speculationrules/prefetch,,,,110,,,,true,true,false,,NONE
+html/elements/script/type/speculationrules/prerender,,,,105,,,,true,true,false,,NONE
 html/elements/script/type/speculationrules/referrer_policy,,,,111,,,,true,true,false,,NONE
 html/elements/script/type/speculationrules/requires,,,,110,,,,true,true,false,,NONE
 html/elements/script/type/speculationrules/requires/anonymous-client-ip-when-cross-origin,,,,110,,,,true,true,false,,NONE
