@@ -1,7 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1965832927,true,Update CONTRIBUTING.md,https://github.com/whatwg/html/pull/9885,2023-10-27T16:22:14Z,2023-10-27T17:58:31Z,gfggithubleet,,0
 1961825121,false,Export TextTrackMode's enum values,https://github.com/whatwg/html/pull/9883,2023-10-25T16:40:49Z,2023-10-25T17:21:23Z,marcoscaceres,,0
 1961564202,true,Make language of a node consider lang attribute on SVG elements.,https://github.com/whatwg/html/pull/9882,2023-10-25T14:27:52Z,2023-10-26T02:10:33Z,dbaron,,0
-1961464046,false,"Revert recent changes to rendering of <slot>, and some of the corresponding changes to its directionality",https://github.com/whatwg/html/pull/9880,2023-10-25T13:42:26Z,2023-10-27T00:07:20Z,dbaron,,0
+1961464046,false,"Revert recent changes to rendering of <slot>, and some of the corresponding changes to its directionality and language",https://github.com/whatwg/html/pull/9880,2023-10-25T13:42:26Z,2023-10-27T16:50:29Z,dbaron,,0
 1958950645,false,Define the `terms-of-service` link type.,https://github.com/whatwg/html/pull/9877,2023-10-24T10:25:33Z,2023-10-26T06:02:19Z,mikewest,,1
 1956248354,true,ruby: Remove the segmentation algorithm,https://github.com/whatwg/html/pull/9876,2023-10-23T02:44:59Z,2023-10-27T06:17:56Z,tkent-google,removal/deprecation|document conformance|topic: ruby,0
 1956084796,false,Add invoke popover defaults,https://github.com/whatwg/html/pull/9875,2023-10-22T22:44:20Z,2023-10-22T22:46:27Z,keithamus,,0
@@ -18,12 +19,12 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1939502897,false,Editorial: make http-equiv attributes table consistent,https://github.com/whatwg/html/pull/9850,2023-10-12T08:41:13Z,2023-10-12T10:56:42Z,keithamus,,0
 1939480920,true,Editorial: make preload attributes table consistent,https://github.com/whatwg/html/pull/9849,2023-10-12T08:27:32Z,2023-10-17T09:43:48Z,keithamus,,0
 1935018189,true,Editorial: make kind attributes consistent,https://github.com/whatwg/html/pull/9847,2023-10-10T10:34:57Z,2023-10-10T11:59:18Z,keithamus,editorial,0
-1933058172,false,Implement WebDriver BiDi interception in the `show the picker` algorithm,https://github.com/whatwg/html/pull/9844,2023-10-09T13:22:03Z,2023-10-24T00:10:46Z,jrandolf,do not merge yet|integration,0
+1933058172,false,Implement WebDriver BiDi interception in the `show the picker` algorithm,https://github.com/whatwg/html/pull/9844,2023-10-09T13:22:03Z,2023-10-27T15:13:19Z,jrandolf,do not merge yet|integration,0
 1932809665,true,Editorial: make fetch priority attributes consistent,https://github.com/whatwg/html/pull/9842,2023-10-09T10:59:10Z,2023-10-09T11:41:54Z,keithamus,editorial,0
 1932098948,false,Add InvokeElement & InvokeEvent IDLs & invocation steps for Invoke proposal,https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2023-10-20T14:05:00Z,keithamus,,0
 1931367969,true,Editorial: remove some copypasta around CORS settings attribute,https://github.com/whatwg/html/pull/9840,2023-10-07T14:14:19Z,2023-10-08T14:25:55Z,annevk,,0
 1930976617,true,"Fix typo in ""History-action activation-consuming APIs""",https://github.com/whatwg/html/pull/9839,2023-10-06T21:55:17Z,2023-10-10T04:56:14Z,CanadaHonk,,0
-1930460108,true,Perform a microtask checkpoint only after a task,https://github.com/whatwg/html/pull/9838,2023-10-06T15:38:05Z,2023-10-10T05:26:36Z,annevk,topic: event loop,0
+1930460108,true,Perform a microtask checkpoint only after a task,https://github.com/whatwg/html/pull/9838,2023-10-06T15:38:05Z,2023-10-10T05:26:36Z,annevk,topic: event loop,1
 1929821283,true,make lazy loading attributes consistent,https://github.com/whatwg/html/pull/9837,2023-10-06T09:57:48Z,2023-10-06T12:29:05Z,keithamus,editorial,0
 1928350943,true,add invokeevent,https://github.com/whatwg/html/pull/9835,2023-10-05T13:52:51Z,2023-10-10T21:39:49Z,keithamus,,0
 1927730685,true,make CORS settings attributes consistent,https://github.com/whatwg/html/pull/9834,2023-10-05T08:49:00Z,2023-10-07T14:15:22Z,keithamus,editorial,0
@@ -235,7 +236,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1660416855,true,"Fix ""active frame element"" definition",https://github.com/whatwg/html/pull/9139,2023-04-10T08:08:01Z,2023-04-28T07:31:26Z,domenic,topic: browsing context,0
 1659698554,true,Mudei o titulo (apenas para um teste da aula do youtube),https://github.com/whatwg/html/pull/9137,2023-04-09T01:21:57Z,2023-04-09T04:25:54Z,CharlesRobertoAlegre,spam,0
 1657789416,true,Fix a typo regarding formStateRestoreCallback,https://github.com/whatwg/html/pull/9130,2023-04-06T17:19:55Z,2023-05-17T23:45:43Z,xiaochengh,topic: custom elements,0
-1655536568,true,Allow <hr> to be used inside <select> as a separator,https://github.com/whatwg/html/pull/9124,2023-04-05T12:32:26Z,2023-05-03T12:13:26Z,annevk,addition/proposal|document conformance|topic: parser|topic: forms,2
+1655536568,true,Allow <hr> to be used inside <select> as a separator,https://github.com/whatwg/html/pull/9124,2023-04-05T12:32:26Z,2023-10-27T13:44:02Z,annevk,addition/proposal|document conformance|topic: parser|topic: forms,2
 1654364500,true,Use dialog initial focus for dialog popovers,https://github.com/whatwg/html/pull/9121,2023-04-04T18:27:26Z,2023-05-06T06:11:49Z,josepharhar,normative change|topic: focus|topic: dialog|topic: popover,0
 1654233635,true,Skip descendant dialogs and popovers for autofocus,https://github.com/whatwg/html/pull/9120,2023-04-04T16:50:00Z,2023-05-16T18:16:02Z,josepharhar,normative change|topic: focus|topic: dialog|topic: popover,0
 1653147495,true,"Remove ""element-attr"" from non-attribute terms",https://github.com/whatwg/html/pull/9118,2023-04-04T04:20:19Z,2023-04-06T05:46:23Z,gnpivo,,0
@@ -1393,7 +1394,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 603334448,true,Update worker global scope's owner set earlier,https://github.com/whatwg/html/pull/5472,2020-04-20T15:39:13Z,2020-04-28T14:50:35Z,domenic,topic: workers,0
 603319225,true,Align on what we call implementation-defined,https://github.com/whatwg/html/pull/5471,2020-04-20T15:17:56Z,2020-04-20T16:31:12Z,annevk,,0
 603266759,false,Integrate with Reporting API,https://github.com/whatwg/html/pull/5470,2020-04-20T14:07:15Z,2022-08-22T02:36:09Z,clelland,,0
-602258520,false,Add declarative Shadow DOM features,https://github.com/whatwg/html/pull/5465,2020-04-17T22:04:40Z,2023-10-20T17:20:47Z,mfreed7,do not merge yet|topic: shadow|impacts documentation,14
+602258520,false,Add declarative Shadow DOM features,https://github.com/whatwg/html/pull/5465,2020-04-17T22:04:40Z,2023-10-27T17:20:43Z,mfreed7,do not merge yet|topic: shadow|impacts documentation,14
 601071702,true,Change how minimum used value for line-height works,https://github.com/whatwg/html/pull/5462,2020-04-16T13:50:43Z,2022-02-11T00:04:30Z,zcorpan,,0
 599834801,true,Remove report long tasks from update the rendering,https://github.com/whatwg/html/pull/5459,2020-04-14T20:21:05Z,2020-04-15T20:03:05Z,npm1,integration,0
 599421153,true,Expand IME  to 'input method editor',https://github.com/whatwg/html/pull/5458,2020-04-14T09:18:47Z,2020-04-14T15:00:36Z,36degrees,clarification,0
