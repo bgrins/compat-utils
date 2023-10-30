@@ -43,7 +43,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1555313396,true,Provide a mechanism for allowing EventTarget trees to make use of bubbling,https://github.com/whatwg/dom/issues/1146,2023-01-24T16:44:07Z,2023-01-25T10:16:13Z,keithamus,,1
 1538377548,true," document.execCommand('copy') is deprecated so is it any other solution for support ios device.",https://github.com/whatwg/dom/issues/1144,2023-01-18T17:16:26Z,2023-01-20T12:26:39Z,bemes9226,,0
 1526645532,false,Add Simplified Chinese translation,https://github.com/whatwg/dom/issues/1141,2023-01-10T02:09:50Z,2023-01-10T16:41:23Z,JunLiangWangX,meta,3
-1497650290,false,Add cloneable option to ShadowRootInit,https://github.com/whatwg/dom/issues/1137,2022-12-15T01:34:04Z,2023-01-14T00:30:16Z,rniwa,topic: shadow|addition/proposal,0
+1497650290,true,Add cloneable option to ShadowRootInit,https://github.com/whatwg/dom/issues/1137,2022-12-15T01:34:04Z,2023-10-29T19:33:47Z,rniwa,topic: shadow|addition/proposal,0
 1490630035,true,namespaces: validate and extract uses the strictly split a string in a vague manner,https://github.com/whatwg/dom/issues/1134,2022-12-12T01:01:38Z,2022-12-13T15:26:49Z,dlrobertson,clarification,0
 1473647998,false,`Element`'s `toggleAttribute` should have an `-NS` counterpart.,https://github.com/whatwg/dom/issues/1133,2022-12-03T01:40:31Z,2022-12-03T07:13:04Z,bicknellr,needs implementer interest|addition/proposal,0
 1458391232,true,Broken references in DOM Standard,https://github.com/whatwg/dom/issues/1130,2022-11-21T18:25:29Z,2022-11-24T16:51:52Z,dontcallmedom-bot,,0
@@ -140,7 +140,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 740045062,true,Consider adding AbortController.prototype.follow(signal),https://github.com/whatwg/dom/issues/920,2020-11-10T16:12:59Z,2023-05-17T12:19:38Z,annevk,needs implementer interest|addition/proposal|topic: aborting,1
 737276015,true,Why does `preventDefault()` in `pointer` events break `mouse` events?,https://github.com/whatwg/dom/issues/917,2020-11-05T21:18:46Z,2020-11-06T08:09:45Z,trusktr,,0
 737204537,false,Should event.stopPropagation() during capturing prevent the bubbling phase?,https://github.com/whatwg/dom/issues/916,2020-11-05T19:22:58Z,2020-12-09T21:44:34Z,domenic,interop|topic: events,2
-733465826,false,"[Declarative Shadow DOM] How should we build the ""opt-in"" for fragment parsing of declarative Shadow DOM?",https://github.com/whatwg/dom/issues/912,2020-10-30T19:36:47Z,2020-12-05T02:47:35Z,mfreed7,topic: shadow,0
+733465826,true,"[Declarative Shadow DOM] How should we build the ""opt-in"" for fragment parsing of declarative Shadow DOM?",https://github.com/whatwg/dom/issues/912,2020-10-30T19:36:47Z,2023-10-29T19:33:49Z,mfreed7,topic: shadow,0
 732407583,true,Support `AbortSignal`s in `addEventListener`s options to unsubscribe from events?,https://github.com/whatwg/dom/issues/911,2020-10-29T15:18:20Z,2021-04-29T19:50:51Z,benjamingr,needs implementer interest|topic: events|addition/proposal|impacts documentation|topic: aborting,41
 731703768,false,Should there be a declarative version of adoptedStyleSheets?,https://github.com/whatwg/dom/issues/910,2020-10-28T18:49:30Z,2023-01-17T13:41:16Z,mfreed7,topic: shadow|needs implementer interest|addition/proposal,3
 730252658,true,"Clarify null ""get-the-parent"" note",https://github.com/whatwg/dom/issues/908,2020-10-27T08:37:40Z,2020-12-08T18:53:47Z,benjamingr,topic: events|clarification,0
@@ -181,7 +181,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 573000518,false,Proposal: A Range.prototype.replaceContents(...),https://github.com/whatwg/dom/issues/837,2020-02-28T20:57:35Z,2023-09-03T02:18:34Z,WebReflection,needs implementer interest|addition/proposal|topic: ranges,13
 563355953,false,Node insertion step 7.7 isn't upgrading disconnected uncustomized elements that browsers do upgrade,https://github.com/whatwg/dom/issues/833,2020-02-11T17:17:01Z,2020-02-13T12:10:07Z,pshaughn,topic: custom elements,0
 562731160,false,[infra] Integrating generation of W3C-ready review drafts into build pipeline,https://github.com/whatwg/dom/issues/832,2020-02-10T18:02:36Z,2020-02-10T18:10:11Z,sideshowbarker,,0
-561925806,false,Declarative Shadow DOM,https://github.com/whatwg/dom/issues/831,2020-02-07T23:39:21Z,2023-09-22T08:47:11Z,mfreed7,topic: shadow|needs implementer interest|addition/proposal,154
+561925806,true,Declarative Shadow DOM,https://github.com/whatwg/dom/issues/831,2020-02-07T23:39:21Z,2023-10-29T19:33:49Z,mfreed7,topic: shadow|needs implementer interest|addition/proposal,154
 559601115,false,"Update the ""convert nodes into a node"" to accept arrays of nodes.",https://github.com/whatwg/dom/issues/828,2020-02-04T09:47:18Z,2020-02-05T10:55:23Z,pygy,addition/proposal,0
 557875877,false,[proposal] Node.containingShadowRoot,https://github.com/whatwg/dom/issues/826,2020-01-31T02:33:57Z,2020-02-03T08:49:02Z,emilio,topic: shadow|needs implementer interest|addition/proposal,0
 547971626,false,TreeWalker constructor,https://github.com/whatwg/dom/issues/818,2020-01-10T09:46:06Z,2020-01-11T08:07:18Z,bathos,needs implementer interest|addition/proposal,1
