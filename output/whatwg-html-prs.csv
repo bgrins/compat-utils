@@ -12,7 +12,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1953548150,false,Specify what happens when “disabled” is added to a link@rel=stylesheet,https://github.com/whatwg/html/pull/9870,2023-10-20T05:17:46Z,2023-10-20T05:21:38Z,sideshowbarker,,0
 1952215790,true,Fix errors related to <slot> elements in auto directionality traversal.,https://github.com/whatwg/html/pull/9868,2023-10-19T13:05:50Z,2023-10-24T13:44:40Z,dbaron,,0
 1950199580,true,Fix dir=auto handling of descendant <slot> elements.,https://github.com/whatwg/html/pull/9863,2023-10-18T16:40:39Z,2023-10-19T13:06:46Z,dbaron,,0
-1947037733,false,Define the `privacy-policy` link type.,https://github.com/whatwg/html/pull/9860,2023-10-17T10:01:32Z,2023-10-26T06:01:20Z,mikewest,addition/proposal|security/privacy|privacy-tracker,1
+1947037733,false,Define the `privacy-policy` link type.,https://github.com/whatwg/html/pull/9860,2023-10-17T10:01:32Z,2023-10-30T09:12:30Z,mikewest,addition/proposal|security/privacy|privacy-tracker,1
 1945446494,true,Deleted extra brackets,https://github.com/whatwg/html/pull/9858,2023-10-16T15:03:45Z,2023-10-16T15:22:16Z,GTgyani206,spam,0
 1944741361,false,"Navigation API : ""activation info""",https://github.com/whatwg/html/pull/9856,2023-10-16T09:10:04Z,2023-10-24T18:08:53Z,noamr,,0
 1941988607,true,Fix error (resulting from confusing text) in auto directionality traversal,https://github.com/whatwg/html/pull/9853,2023-10-13T13:39:56Z,2023-10-19T13:06:31Z,dbaron,,0
@@ -137,7 +137,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1791560609,true,Populate document state origin/initiator origin upon creation,https://github.com/whatwg/html/pull/9494,2023-07-06T13:24:00Z,2023-07-14T03:40:48Z,domfarolino,topic: navigation,0
 1791506923,false,Force size containment for auto-sizes,https://github.com/whatwg/html/pull/9493,2023-07-06T12:54:24Z,2023-10-03T14:59:41Z,zcorpan,,1
 1789491788,true,Make dirname apply to hidden/tel/url/email inputs,https://github.com/whatwg/html/pull/9490,2023-07-05T12:51:28Z,2023-09-04T22:11:39Z,zcorpan,normative change|topic: forms,0
-1787684142,true,Use appropriate fetch destination for JSON&CSS modules,https://github.com/whatwg/html/pull/9486,2023-07-04T10:48:45Z,2023-10-29T20:13:36Z,nicolo-ribaudo,topic: script,0
+1787684142,true,Use appropriate fetch destination for JSON&CSS modules,https://github.com/whatwg/html/pull/9486,2023-07-04T10:48:45Z,2023-10-30T08:23:13Z,nicolo-ribaudo,topic: script,0
 1787565314,true,Test PR,https://github.com/whatwg/html/pull/9485,2023-07-04T09:43:04Z,2023-07-04T12:37:01Z,cijian23,spam,0
 1787464058,true,Fix links to fetch request initiator type,https://github.com/whatwg/html/pull/9484,2023-07-04T08:48:29Z,2023-07-04T10:07:11Z,nicolo-ribaudo,,0
 1787141228,true,Editorial: fix popover attribute index entries,https://github.com/whatwg/html/pull/9483,2023-07-04T04:52:27Z,2023-07-11T09:12:59Z,domenic,topic: popover,0
@@ -176,7 +176,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1735662308,true,Add empty string special case for pushState/replaceState,https://github.com/whatwg/html/pull/9370,2023-06-01T07:26:49Z,2023-06-02T03:06:20Z,domenic,topic: history|interop,0
 1735288504,true,Tighten auto popover list definition,https://github.com/whatwg/html/pull/9369,2023-06-01T01:45:56Z,2023-06-06T19:53:27Z,josepharhar,topic: popover,0
 1732189866,false,Use the fetched unsafe response for network status and response bodies,https://github.com/whatwg/html/pull/9362,2023-05-30T12:47:15Z,2023-06-09T14:24:49Z,trflynn89,,0
-1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-10-26T06:37:30Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
+1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-10-30T06:46:09Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
 1729857566,true,Add files via upload,https://github.com/whatwg/html/pull/9353,2023-05-29T01:56:27Z,2023-05-29T04:36:27Z,jakex666x,spam,0
 1728531782,true,Check dialog is modal flag instead of open attribute in 'check popover validity' algorithm,https://github.com/whatwg/html/pull/9344,2023-05-27T08:09:19Z,2023-06-12T06:54:45Z,nt1m,normative change|topic: popover,0
 1727729022,true,Re-add <source media> for media elements,https://github.com/whatwg/html/pull/9341,2023-05-26T14:21:19Z,2023-06-12T12:20:28Z,zcorpan,,3
@@ -1093,12 +1093,12 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 747637980,true,Fix regression in iframe/frame loading,https://github.com/whatwg/html/pull/6169,2020-11-20T16:50:18Z,2020-11-20T17:35:52Z,domenic,topic: browsing context,0
 747109906,true,Set up a window environment settings object should not return anything,https://github.com/whatwg/html/pull/6167,2020-11-20T03:31:15Z,2020-11-20T18:24:13Z,domfarolino,,0
 746275067,true,[Non-normative] Fix a href to .focus(),https://github.com/whatwg/html/pull/6166,2020-11-19T06:01:02Z,2020-11-19T11:23:23Z,muzimuzhi,,0
-745987403,true,resolve grammar issues in error 6155 and add name to ACKS,https://github.com/whatwg/html/pull/6164,2020-11-18T20:39:57Z,2020-11-19T09:26:06Z,145recordings,,0
-745337975,true,Fix grammar issue on internal pause steps 2.3 issue #6155,https://github.com/whatwg/html/pull/6158,2020-11-18T05:15:39Z,2020-11-18T21:00:30Z,145recordings,,0
+745987403,true,resolve grammar issues in error 6155 and add name to ACKS,https://github.com/whatwg/html/pull/6164,2020-11-18T20:39:57Z,2020-11-19T09:26:06Z,f-shirley,,0
+745337975,true,Fix grammar issue on internal pause steps 2.3 issue #6155,https://github.com/whatwg/html/pull/6158,2020-11-18T05:15:39Z,2020-11-18T21:00:30Z,f-shirley,,0
 745156990,true,"Make the default ""process the linked resource"" algorithm a noop",https://github.com/whatwg/html/pull/6156,2020-11-17T23:14:20Z,2020-11-18T18:51:59Z,andreubotella,topic: events|topic: link,0
 744730954,true,Remove AppCache,https://github.com/whatwg/html/pull/6153,2020-11-17T13:20:48Z,2023-06-11T10:56:02Z,annevk,removal/deprecation|topic: appcache,1
 743767265,true,Editorial: remove unneeded loop in focus algorithm,https://github.com/whatwg/html/pull/6151,2020-11-16T11:41:00Z,2020-11-30T21:56:07Z,annevk,clarification|topic: focus,0
-743186621,true,"createPattern specification now references ""usability"" variable",https://github.com/whatwg/html/pull/6150,2020-11-15T05:27:57Z,2020-11-16T09:09:53Z,145recordings,,0
+743186621,true,"createPattern specification now references ""usability"" variable",https://github.com/whatwg/html/pull/6150,2020-11-15T05:27:57Z,2020-11-16T09:09:53Z,f-shirley,,0
 743053108,true,Fix typo,https://github.com/whatwg/html/pull/6149,2020-11-14T18:16:48Z,2020-11-18T09:33:34Z,OlushesiToheeb,,0
 739818607,true,"Editorial: Have the multipart/form-data encoding algorithm use ""encode""",https://github.com/whatwg/html/pull/6141,2020-11-10T11:15:22Z,2020-11-11T08:04:11Z,andreubotella,,0
 738587803,true,[WIP] JavaScript Realm proposal integration,https://github.com/whatwg/html/pull/6137,2020-11-09T00:16:05Z,2020-11-16T23:03:01Z,littledan,,0
