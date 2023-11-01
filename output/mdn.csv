@@ -801,9 +801,9 @@ api/CanMakePaymentEvent/modifiers,,,,70,,,,false,false,true,,NONE
 api/CanMakePaymentEvent/paymentRequestOrigin,,,,70,,,,false,false,true,,NONE
 api/CanMakePaymentEvent/respondWith,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#dom-canmakepaymentevent-respondwith,W3C
 api/CanMakePaymentEvent/topOrigin,,,,70,,,,false,false,true,,NONE
-api/CanvasCaptureMediaStreamTrack,,43,,51,,11,,false,true,false,https://w3c.github.io/mediacapture-fromelement/#the-canvascapturemediastreamtrack,W3C
-api/CanvasCaptureMediaStreamTrack/canvas,,43,,51,,11,,false,true,false,https://w3c.github.io/mediacapture-fromelement/#dom-canvascapturemediastreamtrack-canvas,W3C
-api/CanvasCaptureMediaStreamTrack/requestFrame,,43,,51,,11,,false,true,false,https://w3c.github.io/mediacapture-fromelement/#dom-canvascapturemediastreamtrack-requestframe,W3C
+api/CanvasCaptureMediaStreamTrack,,,,51,,11,,false,true,false,https://w3c.github.io/mediacapture-fromelement/#the-canvascapturemediastreamtrack,W3C
+api/CanvasCaptureMediaStreamTrack/canvas,,,,51,,11,,false,true,false,https://w3c.github.io/mediacapture-fromelement/#dom-canvascapturemediastreamtrack-canvas,W3C
+api/CanvasCaptureMediaStreamTrack/requestFrame,,,,51,,11,,false,true,false,https://w3c.github.io/mediacapture-fromelement/#dom-canvascapturemediastreamtrack-requestframe,W3C
 api/CanvasFilter,,,,113,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,false,false,true,,NONE
 api/CanvasFilter/CanvasFilter,,,,113,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,false,false,true,,NONE
 api/CanvasGradient,,1.5,,1,,2,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#canvasgradient,WHATWG
@@ -1017,6 +1017,10 @@ api/CountQueuingStrategy,,65,,52,,10.1,,false,true,false,https://streams.spec.wh
 api/CountQueuingStrategy/CountQueuingStrategy,,65,,52,,10.1,,false,true,false,https://streams.spec.whatwg.org/#ref-for-cqs-constructor①,WHATWG
 api/CountQueuingStrategy/highWaterMark,,65,,52,,10.1,,false,true,false,https://streams.spec.whatwg.org/#ref-for-cqs-high-water-mark①,WHATWG
 api/CountQueuingStrategy/size,,65,,52,,10.1,,false,true,false,https://streams.spec.whatwg.org/#ref-for-cqs-size②,WHATWG
+api/Counter,,20,,1,,3,,false,false,true,,NONE
+api/Counter/identifier,,20,,1,,3,,false,false,true,,NONE
+api/Counter/listStyle,,20,,1,,3,,false,false,true,,NONE
+api/Counter/separator,,20,,1,,3,,false,false,true,,NONE
 api/Credential,,60,,51,,13,,false,true,false,https://w3c.github.io/webappsec-credential-management/#the-credential-interface,W3C
 api/Credential/id,,60,,51,,13,,false,true,false,https://w3c.github.io/webappsec-credential-management/#dom-credential-id,W3C
 api/Credential/isConditionalMediationAvailable_static,,,,,,16,,true,true,false,https://w3c.github.io/webappsec-credential-management/#dom-credential-isconditionalmediationavailable,W3C
@@ -1029,7 +1033,7 @@ api/CredentialsContainer/create/publicKey_option/extensions/appidExclude,,60,,67
 api/CredentialsContainer/create/publicKey_option/extensions/credProps,,119,,89,,,,false,true,false,https://w3c.github.io/webauthn/#sctn-authenticator-credential-properties-extension,W3C
 api/CredentialsContainer/create/publicKey_option/extensions/credProtect,,,,76,,,,true,true,false,,NONE
 api/CredentialsContainer/create/publicKey_option/extensions/largeBlob,,,,113,,,,true,true,false,https://w3c.github.io/webauthn/#sctn-large-blob-extension,W3C
-api/CredentialsContainer/create/publicKey_option/extensions/minPinLength,,,,98,,,,false,true,false,,NONE
+api/CredentialsContainer/create/publicKey_option/extensions/minPinLength,,120,,98,,,,false,true,false,,NONE
 api/CredentialsContainer/create/publicKey_option/requireResidentKey,,,,89,,,,true,true,false,https://w3c.github.io/webauthn/#dom-authenticatorselectioncriteria-requireresidentkey,W3C
 api/CredentialsContainer/create/publicKey_option/residentKey,,,,89,,,,true,true,false,https://w3c.github.io/webauthn/#dom-authenticatorselectioncriteria-residentkey,W3C
 api/CredentialsContainer/get,,60,,51,,13,,false,true,false,https://w3c.github.io/webappsec-credential-management/#dom-credentialscontainer-get,W3C
@@ -1365,6 +1369,7 @@ api/Document/applets,,1,,1,,1,,false,true,true,https://html.spec.whatwg.org/mult
 api/Document/beforescriptexecute_event,,9,,,,,,false,false,false,,NONE
 api/Document/bgColor,,1,,64,,11,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-document-bgcolor,WHATWG
 api/Document/body,,60,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-document-body-dev,WHATWG
+api/Document/browsingTopics,,,,115,,,,true,false,false,,NONE
 api/Document/captureEvents,,1,,64,,11,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-document-captureevents,WHATWG
 api/Document/caretPositionFromPoint,,20,,,,,,false,true,false,https://drafts.csswg.org/cssom-view/#dom-document-caretpositionfrompoint,W3C
 api/Document/caretRangeFromPoint,,,,4,,5,,false,false,false,,NONE
@@ -2116,9 +2121,9 @@ api/FontFaceSet/forEach,,41,,35,,10,,false,true,false,,NONE
 api/FontFaceSet/has,,41,,35,,10,,false,true,false,,NONE
 api/FontFaceSet/keys,,41,,48,,10,,false,true,false,,NONE
 api/FontFaceSet/load,,41,,35,,10,,false,true,false,https://drafts.csswg.org/css-font-loading/#dom-fontfaceset-load,W3C
-api/FontFaceSet/loading_event,,41,,35,,10,,false,true,false,https://drafts.csswg.org/css-font-loading/#dom-fontfaceset-onloading,W3C
-api/FontFaceSet/loadingdone_event,,41,,35,,10,,false,true,false,https://drafts.csswg.org/css-font-loading/#dom-fontfaceset-onloadingdone,W3C
-api/FontFaceSet/loadingerror_event,,41,,35,,10,,false,true,false,https://drafts.csswg.org/css-font-loading/#dom-fontfaceset-onloadingerror,W3C
+api/FontFaceSet/loading_event,,41,,35,,,,false,true,false,https://drafts.csswg.org/css-font-loading/#dom-fontfaceset-onloading,W3C
+api/FontFaceSet/loadingdone_event,,41,,35,,,,false,true,false,https://drafts.csswg.org/css-font-loading/#dom-fontfaceset-onloadingdone,W3C
+api/FontFaceSet/loadingerror_event,,41,,35,,,,false,true,false,https://drafts.csswg.org/css-font-loading/#dom-fontfaceset-onloadingerror,W3C
 api/FontFaceSet/ready,,41,,35,,10,,false,true,false,https://drafts.csswg.org/css-font-loading/#dom-fontfaceset-ready,W3C
 api/FontFaceSet/size,,41,,35,,10,,false,true,false,,NONE
 api/FontFaceSet/status,,41,,35,,10,,false,true,false,https://drafts.csswg.org/css-font-loading/#dom-fontfaceset-status,W3C
@@ -2792,6 +2797,7 @@ api/HTMLIFrameElement/align,,1,,1,,3,,false,true,true,https://html.spec.whatwg.o
 api/HTMLIFrameElement/allow,,74,,60,,11.1,,false,true,false,https://html.spec.whatwg.org/multipage/iframe-embed-object.html#dom-iframe-allow,WHATWG
 api/HTMLIFrameElement/allowFullscreen,,22,,38,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/iframe-embed-object.html#dom-iframe-allowfullscreen,WHATWG
 api/HTMLIFrameElement/allowPaymentRequest,,56,,60,,,,false,false,true,,NONE
+api/HTMLIFrameElement/browsingTopics,,,,115,,,,true,false,false,,NONE
 api/HTMLIFrameElement/contentDocument,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/iframe-embed-object.html#dom-iframe-contentdocument,WHATWG
 api/HTMLIFrameElement/contentWindow,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/iframe-embed-object.html#dom-iframe-contentwindow,WHATWG
 api/HTMLIFrameElement/csp,,,,61,,,,true,true,false,https://w3c.github.io/webappsec-cspee/#ref-for-dom-htmliframeelement-csp,W3C
@@ -2799,7 +2805,7 @@ api/HTMLIFrameElement/featurePolicy,,69,"[{""name"":""dom.security.featurePolicy
 api/HTMLIFrameElement/frameBorder,,1,,1,,3,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-iframe-frameborder,WHATWG
 api/HTMLIFrameElement/getSVGDocument,,3.5,,1,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/embedded-content-other.html#dom-media-getsvgdocument-dev,WHATWG
 api/HTMLIFrameElement/height,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/embedded-content-other.html#dom-dim-height,WHATWG
-api/HTMLIFrameElement/loading,,,,77,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/iframe-embed-object.html#dom-iframe-loading,WHATWG
+api/HTMLIFrameElement/loading,,preview,,77,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/iframe-embed-object.html#dom-iframe-loading,WHATWG
 api/HTMLIFrameElement/longDesc,,1,,1,,3,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-iframe-longdesc,WHATWG
 api/HTMLIFrameElement/marginHeight,,1,,1,,3,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-iframe-marginheight,WHATWG
 api/HTMLIFrameElement/marginWidth,,1,,1,,3,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-iframe-marginwidth,WHATWG
@@ -3805,6 +3811,22 @@ api/MathMLElement/tabIndex,,71,,109,,13.1,,false,true,false,,NONE
 api/MediaCapabilities,,63,,66,,13,,false,true,false,https://w3c.github.io/media-capabilities/#media-capabilities-interface,W3C
 api/MediaCapabilities/decodingInfo,,63,,66,,13,,false,true,false,https://w3c.github.io/media-capabilities/#ref-for-dom-mediacapabilities-decodinginfo,W3C
 api/MediaCapabilities/encodingInfo,,63,,101,,15.4,,false,true,false,https://w3c.github.io/media-capabilities/#ref-for-dom-mediacapabilities-encodinginfo,W3C
+api/MediaController,,,,,,≤13.1,,false,false,true,,NONE
+api/MediaController/MediaController,,,,,,≤13.1,,false,false,true,,NONE
+api/MediaController/buffered,,,,,,≤13.1,,false,false,true,,NONE
+api/MediaController/currentTime,,,,,,≤13.1,,false,false,true,,NONE
+api/MediaController/defaultPlaybackRate,,,,,,≤13.1,,false,false,true,,NONE
+api/MediaController/duration,,,,,,≤13.1,,false,false,true,,NONE
+api/MediaController/muted,,,,,,≤13.1,,false,false,true,,NONE
+api/MediaController/pause,,,,,,≤13.1,,false,false,true,,NONE
+api/MediaController/paused,,,,,,≤13.1,,false,false,true,,NONE
+api/MediaController/play,,,,,,≤13.1,,false,false,true,,NONE
+api/MediaController/playbackRate,,,,,,≤13.1,,false,false,true,,NONE
+api/MediaController/playbackState,,,,,,≤13.1,,false,false,true,,NONE
+api/MediaController/played,,,,,,≤13.1,,false,false,true,,NONE
+api/MediaController/seekable,,,,,,≤13.1,,false,false,true,,NONE
+api/MediaController/unpause,,,,,,≤13.1,,false,false,true,,NONE
+api/MediaController/volume,,,,,,≤13.1,,false,false,true,,NONE
 api/MediaDeviceInfo,,39,,47,,11,,false,true,false,https://w3c.github.io/mediacapture-main/#device-info,W3C
 api/MediaDeviceInfo/deviceId,,39,,47,,11,,false,true,false,https://w3c.github.io/mediacapture-main/#dom-mediadeviceinfo-deviceid,W3C
 api/MediaDeviceInfo/groupId,,39,,47,,11,,false,true,false,https://w3c.github.io/mediacapture-main/#dom-mediadeviceinfo-groupid,W3C
@@ -5083,6 +5105,10 @@ api/PushSubscriptionChangeEvent/oldSubscription,,,,,,16,,false,true,false,https:
 api/PushSubscriptionOptions,,44,,54,,16,,false,true,false,https://w3c.github.io/push-api/#dom-pushsubscriptionoptions,W3C
 api/PushSubscriptionOptions/applicationServerKey,,44,,54,,16,,false,true,false,https://w3c.github.io/push-api/#dom-pushsubscriptionoptions-applicationserverkey,W3C
 api/PushSubscriptionOptions/userVisibleOnly,,,,54,,16,,false,true,false,https://w3c.github.io/push-api/#dom-pushsubscriptionoptions-uservisibleonly,W3C
+api/RGBColor,,20,,1,,3,,false,false,true,,NONE
+api/RGBColor/blue,,20,,1,,3,,false,false,true,,NONE
+api/RGBColor/green,,20,,1,,3,,false,false,true,,NONE
+api/RGBColor/red,,20,,1,,3,,false,false,true,,NONE
 api/RTCCertificate,,42,,49,,12.1,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtccertificate,W3C
 api/RTCCertificate/expires,,42,,49,,12.1,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtccertificate-expires,W3C
 api/RTCCertificate/getFingerprints,,,,61,,12.1,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtccertificate-getfingerprints,W3C
@@ -5667,6 +5693,11 @@ api/ReadableStreamDefaultReader/closed,,65,,78,,≤13.1,,false,true,false,https:
 api/ReadableStreamDefaultReader/read,,65,,78,,≤13.1,,false,true,false,https://streams.spec.whatwg.org/#ref-for-default-reader-read①,WHATWG
 api/ReadableStreamDefaultReader/releaseLock,,65,,78,,≤13.1,,false,true,false,https://streams.spec.whatwg.org/#ref-for-default-reader-release-lock②,WHATWG
 api/ReadableStreamDefaultReader/releaseLock/reject_pending_read_request,,102,,,,,,true,true,false,,NONE
+api/Rect,,20,,1,,3,,false,false,true,,NONE
+api/Rect/bottom,,20,,1,,3,,false,false,true,,NONE
+api/Rect/left,,20,,1,,3,,false,false,true,,NONE
+api/Rect/right,,20,,1,,3,,false,false,true,,NONE
+api/Rect/top,,20,,1,,3,,false,false,true,,NONE
 api/RelativeOrientationSensor,,,,67,,,,false,true,false,https://w3c.github.io/orientation-sensor/#relativeorientationsensor-interface,W3C
 api/RelativeOrientationSensor/RelativeOrientationSensor,,,,67,,,,false,true,false,https://w3c.github.io/orientation-sensor/#dom-relativeorientationsensor-relativeorientationsensor,W3C
 api/RemotePlayback,,,,56,,13.1,,false,true,false,https://w3c.github.io/remote-playback/#remoteplayback-interface,W3C
@@ -5694,6 +5725,7 @@ api/Request,,39,,42,,10.1,,false,true,false,https://fetch.spec.whatwg.org/#reque
 api/Request/Request,,39,,40,,10.1,,false,true,false,https://fetch.spec.whatwg.org/#ref-for-dom-request①,WHATWG
 api/Request/Request/cross_origin_stripped,,54,,69,,10.1,,false,true,false,,NONE
 api/Request/Request/init_attributionReporting_parameter,,,,117,,,,true,true,false,https://wicg.github.io/attribution-reporting-api/#dom-requestinit-attributionreporting,W3CCG
+api/Request/Request/init_browsingTopics_parameter,,,,115,,,,true,false,false,,NONE
 api/Request/Request/init_priority_parameter,,,,101,,,,true,true,false,https://fetch.spec.whatwg.org/#dom-requestinit-priority,WHATWG
 api/Request/Request/init_referrer_parameter,,47,,47,,10.1,,false,true,false,https://fetch.spec.whatwg.org/#dom-requestinit-referrer,WHATWG
 api/Request/Request/request_body_readablestream,,,,105,,,,true,true,false,,NONE
@@ -7859,6 +7891,7 @@ api/WebGLShaderPrecisionFormat/worker_support,,105,,,,,,true,true,false,,NONE
 api/WebGLSync,,51,,56,,15,,false,true,false,https://registry.khronos.org/webgl/specs/latest/2.0/#3.4,UNKNOWN
 api/WebGLTexture,,4,,10,,5.1,,false,true,false,https://registry.khronos.org/webgl/specs/latest/1.0/#5.9,UNKNOWN
 api/WebGLTexture/worker_support,,105,,,,,,true,true,false,,NONE
+api/WebGLTimerQueryEXT,,51,,70,,,,false,true,false,https://registry.khronos.org/webgl/extensions/EXT_disjoint_timer_query/,UNKNOWN
 api/WebGLTransformFeedback,,51,,56,,15,,false,true,false,https://registry.khronos.org/webgl/specs/latest/2.0/#3.5,UNKNOWN
 api/WebGLUniformLocation,,4,,10,,5.1,,false,true,false,https://registry.khronos.org/webgl/specs/latest/1.0/#5.10,UNKNOWN
 api/WebGLUniformLocation/worker_support,,105,,,,,,true,true,false,,NONE
@@ -8585,6 +8618,7 @@ api/fetch,,39,,42,,10.1,,false,true,false,https://fetch.spec.whatwg.org/#fetch-m
 api/fetch/authorization_removed_cross_origin,,111,,,,16.1,,false,true,false,https://fetch.spec.whatwg.org/#http-redirect-fetch,WHATWG
 api/fetch/blob_data_support,,39,,48,,10.1,,false,true,false,,NONE
 api/fetch/init_attributionReporting_parameter,,,,117,,,,true,true,false,https://wicg.github.io/attribution-reporting-api/#dom-requestinit-attributionreporting,W3CCG
+api/fetch/init_browsingTopics_parameter,,,,115,,,,true,false,false,,NONE
 api/fetch/init_keepalive_parameter,,,,66,,13,,false,true,false,,NONE
 api/fetch/init_priority_parameter,,,,101,,,,true,true,false,,NONE
 api/fetch/init_referrerPolicy_parameter,,52,,52,,11.1,,false,true,false,,NONE
@@ -8754,6 +8788,7 @@ css/properties/-moz-user-input/none,,1,,,,,,false,false,true,,NONE
 css/properties/-webkit-border-before,,,,8,,5.1,,false,false,false,,NONE
 css/properties/-webkit-box-reflect,,,,4,,4,,false,false,false,,NONE
 css/properties/-webkit-line-clamp,,68,,6,,5,,false,true,false,https://drafts.csswg.org/css-overflow-4/#propdef--webkit-line-clamp,W3C
+css/properties/-webkit-line-clamp/none,,68,,,,,,true,true,false,,NONE
 css/properties/-webkit-mask-attachment,,,,1,,4,,false,false,false,,NONE
 css/properties/-webkit-mask-box-image,,,,1,,3.1,,false,false,false,,NONE
 css/properties/-webkit-mask-composite,,53,,1,,3.1,,false,false,false,,NONE
@@ -9007,6 +9042,7 @@ css/properties/clip-path/fill_and_stroke_box,,51,,,,13.1,,false,true,false,,NONE
 css/properties/clip-path/html,,3.5,,23,,7,,false,true,false,,NONE
 css/properties/clip-path/path,,71,,88,,13.1,,false,true,false,,NONE
 css/properties/clip-path/svg,,52,,23,,7,,false,true,false,,NONE
+css/properties/clip-rule,,≤72,,≤80,,≤13.1,,false,true,false,https://drafts.fxtf.org/css-masking-1/#the-clip-rule,W3C
 css/properties/color,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-color/#the-color-property,W3C
 css/properties/color-scheme,,96,,81,,13,,false,true,false,https://drafts.csswg.org/css-color-adjust/#color-scheme-prop,W3C
 css/properties/color-scheme/only_dark,,96,,81,,13,,false,true,false,,NONE
@@ -9047,7 +9083,7 @@ css/properties/content/image-set,,113,,113,,,,false,true,false,https://drafts.cs
 css/properties/content/none_applies_to_elements,,91,"[{""name"":""layout.css.element-content-none.enabled"",""type"":""preference""}]",,,,,true,true,false,,NONE
 css/properties/content/url,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-values/#urls,W3C
 css/properties/content-visibility,,preview,,85,,,,true,true,false,https://drafts.csswg.org/css-contain/#content-visibility,W3C
-css/properties/content-visibility/keyframe_animatable,,,,116,,,,true,true,false,https://drafts.csswg.org/css-display-4/#display-animation,W3C
+css/properties/content-visibility/keyframe_animatable,,,,116,,,,true,true,false,https://drafts.csswg.org/css-contain-3/#content-visibility-animation,W3C
 css/properties/content-visibility/transitionable,,,,117,,,,true,true,false,https://drafts.csswg.org/css-display-4/#display-animation,W3C
 css/properties/counter-increment,,1,,2,,3,,false,true,false,https://drafts.csswg.org/css-lists/#increment-set,W3C
 css/properties/counter-reset,,1,,2,,3,,false,true,false,https://drafts.csswg.org/css-lists/#counter-reset,W3C
@@ -9168,6 +9204,9 @@ css/properties/font-variant,,1,,1,,1,,false,true,false,https://drafts.csswg.org/
 css/properties/font-variant/css_fonts_shorthand,,34,,52,,9.1,,false,true,false,,NONE
 css/properties/font-variant/font-variant-emoji,,108,,,,,,false,true,false,https://drafts.csswg.org/css-fonts/#font-variant-emoji-prop,W3C
 css/properties/font-variant/greek_accented_characters,,,,,,,,false,true,false,,NONE
+css/properties/font-variant/historical-forms,,34,,111,,9.1,,false,true,false,,NONE
+css/properties/font-variant/sub,,34,,111,,9.1,,false,true,false,,NONE
+css/properties/font-variant/super,,34,,111,,9.1,,false,true,false,,NONE
 css/properties/font-variant/turkic_is,,14,,31,,8,,false,true,false,,NONE
 css/properties/font-variant/uppercase_eszett,,,,,,,,false,true,false,,NONE
 css/properties/font-variant-alternates,,34,,111,,9.1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-variant-alternates-prop,W3C
@@ -9521,8 +9560,8 @@ css/properties/offset-distance,,72,,55,,16,,false,true,false,https://drafts.fxtf
 css/properties/offset-path,,72,,55,,15.4,,false,true,false,https://drafts.fxtf.org/motion/#offset-path-property,W3C
 css/properties/offset-path/basic-shape,,116,"[{""name"":""layout.css.motion-path-basic-shapes.enabled"",""type"":""preference"",""value_to_set"":""true""}]",116,,,,true,true,false,,NONE
 css/properties/offset-path/coord-box,,116,"[{""name"":""layout.css.motion-path-coord-box.enabled"",""type"":""preference"",""value_to_set"":""true""}]",116,,,,true,true,false,,NONE
-css/properties/offset-path/path,,72,,64,,preview,,false,true,false,,NONE
-css/properties/offset-path/ray,,112,"[{""name"":""layout.css.motion-path-ray.enabled"",""type"":""preference"",""value_to_set"":""true""}]",116,,preview,,false,true,false,,NONE
+css/properties/offset-path/path,,72,,64,,16,,false,true,false,,NONE
+css/properties/offset-path/ray,,112,"[{""name"":""layout.css.motion-path-ray.enabled"",""type"":""preference"",""value_to_set"":""true""}]",116,,16,,false,true,false,,NONE
 css/properties/offset-path/url,,118,"[{""name"":""layout.css.motion-path-url.enabled"",""type"":""preference"",""value_to_set"":""true""}]",116,,17,,false,true,false,,NONE
 css/properties/offset-position,,116,"[{""name"":""layout.css.motion-path-offset-position.enabled"",""type"":""preference"",""value_to_set"":""true""}]",116,,16,,false,true,false,https://drafts.fxtf.org/motion/#offset-position-property,W3C
 css/properties/offset-position/normal,,116,"[{""name"":""layout.css.motion-path-offset-position.enabled"",""type"":""preference"",""value_to_set"":""true""}]",116,,,,false,true,false,,NONE
@@ -9806,7 +9845,7 @@ css/properties/writing-mode/sideways_values,,43,,,,,,false,true,false,,NONE
 css/properties/writing-mode/svg_values,,43,,48,,10.1,,false,true,true,,NONE
 css/properties/z-index,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css2/#z-index,W3C
 css/properties/z-index/negative_values,,3,,1,,1,,false,true,false,,NONE
-css/properties/zoom,,,,1,,3.1,,false,false,false,,NONE
+css/properties/zoom,,preview,"[{""name"":""layout.css.zoom.enabled"",""type"":""preference"",""value_to_set"":""true""}]",1,,3.1,,false,false,false,,NONE
 css/properties/zoom/reset,,,,1,,3.1,,false,false,false,,NONE
 css/selectors/-moz-broken,,3,,,,,,false,false,false,,NONE
 css/selectors/-moz-color-swatch,,27,,,,,,false,false,false,,NONE
@@ -10429,11 +10468,12 @@ html/elements/iframe/align,,1,,1,,3,,false,true,true,,NONE
 html/elements/iframe/allow,,74,,60,,11.1,,false,true,false,https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-allow,WHATWG
 html/elements/iframe/allowfullscreen,,18,,38,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-allowfullscreen,WHATWG
 html/elements/iframe/allowpaymentrequest,,56,,60,,,,true,true,false,,NONE
+html/elements/iframe/browsingtopics,,,,115,,,,true,false,false,,NONE
 html/elements/iframe/credentialless,,,,110,,,,true,false,false,,NONE
 html/elements/iframe/external_protocol_urls_blocked,,67,,,,,,false,true,true,,NONE
 html/elements/iframe/frameborder,,1,,1,,3,,false,true,true,,NONE
 html/elements/iframe/height,,1,,1,,3,,false,true,false,,NONE
-html/elements/iframe/loading,,,,77,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-loading,WHATWG
+html/elements/iframe/loading,,preview,,77,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-loading,WHATWG
 html/elements/iframe/longdesc,,1,,1,,3,,false,true,true,,NONE
 html/elements/iframe/marginheight,,1,,1,,3,,false,true,true,,NONE
 html/elements/iframe/marginwidth,,1,,1,,3,,false,true,true,,NONE
@@ -11074,6 +11114,7 @@ http/headers/Last-Modified,,true,,true,,true,,false,true,false,https://www.rfc-e
 http/headers/Link,,1,,103,,,,false,true,false,https://httpwg.org/specs/rfc8288.html#header,IETF
 http/headers/Location,,true,,true,,true,,false,true,false,https://www.rfc-editor.org/rfc/rfc9110#field.location,UNKNOWN
 http/headers/NEL,,,,71,,,,true,true,false,https://w3c.github.io/network-error-logging/#nel-response-header,W3C
+http/headers/Observe-Browsing-Topics,,,,115,,,,true,false,false,,NONE
 http/headers/Origin,,70,,true,,true,,false,true,false,https://www.rfc-editor.org/rfc/rfc6454#section-7,UNKNOWN
 http/headers/Permissions-Policy,,74,,88,,11.1,,false,true,false,https://w3c.github.io/webappsec-permissions-policy/#permissions-policy-http-header-field,W3C
 http/headers/Permissions-Policy/accelerometer,,,,88,,,,true,true,false,https://w3c.github.io/sensors/#permissions-policy,W3C
@@ -11081,6 +11122,7 @@ http/headers/Permissions-Policy/ambient-light-sensor,,,,88,,,,true,true,false,ht
 http/headers/Permissions-Policy/attribution-reporting,,,,117,,,,true,true,false,https://wicg.github.io/attribution-reporting-api/#permission-policy-integration,W3CCG
 http/headers/Permissions-Policy/autoplay,,74,,88,,,,true,true,false,https://html.spec.whatwg.org/multipage/infrastructure.html#autoplay-feature,WHATWG
 http/headers/Permissions-Policy/battery,,,,,,,,true,true,false,https://w3c.github.io/battery/#permissions-policy-integration,W3C
+http/headers/Permissions-Policy/browsing-topics,,,,115,,,,true,false,false,,NONE
 http/headers/Permissions-Policy/camera,,74,,88,,11.1,,false,true,false,https://w3c.github.io/mediacapture-main/#permissions-policy-integration,W3C
 http/headers/Permissions-Policy/display-capture,,74,,94,,13,,false,true,false,https://w3c.github.io/mediacapture-screen-share/#permissions-policy-integration,W3C
 http/headers/Permissions-Policy/document-domain,,74,"[{""name"":""dom.security.featurePolicy.header.enabled"",""type"":""preference"",""value_to_set"":""true""}]",88,"[{""name"":""--enable-blink-features=ExperimentalProductivityFeatures"",""type"":""runtime_flag""}]",,,true,true,false,https://html.spec.whatwg.org/multipage/infrastructure.html#policy-controlled-features,WHATWG
@@ -11129,6 +11171,7 @@ http/headers/Referrer-Policy/unsafe-url,,50,,56,,11.1,,false,true,false,,NONE
 http/headers/Report-To,,,,70,,,,false,true,false,,NONE
 http/headers/Retry-After,,,,,,,,false,true,false,https://www.rfc-editor.org/rfc/rfc9110#field.retry-after,UNKNOWN
 http/headers/Save-Data,,,,49,,,,true,true,false,https://wicg.github.io/savedata/#save-data-request-header-field,W3CCG
+http/headers/Sec-Browsing-Topics,,,,115,,,,true,false,false,,NONE
 http/headers/Sec-CH-Prefers-Color-Scheme,,,,93,,,,true,true,false,https://wicg.github.io/user-preference-media-features-headers/#sec-ch-prefers-color-scheme,W3CCG
 http/headers/Sec-CH-Prefers-Reduced-Motion,,,,108,,,,true,true,false,https://wicg.github.io/user-preference-media-features-headers/#sec-ch-prefers-reduced-motion,W3CCG
 http/headers/Sec-CH-Prefers-Reduced-Transparency,,,,119,,,,true,true,false,https://wicg.github.io/user-preference-media-features-headers/#sec-ch-prefers-reduced-transparency,W3CCG
