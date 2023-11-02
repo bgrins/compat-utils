@@ -1,8 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-1971885555,false,"Fix ""attempt to populate a history entry's document""",https://github.com/whatwg/html/pull/9902,2023-11-01T07:56:33Z,2023-11-01T07:57:57Z,domenic,topic: navigation,0
-1971810024,false,Editorial: clarify history step continuation in a new Window,https://github.com/whatwg/html/pull/9901,2023-11-01T06:51:47Z,2023-11-01T21:34:14Z,domenic,clarification|topic: navigation,0
+1973785754,false,Overhaul document unloading/destruction/aborting,https://github.com/whatwg/html/pull/9907,2023-11-02T08:54:15Z,2023-11-02T08:55:45Z,domenic,topic: navigation,0
+1973639595,false,Modernize frame/iframe insertion and removal,https://github.com/whatwg/html/pull/9906,2023-11-02T07:07:51Z,2023-11-02T07:09:17Z,domenic,topic: shadow|topic: browsing context,0
+1973636114,false,"'li' tag missed 'p' tag, causing no line break.",https://github.com/whatwg/html/pull/9905,2023-11-02T07:05:02Z,2023-11-02T11:15:07Z,Raj-400BC,,0
+1973568045,false,Do not unload during same-document history step application,https://github.com/whatwg/html/pull/9904,2023-11-02T06:04:11Z,2023-11-02T09:10:43Z,domenic,topic: navigation,0
+1973377901,false,Rendering: field-sizing support for some elements,https://github.com/whatwg/html/pull/9903,2023-11-02T02:14:31Z,2023-11-02T06:06:56Z,tkent-google,,0
+1971885555,false,"Fix ""attempt to populate a history entry's document""",https://github.com/whatwg/html/pull/9902,2023-11-01T07:56:33Z,2023-11-02T06:06:32Z,domenic,topic: navigation,0
+1971810024,false,Fix history step continuation in a new Window,https://github.com/whatwg/html/pull/9901,2023-11-01T06:51:47Z,2023-11-02T06:06:39Z,domenic,do not merge yet|topic: navigation,0
 1969985811,false,Fix plural typo,https://github.com/whatwg/html/pull/9898,2023-10-31T09:15:32Z,2023-10-31T09:17:00Z,imageck,,0
-1969884902,false,Fix PromiseRejectionEvent's promise attribute,https://github.com/whatwg/html/pull/9897,2023-10-31T08:15:50Z,2023-10-31T08:17:21Z,domenic,,0
+1969884902,false,Fix PromiseRejectionEvent's promise attribute,https://github.com/whatwg/html/pull/9897,2023-10-31T08:15:50Z,2023-11-02T06:05:44Z,domenic,,0
 1968893372,true,fixes the grammatical mistake in README.md,https://github.com/whatwg/html/pull/9895,2023-10-30T17:35:04Z,2023-10-31T10:52:22Z,THEFZNKHAN,spam,0
 1968435303,false,"JavaScript ShadowRealm proposal integration ",https://github.com/whatwg/html/pull/9893,2023-10-30T13:57:38Z,2023-10-30T14:58:29Z,Ms2ger,,1
 1968399778,true,Fixed typo error,https://github.com/whatwg/html/pull/9892,2023-10-30T13:45:00Z,2023-10-31T06:34:24Z,DevanshKyada27,spam,0
@@ -11,7 +16,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1965832927,true,Update CONTRIBUTING.md,https://github.com/whatwg/html/pull/9885,2023-10-27T16:22:14Z,2023-10-27T17:58:31Z,gfggithubleet,,0
 1961825121,false,Export TextTrackMode's enum values,https://github.com/whatwg/html/pull/9883,2023-10-25T16:40:49Z,2023-10-25T17:21:23Z,marcoscaceres,,0
 1961564202,true,Make language of a node consider lang attribute on SVG elements.,https://github.com/whatwg/html/pull/9882,2023-10-25T14:27:52Z,2023-10-26T02:10:33Z,dbaron,,0
-1961464046,false,"Revert recent changes to rendering of <slot>, and some of the corresponding changes to its directionality and language",https://github.com/whatwg/html/pull/9880,2023-10-25T13:42:26Z,2023-10-30T15:31:46Z,dbaron,,0
+1961464046,false,"Revert recent changes to rendering of <slot>, and some of the corresponding changes to its directionality and language",https://github.com/whatwg/html/pull/9880,2023-10-25T13:42:26Z,2023-11-02T05:51:09Z,dbaron,,0
 1958950645,false,Define the `terms-of-service` link type.,https://github.com/whatwg/html/pull/9877,2023-10-24T10:25:33Z,2023-10-30T22:53:03Z,mikewest,,1
 1956248354,true,ruby: Remove the segmentation algorithm,https://github.com/whatwg/html/pull/9876,2023-10-23T02:44:59Z,2023-10-27T06:17:56Z,tkent-google,removal/deprecation|document conformance|topic: ruby,0
 1956084796,false,Add invoke popover defaults,https://github.com/whatwg/html/pull/9875,2023-10-22T22:44:20Z,2023-10-22T22:46:27Z,keithamus,,0
@@ -1707,7 +1712,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 439495755,true,Meta: add a pull request template,https://github.com/whatwg/html/pull/4588,2019-05-02T09:19:16Z,2019-05-02T15:55:09Z,annevk,,0
 439010438,false,Feature Policy: `focus-without-user-activation`,https://github.com/whatwg/html/pull/4585,2019-04-30T22:49:49Z,2023-10-09T15:13:04Z,ehsan-karamad,needs implementer interest|do not merge yet|needs tests,1
 438085847,true,Editorial: uniformize issue references,https://github.com/whatwg/html/pull/4579,2019-04-28T18:30:37Z,2019-05-06T17:00:47Z,domenic,,0
-437835655,false,Clarify that <details> toggle events happen during parsing,https://github.com/whatwg/html/pull/4574,2019-04-26T20:34:12Z,2023-11-01T15:34:25Z,domenic,clarification,0
+437835655,true,Clarify that <details> toggle events happen during parsing,https://github.com/whatwg/html/pull/4574,2019-04-26T20:34:12Z,2023-11-02T00:48:07Z,domenic,clarification,0
 437833424,true,Add `autocomplete=one-time-code`. Fixes whatwg/html#3745,https://github.com/whatwg/html/pull/4573,2019-04-26T20:27:24Z,2019-04-29T17:22:55Z,hober,impacts documentation,0
 437829817,true,State an initial selection direction,https://github.com/whatwg/html/pull/4572,2019-04-26T20:16:30Z,2019-04-30T16:40:27Z,domenic,topic: forms,0
 437607486,true,Describe integration with the WeakRefs proposal,https://github.com/whatwg/html/pull/4571,2019-04-26T10:27:37Z,2021-03-18T15:58:09Z,littledan,do not merge yet|topic: script|integration,0

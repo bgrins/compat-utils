@@ -35,7 +35,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1922743343,false,Navigation: navigate to a fragment updates the navigation api for same-document navigation twice.,https://github.com/whatwg/html/issues/9826,2023-10-02T21:23:00Z,2023-10-03T13:32:54Z,ADKaster,topic: navigation,0
 1921479717,false,Event loop: update the rendering step mismatches implementations in subtle ways,https://github.com/whatwg/html/issues/9824,2023-10-02T08:34:58Z,2023-10-02T12:35:52Z,noamr,topic: event loop,1
 1920922082,true,document's url never gets updated on a fragment navigation,https://github.com/whatwg/html/issues/9820,2023-10-01T19:08:23Z,2023-10-04T03:52:44Z,kalenikaliaksandr,topic: navigation,0
-1920835431,false,document should not be unloaded during same-document navigation,https://github.com/whatwg/html/issues/9819,2023-10-01T15:52:29Z,2023-10-19T23:19:22Z,kalenikaliaksandr,topic: navigation,0
+1920835431,false,document should not be unloaded during same-document navigation,https://github.com/whatwg/html/issues/9819,2023-10-01T15:52:29Z,2023-11-02T06:04:04Z,kalenikaliaksandr,topic: navigation,0
 1920394348,false,Clipboard API Doesn't have onChange event,https://github.com/whatwg/html/issues/9817,2023-09-30T20:44:41Z,2023-10-02T16:50:13Z,Mahmoudgalalz,,0
 1920253804,false,Defining a Non-Script Native HTML Component Model,https://github.com/whatwg/html/issues/9815,2023-09-30T13:13:26Z,2023-10-01T13:42:28Z,brandonmcconnell,addition/proposal|needs implementer interest,0
 1918999120,false,"Move ""Parse state"" section under ""Tree construction"" section",https://github.com/whatwg/html/issues/9814,2023-09-29T10:16:57Z,2023-10-01T13:42:45Z,not-my-profile,clarification|topic: parser,0
@@ -271,7 +271,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1665007054,false,Add payto to registerProtocolHandler safe listed schemes,https://github.com/whatwg/html/issues/9154,2023-04-12T18:01:28Z,2023-10-30T15:34:31Z,rastislavcore,topic: custom protocols,0
 1664864169,true,Popover invoker example shouldn't have `aria-haspopup`,https://github.com/whatwg/html/issues/9153,2023-04-12T16:18:18Z,2023-05-09T15:23:43Z,mfreed7,accessibility|a11y-tracker|topic: popover,0
 1664663316,true,popover focus state weirdness,https://github.com/whatwg/html/issues/9152,2023-04-12T14:17:31Z,2023-04-24T13:54:05Z,jakearchibald,topic: popover,0
-1663053673,false,"Potential error in connection between ""Document destroy"" and ""Document abort"" algorithms",https://github.com/whatwg/html/issues/9148,2023-04-11T19:02:43Z,2023-09-05T15:05:15Z,kalenikaliaksandr,,0
+1663053673,false,"Potential error in connection between ""Document destroy"" and ""Document abort"" algorithms",https://github.com/whatwg/html/issues/9148,2023-04-11T19:02:43Z,2023-11-02T06:20:57Z,kalenikaliaksandr,,0
 1662945190,true,language of an attribute,https://github.com/whatwg/html/issues/9147,2023-04-11T17:35:46Z,2023-04-28T07:47:22Z,fantasai,i18n-tracker,0
 1662937464,false,"""The directionality of an attribute of an HTML"" seems weird?",https://github.com/whatwg/html/issues/9146,2023-04-11T17:29:12Z,2023-04-28T08:20:28Z,fantasai,i18n-tracker,0
 1661175493,true,popover light dismiss behavior is not specified for Esc key,https://github.com/whatwg/html/issues/9143,2023-04-10T18:32:47Z,2023-10-18T06:22:21Z,asurkov,topic: popover,1
@@ -2205,7 +2205,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 429262835,false,Define <meta name=supported-color-schemes>,https://github.com/whatwg/html/issues/4504,2019-04-04T12:54:56Z,2021-11-03T00:06:38Z,lilles,addition/proposal|topic: style|impacts documentation,2
 428972778,false,select element sizing should ignore optgroup labels,https://github.com/whatwg/html/issues/4502,2019-04-03T21:00:19Z,2022-08-11T20:29:46Z,heycam,compat|topic: rendering|topic: forms,0
 428861631,false,"""8.1.3.13 HostEnsureCanCompileStrings"" affected by tc39/ecma262 PR #1498",https://github.com/whatwg/html/issues/4501,2019-04-03T16:25:26Z,2019-04-04T14:05:18Z,mikesamuel,addition/proposal|security/privacy|integration,0
-428821635,false,Clarify that <details open> fires the toggle event even if the open attribute is set from the parser,https://github.com/whatwg/html/issues/4500,2019-04-03T15:06:10Z,2023-09-15T15:45:36Z,emilio,clarification,0
+428821635,true,Clarify that <details open> fires the toggle event even if the open attribute is set from the parser,https://github.com/whatwg/html/issues/4500,2019-04-03T15:06:10Z,2023-11-02T00:48:07Z,emilio,clarification,0
 427200612,true,"<img>: Have an autorotate="""" attribute that honours orientation metadata in the image (e.g. EXIF)",https://github.com/whatwg/html/issues/4495,2019-03-29T22:27:06Z,2022-07-07T08:44:59Z,zcorpan,addition/proposal|topic: img|impacts documentation,2
 427199462,false,Unclear interaction between responsive images and drag and drop,https://github.com/whatwg/html/issues/4493,2019-03-29T22:21:47Z,2019-03-29T22:21:47Z,domenic,topic: img|needs tests|topic: drag and drop,0
 427198546,false,"Treat preload=""none"" as preload=""metadata"" when load() is called",https://github.com/whatwg/html/issues/4492,2019-03-29T22:17:36Z,2019-03-29T22:17:36Z,domenic,compat|topic: media|needs tests|interop,0
@@ -3422,7 +3422,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 202087095,true,input.select() with not-applied types,https://github.com/whatwg/html/issues/2275,2017-01-20T09:01:54Z,2017-02-09T17:36:11Z,tkent-google,,0
 202076709,true,"""A 002E FULL STOP character (.)""",https://github.com/whatwg/html/issues/2274,2017-01-20T08:01:35Z,2017-01-21T00:14:48Z,cvrebert,good first issue,0
 201967740,true,Cross-origin getters seem to ask impossible things,https://github.com/whatwg/html/issues/2273,2017-01-19T20:32:34Z,2017-05-16T15:56:02Z,domenic,topic: multiple globals,0
-201825957,false,Disallow interactive content in <summary>,https://github.com/whatwg/html/issues/2272,2017-01-19T10:54:39Z,2023-08-22T16:02:46Z,zcorpan,document conformance|accessibility|a11y-tracker,0
+201825957,false,Disallow interactive content in <summary>,https://github.com/whatwg/html/issues/2272,2017-01-19T10:54:39Z,2023-11-02T07:11:24Z,zcorpan,document conformance|accessibility|a11y-tracker,0
 201312087,false,Make custom attribute rules consistent with custom element name rules,https://github.com/whatwg/html/issues/2271,2017-01-17T15:04:58Z,2022-04-18T18:21:59Z,LeaVerou,addition/proposal|needs implementer interest|topic: custom elements,82
 201247626,true,"Definition of ""User Agent (UA)""",https://github.com/whatwg/html/issues/2270,2017-01-17T11:11:25Z,2017-01-17T16:39:32Z,vkatsikaros,,0
 200765661,true,The pending dialog stack and the stack of top layer,https://github.com/whatwg/html/issues/2268,2017-01-14T00:39:30Z,2017-09-05T09:48:25Z,upsuper,,0
