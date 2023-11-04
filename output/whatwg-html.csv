@@ -24,7 +24,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1946142512,true,Allow HTML content with rules as for LI tag to OPTION tag,https://github.com/whatwg/html/issues/9859,2023-10-16T21:35:55Z,2023-10-20T01:16:48Z,koteisaev,addition/proposal|needs implementer interest,0
 1942763757,true,HTMLImageElement.src in about:blank documents,https://github.com/whatwg/html/issues/9855,2023-10-13T23:05:30Z,2023-10-16T20:43:36Z,josepharhar,,1
 1942151900,false,"<dialog> should be able to focus the previously focused element in other frames ",https://github.com/whatwg/html/issues/9854,2023-10-13T15:16:58Z,2023-10-16T14:50:58Z,sefeng211,topic: focus|topic: dialog,0
-1937039613,true,"For the button element, make 'button' the default value for the type attribute (instead of 'submit')",https://github.com/whatwg/html/issues/9848,2023-10-11T07:20:15Z,2023-10-11T07:35:55Z,ni11c,,0
+1937039613,true,"For the button element, make 'button' the default value for the type attribute (instead of 'submit')",https://github.com/whatwg/html/issues/9848,2023-10-11T07:20:15Z,2023-11-03T18:03:40Z,ni11c,,0
 1933644840,true,Clarify arrow key behavior for <input type=number> in vertical writing mode,https://github.com/whatwg/html/issues/9846,2023-10-09T19:11:08Z,2023-10-11T09:32:31Z,dizhang168,topic: forms,0
 1933445371,true,Born accessible table summary,https://github.com/whatwg/html/issues/9845,2023-10-09T16:42:28Z,2023-10-10T11:35:50Z,LaZay,addition/proposal|needs implementer interest|a11y-tracker,0
 1932898937,true,Document base URL does not conform to RFC3986 re. fragment identifiers,https://github.com/whatwg/html/issues/9843,2023-10-09T11:54:33Z,2023-10-09T15:17:46Z,namedgraph,,0
@@ -112,7 +112,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1865552680,false,Allow additional elements to be considered labelable,https://github.com/whatwg/html/issues/9632,2023-08-24T16:58:56Z,2023-10-01T15:03:26Z,dmjohnsson23,addition/proposal|needs implementer interest|a11y-tracker,3
 1865087034,true,timer initialization steps has vague reference to WindowProxy,https://github.com/whatwg/html/issues/9631,2023-08-24T12:48:16Z,2023-08-24T16:29:11Z,Ms2ger,,0
 1864127558,true,Upcoming HTML standard issue triage meeting on 9/7/2023,https://github.com/whatwg/html/issues/9629,2023-08-23T23:03:34Z,2023-09-07T21:38:07Z,past,agenda+,0
-1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2023-10-01T15:09:59Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,29
+1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2023-10-01T15:09:59Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,30
 1862349856,false,Add `allow-unique-origin` keyword in iframe/CSP sandbox,https://github.com/whatwg/html/issues/9623,2023-08-22T23:56:53Z,2023-10-01T15:12:22Z,shhnjk,,0
 1858440019,true,[Question] Should mouseover event propagates across shadowDom?,https://github.com/whatwg/html/issues/9619,2023-08-21T02:32:55Z,2023-08-28T19:21:24Z,woody-li,,0
 1857932079,true,"remove <input type=“password”> ",https://github.com/whatwg/html/issues/9617,2023-08-20T02:47:37Z,2023-08-20T03:59:47Z,MichaelMcGlothlin,,0
@@ -1092,7 +1092,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 958420412,true,"[COOP] Wrong type in ""queue a violation report for browsing context group switch when navigating away from a COOP response""",https://github.com/whatwg/html/issues/6925,2021-08-02T18:57:06Z,2021-08-03T19:08:38Z,cdumez,topic: cross-origin-opener-policy,0
 955141045,false,COOP: Navigations to non-initial about:blank,https://github.com/whatwg/html/issues/6913,2021-07-28T18:46:22Z,2021-08-03T08:41:30Z,cdumez,topic: cross-origin-opener-policy,0
 955051236,false,Proposal: blank worker,https://github.com/whatwg/html/issues/6911,2021-07-28T16:52:49Z,2023-09-14T16:33:19Z,wanderview,addition/proposal|needs implementer interest|topic: workers,7
-954670682,true,Proposal: Add a way to open programmatically a date picker,https://github.com/whatwg/html/issues/6909,2021-07-28T09:41:23Z,2022-03-24T17:08:22Z,beaufortfrancois,addition/proposal|needs implementer interest|topic: forms,34
+954670682,true,Proposal: Add a way to open programmatically a date picker,https://github.com/whatwg/html/issues/6909,2021-07-28T09:41:23Z,2022-03-24T17:08:22Z,beaufortfrancois,addition/proposal|needs implementer interest|topic: forms,35
 954564369,false,Add ime-mode to html input,https://github.com/whatwg/html/issues/6908,2021-07-28T07:30:15Z,2021-08-10T08:59:33Z,NagayamaToshiaki,i18n-tracker|i18n-jlreq,0
 954543780,true,Html element's start tag must not be omitted or add new ways to specify lang attribute of the html file,https://github.com/whatwg/html/issues/6907,2021-07-28T07:02:12Z,2023-10-01T22:38:32Z,NagayamaToshiaki,i18n-tracker,0
 954330262,false,"window.stop() does not cancel traversal navigations, but the stop button does",https://github.com/whatwg/html/issues/6905,2021-07-27T23:08:08Z,2021-07-27T23:08:08Z,domenic,topic: navigation|topic: history,0
