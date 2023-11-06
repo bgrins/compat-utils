@@ -1,12 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1978754702,false,Add device-eid and device-imei autocomplete tokens,https://github.com/whatwg/html/pull/9913,2023-11-06T10:05:21Z,2023-11-06T10:06:50Z,annevk,,0
 1977331415,false,Add invoke defaults for input and select,https://github.com/whatwg/html/pull/9912,2023-11-04T13:18:17Z,2023-11-05T10:33:52Z,lukewarlow,,0
 1974532027,false,HTMLAllCollection: add tags() method,https://github.com/whatwg/html/pull/9908,2023-11-02T15:42:16Z,2023-11-02T15:43:46Z,delan,,0
 1973785754,false,Overhaul document unloading/destruction/aborting,https://github.com/whatwg/html/pull/9907,2023-11-02T08:54:15Z,2023-11-03T09:19:20Z,domenic,topic: navigation,0
-1973639595,false,Modernize frame/iframe insertion and removal,https://github.com/whatwg/html/pull/9906,2023-11-02T07:07:51Z,2023-11-02T15:00:47Z,domenic,topic: shadow|topic: browsing context,0
+1973639595,true,Modernize frame/iframe insertion and removal,https://github.com/whatwg/html/pull/9906,2023-11-02T07:07:51Z,2023-11-06T08:35:35Z,domenic,topic: shadow|topic: browsing context,0
 1973636114,false,"'li' tag missed 'p' tag, causing no line break.",https://github.com/whatwg/html/pull/9905,2023-11-02T07:05:02Z,2023-11-02T11:15:07Z,Raj-400BC,,0
 1973568045,false,Do not unload during same-document history step application,https://github.com/whatwg/html/pull/9904,2023-11-02T06:04:11Z,2023-11-02T09:10:43Z,domenic,topic: navigation,0
 1973377901,false,Rendering: field-sizing support for some elements,https://github.com/whatwg/html/pull/9903,2023-11-02T02:14:31Z,2023-11-02T14:09:47Z,tkent-google,,0
-1971885555,false,"Fix ""attempt to populate a history entry's document""",https://github.com/whatwg/html/pull/9902,2023-11-01T07:56:33Z,2023-11-02T06:06:32Z,domenic,topic: navigation,0
+1971885555,false,"Fix ""attempt to populate a history entry's document""",https://github.com/whatwg/html/pull/9902,2023-11-01T07:56:33Z,2023-11-06T08:24:06Z,domenic,topic: navigation,0
 1971810024,false,Fix history step continuation in a new Window,https://github.com/whatwg/html/pull/9901,2023-11-01T06:51:47Z,2023-11-02T06:06:39Z,domenic,do not merge yet|topic: navigation,0
 1969985811,false,Fix plural typo,https://github.com/whatwg/html/pull/9898,2023-10-31T09:15:32Z,2023-10-31T09:17:00Z,imageck,,0
 1969884902,false,Fix PromiseRejectionEvent's promise attribute,https://github.com/whatwg/html/pull/9897,2023-10-31T08:15:50Z,2023-11-02T06:05:44Z,domenic,,0
@@ -19,14 +20,14 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1961825121,false,Export TextTrackMode's enum values,https://github.com/whatwg/html/pull/9883,2023-10-25T16:40:49Z,2023-10-25T17:21:23Z,marcoscaceres,,0
 1961564202,true,Make language of a node consider lang attribute on SVG elements.,https://github.com/whatwg/html/pull/9882,2023-10-25T14:27:52Z,2023-10-26T02:10:33Z,dbaron,,0
 1961464046,false,"Revert recent changes to rendering of <slot>, and some of the corresponding changes to its directionality and language",https://github.com/whatwg/html/pull/9880,2023-10-25T13:42:26Z,2023-11-02T12:54:51Z,dbaron,,0
-1958950645,false,Define the `terms-of-service` link type.,https://github.com/whatwg/html/pull/9877,2023-10-24T10:25:33Z,2023-10-30T22:53:03Z,mikewest,,1
+1958950645,true,Define the `terms-of-service` link type.,https://github.com/whatwg/html/pull/9877,2023-10-24T10:25:33Z,2023-11-06T10:03:44Z,mikewest,addition/proposal|security/privacy|privacy-tracker,1
 1956248354,true,ruby: Remove the segmentation algorithm,https://github.com/whatwg/html/pull/9876,2023-10-23T02:44:59Z,2023-10-27T06:17:56Z,tkent-google,removal/deprecation|document conformance|topic: ruby,0
 1956084796,false,Add invoke popover defaults,https://github.com/whatwg/html/pull/9875,2023-10-22T22:44:20Z,2023-10-22T22:46:27Z,keithamus,,0
 1954210461,true,Editorial: clarify spec around scripts,https://github.com/whatwg/html/pull/9872,2023-10-20T12:41:11Z,2023-10-30T14:54:54Z,Ms2ger,editorial,0
 1953548150,false,Specify what happens when “disabled” is added to a link@rel=stylesheet,https://github.com/whatwg/html/pull/9870,2023-10-20T05:17:46Z,2023-10-20T05:21:38Z,sideshowbarker,,0
 1952215790,true,Fix errors related to <slot> elements in auto directionality traversal.,https://github.com/whatwg/html/pull/9868,2023-10-19T13:05:50Z,2023-10-24T13:44:40Z,dbaron,,0
 1950199580,true,Fix dir=auto handling of descendant <slot> elements.,https://github.com/whatwg/html/pull/9863,2023-10-18T16:40:39Z,2023-10-19T13:06:46Z,dbaron,,0
-1947037733,false,Define the `privacy-policy` link type.,https://github.com/whatwg/html/pull/9860,2023-10-17T10:01:32Z,2023-10-30T13:26:05Z,mikewest,addition/proposal|security/privacy|privacy-tracker,1
+1947037733,true,Define the `privacy-policy` link type.,https://github.com/whatwg/html/pull/9860,2023-10-17T10:01:32Z,2023-11-06T08:36:47Z,mikewest,addition/proposal|security/privacy|privacy-tracker,1
 1945446494,true,Deleted extra brackets,https://github.com/whatwg/html/pull/9858,2023-10-16T15:03:45Z,2023-10-16T15:22:16Z,GTgyani206,spam,0
 1944741361,false,"Navigation API : ""activation info""",https://github.com/whatwg/html/pull/9856,2023-10-16T09:10:04Z,2023-11-01T04:05:34Z,noamr,,0
 1941988607,true,Fix error (resulting from confusing text) in auto directionality traversal,https://github.com/whatwg/html/pull/9853,2023-10-13T13:39:56Z,2023-10-19T13:06:31Z,dbaron,,0
@@ -78,7 +79,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1904941276,false,Specify URL encoding for links (header+element),https://github.com/whatwg/html/pull/9764,2023-09-20T12:56:24Z,2023-10-26T04:27:03Z,noamr,needs tests|topic: link|topic: resource hints (inc. preload),0
 1902888166,false,Make navigate() use UTF-8 in the URL parser,https://github.com/whatwg/html/pull/9756,2023-09-19T12:36:19Z,2023-09-26T09:33:06Z,annevk,normative change|topic: navigation|needs tests,0
 1902869687,true,Editorial: remove API URL character encoding,https://github.com/whatwg/html/pull/9755,2023-09-19T12:25:50Z,2023-09-19T15:11:58Z,annevk,,0
-1901979709,false,Add showPicker to <select> elements,https://github.com/whatwg/html/pull/9754,2023-09-19T00:31:48Z,2023-11-04T13:22:16Z,lukewarlow,,0
+1901979709,false,Add showPicker to <select> elements,https://github.com/whatwg/html/pull/9754,2023-09-19T00:31:48Z,2023-11-04T13:22:16Z,lukewarlow,,1
 1901138540,true,Correct <source> dimension property handling,https://github.com/whatwg/html/pull/9752,2023-09-18T15:00:56Z,2023-09-25T15:24:56Z,annevk,do not merge yet,0
 1900786704,true,Editorial: correct MathML references,https://github.com/whatwg/html/pull/9751,2023-09-18T12:03:18Z,2023-09-26T07:24:52Z,annevk,,0
 1899339551,true,improve workere test.html,https://github.com/whatwg/html/pull/9747,2023-09-16T07:36:54Z,2023-09-16T11:03:53Z,B2-krunalrana,spam,0
@@ -128,7 +129,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1818258169,true,Make the directionality account for missing parent element,https://github.com/whatwg/html/pull/9554,2023-07-24T11:49:33Z,2023-08-31T05:41:01Z,annevk,i18n-tracker,1
 1817297523,true,Tweak `thead` description to clarify it can contain non-header cells,https://github.com/whatwg/html/pull/9552,2023-07-23T21:11:39Z,2023-07-25T09:17:22Z,patrickhlauke,,0
 1815020757,true,selectmenu,https://github.com/whatwg/html/pull/9547,2023-07-21T01:27:53Z,2023-09-23T13:34:59Z,josepharhar,,1
-1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2023-10-23T14:20:06Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms|needs tests,4
+1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2023-11-06T07:59:47Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms|needs tests,4
 1813916540,true,This Pull Request implements form validation on the HTML <output> element to display the calculated result.,https://github.com/whatwg/html/pull/9544,2023-07-20T12:44:22Z,2023-07-20T13:26:04Z,cijian23,spam,1
 1813671797,true,Use correct settings object for modules imported in workers,https://github.com/whatwg/html/pull/9541,2023-07-20T10:34:11Z,2023-07-24T07:22:54Z,nicolo-ribaudo,topic: script,0
 1812982540,true,Add setHTMLUnsafe and parseHTMLUnsafe methods,https://github.com/whatwg/html/pull/9538,2023-07-20T01:31:03Z,2023-10-11T23:22:22Z,josepharhar,addition/proposal|topic: parser|impacts documentation,0
@@ -190,7 +191,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1735662308,true,Add empty string special case for pushState/replaceState,https://github.com/whatwg/html/pull/9370,2023-06-01T07:26:49Z,2023-06-02T03:06:20Z,domenic,topic: history|interop,0
 1735288504,true,Tighten auto popover list definition,https://github.com/whatwg/html/pull/9369,2023-06-01T01:45:56Z,2023-06-06T19:53:27Z,josepharhar,topic: popover,0
 1732189866,false,Use the fetched unsafe response for network status and response bodies,https://github.com/whatwg/html/pull/9362,2023-05-30T12:47:15Z,2023-06-09T14:24:49Z,trflynn89,,0
-1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-11-02T23:36:13Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
+1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-11-06T04:32:48Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
 1729857566,true,Add files via upload,https://github.com/whatwg/html/pull/9353,2023-05-29T01:56:27Z,2023-05-29T04:36:27Z,jakex666x,spam,0
 1728531782,true,Check dialog is modal flag instead of open attribute in 'check popover validity' algorithm,https://github.com/whatwg/html/pull/9344,2023-05-27T08:09:19Z,2023-06-12T06:54:45Z,nt1m,normative change|topic: popover,0
 1727729022,true,Re-add <source media> for media elements,https://github.com/whatwg/html/pull/9341,2023-05-26T14:21:19Z,2023-06-12T12:20:28Z,zcorpan,,3
