@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1988483796,false,Missing ToString() call in StructuredSerializeInternal's Error structured serialization,https://github.com/whatwg/html/issues/9923,2023-11-10T22:11:17Z,2023-11-10T22:11:17Z,IdanHo,,0
 1986585763,true,Workers: Unclear how to set fetch client for classic/module worker scripts,https://github.com/whatwg/html/issues/9920,2023-11-09T23:42:01Z,2023-11-10T04:52:46Z,ADKaster,,0
 1986325485,true,"A way to detect ""same task""?",https://github.com/whatwg/html/issues/9919,2023-11-09T20:08:22Z,2023-11-10T00:56:38Z,jan-ivar,,0
 1983130524,true,Observe the language of a node,https://github.com/whatwg/html/issues/9918,2023-11-08T09:22:02Z,2023-11-08T09:32:20Z,jakearchibald,addition/proposal|needs implementer interest,11
@@ -628,7 +629,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1342522843,true,Pre-proposal: Signed origins,https://github.com/whatwg/html/issues/8205,2022-08-18T03:41:55Z,2022-08-29T10:47:09Z,DemiMarie,,0
 1342349342,true,"Link to js file location in the 404.html file ",https://github.com/whatwg/html/issues/8204,2022-08-17T22:27:26Z,2022-08-17T22:30:17Z,Naatikyere,,0
 1338355797,true,Difference between calling eval with and without promise.,https://github.com/whatwg/html/issues/8195,2022-08-14T21:39:32Z,2022-08-15T21:22:03Z,dSalieri,,0
-1337966518,true,Shadow DOM innerHTML,https://github.com/whatwg/html/issues/8192,2022-08-13T13:34:08Z,2022-11-18T15:34:19Z,GioValentin,addition/proposal|topic: shadow,0
+1337966518,true,Shadow DOM innerHTML,https://github.com/whatwg/html/issues/8192,2022-08-13T13:34:08Z,2023-11-10T19:47:23Z,GioValentin,addition/proposal|topic: shadow,0
 1336937994,false,Rendering <select> as a listbox is a one-line widget that opens a popup on iOS and Android,https://github.com/whatwg/html/issues/8189,2022-08-12T08:57:13Z,2022-09-06T19:45:26Z,zcorpan,topic: rendering|topic: forms,0
 1336733401,false,dropEffect in drop/dragend events not interoperable,https://github.com/whatwg/html/issues/8188,2022-08-12T04:22:46Z,2022-08-12T04:22:46Z,domenic,interop|topic: drag and drop,0
 1336100700,false,Consider adding auto-sizing for <select> as a listbox,https://github.com/whatwg/html/issues/8183,2022-08-11T15:07:22Z,2022-09-30T12:42:39Z,zcorpan,addition/proposal|topic: rendering|topic: forms,0
@@ -1631,7 +1632,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 621649639,false,"The content model of <ul>/<ol> conflicts with execCommand(""indent"") behavior",https://github.com/whatwg/html/issues/5567,2020-05-20T10:29:09Z,2021-09-28T12:57:21Z,saschanaz,document conformance,0
 621559076,true,Inconsistant Usage of <nav> within <footer> in Examples,https://github.com/whatwg/html/issues/5565,2020-05-20T08:18:47Z,2020-05-20T18:35:58Z,benjibee,clarification|document conformance,0
 621223455,false,Should dialog use `inline-size: fit-content` to replace its width and height?,https://github.com/whatwg/html/issues/5563,2020-05-19T19:18:26Z,2020-05-29T10:00:52Z,sefeng211,topic: rendering|topic: dialog,0
-620526692,true,New history event proposal,https://github.com/whatwg/html/issues/5562,2020-05-18T21:49:10Z,2021-03-04T02:08:29Z,frehner,addition/proposal|needs implementer interest|topic: history|needs concrete proposal,40
+620526692,true,New history event proposal,https://github.com/whatwg/html/issues/5562,2020-05-18T21:49:10Z,2021-03-04T02:08:29Z,frehner,addition/proposal|needs implementer interest|topic: history|needs concrete proposal,41
 620463348,false,Add did: to registerProtocolHandler safelisted schemes,https://github.com/whatwg/html/issues/5561,2020-05-18T19:49:37Z,2023-10-30T15:34:52Z,csuwildcat,topic: custom protocols,4
 620155258,true,Secure Contexts integration,https://github.com/whatwg/html/issues/5558,2020-05-18T12:07:16Z,2020-06-25T17:43:33Z,annevk,security/privacy|topic: workers,0
 620043172,true,HTML,https://github.com/whatwg/html/issues/5557,2020-05-18T09:12:49Z,2020-05-18T09:33:18Z,ceroc,,0
@@ -1955,7 +1956,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 497040604,false,Define a policy container,https://github.com/whatwg/html/issues/4926,2019-09-23T11:28:43Z,2021-05-21T10:44:17Z,annevk,clarification|needs tests|interop|integration|topic: policy container,6
 496594293,true,Design questions about IDREF/Element attribute reflection,https://github.com/whatwg/html/issues/4925,2019-09-21T00:49:20Z,2022-06-30T08:19:53Z,alice,accessibility,0
 496188244,true,COEP mismatches in dedicated workers should block.,https://github.com/whatwg/html/issues/4924,2019-09-20T07:14:14Z,2020-04-20T09:12:18Z,mikewest,topic: cross-origin-embedder-policy,0
-495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2022-10-27T11:18:35Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,143
+495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2022-10-27T11:18:35Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,144
 495810632,false,Allow an extra dimension to the size array for 3D favicon,https://github.com/whatwg/html/issues/4922,2019-09-19T13:46:29Z,2021-01-28T22:05:11Z,rcabanier,addition/proposal|needs implementer interest|topic: link,0
 495595729,true,Decide how to treat CSP sandbox in COOP,https://github.com/whatwg/html/issues/4921,2019-09-19T06:18:06Z,2020-06-24T17:33:26Z,shhnjk,security/privacy|topic: cross-origin-opener-policy,0
 495587240,true,Consider restricting SharedArrayBuffer to same-origin usage,https://github.com/whatwg/html/issues/4920,2019-09-19T05:50:59Z,2019-12-05T15:38:02Z,annevk,addition/proposal|topic: serialize and transfer,0
