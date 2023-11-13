@@ -1,4 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1990453120,false,`autocomplete=cc-number` but for 4 separate input boxes,https://github.com/whatwg/html/issues/9927,2023-11-13T11:26:26Z,2023-11-13T12:00:36Z,saschanaz,topic: forms,0
+1990303487,false,A spoiler element,https://github.com/whatwg/html/issues/9926,2023-11-13T10:03:56Z,2023-11-13T10:03:56Z,Seirdy,addition/proposal|needs implementer interest,2
 1988483796,false,Missing ToString() call in StructuredSerializeInternal's Error structured serialization,https://github.com/whatwg/html/issues/9923,2023-11-10T22:11:17Z,2023-11-12T03:36:15Z,IdanHo,clarification|topic: serialize and transfer,0
 1986585763,true,Workers: Unclear how to set fetch client for classic/module worker scripts,https://github.com/whatwg/html/issues/9920,2023-11-09T23:42:01Z,2023-11-10T04:52:46Z,ADKaster,,0
 1986325485,true,"A way to detect ""same task""?",https://github.com/whatwg/html/issues/9919,2023-11-09T20:08:22Z,2023-11-10T00:56:38Z,jan-ivar,,0
@@ -6,7 +8,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1977139228,true,Supporting gradient interpolation for non-RGB based colour spaces in Canvas 2d,https://github.com/whatwg/html/issues/9911,2023-11-04T03:09:07Z,2023-11-04T15:48:28Z,ElizabethHudnott,addition/proposal|needs implementer interest,0
 1975384473,true,"Some autofill tokens incorrectly/inaptly named, while others are inadequate",https://github.com/whatwg/html/issues/9910,2023-11-03T03:01:53Z,2023-11-03T04:12:05Z,getsnoopy,,0
 1975205140,false,Upcoming HTML standard issue triage meeting on 11/16/2023,https://github.com/whatwg/html/issues/9909,2023-11-02T23:38:58Z,2023-11-03T02:06:13Z,past,agenda+,0
-1971645198,false,Consider accounting for reduced motion preferences when determining if HTMLVideoElements are eligible for autoplay,https://github.com/whatwg/html/issues/9900,2023-11-01T03:48:11Z,2023-11-12T22:36:12Z,sivakusayan,,0
+1971645198,false,Consider accounting for reduced motion preferences when determining if HTMLVideoElements are eligible for autoplay,https://github.com/whatwg/html/issues/9900,2023-11-01T03:48:11Z,2023-11-13T08:25:37Z,sivakusayan,,0
 1970431934,false,Clarify details documentation for a11y and usage,https://github.com/whatwg/html/issues/9899,2023-10-31T13:04:45Z,2023-11-01T15:52:18Z,scottaohara,accessibility|a11y-tracker,0
 1969082185,false,"""textarea wrapping transformation"" should reflect implementations",https://github.com/whatwg/html/issues/9896,2023-10-30T19:37:03Z,2023-11-06T16:07:03Z,bfgeek,topic: forms,0
 1968503134,false,"Add ""callto"" to the safelisted schemes",https://github.com/whatwg/html/issues/9894,2023-10-30T14:25:57Z,2023-10-30T15:34:17Z,Draginfable,topic: custom protocols,0
@@ -400,7 +402,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1578001480,true,"Make a way to listen to ""fully active"" state changes",https://github.com/whatwg/html/issues/8872,2023-02-09T14:32:54Z,2023-03-24T03:54:42Z,rakina,integration,0
 1577757378,true,SVGs in <use> cannot be preloaded with a link@rel=preload,https://github.com/whatwg/html/issues/8870,2023-02-09T11:58:48Z,2023-02-15T06:47:26Z,Boldewyn,,0
 1577445089,false,Should strict MIME type for importScripts() also be enforced on local URLs?,https://github.com/whatwg/html/issues/8869,2023-02-09T08:20:18Z,2023-03-29T11:32:53Z,Kaiido,topic: workers|interop,0
-1576960664,false,Add `getInnerHTML()` that optionally serializes declarative Shadow DOM,https://github.com/whatwg/html/issues/8867,2023-02-08T23:38:22Z,2023-10-31T20:28:38Z,mfreed7,addition/proposal|topic: shadow|topic: parser,1
+1576960664,false,Add `getInnerHTML()` that optionally serializes declarative Shadow DOM,https://github.com/whatwg/html/issues/8867,2023-02-08T23:38:22Z,2023-11-13T11:45:08Z,mfreed7,addition/proposal|topic: shadow|topic: parser,1
 1576297577,true,DOMParser and MathML,https://github.com/whatwg/html/issues/8866,2023-02-08T14:57:03Z,2023-02-08T16:42:12Z,pygy,,0
 1576149509,false,Subresource link headers are implemented but not specified,https://github.com/whatwg/html/issues/8865,2023-02-08T13:43:48Z,2023-02-15T06:45:15Z,noamr,topic: link|topic: resource hints (inc. preload),0
 1574083586,false,Allow headings in <summary> elements for <details>,https://github.com/whatwg/html/issues/8864,2023-02-07T10:36:10Z,2023-02-13T17:57:41Z,yatil,document conformance|accessibility,0
@@ -3686,7 +3688,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 176243059,false,rb and rtc element should be removed from the list of obsolete features,https://github.com/whatwg/html/issues/1771,2016-09-11T13:09:32Z,2022-10-24T01:32:48Z,upsuper,document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,0
 175980447,false,Specify how to fetch <link rel=icon>,https://github.com/whatwg/html/issues/1769,2016-09-09T10:43:37Z,2016-09-13T15:19:42Z,zcorpan,topic: fetch,0
 175916893,true,Multipage redirection isn't always working anymore,https://github.com/whatwg/html/issues/1767,2016-09-09T03:06:41Z,2016-09-12T21:33:24Z,domenic,spec tooling,0
-175905234,false,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2023-10-23T14:46:00Z,isonmad,addition/proposal|needs implementer interest|topic: events,20
+175905234,false,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2023-11-13T06:50:52Z,isonmad,addition/proposal|needs implementer interest|topic: events,20
 175646396,false,HTML  specification allows for cycles in Window / Location prototype chain,https://github.com/whatwg/html/issues/1760,2016-09-08T01:47:55Z,2018-08-23T21:46:52Z,cdumez,integration|topic: location,0
 175630444,true,"does this mean these - ""A settings object      An environment settings ..."" - are equivalent?",https://github.com/whatwg/html/issues/1759,2016-09-07T23:27:46Z,2016-09-16T22:53:50Z,equalsJeffH,,0
 175609093,true,moving well known HTML tags outside of SVG container,https://github.com/whatwg/html/issues/1758,2016-09-07T21:19:02Z,2016-09-08T15:12:43Z,djfd,,0
