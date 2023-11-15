@@ -1,14 +1,15 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+1994154166,false,Use scrollMargin for lazy load intersection observer,https://github.com/whatwg/html/pull/9932,2023-11-15T06:49:48Z,2023-11-15T06:57:11Z,tcaptan-cr,,0
 1992013329,true,Editorial: Export TextTrackMode enum value defs,https://github.com/whatwg/html/pull/9931,2023-11-14T05:22:05Z,2023-11-14T05:47:37Z,marcoscaceres,,0
 1991924982,true,Export normalized TimeRanges object,https://github.com/whatwg/html/pull/9930,2023-11-14T03:39:51Z,2023-11-14T06:08:02Z,marcoscaceres,,0
-1986916416,false,Change subframe traverse navigate event timing,https://github.com/whatwg/html/pull/9922,2023-11-10T05:13:57Z,2023-11-14T19:26:43Z,domenic,normative change|topic: navigation,0
+1986916416,true,Change subframe traverse navigate event timing,https://github.com/whatwg/html/pull/9922,2023-11-10T05:13:57Z,2023-11-15T00:40:45Z,domenic,normative change|topic: navigation,0
 1978754702,false,Add device-eid and device-imei autocomplete tokens,https://github.com/whatwg/html/pull/9913,2023-11-06T10:05:21Z,2023-11-14T08:05:49Z,annevk,,0
 1977331415,false,Add invoke defaults for input and select,https://github.com/whatwg/html/pull/9912,2023-11-04T13:18:17Z,2023-11-14T08:05:49Z,lukewarlow,,0
 1974532027,true,HTMLAllCollection: add tags() method,https://github.com/whatwg/html/pull/9908,2023-11-02T15:42:16Z,2023-11-13T05:53:30Z,delan,,0
-1973785754,false,Overhaul document unloading/destruction/aborting,https://github.com/whatwg/html/pull/9907,2023-11-02T08:54:15Z,2023-11-14T08:05:49Z,domenic,topic: navigation,0
+1973785754,false,Overhaul document unloading/destruction/aborting,https://github.com/whatwg/html/pull/9907,2023-11-02T08:54:15Z,2023-11-15T00:51:05Z,domenic,topic: navigation,0
 1973639595,true,Modernize frame/iframe insertion and removal,https://github.com/whatwg/html/pull/9906,2023-11-02T07:07:51Z,2023-11-06T08:35:35Z,domenic,topic: shadow|topic: browsing context,0
 1973636114,false,"'li' tag missed 'p' tag, causing no line break.",https://github.com/whatwg/html/pull/9905,2023-11-02T07:05:02Z,2023-11-14T08:05:49Z,Raj-400BC,,0
-1973568045,false,Do not unload during same-document history step application,https://github.com/whatwg/html/pull/9904,2023-11-02T06:04:11Z,2023-11-14T20:22:59Z,domenic,topic: navigation,0
+1973568045,true,Do not unload during same-document history step application,https://github.com/whatwg/html/pull/9904,2023-11-02T06:04:11Z,2023-11-15T00:41:37Z,domenic,topic: navigation,0
 1973377901,false,Rendering: field-sizing support for some elements,https://github.com/whatwg/html/pull/9903,2023-11-02T02:14:31Z,2023-11-14T08:05:49Z,tkent-google,,0
 1971885555,false,"Fix ""attempt to populate a history entry's document""",https://github.com/whatwg/html/pull/9902,2023-11-01T07:56:33Z,2023-11-14T08:05:48Z,domenic,topic: navigation,0
 1971810024,false,Fix history step continuation in a new Window,https://github.com/whatwg/html/pull/9901,2023-11-01T06:51:47Z,2023-11-14T08:05:48Z,domenic,do not merge yet|topic: navigation,0
@@ -194,7 +195,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1735662308,true,Add empty string special case for pushState/replaceState,https://github.com/whatwg/html/pull/9370,2023-06-01T07:26:49Z,2023-06-02T03:06:20Z,domenic,topic: history|interop,0
 1735288504,true,Tighten auto popover list definition,https://github.com/whatwg/html/pull/9369,2023-06-01T01:45:56Z,2023-06-06T19:53:27Z,josepharhar,topic: popover,0
 1732189866,false,Use the fetched unsafe response for network status and response bodies,https://github.com/whatwg/html/pull/9362,2023-05-30T12:47:15Z,2023-11-14T08:05:49Z,trflynn89,,0
-1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-11-14T08:05:50Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
+1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-11-15T07:24:41Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
 1729857566,true,Add files via upload,https://github.com/whatwg/html/pull/9353,2023-05-29T01:56:27Z,2023-05-29T04:36:27Z,jakex666x,spam,0
 1728531782,true,Check dialog is modal flag instead of open attribute in 'check popover validity' algorithm,https://github.com/whatwg/html/pull/9344,2023-05-27T08:09:19Z,2023-06-12T06:54:45Z,nt1m,normative change|topic: popover,0
 1727729022,true,Re-add <source media> for media elements,https://github.com/whatwg/html/pull/9341,2023-05-26T14:21:19Z,2023-06-12T12:20:28Z,zcorpan,,3
