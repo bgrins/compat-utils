@@ -1,8 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2007793180,false,"Compress images, videos or audio before upload",https://github.com/whatwg/html/issues/9950,2023-11-23T09:25:28Z,2023-11-23T09:39:56Z,mfbx9da4,addition/proposal|needs implementer interest,0
+2007793180,true,"Compress images, videos or audio before upload",https://github.com/whatwg/html/issues/9950,2023-11-23T09:25:28Z,2023-11-23T13:28:08Z,mfbx9da4,addition/proposal|needs implementer interest,0
 2007079181,true,Change default img sizes from 100vw to 100cqw,https://github.com/whatwg/html/issues/9948,2023-11-22T20:34:42Z,2023-11-22T21:13:13Z,jacobrask,addition/proposal|needs implementer interest,0
 2002960569,false,Positioning for showPicker() on non-rendered inputs,https://github.com/whatwg/html/issues/9942,2023-11-20T20:33:00Z,2023-11-20T20:37:27Z,lukewarlow,,0
-2001875150,false,Tab-restore is somewhat observable but not specified,https://github.com/whatwg/html/issues/9941,2023-11-20T10:34:01Z,2023-11-23T11:25:10Z,noamr,,0
+2001875150,false,Tab-restore is somewhat observable but not specified,https://github.com/whatwg/html/issues/9941,2023-11-20T10:34:01Z,2023-11-23T13:42:17Z,noamr,,0
 2001037750,false,"""parse a CSS <color> value"" should take into account that currentColor can be nested in color-mix() ",https://github.com/whatwg/html/issues/9940,2023-11-19T21:11:26Z,2023-11-21T18:57:13Z,Loirooriol,topic: canvas,0
 1998116614,true,How to serialize new CSS color functions in canvas?,https://github.com/whatwg/html/issues/9939,2023-11-17T01:59:39Z,2023-11-17T02:42:23Z,Loirooriol,,0
 1998110326,true,Orphan nested dedicated worker closing seems buggy,https://github.com/whatwg/html/issues/9938,2023-11-17T01:55:30Z,2023-11-18T03:12:22Z,Kaiido,clarification|topic: workers,0
@@ -52,7 +52,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1926931991,false,The spec language for `enumerated attributes` is not consistent,https://github.com/whatwg/html/issues/9832,2023-10-04T20:29:09Z,2023-10-21T01:56:21Z,mfreed7,good first issue|editorial,0
 1925910247,false,User Activation: siblings are not processed,https://github.com/whatwg/html/issues/9831,2023-10-04T10:37:18Z,2023-10-09T22:06:23Z,CanadaHonk,interop|topic: user activation,0
 1924272839,false,Don't force <details> to be a block.,https://github.com/whatwg/html/issues/9830,2023-10-03T14:27:09Z,2023-10-03T21:30:57Z,emilio,topic: rendering,3
-1923913566,false,Proposed Element : Transcript,https://github.com/whatwg/html/issues/9829,2023-10-03T11:25:04Z,2023-11-14T18:28:26Z,brennanyoung,addition/proposal|needs implementer interest,1
+1923913566,false,Proposed Element : Transcript,https://github.com/whatwg/html/issues/9829,2023-10-03T11:25:04Z,2023-11-23T21:59:44Z,brennanyoung,addition/proposal|needs implementer interest,1
 1922743343,false,Navigation: navigate to a fragment updates the navigation api for same-document navigation twice.,https://github.com/whatwg/html/issues/9826,2023-10-02T21:23:00Z,2023-10-03T13:32:54Z,ADKaster,topic: navigation,0
 1921479717,false,Event loop: update the rendering step mismatches implementations in subtle ways,https://github.com/whatwg/html/issues/9824,2023-10-02T08:34:58Z,2023-10-02T12:35:52Z,noamr,topic: event loop,1
 1920922082,true,document's url never gets updated on a fragment navigation,https://github.com/whatwg/html/issues/9820,2023-10-01T19:08:23Z,2023-10-04T03:52:44Z,kalenikaliaksandr,topic: navigation,0
@@ -65,7 +65,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1918809473,false,Meta: Links that take you where you already are,https://github.com/whatwg/html/issues/9811,2023-09-29T08:17:19Z,2023-10-01T13:43:49Z,not-my-profile,,0
 1917630242,false,consider whether document-level language fallback rules make sense in all cases,https://github.com/whatwg/html/issues/9807,2023-09-28T14:06:24Z,2023-10-01T13:44:10Z,dbaron,i18n-tracker|needs tests,0
 1914439377,true,Navigables:  fireNavigateEventOnCommit is unused in apply the history step,https://github.com/whatwg/html/issues/9800,2023-09-26T23:34:38Z,2023-10-17T03:43:27Z,ADKaster,topic: navigation,0
-1914386972,false,The `<selectlist>` element,https://github.com/whatwg/html/issues/9799,2023-09-26T22:24:36Z,2023-11-01T15:51:40Z,josepharhar,addition/proposal|topic: forms|stage: 0,8
+1914386972,false,The `<selectlist>` element,https://github.com/whatwg/html/issues/9799,2023-09-26T22:24:36Z,2023-11-01T15:51:40Z,josepharhar,addition/proposal|topic: forms|stage: 0,9
 1913709777,false,Should MathML references be to MathML-Core instead of full?,https://github.com/whatwg/html/issues/9795,2023-09-26T14:56:47Z,2023-10-01T13:45:45Z,bkardell,normative change,0
 1913666731,true,Should throw SecurityError when loading a worker with a cross-origin script,https://github.com/whatwg/html/issues/9794,2023-09-26T14:37:14Z,2023-10-24T08:09:33Z,edenchuang,topic: workers|agenda+,0
 1913245177,false,Add `autopause` attribute to media elements to allow automatic pausing of media,https://github.com/whatwg/html/issues/9793,2023-09-26T10:54:58Z,2023-10-12T14:21:04Z,keithamus,needs implementer interest|topic: media,8
