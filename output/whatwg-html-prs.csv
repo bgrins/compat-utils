@@ -1,17 +1,18 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2009477184,false,Editorial: remove commas between missing/invalid states in enumerated attributes,https://github.com/whatwg/html/pull/9956,2023-11-24T10:24:39Z,2023-11-24T10:26:36Z,keithamus,,0
-2009466735,false,Editorial: cleanup popover enumerated attribute table,https://github.com/whatwg/html/pull/9955,2023-11-24T10:17:40Z,2023-11-24T10:19:15Z,keithamus,,0
+2011488706,false,typo,https://github.com/whatwg/html/pull/9958,2023-11-27T05:00:31Z,2023-11-27T05:02:05Z,junaga,,0
+2009477184,true,Editorial: remove commas between missing/invalid states in enumerated attributes,https://github.com/whatwg/html/pull/9956,2023-11-24T10:24:39Z,2023-11-27T09:24:19Z,keithamus,,0
+2009466735,true,Editorial: cleanup popover enumerated attribute table,https://github.com/whatwg/html/pull/9955,2023-11-24T10:17:40Z,2023-11-27T09:24:01Z,keithamus,topic: popover,0
 2009461576,false,Editorial: add contenteditable enumerated attribute table,https://github.com/whatwg/html/pull/9954,2023-11-24T10:14:05Z,2023-11-24T10:15:39Z,keithamus,,0
-2009434196,false,Editorial: add textarea/wrap enumerated attribute table,https://github.com/whatwg/html/pull/9953,2023-11-24T09:56:05Z,2023-11-24T09:58:02Z,keithamus,,0
+2009434196,false,Editorial: add textarea/wrap enumerated attribute table,https://github.com/whatwg/html/pull/9953,2023-11-24T09:56:05Z,2023-11-27T09:29:58Z,keithamus,,0
 2007831508,true,Editorial: add th/scope enumerated attribute table,https://github.com/whatwg/html/pull/9952,2023-11-23T09:47:34Z,2023-11-23T15:25:57Z,keithamus,,0
-2007799219,false,Editorial: add a table for the translate attribute,https://github.com/whatwg/html/pull/9951,2023-11-23T09:29:09Z,2023-11-24T18:33:29Z,keithamus,,0
-2007695707,false,"Editorial: Remove unused ""parent worker global scope"" variable",https://github.com/whatwg/html/pull/9949,2023-11-23T08:28:36Z,2023-11-23T08:30:11Z,Kaiido,,0
+2007799219,false,Editorial: add a table for the translate attribute,https://github.com/whatwg/html/pull/9951,2023-11-23T09:29:09Z,2023-11-27T09:49:14Z,keithamus,,0
+2007695707,true,"Editorial: Remove unused ""parent worker global scope"" variable",https://github.com/whatwg/html/pull/9949,2023-11-23T08:28:36Z,2023-11-27T03:18:44Z,Kaiido,clarification|topic: workers,0
 2006066396,true,Editorial: make enumerated attributes missing/invalid wording consistent,https://github.com/whatwg/html/pull/9947,2023-11-22T10:49:59Z,2023-11-23T11:19:29Z,keithamus,,1
 2006001982,true,Editorial: add referrer policy table,https://github.com/whatwg/html/pull/9946,2023-11-22T10:13:57Z,2023-11-23T14:00:05Z,keithamus,,0
 2003866343,true,Editorial: remove closing tags on the dir attribute table,https://github.com/whatwg/html/pull/9945,2023-11-21T09:45:13Z,2023-11-22T09:36:59Z,keithamus,,0
 2003853880,true,Editorial: clean up enumerated attribute preambles,https://github.com/whatwg/html/pull/9944,2023-11-21T09:39:35Z,2023-11-23T13:56:39Z,keithamus,,0
 2003830414,true,Editorial: make marquee behavior/direction tables consistent,https://github.com/whatwg/html/pull/9943,2023-11-21T09:27:07Z,2023-11-23T11:19:42Z,keithamus,,0
-1995694385,false,MessagePort API:add a close event,https://github.com/whatwg/html/pull/9933,2023-11-15T22:37:38Z,2023-11-22T05:03:45Z,nononokam,,1
+1995694385,false,MessagePort API:add a close event,https://github.com/whatwg/html/pull/9933,2023-11-15T22:37:38Z,2023-11-27T05:48:38Z,nononokam,,1
 1994154166,true,Use scrollMargin for lazy load intersection observer,https://github.com/whatwg/html/pull/9932,2023-11-15T06:49:48Z,2023-11-16T19:05:08Z,tcaptan-cr,,0
 1992013329,true,Editorial: Export TextTrackMode enum value defs,https://github.com/whatwg/html/pull/9931,2023-11-14T05:22:05Z,2023-11-14T05:47:37Z,marcoscaceres,,0
 1991924982,true,Export normalized TimeRanges object,https://github.com/whatwg/html/pull/9930,2023-11-14T03:39:51Z,2023-11-19T23:47:48Z,marcoscaceres,,0
@@ -208,7 +209,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1735662308,true,Add empty string special case for pushState/replaceState,https://github.com/whatwg/html/pull/9370,2023-06-01T07:26:49Z,2023-06-02T03:06:20Z,domenic,topic: history|interop,0
 1735288504,true,Tighten auto popover list definition,https://github.com/whatwg/html/pull/9369,2023-06-01T01:45:56Z,2023-06-06T19:53:27Z,josepharhar,topic: popover,0
 1732189866,false,Use the fetched unsafe response for network status and response bodies,https://github.com/whatwg/html/pull/9362,2023-05-30T12:47:15Z,2023-11-14T08:05:49Z,trflynn89,,0
-1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-11-22T05:44:30Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
+1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2023-11-27T06:32:52Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
 1729857566,true,Add files via upload,https://github.com/whatwg/html/pull/9353,2023-05-29T01:56:27Z,2023-05-29T04:36:27Z,jakex666x,spam,0
 1728531782,true,Check dialog is modal flag instead of open attribute in 'check popover validity' algorithm,https://github.com/whatwg/html/pull/9344,2023-05-27T08:09:19Z,2023-06-12T06:54:45Z,nt1m,normative change|topic: popover,0
 1727729022,true,Re-add <source media> for media elements,https://github.com/whatwg/html/pull/9341,2023-05-26T14:21:19Z,2023-06-12T12:20:28Z,zcorpan,,3
