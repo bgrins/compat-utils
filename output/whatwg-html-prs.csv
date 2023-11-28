@@ -2,10 +2,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2011488706,false,typo,https://github.com/whatwg/html/pull/9958,2023-11-27T05:00:31Z,2023-11-27T05:02:05Z,junaga,,0
 2009477184,true,Editorial: remove commas between missing/invalid states in enumerated attributes,https://github.com/whatwg/html/pull/9956,2023-11-24T10:24:39Z,2023-11-27T09:24:19Z,keithamus,,0
 2009466735,true,Editorial: cleanup popover enumerated attribute table,https://github.com/whatwg/html/pull/9955,2023-11-24T10:17:40Z,2023-11-27T09:24:01Z,keithamus,topic: popover,0
-2009461576,false,Editorial: add contenteditable enumerated attribute table,https://github.com/whatwg/html/pull/9954,2023-11-24T10:14:05Z,2023-11-24T10:15:39Z,keithamus,,0
-2009434196,false,Editorial: add textarea/wrap enumerated attribute table,https://github.com/whatwg/html/pull/9953,2023-11-24T09:56:05Z,2023-11-27T09:29:58Z,keithamus,,0
+2009461576,false,Editorial: add contenteditable enumerated attribute table,https://github.com/whatwg/html/pull/9954,2023-11-24T10:14:05Z,2023-11-28T09:32:14Z,keithamus,,0
+2009434196,true,Editorial: add textarea/wrap enumerated attribute table,https://github.com/whatwg/html/pull/9953,2023-11-24T09:56:05Z,2023-11-28T09:37:40Z,keithamus,,0
 2007831508,true,Editorial: add th/scope enumerated attribute table,https://github.com/whatwg/html/pull/9952,2023-11-23T09:47:34Z,2023-11-23T15:25:57Z,keithamus,,0
-2007799219,false,Editorial: add a table for the translate attribute,https://github.com/whatwg/html/pull/9951,2023-11-23T09:29:09Z,2023-11-27T09:49:14Z,keithamus,,0
+2007799219,false,Editorial: add a table for the translate attribute,https://github.com/whatwg/html/pull/9951,2023-11-23T09:29:09Z,2023-11-28T09:38:26Z,keithamus,,0
 2007695707,true,"Editorial: Remove unused ""parent worker global scope"" variable",https://github.com/whatwg/html/pull/9949,2023-11-23T08:28:36Z,2023-11-27T03:18:44Z,Kaiido,clarification|topic: workers,0
 2006066396,true,Editorial: make enumerated attributes missing/invalid wording consistent,https://github.com/whatwg/html/pull/9947,2023-11-22T10:49:59Z,2023-11-23T11:19:29Z,keithamus,,1
 2006001982,true,Editorial: add referrer policy table,https://github.com/whatwg/html/pull/9946,2023-11-22T10:13:57Z,2023-11-23T14:00:05Z,keithamus,,0
@@ -151,7 +151,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1813916540,true,This Pull Request implements form validation on the HTML <output> element to display the calculated result.,https://github.com/whatwg/html/pull/9544,2023-07-20T12:44:22Z,2023-07-20T13:26:04Z,cijian23,spam,1
 1813671797,true,Use correct settings object for modules imported in workers,https://github.com/whatwg/html/pull/9541,2023-07-20T10:34:11Z,2023-07-24T07:22:54Z,nicolo-ribaudo,topic: script,0
 1812982540,true,Add setHTMLUnsafe and parseHTMLUnsafe methods,https://github.com/whatwg/html/pull/9538,2023-07-20T01:31:03Z,2023-10-11T23:22:22Z,josepharhar,addition/proposal|topic: parser|impacts documentation,0
-1812629719,false,Add a layer and filter interface in the 2D canvas,https://github.com/whatwg/html/pull/9537,2023-07-19T19:49:25Z,2023-11-24T16:20:41Z,graveljp,,0
+1812629719,false,Add a layer and filter interface in the 2D canvas,https://github.com/whatwg/html/pull/9537,2023-07-19T19:49:25Z,2023-11-28T09:13:44Z,graveljp,,0
 1810870126,true,Define srcdoc documents as matching about:srcdoc URL,https://github.com/whatwg/html/pull/9534,2023-07-18T23:37:14Z,2023-07-20T03:49:15Z,domfarolino,topic: browsing context|topic: document.open()|topic: javascript: URLs,0
 1810164917,true,Fix non-fetch-scheme-params-initiator-origin assignment,https://github.com/whatwg/html/pull/9532,2023-07-18T15:25:02Z,2023-07-19T07:17:21Z,domfarolino,topic: navigation,0
 1809663999,true,Add types to parameters of script fetching algorithms,https://github.com/whatwg/html/pull/9530,2023-07-18T10:39:07Z,2023-07-20T06:18:13Z,nicolo-ribaudo,,0
@@ -168,7 +168,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1799781601,true,"Editorial: Remove unused param from ""fetch the descendants of and link a module script""",https://github.com/whatwg/html/pull/9508,2023-07-11T21:29:47Z,2023-07-12T00:24:29Z,domfarolino,topic: script,0
 1793324979,true,"Editorial: Use the right ""active document"" definition in a focus algorithm",https://github.com/whatwg/html/pull/9498,2023-07-07T11:00:52Z,2023-08-09T07:49:47Z,rakuco,,0
 1791560609,true,Populate document state origin/initiator origin upon creation,https://github.com/whatwg/html/pull/9494,2023-07-06T13:24:00Z,2023-07-14T03:40:48Z,domfarolino,topic: navigation,0
-1791506923,false,Force size containment for auto-sizes,https://github.com/whatwg/html/pull/9493,2023-07-06T12:54:24Z,2023-11-14T08:05:49Z,zcorpan,,1
+1791506923,false,Force size containment for auto-sizes,https://github.com/whatwg/html/pull/9493,2023-07-06T12:54:24Z,2023-11-28T10:46:59Z,zcorpan,,1
 1789491788,true,Make dirname apply to hidden/tel/url/email inputs,https://github.com/whatwg/html/pull/9490,2023-07-05T12:51:28Z,2023-09-04T22:11:39Z,zcorpan,normative change|topic: forms,0
 1787684142,true,Use appropriate fetch destination for JSON&CSS modules,https://github.com/whatwg/html/pull/9486,2023-07-04T10:48:45Z,2023-10-30T08:23:13Z,nicolo-ribaudo,topic: script,0
 1787565314,true,Test PR,https://github.com/whatwg/html/pull/9485,2023-07-04T09:43:04Z,2023-07-04T12:37:01Z,cijian23,spam,0
