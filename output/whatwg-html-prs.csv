@@ -2,7 +2,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2018282212,false,Editorial: add enumerated attribute table for draggable,https://github.com/whatwg/html/pull/9965,2023-11-30T09:59:26Z,2023-11-30T10:44:02Z,keithamus,,0
 2016213834,true,Editorial: add enumerated attribute table for spellcheck,https://github.com/whatwg/html/pull/9964,2023-11-29T09:55:56Z,2023-11-30T10:13:46Z,keithamus,,0
 2016195058,false,Editorial: add enumerated attribute table for form/autocomplete,https://github.com/whatwg/html/pull/9963,2023-11-29T09:45:23Z,2023-11-29T09:58:05Z,keithamus,,0
-2015171492,true,Add CEReactions to setHTMLUnsafe,https://github.com/whatwg/html/pull/9961,2023-11-28T19:40:01Z,2023-11-29T07:41:45Z,josepharhar,topic: parser|topic: custom elements,0
+2015171492,true,Add CEReactions to setHTMLUnsafe,https://github.com/whatwg/html/pull/9961,2023-11-28T19:40:01Z,2023-11-29T07:41:45Z,josepharhar,topic: parser|topic: custom elements,1
 2011488706,false,typo,https://github.com/whatwg/html/pull/9958,2023-11-27T05:00:31Z,2023-11-27T05:02:05Z,junaga,,0
 2009477184,true,Editorial: remove commas between missing/invalid states in enumerated attributes,https://github.com/whatwg/html/pull/9956,2023-11-24T10:24:39Z,2023-11-27T09:24:19Z,keithamus,,0
 2009466735,true,Editorial: cleanup popover enumerated attribute table,https://github.com/whatwg/html/pull/9955,2023-11-24T10:17:40Z,2023-11-27T09:24:01Z,keithamus,topic: popover,0
@@ -29,7 +29,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1973636114,false,"'li' tag missed 'p' tag, causing no line break.",https://github.com/whatwg/html/pull/9905,2023-11-02T07:05:02Z,2023-11-14T08:05:49Z,Raj-400BC,,0
 1973568045,true,Do not unload during same-document history step application,https://github.com/whatwg/html/pull/9904,2023-11-02T06:04:11Z,2023-11-15T00:41:37Z,domenic,topic: navigation,0
 1973377901,false,Rendering: field-sizing support for some elements,https://github.com/whatwg/html/pull/9903,2023-11-02T02:14:31Z,2023-11-29T04:29:58Z,tkent-google,,0
-1971885555,false,"Fix ""attempt to populate a history entry's document""",https://github.com/whatwg/html/pull/9902,2023-11-01T07:56:33Z,2023-11-14T08:05:48Z,domenic,topic: navigation,0
+1971885555,false,"Fix ""attempt to populate a history entry's document""",https://github.com/whatwg/html/pull/9902,2023-11-01T07:56:33Z,2023-11-30T16:45:05Z,domenic,topic: navigation,0
 1971810024,false,Fix history step continuation in a new Window,https://github.com/whatwg/html/pull/9901,2023-11-01T06:51:47Z,2023-11-14T08:05:48Z,domenic,do not merge yet|topic: navigation,0
 1969985811,false,Fix plural typo,https://github.com/whatwg/html/pull/9898,2023-10-31T09:15:32Z,2023-11-14T08:05:49Z,imageck,,0
 1969884902,false,Fix PromiseRejectionEvent's promise attribute,https://github.com/whatwg/html/pull/9897,2023-10-31T08:15:50Z,2023-11-14T08:05:49Z,domenic,,0
@@ -172,7 +172,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1799781601,true,"Editorial: Remove unused param from ""fetch the descendants of and link a module script""",https://github.com/whatwg/html/pull/9508,2023-07-11T21:29:47Z,2023-07-12T00:24:29Z,domfarolino,topic: script,0
 1793324979,true,"Editorial: Use the right ""active document"" definition in a focus algorithm",https://github.com/whatwg/html/pull/9498,2023-07-07T11:00:52Z,2023-08-09T07:49:47Z,rakuco,,0
 1791560609,true,Populate document state origin/initiator origin upon creation,https://github.com/whatwg/html/pull/9494,2023-07-06T13:24:00Z,2023-07-14T03:40:48Z,domfarolino,topic: navigation,0
-1791506923,false,Force size containment for auto-sizes,https://github.com/whatwg/html/pull/9493,2023-07-06T12:54:24Z,2023-11-29T22:55:03Z,zcorpan,,1
+1791506923,true,Force size containment for auto-sizes,https://github.com/whatwg/html/pull/9493,2023-07-06T12:54:24Z,2023-11-30T12:59:38Z,zcorpan,,1
 1789491788,true,Make dirname apply to hidden/tel/url/email inputs,https://github.com/whatwg/html/pull/9490,2023-07-05T12:51:28Z,2023-09-04T22:11:39Z,zcorpan,normative change|topic: forms,0
 1787684142,true,Use appropriate fetch destination for JSON&CSS modules,https://github.com/whatwg/html/pull/9486,2023-07-04T10:48:45Z,2023-10-30T08:23:13Z,nicolo-ribaudo,topic: script,0
 1787565314,true,Test PR,https://github.com/whatwg/html/pull/9485,2023-07-04T09:43:04Z,2023-07-04T12:37:01Z,cijian23,spam,0
