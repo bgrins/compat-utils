@@ -96,7 +96,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1904487020,false,"Which status codes are allowed for various tags such as script, video, audio?",https://github.com/whatwg/html/issues/9763,2023-09-20T08:42:40Z,2023-10-01T13:53:57Z,JannisBush,security/privacy|topic: fetch|security-tracker,0
 1904434955,false,Interactions of Content-Disposition with CSP-FA/XFO and Status Codes,https://github.com/whatwg/html/issues/9762,2023-09-20T08:16:30Z,2023-10-01T13:54:30Z,JannisBush,security/privacy|topic: fetch|security-tracker,0
 1904405325,true,link should have attribute for ailang,https://github.com/whatwg/html/issues/9761,2023-09-20T07:59:32Z,2023-09-25T23:51:26Z,BLamy,,1
-1904388480,false,Expose information about last activation/cross-document navigation,https://github.com/whatwg/html/issues/9760,2023-09-20T07:50:50Z,2023-11-16T13:26:55Z,noamr,,1
+1904388480,true,Expose information about last activation/cross-document navigation,https://github.com/whatwg/html/issues/9760,2023-09-20T07:50:50Z,2023-12-13T04:36:56Z,noamr,,1
 1903500453,true,System visibility change reaction code incorrectly tries getting inclusive descendant navigables of a traversable navigable,https://github.com/whatwg/html/issues/9758,2023-09-19T18:14:50Z,2023-09-27T00:58:37Z,awesomekling,,0
 1903392884,false,Can showPicker() focus a control?,https://github.com/whatwg/html/issues/9757,2023-09-19T16:59:56Z,2023-11-16T12:11:22Z,annevk,topic: forms|topic: focus,1
 1899693712,true,Modification GIF Folder Preview Script,https://github.com/whatwg/html/issues/9749,2023-09-17T07:50:44Z,2023-09-17T08:10:35Z,deiraf,,0
@@ -119,7 +119,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1887654479,false,navigate() should not use parse a URL,https://github.com/whatwg/html/issues/9708,2023-09-08T13:05:43Z,2023-10-01T14:27:45Z,annevk,topic: navigation,1
 1886589682,true,Upcoming HTML standard issue triage meeting on 10/5/2023,https://github.com/whatwg/html/issues/9706,2023-09-07T21:34:34Z,2023-10-05T22:34:00Z,past,agenda+,0
 1886572380,false,Why is the content model for `<button>` limited to phrasing content?,https://github.com/whatwg/html/issues/9705,2023-09-07T21:14:57Z,2023-10-01T14:20:35Z,mfreed7,document conformance,0
-1884393327,false,[View Transition] Event on old Document to set transition state,https://github.com/whatwg/html/issues/9702,2023-09-06T16:48:16Z,2023-12-01T14:17:23Z,khushalsagar,,0
+1884393327,false,[View Transition] Event on old Document to set transition state,https://github.com/whatwg/html/issues/9702,2023-09-06T16:48:16Z,2023-12-13T10:17:08Z,khushalsagar,,0
 1883527421,true,<link rel=stylesheet> has a weird reference to resulting URL string,https://github.com/whatwg/html/issues/9695,2023-09-06T08:36:28Z,2023-09-08T09:09:16Z,annevk,topic: link,0
 1883499736,false,Enable `git diff` for individual sections of the `source` file,https://github.com/whatwg/html/issues/9694,2023-09-06T08:20:01Z,2023-10-01T14:30:47Z,not-my-profile,,0
 1883480006,false,"Specify steps for ""preparing an image for presentation"" for the EXIF-arriving-late case",https://github.com/whatwg/html/issues/9693,2023-09-06T08:07:35Z,2023-10-01T14:31:46Z,yarusome,topic: img|integration,0
@@ -811,7 +811,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1206214916,true,Obsolete schema.org in examples. OK to fix?,https://github.com/whatwg/html/issues/7825,2022-04-16T20:59:00Z,2022-04-19T12:54:55Z,edent,,0
 1206023411,true,Should Element.id spec reflect what browser actually implement,https://github.com/whatwg/html/issues/7824,2022-04-16T05:48:42Z,2022-04-24T15:41:38Z,greggman,document conformance,5
 1204707421,false,Early hints followup issues,https://github.com/whatwg/html/issues/7823,2022-04-14T15:51:56Z,2022-06-02T12:14:16Z,domenic,,1
-1204498851,false,Add referrerpolicy to media elements (<audio> and <video>),https://github.com/whatwg/html/issues/7822,2022-04-14T12:59:02Z,2022-04-21T17:55:49Z,SegaraRai,addition/proposal|needs implementer interest|topic: media|topic: fetch,0
+1204498851,false,Add referrerpolicy to media elements (<audio> and <video>),https://github.com/whatwg/html/issues/7822,2022-04-14T12:59:02Z,2022-04-21T17:55:49Z,SegaraRai,addition/proposal|needs implementer interest|topic: media|topic: fetch,1
 1200400029,false,Add support to the window.open function for the Accept header.,https://github.com/whatwg/html/issues/7810,2022-04-11T18:54:19Z,2023-03-17T07:49:04Z,codecando-x,addition/proposal|needs implementer interest|topic: navigation,10
 1200302682,true,Should adding inert attribute force a blur?,https://github.com/whatwg/html/issues/7809,2022-04-11T17:32:47Z,2022-04-11T17:48:14Z,emilio,,0
 1200291987,true,inert on an ancestor of modal dialog,https://github.com/whatwg/html/issues/7808,2022-04-11T17:25:44Z,2022-05-18T17:53:25Z,emilio,topic: dialog,0
@@ -908,7 +908,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1121252070,true,Remove concept of expressly inert?,https://github.com/whatwg/html/issues/7564,2022-02-01T22:10:09Z,2022-02-07T01:19:46Z,Loirooriol,topic: focus,0
 1120480673,false,Clarify the semantic scope of the menu element,https://github.com/whatwg/html/issues/7562,2022-02-01T10:23:18Z,2022-02-16T11:24:18Z,kantoche,accessibility,0
 1119962138,false,"Suggestion - Allow ""<slot>"" to provide options for select or datalist",https://github.com/whatwg/html/issues/7560,2022-01-31T21:40:11Z,2022-02-15T11:13:30Z,jogibear9988,addition/proposal|needs implementer interest|topic: shadow,0
-1116552451,false,Allow authors to apply new css features (like cascade layers) while linking stylesheets,https://github.com/whatwg/html/issues/7540,2022-01-27T17:28:58Z,2023-09-19T09:05:08Z,mirisuzanne,addition/proposal|needs implementer interest|topic: style,18
+1116552451,false,Allow authors to apply new css features (like cascade layers) while linking stylesheets,https://github.com/whatwg/html/issues/7540,2022-01-27T17:28:58Z,2023-12-13T11:57:54Z,mirisuzanne,addition/proposal|needs implementer interest|topic: style,18
 1115846973,false,Can I set image as image data instead of base64??,https://github.com/whatwg/html/issues/7538,2022-01-27T07:04:18Z,2022-02-10T08:19:30Z,slugger941,,0
 1114394627,false,Explicit display:none should prevent element from being used as relevant canvas fallback content,https://github.com/whatwg/html/issues/7534,2022-01-25T21:46:53Z,2022-02-16T14:20:15Z,Loirooriol,topic: canvas|accessibility|topic: focus|a11y-tracker,0
 1114233124,false,URL-bar triggered prerendering,https://github.com/whatwg/html/issues/7533,2022-01-25T18:35:01Z,2022-02-03T21:27:07Z,domenic,addition/proposal|topic: navigation|topic: browsing context,2
@@ -2856,7 +2856,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 290135044,true,navigator.registerProtocolHandler specification divergent from both implementations,https://github.com/whatwg/html/issues/3377,2018-01-19T23:12:31Z,2020-08-04T09:25:34Z,bsittler,interop|topic: custom protocols,0
 289963110,false,"Proposal: More accurately notation in ""rules for parsing floating-point number values"".",https://github.com/whatwg/html/issues/3375,2018-01-19T12:39:46Z,2018-01-19T15:23:02Z,rh-KIMATA,clarification,0
 289457446,false,Selectors and case-sensitivity,https://github.com/whatwg/html/issues/3372,2018-01-18T00:00:38Z,2022-10-28T15:45:33Z,fantasai,topic: style|topic: selectors,0
-289054174,false,"Remove action at a distance and monkey patching around ""completely loaded"" and ""ready for post-load tasks""",https://github.com/whatwg/html/issues/3367,2018-01-16T21:00:09Z,2018-01-17T13:39:32Z,domenic,clarification,0
+289054174,true,"Remove action at a distance and monkey patching around ""completely loaded"" and ""ready for post-load tasks""",https://github.com/whatwg/html/issues/3367,2018-01-16T21:00:09Z,2023-12-13T07:22:44Z,domenic,clarification,0
 288931658,false,Canvas and bitmaps,https://github.com/whatwg/html/issues/3364,2018-01-16T14:45:07Z,2021-05-06T05:19:51Z,annevk,clarification|topic: canvas,0
 288907829,false,<canvas> width/height setters,https://github.com/whatwg/html/issues/3362,2018-01-16T13:32:28Z,2023-03-03T19:03:23Z,annevk,topic: canvas|topic: reflect,0
 288793021,true,"""iframe load event steps"" are run in parallel, but that seems really bad",https://github.com/whatwg/html/issues/3357,2018-01-16T05:48:03Z,2018-01-17T06:36:12Z,domenic,topic: navigation,0
@@ -4030,7 +4030,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 150496662,true,Module workers are fetched with incorrect referrer.,https://github.com/whatwg/html/issues/1111,2016-04-22T23:53:24Z,2016-05-11T10:57:24Z,mkruisselbrink,,0
 150488846,true,Specify resource hints link rels?,https://github.com/whatwg/html/issues/1109,2016-04-22T22:48:37Z,2016-05-10T16:56:21Z,domenic,addition/proposal,0
 150459986,true,Make <input name=isindex> non-conforming,https://github.com/whatwg/html/issues/1104,2016-04-22T20:06:43Z,2016-07-28T07:23:05Z,zcorpan,document conformance,0
-150459498,false,"Define `<input capture>`, ideally with a hint for which camera to use",https://github.com/whatwg/html/issues/1102,2016-04-22T20:04:37Z,2023-07-05T06:48:25Z,hober,good first issue|topic: forms|integration,0
+150459498,false,"Define `<input capture>`, ideally with a hint for which camera to use",https://github.com/whatwg/html/issues/1102,2016-04-22T20:04:37Z,2023-12-13T07:55:06Z,hober,good first issue|topic: forms|integration,0
 150364672,true,Reconsider currentColor in a display:none canvas,https://github.com/whatwg/html/issues/1099,2016-04-22T13:04:42Z,2016-07-06T20:05:41Z,Ms2ger,compat|topic: canvas,0
 150364441,false,Should fetch algorithm failure detaching the MediaSource object?,https://github.com/whatwg/html/issues/1098,2016-04-22T13:03:26Z,2016-09-13T15:49:52Z,foolip,topic: media|topic: fetch,0
 150306167,true,Expand a bit on origins' invariants,https://github.com/whatwg/html/issues/1093,2016-04-22T08:34:30Z,2016-04-24T13:31:00Z,Ms2ger,,0
