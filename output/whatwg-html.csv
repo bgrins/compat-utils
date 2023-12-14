@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2041234260,false,"colspan=""0"": Formalize a way to get a cell to span all/remaining columns",https://github.com/whatwg/html/issues/9992,2023-12-14T08:53:57Z,2023-12-14T08:53:57Z,andrerom,addition/proposal|needs implementer interest,0
 2040145190,false,select.showPicker() in content-visibility: hidden subtree,https://github.com/whatwg/html/issues/9991,2023-12-13T17:10:42Z,2023-12-13T17:20:17Z,lukewarlow,,0
 2036911436,false,Editorial: link the Promise<T> type throughout,https://github.com/whatwg/html/issues/9987,2023-12-12T03:38:59Z,2023-12-12T09:58:13Z,domenic,good first issue|editorial,0
 2033957372,false,<datalist> behavior(s) are inconsistent and unhelpful when options are prefiltered,https://github.com/whatwg/html/issues/9986,2023-12-09T17:36:53Z,2023-12-09T18:19:06Z,broofa,,0
@@ -415,7 +416,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1591084557,false,`<picture>` and `<source>` elements: How should 404s with placeholder image data be handled?,https://github.com/whatwg/html/issues/8916,2023-02-20T03:53:17Z,2023-02-24T21:31:11Z,DavidJCobb,clarification|topic: img|topic: fetch,0
 1589837748,false,Adding document subtitle to the spec.,https://github.com/whatwg/html/issues/8909,2023-02-17T19:06:05Z,2023-02-18T05:24:06Z,diekus,addition/proposal|needs implementer interest,0
 1589211658,true,ssh protocol handler is broken,https://github.com/whatwg/html/issues/8907,2023-02-17T11:26:55Z,2023-02-24T15:24:44Z,SoniEx2,security/privacy|topic: custom protocols,0
-1588826401,false,"""unloading document cleanup steps"" run in an unclear order",https://github.com/whatwg/html/issues/8906,2023-02-17T06:35:28Z,2023-02-17T06:35:28Z,domenic,,0
+1588826401,false,"""unloading document cleanup steps"" run in an unclear order",https://github.com/whatwg/html/issues/8906,2023-02-17T06:35:28Z,2023-12-14T05:40:49Z,domenic,,0
 1588690305,true,The previous focus change that was applied to dialog close has unexpected behavior for non-modal dialogs,https://github.com/whatwg/html/issues/8904,2023-02-17T03:18:23Z,2023-05-12T16:51:31Z,sirisian,topic: dialog,0
 1587393467,false,Allow developers to deliver .wasm apps directly to their users,https://github.com/whatwg/html/issues/8899,2023-02-16T10:07:48Z,2023-02-16T10:07:48Z,sideshowbarker,,0
 1586963695,true,popover*targetElement IDL attributes can be misleading,https://github.com/whatwg/html/issues/8894,2023-02-16T03:58:05Z,2023-03-08T14:42:41Z,nt1m,topic: popover|topic: reflect,0
@@ -593,7 +594,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1400727625,false,`formDisabledCallback` should always fire when governing fieldset's disabled state changes,https://github.com/whatwg/html/issues/8365,2022-10-07T07:16:02Z,2022-10-12T22:47:59Z,bennypowers,topic: custom elements,1
 1400697596,false,Editorial: align with JavaScript spec conventions on records,https://github.com/whatwg/html/issues/8364,2022-10-07T06:44:11Z,2023-02-25T17:55:36Z,domenic,good first issue|integration,0
 1400696912,false,Editorial: consider using Infra maps instead of JS-spec Records more often,https://github.com/whatwg/html/issues/8363,2022-10-07T06:43:25Z,2022-10-07T06:43:25Z,domenic,clarification|integration,0
-1400071766,false,Allow workers & shared workers to be created within a service worker,https://github.com/whatwg/html/issues/8362,2022-10-06T17:41:40Z,2023-12-11T01:42:14Z,ian97531,addition/proposal|needs implementer interest|topic: workers,5
+1400071766,false,Allow workers & shared workers to be created within a service worker,https://github.com/whatwg/html/issues/8362,2022-10-06T17:41:40Z,2023-12-14T04:03:09Z,ian97531,addition/proposal|needs implementer interest|topic: workers,5
 1399126032,false,How do shadow roots and slots interact with the content model?,https://github.com/whatwg/html/issues/8361,2022-10-06T08:47:59Z,2022-10-07T10:52:20Z,castholm,,0
 1398190934,false,Proposal: showEmojiPicker() on HTMLInputElement/HTMLTextareaElement,https://github.com/whatwg/html/issues/8358,2022-10-05T18:23:44Z,2022-10-06T14:31:19Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,69
 1397339666,false,Add external import maps,https://github.com/whatwg/html/issues/8355,2022-10-05T07:08:53Z,2022-10-06T15:43:39Z,annevk,addition/proposal|topic: script,1
@@ -1531,7 +1532,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 684112996,false,picture element in microdata,https://github.com/whatwg/html/issues/5853,2020-08-23T04:28:16Z,2020-08-23T04:28:16Z,mtrootyy,,0
 684086547,false,The <meta> tag should accept a @property attribute (just like @itemprop),https://github.com/whatwg/html/issues/5852,2020-08-22T23:49:53Z,2022-04-26T08:55:32Z,gjvnq,,0
 683405984,false,Timing of MessagePort entanglement transfer,https://github.com/whatwg/html/issues/5850,2020-08-21T08:51:19Z,2020-08-23T13:30:29Z,karlt,topic: serialize and transfer,0
-682926673,false,Standalone COEP spec should be gutted now that HTML contains COEP,https://github.com/whatwg/html/issues/5849,2020-08-20T17:12:05Z,2020-08-26T08:27:26Z,domenic,topic: cross-origin-embedder-policy,0
+682926673,false,Standalone COEP spec should be gutted now that HTML contains COEP,https://github.com/whatwg/html/issues/5849,2020-08-20T17:12:05Z,2023-12-14T05:23:14Z,domenic,topic: cross-origin-embedder-policy,0
 682189571,true,More navigation flags cleanup,https://github.com/whatwg/html/issues/5847,2020-08-19T21:21:12Z,2020-08-25T15:20:42Z,domenic,clarification|topic: navigation,0
 681920881,false,Consider to make DragEvent to inherit PointerEvent,https://github.com/whatwg/html/issues/5846,2020-08-19T15:12:13Z,2020-08-19T15:12:13Z,smaug----,,0
 681695247,false,Consider making (un)registerProtocolHandler asynchronous,https://github.com/whatwg/html/issues/5845,2020-08-19T09:36:05Z,2020-08-19T10:14:04Z,fred-wang,topic: custom protocols,0
@@ -1888,7 +1889,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 532885949,true,Clarify how to handle postMessage-ing a closing/closed DedicatedWorker,https://github.com/whatwg/html/issues/5125,2019-12-04T19:26:32Z,2019-12-04T22:14:53Z,perryjiang,,0
 532843497,false,"Add a resize observer step to the ""update the rendering"" steps",https://github.com/whatwg/html/issues/5124,2019-12-04T17:56:04Z,2019-12-05T10:57:27Z,smfr,topic: rendering|integration,2
 532638143,true,Offering origin isolation through cross-origin isolation,https://github.com/whatwg/html/issues/5122,2019-12-04T11:57:10Z,2020-07-08T09:05:32Z,annevk,needs compat analysis|topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,1
-531927763,false,Add &nnbsp; entity for U+202F,https://github.com/whatwg/html/issues/5121,2019-12-03T11:46:46Z,2023-12-12T12:47:23Z,ygoe,addition/proposal|needs implementer interest|topic: parser|i18n-tracker|i18n-alreq|i18n-amlreq|i18n-mlreq,4
+531927763,false,Add &nnbsp; entity for U+202F,https://github.com/whatwg/html/issues/5121,2019-12-03T11:46:46Z,2023-12-14T08:19:06Z,ygoe,addition/proposal|needs implementer interest|topic: parser|i18n-tracker|i18n-alreq|i18n-amlreq|i18n-mlreq|agenda+,4
 531506929,true,Misprint in example code,https://github.com/whatwg/html/issues/5119,2019-12-02T20:03:58Z,2020-01-09T09:07:58Z,johnnygerard,good first issue,0
 531353224,true,Should infinite recursion of custom element constructors be possible?,https://github.com/whatwg/html/issues/5118,2019-12-02T17:47:52Z,2020-01-22T19:39:18Z,mfreed7,topic: custom elements,0
 531174887,true,Parsing of <svg><p> in innerHTML is not interoperable,https://github.com/whatwg/html/issues/5117,2019-12-02T14:45:48Z,2021-03-02T17:08:46Z,zcorpan,topic: parser|interop,0
@@ -4100,7 +4101,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 144460958,true,Introduce Promise type BeforeUnloadEvent.prototype.returnValue to allow auto-saving on unloading a page,https://github.com/whatwg/html/issues/963,2016-03-30T04:27:29Z,2019-03-29T16:10:38Z,duanyao,addition/proposal,0
 144454099,true,"Make <iframe src=""about:blank""> to be XHTML mode if the parent document is a XHTML document",https://github.com/whatwg/html/issues/962,2016-03-30T03:32:26Z,2016-03-30T07:20:30Z,duanyao,,0
 144279126,false,text input empty string storage,https://github.com/whatwg/html/issues/959,2016-03-29T14:21:08Z,2016-04-04T11:36:15Z,TheTesla,normative change|compat,0
-144242350,false,"Clarify ""report an exception""",https://github.com/whatwg/html/issues/958,2016-03-29T12:01:52Z,2020-04-07T18:23:01Z,Ms2ger,topic: multiple globals,0
+144242350,false,"Clarify ""report an exception""",https://github.com/whatwg/html/issues/958,2016-03-29T12:01:52Z,2023-12-14T06:13:38Z,Ms2ger,topic: multiple globals,0
 144235836,true,"""get the current value of the event handler"" has backwards script-enabled check",https://github.com/whatwg/html/issues/957,2016-03-29T11:34:09Z,2016-04-29T20:33:12Z,Ms2ger,good first issue,0
 144208959,true,Should we preserve the playbackRate between play/pause from user interface?,https://github.com/whatwg/html/issues/956,2016-03-29T09:30:38Z,2016-04-05T09:57:19Z,alastor0325,topic: media,0
 144194271,true,Move https://images.whatwg.org/robots.jpeg into this repository,https://github.com/whatwg/html/issues/955,2016-03-29T08:34:17Z,2016-03-29T22:47:15Z,annevk,good first issue,0
@@ -4406,7 +4407,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 115755219,true,"Typo in the note after ""reconstruct the active formatting elements"" algorithm",https://github.com/whatwg/html/issues/318,2015-11-08T19:58:12Z,2015-11-12T08:24:24Z,abacabadabacaba,good first issue,0
 115754721,true,DTD for XHTML contains wrong entity definitions,https://github.com/whatwg/html/issues/317,2015-11-08T19:47:27Z,2015-11-10T07:33:40Z,abacabadabacaba,,0
 115618219,true,Step 2 of Resource Fetch Algorithm for media elements is backwards,https://github.com/whatwg/html/issues/316,2015-11-07T00:32:46Z,2015-11-25T10:19:18Z,jdm,good first issue,0
-115551591,true,Remove shared workers?,https://github.com/whatwg/html/issues/315,2015-11-06T17:32:00Z,2021-04-16T23:26:57Z,annevk,removal/deprecation|topic: workers,19
+115551591,true,Remove shared workers?,https://github.com/whatwg/html/issues/315,2015-11-06T17:32:00Z,2021-04-16T23:26:57Z,annevk,removal/deprecation|topic: workers,20
 115443319,true,"Clarify ""7.6.1 Navigating across documents"" with respect to redirects and javascript: urls",https://github.com/whatwg/html/issues/314,2015-11-06T06:12:42Z,2016-07-04T08:38:22Z,eefriedman,topic: navigation,0
 115310100,false,Disowning owner should perhaps affect link targeting,https://github.com/whatwg/html/issues/313,2015-11-05T15:38:44Z,2019-03-04T11:28:41Z,bzbarsky,topic: navigation|topic: browsing context,0
 115060041,false,Some specification UI recomendations,https://github.com/whatwg/html/issues/311,2015-11-04T14:15:04Z,2015-11-18T11:16:07Z,jiezhang917,spec tooling,0
