@@ -5,14 +5,14 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2043580479,false,"The ""onpagereveal"" attribute should be added to section of ""4.3.1 The body element"".",https://github.com/whatwg/html/issues/9995,2023-12-15T11:43:57Z,2023-12-16T04:10:14Z,mtrootyy,,1
 2042672086,false,Upcoming WHATNOT meeting on 1/11/2024,https://github.com/whatwg/html/issues/9993,2023-12-14T23:53:06Z,2023-12-14T23:53:06Z,past,agenda+,0
 2041234260,false,"colspan=""0"": Formalize a way to get a cell to span all/remaining columns",https://github.com/whatwg/html/issues/9992,2023-12-14T08:53:57Z,2023-12-14T08:53:57Z,andrerom,addition/proposal|needs implementer interest,0
-2040145190,false,select.showPicker() in content-visibility: hidden subtree,https://github.com/whatwg/html/issues/9991,2023-12-13T17:10:42Z,2023-12-13T17:20:17Z,lukewarlow,,0
+2040145190,false,select.showPicker() in content-visibility: hidden subtree,https://github.com/whatwg/html/issues/9991,2023-12-13T17:10:42Z,2023-12-18T22:50:53Z,lukewarlow,,0
 2036911436,false,Editorial: link the Promise<T> type throughout,https://github.com/whatwg/html/issues/9987,2023-12-12T03:38:59Z,2023-12-12T09:58:13Z,domenic,good first issue|editorial,0
 2033957372,false,<datalist> behavior(s) are inconsistent and unhelpful when options are prefiltered,https://github.com/whatwg/html/issues/9986,2023-12-09T17:36:53Z,2023-12-09T18:19:06Z,broofa,,0
 2028951452,false,"ShadowRoot with true delegatesFocus, predict the target",https://github.com/whatwg/html/issues/9982,2023-12-06T16:32:41Z,2023-12-06T16:33:36Z,flavi1,addition/proposal|needs implementer interest,0
 2028286303,false,Normative references to discontinued specs in HTML Standard,https://github.com/whatwg/html/issues/9981,2023-12-06T11:00:58Z,2023-12-07T06:39:38Z,dontcallmedom-bot,clarification,0
 2024998082,true,Event handler attributes missing from element content attribute definitions,https://github.com/whatwg/html/issues/9978,2023-12-04T23:40:38Z,2023-12-04T23:44:50Z,isAdrisal,,0
 2024636918,false,Add <link disabled> stylesheets to document.styleSheets,https://github.com/whatwg/html/issues/9977,2023-12-04T20:09:21Z,2023-12-12T15:35:48Z,jfbrennan,addition/proposal|needs implementer interest,0
-2023757607,false,[forms] Make <input type=button> magic clip not magic,https://github.com/whatwg/html/issues/9976,2023-12-04T12:35:28Z,2023-12-15T00:39:54Z,emilio,topic: rendering|topic: forms,0
+2023757607,true,[forms] Make <input type=button> magic clip not magic,https://github.com/whatwg/html/issues/9976,2023-12-04T12:35:28Z,2023-12-18T20:17:55Z,emilio,topic: rendering|topic: forms,0
 2022339919,false,"Should the ""focus update steps"" consider an `input` element's ""input activation steps"" rather than just its ""activation steps""?",https://github.com/whatwg/html/issues/9973,2023-12-03T03:56:55Z,2023-12-03T03:57:43Z,trflynn89,,0
 2021606584,false,"<slot> element with tabindex=""-1"" causes slotted elements that are usually focusable to not be focusable.",https://github.com/whatwg/html/issues/9971,2023-12-01T21:28:04Z,2023-12-01T22:29:38Z,KonnorRogers,topic: shadow|topic: focus,0
 2021361911,false,consider whether we should have implementation or authoring requirements for nested <details name=...>,https://github.com/whatwg/html/issues/9968,2023-12-01T18:10:53Z,2023-12-02T07:51:38Z,dbaron,,0
@@ -44,7 +44,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1975384473,true,"Some autofill tokens incorrectly/inaptly named, while others are inadequate",https://github.com/whatwg/html/issues/9910,2023-11-03T03:01:53Z,2023-11-03T04:12:05Z,getsnoopy,,0
 1975205140,true,Upcoming HTML standard issue triage meeting on 11/16/2023,https://github.com/whatwg/html/issues/9909,2023-11-02T23:38:58Z,2023-11-16T23:27:17Z,past,agenda+,0
 1971645198,false,Consider accounting for reduced motion preferences when determining if HTMLVideoElements are eligible for autoplay,https://github.com/whatwg/html/issues/9900,2023-11-01T03:48:11Z,2023-11-13T08:25:37Z,sivakusayan,,0
-1970431934,false,Clarify details documentation for a11y and usage,https://github.com/whatwg/html/issues/9899,2023-10-31T13:04:45Z,2023-12-12T22:05:36Z,scottaohara,accessibility|a11y-tracker,2
+1970431934,false,Clarify details documentation for a11y and usage,https://github.com/whatwg/html/issues/9899,2023-10-31T13:04:45Z,2023-12-19T00:17:46Z,scottaohara,accessibility|a11y-tracker,2
 1969082185,false,"""textarea wrapping transformation"" should reflect implementations",https://github.com/whatwg/html/issues/9896,2023-10-30T19:37:03Z,2023-11-06T16:07:03Z,bfgeek,topic: forms,0
 1968503134,false,"Add ""callto"" to the safelisted schemes",https://github.com/whatwg/html/issues/9894,2023-10-30T14:25:57Z,2023-10-30T15:34:17Z,Draginfable,topic: custom protocols,0
 1968396080,true,Typo error in contributing file,https://github.com/whatwg/html/issues/9891,2023-10-30T13:43:09Z,2023-10-31T06:34:07Z,DevanshKyada27,,0
@@ -126,7 +126,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1887654479,false,navigate() should not use parse a URL,https://github.com/whatwg/html/issues/9708,2023-09-08T13:05:43Z,2023-10-01T14:27:45Z,annevk,topic: navigation,1
 1886589682,true,Upcoming HTML standard issue triage meeting on 10/5/2023,https://github.com/whatwg/html/issues/9706,2023-09-07T21:34:34Z,2023-10-05T22:34:00Z,past,agenda+,0
 1886572380,false,Why is the content model for `<button>` limited to phrasing content?,https://github.com/whatwg/html/issues/9705,2023-09-07T21:14:57Z,2023-10-01T14:20:35Z,mfreed7,document conformance,0
-1884393327,false,[View Transition] Event on old Document to set transition state,https://github.com/whatwg/html/issues/9702,2023-09-06T16:48:16Z,2023-12-18T06:15:51Z,khushalsagar,,0
+1884393327,false,[View Transition] Event on old Document to set transition state,https://github.com/whatwg/html/issues/9702,2023-09-06T16:48:16Z,2023-12-18T20:23:47Z,khushalsagar,,0
 1883527421,true,<link rel=stylesheet> has a weird reference to resulting URL string,https://github.com/whatwg/html/issues/9695,2023-09-06T08:36:28Z,2023-09-08T09:09:16Z,annevk,topic: link,0
 1883499736,false,Enable `git diff` for individual sections of the `source` file,https://github.com/whatwg/html/issues/9694,2023-09-06T08:20:01Z,2023-10-01T14:30:47Z,not-my-profile,,0
 1883480006,false,"Specify steps for ""preparing an image for presentation"" for the EXIF-arriving-late case",https://github.com/whatwg/html/issues/9693,2023-09-06T08:07:35Z,2023-10-01T14:31:46Z,yarusome,topic: img|integration,0
@@ -145,7 +145,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1871074320,false,Proposal: Allow sites to target navigations at split tabs,https://github.com/whatwg/html/issues/9644,2023-08-29T07:34:46Z,2023-10-01T14:48:27Z,xuzhengyi1995,addition/proposal|needs implementer interest,7
 1870830199,true,404,https://github.com/whatwg/html/issues/9643,2023-08-29T03:49:27Z,2023-08-30T08:16:45Z,ToBeJazz,,0
 1868260579,true,Dialog initial focus when dialog contains a slot element,https://github.com/whatwg/html/issues/9640,2023-08-26T20:31:00Z,2023-08-30T07:33:58Z,josepharhar,topic: shadow|topic: focus,0
-1867981093,false,Define :user-invalid / :user-valid for form-associated custom elements,https://github.com/whatwg/html/issues/9639,2023-08-26T08:41:03Z,2023-12-11T13:24:38Z,nt1m,addition/proposal|needs implementer interest|topic: custom elements|topic: forms,0
+1867981093,false,Define :user-invalid / :user-valid for form-associated custom elements,https://github.com/whatwg/html/issues/9639,2023-08-26T08:41:03Z,2023-12-19T00:17:01Z,nt1m,addition/proposal|needs implementer interest|topic: custom elements|topic: forms,0
 1867975363,false,Make cloneNode() copy files of <input type=file>,https://github.com/whatwg/html/issues/9638,2023-08-26T08:26:25Z,2023-10-01T14:49:43Z,annevk,topic: forms,0
 1866648537,true,"""note about 103 and HTTP/2"" makes normative assertion",https://github.com/whatwg/html/issues/9637,2023-08-25T09:01:04Z,2023-09-04T08:30:18Z,annevk,,1
 1866045497,true,Treat .d/ as same-origin for file:// URLs,https://github.com/whatwg/html/issues/9635,2023-08-25T00:06:41Z,2023-08-25T10:32:24Z,SoniEx2,,0
@@ -2486,7 +2486,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 358264022,true,For,https://github.com/whatwg/html/issues/4018,2018-09-08T04:45:15Z,2018-09-08T16:13:49Z,iwillcatchu72,,0
 358205065,true,Restrict use of `registerProtocolHandler` to secure contexts,https://github.com/whatwg/html/issues/4017,2018-09-07T20:42:14Z,2019-11-19T18:44:26Z,asankah,normative change|security/privacy|impacts documentation,3
 358194786,false,CDATA section in SVG title is handled differently in browsers,https://github.com/whatwg/html/issues/4016,2018-09-07T20:04:42Z,2018-09-07T22:25:14Z,zcorpan,topic: parser,0
-358190337,false,"""in foreign content"" is missing from list of insertion modes",https://github.com/whatwg/html/issues/4015,2018-09-07T19:47:58Z,2018-09-07T19:47:58Z,zcorpan,clarification|topic: parser,0
+358190337,false,"""in foreign content"" is missing from list of insertion modes",https://github.com/whatwg/html/issues/4015,2018-09-07T19:47:58Z,2023-12-18T16:38:12Z,zcorpan,topic: parser,0
 358180145,true,Rendering when fieldset is fixed height and the legend is much taller,https://github.com/whatwg/html/issues/4014,2018-09-07T19:12:11Z,2018-09-17T19:03:30Z,zcorpan,topic: rendering|interop|topic: fieldset,0
 358143285,true,Have <legend align> map to justify-self,https://github.com/whatwg/html/issues/4013,2018-09-07T17:03:08Z,2018-09-19T18:04:42Z,zcorpan,topic: fieldset,0
 357813827,false,locking elements for display,https://github.com/whatwg/html/issues/4010,2018-09-06T20:26:46Z,2018-09-07T08:34:03Z,vmpstr,addition/proposal|needs implementer interest,0
@@ -2754,7 +2754,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2023-06-14T18:51:29Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,22
 305369552,true,Proposal: Improve control over HTML/XML syntax parse errors,https://github.com/whatwg/html/issues/3569,2018-03-14T23:56:33Z,2022-04-18T15:28:51Z,dvdckl,addition/proposal|needs implementer interest|topic: parser,0
 305147441,true,"<form method> description only says ""HTTP method""",https://github.com/whatwg/html/issues/3568,2018-03-14T12:58:10Z,2018-04-20T07:53:27Z,annevk,good first issue,0
-305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2023-10-07T13:45:11Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,148
+305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2023-10-07T13:45:11Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,152
 305020324,true,Separate out document.open() method declaration definitions,https://github.com/whatwg/html/issues/3565,2018-03-14T04:36:27Z,2018-06-28T15:27:09Z,domenic,clarification|good first issue|topic: document.open(),0
 305019688,true,At least Blink does not support document.open()'s replace parameter,https://github.com/whatwg/html/issues/3564,2018-03-14T04:31:43Z,2018-08-23T18:40:33Z,domenic,topic: history|interop|topic: document.open(),0
 304874091,false,<template> element capability/semantics in SVG parsing context,https://github.com/whatwg/html/issues/3563,2018-03-13T17:59:50Z,2018-03-15T07:34:25Z,kevinpschaaf,addition/proposal|needs implementer interest|topic: parser,0
