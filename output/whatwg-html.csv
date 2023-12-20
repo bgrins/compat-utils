@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2049530821,false,"New feature: <button type=""action""> for performing a specified action on a specified element",https://github.com/whatwg/html/issues/10010,2023-12-19T22:26:15Z,2023-12-19T22:26:15Z,oscarrdy,addition/proposal|needs implementer interest,0
+2049530821,true,"New feature: <button type=""action""> for performing a specified action on a specified element",https://github.com/whatwg/html/issues/10010,2023-12-19T22:26:15Z,2023-12-20T02:00:51Z,oscarrdy,addition/proposal|needs implementer interest,0
 2049213410,false,`window.log/warn/error` as native toast notification,https://github.com/whatwg/html/issues/10008,2023-12-19T18:20:16Z,2023-12-19T18:20:16Z,GermanJablo,addition/proposal|needs implementer interest,0
 2047952916,true,Normative definition for Top level traversable,https://github.com/whatwg/html/issues/10006,2023-12-19T05:32:22Z,2023-12-19T05:44:49Z,hamishwillee,,0
 2046171405,true,"Structure Data ",https://github.com/whatwg/html/issues/10000,2023-12-18T09:33:20Z,2023-12-18T10:34:43Z,Ken-Dean,,1
@@ -18,7 +18,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2023757607,true,[forms] Make <input type=button> magic clip not magic,https://github.com/whatwg/html/issues/9976,2023-12-04T12:35:28Z,2023-12-18T20:17:55Z,emilio,topic: rendering|topic: forms,0
 2022339919,false,"Should the ""focus update steps"" consider an `input` element's ""input activation steps"" rather than just its ""activation steps""?",https://github.com/whatwg/html/issues/9973,2023-12-03T03:56:55Z,2023-12-03T03:57:43Z,trflynn89,,0
 2021606584,false,"<slot> element with tabindex=""-1"" causes slotted elements that are usually focusable to not be focusable.",https://github.com/whatwg/html/issues/9971,2023-12-01T21:28:04Z,2023-12-01T22:29:38Z,KonnorRogers,topic: shadow|topic: focus,0
-2021361911,false,consider whether we should have implementation or authoring requirements for nested <details name=...>,https://github.com/whatwg/html/issues/9968,2023-12-01T18:10:53Z,2023-12-02T07:51:38Z,dbaron,,0
+2021361911,true,consider whether we should have implementation or authoring requirements for nested <details name=...>,https://github.com/whatwg/html/issues/9968,2023-12-01T18:10:53Z,2023-12-20T03:02:16Z,dbaron,,0
 2019910669,true,Should 'presentational hints' for 'lists' should be extended to 'OL'?,https://github.com/whatwg/html/issues/9967,2023-12-01T02:13:12Z,2023-12-04T09:45:44Z,Ahmad-S792,,0
 2019726611,true,Upcoming WHATNOT meeting on 12/14/2023,https://github.com/whatwg/html/issues/9966,2023-11-30T23:59:42Z,2023-12-15T00:04:13Z,past,agenda+,0
 2015566921,false,Add `HTMLLinkElement.prototype.use` apply shared style in Declarative Shadow DOM,https://github.com/whatwg/html/issues/9962,2023-11-29T00:26:04Z,2023-12-15T15:14:00Z,mantou132,addition/proposal|needs implementer interest,0
@@ -59,7 +59,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1960081159,false,Third-party cookie blocking and rendering media URLs with Content-Security-Policy,https://github.com/whatwg/html/issues/9879,2023-10-24T21:10:35Z,2023-11-14T13:20:59Z,DCtheTall,,0
 1959607137,false,Missing `reportValidity()` hook,https://github.com/whatwg/html/issues/9878,2023-10-24T16:10:13Z,2023-12-11T15:25:43Z,jpzwarte,addition/proposal|needs implementer interest|topic: forms|needs concrete proposal,1
 1954805614,true,Upcoming HTML standard issue triage meeting on 11/2/2023,https://github.com/whatwg/html/issues/9874,2023-10-20T18:11:00Z,2023-11-02T23:41:44Z,past,agenda+,0
-1953949668,false,Web Socket Link is Gone,https://github.com/whatwg/html/issues/9871,2023-10-20T10:02:18Z,2023-10-20T10:32:02Z,FenrirSoftworks,,0
+1953949668,true,Web Socket Link is Gone,https://github.com/whatwg/html/issues/9871,2023-10-20T10:02:18Z,2023-12-20T10:47:05Z,FenrirSoftworks,,0
 1952847100,false,Navigables reloading does not work,https://github.com/whatwg/html/issues/9869,2023-10-19T18:36:45Z,2023-11-01T21:41:45Z,kalenikaliaksandr,clarification|topic: navigation,0
 1952210353,true,"HostLoadImportedModule uses undefined variable ""result""",https://github.com/whatwg/html/issues/9867,2023-10-19T13:03:11Z,2023-10-30T14:54:58Z,Ms2ger,topic: script,0
 1951582919,true,Absolute positioned divs are cut off at boundaries of html dialog element,https://github.com/whatwg/html/issues/9866,2023-10-19T08:24:30Z,2023-10-20T19:23:34Z,delijah,topic: dialog,0
@@ -593,7 +593,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1408292081,true,Upcoming HTML standard issue triage meeting on 10/27/2022,https://github.com/whatwg/html/issues/8385,2022-10-13T19:05:26Z,2022-10-27T16:57:55Z,past,agenda+,0
 1407210379,true,"Navigation requests destination always set to ""document""",https://github.com/whatwg/html/issues/8383,2022-10-13T06:16:54Z,2022-10-13T07:13:32Z,antosart,topic: navigation,0
 1403944971,true,User activation: what should happen if there is no browsing context?,https://github.com/whatwg/html/issues/8378,2022-10-11T03:26:37Z,2023-04-12T05:47:16Z,marcoscaceres,topic: user activation,0
-1403388271,false,request: need a way to prevent mobile browser scrolling when focusing an input,https://github.com/whatwg/html/issues/8375,2022-10-10T15:50:46Z,2022-10-11T02:23:54Z,liamdebeasi,addition/proposal|needs implementer interest,3
+1403388271,false,request: need a way to prevent mobile browser scrolling when focusing an input,https://github.com/whatwg/html/issues/8375,2022-10-10T15:50:46Z,2022-10-11T02:23:54Z,liamdebeasi,addition/proposal|needs implementer interest,4
 1403380623,true,"Possible error in the text about <input type=""range"">",https://github.com/whatwg/html/issues/8374,2022-10-10T15:45:07Z,2022-10-11T04:46:20Z,BlueInGreen68,,0
 1403050872,true,"rel values ""prev"" and ""next"" not allowed in body?",https://github.com/whatwg/html/issues/8372,2022-10-10T11:53:23Z,2022-10-10T13:06:37Z,brennanyoung,document conformance|topic: hyperlink,0
 1402147315,true,"<pre>: line number ",https://github.com/whatwg/html/issues/8369,2022-10-09T04:31:39Z,2023-09-15T06:46:27Z,esdnm,addition/proposal|needs implementer interest,1
@@ -3423,7 +3423,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 208026022,true,"Should clarify the ""scope"" of [CEReactions]",https://github.com/whatwg/html/issues/2362,2017-02-16T06:00:12Z,2017-02-22T14:27:42Z,bzbarsky,topic: custom elements,0
 207840522,true,Consolidate performing a security check in the spec with implementations,https://github.com/whatwg/html/issues/2360,2017-02-15T15:43:04Z,2020-07-11T06:11:15Z,jeisinger,security/privacy,0
 207449804,false,"Clearly define what is a ""form control""",https://github.com/whatwg/html/issues/2359,2017-02-14T08:37:30Z,2017-03-14T21:04:09Z,zcorpan,topic: rendering|topic: forms,0
-207328005,true,A use case for cursor control for number inputs,https://github.com/whatwg/html/issues/2358,2017-02-13T20:19:40Z,2017-02-14T15:34:32Z,justinbmeyer,topic: forms,0
+207328005,true,A use case for cursor control for number inputs,https://github.com/whatwg/html/issues/2358,2017-02-13T20:19:40Z,2023-12-20T08:12:18Z,justinbmeyer,topic: forms,0
 207237443,true,Why does valid email definition mention Unicode?,https://github.com/whatwg/html/issues/2357,2017-02-13T14:44:08Z,2017-02-14T09:32:42Z,LeonidVasilyev,,0
 206885082,true,"Add link rel=""canonical""",https://github.com/whatwg/html/issues/2351,2017-02-10T19:27:51Z,2017-04-12T23:23:25Z,domenic,addition/proposal|document conformance,1
 206490799,true,Unwanted message,https://github.com/whatwg/html/issues/2345,2017-02-09T12:33:17Z,2017-02-09T13:42:09Z,singhbrijesh,,0
