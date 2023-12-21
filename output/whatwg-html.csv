@@ -1,5 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2049530821,true,"New feature: <button type=""action""> for performing a specified action on a specified element",https://github.com/whatwg/html/issues/10010,2023-12-19T22:26:15Z,2023-12-20T02:00:51Z,oscarrdy,addition/proposal|needs implementer interest,0
+2051038890,false,"User interacted flag gets set when change events are set, but tests disagree",https://github.com/whatwg/html/issues/10013,2023-12-20T18:06:14Z,2023-12-20T18:22:12Z,emilio,agenda+|topic: selectors,0
+2051038458,true,"User interacted flag gets set when change events are set, but tests disagree",https://github.com/whatwg/html/issues/10012,2023-12-20T18:05:56Z,2023-12-20T18:06:24Z,emilio,,0
+2051032065,false,Textarea user interacted flag doesn't seem to be set to true unless by form submission.,https://github.com/whatwg/html/issues/10011,2023-12-20T18:01:01Z,2023-12-20T18:21:49Z,emilio,topic: selectors,0
+2049530821,true,"<button type=""action""> for performing a specified action on a specified element",https://github.com/whatwg/html/issues/10010,2023-12-19T22:26:15Z,2023-12-20T13:20:46Z,oscarrdy,addition/proposal|needs implementer interest,0
 2049213410,false,`window.log/warn/error` as native toast notification,https://github.com/whatwg/html/issues/10008,2023-12-19T18:20:16Z,2023-12-19T18:20:16Z,GermanJablo,addition/proposal|needs implementer interest,0
 2047952916,true,Normative definition for Top level traversable,https://github.com/whatwg/html/issues/10006,2023-12-19T05:32:22Z,2023-12-19T05:44:49Z,hamishwillee,,0
 2046171405,true,"Structure Data ",https://github.com/whatwg/html/issues/10000,2023-12-18T09:33:20Z,2023-12-18T10:34:43Z,Ken-Dean,,1
@@ -1971,7 +1974,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 504207648,true,Adopt the allowance of headings inside legend from W3C HTML5.2?,https://github.com/whatwg/html/issues/4990,2019-10-08T18:33:50Z,2020-02-19T13:51:38Z,SelenIT,addition/proposal|document conformance|accessibility|impacts documentation,9
 504066480,true,"""Create a similar-origin window agent"" is weird",https://github.com/whatwg/html/issues/4988,2019-10-08T14:06:18Z,2020-03-31T17:10:56Z,annevk,topic: agent,0
 503894667,false,autocomplete attribute for credit-card expiration details,https://github.com/whatwg/html/issues/4987,2019-10-08T08:12:59Z,2019-11-09T00:48:55Z,battre,addition/proposal|topic: forms|i18n-tracker,1
-503891219,false,autocomplete attribute for street-address details,https://github.com/whatwg/html/issues/4986,2019-10-08T08:05:20Z,2023-05-11T21:46:08Z,battre,addition/proposal|needs implementer interest|accessibility|topic: forms|i18n-tracker,40
+503891219,false,autocomplete attribute for street-address details,https://github.com/whatwg/html/issues/4986,2019-10-08T08:05:20Z,2023-05-11T21:46:08Z,battre,addition/proposal|needs implementer interest|accessibility|topic: forms|i18n-tracker,41
 503719928,true,Base6,https://github.com/whatwg/html/issues/4981,2019-10-07T22:17:00Z,2019-10-08T02:10:35Z,Deadmau8772,,0
 503657569,false,Attempt to remove implied-document definition,https://github.com/whatwg/html/issues/4980,2019-10-07T19:55:46Z,2020-06-24T16:37:26Z,dtapuska,clarification|topic: event loop,0
 503606041,false,Multiple Selections from Datalist,https://github.com/whatwg/html/issues/4979,2019-10-07T18:06:20Z,2021-03-21T00:07:52Z,ecc521,addition/proposal|needs implementer interest|topic: forms,1
@@ -2737,7 +2740,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 309506211,false,Figure out if submit and reset events need to be handled in special way during dispatch,https://github.com/whatwg/html/issues/3599,2018-03-28T19:48:48Z,2018-09-06T07:23:14Z,smaug----,topic: forms,0
 309328992,false,Weird use of <strong> in <h1>–</h6>,https://github.com/whatwg/html/issues/3597,2018-03-28T11:34:47Z,2018-04-01T10:14:18Z,prlbr,clarification|document conformance,0
 309229896,false,Allow adding icons/images to <select> and <datalist> <option>s,https://github.com/whatwg/html/issues/3596,2018-03-28T05:52:24Z,2021-04-30T03:54:13Z,alekseyg,addition/proposal|needs implementer interest|topic: forms,38
-309218000,false,Add autocorrect content attribute to HTMLElement,https://github.com/whatwg/html/issues/3595,2018-03-28T04:34:08Z,2020-10-26T20:48:11Z,rniwa,addition/proposal|document conformance|i18n-tracker|impacts documentation,11
+309218000,false,Add autocorrect content attribute to HTMLElement,https://github.com/whatwg/html/issues/3595,2018-03-28T04:34:08Z,2020-10-26T20:48:11Z,rniwa,addition/proposal|document conformance|i18n-tracker|impacts documentation,12
 308839918,true,"Proposal: DecodeVideoData API, exposed at Window and Worker",https://github.com/whatwg/html/issues/3593,2018-03-27T06:39:53Z,2018-03-27T08:45:41Z,guest271314,,0
 308722774,false,Move all members except href in SVGAElement to mixin in HTML,https://github.com/whatwg/html/issues/3591,2018-03-26T20:26:33Z,2018-04-21T15:22:50Z,dstorey,topic: hyperlink|integration,0
 308112326,true,Why is No CORS the default state for CORS settings attributes?,https://github.com/whatwg/html/issues/3589,2018-03-23T17:12:25Z,2020-03-19T21:31:46Z,Ajedi32,clarification|topic: canvas,0
@@ -3470,7 +3473,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 202076709,true,"""A 002E FULL STOP character (.)""",https://github.com/whatwg/html/issues/2274,2017-01-20T08:01:35Z,2017-01-21T00:14:48Z,cvrebert,good first issue,0
 201967740,true,Cross-origin getters seem to ask impossible things,https://github.com/whatwg/html/issues/2273,2017-01-19T20:32:34Z,2017-05-16T15:56:02Z,domenic,topic: multiple globals,0
 201825957,false,Disallow interactive content in <summary>,https://github.com/whatwg/html/issues/2272,2017-01-19T10:54:39Z,2023-11-09T15:56:43Z,zcorpan,document conformance|accessibility|a11y-tracker,0
-201312087,false,Make custom attribute rules consistent with custom element name rules,https://github.com/whatwg/html/issues/2271,2017-01-17T15:04:58Z,2023-12-19T19:41:04Z,LeaVerou,addition/proposal|needs implementer interest|topic: custom elements,85
+201312087,false,Make custom attribute rules consistent with custom element name rules,https://github.com/whatwg/html/issues/2271,2017-01-17T15:04:58Z,2023-12-19T19:41:04Z,LeaVerou,addition/proposal|needs implementer interest|topic: custom elements,86
 201247626,true,"Definition of ""User Agent (UA)""",https://github.com/whatwg/html/issues/2270,2017-01-17T11:11:25Z,2017-01-17T16:39:32Z,vkatsikaros,,0
 200765661,true,The pending dialog stack and the stack of top layer,https://github.com/whatwg/html/issues/2268,2017-01-14T00:39:30Z,2017-09-05T09:48:25Z,upsuper,,0
 200730663,false,Clarify DnD behavior when dragging file from file browser over document,https://github.com/whatwg/html/issues/2267,2017-01-13T21:06:03Z,2017-05-09T04:38:13Z,mystor,topic: drag and drop,0
