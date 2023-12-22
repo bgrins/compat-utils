@@ -8,7 +8,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2047952916,true,Normative definition for Top level traversable,https://github.com/whatwg/html/issues/10006,2023-12-19T05:32:22Z,2023-12-19T05:44:49Z,hamishwillee,,0
 2046171405,true,"Structure Data ",https://github.com/whatwg/html/issues/10000,2023-12-18T09:33:20Z,2023-12-18T10:34:43Z,Ken-Dean,,1
 2044293427,false,"Opening a dialog as modal, nested inside a popover, causes the whole page to go inert with limited ways for the user to address it.",https://github.com/whatwg/html/issues/9998,2023-12-15T19:50:46Z,2023-12-16T01:09:16Z,keithamus,topic: dialog|agenda+|topic: popover,0
-2044189464,false,Allow CSS Custom Property in mask-icon's color attribute,https://github.com/whatwg/html/issues/9997,2023-12-15T18:32:54Z,2023-12-15T18:33:40Z,jfbrennan,addition/proposal|needs implementer interest,0
+2044189464,false,Allow CSS Custom Property in mask-icon's color attribute,https://github.com/whatwg/html/issues/9997,2023-12-15T18:32:54Z,2023-12-21T15:19:44Z,jfbrennan,addition/proposal|needs implementer interest|topic: style,0
 2043580479,false,"The ""onpagereveal"" attribute should be added to section of ""4.3.1 The body element"".",https://github.com/whatwg/html/issues/9995,2023-12-15T11:43:57Z,2023-12-16T04:10:14Z,mtrootyy,,1
 2042672086,false,Upcoming WHATNOT meeting on 1/11/2024,https://github.com/whatwg/html/issues/9993,2023-12-14T23:53:06Z,2023-12-14T23:53:06Z,past,agenda+,0
 2041234260,false,"colspan=""0"": Formalize a way to get a cell to span all/remaining columns",https://github.com/whatwg/html/issues/9992,2023-12-14T08:53:57Z,2023-12-14T08:53:57Z,andrerom,addition/proposal|needs implementer interest,0
@@ -33,7 +33,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2007079181,true,Change default img sizes from 100vw to 100cqw,https://github.com/whatwg/html/issues/9948,2023-11-22T20:34:42Z,2023-11-22T21:13:13Z,jacobrask,addition/proposal|needs implementer interest,0
 2002960569,false,Positioning for showPicker() on non-rendered inputs,https://github.com/whatwg/html/issues/9942,2023-11-20T20:33:00Z,2023-11-20T20:37:27Z,lukewarlow,,0
 2001875150,false,Tab-restore is somewhat observable but not specified,https://github.com/whatwg/html/issues/9941,2023-11-20T10:34:01Z,2023-11-30T09:39:16Z,noamr,,0
-2001037750,false,"""parse a CSS <color> value"" should take into account that currentColor can be nested in color-mix() ",https://github.com/whatwg/html/issues/9940,2023-11-19T21:11:26Z,2023-12-05T17:02:01Z,Loirooriol,topic: canvas,0
+2001037750,false,"""parse a CSS <color> value"" should take into account that currentColor can be nested in color-mix() ",https://github.com/whatwg/html/issues/9940,2023-11-19T21:11:26Z,2023-12-21T15:29:27Z,Loirooriol,topic: canvas|topic: style,0
 1998116614,true,How to serialize new CSS color functions in canvas?,https://github.com/whatwg/html/issues/9939,2023-11-17T01:59:39Z,2023-11-17T02:42:23Z,Loirooriol,,0
 1998110326,true,Orphan nested dedicated worker closing seems buggy,https://github.com/whatwg/html/issues/9938,2023-11-17T01:55:30Z,2023-11-18T03:12:22Z,Kaiido,clarification|topic: workers,0
 1997946764,true,Upcoming WHATNOT meeting on 11/30/2023,https://github.com/whatwg/html/issues/9937,2023-11-16T23:11:47Z,2023-12-01T00:02:06Z,past,agenda+,0
@@ -211,7 +211,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1788359824,true,"Use ""matches about:blank"" and ""matches about:srcdoc"" in more places",https://github.com/whatwg/html/issues/9488,2023-07-04T19:09:29Z,2023-07-28T00:45:03Z,domfarolino,topic: navigation,1
 1787902159,false,"Showing only a child popover causes ""beforetoggle"" and ""toggle"" events but popover is invisble",https://github.com/whatwg/html/issues/9487,2023-07-04T13:07:44Z,2023-07-12T23:31:37Z,mbrodesser-Igalia,topic: popover,0
 1785504701,true,Input.valueAsNumber can not be manually set to NaN despite it being a valid value for it,https://github.com/whatwg/html/issues/9480,2023-07-03T07:19:15Z,2023-07-03T22:11:25Z,alexandertrefz,,0
-1784674592,false,Proposal: Meta Tag for AI Generated Content,https://github.com/whatwg/html/issues/9479,2023-07-02T14:49:11Z,2023-12-14T18:22:22Z,evayde,addition/proposal|needs implementer interest,13
+1784674592,false,Proposal: Meta Tag for AI Generated Content,https://github.com/whatwg/html/issues/9479,2023-07-02T14:49:11Z,2023-12-21T20:05:28Z,evayde,addition/proposal|needs implementer interest,13
 1782549061,true,Upcoming HTML standard issue triage meeting on 7/13/2023,https://github.com/whatwg/html/issues/9474,2023-06-30T13:38:01Z,2023-07-13T19:37:28Z,past,agenda+,1
 1782419433,false,Define `X-DNS-Prefetch-Control`,https://github.com/whatwg/html/issues/9473,2023-06-30T12:08:13Z,2023-06-30T12:18:22Z,yoavweiss,removal/deprecation|topic: resource hints (inc. preload),0
 1781091258,false,Specify a maximal depth of backtracking for the pattern attribute on input elements,https://github.com/whatwg/html/issues/9469,2023-06-29T15:38:55Z,2023-09-06T06:47:23Z,vinhill,topic: forms|integration,0
@@ -267,7 +267,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1727581751,false,Proposal: Improve support for multiple target origins for Window#postMessage,https://github.com/whatwg/html/issues/9340,2023-05-26T12:58:54Z,2023-06-11T13:22:49Z,eliasm307,addition/proposal|needs implementer interest|topic: serialize and transfer,0
 1726270402,true,"""check popover algorithm"" check for open dialogs is weak",https://github.com/whatwg/html/issues/9335,2023-05-25T18:10:32Z,2023-06-06T05:15:42Z,nt1m,topic: dialog|topic: popover,0
 1726046900,false,Proposal: Meta Tag for AI Consent Management,https://github.com/whatwg/html/issues/9334,2023-05-25T15:27:38Z,2023-08-15T22:34:35Z,brennancaldwell,addition/proposal|needs implementer interest,0
-1725842986,false,[View Transitions] Extend render-blocking to support Document,https://github.com/whatwg/html/issues/9332,2023-05-25T13:33:50Z,2023-12-19T10:08:17Z,khushalsagar,addition/proposal|topic: rendering,0
+1725842986,false,[View Transitions] Extend render-blocking to support Document,https://github.com/whatwg/html/issues/9332,2023-05-25T13:33:50Z,2023-12-21T20:40:36Z,khushalsagar,addition/proposal|topic: rendering,0
 1723771024,false,browsers handle document.open'ed iframe documents differently in session history,https://github.com/whatwg/html/issues/9330,2023-05-24T11:30:34Z,2023-06-01T07:36:22Z,smaug----,topic: history|interop|topic: document.open(),0
 1723381350,true,link type preload has a recursive refLink,https://github.com/whatwg/html/issues/9327,2023-05-24T07:45:31Z,2023-05-25T05:14:45Z,Kaiido,,0
 1721120977,false,New FocusEvent property for getting the FocusOptions,https://github.com/whatwg/html/issues/9322,2023-05-23T04:01:49Z,2023-05-26T09:20:11Z,woody-li,addition/proposal|needs implementer interest|topic: focus,1
@@ -2204,7 +2204,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 437886212,false,warning of usability and accessibility should be added to section of autofocus attribute,https://github.com/whatwg/html/issues/4575,2019-04-27T00:27:04Z,2019-04-30T12:55:54Z,mtrootyy,accessibility|topic: forms,1
 437441318,true,Event index: invalid event can be fired on the form element,https://github.com/whatwg/html/issues/4570,2019-04-25T23:45:05Z,2019-05-14T14:21:52Z,zcorpan,clarification|good first issue,0
 437249742,true,WebSocket close event object type — CloseEvent or Event?,https://github.com/whatwg/html/issues/4568,2019-04-25T15:03:20Z,2019-05-07T20:16:58Z,chrisdavidmills,good first issue,0
-437145202,false,Proposal: Network Idle Callback,https://github.com/whatwg/html/issues/4567,2019-04-25T11:19:45Z,2019-06-06T18:35:16Z,pastelsky,,3
+437145202,false,Proposal: Network Idle Callback,https://github.com/whatwg/html/issues/4567,2019-04-25T11:19:45Z,2019-06-06T18:35:16Z,pastelsky,,4
 437011192,false,Unpredictable availability of template's content,https://github.com/whatwg/html/issues/4566,2019-04-25T05:07:56Z,2019-05-01T05:42:07Z,tomalec,,0
 436847516,true,"add ""oncopy"", ""oncut"", ""onpaste"" attribute to list of event handler content attributes",https://github.com/whatwg/html/issues/4564,2019-04-24T18:36:09Z,2019-05-09T15:56:07Z,mtrootyy,good first issue,0
 436589633,true,Move autofocus content attribute to HTMLElement,https://github.com/whatwg/html/issues/4563,2019-04-24T09:26:11Z,2019-08-30T18:56:27Z,tkent-google,addition/proposal|topic: focus,2
