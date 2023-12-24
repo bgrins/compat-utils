@@ -4,7 +4,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2051038458,true,"User interacted flag gets set when change events are set, but tests disagree",https://github.com/whatwg/html/issues/10012,2023-12-20T18:05:56Z,2023-12-20T18:06:24Z,emilio,,0
 2051032065,false,Textarea user interacted flag doesn't seem to be set to true unless by form submission.,https://github.com/whatwg/html/issues/10011,2023-12-20T18:01:01Z,2023-12-20T18:21:49Z,emilio,topic: selectors,0
 2049530821,true,"<button type=""action""> for performing a specified action on a specified element",https://github.com/whatwg/html/issues/10010,2023-12-19T22:26:15Z,2023-12-20T13:20:46Z,oscarrdy,addition/proposal|needs implementer interest,0
-2049213410,false,`window.log/warn/error` as native toast notification,https://github.com/whatwg/html/issues/10008,2023-12-19T18:20:16Z,2023-12-19T18:20:16Z,GermanJablo,addition/proposal|needs implementer interest,0
+2049213410,false,`window.log/warn/error` as native toast notification,https://github.com/whatwg/html/issues/10008,2023-12-19T18:20:16Z,2023-12-23T20:27:43Z,GermanJablo,addition/proposal|needs implementer interest,0
 2047952916,true,Normative definition for Top level traversable,https://github.com/whatwg/html/issues/10006,2023-12-19T05:32:22Z,2023-12-19T05:44:49Z,hamishwillee,,0
 2046171405,true,"Structure Data ",https://github.com/whatwg/html/issues/10000,2023-12-18T09:33:20Z,2023-12-18T10:34:43Z,Ken-Dean,,1
 2044293427,false,"Opening a dialog as modal, nested inside a popover, causes the whole page to go inert with limited ways for the user to address it.",https://github.com/whatwg/html/issues/9998,2023-12-15T19:50:46Z,2023-12-16T01:09:16Z,keithamus,topic: dialog|agenda+|topic: popover,0
@@ -153,7 +153,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1870830199,true,404,https://github.com/whatwg/html/issues/9643,2023-08-29T03:49:27Z,2023-08-30T08:16:45Z,ToBeJazz,,0
 1868260579,true,Dialog initial focus when dialog contains a slot element,https://github.com/whatwg/html/issues/9640,2023-08-26T20:31:00Z,2023-08-30T07:33:58Z,josepharhar,topic: shadow|topic: focus,0
 1867981093,false,Define :user-invalid / :user-valid for form-associated custom elements,https://github.com/whatwg/html/issues/9639,2023-08-26T08:41:03Z,2023-12-19T00:17:01Z,nt1m,addition/proposal|needs implementer interest|topic: custom elements|topic: forms,0
-1867975363,false,Make cloneNode() copy files of <input type=file>,https://github.com/whatwg/html/issues/9638,2023-08-26T08:26:25Z,2023-10-01T14:49:43Z,annevk,topic: forms,0
+1867975363,false,Make cloneNode() copy files of <input type=file>,https://github.com/whatwg/html/issues/9638,2023-08-26T08:26:25Z,2023-12-23T14:58:24Z,annevk,topic: forms,0
 1866648537,true,"""note about 103 and HTTP/2"" makes normative assertion",https://github.com/whatwg/html/issues/9637,2023-08-25T09:01:04Z,2023-09-04T08:30:18Z,annevk,,1
 1866045497,true,Treat .d/ as same-origin for file:// URLs,https://github.com/whatwg/html/issues/9635,2023-08-25T00:06:41Z,2023-08-25T10:32:24Z,SoniEx2,,0
 1865899743,true,Initialization of NavigateEvent info property,https://github.com/whatwg/html/issues/9634,2023-08-24T21:18:14Z,2023-08-24T21:44:23Z,ADKaster,topic: navigation,0
@@ -1913,7 +1913,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 526936004,false,"Does the `meta http-equiv=""Content-Security-Policy""` tag allow lists of policies?",https://github.com/whatwg/html/issues/5102,2019-11-22T01:37:34Z,2020-03-23T15:10:10Z,bakkot,security/privacy|needs tests|interop|impacts documentation,0
 525147143,true,COEP and report-only mode,https://github.com/whatwg/html/issues/5100,2019-11-19T17:13:23Z,2020-03-18T05:18:17Z,yutakahirano,topic: cross-origin-embedder-policy,0
 524668024,false,Specify how scrolling works for form controls / widgets,https://github.com/whatwg/html/issues/5099,2019-11-18T22:54:15Z,2019-11-18T22:54:15Z,zcorpan,topic: forms|interop|integration,0
-524476023,false,Investigation requested for beforeprint/afterprint,https://github.com/whatwg/html/issues/5096,2019-11-18T16:27:09Z,2022-05-03T07:47:35Z,annevk,clarification|good first issue|needs tests,0
+524476023,false,Investigation requested for beforeprint/afterprint,https://github.com/whatwg/html/issues/5096,2019-11-18T16:27:09Z,2023-12-23T20:26:30Z,annevk,clarification|good first issue|needs tests,0
 524458731,true,getSVGDocument() and content document use slightly different security checks,https://github.com/whatwg/html/issues/5094,2019-11-18T15:58:38Z,2019-12-13T09:20:56Z,annevk,security/privacy,0
 523406009,true,For accessibility legend element should allow for headings h1-h6 in addition to phrasing content,https://github.com/whatwg/html/issues/5088,2019-11-15T11:04:51Z,2019-11-15T12:46:41Z,DavidMacDonald,document conformance|accessibility|impacts documentation,0
 523188827,true,Focusability of <video> and <audio> and possible spec gap,https://github.com/whatwg/html/issues/5087,2019-11-15T00:44:07Z,2020-05-11T18:33:05Z,matatk,clarification|topic: media|accessibility|topic: focus,0
