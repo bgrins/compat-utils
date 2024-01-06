@@ -13,7 +13,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2055370714,false,Port streams,https://github.com/whatwg/html/issues/10020,2023-12-25T04:42:20Z,2023-12-25T04:42:20Z,dead-claudia,addition/proposal|needs implementer interest,0
 2055039799,false,"Callback steps in ""start intersection-observing a lazy loading element"" may return too early",https://github.com/whatwg/html/issues/10019,2023-12-24T09:23:55Z,2023-12-24T09:23:55Z,awesomekling,,0
 2051509390,false,Remove the requirement to NOT include the charset within the Content-Type,https://github.com/whatwg/html/issues/10016,2023-12-21T01:07:46Z,2023-12-21T01:07:46Z,agowa,,1
-2051038890,false,"User interacted flag gets set when change events are set, but tests disagree",https://github.com/whatwg/html/issues/10013,2023-12-20T18:06:14Z,2024-01-05T04:23:33Z,emilio,agenda+|topic: selectors,0
+2051038890,false,"User interacted flag gets set when change events are set, but tests disagree",https://github.com/whatwg/html/issues/10013,2023-12-20T18:06:14Z,2024-01-05T17:08:45Z,emilio,agenda+|topic: selectors,0
 2051038458,true,"User interacted flag gets set when change events are set, but tests disagree",https://github.com/whatwg/html/issues/10012,2023-12-20T18:05:56Z,2023-12-20T18:06:24Z,emilio,,0
 2051032065,false,Textarea user interacted flag doesn't seem to be set to true unless by form submission.,https://github.com/whatwg/html/issues/10011,2023-12-20T18:01:01Z,2023-12-20T18:21:49Z,emilio,topic: selectors,0
 2049530821,true,"<button type=""action""> for performing a specified action on a specified element",https://github.com/whatwg/html/issues/10010,2023-12-19T22:26:15Z,2023-12-20T13:20:46Z,oscarrdy,addition/proposal|needs implementer interest,0
@@ -956,7 +956,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1103475849,false,Clarify how canvas fallback content relates to the accessibility tree,https://github.com/whatwg/html/issues/7490,2022-01-14T11:05:24Z,2023-09-08T12:05:21Z,brennanyoung,topic: canvas|accessibility|a11y-tracker,0
 1102610281,true,Upcoming HTML standard issue triage meeting on 2/3/2022,https://github.com/whatwg/html/issues/7488,2022-01-14T00:00:01Z,2022-02-03T23:55:19Z,past,agenda+,0
 1099808638,true,Fieldset and legend grouping related text elements.,https://github.com/whatwg/html/issues/7486,2022-01-12T02:32:50Z,2022-01-13T00:43:20Z,LaurenceRLewis,document conformance,0
-1099540188,false,Modernized version of window.open() API,https://github.com/whatwg/html/issues/7485,2022-01-11T19:27:17Z,2023-06-12T18:14:17Z,domenic,addition/proposal|needs implementer interest,7
+1099540188,false,Modernized version of window.open() API,https://github.com/whatwg/html/issues/7485,2022-01-11T19:27:17Z,2024-01-05T23:00:31Z,domenic,addition/proposal|needs implementer interest,7
 1099015226,false,Clarification of feed autodiscovery in the presence of a application/atom+xml;type=entry parameter,https://github.com/whatwg/html/issues/7483,2022-01-11T11:09:38Z,2022-01-12T12:20:14Z,sewe,clarification|topic: link,0
 1096925300,false,"Hyperlink Auditing (<a ping>) Fetch keepalive flag ",https://github.com/whatwg/html/issues/7478,2022-01-08T13:17:09Z,2022-01-12T12:56:08Z,fowl2,topic: fetch|topic: hyperlink|integration,0
 1096902821,true,Hyperlink Auditing (<a ping>) doesn't specify Content-Type to use for pings,https://github.com/whatwg/html/issues/7477,2022-01-08T11:19:37Z,2022-02-17T17:30:42Z,fowl2,,0
@@ -2957,7 +2957,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 274842593,true,Consider blocking downloads from a sandboxed `<iframe>`.,https://github.com/whatwg/html/issues/3236,2017-11-17T11:57:52Z,2020-05-28T15:18:13Z,mikewest,security/privacy|topic: user activation,8
 274699424,false,Table of contents issue. Orphaned elements.,https://github.com/whatwg/html/issues/3234,2017-11-16T23:23:14Z,2017-12-13T01:55:28Z,JohnLukeBentley,dev edition,0
 274547731,true,"Should <input type=date> have a ""input activation behavior"" defined? ",https://github.com/whatwg/html/issues/3232,2017-11-16T15:04:39Z,2021-12-08T17:04:52Z,stephenmcgruer,topic: forms,0
-274201914,false,"Should ""script-src 'none'"" CSP in HTTP headers count as scripting being disabled?",https://github.com/whatwg/html/issues/3230,2017-11-15T15:41:20Z,2018-06-01T06:17:27Z,bzbarsky,topic: script,0
+274201914,false,"Should ""script-src 'none'"" CSP in HTTP headers count as scripting being disabled?",https://github.com/whatwg/html/issues/3230,2017-11-15T15:41:20Z,2024-01-05T15:08:15Z,bzbarsky,topic: script,0
 273882856,false,text/plain form submission seems broken encoding-wise,https://github.com/whatwg/html/issues/3228,2017-11-14T17:45:39Z,2020-05-07T10:52:08Z,annevk,topic: forms,0
 273662558,false,Should we clear image data or not after the image is adopted into a data document.,https://github.com/whatwg/html/issues/3226,2017-11-14T04:16:29Z,2017-12-04T13:51:59Z,allstarschh,topic: img,0
 273471544,false,Add readystatechange event to HTMLMediaElement,https://github.com/whatwg/html/issues/3225,2017-11-13T15:33:17Z,2017-11-13T17:16:22Z,maxschmeling,addition/proposal|needs implementer interest|topic: media,2
