@@ -3,11 +3,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2069074912,true,Should past user activations be kept after refresh?,https://github.com/whatwg/html/issues/10038,2024-01-07T10:29:21Z,2024-01-07T11:44:31Z,CanadaHonk,,0
 2067099612,false,ARIA attribute reflection uses DOMString? but they are not enumerated attributes,https://github.com/whatwg/html/issues/10037,2024-01-05T10:28:24Z,2024-01-07T18:34:35Z,domenic,a11y-tracker|topic: reflect,0
 2063647207,false,Render-blocking scripts should also work for inline scripts,https://github.com/whatwg/html/issues/10034,2024-01-03T09:52:42Z,2024-01-08T16:31:52Z,noamr,addition/proposal,0
-2062771189,false,Change when button has activation behavior,https://github.com/whatwg/html/issues/10032,2024-01-02T18:08:35Z,2024-01-02T21:04:09Z,vinhill,topic: forms|topic: events|topic: popover,0
-2061045240,false,[forms] <select> element clip is not specified and not interoperable,https://github.com/whatwg/html/issues/10031,2023-12-31T12:30:30Z,2024-01-08T23:08:46Z,emilio,topic: rendering|topic: forms,0
+2062771189,false,Change when button has activation behavior,https://github.com/whatwg/html/issues/10032,2024-01-02T18:08:35Z,2024-01-09T10:59:18Z,vinhill,topic: forms|topic: events|topic: popover,0
+2061045240,false,[forms] <select> element clip is not specified and not interoperable,https://github.com/whatwg/html/issues/10031,2023-12-31T12:30:30Z,2024-01-09T10:40:18Z,emilio,topic: rendering|topic: forms,0
 2060823093,true,Is HTML stagnated?,https://github.com/whatwg/html/issues/10030,2023-12-30T18:35:10Z,2024-01-03T09:41:56Z,alejsanc,,0
 2058728900,false,Should `:target` match after elements are removed and reattached to the document?,https://github.com/whatwg/html/issues/10029,2023-12-28T18:49:59Z,2024-01-05T04:27:08Z,josepharhar,,0
-2058361883,false,Minor error in import map example?,https://github.com/whatwg/html/issues/10028,2023-12-28T12:08:54Z,2023-12-28T12:08:54Z,farsightsoftware,,0
+2058361883,false,Minor error in import map example?,https://github.com/whatwg/html/issues/10028,2023-12-28T12:08:54Z,2024-01-09T04:10:35Z,farsightsoftware,good first issue|topic: script,0
 2057058225,false,Detached OffscreenCanvas is underspecified,https://github.com/whatwg/html/issues/10026,2023-12-27T08:13:45Z,2024-01-03T01:51:15Z,Kaiido,topic: canvas|interop,0
 2057035269,false,[forms] Range input shouldn't clip its contents to the border box,https://github.com/whatwg/html/issues/10024,2023-12-27T07:48:22Z,2023-12-27T07:53:12Z,emilio,topic: rendering|topic: forms,0
 2056889101,false,[CEReactions] and IDL attribute,https://github.com/whatwg/html/issues/10023,2023-12-27T04:10:27Z,2023-12-27T04:10:47Z,dSalieri,,0
@@ -24,7 +24,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2046171405,true,"Structure Data ",https://github.com/whatwg/html/issues/10000,2023-12-18T09:33:20Z,2023-12-18T10:34:43Z,Ken-Dean,,1
 2044293427,false,"Opening a dialog as modal, nested inside a popover, causes the whole page to go inert with limited ways for the user to address it.",https://github.com/whatwg/html/issues/9998,2023-12-15T19:50:46Z,2023-12-16T01:09:16Z,keithamus,topic: dialog|agenda+|topic: popover,0
 2044189464,false,Allow CSS Custom Property in mask-icon's color attribute,https://github.com/whatwg/html/issues/9997,2023-12-15T18:32:54Z,2023-12-21T15:19:44Z,jfbrennan,addition/proposal|needs implementer interest|topic: style,0
-2043580479,false,"The ""onpagereveal"" attribute should be added to section of ""4.3.1 The body element"".",https://github.com/whatwg/html/issues/9995,2023-12-15T11:43:57Z,2023-12-16T04:10:14Z,mtrootyy,,1
+2043580479,true,"The ""onpagereveal"" attribute should be added to section of ""4.3.1 The body element"".",https://github.com/whatwg/html/issues/9995,2023-12-15T11:43:57Z,2024-01-09T04:21:10Z,mtrootyy,,1
 2042672086,false,Upcoming WHATNOT meeting on 1/11/2024,https://github.com/whatwg/html/issues/9993,2023-12-14T23:53:06Z,2024-01-08T10:07:28Z,past,agenda+,0
 2041234260,false,"colspan=""0"": Formalize a way to get a cell to span all/remaining columns",https://github.com/whatwg/html/issues/9992,2023-12-14T08:53:57Z,2024-01-08T16:57:21Z,andrerom,addition/proposal|needs implementer interest|topic: table,0
 2040145190,false,select.showPicker() in content-visibility: hidden subtree,https://github.com/whatwg/html/issues/9991,2023-12-13T17:10:42Z,2023-12-19T20:46:09Z,lukewarlow,,0
@@ -53,7 +53,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1998110326,true,Orphan nested dedicated worker closing seems buggy,https://github.com/whatwg/html/issues/9938,2023-11-17T01:55:30Z,2023-11-18T03:12:22Z,Kaiido,clarification|topic: workers,0
 1997946764,true,Upcoming WHATNOT meeting on 11/30/2023,https://github.com/whatwg/html/issues/9937,2023-11-16T23:11:47Z,2023-12-01T00:02:06Z,past,agenda+,0
 1997483561,false,A popover on top of a modal dialog should be interactable,https://github.com/whatwg/html/issues/9936,2023-11-16T18:24:20Z,2023-12-16T01:08:29Z,benfrain,topic: dialog|topic: popover,3
-1996392285,false,Cookie API,https://github.com/whatwg/html/issues/9935,2023-11-16T09:05:17Z,2024-01-03T18:33:56Z,kettanaito,addition/proposal|needs implementer interest|topic: cookie,51
+1996392285,false,Cookie API,https://github.com/whatwg/html/issues/9935,2023-11-16T09:05:17Z,2024-01-03T18:33:56Z,kettanaito,addition/proposal|needs implementer interest|topic: cookie,54
 1990956391,true,Enable lazy loading for URLs on use href,https://github.com/whatwg/html/issues/9929,2023-11-13T15:59:05Z,2023-11-14T03:49:00Z,lfre,addition/proposal|needs implementer interest,0
 1990529573,false,Switch back to official CSSWG specs,https://github.com/whatwg/html/issues/9928,2023-11-13T12:12:23Z,2023-11-13T12:14:28Z,Loirooriol,,0
 1990453120,false,`autocomplete=cc-number` but for 4 separate input boxes,https://github.com/whatwg/html/issues/9927,2023-11-13T11:26:26Z,2023-12-04T19:08:45Z,saschanaz,topic: forms,1
@@ -98,7 +98,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1925910247,false,User Activation: siblings are not processed,https://github.com/whatwg/html/issues/9831,2023-10-04T10:37:18Z,2023-10-09T22:06:23Z,CanadaHonk,interop|topic: user activation,0
 1924272839,false,Don't force <details> to be a block.,https://github.com/whatwg/html/issues/9830,2023-10-03T14:27:09Z,2023-10-03T21:30:57Z,emilio,topic: rendering,3
 1923913566,false,Proposed Element : Transcript,https://github.com/whatwg/html/issues/9829,2023-10-03T11:25:04Z,2024-01-08T17:13:23Z,brennanyoung,addition/proposal|needs implementer interest|topic: media|accessibility,1
-1922743343,false,Navigation: navigate to a fragment updates the navigation api for same-document navigation twice.,https://github.com/whatwg/html/issues/9826,2023-10-02T21:23:00Z,2023-10-03T13:32:54Z,ADKaster,topic: navigation,0
+1922743343,true,Navigation: navigate to a fragment updates the navigation api for same-document navigation twice.,https://github.com/whatwg/html/issues/9826,2023-10-02T21:23:00Z,2024-01-09T04:09:00Z,ADKaster,topic: navigation,0
 1921479717,false,Event loop: update the rendering step mismatches implementations in subtle ways,https://github.com/whatwg/html/issues/9824,2023-10-02T08:34:58Z,2023-12-19T20:30:36Z,noamr,topic: event loop,1
 1920922082,true,document's url never gets updated on a fragment navigation,https://github.com/whatwg/html/issues/9820,2023-10-01T19:08:23Z,2023-10-04T03:52:44Z,kalenikaliaksandr,topic: navigation,0
 1920835431,true,document should not be unloaded during same-document navigation,https://github.com/whatwg/html/issues/9819,2023-10-01T15:52:29Z,2023-11-15T00:41:37Z,kalenikaliaksandr,topic: navigation,0
@@ -1066,7 +1066,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1019093334,true,Revisit markup for “this”?,https://github.com/whatwg/html/issues/7172,2021-10-06T19:51:07Z,2021-10-07T06:04:41Z,j9t,,0
 1019075059,true,Suggestion: rephrase or quote “perform the fetch” hook,https://github.com/whatwg/html/issues/7171,2021-10-06T19:41:22Z,2023-02-24T16:05:55Z,j9t,,0
 1019033398,false,Clarify or remove note on units of related browsing contexts and units of related similar-origin browsing contexts,https://github.com/whatwg/html/issues/7169,2021-10-06T19:19:32Z,2021-10-07T17:00:44Z,j9t,,0
-1018329555,false,Behavior of disabled with input type=radio and option is unclear,https://github.com/whatwg/html/issues/7168,2021-10-06T13:29:24Z,2023-12-06T13:27:50Z,JAWS-test,,1
+1018329555,false,Behavior of disabled with input type=radio and option is unclear,https://github.com/whatwg/html/issues/7168,2021-10-06T13:29:24Z,2024-01-09T11:29:45Z,JAWS-test,,1
 1017377535,true,The safearea HTML tag and attribute,https://github.com/whatwg/html/issues/7164,2021-10-06T03:51:20Z,2021-10-07T01:46:46Z,doctoresam1,,1
 1016826042,true,Generalizations in “States of the `type` attribute”,https://github.com/whatwg/html/issues/7162,2021-10-05T20:50:40Z,2021-10-07T06:08:56Z,j9t,,0
 1016815287,true,Is “event handler event type” a necessary distinction from “event type”?,https://github.com/whatwg/html/issues/7161,2021-10-05T20:43:53Z,2021-10-07T06:37:32Z,j9t,,0
@@ -2434,7 +2434,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 383218019,true,Proposal: allow a mode of form.submit() that behaves like clicking a submit button,https://github.com/whatwg/html/issues/4187,2018-11-21T17:13:17Z,2019-05-16T19:06:55Z,domenic,addition/proposal|topic: forms,8
 382252874,false,<input type=checkbox switch>,https://github.com/whatwg/html/issues/4180,2018-11-19T14:59:03Z,2023-12-01T21:34:41Z,atishay,addition/proposal|topic: rendering|accessibility|topic: forms|a11y-tracker,34
 381558762,true,Consider downloading rather than rendering resources delivered over FTP.,https://github.com/whatwg/html/issues/4178,2018-11-16T11:22:50Z,2018-12-13T14:59:42Z,mikewest,addition/proposal|topic: navigation,1
-381175681,false,Rendering <input type=range> vertically,https://github.com/whatwg/html/issues/4177,2018-11-15T14:05:52Z,2024-01-03T22:01:17Z,MatsPalmgren,topic: rendering|topic: forms,5
+381175681,false,Rendering <input type=range> vertically,https://github.com/whatwg/html/issues/4177,2018-11-15T14:05:52Z,2024-01-09T11:54:08Z,MatsPalmgren,topic: rendering|topic: forms,7
 380737191,false,Potentially don't revalidate /favicon.ico fetches,https://github.com/whatwg/html/issues/4176,2018-11-14T14:58:42Z,2018-11-14T16:38:09Z,annevk,compat|topic: link,0
 380708763,true,Making postMessage() work for SharedArrayBuffer (Cross-Origin-Embedder-Policy),https://github.com/whatwg/html/issues/4175,2018-11-14T13:55:09Z,2020-07-08T10:49:05Z,annevk,addition/proposal|security/privacy|topic: browsing context|impacts documentation|topic: cross-origin-embedder-policy,0
 380097943,true,"""async — Execute script when available, without blocking""",https://github.com/whatwg/html/issues/4171,2018-11-13T07:46:52Z,2019-02-11T08:37:12Z,manngo,clarification|good first issue,0
@@ -3835,7 +3835,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 166356514,true,Self-referential link,https://github.com/whatwg/html/issues/1570,2016-07-19T15:10:02Z,2016-07-19T15:54:42Z,ejbowling,,0
 166342748,false,activeElement should probably be updated before firing blur,https://github.com/whatwg/html/issues/1569,2016-07-19T14:17:18Z,2019-03-13T01:30:50Z,domenic,compat|topic: focus,1
 166216391,false,'run authentic click activation steps' doesn't deal with the case when activation behavior changes during click event dispatch,https://github.com/whatwg/html/issues/1568,2016-07-18T23:28:10Z,2024-01-03T07:30:19Z,smaug----,needs tests|topic: events,0
-166194108,false,<button> shouldn't have activation behavior when it is not in a form,https://github.com/whatwg/html/issues/1567,2016-07-18T21:08:48Z,2024-01-02T16:19:48Z,smaug----,clarification|topic: forms|topic: events,0
+166194108,false,<button> shouldn't have activation behavior when it is not in a form,https://github.com/whatwg/html/issues/1567,2016-07-18T21:08:48Z,2024-01-09T10:50:21Z,smaug----,clarification|topic: forms|topic: events,0
 166084384,true,Remove the concept of origins for fonts,https://github.com/whatwg/html/issues/1566,2016-07-18T12:41:10Z,2016-07-27T17:53:00Z,annevk,clarification,1
 166042009,true,Consider not special casing document's address handling when loading javascript:,https://github.com/whatwg/html/issues/1565,2016-07-18T08:21:01Z,2018-12-18T22:44:08Z,smaug----,topic: navigation|interop|topic: javascript: URLs,0
 165896294,true,HTMLFormElement probably shouldn't have [OverrideBuiltins],https://github.com/whatwg/html/issues/1562,2016-07-15T23:45:44Z,2016-08-05T18:12:03Z,ajklein,topic: forms,0
