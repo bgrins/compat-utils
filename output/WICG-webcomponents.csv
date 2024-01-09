@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2071333038,false,[scoped-registries] Consider future expansion to allow using a registry without new API,https://github.com/WICG/webcomponents/issues/1043,2024-01-08T22:35:48Z,2024-01-09T00:21:01Z,sorvell,,0
 2053568613,false,Observing slotchange mutation records: a `SlotChangeObserver` API similar to `MutationObserver` with `childList:true`,https://github.com/WICG/webcomponents/issues/1042,2023-12-22T08:29:53Z,2024-01-07T00:14:42Z,trusktr,,0
 2052407446,false,[Proposal] Stylesheet Observer,https://github.com/WICG/webcomponents/issues/1041,2023-12-21T13:15:11Z,2023-12-21T13:15:11Z,bahrus,,1
 2032840329,false,[scoped-registries] Finding a definition for disconnected elements,https://github.com/WICG/webcomponents/issues/1040,2023-12-08T15:15:33Z,2023-12-08T18:39:39Z,sorvell,,1
@@ -8,7 +9,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1982027447,false,DOM parts use outside of <template> seems unlikely,https://github.com/WICG/webcomponents/issues/1035,2023-11-07T19:01:10Z,2024-01-04T01:05:26Z,matthewp,,1
 1963339024,false,DOM Parts and Localization,https://github.com/WICG/webcomponents/issues/1034,2023-10-26T11:39:25Z,2023-10-31T11:37:58Z,eemeli,,1
 1922184877,false,Allow customElementRegistry definitions to persist across page loads,https://github.com/WICG/webcomponents/issues/1033,2023-10-02T15:50:47Z,2023-10-31T11:39:01Z,andy-blum,,7
-1898576585,false,Quarterly Face to Face Scheduling,https://github.com/WICG/webcomponents/issues/1031,2023-09-15T14:47:15Z,2024-01-06T01:35:07Z,Westbrook,,3
+1898576585,false,Quarterly Face to Face Scheduling,https://github.com/WICG/webcomponents/issues/1031,2023-09-15T14:47:15Z,2024-01-08T23:08:19Z,Westbrook,,3
 1898096930,false,Should browsers do bookkeeping on DOM parts after initial parse?,https://github.com/WICG/webcomponents/issues/1030,2023-09-15T09:55:17Z,2023-10-31T11:40:44Z,iteriani,,0
 1895019368,false,"Proposal: Custom attributes for all elements, enhancements for more complex use cases",https://github.com/WICG/webcomponents/issues/1029,2023-09-13T18:12:31Z,2023-12-26T19:21:47Z,LeaVerou,,8
 1894330888,false,Explain the relationship of DOM Parts to XHTML,https://github.com/WICG/webcomponents/issues/1028,2023-09-13T11:31:10Z,2023-10-31T11:42:37Z,hsivonen,,0
@@ -93,7 +94,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1000418914,false,Adding support for ShadowDOM features in SVG,https://github.com/WICG/webcomponents/issues/942,2021-09-19T21:03:38Z,2022-02-21T04:00:42Z,trusktr,,0
 992805736,false,"How can a custom element detect when it is distributed, and what its composed parent is?",https://github.com/WICG/webcomponents/issues/941,2021-09-10T01:42:59Z,2022-04-04T03:59:56Z,trusktr,,0
 989586979,false,"`distributionchange` events, and `distributedNodes()` / `distributedElements()` APIs?",https://github.com/WICG/webcomponents/issues/940,2021-09-07T04:42:57Z,2022-07-29T21:44:37Z,trusktr,,0
-971914425,false,Declarative CSS Module Scripts,https://github.com/WICG/webcomponents/issues/939,2021-08-16T16:38:36Z,2023-08-30T07:12:40Z,justinfagnani,,23
+971914425,false,Declarative CSS Module Scripts,https://github.com/WICG/webcomponents/issues/939,2021-08-16T16:38:36Z,2023-08-30T07:12:40Z,justinfagnani,,24
 963937161,false,slotChange event is not working on anything but the slot attribute change,https://github.com/WICG/webcomponents/issues/937,2021-08-09T12:17:23Z,2021-08-16T15:34:28Z,Kokujou,,0
 940256296,false,CSS selector to style slots with slotted elements,https://github.com/WICG/webcomponents/issues/936,2021-07-08T22:08:01Z,2023-04-21T10:50:02Z,justinfagnani,,29
 936031558,true,ignore me,https://github.com/WICG/webcomponents/issues/935,2021-07-02T19:48:25Z,2021-07-02T19:48:52Z,neatonk,,0
@@ -385,7 +386,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 184297257,true,Can <label> in shadowdom active checkbox from slot?,https://github.com/WICG/webcomponents/issues/591,2016-10-20T17:53:15Z,2016-10-21T11:40:25Z,lukasoppermann,shadow-dom,0
 183869585,true,attributeChanged callback won't be enqueued for cloned custom elements,https://github.com/WICG/webcomponents/issues/590,2016-10-19T05:34:19Z,2016-10-19T06:06:44Z,rniwa,v1|custom-elements,0
 183546500,true,[idea] Not having <slot> element get in the way of structure.,https://github.com/WICG/webcomponents/issues/589,2016-10-17T22:36:33Z,2017-11-10T10:57:31Z,trusktr,shadow-dom,2
-183214087,true,Non-class based example of customElement.define(),https://github.com/WICG/webcomponents/issues/587,2016-10-15T15:03:59Z,2020-12-02T11:06:30Z,rektide,,10
+183214087,true,Non-class based example of customElement.define(),https://github.com/WICG/webcomponents/issues/587,2016-10-15T15:03:59Z,2020-12-02T11:06:30Z,rektide,,11
 182195770,true,importNode and cloneNode should upgrade cloned resolved custom elements,https://github.com/WICG/webcomponents/issues/584,2016-10-11T07:51:16Z,2016-10-24T06:15:04Z,rniwa,v1|custom-elements,0
 181765213,true,customElements.define should throw on registration of definitions that shadow built-in properties / methods.,https://github.com/WICG/webcomponents/issues/583,2016-10-07T20:52:36Z,2017-09-04T11:58:12Z,bicknellr,custom-elements,1
 181568198,true,Node and Element prototypes need to define their relevant custom element callbacks as no-ops.,https://github.com/WICG/webcomponents/issues/582,2016-10-07T01:48:29Z,2018-03-05T04:59:33Z,bicknellr,custom-elements|needs implementer interest,0
