@@ -1,4 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2076160228,false,Inheritance with shadow DOM for `spellcheck` attribute,https://github.com/whatwg/html/issues/10050,2024-01-11T09:40:09Z,2024-01-11T09:40:21Z,sanketj,,0
+2075798919,false,"""in parallel"" in algorithm headers can be confusing",https://github.com/whatwg/html/issues/10049,2024-01-11T05:41:57Z,2024-01-11T09:42:35Z,domenic,clarification,0
+2075560644,false,Close watchers: detecting close requests vs. other closes,https://github.com/whatwg/html/issues/10047,2024-01-11T01:59:20Z,2024-01-11T01:59:20Z,domenic,normative change|topic: dialog,1
+2075526270,false,Close watchers: history-action user activation is consumed even for the first close watcher,https://github.com/whatwg/html/issues/10046,2024-01-11T01:22:58Z,2024-01-11T01:23:41Z,domenic,normative change|topic: dialog,1
 2069375890,false,A way to disable animation of cancelled drag for editor apps like VS Code,https://github.com/whatwg/html/issues/10039,2024-01-08T00:28:08Z,2024-01-08T10:06:12Z,zcbenz,addition/proposal|needs implementer interest|agenda+,1
 2069074912,true,Should past user activations be kept after refresh?,https://github.com/whatwg/html/issues/10038,2024-01-07T10:29:21Z,2024-01-07T11:44:31Z,CanadaHonk,,0
 2067099612,false,ARIA attribute reflection uses DOMString? but they are not enumerated attributes,https://github.com/whatwg/html/issues/10037,2024-01-05T10:28:24Z,2024-01-07T18:34:35Z,domenic,a11y-tracker|topic: reflect,0
@@ -120,7 +124,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1907577267,false,popover: should audio/video in a popover keep playing after popover is dismissed?,https://github.com/whatwg/html/issues/9770,2023-09-21T18:51:42Z,2023-10-05T08:32:10Z,xiaochengh,clarification|topic: popover,0
 1907562012,false,Rowgroup headers should go into headers list directly after step 3 (assignment of row headers),https://github.com/whatwg/html/issues/9769,2023-09-21T18:43:22Z,2023-10-01T13:51:32Z,jameslpetersen,topic: table,0
 1906566239,true,Proposal : Spoiler content semantics,https://github.com/whatwg/html/issues/9768,2023-09-21T09:48:00Z,2023-09-21T11:05:07Z,brennanyoung,,0
-1906535781,false,Steps for attempt to populate the history entry's document seem to be missing a level of nesting,https://github.com/whatwg/html/issues/9767,2023-09-21T09:31:51Z,2023-11-01T07:46:24Z,ADKaster,topic: navigation,0
+1906535781,true,Steps for attempt to populate the history entry's document seem to be missing a level of nesting,https://github.com/whatwg/html/issues/9767,2023-09-21T09:31:51Z,2024-01-11T00:23:19Z,ADKaster,topic: navigation,0
 1906244854,false,"Window named properties implementations include more than just ""HTML Elements"" with an id attribute",https://github.com/whatwg/html/issues/9766,2023-09-21T06:54:37Z,2023-10-01T13:53:00Z,ADKaster,,0
 1904487020,false,"Which status codes are allowed for various tags such as script, video, audio?",https://github.com/whatwg/html/issues/9763,2023-09-20T08:42:40Z,2023-10-01T13:53:57Z,JannisBush,security/privacy|topic: fetch|security-tracker,0
 1904434955,false,Interactions of Content-Disposition with CSP-FA/XFO and Status Codes,https://github.com/whatwg/html/issues/9762,2023-09-20T08:16:30Z,2023-10-01T13:54:30Z,JannisBush,security/privacy|topic: fetch|security-tracker,0
@@ -337,7 +341,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1665007054,false,Add payto to registerProtocolHandler safe listed schemes,https://github.com/whatwg/html/issues/9154,2023-04-12T18:01:28Z,2023-10-30T15:34:31Z,rastislavcore,topic: custom protocols,0
 1664864169,true,Popover invoker example shouldn't have `aria-haspopup`,https://github.com/whatwg/html/issues/9153,2023-04-12T16:18:18Z,2023-05-09T15:23:43Z,mfreed7,accessibility|a11y-tracker|topic: popover,0
 1664663316,true,popover focus state weirdness,https://github.com/whatwg/html/issues/9152,2023-04-12T14:17:31Z,2023-04-24T13:54:05Z,jakearchibald,topic: popover,0
-1663053673,false,"Potential error in connection between ""Document destroy"" and ""Document abort"" algorithms",https://github.com/whatwg/html/issues/9148,2023-04-11T19:02:43Z,2023-11-02T06:20:57Z,kalenikaliaksandr,,0
+1663053673,true,"Potential error in connection between ""Document destroy"" and ""Document abort"" algorithms",https://github.com/whatwg/html/issues/9148,2023-04-11T19:02:43Z,2024-01-11T05:34:17Z,kalenikaliaksandr,,0
 1662945190,true,language of an attribute,https://github.com/whatwg/html/issues/9147,2023-04-11T17:35:46Z,2023-04-28T07:47:22Z,fantasai,i18n-tracker,0
 1662937464,false,"""The directionality of an attribute of an HTML"" seems weird?",https://github.com/whatwg/html/issues/9146,2023-04-11T17:29:12Z,2023-04-28T08:20:28Z,fantasai,i18n-tracker,0
 1661175493,true,popover light dismiss behavior is not specified for Esc key,https://github.com/whatwg/html/issues/9143,2023-04-10T18:32:47Z,2023-10-18T06:22:21Z,asurkov,topic: popover,1
@@ -373,7 +377,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1638398517,true,Upcoming HTML standard issue triage meeting on 4/6/2023,https://github.com/whatwg/html/issues/9070,2023-03-23T21:59:20Z,2023-04-06T23:46:33Z,past,agenda+,0
 1637320041,true,Should the Window named properties object return supported named properties in [[OwnPropertyKeys]]?,https://github.com/whatwg/html/issues/9068,2023-03-23T11:14:44Z,2023-03-29T05:59:34Z,delan,clarification,0
 1636539181,false,"""Default fetch and process the linked resource"" does not account for CORS cross-origin fetches, thus preventing cross-origin stylesheets",https://github.com/whatwg/html/issues/9066,2023-03-22T21:45:40Z,2023-03-23T07:43:01Z,Lubrsi,topic: fetch|integration,0
-1636514710,false,New attribute to control UA-provided writing assistance,https://github.com/whatwg/html/issues/9065,2023-03-22T21:22:44Z,2024-01-08T06:52:37Z,bmathwig,addition/proposal|topic: forms|needs concrete proposal|agenda+,0
+1636514710,false,New attribute to control UA-provided writing assistance,https://github.com/whatwg/html/issues/9065,2023-03-22T21:22:44Z,2024-01-11T09:29:57Z,bmathwig,addition/proposal|topic: forms|needs concrete proposal|agenda+,0
 1636347345,true,Support for passing CSS styles to an SVG used via img[src],https://github.com/whatwg/html/issues/9064,2023-03-22T19:03:58Z,2023-03-22T20:10:00Z,brandonmcconnell,,0
 1636271789,true,"Should popover and dialog share the same ""previously focused element""?",https://github.com/whatwg/html/issues/9063,2023-03-22T18:12:00Z,2023-09-04T11:07:45Z,cathiechen,normative change|topic: dialog|topic: popover,0
 1634346770,true,Be able to select for partial attribute names,https://github.com/whatwg/html/issues/9056,2023-03-21T16:57:38Z,2023-03-22T12:36:02Z,keithamus,,1
@@ -2015,7 +2019,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 497040604,false,Define a policy container,https://github.com/whatwg/html/issues/4926,2019-09-23T11:28:43Z,2021-05-21T10:44:17Z,annevk,clarification|needs tests|interop|integration|topic: policy container,6
 496594293,true,Design questions about IDREF/Element attribute reflection,https://github.com/whatwg/html/issues/4925,2019-09-21T00:49:20Z,2022-06-30T08:19:53Z,alice,accessibility,0
 496188244,true,COEP mismatches in dedicated workers should block.,https://github.com/whatwg/html/issues/4924,2019-09-20T07:14:14Z,2020-04-20T09:12:18Z,mikewest,topic: cross-origin-embedder-policy,0
-495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2022-10-27T11:18:35Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,156
+495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2022-10-27T11:18:35Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,157
 495810632,false,Allow an extra dimension to the size array for 3D favicon,https://github.com/whatwg/html/issues/4922,2019-09-19T13:46:29Z,2021-01-28T22:05:11Z,rcabanier,addition/proposal|needs implementer interest|topic: link,0
 495595729,true,Decide how to treat CSP sandbox in COOP,https://github.com/whatwg/html/issues/4921,2019-09-19T06:18:06Z,2020-06-24T17:33:26Z,shhnjk,security/privacy|topic: cross-origin-opener-policy,0
 495587240,true,Consider restricting SharedArrayBuffer to same-origin usage,https://github.com/whatwg/html/issues/4920,2019-09-19T05:50:59Z,2019-12-05T15:38:02Z,annevk,addition/proposal|topic: serialize and transfer,0
@@ -2432,7 +2436,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 383304020,true,Should clearly define that the ordinary object internal methods are used when not stated otherwise for WindowProxy and Location,https://github.com/whatwg/html/issues/4189,2018-11-21T21:49:36Z,2018-11-27T14:13:43Z,bzbarsky,,0
 383274575,false,Definition of stable state in terms of microtasks does not seem to match browsers,https://github.com/whatwg/html/issues/4188,2018-11-21T20:04:20Z,2019-01-24T01:57:02Z,bzbarsky,topic: event loop,0
 383218019,true,Proposal: allow a mode of form.submit() that behaves like clicking a submit button,https://github.com/whatwg/html/issues/4187,2018-11-21T17:13:17Z,2019-05-16T19:06:55Z,domenic,addition/proposal|topic: forms,8
-382252874,false,<input type=checkbox switch>,https://github.com/whatwg/html/issues/4180,2018-11-19T14:59:03Z,2023-12-01T21:34:41Z,atishay,addition/proposal|topic: rendering|accessibility|topic: forms|a11y-tracker,34
+382252874,false,<input type=checkbox switch>,https://github.com/whatwg/html/issues/4180,2018-11-19T14:59:03Z,2024-01-11T11:59:15Z,atishay,addition/proposal|topic: rendering|accessibility|topic: forms|a11y-tracker,34
 381558762,true,Consider downloading rather than rendering resources delivered over FTP.,https://github.com/whatwg/html/issues/4178,2018-11-16T11:22:50Z,2018-12-13T14:59:42Z,mikewest,addition/proposal|topic: navigation,1
 381175681,false,Rendering <input type=range> vertically,https://github.com/whatwg/html/issues/4177,2018-11-15T14:05:52Z,2024-01-09T11:54:08Z,MatsPalmgren,topic: rendering|topic: forms,7
 380737191,false,Potentially don't revalidate /favicon.ico fetches,https://github.com/whatwg/html/issues/4176,2018-11-14T14:58:42Z,2018-11-14T16:38:09Z,annevk,compat|topic: link,0
