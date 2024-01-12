@@ -1,18 +1,19 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2077957331,false,Typo in `CanvasDrawPath.isPointInPath`,https://github.com/whatwg/html/issues/10053,2024-01-12T02:32:24Z,2024-01-12T02:35:21Z,0f-0b,good first issue|topic: canvas,1
 2077589057,false,Upcoming WHATNOT meeting on 1/25/2024,https://github.com/whatwg/html/issues/10052,2024-01-11T21:08:45Z,2024-01-11T21:08:45Z,past,agenda+,0
 2076160228,false,Inheritance with shadow DOM for `spellcheck` attribute,https://github.com/whatwg/html/issues/10050,2024-01-11T09:40:09Z,2024-01-11T19:23:49Z,sanketj,topic: shadow|needs tests,0
 2075798919,false,"""in parallel"" in algorithm headers can be confusing",https://github.com/whatwg/html/issues/10049,2024-01-11T05:41:57Z,2024-01-11T09:42:35Z,domenic,clarification,0
 2075560644,false,Close watchers: detecting close requests vs. other closes,https://github.com/whatwg/html/issues/10047,2024-01-11T01:59:20Z,2024-01-11T01:59:20Z,domenic,normative change|topic: dialog,1
 2075526270,false,Close watchers: history-action user activation is consumed even for the first close watcher,https://github.com/whatwg/html/issues/10046,2024-01-11T01:22:58Z,2024-01-11T01:23:41Z,domenic,normative change|topic: dialog,1
-2069375890,false,A way to disable animation of cancelled drag for editor apps like VS Code,https://github.com/whatwg/html/issues/10039,2024-01-08T00:28:08Z,2024-01-11T21:13:55Z,zcbenz,addition/proposal|needs implementer interest,1
+2069375890,false,A way to disable animation of cancelled drag for editor apps like VS Code,https://github.com/whatwg/html/issues/10039,2024-01-08T00:28:08Z,2024-01-12T05:27:14Z,zcbenz,addition/proposal|needs implementer interest,1
 2069074912,true,Should past user activations be kept after refresh?,https://github.com/whatwg/html/issues/10038,2024-01-07T10:29:21Z,2024-01-07T11:44:31Z,CanadaHonk,,0
-2067099612,false,ARIA attribute reflection uses DOMString? but they are not enumerated attributes,https://github.com/whatwg/html/issues/10037,2024-01-05T10:28:24Z,2024-01-11T22:54:13Z,domenic,a11y-tracker|topic: reflect,0
+2067099612,false,ARIA attribute reflection uses DOMString? but they are not enumerated attributes,https://github.com/whatwg/html/issues/10037,2024-01-05T10:28:24Z,2024-01-12T02:19:19Z,domenic,a11y-tracker|topic: reflect,0
 2063647207,false,Render-blocking scripts should also work for inline scripts,https://github.com/whatwg/html/issues/10034,2024-01-03T09:52:42Z,2024-01-08T16:31:52Z,noamr,addition/proposal,0
 2062771189,false,Change when button has activation behavior,https://github.com/whatwg/html/issues/10032,2024-01-02T18:08:35Z,2024-01-09T10:59:18Z,vinhill,topic: forms|topic: events|topic: popover,0
 2061045240,false,[forms] <select> element clip is not specified and not interoperable,https://github.com/whatwg/html/issues/10031,2023-12-31T12:30:30Z,2024-01-09T10:40:18Z,emilio,topic: rendering|topic: forms,0
 2060823093,true,Is HTML stagnated?,https://github.com/whatwg/html/issues/10030,2023-12-30T18:35:10Z,2024-01-03T09:41:56Z,alejsanc,,0
 2058728900,false,Should `:target` match after elements are removed and reattached to the document?,https://github.com/whatwg/html/issues/10029,2023-12-28T18:49:59Z,2024-01-05T04:27:08Z,josepharhar,,0
-2058361883,false,Minor error in import map example?,https://github.com/whatwg/html/issues/10028,2023-12-28T12:08:54Z,2024-01-09T04:10:35Z,farsightsoftware,good first issue|topic: script,0
+2058361883,true,Minor error in import map example?,https://github.com/whatwg/html/issues/10028,2023-12-28T12:08:54Z,2024-01-12T04:00:00Z,farsightsoftware,good first issue|topic: script,0
 2057058225,false,Detached OffscreenCanvas is underspecified,https://github.com/whatwg/html/issues/10026,2023-12-27T08:13:45Z,2024-01-03T01:51:15Z,Kaiido,topic: canvas|interop,0
 2057035269,false,[forms] Range input shouldn't clip its contents to the border box,https://github.com/whatwg/html/issues/10024,2023-12-27T07:48:22Z,2023-12-27T07:53:12Z,emilio,topic: rendering|topic: forms,0
 2056889101,false,[CEReactions] and IDL attribute,https://github.com/whatwg/html/issues/10023,2023-12-27T04:10:27Z,2023-12-27T04:10:47Z,dSalieri,,0
@@ -47,7 +48,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2019726611,true,Upcoming WHATNOT meeting on 12/14/2023,https://github.com/whatwg/html/issues/9966,2023-11-30T23:59:42Z,2023-12-15T00:04:13Z,past,agenda+,0
 2015566921,false,Add `HTMLLinkElement.prototype.use` apply shared style in Declarative Shadow DOM,https://github.com/whatwg/html/issues/9962,2023-11-29T00:26:04Z,2023-12-15T15:14:00Z,mantou132,addition/proposal|needs implementer interest,0
 2012860635,false,<hr> in <select> size >1,https://github.com/whatwg/html/issues/9960,2023-11-27T18:31:42Z,2024-01-03T01:32:02Z,CanadaHonk,topic: rendering|topic: forms,0
-2012236298,true,Move `4.6.7 Link types`  `<link rel>` table into `4.2.4 The link element`,https://github.com/whatwg/html/issues/9959,2023-11-27T13:07:29Z,2024-01-11T19:07:55Z,junaga,,0
+2012236298,true,Move `4.6.7 Link types`  `<link rel>` table into `4.2.4 The link element`,https://github.com/whatwg/html/issues/9959,2023-11-27T13:07:29Z,2024-01-12T01:59:46Z,junaga,,0
 2009590155,true,Does setHTMLUnsafe() need [CEReactions]?,https://github.com/whatwg/html/issues/9957,2023-11-24T11:44:21Z,2023-11-29T07:40:42Z,annevk,topic: custom elements,0
 2007793180,true,"Compress images, videos or audio before upload",https://github.com/whatwg/html/issues/9950,2023-11-23T09:25:28Z,2023-11-23T13:28:08Z,mfbx9da4,addition/proposal|needs implementer interest,0
 2007079181,true,Change default img sizes from 100vw to 100cqw,https://github.com/whatwg/html/issues/9948,2023-11-22T20:34:42Z,2023-11-22T21:13:13Z,jacobrask,addition/proposal|needs implementer interest,0
@@ -2225,7 +2226,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 437441318,true,Event index: invalid event can be fired on the form element,https://github.com/whatwg/html/issues/4570,2019-04-25T23:45:05Z,2019-05-14T14:21:52Z,zcorpan,clarification|good first issue,0
 437249742,true,WebSocket close event object type — CloseEvent or Event?,https://github.com/whatwg/html/issues/4568,2019-04-25T15:03:20Z,2019-05-07T20:16:58Z,chrisdavidmills,good first issue,0
 437145202,false,Proposal: Network Idle Callback,https://github.com/whatwg/html/issues/4567,2019-04-25T11:19:45Z,2019-06-06T18:35:16Z,pastelsky,,4
-437011192,false,Unpredictable availability of template's content,https://github.com/whatwg/html/issues/4566,2019-04-25T05:07:56Z,2019-05-01T05:42:07Z,tomalec,,0
+437011192,false,Unpredictable availability of template's content,https://github.com/whatwg/html/issues/4566,2019-04-25T05:07:56Z,2024-01-12T09:21:16Z,tomalec,,0
 436847516,true,"add ""oncopy"", ""oncut"", ""onpaste"" attribute to list of event handler content attributes",https://github.com/whatwg/html/issues/4564,2019-04-24T18:36:09Z,2019-05-09T15:56:07Z,mtrootyy,good first issue,0
 436589633,true,Move autofocus content attribute to HTMLElement,https://github.com/whatwg/html/issues/4563,2019-04-24T09:26:11Z,2019-08-30T18:56:27Z,tkent-google,addition/proposal|topic: focus,2
 436466726,false,"Validating internationalized mail addresses in <input type=""email"">",https://github.com/whatwg/html/issues/4562,2019-04-24T02:23:14Z,2023-10-06T20:34:09Z,jrlevine,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,8
@@ -2437,7 +2438,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 383304020,true,Should clearly define that the ordinary object internal methods are used when not stated otherwise for WindowProxy and Location,https://github.com/whatwg/html/issues/4189,2018-11-21T21:49:36Z,2018-11-27T14:13:43Z,bzbarsky,,0
 383274575,false,Definition of stable state in terms of microtasks does not seem to match browsers,https://github.com/whatwg/html/issues/4188,2018-11-21T20:04:20Z,2019-01-24T01:57:02Z,bzbarsky,topic: event loop,0
 383218019,true,Proposal: allow a mode of form.submit() that behaves like clicking a submit button,https://github.com/whatwg/html/issues/4187,2018-11-21T17:13:17Z,2019-05-16T19:06:55Z,domenic,addition/proposal|topic: forms,8
-382252874,false,<input type=checkbox switch>,https://github.com/whatwg/html/issues/4180,2018-11-19T14:59:03Z,2024-01-11T23:06:55Z,atishay,addition/proposal|topic: rendering|accessibility|topic: forms|a11y-tracker,34
+382252874,false,<input type=checkbox switch>,https://github.com/whatwg/html/issues/4180,2018-11-19T14:59:03Z,2024-01-12T01:45:59Z,atishay,addition/proposal|topic: rendering|accessibility|topic: forms|a11y-tracker,34
 381558762,true,Consider downloading rather than rendering resources delivered over FTP.,https://github.com/whatwg/html/issues/4178,2018-11-16T11:22:50Z,2018-12-13T14:59:42Z,mikewest,addition/proposal|topic: navigation,1
 381175681,false,Rendering <input type=range> vertically,https://github.com/whatwg/html/issues/4177,2018-11-15T14:05:52Z,2024-01-09T11:54:08Z,MatsPalmgren,topic: rendering|topic: forms,7
 380737191,false,Potentially don't revalidate /favicon.ico fetches,https://github.com/whatwg/html/issues/4176,2018-11-14T14:58:42Z,2018-11-14T16:38:09Z,annevk,compat|topic: link,0
@@ -3750,7 +3751,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 176243059,false,rb and rtc element should be removed from the list of obsolete features,https://github.com/whatwg/html/issues/1771,2016-09-11T13:09:32Z,2022-10-24T01:32:48Z,upsuper,document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,0
 175980447,false,Specify how to fetch <link rel=icon>,https://github.com/whatwg/html/issues/1769,2016-09-09T10:43:37Z,2016-09-13T15:19:42Z,zcorpan,topic: fetch,0
 175916893,true,Multipage redirection isn't always working anymore,https://github.com/whatwg/html/issues/1767,2016-09-09T03:06:41Z,2016-09-12T21:33:24Z,domenic,spec tooling,0
-175905234,false,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2023-11-13T21:55:21Z,isonmad,addition/proposal|needs implementer interest|topic: events,21
+175905234,true,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2024-01-12T08:03:23Z,isonmad,addition/proposal|needs implementer interest|topic: events,21
 175646396,false,HTML  specification allows for cycles in Window / Location prototype chain,https://github.com/whatwg/html/issues/1760,2016-09-08T01:47:55Z,2018-08-23T21:46:52Z,cdumez,integration|topic: location,0
 175630444,true,"does this mean these - ""A settings object      An environment settings ..."" - are equivalent?",https://github.com/whatwg/html/issues/1759,2016-09-07T23:27:46Z,2016-09-16T22:53:50Z,equalsJeffH,,0
 175609093,true,moving well known HTML tags outside of SVG container,https://github.com/whatwg/html/issues/1758,2016-09-07T21:19:02Z,2016-09-08T15:12:43Z,djfd,,0
