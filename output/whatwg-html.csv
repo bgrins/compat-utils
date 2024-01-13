@@ -1,4 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2079816491,false,[View Transition] [Navigation API] Allow opt-in for cross-document navigations via `navigate`,https://github.com/whatwg/html/issues/10059,2024-01-12T22:32:25Z,2024-01-12T22:32:25Z,khushalsagar,,1
+2079442881,false,Avoid depending on arbitrary labels (goto),https://github.com/whatwg/html/issues/10057,2024-01-12T18:22:11Z,2024-01-12T18:22:22Z,jdahlin,,0
+2079280476,false,Image `loading` on page load,https://github.com/whatwg/html/issues/10056,2024-01-12T16:53:47Z,2024-01-12T16:53:47Z,benmccann,addition/proposal|needs implementer interest,2
 2077957331,false,Typo in `CanvasDrawPath.isPointInPath`,https://github.com/whatwg/html/issues/10053,2024-01-12T02:32:24Z,2024-01-12T02:35:21Z,0f-0b,good first issue|topic: canvas,1
 2077589057,false,Upcoming WHATNOT meeting on 1/25/2024,https://github.com/whatwg/html/issues/10052,2024-01-11T21:08:45Z,2024-01-11T21:08:45Z,past,agenda+,0
 2076160228,false,Inheritance with shadow DOM for `spellcheck` attribute,https://github.com/whatwg/html/issues/10050,2024-01-11T09:40:09Z,2024-01-11T19:23:49Z,sanketj,topic: shadow|needs tests,0
@@ -15,7 +18,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2058728900,false,Should `:target` match after elements are removed and reattached to the document?,https://github.com/whatwg/html/issues/10029,2023-12-28T18:49:59Z,2024-01-05T04:27:08Z,josepharhar,,0
 2058361883,true,Minor error in import map example?,https://github.com/whatwg/html/issues/10028,2023-12-28T12:08:54Z,2024-01-12T04:00:00Z,farsightsoftware,good first issue|topic: script,0
 2057058225,false,Detached OffscreenCanvas is underspecified,https://github.com/whatwg/html/issues/10026,2023-12-27T08:13:45Z,2024-01-03T01:51:15Z,Kaiido,topic: canvas|interop,0
-2057035269,false,[forms] Range input shouldn't clip its contents to the border box,https://github.com/whatwg/html/issues/10024,2023-12-27T07:48:22Z,2023-12-27T07:53:12Z,emilio,topic: rendering|topic: forms,0
+2057035269,true,[forms] Range input shouldn't clip its contents to the border box,https://github.com/whatwg/html/issues/10024,2023-12-27T07:48:22Z,2024-01-12T15:22:54Z,emilio,topic: rendering|topic: forms,0
 2056889101,false,[CEReactions] and IDL attribute,https://github.com/whatwg/html/issues/10023,2023-12-27T04:10:27Z,2023-12-27T04:10:47Z,dSalieri,,0
 2056740584,false,Prevent requests to HTTP(S) URLs containing raw `\n` and `<`,https://github.com/whatwg/html/issues/10021,2023-12-26T22:22:58Z,2023-12-26T22:22:58Z,shhnjk,,0
 2055370714,false,Port streams,https://github.com/whatwg/html/issues/10020,2023-12-25T04:42:20Z,2023-12-25T04:42:20Z,dead-claudia,addition/proposal|needs implementer interest,0
@@ -1403,7 +1406,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 794307223,false,Permanent anchor request for same site,https://github.com/whatwg/html/issues/6329,2021-01-26T15:06:56Z,2021-01-26T15:19:45Z,englehardt,anchor permanence,0
 794190031,true,COEP still doesn't check for HTTPS,https://github.com/whatwg/html/issues/6328,2021-01-26T12:23:49Z,2021-02-02T20:17:33Z,zcorpan,topic: cross-origin-embedder-policy,0
 793729364,false,Add hyphenation-hint as HTML-element,https://github.com/whatwg/html/issues/6326,2021-01-25T21:12:59Z,2021-04-26T07:51:15Z,OskarGrosser,addition/proposal|topic: rendering|i18n-tracker,1
-792865991,false,Img: add method to check if image format is supported,https://github.com/whatwg/html/issues/6324,2021-01-24T18:50:31Z,2024-01-11T18:11:10Z,mpetroff,addition/proposal|topic: img,1
+792865991,false,Img: add method to check if image format is supported,https://github.com/whatwg/html/issues/6324,2021-01-24T18:50:31Z,2024-01-12T16:19:26Z,mpetroff,addition/proposal|topic: img,1
 792298497,false,media fragments support for anchor links,https://github.com/whatwg/html/issues/6323,2021-01-22T20:53:36Z,2021-01-25T09:27:12Z,heeplr,,0
 791036154,true,Proposal: new element for measurements <m>,https://github.com/whatwg/html/issues/6319,2021-01-21T12:39:48Z,2021-01-30T04:15:15Z,futekov,,3
 790772512,true,Remove Plugin and MimeType classes,https://github.com/whatwg/html/issues/6317,2021-01-21T07:22:31Z,2021-07-13T17:49:07Z,annevk,removal/deprecation,0
@@ -2021,7 +2024,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 497040604,false,Define a policy container,https://github.com/whatwg/html/issues/4926,2019-09-23T11:28:43Z,2021-05-21T10:44:17Z,annevk,clarification|needs tests|interop|integration|topic: policy container,6
 496594293,true,Design questions about IDREF/Element attribute reflection,https://github.com/whatwg/html/issues/4925,2019-09-21T00:49:20Z,2022-06-30T08:19:53Z,alice,accessibility,0
 496188244,true,COEP mismatches in dedicated workers should block.,https://github.com/whatwg/html/issues/4924,2019-09-20T07:14:14Z,2020-04-20T09:12:18Z,mikewest,topic: cross-origin-embedder-policy,0
-495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2022-10-27T11:18:35Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,157
+495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2022-10-27T11:18:35Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,158
 495810632,false,Allow an extra dimension to the size array for 3D favicon,https://github.com/whatwg/html/issues/4922,2019-09-19T13:46:29Z,2021-01-28T22:05:11Z,rcabanier,addition/proposal|needs implementer interest|topic: link,0
 495595729,true,Decide how to treat CSP sandbox in COOP,https://github.com/whatwg/html/issues/4921,2019-09-19T06:18:06Z,2020-06-24T17:33:26Z,shhnjk,security/privacy|topic: cross-origin-opener-policy,0
 495587240,true,Consider restricting SharedArrayBuffer to same-origin usage,https://github.com/whatwg/html/issues/4920,2019-09-19T05:50:59Z,2019-12-05T15:38:02Z,annevk,addition/proposal|topic: serialize and transfer,0
