@@ -1,7 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2082181477,true,Missing IDL definition for `parseHTMLUnsafe`,https://github.com/whatwg/html/issues/10064,2024-01-15T14:46:18Z,2024-01-15T15:28:11Z,lukewarlow,,0
+2081948280,false,Allow custom element definition to be 'changed',https://github.com/whatwg/html/issues/10063,2024-01-15T12:35:26Z,2024-01-15T16:24:53Z,jakearchibald,addition/proposal|needs implementer interest|topic: custom elements,0
 2079816491,false,[View Transition] [Navigation API] Allow opt-in for cross-document navigations via `navigate`,https://github.com/whatwg/html/issues/10059,2024-01-12T22:32:25Z,2024-01-12T22:32:25Z,khushalsagar,,2
 2079442881,false,Avoid depending on arbitrary labels (goto),https://github.com/whatwg/html/issues/10057,2024-01-12T18:22:11Z,2024-01-13T14:57:12Z,jdahlin,clarification|topic: parser,0
-2079280476,false,Image `loading` on page load,https://github.com/whatwg/html/issues/10056,2024-01-12T16:53:47Z,2024-01-12T16:53:47Z,benmccann,addition/proposal|needs implementer interest,2
+2079280476,false,Image `loading` on page load,https://github.com/whatwg/html/issues/10056,2024-01-12T16:53:47Z,2024-01-15T14:42:15Z,benmccann,addition/proposal|needs implementer interest,2
 2077957331,false,Typo in `CanvasDrawPath.isPointInPath`,https://github.com/whatwg/html/issues/10053,2024-01-12T02:32:24Z,2024-01-12T02:35:21Z,0f-0b,good first issue|topic: canvas,1
 2077589057,false,Upcoming WHATNOT meeting on 1/25/2024,https://github.com/whatwg/html/issues/10052,2024-01-11T21:08:45Z,2024-01-11T21:08:45Z,past,agenda+,0
 2076160228,false,Inheritance with shadow DOM for `spellcheck` attribute,https://github.com/whatwg/html/issues/10050,2024-01-11T09:40:09Z,2024-01-11T19:23:49Z,sanketj,topic: shadow|needs tests,0
@@ -23,7 +25,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2056740584,false,Prevent requests to HTTP(S) URLs containing raw `\n` and `<`,https://github.com/whatwg/html/issues/10021,2023-12-26T22:22:58Z,2023-12-26T22:22:58Z,shhnjk,,0
 2055370714,false,Port streams,https://github.com/whatwg/html/issues/10020,2023-12-25T04:42:20Z,2023-12-25T04:42:20Z,dead-claudia,addition/proposal|needs implementer interest,0
 2055039799,false,"Callback steps in ""start intersection-observing a lazy loading element"" may return too early",https://github.com/whatwg/html/issues/10019,2023-12-24T09:23:55Z,2023-12-24T09:23:55Z,awesomekling,,0
-2051509390,false,Remove the requirement to NOT include the charset within the Content-Type,https://github.com/whatwg/html/issues/10016,2023-12-21T01:07:46Z,2023-12-21T01:07:46Z,agowa,,1
+2051509390,false,Remove the requirement to NOT include the charset within the Content-Type,https://github.com/whatwg/html/issues/10016,2023-12-21T01:07:46Z,2023-12-21T01:07:46Z,agowa,,2
 2051038890,false,"User interacted flag gets set when change events are set, but tests disagree",https://github.com/whatwg/html/issues/10013,2023-12-20T18:06:14Z,2024-01-11T21:14:05Z,emilio,topic: selectors,0
 2051038458,true,"User interacted flag gets set when change events are set, but tests disagree",https://github.com/whatwg/html/issues/10012,2023-12-20T18:05:56Z,2023-12-20T18:06:24Z,emilio,,0
 2051032065,false,Textarea user interacted flag doesn't seem to be set to true unless by form submission.,https://github.com/whatwg/html/issues/10011,2023-12-20T18:01:01Z,2024-01-08T20:39:17Z,emilio,topic: selectors,0
@@ -43,7 +45,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2028286303,false,Normative references to discontinued specs in HTML Standard,https://github.com/whatwg/html/issues/9981,2023-12-06T11:00:58Z,2023-12-07T06:39:38Z,dontcallmedom-bot,clarification,0
 2024998082,true,Event handler attributes missing from element content attribute definitions,https://github.com/whatwg/html/issues/9978,2023-12-04T23:40:38Z,2023-12-04T23:44:50Z,isAdrisal,,0
 2024636918,false,Add <link disabled> stylesheets to document.styleSheets,https://github.com/whatwg/html/issues/9977,2023-12-04T20:09:21Z,2023-12-12T15:35:48Z,jfbrennan,addition/proposal|needs implementer interest,0
-2023757607,true,[forms] Make <input type=button> magic clip not magic,https://github.com/whatwg/html/issues/9976,2023-12-04T12:35:28Z,2023-12-28T17:15:16Z,emilio,topic: rendering|topic: forms,0
+2023757607,true,[forms] Make <input type=button> magic clip not magic,https://github.com/whatwg/html/issues/9976,2023-12-04T12:35:28Z,2024-01-15T17:50:08Z,emilio,topic: rendering|topic: forms,0
 2022339919,false,"Should the ""focus update steps"" consider an `input` element's ""input activation steps"" rather than just its ""activation steps""?",https://github.com/whatwg/html/issues/9973,2023-12-03T03:56:55Z,2023-12-03T03:57:43Z,trflynn89,,0
 2021606584,false,"<slot> element with tabindex=""-1"" causes slotted elements that are usually focusable to not be focusable.",https://github.com/whatwg/html/issues/9971,2023-12-01T21:28:04Z,2023-12-01T22:29:38Z,KonnorRogers,topic: shadow|topic: focus,0
 2021361911,true,consider whether we should have implementation or authoring requirements for nested <details name=...>,https://github.com/whatwg/html/issues/9968,2023-12-01T18:10:53Z,2023-12-20T03:02:16Z,dbaron,,0
@@ -330,7 +332,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1678606496,true,Popover: we can't guarantee the element calling `hidePopover` is on the top of auto popover list,https://github.com/whatwg/html/issues/9197,2023-04-21T14:18:38Z,2023-06-08T11:51:44Z,cathiechen,topic: popover,0
 1678411261,true,Popover: there is a circle for show other auto popover while hiding,https://github.com/whatwg/html/issues/9196,2023-04-21T12:04:32Z,2023-06-08T11:51:44Z,cathiechen,topic: popover,0
 1677543108,true,Upcoming HTML standard issue triage meeting on 5/4/2023,https://github.com/whatwg/html/issues/9193,2023-04-20T23:18:15Z,2023-05-04T17:03:14Z,past,agenda+,0
-1676587334,false,Clarification on the DOM being a tree,https://github.com/whatwg/html/issues/9189,2023-04-20T12:03:44Z,2023-04-21T09:49:17Z,MrHBS,clarification,0
+1676587334,false,Clarification on the DOM being a tree,https://github.com/whatwg/html/issues/9189,2023-04-20T12:03:44Z,2024-01-15T18:37:26Z,MrHBS,clarification,0
 1688386216,false,Clarification for <link> behavior in Declarative Shadow DOM,https://github.com/whatwg/html/issues/9232,2023-04-19T04:02:35Z,2024-01-08T21:52:32Z,bakura10,topic: shadow|topic: link,1
 1673113171,false,Make <img> src attribute optional if srcset is present,https://github.com/whatwg/html/issues/9181,2023-04-18T13:13:27Z,2023-05-10T09:25:53Z,foolip,document conformance|topic: img,1
 1671435300,true,The element could move to other document when showPopover,https://github.com/whatwg/html/issues/9177,2023-04-17T15:21:06Z,2023-05-05T09:13:47Z,cathiechen,topic: popover,0
@@ -3754,7 +3756,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 176243059,false,rb and rtc element should be removed from the list of obsolete features,https://github.com/whatwg/html/issues/1771,2016-09-11T13:09:32Z,2022-10-24T01:32:48Z,upsuper,document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,0
 175980447,false,Specify how to fetch <link rel=icon>,https://github.com/whatwg/html/issues/1769,2016-09-09T10:43:37Z,2016-09-13T15:19:42Z,zcorpan,topic: fetch,0
 175916893,true,Multipage redirection isn't always working anymore,https://github.com/whatwg/html/issues/1767,2016-09-09T03:06:41Z,2016-09-12T21:33:24Z,domenic,spec tooling,0
-175905234,true,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2024-01-12T08:03:23Z,isonmad,addition/proposal|needs implementer interest|topic: events,21
+175905234,true,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2024-01-12T08:03:23Z,isonmad,addition/proposal|needs implementer interest|topic: events,22
 175646396,false,HTML  specification allows for cycles in Window / Location prototype chain,https://github.com/whatwg/html/issues/1760,2016-09-08T01:47:55Z,2018-08-23T21:46:52Z,cdumez,integration|topic: location,0
 175630444,true,"does this mean these - ""A settings object      An environment settings ..."" - are equivalent?",https://github.com/whatwg/html/issues/1759,2016-09-07T23:27:46Z,2016-09-16T22:53:50Z,equalsJeffH,,0
 175609093,true,moving well known HTML tags outside of SVG container,https://github.com/whatwg/html/issues/1758,2016-09-07T21:19:02Z,2016-09-08T15:12:43Z,djfd,,0
