@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2086870978,false,Dark mode of HTML Spec does not render dark backgrounds for some dl elements,https://github.com/whatwg/html/issues/10072,2024-01-17T19:49:45Z,2024-01-17T21:06:27Z,ADKaster,,0
 2085320841,false,Script element document conformance requirements on attributes are incomplete and confusing,https://github.com/whatwg/html/issues/10070,2024-01-17T03:29:52Z,2024-01-17T09:05:45Z,domenic,document conformance|topic: script,0
 2084040516,false,Render-blocking a defer script or non-async module script,https://github.com/whatwg/html/issues/10068,2024-01-16T14:05:09Z,2024-01-16T14:07:29Z,zcorpan,,0
 2083608473,false,User interacted flag isn't always set on interactive submission,https://github.com/whatwg/html/issues/10066,2024-01-16T10:42:17Z,2024-01-17T09:31:20Z,emilio,topic: selectors,0
@@ -10,7 +11,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2077957331,false,Typo in `CanvasDrawPath.isPointInPath`,https://github.com/whatwg/html/issues/10053,2024-01-12T02:32:24Z,2024-01-12T02:35:21Z,0f-0b,good first issue|topic: canvas,1
 2077589057,false,Upcoming WHATNOT meeting on 1/25/2024,https://github.com/whatwg/html/issues/10052,2024-01-11T21:08:45Z,2024-01-11T21:08:45Z,past,agenda+,0
 2076160228,false,Inheritance with shadow DOM for `spellcheck` attribute,https://github.com/whatwg/html/issues/10050,2024-01-11T09:40:09Z,2024-01-11T19:23:49Z,sanketj,topic: shadow|needs tests,0
-2075798919,false,"""in parallel"" in algorithm headers can be confusing",https://github.com/whatwg/html/issues/10049,2024-01-11T05:41:57Z,2024-01-11T09:42:35Z,domenic,clarification,0
+2075798919,false,"""in parallel"" in algorithm headers can be confusing",https://github.com/whatwg/html/issues/10049,2024-01-11T05:41:57Z,2024-01-11T09:42:35Z,domenic,clarification,1
 2075560644,false,Close watchers: detecting close requests vs. other closes,https://github.com/whatwg/html/issues/10047,2024-01-11T01:59:20Z,2024-01-11T01:59:20Z,domenic,normative change|topic: dialog,1
 2075526270,false,Close watchers: history-action user activation is consumed even for the first close watcher,https://github.com/whatwg/html/issues/10046,2024-01-11T01:22:58Z,2024-01-11T01:23:41Z,domenic,normative change|topic: dialog,1
 2069375890,false,A way to disable animation of cancelled drag for editor apps like VS Code,https://github.com/whatwg/html/issues/10039,2024-01-08T00:28:08Z,2024-01-12T05:27:14Z,zcbenz,addition/proposal|needs implementer interest,1
@@ -162,7 +163,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1887654479,false,navigate() should not use parse a URL,https://github.com/whatwg/html/issues/9708,2023-09-08T13:05:43Z,2023-10-01T14:27:45Z,annevk,topic: navigation,1
 1886589682,true,Upcoming HTML standard issue triage meeting on 10/5/2023,https://github.com/whatwg/html/issues/9706,2023-09-07T21:34:34Z,2023-10-05T22:34:00Z,past,agenda+,0
 1886572380,false,Why is the content model for `<button>` limited to phrasing content?,https://github.com/whatwg/html/issues/9705,2023-09-07T21:14:57Z,2023-10-01T14:20:35Z,mfreed7,document conformance,0
-1884393327,false,[View Transition] Event on old Document to set transition state,https://github.com/whatwg/html/issues/9702,2023-09-06T16:48:16Z,2024-01-17T10:40:51Z,khushalsagar,,0
+1884393327,false,[View Transition] Event on old Document to set transition state,https://github.com/whatwg/html/issues/9702,2023-09-06T16:48:16Z,2024-01-17T15:00:02Z,khushalsagar,,0
 1883527421,true,<link rel=stylesheet> has a weird reference to resulting URL string,https://github.com/whatwg/html/issues/9695,2023-09-06T08:36:28Z,2023-09-08T09:09:16Z,annevk,topic: link,0
 1883499736,false,Enable `git diff` for individual sections of the `source` file,https://github.com/whatwg/html/issues/9694,2023-09-06T08:20:01Z,2023-10-01T14:30:47Z,not-my-profile,,0
 1883480006,false,"Specify steps for ""preparing an image for presentation"" for the EXIF-arriving-late case",https://github.com/whatwg/html/issues/9693,2023-09-06T08:07:35Z,2023-10-01T14:31:46Z,yarusome,topic: img|integration,0
@@ -393,7 +394,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1634346770,true,Be able to select for partial attribute names,https://github.com/whatwg/html/issues/9056,2023-03-21T16:57:38Z,2023-03-22T12:36:02Z,keithamus,,1
 1633613880,true,Is it ok for popover to claim general names like :open and :closed?,https://github.com/whatwg/html/issues/9055,2023-03-21T10:28:08Z,2023-04-06T23:18:08Z,jakearchibald,topic: popover,0
 1633590732,true,Add element.popoverOpen,https://github.com/whatwg/html/issues/9054,2023-03-21T10:13:22Z,2023-06-06T06:25:59Z,jakearchibald,addition/proposal|needs implementer interest|topic: popover,0
-1629220956,false,"Timing of `<dialog>` 'close' event, popover 'toggle' event, `<details>` 'toggle' event",https://github.com/whatwg/html/issues/9046,2023-03-17T12:19:27Z,2023-10-10T08:01:35Z,jakearchibald,topic: dialog|topic: popover,0
+1629220956,false,"Timing of `<dialog>` 'close' event, popover 'toggle' event, `<details>` 'toggle' event",https://github.com/whatwg/html/issues/9046,2023-03-17T12:19:27Z,2024-01-17T18:05:28Z,jakearchibald,topic: dialog|topic: popover,0
 1629156392,true,Should popover/dialog show/hide when already shown/hidden throw?,https://github.com/whatwg/html/issues/9045,2023-03-17T11:32:41Z,2023-06-06T06:39:49Z,jakearchibald,topic: dialog|topic: popover,6
 1629078964,false,<dialog> Unclear method of altering/reading attributes,https://github.com/whatwg/html/issues/9044,2023-03-17T10:35:36Z,2023-03-17T11:06:53Z,jakearchibald,topic: dialog,0
 1628986537,true,Should togglePopover() return a boolean?,https://github.com/whatwg/html/issues/9043,2023-03-17T09:30:48Z,2023-06-20T06:33:38Z,jakearchibald,addition/proposal|topic: popover,0
@@ -885,7 +886,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1177177506,true,Question: Expected behavior for Object.keys with storage objects,https://github.com/whatwg/html/issues/7741,2022-03-22T18:50:05Z,2022-03-22T18:55:43Z,jasonnutter,,0
 1176559847,true,HTML syntax: omitting <body> should not be allowed if first child is <noscript>,https://github.com/whatwg/html/issues/7737,2022-03-22T10:14:53Z,2022-09-15T17:15:31Z,zcorpan,good first issue|document conformance,0
 1176210826,true,Should a preload with SRI and a main request without SRI be matched?,https://github.com/whatwg/html/issues/7736,2022-03-22T03:17:51Z,2022-05-19T00:42:57Z,hiroshige-g,security/privacy|topic: fetch|topic: resource hints (inc. preload),0
-1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2024-01-09T16:19:49Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,46
+1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2024-01-09T16:19:49Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,47
 1175078464,false,"Modern browsers don't implement ""4.10.21.2 Implicit submission"" correctly",https://github.com/whatwg/html/issues/7730,2022-03-21T08:59:00Z,2022-03-21T12:40:28Z,IliasDewachter,topic: forms,0
 1172930450,false,<a download> can sometimes just navigate,https://github.com/whatwg/html/issues/7718,2022-03-17T21:19:34Z,2022-03-23T21:36:38Z,domenic,topic: navigation|interop,1
 1172424410,true,Iframe's sandbox IDL definition. Why is it readonly?,https://github.com/whatwg/html/issues/7717,2022-03-17T13:59:33Z,2022-03-17T15:25:41Z,ArthurSonzogni,,0
@@ -3553,7 +3554,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 195734740,true,Wring,https://github.com/whatwg/html/issues/2181,2016-12-15T07:24:47Z,2016-12-15T07:25:56Z,cheoklune,,0
 195651796,true,Making Location.ancestorOrigins a FrozenArray is not Web-Compatible,https://github.com/whatwg/html/issues/2179,2016-12-14T21:33:44Z,2017-01-13T00:55:08Z,cdumez,,0
 195558416,true,"""when a select element does not have a sizes attribute""",https://github.com/whatwg/html/issues/2178,2016-12-14T15:18:37Z,2017-02-23T16:42:03Z,deltab,good first issue,0
-195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2024-01-16T20:31:12Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,122
+195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2024-01-17T12:39:08Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,122
 195497838,true,selectionStart/End/Direction on input and textarea should not be nullable,https://github.com/whatwg/html/issues/2175,2016-12-14T10:46:42Z,2017-01-18T09:22:04Z,foolip,,0
 195494630,true,pushState title is ignored in all implementations?,https://github.com/whatwg/html/issues/2174,2016-12-14T10:32:35Z,2021-03-15T16:59:58Z,foolip,topic: history|interop,3
 195385032,true,"""If the element is flagged as ""parser-inserted"",...""",https://github.com/whatwg/html/issues/2173,2016-12-13T22:18:17Z,2016-12-13T22:19:35Z,JosephPecoraro,,0
