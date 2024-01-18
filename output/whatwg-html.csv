@@ -7,7 +7,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2081948280,false,Allow custom element definition to be 'changed',https://github.com/whatwg/html/issues/10063,2024-01-15T12:35:26Z,2024-01-15T16:24:53Z,jakearchibald,addition/proposal|needs implementer interest|topic: custom elements,0
 2079816491,true,[View Transition] [Navigation API] Allow opt-in for cross-document navigations via `navigate`,https://github.com/whatwg/html/issues/10059,2024-01-12T22:32:25Z,2024-01-16T20:56:41Z,khushalsagar,,2
 2079442881,false,Avoid depending on arbitrary labels (goto),https://github.com/whatwg/html/issues/10057,2024-01-12T18:22:11Z,2024-01-13T14:57:12Z,jdahlin,clarification|topic: parser,0
-2079280476,false,Image `loading` on page load,https://github.com/whatwg/html/issues/10056,2024-01-12T16:53:47Z,2024-01-15T14:42:15Z,benmccann,addition/proposal|needs implementer interest,2
+2079280476,false,Image `loading` on page load,https://github.com/whatwg/html/issues/10056,2024-01-12T16:53:47Z,2024-01-18T02:36:05Z,benmccann,addition/proposal|needs implementer interest,2
 2077957331,false,Typo in `CanvasDrawPath.isPointInPath`,https://github.com/whatwg/html/issues/10053,2024-01-12T02:32:24Z,2024-01-12T02:35:21Z,0f-0b,good first issue|topic: canvas,1
 2077589057,false,Upcoming WHATNOT meeting on 1/25/2024,https://github.com/whatwg/html/issues/10052,2024-01-11T21:08:45Z,2024-01-11T21:08:45Z,past,agenda+,0
 2076160228,false,Inheritance with shadow DOM for `spellcheck` attribute,https://github.com/whatwg/html/issues/10050,2024-01-11T09:40:09Z,2024-01-11T19:23:49Z,sanketj,topic: shadow|needs tests,0
@@ -17,7 +17,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2069375890,false,A way to disable animation of cancelled drag for editor apps like VS Code,https://github.com/whatwg/html/issues/10039,2024-01-08T00:28:08Z,2024-01-12T05:27:14Z,zcbenz,addition/proposal|needs implementer interest,1
 2069074912,true,Should past user activations be kept after refresh?,https://github.com/whatwg/html/issues/10038,2024-01-07T10:29:21Z,2024-01-07T11:44:31Z,CanadaHonk,,0
 2067099612,false,ARIA attribute reflection uses DOMString? but they are not enumerated attributes,https://github.com/whatwg/html/issues/10037,2024-01-05T10:28:24Z,2024-01-12T02:19:19Z,domenic,a11y-tracker|topic: reflect,0
-2063647207,false,Render-blocking scripts should also work for inline scripts,https://github.com/whatwg/html/issues/10034,2024-01-03T09:52:42Z,2024-01-08T16:31:52Z,noamr,addition/proposal,0
+2063647207,true,Render-blocking scripts should also work for inline scripts,https://github.com/whatwg/html/issues/10034,2024-01-03T09:52:42Z,2024-01-18T05:05:57Z,noamr,addition/proposal,0
 2062771189,false,Change when button has activation behavior,https://github.com/whatwg/html/issues/10032,2024-01-02T18:08:35Z,2024-01-09T10:59:18Z,vinhill,topic: forms|topic: events|topic: popover,0
 2061045240,false,[forms] <select> element clip is not specified and not interoperable,https://github.com/whatwg/html/issues/10031,2023-12-31T12:30:30Z,2024-01-09T10:40:18Z,emilio,topic: rendering|topic: forms,0
 2060823093,true,Is HTML stagnated?,https://github.com/whatwg/html/issues/10030,2023-12-30T18:35:10Z,2024-01-03T09:41:56Z,alejsanc,,0
@@ -163,7 +163,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1887654479,false,navigate() should not use parse a URL,https://github.com/whatwg/html/issues/9708,2023-09-08T13:05:43Z,2023-10-01T14:27:45Z,annevk,topic: navigation,1
 1886589682,true,Upcoming HTML standard issue triage meeting on 10/5/2023,https://github.com/whatwg/html/issues/9706,2023-09-07T21:34:34Z,2023-10-05T22:34:00Z,past,agenda+,0
 1886572380,false,Why is the content model for `<button>` limited to phrasing content?,https://github.com/whatwg/html/issues/9705,2023-09-07T21:14:57Z,2023-10-01T14:20:35Z,mfreed7,document conformance,0
-1884393327,false,[View Transition] Event on old Document to set transition state,https://github.com/whatwg/html/issues/9702,2023-09-06T16:48:16Z,2024-01-17T15:00:02Z,khushalsagar,,0
+1884393327,false,[View Transition] Event on old Document to set transition state,https://github.com/whatwg/html/issues/9702,2023-09-06T16:48:16Z,2024-01-18T08:00:58Z,khushalsagar,,0
 1883527421,true,<link rel=stylesheet> has a weird reference to resulting URL string,https://github.com/whatwg/html/issues/9695,2023-09-06T08:36:28Z,2023-09-08T09:09:16Z,annevk,topic: link,0
 1883499736,false,Enable `git diff` for individual sections of the `source` file,https://github.com/whatwg/html/issues/9694,2023-09-06T08:20:01Z,2023-10-01T14:30:47Z,not-my-profile,,0
 1883480006,false,"Specify steps for ""preparing an image for presentation"" for the EXIF-arriving-late case",https://github.com/whatwg/html/issues/9693,2023-09-06T08:07:35Z,2023-10-01T14:31:46Z,yarusome,topic: img|integration,0
@@ -251,7 +251,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1778139940,false,Adding support for High Dynamic Range (HDR) imagery to HTML Canvas: a baseline proposal,https://github.com/whatwg/html/issues/9461,2023-06-28T04:09:43Z,2023-11-13T22:28:43Z,palemieux,topic: canvas,0
 1777648161,true,Should we assign #document-state-origin on new child navigable creation?,https://github.com/whatwg/html/issues/9460,2023-06-27T19:45:05Z,2023-07-14T03:40:48Z,domfarolino,topic: navigation|topic: history,0
 1776546933,true,"When attribute value changes, do we run hiding popover algorithm regardless?",https://github.com/whatwg/html/issues/9459,2023-06-27T10:02:28Z,2023-10-24T04:52:07Z,ziransun,topic: popover,0
-1776445033,false,"Add width/height support in DataTransfer.setDragImage ",https://github.com/whatwg/html/issues/9458,2023-06-27T09:08:34Z,2023-07-05T14:33:46Z,Idered,addition/proposal|needs implementer interest|topic: drag and drop,3
+1776445033,false,"Add width/height support in DataTransfer.setDragImage ",https://github.com/whatwg/html/issues/9458,2023-06-27T09:08:34Z,2023-07-05T14:33:46Z,Idered,addition/proposal|needs implementer interest|topic: drag and drop,4
 1769582158,true,`longpress` DOM event,https://github.com/whatwg/html/issues/9454,2023-06-22T12:31:26Z,2023-06-22T14:54:49Z,jpzwarte,,0
 1769559940,false,The canvas fontStretch attribute should accept percentage values as well as keywords,https://github.com/whatwg/html/issues/9453,2023-06-22T12:16:35Z,2023-08-28T14:52:57Z,jfkthame,addition/proposal|topic: canvas,0
 1767925840,false,Possible performance optimizations of structured clone algorithm against ArrayBufferView?,https://github.com/whatwg/html/issues/9450,2023-06-21T15:57:33Z,2023-06-21T23:48:24Z,shuhaowu,topic: serialize and transfer,0
@@ -2449,7 +2449,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 383218019,true,Proposal: allow a mode of form.submit() that behaves like clicking a submit button,https://github.com/whatwg/html/issues/4187,2018-11-21T17:13:17Z,2019-05-16T19:06:55Z,domenic,addition/proposal|topic: forms,8
 382252874,false,<input type=checkbox switch>,https://github.com/whatwg/html/issues/4180,2018-11-19T14:59:03Z,2024-01-17T11:54:51Z,atishay,addition/proposal|topic: rendering|accessibility|topic: forms|a11y-tracker,44
 381558762,true,Consider downloading rather than rendering resources delivered over FTP.,https://github.com/whatwg/html/issues/4178,2018-11-16T11:22:50Z,2018-12-13T14:59:42Z,mikewest,addition/proposal|topic: navigation,1
-381175681,false,Rendering <input type=range> vertically,https://github.com/whatwg/html/issues/4177,2018-11-15T14:05:52Z,2024-01-09T11:54:08Z,MatsPalmgren,topic: rendering|topic: forms,7
+381175681,false,Rendering <input type=range> vertically,https://github.com/whatwg/html/issues/4177,2018-11-15T14:05:52Z,2024-01-18T12:01:12Z,MatsPalmgren,topic: rendering|topic: forms,7
 380737191,false,Potentially don't revalidate /favicon.ico fetches,https://github.com/whatwg/html/issues/4176,2018-11-14T14:58:42Z,2018-11-14T16:38:09Z,annevk,compat|topic: link,0
 380708763,true,Making postMessage() work for SharedArrayBuffer (Cross-Origin-Embedder-Policy),https://github.com/whatwg/html/issues/4175,2018-11-14T13:55:09Z,2020-07-08T10:49:05Z,annevk,addition/proposal|security/privacy|topic: browsing context|impacts documentation|topic: cross-origin-embedder-policy,0
 380097943,true,"""async — Execute script when available, without blocking""",https://github.com/whatwg/html/issues/4171,2018-11-13T07:46:52Z,2019-02-11T08:37:12Z,manngo,clarification|good first issue,0

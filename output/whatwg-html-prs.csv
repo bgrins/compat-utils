@@ -1,6 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2087183021,false,Export media element potentially playing,https://github.com/whatwg/html/pull/10073,2024-01-17T23:29:18Z,2024-01-17T23:30:52Z,marcoscaceres,,0
-2086075208,false,Editorial: make reference style after sentence consistent,https://github.com/whatwg/html/pull/10071,2024-01-17T12:20:19Z,2024-01-17T12:34:57Z,foolip,,0
+2087700398,true,Parser: insert-foreign-element: Clarify parameter names,https://github.com/whatwg/html/pull/10074,2024-01-18T07:41:13Z,2024-01-18T07:44:42Z,jdahlin,,0
+2087183021,true,Export media element potentially playing,https://github.com/whatwg/html/pull/10073,2024-01-17T23:29:18Z,2024-01-18T06:18:37Z,marcoscaceres,,0
+2086075208,true,Editorial: make reference style after sentence consistent,https://github.com/whatwg/html/pull/10071,2024-01-17T12:20:19Z,2024-01-18T06:19:34Z,foolip,,0
 2085030712,false,Modify the logic for double-declarative shadow root attachment,https://github.com/whatwg/html/pull/10069,2024-01-16T21:55:27Z,2024-01-16T22:01:02Z,mfreed7,,0
 2083711356,false,Move where the user-valid/invalid flag is set.,https://github.com/whatwg/html/pull/10067,2024-01-16T11:28:30Z,2024-01-16T18:46:54Z,emilio,,0
 2081521972,true,Review Draft Publication: January 2024,https://github.com/whatwg/html/pull/10062,2024-01-15T08:42:04Z,2024-01-15T08:53:36Z,annevk,,0
@@ -8,14 +9,14 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2079520948,true,Editorial: Export  for CSS and resolve ambiguity,https://github.com/whatwg/html/pull/10058,2024-01-12T19:09:56Z,2024-01-17T08:58:16Z,noamr,,0
 2079229492,false,Add HTMLImageElement.isTypeSupported(),https://github.com/whatwg/html/pull/10055,2024-01-12T16:27:08Z,2024-01-17T08:02:39Z,annevk,needs implementer interest|needs tests,0
 2077176597,true,Add the media element pseudo-classes,https://github.com/whatwg/html/pull/10051,2024-01-11T17:01:31Z,2024-01-16T15:27:24Z,annevk,topic: media|topic: selectors,0
-2075571078,false,Don't always consume user activation for close watchers,https://github.com/whatwg/html/pull/10048,2024-01-11T02:08:30Z,2024-01-17T00:45:36Z,domenic,,0
+2075571078,false,Don't always consume user activation for close watchers,https://github.com/whatwg/html/pull/10048,2024-01-11T02:08:30Z,2024-01-18T07:00:28Z,domenic,,0
 2073998014,false,Editorial: add enumerated attribute table for formmethod,https://github.com/whatwg/html/pull/10045,2024-01-10T09:54:13Z,2024-01-17T06:05:51Z,keithamus,,0
 2073927718,true,"Editorial: make case & pos of ""(the empty string)"" consistent",https://github.com/whatwg/html/pull/10044,2024-01-10T09:17:11Z,2024-01-12T09:35:18Z,keithamus,,0
 2073844929,false,Fix key event used for close requests,https://github.com/whatwg/html/pull/10043,2024-01-10T08:26:23Z,2024-01-10T08:27:54Z,domenic,topic: dialog,0
 2073271864,true,Export muted definition,https://github.com/whatwg/html/pull/10042,2024-01-09T22:25:45Z,2024-01-17T23:17:26Z,marcoscaceres,,0
 2071855102,true,Fix #10028 - minor error in import map example,https://github.com/whatwg/html/pull/10041,2024-01-09T08:19:14Z,2024-01-12T03:59:59Z,farsightsoftware,,0
 2071176662,true,Editorial: Fix broken link to view-transition spec,https://github.com/whatwg/html/pull/10040,2024-01-08T20:33:53Z,2024-01-09T04:08:31Z,bokand,,0
-2063769737,false,Allow render-blocking inline module scripts,https://github.com/whatwg/html/pull/10035,2024-01-03T10:55:00Z,2024-01-17T09:34:19Z,noamr,,0
+2063769737,true,Allow render-blocking inline module scripts,https://github.com/whatwg/html/pull/10035,2024-01-03T10:55:00Z,2024-01-18T05:05:56Z,noamr,,0
 2062900017,false,"Add argument labels when invoking ""apply the history step""",https://github.com/whatwg/html/pull/10033,2024-01-02T20:19:58Z,2024-01-03T10:25:46Z,awesomekling,,0
 2058271204,true,[Editorial] Fix missing references to OffscreenCanvas as CanvasImageSource,https://github.com/whatwg/html/pull/10027,2023-12-28T10:32:20Z,2024-01-09T04:13:18Z,Kaiido,topic: canvas,0
 2057043906,true,Don't clip range/checkbox/radio overflow to border box.,https://github.com/whatwg/html/pull/10025,2023-12-27T07:58:17Z,2024-01-15T09:21:50Z,emilio,,0
@@ -256,7 +257,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1735662308,true,Add empty string special case for pushState/replaceState,https://github.com/whatwg/html/pull/9370,2023-06-01T07:26:49Z,2023-06-02T03:06:20Z,domenic,topic: history|interop,0
 1735288504,true,Tighten auto popover list definition,https://github.com/whatwg/html/pull/9369,2023-06-01T01:45:56Z,2023-06-06T19:53:27Z,josepharhar,topic: popover,0
 1732189866,false,Use the fetched unsafe response for network status and response bodies,https://github.com/whatwg/html/pull/9362,2023-05-30T12:47:15Z,2023-11-14T08:05:49Z,trflynn89,,0
-1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2024-01-16T15:26:25Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
+1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2024-01-18T04:10:35Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
 1729857566,true,Add files via upload,https://github.com/whatwg/html/pull/9353,2023-05-29T01:56:27Z,2023-05-29T04:36:27Z,jakex666x,spam,0
 1728531782,true,Check dialog is modal flag instead of open attribute in 'check popover validity' algorithm,https://github.com/whatwg/html/pull/9344,2023-05-27T08:09:19Z,2023-06-12T06:54:45Z,nt1m,normative change|topic: popover,0
 1727729022,true,Re-add <source media> for media elements,https://github.com/whatwg/html/pull/9341,2023-05-26T14:21:19Z,2023-12-07T13:42:37Z,zcorpan,,3
