@@ -52,7 +52,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1617292236,true,[scoped-registries] Proposal for registry extension,https://github.com/WICG/webcomponents/issues/989,2023-03-09T13:45:12Z,2023-04-21T19:12:07Z,chalbert,,1
 1617148871,true,[custom-elements] Proposal for definition-time validation of dependencies,https://github.com/WICG/webcomponents/issues/988,2023-03-09T12:36:14Z,2023-05-15T11:39:09Z,chalbert,,0
 1617124051,true,[scoped-registries] Concerns about non-construction of scoped elements,https://github.com/WICG/webcomponents/issues/987,2023-03-09T12:22:00Z,2023-04-21T19:11:47Z,chalbert,,0
-1601702708,false,Web components should be able to easily adapt to the host page while maintaining enapsulation,https://github.com/WICG/webcomponents/issues/986,2023-02-27T18:10:03Z,2024-01-18T08:10:11Z,LeaVerou,,18
+1601702708,false,Web components should be able to easily adapt to the host page while maintaining enapsulation,https://github.com/WICG/webcomponents/issues/986,2023-02-27T18:10:03Z,2024-01-18T16:03:24Z,LeaVerou,,18
 1598702456,true,Chrome doesn't repaint with :last-of-type AND shadowRoot AND :host(:active) button,https://github.com/WICG/webcomponents/issues/985,2023-02-24T14:06:31Z,2023-02-24T19:34:48Z,Danny-Engelman,,0
 1592860520,false,"Is this still an ""incubation""?",https://github.com/WICG/webcomponents/issues/984,2023-02-21T05:58:07Z,2023-02-21T06:48:36Z,marcoscaceres,,0
 1581474058,false,"custom pseudo elements like ::before ::after, but using custom elements",https://github.com/WICG/webcomponents/issues/983,2023-02-13T00:43:56Z,2023-04-15T20:30:58Z,trusktr,,1
@@ -131,7 +131,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 700874118,false,Input element autofill strange behavior on Chrome when in shadow DOM,https://github.com/WICG/webcomponents/issues/894,2020-09-14T08:04:02Z,2020-09-14T08:27:30Z,ibinev,,0
 689479176,true,[idea] shadowattach event,https://github.com/WICG/webcomponents/issues/893,2020-08-31T20:19:05Z,2023-04-20T19:00:28Z,trusktr,shadow-dom|needs concrete proposal,0
 678026270,false,CustomElementRegistry.prototype.define<bulk>(),https://github.com/WICG/webcomponents/issues/892,2020-08-12T22:53:36Z,2020-09-01T02:12:28Z,leobalter,,1
-666645742,false,Allow a click on label associated with custom element to focus the custom element,https://github.com/WICG/webcomponents/issues/891,2020-07-27T23:26:00Z,2020-07-27T23:51:27Z,JanMiksovsky,,0
+666645742,false,Allow a click on label associated with custom element to focus the custom element,https://github.com/WICG/webcomponents/issues/891,2020-07-27T23:26:00Z,2024-01-18T22:13:26Z,JanMiksovsky,,0
 665468525,true,deleted,https://github.com/WICG/webcomponents/issues/890,2020-07-24T23:35:09Z,2020-08-17T23:01:36Z,trusktr,,0
 655470072,false,Allowing CSS combinators postfixed to the ::slotted() or :host selectors,https://github.com/WICG/webcomponents/issues/889,2020-07-12T20:24:19Z,2022-07-29T21:36:04Z,trusktr,shadow-dom|needs concrete proposal|css,4
 654955462,false,[declarative-custom-elements] how would SSR work?,https://github.com/WICG/webcomponents/issues/886,2020-07-10T18:20:57Z,2023-04-21T09:57:06Z,trusktr,,2
@@ -191,7 +191,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 447896993,false,"Discussion: child elements cannot determine whether they are ""active"" or not",https://github.com/WICG/webcomponents/issues/817,2019-05-23T22:15:50Z,2019-07-17T15:55:09Z,caridy,,2
 445606273,true,Shadow tree encapsulation and Element Timing,https://github.com/WICG/webcomponents/issues/816,2019-05-17T20:29:40Z,2019-10-15T17:47:53Z,npm1,shadow-dom|question,0
 445163776,false,Form associated custom elements: implicit submission,https://github.com/WICG/webcomponents/issues/815,2019-05-16T21:16:13Z,2019-05-16T21:16:13Z,domenic,,7
-445158359,false,Form-associated custom elements: being a submit button,https://github.com/WICG/webcomponents/issues/814,2019-05-16T21:01:46Z,2023-06-09T20:34:34Z,domenic,custom-elements|needs concrete proposal,16
+445158359,false,Form-associated custom elements: being a submit button,https://github.com/WICG/webcomponents/issues/814,2019-05-16T21:01:46Z,2023-06-09T20:34:34Z,domenic,custom-elements|needs concrete proposal,17
 442529805,false,Manage pseudo class matching state for custom elements,https://github.com/WICG/webcomponents/issues/813,2019-05-10T04:09:34Z,2023-04-20T19:45:01Z,tkent-google,custom-elements|needs concrete proposal,6
 441452263,true,Consider functional mixin pattern for form-associated custom elements,https://github.com/WICG/webcomponents/issues/812,2019-05-07T21:22:26Z,2019-08-20T20:56:06Z,JanMiksovsky,custom-elements,0
 441222443,false,Protocols/traits for custom elements,https://github.com/WICG/webcomponents/issues/811,2019-05-07T13:06:46Z,2023-04-20T19:46:30Z,annevk,custom-elements|needs consensus,2
@@ -335,7 +335,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 242065357,true,Lack of implementations of customized built-in elements is hurting Web Components,https://github.com/WICG/webcomponents/issues/648,2017-07-11T14:20:44Z,2017-08-25T00:04:26Z,prushforth,,7
 239487384,true,"Explanation required : Why only direct children of the shadow host can be slotted? ",https://github.com/WICG/webcomponents/issues/647,2017-06-29T13:55:07Z,2017-06-29T15:58:31Z,praveenpuglia,,0
 239109845,true,Custom Elements as submittable elements,https://github.com/WICG/webcomponents/issues/646,2017-06-28T09:47:44Z,2017-06-28T13:23:18Z,nektro,,0
-237252809,false,HTML Modules,https://github.com/WICG/webcomponents/issues/645,2017-06-20T15:30:13Z,2023-06-23T06:15:49Z,justinfagnani,needs concrete proposal|modules,242
+237252809,false,HTML Modules,https://github.com/WICG/webcomponents/issues/645,2017-06-20T15:30:13Z,2023-06-23T06:15:49Z,justinfagnani,needs concrete proposal|modules,243
 236969156,true,"[css-scoping]  Confusion regarding >>> ",https://github.com/WICG/webcomponents/issues/644,2017-06-19T17:49:26Z,2017-06-21T10:54:11Z,Ollie-w,,0
 235775061,true,Extending from a component with shadow dom may be difficult.,https://github.com/WICG/webcomponents/issues/643,2017-06-14T06:29:33Z,2017-06-15T17:17:59Z,trusktr,,0
 232443793,true,Agenda for W3C TPAC 2017 (Web Components),https://github.com/WICG/webcomponents/issues/641,2017-05-31T03:32:54Z,2017-11-16T03:30:30Z,hayatoito,,0

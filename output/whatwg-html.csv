@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2088770490,false,Proposal: Implement new method for parsing markup from `Fetch` responses,https://github.com/whatwg/html/issues/10076,2024-01-18T17:41:39Z,2024-01-18T17:54:37Z,brandonmcconnell,addition/proposal|needs implementer interest,0
 2086870978,false,Dark mode of HTML Spec does not render dark backgrounds for some dl elements,https://github.com/whatwg/html/issues/10072,2024-01-17T19:49:45Z,2024-01-17T21:06:27Z,ADKaster,,0
 2085320841,false,Script element document conformance requirements on attributes are incomplete and confusing,https://github.com/whatwg/html/issues/10070,2024-01-17T03:29:52Z,2024-01-17T09:05:45Z,domenic,document conformance|topic: script,0
 2084040516,false,Render-blocking a defer script or non-async module script,https://github.com/whatwg/html/issues/10068,2024-01-16T14:05:09Z,2024-01-16T14:07:29Z,zcorpan,,0
@@ -125,7 +126,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1918809473,false,Meta: Links that take you where you already are,https://github.com/whatwg/html/issues/9811,2023-09-29T08:17:19Z,2023-10-01T13:43:49Z,not-my-profile,,0
 1917630242,false,consider whether document-level language fallback rules make sense in all cases,https://github.com/whatwg/html/issues/9807,2023-09-28T14:06:24Z,2023-10-01T13:44:10Z,dbaron,i18n-tracker|needs tests,0
 1914439377,true,Navigables:  fireNavigateEventOnCommit is unused in apply the history step,https://github.com/whatwg/html/issues/9800,2023-09-26T23:34:38Z,2023-10-17T03:43:27Z,ADKaster,topic: navigation,0
-1914386972,false,Stylable `<select>` element,https://github.com/whatwg/html/issues/9799,2023-09-26T22:24:36Z,2024-01-11T21:15:29Z,josepharhar,addition/proposal|topic: parser|topic: forms|stage: 0,11
+1914386972,false,Stylable `<select>` element,https://github.com/whatwg/html/issues/9799,2023-09-26T22:24:36Z,2024-01-18T21:41:21Z,josepharhar,addition/proposal|topic: parser|topic: forms|stage: 0,11
 1913709777,false,Should MathML references be to MathML-Core instead of full?,https://github.com/whatwg/html/issues/9795,2023-09-26T14:56:47Z,2023-10-01T13:45:45Z,bkardell,normative change,0
 1913666731,true,Should throw SecurityError when loading a worker with a cross-origin script,https://github.com/whatwg/html/issues/9794,2023-09-26T14:37:14Z,2023-10-24T08:09:33Z,edenchuang,topic: workers|agenda+,0
 1913245177,false,Add `autopause` attribute to media elements to allow automatic pausing of media,https://github.com/whatwg/html/issues/9793,2023-09-26T10:54:58Z,2023-10-12T14:21:04Z,keithamus,needs implementer interest|topic: media,9
@@ -617,7 +618,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1419280036,true,Deprecated elements in HTML5; Elementos obsoletos na HTML5,https://github.com/whatwg/html/issues/8418,2022-10-22T12:55:03Z,2022-10-22T14:13:29Z,FellipeAguiar,,0
 1419060576,true,Missing the the process of form data,https://github.com/whatwg/html/issues/8416,2022-10-22T03:55:16Z,2022-10-22T06:08:15Z,chucklu,,0
 1417876245,true,`hidden` and `truespeed` in attributes overview,https://github.com/whatwg/html/issues/8414,2022-10-21T07:20:45Z,2022-10-25T14:47:36Z,j9t,,0
-1417384661,false,"Clarify value direction for elements ""progress"" and ""meter"" with vertical writing mode",https://github.com/whatwg/html/issues/8413,2022-10-20T22:17:55Z,2024-01-03T21:52:25Z,dizhang168,topic: rendering|i18n-tracker|i18n-jlreq|i18n-clreq|i18n-mlreq,0
+1417384661,false,"Clarify value direction for elements ""progress"" and ""meter"" with vertical writing mode",https://github.com/whatwg/html/issues/8413,2022-10-20T22:17:55Z,2024-01-18T23:42:20Z,dizhang168,topic: rendering|i18n-tracker|i18n-jlreq|i18n-clreq|i18n-mlreq|agenda+,0
 1417116460,true,Module script linking does not push realm execution context required in HostResolveImportedModule,https://github.com/whatwg/html/issues/8410,2022-10-20T19:05:37Z,2022-10-24T07:42:13Z,networkException,topic: script,0
 1416281572,true,Canvas2D `ellipse()` specs seem to be broken,https://github.com/whatwg/html/issues/8408,2022-10-20T09:27:00Z,2023-02-24T01:04:59Z,Kaiido,topic: canvas,1
 1413459881,false,"Add media attribute to details element, to restrict when it can be collapsed",https://github.com/whatwg/html/issues/8401,2022-10-18T15:47:01Z,2022-10-18T15:53:52Z,AmeliaBR,addition/proposal|topic: media|topic: style,4
@@ -2030,7 +2031,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 497040604,false,Define a policy container,https://github.com/whatwg/html/issues/4926,2019-09-23T11:28:43Z,2021-05-21T10:44:17Z,annevk,clarification|needs tests|interop|integration|topic: policy container,6
 496594293,true,Design questions about IDREF/Element attribute reflection,https://github.com/whatwg/html/issues/4925,2019-09-21T00:49:20Z,2022-06-30T08:19:53Z,alice,accessibility,0
 496188244,true,COEP mismatches in dedicated workers should block.,https://github.com/whatwg/html/issues/4924,2019-09-20T07:14:14Z,2020-04-20T09:12:18Z,mikewest,topic: cross-origin-embedder-policy,0
-495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2022-10-27T11:18:35Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,158
+495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2022-10-27T11:18:35Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,159
 495810632,false,Allow an extra dimension to the size array for 3D favicon,https://github.com/whatwg/html/issues/4922,2019-09-19T13:46:29Z,2021-01-28T22:05:11Z,rcabanier,addition/proposal|needs implementer interest|topic: link,0
 495595729,true,Decide how to treat CSP sandbox in COOP,https://github.com/whatwg/html/issues/4921,2019-09-19T06:18:06Z,2020-06-24T17:33:26Z,shhnjk,security/privacy|topic: cross-origin-opener-policy,0
 495587240,true,Consider restricting SharedArrayBuffer to same-origin usage,https://github.com/whatwg/html/issues/4920,2019-09-19T05:50:59Z,2019-12-05T15:38:02Z,annevk,addition/proposal|topic: serialize and transfer,0
@@ -2449,7 +2450,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 383218019,true,Proposal: allow a mode of form.submit() that behaves like clicking a submit button,https://github.com/whatwg/html/issues/4187,2018-11-21T17:13:17Z,2019-05-16T19:06:55Z,domenic,addition/proposal|topic: forms,8
 382252874,false,<input type=checkbox switch>,https://github.com/whatwg/html/issues/4180,2018-11-19T14:59:03Z,2024-01-17T11:54:51Z,atishay,addition/proposal|topic: rendering|accessibility|topic: forms|a11y-tracker,44
 381558762,true,Consider downloading rather than rendering resources delivered over FTP.,https://github.com/whatwg/html/issues/4178,2018-11-16T11:22:50Z,2018-12-13T14:59:42Z,mikewest,addition/proposal|topic: navigation,1
-381175681,false,Rendering <input type=range> vertically,https://github.com/whatwg/html/issues/4177,2018-11-15T14:05:52Z,2024-01-18T12:01:12Z,MatsPalmgren,topic: rendering|topic: forms,7
+381175681,false,Rendering <input type=range> vertically,https://github.com/whatwg/html/issues/4177,2018-11-15T14:05:52Z,2024-01-18T23:30:37Z,MatsPalmgren,topic: rendering|topic: forms|agenda+,7
 380737191,false,Potentially don't revalidate /favicon.ico fetches,https://github.com/whatwg/html/issues/4176,2018-11-14T14:58:42Z,2018-11-14T16:38:09Z,annevk,compat|topic: link,0
 380708763,true,Making postMessage() work for SharedArrayBuffer (Cross-Origin-Embedder-Policy),https://github.com/whatwg/html/issues/4175,2018-11-14T13:55:09Z,2020-07-08T10:49:05Z,annevk,addition/proposal|security/privacy|topic: browsing context|impacts documentation|topic: cross-origin-embedder-policy,0
 380097943,true,"""async — Execute script when available, without blocking""",https://github.com/whatwg/html/issues/4171,2018-11-13T07:46:52Z,2019-02-11T08:37:12Z,manngo,clarification|good first issue,0
@@ -2782,7 +2783,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 307205459,true,Participation status checks not green on master,https://github.com/whatwg/html/issues/3582,2018-03-21T11:22:15Z,2018-04-26T19:14:37Z,annevk,spec tooling,0
 307189256,false,Editorial: (re)adopt ECMAScript conventions,https://github.com/whatwg/html/issues/3581,2018-03-21T10:29:42Z,2018-03-21T10:29:42Z,annevk,clarification,1
 307057087,false,window.customElements.define retrieves the lifetime callbacks in an odd order,https://github.com/whatwg/html/issues/3580,2018-03-20T22:10:12Z,2019-07-09T15:28:51Z,mrbkap,normative change|topic: custom elements,0
-306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2020-05-24T11:41:53Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,31
+306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2020-05-24T11:41:53Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,32
 306030693,false,<embed> and <object> should define cleanup steps,https://github.com/whatwg/html/issues/3576,2018-03-16T18:20:24Z,2018-04-04T14:24:31Z,zetafunction,topic: embed and object,0
 305999314,false,"What is the point of the ""NewTarget is equal to the active function object"" in [HTMLConstructor]?",https://github.com/whatwg/html/issues/3575,2018-03-16T16:43:28Z,2018-05-02T20:42:55Z,bzbarsky,topic: custom elements,0
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
@@ -3554,7 +3555,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 195734740,true,Wring,https://github.com/whatwg/html/issues/2181,2016-12-15T07:24:47Z,2016-12-15T07:25:56Z,cheoklune,,0
 195651796,true,Making Location.ancestorOrigins a FrozenArray is not Web-Compatible,https://github.com/whatwg/html/issues/2179,2016-12-14T21:33:44Z,2017-01-13T00:55:08Z,cdumez,,0
 195558416,true,"""when a select element does not have a sizes attribute""",https://github.com/whatwg/html/issues/2178,2016-12-14T15:18:37Z,2017-02-23T16:42:03Z,deltab,good first issue,0
-195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2024-01-17T12:39:08Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,122
+195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2024-01-17T12:39:08Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,123
 195497838,true,selectionStart/End/Direction on input and textarea should not be nullable,https://github.com/whatwg/html/issues/2175,2016-12-14T10:46:42Z,2017-01-18T09:22:04Z,foolip,,0
 195494630,true,pushState title is ignored in all implementations?,https://github.com/whatwg/html/issues/2174,2016-12-14T10:32:35Z,2021-03-15T16:59:58Z,foolip,topic: history|interop,3
 195385032,true,"""If the element is flagged as ""parser-inserted"",...""",https://github.com/whatwg/html/issues/2173,2016-12-13T22:18:17Z,2016-12-13T22:19:35Z,JosephPecoraro,,0
