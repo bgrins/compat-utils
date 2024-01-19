@@ -10,7 +10,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2079229492,false,Add HTMLImageElement.isTypeSupported(),https://github.com/whatwg/html/pull/10055,2024-01-12T16:27:08Z,2024-01-17T08:02:39Z,annevk,needs implementer interest|needs tests,0
 2077176597,true,Add the media element pseudo-classes,https://github.com/whatwg/html/pull/10051,2024-01-11T17:01:31Z,2024-01-16T15:27:24Z,annevk,topic: media|topic: selectors,0
 2075571078,false,Don't always consume user activation for close watchers,https://github.com/whatwg/html/pull/10048,2024-01-11T02:08:30Z,2024-01-18T07:00:28Z,domenic,,0
-2073998014,false,Editorial: add enumerated attribute table for formmethod,https://github.com/whatwg/html/pull/10045,2024-01-10T09:54:13Z,2024-01-17T06:05:51Z,keithamus,,0
+2073998014,false,Editorial: add enumerated attribute table for formmethod,https://github.com/whatwg/html/pull/10045,2024-01-10T09:54:13Z,2024-01-19T11:30:15Z,keithamus,,0
 2073927718,true,"Editorial: make case & pos of ""(the empty string)"" consistent",https://github.com/whatwg/html/pull/10044,2024-01-10T09:17:11Z,2024-01-12T09:35:18Z,keithamus,,0
 2073844929,false,Fix key event used for close requests,https://github.com/whatwg/html/pull/10043,2024-01-10T08:26:23Z,2024-01-10T08:27:54Z,domenic,topic: dialog,0
 2073271864,true,Export muted definition,https://github.com/whatwg/html/pull/10042,2024-01-09T22:25:45Z,2024-01-17T23:17:26Z,marcoscaceres,,0
@@ -25,11 +25,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2053092639,true,Darkmode,https://github.com/whatwg/html/pull/10017,2023-12-21T21:44:11Z,2024-01-10T03:34:58Z,tabatkins,,0
 2051411630,false,Hide all popovers when beforetoggle shows a popover,https://github.com/whatwg/html/pull/10015,2023-12-20T22:47:23Z,2023-12-21T18:10:49Z,josepharhar,,0
 2051164772,true,Update 404.html,https://github.com/whatwg/html/pull/10014,2023-12-20T19:44:11Z,2023-12-20T23:46:18Z,21priti,spam,0
-2049067275,false,Refactor event-loop processing model to perform rendering as a task,https://github.com/whatwg/html/pull/10007,2023-12-19T16:58:39Z,2024-01-18T12:41:30Z,noamr,,0
+2049067275,false,Refactor event-loop processing model to perform rendering as a task,https://github.com/whatwg/html/pull/10007,2023-12-19T16:58:39Z,2024-01-19T12:06:04Z,noamr,,0
 2047777111,true,Fix case where the directionality of a <bdi> could be null.,https://github.com/whatwg/html/pull/10005,2023-12-19T01:55:21Z,2024-01-09T15:47:19Z,dbaron,normative change|i18n-tracker,0
 2047524540,true,Forbid documents from nesting <details> in the same exclusive accordion.,https://github.com/whatwg/html/pull/10004,2023-12-18T21:53:26Z,2023-12-20T03:02:15Z,dbaron,document conformance,0
 2047512920,true,Add authoring should referring to tradeoffs for authors of exclusive accordions.,https://github.com/whatwg/html/pull/10003,2023-12-18T21:45:00Z,2024-01-10T01:45:48Z,dbaron,document conformance,0
-2047226874,false,WIP: Pageconceal,https://github.com/whatwg/html/pull/10002,2023-12-18T18:40:37Z,2024-01-18T16:15:45Z,noamr,,0
+2047226874,false,Fire the `pageconceal` event when navigating away from a document,https://github.com/whatwg/html/pull/10002,2023-12-18T18:40:37Z,2024-01-19T10:55:37Z,noamr,,0
 2046331709,true,Add missing reference to `onpagereveal` as a content attribute,https://github.com/whatwg/html/pull/10001,2023-12-18T10:39:20Z,2024-01-09T04:21:09Z,noamr,,0
 2045183379,true,FIX #9987,https://github.com/whatwg/html/pull/9999,2023-12-17T11:36:41Z,2023-12-18T04:43:59Z,Abhishek-200,,0
 2043639858,false,Defer persisted state restore when view transition is started,https://github.com/whatwg/html/pull/9996,2023-12-15T12:25:51Z,2024-01-17T04:00:34Z,noamr,,0
@@ -60,7 +60,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2003866343,true,Editorial: remove closing tags on the dir attribute table,https://github.com/whatwg/html/pull/9945,2023-11-21T09:45:13Z,2023-11-22T09:36:59Z,keithamus,,0
 2003853880,true,Editorial: clean up enumerated attribute preambles,https://github.com/whatwg/html/pull/9944,2023-11-21T09:39:35Z,2023-11-23T13:56:39Z,keithamus,,0
 2003830414,true,Editorial: make marquee behavior/direction tables consistent,https://github.com/whatwg/html/pull/9943,2023-11-21T09:27:07Z,2023-11-23T11:19:42Z,keithamus,,0
-1995694385,true,MessagePort API:add a close event,https://github.com/whatwg/html/pull/9933,2023-11-15T22:37:38Z,2024-01-17T15:46:07Z,nononokam,,1
+1995694385,true,MessagePort API:add a close event,https://github.com/whatwg/html/pull/9933,2023-11-15T22:37:38Z,2024-01-19T05:45:24Z,nononokam,,1
 1994154166,true,Use scrollMargin for lazy load intersection observer,https://github.com/whatwg/html/pull/9932,2023-11-15T06:49:48Z,2023-11-16T19:05:08Z,tcaptan-cr,,0
 1992013329,true,Editorial: Export TextTrackMode enum value defs,https://github.com/whatwg/html/pull/9931,2023-11-14T05:22:05Z,2023-11-14T05:47:37Z,marcoscaceres,,0
 1991924982,true,Export normalized TimeRanges object,https://github.com/whatwg/html/pull/9930,2023-11-14T03:39:51Z,2023-11-19T23:47:48Z,marcoscaceres,,0
@@ -257,7 +257,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1735662308,true,Add empty string special case for pushState/replaceState,https://github.com/whatwg/html/pull/9370,2023-06-01T07:26:49Z,2023-06-02T03:06:20Z,domenic,topic: history|interop,0
 1735288504,true,Tighten auto popover list definition,https://github.com/whatwg/html/pull/9369,2023-06-01T01:45:56Z,2023-06-06T19:53:27Z,josepharhar,topic: popover,0
 1732189866,false,Use the fetched unsafe response for network status and response bodies,https://github.com/whatwg/html/pull/9362,2023-05-30T12:47:15Z,2023-11-14T08:05:49Z,trflynn89,,0
-1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2024-01-18T04:10:35Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
+1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2024-01-19T06:17:23Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
 1729857566,true,Add files via upload,https://github.com/whatwg/html/pull/9353,2023-05-29T01:56:27Z,2023-05-29T04:36:27Z,jakex666x,spam,0
 1728531782,true,Check dialog is modal flag instead of open attribute in 'check popover validity' algorithm,https://github.com/whatwg/html/pull/9344,2023-05-27T08:09:19Z,2023-06-12T06:54:45Z,nt1m,normative change|topic: popover,0
 1727729022,true,Re-add <source media> for media elements,https://github.com/whatwg/html/pull/9341,2023-05-26T14:21:19Z,2023-12-07T13:42:37Z,zcorpan,,3
