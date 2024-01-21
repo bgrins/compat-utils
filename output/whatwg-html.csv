@@ -1,17 +1,19 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2092231362,false,Three-valued Button state (type=three-valued) of the type attribute of the input element,https://github.com/whatwg/html/issues/10081,2024-01-20T20:33:25Z,2024-01-20T23:23:03Z,sergeyprokhorenko,addition/proposal|needs implementer interest,0
+2092094371,false,"Ability to disable images loading, to customise when they load with scripting ",https://github.com/whatwg/html/issues/10080,2024-01-20T15:27:36Z,2024-01-20T15:33:14Z,keithamus,addition/proposal|needs implementer interest|topic: media,0
 2091281574,false,"img sizes=""auto"" skewing images using object-fit: contain",https://github.com/whatwg/html/issues/10079,2024-01-19T19:56:30Z,2024-01-20T01:13:23Z,joemcgill,,0
 2090712845,false,Ergonomic way to move data between workers,https://github.com/whatwg/html/issues/10078,2024-01-19T14:46:38Z,2024-01-20T03:02:56Z,jakearchibald,addition/proposal|needs implementer interest|topic: workers,7
 2089462044,false,Allowing UA to do <source> selection for media element,https://github.com/whatwg/html/issues/10077,2024-01-19T02:56:38Z,2024-01-19T09:28:26Z,marcoscaceres,needs implementer interest|topic: media|agenda+,0
 2088770490,true,Proposal: Implement new method for parsing markup from `Fetch` responses,https://github.com/whatwg/html/issues/10076,2024-01-18T17:41:39Z,2024-01-19T10:13:40Z,brandonmcconnell,addition/proposal|needs implementer interest,0
-2086870978,false,Dark mode of HTML Spec does not render dark backgrounds for some dl elements,https://github.com/whatwg/html/issues/10072,2024-01-17T19:49:45Z,2024-01-17T21:06:27Z,ADKaster,,0
-2085320841,false,Script element document conformance requirements on attributes are incomplete and confusing,https://github.com/whatwg/html/issues/10070,2024-01-17T03:29:52Z,2024-01-17T09:05:45Z,domenic,document conformance|topic: script,0
+2086870978,false,Dark mode of HTML Spec does not render dark backgrounds for some dl elements,https://github.com/whatwg/html/issues/10072,2024-01-17T19:49:45Z,2024-01-20T18:18:00Z,ADKaster,,0
+2085320841,false,Script element document conformance requirements on attributes are incomplete and confusing,https://github.com/whatwg/html/issues/10070,2024-01-17T03:29:52Z,2024-01-21T00:30:30Z,domenic,document conformance|topic: script,1
 2084040516,false,Render-blocking a defer script or non-async module script,https://github.com/whatwg/html/issues/10068,2024-01-16T14:05:09Z,2024-01-16T14:07:29Z,zcorpan,,0
 2083608473,false,User interacted flag isn't always set on interactive submission,https://github.com/whatwg/html/issues/10066,2024-01-16T10:42:17Z,2024-01-17T09:31:20Z,emilio,topic: selectors,0
 2082181477,true,Missing IDL definition for `parseHTMLUnsafe`,https://github.com/whatwg/html/issues/10064,2024-01-15T14:46:18Z,2024-01-15T15:28:11Z,lukewarlow,,0
 2081948280,false,Allow custom element definition to be 'changed',https://github.com/whatwg/html/issues/10063,2024-01-15T12:35:26Z,2024-01-15T16:24:53Z,jakearchibald,addition/proposal|needs implementer interest|topic: custom elements,0
 2079816491,true,[View Transition] [Navigation API] Allow opt-in for cross-document navigations via `navigate`,https://github.com/whatwg/html/issues/10059,2024-01-12T22:32:25Z,2024-01-16T20:56:41Z,khushalsagar,,2
 2079442881,false,Avoid depending on arbitrary labels (goto),https://github.com/whatwg/html/issues/10057,2024-01-12T18:22:11Z,2024-01-13T14:57:12Z,jdahlin,clarification|topic: parser,0
-2079280476,false,Image `loading` on page load,https://github.com/whatwg/html/issues/10056,2024-01-12T16:53:47Z,2024-01-18T02:36:05Z,benmccann,addition/proposal|needs implementer interest,2
+2079280476,false,Image `loading` on page load,https://github.com/whatwg/html/issues/10056,2024-01-12T16:53:47Z,2024-01-20T15:27:51Z,benmccann,addition/proposal|needs implementer interest|topic: media,2
 2077957331,false,Typo in `CanvasDrawPath.isPointInPath`,https://github.com/whatwg/html/issues/10053,2024-01-12T02:32:24Z,2024-01-12T02:35:21Z,0f-0b,good first issue|topic: canvas,1
 2077589057,false,Upcoming WHATNOT meeting on 1/25/2024,https://github.com/whatwg/html/issues/10052,2024-01-11T21:08:45Z,2024-01-11T21:08:45Z,past,agenda+,0
 2076160228,false,Inheritance with shadow DOM for `spellcheck` attribute,https://github.com/whatwg/html/issues/10050,2024-01-11T09:40:09Z,2024-01-11T19:23:49Z,sanketj,topic: shadow|needs tests,0
@@ -2947,7 +2949,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 281530944,true,Dev edition styling is too zoomed in,https://github.com/whatwg/html/issues/3284,2017-12-12T20:44:11Z,2018-03-05T01:30:29Z,domenic,dev edition,0
 281420267,true,Specify behaviour for sessionStorage with opaque origins,https://github.com/whatwg/html/issues/3283,2017-12-12T15:14:29Z,2020-07-10T17:28:42Z,Zirro,good first issue|interop|topic: storage,0
 281348083,true,Add accessibility role mappings to element definitions,https://github.com/whatwg/html/issues/3282,2017-12-12T11:22:08Z,2019-12-16T17:43:13Z,LJWatson,accessibility|dev edition,13
-280795713,false,"Consider adding <input type=""year"">",https://github.com/whatwg/html/issues/3281,2017-12-10T09:26:30Z,2022-07-18T23:41:06Z,guss77,addition/proposal|topic: forms,60
+280795713,false,"Consider adding <input type=""year"">",https://github.com/whatwg/html/issues/3281,2017-12-10T09:26:30Z,2022-07-18T23:41:06Z,guss77,addition/proposal|topic: forms,62
 280649013,true,Treatment of fallback image on <img src=''>,https://github.com/whatwg/html/issues/3280,2017-12-08T23:39:38Z,2018-01-04T19:41:10Z,mwenge,topic: img|interop,0
 280509596,false,"Cross-reference ""namesake method""",https://github.com/whatwg/html/issues/3278,2017-12-08T14:39:22Z,2017-12-08T15:01:46Z,Ms2ger,clarification|topic: forms,0
 280093497,true,Proposal: RangeList,https://github.com/whatwg/html/issues/3277,2017-12-07T11:22:43Z,2017-12-07T11:45:13Z,WebReflection,,0
