@@ -197,7 +197,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1865552680,false,Allow additional elements to be considered labelable,https://github.com/whatwg/html/issues/9632,2023-08-24T16:58:56Z,2023-10-01T15:03:26Z,dmjohnsson23,addition/proposal|needs implementer interest|a11y-tracker,3
 1865087034,true,timer initialization steps has vague reference to WindowProxy,https://github.com/whatwg/html/issues/9631,2023-08-24T12:48:16Z,2023-08-24T16:29:11Z,Ms2ger,,0
 1864127558,true,Upcoming HTML standard issue triage meeting on 9/7/2023,https://github.com/whatwg/html/issues/9629,2023-08-23T23:03:34Z,2023-09-07T21:38:07Z,past,agenda+,0
-1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2023-11-17T06:43:36Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,30
+1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2023-11-17T06:43:36Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,31
 1862349856,false,Add `allow-unique-origin` keyword in iframe/CSP sandbox,https://github.com/whatwg/html/issues/9623,2023-08-22T23:56:53Z,2023-10-01T15:12:22Z,shhnjk,,0
 1858440019,true,[Question] Should mouseover event propagates across shadowDom?,https://github.com/whatwg/html/issues/9619,2023-08-21T02:32:55Z,2023-08-28T19:21:24Z,woody-li,,0
 1857932079,true,"remove <input type=“password”> ",https://github.com/whatwg/html/issues/9617,2023-08-20T02:47:37Z,2023-08-20T03:59:47Z,MichaelMcGlothlin,,0
@@ -503,7 +503,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1552934460,false,Ability to style default summary in <details>,https://github.com/whatwg/html/issues/8770,2023-01-23T11:28:14Z,2023-05-05T08:34:11Z,jakearchibald,addition/proposal|topic: rendering|topic: selectors,2
 1552047625,true,"Clarify: CSS import assertions use ""script"" as the destination, is that intended?",https://github.com/whatwg/html/issues/8764,2023-01-22T08:56:49Z,2023-06-11T06:26:34Z,noamr,,0
 1550462824,true,MediaError not acccessible for a video element if using it with source elements,https://github.com/whatwg/html/issues/8757,2023-01-20T08:15:13Z,2023-01-26T09:48:49Z,callumgare,,0
-1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-08-21T19:16:06Z,mfreed7,addition/proposal|topic: shadow,0
+1550768319,false,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2023-08-21T19:16:06Z,mfreed7,addition/proposal|topic: shadow,1
 1550024105,false,Native support for indents,https://github.com/whatwg/html/issues/8751,2023-01-19T22:11:32Z,2023-01-25T23:06:02Z,GermanJablo,,1
 1548957116,true,[css-view-transitions-1] Interaction with Safari's back/forward previews,https://github.com/whatwg/html/issues/8749,2023-01-19T11:14:58Z,2023-01-19T11:21:46Z,jakearchibald,,0
 1537525438,true,Meta: should dfns in headings be viewed as exported definitions?,https://github.com/whatwg/html/issues/8743,2023-01-18T07:30:06Z,2023-01-20T19:24:39Z,tidoust,,0
@@ -2453,7 +2453,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 383304020,true,Should clearly define that the ordinary object internal methods are used when not stated otherwise for WindowProxy and Location,https://github.com/whatwg/html/issues/4189,2018-11-21T21:49:36Z,2018-11-27T14:13:43Z,bzbarsky,,0
 383274575,false,Definition of stable state in terms of microtasks does not seem to match browsers,https://github.com/whatwg/html/issues/4188,2018-11-21T20:04:20Z,2019-01-24T01:57:02Z,bzbarsky,topic: event loop,0
 383218019,true,Proposal: allow a mode of form.submit() that behaves like clicking a submit button,https://github.com/whatwg/html/issues/4187,2018-11-21T17:13:17Z,2019-05-16T19:06:55Z,domenic,addition/proposal|topic: forms,8
-382252874,false,<input type=checkbox switch>,https://github.com/whatwg/html/issues/4180,2018-11-19T14:59:03Z,2024-01-17T11:54:51Z,atishay,addition/proposal|topic: rendering|accessibility|topic: forms|a11y-tracker,44
+382252874,false,<input type=checkbox switch>,https://github.com/whatwg/html/issues/4180,2018-11-19T14:59:03Z,2024-01-17T11:54:51Z,atishay,addition/proposal|topic: rendering|accessibility|topic: forms|a11y-tracker,45
 381558762,true,Consider downloading rather than rendering resources delivered over FTP.,https://github.com/whatwg/html/issues/4178,2018-11-16T11:22:50Z,2018-12-13T14:59:42Z,mikewest,addition/proposal|topic: navigation,1
 381175681,false,Rendering <input type=range> vertically,https://github.com/whatwg/html/issues/4177,2018-11-15T14:05:52Z,2024-01-18T23:30:37Z,MatsPalmgren,topic: rendering|topic: forms|agenda+,8
 380737191,false,Potentially don't revalidate /favicon.ico fetches,https://github.com/whatwg/html/issues/4176,2018-11-14T14:58:42Z,2018-11-14T16:38:09Z,annevk,compat|topic: link,0
