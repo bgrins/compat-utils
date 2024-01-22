@@ -2,7 +2,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2087700398,true,Parser: insert-foreign-element: Clarify parameter names,https://github.com/whatwg/html/pull/10074,2024-01-18T07:41:13Z,2024-01-18T07:44:42Z,jdahlin,,0
 2087183021,true,Export media element potentially playing,https://github.com/whatwg/html/pull/10073,2024-01-17T23:29:18Z,2024-01-18T06:18:37Z,marcoscaceres,,0
 2086075208,true,Editorial: make reference style after sentence consistent,https://github.com/whatwg/html/pull/10071,2024-01-17T12:20:19Z,2024-01-18T06:19:34Z,foolip,,0
-2085030712,false,Modify the logic for double-declarative shadow root attachment,https://github.com/whatwg/html/pull/10069,2024-01-16T21:55:27Z,2024-01-16T22:01:02Z,mfreed7,,0
+2085030712,false,Modify the logic for double-declarative shadow root attachment,https://github.com/whatwg/html/pull/10069,2024-01-16T21:55:27Z,2024-01-22T08:38:21Z,mfreed7,,0
 2083711356,false,Move where the user-valid/invalid flag is set.,https://github.com/whatwg/html/pull/10067,2024-01-16T11:28:30Z,2024-01-16T18:46:54Z,emilio,,0
 2081521972,true,Review Draft Publication: January 2024,https://github.com/whatwg/html/pull/10062,2024-01-15T08:42:04Z,2024-01-15T08:53:36Z,annevk,,0
 2080074867,false,fix/typo issue-#10053,https://github.com/whatwg/html/pull/10060,2024-01-13T04:50:16Z,2024-01-13T12:42:04Z,MustafaMulla29,,0
@@ -10,7 +10,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2079229492,false,Add HTMLImageElement.isTypeSupported(),https://github.com/whatwg/html/pull/10055,2024-01-12T16:27:08Z,2024-01-17T08:02:39Z,annevk,needs implementer interest|needs tests,0
 2077176597,true,Add the media element pseudo-classes,https://github.com/whatwg/html/pull/10051,2024-01-11T17:01:31Z,2024-01-16T15:27:24Z,annevk,topic: media|topic: selectors,0
 2075571078,false,Don't always consume user activation for close watchers,https://github.com/whatwg/html/pull/10048,2024-01-11T02:08:30Z,2024-01-18T07:00:28Z,domenic,,0
-2073998014,false,Editorial: add enumerated attribute table for formmethod,https://github.com/whatwg/html/pull/10045,2024-01-10T09:54:13Z,2024-01-19T11:30:15Z,keithamus,,0
+2073998014,false,Editorial: add enumerated attribute table for formmethod,https://github.com/whatwg/html/pull/10045,2024-01-10T09:54:13Z,2024-01-22T04:34:47Z,keithamus,,0
 2073927718,true,"Editorial: make case & pos of ""(the empty string)"" consistent",https://github.com/whatwg/html/pull/10044,2024-01-10T09:17:11Z,2024-01-12T09:35:18Z,keithamus,,0
 2073844929,false,Fix key event used for close requests,https://github.com/whatwg/html/pull/10043,2024-01-10T08:26:23Z,2024-01-10T08:27:54Z,domenic,topic: dialog,0
 2073271864,true,Export muted definition,https://github.com/whatwg/html/pull/10042,2024-01-09T22:25:45Z,2024-01-17T23:17:26Z,marcoscaceres,,0
@@ -72,7 +72,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1973639595,true,Modernize frame/iframe insertion and removal,https://github.com/whatwg/html/pull/9906,2023-11-02T07:07:51Z,2023-11-06T08:35:35Z,domenic,topic: shadow|topic: browsing context,0
 1973636114,false,"'li' tag missed 'p' tag, causing no line break.",https://github.com/whatwg/html/pull/9905,2023-11-02T07:05:02Z,2023-11-14T08:05:49Z,Raj-400BC,,0
 1973568045,true,Do not unload during same-document history step application,https://github.com/whatwg/html/pull/9904,2023-11-02T06:04:11Z,2023-11-15T00:41:37Z,domenic,topic: navigation,0
-1973377901,false,Rendering: field-sizing support for some elements,https://github.com/whatwg/html/pull/9903,2023-11-02T02:14:31Z,2024-01-17T14:46:03Z,tkent-google,,0
+1973377901,false,Rendering: field-sizing support for some elements,https://github.com/whatwg/html/pull/9903,2023-11-02T02:14:31Z,2024-01-22T02:42:46Z,tkent-google,,0
 1971885555,true,"Fix ""attempt to populate a history entry's document""",https://github.com/whatwg/html/pull/9902,2023-11-01T07:56:33Z,2024-01-11T00:23:18Z,domenic,topic: navigation,0
 1971810024,true,Fix history step continuation in a new Window,https://github.com/whatwg/html/pull/9901,2023-11-01T06:51:47Z,2023-12-13T06:10:31Z,domenic,do not merge yet|topic: navigation,0
 1969985811,false,Fix plural typo,https://github.com/whatwg/html/pull/9898,2023-10-31T09:15:32Z,2023-11-14T08:05:49Z,imageck,,0
@@ -85,7 +85,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1965832927,true,Update CONTRIBUTING.md,https://github.com/whatwg/html/pull/9885,2023-10-27T16:22:14Z,2023-10-27T17:58:31Z,gfggithubleet,,0
 1961825121,true,Export TextTrackMode's enum values,https://github.com/whatwg/html/pull/9883,2023-10-25T16:40:49Z,2023-11-19T23:52:51Z,marcoscaceres,,0
 1961564202,true,Make language of a node consider lang attribute on SVG elements.,https://github.com/whatwg/html/pull/9882,2023-10-25T14:27:52Z,2023-10-26T02:10:33Z,dbaron,,0
-1961464046,false,"Revert recent changes to rendering of <slot>, and some of the corresponding changes to its directionality and language",https://github.com/whatwg/html/pull/9880,2023-10-25T13:42:26Z,2024-01-15T21:11:59Z,dbaron,,0
+1961464046,false,"Revert recent changes to rendering of <slot>, and some of the corresponding changes to its directionality and language",https://github.com/whatwg/html/pull/9880,2023-10-25T13:42:26Z,2024-01-22T08:42:02Z,dbaron,,0
 1958950645,true,Define the `terms-of-service` link type.,https://github.com/whatwg/html/pull/9877,2023-10-24T10:25:33Z,2023-11-06T10:03:44Z,mikewest,addition/proposal|security/privacy|privacy-tracker,1
 1956248354,true,ruby: Remove the segmentation algorithm,https://github.com/whatwg/html/pull/9876,2023-10-23T02:44:59Z,2023-10-27T06:17:56Z,tkent-google,removal/deprecation|document conformance|topic: ruby,0
 1956084796,false,Add invoke popover defaults,https://github.com/whatwg/html/pull/9875,2023-10-22T22:44:20Z,2023-12-04T12:24:21Z,keithamus,,0
