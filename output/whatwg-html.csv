@@ -1,7 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2092231362,false,Three-valued Button state (type=three-valued) of the type attribute of the input element,https://github.com/whatwg/html/issues/10081,2024-01-20T20:33:25Z,2024-01-22T08:47:02Z,sergeyprokhorenko,addition/proposal|needs implementer interest,0
+2094176434,true,Three-valued Button state (type=three-valued) of the type attribute of the input element,https://github.com/whatwg/html/issues/10082,2024-01-22T15:30:47Z,2024-01-22T15:33:50Z,sergeyprokhorenko,addition/proposal|needs implementer interest,0
+2092231362,false,Three-valued Button state (type=three-valued) of the type attribute of the input element,https://github.com/whatwg/html/issues/10081,2024-01-20T20:33:25Z,2024-01-22T15:36:37Z,sergeyprokhorenko,addition/proposal|needs implementer interest,0
 2092094371,false,"Ability to disable images loading, to customise when they load with scripting ",https://github.com/whatwg/html/issues/10080,2024-01-20T15:27:36Z,2024-01-20T15:33:14Z,keithamus,addition/proposal|needs implementer interest|topic: media,0
-2091281574,false,"img sizes=""auto"" skewing images using object-fit: contain",https://github.com/whatwg/html/issues/10079,2024-01-19T19:56:30Z,2024-01-20T01:13:23Z,joemcgill,,0
+2091281574,false,"img sizes=""auto"" skewing images using object-fit: contain",https://github.com/whatwg/html/issues/10079,2024-01-19T19:56:30Z,2024-01-22T20:48:29Z,joemcgill,topic: rendering|topic: img|needs tests,0
 2090712845,false,Ergonomic way to move data between workers,https://github.com/whatwg/html/issues/10078,2024-01-19T14:46:38Z,2024-01-22T12:04:24Z,jakearchibald,addition/proposal|needs implementer interest|topic: workers,7
 2089462044,false,Allowing UA to do <source> selection for media element,https://github.com/whatwg/html/issues/10077,2024-01-19T02:56:38Z,2024-01-19T09:28:26Z,marcoscaceres,needs implementer interest|topic: media|agenda+,0
 2088770490,true,Proposal: Implement new method for parsing markup from `Fetch` responses,https://github.com/whatwg/html/issues/10076,2024-01-18T17:41:39Z,2024-01-19T10:13:40Z,brandonmcconnell,addition/proposal|needs implementer interest,0
@@ -892,7 +893,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1177177506,true,Question: Expected behavior for Object.keys with storage objects,https://github.com/whatwg/html/issues/7741,2022-03-22T18:50:05Z,2022-03-22T18:55:43Z,jasonnutter,,0
 1176559847,true,HTML syntax: omitting <body> should not be allowed if first child is <noscript>,https://github.com/whatwg/html/issues/7737,2022-03-22T10:14:53Z,2022-09-15T17:15:31Z,zcorpan,good first issue|document conformance,0
 1176210826,true,Should a preload with SRI and a main request without SRI be matched?,https://github.com/whatwg/html/issues/7736,2022-03-22T03:17:51Z,2022-05-19T00:42:57Z,hiroshige-g,security/privacy|topic: fetch|topic: resource hints (inc. preload),0
-1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2024-01-09T16:19:49Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,47
+1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2024-01-09T16:19:49Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,48
 1175078464,false,"Modern browsers don't implement ""4.10.21.2 Implicit submission"" correctly",https://github.com/whatwg/html/issues/7730,2022-03-21T08:59:00Z,2022-03-21T12:40:28Z,IliasDewachter,topic: forms,0
 1172930450,false,<a download> can sometimes just navigate,https://github.com/whatwg/html/issues/7718,2022-03-17T21:19:34Z,2022-03-23T21:36:38Z,domenic,topic: navigation|interop,1
 1172424410,true,Iframe's sandbox IDL definition. Why is it readonly?,https://github.com/whatwg/html/issues/7717,2022-03-17T13:59:33Z,2022-03-17T15:25:41Z,ArthurSonzogni,,0
@@ -1257,7 +1258,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 897523809,true,target's TLBC should be target's BC's TLBC in has focus steps,https://github.com/whatwg/html/issues/6703,2021-05-20T22:42:13Z,2021-06-17T20:04:20Z,domenic,good first issue,0
 897285343,true,"Consider moving XHR's definition of ""entry list"" to HTML",https://github.com/whatwg/html/issues/6701,2021-05-20T18:51:21Z,2021-11-29T17:20:57Z,andreubotella,clarification|integration,0
 896536690,true,Allow certain tasks to run even when document is not fully active?,https://github.com/whatwg/html/issues/6699,2021-05-20T09:25:43Z,2021-05-27T06:23:41Z,rakina,topic: fetch|topic: document lifecycle,0
-895874485,false,Allow HTML web apps to force 24 hour time format in <input type=time>,https://github.com/whatwg/html/issues/6698,2021-05-19T20:49:24Z,2022-05-19T22:14:15Z,skissane,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,58
+895874485,false,Allow HTML web apps to force 24 hour time format in <input type=time>,https://github.com/whatwg/html/issues/6698,2021-05-19T20:49:24Z,2022-05-19T22:14:15Z,skissane,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,59
 895436878,false,Specify scroll into view for find-in-page and sequential focus navigation,https://github.com/whatwg/html/issues/6694,2021-05-19T13:18:38Z,2021-05-20T11:54:29Z,zcorpan,,0
 890889194,false,Navigating to same url - replace or add?,https://github.com/whatwg/html/issues/6682,2021-05-13T09:34:50Z,2021-08-31T13:25:45Z,jakearchibald,topic: navigation|topic: history|interop,0
 890289078,true,Author control and possible race condition in dialog.close,https://github.com/whatwg/html/issues/6681,2021-05-12T16:48:23Z,2021-05-13T16:03:36Z,AutoSponge,,0

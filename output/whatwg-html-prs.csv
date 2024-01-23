@@ -29,10 +29,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2047777111,true,Fix case where the directionality of a <bdi> could be null.,https://github.com/whatwg/html/pull/10005,2023-12-19T01:55:21Z,2024-01-09T15:47:19Z,dbaron,normative change|i18n-tracker,0
 2047524540,true,Forbid documents from nesting <details> in the same exclusive accordion.,https://github.com/whatwg/html/pull/10004,2023-12-18T21:53:26Z,2023-12-20T03:02:15Z,dbaron,document conformance,0
 2047512920,true,Add authoring should referring to tradeoffs for authors of exclusive accordions.,https://github.com/whatwg/html/pull/10003,2023-12-18T21:45:00Z,2024-01-10T01:45:48Z,dbaron,document conformance,0
-2047226874,false,Fire the `pageconceal` event when navigating away from a document,https://github.com/whatwg/html/pull/10002,2023-12-18T18:40:37Z,2024-01-19T10:55:37Z,noamr,,0
+2047226874,false,Fire the `pageconceal` event when navigating away from a document,https://github.com/whatwg/html/pull/10002,2023-12-18T18:40:37Z,2024-01-22T22:41:05Z,noamr,,0
 2046331709,true,Add missing reference to `onpagereveal` as a content attribute,https://github.com/whatwg/html/pull/10001,2023-12-18T10:39:20Z,2024-01-09T04:21:09Z,noamr,,0
 2045183379,true,FIX #9987,https://github.com/whatwg/html/pull/9999,2023-12-17T11:36:41Z,2023-12-18T04:43:59Z,Abhishek-200,,0
-2043639858,false,Defer persisted state restore when view transition is started,https://github.com/whatwg/html/pull/9996,2023-12-15T12:25:51Z,2024-01-17T04:00:34Z,noamr,,0
+2043639858,false,Defer persisted state restore when view transition is started,https://github.com/whatwg/html/pull/9996,2023-12-15T12:25:51Z,2024-01-22T17:21:39Z,noamr,,0
 2043470343,true,Use UA styles rather than prose to define <input> clip.,https://github.com/whatwg/html/pull/9994,2023-12-15T10:45:45Z,2023-12-27T08:03:46Z,emilio,topic: rendering,0
 2039023561,true,"Fix double ""update the navigation API"" for fragment navs",https://github.com/whatwg/html/pull/9990,2023-12-13T06:09:10Z,2024-01-09T04:09:00Z,domenic,topic: navigation,0
 2038423738,true,Add additional accessibility-related authoring advice regarding <details>,https://github.com/whatwg/html/pull/9989,2023-12-12T19:29:30Z,2024-01-09T04:27:39Z,dbaron,document conformance|accessibility,0
@@ -72,7 +72,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1973639595,true,Modernize frame/iframe insertion and removal,https://github.com/whatwg/html/pull/9906,2023-11-02T07:07:51Z,2023-11-06T08:35:35Z,domenic,topic: shadow|topic: browsing context,0
 1973636114,false,"'li' tag missed 'p' tag, causing no line break.",https://github.com/whatwg/html/pull/9905,2023-11-02T07:05:02Z,2023-11-14T08:05:49Z,Raj-400BC,,0
 1973568045,true,Do not unload during same-document history step application,https://github.com/whatwg/html/pull/9904,2023-11-02T06:04:11Z,2023-11-15T00:41:37Z,domenic,topic: navigation,0
-1973377901,false,Rendering: field-sizing support for some elements,https://github.com/whatwg/html/pull/9903,2023-11-02T02:14:31Z,2024-01-22T02:42:46Z,tkent-google,,0
+1973377901,false,Rendering: field-sizing support for some elements,https://github.com/whatwg/html/pull/9903,2023-11-02T02:14:31Z,2024-01-22T23:22:09Z,tkent-google,,0
 1971885555,true,"Fix ""attempt to populate a history entry's document""",https://github.com/whatwg/html/pull/9902,2023-11-01T07:56:33Z,2024-01-11T00:23:18Z,domenic,topic: navigation,0
 1971810024,true,Fix history step continuation in a new Window,https://github.com/whatwg/html/pull/9901,2023-11-01T06:51:47Z,2023-12-13T06:10:31Z,domenic,do not merge yet|topic: navigation,0
 1969985811,false,Fix plural typo,https://github.com/whatwg/html/pull/9898,2023-10-31T09:15:32Z,2023-11-14T08:05:49Z,imageck,,0
@@ -257,7 +257,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1735662308,true,Add empty string special case for pushState/replaceState,https://github.com/whatwg/html/pull/9370,2023-06-01T07:26:49Z,2023-06-02T03:06:20Z,domenic,topic: history|interop,0
 1735288504,true,Tighten auto popover list definition,https://github.com/whatwg/html/pull/9369,2023-06-01T01:45:56Z,2023-06-06T19:53:27Z,josepharhar,topic: popover,0
 1732189866,false,Use the fetched unsafe response for network status and response bodies,https://github.com/whatwg/html/pull/9362,2023-05-30T12:47:15Z,2023-11-14T08:05:49Z,trflynn89,,0
-1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2024-01-19T06:17:23Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
+1731476128,false,Add back/forward cache NotRestoredReasons,https://github.com/whatwg/html/pull/9360,2023-05-30T04:11:29Z,2024-01-22T20:09:56Z,rubberyuzu,addition/proposal|topic: navigation|needs tests,0
 1729857566,true,Add files via upload,https://github.com/whatwg/html/pull/9353,2023-05-29T01:56:27Z,2023-05-29T04:36:27Z,jakex666x,spam,0
 1728531782,true,Check dialog is modal flag instead of open attribute in 'check popover validity' algorithm,https://github.com/whatwg/html/pull/9344,2023-05-27T08:09:19Z,2023-06-12T06:54:45Z,nt1m,normative change|topic: popover,0
 1727729022,true,Re-add <source media> for media elements,https://github.com/whatwg/html/pull/9341,2023-05-26T14:21:19Z,2023-12-07T13:42:37Z,zcorpan,,3
