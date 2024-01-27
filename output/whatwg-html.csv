@@ -1,18 +1,19 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2102919837,false,Should dir=auto with no strong characters inherit directionality from parent or be ltr?,https://github.com/whatwg/html/issues/10097,2024-01-26T21:20:37Z,2024-01-26T21:27:36Z,dbaron,i18n-tracker|i18n-alreq|i18n-hlreq,0
 2101372272,false,Upcoming WHATNOT meeting on 2/8/2024,https://github.com/whatwg/html/issues/10094,2024-01-26T00:19:57Z,2024-01-26T00:19:57Z,past,agenda+,0
 2101370051,false,Navigation: Clarification on `ever populated` flag of DocumentState during apply the history step,https://github.com/whatwg/html/issues/10093,2024-01-26T00:17:19Z,2024-01-26T00:57:58Z,ADKaster,,0
 2100830261,true,`html` end tag omission,https://github.com/whatwg/html/issues/10092,2024-01-25T17:11:22Z,2024-01-25T18:04:20Z,j9t,,0
 2100360805,false,Ability to configure whether script elements should execute for setHTMLUnsafe(),https://github.com/whatwg/html/issues/10090,2024-01-25T13:02:52Z,2024-01-25T13:02:53Z,zcorpan,addition/proposal|needs implementer interest|topic: parser|topic: script,1
 2099890607,true,Scrolling when near the edge of the viewport while dragging,https://github.com/whatwg/html/issues/10089,2024-01-25T08:58:27Z,2024-01-25T09:02:28Z,jpzwarte,,0
 2099359228,false,navigationType in apply the history step used without a null check,https://github.com/whatwg/html/issues/10086,2024-01-25T00:38:12Z,2024-01-25T02:43:42Z,ADKaster,clarification|topic: navigation,0
-2099154071,false,Should showPicker() consume user activation?,https://github.com/whatwg/html/issues/10084,2024-01-24T21:38:50Z,2024-01-25T13:24:14Z,josepharhar,security/privacy|topic: forms|security-tracker,0
+2099154071,false,Should showPicker() consume user activation?,https://github.com/whatwg/html/issues/10084,2024-01-24T21:38:50Z,2024-01-26T22:46:26Z,josepharhar,security/privacy|topic: forms|security-tracker,0
 2097833563,false,Labeled control when moving the mouse around is inconsistent accross UAs,https://github.com/whatwg/html/issues/10083,2024-01-24T09:34:09Z,2024-01-24T09:53:06Z,pygy,,0
 2094176434,true,Three-valued Button state (type=three-valued) of the type attribute of the input element,https://github.com/whatwg/html/issues/10082,2024-01-22T15:30:47Z,2024-01-22T15:33:50Z,sergeyprokhorenko,addition/proposal|needs implementer interest,0
-2092231362,false,Three-valued Button state (type=three-valued) of the type attribute of the input element,https://github.com/whatwg/html/issues/10081,2024-01-20T20:33:25Z,2024-01-22T15:36:37Z,sergeyprokhorenko,addition/proposal|needs implementer interest,0
+2092231362,false,Three-valued Button state (type=three-valued) of the type attribute of the input element,https://github.com/whatwg/html/issues/10081,2024-01-20T20:33:25Z,2024-01-26T21:15:58Z,sergeyprokhorenko,addition/proposal|needs implementer interest,0
 2092094371,false,"Ability to disable images loading, to customise when they load with scripting ",https://github.com/whatwg/html/issues/10080,2024-01-20T15:27:36Z,2024-01-20T15:33:14Z,keithamus,addition/proposal|needs implementer interest|topic: media,0
 2091281574,false,"img sizes=""auto"" skewing images using object-fit: contain",https://github.com/whatwg/html/issues/10079,2024-01-19T19:56:30Z,2024-01-22T20:48:29Z,joemcgill,topic: rendering|topic: img|needs tests,1
 2090712845,false,Ergonomic way to move data between workers,https://github.com/whatwg/html/issues/10078,2024-01-19T14:46:38Z,2024-01-23T18:11:16Z,jakearchibald,addition/proposal|needs implementer interest|topic: workers,9
-2089462044,false,Allowing UA to do <source> selection for media element,https://github.com/whatwg/html/issues/10077,2024-01-19T02:56:38Z,2024-01-26T07:57:15Z,marcoscaceres,needs implementer interest|topic: media,0
+2089462044,false,Allowing UA to do <source> selection for media element,https://github.com/whatwg/html/issues/10077,2024-01-19T02:56:38Z,2024-01-26T18:42:50Z,marcoscaceres,needs implementer interest|topic: media,0
 2088770490,true,Proposal: Implement new method for parsing markup from `Fetch` responses,https://github.com/whatwg/html/issues/10076,2024-01-18T17:41:39Z,2024-01-19T10:13:40Z,brandonmcconnell,addition/proposal|needs implementer interest,0
 2086870978,false,Dark mode of HTML Spec does not render dark backgrounds for some dl elements,https://github.com/whatwg/html/issues/10072,2024-01-17T19:49:45Z,2024-01-20T18:18:00Z,ADKaster,,0
 2085320841,false,Script element document conformance requirements on attributes are incomplete and confusing,https://github.com/whatwg/html/issues/10070,2024-01-17T03:29:52Z,2024-01-21T00:30:30Z,domenic,document conformance|topic: script,1
@@ -144,7 +145,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1913709777,true,Should MathML references be to MathML-Core instead of full?,https://github.com/whatwg/html/issues/9795,2023-09-26T14:56:47Z,2024-01-23T14:44:38Z,bkardell,normative change,0
 1913666731,true,Should throw SecurityError when loading a worker with a cross-origin script,https://github.com/whatwg/html/issues/9794,2023-09-26T14:37:14Z,2023-10-24T08:09:33Z,edenchuang,topic: workers|agenda+,0
 1913245177,false,Add `autopause` attribute to media elements to allow automatic pausing of media,https://github.com/whatwg/html/issues/9793,2023-09-26T10:54:58Z,2023-10-12T14:21:04Z,keithamus,needs implementer interest|topic: media,9
-1909491215,false,popover=hint,https://github.com/whatwg/html/issues/9776,2023-09-22T20:36:33Z,2024-01-24T03:22:47Z,josepharhar,topic: popover,3
+1909491215,false,popover=hint,https://github.com/whatwg/html/issues/9776,2023-09-22T20:36:33Z,2024-01-26T23:26:24Z,josepharhar,topic: popover,3
 1909406598,true,Navigation: inner navigate firing algorithm does not say what to do if invoking NavigationInterceptHandler throws,https://github.com/whatwg/html/issues/9774,2023-09-22T19:17:05Z,2023-09-26T03:55:04Z,ADKaster,clarification|topic: navigation,0
 1909396065,false,Attribute index for script's type attribute was not updated for import maps,https://github.com/whatwg/html/issues/9773,2023-09-22T19:07:37Z,2023-10-01T13:48:56Z,domenic,clarification|topic: script,0
 1907577267,false,popover: should audio/video in a popover keep playing after popover is dismissed?,https://github.com/whatwg/html/issues/9770,2023-09-21T18:51:42Z,2023-10-05T08:32:10Z,xiaochengh,clarification|topic: popover,0
@@ -312,7 +313,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1727581751,false,Proposal: Improve support for multiple target origins for Window#postMessage,https://github.com/whatwg/html/issues/9340,2023-05-26T12:58:54Z,2023-06-11T13:22:49Z,eliasm307,addition/proposal|needs implementer interest|topic: serialize and transfer,0
 1726270402,true,"""check popover algorithm"" check for open dialogs is weak",https://github.com/whatwg/html/issues/9335,2023-05-25T18:10:32Z,2023-06-06T05:15:42Z,nt1m,topic: dialog|topic: popover,0
 1726046900,false,Proposal: Meta Tag for AI Consent Management,https://github.com/whatwg/html/issues/9334,2023-05-25T15:27:38Z,2023-08-15T22:34:35Z,brennancaldwell,addition/proposal|needs implementer interest,0
-1725842986,false,[View Transitions] Extend render-blocking to support Document,https://github.com/whatwg/html/issues/9332,2023-05-25T13:33:50Z,2024-01-26T11:03:36Z,khushalsagar,addition/proposal|topic: rendering,0
+1725842986,false,[View Transitions] Extend render-blocking to support Document,https://github.com/whatwg/html/issues/9332,2023-05-25T13:33:50Z,2024-01-26T17:13:41Z,khushalsagar,addition/proposal|topic: rendering,0
 1723771024,false,browsers handle document.open'ed iframe documents differently in session history,https://github.com/whatwg/html/issues/9330,2023-05-24T11:30:34Z,2023-06-01T07:36:22Z,smaug----,topic: history|interop|topic: document.open(),0
 1723381350,true,link type preload has a recursive refLink,https://github.com/whatwg/html/issues/9327,2023-05-24T07:45:31Z,2023-05-25T05:14:45Z,Kaiido,,0
 1721120977,false,New FocusEvent property for getting the FocusOptions,https://github.com/whatwg/html/issues/9322,2023-05-23T04:01:49Z,2023-05-26T09:20:11Z,woody-li,addition/proposal|needs implementer interest|topic: focus,1
@@ -786,7 +787,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1283190683,true,Should timers be ordered by scheduled time or by passed millis?,https://github.com/whatwg/html/issues/8034,2022-06-24T02:45:27Z,2022-06-26T11:26:06Z,Kaiido,interop|topic: timing,0
 1282742175,false,Blocking tab-under navigations?,https://github.com/whatwg/html/issues/8033,2022-06-23T17:43:53Z,2022-06-23T19:01:52Z,domenic,addition/proposal|topic: navigation,0
 1282588788,true,TABLE TD -> TD Looks Weird,https://github.com/whatwg/html/issues/8032,2022-06-23T15:28:04Z,2022-06-23T16:47:59Z,toptal126,,0
-1282345110,false,Improve support for refresh rate discovery and control,https://github.com/whatwg/html/issues/8031,2022-06-23T12:42:40Z,2023-12-13T14:16:43Z,juj,,3
+1282345110,false,Improve support for refresh rate discovery and control,https://github.com/whatwg/html/issues/8031,2022-06-23T12:42:40Z,2023-12-13T14:16:43Z,juj,,4
 1278018519,false,Normatively define the “elementtiming” content attribute,https://github.com/whatwg/html/issues/8024,2022-06-21T07:34:43Z,2022-06-28T18:55:14Z,sideshowbarker,,1
 1277218382,false,"""BeforeUnloadEvent"" user message presets",https://github.com/whatwg/html/issues/8023,2022-06-20T17:35:02Z,2022-06-21T23:12:34Z,delta-9,addition/proposal|needs implementer interest,0
 1275097690,true,Incorrect autocomplete token in example,https://github.com/whatwg/html/issues/8019,2022-06-17T14:26:31Z,2022-06-17T18:41:00Z,mtrootyy,,0
@@ -2806,7 +2807,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2023-06-14T18:51:29Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,22
 305369552,true,Proposal: Improve control over HTML/XML syntax parse errors,https://github.com/whatwg/html/issues/3569,2018-03-14T23:56:33Z,2022-04-18T15:28:51Z,dvdckl,addition/proposal|needs implementer interest|topic: parser,0
 305147441,true,"<form method> description only says ""HTTP method""",https://github.com/whatwg/html/issues/3568,2018-03-14T12:58:10Z,2018-04-20T07:53:27Z,annevk,good first issue,0
-305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2023-10-07T13:45:11Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,155
+305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2023-10-07T13:45:11Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,156
 305020324,true,Separate out document.open() method declaration definitions,https://github.com/whatwg/html/issues/3565,2018-03-14T04:36:27Z,2018-06-28T15:27:09Z,domenic,clarification|good first issue|topic: document.open(),0
 305019688,true,At least Blink does not support document.open()'s replace parameter,https://github.com/whatwg/html/issues/3564,2018-03-14T04:31:43Z,2018-08-23T18:40:33Z,domenic,topic: history|interop|topic: document.open(),0
 304874091,false,<template> element capability/semantics in SVG parsing context,https://github.com/whatwg/html/issues/3563,2018-03-13T17:59:50Z,2018-03-15T07:34:25Z,kevinpschaaf,addition/proposal|needs implementer interest|topic: parser,0
@@ -2974,7 +2975,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 277440824,true,"""If an element has a srcset attribute present, a...""",https://github.com/whatwg/html/issues/3262,2017-11-28T16:06:05Z,2017-11-28T17:03:35Z,treyeckels,document conformance|topic: img,0
 277413348,true,How do I get extendableEvent.waitUntil() to play nicely with async functions,https://github.com/whatwg/html/issues/3261,2017-11-28T14:53:45Z,2017-11-28T16:16:07Z,Zectbumo,,0
 277137656,false,Attribute Index should list default values,https://github.com/whatwg/html/issues/3259,2017-11-27T19:25:05Z,2018-03-30T03:54:54Z,fantasai,clarification,2
-276934417,false,"Consider recording the ""duplicate-attribute"" error state.",https://github.com/whatwg/html/issues/3257,2017-11-27T08:22:53Z,2018-12-05T14:10:14Z,mikewest,topic: parser|security/privacy,0
+276934417,false,"Consider recording the ""duplicate-attribute"" error state.",https://github.com/whatwg/html/issues/3257,2017-11-27T08:22:53Z,2024-01-26T14:54:01Z,mikewest,topic: parser|security/privacy,0
 276619973,false,Nosniffing for Worker Scripts,https://github.com/whatwg/html/issues/3255,2017-11-24T13:40:40Z,2022-05-16T14:50:55Z,otherdaniel,security/privacy|topic: script,0
 276311439,true,Rewrite spec text for the Storage interface operations to use ordered maps,https://github.com/whatwg/html/issues/3252,2017-11-23T09:38:11Z,2020-07-08T14:15:49Z,sideshowbarker,clarification|topic: storage,0
 276270497,true,Touch Bar Web API: <menu type=touch-bar> and <menuitem>,https://github.com/whatwg/html/issues/3251,2017-11-23T05:40:11Z,2023-08-18T14:44:20Z,js-choi,addition/proposal|needs implementer interest,9
