@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2103110513,false,Navigation: DocumentState request referrer is not set for about:srcdoc,https://github.com/whatwg/html/issues/10099,2024-01-27T01:00:07Z,2024-01-27T01:00:07Z,ADKaster,,0
 2102919837,false,Should dir=auto with no strong characters inherit directionality from parent or be ltr?,https://github.com/whatwg/html/issues/10097,2024-01-26T21:20:37Z,2024-01-26T21:27:36Z,dbaron,i18n-tracker|i18n-alreq|i18n-hlreq,0
 2101372272,false,Upcoming WHATNOT meeting on 2/8/2024,https://github.com/whatwg/html/issues/10094,2024-01-26T00:19:57Z,2024-01-26T00:19:57Z,past,agenda+,0
 2101370051,false,Navigation: Clarification on `ever populated` flag of DocumentState during apply the history step,https://github.com/whatwg/html/issues/10093,2024-01-26T00:17:19Z,2024-01-26T00:57:58Z,ADKaster,,0
@@ -13,7 +14,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2092094371,false,"Ability to disable images loading, to customise when they load with scripting ",https://github.com/whatwg/html/issues/10080,2024-01-20T15:27:36Z,2024-01-20T15:33:14Z,keithamus,addition/proposal|needs implementer interest|topic: media,0
 2091281574,false,"img sizes=""auto"" skewing images using object-fit: contain",https://github.com/whatwg/html/issues/10079,2024-01-19T19:56:30Z,2024-01-22T20:48:29Z,joemcgill,topic: rendering|topic: img|needs tests,1
 2090712845,false,Ergonomic way to move data between workers,https://github.com/whatwg/html/issues/10078,2024-01-19T14:46:38Z,2024-01-23T18:11:16Z,jakearchibald,addition/proposal|needs implementer interest|topic: workers,9
-2089462044,false,Allowing UA to do <source> selection for media element,https://github.com/whatwg/html/issues/10077,2024-01-19T02:56:38Z,2024-01-26T18:42:50Z,marcoscaceres,needs implementer interest|topic: media,0
+2089462044,false,Allowing UA to do <source> selection for media element,https://github.com/whatwg/html/issues/10077,2024-01-19T02:56:38Z,2024-01-27T10:56:52Z,marcoscaceres,needs implementer interest|topic: media,0
 2088770490,true,Proposal: Implement new method for parsing markup from `Fetch` responses,https://github.com/whatwg/html/issues/10076,2024-01-18T17:41:39Z,2024-01-19T10:13:40Z,brandonmcconnell,addition/proposal|needs implementer interest,0
 2086870978,false,Dark mode of HTML Spec does not render dark backgrounds for some dl elements,https://github.com/whatwg/html/issues/10072,2024-01-17T19:49:45Z,2024-01-20T18:18:00Z,ADKaster,,0
 2085320841,false,Script element document conformance requirements on attributes are incomplete and confusing,https://github.com/whatwg/html/issues/10070,2024-01-17T03:29:52Z,2024-01-21T00:30:30Z,domenic,document conformance|topic: script,1
@@ -410,7 +411,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1634346770,true,Be able to select for partial attribute names,https://github.com/whatwg/html/issues/9056,2023-03-21T16:57:38Z,2023-03-22T12:36:02Z,keithamus,,1
 1633613880,true,Is it ok for popover to claim general names like :open and :closed?,https://github.com/whatwg/html/issues/9055,2023-03-21T10:28:08Z,2023-04-06T23:18:08Z,jakearchibald,topic: popover,0
 1633590732,true,Add element.popoverOpen,https://github.com/whatwg/html/issues/9054,2023-03-21T10:13:22Z,2023-06-06T06:25:59Z,jakearchibald,addition/proposal|needs implementer interest|topic: popover,0
-1629220956,false,"Timing of `<dialog>` 'close' event, popover 'toggle' event, `<details>` 'toggle' event",https://github.com/whatwg/html/issues/9046,2023-03-17T12:19:27Z,2024-01-17T18:05:28Z,jakearchibald,topic: dialog|topic: popover,0
+1629220956,false,"Timing of `<dialog>` 'close' event, popover 'toggle' event, `<details>` 'toggle' event",https://github.com/whatwg/html/issues/9046,2023-03-17T12:19:27Z,2024-01-27T10:30:24Z,jakearchibald,topic: dialog|topic: popover,0
 1629156392,true,Should popover/dialog show/hide when already shown/hidden throw?,https://github.com/whatwg/html/issues/9045,2023-03-17T11:32:41Z,2023-06-06T06:39:49Z,jakearchibald,topic: dialog|topic: popover,6
 1629078964,false,<dialog> Unclear method of altering/reading attributes,https://github.com/whatwg/html/issues/9044,2023-03-17T10:35:36Z,2023-03-17T11:06:53Z,jakearchibald,topic: dialog,0
 1628986537,true,Should togglePopover() return a boolean?,https://github.com/whatwg/html/issues/9043,2023-03-17T09:30:48Z,2023-06-20T06:33:38Z,jakearchibald,addition/proposal|topic: popover,0
@@ -3467,7 +3468,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 208900934,true,"What sort of things does the ""construction stack"" of a custom element definition store?",https://github.com/whatwg/html/issues/2374,2017-02-20T14:50:04Z,2017-10-13T21:02:22Z,bzbarsky,clarification|topic: custom elements,0
 208423629,false,"""If the user agent exposes a user interface to the user by displaying controls over the media element, then the user agent should suppress any user interaction events while the user agent is interacting with this interface. "" is super vague",https://github.com/whatwg/html/issues/2370,2017-02-17T12:09:21Z,2017-02-17T12:37:01Z,smaug----,topic: media|topic: events,0
 208403836,true,Consider hiding `nonce` content attributes.,https://github.com/whatwg/html/issues/2369,2017-02-17T10:45:39Z,2017-11-22T15:15:54Z,mikewest,topic: parser|security/privacy,0
-208401874,false,Mouse events & disabled form controls,https://github.com/whatwg/html/issues/2368,2017-02-17T10:38:34Z,2023-11-03T07:57:24Z,jakearchibald,topic: forms|topic: events|interop,7
+208401874,false,Mouse events & disabled form controls,https://github.com/whatwg/html/issues/2368,2017-02-17T10:38:34Z,2024-01-27T11:24:20Z,jakearchibald,topic: forms|topic: events|interop,7
 208399800,false,"Sort out <link rel=""alternate stylesheet"" title="""">.sheet",https://github.com/whatwg/html/issues/2367,2017-02-17T10:30:24Z,2017-09-04T11:14:44Z,zcorpan,topic: link|topic: style,0
 208241208,false,Should we allow delaying video preload until it becomes visible?,https://github.com/whatwg/html/issues/2364,2017-02-16T20:46:23Z,2017-02-23T11:47:37Z,xxyzzzq,topic: media,2
 208026022,true,"Should clarify the ""scope"" of [CEReactions]",https://github.com/whatwg/html/issues/2362,2017-02-16T06:00:12Z,2017-02-22T14:27:42Z,bzbarsky,topic: custom elements,0
