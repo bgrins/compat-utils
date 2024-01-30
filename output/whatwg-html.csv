@@ -1,11 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2106432046,false,"Should `<a target=""_blank"">` and `window.open` consume the transient activation?",https://github.com/whatwg/html/issues/10108,2024-01-29T21:08:29Z,2024-01-29T21:26:10Z,EdgarChen,topic: user activation,0
-2106308432,false,Should there be an opt-out for declarative shadow roots having `clonable=true`?,https://github.com/whatwg/html/issues/10107,2024-01-29T19:59:06Z,2024-01-29T21:59:40Z,mfreed7,,0
+2106432046,false,"Should `<a target=""_blank"">` and `window.open` consume the transient activation?",https://github.com/whatwg/html/issues/10108,2024-01-29T21:08:29Z,2024-01-30T09:30:39Z,EdgarChen,topic: user activation,0
+2106308432,false,Should there be an opt-out for declarative shadow roots having `clonable=true`?,https://github.com/whatwg/html/issues/10107,2024-01-29T19:59:06Z,2024-01-30T07:34:28Z,mfreed7,topic: shadow,0
 2105557140,false,Session history step of top level navigable when child navigables traverse history,https://github.com/whatwg/html/issues/10106,2024-01-29T13:55:03Z,2024-01-29T13:55:03Z,ADKaster,,0
-2105150263,false,"""run a classic script"" returns completion records and throws",https://github.com/whatwg/html/issues/10104,2024-01-29T10:20:58Z,2024-01-29T10:20:59Z,Ms2ger,,0
+2105150263,false,"""run a classic script"" returns completion records and throws",https://github.com/whatwg/html/issues/10104,2024-01-29T10:20:58Z,2024-01-30T05:16:31Z,Ms2ger,clarification|topic: script,0
 2105145165,false,Can a task throw exceptions?,https://github.com/whatwg/html/issues/10103,2024-01-29T10:18:20Z,2024-01-29T17:11:26Z,Ms2ger,,0
 2104404634,true,Proposal: HTML Attribute to state non-consent when scraping for training datasets,https://github.com/whatwg/html/issues/10101,2024-01-28T23:47:08Z,2024-01-29T09:30:51Z,gouldcs,addition/proposal|needs implementer interest,3
-2104274568,false,`<callout>` element for callouts/alerts/admonitions,https://github.com/whatwg/html/issues/10100,2024-01-28T17:47:29Z,2024-01-29T21:49:19Z,LeaVerou,addition/proposal|needs implementer interest|topic: parser,1
+2104274568,false,`<callout>` element for callouts/alerts/admonitions,https://github.com/whatwg/html/issues/10100,2024-01-28T17:47:29Z,2024-01-30T09:20:29Z,LeaVerou,addition/proposal|needs implementer interest|topic: parser,2
 2103110513,false,Navigation: DocumentState request referrer is not set for about:srcdoc,https://github.com/whatwg/html/issues/10099,2024-01-27T01:00:07Z,2024-01-27T01:00:07Z,ADKaster,,0
 2102919837,false,Should dir=auto with no strong characters inherit directionality from parent or be ltr?,https://github.com/whatwg/html/issues/10097,2024-01-26T21:20:37Z,2024-01-29T16:57:42Z,dbaron,i18n-tracker|i18n-alreq|i18n-hlreq,0
 2101372272,false,Upcoming WHATNOT meeting on 2/8/2024,https://github.com/whatwg/html/issues/10094,2024-01-26T00:19:57Z,2024-01-26T00:19:57Z,past,agenda+,0
@@ -19,7 +19,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2094176434,true,Three-valued Button state (type=three-valued) of the type attribute of the input element,https://github.com/whatwg/html/issues/10082,2024-01-22T15:30:47Z,2024-01-22T15:33:50Z,sergeyprokhorenko,addition/proposal|needs implementer interest,0
 2092231362,false,Three-valued Button state (type=three-valued) of the type attribute of the input element,https://github.com/whatwg/html/issues/10081,2024-01-20T20:33:25Z,2024-01-26T21:15:58Z,sergeyprokhorenko,addition/proposal|needs implementer interest,0
 2092094371,false,"Ability to disable images loading, to customise when they load with scripting ",https://github.com/whatwg/html/issues/10080,2024-01-20T15:27:36Z,2024-01-20T15:33:14Z,keithamus,addition/proposal|needs implementer interest|topic: media,0
-2091281574,false,"img sizes=""auto"" skewing images using object-fit: contain",https://github.com/whatwg/html/issues/10079,2024-01-19T19:56:30Z,2024-01-29T20:58:29Z,joemcgill,compat|topic: rendering|topic: img|needs tests,1
+2091281574,false,"img sizes=""auto"" skewing images using object-fit: contain",https://github.com/whatwg/html/issues/10079,2024-01-19T19:56:30Z,2024-01-30T00:31:26Z,joemcgill,compat|topic: rendering|topic: img|needs tests,1
 2090712845,false,Ergonomic way to move data between workers,https://github.com/whatwg/html/issues/10078,2024-01-19T14:46:38Z,2024-01-23T18:11:16Z,jakearchibald,addition/proposal|needs implementer interest|topic: workers,9
 2089462044,false,Allowing UA to do <source> selection for media element,https://github.com/whatwg/html/issues/10077,2024-01-19T02:56:38Z,2024-01-29T22:20:38Z,marcoscaceres,needs implementer interest|topic: media,0
 2088770490,true,Proposal: Implement new method for parsing markup from `Fetch` responses,https://github.com/whatwg/html/issues/10076,2024-01-18T17:41:39Z,2024-01-19T10:13:40Z,brandonmcconnell,addition/proposal|needs implementer interest,0
@@ -321,7 +321,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1727581751,false,Proposal: Improve support for multiple target origins for Window#postMessage,https://github.com/whatwg/html/issues/9340,2023-05-26T12:58:54Z,2023-06-11T13:22:49Z,eliasm307,addition/proposal|needs implementer interest|topic: serialize and transfer,0
 1726270402,true,"""check popover algorithm"" check for open dialogs is weak",https://github.com/whatwg/html/issues/9335,2023-05-25T18:10:32Z,2023-06-06T05:15:42Z,nt1m,topic: dialog|topic: popover,0
 1726046900,false,Proposal: Meta Tag for AI Consent Management,https://github.com/whatwg/html/issues/9334,2023-05-25T15:27:38Z,2023-08-15T22:34:35Z,brennancaldwell,addition/proposal|needs implementer interest,0
-1725842986,false,[View Transitions] Extend render-blocking to support Document,https://github.com/whatwg/html/issues/9332,2023-05-25T13:33:50Z,2024-01-29T08:13:28Z,khushalsagar,addition/proposal|topic: rendering,0
+1725842986,false,[View Transitions] Extend render-blocking to support Document,https://github.com/whatwg/html/issues/9332,2023-05-25T13:33:50Z,2024-01-30T09:44:34Z,khushalsagar,addition/proposal|topic: rendering,0
 1723771024,false,browsers handle document.open'ed iframe documents differently in session history,https://github.com/whatwg/html/issues/9330,2023-05-24T11:30:34Z,2023-06-01T07:36:22Z,smaug----,topic: history|interop|topic: document.open(),0
 1723381350,true,link type preload has a recursive refLink,https://github.com/whatwg/html/issues/9327,2023-05-24T07:45:31Z,2023-05-25T05:14:45Z,Kaiido,,0
 1721120977,false,New FocusEvent property for getting the FocusOptions,https://github.com/whatwg/html/issues/9322,2023-05-23T04:01:49Z,2023-05-26T09:20:11Z,woody-li,addition/proposal|needs implementer interest|topic: focus,1
@@ -418,7 +418,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1634346770,true,Be able to select for partial attribute names,https://github.com/whatwg/html/issues/9056,2023-03-21T16:57:38Z,2023-03-22T12:36:02Z,keithamus,,1
 1633613880,true,Is it ok for popover to claim general names like :open and :closed?,https://github.com/whatwg/html/issues/9055,2023-03-21T10:28:08Z,2023-04-06T23:18:08Z,jakearchibald,topic: popover,0
 1633590732,true,Add element.popoverOpen,https://github.com/whatwg/html/issues/9054,2023-03-21T10:13:22Z,2023-06-06T06:25:59Z,jakearchibald,addition/proposal|needs implementer interest|topic: popover,0
-1629220956,false,"Timing of `<dialog>` 'close' event, popover 'toggle' event, `<details>` 'toggle' event",https://github.com/whatwg/html/issues/9046,2023-03-17T12:19:27Z,2024-01-27T10:30:24Z,jakearchibald,topic: dialog|topic: popover,0
+1629220956,false,"Timing of `<dialog>` 'close' event, popover 'toggle' event, `<details>` 'toggle' event",https://github.com/whatwg/html/issues/9046,2023-03-17T12:19:27Z,2024-01-30T09:39:01Z,jakearchibald,topic: dialog|topic: popover,0
 1629156392,true,Should popover/dialog show/hide when already shown/hidden throw?,https://github.com/whatwg/html/issues/9045,2023-03-17T11:32:41Z,2023-06-06T06:39:49Z,jakearchibald,topic: dialog|topic: popover,6
 1629078964,false,<dialog> Unclear method of altering/reading attributes,https://github.com/whatwg/html/issues/9044,2023-03-17T10:35:36Z,2023-03-17T11:06:53Z,jakearchibald,topic: dialog,0
 1628986537,true,Should togglePopover() return a boolean?,https://github.com/whatwg/html/issues/9043,2023-03-17T09:30:48Z,2023-06-20T06:33:38Z,jakearchibald,addition/proposal|topic: popover,0
@@ -1204,7 +1204,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 951900002,false,Behavior of Location attribute after closing the window,https://github.com/whatwg/html/issues/6899,2021-07-23T21:13:08Z,2021-09-06T14:49:13Z,cdumez,interop|topic: location,0
 951730085,true,"Cross-origin prompts still have significant use cases ",https://github.com/whatwg/html/issues/6897,2021-07-23T16:40:23Z,2021-08-05T10:54:08Z,sudofox,,6
 950571576,false,What should we do about location.replace?,https://github.com/whatwg/html/issues/6891,2021-07-22T11:44:28Z,2021-07-23T09:32:03Z,jakearchibald,topic: history,1
-950324581,false,"Drop export to ""role"" attribute",https://github.com/whatwg/html/issues/6890,2021-07-22T05:55:22Z,2021-07-22T08:31:19Z,marcoscaceres,accessibility|a11y-tracker,0
+950324581,false,"Drop export to ""role"" attribute",https://github.com/whatwg/html/issues/6890,2021-07-22T05:55:22Z,2024-01-30T08:44:51Z,marcoscaceres,accessibility|a11y-tracker,0
 948916010,true,Attributes in closing tags,https://github.com/whatwg/html/issues/6888,2021-07-20T18:16:05Z,2021-07-21T07:25:15Z,mylogin,,0
 948790856,false,onsecuritypolicyviolation exposure does not match browsers,https://github.com/whatwg/html/issues/6887,2021-07-20T15:44:15Z,2021-08-24T13:07:11Z,annevk,,0
 948681388,true,<source> being display: none might not be web compatible.,https://github.com/whatwg/html/issues/6886,2021-07-20T13:57:19Z,2021-07-21T09:50:14Z,emilio,topic: rendering,0
