@@ -1,12 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2106618808,true,Change,https://github.com/whatwg/html/pull/10109,2024-01-29T23:22:50Z,2024-01-29T23:58:17Z,Tsiangana,spam|invalid,0
 2105509288,false,fixed typo from null to path (whatwg#10053),https://github.com/whatwg/html/pull/10105,2024-01-29T13:30:58Z,2024-01-29T13:43:51Z,chaburk,,0
-2105077552,false,Editorial: Remove outdated reference to ParseScript,https://github.com/whatwg/html/pull/10102,2024-01-29T09:47:51Z,2024-01-30T10:45:18Z,Ms2ger,editorial,0
+2105077552,true,Editorial: Remove outdated reference to ParseScript,https://github.com/whatwg/html/pull/10102,2024-01-29T09:47:51Z,2024-01-31T01:32:20Z,Ms2ger,topic: script|editorial,0
 2103017099,false,Make showPicker consume user activation,https://github.com/whatwg/html/pull/10098,2024-01-26T22:45:15Z,2024-01-30T09:40:40Z,josepharhar,,0
-2102903282,false,"Rendering: define progress, meter, range input's value layout with vertical writing-mode to support direction",https://github.com/whatwg/html/pull/10096,2024-01-26T21:06:30Z,2024-01-30T19:38:51Z,dizhang168,,0
+2102903282,false,"Rendering: define progress, meter, range input's value layout with vertical writing-mode to support direction",https://github.com/whatwg/html/pull/10096,2024-01-26T21:06:30Z,2024-01-31T09:42:59Z,dizhang168,,0
 2102526199,false,Editorial: Fix incorrect heading level in example,https://github.com/whatwg/html/pull/10095,2024-01-26T16:45:46Z,2024-01-26T16:54:42Z,MarcusOtter,,0
 2100764219,false,dispatch toggleevents for dialog open/close,https://github.com/whatwg/html/pull/10091,2024-01-25T16:35:42Z,2024-01-30T09:03:07Z,keithamus,,0
-2099541920,false,"Editorial: reduce the use of class=""brief""",https://github.com/whatwg/html/pull/10088,2024-01-25T04:25:42Z,2024-01-25T09:36:57Z,domenic,,0
+2099541920,true,"Editorial: reduce the use of class=""brief""",https://github.com/whatwg/html/pull/10088,2024-01-25T04:25:42Z,2024-01-31T01:19:31Z,domenic,,0
 2099385779,false,Navigation: Consistently fire a traverse Navigate event at a Navigation,https://github.com/whatwg/html/pull/10087,2024-01-25T01:11:37Z,2024-01-25T02:49:28Z,ADKaster,,0
 2099270546,true,Navigation: Use NavigationHistoryBehavior in Location object navigate AO,https://github.com/whatwg/html/pull/10085,2024-01-24T23:06:17Z,2024-01-25T02:40:55Z,ADKaster,,0
 2087700398,true,Parser: insert-foreign-element: Clarify parameter names,https://github.com/whatwg/html/pull/10074,2024-01-18T07:41:13Z,2024-01-18T07:44:42Z,jdahlin,,0
@@ -20,7 +20,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2079229492,false,Add HTMLImageElement.isTypeSupported(),https://github.com/whatwg/html/pull/10055,2024-01-12T16:27:08Z,2024-01-17T08:02:39Z,annevk,needs implementer interest|needs tests,0
 2077176597,true,Add the media element pseudo-classes,https://github.com/whatwg/html/pull/10051,2024-01-11T17:01:31Z,2024-01-16T15:27:24Z,annevk,topic: media|topic: selectors,0
 2075571078,false,Don't always consume user activation for close watchers,https://github.com/whatwg/html/pull/10048,2024-01-11T02:08:30Z,2024-01-24T12:09:04Z,domenic,do not merge yet,0
-2073998014,false,Editorial: add enumerated attribute table for formmethod,https://github.com/whatwg/html/pull/10045,2024-01-10T09:54:13Z,2024-01-30T09:56:42Z,keithamus,,0
+2073998014,true,Editorial: add enumerated attribute table for formmethod,https://github.com/whatwg/html/pull/10045,2024-01-10T09:54:13Z,2024-01-31T10:19:19Z,keithamus,,0
 2073927718,true,"Editorial: make case & pos of ""(the empty string)"" consistent",https://github.com/whatwg/html/pull/10044,2024-01-10T09:17:11Z,2024-01-12T09:35:18Z,keithamus,,0
 2073844929,false,Fix key event used for close requests,https://github.com/whatwg/html/pull/10043,2024-01-10T08:26:23Z,2024-01-10T08:27:54Z,domenic,topic: dialog,1
 2073271864,true,Export muted definition,https://github.com/whatwg/html/pull/10042,2024-01-09T22:25:45Z,2024-01-17T23:17:26Z,marcoscaceres,,0
@@ -35,7 +35,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2053092639,true,Darkmode,https://github.com/whatwg/html/pull/10017,2023-12-21T21:44:11Z,2024-01-10T03:34:58Z,tabatkins,,0
 2051411630,false,Hide all popovers when beforetoggle shows a popover,https://github.com/whatwg/html/pull/10015,2023-12-20T22:47:23Z,2024-01-27T01:29:15Z,josepharhar,topic: popover,0
 2051164772,true,Update 404.html,https://github.com/whatwg/html/pull/10014,2023-12-20T19:44:11Z,2023-12-20T23:46:18Z,21priti,spam,0
-2049067275,false,Refactor event-loop processing model to perform rendering as a task,https://github.com/whatwg/html/pull/10007,2023-12-19T16:58:39Z,2024-01-25T13:15:39Z,noamr,,0
+2049067275,true,Refactor event-loop processing model to perform rendering as a task,https://github.com/whatwg/html/pull/10007,2023-12-19T16:58:39Z,2024-01-31T02:59:48Z,noamr,,0
 2047777111,true,Fix case where the directionality of a <bdi> could be null.,https://github.com/whatwg/html/pull/10005,2023-12-19T01:55:21Z,2024-01-09T15:47:19Z,dbaron,normative change|i18n-tracker,0
 2047524540,true,Forbid documents from nesting <details> in the same exclusive accordion.,https://github.com/whatwg/html/pull/10004,2023-12-18T21:53:26Z,2023-12-20T03:02:15Z,dbaron,document conformance,0
 2047512920,true,Add authoring should referring to tradeoffs for authors of exclusive accordions.,https://github.com/whatwg/html/pull/10003,2023-12-18T21:45:00Z,2024-01-10T01:45:48Z,dbaron,document conformance,0
