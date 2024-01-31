@@ -1,13 +1,14 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2106432046,false,"Should `<a target=""_blank"">` and `window.open` consume the transient activation?",https://github.com/whatwg/html/issues/10108,2024-01-29T21:08:29Z,2024-01-30T09:30:39Z,EdgarChen,topic: user activation,0
-2106308432,false,Should there be an opt-out for declarative shadow roots having `clonable=true`?,https://github.com/whatwg/html/issues/10107,2024-01-29T19:59:06Z,2024-01-30T07:34:28Z,mfreed7,topic: shadow,0
+2108396078,false,"`<img sizes=""auto, 100px"" loading=""eager"">`: `auto` equates to `100wv` but should ideally be ignored",https://github.com/whatwg/html/issues/10110,2024-01-30T17:30:07Z,2024-01-30T17:30:07Z,iamakulov,,0
+2106432046,false,"Should `<a target=""_blank"">` and `window.open` consume the transient activation?",https://github.com/whatwg/html/issues/10108,2024-01-29T21:08:29Z,2024-01-30T15:50:44Z,EdgarChen,topic: user activation,0
+2106308432,false,Should there be an opt-out for declarative shadow roots having `clonable=true`?,https://github.com/whatwg/html/issues/10107,2024-01-29T19:59:06Z,2024-01-30T20:02:02Z,mfreed7,topic: shadow,0
 2105557140,false,Session history step of top level navigable when child navigables traverse history,https://github.com/whatwg/html/issues/10106,2024-01-29T13:55:03Z,2024-01-29T13:55:03Z,ADKaster,,0
 2105150263,false,"""run a classic script"" returns completion records and throws",https://github.com/whatwg/html/issues/10104,2024-01-29T10:20:58Z,2024-01-30T05:16:31Z,Ms2ger,clarification|topic: script,0
-2105145165,false,Can a task throw exceptions?,https://github.com/whatwg/html/issues/10103,2024-01-29T10:18:20Z,2024-01-29T17:11:26Z,Ms2ger,,0
+2105145165,false,Can a task throw exceptions?,https://github.com/whatwg/html/issues/10103,2024-01-29T10:18:20Z,2024-01-30T13:08:00Z,Ms2ger,topic: event loop,0
 2104404634,true,Proposal: HTML Attribute to state non-consent when scraping for training datasets,https://github.com/whatwg/html/issues/10101,2024-01-28T23:47:08Z,2024-01-29T09:30:51Z,gouldcs,addition/proposal|needs implementer interest,3
-2104274568,false,`<callout>` element for callouts/alerts/admonitions,https://github.com/whatwg/html/issues/10100,2024-01-28T17:47:29Z,2024-01-30T09:20:29Z,LeaVerou,addition/proposal|needs implementer interest|topic: parser,2
+2104274568,false,`<callout>` element for callouts/alerts/admonitions,https://github.com/whatwg/html/issues/10100,2024-01-28T17:47:29Z,2024-01-30T22:31:28Z,LeaVerou,addition/proposal|needs implementer interest|topic: parser,2
 2103110513,false,Navigation: DocumentState request referrer is not set for about:srcdoc,https://github.com/whatwg/html/issues/10099,2024-01-27T01:00:07Z,2024-01-27T01:00:07Z,ADKaster,,0
-2102919837,false,Should dir=auto with no strong characters inherit directionality from parent or be ltr?,https://github.com/whatwg/html/issues/10097,2024-01-26T21:20:37Z,2024-01-29T16:57:42Z,dbaron,i18n-tracker|i18n-alreq|i18n-hlreq,0
+2102919837,false,Should dir=auto with no strong characters inherit directionality from parent or be ltr?,https://github.com/whatwg/html/issues/10097,2024-01-26T21:20:37Z,2024-01-30T15:05:06Z,dbaron,i18n-tracker|i18n-alreq|i18n-hlreq,0
 2101372272,false,Upcoming WHATNOT meeting on 2/8/2024,https://github.com/whatwg/html/issues/10094,2024-01-26T00:19:57Z,2024-01-26T00:19:57Z,past,agenda+,0
 2101370051,false,Navigation: Clarification on `ever populated` flag of DocumentState during apply the history step,https://github.com/whatwg/html/issues/10093,2024-01-26T00:17:19Z,2024-01-26T00:57:58Z,ADKaster,,0
 2100830261,true,`html` end tag omission,https://github.com/whatwg/html/issues/10092,2024-01-25T17:11:22Z,2024-01-25T18:04:20Z,j9t,,0
@@ -19,7 +20,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2094176434,true,Three-valued Button state (type=three-valued) of the type attribute of the input element,https://github.com/whatwg/html/issues/10082,2024-01-22T15:30:47Z,2024-01-22T15:33:50Z,sergeyprokhorenko,addition/proposal|needs implementer interest,0
 2092231362,false,Three-valued Button state (type=three-valued) of the type attribute of the input element,https://github.com/whatwg/html/issues/10081,2024-01-20T20:33:25Z,2024-01-26T21:15:58Z,sergeyprokhorenko,addition/proposal|needs implementer interest,0
 2092094371,false,"Ability to disable images loading, to customise when they load with scripting ",https://github.com/whatwg/html/issues/10080,2024-01-20T15:27:36Z,2024-01-20T15:33:14Z,keithamus,addition/proposal|needs implementer interest|topic: media,0
-2091281574,false,"img sizes=""auto"" skewing images using object-fit: contain",https://github.com/whatwg/html/issues/10079,2024-01-19T19:56:30Z,2024-01-30T00:31:26Z,joemcgill,compat|topic: rendering|topic: img|needs tests,1
+2091281574,false,"img sizes=""auto"" skewing images using object-fit: contain",https://github.com/whatwg/html/issues/10079,2024-01-19T19:56:30Z,2024-01-30T22:58:05Z,joemcgill,compat|topic: rendering|topic: img|needs tests,1
 2090712845,false,Ergonomic way to move data between workers,https://github.com/whatwg/html/issues/10078,2024-01-19T14:46:38Z,2024-01-23T18:11:16Z,jakearchibald,addition/proposal|needs implementer interest|topic: workers,9
 2089462044,false,Allowing UA to do <source> selection for media element,https://github.com/whatwg/html/issues/10077,2024-01-19T02:56:38Z,2024-01-29T22:20:38Z,marcoscaceres,needs implementer interest|topic: media,0
 2088770490,true,Proposal: Implement new method for parsing markup from `Fetch` responses,https://github.com/whatwg/html/issues/10076,2024-01-18T17:41:39Z,2024-01-19T10:13:40Z,brandonmcconnell,addition/proposal|needs implementer interest,0
@@ -187,7 +188,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1887654479,false,navigate() should not use parse a URL,https://github.com/whatwg/html/issues/9708,2023-09-08T13:05:43Z,2023-10-01T14:27:45Z,annevk,topic: navigation,1
 1886589682,true,Upcoming HTML standard issue triage meeting on 10/5/2023,https://github.com/whatwg/html/issues/9706,2023-09-07T21:34:34Z,2023-10-05T22:34:00Z,past,agenda+,0
 1886572380,false,Why is the content model for `<button>` limited to phrasing content?,https://github.com/whatwg/html/issues/9705,2023-09-07T21:14:57Z,2023-10-01T14:20:35Z,mfreed7,document conformance,0
-1884393327,false,[View Transition] Event on old Document to set transition state,https://github.com/whatwg/html/issues/9702,2023-09-06T16:48:16Z,2024-01-19T10:57:24Z,khushalsagar,,0
+1884393327,false,[View Transition] Event on old Document to set transition state,https://github.com/whatwg/html/issues/9702,2023-09-06T16:48:16Z,2024-01-30T18:45:40Z,khushalsagar,,0
 1883527421,true,<link rel=stylesheet> has a weird reference to resulting URL string,https://github.com/whatwg/html/issues/9695,2023-09-06T08:36:28Z,2023-09-08T09:09:16Z,annevk,topic: link,0
 1883499736,false,Enable `git diff` for individual sections of the `source` file,https://github.com/whatwg/html/issues/9694,2023-09-06T08:20:01Z,2023-10-01T14:30:47Z,not-my-profile,,0
 1883480006,false,"Specify steps for ""preparing an image for presentation"" for the EXIF-arriving-late case",https://github.com/whatwg/html/issues/9693,2023-09-06T08:07:35Z,2023-10-01T14:31:46Z,yarusome,topic: img|integration,0
@@ -2290,11 +2291,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 434247319,true,dialog element under overflow,https://github.com/whatwg/html/issues/4535,2019-04-17T12:08:39Z,2020-06-16T14:19:35Z,idoros,,1
 433817610,true,"""On setting:  Let oldValue be the element's valu...""",https://github.com/whatwg/html/issues/4534,2019-04-16T14:38:24Z,2019-04-17T08:48:59Z,diydyq,,0
 433475380,true,"Does removing or adding a `crossorigin` attribute to an `img` tag count as a ""relevant mutation""?",https://github.com/whatwg/html/issues/4533,2019-04-15T20:58:12Z,2020-03-19T20:52:46Z,spinda,clarification|topic: img,0
-433425116,false,indicate language sensitivity in autocapitalization,https://github.com/whatwg/html/issues/4532,2019-04-15T18:43:27Z,2019-04-26T20:07:42Z,aphillips,i18n-needs-resolution,0
+433425116,false,indicate language sensitivity in autocapitalization,https://github.com/whatwg/html/issues/4532,2019-04-15T18:43:27Z,2024-01-30T15:22:25Z,aphillips,i18n-needs-resolution,0
 432733675,true,Proposal: to add a noblock type to script tags,https://github.com/whatwg/html/issues/4529,2019-04-12T20:31:44Z,2021-03-29T19:54:36Z,ahmedHusseinF,,1
 432671204,true,Add onbeforeinput to GlobalEventHandlers,https://github.com/whatwg/html/issues/4526,2019-04-12T17:34:38Z,2022-06-09T19:26:22Z,phistuck,,1
 431923083,true,Chrome's registerProtocolHandler web+ handling is at odds with the specification,https://github.com/whatwg/html/issues/4524,2019-04-11T09:32:10Z,2020-01-20T14:05:18Z,annevk,interop,0
-431891509,false,Proposal: to add the attribute format for input times,https://github.com/whatwg/html/issues/4523,2019-04-11T08:21:17Z,2022-02-19T06:47:05Z,FANMixco,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,7
+431891509,false,Proposal: to add the attribute format for input times,https://github.com/whatwg/html/issues/4523,2019-04-11T08:21:17Z,2024-01-30T15:21:22Z,FANMixco,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,7
 431692194,true,Unexpected behaviour of <picture> and it's children compared to <img>,https://github.com/whatwg/html/issues/4522,2019-04-10T20:15:43Z,2019-04-10T20:42:24Z,MelvinIdema,,0
 431661424,false,Expose transferList on MessageEvent,https://github.com/whatwg/html/issues/4521,2019-04-10T18:55:53Z,2020-01-22T17:17:42Z,surma,addition/proposal|needs implementer interest|topic: serialize and transfer,1
 431573865,true,Handling of not-an-HTMLElement custom element constructor return values is different from DOM,https://github.com/whatwg/html/issues/4520,2019-04-10T15:37:27Z,2019-04-15T22:01:19Z,bzbarsky,topic: custom elements,0
