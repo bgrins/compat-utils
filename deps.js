@@ -73,6 +73,13 @@ export async function fetchIssues(initialURL) {
     console.log("Getting issues from", url);
     let resp = await fetchWithToken(url);
     let data = await resp.json();
+
+    if (resp.status >= 400) {
+      throw new Error(
+        `Error fetching issues from ${url}: ${resp.status} ${resp.statusText}`
+      );
+    }
+
     let linkHeader = (
       resp.headers.get("Link") ? parseLinkHeader(resp.headers.get("Link")) : []
     ).find((link) => link.rel == "next");

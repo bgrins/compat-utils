@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2101264170,false,`supports` should take a dictionary instead of a DOMString as argument for readability,https://github.com/w3c/clipboard-apis/issues/211,2024-01-25T22:25:22Z,2024-01-26T15:19:33Z,snianu,,0
+2127583500,false,[Async Clipboard API] Use Stream APIs to provide data during write,https://github.com/w3c/clipboard-apis/issues/212,2024-02-09T17:40:19Z,2024-02-09T17:40:20Z,snianu,,0
+2101264170,true,`supports` should take a dictionary instead of a DOMString as argument for readability,https://github.com/w3c/clipboard-apis/issues/211,2024-01-25T22:25:22Z,2024-02-06T18:09:50Z,snianu,,0
 2087749161,false,RTF is not exposed when using navigator.clipboard.read(),https://github.com/w3c/clipboard-apis/issues/210,2024-01-18T08:14:30Z,2024-01-18T08:14:30Z,vmiklos,,0
 2079661273,false,read(formats) ambiguous,https://github.com/w3c/clipboard-apis/issues/209,2024-01-12T20:29:31Z,2024-01-12T20:29:31Z,evanstade,,0
 2041976982,false,Merge a PR only with explicit implementor consensus (followup),https://github.com/w3c/clipboard-apis/issues/207,2023-12-14T15:49:53Z,2023-12-18T15:36:51Z,saschanaz,RESOLVED,0
@@ -12,7 +13,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2008403751,false,Optional data types description seems wrong,https://github.com/w3c/clipboard-apis/issues/200,2023-11-23T15:06:17Z,2023-11-29T17:41:03Z,annevk,,0
 1984244625,false,Add method `match` (`clipboard.match(regex)`) to check clipboard for pattern matching before reading - as it is done in iOS,https://github.com/w3c/clipboard-apis/issues/199,2023-11-08T19:16:45Z,2023-11-08T19:22:12Z,ErmachenkoBoris,,0
 1901445876,false,Start and End fragment tags in text/html format on Windows,https://github.com/w3c/clipboard-apis/issues/193,2023-09-18T17:43:44Z,2023-10-12T17:10:53Z,snianu,RESOLVED,0
-1891463825,false,Read Blob data for the supported formats on-demand during getType.,https://github.com/w3c/clipboard-apis/issues/191,2023-09-12T00:15:11Z,2024-01-18T23:23:14Z,snianu,Agenda+,0
+1891463825,false,Read Blob data for the supported formats on-demand during getType.,https://github.com/w3c/clipboard-apis/issues/191,2023-09-12T00:15:11Z,2024-02-07T01:10:35Z,snianu,Agenda+,0
 1861233508,true,Async Clipboard API take more time compared to DataTransfer API to read/write data in System Clipboard,https://github.com/w3c/clipboard-apis/issues/190,2023-08-22T11:11:29Z,2023-08-24T18:52:08Z,amitavak,,0
 1465709993,false,"Web Platform tests using ""clipboard-read""",https://github.com/w3c/clipboard-apis/issues/188,2022-11-28T02:37:40Z,2022-11-30T21:27:01Z,marcoscaceres,,0
 1406154933,false,Broken references in Clipboard API and events,https://github.com/w3c/clipboard-apis/issues/187,2022-10-12T12:44:33Z,2022-10-12T12:44:33Z,dontcallmedom-bot,,0
@@ -33,11 +34,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1121387429,false,Clipboard Pickling: should the unsanitized option support a way to ask for all representations to be unsanitized?,https://github.com/w3c/clipboard-apis/issues/167,2022-02-02T01:06:26Z,2022-02-08T08:06:07Z,BoCupp-Microsoft,,1
 1119331749,false,What should `clipboard.readText()` return when the clipboard contains multiple clipboard items?,https://github.com/w3c/clipboard-apis/issues/166,2022-01-31T11:54:28Z,2022-02-03T14:37:55Z,mbrodesser,,1
 1117218251,true," Arbitrary clipboard types ",https://github.com/w3c/clipboard-apis/issues/165,2022-01-28T10:07:51Z,2023-09-18T18:48:51Z,annevk,,4
-1105189676,false,Should clipboard-write permission be removed too?,https://github.com/w3c/clipboard-apis/issues/163,2022-01-16T21:16:00Z,2024-02-01T00:19:34Z,saschanaz,,0
+1105189676,false,Should clipboard-write permission be removed too?,https://github.com/w3c/clipboard-apis/issues/163,2022-01-16T21:16:00Z,2024-02-01T08:02:13Z,saschanaz,,0
 1037708147,false,What happens if promises to Blobs are not resolved within a reasonable amount of time?,https://github.com/w3c/clipboard-apis/issues/161,2021-10-27T18:02:23Z,2023-01-09T08:19:56Z,snianu,,0
 1027761069,true,"Should we remove `lastModified`, `ClipboardItemDelayedCallback`, `createDelayed` and `delayed`?",https://github.com/w3c/clipboard-apis/issues/160,2021-10-15T19:51:24Z,2021-11-05T00:29:50Z,snianu,,0
 1020583937,true,What is PresentationStyle?,https://github.com/w3c/clipboard-apis/issues/159,2021-10-08T01:10:20Z,2021-10-13T00:17:42Z,snianu,,0
-975114663,false,Option to specify ClipboardItem is sensitive in .write() and .writeText(),https://github.com/w3c/clipboard-apis/issues/154,2021-08-19T23:01:35Z,2022-01-15T11:51:47Z,sangeeth96,,0
+975114663,false,Option to specify ClipboardItem is sensitive in .write() and .writeText(),https://github.com/w3c/clipboard-apis/issues/154,2021-08-19T23:01:35Z,2022-01-15T11:51:47Z,runofthemillgeek,,0
 931865190,true,Make async clipboard APIs (read/write) to sanitize interoperably with setData/getData for text/html,https://github.com/w3c/clipboard-apis/issues/150,2021-06-28T18:50:53Z,2022-05-25T15:55:01Z,gked,,2
 911334667,false,Can`t get full html/text from clipboard,https://github.com/w3c/clipboard-apis/issues/149,2021-06-04T09:58:16Z,2021-12-15T02:25:09Z,pavelstulyq1999,,0
 898660665,true,LINK ERROR: Multiple possible 'Navigator' interface refs.,https://github.com/w3c/clipboard-apis/issues/146,2021-05-21T23:23:20Z,2021-05-25T01:15:53Z,mfalken,,0
