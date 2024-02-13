@@ -3,7 +3,7 @@ import specs from "https://raw.githubusercontent.com/w3c/browser-specs/main/inde
 // Schema at https://github.com/w3c/browser-specs
 // See also https://www.specref.org/
 
-console.log(specs);
+console.log(specs.map(s=> s.title));
 
 let missing_nightly = specs.filter((s) => !s.nightly);
 if (missing_nightly.length) {
@@ -72,14 +72,14 @@ console.log(
   specs.length,
   specs.filter((spec) => spec.nightly.repository).length
 );
-console.log(specs.length, specs.filter((spec) => spec.nightly.url).length);
-console.log(specs.length, specs.filter((spec) => spec.nightly.filename).length);
-console.log(
-  specs.length,
-  specs.filter((spec) => spec.nightly.sourcePath).length
-);
+// console.log(specs.length, specs.filter((spec) => spec.nightly.url).length);
+// console.log(specs.length, specs.filter((spec) => spec.nightly.filename).length);
+// console.log(
+//   specs.length,
+//   specs.filter((spec) => spec.nightly.sourcePath).length
+// );
 
-console.log(specs.filter((spec) => !spec.nightly.repository));
+// console.log(specs.filter((spec) => !spec.nightly.repository));
 Deno.writeTextFileSync(
   "./output/webspecs_summary.json",
   JSON.stringify(output, null, 2)
