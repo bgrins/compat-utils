@@ -5,12 +5,6 @@ import specs from "https://raw.githubusercontent.com/w3c/browser-specs/main/inde
 
 console.log(specs.map(s=> s.title));
 
-let missing_nightly = specs.filter((s) => !s.nightly);
-if (missing_nightly.length) {
-  console.error("Missing nightly", missing_nightly);
-}
-
-
 let orgs_map = new Map(
   [...new Set(specs.map((s) => s.organization))].map((o) => [
     o,
@@ -39,16 +33,16 @@ let repo_url_map = new Map(
   [
     ...new Set(
       specs
-        .filter((s) => s.nightly.repository && s.nightly.sourcePath)
-        .map((s) => new URL(s.nightly.repository + s.nightly.sourcePath).host)
+        .filter((s) => s.nightly?.repository && s.nightly?.sourcePath)
+        .map((s) => new URL(s.nightly?.repository + s.nightly?.sourcePath).host)
     ),
   ].map((o) => [
     o,
     specs.filter(
       (s) =>
-        s.nightly.repository &&
-        s.nightly.sourcePath &&
-        new URL(s.nightly.repository).host === o
+        s.nightly?.repository &&
+        s.nightly?.sourcePath &&
+        new URL(s.nightly?.repository).host === o
     ).length,
   ])
 );
@@ -70,16 +64,16 @@ let output = {
 
 console.log(
   specs.length,
-  specs.filter((spec) => spec.nightly.repository).length
+  specs.filter((spec) => spec.nightly?.repository).length
 );
-// console.log(specs.length, specs.filter((spec) => spec.nightly.url).length);
-// console.log(specs.length, specs.filter((spec) => spec.nightly.filename).length);
+console.log(specs.length, specs.filter((spec) => spec.nightly?.url).length);
+console.log(specs.length, specs.filter((spec) => spec.nightly?.filename).length);
 // console.log(
 //   specs.length,
-//   specs.filter((spec) => spec.nightly.sourcePath).length
+//   specs.filter((spec) => spec.nightly?.sourcePath).length
 // );
 
-// console.log(specs.filter((spec) => !spec.nightly.repository));
+// console.log(specs.filter((spec) => !spec.nightly?.repository));
 Deno.writeTextFileSync(
   "./output/webspecs_summary.json",
   JSON.stringify(output, null, 2)
