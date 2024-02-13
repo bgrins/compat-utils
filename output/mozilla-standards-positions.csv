@@ -6,11 +6,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2108392951,false,Standardized CSS zoom,https://github.com/mozilla/standards-positions/issues/977,2024-01-30T17:28:14Z,2024-02-05T22:25:42Z,yotam-hacohen,ready to add|position: positive,0
 2107209281,false,WebRTC: RTCIceCandidate relayProtocol and url properties,https://github.com/mozilla/standards-positions/issues/976,2024-01-30T08:16:31Z,2024-01-31T00:47:37Z,fippo,,0
 2106246612,true,The textInput event,https://github.com/mozilla/standards-positions/issues/975,2024-01-29T19:19:19Z,2024-01-31T11:31:22Z,zcorpan,position: neutral,0
-2106184881,false,Make computation of directionality account for Shadow DOM,https://github.com/mozilla/standards-positions/issues/974,2024-01-29T18:41:53Z,2024-01-29T22:42:14Z,hsinyi,position: positive,0
+2106184881,true,Make computation of directionality account for Shadow DOM,https://github.com/mozilla/standards-positions/issues/974,2024-01-29T18:41:53Z,2024-02-12T17:33:37Z,hsinyi,position: positive,0
 2105643064,true,"CSS Fragmentation Level 3 - §3.3 Breaks Between Lines: orphans, widows",https://github.com/mozilla/standards-positions/issues/972,2024-01-29T14:36:37Z,2024-01-29T14:55:35Z,jfkthame,position: positive,0
 2105331783,false,WebGPU: ServiceWorker and SharedWorker support,https://github.com/mozilla/standards-positions/issues/971,2024-01-29T11:59:39Z,2024-01-30T04:23:34Z,beaufortfrancois,,0
 2104678280,false,WebSocketStream,https://github.com/mozilla/standards-positions/issues/970,2024-01-29T05:26:43Z,2024-01-29T13:20:14Z,ricea,,2
-2101129472,false,The `pageconceal` event (part of cross-document view-transitions),https://github.com/mozilla/standards-positions/issues/969,2024-01-25T20:36:44Z,2024-02-06T14:39:48Z,noamr,,0
+2101129472,true,The `pageconceal` event (part of cross-document view-transitions),https://github.com/mozilla/standards-positions/issues/969,2024-01-25T20:36:44Z,2024-02-12T17:36:14Z,noamr,position: positive,0
 2098744704,false,Viewport Capture,https://github.com/mozilla/standards-positions/issues/968,2024-01-24T17:23:53Z,2024-01-24T17:23:53Z,jan-ivar,,0
 2098230457,true,Fetch keepalive,https://github.com/mozilla/standards-positions/issues/967,2024-01-24T13:06:48Z,2024-01-26T12:13:45Z,valenting,position: positive,0
 2094550663,true,WebSockets: Allow http(s) scheme and relative URLs,https://github.com/mozilla/standards-positions/issues/966,2024-01-22T18:59:22Z,2024-01-22T19:10:49Z,CanadaHonk,position: positive,0
@@ -97,11 +97,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1815667864,true,Request for Position: Web Environment Integrity API,https://github.com/mozilla/standards-positions/issues/852,2023-07-21T11:45:54Z,2023-07-25T15:24:44Z,gacelperfinian,position: negative,91
 1813637553,false,Media Queries Level 5: prefers-reduced-transparency,https://github.com/mozilla/standards-positions/issues/851,2023-07-20T10:13:31Z,2023-08-16T19:48:34Z,lukewarlow,,0
 1811570156,false,Captured Mouse Events,https://github.com/mozilla/standards-positions/issues/850,2023-07-19T09:37:35Z,2023-07-19T09:37:35Z,eladalon1983,,0
-1809167033,false,css-ui `field-sizing` property,https://github.com/mozilla/standards-positions/issues/849,2023-07-18T05:53:22Z,2024-02-07T14:17:00Z,tkent-google,,3
+1809167033,false,css-ui `field-sizing` property,https://github.com/mozilla/standards-positions/issues/849,2023-07-18T05:53:22Z,2024-02-12T22:42:59Z,tkent-google,ready to add|position: positive,3
 1808337238,false,Clear Client Hints via Clear-Site-Data header,https://github.com/mozilla/standards-positions/issues/848,2023-07-17T18:23:52Z,2023-07-17T18:37:30Z,arichiv,,0
 1803472312,true,Request for position update on Web Serial with add-on gating,https://github.com/mozilla/standards-positions/issues/847,2023-07-13T17:30:54Z,2023-07-13T20:04:51Z,Merlin04,invalid,0
 1799807367,true,"ManagedMediaSource API ",https://github.com/mozilla/standards-positions/issues/845,2023-07-11T21:52:27Z,2023-07-19T16:43:36Z,marcoscaceres,,0
-1797870961,false,Locale Extensions,https://github.com/mozilla/standards-positions/issues/844,2023-07-11T00:44:20Z,2024-02-02T20:53:48Z,ben-allen,,0
+1797870961,false,Locale Extensions,https://github.com/mozilla/standards-positions/issues/844,2023-07-11T00:44:20Z,2024-02-12T22:56:36Z,ben-allen,ready to add|position: negative,0
 1795642113,false,Content Provenance and Authenticity,https://github.com/mozilla/standards-positions/issues/843,2023-07-10T00:00:27Z,2023-07-10T12:25:55Z,AdamSobieski,,0
 1791860873,false,Credential Management API - PasswordCredential,https://github.com/mozilla/standards-positions/issues/842,2023-07-06T16:19:01Z,2023-07-06T16:19:01Z,lukewarlow,,0
 1786229627,true,CSS Color 5: Relative Color Syntax,https://github.com/mozilla/standards-positions/issues/841,2023-07-03T13:51:37Z,2023-10-24T10:19:04Z,svgeesus,position: positive,1
@@ -143,7 +143,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1691159846,true,Request for position: Intervention Reporting (Reporting API),https://github.com/mozilla/standards-positions/issues/797,2023-05-01T18:24:56Z,2023-05-24T18:56:45Z,sefeng211,position: neutral,0
 1691154018,true,"Request for position: COEP violation (Reporting API) ",https://github.com/mozilla/standards-positions/issues/796,2023-05-01T18:18:39Z,2023-05-19T02:26:59Z,sefeng211,position: positive,0
 1691150455,true,"Request for position: COOP violation (Reporting API) ",https://github.com/mozilla/standards-positions/issues/795,2023-05-01T18:15:10Z,2023-05-20T04:03:50Z,sefeng211,position: positive,0
-1689518259,false,CSS Anchor Positioning,https://github.com/mozilla/standards-positions/issues/794,2023-04-29T10:50:30Z,2023-06-22T11:53:33Z,lukewarlow,ready to add|position: positive,4
+1689518259,false,CSS Anchor Positioning,https://github.com/mozilla/standards-positions/issues/794,2023-04-29T10:50:30Z,2023-06-22T11:53:33Z,lukewarlow,ready to add|position: positive,5
 1687650750,true,Storage Buckets,https://github.com/mozilla/standards-positions/issues/792,2023-04-27T22:50:58Z,2023-04-27T23:13:11Z,evanstade,,0
 1683997852,false,Request for position: Attribution Reporting API,https://github.com/mozilla/standards-positions/issues/791,2023-04-25T23:19:52Z,2024-01-24T15:26:58Z,akashnadan,,0
 1683963792,false,Request for position: `clipboard-write` permission,https://github.com/mozilla/standards-positions/issues/790,2023-04-25T22:31:04Z,2023-04-25T22:54:32Z,saschanaz,,0
@@ -229,17 +229,17 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1371990906,false,Support IPv6 Zone Identifiers in Address Literals,https://github.com/mozilla/standards-positions/issues/690,2022-09-13T20:48:32Z,2022-09-13T20:48:32Z,becarpenter,,0
 1366506360,true,CustomStateSet for custom elements,https://github.com/mozilla/standards-positions/issues/688,2022-09-08T14:54:43Z,2023-11-14T13:12:05Z,calebdwilliams,position: positive,3
 1363624051,true,Re-request for postion on Web Serial/Serial API,https://github.com/mozilla/standards-positions/issues/687,2022-09-06T17:47:55Z,2024-01-10T20:50:45Z,NODeeJay,,10
-1362997582,false,Style Container Queries (for custom properties),https://github.com/mozilla/standards-positions/issues/686,2022-09-06T09:36:12Z,2023-11-29T08:39:39Z,lilles,,10
+1362997582,false,Style Container Queries (for custom properties),https://github.com/mozilla/standards-positions/issues/686,2022-09-06T09:36:12Z,2024-02-12T22:30:06Z,lilles,ready to add|position: positive,10
 1362978685,false,User Agent automation for Custom Handlers,https://github.com/mozilla/standards-positions/issues/685,2022-09-06T09:21:49Z,2022-11-29T13:06:30Z,javifernandez,,0
 1357796324,true,AudioContext.setSinkId(),https://github.com/mozilla/standards-positions/issues/683,2022-08-31T19:57:12Z,2022-09-06T17:40:19Z,ajay-rah,position: positive,0
 1352556299,true,Wildcards in Permissions Policy Origins,https://github.com/mozilla/standards-positions/issues/679,2022-08-26T17:37:00Z,2022-09-20T16:07:32Z,arichiv,position: positive,0
 1351525591,true,CHIPS (Cookies Having Independent Partitioned State),https://github.com/mozilla/standards-positions/issues/678,2022-08-25T22:56:55Z,2022-09-09T18:24:21Z,johannhof,,0
-1346900228,true,Request for Position: View Transitions API,https://github.com/mozilla/standards-positions/issues/677,2022-08-22T19:47:52Z,2024-01-22T18:09:37Z,khushalsagar,ready to add|position: positive,41
+1346900228,true,Request for Position: View Transitions API,https://github.com/mozilla/standards-positions/issues/677,2022-08-22T19:47:52Z,2024-01-22T18:09:37Z,khushalsagar,ready to add|position: positive,42
 1342158245,true,Autoplay Policy Detection API,https://github.com/mozilla/standards-positions/issues/675,2022-08-17T19:01:05Z,2023-02-15T21:19:23Z,alastor0325,w3c|position: positive,0
 1336619091,false,The `model` element,https://github.com/mozilla/standards-positions/issues/674,2022-08-12T00:25:54Z,2023-02-13T18:13:38Z,marcoscaceres,position: under consideration,0
 1335224591,true,Encoding streams API (TextDecoderStream and TextEncoderStream),https://github.com/mozilla/standards-positions/issues/673,2022-08-10T21:33:15Z,2022-08-10T22:38:33Z,saschanaz,position: positive,0
 1332165796,false,Request for Position: Delay and trackVisibility propery in Intersection Observer v2,https://github.com/mozilla/standards-positions/issues/672,2022-08-08T17:20:24Z,2022-08-08T17:20:24Z,BearCooder,,0
-1320308781,false,Request for Position: Document Picture in Picture API,https://github.com/mozilla/standards-positions/issues/670,2022-07-28T02:25:52Z,2024-01-31T20:18:08Z,liberato-at-chromium,,9
+1320308781,false,Request for Position: Document Picture in Picture API,https://github.com/mozilla/standards-positions/issues/670,2022-07-28T02:25:52Z,2024-02-13T09:32:09Z,liberato-at-chromium,,9
 1310945120,true,Requesting Standards Position for Mixed Content Level 2,https://github.com/mozilla/standards-positions/issues/668,2022-07-20T12:00:22Z,2022-07-22T10:52:00Z,mozfreddyb,,0
 1306369263,false,WebXR Raw Camera Access API,https://github.com/mozilla/standards-positions/issues/667,2022-07-15T18:39:10Z,2022-07-19T17:45:48Z,bialpio,,1
 1305725722,true,"Subset of CSP 3: script-src-elem, script-src-attr, style-src-elem and style-src-attr",https://github.com/mozilla/standards-positions/issues/666,2022-07-15T08:13:34Z,2022-07-29T17:55:40Z,evilpie,position: positive,0
@@ -258,7 +258,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1262045237,true,import.meta.resolve(),https://github.com/mozilla/standards-positions/issues/647,2022-06-06T16:02:15Z,2022-06-16T03:43:08Z,domenic,position: positive,0
 1261917686,true,Request for Mozilla Position on Shared Storage,https://github.com/mozilla/standards-positions/issues/646,2022-06-06T14:22:12Z,2022-10-06T00:02:26Z,etrouton,,0
 1253841702,false,COEP reflection,https://github.com/mozilla/standards-positions/issues/645,2022-05-31T13:06:34Z,2023-08-21T23:33:06Z,ArthurSonzogni,,0
-1253706553,false,Request for position: Safelist 'ipfs' and 'ipns' schemes,https://github.com/mozilla/standards-positions/issues/644,2022-05-31T11:09:08Z,2022-06-14T14:42:04Z,javifernandez,,2
+1253706553,false,Safelist 'ipfs' and 'ipns' schemes,https://github.com/mozilla/standards-positions/issues/644,2022-05-31T11:09:08Z,2024-02-12T20:38:17Z,javifernandez,,2
 1251252727,true,CSS Overscroll Fixed Elements,https://github.com/mozilla/standards-positions/issues/643,2022-05-27T20:40:24Z,2022-06-06T23:37:43Z,bmathwig,position: positive,0
 1247974602,true,MediaTrackConstraintSet.displaySurface,https://github.com/mozilla/standards-positions/issues/642,2022-05-25T11:45:04Z,2022-06-16T03:41:02Z,eladalon1983,position: positive,0
 1247908293,true,MediaTrackSupportedConstraints.suppressLocalAudioPlayback,https://github.com/mozilla/standards-positions/issues/641,2022-05-25T10:43:36Z,2022-06-16T03:40:46Z,eladalon1983,position: positive,0
@@ -353,7 +353,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 897310575,false,Virtual Keyboard Control,https://github.com/mozilla/standards-positions/issues/531,2021-05-20T19:11:07Z,2023-06-22T05:32:51Z,snianu,,9
 894891287,true,Request for position on HTTP 103 Early Hints,https://github.com/mozilla/standards-positions/issues/530,2021-05-19T00:48:50Z,2021-05-19T09:30:44Z,bashi,ietf|whatwg,0
 893416073,false,Request for position on Window Controls Overlay,https://github.com/mozilla/standards-positions/issues/529,2021-05-17T14:52:57Z,2021-08-13T01:04:28Z,diekus,,0
-891011314,false,Request for Mozilla Position on :has pseudo class,https://github.com/mozilla/standards-positions/issues/528,2021-05-13T12:49:06Z,2023-08-16T09:35:25Z,byung-woo,w3c|position: positive,17
+891011314,false,:has() pseudo class,https://github.com/mozilla/standards-positions/issues/528,2021-05-13T12:49:06Z,2024-02-12T20:14:48Z,byung-woo,w3c|ready to add|position: positive,17
 889952236,true,Standards position for TC39 Stage 3 Proposals,https://github.com/mozilla/standards-positions/issues/527,2021-05-12T10:45:17Z,2021-06-22T07:31:19Z,codehag,,0
 889825826,false,User Preference Media Features Client Hints Headers,https://github.com/mozilla/standards-positions/issues/526,2021-05-12T08:36:16Z,2023-07-26T11:22:54Z,tomayac,,5
 888568155,false,"Pickling for Async Clipboard API ",https://github.com/mozilla/standards-positions/issues/525,2021-05-11T20:39:01Z,2023-03-20T21:55:38Z,snianu,,2
@@ -455,7 +455,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 624831618,true,Scroll-driven Animations,https://github.com/mozilla/standards-positions/issues/347,2020-05-26T12:04:55Z,2024-02-01T03:17:10Z,andruud,w3c|ready to add|position: positive,0
 624746953,true,Named pages with page-orientation,https://github.com/mozilla/standards-positions/issues/346,2020-05-26T09:40:46Z,2020-06-15T23:54:42Z,mstensho,w3c|awaiting feedback,0
 620603640,false,URL Protocol Handler Registration for web apps,https://github.com/mozilla/standards-positions/issues/340,2020-05-19T01:18:45Z,2021-08-13T01:06:26Z,fabiorocha,w3c|w3c-cg,0
-619408157,false,Add new safelisted schemes for registerProtocolHandler(),https://github.com/mozilla/standards-positions/issues/339,2020-05-16T07:56:33Z,2022-08-04T03:33:36Z,fred-wang,whatwg|under review,3
+619408157,false,Add new safelisted schemes for registerProtocolHandler(),https://github.com/mozilla/standards-positions/issues/339,2020-05-16T07:56:33Z,2024-02-12T21:15:27Z,fred-wang,whatwg|under review,3
 617732764,false,shortcuts member of Web App Manifest,https://github.com/mozilla/standards-positions/issues/338,2020-05-13T20:27:33Z,2023-01-24T14:54:10Z,dbaron,w3c,0
 615598029,true,Request for position on Serial API,https://github.com/mozilla/standards-positions/issues/336,2020-05-11T05:26:53Z,2022-07-31T18:44:00Z,computersarecool,w3c-cg,0
 612972927,true,Declarative Shadow DOM,https://github.com/mozilla/standards-positions/issues/335,2020-05-06T00:21:58Z,2023-09-11T16:06:43Z,mfreed7,whatwg|awaiting feedback|position: positive,26
