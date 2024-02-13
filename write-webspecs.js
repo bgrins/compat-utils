@@ -5,6 +5,12 @@ import specs from "https://raw.githubusercontent.com/w3c/browser-specs/main/inde
 
 console.log(specs);
 
+let missing_nightly = specs.filter((s) => !s.nightly);
+if (missing_nightly.length) {
+  console.error("Missing nightly", missing_nightly);
+}
+
+
 let orgs_map = new Map(
   [...new Set(specs.map((s) => s.organization))].map((o) => [
     o,
