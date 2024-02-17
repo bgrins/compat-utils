@@ -4,7 +4,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2131637069,false,Storage event should probably fire on Document that didn't call localStorage getter,https://github.com/whatwg/html/issues/10135,2024-02-13T07:39:08Z,2024-02-13T07:39:20Z,Kaiido,topic: storage,0
 2131114678,false,Define interaction with `field-sizing` CSS property and inline writing suggestions,https://github.com/whatwg/html/issues/10134,2024-02-12T22:40:49Z,2024-02-12T22:41:47Z,zcorpan,topic: rendering|topic: forms,0
 2128542188,false,Update UA stylesheet rules to use `:any-link` instead of `:visited` or `:link`,https://github.com/whatwg/html/issues/10133,2024-02-10T15:22:00Z,2024-02-13T12:15:47Z,Ahmad-S792,topic: rendering,1
-2126182910,false,attribute change steps for popover may fire events synchronously,https://github.com/whatwg/html/issues/10129,2024-02-08T22:38:18Z,2024-02-12T21:46:43Z,smaug----,topic: popover,0
+2126182910,false,attribute change steps for popover may fire events synchronously,https://github.com/whatwg/html/issues/10129,2024-02-08T22:38:18Z,2024-02-16T18:34:47Z,smaug----,topic: popover,0
 2125746092,false,Upcoming WHATNOT meeting on 2/22/2024,https://github.com/whatwg/html/issues/10128,2024-02-08T17:42:10Z,2024-02-13T11:44:18Z,past,agenda+,0
 2121766567,false,Read-only state for buttons?,https://github.com/whatwg/html/issues/10125,2024-02-06T22:21:48Z,2024-02-10T22:04:27Z,mbgower,,9
 2116952689,true,Why does popover hide when the popover attribute changed,https://github.com/whatwg/html/issues/10123,2024-02-04T08:19:36Z,2024-02-06T19:23:32Z,woody-li,clarification|topic: popover,0
@@ -22,7 +22,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2104404634,true,Proposal: HTML Attribute to state non-consent when scraping for training datasets,https://github.com/whatwg/html/issues/10101,2024-01-28T23:47:08Z,2024-01-29T09:30:51Z,gouldcs,addition/proposal|needs implementer interest,3
 2104274568,false,`<callout>` element for callouts/alerts/admonitions,https://github.com/whatwg/html/issues/10100,2024-01-28T17:47:29Z,2024-02-15T20:50:37Z,LeaVerou,addition/proposal|needs implementer interest|topic: parser,6
 2103110513,false,Navigation: DocumentState request referrer is not set for about:srcdoc,https://github.com/whatwg/html/issues/10099,2024-01-27T01:00:07Z,2024-02-10T23:45:01Z,ADKaster,topic: navigation,0
-2102919837,false,Should dir=auto with no strong characters inherit directionality from parent or be ltr?,https://github.com/whatwg/html/issues/10097,2024-01-26T21:20:37Z,2024-02-16T05:30:43Z,dbaron,i18n-tracker|i18n-alreq|i18n-hlreq,0
+2102919837,false,Should dir=auto with no strong characters inherit directionality from parent or be ltr?,https://github.com/whatwg/html/issues/10097,2024-01-26T21:20:37Z,2024-02-16T17:36:29Z,dbaron,i18n-tracker|i18n-alreq|i18n-hlreq,0
 2101372272,true,Upcoming WHATNOT meeting on 2/8/2024,https://github.com/whatwg/html/issues/10094,2024-01-26T00:19:57Z,2024-02-09T17:13:41Z,past,agenda+,0
 2101370051,false,Navigation: Clarification on `ever populated` flag of DocumentState during apply the history step,https://github.com/whatwg/html/issues/10093,2024-01-26T00:17:19Z,2024-02-10T23:47:15Z,ADKaster,topic: navigation,0
 2100830261,true,`html` end tag omission,https://github.com/whatwg/html/issues/10092,2024-01-25T17:11:22Z,2024-01-25T18:04:20Z,j9t,,0
@@ -513,7 +513,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1578001480,true,"Make a way to listen to ""fully active"" state changes",https://github.com/whatwg/html/issues/8872,2023-02-09T14:32:54Z,2023-03-24T03:54:42Z,rakina,integration,0
 1577757378,true,SVGs in <use> cannot be preloaded with a link@rel=preload,https://github.com/whatwg/html/issues/8870,2023-02-09T11:58:48Z,2023-02-15T06:47:26Z,Boldewyn,,0
 1577445089,false,Should strict MIME type for importScripts() also be enforced on local URLs?,https://github.com/whatwg/html/issues/8869,2023-02-09T08:20:18Z,2023-03-29T11:32:53Z,Kaiido,topic: workers|interop,0
-1576960664,false,Add `getInnerHTML()` that optionally serializes declarative Shadow DOM,https://github.com/whatwg/html/issues/8867,2023-02-08T23:38:22Z,2024-02-16T03:22:38Z,mfreed7,addition/proposal|topic: shadow|topic: parser,1
+1576960664,false,Add `getInnerHTML()` that optionally serializes declarative Shadow DOM,https://github.com/whatwg/html/issues/8867,2023-02-08T23:38:22Z,2024-02-16T18:24:12Z,mfreed7,addition/proposal|topic: shadow|topic: parser,1
 1576297577,true,DOMParser and MathML,https://github.com/whatwg/html/issues/8866,2023-02-08T14:57:03Z,2023-02-08T16:42:12Z,pygy,,0
 1576149509,false,Subresource link headers are implemented but not specified,https://github.com/whatwg/html/issues/8865,2023-02-08T13:43:48Z,2023-02-15T06:45:15Z,noamr,topic: link|topic: resource hints (inc. preload),0
 1574083586,false,Allow headings in <summary> elements for <details>,https://github.com/whatwg/html/issues/8864,2023-02-07T10:36:10Z,2023-02-13T17:57:41Z,yatil,document conformance|accessibility,0
@@ -844,7 +844,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1245490159,false,Consider being strict about range mismatch for media,https://github.com/whatwg/html/issues/7950,2022-05-23T17:27:12Z,2022-05-24T07:26:22Z,noamr,topic: media|interop,1
 1245461464,true,Typo in section 2.1.4 DOM trees,https://github.com/whatwg/html/issues/7949,2022-05-23T16:58:18Z,2022-05-26T15:27:55Z,AegisFair,good first issue,1
 1244030392,false,Add color-interpolation-method support for canvas gradients,https://github.com/whatwg/html/issues/7947,2022-05-21T16:39:32Z,2022-05-22T10:24:36Z,weinig,addition/proposal|topic: canvas,3
-1243990383,false,"Proposal: Allow authors to enforce ""save as PDF"" when printing a document",https://github.com/whatwg/html/issues/7946,2022-05-21T14:28:52Z,2022-05-28T19:48:53Z,BenjaminAster,addition/proposal|needs implementer interest,21
+1243990383,false,"Proposal: Allow authors to enforce ""save as PDF"" when printing a document",https://github.com/whatwg/html/issues/7946,2022-05-21T14:28:52Z,2022-05-28T19:48:53Z,BenjaminAster,addition/proposal|needs implementer interest,22
 1242018223,false,(Background) Tab Suspending,https://github.com/whatwg/html/issues/7942,2022-05-19T16:18:36Z,2022-05-19T16:18:36Z,johannhof,,0
 1242006437,false,Throttling and clamping of setTimeout and setInterval,https://github.com/whatwg/html/issues/7941,2022-05-19T16:08:39Z,2022-05-20T08:26:05Z,johannhof,topic: event loop|topic: timing,0
 1241898306,false,Make `<embed>` and `<object>` behave like `<iframe>` for image loading,https://github.com/whatwg/html/issues/7939,2022-05-19T14:43:19Z,2022-06-27T20:59:41Z,farre,normative change|topic: navigation|topic: embed and object,0
@@ -1310,7 +1310,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 874600526,false,legend seems to be recognised/used even when not *first* child,https://github.com/whatwg/html/issues/6645,2021-05-03T13:59:41Z,2021-12-03T08:11:21Z,patrickhlauke,clarification,1
 874511738,true,`id` were mis-typed as `is`,https://github.com/whatwg/html/issues/6644,2021-05-03T12:03:10Z,2021-05-03T13:33:05Z,ianthedev,,0
 872435429,true,Cross-Origin-Embedder-Policy: credentialless,https://github.com/whatwg/html/issues/6637,2021-04-30T12:33:31Z,2021-11-02T12:55:38Z,ArthurSonzogni,topic: cross-origin-embedder-policy,0
-872131730,false,Lazy loading video element poster attribute,https://github.com/whatwg/html/issues/6636,2021-04-30T07:54:55Z,2023-10-14T19:24:10Z,asuh,addition/proposal|topic: media,9
+872131730,false,Lazy loading video element poster attribute,https://github.com/whatwg/html/issues/6636,2021-04-30T07:54:55Z,2023-10-14T19:24:10Z,asuh,addition/proposal|topic: media,10
 872059164,true,`:active` pseudo-class specification doesn't account for children/labels of disabled form elements,https://github.com/whatwg/html/issues/6635,2021-04-30T02:11:14Z,2022-02-10T19:06:49Z,alystair,topic: rendering|topic: forms,0
 870905892,false,Allow <source> to use <img>'s sizes data as a fallback,https://github.com/whatwg/html/issues/6633,2021-04-29T11:24:34Z,2022-02-04T15:46:29Z,jakearchibald,addition/proposal|topic: img,32
 870188337,true,import.meta.url always uses percent-encodings,https://github.com/whatwg/html/issues/6630,2021-04-28T17:34:16Z,2023-02-24T16:09:38Z,guybedford,,0
