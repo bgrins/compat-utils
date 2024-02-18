@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2140571376,false,"Dark mode styling for ""yes"" table attributes is not ledgible",https://github.com/whatwg/html/issues/10141,2024-02-17T20:28:28Z,2024-02-17T20:37:25Z,ADKaster,,0
 2137613348,true,Using multiple h1 tag in a page,https://github.com/whatwg/html/issues/10138,2024-02-15T23:28:03Z,2024-02-16T03:27:59Z,bhojpress,,0
 2132178210,false,Worklet agents and the event loop,https://github.com/whatwg/html/issues/10136,2024-02-13T12:04:55Z,2024-02-13T13:04:58Z,annevk,integration|topic: event loop|topic: agent|topic: worklets,0
 2131637069,false,Storage event should probably fire on Document that didn't call localStorage getter,https://github.com/whatwg/html/issues/10135,2024-02-13T07:39:08Z,2024-02-13T07:39:20Z,Kaiido,topic: storage,0
@@ -20,7 +21,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2105150263,false,"""run a classic script"" returns completion records and throws",https://github.com/whatwg/html/issues/10104,2024-01-29T10:20:58Z,2024-02-10T23:42:08Z,Ms2ger,clarification|topic: script,0
 2105145165,false,Can a task throw exceptions?,https://github.com/whatwg/html/issues/10103,2024-01-29T10:18:20Z,2024-02-10T23:42:57Z,Ms2ger,topic: event loop,0
 2104404634,true,Proposal: HTML Attribute to state non-consent when scraping for training datasets,https://github.com/whatwg/html/issues/10101,2024-01-28T23:47:08Z,2024-01-29T09:30:51Z,gouldcs,addition/proposal|needs implementer interest,3
-2104274568,false,`<callout>` element for callouts/alerts/admonitions,https://github.com/whatwg/html/issues/10100,2024-01-28T17:47:29Z,2024-02-15T20:50:37Z,LeaVerou,addition/proposal|needs implementer interest|topic: parser,6
+2104274568,false,`<callout>` element for callouts/alerts/admonitions,https://github.com/whatwg/html/issues/10100,2024-01-28T17:47:29Z,2024-02-17T16:49:51Z,LeaVerou,addition/proposal|needs implementer interest|topic: parser,6
 2103110513,false,Navigation: DocumentState request referrer is not set for about:srcdoc,https://github.com/whatwg/html/issues/10099,2024-01-27T01:00:07Z,2024-02-10T23:45:01Z,ADKaster,topic: navigation,0
 2102919837,false,Should dir=auto with no strong characters inherit directionality from parent or be ltr?,https://github.com/whatwg/html/issues/10097,2024-01-26T21:20:37Z,2024-02-16T17:36:29Z,dbaron,i18n-tracker|i18n-alreq|i18n-hlreq,0
 2101372272,true,Upcoming WHATNOT meeting on 2/8/2024,https://github.com/whatwg/html/issues/10094,2024-01-26T00:19:57Z,2024-02-09T17:13:41Z,past,agenda+,0
@@ -1778,7 +1779,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 608634360,false,window.focus() vs system level focus of the window/tab,https://github.com/whatwg/html/issues/5493,2020-04-28T21:41:11Z,2020-08-12T00:18:35Z,mustaqahmed,interop|topic: focus,0
 608243971,false,marquee element and display,https://github.com/whatwg/html/issues/5492,2020-04-28T11:29:56Z,2020-04-28T11:29:56Z,annevk,topic: rendering,0
 607201372,false,Should draggable and <link href> elements be focusable?,https://github.com/whatwg/html/issues/5490,2020-04-27T03:22:04Z,2020-04-27T07:00:17Z,TimothyGu,topic: focus|topic: link,0
-607136818,false,"<input type=""time""> : Time vs. duration",https://github.com/whatwg/html/issues/5488,2020-04-26T23:06:14Z,2024-02-17T08:43:37Z,d-damien,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,1
+607136818,false,"<input type=""time""> : Time vs. duration",https://github.com/whatwg/html/issues/5488,2020-04-26T23:06:14Z,2024-02-17T16:58:43Z,d-damien,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,1
 607075310,true,contenteditable elements should be focusable areas,https://github.com/whatwg/html/issues/5487,2020-04-26T18:05:58Z,2020-04-28T14:02:21Z,TimothyGu,topic: editing,1
 607073471,true,execCommand.html dead link,https://github.com/whatwg/html/issues/5486,2020-04-26T17:59:13Z,2020-06-25T14:09:04Z,TimothyGu,topic: editing,0
 606781021,true,Clarify sync vs async nature of Worker::postMessage,https://github.com/whatwg/html/issues/5485,2020-04-25T14:28:53Z,2020-04-28T11:40:07Z,RReverser,topic: serialize and transfer,0
@@ -2277,7 +2278,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 437011192,false,Unpredictable availability of template's content,https://github.com/whatwg/html/issues/4566,2019-04-25T05:07:56Z,2024-01-12T09:21:16Z,tomalec,,0
 436847516,true,"add ""oncopy"", ""oncut"", ""onpaste"" attribute to list of event handler content attributes",https://github.com/whatwg/html/issues/4564,2019-04-24T18:36:09Z,2019-05-09T15:56:07Z,mtrootyy,good first issue,0
 436589633,true,Move autofocus content attribute to HTMLElement,https://github.com/whatwg/html/issues/4563,2019-04-24T09:26:11Z,2019-08-30T18:56:27Z,tkent-google,addition/proposal|topic: focus,2
-436466726,false,"Validating internationalized mail addresses in <input type=""email"">",https://github.com/whatwg/html/issues/4562,2019-04-24T02:23:14Z,2024-02-16T03:02:14Z,jrlevine,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,8
+436466726,false,"Validating internationalized mail addresses in <input type=""email"">",https://github.com/whatwg/html/issues/4562,2019-04-24T02:23:14Z,2024-02-17T19:29:58Z,jrlevine,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,8
 436404158,false,"add explain about ""user-scalable=no"" and ""maximum-scale=1.0"" to section of <meta> element",https://github.com/whatwg/html/issues/4561,2019-04-23T21:45:12Z,2019-04-30T21:27:39Z,mtrootyy,,0
 436316823,false,warning of security should be added to section of <audio> element,https://github.com/whatwg/html/issues/4560,2019-04-23T17:59:08Z,2019-06-05T16:12:34Z,mtrootyy,topic: media|security/privacy,0
 436315802,false,clarify support of audio codecs in <video> element,https://github.com/whatwg/html/issues/4559,2019-04-23T17:56:28Z,2019-04-24T18:38:47Z,mtrootyy,topic: media,0
