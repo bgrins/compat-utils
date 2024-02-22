@@ -10,7 +10,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2106184881,true,Make computation of directionality account for Shadow DOM,https://github.com/mozilla/standards-positions/issues/974,2024-01-29T18:41:53Z,2024-02-12T17:33:37Z,hsinyi,position: positive,0
 2105643064,true,"CSS Fragmentation Level 3 - §3.3 Breaks Between Lines: orphans, widows",https://github.com/mozilla/standards-positions/issues/972,2024-01-29T14:36:37Z,2024-01-29T14:55:35Z,jfkthame,position: positive,0
 2105331783,false,WebGPU: ServiceWorker and SharedWorker support,https://github.com/mozilla/standards-positions/issues/971,2024-01-29T11:59:39Z,2024-01-30T04:23:34Z,beaufortfrancois,,0
-2104678280,false,WebSocketStream,https://github.com/mozilla/standards-positions/issues/970,2024-01-29T05:26:43Z,2024-01-29T13:20:14Z,ricea,,2
+2104678280,false,WebSocketStream,https://github.com/mozilla/standards-positions/issues/970,2024-01-29T05:26:43Z,2024-02-21T19:30:22Z,ricea,,2
 2101129472,true,The `pageconceal` event (part of cross-document view-transitions),https://github.com/mozilla/standards-positions/issues/969,2024-01-25T20:36:44Z,2024-02-12T17:36:14Z,noamr,position: positive,0
 2098744704,false,Viewport Capture,https://github.com/mozilla/standards-positions/issues/968,2024-01-24T17:23:53Z,2024-01-24T17:23:53Z,jan-ivar,,0
 2098230457,true,Fetch keepalive,https://github.com/mozilla/standards-positions/issues/967,2024-01-24T13:06:48Z,2024-01-26T12:13:45Z,valenting,position: positive,0
@@ -181,7 +181,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1601905008,false,Eligibility for autofill,https://github.com/mozilla/standards-positions/issues/752,2023-02-27T20:33:21Z,2023-03-29T16:38:56Z,schwering,,0
 1594497876,false,Request for Mozilla Position on User Locale Preferences,https://github.com/mozilla/standards-positions/issues/751,2023-02-22T05:46:39Z,2023-02-24T21:54:41Z,romulocintra,,0
 1594210063,false,Request for position on Web Authentication large blob extension,https://github.com/mozilla/standards-positions/issues/750,2023-02-21T23:04:59Z,2023-10-13T14:18:44Z,nsatragno,,0
-1592293234,true,Position request for adding a meta tag `name` value of `subtitle` (Document Subtitle),https://github.com/mozilla/standards-positions/issues/749,2023-02-20T18:23:52Z,2023-04-04T22:15:45Z,diekus,position: defer,0
+1592293234,true,Position request for adding a meta tag `name` value of `subtitle` (Document Subtitle),https://github.com/mozilla/standards-positions/issues/749,2023-02-20T18:23:52Z,2024-02-21T16:29:13Z,diekus,position: defer,0
 1586051789,true,Request for linear() easing function,https://github.com/mozilla/standards-positions/issues/747,2023-02-15T15:25:57Z,2023-02-16T11:02:56Z,danielsakhapov,,0
 1582288921,true,Request for Position: Use `v` flag instead of `u` for HTML `pattern` attribute RegExps,https://github.com/mozilla/standards-positions/issues/745,2023-02-13T12:47:05Z,2023-02-24T10:58:56Z,mathiasbynens,position: positive,0
 1573967608,false,Skip service worker no-op fetch handler,https://github.com/mozilla/standards-positions/issues/744,2023-02-07T09:19:32Z,2023-07-10T13:20:37Z,yoshisatoyanagisawa,,0
@@ -193,7 +193,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1549063009,true,Request for position: The Language Pseudo-class: :lang() (Selectors Level 4),https://github.com/mozilla/standards-positions/issues/735,2023-01-19T12:30:09Z,2023-04-18T09:09:08Z,rogerzanoni,position: positive,0
 1548242349,true,Request for position: new dialog initial focus algorithm,https://github.com/mozilla/standards-positions/issues/734,2023-01-18T22:50:16Z,2023-01-26T09:40:37Z,josepharhar,position: positive,0
 1538489358,true,Request for Position: FileSystemFileHandle.move() for local files,https://github.com/mozilla/standards-positions/issues/732,2023-01-18T18:38:28Z,2023-01-19T04:26:58Z,a-sully,position: negative,0
-1529754746,false,FedCM Multi IDP Support,https://github.com/mozilla/standards-positions/issues/730,2023-01-11T21:55:42Z,2023-02-02T15:36:33Z,npm1,,0
+1529754746,false,FedCM Multi IDP Support,https://github.com/mozilla/standards-positions/issues/730,2023-01-11T21:55:42Z,2024-02-21T19:13:24Z,npm1,,0
 1528764264,false,Request for Position: programatically disabling hardware encoding/decoding in WebRTC,https://github.com/mozilla/standards-positions/issues/728,2023-01-11T10:09:20Z,2023-01-24T12:02:54Z,fippo,,0
 1528173837,true,Request for Mozilla Position: baseline-source CSS property.,https://github.com/mozilla/standards-positions/issues/727,2023-01-10T23:59:02Z,2023-01-12T17:51:18Z,bfgeek,w3c|position: positive,0
 1506158860,true,Request for position: CSS root font units,https://github.com/mozilla/standards-positions/issues/725,2022-12-21T11:32:50Z,2023-01-07T19:25:59Z,danielsakhapov,position: positive,0
@@ -402,7 +402,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 787203683,false,JS Self-Profiling API,https://github.com/mozilla/standards-positions/issues/477,2021-01-15T21:28:24Z,2021-07-26T21:38:02Z,acomminos,w3c-cg,0
 786344986,true,Storage Buckets API,https://github.com/mozilla/standards-positions/issues/475,2021-01-14T21:14:17Z,2023-10-24T12:55:50Z,ayuishii,w3c-cg|position: positive,0
 783851230,false,WebXR dynamic viewport scaling,https://github.com/mozilla/standards-positions/issues/473,2021-01-12T02:17:37Z,2021-03-12T09:02:32Z,klausw,w3c,0
-783417949,true,CSS @scope,https://github.com/mozilla/standards-positions/issues/472,2021-01-11T14:30:41Z,2024-02-05T22:21:23Z,lilles,w3c|position: positive,44
+783417949,true,CSS @scope,https://github.com/mozilla/standards-positions/issues/472,2021-01-11T14:30:41Z,2024-02-05T22:21:23Z,lilles,w3c|position: positive,45
 782153209,true,CSS Cascade Layers,https://github.com/mozilla/standards-positions/issues/471,2021-01-08T14:23:05Z,2021-08-27T00:42:59Z,lilles,w3c,0
 780354804,false,CSS spelling and grammar features,https://github.com/mozilla/standards-positions/issues/470,2021-01-06T09:18:05Z,2021-07-01T08:20:49Z,delan,w3c,0
 777951755,true,Re-enable status checks,https://github.com/mozilla/standards-positions/issues/469,2021-01-04T09:21:42Z,2021-02-23T21:24:34Z,martinthomson,enhancement,0
@@ -589,7 +589,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 346848717,true,RFP: WebUSB API,https://github.com/mozilla/standards-positions/issues/100,2018-08-02T03:47:49Z,2023-03-29T02:17:57Z,Jxck,w3c-cg,1
 344959625,false,Network Error Logging (NEL),https://github.com/mozilla/standards-positions/issues/99,2018-07-26T18:39:18Z,2023-11-14T13:01:30Z,digitarald,w3c|under review,0
 340328704,true,TLS certificate compression,https://github.com/mozilla/standards-positions/issues/96,2018-07-11T17:03:37Z,2018-11-29T05:56:51Z,davidben,ietf,0
-339011650,true,Web Bluetooth,https://github.com/mozilla/standards-positions/issues/95,2018-07-06T17:11:53Z,2024-02-21T11:56:00Z,autonome,w3c-cg,16
+339011650,true,Web Bluetooth,https://github.com/mozilla/standards-positions/issues/95,2018-07-06T17:11:53Z,2024-02-21T15:15:58Z,autonome,w3c-cg,16
 335511032,false,Cookie-Store API,https://github.com/mozilla/standards-positions/issues/94,2018-06-25T18:06:38Z,2024-01-05T01:08:43Z,bakulf,w3c-cg,8
 334582521,true,CSS Houdini,https://github.com/mozilla/standards-positions/issues/93,2018-06-21T17:11:49Z,2022-01-25T20:43:19Z,flaki,w3c,7
 329670240,true,JavaScript Self-Profiling API,https://github.com/mozilla/standards-positions/issues/92,2018-06-06T00:30:04Z,2021-01-18T10:40:36Z,past,w3c-cg,0

@@ -1,8 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2146266830,true,"Different parsing behavior for ""</script>"" and ""</div>"" strings",https://github.com/whatwg/html/issues/10151,2024-02-21T09:39:53Z,2024-02-21T10:14:20Z,mbrodesser-Igalia,,0
-2144701703,false,Clarification on Element reflected IDL attribute steps,https://github.com/whatwg/html/issues/10150,2024-02-20T15:54:32Z,2024-02-20T18:31:51Z,josepharhar,,0
-2144700071,false,"""Align descendants"" believes used margins are altered in overconstrained cases, but that's no longer the case",https://github.com/whatwg/html/issues/10149,2024-02-20T15:53:41Z,2024-02-20T15:53:41Z,Loirooriol,,0
-2144668268,false,"align=""justify"" should align to start, not to left",https://github.com/whatwg/html/issues/10148,2024-02-20T15:38:05Z,2024-02-20T15:38:05Z,Loirooriol,,0
+2144701703,true,Clarification on Element reflected IDL attribute steps,https://github.com/whatwg/html/issues/10150,2024-02-20T15:54:32Z,2024-02-21T17:05:33Z,josepharhar,topic: reflect,0
+2144700071,false,"""Align descendants"" believes used margins are altered in overconstrained cases, but that's no longer the case",https://github.com/whatwg/html/issues/10149,2024-02-20T15:53:41Z,2024-02-21T22:36:36Z,Loirooriol,topic: rendering,0
+2144668268,false,"align=""justify"" should align to start, not to left",https://github.com/whatwg/html/issues/10148,2024-02-20T15:38:05Z,2024-02-21T18:03:20Z,Loirooriol,topic: rendering|needs tests,0
 2143265229,false,UI Element Attribute,https://github.com/whatwg/html/issues/10146,2024-02-19T23:05:03Z,2024-02-19T23:07:22Z,MrMatthewLayton,addition/proposal|needs implementer interest,1
 2142919582,false,"Render-blocking: the definition of ""created by its node document's parser"" is a little bit vague",https://github.com/whatwg/html/issues/10145,2024-02-19T18:08:51Z,2024-02-21T04:24:55Z,cathiechen,topic: parser|agenda+,0
 2141312881,false,Improve DX of element reference attributes by allowing relative references instead of only ids,https://github.com/whatwg/html/issues/10143,2024-02-19T01:30:10Z,2024-02-19T19:43:04Z,LeaVerou,addition/proposal|needs implementer interest,13
@@ -2329,7 +2329,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 430486533,true,getContext() table cleanup,https://github.com/whatwg/html/issues/4511,2019-04-08T14:33:43Z,2023-05-23T14:27:23Z,annevk,clarification|good first issue|topic: canvas,0
 430465464,true,The document open steps should set document's CSP to entryDocument's CSP,https://github.com/whatwg/html/issues/4510,2019-04-08T13:54:28Z,2023-09-05T11:50:54Z,andypaicu,integration|topic: document.open(),0
 430200265,true,Default rendering of <svg> depending on viewBox attribute presence,https://github.com/whatwg/html/issues/4509,2019-04-07T22:31:57Z,2019-04-18T13:45:45Z,SelenIT,,0
-430199958,false,Reinstate <style scoped>,https://github.com/whatwg/html/issues/4508,2019-04-07T22:28:11Z,2024-02-11T21:44:45Z,wolfbeast,addition/proposal|needs implementer interest|topic: style,20
+430199958,false,Reinstate <style scoped>,https://github.com/whatwg/html/issues/4508,2019-04-07T22:28:11Z,2024-02-21T14:29:39Z,wolfbeast,addition/proposal|needs implementer interest|topic: style,20
 429831279,false,"Update all ""queue a task"" invocations to explicitly specify their task source",https://github.com/whatwg/html/issues/4506,2019-04-05T16:09:19Z,2019-05-15T10:04:09Z,domenic,clarification|good first issue|topic: event loop,1
 429262835,false,Define <meta name=supported-color-schemes>,https://github.com/whatwg/html/issues/4504,2019-04-04T12:54:56Z,2021-11-03T00:06:38Z,lilles,addition/proposal|topic: style|impacts documentation,2
 428972778,false,select element sizing should ignore optgroup labels,https://github.com/whatwg/html/issues/4502,2019-04-03T21:00:19Z,2022-08-11T20:29:46Z,heycam,compat|topic: rendering|topic: forms,0
@@ -2414,7 +2414,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 409443423,true,cancelAnimationFrame should also cancel pending callbacks,https://github.com/whatwg/html/issues/4359,2019-02-12T18:38:54Z,2019-02-19T10:02:01Z,egirard,interop,0
 409319216,true,Developer requirements on <script integrity> are wrong,https://github.com/whatwg/html/issues/4358,2019-02-12T14:12:17Z,2019-08-19T17:55:50Z,annevk,document conformance|topic: script,0
 408861881,false,Blur event fired when clicking on focused input checkbox,https://github.com/whatwg/html/issues/4356,2019-02-11T16:21:24Z,2022-03-27T20:58:45Z,CYBAI,topic: forms|interop|topic: focus,1
-408495673,true,WebSocket `ping` API (continuing),https://github.com/whatwg/html/issues/4353,2019-02-10T03:14:08Z,2022-02-22T15:43:01Z,bradennapier,topic: websockets,1
+408495673,true,WebSocket `ping` API (continuing),https://github.com/whatwg/html/issues/4353,2019-02-10T03:14:08Z,2022-02-22T15:43:01Z,bradennapier,topic: websockets,2
 408092460,true,[ARIA] and [HTMLAAM] links are broken,https://github.com/whatwg/html/issues/4349,2019-02-08T10:33:05Z,2019-09-25T14:12:53Z,SelenIT,good first issue,0
 408080190,true,"Define the current realm in tasks, threading through parallel",https://github.com/whatwg/html/issues/4347,2019-02-08T09:59:53Z,2019-02-08T10:35:05Z,littledan,,0
 407877839,false,Should HTMLOrSVGImageElement be a mixin?,https://github.com/whatwg/html/issues/4345,2019-02-07T20:12:45Z,2019-02-08T16:04:35Z,vmpstr,topic: img|topic: svg,0
@@ -3261,7 +3261,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 239026363,true,Output caniuse boxes in the dev edition as well,https://github.com/whatwg/html/issues/2794,2017-06-28T01:17:17Z,2017-08-19T13:19:50Z,domenic,dev edition,0
 239022536,false,Allow expanding to the full table of contents in the dev edition,https://github.com/whatwg/html/issues/2793,2017-06-28T00:47:56Z,2024-02-10T21:58:14Z,domenic,spec tooling|dev edition,0
 238786200,true,take port into account for same-origin domain check,https://github.com/whatwg/html/issues/2792,2017-06-27T09:15:55Z,2018-08-07T16:14:03Z,jeisinger,normative change|needs implementer interest|security/privacy|needs compat analysis|topic: origin,0
-238741867,false,Client side include feature for HTML,https://github.com/whatwg/html/issues/2791,2017-06-27T05:36:13Z,2022-12-29T17:49:36Z,TakayoshiKochi,addition/proposal|needs implementer interest,107
+238741867,false,Client side include feature for HTML,https://github.com/whatwg/html/issues/2791,2017-06-27T05:36:13Z,2022-12-29T17:49:36Z,TakayoshiKochi,addition/proposal|needs implementer interest,109
 238161134,true,typo?,https://github.com/whatwg/html/issues/2788,2017-06-23T14:35:44Z,2017-06-26T19:34:34Z,momdo,,0
 238026392,false,"""its associated CSS layout box""",https://github.com/whatwg/html/issues/2786,2017-06-23T02:47:39Z,2017-06-30T18:14:01Z,cvrebert,clarification,0
 237922790,false,Add inline annotations of the bibliography references,https://github.com/whatwg/html/issues/2782,2017-06-22T17:47:29Z,2024-02-10T21:58:35Z,domenic,spec tooling|dev edition,1
@@ -3602,7 +3602,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 195734740,true,Wring,https://github.com/whatwg/html/issues/2181,2016-12-15T07:24:47Z,2016-12-15T07:25:56Z,cheoklune,,0
 195651796,true,Making Location.ancestorOrigins a FrozenArray is not Web-Compatible,https://github.com/whatwg/html/issues/2179,2016-12-14T21:33:44Z,2017-01-13T00:55:08Z,cdumez,,0
 195558416,true,"""when a select element does not have a sizes attribute""",https://github.com/whatwg/html/issues/2178,2016-12-14T15:18:37Z,2017-02-23T16:42:03Z,deltab,good first issue,0
-195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2024-01-17T12:39:08Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,125
+195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2024-02-21T19:44:32Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,125
 195497838,true,selectionStart/End/Direction on input and textarea should not be nullable,https://github.com/whatwg/html/issues/2175,2016-12-14T10:46:42Z,2017-01-18T09:22:04Z,foolip,,0
 195494630,true,pushState title is ignored in all implementations?,https://github.com/whatwg/html/issues/2174,2016-12-14T10:32:35Z,2021-03-15T16:59:58Z,foolip,topic: history|interop,3
 195385032,true,"""If the element is flagged as ""parser-inserted"",...""",https://github.com/whatwg/html/issues/2173,2016-12-13T22:18:17Z,2016-12-13T22:19:35Z,JosephPecoraro,,0
