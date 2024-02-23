@@ -39,7 +39,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1027761069,true,"Should we remove `lastModified`, `ClipboardItemDelayedCallback`, `createDelayed` and `delayed`?",https://github.com/w3c/clipboard-apis/issues/160,2021-10-15T19:51:24Z,2021-11-05T00:29:50Z,snianu,,0
 1020583937,true,What is PresentationStyle?,https://github.com/w3c/clipboard-apis/issues/159,2021-10-08T01:10:20Z,2021-10-13T00:17:42Z,snianu,,0
 975114663,false,Option to specify ClipboardItem is sensitive in .write() and .writeText(),https://github.com/w3c/clipboard-apis/issues/154,2021-08-19T23:01:35Z,2022-01-15T11:51:47Z,runofthemillgeek,,0
-931865190,true,Make async clipboard APIs (read/write) to sanitize interoperably with setData/getData for text/html,https://github.com/w3c/clipboard-apis/issues/150,2021-06-28T18:50:53Z,2022-05-25T15:55:01Z,gked,,2
+931865190,true,Make async clipboard APIs (read/write) to sanitize interoperably with setData/getData for text/html,https://github.com/w3c/clipboard-apis/issues/150,2021-06-28T18:50:53Z,2022-05-25T15:55:01Z,gked,,3
 911334667,false,Can`t get full html/text from clipboard,https://github.com/w3c/clipboard-apis/issues/149,2021-06-04T09:58:16Z,2021-12-15T02:25:09Z,pavelstulyq1999,,0
 898660665,true,LINK ERROR: Multiple possible 'Navigator' interface refs.,https://github.com/w3c/clipboard-apis/issues/146,2021-05-21T23:23:20Z,2021-05-25T01:15:53Z,mfalken,,0
 897531966,true,"TravisCI build error: The command ""bikeshed update"" failed and exited with 1 during .",https://github.com/w3c/clipboard-apis/issues/144,2021-05-20T22:58:49Z,2021-05-21T07:48:52Z,mfalken,,0
@@ -48,7 +48,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 843750491,false,make pasting/sanitizing section normative?,https://github.com/w3c/clipboard-apis/issues/140,2021-03-29T19:57:32Z,2023-06-07T09:49:49Z,samuelweiler,security-tracker,0
 843748275,false,clarify the issue prompting the suggestion of transcoding images?,https://github.com/w3c/clipboard-apis/issues/139,2021-03-29T19:55:05Z,2021-03-29T21:52:09Z,samuelweiler,security-tracker,0
 822612493,false,Change lastModified to DOMTimeStamp,https://github.com/w3c/clipboard-apis/issues/138,2021-03-05T00:00:34Z,2021-03-05T00:11:53Z,garykac,,0
-809312733,false,Specify order of flavors exported to macOS's pasteboard,https://github.com/w3c/clipboard-apis/issues/137,2021-02-16T13:28:01Z,2024-02-22T17:52:09Z,mbrodesser,,0
+809312733,false,Specify order of flavors exported to macOS's pasteboard,https://github.com/w3c/clipboard-apis/issues/137,2021-02-16T13:28:01Z,2024-02-23T07:48:19Z,mbrodesser,,0
 781105290,true,Blob size from clipboard.read() bigger than upload original file,https://github.com/w3c/clipboard-apis/issues/136,2021-01-07T07:41:41Z,2021-01-07T07:52:53Z,JackFGreen,,0
 754301033,true,Spec readiness and compat,https://github.com/w3c/clipboard-apis/issues/135,2020-12-01T11:10:24Z,2022-03-08T18:31:53Z,evilpie,,1
 745041842,false,Getting file/image from clipboard,https://github.com/w3c/clipboard-apis/issues/134,2020-11-17T19:54:10Z,2020-11-25T02:34:58Z,jimmywarting,,0
@@ -65,7 +65,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 576736994,false,Add Internationalization Considerations section,https://github.com/w3c/clipboard-apis/issues/112,2020-03-06T06:59:26Z,2020-03-06T06:59:26Z,marcoscaceres,,0
 533525777,true,"Rephrase ""direct user action"" to match the new user activation model",https://github.com/w3c/clipboard-apis/issues/107,2019-12-05T18:41:41Z,2020-06-17T05:03:04Z,mustaqahmed,,1
 522574361,false,Restrict Clipboard API to top-level origin,https://github.com/w3c/clipboard-apis/issues/106,2019-11-14T01:50:53Z,2019-11-14T01:50:53Z,dway123,,0
-522402346,true,mac os doesn't recognize 'image/svg+xml' mime type,https://github.com/w3c/clipboard-apis/issues/105,2019-11-13T18:41:34Z,2019-11-20T08:24:15Z,alexysong,,0
+522402346,true,mac os doesn't recognize 'image/svg+xml' mime type,https://github.com/w3c/clipboard-apis/issues/105,2019-11-13T18:41:34Z,2024-02-23T09:59:02Z,alexysong,,0
 506241503,true,do we really need navigator.clipboard.platform?,https://github.com/w3c/clipboard-apis/issues/104,2019-10-12T21:47:46Z,2020-05-05T15:48:46Z,gked,,0
 506083876,true,Should ClipboardItem be marked as [SecureContext]?,https://github.com/w3c/clipboard-apis/issues/103,2019-10-11T22:34:01Z,2022-06-10T17:04:22Z,whsieh,,0
 505500841,true,"Should the constructor of ClipboardItem accept record<DOMString, ClipboardItemDataType>?",https://github.com/w3c/clipboard-apis/issues/102,2019-10-10T20:44:31Z,2019-10-11T21:05:17Z,whsieh,,0

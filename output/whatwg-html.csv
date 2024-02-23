@@ -331,7 +331,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1740428387,false,Add `class` & `for` aliases for `className` and `htmlFor`,https://github.com/whatwg/html/issues/9379,2023-06-04T15:17:46Z,2023-06-06T10:05:13Z,jakearchibald,addition/proposal|needs implementer interest,189
 1738596106,false,Should we deprecate `dialog.show()`?,https://github.com/whatwg/html/issues/9376,2023-06-02T18:02:06Z,2023-11-09T21:17:57Z,mfreed7,removal/deprecation|topic: dialog,15
 1738480470,true,Upcoming HTML standard issue triage meeting on 6/15/2023,https://github.com/whatwg/html/issues/9375,2023-06-02T16:22:45Z,2023-06-15T17:55:09Z,past,agenda+,0
-1736830044,false,Add light dismiss functionality to `<dialog>`,https://github.com/whatwg/html/issues/9373,2023-06-01T18:07:13Z,2024-02-22T23:15:58Z,mfreed7,addition/proposal|needs implementer interest|topic: dialog|agenda+,27
+1736830044,false,Add light dismiss functionality to `<dialog>`,https://github.com/whatwg/html/issues/9373,2023-06-01T18:07:13Z,2024-02-23T01:27:06Z,mfreed7,addition/proposal|needs implementer interest|topic: dialog|agenda+,27
 1736289421,false,"The width attribute should not be a relevant mutation ",https://github.com/whatwg/html/issues/9371,2023-06-01T13:04:26Z,2023-06-01T13:04:26Z,zcorpan,topic: img,0
 1733790661,false,"When the popover attribute is removed, the hide popover algorithm will return too early",https://github.com/whatwg/html/issues/9367,2023-05-31T09:44:23Z,2023-06-26T18:46:04Z,mbrodesser-Igalia,topic: popover,0
 1733283807,true,auto popover list definition isn't quite correct,https://github.com/whatwg/html/issues/9366,2023-05-31T02:27:08Z,2023-06-06T05:20:53Z,nt1m,topic: popover,0
@@ -1777,7 +1777,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 614305024,false,"Shouldn't modal dialog `dialog.offsetParent` returns <body> ? ",https://github.com/whatwg/html/issues/5520,2020-05-07T19:54:10Z,2023-03-17T08:21:58Z,sefeng211,topic: rendering|topic: dialog,0
 613760397,false,How to listen for HTMLMediaElement.readyState decreasing from 4 to 3?,https://github.com/whatwg/html/issues/5516,2020-05-07T04:15:40Z,2020-05-18T10:17:15Z,mightyiam,topic: media,0
 613362700,false,Export input types,https://github.com/whatwg/html/issues/5515,2020-05-06T14:25:49Z,2020-05-06T15:40:06Z,hober,meta,0
-612888462,false,Consider allowing downloads by user interaction within a sandboxed iframe,https://github.com/whatwg/html/issues/5513,2020-05-05T20:54:05Z,2020-09-03T13:30:00Z,jashkenas,addition/proposal|security/privacy|topic: sandbox|security-tracker,1
+612888462,false,Consider allowing downloads by user interaction within a sandboxed iframe,https://github.com/whatwg/html/issues/5513,2020-05-05T20:54:05Z,2020-09-03T13:30:00Z,jashkenas,addition/proposal|security/privacy|topic: sandbox|security-tracker,2
 612730877,false,autocapitalize should consider inpumode attribute additional to type attribute too,https://github.com/whatwg/html/issues/5512,2020-05-05T16:24:15Z,2020-05-06T09:12:29Z,makotokato,topic: forms,0
 610916492,true,"Editorial: change ""images"" to ""elements""",https://github.com/whatwg/html/issues/5503,2020-05-01T19:08:53Z,2020-05-02T08:06:02Z,carmacleod,,1
 610745075,false,Require effective media volume range to be logarithmic,https://github.com/whatwg/html/issues/5501,2020-05-01T13:16:01Z,2023-11-29T15:09:08Z,LeoWattenberg,topic: media,2
@@ -2256,7 +2256,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 443611383,true,"Factor out ""when it generates a box""",https://github.com/whatwg/html/issues/4618,2019-05-13T21:31:59Z,2019-07-02T21:09:30Z,zcorpan,clarification|topic: rendering|integration,0
 443099392,false,Task sources and queues: explicit distinction between those used in parallel vs on the event-loop?,https://github.com/whatwg/html/issues/4615,2019-05-12T12:33:16Z,2019-06-09T04:00:26Z,gterzian,clarification|topic: event loop,0
 442916636,true,download program,https://github.com/whatwg/html/issues/4612,2019-05-10T22:31:24Z,2019-05-13T07:41:41Z,pecka27,,0
-442900270,false,Spec for iframe removal from the document doesn't match browser behavior,https://github.com/whatwg/html/issues/4611,2019-05-10T21:25:36Z,2019-12-05T18:43:24Z,bzbarsky,topic: document.open()|topic: document lifecycle,0
+442900270,false,Spec for iframe removal from the document doesn't match browser behavior,https://github.com/whatwg/html/issues/4611,2019-05-10T21:25:36Z,2024-02-23T11:28:57Z,bzbarsky,topic: document.open()|topic: document lifecycle,0
 442557357,false,What correct behaviour of focus({preventscroll}) for on screen keyboard?,https://github.com/whatwg/html/issues/4608,2019-05-10T06:23:59Z,2019-05-24T22:05:11Z,makotokato,topic: focus,0
 442467904,false,Focus meta-bug,https://github.com/whatwg/html/issues/4607,2019-05-09T22:50:40Z,2020-04-02T23:55:14Z,domenic,topic: focus,15
 442425191,false,Scroll to Fragment Identifier clarification,https://github.com/whatwg/html/issues/4605,2019-05-09T20:44:46Z,2019-05-31T20:37:43Z,nickburris,interop|needs compat analysis|integration,0
@@ -3605,7 +3605,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 195734740,true,Wring,https://github.com/whatwg/html/issues/2181,2016-12-15T07:24:47Z,2016-12-15T07:25:56Z,cheoklune,,0
 195651796,true,Making Location.ancestorOrigins a FrozenArray is not Web-Compatible,https://github.com/whatwg/html/issues/2179,2016-12-14T21:33:44Z,2017-01-13T00:55:08Z,cdumez,,0
 195558416,true,"""when a select element does not have a sizes attribute""",https://github.com/whatwg/html/issues/2178,2016-12-14T15:18:37Z,2017-02-23T16:42:03Z,deltab,good first issue,0
-195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2024-02-21T19:44:32Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,125
+195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2024-02-21T19:44:32Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,126
 195497838,true,selectionStart/End/Direction on input and textarea should not be nullable,https://github.com/whatwg/html/issues/2175,2016-12-14T10:46:42Z,2017-01-18T09:22:04Z,foolip,,0
 195494630,true,pushState title is ignored in all implementations?,https://github.com/whatwg/html/issues/2174,2016-12-14T10:32:35Z,2021-03-15T16:59:58Z,foolip,topic: history|interop,3
 195385032,true,"""If the element is flagged as ""parser-inserted"",...""",https://github.com/whatwg/html/issues/2173,2016-12-13T22:18:17Z,2016-12-13T22:19:35Z,JosephPecoraro,,0
