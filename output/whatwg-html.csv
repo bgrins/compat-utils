@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2149864472,false,Upcoming WHATNOT meeting on 3/7/2024,https://github.com/whatwg/html/issues/10156,2024-02-22T20:14:39Z,2024-02-22T20:14:40Z,past,agenda+,0
+2151600541,false,Add a way to automatically get script license and unminified code (if available),https://github.com/whatwg/html/issues/10158,2024-02-23T18:33:44Z,2024-02-23T18:33:44Z,Orisphera,addition/proposal|needs implementer interest,0
+2149864472,false,Upcoming WHATNOT meeting on 3/7/2024,https://github.com/whatwg/html/issues/10156,2024-02-22T20:14:39Z,2024-02-23T20:56:54Z,past,agenda+,0
 2148780029,false,It's not clear how constraint validation works for FACE if the 'validation anchor' is null,https://github.com/whatwg/html/issues/10155,2024-02-22T10:52:33Z,2024-02-22T10:58:45Z,EdgarChen,,2
 2148084073,false,Nested comment tags.,https://github.com/whatwg/html/issues/10153,2024-02-22T02:59:53Z,2024-02-22T02:59:53Z,RokeJulianLockhart,addition/proposal|needs implementer interest,0
 2146266830,true,"Different parsing behavior for ""</script>"" and ""</div>"" strings",https://github.com/whatwg/html/issues/10151,2024-02-21T09:39:53Z,2024-02-21T10:14:20Z,mbrodesser-Igalia,,0
@@ -445,7 +446,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1634346770,true,Be able to select for partial attribute names,https://github.com/whatwg/html/issues/9056,2023-03-21T16:57:38Z,2023-03-22T12:36:02Z,keithamus,,1
 1633613880,true,Is it ok for popover to claim general names like :open and :closed?,https://github.com/whatwg/html/issues/9055,2023-03-21T10:28:08Z,2023-04-06T23:18:08Z,jakearchibald,topic: popover,0
 1633590732,true,Add element.popoverOpen,https://github.com/whatwg/html/issues/9054,2023-03-21T10:13:22Z,2023-06-06T06:25:59Z,jakearchibald,addition/proposal|needs implementer interest|topic: popover,0
-1629220956,false,"Timing of `<dialog>` 'close' event, popover 'toggle' event, `<details>` 'toggle' event",https://github.com/whatwg/html/issues/9046,2023-03-17T12:19:27Z,2024-02-01T16:49:09Z,jakearchibald,topic: dialog|topic: popover,0
+1629220956,false,"Timing of `<dialog>` 'close' event, popover 'toggle' event, `<details>` 'toggle' event",https://github.com/whatwg/html/issues/9046,2023-03-17T12:19:27Z,2024-02-23T19:54:19Z,jakearchibald,topic: dialog|topic: popover,0
 1629156392,true,Should popover/dialog show/hide when already shown/hidden throw?,https://github.com/whatwg/html/issues/9045,2023-03-17T11:32:41Z,2023-06-06T06:39:49Z,jakearchibald,topic: dialog|topic: popover,6
 1629078964,false,<dialog> Unclear method of altering/reading attributes,https://github.com/whatwg/html/issues/9044,2023-03-17T10:35:36Z,2023-03-17T11:06:53Z,jakearchibald,topic: dialog,0
 1628986537,true,Should togglePopover() return a boolean?,https://github.com/whatwg/html/issues/9043,2023-03-17T09:30:48Z,2023-06-20T06:33:38Z,jakearchibald,addition/proposal|topic: popover,0
@@ -1569,7 +1570,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 723593007,false,Add option to Element.focus() to specify async application,https://github.com/whatwg/html/issues/6077,2020-10-17T00:02:49Z,2020-11-06T02:00:32Z,chrishtr,,3
 723501570,false,Should the “DOM clobbering” note mention the id attribute as well?,https://github.com/whatwg/html/issues/6076,2020-10-16T20:07:06Z,2024-02-14T03:33:00Z,simevidas,clarification|good first issue,0
 723436345,false,Declarative worklets proposal/tracking issue,https://github.com/whatwg/html/issues/6073,2020-10-16T18:21:31Z,2020-10-16T18:21:31Z,domenic,addition/proposal|needs implementer interest|needs concrete proposal|topic: worklets,0
-722250292,false,Loading CSS Style Sheet with Feature Queries,https://github.com/whatwg/html/issues/6064,2020-10-15T11:32:24Z,2020-10-15T11:32:24Z,tntrifonov,,2
+722250292,false,Loading CSS Style Sheet with Feature Queries,https://github.com/whatwg/html/issues/6064,2020-10-15T11:32:24Z,2020-10-15T11:32:24Z,tntrifonov,,3
 722040891,false,Element reflection references from inner to outer shadow roots,https://github.com/whatwg/html/issues/6063,2020-10-15T06:31:08Z,2021-01-18T02:19:35Z,chrisosaurus,,3
 721673538,false,Proposal: HTML use of remote alt text; matching extension/formalization for HTTP Content-Disposition & MIME [xpost html-aam],https://github.com/whatwg/html/issues/6061,2020-10-14T18:09:37Z,2020-10-14T18:09:37Z,saizai,,0
 721548550,true,Make cross-origin-isolation an implementation-defined consequence of COOP + COEP?,https://github.com/whatwg/html/issues/6060,2020-10-14T15:13:13Z,2021-01-06T17:35:20Z,ArthurSonzogni,topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,0
@@ -2256,7 +2257,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 443611383,true,"Factor out ""when it generates a box""",https://github.com/whatwg/html/issues/4618,2019-05-13T21:31:59Z,2019-07-02T21:09:30Z,zcorpan,clarification|topic: rendering|integration,0
 443099392,false,Task sources and queues: explicit distinction between those used in parallel vs on the event-loop?,https://github.com/whatwg/html/issues/4615,2019-05-12T12:33:16Z,2019-06-09T04:00:26Z,gterzian,clarification|topic: event loop,0
 442916636,true,download program,https://github.com/whatwg/html/issues/4612,2019-05-10T22:31:24Z,2019-05-13T07:41:41Z,pecka27,,0
-442900270,false,Spec for iframe removal from the document doesn't match browser behavior,https://github.com/whatwg/html/issues/4611,2019-05-10T21:25:36Z,2024-02-23T11:28:57Z,bzbarsky,topic: document.open()|topic: document lifecycle,0
+442900270,false,Spec for iframe removal from the document doesn't match browser behavior,https://github.com/whatwg/html/issues/4611,2019-05-10T21:25:36Z,2024-02-23T17:02:36Z,bzbarsky,topic: document.open()|topic: document lifecycle,0
 442557357,false,What correct behaviour of focus({preventscroll}) for on screen keyboard?,https://github.com/whatwg/html/issues/4608,2019-05-10T06:23:59Z,2019-05-24T22:05:11Z,makotokato,topic: focus,0
 442467904,false,Focus meta-bug,https://github.com/whatwg/html/issues/4607,2019-05-09T22:50:40Z,2020-04-02T23:55:14Z,domenic,topic: focus,15
 442425191,false,Scroll to Fragment Identifier clarification,https://github.com/whatwg/html/issues/4605,2019-05-09T20:44:46Z,2019-05-31T20:37:43Z,nickburris,interop|needs compat analysis|integration,0
@@ -3302,7 +3303,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 232779665,false,Default rendering of <hr>: 'color',https://github.com/whatwg/html/issues/2727,2017-06-01T06:40:03Z,2017-06-01T12:22:24Z,zcorpan,topic: rendering|interop,0
 232612734,false,Define interaction of keyboard and activation more clearly,https://github.com/whatwg/html/issues/2725,2017-05-31T15:53:40Z,2017-06-02T12:04:58Z,bzbarsky,topic: events,1
 232471163,true,More consistently fire 'error' event if URL fails to parse,https://github.com/whatwg/html/issues/2723,2017-05-31T06:57:04Z,2017-05-31T16:46:04Z,zcorpan,addition/proposal|topic: events,0
-232420981,false,Attribute to suggest filename for image elements (<img filename> / <img download>),https://github.com/whatwg/html/issues/2722,2017-05-31T00:34:55Z,2023-07-18T12:38:20Z,JosephPecoraro,addition/proposal|topic: img|needs concrete proposal,56
+232420981,false,Attribute to suggest filename for image elements (<img filename> / <img download>),https://github.com/whatwg/html/issues/2722,2017-05-31T00:34:55Z,2023-07-18T12:38:20Z,JosephPecoraro,addition/proposal|topic: img|needs concrete proposal,57
 232372960,true,Should “Naming form controls” section include a warning about names overriding form properties?,https://github.com/whatwg/html/issues/2720,2017-05-30T20:32:00Z,2018-03-08T03:31:01Z,simevidas,clarification|good first issue|topic: forms,1
 232284236,false,A new attribute to allow limited multiple selections (select and input checkbox),https://github.com/whatwg/html/issues/2719,2017-05-30T15:05:14Z,2017-05-30T18:53:23Z,SpyroTEQ,addition/proposal|needs implementer interest|topic: forms,0
 232235949,false,textarea cols and rows IDL attributes,https://github.com/whatwg/html/issues/2717,2017-05-30T12:26:46Z,2017-06-19T06:35:18Z,zcorpan,topic: forms|interop,0
