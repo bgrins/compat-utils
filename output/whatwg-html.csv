@@ -355,7 +355,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1727581751,false,Proposal: Improve support for multiple target origins for Window#postMessage,https://github.com/whatwg/html/issues/9340,2023-05-26T12:58:54Z,2023-06-11T13:22:49Z,eliasm307,addition/proposal|needs implementer interest|topic: serialize and transfer,0
 1726270402,true,"""check popover algorithm"" check for open dialogs is weak",https://github.com/whatwg/html/issues/9335,2023-05-25T18:10:32Z,2023-06-06T05:15:42Z,nt1m,topic: dialog|topic: popover,0
 1726046900,false,Proposal: Meta Tag for AI Consent Management,https://github.com/whatwg/html/issues/9334,2023-05-25T15:27:38Z,2023-08-15T22:34:35Z,brennancaldwell,addition/proposal|needs implementer interest,0
-1725842986,false,[View Transitions] Extend render-blocking to support Document,https://github.com/whatwg/html/issues/9332,2023-05-25T13:33:50Z,2024-02-20T20:08:15Z,khushalsagar,addition/proposal|topic: rendering,0
+1725842986,true,[View Transitions] Extend render-blocking to support Document,https://github.com/whatwg/html/issues/9332,2023-05-25T13:33:50Z,2024-02-27T08:19:36Z,khushalsagar,addition/proposal|topic: rendering,0
 1723771024,false,browsers handle document.open'ed iframe documents differently in session history,https://github.com/whatwg/html/issues/9330,2023-05-24T11:30:34Z,2023-06-01T07:36:22Z,smaug----,topic: history|interop|topic: document.open(),0
 1723381350,true,link type preload has a recursive refLink,https://github.com/whatwg/html/issues/9327,2023-05-24T07:45:31Z,2023-05-25T05:14:45Z,Kaiido,,0
 1721120977,false,New FocusEvent property for getting the FocusOptions,https://github.com/whatwg/html/issues/9322,2023-05-23T04:01:49Z,2023-05-26T09:20:11Z,woody-li,addition/proposal|needs implementer interest|topic: focus,1
@@ -944,7 +944,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1177177506,true,Question: Expected behavior for Object.keys with storage objects,https://github.com/whatwg/html/issues/7741,2022-03-22T18:50:05Z,2022-03-22T18:55:43Z,jasonnutter,,0
 1176559847,true,HTML syntax: omitting <body> should not be allowed if first child is <noscript>,https://github.com/whatwg/html/issues/7737,2022-03-22T10:14:53Z,2022-09-15T17:15:31Z,zcorpan,good first issue|document conformance,0
 1176210826,true,Should a preload with SRI and a main request without SRI be matched?,https://github.com/whatwg/html/issues/7736,2022-03-22T03:17:51Z,2022-05-19T00:42:57Z,hiroshige-g,security/privacy|topic: fetch|topic: resource hints (inc. preload),0
-1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2024-01-09T16:19:49Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,50
+1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2024-01-09T16:19:49Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,51
 1175078464,false,"Modern browsers don't implement ""4.10.21.2 Implicit submission"" correctly",https://github.com/whatwg/html/issues/7730,2022-03-21T08:59:00Z,2022-03-21T12:40:28Z,IliasDewachter,topic: forms,0
 1172930450,false,<a download> can sometimes just navigate,https://github.com/whatwg/html/issues/7718,2022-03-17T21:19:34Z,2022-03-23T21:36:38Z,domenic,topic: navigation|interop,1
 1172424410,true,Iframe's sandbox IDL definition. Why is it readonly?,https://github.com/whatwg/html/issues/7717,2022-03-17T13:59:33Z,2022-03-17T15:25:41Z,ArthurSonzogni,,0
@@ -2862,7 +2862,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 303398627,true,document.open() doesn't set contentType (document's content type),https://github.com/whatwg/html/issues/3546,2018-03-08T08:42:48Z,2018-03-14T09:28:06Z,annevk,interop,0
 302986749,false,Should OffscreenCanvas use unsigned long long rather than unsigned long,https://github.com/whatwg/html/issues/3542,2018-03-07T07:05:04Z,2018-03-07T07:05:04Z,annevk,topic: canvas,0
 302969333,true,Types of `OffscreenCanvas.width` and `.height` needs to be annotated types,https://github.com/whatwg/html/issues/3540,2018-03-07T05:26:25Z,2018-08-30T08:35:59Z,peria,clarification|good first issue|topic: canvas,0
-302965109,false,Potentially standardize window.find(),https://github.com/whatwg/html/issues/3539,2018-03-07T04:58:43Z,2023-09-28T12:43:35Z,annevk,addition/proposal|i18n-tracker|interop,16
+302965109,false,Potentially standardize window.find(),https://github.com/whatwg/html/issues/3539,2018-03-07T04:58:43Z,2024-02-27T10:40:15Z,annevk,addition/proposal|i18n-tracker|interop,17
 302754441,true,addition/proposal <controlset/> or <formgroup/>,https://github.com/whatwg/html/issues/3537,2018-03-06T15:48:22Z,2018-03-07T01:57:38Z,inoas,,0
 302576085,true,Imperative shadow DOM distribution API,https://github.com/whatwg/html/issues/3534,2018-03-06T06:11:35Z,2021-04-14T17:46:30Z,domenic,addition/proposal|topic: shadow,4
 302443675,true,template.insertAdjacentHTML() not consider as a part of template.contant,https://github.com/whatwg/html/issues/3533,2018-03-05T20:09:54Z,2018-03-06T08:41:54Z,perymimon,,0
