@@ -1011,7 +1011,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1121252070,true,Remove concept of expressly inert?,https://github.com/whatwg/html/issues/7564,2022-02-01T22:10:09Z,2022-02-07T01:19:46Z,Loirooriol,topic: focus,0
 1120480673,false,Clarify the semantic scope of the menu element,https://github.com/whatwg/html/issues/7562,2022-02-01T10:23:18Z,2022-02-16T11:24:18Z,kantoche,accessibility,0
 1119962138,false,"Suggestion - Allow ""<slot>"" to provide options for select or datalist",https://github.com/whatwg/html/issues/7560,2022-01-31T21:40:11Z,2022-02-15T11:13:30Z,jogibear9988,addition/proposal|needs implementer interest|topic: shadow,0
-1116552451,false,Allow authors to apply new css features (like cascade layers) while linking stylesheets,https://github.com/whatwg/html/issues/7540,2022-01-27T17:28:58Z,2024-02-22T19:31:48Z,mirisuzanne,addition/proposal|needs implementer interest|topic: style,19
+1116552451,false,Allow authors to apply new css features (like cascade layers) while linking stylesheets,https://github.com/whatwg/html/issues/7540,2022-01-27T17:28:58Z,2024-02-28T10:10:47Z,mirisuzanne,addition/proposal|needs implementer interest|topic: style,19
 1115846973,false,Can I set image as image data instead of base64??,https://github.com/whatwg/html/issues/7538,2022-01-27T07:04:18Z,2022-02-10T08:19:30Z,slugger941,,0
 1114394627,false,Explicit display:none should prevent element from being used as relevant canvas fallback content,https://github.com/whatwg/html/issues/7534,2022-01-25T21:46:53Z,2022-02-16T14:20:15Z,Loirooriol,topic: canvas|accessibility|topic: focus|a11y-tracker,0
 1114233124,false,URL-bar triggered prerendering,https://github.com/whatwg/html/issues/7533,2022-01-25T18:35:01Z,2022-02-03T21:27:07Z,domenic,addition/proposal|topic: navigation|topic: browsing context,2
@@ -1577,7 +1577,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 723593007,false,Add option to Element.focus() to specify async application,https://github.com/whatwg/html/issues/6077,2020-10-17T00:02:49Z,2020-11-06T02:00:32Z,chrishtr,,3
 723501570,false,Should the “DOM clobbering” note mention the id attribute as well?,https://github.com/whatwg/html/issues/6076,2020-10-16T20:07:06Z,2024-02-14T03:33:00Z,simevidas,clarification|good first issue,0
 723436345,false,Declarative worklets proposal/tracking issue,https://github.com/whatwg/html/issues/6073,2020-10-16T18:21:31Z,2020-10-16T18:21:31Z,domenic,addition/proposal|needs implementer interest|needs concrete proposal|topic: worklets,0
-722250292,false,Loading CSS Style Sheet with Feature Queries,https://github.com/whatwg/html/issues/6064,2020-10-15T11:32:24Z,2020-10-15T11:32:24Z,tntrifonov,,3
+722250292,false,Loading CSS Style Sheet with Feature Queries,https://github.com/whatwg/html/issues/6064,2020-10-15T11:32:24Z,2020-10-15T11:32:24Z,tntrifonov,,4
 722040891,false,Element reflection references from inner to outer shadow roots,https://github.com/whatwg/html/issues/6063,2020-10-15T06:31:08Z,2021-01-18T02:19:35Z,chrisosaurus,,3
 721673538,false,Proposal: HTML use of remote alt text; matching extension/formalization for HTTP Content-Disposition & MIME [xpost html-aam],https://github.com/whatwg/html/issues/6061,2020-10-14T18:09:37Z,2020-10-14T18:09:37Z,saizai,,0
 721548550,true,Make cross-origin-isolation an implementation-defined consequence of COOP + COEP?,https://github.com/whatwg/html/issues/6060,2020-10-14T15:13:13Z,2021-01-06T17:35:20Z,ArthurSonzogni,topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,0
@@ -3498,7 +3498,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 210038745,true,There is no field on the error event that would carry an error reason when adding a script to DOM fails,https://github.com/whatwg/html/issues/2395,2017-02-24T12:39:11Z,2017-03-09T23:37:40Z,juj,,0
 209939532,true,Define focus behavior for `<dialog>` element with Shadow DOM,https://github.com/whatwg/html/issues/2393,2017-02-24T02:02:24Z,2021-11-18T18:13:15Z,TakayoshiKochi,topic: shadow|topic: focus|topic: dialog,0
 209794160,true,"""has focus steps"" ignores window focus",https://github.com/whatwg/html/issues/2391,2017-02-23T15:28:14Z,2020-01-10T19:14:46Z,jakearchibald,topic: focus,0
-209787480,false,Standardize YouTube embed rewriting?,https://github.com/whatwg/html/issues/2390,2017-02-23T15:05:26Z,2024-01-16T15:26:01Z,RByers,compat|topic: media|interop|topic: embed and object,3
+209787480,false,Standardize YouTube embed rewriting?,https://github.com/whatwg/html/issues/2390,2017-02-23T15:05:26Z,2024-02-28T10:22:22Z,RByers,compat|topic: media|interop|topic: embed and object,3
 209735300,false,Fire error event in more cases when URL fails to parse,https://github.com/whatwg/html/issues/2388,2017-02-23T11:27:32Z,2017-05-31T16:48:28Z,zcorpan,addition/proposal|topic: events,0
 209700505,false,<object> can parse the same URL multiple times (breaking blob: URL),https://github.com/whatwg/html/issues/2386,2017-02-23T08:57:37Z,2017-05-25T05:06:39Z,zcorpan,topic: embed and object,0
 209697490,false,"""update the image data"" can parse a URL twice (breaking blob: URLs)",https://github.com/whatwg/html/issues/2385,2017-02-23T08:42:26Z,2017-02-23T08:42:26Z,zcorpan,topic: img,0
