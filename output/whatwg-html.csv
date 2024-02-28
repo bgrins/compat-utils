@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2157616652,false,Link rel=modulepreload synchronously fires `load` event if script exists in module map,https://github.com/whatwg/html/issues/10166,2024-02-27T21:18:33Z,2024-02-27T21:18:33Z,domfarolino,topic: script,0
 2155327927,false,Add `requestClose()` function to HTMLDialogElement,https://github.com/whatwg/html/issues/10164,2024-02-26T23:05:58Z,2024-02-26T23:35:00Z,lukewarlow,addition/proposal|needs implementer interest,0
 2155148232,false,Making the WHATNOT meeting cadence weekly,https://github.com/whatwg/html/issues/10163,2024-02-26T21:13:14Z,2024-02-26T21:13:14Z,past,,0
 2154687534,false,Provide a mechanism to trigger the fetch of compression dictionaries,https://github.com/whatwg/html/issues/10162,2024-02-26T17:10:28Z,2024-02-26T17:10:29Z,pmeenan,addition/proposal|needs implementer interest,0
@@ -53,7 +54,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2094176434,true,Three-valued Button state (type=three-valued) of the type attribute of the input element,https://github.com/whatwg/html/issues/10082,2024-01-22T15:30:47Z,2024-01-22T15:33:50Z,sergeyprokhorenko,addition/proposal|needs implementer interest,0
 2092231362,false,Three-valued Button state (type=three-valued) of the type attribute of the input element,https://github.com/whatwg/html/issues/10081,2024-01-20T20:33:25Z,2024-02-11T00:06:26Z,sergeyprokhorenko,addition/proposal|needs implementer interest,0
 2092094371,false,"Ability to disable images loading, to customise when they load with scripting ",https://github.com/whatwg/html/issues/10080,2024-01-20T15:27:36Z,2024-02-11T00:07:57Z,keithamus,addition/proposal|needs implementer interest|topic: media,0
-2091281574,false,"img sizes=""auto"" skewing images using object-fit: contain",https://github.com/whatwg/html/issues/10079,2024-01-19T19:56:30Z,2024-02-22T18:09:08Z,joemcgill,compat|topic: rendering|topic: img|needs tests,1
+2091281574,false,"img sizes=""auto"" skewing images using object-fit: contain",https://github.com/whatwg/html/issues/10079,2024-01-19T19:56:30Z,2024-02-27T15:28:05Z,joemcgill,compat|topic: rendering|topic: img|needs tests,1
 2090712845,false,Ergonomic way to move data between workers,https://github.com/whatwg/html/issues/10078,2024-01-19T14:46:38Z,2024-02-21T00:42:03Z,jakearchibald,addition/proposal|needs implementer interest|topic: workers,9
 2089462044,false,Allowing UA to do <source> selection for media element,https://github.com/whatwg/html/issues/10077,2024-01-19T02:56:38Z,2024-01-29T22:20:38Z,marcoscaceres,needs implementer interest|topic: media,0
 2088770490,true,Proposal: Implement new method for parsing markup from `Fetch` responses,https://github.com/whatwg/html/issues/10076,2024-01-18T17:41:39Z,2024-01-19T10:13:40Z,brandonmcconnell,addition/proposal|needs implementer interest,0
@@ -1010,7 +1011,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1121252070,true,Remove concept of expressly inert?,https://github.com/whatwg/html/issues/7564,2022-02-01T22:10:09Z,2022-02-07T01:19:46Z,Loirooriol,topic: focus,0
 1120480673,false,Clarify the semantic scope of the menu element,https://github.com/whatwg/html/issues/7562,2022-02-01T10:23:18Z,2022-02-16T11:24:18Z,kantoche,accessibility,0
 1119962138,false,"Suggestion - Allow ""<slot>"" to provide options for select or datalist",https://github.com/whatwg/html/issues/7560,2022-01-31T21:40:11Z,2022-02-15T11:13:30Z,jogibear9988,addition/proposal|needs implementer interest|topic: shadow,0
-1116552451,false,Allow authors to apply new css features (like cascade layers) while linking stylesheets,https://github.com/whatwg/html/issues/7540,2022-01-27T17:28:58Z,2024-02-22T19:31:48Z,mirisuzanne,addition/proposal|needs implementer interest|topic: style,18
+1116552451,false,Allow authors to apply new css features (like cascade layers) while linking stylesheets,https://github.com/whatwg/html/issues/7540,2022-01-27T17:28:58Z,2024-02-22T19:31:48Z,mirisuzanne,addition/proposal|needs implementer interest|topic: style,19
 1115846973,false,Can I set image as image data instead of base64??,https://github.com/whatwg/html/issues/7538,2022-01-27T07:04:18Z,2022-02-10T08:19:30Z,slugger941,,0
 1114394627,false,Explicit display:none should prevent element from being used as relevant canvas fallback content,https://github.com/whatwg/html/issues/7534,2022-01-25T21:46:53Z,2022-02-16T14:20:15Z,Loirooriol,topic: canvas|accessibility|topic: focus|a11y-tracker,0
 1114233124,false,URL-bar triggered prerendering,https://github.com/whatwg/html/issues/7533,2022-01-25T18:35:01Z,2022-02-03T21:27:07Z,domenic,addition/proposal|topic: navigation|topic: browsing context,2
@@ -1808,7 +1809,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 602996850,true,worker global scope's owner set should be updated before CSP initialization,https://github.com/whatwg/html/issues/5469,2020-04-20T07:06:55Z,2020-04-28T14:50:33Z,hiroshige-g,,0
 602570354,false,Allow git+https protocol handlers,https://github.com/whatwg/html/issues/5468,2020-04-18T22:56:40Z,2020-04-20T07:24:34Z,SoniEx2,addition/proposal|topic: custom protocols,0
 602461066,true,[dev edition] Image doesn't show under 'links.html#link-type-modulepreload',https://github.com/whatwg/html/issues/5467,2020-04-18T13:30:33Z,2020-04-20T16:35:15Z,NostraDavid,dev edition,0
-602428251,false,What *is* Canvas desynchronized attribute?,https://github.com/whatwg/html/issues/5466,2020-04-18T10:28:18Z,2020-04-22T21:24:03Z,juj,clarification|topic: canvas,8
+602428251,false,What *is* Canvas desynchronized attribute?,https://github.com/whatwg/html/issues/5466,2020-04-18T10:28:18Z,2020-04-22T21:24:03Z,juj,clarification|topic: canvas,9
 602049599,false,Accessibility of window.opener navigation,https://github.com/whatwg/html/issues/5464,2020-04-17T15:16:47Z,2020-04-24T11:43:07Z,matatk,accessibility|a11y-tracker,0
 601891362,true,Storage object (localStorage/sessionStorage) ordering,https://github.com/whatwg/html/issues/5463,2020-04-17T11:03:54Z,2020-07-10T17:28:43Z,annevk,topic: storage,0
 601057097,false,More clearly distinguish authoring conformance requirements,https://github.com/whatwg/html/issues/5461,2020-04-16T13:31:56Z,2020-04-22T16:59:50Z,domenic,spec tooling|clarification|document conformance|a11y-needs-resolution,1
@@ -2970,7 +2971,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 288116711,false,createImageBitmap with OffscreenCanvas argument,https://github.com/whatwg/html/issues/3342,2018-01-12T13:19:51Z,2018-01-26T09:33:11Z,Ms2ger,topic: canvas,2
 288061761,false,"""The image argument is not origin-clean"" check allows tainted ImageBitmaps",https://github.com/whatwg/html/issues/3341,2018-01-12T09:47:23Z,2018-01-12T15:23:06Z,Ms2ger,topic: canvas|security/privacy,0
 287881721,true,"""object getStartDate()"" should be ""Date getStartDate()""",https://github.com/whatwg/html/issues/3340,2018-01-11T18:35:28Z,2018-01-11T18:48:57Z,mmotorny,,0
-287518824,true,Proposal: Storage Access API,https://github.com/whatwg/html/issues/3338,2018-01-10T17:37:57Z,2023-03-17T12:28:19Z,johnwilander,addition/proposal|security/privacy|interop|topic: cookie|topic: storage|needs concrete proposal|impacts documentation,30
+287518824,true,Proposal: Storage Access API,https://github.com/whatwg/html/issues/3338,2018-01-10T17:37:57Z,2023-03-17T12:28:19Z,johnwilander,addition/proposal|security/privacy|interop|topic: cookie|topic: storage|needs concrete proposal|impacts documentation,32
 287303589,false,[PROPOSAL] Private Key Authorization System Built in Browser,https://github.com/whatwg/html/issues/3337,2018-01-10T03:22:43Z,2018-01-22T12:57:53Z,xialvjun,addition/proposal,0
 287180467,true,"""Content attributes"" descriptions are weird for fieldsets",https://github.com/whatwg/html/issues/3335,2018-01-09T18:08:48Z,2018-08-17T14:11:53Z,bzbarsky,clarification|good first issue|topic: forms|topic: fieldset,0
 287119130,false,"""at the media resource's intrinsic width and int...""",https://github.com/whatwg/html/issues/3334,2018-01-09T15:03:28Z,2018-01-10T10:10:19Z,Ms2ger,topic: canvas,1
