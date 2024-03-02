@@ -9400,7 +9400,7 @@ css/properties/cx,,≤72,,≤80,,≤13.1,,false,true,false,https://svgwg.org/svg
 css/properties/cy,,≤72,,≤80,,≤13.1,,false,true,false,https://svgwg.org/svg2-draft/geometry.html#CY,W3C
 css/properties/d,,97,,≤80,,,,false,true,false,https://svgwg.org/svg2-draft/paths.html#TheDProperty,W3C
 css/properties/direction,,1,,2,,1,,false,true,false,https://drafts.csswg.org/css-writing-modes/#direction,W3C
-css/properties/direction/vertical_slider_direction,,,,124,,,,true,true,false,,NONE
+css/properties/direction/vertical_slider_direction,,120,,124,,,,false,true,false,,NONE
 css/properties/display,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-display/#the-display-properties,W3C
 css/properties/display/contents,,37,,65,,11.1,,false,true,false,,NONE
 css/properties/display/contents/contents_unusual,,59,,65,,,,false,true,false,,NONE
@@ -9473,6 +9473,7 @@ css/properties/font-kerning,,32,,33,,9,,false,true,false,https://drafts.csswg.or
 css/properties/font-language-override,,34,,,,,,false,true,false,https://drafts.csswg.org/css-fonts/#font-language-override-prop,W3C
 css/properties/font-optical-sizing,,62,,79,,11,,false,true,false,https://drafts.csswg.org/css-fonts/#font-optical-sizing-def,W3C
 css/properties/font-palette,,107,,101,,15.4,,false,true,false,https://drafts.csswg.org/css-fonts/#font-palette-prop,W3C
+css/properties/font-palette/animation_computed,,,,121,,,,true,true,false,,NONE
 css/properties/font-palette/palette-mix_function,,,,121,,,,true,true,false,https://drafts.csswg.org/css-fonts/#typedef-font-palette-palette-mix,W3C
 css/properties/font-size,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-size-prop,W3C
 css/properties/font-size/math,,117,,109,,,,false,true,false,,NONE
@@ -10217,7 +10218,7 @@ css/properties/writing-mode/tb,,43,,48,,10.1,,false,true,true,,NONE
 css/properties/writing-mode/tb-rl,,43,,48,,10.1,,false,true,true,,NONE
 css/properties/writing-mode/vertical-lr,,43,,48,,9,,false,true,false,,NONE
 css/properties/writing-mode/vertical-rl,,43,,48,,9,,false,true,false,,NONE
-css/properties/writing-mode/vertical_oriented_form_controls,,120,,124,,14,,false,true,false,,NONE
+css/properties/writing-mode/vertical_oriented_form_controls,,120,,124,,17.4,,false,true,false,,NONE
 css/properties/x,,≤72,,≤80,,≤13.1,,false,true,false,https://svgwg.org/svg2-draft/geometry.html#X,W3C
 css/properties/y,,≤72,,≤80,,≤13.1,,false,true,false,https://svgwg.org/svg2-draft/geometry.html#Y,W3C
 css/properties/z-index,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css2/#z-index,W3C
@@ -10490,7 +10491,7 @@ css/types/color/rgb,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-colo
 css/types/color/rgb/alpha_parameter,,52,,65,,12.1,,false,true,false,,NONE
 css/types/color/rgb/float_values,,52,,66,,12.1,,false,true,false,,NONE
 css/types/color/rgb/mixed_type_parameters,,113,,122,,,,false,true,false,,NONE
-css/types/color/rgb/relative_syntax,,,,119,,16.4,,false,true,false,https://drafts.csswg.org/css-color-5/#relative-RGB,W3C
+css/types/color/rgb/relative_syntax,,,,122,,16.4,,false,true,false,https://drafts.csswg.org/css-color-5/#relative-RGB,W3C
 css/types/color/rgb/space_separated_parameters,,52,,65,,12.1,,false,true,false,,NONE
 css/types/color/rgb_hexadecimal_notation,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-color/#hex-notation,W3C
 css/types/color/rgb_hexadecimal_notation/alpha_hexadecimal_notation,,49,,62,,10,,false,true,false,,NONE
@@ -11152,9 +11153,12 @@ html/elements/script/type,,1,,1,,≤4,,false,true,false,,NONE
 html/elements/script/type/importmap,,108,,89,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/webappapis.html#import-map,WHATWG
 html/elements/script/type/module,,60,,61,,10.1,,false,true,false,,NONE
 html/elements/script/type/speculationrules,,,,109,,,,true,true,false,https://wicg.github.io/nav-speculation/speculation-rules.html#speculation-rules-script,W3CCG
+html/elements/script/type/speculationrules/eagerness,,,,121,,,,true,true,false,,NONE
+html/elements/script/type/speculationrules/expects_no_vary_search,,,,121,,,,true,true,false,,NONE
 html/elements/script/type/speculationrules/prefetch,,,,110,,,,true,true,false,,NONE
 html/elements/script/type/speculationrules/prerender,,,,105,,,,true,true,false,,NONE
 html/elements/script/type/speculationrules/referrer_policy,,,,111,,,,true,true,false,,NONE
+html/elements/script/type/speculationrules/relative_to,,,,121,,,,true,true,false,,NONE
 html/elements/script/type/speculationrules/requires,,,,110,,,,true,true,false,,NONE
 html/elements/script/type/speculationrules/requires/anonymous-client-ip-when-cross-origin,,,,110,,,,true,true,false,,NONE
 html/elements/script/type/speculationrules/urls,,,,109,,,,true,true,false,,NONE
@@ -11442,7 +11446,8 @@ http/headers/Connection,,true,,true,,true,,false,true,false,https://www.rfc-edit
 http/headers/Content-DPR,,,,46,,,,false,false,true,,NONE
 http/headers/Content-Disposition,,true,,true,,true,,false,true,false,https://httpwg.org/specs/rfc6266.html#header.field.definition,IETF
 http/headers/Content-Encoding,,true,,true,,true,,false,true,false,https://www.rfc-editor.org/rfc/rfc9110#field.content-encoding,UNKNOWN
-http/headers/Content-Encoding/br,,44,,50,,11,,false,false,false,,NONE
+http/headers/Content-Encoding/br,,44,,50,,11,,false,true,false,,NONE
+http/headers/Content-Encoding/zstd,,,,123,,,,true,true,false,,NONE
 http/headers/Content-Language,,true,,true,,true,,false,true,false,https://www.rfc-editor.org/rfc/rfc9110#field.content-language,UNKNOWN
 http/headers/Content-Length,,true,,true,,true,,false,true,false,https://www.rfc-editor.org/rfc/rfc9110#field.content-length,UNKNOWN
 http/headers/Content-Length/cors_response_safelist,,87,,76,,12.1,,false,true,false,,NONE
@@ -11519,6 +11524,7 @@ http/headers/Last-Modified,,true,,true,,true,,false,true,false,https://www.rfc-e
 http/headers/Link,,1,,103,,,,false,true,false,https://httpwg.org/specs/rfc8288.html#header,IETF
 http/headers/Location,,true,,true,,true,,false,true,false,https://www.rfc-editor.org/rfc/rfc9110#field.location,UNKNOWN
 http/headers/NEL,,,,71,,,,true,true,false,https://w3c.github.io/network-error-logging/#nel-response-header,W3C
+http/headers/No-Vary-Search,,,,121,,,,true,true,false,,NONE
 http/headers/Observe-Browsing-Topics,,,,115,,,,true,false,false,,NONE
 http/headers/Origin,,70,,true,,true,,false,true,false,https://www.rfc-editor.org/rfc/rfc6454#section-7,UNKNOWN
 http/headers/Origin-Agent-Cluster,,,,90,,,,true,true,false,https://html.spec.whatwg.org/multipage/browsers.html#origin-agent-cluster,WHATWG
@@ -11618,6 +11624,7 @@ http/headers/Set-Cookie/cookie_prefixes,,50,,49,,true,,false,true,false,,NONE
 http/headers/Set-Login,,,,120,,,,true,true,false,https://fedidcg.github.io/FedCM/#login-status-http,UNKNOWN
 http/headers/Snapshot-Content-Location,,,,63,,,,false,false,false,,NONE
 http/headers/SourceMap,,55,,true,,true,,false,true,false,https://tc39.es/source-map-spec/#linking-generated-code,TC39
+http/headers/Speculation-Rules,,,,121,,,,true,true,false,https://wicg.github.io/nav-speculation/speculation-rules.html#speculation-rules-header,W3CCG
 http/headers/Strict-Transport-Security,,4,,4,,7,,false,true,false,https://www.rfc-editor.org/rfc/rfc6797#section-6.1,UNKNOWN
 http/headers/Supports-Loading-Mode,,,,109,,,,true,true,false,https://wicg.github.io/nav-speculation/prerendering.html#supports-loading-mode,W3CCG
 http/headers/Supports-Loading-Mode/credentialed-prerender,,,,109,,,,true,true,false,,NONE
