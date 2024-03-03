@@ -22,7 +22,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2141042150,false,"ImageBitmapRenderingContext: clarify behaviour with `premultiplyAlpha: ""none""` createImageBitmap option and canvas",https://github.com/whatwg/html/issues/10142,2024-02-18T15:27:58Z,2024-02-19T07:33:07Z,hybridherbst,topic: canvas,0
 2140571376,false,"Dark mode styling for ""yes"" table attributes is not ledgible",https://github.com/whatwg/html/issues/10141,2024-02-17T20:28:28Z,2024-02-17T20:37:25Z,ADKaster,,0
 2137613348,true,Using multiple h1 tag in a page,https://github.com/whatwg/html/issues/10138,2024-02-15T23:28:03Z,2024-02-16T03:27:59Z,bhojpress,,0
-2132178210,false,Worklet agents and the event loop,https://github.com/whatwg/html/issues/10136,2024-02-13T12:04:55Z,2024-02-29T22:18:46Z,annevk,integration|topic: event loop|topic: agent|topic: worklets,0
+2132178210,false,Worklet agents and the event loop,https://github.com/whatwg/html/issues/10136,2024-02-13T12:04:55Z,2024-03-03T10:50:19Z,annevk,integration|topic: event loop|topic: agent|topic: worklets,0
 2131637069,false,Storage event should probably fire on Document that didn't call localStorage getter,https://github.com/whatwg/html/issues/10135,2024-02-13T07:39:08Z,2024-02-13T07:39:20Z,Kaiido,topic: storage,0
 2131114678,false,Define interaction with `field-sizing` CSS property and inline writing suggestions,https://github.com/whatwg/html/issues/10134,2024-02-12T22:40:49Z,2024-02-12T22:41:47Z,zcorpan,topic: rendering|topic: forms,0
 2128542188,false,Update UA stylesheet rules to use `:any-link` instead of `:visited` or `:link`,https://github.com/whatwg/html/issues/10133,2024-02-10T15:22:00Z,2024-02-13T12:15:47Z,Ahmad-S792,topic: rendering,1
@@ -399,7 +399,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1677543108,true,Upcoming HTML standard issue triage meeting on 5/4/2023,https://github.com/whatwg/html/issues/9193,2023-04-20T23:18:15Z,2023-05-04T17:03:14Z,past,agenda+,0
 1676587334,false,Clarification on the DOM being a tree,https://github.com/whatwg/html/issues/9189,2023-04-20T12:03:44Z,2024-01-15T18:37:26Z,MrHBS,clarification,0
 1688386216,false,Clarification for <link> behavior in Declarative Shadow DOM,https://github.com/whatwg/html/issues/9232,2023-04-19T04:02:35Z,2024-01-08T21:52:32Z,bakura10,topic: shadow|topic: link,1
-1673113171,false,Make <img> src attribute optional if srcset is present,https://github.com/whatwg/html/issues/9181,2023-04-18T13:13:27Z,2023-05-10T09:25:53Z,foolip,document conformance|topic: img,1
+1673113171,false,Make <img> src attribute optional if srcset is present,https://github.com/whatwg/html/issues/9181,2023-04-18T13:13:27Z,2024-03-03T11:02:40Z,foolip,document conformance|topic: img,1
 1671435300,true,The element could move to other document when showPopover,https://github.com/whatwg/html/issues/9177,2023-04-17T15:21:06Z,2023-05-05T09:13:47Z,cathiechen,topic: popover,0
 1669058371,true,Make number's and <input>'s get along better,https://github.com/whatwg/html/issues/9172,2023-04-14T23:52:47Z,2023-04-15T10:36:59Z,ghost,,0
 1668397306,true,Should hide popover algorithm always restore the previously focused element?,https://github.com/whatwg/html/issues/9169,2023-04-14T14:49:45Z,2023-05-12T17:19:24Z,nt1m,topic: popover,0
@@ -2028,7 +2028,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 518470521,false,Button layout ignores display: run-in,https://github.com/whatwg/html/issues/5061,2019-11-06T13:26:35Z,2019-11-06T23:25:47Z,zcorpan,topic: rendering|topic: forms,0
 518012338,false,"""Updating the image data"" algorithm does not set image's last selected source in responsive mode",https://github.com/whatwg/html/issues/5060,2019-11-05T20:33:38Z,2019-11-06T08:38:50Z,jdm,topic: img,0
 516822787,true,remove a mention of U+000D CARRIAGE RETURN,https://github.com/whatwg/html/issues/5058,2019-11-03T12:45:00Z,2020-03-26T16:24:49Z,stasoid,clarification|topic: parser,0
-513857276,false,"Proposal : `unit` property for `input type=""number""` ",https://github.com/whatwg/html/issues/5055,2019-10-29T11:36:34Z,2019-10-30T15:21:44Z,lespacedunmatin,addition/proposal|needs implementer interest|topic: forms,9
+513857276,false,"Proposal : `unit` property for `input type=""number""` ",https://github.com/whatwg/html/issues/5055,2019-10-29T11:36:34Z,2019-10-30T15:21:44Z,lespacedunmatin,addition/proposal|needs implementer interest|topic: forms,10
 513735518,false,<area>'s shape's DOM anchor,https://github.com/whatwg/html/issues/5054,2019-10-29T07:18:31Z,2019-10-31T17:28:02Z,tkent-google,compat|topic: img|topic: focus,0
 513607231,true,What happens if the delegated element is also a shadow host with delegatesFocus set,https://github.com/whatwg/html/issues/5052,2019-10-28T23:16:02Z,2019-11-19T01:12:38Z,rniwa,topic: focus,0
 513604137,false,unhandledrejection should fire even for muted scripts,https://github.com/whatwg/html/issues/5051,2019-10-28T23:05:47Z,2020-05-20T18:41:24Z,jridgewell,topic: script,0
