@@ -1,22 +1,24 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2164685774,false,Remove SVG Blob support from createImageBitmap,https://github.com/whatwg/html/pull/10172,2024-03-02T07:53:12Z,2024-03-03T11:00:52Z,Kaiido,removal/deprecation|topic: canvas,0
-2160511128,false,Fix (#10053):  typo in CanvasDrawPath.isPointInPath,https://github.com/whatwg/html/pull/10170,2024-02-29T06:39:12Z,2024-03-01T05:39:58Z,tawandamoyo,,0
-2158208117,false,Re-do close watcher user activation tracking,https://github.com/whatwg/html/pull/10168,2024-02-28T06:22:43Z,2024-03-02T00:56:12Z,domenic,normative change|topic: dialog,0
+2166276565,false,"Fix: Fixes #9987 (editorial) and #2848 (added clarity fo Canvas transform methods) ",https://github.com/whatwg/html/pull/10174,2024-03-04T08:42:48Z,2024-03-04T09:20:26Z,tawandamoyo,,0
+2166178669,true,"Fixes #9987: Editorial, linking Promise<T> type to Web IDL",https://github.com/whatwg/html/pull/10173,2024-03-04T08:00:44Z,2024-03-04T08:10:06Z,tawandamoyo,,0
+2164685774,false,Remove SVG Blob support from createImageBitmap,https://github.com/whatwg/html/pull/10172,2024-03-02T07:53:12Z,2024-03-04T08:31:54Z,Kaiido,removal/deprecation|topic: canvas,0
+2160511128,true,Fix (#10053):  typo in CanvasDrawPath.isPointInPath,https://github.com/whatwg/html/pull/10170,2024-02-29T06:39:12Z,2024-03-04T05:09:01Z,tawandamoyo,topic: canvas,0
+2158208117,false,Re-do close watcher user activation tracking,https://github.com/whatwg/html/pull/10168,2024-02-28T06:22:43Z,2024-03-04T07:15:35Z,domenic,normative change|topic: dialog,0
 2158124994,true,[Editorial] Export creating NRR,https://github.com/whatwg/html/pull/10167,2024-02-28T05:11:30Z,2024-02-28T05:24:27Z,rubberyuzu,,0
-2157384688,false,Editorial: Specify that connectedness is a prerequisite for script execution,https://github.com/whatwg/html/pull/10165,2024-02-27T18:54:52Z,2024-02-29T23:14:57Z,domfarolino,topic: script,0
+2157384688,true,Editorial: Specify that connectedness is a prerequisite for script execution,https://github.com/whatwg/html/pull/10165,2024-02-27T18:54:52Z,2024-03-04T04:16:34Z,domfarolino,topic: script,0
 2150141047,false,WIP dialog closedby attribute spec,https://github.com/whatwg/html/pull/10157,2024-02-22T23:57:03Z,2024-02-26T23:13:49Z,lukewarlow,,0
 2148367262,false,Add may-block reasons to NotRestoredReasons,https://github.com/whatwg/html/pull/10154,2024-02-22T07:06:43Z,2024-02-29T05:29:35Z,rubberyuzu,,0
 2147120013,true,Create code.txt,https://github.com/whatwg/html/pull/10152,2024-02-21T15:58:38Z,2024-02-21T16:05:47Z,owaislodhi01,spam|invalid,0
 2143978728,false,Allow WebDriver BiDi access original opener,https://github.com/whatwg/html/pull/10147,2024-02-20T09:52:35Z,2024-02-20T09:53:13Z,OrKoN,,0
 2141556349,true,Meta: Dark mode fixes,https://github.com/whatwg/html/pull/10144,2024-02-19T05:44:57Z,2024-02-21T06:12:46Z,andreubotella,,0
 2137817129,true,Change dir=auto to fall back to ltr rather than inheriting,https://github.com/whatwg/html/pull/10140,2024-02-16T03:43:35Z,2024-02-22T18:42:36Z,dbaron,,0
-2137794594,false,Add getHTML() and the serializable concept,https://github.com/whatwg/html/pull/10139,2024-02-16T03:10:47Z,2024-02-16T16:32:40Z,mfreed7,,0
+2137794594,false,Add getHTML() and the serializable concept,https://github.com/whatwg/html/pull/10139,2024-02-16T03:10:47Z,2024-03-04T11:49:20Z,mfreed7,,0
 2133052396,false,Call the view-transition page-visibility change steps,https://github.com/whatwg/html/pull/10137,2024-02-13T20:10:41Z,2024-02-13T20:12:35Z,noamr,,0
 2127277528,false,Add navigation started before other navigation events for WebDriver BiDi,https://github.com/whatwg/html/pull/10132,2024-02-09T14:39:39Z,2024-02-13T06:02:48Z,jrandolf,topic: navigation,0
 2126643489,false,[WIP] Add may-block reasons for NotRestoredReasons,https://github.com/whatwg/html/pull/10131,2024-02-09T07:55:49Z,2024-02-09T07:56:25Z,rubberyuzu,,0
 2126638785,true,Fix off-by-one error in navigation.canGoForward,https://github.com/whatwg/html/pull/10130,2024-02-09T07:51:29Z,2024-02-09T08:09:41Z,domenic,topic: navigation,0
 2124657255,true,Meta: Drop duplicate dfns of width and height IDL attr for HTMLImageElement,https://github.com/whatwg/html/pull/10127,2024-02-08T08:59:34Z,2024-02-08T09:10:28Z,dontcallmedom,,0
-2123981577,false,Add the :open and :closed pseudo-selectors,https://github.com/whatwg/html/pull/10126,2024-02-07T22:07:51Z,2024-02-22T07:17:15Z,josepharhar,,0
+2123981577,false,Add the :open and :closed pseudo-selectors,https://github.com/whatwg/html/pull/10126,2024-02-07T22:07:51Z,2024-03-04T11:54:03Z,josepharhar,,0
 2119551527,false,Close dialog elements when the open attribute is removed,https://github.com/whatwg/html/pull/10124,2024-02-05T22:13:10Z,2024-02-23T23:25:23Z,josepharhar,normative change|topic: dialog,1
 2116642999,true,Update build.yml,https://github.com/whatwg/html/pull/10121,2024-02-03T19:02:32Z,2024-02-04T01:19:32Z,JulianaticID,spam|invalid,0
 2115694515,true,Update README.md to include about us description.,https://github.com/whatwg/html/pull/10120,2024-02-02T20:07:00Z,2024-02-02T21:36:59Z,edxlang,spam|invalid,0
@@ -28,7 +30,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2105509288,false,fixed typo from null to path (whatwg#10053),https://github.com/whatwg/html/pull/10105,2024-01-29T13:30:58Z,2024-02-06T05:19:11Z,chaburk,,0
 2105077552,true,Editorial: Remove outdated reference to ParseScript,https://github.com/whatwg/html/pull/10102,2024-01-29T09:47:51Z,2024-01-31T01:32:20Z,Ms2ger,topic: script|editorial,0
 2103017099,false,Make showPicker consume user activation,https://github.com/whatwg/html/pull/10098,2024-01-26T22:45:15Z,2024-03-02T01:17:58Z,josepharhar,normative change|topic: user activation,1
-2102903282,false,"Rendering: define progress, meter, range input's value layout with vertical writing-mode to support direction",https://github.com/whatwg/html/pull/10096,2024-01-26T21:06:30Z,2024-02-29T18:45:19Z,dizhang168,topic: rendering,0
+2102903282,true,"Rendering: define progress, meter, range input's value layout with vertical writing-mode to support direction",https://github.com/whatwg/html/pull/10096,2024-01-26T21:06:30Z,2024-03-04T07:10:35Z,dizhang168,topic: rendering,0
 2102526199,true,Editorial: Fix incorrect heading level in example,https://github.com/whatwg/html/pull/10095,2024-01-26T16:45:46Z,2024-02-02T08:30:28Z,MarcusOtter,,0
 2100764219,false,dispatch toggleevents for dialog open/close,https://github.com/whatwg/html/pull/10091,2024-01-25T16:35:42Z,2024-02-08T21:31:41Z,keithamus,,0
 2099541920,true,"Editorial: reduce the use of class=""brief""",https://github.com/whatwg/html/pull/10088,2024-01-25T04:25:42Z,2024-01-31T01:19:31Z,domenic,,0
@@ -47,7 +49,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2075571078,true,Don't always consume user activation for close watchers,https://github.com/whatwg/html/pull/10048,2024-01-11T02:08:30Z,2024-02-28T06:33:26Z,domenic,do not merge yet,0
 2073998014,true,Editorial: add enumerated attribute table for formmethod,https://github.com/whatwg/html/pull/10045,2024-01-10T09:54:13Z,2024-01-31T10:19:19Z,keithamus,,0
 2073927718,true,"Editorial: make case & pos of ""(the empty string)"" consistent",https://github.com/whatwg/html/pull/10044,2024-01-10T09:17:11Z,2024-01-12T09:35:18Z,keithamus,,0
-2073844929,false,Fix key event used for close requests,https://github.com/whatwg/html/pull/10043,2024-01-10T08:26:23Z,2024-03-01T09:15:52Z,domenic,topic: dialog,1
+2073844929,false,Fix key event used for close requests,https://github.com/whatwg/html/pull/10043,2024-01-10T08:26:23Z,2024-03-04T07:15:42Z,domenic,topic: dialog,1
 2073271864,true,Export muted definition,https://github.com/whatwg/html/pull/10042,2024-01-09T22:25:45Z,2024-01-17T23:17:26Z,marcoscaceres,,0
 2071855102,true,Fix #10028 - minor error in import map example,https://github.com/whatwg/html/pull/10041,2024-01-09T08:19:14Z,2024-01-12T03:59:59Z,farsightsoftware,,0
 2071176662,true,Editorial: Fix broken link to view-transition spec,https://github.com/whatwg/html/pull/10040,2024-01-08T20:33:53Z,2024-01-09T04:08:31Z,bokand,,0
