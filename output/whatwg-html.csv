@@ -1,19 +1,20 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2173990781,false,should search for draggable attribute follow dom tree or flattened tree?,https://github.com/whatwg/html/issues/10185,2024-03-07T14:26:12Z,2024-03-07T16:08:16Z,dbaron,,1
 2172574820,false,Is this bad to suggest that placeholder attributes can contain expected formats?,https://github.com/whatwg/html/issues/10183,2024-03-06T22:46:15Z,2024-03-06T22:49:08Z,anevins12,,0
-2171650548,false,Allow `<source>` elements to query container sizes,https://github.com/whatwg/html/issues/10182,2024-03-06T14:31:48Z,2024-03-06T15:41:50Z,andy-blum,addition/proposal|needs implementer interest,0
-2171191672,false,Nits with link rel=expect,https://github.com/whatwg/html/issues/10180,2024-03-06T10:44:29Z,2024-03-07T04:31:40Z,jakearchibald,clarification|topic: rendering,0
+2171650548,false,Allow `<source>` elements to query container sizes,https://github.com/whatwg/html/issues/10182,2024-03-06T14:31:48Z,2024-03-06T15:41:50Z,andy-blum,addition/proposal|needs implementer interest,1
+2171191672,false,Nits with link rel=expect,https://github.com/whatwg/html/issues/10180,2024-03-06T10:44:29Z,2024-03-07T13:04:30Z,jakearchibald,clarification|topic: rendering,0
 2168944680,true,"> Non-storage APIs that need to follow the storage partitioning (e.g. BroadcastChannel, Web Locks, etc) also need a way to play here, and behind the scenes I assume the implementations use the storage keys, though that's not exported from Storage.",https://github.com/whatwg/html/issues/10177,2024-03-05T11:19:24Z,2024-03-05T11:21:38Z,abc1000200,invalid,0
 2161745995,false,Declaratively open popovers (and other elements?) on page load,https://github.com/whatwg/html/issues/10171,2024-02-29T17:19:04Z,2024-02-29T17:19:05Z,josepharhar,topic: dialog|topic: popover,0
 2160066080,false,Worklet termination,https://github.com/whatwg/html/issues/10169,2024-02-28T23:43:54Z,2024-03-04T08:12:24Z,daxpedda,addition/proposal|needs implementer interest|topic: worklets,0
 2157616652,false,Link rel=modulepreload synchronously fires `load` event if script exists in module map,https://github.com/whatwg/html/issues/10166,2024-02-27T21:18:33Z,2024-02-28T12:41:46Z,domfarolino,topic: script,1
 2155327927,false,Add `requestClose()` function to HTMLDialogElement,https://github.com/whatwg/html/issues/10164,2024-02-26T23:05:58Z,2024-03-02T01:04:52Z,lukewarlow,addition/proposal|needs implementer interest,0
-2155148232,false,Making the WHATNOT meeting cadence weekly,https://github.com/whatwg/html/issues/10163,2024-02-26T21:13:14Z,2024-02-26T21:13:14Z,past,,0
+2155148232,false,Making the WHATNOT meeting cadence weekly,https://github.com/whatwg/html/issues/10163,2024-02-26T21:13:14Z,2024-03-07T15:22:14Z,past,,0
 2154687534,false,Provide a mechanism to trigger the fetch of compression dictionaries,https://github.com/whatwg/html/issues/10162,2024-02-26T17:10:28Z,2024-03-05T11:10:31Z,pmeenan,addition/proposal|needs implementer interest,0
 2154517148,false,"textarea: attribute for content type ",https://github.com/whatwg/html/issues/10161,2024-02-26T15:55:13Z,2024-02-26T15:55:13Z,vanillajonathan,addition/proposal|needs implementer interest,0
 2153573873,false,Clarification for nested `kbd` elements,https://github.com/whatwg/html/issues/10160,2024-02-26T08:33:30Z,2024-03-05T15:08:34Z,j9t,,0
 2152371567,false,Clarify context of §4.12.2 the `<noscript>` element,https://github.com/whatwg/html/issues/10159,2024-02-24T15:49:18Z,2024-02-25T23:12:35Z,doriantaylor,,0
 2151600541,false,Add a way to automatically get script license and unminified code (if available),https://github.com/whatwg/html/issues/10158,2024-02-23T18:33:44Z,2024-02-23T18:33:44Z,Orisphera,addition/proposal|needs implementer interest,0
-2149864472,false,Upcoming WHATNOT meeting on 3/7/2024,https://github.com/whatwg/html/issues/10156,2024-02-22T20:14:39Z,2024-02-26T21:20:42Z,past,agenda+,0
+2149864472,false,Upcoming WHATNOT meeting on 3/7/2024,https://github.com/whatwg/html/issues/10156,2024-02-22T20:14:39Z,2024-03-07T20:47:15Z,past,agenda+,0
 2148780029,false,It's not clear how constraint validation works for FACE if the 'validation anchor' is null,https://github.com/whatwg/html/issues/10155,2024-02-22T10:52:33Z,2024-02-26T13:41:19Z,EdgarChen,topic: custom elements|topic: forms,2
 2148084073,false,Nested comment tags.,https://github.com/whatwg/html/issues/10153,2024-02-22T02:59:53Z,2024-03-06T21:30:03Z,RokeJulianLockhart,addition/proposal|needs implementer interest,1
 2146266830,true,"Different parsing behavior for ""</script>"" and ""</div>"" strings",https://github.com/whatwg/html/issues/10151,2024-02-21T09:39:53Z,2024-02-21T10:14:20Z,mbrodesser-Igalia,,0
@@ -285,7 +286,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1821261026,false,HTML Parser: confusion about  adoption agency algorithm,https://github.com/whatwg/html/issues/9559,2023-07-25T22:29:47Z,2023-10-01T15:37:56Z,stasoid,clarification|topic: parser,0
 1819321957,true,Evolving the HTML base tag further,https://github.com/whatwg/html/issues/9555,2023-07-25T00:13:44Z,2023-07-25T02:17:59Z,linuxguist,,0
 1817304169,true,"""This requirement is not a hard requirement, how...""",https://github.com/whatwg/html/issues/9553,2023-07-23T21:37:56Z,2023-07-25T18:23:27Z,Lanpun,,0
-1813687586,false,Disabled dates for input type=date,https://github.com/whatwg/html/issues/9542,2023-07-20T10:42:52Z,2024-02-16T01:41:36Z,thany,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,10
+1813687586,false,Disabled dates for input type=date,https://github.com/whatwg/html/issues/9542,2023-07-20T10:42:52Z,2024-02-16T01:41:36Z,thany,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,11
 1813664808,false,Considering event.waitUntil(promise) for async listeners,https://github.com/whatwg/html/issues/9540,2023-07-20T10:30:06Z,2023-07-26T20:02:41Z,WebReflection,,2
 1812387860,true,Consider making `=` in unquoted attribute values not a parse error,https://github.com/whatwg/html/issues/9536,2023-07-19T17:26:24Z,2023-08-18T08:47:13Z,tabatkins,document conformance,1
 1812006723,true,Environment settings objects used when fetching a module worker script graph are still wrong,https://github.com/whatwg/html/issues/9535,2023-07-19T13:53:30Z,2023-07-24T06:15:07Z,nicolo-ribaudo,topic: script,0
@@ -345,7 +346,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1740428387,false,Add `class` & `for` aliases for `className` and `htmlFor`,https://github.com/whatwg/html/issues/9379,2023-06-04T15:17:46Z,2023-06-06T10:05:13Z,jakearchibald,addition/proposal|needs implementer interest,189
 1738596106,false,Should we deprecate `dialog.show()`?,https://github.com/whatwg/html/issues/9376,2023-06-02T18:02:06Z,2023-11-09T21:17:57Z,mfreed7,removal/deprecation|topic: dialog,15
 1738480470,true,Upcoming HTML standard issue triage meeting on 6/15/2023,https://github.com/whatwg/html/issues/9375,2023-06-02T16:22:45Z,2023-06-15T17:55:09Z,past,agenda+,0
-1736830044,false,Add light dismiss functionality to `<dialog>`,https://github.com/whatwg/html/issues/9373,2023-06-01T18:07:13Z,2024-03-05T12:43:34Z,mfreed7,addition/proposal|needs implementer interest|topic: dialog|agenda+,28
+1736830044,false,Add light dismiss functionality to `<dialog>`,https://github.com/whatwg/html/issues/9373,2023-06-01T18:07:13Z,2024-03-07T23:52:42Z,mfreed7,addition/proposal|needs implementer interest|topic: dialog|agenda+,28
 1736289421,false,"The width attribute should not be a relevant mutation ",https://github.com/whatwg/html/issues/9371,2023-06-01T13:04:26Z,2023-06-01T13:04:26Z,zcorpan,topic: img,0
 1733790661,false,"When the popover attribute is removed, the hide popover algorithm will return too early",https://github.com/whatwg/html/issues/9367,2023-05-31T09:44:23Z,2023-06-26T18:46:04Z,mbrodesser-Igalia,topic: popover,0
 1733283807,true,auto popover list definition isn't quite correct,https://github.com/whatwg/html/issues/9366,2023-05-31T02:27:08Z,2023-06-06T05:20:53Z,nt1m,topic: popover,0
@@ -2328,7 +2329,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 434776374,true,Should sandbox also block downloading scripts?,https://github.com/whatwg/html/issues/4539,2019-04-18T13:40:20Z,2019-04-24T09:46:49Z,ehsan-karamad,topic: script|integration,0
 434539630,false,Proposal: Native solution for tooltips on the web platform,https://github.com/whatwg/html/issues/4537,2019-04-18T00:25:42Z,2021-09-23T14:30:29Z,victornpb,,14
 434520632,false,"""The rules for how to convert the bytes of the plain text ..."" are ... where?",https://github.com/whatwg/html/issues/4536,2019-04-17T22:59:19Z,2019-04-18T11:55:51Z,SamB,,0
-434247319,true,dialog element under overflow,https://github.com/whatwg/html/issues/4535,2019-04-17T12:08:39Z,2020-06-16T14:19:35Z,idoros,,1
+434247319,true,dialog element under overflow,https://github.com/whatwg/html/issues/4535,2019-04-17T12:08:39Z,2020-06-16T14:19:35Z,idoros,,2
 433817610,true,"""On setting:  Let oldValue be the element's valu...""",https://github.com/whatwg/html/issues/4534,2019-04-16T14:38:24Z,2019-04-17T08:48:59Z,diydyq,,0
 433475380,true,"Does removing or adding a `crossorigin` attribute to an `img` tag count as a ""relevant mutation""?",https://github.com/whatwg/html/issues/4533,2019-04-15T20:58:12Z,2020-03-19T20:52:46Z,spinda,clarification|topic: img,0
 433425116,false,indicate language sensitivity in autocapitalization,https://github.com/whatwg/html/issues/4532,2019-04-15T18:43:27Z,2024-01-30T15:22:25Z,aphillips,i18n-needs-resolution,0
@@ -3016,7 +3017,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 279635328,false,Clarify document.cookie and history API interaction,https://github.com/whatwg/html/issues/3274,2017-12-06T05:50:18Z,2020-05-06T21:18:11Z,pwnall,topic: cookie,1
 279320385,false,A signal for when an image (img) is decoded enough to paint,https://github.com/whatwg/html/issues/3271,2017-12-05T10:22:29Z,2017-12-06T11:37:29Z,annevk,addition/proposal|needs implementer interest|topic: img,1
 279251698,true,Should Dedicated Workers inherit owner's ReferrerPolicy like CSP?,https://github.com/whatwg/html/issues/3270,2017-12-05T05:31:59Z,2019-10-11T02:48:56Z,nhiroki,topic: workers|integration,0
-278914102,false,Make FileList mutable.,https://github.com/whatwg/html/issues/3269,2017-12-04T08:44:20Z,2022-10-08T09:05:45Z,Kaiido,addition/proposal,24
+278914102,false,Make FileList mutable.,https://github.com/whatwg/html/issues/3269,2017-12-04T08:44:20Z,2022-10-08T09:05:45Z,Kaiido,addition/proposal,25
 278640245,false,Rationalize behavior of Window object reuse,https://github.com/whatwg/html/issues/3267,2017-12-02T01:07:31Z,2022-08-31T07:23:01Z,zetafunction,topic: navigation,0
 278636491,true,Add interval to meta refresh tag,https://github.com/whatwg/html/issues/3266,2017-12-02T00:35:20Z,2017-12-05T02:40:46Z,Nadya678,,0
 278625023,true,Please add a new value for target attribute,https://github.com/whatwg/html/issues/3265,2017-12-01T23:17:12Z,2017-12-01T23:31:02Z,Nadya678,,0
