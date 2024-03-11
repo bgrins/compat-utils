@@ -1,11 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2177737447,false,"""check if an access between two browsing contexts should be reported"" can be called with null browsing context but doesn't handle it",https://github.com/whatwg/html/issues/10192,2024-03-10T14:08:35Z,2024-03-10T14:08:48Z,awesomekling,,0
-2177225185,false,"Broaden <nav>'s semantics, making <nav> suitable as an application-like navigator within a single page",https://github.com/whatwg/html/issues/10190,2024-03-09T13:24:41Z,2024-03-10T18:22:38Z,Zhang-Junzhi,,0
+2177737447,false,"""check if an access between two browsing contexts should be reported"" can be called with null browsing context but doesn't handle it",https://github.com/whatwg/html/issues/10192,2024-03-10T14:08:35Z,2024-03-11T08:37:38Z,awesomekling,topic: browsing context,0
+2177225185,false,"Broaden <nav>'s semantics, making <nav> suitable as an application-like navigator within a single page",https://github.com/whatwg/html/issues/10190,2024-03-09T13:24:41Z,2024-03-11T06:27:29Z,Zhang-Junzhi,,0
 2175120347,true,"Document ""rendering suppression for view transitions"" also suppresses ""perform pending transition operations""",https://github.com/whatwg/html/issues/10186,2024-03-08T01:40:36Z,2024-03-10T17:51:14Z,nt1m,topic: rendering,0
 2173990781,false,should search for draggable attribute follow dom tree or flattened tree?,https://github.com/whatwg/html/issues/10185,2024-03-07T14:26:12Z,2024-03-07T16:08:16Z,dbaron,,1
 2172574820,false,Is this bad to suggest that placeholder attributes can contain expected formats?,https://github.com/whatwg/html/issues/10183,2024-03-06T22:46:15Z,2024-03-06T22:49:08Z,anevins12,,0
 2171650548,false,Allow `<source>` elements to query container sizes,https://github.com/whatwg/html/issues/10182,2024-03-06T14:31:48Z,2024-03-06T15:41:50Z,andy-blum,addition/proposal|needs implementer interest,1
-2171191672,false,Nits with link rel=expect,https://github.com/whatwg/html/issues/10180,2024-03-06T10:44:29Z,2024-03-07T13:04:30Z,jakearchibald,clarification|topic: rendering,0
+2171191672,true,Nits with link rel=expect,https://github.com/whatwg/html/issues/10180,2024-03-06T10:44:29Z,2024-03-11T06:42:48Z,jakearchibald,clarification|topic: rendering,0
 2168944680,true,"> Non-storage APIs that need to follow the storage partitioning (e.g. BroadcastChannel, Web Locks, etc) also need a way to play here, and behind the scenes I assume the implementations use the storage keys, though that's not exported from Storage.",https://github.com/whatwg/html/issues/10177,2024-03-05T11:19:24Z,2024-03-05T11:21:38Z,abc1000200,invalid,0
 2161745995,false,Declaratively open popovers (and other elements?) on page load,https://github.com/whatwg/html/issues/10171,2024-02-29T17:19:04Z,2024-02-29T17:19:05Z,josepharhar,topic: dialog|topic: popover,0
 2160066080,false,Worklet termination,https://github.com/whatwg/html/issues/10169,2024-02-28T23:43:54Z,2024-03-04T08:12:24Z,daxpedda,addition/proposal|needs implementer interest|topic: worklets,0
@@ -955,7 +955,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1177177506,true,Question: Expected behavior for Object.keys with storage objects,https://github.com/whatwg/html/issues/7741,2022-03-22T18:50:05Z,2022-03-22T18:55:43Z,jasonnutter,,0
 1176559847,true,HTML syntax: omitting <body> should not be allowed if first child is <noscript>,https://github.com/whatwg/html/issues/7737,2022-03-22T10:14:53Z,2022-09-15T17:15:31Z,zcorpan,good first issue|document conformance,0
 1176210826,true,Should a preload with SRI and a main request without SRI be matched?,https://github.com/whatwg/html/issues/7736,2022-03-22T03:17:51Z,2022-05-19T00:42:57Z,hiroshige-g,security/privacy|topic: fetch|topic: resource hints (inc. preload),0
-1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2024-03-10T13:10:08Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,53
+1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2024-03-11T09:56:34Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,53
 1175078464,false,"Modern browsers don't implement ""4.10.21.2 Implicit submission"" correctly",https://github.com/whatwg/html/issues/7730,2022-03-21T08:59:00Z,2022-03-21T12:40:28Z,IliasDewachter,topic: forms,0
 1172930450,false,<a download> can sometimes just navigate,https://github.com/whatwg/html/issues/7718,2022-03-17T21:19:34Z,2022-03-23T21:36:38Z,domenic,topic: navigation|interop,1
 1172424410,true,Iframe's sandbox IDL definition. Why is it readonly?,https://github.com/whatwg/html/issues/7717,2022-03-17T13:59:33Z,2022-03-17T15:25:41Z,ArthurSonzogni,,0
@@ -1889,7 +1889,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 572368643,true,Question: site equality examples,https://github.com/whatwg/html/issues/5316,2020-02-27T21:24:30Z,2020-02-28T19:36:22Z,lazdmx,clarification,0
 570587270,true,Lazyload: N-fetches for each relevant mutation,https://github.com/whatwg/html/issues/5314,2020-02-25T13:53:54Z,2020-05-15T16:45:55Z,domfarolino,topic: img,1
 570474276,true,"""the document has finished loading""",https://github.com/whatwg/html/issues/5313,2020-02-25T10:39:45Z,2020-02-26T09:24:46Z,amn,,0
-570415383,false,"Form Submission: Fix the ""Double Submit problem"" at the spec level",https://github.com/whatwg/html/issues/5312,2020-02-25T09:07:07Z,2021-01-17T17:55:38Z,bramus,addition/proposal|needs implementer interest|topic: forms,157
+570415383,false,"Form Submission: Fix the ""Double Submit problem"" at the spec level",https://github.com/whatwg/html/issues/5312,2020-02-25T09:07:07Z,2021-01-17T17:55:38Z,bramus,addition/proposal|needs implementer interest|topic: forms,158
 570310032,false,Proposal: canvas to blob URL function,https://github.com/whatwg/html/issues/5311,2020-02-25T04:51:26Z,2020-02-25T22:21:22Z,rhendric,addition/proposal|needs implementer interest|topic: canvas|security/privacy,0
 569316279,true,"Event order of onKeyDown, onKeyPress, onKeyUp, and onPaste when using pasting (CMD + v) in Mac OS X",https://github.com/whatwg/html/issues/5310,2020-02-22T10:39:21Z,2020-02-22T10:46:10Z,aesyondu,,0
 569187828,true,"<img alt=""""> definition doesn't match reality.",https://github.com/whatwg/html/issues/5309,2020-02-21T21:15:09Z,2020-02-26T09:24:49Z,emilio,compat|topic: rendering|topic: img,5
@@ -3250,7 +3250,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 244598553,true,"[Question]In browser console, why request resource which is marked 'preload' in the html won't work?",https://github.com/whatwg/html/issues/2853,2017-07-21T08:25:06Z,2017-08-04T02:26:02Z,NE-SmallTown,,0
 244278198,true,Clarify focusing behavior of scrollable area,https://github.com/whatwg/html/issues/2851,2017-07-20T08:08:07Z,2019-09-24T06:56:21Z,TakayoshiKochi,topic: focus,1
 244144228,true,Hub,https://github.com/whatwg/html/issues/2850,2017-07-19T19:12:28Z,2017-07-19T19:13:00Z,raymondo321,,0
-244013573,false,Small clarity improvements to canvas transform methods,https://github.com/whatwg/html/issues/2848,2017-07-19T11:47:57Z,2024-03-04T08:03:27Z,domenic,clarification|good first issue|topic: canvas,1
+244013573,false,Small clarity improvements to canvas transform methods,https://github.com/whatwg/html/issues/2848,2017-07-19T11:47:57Z,2024-03-11T06:40:45Z,domenic,clarification|good first issue|topic: canvas,1
 243979539,false,Proposal: Way to determine if KeyboardEvent conflicts with native behaviour,https://github.com/whatwg/html/issues/2847,2017-07-19T09:34:08Z,2017-07-25T10:45:47Z,keithamus,addition/proposal|needs implementer interest,3
 243853245,true,nomodule attribute on script tag,https://github.com/whatwg/html/issues/2846,2017-07-18T21:13:05Z,2017-07-18T21:21:50Z,robbie-mac,topic: script,0
 243793561,true,Canvas 2d context setTransform() functionality is unclear when argument contains NaN,https://github.com/whatwg/html/issues/2845,2017-07-18T17:34:23Z,2017-09-26T09:01:43Z,dcrousso,normative change|topic: canvas,1
