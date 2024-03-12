@@ -1,12 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2179753862,false,Proposal: Tab Knowledge API -- gaining knowledge about same-origin tabs,https://github.com/whatwg/html/issues/10193,2024-03-11T17:33:30Z,2024-03-11T19:58:22Z,vmpstr,addition/proposal|needs implementer interest,0
 2177737447,false,"""check if an access between two browsing contexts should be reported"" can be called with null browsing context but doesn't handle it",https://github.com/whatwg/html/issues/10192,2024-03-10T14:08:35Z,2024-03-11T08:37:38Z,awesomekling,topic: browsing context,0
 2177225185,false,"Broaden <nav>'s semantics, making <nav> suitable as an application-like navigator within a single page",https://github.com/whatwg/html/issues/10190,2024-03-09T13:24:41Z,2024-03-11T06:27:29Z,Zhang-Junzhi,,0
-2175120347,true,"Document ""rendering suppression for view transitions"" also suppresses ""perform pending transition operations""",https://github.com/whatwg/html/issues/10186,2024-03-08T01:40:36Z,2024-03-10T17:51:14Z,nt1m,topic: rendering,0
+2175120347,true,"Document ""rendering suppression for view transitions"" also suppresses ""perform pending transition operations""",https://github.com/whatwg/html/issues/10186,2024-03-08T01:40:36Z,2024-03-11T23:40:20Z,nt1m,topic: rendering,0
 2173990781,false,should search for draggable attribute follow dom tree or flattened tree?,https://github.com/whatwg/html/issues/10185,2024-03-07T14:26:12Z,2024-03-07T16:08:16Z,dbaron,,1
 2172574820,false,Is this bad to suggest that placeholder attributes can contain expected formats?,https://github.com/whatwg/html/issues/10183,2024-03-06T22:46:15Z,2024-03-06T22:49:08Z,anevins12,,0
 2171650548,false,Allow `<source>` elements to query container sizes,https://github.com/whatwg/html/issues/10182,2024-03-06T14:31:48Z,2024-03-06T15:41:50Z,andy-blum,addition/proposal|needs implementer interest,1
 2171191672,true,Nits with link rel=expect,https://github.com/whatwg/html/issues/10180,2024-03-06T10:44:29Z,2024-03-11T06:42:48Z,jakearchibald,clarification|topic: rendering,0
-2168944680,true,"> Non-storage APIs that need to follow the storage partitioning (e.g. BroadcastChannel, Web Locks, etc) also need a way to play here, and behind the scenes I assume the implementations use the storage keys, though that's not exported from Storage.",https://github.com/whatwg/html/issues/10177,2024-03-05T11:19:24Z,2024-03-05T11:21:38Z,abc1000200,invalid,0
 2161745995,false,Declaratively open popovers (and other elements?) on page load,https://github.com/whatwg/html/issues/10171,2024-02-29T17:19:04Z,2024-02-29T17:19:05Z,josepharhar,topic: dialog|topic: popover,0
 2160066080,false,Worklet termination,https://github.com/whatwg/html/issues/10169,2024-02-28T23:43:54Z,2024-03-04T08:12:24Z,daxpedda,addition/proposal|needs implementer interest|topic: worklets,0
 2157616652,false,Link rel=modulepreload synchronously fires `load` event if script exists in module map,https://github.com/whatwg/html/issues/10166,2024-02-27T21:18:33Z,2024-02-28T12:41:46Z,domfarolino,topic: script,1
@@ -257,7 +257,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1866045497,true,Treat .d/ as same-origin for file:// URLs,https://github.com/whatwg/html/issues/9635,2023-08-25T00:06:41Z,2023-08-25T10:32:24Z,SoniEx2,,0
 1865899743,true,Initialization of NavigateEvent info property,https://github.com/whatwg/html/issues/9634,2023-08-24T21:18:14Z,2023-08-24T21:44:23Z,ADKaster,topic: navigation,0
 1865624285,true,Are the “active script” & “base URL” assertions in the timer initialization steps correct?,https://github.com/whatwg/html/issues/9633,2023-08-24T17:51:06Z,2023-09-24T06:13:36Z,bathos,,0
-1865552680,false,Allow additional elements to be considered labelable,https://github.com/whatwg/html/issues/9632,2023-08-24T16:58:56Z,2023-10-01T15:03:26Z,dmjohnsson23,addition/proposal|needs implementer interest|a11y-tracker,4
+1865552680,false,Allow additional elements to be considered labelable,https://github.com/whatwg/html/issues/9632,2023-08-24T16:58:56Z,2023-10-01T15:03:26Z,dmjohnsson23,addition/proposal|needs implementer interest|a11y-tracker,5
 1865087034,true,timer initialization steps has vague reference to WindowProxy,https://github.com/whatwg/html/issues/9631,2023-08-24T12:48:16Z,2023-08-24T16:29:11Z,Ms2ger,,0
 1864127558,true,Upcoming HTML standard issue triage meeting on 9/7/2023,https://github.com/whatwg/html/issues/9629,2023-08-23T23:03:34Z,2023-09-07T21:38:07Z,past,agenda+,0
 1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2023-11-17T06:43:36Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,31
@@ -442,7 +442,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1651764018,false,Popover does not know what triggered it,https://github.com/whatwg/html/issues/9111,2023-04-03T10:11:47Z,2023-09-05T22:02:06Z,jpzwarte,addition/proposal|topic: popover,0
 1651686034,false,"Support `popovertarget` on custom elements with `role=""button""` ",https://github.com/whatwg/html/issues/9110,2023-04-03T09:26:25Z,2023-06-10T12:02:51Z,jpzwarte,addition/proposal|topic: custom elements|topic: popover,2
 1651613244,false,`popovertarget` and shadow DOM,https://github.com/whatwg/html/issues/9109,2023-04-03T08:43:23Z,2023-10-13T14:31:42Z,jpzwarte,addition/proposal|topic: shadow|topic: popover,0
-1650378616,false,Add BoundingClientRectObserver,https://github.com/whatwg/html/issues/9104,2023-04-01T09:09:22Z,2023-12-17T22:09:28Z,cubuspl42,addition/proposal|needs implementer interest,2
+1650378616,false,Add BoundingClientRectObserver,https://github.com/whatwg/html/issues/9104,2023-04-01T09:09:22Z,2023-12-17T22:09:28Z,cubuspl42,addition/proposal|needs implementer interest,3
 1650150293,false,<textarea> should support the [pattern] attribute like the <input> element,https://github.com/whatwg/html/issues/9102,2023-03-31T23:02:41Z,2024-03-05T12:01:17Z,Gambloide,addition/proposal|needs implementer interest|topic: forms|needs compat analysis,5
 1648832613,true,PDF version does not link to web version,https://github.com/whatwg/html/issues/9097,2023-03-31T07:32:24Z,2023-04-03T07:25:38Z,NicoleSharp,spec tooling,0
 1648366000,false,"typo ""The autofill field listed above indicate that t...""",https://github.com/whatwg/html/issues/9094,2023-03-30T21:43:18Z,2023-03-30T21:43:18Z,timelsass,,0
@@ -452,7 +452,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1644550338,false,Accessibility Attribute Request,https://github.com/whatwg/html/issues/9084,2023-03-28T19:35:50Z,2023-09-27T23:36:48Z,JaninaSajka,addition/proposal|accessibility|a11y-tracker,2
 1644212949,true,Custom Elements are a means of Extensibility,https://github.com/whatwg/html/issues/9082,2023-03-28T15:36:16Z,2023-05-05T12:32:51Z,bkardell,clarification,2
 1644102877,false,Clarify the sequential focusing behaviour when the current focused element is not in the sequential navigation order,https://github.com/whatwg/html/issues/9081,2023-03-28T14:39:31Z,2023-07-19T20:25:14Z,sefeng211,topic: focus,0
-1642307080,false,"API to get top layer elements ",https://github.com/whatwg/html/issues/9075,2023-03-27T15:18:20Z,2024-03-05T12:26:12Z,sanajaved7,addition/proposal|needs implementer interest,1
+1642307080,false,"API to get top layer elements ",https://github.com/whatwg/html/issues/9075,2023-03-27T15:18:20Z,2024-03-11T15:28:06Z,sanajaved7,addition/proposal|needs implementer interest,1
 1639018892,false,attr-associated elements use inconsistent trees?,https://github.com/whatwg/html/issues/9071,2023-03-24T09:20:42Z,2023-03-24T09:31:50Z,emilio,clarification|topic: shadow|topic: reflect,0
 1638398517,true,Upcoming HTML standard issue triage meeting on 4/6/2023,https://github.com/whatwg/html/issues/9070,2023-03-23T21:59:20Z,2023-04-06T23:46:33Z,past,agenda+,0
 1637320041,true,Should the Window named properties object return supported named properties in [[OwnPropertyKeys]]?,https://github.com/whatwg/html/issues/9068,2023-03-23T11:14:44Z,2023-03-29T05:59:34Z,delan,clarification,0
@@ -463,7 +463,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1634346770,true,Be able to select for partial attribute names,https://github.com/whatwg/html/issues/9056,2023-03-21T16:57:38Z,2023-03-22T12:36:02Z,keithamus,,1
 1633613880,true,Is it ok for popover to claim general names like :open and :closed?,https://github.com/whatwg/html/issues/9055,2023-03-21T10:28:08Z,2023-04-06T23:18:08Z,jakearchibald,topic: popover,0
 1633590732,true,Add element.popoverOpen,https://github.com/whatwg/html/issues/9054,2023-03-21T10:13:22Z,2023-06-06T06:25:59Z,jakearchibald,addition/proposal|needs implementer interest|topic: popover,0
-1629220956,false,"Timing of `<dialog>` 'close' event, popover 'toggle' event, `<details>` 'toggle' event",https://github.com/whatwg/html/issues/9046,2023-03-17T12:19:27Z,2024-03-06T23:31:12Z,jakearchibald,topic: dialog|topic: popover,0
+1629220956,false,"Timing of `<dialog>` 'close' event, popover 'toggle' event, `<details>` 'toggle' event",https://github.com/whatwg/html/issues/9046,2023-03-17T12:19:27Z,2024-03-11T22:30:04Z,jakearchibald,topic: dialog|topic: popover,0
 1629156392,true,Should popover/dialog show/hide when already shown/hidden throw?,https://github.com/whatwg/html/issues/9045,2023-03-17T11:32:41Z,2023-06-06T06:39:49Z,jakearchibald,topic: dialog|topic: popover,6
 1629078964,false,<dialog> Unclear method of altering/reading attributes,https://github.com/whatwg/html/issues/9044,2023-03-17T10:35:36Z,2023-03-17T11:06:53Z,jakearchibald,topic: dialog,0
 1628986537,true,Should togglePopover() return a boolean?,https://github.com/whatwg/html/issues/9043,2023-03-17T09:30:48Z,2023-06-20T06:33:38Z,jakearchibald,addition/proposal|topic: popover,0
@@ -1249,7 +1249,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 951900002,false,Behavior of Location attribute after closing the window,https://github.com/whatwg/html/issues/6899,2021-07-23T21:13:08Z,2021-09-06T14:49:13Z,cdumez,interop|topic: location,0
 951730085,true,"Cross-origin prompts still have significant use cases ",https://github.com/whatwg/html/issues/6897,2021-07-23T16:40:23Z,2021-08-05T10:54:08Z,sudofox,,6
 950571576,false,What should we do about location.replace?,https://github.com/whatwg/html/issues/6891,2021-07-22T11:44:28Z,2021-07-23T09:32:03Z,jakearchibald,topic: history,1
-950324581,false,"Drop export to ""role"" attribute",https://github.com/whatwg/html/issues/6890,2021-07-22T05:55:22Z,2024-01-30T08:44:51Z,marcoscaceres,accessibility|a11y-tracker,0
+950324581,false,"Drop export to ""role"" attribute",https://github.com/whatwg/html/issues/6890,2021-07-22T05:55:22Z,2024-03-11T17:12:37Z,marcoscaceres,accessibility|a11y-tracker,0
 948916010,true,Attributes in closing tags,https://github.com/whatwg/html/issues/6888,2021-07-20T18:16:05Z,2021-07-21T07:25:15Z,mylogin,,0
 948790856,false,onsecuritypolicyviolation exposure does not match browsers,https://github.com/whatwg/html/issues/6887,2021-07-20T15:44:15Z,2021-08-24T13:07:11Z,annevk,,0
 948681388,true,<source> being display: none might not be web compatible.,https://github.com/whatwg/html/issues/6886,2021-07-20T13:57:19Z,2021-07-21T09:50:14Z,emilio,topic: rendering,0
@@ -2099,7 +2099,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 497040604,false,Define a policy container,https://github.com/whatwg/html/issues/4926,2019-09-23T11:28:43Z,2021-05-21T10:44:17Z,annevk,clarification|needs tests|interop|integration|topic: policy container,6
 496594293,true,Design questions about IDREF/Element attribute reflection,https://github.com/whatwg/html/issues/4925,2019-09-21T00:49:20Z,2022-06-30T08:19:53Z,alice,accessibility,0
 496188244,true,COEP mismatches in dedicated workers should block.,https://github.com/whatwg/html/issues/4924,2019-09-20T07:14:14Z,2020-04-20T09:12:18Z,mikewest,topic: cross-origin-embedder-policy,0
-495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2024-01-31T10:50:35Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,169
+495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2024-01-31T10:50:35Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,170
 495810632,false,Allow an extra dimension to the size array for 3D favicon,https://github.com/whatwg/html/issues/4922,2019-09-19T13:46:29Z,2021-01-28T22:05:11Z,rcabanier,addition/proposal|needs implementer interest|topic: link,0
 495595729,true,Decide how to treat CSP sandbox in COOP,https://github.com/whatwg/html/issues/4921,2019-09-19T06:18:06Z,2020-06-24T17:33:26Z,shhnjk,security/privacy|topic: cross-origin-opener-policy,0
 495587240,true,Consider restricting SharedArrayBuffer to same-origin usage,https://github.com/whatwg/html/issues/4920,2019-09-19T05:50:59Z,2019-12-05T15:38:02Z,annevk,addition/proposal|topic: serialize and transfer,0
@@ -3762,7 +3762,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 182842632,true,Move inputmode to not be dependent on forms,https://github.com/whatwg/html/issues/1897,2016-10-13T16:49:37Z,2017-12-14T18:35:28Z,dtapuska,normative change|topic: forms,0
 182842071,false,javascript URLs that do not return strings is apparently wrong,https://github.com/whatwg/html/issues/1896,2016-10-13T16:47:12Z,2023-10-25T17:52:59Z,domenic,compat|topic: navigation|interop|topic: javascript: URLs,0
 182827390,false,Iframe with initial javascript: source needs to fire the load event in various cases,https://github.com/whatwg/html/issues/1895,2016-10-13T15:47:17Z,2018-06-15T21:27:03Z,bzbarsky,topic: navigation|topic: javascript: URLs,0
-182798592,false,"Suggest to allow ""autocomplete"" on input type=checkbox|radio",https://github.com/whatwg/html/issues/1894,2016-10-13T14:03:25Z,2022-10-03T20:52:14Z,SpyroTEQ,addition/proposal|needs implementer interest|topic: forms,5
+182798592,false,"Suggest to allow ""autocomplete"" on input type=checkbox|radio",https://github.com/whatwg/html/issues/1894,2016-10-13T14:03:25Z,2022-10-03T20:52:14Z,SpyroTEQ,addition/proposal|needs implementer interest|topic: forms,6
 182782604,true,checkbox cannot be checked through a synthetic click event when not in a document,https://github.com/whatwg/html/issues/1893,2016-10-13T12:59:25Z,2016-10-25T10:35:12Z,annevk,topic: forms|topic: events,0
 182698734,false,Need new terminology anchor for editable elements,https://github.com/whatwg/html/issues/1892,2016-10-13T05:27:49Z,2016-10-13T16:58:17Z,frivoal,clarification|topic: forms,0
 182334350,true,is mandating CORS for modules the right tradeoff?,https://github.com/whatwg/html/issues/1888,2016-10-11T18:10:25Z,2022-12-01T23:14:40Z,dherman,topic: script,6
