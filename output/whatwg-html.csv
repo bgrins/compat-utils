@@ -1,9 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2182784571,false,Limit NavigationActivation on pageswap to same-origin navigations with no cross-origin redirects,https://github.com/whatwg/html/issues/10196,2024-03-12T22:19:10Z,2024-03-12T22:19:10Z,khushalsagar,,0
 2180571389,false,"Browsers synchronously fire `pagehide` & `unload`, while the standard doesn't",https://github.com/whatwg/html/issues/10194,2024-03-12T02:01:11Z,2024-03-12T02:01:12Z,domfarolino,removal/deprecation,0
-2179753862,false,Proposal: Tab Knowledge API -- gaining knowledge about same-origin tabs,https://github.com/whatwg/html/issues/10193,2024-03-11T17:33:30Z,2024-03-12T13:12:53Z,vmpstr,addition/proposal|needs implementer interest,0
+2179753862,false,Proposal: Tab Knowledge API -- gaining knowledge about same-origin tabs,https://github.com/whatwg/html/issues/10193,2024-03-11T17:33:30Z,2024-03-13T01:19:12Z,vmpstr,addition/proposal|needs implementer interest,0
 2177737447,false,"""check if an access between two browsing contexts should be reported"" can be called with null browsing context but doesn't handle it",https://github.com/whatwg/html/issues/10192,2024-03-10T14:08:35Z,2024-03-11T08:37:38Z,awesomekling,topic: browsing context,0
-2177225185,false,"Broaden <nav>'s semantics, making <nav> suitable as an application-like navigator within a single page",https://github.com/whatwg/html/issues/10190,2024-03-09T13:24:41Z,2024-03-11T06:27:29Z,Zhang-Junzhi,,0
+2177225185,true,"Broaden <nav>'s semantics, making <nav> suitable as an application-like navigator within a single page",https://github.com/whatwg/html/issues/10190,2024-03-09T13:24:41Z,2024-03-13T03:44:30Z,Zhang-Junzhi,,0
 2175120347,true,"Document ""rendering suppression for view transitions"" also suppresses ""perform pending transition operations""",https://github.com/whatwg/html/issues/10186,2024-03-08T01:40:36Z,2024-03-11T23:40:20Z,nt1m,topic: rendering,0
 2173990781,false,should search for draggable attribute follow dom tree or flattened tree?,https://github.com/whatwg/html/issues/10185,2024-03-07T14:26:12Z,2024-03-07T16:08:16Z,dbaron,,1
 2172574820,false,Is this bad to suggest that placeholder attributes can contain expected formats?,https://github.com/whatwg/html/issues/10183,2024-03-06T22:46:15Z,2024-03-06T22:49:08Z,anevins12,,0
@@ -454,12 +454,12 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1644550338,false,Accessibility Attribute Request,https://github.com/whatwg/html/issues/9084,2023-03-28T19:35:50Z,2023-09-27T23:36:48Z,JaninaSajka,addition/proposal|accessibility|a11y-tracker,2
 1644212949,true,Custom Elements are a means of Extensibility,https://github.com/whatwg/html/issues/9082,2023-03-28T15:36:16Z,2023-05-05T12:32:51Z,bkardell,clarification,2
 1644102877,false,Clarify the sequential focusing behaviour when the current focused element is not in the sequential navigation order,https://github.com/whatwg/html/issues/9081,2023-03-28T14:39:31Z,2023-07-19T20:25:14Z,sefeng211,topic: focus,0
-1642307080,false,"API to get top layer elements ",https://github.com/whatwg/html/issues/9075,2023-03-27T15:18:20Z,2024-03-11T15:28:06Z,sanajaved7,addition/proposal|needs implementer interest,1
+1642307080,false,"API to get top layer elements ",https://github.com/whatwg/html/issues/9075,2023-03-27T15:18:20Z,2024-03-13T10:33:51Z,sanajaved7,addition/proposal|needs implementer interest,1
 1639018892,false,attr-associated elements use inconsistent trees?,https://github.com/whatwg/html/issues/9071,2023-03-24T09:20:42Z,2023-03-24T09:31:50Z,emilio,clarification|topic: shadow|topic: reflect,0
 1638398517,true,Upcoming HTML standard issue triage meeting on 4/6/2023,https://github.com/whatwg/html/issues/9070,2023-03-23T21:59:20Z,2023-04-06T23:46:33Z,past,agenda+,0
 1637320041,true,Should the Window named properties object return supported named properties in [[OwnPropertyKeys]]?,https://github.com/whatwg/html/issues/9068,2023-03-23T11:14:44Z,2023-03-29T05:59:34Z,delan,clarification,0
 1636539181,false,"""Default fetch and process the linked resource"" does not account for CORS cross-origin fetches, thus preventing cross-origin stylesheets",https://github.com/whatwg/html/issues/9066,2023-03-22T21:45:40Z,2023-03-23T07:43:01Z,Lubrsi,topic: fetch|integration,0
-1636514710,false,New attribute to control UA-provided writing assistance,https://github.com/whatwg/html/issues/9065,2023-03-22T21:22:44Z,2024-02-22T01:24:50Z,bmathwig,addition/proposal|topic: forms|needs concrete proposal|agenda+,0
+1636514710,true,New attribute to control UA-provided writing assistance,https://github.com/whatwg/html/issues/9065,2023-03-22T21:22:44Z,2024-03-13T02:06:20Z,bmathwig,addition/proposal|topic: forms|needs concrete proposal|agenda+,0
 1636347345,true,Support for passing CSS styles to an SVG used via img[src],https://github.com/whatwg/html/issues/9064,2023-03-22T19:03:58Z,2023-03-22T20:10:00Z,brandonmcconnell,,0
 1636271789,true,"Should popover and dialog share the same ""previously focused element""?",https://github.com/whatwg/html/issues/9063,2023-03-22T18:12:00Z,2023-09-04T11:07:45Z,cathiechen,normative change|topic: dialog|topic: popover,0
 1634346770,true,Be able to select for partial attribute names,https://github.com/whatwg/html/issues/9056,2023-03-21T16:57:38Z,2023-03-22T12:36:02Z,keithamus,,1
@@ -2014,7 +2014,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 526936004,false,"Does the `meta http-equiv=""Content-Security-Policy""` tag allow lists of policies?",https://github.com/whatwg/html/issues/5102,2019-11-22T01:37:34Z,2020-03-23T15:10:10Z,bakkot,security/privacy|needs tests|interop|impacts documentation,0
 525147143,true,COEP and report-only mode,https://github.com/whatwg/html/issues/5100,2019-11-19T17:13:23Z,2020-03-18T05:18:17Z,yutakahirano,topic: cross-origin-embedder-policy,0
 524668024,false,Specify how scrolling works for form controls / widgets,https://github.com/whatwg/html/issues/5099,2019-11-18T22:54:15Z,2019-11-18T22:54:15Z,zcorpan,topic: forms|interop|integration,0
-524476023,false,Investigation requested for beforeprint/afterprint,https://github.com/whatwg/html/issues/5096,2019-11-18T16:27:09Z,2023-12-23T20:26:30Z,annevk,clarification|good first issue|needs tests,0
+524476023,false,Investigation requested for beforeprint/afterprint,https://github.com/whatwg/html/issues/5096,2019-11-18T16:27:09Z,2024-03-13T09:27:34Z,annevk,clarification|good first issue|needs tests,0
 524458731,true,getSVGDocument() and content document use slightly different security checks,https://github.com/whatwg/html/issues/5094,2019-11-18T15:58:38Z,2019-12-13T09:20:56Z,annevk,security/privacy,0
 523406009,true,For accessibility legend element should allow for headings h1-h6 in addition to phrasing content,https://github.com/whatwg/html/issues/5088,2019-11-15T11:04:51Z,2019-11-15T12:46:41Z,DavidMacDonald,document conformance|accessibility|impacts documentation,0
 523188827,true,Focusability of <video> and <audio> and possible spec gap,https://github.com/whatwg/html/issues/5087,2019-11-15T00:44:07Z,2020-05-11T18:33:05Z,matatk,clarification|topic: media|accessibility|topic: focus,0
@@ -2518,7 +2518,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 383304020,true,Should clearly define that the ordinary object internal methods are used when not stated otherwise for WindowProxy and Location,https://github.com/whatwg/html/issues/4189,2018-11-21T21:49:36Z,2018-11-27T14:13:43Z,bzbarsky,,0
 383274575,false,Definition of stable state in terms of microtasks does not seem to match browsers,https://github.com/whatwg/html/issues/4188,2018-11-21T20:04:20Z,2019-01-24T01:57:02Z,bzbarsky,topic: event loop,0
 383218019,true,Proposal: allow a mode of form.submit() that behaves like clicking a submit button,https://github.com/whatwg/html/issues/4187,2018-11-21T17:13:17Z,2019-05-16T19:06:55Z,domenic,addition/proposal|topic: forms,8
-382252874,false,<input type=checkbox switch>,https://github.com/whatwg/html/issues/4180,2018-11-19T14:59:03Z,2024-03-12T20:00:12Z,atishay,addition/proposal|topic: rendering|accessibility|topic: forms|a11y-tracker,54
+382252874,false,<input type=checkbox switch>,https://github.com/whatwg/html/issues/4180,2018-11-19T14:59:03Z,2024-03-13T08:26:59Z,atishay,addition/proposal|topic: rendering|accessibility|topic: forms|a11y-tracker,54
 381558762,true,Consider downloading rather than rendering resources delivered over FTP.,https://github.com/whatwg/html/issues/4178,2018-11-16T11:22:50Z,2018-12-13T14:59:42Z,mikewest,addition/proposal|topic: navigation,1
 381175681,true,Rendering <input type=range> vertically,https://github.com/whatwg/html/issues/4177,2018-11-15T14:05:52Z,2024-03-04T07:10:36Z,MatsPalmgren,topic: rendering|topic: forms,8
 380737191,false,Potentially don't revalidate /favicon.ico fetches,https://github.com/whatwg/html/issues/4176,2018-11-14T14:58:42Z,2018-11-14T16:38:09Z,annevk,compat|topic: link,0
@@ -3831,7 +3831,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 176243059,false,rb and rtc element should be removed from the list of obsolete features,https://github.com/whatwg/html/issues/1771,2016-09-11T13:09:32Z,2022-10-24T01:32:48Z,upsuper,document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,0
 175980447,false,Specify how to fetch <link rel=icon>,https://github.com/whatwg/html/issues/1769,2016-09-09T10:43:37Z,2016-09-13T15:19:42Z,zcorpan,topic: fetch,0
 175916893,true,Multipage redirection isn't always working anymore,https://github.com/whatwg/html/issues/1767,2016-09-09T03:06:41Z,2016-09-12T21:33:24Z,domenic,spec tooling,0
-175905234,true,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2024-03-12T04:56:10Z,isonmad,addition/proposal|needs implementer interest|topic: events,22
+175905234,true,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2024-03-13T10:46:59Z,isonmad,addition/proposal|needs implementer interest|topic: events,22
 175646396,false,HTML  specification allows for cycles in Window / Location prototype chain,https://github.com/whatwg/html/issues/1760,2016-09-08T01:47:55Z,2018-08-23T21:46:52Z,cdumez,integration|topic: location,0
 175630444,true,"does this mean these - ""A settings object      An environment settings ..."" - are equivalent?",https://github.com/whatwg/html/issues/1759,2016-09-07T23:27:46Z,2016-09-16T22:53:50Z,equalsJeffH,,0
 175609093,true,moving well known HTML tags outside of SVG container,https://github.com/whatwg/html/issues/1758,2016-09-07T21:19:02Z,2016-09-08T15:12:43Z,djfd,,0
