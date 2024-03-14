@@ -1,12 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2159379736,false,Introduce DOM post-insertion steps,https://github.com/whatwg/dom/pull/1261,2024-02-28T16:40:34Z,2024-03-13T12:06:32Z,domfarolino,,0
+2159379736,false,Introduce DOM post-insertion steps,https://github.com/whatwg/dom/pull/1261,2024-02-28T16:40:34Z,2024-03-13T19:05:07Z,domfarolino,,0
 2156881961,true,Define 'connected' for all nodes,https://github.com/whatwg/dom/pull/1260,2024-02-27T15:23:46Z,2024-02-28T08:11:30Z,zcorpan,,0
-2149591953,false,Integration with trusted types inside of node conversion,https://github.com/whatwg/dom/pull/1258,2024-02-22T17:45:24Z,2024-03-05T14:55:58Z,lukewarlow,,0
+2149591953,false,Integration with trusted types inside of node conversion,https://github.com/whatwg/dom/pull/1258,2024-02-22T17:45:24Z,2024-03-13T16:46:42Z,lukewarlow,,0
 2137794707,false,"Add serializable to ShadowRoot and ""attach a shadow root""",https://github.com/whatwg/dom/pull/1256,2024-02-16T03:10:56Z,2024-03-05T12:22:34Z,mfreed7,,0
 2124784286,true,"createEvent(""textevent"") creates a TextEvent",https://github.com/whatwg/dom/pull/1254,2024-02-08T10:07:53Z,2024-02-23T12:07:04Z,zcorpan,topic: events,0
 2123668722,true,Expose AbortSignal.timeout on all globals,https://github.com/whatwg/dom/pull/1253,2024-02-07T18:54:11Z,2024-02-29T19:42:59Z,ptomato,,0
 2097955297,true,Meta: update repository files,https://github.com/whatwg/dom/pull/1248,2024-01-24T10:32:08Z,2024-01-24T10:36:10Z,annevk,,0
-2096528268,false,"Draft integration with Trusted Types, take 2.",https://github.com/whatwg/dom/pull/1247,2024-01-23T16:50:10Z,2024-02-26T16:21:20Z,koto,,0
+2096528268,false,"Draft integration with Trusted Types, take 2.",https://github.com/whatwg/dom/pull/1247,2024-01-23T16:50:10Z,2024-03-13T13:28:49Z,koto,,0
 2085031153,true,Enforce same parameters for attachShadow on declarative shadow root,https://github.com/whatwg/dom/pull/1246,2024-01-16T21:55:45Z,2024-02-16T13:01:39Z,mfreed7,topic: shadow,0
 2073198618,true,Reset declarative to false when calling attachShadow,https://github.com/whatwg/dom/pull/1245,2024-01-09T21:28:58Z,2024-01-14T11:49:39Z,mfreed7,,1
 2072223122,true,Editorial: remove redundant contains check in AbortSignal.any(),https://github.com/whatwg/dom/pull/1244,2024-01-09T11:53:02Z,2024-01-16T08:54:54Z,vinhill,,0
@@ -140,7 +140,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 548131775,false,"Adoption and DocumentFragment, part two",https://github.com/whatwg/dom/pull/819,2020-01-10T15:10:11Z,2023-03-10T20:52:30Z,annevk,,1
 544482591,true,Remove document.origin,https://github.com/whatwg/dom/pull/815,2020-01-02T08:09:14Z,2020-01-07T01:35:35Z,annevk,impacts documentation,0
 537556893,true,Review Draft Publication: December 2019,https://github.com/whatwg/dom/pull/810,2019-12-13T13:42:45Z,2019-12-13T17:09:19Z,annevk,,0
-535874322,false,Add attribute validate steps.,https://github.com/whatwg/dom/pull/809,2019-12-10T17:22:20Z,2024-01-23T16:51:51Z,koto,needs tests,0
+535874322,true,Add attribute validate steps.,https://github.com/whatwg/dom/pull/809,2019-12-10T17:22:20Z,2024-03-13T13:27:36Z,koto,needs tests,0
 534811508,true,editorial: Revert [hr‑time] workaround,https://github.com/whatwg/dom/pull/807,2019-12-09T09:52:09Z,2019-12-11T17:40:22Z,ExE-Boss,,0
 534088850,true,Insertion of empty DocumentFragment is a no-op,https://github.com/whatwg/dom/pull/806,2019-12-06T15:45:41Z,2019-12-10T09:26:58Z,annevk,,0
 533989044,true,Editorial: embrace that attributes are objects,https://github.com/whatwg/dom/pull/805,2019-12-06T13:37:40Z,2019-12-11T17:40:24Z,annevk,,0
