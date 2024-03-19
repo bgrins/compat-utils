@@ -1,24 +1,25 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2188214401,false,Toggle/cycle buttons,https://github.com/whatwg/html/issues/10206,2024-03-15T10:39:26Z,2024-03-16T20:20:12Z,annevk,addition/proposal,2
+2192989420,false,Proposal: pause iframe media when not rendered,https://github.com/whatwg/html/issues/10208,2024-03-18T18:41:25Z,2024-03-18T21:21:53Z,gabrielsanbrito,addition/proposal|needs implementer interest|topic: media,0
+2188214401,false,Toggle/cycle buttons,https://github.com/whatwg/html/issues/10206,2024-03-15T10:39:26Z,2024-03-18T22:40:39Z,annevk,addition/proposal|topic: forms,2
 2187420666,false,Upcoming WHATNOT meeting on 3/21/2024,https://github.com/whatwg/html/issues/10205,2024-03-14T22:59:41Z,2024-03-15T00:31:36Z,past,agenda+,0
 2186521527,false,HostEnsureCanCompileStrings definition mismatch,https://github.com/whatwg/html/issues/10202,2024-03-14T14:26:46Z,2024-03-14T14:44:36Z,lukewarlow,,0
 2185450782,false,Restrict when MessagePort's onclose event can fire,https://github.com/whatwg/html/issues/10201,2024-03-14T05:15:57Z,2024-03-18T04:43:04Z,fergald,security/privacy|topic: serialize and transfer,0
 2184800834,true,Upcoming WHATNOT meeting on 3/14/2024,https://github.com/whatwg/html/issues/10200,2024-03-13T20:07:23Z,2024-03-15T00:10:25Z,past,agenda+,0
-2182784571,false,Limit NavigationActivation on pageswap to same-origin navigations with no cross-origin redirects,https://github.com/whatwg/html/issues/10196,2024-03-12T22:19:10Z,2024-03-12T22:19:10Z,khushalsagar,,0
+2182784571,false,Limit NavigationActivation on pageswap to same-origin navigations with no cross-origin redirects,https://github.com/whatwg/html/issues/10196,2024-03-12T22:19:10Z,2024-03-18T20:49:02Z,khushalsagar,topic: navigation,0
 2180571389,false,"Browsers synchronously fire `pagehide` & `unload`, while the standard doesn't",https://github.com/whatwg/html/issues/10194,2024-03-12T02:01:11Z,2024-03-15T11:24:53Z,domfarolino,removal/deprecation,0
 2179753862,false,Proposal: Tab Knowledge API -- gaining knowledge about same-origin tabs,https://github.com/whatwg/html/issues/10193,2024-03-11T17:33:30Z,2024-03-14T17:52:06Z,vmpstr,addition/proposal|needs implementer interest,0
-2177737447,false,"""check if an access between two browsing contexts should be reported"" can be called with null browsing context but doesn't handle it",https://github.com/whatwg/html/issues/10192,2024-03-10T14:08:35Z,2024-03-11T08:37:38Z,awesomekling,topic: browsing context,1
+2177737447,false,"""check if an access between two browsing contexts should be reported"" can be called with null browsing context but doesn't handle it",https://github.com/whatwg/html/issues/10192,2024-03-10T14:08:35Z,2024-03-11T08:37:38Z,awesomekling,topic: browsing context,2
 2177225185,true,"Broaden <nav>'s semantics, making <nav> suitable as an application-like navigator within a single page",https://github.com/whatwg/html/issues/10190,2024-03-09T13:24:41Z,2024-03-13T03:44:30Z,Zhang-Junzhi,,0
 2175120347,true,"Document ""rendering suppression for view transitions"" also suppresses ""perform pending transition operations""",https://github.com/whatwg/html/issues/10186,2024-03-08T01:40:36Z,2024-03-11T23:40:20Z,nt1m,topic: rendering,0
 2173990781,false,should search for draggable attribute follow dom tree or flattened tree?,https://github.com/whatwg/html/issues/10185,2024-03-07T14:26:12Z,2024-03-07T16:08:16Z,dbaron,,1
 2172574820,false,Is this bad to suggest that placeholder attributes can contain expected formats?,https://github.com/whatwg/html/issues/10183,2024-03-06T22:46:15Z,2024-03-06T22:49:08Z,anevins12,,0
-2171650548,false,Allow `<source>` elements to query container sizes,https://github.com/whatwg/html/issues/10182,2024-03-06T14:31:48Z,2024-03-06T15:41:50Z,andy-blum,addition/proposal|needs implementer interest,1
+2171650548,false,Allow `<source>` elements to query container sizes,https://github.com/whatwg/html/issues/10182,2024-03-06T14:31:48Z,2024-03-18T21:00:51Z,andy-blum,addition/proposal|needs implementer interest|topic: img,1
 2171191672,true,Nits with link rel=expect,https://github.com/whatwg/html/issues/10180,2024-03-06T10:44:29Z,2024-03-11T06:42:48Z,jakearchibald,clarification|topic: rendering,0
 2161745995,false,Declaratively open popovers (and other elements?) on page load,https://github.com/whatwg/html/issues/10171,2024-02-29T17:19:04Z,2024-02-29T17:19:05Z,josepharhar,topic: dialog|topic: popover,0
 2160066080,false,Worklet termination,https://github.com/whatwg/html/issues/10169,2024-02-28T23:43:54Z,2024-03-04T08:12:24Z,daxpedda,addition/proposal|needs implementer interest|topic: worklets,0
 2157616652,true,Link rel=modulepreload synchronously fires `load` event if script exists in module map,https://github.com/whatwg/html/issues/10166,2024-02-27T21:18:33Z,2024-03-13T13:54:05Z,domfarolino,topic: script,1
 2155327927,false,Add `requestClose()` function to HTMLDialogElement,https://github.com/whatwg/html/issues/10164,2024-02-26T23:05:58Z,2024-03-02T01:04:52Z,lukewarlow,addition/proposal|needs implementer interest,0
-2155148232,false,Making the WHATNOT meeting cadence weekly,https://github.com/whatwg/html/issues/10163,2024-02-26T21:13:14Z,2024-03-07T15:22:14Z,past,,0
+2155148232,false,Making the WHATNOT meeting cadence weekly,https://github.com/whatwg/html/issues/10163,2024-02-26T21:13:14Z,2024-03-18T17:12:04Z,past,,0
 2154687534,false,Provide a mechanism to trigger the fetch of compression dictionaries,https://github.com/whatwg/html/issues/10162,2024-02-26T17:10:28Z,2024-03-05T11:10:31Z,pmeenan,addition/proposal|needs implementer interest,0
 2154517148,false,"textarea: attribute for content type ",https://github.com/whatwg/html/issues/10161,2024-02-26T15:55:13Z,2024-02-26T15:55:13Z,vanillajonathan,addition/proposal|needs implementer interest,0
 2153573873,false,Clarification for nested `kbd` elements,https://github.com/whatwg/html/issues/10160,2024-02-26T08:33:30Z,2024-03-05T15:08:34Z,j9t,,0
@@ -164,7 +165,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1968263729,false,Update the Steps to fire beforeunload to allow to be skipped by WebDriver-BiDi,https://github.com/whatwg/html/issues/9890,2023-10-30T12:41:13Z,2023-10-30T12:41:13Z,Lightning00Blade,addition/proposal|needs implementer interest,0
 1967040842,true,Description of the width/height attributes are just a repeated string over and over again,https://github.com/whatwg/html/issues/9889,2023-10-29T15:42:21Z,2023-10-31T06:44:58Z,Zegnat,spec tooling,0
 1965994661,true,Back To Top Button,https://github.com/whatwg/html/issues/9886,2023-10-27T18:20:26Z,2023-10-30T13:48:29Z,VaibhavSharma24,spec tooling|editorial|meta,0
-1963468594,false,autocomplete tokens for EID and IMEI,https://github.com/whatwg/html/issues/9884,2023-10-26T12:35:32Z,2023-11-30T18:36:22Z,annevk,addition/proposal|needs implementer interest|topic: forms,0
+1963468594,false,autocomplete tokens for EID and IMEI,https://github.com/whatwg/html/issues/9884,2023-10-26T12:35:32Z,2024-03-18T14:20:50Z,annevk,addition/proposal|needs implementer interest|topic: forms,0
 1961555431,false,Tie in AbortControllers with CustomElements,https://github.com/whatwg/html/issues/9881,2023-10-25T14:24:15Z,2023-10-27T09:01:43Z,keithamus,addition/proposal|needs implementer interest|topic: custom elements,3
 1960081159,false,Third-party cookie blocking and rendering media URLs with Content-Security-Policy,https://github.com/whatwg/html/issues/9879,2023-10-24T21:10:35Z,2023-11-14T13:20:59Z,DCtheTall,,0
 1959607137,false,Missing `reportValidity()` hook,https://github.com/whatwg/html/issues/9878,2023-10-24T16:10:13Z,2024-02-13T13:16:16Z,jpzwarte,addition/proposal|needs implementer interest|topic: custom elements|topic: forms|needs concrete proposal,2

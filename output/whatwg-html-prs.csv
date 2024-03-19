@@ -1,8 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2188509128,false,Disable PageSwapEvent.activation when navigation has cross-origin red…,https://github.com/whatwg/html/pull/10207,2024-03-15T13:23:54Z,2024-03-18T09:43:27Z,noamr,,0
+2188509128,false,Disable PageSwapEvent.activation when navigation has cross-origin red…,https://github.com/whatwg/html/pull/10207,2024-03-15T13:23:54Z,2024-03-18T14:43:29Z,noamr,,0
 2186605860,false,Update HostEnsureCanCompileStrings definition,https://github.com/whatwg/html/pull/10204,2024-03-14T15:03:04Z,2024-03-15T15:17:28Z,lukewarlow,,0
-2184548191,false,Upstream IDL changes from Trusted Types,https://github.com/whatwg/html/pull/10199,2024-03-13T17:32:11Z,2024-03-15T15:22:46Z,lukewarlow,,0
-2184496735,false,Upstream long-animation-frames monkey-patches,https://github.com/whatwg/html/pull/10198,2024-03-13T17:02:02Z,2024-03-18T10:02:42Z,noamr,integration|topic: timing,0
+2184548191,false,Upstream IDL changes from Trusted Types,https://github.com/whatwg/html/pull/10199,2024-03-13T17:32:11Z,2024-03-18T22:54:17Z,lukewarlow,,0
+2184496735,false,Upstream long-animation-frames monkey-patches,https://github.com/whatwg/html/pull/10198,2024-03-13T17:02:02Z,2024-03-18T13:32:10Z,noamr,integration|topic: timing,0
 2183409617,true,Fix: Editorial - link Promise<T> type throughout #9987,https://github.com/whatwg/html/pull/10197,2024-03-13T08:36:14Z,2024-03-15T08:02:24Z,tawandamoyo,,0
 2176725898,false,Support automatic user prompt handing in WebDriver BiDi,https://github.com/whatwg/html/pull/10189,2024-03-08T20:31:39Z,2024-03-08T20:31:43Z,jgraham,,0
 2176615177,false,Use DOM's post-insertion steps for `<script>` elements,https://github.com/whatwg/html/pull/10188,2024-03-08T19:04:28Z,2024-03-13T23:01:55Z,domfarolino,topic: script,0
@@ -25,7 +25,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2143978728,false,Allow WebDriver BiDi access original opener,https://github.com/whatwg/html/pull/10147,2024-02-20T09:52:35Z,2024-02-20T09:53:13Z,OrKoN,,0
 2141556349,true,Meta: Dark mode fixes,https://github.com/whatwg/html/pull/10144,2024-02-19T05:44:57Z,2024-02-21T06:12:46Z,andreubotella,,0
 2137817129,true,Change dir=auto to fall back to ltr rather than inheriting,https://github.com/whatwg/html/pull/10140,2024-02-16T03:43:35Z,2024-02-22T18:42:36Z,dbaron,,0
-2137794594,false,Add getHTML() and the serializable concept,https://github.com/whatwg/html/pull/10139,2024-02-16T03:10:47Z,2024-03-15T22:00:09Z,mfreed7,,0
+2137794594,false,Add getHTML() and the serializable concept,https://github.com/whatwg/html/pull/10139,2024-02-16T03:10:47Z,2024-03-18T21:38:10Z,mfreed7,,0
 2133052396,false,Call the view-transition page-visibility change steps,https://github.com/whatwg/html/pull/10137,2024-02-13T20:10:41Z,2024-02-13T20:12:35Z,noamr,,0
 2127277528,false,Add navigation started before other navigation events for WebDriver BiDi,https://github.com/whatwg/html/pull/10132,2024-02-09T14:39:39Z,2024-02-13T06:02:48Z,jrandolf,topic: navigation,0
 2126643489,true,[WIP] Add may-block reasons for NotRestoredReasons,https://github.com/whatwg/html/pull/10131,2024-02-09T07:55:49Z,2024-03-06T07:50:06Z,rubberyuzu,,0
@@ -115,7 +115,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1992013329,true,Editorial: Export TextTrackMode enum value defs,https://github.com/whatwg/html/pull/9931,2023-11-14T05:22:05Z,2023-11-14T05:47:37Z,marcoscaceres,,0
 1991924982,true,Export normalized TimeRanges object,https://github.com/whatwg/html/pull/9930,2023-11-14T03:39:51Z,2023-11-19T23:47:48Z,marcoscaceres,,0
 1986916416,true,Change subframe traverse navigate event timing,https://github.com/whatwg/html/pull/9922,2023-11-10T05:13:57Z,2023-11-15T00:40:45Z,domenic,normative change|topic: navigation,0
-1978754702,false,Add device-eid and device-imei autocomplete tokens,https://github.com/whatwg/html/pull/9913,2023-11-06T10:05:21Z,2023-11-14T08:05:49Z,annevk,,0
+1978754702,false,Add device-eid and device-imei autocomplete tokens,https://github.com/whatwg/html/pull/9913,2023-11-06T10:05:21Z,2024-03-18T14:21:04Z,annevk,,0
 1977331415,false,Add invoke defaults for input and select,https://github.com/whatwg/html/pull/9912,2023-11-04T13:18:17Z,2023-11-16T13:44:22Z,lukewarlow,,0
 1974532027,true,HTMLAllCollection: add tags() method,https://github.com/whatwg/html/pull/9908,2023-11-02T15:42:16Z,2023-11-13T05:53:30Z,delan,,0
 1973785754,true,Overhaul document unloading/destruction/aborting,https://github.com/whatwg/html/pull/9907,2023-11-02T08:54:15Z,2024-01-11T05:34:16Z,domenic,topic: navigation,0
@@ -140,7 +140,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1956248354,true,ruby: Remove the segmentation algorithm,https://github.com/whatwg/html/pull/9876,2023-10-23T02:44:59Z,2023-10-27T06:17:56Z,tkent-google,removal/deprecation|document conformance|topic: ruby,0
 1956084796,true,Add invoke popover defaults,https://github.com/whatwg/html/pull/9875,2023-10-22T22:44:20Z,2024-02-13T17:56:08Z,keithamus,,0
 1954210461,true,Editorial: clarify spec around scripts,https://github.com/whatwg/html/pull/9872,2023-10-20T12:41:11Z,2023-10-30T14:54:54Z,Ms2ger,editorial,0
-1953548150,false,Specify what happens when “disabled” is added to a link@rel=stylesheet,https://github.com/whatwg/html/pull/9870,2023-10-20T05:17:46Z,2023-11-14T08:05:49Z,sideshowbarker,,0
+1953548150,false,Specify what happens when “disabled” is added to a link@rel=stylesheet,https://github.com/whatwg/html/pull/9870,2023-10-20T05:17:46Z,2024-03-18T21:34:54Z,sideshowbarker,,0
 1952215790,true,Fix errors related to <slot> elements in auto directionality traversal.,https://github.com/whatwg/html/pull/9868,2023-10-19T13:05:50Z,2024-01-23T22:11:10Z,dbaron,,0
 1950199580,true,Fix dir=auto handling of descendant <slot> elements.,https://github.com/whatwg/html/pull/9863,2023-10-18T16:40:39Z,2023-10-19T13:06:46Z,dbaron,,0
 1947037733,true,Define the `privacy-policy` link type.,https://github.com/whatwg/html/pull/9860,2023-10-17T10:01:32Z,2023-11-06T08:36:47Z,mikewest,addition/proposal|security/privacy|privacy-tracker,1
@@ -154,7 +154,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1935018189,true,Editorial: make kind attributes consistent,https://github.com/whatwg/html/pull/9847,2023-10-10T10:34:57Z,2023-10-10T11:59:18Z,keithamus,editorial,0
 1933058172,false,Implement WebDriver BiDi interception in the `show the picker` algorithm,https://github.com/whatwg/html/pull/9844,2023-10-09T13:22:03Z,2023-11-14T08:05:49Z,jrandolf,do not merge yet|integration,0
 1932809665,true,Editorial: make fetch priority attributes consistent,https://github.com/whatwg/html/pull/9842,2023-10-09T10:59:10Z,2023-10-09T11:41:54Z,keithamus,editorial,0
-1932098948,false,(Invokers Proposal) Add InvokeElement & InvokeEvent IDLs & invocation steps for Dialog & Popover,https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2024-03-16T20:55:00Z,keithamus,,0
+1932098948,false,(Invokers Proposal) Add InvokeElement & InvokeEvent IDLs & invocation steps for Dialog & Popover,https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2024-03-18T23:25:08Z,keithamus,,0
 1931367969,true,Editorial: remove some copypasta around CORS settings attribute,https://github.com/whatwg/html/pull/9840,2023-10-07T14:14:19Z,2023-10-08T14:25:55Z,annevk,,0
 1930976617,true,"Fix typo in ""History-action activation-consuming APIs""",https://github.com/whatwg/html/pull/9839,2023-10-06T21:55:17Z,2023-10-10T04:56:14Z,CanadaHonk,,0
 1930460108,true,Perform a microtask checkpoint only after a task,https://github.com/whatwg/html/pull/9838,2023-10-06T15:38:05Z,2023-10-10T05:26:36Z,annevk,topic: event loop,1
