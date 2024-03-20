@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2195297333,false,Preload: only allow certain values for the `as` attribute,https://github.com/whatwg/html/pull/10212,2024-03-19T15:31:54Z,2024-03-19T16:14:16Z,noamr,,0
 2188509128,false,Disable PageSwapEvent.activation when navigation has cross-origin red…,https://github.com/whatwg/html/pull/10207,2024-03-15T13:23:54Z,2024-03-18T14:43:29Z,noamr,,0
 2186605860,false,Update HostEnsureCanCompileStrings definition,https://github.com/whatwg/html/pull/10204,2024-03-14T15:03:04Z,2024-03-15T15:17:28Z,lukewarlow,,0
 2184548191,true,Upstream IDL changes from Trusted Types,https://github.com/whatwg/html/pull/10199,2024-03-13T17:32:11Z,2024-03-19T11:39:29Z,lukewarlow,,0
@@ -26,7 +27,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2141556349,true,Meta: Dark mode fixes,https://github.com/whatwg/html/pull/10144,2024-02-19T05:44:57Z,2024-02-21T06:12:46Z,andreubotella,,0
 2137817129,true,Change dir=auto to fall back to ltr rather than inheriting,https://github.com/whatwg/html/pull/10140,2024-02-16T03:43:35Z,2024-02-22T18:42:36Z,dbaron,,0
 2137794594,false,Add getHTML() and the serializable concept,https://github.com/whatwg/html/pull/10139,2024-02-16T03:10:47Z,2024-03-19T10:01:47Z,mfreed7,,0
-2133052396,false,Call the view-transition page-visibility change steps,https://github.com/whatwg/html/pull/10137,2024-02-13T20:10:41Z,2024-02-13T20:12:35Z,noamr,,0
+2133052396,false,Call the view-transition page-visibility change steps,https://github.com/whatwg/html/pull/10137,2024-02-13T20:10:41Z,2024-03-19T16:44:56Z,noamr,,0
 2127277528,false,Add navigation started before other navigation events for WebDriver BiDi,https://github.com/whatwg/html/pull/10132,2024-02-09T14:39:39Z,2024-02-13T06:02:48Z,jrandolf,topic: navigation,0
 2126643489,true,[WIP] Add may-block reasons for NotRestoredReasons,https://github.com/whatwg/html/pull/10131,2024-02-09T07:55:49Z,2024-03-06T07:50:06Z,rubberyuzu,,0
 2126638785,true,Fix off-by-one error in navigation.canGoForward,https://github.com/whatwg/html/pull/10130,2024-02-09T07:51:29Z,2024-02-09T08:09:41Z,domenic,topic: navigation,0
@@ -691,7 +692,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1208607592,true,Create 2023SECURITY.md,https://github.com/whatwg/html/pull/7836,2022-04-19T16:42:20Z,2022-04-19T16:53:16Z,suneel0607,spam,0
 1208565432,true,Support preconnect in link headers & early hints,https://github.com/whatwg/html/pull/7835,2022-04-19T16:03:38Z,2022-05-04T14:22:14Z,noamr,topic: link|topic: resource hints (inc. preload),0
 1208116307,true,Fix some minor wording issues for media events,https://github.com/whatwg/html/pull/7834,2022-04-19T10:02:59Z,2022-04-19T16:34:56Z,chrisn,,0
-1206367534,true,replace current outline algorithm with one based on heading levels,https://github.com/whatwg/html/pull/7829,2022-04-17T12:53:42Z,2022-08-29T16:18:18Z,stevefaulkner,normative change|document conformance|impacts documentation,67
+1206367534,true,replace current outline algorithm with one based on heading levels,https://github.com/whatwg/html/pull/7829,2022-04-17T12:53:42Z,2022-08-29T16:18:18Z,stevefaulkner,normative change|document conformance|impacts documentation,68
 1206218912,true,Fix superseded Schema,https://github.com/whatwg/html/pull/7826,2022-04-16T21:21:39Z,2022-04-18T15:19:47Z,edent,,0
 1202431693,true,Add a note about why dialog uses show/close,https://github.com/whatwg/html/pull/7817,2022-04-12T21:51:37Z,2022-04-21T16:58:11Z,domenic,clarification|topic: dialog,2
 1202365778,true,Obsolete the <param> element,https://github.com/whatwg/html/pull/7816,2022-04-12T20:40:18Z,2022-06-15T15:34:42Z,domenic,removal/deprecation|document conformance|topic: embed and object|impacts documentation,0
@@ -1527,7 +1528,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 603334448,true,Update worker global scope's owner set earlier,https://github.com/whatwg/html/pull/5472,2020-04-20T15:39:13Z,2020-04-28T14:50:35Z,domenic,topic: workers,0
 603319225,true,Align on what we call implementation-defined,https://github.com/whatwg/html/pull/5471,2020-04-20T15:17:56Z,2020-04-20T16:31:12Z,annevk,,0
 603266759,false,Integrate with Reporting API,https://github.com/whatwg/html/pull/5470,2020-04-20T14:07:15Z,2023-11-14T08:05:50Z,clelland,,0
-602258520,true,Add declarative Shadow DOM features,https://github.com/whatwg/html/pull/5465,2020-04-17T22:04:40Z,2023-10-30T15:00:45Z,mfreed7,topic: shadow|impacts documentation,35
+602258520,true,Add declarative Shadow DOM features,https://github.com/whatwg/html/pull/5465,2020-04-17T22:04:40Z,2024-03-19T15:03:38Z,mfreed7,topic: shadow|impacts documentation,35
 601071702,true,Change how minimum used value for line-height works,https://github.com/whatwg/html/pull/5462,2020-04-16T13:50:43Z,2022-02-11T00:04:30Z,zcorpan,,0
 599834801,true,Remove report long tasks from update the rendering,https://github.com/whatwg/html/pull/5459,2020-04-14T20:21:05Z,2020-04-15T20:03:05Z,npm1,integration,0
 599421153,true,Expand IME  to 'input method editor',https://github.com/whatwg/html/pull/5458,2020-04-14T09:18:47Z,2020-04-14T15:00:36Z,36degrees,clarification,0
