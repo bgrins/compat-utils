@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2197161842,false,[render-blocking] Fix implicitly-render-blocking definition.,https://github.com/whatwg/html/pull/10214,2024-03-20T10:17:39Z,2024-03-20T10:47:55Z,emilio,,0
+2197161842,false,[render-blocking] Fix implicitly-render-blocking definition.,https://github.com/whatwg/html/pull/10214,2024-03-20T10:17:39Z,2024-03-20T13:04:12Z,emilio,,0
 2195297333,false,Preload: only allow certain values for the `as` attribute,https://github.com/whatwg/html/pull/10212,2024-03-19T15:31:54Z,2024-03-19T16:14:16Z,noamr,,0
 2188509128,false,Disable PageSwapEvent.activation when navigation has cross-origin red…,https://github.com/whatwg/html/pull/10207,2024-03-15T13:23:54Z,2024-03-18T14:43:29Z,noamr,,0
 2186605860,false,Update HostEnsureCanCompileStrings definition,https://github.com/whatwg/html/pull/10204,2024-03-14T15:03:04Z,2024-03-15T15:17:28Z,lukewarlow,,0
@@ -27,7 +27,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2143978728,false,Allow WebDriver BiDi access original opener,https://github.com/whatwg/html/pull/10147,2024-02-20T09:52:35Z,2024-02-20T09:53:13Z,OrKoN,,0
 2141556349,true,Meta: Dark mode fixes,https://github.com/whatwg/html/pull/10144,2024-02-19T05:44:57Z,2024-02-21T06:12:46Z,andreubotella,,0
 2137817129,true,Change dir=auto to fall back to ltr rather than inheriting,https://github.com/whatwg/html/pull/10140,2024-02-16T03:43:35Z,2024-02-22T18:42:36Z,dbaron,,0
-2137794594,false,Add getHTML() and the serializable concept,https://github.com/whatwg/html/pull/10139,2024-02-16T03:10:47Z,2024-03-19T10:01:47Z,mfreed7,,0
+2137794594,false,Add getHTML() and the serializable concept,https://github.com/whatwg/html/pull/10139,2024-02-16T03:10:47Z,2024-03-20T22:44:17Z,mfreed7,,0
 2133052396,false,Call the view-transition page-visibility change steps,https://github.com/whatwg/html/pull/10137,2024-02-13T20:10:41Z,2024-03-19T16:44:56Z,noamr,,0
 2127277528,false,Add navigation started before other navigation events for WebDriver BiDi,https://github.com/whatwg/html/pull/10132,2024-02-09T14:39:39Z,2024-02-13T06:02:48Z,jrandolf,topic: navigation,0
 2126643489,true,[WIP] Add may-block reasons for NotRestoredReasons,https://github.com/whatwg/html/pull/10131,2024-02-09T07:55:49Z,2024-03-06T07:50:06Z,rubberyuzu,,0
@@ -40,7 +40,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2115382835,false,Fix #4532: language sensitivity of autocap,https://github.com/whatwg/html/pull/10119,2024-02-02T17:11:41Z,2024-02-09T12:05:58Z,aphillips,clarification,0
 2115089069,true,Editorial: Set dfn-type on remaining interfaces,https://github.com/whatwg/html/pull/10118,2024-02-02T14:38:20Z,2024-02-02T15:17:04Z,dontcallmedom,,0
 2113908791,true,Add `shadowrootclonable` and make declarative shadow roots not `clonable` by default,https://github.com/whatwg/html/pull/10117,2024-02-02T02:36:20Z,2024-02-13T12:32:35Z,mfreed7,normative change|addition/proposal|topic: shadow,0
-2110443103,false,Allow top layer elements to be nested within popovers,https://github.com/whatwg/html/pull/10116,2024-01-31T16:04:56Z,2024-03-07T16:57:28Z,josepharhar,normative change|topic: dialog|topic: popover,0
+2110443103,false,Allow top layer elements to be nested within popovers,https://github.com/whatwg/html/pull/10116,2024-01-31T16:04:56Z,2024-03-20T14:51:59Z,josepharhar,normative change|topic: dialog|topic: popover,0
 2106618808,true,Change,https://github.com/whatwg/html/pull/10109,2024-01-29T23:22:50Z,2024-01-29T23:58:17Z,Tsiangana,spam|invalid,0
 2105509288,false,fixed typo from null to path (whatwg#10053),https://github.com/whatwg/html/pull/10105,2024-01-29T13:30:58Z,2024-02-06T05:19:11Z,chaburk,,0
 2105077552,true,Editorial: Remove outdated reference to ParseScript,https://github.com/whatwg/html/pull/10102,2024-01-29T09:47:51Z,2024-01-31T01:32:20Z,Ms2ger,topic: script|editorial,0
@@ -72,7 +72,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2062900017,false,"Add argument labels when invoking ""apply the history step""",https://github.com/whatwg/html/pull/10033,2024-01-02T20:19:58Z,2024-01-03T10:25:46Z,awesomekling,,0
 2058271204,true,[Editorial] Fix missing references to OffscreenCanvas as CanvasImageSource,https://github.com/whatwg/html/pull/10027,2023-12-28T10:32:20Z,2024-01-09T04:13:18Z,Kaiido,topic: canvas,0
 2057043906,true,Don't clip range/checkbox/radio overflow to border box.,https://github.com/whatwg/html/pull/10025,2023-12-27T07:58:17Z,2024-01-15T09:21:50Z,emilio,,0
-2056778136,false,Implement dangling markup injection mitigation,https://github.com/whatwg/html/pull/10022,2023-12-26T23:59:10Z,2024-03-04T21:28:44Z,shhnjk,security/privacy|needs tests|integration|security-tracker,0
+2056778136,false,Implement dangling markup injection mitigation,https://github.com/whatwg/html/pull/10022,2023-12-26T23:59:10Z,2024-03-20T14:15:21Z,shhnjk,security/privacy|needs tests|integration|security-tracker,0
 2054561873,true,Add a new attribute called `writingsuggestions` to control UA-provided writing assistance,https://github.com/whatwg/html/pull/10018,2023-12-22T22:53:35Z,2024-03-13T05:26:53Z,sanketj,addition/proposal,0
 2053092639,true,Darkmode,https://github.com/whatwg/html/pull/10017,2023-12-21T21:44:11Z,2024-01-10T03:34:58Z,tabatkins,,0
 2051411630,true,Hide all popovers when beforetoggle shows a popover,https://github.com/whatwg/html/pull/10015,2023-12-20T22:47:23Z,2024-02-07T19:40:15Z,josepharhar,topic: popover,0
@@ -156,7 +156,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1935018189,true,Editorial: make kind attributes consistent,https://github.com/whatwg/html/pull/9847,2023-10-10T10:34:57Z,2023-10-10T11:59:18Z,keithamus,editorial,0
 1933058172,false,Implement WebDriver BiDi interception in the `show the picker` algorithm,https://github.com/whatwg/html/pull/9844,2023-10-09T13:22:03Z,2023-11-14T08:05:49Z,jrandolf,do not merge yet|integration,0
 1932809665,true,Editorial: make fetch priority attributes consistent,https://github.com/whatwg/html/pull/9842,2023-10-09T10:59:10Z,2023-10-09T11:41:54Z,keithamus,editorial,0
-1932098948,false,(Invokers Proposal) Add InvokeElement & InvokeEvent IDLs & invocation steps for Dialog & Popover,https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2024-03-18T23:25:08Z,keithamus,,0
+1932098948,false,(Invokers Proposal) Add InvokeElement & InvokeEvent IDLs & invocation steps for Dialog & Popover,https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2024-03-20T23:04:33Z,keithamus,,0
 1931367969,true,Editorial: remove some copypasta around CORS settings attribute,https://github.com/whatwg/html/pull/9840,2023-10-07T14:14:19Z,2023-10-08T14:25:55Z,annevk,,0
 1930976617,true,"Fix typo in ""History-action activation-consuming APIs""",https://github.com/whatwg/html/pull/9839,2023-10-06T21:55:17Z,2023-10-10T04:56:14Z,CanadaHonk,,0
 1930460108,true,Perform a microtask checkpoint only after a task,https://github.com/whatwg/html/pull/9838,2023-10-06T15:38:05Z,2023-10-10T05:26:36Z,annevk,topic: event loop,1
@@ -190,7 +190,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1911295610,true,Editorial: clarify adoption agency step 13.3,https://github.com/whatwg/html/pull/9785,2023-09-25T11:40:32Z,2023-09-26T06:55:28Z,not-my-profile,,0
 1909692719,true,"Editorial: make note about ""in body"" insertion mode account for edge case",https://github.com/whatwg/html/pull/9780,2023-09-23T03:33:03Z,2023-09-26T11:05:32Z,not-my-profile,topic: parser,0
 1909681938,true,Meta: make Wattsi Syntax link more prominent in CONTRIBUTING.md,https://github.com/whatwg/html/pull/9779,2023-09-23T02:46:33Z,2023-09-25T07:35:18Z,not-my-profile,,0
-1909677474,false,Add popover=hint,https://github.com/whatwg/html/pull/9778,2023-09-23T02:27:22Z,2024-03-11T07:43:18Z,josepharhar,topic: popover,0
+1909677474,false,Add popover=hint,https://github.com/whatwg/html/pull/9778,2023-09-23T02:27:22Z,2024-03-21T00:02:04Z,josepharhar,topic: popover,0
 1909479750,false,Queue toggle events and dialog close with microtasks,https://github.com/whatwg/html/pull/9775,2023-09-22T20:24:57Z,2023-11-14T08:05:49Z,josepharhar,,0
 1908359160,true,Un-break build by making review-drafts/2023-07.wattsi use non-void <ref></ref>,https://github.com/whatwg/html/pull/9772,2023-09-22T07:38:51Z,2023-09-22T08:38:40Z,sideshowbarker,,0
 1907618502,false,Add TextTrackCue ctor & cue + cuebackground attributes,https://github.com/whatwg/html/pull/9771,2023-09-21T19:22:21Z,2023-11-19T23:57:57Z,marcoscaceres,addition/proposal|topic: media,1
@@ -1209,7 +1209,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 775270773,true,add sftp to safelisted scheme,https://github.com/whatwg/html/pull/6255,2020-12-28T08:15:08Z,2021-04-28T14:47:34Z,vapier,,1
 774931989,true,Specify that the ::file-selector-button pseudo applies to the button in a file input.,https://github.com/whatwg/html/pull/6250,2020-12-26T20:55:29Z,2021-01-06T18:54:49Z,emilio,addition/proposal|topic: rendering,0
 774636016,true,Editorial: Introduce #concept-document-origin,https://github.com/whatwg/html/pull/6249,2020-12-25T05:35:26Z,2021-01-12T07:45:59Z,domfarolino,clarification|topic: origin,1
-773322054,false,Editorial: Export concepts used by Encrypted Media Extensions,https://github.com/whatwg/html/pull/6242,2020-12-22T23:54:07Z,2023-11-14T08:05:50Z,saschanaz,,0
+773322054,false,Editorial: Export concepts used by Encrypted Media Extensions,https://github.com/whatwg/html/pull/6242,2020-12-22T23:54:07Z,2024-03-20T21:11:14Z,saschanaz,,0
 769809444,true,"Remove unused parameters in ""check if COOP requires a BCG switch"" calls",https://github.com/whatwg/html/pull/6234,2020-12-17T10:09:20Z,2020-12-17T17:52:07Z,ParisMeuleman,topic: cross-origin-opener-policy,0
 763223345,true,Fix typo in whatwg/html/pull/6172,https://github.com/whatwg/html/pull/6222,2020-12-12T03:10:24Z,2020-12-17T22:33:37Z,jan-ivar,,0
 762716449,true,My name changed,https://github.com/whatwg/html/pull/6221,2020-12-11T18:16:19Z,2020-12-14T17:47:37Z,takkaria,,0
