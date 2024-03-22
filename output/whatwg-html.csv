@@ -1,10 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2198694825,false,Recommend against using the <q> element (or fix its behavior),https://github.com/whatwg/html/issues/10216,2024-03-20T22:28:50Z,2024-03-20T22:28:50Z,jyasskin,addition/proposal|needs implementer interest,1
+2200902686,false,Form not submitted warning message before unload,https://github.com/whatwg/html/issues/10218,2024-03-21T18:39:07Z,2024-03-21T18:39:07Z,keithamus,addition/proposal|needs implementer interest,0
+2198694825,false,Recommend against using the <q> element (or fix its behavior),https://github.com/whatwg/html/issues/10216,2024-03-20T22:28:50Z,2024-03-21T17:00:29Z,jyasskin,removal/deprecation|addition/proposal|needs implementer interest|document conformance,1
 2198636898,false,Upcoming WHATNOT meeting on 3/28/2024,https://github.com/whatwg/html/issues/10215,2024-03-20T21:51:09Z,2024-03-20T21:51:09Z,past,agenda+,0
 2197065346,false,Web compat: Navigating a lazy-loading iframe with location.replace,https://github.com/whatwg/html/issues/10213,2024-03-20T09:35:00Z,2024-03-20T09:53:57Z,zcorpan,compat|topic: navigation|interop,0
-2194851348,false,template element declarative shadow tree IDL attributes,https://github.com/whatwg/html/issues/10211,2024-03-19T12:33:32Z,2024-03-21T08:55:53Z,annevk,removal/deprecation|topic: shadow|agenda+,0
+2194851348,false,template element declarative shadow tree IDL attributes,https://github.com/whatwg/html/issues/10211,2024-03-19T12:33:32Z,2024-03-21T17:09:32Z,annevk,removal/deprecation|topic: shadow|agenda+,0
 2193993060,false,Possibility to export drawImage() rendering algorithm,https://github.com/whatwg/html/issues/10210,2024-03-19T04:34:19Z,2024-03-21T04:50:20Z,Djuffin,topic: canvas|integration,0
-2193889113,false,"`writingsuggestions` might need to default to ""off""",https://github.com/whatwg/html/issues/10209,2024-03-19T02:47:52Z,2024-03-21T09:08:11Z,marcoscaceres,compat,0
+2193889113,false,"`writingsuggestions` might need to default to ""off""",https://github.com/whatwg/html/issues/10209,2024-03-19T02:47:52Z,2024-03-21T21:37:27Z,marcoscaceres,compat,0
 2192989420,false,Proposal: pause iframe media when not rendered,https://github.com/whatwg/html/issues/10208,2024-03-18T18:41:25Z,2024-03-18T21:21:53Z,gabrielsanbrito,addition/proposal|needs implementer interest|topic: media,0
 2188214401,false,Toggle/cycle buttons,https://github.com/whatwg/html/issues/10206,2024-03-15T10:39:26Z,2024-03-20T22:58:12Z,annevk,addition/proposal|topic: forms,3
 2187420666,true,Upcoming WHATNOT meeting on 3/21/2024,https://github.com/whatwg/html/issues/10205,2024-03-14T22:59:41Z,2024-03-20T21:04:47Z,past,agenda+,0
@@ -78,7 +79,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2094176434,true,Three-valued Button state (type=three-valued) of the type attribute of the input element,https://github.com/whatwg/html/issues/10082,2024-01-22T15:30:47Z,2024-01-22T15:33:50Z,sergeyprokhorenko,addition/proposal|needs implementer interest,0
 2092231362,false,Three-valued Button state (type=three-valued) of the type attribute of the input element,https://github.com/whatwg/html/issues/10081,2024-01-20T20:33:25Z,2024-02-11T00:06:26Z,sergeyprokhorenko,addition/proposal|needs implementer interest,0
 2092094371,false,"Ability to disable images loading, to customise when they load with scripting ",https://github.com/whatwg/html/issues/10080,2024-01-20T15:27:36Z,2024-03-01T13:42:43Z,keithamus,addition/proposal|needs implementer interest|topic: img,0
-2091281574,false,"img sizes=""auto"" skewing images using object-fit: contain",https://github.com/whatwg/html/issues/10079,2024-01-19T19:56:30Z,2024-03-21T09:04:58Z,joemcgill,compat|topic: rendering|topic: img|needs tests,1
+2091281574,false,"img sizes=""auto"" skewing images using object-fit: contain",https://github.com/whatwg/html/issues/10079,2024-01-19T19:56:30Z,2024-03-21T13:01:14Z,joemcgill,compat|topic: rendering|topic: img|needs tests,1
 2090712845,false,Ergonomic way to move data between workers,https://github.com/whatwg/html/issues/10078,2024-01-19T14:46:38Z,2024-02-21T00:42:03Z,jakearchibald,addition/proposal|needs implementer interest|topic: workers,9
 2089462044,false,Allowing UA to do <source> selection for media element,https://github.com/whatwg/html/issues/10077,2024-01-19T02:56:38Z,2024-03-15T10:49:12Z,marcoscaceres,needs implementer interest|topic: media,0
 2088770490,true,Proposal: Implement new method for parsing markup from `Fetch` responses,https://github.com/whatwg/html/issues/10076,2024-01-18T17:41:39Z,2024-01-19T10:13:40Z,brandonmcconnell,addition/proposal|needs implementer interest,0
@@ -1507,7 +1508,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 786528834,true,https links instead of http in html files,https://github.com/whatwg/html/issues/6290,2021-01-15T04:42:32Z,2021-01-15T08:35:30Z,Neustradamus,,0
 785117409,true,Remove restriction of <figcaption> to first/last child of <figure>,https://github.com/whatwg/html/issues/6286,2021-01-13T13:45:38Z,2021-01-20T16:56:31Z,brucelawson,,0
 783450663,true,The algorithm to determine the credentials mode in fetching a manifest is different from the W3C version,https://github.com/whatwg/html/issues/6280,2021-01-11T15:12:04Z,2021-01-11T16:12:54Z,Clarkkkk,,0
-781545701,false,Video should not be required to pause when playing in picture-in-picture and subsequently removed from the Document,https://github.com/whatwg/html/issues/6271,2021-01-07T19:17:04Z,2024-03-21T09:16:17Z,jernoble,topic: media|integration,0
+781545701,false,Video should not be required to pause when playing in picture-in-picture and subsequently removed from the Document,https://github.com/whatwg/html/issues/6271,2021-01-07T19:17:04Z,2024-03-21T14:58:57Z,jernoble,topic: media|integration,0
 780475835,false,"Does the track element really use ""same-origin"" as fallback?",https://github.com/whatwg/html/issues/6267,2021-01-06T11:13:30Z,2022-04-22T10:28:12Z,annevk,topic: media|topic: fetch|interop,0
 778667234,true,input: we can skip maxLength threshold by set value dynamicly,https://github.com/whatwg/html/issues/6264,2021-01-05T07:26:36Z,2021-01-24T10:44:58Z,HomyeeKing,,0
 777530093,true,[canvas] ImageData methods need [EnforceRange],https://github.com/whatwg/html/issues/6262,2021-01-02T21:45:42Z,2021-01-04T09:20:07Z,emilio,,0
@@ -2575,7 +2576,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 369246393,false,Need spec for layout of ::before/::after pseudos on form controls,https://github.com/whatwg/html/issues/4086,2018-10-11T18:21:10Z,2019-03-30T14:06:42Z,MatsPalmgren,topic: rendering|topic: forms,0
 368710417,true,Default 'display' value for form controls,https://github.com/whatwg/html/issues/4082,2018-10-10T15:01:27Z,2021-09-16T21:13:21Z,zcorpan,topic: rendering|topic: forms|interop,0
 368615563,true,Rendering rules for buttons,https://github.com/whatwg/html/issues/4081,2018-10-10T11:15:02Z,2019-05-14T13:52:18Z,zcorpan,topic: rendering|topic: forms,1
-368468380,true,Windows opened via <a target=_blank> should not have an opener by default,https://github.com/whatwg/html/issues/4078,2018-10-10T02:24:53Z,2019-02-07T12:24:42Z,cdumez,addition/proposal|topic: browsing context|impacts documentation,108
+368468380,true,Windows opened via <a target=_blank> should not have an opener by default,https://github.com/whatwg/html/issues/4078,2018-10-10T02:24:53Z,2019-02-07T12:24:42Z,cdumez,addition/proposal|topic: browsing context|impacts documentation,109
 368463583,true,"""the error attribute initialized to null""",https://github.com/whatwg/html/issues/4077,2018-10-10T01:57:03Z,2018-10-10T03:19:15Z,yukidmy,,0
 367974334,true,editorial issues with Canvas TextMetrics,https://github.com/whatwg/html/issues/4073,2018-10-08T22:27:03Z,2020-06-29T07:02:13Z,dbaron,topic: canvas,0
 367974322,false,canvas TextMetrics APIs should define rounding better,https://github.com/whatwg/html/issues/4072,2018-10-08T22:27:00Z,2021-04-28T14:07:55Z,dbaron,topic: canvas,0
