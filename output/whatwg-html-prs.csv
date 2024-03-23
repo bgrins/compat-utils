@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2202742859,false,Improve element reflection,https://github.com/whatwg/html/pull/10221,2024-03-22T15:18:13Z,2024-03-22T15:18:48Z,annevk,,0
 2197161842,false,[render-blocking] Fix implicitly-render-blocking definition.,https://github.com/whatwg/html/pull/10214,2024-03-20T10:17:39Z,2024-03-20T13:04:12Z,emilio,,0
 2195297333,false,Preload: only allow certain values for the `as` attribute,https://github.com/whatwg/html/pull/10212,2024-03-19T15:31:54Z,2024-03-19T16:14:16Z,noamr,,0
 2188509128,false,Disable PageSwapEvent.activation when navigation has cross-origin red…,https://github.com/whatwg/html/pull/10207,2024-03-15T13:23:54Z,2024-03-18T14:43:29Z,noamr,,0
@@ -27,7 +28,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2143978728,true,Allow WebDriver BiDi access original opener,https://github.com/whatwg/html/pull/10147,2024-02-20T09:52:35Z,2024-03-21T12:45:50Z,OrKoN,,0
 2141556349,true,Meta: Dark mode fixes,https://github.com/whatwg/html/pull/10144,2024-02-19T05:44:57Z,2024-02-21T06:12:46Z,andreubotella,,0
 2137817129,true,Change dir=auto to fall back to ltr rather than inheriting,https://github.com/whatwg/html/pull/10140,2024-02-16T03:43:35Z,2024-02-22T18:42:36Z,dbaron,,0
-2137794594,false,Add getHTML() and the serializable concept,https://github.com/whatwg/html/pull/10139,2024-02-16T03:10:47Z,2024-03-22T11:43:22Z,mfreed7,,0
+2137794594,false,Add getHTML() and the serializable concept,https://github.com/whatwg/html/pull/10139,2024-02-16T03:10:47Z,2024-03-22T21:34:34Z,mfreed7,,0
 2133052396,false,Call the view-transition page-visibility change steps,https://github.com/whatwg/html/pull/10137,2024-02-13T20:10:41Z,2024-03-19T16:44:56Z,noamr,,0
 2127277528,false,Add navigation started before other navigation events for WebDriver BiDi,https://github.com/whatwg/html/pull/10132,2024-02-09T14:39:39Z,2024-02-13T06:02:48Z,jrandolf,topic: navigation,0
 2126643489,true,[WIP] Add may-block reasons for NotRestoredReasons,https://github.com/whatwg/html/pull/10131,2024-02-09T07:55:49Z,2024-03-06T07:50:06Z,rubberyuzu,,0
@@ -72,7 +73,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2062900017,false,"Add argument labels when invoking ""apply the history step""",https://github.com/whatwg/html/pull/10033,2024-01-02T20:19:58Z,2024-01-03T10:25:46Z,awesomekling,,0
 2058271204,true,[Editorial] Fix missing references to OffscreenCanvas as CanvasImageSource,https://github.com/whatwg/html/pull/10027,2023-12-28T10:32:20Z,2024-01-09T04:13:18Z,Kaiido,topic: canvas,0
 2057043906,true,Don't clip range/checkbox/radio overflow to border box.,https://github.com/whatwg/html/pull/10025,2023-12-27T07:58:17Z,2024-01-15T09:21:50Z,emilio,,0
-2056778136,false,Implement dangling markup injection mitigation,https://github.com/whatwg/html/pull/10022,2023-12-26T23:59:10Z,2024-03-22T08:01:14Z,shhnjk,security/privacy|integration|security-tracker,0
+2056778136,false,Implement dangling markup injection mitigation,https://github.com/whatwg/html/pull/10022,2023-12-26T23:59:10Z,2024-03-22T20:44:35Z,shhnjk,security/privacy|integration|security-tracker,0
 2054561873,true,Add a new attribute called `writingsuggestions` to control UA-provided writing assistance,https://github.com/whatwg/html/pull/10018,2023-12-22T22:53:35Z,2024-03-13T05:26:53Z,sanketj,addition/proposal,0
 2053092639,true,Darkmode,https://github.com/whatwg/html/pull/10017,2023-12-21T21:44:11Z,2024-01-10T03:34:58Z,tabatkins,,0
 2051411630,true,Hide all popovers when beforetoggle shows a popover,https://github.com/whatwg/html/pull/10015,2023-12-20T22:47:23Z,2024-02-07T19:40:15Z,josepharhar,topic: popover,0
@@ -1209,7 +1210,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 775270773,true,add sftp to safelisted scheme,https://github.com/whatwg/html/pull/6255,2020-12-28T08:15:08Z,2021-04-28T14:47:34Z,vapier,,1
 774931989,true,Specify that the ::file-selector-button pseudo applies to the button in a file input.,https://github.com/whatwg/html/pull/6250,2020-12-26T20:55:29Z,2021-01-06T18:54:49Z,emilio,addition/proposal|topic: rendering,0
 774636016,true,Editorial: Introduce #concept-document-origin,https://github.com/whatwg/html/pull/6249,2020-12-25T05:35:26Z,2021-01-12T07:45:59Z,domfarolino,clarification|topic: origin,1
-773322054,false,Editorial: Export concepts used by Encrypted Media Extensions,https://github.com/whatwg/html/pull/6242,2020-12-22T23:54:07Z,2024-03-20T21:11:14Z,saschanaz,,0
+773322054,false,Editorial: Export concepts used by Encrypted Media Extensions,https://github.com/whatwg/html/pull/6242,2020-12-22T23:54:07Z,2024-03-22T19:25:44Z,saschanaz,topic: media|integration,0
 769809444,true,"Remove unused parameters in ""check if COOP requires a BCG switch"" calls",https://github.com/whatwg/html/pull/6234,2020-12-17T10:09:20Z,2020-12-17T17:52:07Z,ParisMeuleman,topic: cross-origin-opener-policy,0
 763223345,true,Fix typo in whatwg/html/pull/6172,https://github.com/whatwg/html/pull/6222,2020-12-12T03:10:24Z,2020-12-17T22:33:37Z,jan-ivar,,0
 762716449,true,My name changed,https://github.com/whatwg/html/pull/6221,2020-12-11T18:16:19Z,2020-12-14T17:47:37Z,takkaria,,0

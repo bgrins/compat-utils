@@ -1,13 +1,15 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2202124851,false,Reflected IDL attributes of type FrozenArray<T>? don't create a FrozenArray,https://github.com/whatwg/html/issues/10219,2024-03-22T09:57:41Z,2024-03-22T10:06:16Z,petervanderbeken,integration|topic: reflect,0
+2203081444,false,Should the UA stylesheet render li elements with markers if the li is not within a list?,https://github.com/whatwg/html/issues/10222,2024-03-22T18:32:45Z,2024-03-22T19:13:27Z,scottaohara,topic: rendering,0
+2202549680,false,Allow a form in shadow DOM to be the form owner of light DOM fields,https://github.com/whatwg/html/issues/10220,2024-03-22T13:52:14Z,2024-03-22T15:51:15Z,jakearchibald,addition/proposal|needs implementer interest|topic: shadow|topic: custom elements|topic: forms,3
+2202124851,false,Reflected IDL attributes of type FrozenArray<T>? don't create a FrozenArray,https://github.com/whatwg/html/issues/10219,2024-03-22T09:57:41Z,2024-03-22T15:19:09Z,petervanderbeken,integration|topic: reflect,0
 2200902686,false,Form not submitted warning message before unload,https://github.com/whatwg/html/issues/10218,2024-03-21T18:39:07Z,2024-03-21T18:39:07Z,keithamus,addition/proposal|needs implementer interest,0
 2198694825,false,Recommend against using the <q> element (or fix its behavior),https://github.com/whatwg/html/issues/10216,2024-03-20T22:28:50Z,2024-03-21T17:00:29Z,jyasskin,removal/deprecation|addition/proposal|needs implementer interest|document conformance,1
 2198636898,false,Upcoming WHATNOT meeting on 3/28/2024,https://github.com/whatwg/html/issues/10215,2024-03-20T21:51:09Z,2024-03-20T21:51:09Z,past,agenda+,0
 2197065346,false,Web compat: Navigating a lazy-loading iframe with location.replace,https://github.com/whatwg/html/issues/10213,2024-03-20T09:35:00Z,2024-03-20T09:53:57Z,zcorpan,compat|topic: navigation|interop,0
 2194851348,false,template element declarative shadow tree IDL attributes,https://github.com/whatwg/html/issues/10211,2024-03-19T12:33:32Z,2024-03-21T17:09:32Z,annevk,removal/deprecation|topic: shadow|agenda+,0
 2193993060,false,Possibility to export drawImage() rendering algorithm,https://github.com/whatwg/html/issues/10210,2024-03-19T04:34:19Z,2024-03-21T04:50:20Z,Djuffin,topic: canvas|integration,0
-2193889113,false,"`writingsuggestions` might need to default to ""off""",https://github.com/whatwg/html/issues/10209,2024-03-19T02:47:52Z,2024-03-22T01:28:05Z,marcoscaceres,compat,0
-2192989420,false,Proposal: pause iframe media when not rendered,https://github.com/whatwg/html/issues/10208,2024-03-18T18:41:25Z,2024-03-18T21:21:53Z,gabrielsanbrito,addition/proposal|needs implementer interest|topic: media,0
+2193889113,false,"`writingsuggestions` might need to default to ""off""",https://github.com/whatwg/html/issues/10209,2024-03-19T02:47:52Z,2024-03-22T22:27:05Z,marcoscaceres,compat,0
+2192989420,false,Proposal: pause iframe media when not rendered,https://github.com/whatwg/html/issues/10208,2024-03-18T18:41:25Z,2024-03-22T17:33:30Z,gabrielsanbrito,addition/proposal|needs implementer interest|topic: media,0
 2188214401,false,Toggle/cycle buttons,https://github.com/whatwg/html/issues/10206,2024-03-15T10:39:26Z,2024-03-20T22:58:12Z,annevk,addition/proposal|topic: forms,3
 2187420666,true,Upcoming WHATNOT meeting on 3/21/2024,https://github.com/whatwg/html/issues/10205,2024-03-14T22:59:41Z,2024-03-20T21:04:47Z,past,agenda+,0
 2186521527,false,HostEnsureCanCompileStrings definition mismatch,https://github.com/whatwg/html/issues/10202,2024-03-14T14:26:46Z,2024-03-14T14:44:36Z,lukewarlow,,0
@@ -28,7 +30,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2157616652,true,Link rel=modulepreload synchronously fires `load` event if script exists in module map,https://github.com/whatwg/html/issues/10166,2024-02-27T21:18:33Z,2024-03-13T13:54:05Z,domfarolino,topic: script,1
 2155327927,false,Add `requestClose()` function to HTMLDialogElement,https://github.com/whatwg/html/issues/10164,2024-02-26T23:05:58Z,2024-03-02T01:04:52Z,lukewarlow,addition/proposal|needs implementer interest,0
 2155148232,true,Making the WHATNOT meeting cadence weekly,https://github.com/whatwg/html/issues/10163,2024-02-26T21:13:14Z,2024-03-20T21:48:49Z,past,,0
-2154687534,false,Provide a mechanism to trigger the fetch of compression dictionaries,https://github.com/whatwg/html/issues/10162,2024-02-26T17:10:28Z,2024-03-22T06:05:55Z,pmeenan,addition/proposal|needs implementer interest,0
+2154687534,false,Provide a mechanism to trigger the fetch of compression dictionaries,https://github.com/whatwg/html/issues/10162,2024-02-26T17:10:28Z,2024-03-22T14:15:36Z,pmeenan,addition/proposal|needs implementer interest,0
 2154517148,false,"textarea: attribute for content type ",https://github.com/whatwg/html/issues/10161,2024-02-26T15:55:13Z,2024-02-26T15:55:13Z,vanillajonathan,addition/proposal|needs implementer interest,0
 2153573873,false,Clarification for nested `kbd` elements,https://github.com/whatwg/html/issues/10160,2024-02-26T08:33:30Z,2024-03-05T15:08:34Z,j9t,,0
 2152371567,false,Clarify context of §4.12.2 the `<noscript>` element,https://github.com/whatwg/html/issues/10159,2024-02-24T15:49:18Z,2024-02-25T23:12:35Z,doriantaylor,,0
@@ -557,7 +559,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1580163957,true,Proposal: Add a `resizeend` event to the Window,https://github.com/whatwg/html/issues/8874,2023-02-10T18:50:00Z,2023-03-01T13:54:29Z,thegreatercurve,,2
 1578330560,true,Upcoming HTML standard issue triage meeting on 2/23/2023,https://github.com/whatwg/html/issues/8873,2023-02-09T17:43:46Z,2023-02-23T23:50:07Z,past,agenda+,0
 1578001480,true,"Make a way to listen to ""fully active"" state changes",https://github.com/whatwg/html/issues/8872,2023-02-09T14:32:54Z,2023-03-24T03:54:42Z,rakina,integration,0
-1577757378,true,SVGs in <use> cannot be preloaded with a link@rel=preload,https://github.com/whatwg/html/issues/8870,2023-02-09T11:58:48Z,2023-02-15T06:47:26Z,Boldewyn,,0
+1577757378,true,SVGs in <use> cannot be preloaded with a link@rel=preload,https://github.com/whatwg/html/issues/8870,2023-02-09T11:58:48Z,2023-02-15T06:47:26Z,Boldewyn,,1
 1577445089,false,Should strict MIME type for importScripts() also be enforced on local URLs?,https://github.com/whatwg/html/issues/8869,2023-02-09T08:20:18Z,2023-03-29T11:32:53Z,Kaiido,topic: workers|interop,0
 1576960664,false,Add `getInnerHTML()` that optionally serializes declarative Shadow DOM,https://github.com/whatwg/html/issues/8867,2023-02-08T23:38:22Z,2024-02-20T21:49:28Z,mfreed7,addition/proposal|topic: shadow|topic: parser,1
 1576297577,true,DOMParser and MathML,https://github.com/whatwg/html/issues/8866,2023-02-08T14:57:03Z,2023-02-08T16:42:12Z,pygy,,0
@@ -653,7 +655,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1463488301,true,`blocking=render` in preload and modulepreload links,https://github.com/whatwg/html/issues/8550,2022-11-24T15:10:56Z,2023-01-10T08:12:24Z,NiedziolkaMichal,,0
 1463157497,true,HTMLInputElement.list should be an HTMLDataListElement,https://github.com/whatwg/html/issues/8547,2022-11-24T10:55:57Z,2022-11-24T14:56:30Z,emilio,,0
 1462804756,false,"Should ""ignore higher-layer caching"" flag get a definition?",https://github.com/whatwg/html/issues/8546,2022-11-24T06:01:25Z,2022-11-24T06:03:01Z,karlcow,,0
-1462764097,false,GC for cached attr-associated elements?,https://github.com/whatwg/html/issues/8545,2022-11-24T05:03:47Z,2024-01-08T17:00:50Z,alice,topic: reflect,0
+1462764097,false,GC for cached attr-associated elements?,https://github.com/whatwg/html/issues/8545,2022-11-24T05:03:47Z,2024-03-22T15:20:51Z,alice,topic: reflect,0
 1462756977,false,Shadow DOM and ElementInternals ARIAMixin properties,https://github.com/whatwg/html/issues/8544,2022-11-24T04:53:36Z,2023-03-09T23:24:06Z,alice,topic: shadow|topic: custom elements|topic: reflect,0
 1461018906,false,Is it possible to allow `<a>` elements to nest within each other in the future?,https://github.com/whatwg/html/issues/8541,2022-11-23T05:01:58Z,2022-12-06T17:50:58Z,LIXiangChen,,0
 1459558712,false,An iframe whose history can be transferred across parent navigations,https://github.com/whatwg/html/issues/8538,2022-11-22T10:15:42Z,2024-01-28T08:16:46Z,jakearchibald,,24
@@ -1098,7 +1100,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1067387017,false,Proposal: Add Element.isRendered() function,https://github.com/whatwg/html/issues/7379,2021-11-30T15:43:49Z,2021-12-01T21:14:55Z,vmpstr,,1
 1066032725,true,Non-cancelled `setTimeout`s would lead to idle deadlines in the past,https://github.com/whatwg/html/issues/7376,2021-11-29T13:21:50Z,2021-11-30T22:13:53Z,andreubotella,,0
 1065446998,true,"""classic script"" definition incomplete",https://github.com/whatwg/html/issues/7374,2021-11-28T21:57:10Z,2021-11-29T16:40:08Z,SmashManiac,,0
-1062927220,false,Adding scriptElement.exports for configuration use cases,https://github.com/whatwg/html/issues/7367,2021-11-24T21:32:38Z,2023-08-28T19:47:19Z,domenic,addition/proposal|topic: script,3
+1062927220,false,Adding scriptElement.exports for configuration use cases,https://github.com/whatwg/html/issues/7367,2021-11-24T21:32:38Z,2024-03-23T00:01:49Z,domenic,addition/proposal|topic: script,3
 1062394112,false,Last-Event-ID value space follow-up,https://github.com/whatwg/html/issues/7363,2021-11-24T12:53:55Z,2021-11-26T07:45:47Z,annevk,topic: eventsource,0
 1061879455,false,"Geolocations uses ""page visibility change steps""",https://github.com/whatwg/html/issues/7362,2021-11-24T01:18:05Z,2021-11-24T01:18:05Z,marcoscaceres,,0
 1060944661,false,Nit: timer initialization steps should define maximum for id,https://github.com/whatwg/html/issues/7358,2021-11-23T08:15:28Z,2021-11-24T16:16:55Z,annevk,clarification,0
@@ -1336,7 +1338,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 897523809,true,target's TLBC should be target's BC's TLBC in has focus steps,https://github.com/whatwg/html/issues/6703,2021-05-20T22:42:13Z,2021-06-17T20:04:20Z,domenic,good first issue,0
 897285343,true,"Consider moving XHR's definition of ""entry list"" to HTML",https://github.com/whatwg/html/issues/6701,2021-05-20T18:51:21Z,2021-11-29T17:20:57Z,andreubotella,clarification|integration,0
 896536690,true,Allow certain tasks to run even when document is not fully active?,https://github.com/whatwg/html/issues/6699,2021-05-20T09:25:43Z,2021-05-27T06:23:41Z,rakina,topic: fetch|topic: document lifecycle,0
-895874485,false,Allow HTML web apps to force 24 hour time format in <input type=time>,https://github.com/whatwg/html/issues/6698,2021-05-19T20:49:24Z,2024-03-14T09:30:47Z,skissane,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,62
+895874485,false,Allow HTML web apps to force 24 hour time format in <input type=time>,https://github.com/whatwg/html/issues/6698,2021-05-19T20:49:24Z,2024-03-14T09:30:47Z,skissane,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,63
 895436878,false,Specify scroll into view for find-in-page and sequential focus navigation,https://github.com/whatwg/html/issues/6694,2021-05-19T13:18:38Z,2021-05-20T11:54:29Z,zcorpan,,0
 890889194,false,Navigating to same url - replace or add?,https://github.com/whatwg/html/issues/6682,2021-05-13T09:34:50Z,2021-08-31T13:25:45Z,jakearchibald,topic: navigation|topic: history|interop,0
 890289078,true,Author control and possible race condition in dialog.close,https://github.com/whatwg/html/issues/6681,2021-05-12T16:48:23Z,2021-05-13T16:03:36Z,AutoSponge,,0
@@ -2532,7 +2534,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 383304020,true,Should clearly define that the ordinary object internal methods are used when not stated otherwise for WindowProxy and Location,https://github.com/whatwg/html/issues/4189,2018-11-21T21:49:36Z,2018-11-27T14:13:43Z,bzbarsky,,0
 383274575,false,Definition of stable state in terms of microtasks does not seem to match browsers,https://github.com/whatwg/html/issues/4188,2018-11-21T20:04:20Z,2019-01-24T01:57:02Z,bzbarsky,topic: event loop,0
 383218019,true,Proposal: allow a mode of form.submit() that behaves like clicking a submit button,https://github.com/whatwg/html/issues/4187,2018-11-21T17:13:17Z,2019-05-16T19:06:55Z,domenic,addition/proposal|topic: forms,8
-382252874,false,<input type=checkbox switch>,https://github.com/whatwg/html/issues/4180,2018-11-19T14:59:03Z,2024-03-15T17:48:14Z,atishay,addition/proposal|topic: rendering|accessibility|topic: forms|a11y-tracker,58
+382252874,false,<input type=checkbox switch>,https://github.com/whatwg/html/issues/4180,2018-11-19T14:59:03Z,2024-03-22T18:59:22Z,atishay,addition/proposal|topic: rendering|accessibility|topic: forms|a11y-tracker,58
 381558762,true,Consider downloading rather than rendering resources delivered over FTP.,https://github.com/whatwg/html/issues/4178,2018-11-16T11:22:50Z,2018-12-13T14:59:42Z,mikewest,addition/proposal|topic: navigation,1
 381175681,true,Rendering <input type=range> vertically,https://github.com/whatwg/html/issues/4177,2018-11-15T14:05:52Z,2024-03-04T07:10:36Z,MatsPalmgren,topic: rendering|topic: forms,8
 380737191,false,Potentially don't revalidate /favicon.ico fetches,https://github.com/whatwg/html/issues/4176,2018-11-14T14:58:42Z,2018-11-14T16:38:09Z,annevk,compat|topic: link,0

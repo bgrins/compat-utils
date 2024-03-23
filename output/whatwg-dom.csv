@@ -3,7 +3,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2186991156,false,Add extend and modify methods for the Range object,https://github.com/whatwg/dom/issues/1264,2024-03-14T18:20:58Z,2024-03-14T18:20:58Z,snnsnn,needs implementer interest|addition/proposal,0
 2165019807,false,Ability to reset an AbortSignal.timeout,https://github.com/whatwg/dom/issues/1263,2024-03-02T23:04:35Z,2024-03-03T07:40:48Z,jasnell,,0
 2156327954,true,"""connected"" should be defined for all kinds of nodes",https://github.com/whatwg/dom/issues/1259,2024-02-27T11:17:39Z,2024-02-28T08:11:30Z,zcorpan,,1
-2134995640,false,Atomic move operation for element reparenting & reordering,https://github.com/whatwg/dom/issues/1255,2024-02-14T19:00:33Z,2024-03-22T02:57:51Z,domfarolino,needs implementer interest|addition/proposal|agenda+,97
+2134995640,false,Atomic move operation for element reparenting & reordering,https://github.com/whatwg/dom/issues/1255,2024-02-14T19:00:33Z,2024-03-22T18:12:45Z,domfarolino,needs implementer interest|addition/proposal|agenda+,105
 2121320218,false,Make some ShadowRoot attributes mutable,https://github.com/whatwg/dom/issues/1252,2024-02-06T17:20:13Z,2024-02-06T18:47:14Z,mfreed7,topic: shadow|needs implementer interest|addition/proposal,0
 2116555216,true,Support for appending a cloned template adjacent to an existing element,https://github.com/whatwg/dom/issues/1250,2024-02-03T16:00:00Z,2024-02-04T07:46:29Z,bahrus,needs implementer interest|addition/proposal,0
 2106290867,false,How should `clonable` work in `cloneNode(false)`?,https://github.com/whatwg/dom/issues/1249,2024-01-29T19:48:11Z,2024-02-16T13:05:36Z,mfreed7,topic: shadow|needs tests|topic: nodes,0
@@ -352,7 +352,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 275862932,true,Simply MutationObserver callback handling with optional reference property in MutationObserverInit object,https://github.com/whatwg/dom/issues/539,2017-11-21T21:18:34Z,2018-03-17T08:01:40Z,d2ydx2,,0
 274056398,true,No way to resolve a Promise with a cross domain WindowProxy,https://github.com/whatwg/dom/issues/536,2017-11-15T07:12:02Z,2018-02-07T19:39:52Z,esprehn,,0
 272064812,true,Touch/Trackpad finger position,https://github.com/whatwg/dom/issues/534,2017-11-08T03:40:03Z,2017-11-08T08:14:12Z,felipenmoura,,0
-271164894,false,Make it possible to observe connected-ness of a node,https://github.com/whatwg/dom/issues/533,2017-11-04T04:10:12Z,2024-01-12T05:48:45Z,rniwa,addition/proposal,33
+271164894,false,Make it possible to observe connected-ness of a node,https://github.com/whatwg/dom/issues/533,2017-11-04T04:10:12Z,2024-01-12T05:48:45Z,rniwa,addition/proposal,34
 271004744,true,Update WebIDL definition(s) to use new mixin syntax,https://github.com/whatwg/dom/issues/532,2017-11-03T14:51:11Z,2017-12-19T10:22:26Z,tobie,,0
 270832950,true,Composed shadow DOM,https://github.com/whatwg/dom/issues/531,2017-11-02T22:52:12Z,2018-03-13T10:34:59Z,treshugart,,3
 270778185,true,label-input association across Shadow DOM boundary,https://github.com/whatwg/dom/issues/530,2017-11-02T19:24:22Z,2017-11-09T22:33:21Z,tomalec,,0
