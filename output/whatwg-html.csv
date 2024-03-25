@@ -6,9 +6,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2198694825,false,Recommend against using the <q> element (or fix its behavior),https://github.com/whatwg/html/issues/10216,2024-03-20T22:28:50Z,2024-03-21T17:00:29Z,jyasskin,removal/deprecation|addition/proposal|needs implementer interest|document conformance,1
 2198636898,false,Upcoming WHATNOT meeting on 3/28/2024,https://github.com/whatwg/html/issues/10215,2024-03-20T21:51:09Z,2024-03-20T21:51:09Z,past,agenda+,0
 2197065346,false,Web compat: Navigating a lazy-loading iframe with location.replace,https://github.com/whatwg/html/issues/10213,2024-03-20T09:35:00Z,2024-03-20T09:53:57Z,zcorpan,compat|topic: navigation|interop,0
-2194851348,false,template element declarative shadow tree IDL attributes,https://github.com/whatwg/html/issues/10211,2024-03-19T12:33:32Z,2024-03-23T10:57:12Z,annevk,removal/deprecation|topic: shadow|agenda+,0
+2194851348,true,template element declarative shadow tree IDL attributes,https://github.com/whatwg/html/issues/10211,2024-03-19T12:33:32Z,2024-03-25T11:18:30Z,annevk,removal/deprecation|topic: shadow,0
 2193993060,false,Possibility to export drawImage() rendering algorithm,https://github.com/whatwg/html/issues/10210,2024-03-19T04:34:19Z,2024-03-21T04:50:20Z,Djuffin,topic: canvas|integration,0
-2193889113,false,"`writingsuggestions` might need to default to ""off""",https://github.com/whatwg/html/issues/10209,2024-03-19T02:47:52Z,2024-03-22T22:27:05Z,marcoscaceres,compat,0
+2193889113,false,"`writingsuggestions` might need to default to ""off""",https://github.com/whatwg/html/issues/10209,2024-03-19T02:47:52Z,2024-03-25T11:52:45Z,marcoscaceres,compat,0
 2192989420,false,Proposal: pause iframe media when not rendered,https://github.com/whatwg/html/issues/10208,2024-03-18T18:41:25Z,2024-03-23T12:10:17Z,gabrielsanbrito,addition/proposal|needs implementer interest|topic: media,0
 2188214401,false,Toggle/cycle buttons,https://github.com/whatwg/html/issues/10206,2024-03-15T10:39:26Z,2024-03-20T22:58:12Z,annevk,addition/proposal|topic: forms,3
 2187420666,true,Upcoming WHATNOT meeting on 3/21/2024,https://github.com/whatwg/html/issues/10205,2024-03-14T22:59:41Z,2024-03-20T21:04:47Z,past,agenda+,0
@@ -30,7 +30,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2157616652,true,Link rel=modulepreload synchronously fires `load` event if script exists in module map,https://github.com/whatwg/html/issues/10166,2024-02-27T21:18:33Z,2024-03-13T13:54:05Z,domfarolino,topic: script,1
 2155327927,false,Add `requestClose()` function to HTMLDialogElement,https://github.com/whatwg/html/issues/10164,2024-02-26T23:05:58Z,2024-03-02T01:04:52Z,lukewarlow,addition/proposal|needs implementer interest,0
 2155148232,true,Making the WHATNOT meeting cadence weekly,https://github.com/whatwg/html/issues/10163,2024-02-26T21:13:14Z,2024-03-20T21:48:49Z,past,,0
-2154687534,false,Provide a mechanism to trigger the fetch of compression dictionaries,https://github.com/whatwg/html/issues/10162,2024-02-26T17:10:28Z,2024-03-22T14:15:36Z,pmeenan,addition/proposal|needs implementer interest,0
+2154687534,false,Provide a mechanism to trigger the fetch of compression dictionaries,https://github.com/whatwg/html/issues/10162,2024-02-26T17:10:28Z,2024-03-25T08:37:41Z,pmeenan,addition/proposal|needs implementer interest,0
 2154517148,false,"textarea: attribute for content type ",https://github.com/whatwg/html/issues/10161,2024-02-26T15:55:13Z,2024-02-26T15:55:13Z,vanillajonathan,addition/proposal|needs implementer interest,0
 2153573873,false,Clarification for nested `kbd` elements,https://github.com/whatwg/html/issues/10160,2024-02-26T08:33:30Z,2024-03-05T15:08:34Z,j9t,,0
 2152371567,false,Clarify context of §4.12.2 the `<noscript>` element,https://github.com/whatwg/html/issues/10159,2024-02-24T15:49:18Z,2024-02-25T23:12:35Z,doriantaylor,,0
@@ -2013,7 +2013,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 533886020,true,Refresh HTTP header section doesn't link to definition,https://github.com/whatwg/html/issues/5136,2019-12-06T10:46:15Z,2022-04-29T20:03:50Z,zcorpan,clarification,0
 533763239,true,Reslove Blob to an existing ArrayBuffer,https://github.com/whatwg/html/issues/5135,2019-12-06T05:58:30Z,2019-12-06T06:27:29Z,Zhang-Junzhi,,0
 533643144,false,"Allow rel=""noopener"" on links with target=""_self""",https://github.com/whatwg/html/issues/5134,2019-12-05T22:48:33Z,2020-01-13T14:01:05Z,bokand,addition/proposal|needs implementer interest|topic: hyperlink,0
-533453283,false,[Meta issue] Fix external references to HTML user activation behavior,https://github.com/whatwg/html/issues/5129,2019-12-05T16:19:28Z,2022-05-05T11:28:45Z,mustaqahmed,topic: user activation,0
+533453283,false,[Meta issue] Fix external references to HTML user activation behavior,https://github.com/whatwg/html/issues/5129,2019-12-05T16:19:28Z,2024-03-25T07:22:41Z,mustaqahmed,topic: user activation,0
 533196259,true,Discourage use of document.domain,https://github.com/whatwg/html/issues/5128,2019-12-05T08:23:49Z,2020-07-10T16:21:08Z,zcorpan,removal/deprecation|topic: origin|impacts documentation,6
 532885949,true,Clarify how to handle postMessage-ing a closing/closed DedicatedWorker,https://github.com/whatwg/html/issues/5125,2019-12-04T19:26:32Z,2019-12-04T22:14:53Z,perryjiang,,0
 532843497,false,"Add a resize observer step to the ""update the rendering"" steps",https://github.com/whatwg/html/issues/5124,2019-12-04T17:56:04Z,2019-12-05T10:57:27Z,smfr,topic: rendering|integration,2
