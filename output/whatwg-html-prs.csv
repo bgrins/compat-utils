@@ -1,12 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2205916065,false,Editorial: order of comparisons,https://github.com/whatwg/html/pull/10224,2024-03-25T14:37:44Z,2024-03-25T14:39:39Z,annevk,,0
-2202742859,false,Improve element reflection,https://github.com/whatwg/html/pull/10221,2024-03-22T15:18:13Z,2024-03-25T14:41:16Z,annevk,,0
+2205916065,true,Editorial: order of comparisons,https://github.com/whatwg/html/pull/10224,2024-03-25T14:37:44Z,2024-03-26T06:13:32Z,annevk,,0
+2202742859,true,Improve element reflection,https://github.com/whatwg/html/pull/10221,2024-03-22T15:18:13Z,2024-03-26T08:20:20Z,annevk,topic: reflect,0
 2197161842,false,[render-blocking] Fix implicitly-render-blocking definition.,https://github.com/whatwg/html/pull/10214,2024-03-20T10:17:39Z,2024-03-20T13:04:12Z,emilio,,0
-2195297333,false,Preload: only allow certain values for the `as` attribute,https://github.com/whatwg/html/pull/10212,2024-03-19T15:31:54Z,2024-03-19T16:14:16Z,noamr,,0
-2188509128,false,Disable PageSwapEvent.activation when navigation has cross-origin red…,https://github.com/whatwg/html/pull/10207,2024-03-15T13:23:54Z,2024-03-25T13:31:16Z,noamr,,0
+2195297333,false,Preload: only allow certain values for the `as` attribute,https://github.com/whatwg/html/pull/10212,2024-03-19T15:31:54Z,2024-03-26T11:55:41Z,noamr,,0
+2188509128,false,Disable PageSwapEvent.activation when navigation has cross-origin red…,https://github.com/whatwg/html/pull/10207,2024-03-15T13:23:54Z,2024-03-26T09:48:36Z,noamr,,0
 2186605860,false,Update HostEnsureCanCompileStrings definition,https://github.com/whatwg/html/pull/10204,2024-03-14T15:03:04Z,2024-03-15T15:17:28Z,lukewarlow,,0
 2184548191,true,Upstream IDL changes from Trusted Types,https://github.com/whatwg/html/pull/10199,2024-03-13T17:32:11Z,2024-03-19T11:39:29Z,lukewarlow,,0
-2184496735,false,Upstream long-animation-frames monkey-patches,https://github.com/whatwg/html/pull/10198,2024-03-13T17:02:02Z,2024-03-18T13:32:10Z,noamr,integration|topic: timing,0
+2184496735,false,Upstream long-animation-frames monkey-patches,https://github.com/whatwg/html/pull/10198,2024-03-13T17:02:02Z,2024-03-26T09:24:55Z,noamr,integration|topic: timing,0
 2183409617,true,Fix: Editorial - link Promise<T> type throughout #9987,https://github.com/whatwg/html/pull/10197,2024-03-13T08:36:14Z,2024-03-15T08:02:24Z,tawandamoyo,,0
 2176725898,false,Support automatic user prompt handing in WebDriver BiDi,https://github.com/whatwg/html/pull/10189,2024-03-08T20:31:39Z,2024-03-08T20:31:43Z,jgraham,,0
 2176615177,false,Use DOM's post-insertion steps for `<script>` elements,https://github.com/whatwg/html/pull/10188,2024-03-08T19:04:28Z,2024-03-13T23:01:55Z,domfarolino,topic: script,0
@@ -30,7 +30,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2141556349,true,Meta: Dark mode fixes,https://github.com/whatwg/html/pull/10144,2024-02-19T05:44:57Z,2024-02-21T06:12:46Z,andreubotella,,0
 2137817129,true,Change dir=auto to fall back to ltr rather than inheriting,https://github.com/whatwg/html/pull/10140,2024-02-16T03:43:35Z,2024-02-22T18:42:36Z,dbaron,,0
 2137794594,false,Add getHTML() and the serializable concept,https://github.com/whatwg/html/pull/10139,2024-02-16T03:10:47Z,2024-03-25T20:10:59Z,mfreed7,,0
-2133052396,false,Call the view-transition page-visibility change steps,https://github.com/whatwg/html/pull/10137,2024-02-13T20:10:41Z,2024-03-25T09:55:35Z,noamr,,0
+2133052396,false,Call the view-transition page-visibility change steps,https://github.com/whatwg/html/pull/10137,2024-02-13T20:10:41Z,2024-03-26T11:00:49Z,noamr,,0
 2127277528,false,Add navigation started before other navigation events for WebDriver BiDi,https://github.com/whatwg/html/pull/10132,2024-02-09T14:39:39Z,2024-02-13T06:02:48Z,jrandolf,topic: navigation,0
 2126643489,true,[WIP] Add may-block reasons for NotRestoredReasons,https://github.com/whatwg/html/pull/10131,2024-02-09T07:55:49Z,2024-03-06T07:50:06Z,rubberyuzu,,0
 2126638785,true,Fix off-by-one error in navigation.canGoForward,https://github.com/whatwg/html/pull/10130,2024-02-09T07:51:29Z,2024-02-09T08:09:41Z,domenic,topic: navigation,0
@@ -42,7 +42,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2115382835,false,Fix #4532: language sensitivity of autocap,https://github.com/whatwg/html/pull/10119,2024-02-02T17:11:41Z,2024-02-09T12:05:58Z,aphillips,clarification,0
 2115089069,true,Editorial: Set dfn-type on remaining interfaces,https://github.com/whatwg/html/pull/10118,2024-02-02T14:38:20Z,2024-02-02T15:17:04Z,dontcallmedom,,0
 2113908791,true,Add `shadowrootclonable` and make declarative shadow roots not `clonable` by default,https://github.com/whatwg/html/pull/10117,2024-02-02T02:36:20Z,2024-02-13T12:32:35Z,mfreed7,normative change|addition/proposal|topic: shadow,0
-2110443103,false,Allow top layer elements to be nested within popovers,https://github.com/whatwg/html/pull/10116,2024-01-31T16:04:56Z,2024-03-20T14:51:59Z,josepharhar,normative change|topic: dialog|topic: popover,0
+2110443103,true,Allow top layer elements to be nested within popovers,https://github.com/whatwg/html/pull/10116,2024-01-31T16:04:56Z,2024-03-26T05:46:08Z,josepharhar,normative change|topic: dialog|topic: popover,0
 2106618808,true,Change,https://github.com/whatwg/html/pull/10109,2024-01-29T23:22:50Z,2024-01-29T23:58:17Z,Tsiangana,spam|invalid,0
 2105509288,false,fixed typo from null to path (whatwg#10053),https://github.com/whatwg/html/pull/10105,2024-01-29T13:30:58Z,2024-02-06T05:19:11Z,chaburk,,0
 2105077552,true,Editorial: Remove outdated reference to ParseScript,https://github.com/whatwg/html/pull/10102,2024-01-29T09:47:51Z,2024-01-31T01:32:20Z,Ms2ger,topic: script|editorial,0
