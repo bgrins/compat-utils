@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2209037814,false,"""create navigation params by fetching"" endless loop",https://github.com/whatwg/html/issues/10227,2024-03-26T18:40:29Z,2024-03-26T18:41:59Z,kalenikaliaksandr,topic: navigation,0
+2209037814,true,"""create navigation params by fetching"" endless loop",https://github.com/whatwg/html/issues/10227,2024-03-26T18:40:29Z,2024-03-27T19:58:10Z,kalenikaliaksandr,topic: navigation,0
 2205752247,true,"Popover (popovertargetaction=""hide"") not work if I add attributes for SVG",https://github.com/whatwg/html/issues/10223,2024-03-25T13:19:49Z,2024-03-25T16:38:24Z,promocot,topic: popover,0
 2203081444,true,Should the UA stylesheet render li elements with markers if the li is not within a list?,https://github.com/whatwg/html/issues/10222,2024-03-22T18:32:45Z,2024-03-27T11:09:45Z,scottaohara,topic: rendering,0
 2202549680,false,Allow a form in shadow DOM to be the form owner of light DOM fields,https://github.com/whatwg/html/issues/10220,2024-03-22T13:52:14Z,2024-03-25T16:40:31Z,jakearchibald,addition/proposal|needs implementer interest|topic: shadow|topic: custom elements|topic: forms,3
@@ -54,7 +54,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2131637069,false,Storage event should probably fire on Document that didn't call localStorage getter,https://github.com/whatwg/html/issues/10135,2024-02-13T07:39:08Z,2024-03-04T12:03:00Z,Kaiido,topic: storage,0
 2131114678,false,Define interaction with `field-sizing` CSS property and inline writing suggestions,https://github.com/whatwg/html/issues/10134,2024-02-12T22:40:49Z,2024-02-12T22:41:47Z,zcorpan,topic: rendering|topic: forms,0
 2128542188,false,Update UA stylesheet rules to use `:any-link` instead of `:visited` or `:link`,https://github.com/whatwg/html/issues/10133,2024-02-10T15:22:00Z,2024-02-13T12:15:47Z,Ahmad-S792,topic: rendering,1
-2126182910,false,attribute change steps for popover may fire events synchronously,https://github.com/whatwg/html/issues/10129,2024-02-08T22:38:18Z,2024-02-16T18:34:47Z,smaug----,topic: popover,0
+2126182910,false,attribute change steps for popover may fire events synchronously,https://github.com/whatwg/html/issues/10129,2024-02-08T22:38:18Z,2024-03-27T20:47:50Z,smaug----,topic: popover,0
 2125746092,true,Upcoming WHATNOT meeting on 2/22/2024,https://github.com/whatwg/html/issues/10128,2024-02-08T17:42:10Z,2024-02-22T20:15:03Z,past,agenda+,0
 2121766567,false,Read-only state for buttons?,https://github.com/whatwg/html/issues/10125,2024-02-06T22:21:48Z,2024-02-10T22:04:27Z,mbgower,,10
 2116952689,true,Why does popover hide when the popover attribute changed,https://github.com/whatwg/html/issues/10123,2024-02-04T08:19:36Z,2024-02-06T19:23:32Z,woody-li,clarification|topic: popover,0
@@ -1025,7 +1025,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1127115952,false,Consider not exposing ErrorEvent/PromiseRejectionEvent in ShadowRealms,https://github.com/whatwg/html/issues/7591,2022-02-08T11:14:29Z,2023-01-27T08:47:01Z,smaug----,topic: multiple globals|integration,0
 1126672278,false,Deprecate <rp> element,https://github.com/whatwg/html/issues/7590,2022-02-08T01:04:58Z,2023-10-26T11:37:35Z,NagayamaToshiaki,removal/deprecation|document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,3
 1126330353,true,"""prepare a script"" could be more precise about documents",https://github.com/whatwg/html/issues/7589,2022-02-07T18:11:42Z,2022-05-18T23:42:17Z,domenic,clarification|topic: script,1
-1125672254,false,Reconsider the `<rb>` element,https://github.com/whatwg/html/issues/7587,2022-02-07T08:36:17Z,2022-02-17T11:11:35Z,NagayamaToshiaki,i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,1
+1125672254,false,Reconsider the `<rb>` element,https://github.com/whatwg/html/issues/7587,2022-02-07T08:36:17Z,2024-03-27T22:56:14Z,NagayamaToshiaki,i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,1
 1125254296,true,"""Focusing steps"" doesn't initially indicate that ""new focus target"" can be null",https://github.com/whatwg/html/issues/7585,2022-02-06T16:50:25Z,2022-02-07T00:33:18Z,awesomekling,,0
 1125018380,false,Icon sources with multiple embedded icons,https://github.com/whatwg/html/issues/7584,2022-02-05T20:01:01Z,2022-02-16T16:29:16Z,bramus,interop|integration,0
 1123864075,false,Proposal: EnforceRange or Clamp to CreateImageBitmap when param is bigger than max value of signed int.,https://github.com/whatwg/html/issues/7583,2022-02-04T06:31:00Z,2022-02-08T15:55:27Z,thebluewhale,normative change|needs implementer interest|topic: canvas,0
@@ -2536,7 +2536,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 383304020,true,Should clearly define that the ordinary object internal methods are used when not stated otherwise for WindowProxy and Location,https://github.com/whatwg/html/issues/4189,2018-11-21T21:49:36Z,2018-11-27T14:13:43Z,bzbarsky,,0
 383274575,false,Definition of stable state in terms of microtasks does not seem to match browsers,https://github.com/whatwg/html/issues/4188,2018-11-21T20:04:20Z,2019-01-24T01:57:02Z,bzbarsky,topic: event loop,0
 383218019,true,Proposal: allow a mode of form.submit() that behaves like clicking a submit button,https://github.com/whatwg/html/issues/4187,2018-11-21T17:13:17Z,2019-05-16T19:06:55Z,domenic,addition/proposal|topic: forms,8
-382252874,false,<input type=checkbox switch>,https://github.com/whatwg/html/issues/4180,2018-11-19T14:59:03Z,2024-03-22T18:59:22Z,atishay,addition/proposal|topic: rendering|accessibility|topic: forms|a11y-tracker,58
+382252874,false,<input type=checkbox switch>,https://github.com/whatwg/html/issues/4180,2018-11-19T14:59:03Z,2024-03-27T18:32:55Z,atishay,addition/proposal|topic: rendering|accessibility|topic: forms|a11y-tracker,58
 381558762,true,Consider downloading rather than rendering resources delivered over FTP.,https://github.com/whatwg/html/issues/4178,2018-11-16T11:22:50Z,2018-12-13T14:59:42Z,mikewest,addition/proposal|topic: navigation,1
 381175681,true,Rendering <input type=range> vertically,https://github.com/whatwg/html/issues/4177,2018-11-15T14:05:52Z,2024-03-04T07:10:36Z,MatsPalmgren,topic: rendering|topic: forms,8
 380737191,false,Potentially don't revalidate /favicon.ico fetches,https://github.com/whatwg/html/issues/4176,2018-11-14T14:58:42Z,2018-11-14T16:38:09Z,annevk,compat|topic: link,0
@@ -3158,7 +3158,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 259123958,true,Resolving modules via definition,https://github.com/whatwg/html/issues/3056,2017-09-20T11:02:59Z,2017-09-20T14:33:55Z,WebReflection,topic: script,3
 258969780,false,should BroadcastChannel be disabled if a window does not have access to storage?,https://github.com/whatwg/html/issues/3054,2017-09-19T21:27:08Z,2020-09-17T10:09:21Z,wanderview,security/privacy|topic: workers|topic: serialize and transfer,0
 258790619,true,ノコギリ　,https://github.com/whatwg/html/issues/3053,2017-09-19T11:43:17Z,2017-09-19T11:50:37Z,hanawa-suzuki,,0
-258746399,false,"Consider something like a ""Trusted Type"" system for DOM manipulation.",https://github.com/whatwg/html/issues/3052,2017-09-19T09:02:20Z,2019-11-15T12:45:57Z,mikewest,addition/proposal|needs implementer interest,1
+258746399,true,"Consider something like a ""Trusted Type"" system for DOM manipulation.",https://github.com/whatwg/html/issues/3052,2017-09-19T09:02:20Z,2024-03-27T18:35:53Z,mikewest,addition/proposal|needs implementer interest,1
 258663705,true,Is W3C or WHATWG have any plans for template or other way data binding?,https://github.com/whatwg/html/issues/3051,2017-09-19T00:57:22Z,2017-09-19T11:53:15Z,baocang,,0
 258026832,true,"Section 4.13.5 Upgrades, step 3, doesn't mention observedAttributes",https://github.com/whatwg/html/issues/3048,2017-09-15T12:42:35Z,2017-09-15T13:17:53Z,Jeff17Robbins,topic: custom elements,0
 257682527,false,Update registerProtocolHandler() and unregisterProtocolHandler(),https://github.com/whatwg/html/issues/3043,2017-09-14T11:15:55Z,2020-08-06T08:05:17Z,annevk,clarification|interop|topic: custom protocols,0
