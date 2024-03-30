@@ -1,10 +1,10 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2215703317,false,onfocusout and onfocusin event handler content attributes,https://github.com/whatwg/html/issues/10234,2024-03-29T17:01:20Z,2024-03-29T18:40:04Z,josepharhar,,0
-2215614119,false,Support `json`/`style` as `modulepreload` destinations,https://github.com/whatwg/html/issues/10233,2024-03-29T15:56:34Z,2024-03-29T15:56:34Z,noamr,,0
+2215614119,false,Support `json`/`style` as `modulepreload` destinations,https://github.com/whatwg/html/issues/10233,2024-03-29T15:56:34Z,2024-03-30T07:57:04Z,noamr,topic: script|topic: resource hints (inc. preload),0
 2215396864,false,"""apply the history step"" fails if multiple sync navigations happened",https://github.com/whatwg/html/issues/10232,2024-03-29T13:45:02Z,2024-03-29T13:45:25Z,kalenikaliaksandr,topic: navigation,0
-2215294039,true,"""json"" as the fetch destination for json modules is inconsistent with regular json fetches",https://github.com/whatwg/html/issues/10231,2024-03-29T12:58:37Z,2024-03-29T14:02:27Z,noamr,,0
+2215294039,true,"""json"" as the fetch destination for json modules is inconsistent with regular json fetches",https://github.com/whatwg/html/issues/10231,2024-03-29T12:58:37Z,2024-03-30T07:35:08Z,noamr,,0
 2213711654,false,Upcoming WHATNOT meeting on 4/4/2024,https://github.com/whatwg/html/issues/10229,2024-03-28T17:00:52Z,2024-03-28T17:00:53Z,past,agenda+,0
-2212774031,false,Guarantee synchronous creation of Workers under limited conditions?,https://github.com/whatwg/html/issues/10228,2024-03-28T09:42:54Z,2024-03-29T19:44:43Z,juj,addition/proposal|needs implementer interest|topic: workers,0
+2212774031,false,Guarantee synchronous creation of Workers under limited conditions?,https://github.com/whatwg/html/issues/10228,2024-03-28T09:42:54Z,2024-03-30T08:47:00Z,juj,addition/proposal|needs implementer interest|topic: workers,0
 2209037814,true,"""create navigation params by fetching"" endless loop",https://github.com/whatwg/html/issues/10227,2024-03-26T18:40:29Z,2024-03-27T19:58:10Z,kalenikaliaksandr,topic: navigation,0
 2205752247,true,"Popover (popovertargetaction=""hide"") not work if I add attributes for SVG",https://github.com/whatwg/html/issues/10223,2024-03-25T13:19:49Z,2024-03-25T16:38:24Z,promocot,topic: popover,0
 2203081444,true,Should the UA stylesheet render li elements with markers if the li is not within a list?,https://github.com/whatwg/html/issues/10222,2024-03-22T18:32:45Z,2024-03-27T11:09:45Z,scottaohara,topic: rendering,0
@@ -733,7 +733,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1400696912,false,Editorial: consider using Infra maps instead of JS-spec Records more often,https://github.com/whatwg/html/issues/8363,2022-10-07T06:43:25Z,2022-10-07T06:43:25Z,domenic,clarification|integration,0
 1400071766,false,Allow workers & shared workers to be created within a service worker,https://github.com/whatwg/html/issues/8362,2022-10-06T17:41:40Z,2024-01-29T04:00:31Z,ian97531,addition/proposal|needs implementer interest|topic: workers,7
 1399126032,false,How do shadow roots and slots interact with the content model?,https://github.com/whatwg/html/issues/8361,2022-10-06T08:47:59Z,2022-10-07T10:52:20Z,castholm,,0
-1398190934,false,Proposal: showEmojiPicker() on HTMLInputElement/HTMLTextareaElement,https://github.com/whatwg/html/issues/8358,2022-10-05T18:23:44Z,2022-10-06T14:31:19Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,83
+1398190934,false,Proposal: showEmojiPicker() on HTMLInputElement/HTMLTextareaElement,https://github.com/whatwg/html/issues/8358,2022-10-05T18:23:44Z,2022-10-06T14:31:19Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,84
 1397339666,false,Add external import maps,https://github.com/whatwg/html/issues/8355,2022-10-05T07:08:53Z,2022-10-06T15:43:39Z,annevk,addition/proposal|topic: script,1
 1396727910,false,"Which type of replaced elements should a ""`<img>` with empty src or without src"" be treated",https://github.com/whatwg/html/issues/8354,2022-10-04T19:11:52Z,2022-10-14T18:58:36Z,cathiechen,topic: rendering|topic: img,0
 1396199556,true,Consistify spelling of realm,https://github.com/whatwg/html/issues/8353,2022-10-04T12:32:09Z,2022-10-06T07:14:58Z,annevk,clarification,0
@@ -1011,7 +1011,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1153590526,true,Input type=email regex doesn't require TLD characters,https://github.com/whatwg/html/issues/7667,2022-02-28T03:47:39Z,2022-02-28T04:16:25Z,poebrand,,0
 1149731909,true,Should focused elements get blur and change events when they are removed from the document?,https://github.com/whatwg/html/issues/7660,2022-02-24T20:45:53Z,2022-02-24T20:57:47Z,josepharhar,,0
 1149196153,false,Should focus affect selection?,https://github.com/whatwg/html/issues/7657,2022-02-24T11:53:16Z,2022-03-23T13:58:01Z,annevk,topic: focus,0
-1147133455,false,Create a link with a query to search on the user chosen default search engine,https://github.com/whatwg/html/issues/7652,2022-02-22T16:40:17Z,2023-11-22T12:38:59Z,felquis,addition/proposal|needs implementer interest|topic: navigation,0
+1147133455,false,Create a link with a query to search on the user chosen default search engine,https://github.com/whatwg/html/issues/7652,2022-02-22T16:40:17Z,2024-03-30T11:59:28Z,felquis,addition/proposal|needs implementer interest|topic: navigation,0
 1146305197,false,Specify the `hidden` attribute as a presentational hint,https://github.com/whatwg/html/issues/7650,2022-02-21T23:24:56Z,2022-02-21T23:25:14Z,zcorpan,topic: rendering,2
 1143250462,false,"Interop issue with canvas globalCompositeOperation ""normal"" value",https://github.com/whatwg/html/issues/7637,2022-02-18T15:20:39Z,2023-04-01T21:19:42Z,domenic,topic: canvas|interop,1
 1142131711,true,Web IDL validation errors,https://github.com/whatwg/html/issues/7634,2022-02-18T00:53:12Z,2022-03-07T15:55:34Z,autokagami,topic: canvas,1
