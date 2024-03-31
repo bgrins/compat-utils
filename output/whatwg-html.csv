@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2215703317,false,onfocusout and onfocusin event handler content attributes,https://github.com/whatwg/html/issues/10234,2024-03-29T17:01:20Z,2024-03-29T18:40:04Z,josepharhar,,0
-2215614119,false,Support `json`/`style` as `modulepreload` destinations,https://github.com/whatwg/html/issues/10233,2024-03-29T15:56:34Z,2024-03-30T07:57:04Z,noamr,topic: script|topic: resource hints (inc. preload),0
+2215614119,false,Support `json`/`style` as `modulepreload` destinations,https://github.com/whatwg/html/issues/10233,2024-03-29T15:56:34Z,2024-03-31T11:07:05Z,noamr,topic: script|topic: resource hints (inc. preload),0
 2215396864,false,"""apply the history step"" fails if multiple sync navigations happened",https://github.com/whatwg/html/issues/10232,2024-03-29T13:45:02Z,2024-03-29T13:45:25Z,kalenikaliaksandr,topic: navigation,0
 2215294039,true,"""json"" as the fetch destination for json modules is inconsistent with regular json fetches",https://github.com/whatwg/html/issues/10231,2024-03-29T12:58:37Z,2024-03-30T07:35:08Z,noamr,,0
 2213711654,false,Upcoming WHATNOT meeting on 4/4/2024,https://github.com/whatwg/html/issues/10229,2024-03-28T17:00:52Z,2024-03-28T17:00:53Z,past,agenda+,0
@@ -1311,7 +1311,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 932036472,false,Add modern binary encoding APIs,https://github.com/whatwg/html/issues/6811,2021-06-28T22:16:20Z,2021-07-07T15:59:23Z,lucacasonato,addition/proposal|needs implementer interest,5
 931716900,false,srcdoc and sandbox interaction with session history,https://github.com/whatwg/html/issues/6809,2021-06-28T15:54:01Z,2023-02-28T15:24:37Z,jakearchibald,topic: history,0
 930791283,true,Foster parenting doesn't happen for HTML elements in foreign content,https://github.com/whatwg/html/issues/6808,2021-06-26T20:43:24Z,2021-07-19T12:18:56Z,stevecheckoway,,1
-930577715,true,Allow <textarea> to size to its contents like <div contenteditable>,https://github.com/whatwg/html/issues/6807,2021-06-26T00:42:53Z,2024-02-06T05:36:32Z,randfur,addition/proposal|needs implementer interest|topic: rendering|topic: forms|topic: editing,1
+930577715,true,Allow <textarea> to size to its contents like <div contenteditable>,https://github.com/whatwg/html/issues/6807,2021-06-26T00:42:53Z,2024-02-06T05:36:32Z,randfur,addition/proposal|needs implementer interest|topic: rendering|topic: forms|topic: editing,2
 930149106,true,"In user activation algorithms, ""current high resolution time"" is called without a global",https://github.com/whatwg/html/issues/6806,2021-06-25T12:54:53Z,2022-03-15T15:24:18Z,yoavweiss,good first issue,0
 928256156,true,How javascript URLs interact with session history,https://github.com/whatwg/html/issues/6798,2021-06-23T13:24:11Z,2022-10-31T05:07:06Z,jakearchibald,topic: history|topic: javascript: URLs,0
 927621196,true,pageshow bubbles in browsers but not in the spec,https://github.com/whatwg/html/issues/6794,2021-06-22T20:48:41Z,2021-06-24T16:12:38Z,domenic,topic: events|topic: document lifecycle,0
@@ -3546,7 +3546,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 208900934,true,"What sort of things does the ""construction stack"" of a custom element definition store?",https://github.com/whatwg/html/issues/2374,2017-02-20T14:50:04Z,2017-10-13T21:02:22Z,bzbarsky,clarification|topic: custom elements,0
 208423629,false,"""If the user agent exposes a user interface to the user by displaying controls over the media element, then the user agent should suppress any user interaction events while the user agent is interacting with this interface. "" is super vague",https://github.com/whatwg/html/issues/2370,2017-02-17T12:09:21Z,2017-02-17T12:37:01Z,smaug----,topic: media|topic: events,0
 208403836,true,Consider hiding `nonce` content attributes.,https://github.com/whatwg/html/issues/2369,2017-02-17T10:45:39Z,2017-11-22T15:15:54Z,mikewest,topic: parser|security/privacy,0
-208401874,false,Mouse events & disabled form controls,https://github.com/whatwg/html/issues/2368,2017-02-17T10:38:34Z,2024-02-04T16:31:15Z,jakearchibald,topic: forms|topic: events|interop,7
+208401874,false,Mouse events & disabled form controls,https://github.com/whatwg/html/issues/2368,2017-02-17T10:38:34Z,2024-02-04T16:31:15Z,jakearchibald,topic: forms|topic: events|interop,8
 208399800,false,"Sort out <link rel=""alternate stylesheet"" title="""">.sheet",https://github.com/whatwg/html/issues/2367,2017-02-17T10:30:24Z,2017-09-04T11:14:44Z,zcorpan,topic: link|topic: style,0
 208241208,false,Should we allow delaying video preload until it becomes visible?,https://github.com/whatwg/html/issues/2364,2017-02-16T20:46:23Z,2024-01-29T15:45:38Z,xxyzzzq,topic: media,3
 208026022,true,"Should clarify the ""scope"" of [CEReactions]",https://github.com/whatwg/html/issues/2362,2017-02-16T06:00:12Z,2017-02-22T14:27:42Z,bzbarsky,topic: custom elements,0
