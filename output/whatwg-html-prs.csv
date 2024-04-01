@@ -1,12 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2217934003,false,Warn that the XML syntax is not recommended,https://github.com/whatwg/html/pull/10239,2024-04-01T09:47:40Z,2024-04-01T09:49:23Z,sideshowbarker,,0
 2216408799,false,Add `relatedTarget` to `ToggleEvent` for use in popover `beforetoggle`,https://github.com/whatwg/html/pull/10236,2024-03-30T11:57:29Z,2024-03-30T12:36:53Z,jpzwarte,,0
-2215871180,false,Add focusin and focusout events,https://github.com/whatwg/html/pull/10235,2024-03-29T18:59:53Z,2024-03-29T19:03:42Z,josepharhar,,1
+2215871180,false,Add focusin and focusout events,https://github.com/whatwg/html/pull/10235,2024-03-29T18:59:53Z,2024-04-01T05:08:16Z,josepharhar,topic: focus,1
 2214634160,false,Editorial: remove unreachable step for inline module scripts,https://github.com/whatwg/html/pull/10230,2024-03-29T04:34:00Z,2024-03-29T04:35:43Z,domenic,clarification|topic: script,0
 2208272187,false,Set iframe lazy load resumption steps to null on navigation,https://github.com/whatwg/html/pull/10226,2024-03-26T13:34:04Z,2024-03-29T22:23:41Z,zcorpan,,0
 2205916065,true,Editorial: order of comparisons,https://github.com/whatwg/html/pull/10224,2024-03-25T14:37:44Z,2024-03-26T06:13:32Z,annevk,,0
 2202742859,true,Improve element reflection,https://github.com/whatwg/html/pull/10221,2024-03-22T15:18:13Z,2024-03-26T08:20:20Z,annevk,topic: reflect,0
 2197161842,false,[render-blocking] Fix implicitly-render-blocking definition.,https://github.com/whatwg/html/pull/10214,2024-03-20T10:17:39Z,2024-03-20T13:04:12Z,emilio,,0
-2195297333,false,Preload: only allow certain values for the `as` attribute,https://github.com/whatwg/html/pull/10212,2024-03-19T15:31:54Z,2024-03-29T09:27:22Z,noamr,,0
+2195297333,true,Preload: only allow certain values for the `as` attribute,https://github.com/whatwg/html/pull/10212,2024-03-19T15:31:54Z,2024-04-01T04:39:45Z,noamr,topic: resource hints (inc. preload),0
 2188509128,true,Disable PageSwapEvent.activation when navigation has cross-origin red…,https://github.com/whatwg/html/pull/10207,2024-03-15T13:23:54Z,2024-03-27T02:28:13Z,noamr,topic: navigation,0
 2186605860,false,Update HostEnsureCanCompileStrings definition,https://github.com/whatwg/html/pull/10204,2024-03-14T15:03:04Z,2024-03-15T15:17:28Z,lukewarlow,,0
 2184548191,true,Upstream IDL changes from Trusted Types,https://github.com/whatwg/html/pull/10199,2024-03-13T17:32:11Z,2024-03-19T11:39:29Z,lukewarlow,,0
@@ -34,7 +35,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2141556349,true,Meta: Dark mode fixes,https://github.com/whatwg/html/pull/10144,2024-02-19T05:44:57Z,2024-02-21T06:12:46Z,andreubotella,,0
 2137817129,true,Change dir=auto to fall back to ltr rather than inheriting,https://github.com/whatwg/html/pull/10140,2024-02-16T03:43:35Z,2024-02-22T18:42:36Z,dbaron,,0
 2137794594,false,Add getHTML() and the serializable concept,https://github.com/whatwg/html/pull/10139,2024-02-16T03:10:47Z,2024-03-31T16:05:35Z,mfreed7,,0
-2133052396,false,Call the view-transition page-visibility change steps,https://github.com/whatwg/html/pull/10137,2024-02-13T20:10:41Z,2024-03-27T08:15:28Z,noamr,,0
+2133052396,false,Call the view-transition page-visibility change steps,https://github.com/whatwg/html/pull/10137,2024-02-13T20:10:41Z,2024-04-01T07:35:29Z,noamr,,0
 2127277528,false,Add navigation started before other navigation events for WebDriver BiDi,https://github.com/whatwg/html/pull/10132,2024-02-09T14:39:39Z,2024-02-13T06:02:48Z,jrandolf,topic: navigation,0
 2126643489,true,[WIP] Add may-block reasons for NotRestoredReasons,https://github.com/whatwg/html/pull/10131,2024-02-09T07:55:49Z,2024-03-06T07:50:06Z,rubberyuzu,,0
 2126638785,true,Fix off-by-one error in navigation.canGoForward,https://github.com/whatwg/html/pull/10130,2024-02-09T07:51:29Z,2024-02-09T08:09:41Z,domenic,topic: navigation,0
