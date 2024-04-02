@@ -1,20 +1,20 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2219283440,false,"""destroy a child navigable"" does not destroy a document",https://github.com/whatwg/html/issues/10242,2024-04-01T23:32:41Z,2024-04-01T23:32:41Z,kalenikaliaksandr,topic: navigation,0
-2219053968,false,Meta element and DOM post-insertion steps,https://github.com/whatwg/html/issues/10241,2024-04-01T21:00:03Z,2024-04-01T21:03:17Z,domfarolino,,0
-2218497679,false,[CloseWatcher] What mitigations are in place for closewatchers mutating while destroyed?,https://github.com/whatwg/html/issues/10240,2024-04-01T15:25:39Z,2024-04-01T15:25:39Z,keithamus,clarification,0
+2219283440,false,"""destroy a child navigable"" does not destroy a document",https://github.com/whatwg/html/issues/10242,2024-04-01T23:32:41Z,2024-04-02T02:44:47Z,kalenikaliaksandr,topic: navigation,0
+2219053968,false,Meta element and DOM post-insertion steps,https://github.com/whatwg/html/issues/10241,2024-04-01T21:00:03Z,2024-04-02T10:12:24Z,domfarolino,,0
+2218497679,false,Mutating the close watcher stack during a close request,https://github.com/whatwg/html/issues/10240,2024-04-01T15:25:39Z,2024-04-02T09:28:59Z,keithamus,topic: close watchers,0
 2217234812,false,<button> elements in button layout ignore `display: none;`,https://github.com/whatwg/html/issues/10238,2024-03-31T22:55:16Z,2024-04-01T03:47:22Z,Wuelle,topic: rendering,0
 2217182342,false,Declarative Shadow DOM for XML Syntax,https://github.com/whatwg/html/issues/10237,2024-03-31T21:05:45Z,2024-04-01T17:24:07Z,mossblaser,topic: parser,0
 2215703317,false,onfocusout and onfocusin event handler content attributes,https://github.com/whatwg/html/issues/10234,2024-03-29T17:01:20Z,2024-03-29T18:40:04Z,josepharhar,,0
 2215614119,false,Support `json`/`style` as `modulepreload` destinations,https://github.com/whatwg/html/issues/10233,2024-03-29T15:56:34Z,2024-03-31T11:07:05Z,noamr,topic: script|topic: resource hints (inc. preload),0
-2215396864,false,"""apply the history step"" fails if multiple sync navigations happened",https://github.com/whatwg/html/issues/10232,2024-03-29T13:45:02Z,2024-04-01T23:57:19Z,kalenikaliaksandr,topic: navigation,0
+2215396864,false,"""apply the history step"" fails if multiple sync navigations happened",https://github.com/whatwg/html/issues/10232,2024-03-29T13:45:02Z,2024-04-02T11:31:20Z,kalenikaliaksandr,topic: navigation,0
 2215294039,true,"""json"" as the fetch destination for json modules is inconsistent with regular json fetches",https://github.com/whatwg/html/issues/10231,2024-03-29T12:58:37Z,2024-03-30T07:35:08Z,noamr,,0
 2213711654,false,Upcoming WHATNOT meeting on 4/4/2024,https://github.com/whatwg/html/issues/10229,2024-03-28T17:00:52Z,2024-03-28T17:00:53Z,past,agenda+,0
-2212774031,false,Guarantee synchronous creation of Workers under limited conditions?,https://github.com/whatwg/html/issues/10228,2024-03-28T09:42:54Z,2024-03-30T08:47:00Z,juj,addition/proposal|needs implementer interest|topic: workers,0
+2212774031,false,Guarantee synchronous creation of Workers under limited conditions?,https://github.com/whatwg/html/issues/10228,2024-03-28T09:42:54Z,2024-04-02T11:29:33Z,juj,addition/proposal|needs implementer interest|topic: workers|needs tests,0
 2209037814,true,"""create navigation params by fetching"" endless loop",https://github.com/whatwg/html/issues/10227,2024-03-26T18:40:29Z,2024-03-27T19:58:10Z,kalenikaliaksandr,topic: navigation,0
 2205752247,true,"Popover (popovertargetaction=""hide"") not work if I add attributes for SVG",https://github.com/whatwg/html/issues/10223,2024-03-25T13:19:49Z,2024-03-25T16:38:24Z,promocot,topic: popover,0
 2203081444,true,Should the UA stylesheet render li elements with markers if the li is not within a list?,https://github.com/whatwg/html/issues/10222,2024-03-22T18:32:45Z,2024-03-27T11:09:45Z,scottaohara,topic: rendering,0
 2202549680,false,Allow a form in shadow DOM to be the form owner of light DOM fields,https://github.com/whatwg/html/issues/10220,2024-03-22T13:52:14Z,2024-03-25T16:40:31Z,jakearchibald,addition/proposal|needs implementer interest|topic: shadow|topic: custom elements|topic: forms,3
-2202124851,false,Reflected IDL attributes of type FrozenArray<T>? don't create a FrozenArray,https://github.com/whatwg/html/issues/10219,2024-03-22T09:57:41Z,2024-04-01T04:27:28Z,petervanderbeken,integration|topic: reflect,0
+2202124851,false,Reflected IDL attributes of type FrozenArray<T>? don't create a FrozenArray,https://github.com/whatwg/html/issues/10219,2024-03-22T09:57:41Z,2024-04-02T09:30:43Z,petervanderbeken,integration|topic: reflect,0
 2200902686,false,Form not submitted warning message before unload,https://github.com/whatwg/html/issues/10218,2024-03-21T18:39:07Z,2024-03-25T19:11:09Z,keithamus,addition/proposal|needs implementer interest,0
 2198694825,false,Recommend against using the <q> element (or fix its behavior),https://github.com/whatwg/html/issues/10216,2024-03-20T22:28:50Z,2024-03-21T17:00:29Z,jyasskin,removal/deprecation|addition/proposal|needs implementer interest|document conformance,1
 2198636898,true,Upcoming WHATNOT meeting on 3/28/2024,https://github.com/whatwg/html/issues/10215,2024-03-20T21:51:09Z,2024-03-28T17:02:57Z,past,agenda+,0
@@ -41,7 +41,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2161745995,false,Declaratively open popovers (and other elements?) on page load,https://github.com/whatwg/html/issues/10171,2024-02-29T17:19:04Z,2024-02-29T17:19:05Z,josepharhar,topic: dialog|topic: popover,0
 2160066080,false,Worklet termination,https://github.com/whatwg/html/issues/10169,2024-02-28T23:43:54Z,2024-03-04T08:12:24Z,daxpedda,addition/proposal|needs implementer interest|topic: worklets,0
 2157616652,true,Link rel=modulepreload synchronously fires `load` event if script exists in module map,https://github.com/whatwg/html/issues/10166,2024-02-27T21:18:33Z,2024-03-13T13:54:05Z,domfarolino,topic: script,1
-2155327927,false,Add `requestClose()` function to HTMLDialogElement,https://github.com/whatwg/html/issues/10164,2024-02-26T23:05:58Z,2024-03-02T01:04:52Z,lukewarlow,addition/proposal|needs implementer interest,0
+2155327927,false,Add `requestClose()` function to HTMLDialogElement,https://github.com/whatwg/html/issues/10164,2024-02-26T23:05:58Z,2024-04-02T08:55:25Z,lukewarlow,addition/proposal|needs implementer interest|topic: dialog|topic: close watchers,0
 2155148232,true,Making the WHATNOT meeting cadence weekly,https://github.com/whatwg/html/issues/10163,2024-02-26T21:13:14Z,2024-03-20T21:48:49Z,past,,0
 2154687534,false,Provide a mechanism to trigger the fetch of compression dictionaries,https://github.com/whatwg/html/issues/10162,2024-02-26T17:10:28Z,2024-03-25T08:37:41Z,pmeenan,addition/proposal|needs implementer interest,0
 2154517148,false,"textarea: attribute for content type ",https://github.com/whatwg/html/issues/10161,2024-02-26T15:55:13Z,2024-02-26T15:55:13Z,vanillajonathan,addition/proposal|needs implementer interest,0
@@ -112,8 +112,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2077589057,true,Upcoming WHATNOT meeting on 1/25/2024,https://github.com/whatwg/html/issues/10052,2024-01-11T21:08:45Z,2024-01-26T00:55:47Z,past,agenda+,0
 2076160228,false,Inheritance with shadow DOM for `spellcheck` attribute,https://github.com/whatwg/html/issues/10050,2024-01-11T09:40:09Z,2024-01-11T19:23:49Z,sanketj,topic: shadow|needs tests,0
 2075798919,false,"""in parallel"" in algorithm headers can be confusing",https://github.com/whatwg/html/issues/10049,2024-01-11T05:41:57Z,2024-01-11T09:42:35Z,domenic,clarification,1
-2075560644,false,Close watchers: detecting close requests vs. other closes,https://github.com/whatwg/html/issues/10047,2024-01-11T01:59:20Z,2024-03-04T04:44:03Z,domenic,normative change|topic: dialog,3
-2075526270,true,Close watchers: history-action user activation is consumed even for the first close watcher,https://github.com/whatwg/html/issues/10046,2024-01-11T01:22:58Z,2024-03-14T05:52:47Z,domenic,normative change|topic: dialog,1
+2075560644,false,Close watchers: detecting close requests vs. other closes,https://github.com/whatwg/html/issues/10047,2024-01-11T01:59:20Z,2024-04-02T08:53:16Z,domenic,normative change|topic: dialog|topic: close watchers,3
+2075526270,true,Close watchers: history-action user activation is consumed even for the first close watcher,https://github.com/whatwg/html/issues/10046,2024-01-11T01:22:58Z,2024-04-02T08:54:10Z,domenic,normative change|topic: dialog|topic: close watchers,1
 2069375890,false,A way to disable animation of cancelled drag for editor apps like VS Code,https://github.com/whatwg/html/issues/10039,2024-01-08T00:28:08Z,2024-01-12T05:27:14Z,zcbenz,addition/proposal|needs implementer interest,1
 2069074912,true,Should past user activations be kept after refresh?,https://github.com/whatwg/html/issues/10038,2024-01-07T10:29:21Z,2024-01-07T11:44:31Z,CanadaHonk,,0
 2067099612,false,ARIA attribute reflection uses DOMString? but they are not enumerated attributes,https://github.com/whatwg/html/issues/10037,2024-01-05T10:28:24Z,2024-01-12T02:19:19Z,domenic,a11y-tracker|topic: reflect,0
@@ -380,7 +380,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1740428387,false,Add `class` & `for` aliases for `className` and `htmlFor`,https://github.com/whatwg/html/issues/9379,2023-06-04T15:17:46Z,2023-06-06T10:05:13Z,jakearchibald,addition/proposal|needs implementer interest,189
 1738596106,false,Should we deprecate `dialog.show()`?,https://github.com/whatwg/html/issues/9376,2023-06-02T18:02:06Z,2023-11-09T21:17:57Z,mfreed7,removal/deprecation|topic: dialog,15
 1738480470,true,Upcoming HTML standard issue triage meeting on 6/15/2023,https://github.com/whatwg/html/issues/9375,2023-06-02T16:22:45Z,2023-06-15T17:55:09Z,past,agenda+,0
-1736830044,false,Add light dismiss functionality to `<dialog>`,https://github.com/whatwg/html/issues/9373,2023-06-01T18:07:13Z,2024-03-15T21:06:33Z,mfreed7,addition/proposal|needs implementer interest|topic: dialog,28
+1736830044,false,Add light dismiss functionality to `<dialog>`,https://github.com/whatwg/html/issues/9373,2023-06-01T18:07:13Z,2024-04-02T08:53:16Z,mfreed7,addition/proposal|needs implementer interest|topic: dialog|topic: close watchers,28
 1736289421,false,"The width attribute should not be a relevant mutation ",https://github.com/whatwg/html/issues/9371,2023-06-01T13:04:26Z,2023-06-01T13:04:26Z,zcorpan,topic: img,0
 1733790661,false,"When the popover attribute is removed, the hide popover algorithm will return too early",https://github.com/whatwg/html/issues/9367,2023-05-31T09:44:23Z,2023-06-26T18:46:04Z,mbrodesser-Igalia,topic: popover,0
 1733283807,true,auto popover list definition isn't quite correct,https://github.com/whatwg/html/issues/9366,2023-05-31T02:27:08Z,2023-06-06T05:20:53Z,nt1m,topic: popover,0
@@ -455,7 +455,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1663053673,true,"Potential error in connection between ""Document destroy"" and ""Document abort"" algorithms",https://github.com/whatwg/html/issues/9148,2023-04-11T19:02:43Z,2024-01-11T05:34:17Z,kalenikaliaksandr,,0
 1662945190,true,language of an attribute,https://github.com/whatwg/html/issues/9147,2023-04-11T17:35:46Z,2023-04-28T07:47:22Z,fantasai,i18n-tracker,0
 1662937464,false,"""The directionality of an attribute of an HTML"" seems weird?",https://github.com/whatwg/html/issues/9146,2023-04-11T17:29:12Z,2023-04-28T08:20:28Z,fantasai,i18n-tracker,0
-1661175493,true,popover light dismiss behavior is not specified for Esc key,https://github.com/whatwg/html/issues/9143,2023-04-10T18:32:47Z,2023-10-18T06:22:21Z,asurkov,topic: popover,1
+1661175493,true,popover light dismiss behavior is not specified for Esc key,https://github.com/whatwg/html/issues/9143,2023-04-10T18:32:47Z,2024-04-02T08:54:24Z,asurkov,topic: popover|topic: close watchers,1
 1659003302,true,Active frame element should also check if the document's browsing context is non-null,https://github.com/whatwg/html/issues/9136,2023-04-07T16:57:55Z,2023-04-28T07:31:26Z,Lubrsi,topic: browsing context,0
 1658639409,true,Form submission does a replace load depending on whether the form document has completely loaded,https://github.com/whatwg/html/issues/9135,2023-04-07T10:18:16Z,2023-05-10T07:04:47Z,petervanderbeken,topic: navigation|topic: forms,0
 1658447667,false,Navigation sourceDocument for browser-initiated navigations,https://github.com/whatwg/html/issues/9133,2023-04-07T06:56:05Z,2023-04-28T07:55:42Z,domenic,topic: navigation,0
@@ -1750,7 +1750,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 645123366,false,Permanent anchor for form submission,https://github.com/whatwg/html/issues/5672,2020-06-25T03:42:49Z,2020-06-26T01:17:18Z,mnot,anchor permanence,2
 644790152,false,COOP and multipart/x-mixed-replace,https://github.com/whatwg/html/issues/5670,2020-06-24T17:36:11Z,2021-09-13T13:51:36Z,domenic,topic: navigation|topic: cross-origin-opener-policy,0
 644789708,true,"COOP and HTTPS state ""deprecated""",https://github.com/whatwg/html/issues/5669,2020-06-24T17:35:30Z,2020-06-25T17:43:36Z,domenic,security/privacy|topic: cross-origin-opener-policy,0
-644471921,true,Enable support for<dialog> to be dismissed using the back button,https://github.com/whatwg/html/issues/5667,2020-06-24T09:40:43Z,2023-10-18T06:22:22Z,omzy,topic: dialog,0
+644471921,true,Enable support for<dialog> to be dismissed using the back button,https://github.com/whatwg/html/issues/5667,2020-06-24T09:40:43Z,2024-04-02T08:54:09Z,omzy,topic: dialog|topic: close watchers,0
 644001488,false,Structured cloning of Error .name,https://github.com/whatwg/html/issues/5665,2020-06-23T17:02:17Z,2023-02-24T15:27:46Z,Gozala,topic: serialize and transfer,0
 643263156,false,define text or if already defined put definition in more obvious place,https://github.com/whatwg/html/issues/5663,2020-06-22T18:01:44Z,2020-06-24T09:45:28Z,Nick-Levinson,clarification|document conformance,0
 643064493,true,no focus behavior is speced out for inert subtrees,https://github.com/whatwg/html/issues/5662,2020-06-22T13:18:02Z,2020-06-29T14:20:45Z,asurkov,topic: focus,0

@@ -1,8 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2217934003,false,Warn that the XML syntax is not recommended,https://github.com/whatwg/html/pull/10239,2024-04-01T09:47:40Z,2024-04-01T09:49:23Z,sideshowbarker,,0
+2217934003,false,Warn that the XML syntax is not recommended,https://github.com/whatwg/html/pull/10239,2024-04-01T09:47:40Z,2024-04-02T09:01:08Z,sideshowbarker,clarification|topic: parser,0
 2216408799,true,Add `relatedTarget` to `ToggleEvent` for use in popover `beforetoggle`,https://github.com/whatwg/html/pull/10236,2024-03-30T11:57:29Z,2024-04-01T17:28:58Z,jpzwarte,,0
-2215871180,false,Add focusin and focusout events,https://github.com/whatwg/html/pull/10235,2024-03-29T18:59:53Z,2024-04-02T00:14:14Z,josepharhar,topic: focus,1
-2214634160,false,Editorial: remove unreachable step for inline module scripts,https://github.com/whatwg/html/pull/10230,2024-03-29T04:34:00Z,2024-03-29T04:35:43Z,domenic,clarification|topic: script,0
+2215871180,false,Add focusin and focusout events,https://github.com/whatwg/html/pull/10235,2024-03-29T18:59:53Z,2024-04-02T04:28:30Z,josepharhar,topic: focus,1
+2214634160,false,Editorial: remove unreachable step for inline module scripts,https://github.com/whatwg/html/pull/10230,2024-03-29T04:34:00Z,2024-04-02T09:01:22Z,domenic,clarification|topic: script,0
 2208272187,false,Set iframe lazy load resumption steps to null on navigation,https://github.com/whatwg/html/pull/10226,2024-03-26T13:34:04Z,2024-03-29T22:23:41Z,zcorpan,,0
 2205916065,true,Editorial: order of comparisons,https://github.com/whatwg/html/pull/10224,2024-03-25T14:37:44Z,2024-03-26T06:13:32Z,annevk,,0
 2202742859,true,Improve element reflection,https://github.com/whatwg/html/pull/10221,2024-03-22T15:18:13Z,2024-03-26T08:20:20Z,annevk,topic: reflect,0
@@ -25,17 +25,17 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2166178669,true,"Fixes #9987: Editorial, linking Promise<T> type to Web IDL",https://github.com/whatwg/html/pull/10173,2024-03-04T08:00:44Z,2024-03-04T08:10:06Z,tawandamoyo,,0
 2164685774,false,Remove SVG Blob support from createImageBitmap,https://github.com/whatwg/html/pull/10172,2024-03-02T07:53:12Z,2024-03-04T08:31:54Z,Kaiido,removal/deprecation|topic: canvas,0
 2160511128,true,Fix (#10053):  typo in CanvasDrawPath.isPointInPath,https://github.com/whatwg/html/pull/10170,2024-02-29T06:39:12Z,2024-03-04T05:09:01Z,tawandamoyo,topic: canvas,0
-2158208117,true,Re-do close watcher user activation tracking,https://github.com/whatwg/html/pull/10168,2024-02-28T06:22:43Z,2024-03-14T05:52:47Z,domenic,normative change|topic: dialog,0
+2158208117,true,Re-do close watcher user activation tracking,https://github.com/whatwg/html/pull/10168,2024-02-28T06:22:43Z,2024-04-02T08:56:08Z,domenic,normative change|topic: dialog|topic: close watchers,0
 2158124994,true,[Editorial] Export creating NRR,https://github.com/whatwg/html/pull/10167,2024-02-28T05:11:30Z,2024-02-28T05:24:27Z,rubberyuzu,,0
 2157384688,true,Editorial: Specify that connectedness is a prerequisite for script execution,https://github.com/whatwg/html/pull/10165,2024-02-27T18:54:52Z,2024-03-04T04:16:34Z,domfarolino,topic: script,0
-2150141047,false,WIP dialog closedby attribute spec,https://github.com/whatwg/html/pull/10157,2024-02-22T23:57:03Z,2024-03-08T09:40:32Z,lukewarlow,,0
+2150141047,false,WIP dialog closedby attribute spec,https://github.com/whatwg/html/pull/10157,2024-02-22T23:57:03Z,2024-04-02T08:56:07Z,lukewarlow,topic: close watchers,0
 2148367262,false,Add may-block reasons to NotRestoredReasons,https://github.com/whatwg/html/pull/10154,2024-02-22T07:06:43Z,2024-03-29T05:55:58Z,rubberyuzu,,0
 2147120013,true,Create code.txt,https://github.com/whatwg/html/pull/10152,2024-02-21T15:58:38Z,2024-02-21T16:05:47Z,owaislodhi01,spam|invalid,0
 2143978728,true,Allow WebDriver BiDi access original opener,https://github.com/whatwg/html/pull/10147,2024-02-20T09:52:35Z,2024-03-21T12:45:50Z,OrKoN,,0
 2141556349,true,Meta: Dark mode fixes,https://github.com/whatwg/html/pull/10144,2024-02-19T05:44:57Z,2024-02-21T06:12:46Z,andreubotella,,0
 2137817129,true,Change dir=auto to fall back to ltr rather than inheriting,https://github.com/whatwg/html/pull/10140,2024-02-16T03:43:35Z,2024-02-22T18:42:36Z,dbaron,,0
-2137794594,false,Add getHTML() and the serializable concept,https://github.com/whatwg/html/pull/10139,2024-02-16T03:10:47Z,2024-03-31T16:05:35Z,mfreed7,,0
-2133052396,false,Call the view-transition page-visibility change steps,https://github.com/whatwg/html/pull/10137,2024-02-13T20:10:41Z,2024-04-01T07:35:29Z,noamr,,0
+2137794594,false,Add getHTML() and the serializable concept,https://github.com/whatwg/html/pull/10139,2024-02-16T03:10:47Z,2024-04-02T11:43:42Z,mfreed7,,0
+2133052396,true,Call the view-transition page-visibility change steps,https://github.com/whatwg/html/pull/10137,2024-02-13T20:10:41Z,2024-04-02T08:46:56Z,noamr,,0
 2127277528,false,Add navigation started before other navigation events for WebDriver BiDi,https://github.com/whatwg/html/pull/10132,2024-02-09T14:39:39Z,2024-02-13T06:02:48Z,jrandolf,topic: navigation,0
 2126643489,true,[WIP] Add may-block reasons for NotRestoredReasons,https://github.com/whatwg/html/pull/10131,2024-02-09T07:55:49Z,2024-03-06T07:50:06Z,rubberyuzu,,0
 2126638785,true,Fix off-by-one error in navigation.canGoForward,https://github.com/whatwg/html/pull/10130,2024-02-09T07:51:29Z,2024-02-09T08:09:41Z,domenic,topic: navigation,0
@@ -68,10 +68,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2079520948,true,Editorial: Export  for CSS and resolve ambiguity,https://github.com/whatwg/html/pull/10058,2024-01-12T19:09:56Z,2024-01-17T08:58:16Z,noamr,,0
 2079229492,false,Add HTMLImageElement.isTypeSupported(),https://github.com/whatwg/html/pull/10055,2024-01-12T16:27:08Z,2024-01-17T08:02:39Z,annevk,needs implementer interest|needs tests,0
 2077176597,true,Add the media element pseudo-classes,https://github.com/whatwg/html/pull/10051,2024-01-11T17:01:31Z,2024-01-16T15:27:24Z,annevk,topic: media|topic: selectors,0
-2075571078,true,Don't always consume user activation for close watchers,https://github.com/whatwg/html/pull/10048,2024-01-11T02:08:30Z,2024-02-28T06:33:26Z,domenic,do not merge yet,0
+2075571078,true,Don't always consume user activation for close watchers,https://github.com/whatwg/html/pull/10048,2024-01-11T02:08:30Z,2024-04-02T08:56:07Z,domenic,do not merge yet|topic: close watchers,0
 2073998014,true,Editorial: add enumerated attribute table for formmethod,https://github.com/whatwg/html/pull/10045,2024-01-10T09:54:13Z,2024-01-31T10:19:19Z,keithamus,,0
 2073927718,true,"Editorial: make case & pos of ""(the empty string)"" consistent",https://github.com/whatwg/html/pull/10044,2024-01-10T09:17:11Z,2024-01-12T09:35:18Z,keithamus,,0
-2073844929,true,Fix key event used for close requests,https://github.com/whatwg/html/pull/10043,2024-01-10T08:26:23Z,2024-03-07T08:57:29Z,domenic,topic: dialog|topic: popover,1
+2073844929,true,Fix key event used for close requests,https://github.com/whatwg/html/pull/10043,2024-01-10T08:26:23Z,2024-04-02T08:56:33Z,domenic,topic: dialog|topic: popover|topic: close watchers,1
 2073271864,true,Export muted definition,https://github.com/whatwg/html/pull/10042,2024-01-09T22:25:45Z,2024-01-17T23:17:26Z,marcoscaceres,,0
 2071855102,true,Fix #10028 - minor error in import map example,https://github.com/whatwg/html/pull/10041,2024-01-09T08:19:14Z,2024-01-12T03:59:59Z,farsightsoftware,,0
 2071176662,true,Editorial: Fix broken link to view-transition spec,https://github.com/whatwg/html/pull/10040,2024-01-08T20:33:53Z,2024-01-09T04:08:31Z,bokand,,0
@@ -285,7 +285,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1779632972,true,Only use sourceOrigin for all about:-schemed Documents,https://github.com/whatwg/html/pull/9465,2023-06-28T19:43:40Z,2023-07-04T02:38:55Z,domfarolino,clarification|topic: navigation,0
 1779529030,true,Snapshot fallback base URL for about:-schemed Documents,https://github.com/whatwg/html/pull/9464,2023-06-28T18:51:33Z,2023-07-13T20:55:06Z,domfarolino,normative change|topic: navigation,0
 1778497411,true,Synchronously populate non-initial about:blank documents,https://github.com/whatwg/html/pull/9463,2023-06-28T08:50:34Z,2023-07-11T09:13:17Z,domenic,topic: navigation|topic: parser,0
-1778332031,true,Add close requests and close watchers,https://github.com/whatwg/html/pull/9462,2023-06-28T06:57:55Z,2023-10-18T06:28:33Z,domenic,addition/proposal|topic: dialog|topic: popover,4
+1778332031,true,Add close requests and close watchers,https://github.com/whatwg/html/pull/9462,2023-06-28T06:57:55Z,2024-04-02T08:56:06Z,domenic,addition/proposal|topic: dialog|topic: popover|topic: close watchers,4
 1775374251,false,Ignore DOM state when hiding popovers if needed,https://github.com/whatwg/html/pull/9457,2023-06-26T18:45:19Z,2024-01-25T06:09:09Z,josepharhar,topic: popover,0
 1775234651,true,add dialogmodaltarget attribute,https://github.com/whatwg/html/pull/9456,2023-06-26T17:17:30Z,2023-09-21T10:30:44Z,keithamus,,2
 1768695537,true,"Editorial rework of directionality ",https://github.com/whatwg/html/pull/9452,2023-06-22T00:09:07Z,2023-08-29T08:32:48Z,bkardell,,0
