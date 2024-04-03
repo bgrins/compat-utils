@@ -4491,8 +4491,8 @@ api/Navigator/authentication,,,,67,"[{""name"":""WebAuth"",""type"":""preference
 api/Navigator/bluetooth,,,,56,,,,true,true,false,https://webbluetoothcg.github.io/web-bluetooth/#dom-navigator-bluetooth,W3CCG
 api/Navigator/buildID,,2,,,,,,false,false,false,,NONE
 api/Navigator/canShare,,96,"[{""name"":""dom.webshare.enabled"",""type"":""preference"",""value_to_set"":""true""}]",89,,14,,false,true,false,https://w3c.github.io/web-share/#canshare-data-method,W3C
-api/Navigator/canShare/data_files_parameter,,,,89,,15,,false,true,false,https://w3c.github.io/web-share/#dom-sharedata-files,W3C
-api/Navigator/canShare/data_text_parameter,,96,,89,,15,,false,true,false,https://w3c.github.io/web-share/#dom-sharedata-text,W3C
+api/Navigator/canShare/data_files_parameter,,,,89,,14,,false,true,false,https://w3c.github.io/web-share/#dom-sharedata-files,W3C
+api/Navigator/canShare/data_text_parameter,,96,,89,,14,,false,true,false,https://w3c.github.io/web-share/#dom-sharedata-text,W3C
 api/Navigator/clearAppBadge,,,,81,,17,,false,true,false,https://w3c.github.io/badging/#clearappbadge-method,W3C
 api/Navigator/clipboard,,63,,66,,13.1,,false,true,false,https://w3c.github.io/clipboard-apis/#navigator-clipboard,W3C
 api/Navigator/connection,,31,,61,,,,false,true,false,https://wicg.github.io/netinfo/#connection-attribute,W3CCG
@@ -4587,8 +4587,8 @@ api/Navigator/serial,,,,89,,,,true,true,false,https://wicg.github.io/serial/#ext
 api/Navigator/serviceWorker,,44,,40,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#navigator-service-worker-attribute,W3C
 api/Navigator/setAppBadge,,,,81,,17,,false,true,false,https://w3c.github.io/badging/#setappbadge-method,W3C
 api/Navigator/share,,71,"[{""name"":""dom.webshare.enabled"",""type"":""preference"",""value_to_set"":""true""}]",89,,12.1,,false,true,false,https://w3c.github.io/web-share/#share-method,W3C
-api/Navigator/share/data_files_parameter,,,,89,,15,,false,true,false,https://w3c.github.io/web-share/#dom-sharedata-files,W3C
-api/Navigator/share/data_text_parameter,,71,,89,,15,,false,true,false,https://w3c.github.io/web-share/#dom-sharedata-text,W3C
+api/Navigator/share/data_files_parameter,,,,89,,14,,false,true,false,https://w3c.github.io/web-share/#dom-sharedata-files,W3C
+api/Navigator/share/data_text_parameter,,71,,89,,14,,false,true,false,https://w3c.github.io/web-share/#dom-sharedata-text,W3C
 api/Navigator/storage,,57,,55,,15.2,,false,true,false,https://storage.spec.whatwg.org/#dom-navigatorstorage-storage,WHATWG
 api/Navigator/storageBuckets,,,,122,,,,true,true,false,https://wicg.github.io/storage-buckets/#dom-navigatorstoragebuckets-storagebuckets,W3CCG
 api/Navigator/taintEnabled,,1,,,,,,false,true,true,https://html.spec.whatwg.org/multipage/system-state.html#dom-navigator-taintenabled,WHATWG
@@ -7423,13 +7423,13 @@ api/URLSearchParams/URLSearchParams/record,,54,,61,,11,,false,true,false,,NONE
 api/URLSearchParams/URLSearchParams/sequence,,53,,58,,11,,false,true,false,,NONE
 api/URLSearchParams/append,,29,,49,,10.1,,false,true,false,https://url.spec.whatwg.org/#dom-urlsearchparams-append,WHATWG
 api/URLSearchParams/delete,,29,,49,,14,,false,true,false,https://url.spec.whatwg.org/#dom-urlsearchparams-delete,WHATWG
-api/URLSearchParams/delete/value_parameter,,115,,,,preview,,false,true,false,,NONE
+api/URLSearchParams/delete/value_parameter,,115,,117,,17,,false,true,false,,NONE
 api/URLSearchParams/entries,,44,,49,,10.1,,false,true,false,https://url.spec.whatwg.org/#dom-urlsearchparams-urlsearchparams,WHATWG
 api/URLSearchParams/forEach,,44,,49,,10.1,,false,true,false,https://url.spec.whatwg.org/#dom-urlsearchparams-urlsearchparams,WHATWG
 api/URLSearchParams/get,,29,,49,,10.1,,false,true,false,https://url.spec.whatwg.org/#dom-urlsearchparams-get,WHATWG
 api/URLSearchParams/getAll,,29,,49,,10.1,,false,true,false,https://url.spec.whatwg.org/#dom-urlsearchparams-getall,WHATWG
 api/URLSearchParams/has,,29,,49,,10.1,,false,true,false,https://url.spec.whatwg.org/#dom-urlsearchparams-has,WHATWG
-api/URLSearchParams/has/value_parameter,,115,,,,preview,,false,true,false,,NONE
+api/URLSearchParams/has/value_parameter,,115,,117,,17,,false,true,false,,NONE
 api/URLSearchParams/keys,,44,,49,,10.1,,false,true,false,https://url.spec.whatwg.org/#dom-urlsearchparams-urlsearchparams,WHATWG
 api/URLSearchParams/set,,29,,49,,10.1,,false,true,false,https://url.spec.whatwg.org/#dom-urlsearchparams-set,WHATWG
 api/URLSearchParams/size,,112,,113,,17,,false,true,false,https://url.spec.whatwg.org/#dom-urlsearchparams-size,WHATWG

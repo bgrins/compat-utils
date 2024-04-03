@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2222165791,false,"Disallow FrozenArray<> in argument lists, and maybe dictionaries and return types",https://github.com/whatwg/webidl/issues/1399,2024-04-03T07:48:23Z,2024-04-03T08:04:36Z,domenic,,1
 2179810459,true,CreateMethodProperty removed from Ecma262,https://github.com/whatwg/webidl/issues/1389,2024-03-11T17:52:35Z,2024-03-11T18:11:00Z,lukewarlow,,1
 2139816110,false,Intent to use BigInt/numeric union in WebNN,https://github.com/whatwg/webidl/issues/1388,2024-02-17T03:57:13Z,2024-02-29T22:15:25Z,fdwr,,2
 2092333863,false,"""byte length of a buffer source type"" needs updating for resizable and detached buffers",https://github.com/whatwg/webidl/issues/1385,2024-01-21T02:07:22Z,2024-01-24T07:32:56Z,bakkot,,0
@@ -61,7 +62,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1221450239,false,"""attribute getter"" steps skip security checks on namespaces",https://github.com/whatwg/webidl/issues/1133,2022-04-29T19:42:06Z,2022-04-29T19:55:32Z,tabatkins,,0
 1216321218,true,"Remove obsolete ""type name"" concept",https://github.com/whatwg/webidl/issues/1131,2022-04-26T18:22:02Z,2022-04-26T18:47:01Z,tabatkins,,0
 1179661197,false,Deprecate URLMismatchError,https://github.com/whatwg/webidl/issues/1120,2022-03-24T15:15:33Z,2022-03-24T15:15:33Z,domenic,,1
-1178562261,false,Elaborate on Exposed=* advice,https://github.com/whatwg/webidl/issues/1119,2022-03-23T19:21:08Z,2022-12-15T15:40:02Z,annevk,clarification,0
+1178562261,false,Elaborate on Exposed=* advice,https://github.com/whatwg/webidl/issues/1119,2022-03-23T19:21:08Z,2024-04-03T09:16:26Z,annevk,clarification,0
 1156220326,true,"Should 'undefined' be disallowed as an attribute type? ",https://github.com/whatwg/webidl/issues/1112,2022-03-02T02:24:18Z,2022-09-21T00:45:47Z,marcoscaceres,,0
 1150482514,false,Should DOMException.[[Prototype]] be %Error%?,https://github.com/whatwg/webidl/issues/1107,2022-02-25T14:05:21Z,2022-02-28T11:51:22Z,bathos,,0
 1146361083,false,CreateBuiltinFunction’s signature has changed,https://github.com/whatwg/webidl/issues/1106,2022-02-22T01:38:30Z,2022-02-22T16:04:58Z,bathos,,0
@@ -149,7 +150,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 672526841,false,Getting rid of optional,https://github.com/whatwg/webidl/issues/905,2020-08-04T05:58:02Z,2023-01-25T17:50:31Z,annevk,,1
 672190040,false,record<> converted to a JS value should use a null prototype,https://github.com/whatwg/webidl/issues/904,2020-08-03T16:18:15Z,2020-08-17T18:15:55Z,domenic,,3
 666607331,false,Consider a pattern for dictionary arguments which must have at least one member,https://github.com/whatwg/webidl/issues/903,2020-07-27T21:51:33Z,2021-03-05T22:44:33Z,domenic,,0
-647004559,false,What does FrozenArray mean in dictionaries?,https://github.com/whatwg/webidl/issues/900,2020-06-28T21:01:43Z,2021-04-30T16:17:00Z,saschanaz,,0
+647004559,true,What does FrozenArray mean in dictionaries?,https://github.com/whatwg/webidl/issues/900,2020-06-28T21:01:43Z,2024-04-03T07:48:43Z,saschanaz,,0
 640802129,true,Parsing updated ecma262 intrinsic notation,https://github.com/whatwg/webidl/issues/897,2020-06-17T23:25:49Z,2020-06-22T16:13:00Z,ljharb,,0
 640595595,false," Define WebIDL Global to host targeted APIs targeted for testing #1534 ",https://github.com/whatwg/webidl/issues/896,2020-06-17T16:51:36Z,2020-06-17T16:56:29Z,dontcallmedom,,0
 640157942,false,Creating a sequence from an iterable: IteratorClose not called,https://github.com/whatwg/webidl/issues/895,2020-06-17T05:42:08Z,2020-06-17T05:48:48Z,bathos,,1
@@ -193,7 +194,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 503662980,true,Incorrect rendering of decimal terminal as nonterminal in HTML,https://github.com/whatwg/webidl/issues/815,2019-10-07T20:06:48Z,2022-09-28T06:59:14Z,bathos,,0
 503648027,true,Seemingly missing alternatives in Other and ArgumentNameKeyword,https://github.com/whatwg/webidl/issues/813,2019-10-07T19:35:43Z,2019-10-15T16:49:48Z,bathos,,0
 502921798,false,Ellipsis token quirkiness?,https://github.com/whatwg/webidl/issues/812,2019-10-05T06:03:54Z,2021-03-29T08:07:44Z,bathos,,0
-501621015,false,non-readonly [FrozenArray] attributes are footguns as currently specced,https://github.com/whatwg/webidl/issues/810,2019-10-02T17:20:19Z,2023-12-11T07:27:26Z,bzbarsky,,2
+501621015,false,non-readonly [FrozenArray] attributes are footguns as currently specced,https://github.com/whatwg/webidl/issues/810,2019-10-02T17:20:19Z,2024-04-03T08:11:07Z,bzbarsky,,2
 500809805,false,Should ArrayBufferView include bigint typed arrays?,https://github.com/whatwg/webidl/issues/809,2019-10-01T10:36:40Z,2019-10-01T11:51:51Z,Ms2ger,,1
 497563180,true,Async iterators should be allowed to have an optional return() algorithm,https://github.com/whatwg/webidl/issues/804,2019-09-24T09:18:06Z,2019-10-16T11:09:15Z,domenic,,0
 497561140,true,Async iterator get next steps should be allowed to reject,https://github.com/whatwg/webidl/issues/803,2019-09-24T09:14:13Z,2019-10-16T10:56:40Z,domenic,,0
