@@ -1,11 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2219283440,false,"""destroy a child navigable"" does not destroy a document",https://github.com/whatwg/html/issues/10242,2024-04-01T23:32:41Z,2024-04-02T02:44:47Z,kalenikaliaksandr,topic: navigation,0
-2219053968,false,Meta element and DOM post-insertion steps,https://github.com/whatwg/html/issues/10241,2024-04-01T21:00:03Z,2024-04-02T10:12:24Z,domfarolino,,0
+2219283440,false,"""destroy a child navigable"" does not destroy a document",https://github.com/whatwg/html/issues/10242,2024-04-01T23:32:41Z,2024-04-02T13:23:04Z,kalenikaliaksandr,topic: navigation,0
+2219053968,false,Meta element and DOM post-insertion steps,https://github.com/whatwg/html/issues/10241,2024-04-01T21:00:03Z,2024-04-02T13:42:46Z,domfarolino,,0
 2218497679,false,Mutating the close watcher stack during a close request,https://github.com/whatwg/html/issues/10240,2024-04-01T15:25:39Z,2024-04-02T09:28:59Z,keithamus,topic: close watchers,0
-2217234812,false,<button> elements in button layout ignore `display: none;`,https://github.com/whatwg/html/issues/10238,2024-03-31T22:55:16Z,2024-04-01T03:47:22Z,Wuelle,topic: rendering,0
+2217234812,false,<button> elements in button layout ignore `display: none;`,https://github.com/whatwg/html/issues/10238,2024-03-31T22:55:16Z,2024-04-02T15:40:25Z,Wuelle,topic: rendering|topic: forms,0
 2217182342,false,Declarative Shadow DOM for XML Syntax,https://github.com/whatwg/html/issues/10237,2024-03-31T21:05:45Z,2024-04-01T17:24:07Z,mossblaser,topic: parser,0
 2215703317,false,onfocusout and onfocusin event handler content attributes,https://github.com/whatwg/html/issues/10234,2024-03-29T17:01:20Z,2024-03-29T18:40:04Z,josepharhar,,0
-2215614119,false,Support `json`/`style` as `modulepreload` destinations,https://github.com/whatwg/html/issues/10233,2024-03-29T15:56:34Z,2024-03-31T11:07:05Z,noamr,topic: script|topic: resource hints (inc. preload),0
+2215614119,false,Support `json`/`style` as `modulepreload` destinations,https://github.com/whatwg/html/issues/10233,2024-03-29T15:56:34Z,2024-04-02T13:56:37Z,noamr,topic: script|topic: resource hints (inc. preload),0
 2215396864,false,"""apply the history step"" fails if multiple sync navigations happened",https://github.com/whatwg/html/issues/10232,2024-03-29T13:45:02Z,2024-04-02T11:31:20Z,kalenikaliaksandr,topic: navigation,0
 2215294039,true,"""json"" as the fetch destination for json modules is inconsistent with regular json fetches",https://github.com/whatwg/html/issues/10231,2024-03-29T12:58:37Z,2024-03-30T07:35:08Z,noamr,,0
 2213711654,false,Upcoming WHATNOT meeting on 4/4/2024,https://github.com/whatwg/html/issues/10229,2024-03-28T17:00:52Z,2024-03-28T17:00:53Z,past,agenda+,0
@@ -112,7 +112,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2077589057,true,Upcoming WHATNOT meeting on 1/25/2024,https://github.com/whatwg/html/issues/10052,2024-01-11T21:08:45Z,2024-01-26T00:55:47Z,past,agenda+,0
 2076160228,false,Inheritance with shadow DOM for `spellcheck` attribute,https://github.com/whatwg/html/issues/10050,2024-01-11T09:40:09Z,2024-01-11T19:23:49Z,sanketj,topic: shadow|needs tests,0
 2075798919,false,"""in parallel"" in algorithm headers can be confusing",https://github.com/whatwg/html/issues/10049,2024-01-11T05:41:57Z,2024-01-11T09:42:35Z,domenic,clarification,1
-2075560644,false,Close watchers: detecting close requests vs. other closes,https://github.com/whatwg/html/issues/10047,2024-01-11T01:59:20Z,2024-04-02T08:53:16Z,domenic,normative change|topic: dialog|topic: close watchers,3
+2075560644,false,Close watchers: detecting close requests vs. other closes,https://github.com/whatwg/html/issues/10047,2024-01-11T01:59:20Z,2024-04-02T22:29:26Z,domenic,normative change|topic: dialog|topic: close watchers,3
 2075526270,true,Close watchers: history-action user activation is consumed even for the first close watcher,https://github.com/whatwg/html/issues/10046,2024-01-11T01:22:58Z,2024-04-02T08:54:10Z,domenic,normative change|topic: dialog|topic: close watchers,1
 2069375890,false,A way to disable animation of cancelled drag for editor apps like VS Code,https://github.com/whatwg/html/issues/10039,2024-01-08T00:28:08Z,2024-01-12T05:27:14Z,zcbenz,addition/proposal|needs implementer interest,1
 2069074912,true,Should past user activations be kept after refresh?,https://github.com/whatwg/html/issues/10038,2024-01-07T10:29:21Z,2024-01-07T11:44:31Z,CanadaHonk,,0
@@ -229,7 +229,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1913709777,true,Should MathML references be to MathML-Core instead of full?,https://github.com/whatwg/html/issues/9795,2023-09-26T14:56:47Z,2024-01-23T14:44:38Z,bkardell,normative change,0
 1913666731,true,Should throw SecurityError when loading a worker with a cross-origin script,https://github.com/whatwg/html/issues/9794,2023-09-26T14:37:14Z,2023-10-24T08:09:33Z,edenchuang,topic: workers|agenda+,0
 1913245177,false,Add `autopause` attribute to media elements to allow automatic pausing of media,https://github.com/whatwg/html/issues/9793,2023-09-26T10:54:58Z,2023-10-12T14:21:04Z,keithamus,needs implementer interest|topic: media,10
-1909491215,false,popover=hint,https://github.com/whatwg/html/issues/9776,2023-09-22T20:36:33Z,2024-04-01T22:58:42Z,josepharhar,topic: popover,4
+1909491215,false,popover=hint,https://github.com/whatwg/html/issues/9776,2023-09-22T20:36:33Z,2024-04-02T21:53:23Z,josepharhar,topic: popover,4
 1909406598,true,Navigation: inner navigate firing algorithm does not say what to do if invoking NavigationInterceptHandler throws,https://github.com/whatwg/html/issues/9774,2023-09-22T19:17:05Z,2023-09-26T03:55:04Z,ADKaster,clarification|topic: navigation,0
 1909396065,false,Attribute index for script's type attribute was not updated for import maps,https://github.com/whatwg/html/issues/9773,2023-09-22T19:07:37Z,2023-10-01T13:48:56Z,domenic,clarification|topic: script,0
 1907577267,false,popover: should audio/video in a popover keep playing after popover is dismissed?,https://github.com/whatwg/html/issues/9770,2023-09-21T18:51:42Z,2023-10-05T08:32:10Z,xiaochengh,clarification|topic: popover,0
@@ -1328,7 +1328,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 923084614,true,Extend `atob` and `btoa` to support non-ASCII strings,https://github.com/whatwg/html/issues/6779,2021-06-16T20:46:05Z,2021-07-22T22:15:36Z,ethanresnick,addition/proposal|needs implementer interest,1
 922214329,true,Setting document.domain should not work for any public suffix,https://github.com/whatwg/html/issues/6775,2021-06-16T07:36:40Z,2021-06-16T17:09:25Z,thorlacius,,0
 921850934,true,What should history.back() do when sync navigations are involved?,https://github.com/whatwg/html/issues/6773,2021-06-15T22:22:03Z,2022-10-31T05:07:06Z,domenic,topic: history|interop,0
-920923069,false,Failed dynamic import should not always be cached,https://github.com/whatwg/html/issues/6768,2021-06-15T02:19:52Z,2024-04-01T22:12:39Z,sodatea,topic: script,29
+920923069,false,Failed dynamic import should not always be cached,https://github.com/whatwg/html/issues/6768,2021-06-15T02:19:52Z,2024-04-02T21:51:13Z,sodatea,topic: script,29
 918518896,false,Web compat: don't run async scripts between adjacent sync <script>s,https://github.com/whatwg/html/issues/6761,2021-06-11T09:48:42Z,2021-06-16T21:36:30Z,zcorpan,compat|topic: parser|topic: script,0
 917707970,false,How should timers account for system sleep/suspend?,https://github.com/whatwg/html/issues/6759,2021-06-10T18:46:38Z,2024-01-02T18:59:04Z,shaseley,,0
 917578796,false,Additional definitions exports for Pointer Events,https://github.com/whatwg/html/issues/6758,2021-06-10T17:04:44Z,2021-08-04T17:33:43Z,plehegar,anchor permanence|editorial,0
@@ -1755,7 +1755,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 643263156,false,define text or if already defined put definition in more obvious place,https://github.com/whatwg/html/issues/5663,2020-06-22T18:01:44Z,2020-06-24T09:45:28Z,Nick-Levinson,clarification|document conformance,0
 643064493,true,no focus behavior is speced out for inert subtrees,https://github.com/whatwg/html/issues/5662,2020-06-22T13:18:02Z,2020-06-29T14:20:45Z,asurkov,topic: focus,0
 642502432,true,Typo in Named Character Reference State Parsing Docs,https://github.com/whatwg/html/issues/5661,2020-06-21T06:04:07Z,2020-06-25T21:39:31Z,DylanYoung,topic: parser,0
-641798870,false,canvas2D setTransform and doubles,https://github.com/whatwg/html/issues/5657,2020-06-19T08:22:29Z,2023-05-05T00:47:17Z,Kaiido,topic: canvas,0
+641798870,false,canvas2D setTransform and doubles,https://github.com/whatwg/html/issues/5657,2020-06-19T08:22:29Z,2024-04-03T00:14:54Z,Kaiido,topic: canvas,0
 641633030,true,Defining fontBoundingBoxAscent/fontBoundingBoxDescent,https://github.com/whatwg/html/issues/5656,2020-06-19T00:58:16Z,2020-06-29T07:03:42Z,yiyix,topic: canvas,0
 641351071,true,Exclusion notices link in review draft,https://github.com/whatwg/html/issues/5652,2020-06-18T16:15:08Z,2020-06-19T03:36:56Z,chrisn,,2
 640509455,true,inert: Hit-testing / selection behavior shouldn't be magical.,https://github.com/whatwg/html/issues/5650,2020-06-17T14:54:58Z,2022-03-10T16:54:30Z,emilio,,0
