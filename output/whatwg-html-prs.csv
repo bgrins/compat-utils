@@ -1,7 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2220973477,false,Make buttons respect display: none/contents in button layout,https://github.com/whatwg/html/pull/10244,2024-04-02T16:41:47Z,2024-04-03T11:20:47Z,Wuelle,topic: rendering,0
+2223015895,true,Export dfn for Element/innerText getter and setter steps,https://github.com/whatwg/html/pull/10247,2024-04-03T13:55:52Z,2024-04-03T14:05:58Z,lukewarlow,,0
+2220973477,false,Make buttons respect display: none/contents in button layout,https://github.com/whatwg/html/pull/10244,2024-04-02T16:41:47Z,2024-04-03T19:52:04Z,Wuelle,topic: rendering,0
 2220872485,true,marquee: Force marquee to have overflow: hidden.,https://github.com/whatwg/html/pull/10243,2024-04-02T15:52:18Z,2024-04-02T20:59:08Z,emilio,topic: rendering,0
-2217934003,false,Warn that the XML syntax is not recommended,https://github.com/whatwg/html/pull/10239,2024-04-01T09:47:40Z,2024-04-02T09:01:08Z,sideshowbarker,clarification|topic: parser,0
+2217934003,false,Warn that the XML syntax is not recommended,https://github.com/whatwg/html/pull/10239,2024-04-01T09:47:40Z,2024-04-03T17:43:37Z,sideshowbarker,clarification|topic: parser,0
 2216408799,true,Add `relatedTarget` to `ToggleEvent` for use in popover `beforetoggle`,https://github.com/whatwg/html/pull/10236,2024-03-30T11:57:29Z,2024-04-01T17:28:58Z,jpzwarte,,0
 2215871180,false,Add focusin and focusout events,https://github.com/whatwg/html/pull/10235,2024-03-29T18:59:53Z,2024-04-03T00:38:12Z,josepharhar,topic: focus,2
 2214634160,false,Editorial: remove unreachable step for inline module scripts,https://github.com/whatwg/html/pull/10230,2024-03-29T04:34:00Z,2024-04-02T13:56:13Z,domenic,clarification|topic: script,0
@@ -36,7 +37,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2143978728,true,Allow WebDriver BiDi access original opener,https://github.com/whatwg/html/pull/10147,2024-02-20T09:52:35Z,2024-03-21T12:45:50Z,OrKoN,,0
 2141556349,true,Meta: Dark mode fixes,https://github.com/whatwg/html/pull/10144,2024-02-19T05:44:57Z,2024-02-21T06:12:46Z,andreubotella,,0
 2137817129,true,Change dir=auto to fall back to ltr rather than inheriting,https://github.com/whatwg/html/pull/10140,2024-02-16T03:43:35Z,2024-02-22T18:42:36Z,dbaron,,0
-2137794594,false,Add getHTML() and the serializable concept,https://github.com/whatwg/html/pull/10139,2024-02-16T03:10:47Z,2024-04-02T14:28:34Z,mfreed7,,0
+2137794594,false,Add getHTML() and the serializable concept,https://github.com/whatwg/html/pull/10139,2024-02-16T03:10:47Z,2024-04-03T21:44:35Z,mfreed7,,0
 2133052396,true,Call the view-transition page-visibility change steps,https://github.com/whatwg/html/pull/10137,2024-02-13T20:10:41Z,2024-04-02T08:46:56Z,noamr,,0
 2127277528,false,Add navigation started before other navigation events for WebDriver BiDi,https://github.com/whatwg/html/pull/10132,2024-02-09T14:39:39Z,2024-02-13T06:02:48Z,jrandolf,topic: navigation,0
 2126643489,true,[WIP] Add may-block reasons for NotRestoredReasons,https://github.com/whatwg/html/pull/10131,2024-02-09T07:55:49Z,2024-03-06T07:50:06Z,rubberyuzu,,0
@@ -165,7 +166,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1935018189,true,Editorial: make kind attributes consistent,https://github.com/whatwg/html/pull/9847,2023-10-10T10:34:57Z,2023-10-10T11:59:18Z,keithamus,editorial,0
 1933058172,false,Implement WebDriver BiDi interception in the `show the picker` algorithm,https://github.com/whatwg/html/pull/9844,2023-10-09T13:22:03Z,2023-11-14T08:05:49Z,jrandolf,do not merge yet|integration,0
 1932809665,true,Editorial: make fetch priority attributes consistent,https://github.com/whatwg/html/pull/9842,2023-10-09T10:59:10Z,2023-10-09T11:41:54Z,keithamus,editorial,0
-1932098948,false,(Invokers Proposal) Add InvokeElement & InvokeEvent IDLs & invocation steps for Dialog & Popover,https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2024-03-21T09:59:45Z,keithamus,,0
+1932098948,false,(Invokers Proposal) Add InvokeElement & InvokeEvent IDLs & invocation steps for Dialog & Popover,https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2024-04-03T16:00:32Z,keithamus,,0
 1931367969,true,Editorial: remove some copypasta around CORS settings attribute,https://github.com/whatwg/html/pull/9840,2023-10-07T14:14:19Z,2023-10-08T14:25:55Z,annevk,,0
 1930976617,true,"Fix typo in ""History-action activation-consuming APIs""",https://github.com/whatwg/html/pull/9839,2023-10-06T21:55:17Z,2023-10-10T04:56:14Z,CanadaHonk,,0
 1930460108,true,Perform a microtask checkpoint only after a task,https://github.com/whatwg/html/pull/9838,2023-10-06T15:38:05Z,2023-10-10T05:26:36Z,annevk,topic: event loop,1
@@ -1894,7 +1895,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 411908447,true,Clarify Window's focus() and blur(),https://github.com/whatwg/html/pull/4377,2019-02-19T12:51:39Z,2019-02-22T16:14:12Z,annevk,clarification|topic: focus|topic: browsing context,0
 411901796,true,Editorial: minor cleanup around browsing contexts,https://github.com/whatwg/html/pull/4376,2019-02-19T12:34:00Z,2019-02-21T22:13:41Z,annevk,topic: browsing context,0
 411775294,true,Make cancelAnimationFrame cancel pending callbacks,https://github.com/whatwg/html/pull/4375,2019-02-19T07:04:40Z,2019-02-19T22:23:07Z,birtles,,0
-411090834,false,[WIP] WebAssembly JavaScript Module integration,https://github.com/whatwg/html/pull/4372,2019-02-16T16:59:49Z,2023-11-14T08:05:51Z,littledan,addition/proposal|do not merge yet|topic: script,1
+411090834,false,[WIP] WebAssembly JavaScript Module integration,https://github.com/whatwg/html/pull/4372,2019-02-16T16:59:49Z,2024-04-03T17:20:41Z,littledan,addition/proposal|do not merge yet|topic: script,1
 410967044,true,Activation delegation through post messages,https://github.com/whatwg/html/pull/4369,2019-02-15T22:11:33Z,2021-04-21T21:10:37Z,mustaqahmed,,0
 410710792,true,Clarify Document and Window's browsing context slot,https://github.com/whatwg/html/pull/4368,2019-02-15T10:49:46Z,2019-02-19T10:40:08Z,annevk,clarification|topic: browsing context,0
 410369697,true,Ignore changes to name attributes,https://github.com/whatwg/html/pull/4367,2019-02-14T15:58:47Z,2019-02-15T08:26:31Z,annevk,normative change|interop|topic: browsing context,0
