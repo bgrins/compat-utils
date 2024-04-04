@@ -1,10 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2225030455,false,Standardize marquee UA styles.,https://github.com/whatwg/html/issues/10249,2024-04-04T09:56:50Z,2024-04-04T11:35:10Z,emilio,topic: rendering,0
+2224550963,true,ImageDataSettings should probably be called ImageDataOptions,https://github.com/whatwg/html/issues/10248,2024-04-04T05:46:30Z,2024-04-04T06:49:59Z,adroitwhiz,,0
 2222135930,false,Consider upgrading ARIA reflection from FrozenArray<> to ObservableArray<>,https://github.com/whatwg/html/issues/10246,2024-04-03T07:33:49Z,2024-04-03T13:12:46Z,domenic,topic: reflect,0
 2221771322,false,Elegant and easy solution for making responsive menus that can shift between traditional desktop and mobile hamburger menus,https://github.com/whatwg/html/issues/10245,2024-04-03T02:39:20Z,2024-04-03T02:39:20Z,M-Valentino,addition/proposal|needs implementer interest,0
 2219283440,false,"""destroy a child navigable"" does not destroy a document",https://github.com/whatwg/html/issues/10242,2024-04-01T23:32:41Z,2024-04-02T13:23:04Z,kalenikaliaksandr,topic: navigation,0
 2219053968,false,Meta element and DOM post-insertion steps,https://github.com/whatwg/html/issues/10241,2024-04-01T21:00:03Z,2024-04-02T13:42:46Z,domfarolino,,0
 2218497679,false,Mutating the close watcher stack during a close request,https://github.com/whatwg/html/issues/10240,2024-04-01T15:25:39Z,2024-04-02T09:28:59Z,keithamus,topic: close watchers,0
-2217234812,false,<button> elements in button layout ignore `display: none;`,https://github.com/whatwg/html/issues/10238,2024-03-31T22:55:16Z,2024-04-02T15:40:25Z,Wuelle,topic: rendering|topic: forms,0
+2217234812,true,<button> elements in button layout ignore `display: none;`,https://github.com/whatwg/html/issues/10238,2024-03-31T22:55:16Z,2024-04-04T10:17:27Z,Wuelle,topic: rendering|topic: forms,0
 2217182342,false,Declarative Shadow DOM for XML Syntax,https://github.com/whatwg/html/issues/10237,2024-03-31T21:05:45Z,2024-04-03T14:30:10Z,mossblaser,topic: parser,0
 2215703317,false,onfocusout and onfocusin event handler content attributes,https://github.com/whatwg/html/issues/10234,2024-03-29T17:01:20Z,2024-03-29T18:40:04Z,josepharhar,,0
 2215614119,false,Support `json`/`style` as `modulepreload` destinations,https://github.com/whatwg/html/issues/10233,2024-03-29T15:56:34Z,2024-04-02T13:56:37Z,noamr,topic: script|topic: resource hints (inc. preload),0
@@ -338,7 +340,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1793651320,true,Introduce scopes to openers,https://github.com/whatwg/html/issues/9500,2023-07-07T14:31:13Z,2023-07-07T17:25:24Z,SoniEx2,,0
 1793601014,true,fetch client settings object isn't used in `fetch the descendants of and link a module script`,https://github.com/whatwg/html/issues/9499,2023-07-07T13:58:54Z,2023-07-13T04:29:54Z,allstarschh,,0
 1792169588,false,Improve description of `readonly` attribute,https://github.com/whatwg/html/issues/9496,2023-07-06T20:13:27Z,2023-09-18T17:08:45Z,aaronadamsCA,clarification|topic: forms,0
-1791166125,true,Allow self-closing tags everywhere,https://github.com/whatwg/html/issues/9491,2023-07-06T09:26:20Z,2023-09-07T12:00:32Z,jakearchibald,addition/proposal|needs implementer interest|topic: parser|needs compat analysis,104
+1791166125,true,Allow self-closing tags everywhere,https://github.com/whatwg/html/issues/9491,2023-07-06T09:26:20Z,2023-09-07T12:00:32Z,jakearchibald,addition/proposal|needs implementer interest|topic: parser|needs compat analysis,105
 1788871531,false,Add VideoPlaybackQuality and HTMLVideoElement»getVideoPlaybackQuality(),https://github.com/whatwg/html/issues/9489,2023-07-05T06:36:23Z,2023-10-29T14:38:28Z,sideshowbarker,addition/proposal|topic: media,0
 1788359824,true,"Use ""matches about:blank"" and ""matches about:srcdoc"" in more places",https://github.com/whatwg/html/issues/9488,2023-07-04T19:09:29Z,2023-07-28T00:45:03Z,domfarolino,topic: navigation,1
 1787902159,false,"Showing only a child popover causes ""beforetoggle"" and ""toggle"" events but popover is invisble",https://github.com/whatwg/html/issues/9487,2023-07-04T13:07:44Z,2023-07-12T23:31:37Z,mbrodesser-Igalia,topic: popover,0
@@ -576,7 +578,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1578001480,true,"Make a way to listen to ""fully active"" state changes",https://github.com/whatwg/html/issues/8872,2023-02-09T14:32:54Z,2023-03-24T03:54:42Z,rakina,integration,0
 1577757378,true,SVGs in <use> cannot be preloaded with a link@rel=preload,https://github.com/whatwg/html/issues/8870,2023-02-09T11:58:48Z,2023-02-15T06:47:26Z,Boldewyn,,1
 1577445089,false,Should strict MIME type for importScripts() also be enforced on local URLs?,https://github.com/whatwg/html/issues/8869,2023-02-09T08:20:18Z,2023-03-29T11:32:53Z,Kaiido,topic: workers|interop,0
-1576960664,false,Add `getInnerHTML()` that optionally serializes declarative Shadow DOM,https://github.com/whatwg/html/issues/8867,2023-02-08T23:38:22Z,2024-02-20T21:49:28Z,mfreed7,addition/proposal|topic: shadow|topic: parser,1
+1576960664,true,Add `getInnerHTML()` that optionally serializes declarative Shadow DOM,https://github.com/whatwg/html/issues/8867,2023-02-08T23:38:22Z,2024-04-04T10:02:51Z,mfreed7,addition/proposal|topic: shadow|topic: parser,1
 1576297577,true,DOMParser and MathML,https://github.com/whatwg/html/issues/8866,2023-02-08T14:57:03Z,2023-02-08T16:42:12Z,pygy,,0
 1576149509,false,Subresource link headers are implemented but not specified,https://github.com/whatwg/html/issues/8865,2023-02-08T13:43:48Z,2023-02-15T06:45:15Z,noamr,topic: link|topic: resource hints (inc. preload),0
 1574083586,false,Allow headings in <summary> elements for <details>,https://github.com/whatwg/html/issues/8864,2023-02-07T10:36:10Z,2023-02-13T17:57:41Z,yatil,document conformance|accessibility,0
@@ -907,7 +909,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1245490159,false,Consider being strict about range mismatch for media,https://github.com/whatwg/html/issues/7950,2022-05-23T17:27:12Z,2022-05-24T07:26:22Z,noamr,topic: media|interop,1
 1245461464,true,Typo in section 2.1.4 DOM trees,https://github.com/whatwg/html/issues/7949,2022-05-23T16:58:18Z,2022-05-26T15:27:55Z,AegisFair,good first issue,1
 1244030392,false,Add color-interpolation-method support for canvas gradients,https://github.com/whatwg/html/issues/7947,2022-05-21T16:39:32Z,2022-05-22T10:24:36Z,weinig,addition/proposal|topic: canvas,3
-1243990383,false,"Proposal: Allow authors to enforce ""save as PDF"" when printing a document",https://github.com/whatwg/html/issues/7946,2022-05-21T14:28:52Z,2024-04-03T14:48:25Z,BenjaminAster,addition/proposal|needs implementer interest,26
+1243990383,false,"Proposal: Allow authors to enforce ""save as PDF"" when printing a document",https://github.com/whatwg/html/issues/7946,2022-05-21T14:28:52Z,2024-04-03T14:48:25Z,BenjaminAster,addition/proposal|needs implementer interest,28
 1242018223,false,(Background) Tab Suspending,https://github.com/whatwg/html/issues/7942,2022-05-19T16:18:36Z,2022-05-19T16:18:36Z,johannhof,,0
 1242006437,false,Throttling and clamping of setTimeout and setInterval,https://github.com/whatwg/html/issues/7941,2022-05-19T16:08:39Z,2022-05-20T08:26:05Z,johannhof,topic: event loop|topic: timing,0
 1241898306,false,Make `<embed>` and `<object>` behave like `<iframe>` for image loading,https://github.com/whatwg/html/issues/7939,2022-05-19T14:43:19Z,2022-06-27T20:59:41Z,farre,normative change|topic: navigation|topic: embed and object,0
@@ -2376,7 +2378,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 431692194,true,Unexpected behaviour of <picture> and it's children compared to <img>,https://github.com/whatwg/html/issues/4522,2019-04-10T20:15:43Z,2019-04-10T20:42:24Z,MelvinIdema,,0
 431661424,false,Expose transferList on MessageEvent,https://github.com/whatwg/html/issues/4521,2019-04-10T18:55:53Z,2020-01-22T17:17:42Z,surma,addition/proposal|needs implementer interest|topic: serialize and transfer,1
 431573865,true,Handling of not-an-HTMLElement custom element constructor return values is different from DOM,https://github.com/whatwg/html/issues/4520,2019-04-10T15:37:27Z,2019-04-15T22:01:19Z,bzbarsky,topic: custom elements,0
-431028845,false,"Make ""as a download"" and ""obtaining a file name"" more explicit",https://github.com/whatwg/html/issues/4518,2019-04-09T15:22:13Z,2023-08-29T02:18:27Z,xyaoinum,clarification|good first issue,0
+431028845,false,"Make ""as a download"" and ""obtaining a file name"" more explicit",https://github.com/whatwg/html/issues/4518,2019-04-09T15:22:13Z,2024-04-04T11:27:35Z,xyaoinum,clarification|good first issue,0
 430955905,false,A `<label>`'s activation behavior shouldn't be platform specific,https://github.com/whatwg/html/issues/4516,2019-04-09T13:04:18Z,2019-04-10T12:14:21Z,mbrodesser,topic: forms|interop,0
 430946058,true,Broken 'href' in `multipage/links.html',https://github.com/whatwg/html/issues/4515,2019-04-09T12:43:21Z,2020-04-29T19:09:32Z,stvar,,0
 430493979,false,The behaviour for repeated calls to `focus({ preventScroll })` should be clarified,https://github.com/whatwg/html/issues/4512,2019-04-08T14:47:39Z,2019-04-11T09:46:41Z,mbrodesser,interop|topic: focus,0
