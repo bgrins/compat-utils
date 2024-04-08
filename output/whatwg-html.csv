@@ -1355,7 +1355,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 909339015,false,"Canvas textBaseline ""em square"" not defined",https://github.com/whatwg/html/issues/6731,2021-06-02T10:15:21Z,2023-06-30T14:31:57Z,AshleyScirra,topic: canvas|interop,4
 909192951,true,[Suggestion] dialog element,https://github.com/whatwg/html/issues/6730,2021-06-02T07:11:15Z,2023-01-26T14:34:09Z,OmidHekayati,topic: dialog,5
 908578515,true,When must the focusing steps be run?,https://github.com/whatwg/html/issues/6729,2021-06-01T18:34:20Z,2023-01-27T01:18:41Z,lpd-au,topic: focus,0
-904118620,false,Prefetching Documents,https://github.com/whatwg/html/issues/6723,2021-05-27T19:39:31Z,2022-05-04T07:05:42Z,jeffkaufman,topic: fetch|topic: resource hints (inc. preload),5
+904118620,false,Prefetching Documents,https://github.com/whatwg/html/issues/6723,2021-05-27T19:39:31Z,2022-05-04T07:05:42Z,jeffkaufman,topic: fetch|topic: resource hints (inc. preload),6
 901101841,true,It is fine to use `hidden` to hide tabpanels. The spec needs a correction.,https://github.com/whatwg/html/issues/6719,2021-05-25T17:06:05Z,2021-05-25T17:30:52Z,ianthedev,,0
 901004040,false,Support navigations where triggered resource loads bypass the cache,https://github.com/whatwg/html/issues/6718,2021-05-25T15:44:21Z,2021-05-26T22:45:52Z,jgraham,topic: navigation|topic: fetch,0
 899275984,false,Add support for obtaining display's physical dimensions in millimeters,https://github.com/whatwg/html/issues/6712,2021-05-24T05:41:56Z,2021-05-25T09:12:40Z,juj,addition/proposal|needs implementer interest|security/privacy,0
@@ -2142,7 +2142,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 497040604,false,Define a policy container,https://github.com/whatwg/html/issues/4926,2019-09-23T11:28:43Z,2021-05-21T10:44:17Z,annevk,clarification|needs tests|interop|integration|topic: policy container,6
 496594293,true,Design questions about IDREF/Element attribute reflection,https://github.com/whatwg/html/issues/4925,2019-09-21T00:49:20Z,2022-06-30T08:19:53Z,alice,accessibility,0
 496188244,true,COEP mismatches in dedicated workers should block.,https://github.com/whatwg/html/issues/4924,2019-09-20T07:14:14Z,2020-04-20T09:12:18Z,mikewest,topic: cross-origin-embedder-policy,0
-495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2024-01-31T10:50:35Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,174
+495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2024-01-31T10:50:35Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,175
 495810632,false,Allow an extra dimension to the size array for 3D favicon,https://github.com/whatwg/html/issues/4922,2019-09-19T13:46:29Z,2021-01-28T22:05:11Z,rcabanier,addition/proposal|needs implementer interest|topic: link,0
 495595729,true,Decide how to treat CSP sandbox in COOP,https://github.com/whatwg/html/issues/4921,2019-09-19T06:18:06Z,2020-06-24T17:33:26Z,shhnjk,security/privacy|topic: cross-origin-opener-policy,0
 495587240,true,Consider restricting SharedArrayBuffer to same-origin usage,https://github.com/whatwg/html/issues/4920,2019-09-19T05:50:59Z,2019-12-05T15:38:02Z,annevk,addition/proposal|topic: serialize and transfer,0
@@ -3024,7 +3024,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 288116711,false,createImageBitmap with OffscreenCanvas argument,https://github.com/whatwg/html/issues/3342,2018-01-12T13:19:51Z,2018-01-26T09:33:11Z,Ms2ger,topic: canvas,2
 288061761,false,"""The image argument is not origin-clean"" check allows tainted ImageBitmaps",https://github.com/whatwg/html/issues/3341,2018-01-12T09:47:23Z,2018-01-12T15:23:06Z,Ms2ger,topic: canvas|security/privacy,0
 287881721,true,"""object getStartDate()"" should be ""Date getStartDate()""",https://github.com/whatwg/html/issues/3340,2018-01-11T18:35:28Z,2018-01-11T18:48:57Z,mmotorny,,0
-287518824,true,Proposal: Storage Access API,https://github.com/whatwg/html/issues/3338,2018-01-10T17:37:57Z,2023-03-17T12:28:19Z,johnwilander,addition/proposal|security/privacy|interop|topic: cookie|topic: storage|needs concrete proposal|impacts documentation,32
+287518824,true,Proposal: Storage Access API,https://github.com/whatwg/html/issues/3338,2018-01-10T17:37:57Z,2024-04-07T14:46:17Z,johnwilander,addition/proposal|security/privacy|interop|topic: cookie|topic: storage|needs concrete proposal|impacts documentation,32
 287303589,false,[PROPOSAL] Private Key Authorization System Built in Browser,https://github.com/whatwg/html/issues/3337,2018-01-10T03:22:43Z,2018-01-22T12:57:53Z,xialvjun,addition/proposal,0
 287180467,true,"""Content attributes"" descriptions are weird for fieldsets",https://github.com/whatwg/html/issues/3335,2018-01-09T18:08:48Z,2018-08-17T14:11:53Z,bzbarsky,clarification|good first issue|topic: forms|topic: fieldset,0
 287119130,false,"""at the media resource's intrinsic width and int...""",https://github.com/whatwg/html/issues/3334,2018-01-09T15:03:28Z,2018-01-10T10:10:19Z,Ms2ger,topic: canvas,1
