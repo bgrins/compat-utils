@@ -3,7 +3,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2231603753,false,"""scripts may run for the newly-created document"" never updated for about:blank iframes.",https://github.com/whatwg/html/issues/10261,2024-04-08T16:09:53Z,2024-04-08T16:10:01Z,kalenikaliaksandr,topic: navigation,0
 2229632707,false,Why does the handle attribute changes algorithm of popover associate with all HTML elements,https://github.com/whatwg/html/issues/10259,2024-04-07T08:36:12Z,2024-04-08T07:15:40Z,dSalieri,integration,0
 2229511659,false,intercepting same-document navigation caused by a user' direct address input in browser address bar,https://github.com/whatwg/html/issues/10258,2024-04-06T06:21:14Z,2024-04-08T04:40:43Z,Zhang-Junzhi,topic: navigation,0
-2228301995,false,navigator.cookieEnabled in third-party contexts,https://github.com/whatwg/html/issues/10256,2024-04-05T15:27:49Z,2024-04-09T18:54:14Z,arichiv,compat|interop|topic: cookie,0
+2228301995,false,navigator.cookieEnabled in third-party contexts,https://github.com/whatwg/html/issues/10256,2024-04-05T15:27:49Z,2024-04-10T11:29:14Z,arichiv,compat|interop|topic: cookie,0
 2228284428,false,Upgrade `structuredClone` options object with `skipNotSerializable` to avoid cloning exceptions,https://github.com/whatwg/html/issues/10255,2024-04-05T15:18:19Z,2024-04-05T16:25:43Z,Juraj-Masiar,addition/proposal|needs implementer interest|topic: serialize and transfer,0
 2228274887,false,Upcoming WHATNOT meeting on 4/11/2024,https://github.com/whatwg/html/issues/10254,2024-04-05T15:13:23Z,2024-04-05T15:13:24Z,past,agenda+,0
 2226878723,true,A way to detect environment such as Workers,https://github.com/whatwg/html/issues/10253,2024-04-05T03:02:32Z,2024-04-05T13:51:36Z,msqr1,addition/proposal|needs implementer interest,0
@@ -475,7 +475,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1658447667,false,Navigation sourceDocument for browser-initiated navigations,https://github.com/whatwg/html/issues/9133,2023-04-07T06:56:05Z,2023-04-28T07:55:42Z,domenic,topic: navigation,0
 1658170692,true,Upcoming HTML standard issue triage meeting on 4/20/2023,https://github.com/whatwg/html/issues/9132,2023-04-06T23:39:43Z,2023-04-20T23:23:15Z,past,agenda+,0
 1656257748,true,Setting input type=date value attribute doesn't pre-populate the input if there's a time,https://github.com/whatwg/html/issues/9128,2023-04-05T20:37:06Z,2023-05-05T08:24:53Z,jfbrennan,,0
-1655838735,false,"Consider allowing <hr> within list elements (ol, ul, menu)",https://github.com/whatwg/html/issues/9126,2023-04-05T15:25:32Z,2024-04-09T18:40:31Z,scottaohara,addition/proposal|document conformance|accessibility|a11y-tracker,14
+1655838735,false,"Consider allowing <hr> within list elements (ol, ul, menu)",https://github.com/whatwg/html/issues/9126,2023-04-05T15:25:32Z,2024-04-10T02:17:10Z,scottaohara,addition/proposal|document conformance|accessibility|a11y-tracker,14
 1655605700,true,"Popover: The ""map"" in the topmost popover ancestor algorithm does not mean the map element.",https://github.com/whatwg/html/issues/9125,2023-04-05T13:17:24Z,2023-04-24T14:44:55Z,cathiechen,clarification|topic: popover,0
 1654846210,false,anonymous fieldset content box's block-size:100% leads to unintuitive behavior,https://github.com/whatwg/html/issues/9123,2023-04-05T02:50:15Z,2023-05-19T12:25:27Z,davidsgrogan,topic: rendering|interop|topic: fieldset,0
 1654771406,false,"""Loading a document for inline content that doesn't have a DOM"" uses non-existing response",https://github.com/whatwg/html/issues/9122,2023-04-05T01:03:20Z,2023-04-28T08:01:57Z,kalenikaliaksandr,topic: navigation,0
@@ -2447,7 +2447,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 423497866,false,Synthetic submit event should probably trigger form submission,https://github.com/whatwg/html/issues/4438,2019-03-20T22:18:56Z,2019-03-30T20:57:50Z,upsuper,compat|topic: forms|topic: events|interop,0
 422645116,false,Create an XML5 standard,https://github.com/whatwg/html/issues/4436,2019-03-19T10:13:26Z,2020-10-19T09:53:59Z,ExE-Boss,addition/proposal|needs implementer interest,2
 422440696,false,Prevent cross document access via policy,https://github.com/whatwg/html/issues/4435,2019-03-18T21:21:09Z,2019-03-23T08:38:09Z,dtapuska,,0
-420557393,false,Add first-class support for differential script loading,https://github.com/whatwg/html/issues/4432,2019-03-13T15:16:10Z,2019-06-20T18:26:19Z,mathiasbynens,addition/proposal|topic: script,135
+420557393,false,Add first-class support for differential script loading,https://github.com/whatwg/html/issues/4432,2019-03-13T15:16:10Z,2019-06-20T18:26:19Z,mathiasbynens,addition/proposal|topic: script,136
 420519356,true,Further BarProp cleanup,https://github.com/whatwg/html/issues/4431,2019-03-13T14:07:56Z,2021-10-29T16:57:42Z,annevk,clarification,0
 420085960,false,window.opener can be cleared,https://github.com/whatwg/html/issues/4429,2019-03-12T16:32:30Z,2019-03-28T21:08:56Z,annevk,topic: browsing context|needs concrete proposal,0
 420082063,true,Need a concept for closed browsing contexts for bfcache,https://github.com/whatwg/html/issues/4428,2019-03-12T16:25:01Z,2022-10-31T05:07:00Z,annevk,topic: history|topic: browsing context,0
