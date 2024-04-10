@@ -3,7 +3,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2231603753,false,"""scripts may run for the newly-created document"" never updated for about:blank iframes.",https://github.com/whatwg/html/issues/10261,2024-04-08T16:09:53Z,2024-04-08T16:10:01Z,kalenikaliaksandr,topic: navigation,0
 2229632707,false,Why does the handle attribute changes algorithm of popover associate with all HTML elements,https://github.com/whatwg/html/issues/10259,2024-04-07T08:36:12Z,2024-04-08T07:15:40Z,dSalieri,integration,0
 2229511659,false,intercepting same-document navigation caused by a user' direct address input in browser address bar,https://github.com/whatwg/html/issues/10258,2024-04-06T06:21:14Z,2024-04-08T04:40:43Z,Zhang-Junzhi,topic: navigation,0
-2228301995,false,navigator.cookieEnabled in third-party contexts,https://github.com/whatwg/html/issues/10256,2024-04-05T15:27:49Z,2024-04-08T17:56:57Z,arichiv,compat|interop|topic: cookie,0
+2228301995,false,navigator.cookieEnabled in third-party contexts,https://github.com/whatwg/html/issues/10256,2024-04-05T15:27:49Z,2024-04-09T18:54:14Z,arichiv,compat|interop|topic: cookie,0
 2228284428,false,Upgrade `structuredClone` options object with `skipNotSerializable` to avoid cloning exceptions,https://github.com/whatwg/html/issues/10255,2024-04-05T15:18:19Z,2024-04-05T16:25:43Z,Juraj-Masiar,addition/proposal|needs implementer interest|topic: serialize and transfer,0
 2228274887,false,Upcoming WHATNOT meeting on 4/11/2024,https://github.com/whatwg/html/issues/10254,2024-04-05T15:13:23Z,2024-04-05T15:13:24Z,past,agenda+,0
 2226878723,true,A way to detect environment such as Workers,https://github.com/whatwg/html/issues/10253,2024-04-05T03:02:32Z,2024-04-05T13:51:36Z,msqr1,addition/proposal|needs implementer interest,0
@@ -37,7 +37,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2193993060,false,Possibility to export drawImage() rendering algorithm,https://github.com/whatwg/html/issues/10210,2024-03-19T04:34:19Z,2024-03-21T04:50:20Z,Djuffin,topic: canvas|integration,0
 2193889113,false,"`writingsuggestions` might need to default to ""off""",https://github.com/whatwg/html/issues/10209,2024-03-19T02:47:52Z,2024-03-25T11:52:45Z,marcoscaceres,compat,0
 2192989420,false,Proposal: pause iframe media when not rendered,https://github.com/whatwg/html/issues/10208,2024-03-18T18:41:25Z,2024-04-04T16:47:30Z,gabrielsanbrito,addition/proposal|needs implementer interest|topic: media,0
-2188214401,false,Toggle/cycle buttons,https://github.com/whatwg/html/issues/10206,2024-03-15T10:39:26Z,2024-04-09T00:28:17Z,annevk,addition/proposal|topic: forms,3
+2188214401,false,Toggle/cycle buttons,https://github.com/whatwg/html/issues/10206,2024-03-15T10:39:26Z,2024-04-09T19:02:43Z,annevk,addition/proposal|topic: forms,3
 2187420666,true,Upcoming WHATNOT meeting on 3/21/2024,https://github.com/whatwg/html/issues/10205,2024-03-14T22:59:41Z,2024-03-20T21:04:47Z,past,agenda+,0
 2186521527,false,HostEnsureCanCompileStrings definition mismatch,https://github.com/whatwg/html/issues/10202,2024-03-14T14:26:46Z,2024-03-14T14:44:36Z,lukewarlow,,0
 2185450782,false,Restrict when MessagePort's onclose event can fire,https://github.com/whatwg/html/issues/10201,2024-03-14T05:15:57Z,2024-03-18T04:43:04Z,fergald,security/privacy|topic: serialize and transfer,0
@@ -121,7 +121,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2081948280,false,Allow custom element definition to be 'changed',https://github.com/whatwg/html/issues/10063,2024-01-15T12:35:26Z,2024-01-15T16:24:53Z,jakearchibald,addition/proposal|needs implementer interest|topic: custom elements,0
 2079816491,true,[View Transition] [Navigation API] Allow opt-in for cross-document navigations via `navigate`,https://github.com/whatwg/html/issues/10059,2024-01-12T22:32:25Z,2024-01-16T20:56:41Z,khushalsagar,,2
 2079442881,false,Avoid depending on arbitrary labels (goto),https://github.com/whatwg/html/issues/10057,2024-01-12T18:22:11Z,2024-01-13T14:57:12Z,jdahlin,clarification|topic: parser,0
-2079280476,false,Image `loading` on page load,https://github.com/whatwg/html/issues/10056,2024-01-12T16:53:47Z,2024-04-05T08:17:02Z,benmccann,addition/proposal|needs implementer interest|topic: media|agenda+,5
+2079280476,false,Image `loading` on page load,https://github.com/whatwg/html/issues/10056,2024-01-12T16:53:47Z,2024-04-09T22:56:13Z,benmccann,addition/proposal|needs implementer interest|topic: media,5
 2077957331,true,Typo in `CanvasDrawPath.isPointInPath`,https://github.com/whatwg/html/issues/10053,2024-01-12T02:32:24Z,2024-03-04T05:09:02Z,0f-0b,good first issue|topic: canvas,1
 2077589057,true,Upcoming WHATNOT meeting on 1/25/2024,https://github.com/whatwg/html/issues/10052,2024-01-11T21:08:45Z,2024-01-26T00:55:47Z,past,agenda+,0
 2076160228,false,Inheritance with shadow DOM for `spellcheck` attribute,https://github.com/whatwg/html/issues/10050,2024-01-11T09:40:09Z,2024-01-11T19:23:49Z,sanketj,topic: shadow|needs tests,0
@@ -475,7 +475,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1658447667,false,Navigation sourceDocument for browser-initiated navigations,https://github.com/whatwg/html/issues/9133,2023-04-07T06:56:05Z,2023-04-28T07:55:42Z,domenic,topic: navigation,0
 1658170692,true,Upcoming HTML standard issue triage meeting on 4/20/2023,https://github.com/whatwg/html/issues/9132,2023-04-06T23:39:43Z,2023-04-20T23:23:15Z,past,agenda+,0
 1656257748,true,Setting input type=date value attribute doesn't pre-populate the input if there's a time,https://github.com/whatwg/html/issues/9128,2023-04-05T20:37:06Z,2023-05-05T08:24:53Z,jfbrennan,,0
-1655838735,false,"Consider allowing <hr> within list elements (ol, ul, menu)",https://github.com/whatwg/html/issues/9126,2023-04-05T15:25:32Z,2023-10-17T12:15:06Z,scottaohara,addition/proposal|document conformance|accessibility|a11y-tracker,13
+1655838735,false,"Consider allowing <hr> within list elements (ol, ul, menu)",https://github.com/whatwg/html/issues/9126,2023-04-05T15:25:32Z,2024-04-09T18:40:31Z,scottaohara,addition/proposal|document conformance|accessibility|a11y-tracker,14
 1655605700,true,"Popover: The ""map"" in the topmost popover ancestor algorithm does not mean the map element.",https://github.com/whatwg/html/issues/9125,2023-04-05T13:17:24Z,2023-04-24T14:44:55Z,cathiechen,clarification|topic: popover,0
 1654846210,false,anonymous fieldset content box's block-size:100% leads to unintuitive behavior,https://github.com/whatwg/html/issues/9123,2023-04-05T02:50:15Z,2023-05-19T12:25:27Z,davidsgrogan,topic: rendering|interop|topic: fieldset,0
 1654771406,false,"""Loading a document for inline content that doesn't have a DOM"" uses non-existing response",https://github.com/whatwg/html/issues/9122,2023-04-05T01:03:20Z,2023-04-28T08:01:57Z,kalenikaliaksandr,topic: navigation,0
@@ -1302,7 +1302,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 947056780,true,"HTML  syntax not correct ",https://github.com/whatwg/html/issues/6875,2021-07-18T15:14:36Z,2021-07-18T16:16:52Z,harshit-dugar,spam,0
 946697785,true,"Missing parameter in the steps of ""7.10.5.8 [[Set]] ( P, V, Receiver )"" ",https://github.com/whatwg/html/issues/6873,2021-07-17T03:27:53Z,2021-07-23T10:30:54Z,yvt,good first issue,0
 946636592,false,setCustomValidity() seems pointless on <fieldset>,https://github.com/whatwg/html/issues/6870,2021-07-16T22:42:56Z,2024-02-15T16:00:02Z,domenic,addition/proposal|needs implementer interest|topic: forms,6
-946624070,false,Add required-attribute support for fieldsets,https://github.com/whatwg/html/issues/6868,2021-07-16T22:08:49Z,2023-02-13T13:51:43Z,fstrr,addition/proposal|topic: forms,9
+946624070,false,Add required-attribute support for fieldsets,https://github.com/whatwg/html/issues/6868,2021-07-16T22:08:49Z,2023-02-13T13:51:43Z,fstrr,addition/proposal|topic: forms,10
 946138075,true,How does authors specify CSS module scripts on script element?,https://github.com/whatwg/html/issues/6864,2021-07-16T10:03:55Z,2021-07-16T15:12:20Z,mtrootyy,,0
 945561794,true,Proposal: stop triggering navigations to about:blank on iframe insertion,https://github.com/whatwg/html/issues/6863,2021-07-15T16:28:37Z,2021-08-10T17:20:50Z,rakina,,2
 944085079,false,specifying BFCache interactions with window.open and browsing context groups,https://github.com/whatwg/html/issues/6858,2021-07-14T06:19:10Z,2022-04-19T21:25:19Z,fergald,topic: navigation|topic: history,0
@@ -1934,7 +1934,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 572368643,true,Question: site equality examples,https://github.com/whatwg/html/issues/5316,2020-02-27T21:24:30Z,2020-02-28T19:36:22Z,lazdmx,clarification,0
 570587270,true,Lazyload: N-fetches for each relevant mutation,https://github.com/whatwg/html/issues/5314,2020-02-25T13:53:54Z,2020-05-15T16:45:55Z,domfarolino,topic: img,1
 570474276,true,"""the document has finished loading""",https://github.com/whatwg/html/issues/5313,2020-02-25T10:39:45Z,2020-02-26T09:24:46Z,amn,,0
-570415383,false,"Form Submission: Fix the ""Double Submit problem"" at the spec level",https://github.com/whatwg/html/issues/5312,2020-02-25T09:07:07Z,2021-01-17T17:55:38Z,bramus,addition/proposal|needs implementer interest|topic: forms,158
+570415383,false,"Form Submission: Fix the ""Double Submit problem"" at the spec level",https://github.com/whatwg/html/issues/5312,2020-02-25T09:07:07Z,2024-04-09T14:08:27Z,bramus,addition/proposal|needs implementer interest|topic: forms,158
 570310032,false,Proposal: canvas to blob URL function,https://github.com/whatwg/html/issues/5311,2020-02-25T04:51:26Z,2020-02-25T22:21:22Z,rhendric,addition/proposal|needs implementer interest|topic: canvas|security/privacy,0
 569316279,true,"Event order of onKeyDown, onKeyPress, onKeyUp, and onPaste when using pasting (CMD + v) in Mac OS X",https://github.com/whatwg/html/issues/5310,2020-02-22T10:39:21Z,2020-02-22T10:46:10Z,aesyondu,,0
 569187828,true,"<img alt=""""> definition doesn't match reality.",https://github.com/whatwg/html/issues/5309,2020-02-21T21:15:09Z,2020-02-26T09:24:49Z,emilio,compat|topic: rendering|topic: img,5
