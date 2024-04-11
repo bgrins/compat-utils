@@ -1,8 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2235643011,false,Editorial: Upstream outerHTML property from DOM Parsing,https://github.com/whatwg/html/pull/10270,2024-04-10T13:45:27Z,2024-04-10T14:03:07Z,lukewarlow,,0
 2234668173,false,Add integrity metadata to importmaps,https://github.com/whatwg/html/pull/10269,2024-04-10T03:02:35Z,2024-04-10T03:04:27Z,yoavweiss,,0
 2234134025,true,Editorial: Add warning about lack of sanitization to HTML parsing functions.,https://github.com/whatwg/html/pull/10267,2024-04-09T19:06:20Z,2024-04-10T09:34:23Z,lukewarlow,,0
 2233818920,false,Specify the rendering of <details> in more detail.,https://github.com/whatwg/html/pull/10265,2024-04-09T16:14:34Z,2024-04-09T18:10:38Z,dbaron,,0
-2233706241,false,Upstream innerHTML from DOM Parsing spec,https://github.com/whatwg/html/pull/10264,2024-04-09T15:20:35Z,2024-04-10T12:01:08Z,lukewarlow,,0
+2233706241,false,Editorial: Upstream innerHTML property from DOM Parsing spec,https://github.com/whatwg/html/pull/10264,2024-04-09T15:20:35Z,2024-04-10T13:46:46Z,lukewarlow,,0
 2232343705,true,Fix typo in MessagePort postMessage,https://github.com/whatwg/html/pull/10263,2024-04-08T23:50:42Z,2024-04-09T02:08:04Z,Kaiido,,0
 2230935302,true,Closed shadow roots can be serializable too,https://github.com/whatwg/html/pull/10260,2024-04-08T11:21:50Z,2024-04-10T06:51:57Z,annevk,normative change|topic: shadow,0
 2228883044,true,"Make all the SVGs darkmode-aware, and tag them as such.",https://github.com/whatwg/html/pull/10257,2024-04-05T22:19:18Z,2024-04-08T16:36:55Z,tabatkins,,0
@@ -14,7 +15,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2216408799,true,Add `relatedTarget` to `ToggleEvent` for use in popover `beforetoggle`,https://github.com/whatwg/html/pull/10236,2024-03-30T11:57:29Z,2024-04-01T17:28:58Z,jpzwarte,,0
 2215871180,false,Add focusin and focusout events,https://github.com/whatwg/html/pull/10235,2024-03-29T18:59:53Z,2024-04-03T00:38:12Z,josepharhar,topic: focus,2
 2214634160,false,Editorial: remove unreachable step for inline module scripts,https://github.com/whatwg/html/pull/10230,2024-03-29T04:34:00Z,2024-04-02T13:56:13Z,domenic,clarification|topic: script,0
-2208272187,false,Set iframe lazy load resumption steps to null on navigation,https://github.com/whatwg/html/pull/10226,2024-03-26T13:34:04Z,2024-03-29T22:23:41Z,zcorpan,,0
+2208272187,false,Set iframe lazy load resumption steps to null on navigation,https://github.com/whatwg/html/pull/10226,2024-03-26T13:34:04Z,2024-04-10T15:53:54Z,zcorpan,,0
 2205916065,true,Editorial: order of comparisons,https://github.com/whatwg/html/pull/10224,2024-03-25T14:37:44Z,2024-03-26T06:13:32Z,annevk,,0
 2202742859,true,Improve element reflection,https://github.com/whatwg/html/pull/10221,2024-03-22T15:18:13Z,2024-03-26T08:20:20Z,annevk,topic: reflect,0
 2197161842,false,[render-blocking] Fix implicitly-render-blocking definition.,https://github.com/whatwg/html/pull/10214,2024-03-20T10:17:39Z,2024-03-20T13:04:12Z,emilio,,0
@@ -310,7 +311,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1755990245,true,"new changes ",https://github.com/whatwg/html/pull/9421,2023-06-14T03:35:59Z,2023-06-14T03:44:38Z,Amrit-ghale,spam,0
 1754881399,true,"Initialize `nestedHide` variable in the ""hide a popover"" algorithm",https://github.com/whatwg/html/pull/9419,2023-06-13T13:20:06Z,2023-06-14T11:17:55Z,mbrodesser-Igalia,topic: popover,0
 1754473779,true,source modified,https://github.com/whatwg/html/pull/9418,2023-06-13T09:42:16Z,2023-06-15T13:55:09Z,arup1221,,0
-1750102943,false,Require support for AsyncContext,https://github.com/whatwg/html/pull/9408,2023-06-09T15:28:34Z,2024-04-04T15:15:09Z,Ms2ger,,0
+1750102943,false,Require support for AsyncContext,https://github.com/whatwg/html/pull/9408,2023-06-09T15:28:34Z,2024-04-10T17:26:15Z,Ms2ger,,0
 1749982433,true,Propagate fetch referrer in dynamic imports,https://github.com/whatwg/html/pull/9407,2023-06-09T14:14:59Z,2023-07-04T07:59:05Z,nicolo-ribaudo,normative change|topic: script,0
 1745979749,true,Add name attribute for grouping details elements into an exclusive accordion,https://github.com/whatwg/html/pull/9400,2023-06-07T13:59:20Z,2023-12-21T21:40:39Z,dbaron,addition/proposal|needs implementer interest,1
 1745722348,true,Null checks for img pending request,https://github.com/whatwg/html/pull/9399,2023-06-07T11:52:31Z,2023-06-09T12:15:43Z,zcorpan,,0
