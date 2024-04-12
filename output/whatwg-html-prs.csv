@@ -1,10 +1,10 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2236940664,false,Delay calling onComplete for inline module script parse errors,https://github.com/whatwg/html/pull/10272,2024-04-11T05:29:01Z,2024-04-11T05:37:52Z,domenic,topic: script,0
+2236940664,false,Delay calling onComplete for inline module script parse errors,https://github.com/whatwg/html/pull/10272,2024-04-11T05:29:01Z,2024-04-11T14:48:06Z,domenic,topic: script,0
 2235643011,false,Editorial: Upstream outerHTML property from DOM Parsing,https://github.com/whatwg/html/pull/10270,2024-04-10T13:45:27Z,2024-04-11T11:23:28Z,lukewarlow,,0
 2234668173,false,Add integrity metadata to importmaps,https://github.com/whatwg/html/pull/10269,2024-04-10T03:02:35Z,2024-04-11T06:24:22Z,yoavweiss,,0
 2234134025,true,Editorial: Add warning about lack of sanitization to HTML parsing functions.,https://github.com/whatwg/html/pull/10267,2024-04-09T19:06:20Z,2024-04-10T09:34:23Z,lukewarlow,,0
-2233818920,false,Specify the rendering of <details> in more detail.,https://github.com/whatwg/html/pull/10265,2024-04-09T16:14:34Z,2024-04-11T02:57:42Z,dbaron,normative change|topic: rendering,0
-2233706241,false,Editorial: Upstream innerHTML property from DOM Parsing spec,https://github.com/whatwg/html/pull/10264,2024-04-09T15:20:35Z,2024-04-11T11:05:50Z,lukewarlow,,0
+2233818920,false,Specify the rendering of <details> in more detail.,https://github.com/whatwg/html/pull/10265,2024-04-09T16:14:34Z,2024-04-11T13:30:11Z,dbaron,normative change|topic: rendering,0
+2233706241,false,Editorial: Upstream innerHTML property from DOM Parsing spec,https://github.com/whatwg/html/pull/10264,2024-04-09T15:20:35Z,2024-04-11T17:03:09Z,lukewarlow,,0
 2232343705,true,Fix typo in MessagePort postMessage,https://github.com/whatwg/html/pull/10263,2024-04-08T23:50:42Z,2024-04-09T02:08:04Z,Kaiido,,0
 2230935302,true,Closed shadow roots can be serializable too,https://github.com/whatwg/html/pull/10260,2024-04-08T11:21:50Z,2024-04-10T06:51:57Z,annevk,normative change|topic: shadow,0
 2228883044,true,"Make all the SVGs darkmode-aware, and tag them as such.",https://github.com/whatwg/html/pull/10257,2024-04-05T22:19:18Z,2024-04-08T16:36:55Z,tabatkins,,0
@@ -110,7 +110,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2038423738,true,Add additional accessibility-related authoring advice regarding <details>,https://github.com/whatwg/html/pull/9989,2023-12-12T19:29:30Z,2024-01-09T04:27:39Z,dbaron,document conformance|accessibility,0
 2032735767,true,Editorial: tidy up hidden enumerated attribute,https://github.com/whatwg/html/pull/9985,2023-12-08T14:16:27Z,2024-01-09T16:58:06Z,keithamus,,0
 2028241576,true,Restore early return for history.go(0),https://github.com/whatwg/html/pull/9980,2023-12-06T10:35:19Z,2023-12-07T04:33:31Z,Ms2ger,topic: history,0
-2027460287,false,Remove OffscreenCanvas contexts's commit method,https://github.com/whatwg/html/pull/9979,2023-12-06T01:28:53Z,2023-12-08T21:27:54Z,Kaiido,removal/deprecation|topic: canvas,0
+2027460287,false,Remove OffscreenCanvas contexts's commit method,https://github.com/whatwg/html/pull/9979,2023-12-06T01:28:53Z,2024-04-11T17:55:31Z,Kaiido,removal/deprecation|topic: canvas,0
 2023673300,true,Editorial: Remove extra closing `</p>` tag,https://github.com/whatwg/html/pull/9975,2023-12-04T11:49:14Z,2023-12-04T14:43:01Z,nicolo-ribaudo,,0
 2023665769,true,Editorial: Remove old FinishDynamicImport reference,https://github.com/whatwg/html/pull/9974,2023-12-04T11:44:52Z,2023-12-06T09:49:29Z,nicolo-ribaudo,topic: script,0
 2021494984,true,Document render blocking with a <link rel=expect> element,https://github.com/whatwg/html/pull/9970,2023-12-01T19:52:33Z,2024-02-27T08:19:35Z,noamr,,0
@@ -138,7 +138,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1991924982,true,Export normalized TimeRanges object,https://github.com/whatwg/html/pull/9930,2023-11-14T03:39:51Z,2023-11-19T23:47:48Z,marcoscaceres,,0
 1986916416,true,Change subframe traverse navigate event timing,https://github.com/whatwg/html/pull/9922,2023-11-10T05:13:57Z,2023-11-15T00:40:45Z,domenic,normative change|topic: navigation,0
 1978754702,false,Add device-eid and device-imei autocomplete tokens,https://github.com/whatwg/html/pull/9913,2023-11-06T10:05:21Z,2024-03-18T14:21:04Z,annevk,,0
-1977331415,false,Add invoke defaults for input and select,https://github.com/whatwg/html/pull/9912,2023-11-04T13:18:17Z,2023-11-16T13:44:22Z,lukewarlow,,0
+1977331415,true,Add invoke defaults for input and select,https://github.com/whatwg/html/pull/9912,2023-11-04T13:18:17Z,2024-04-11T19:52:39Z,lukewarlow,,0
 1974532027,true,HTMLAllCollection: add tags() method,https://github.com/whatwg/html/pull/9908,2023-11-02T15:42:16Z,2023-11-13T05:53:30Z,delan,,0
 1973785754,true,Overhaul document unloading/destruction/aborting,https://github.com/whatwg/html/pull/9907,2023-11-02T08:54:15Z,2024-01-11T05:34:16Z,domenic,topic: navigation,0
 1973639595,true,Modernize frame/iframe insertion and removal,https://github.com/whatwg/html/pull/9906,2023-11-02T07:07:51Z,2023-11-06T08:35:35Z,domenic,topic: shadow|topic: browsing context,0
@@ -176,7 +176,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1935018189,true,Editorial: make kind attributes consistent,https://github.com/whatwg/html/pull/9847,2023-10-10T10:34:57Z,2023-10-10T11:59:18Z,keithamus,editorial,0
 1933058172,true,Implement WebDriver BiDi interception in the `show the picker` algorithm,https://github.com/whatwg/html/pull/9844,2023-10-09T13:22:03Z,2024-04-04T11:37:04Z,jrandolf,do not merge yet|integration,0
 1932809665,true,Editorial: make fetch priority attributes consistent,https://github.com/whatwg/html/pull/9842,2023-10-09T10:59:10Z,2023-10-09T11:41:54Z,keithamus,editorial,0
-1932098948,false,(Invokers Proposal) Add InvokeElement & InvokeEvent IDLs & invocation steps for Dialog & Popover,https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2024-04-09T16:40:12Z,keithamus,,0
+1932098948,false,(Invokers Proposal) Add InvokeElement & InvokeEvent IDLs & invocation steps for Dialog & Popover,https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2024-04-11T19:03:48Z,keithamus,,0
 1931367969,true,Editorial: remove some copypasta around CORS settings attribute,https://github.com/whatwg/html/pull/9840,2023-10-07T14:14:19Z,2023-10-08T14:25:55Z,annevk,,0
 1930976617,true,"Fix typo in ""History-action activation-consuming APIs""",https://github.com/whatwg/html/pull/9839,2023-10-06T21:55:17Z,2023-10-10T04:56:14Z,CanadaHonk,,0
 1930460108,true,Perform a microtask checkpoint only after a task,https://github.com/whatwg/html/pull/9838,2023-10-06T15:38:05Z,2023-10-10T05:26:36Z,annevk,topic: event loop,1
@@ -385,7 +385,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1665882711,true,Fix form submission's replace-before-load logic,https://github.com/whatwg/html/pull/9156,2023-04-13T07:34:01Z,2023-05-10T07:05:24Z,domenic,topic: navigation|topic: forms|interop,0
 1665109294,false,Add payto as a safelisted scheme for registerProtocolHandler(),https://github.com/whatwg/html/pull/9155,2023-04-12T19:17:02Z,2023-11-14T08:05:49Z,rastislavcore,addition/proposal|needs implementer interest|topic: custom protocols,0
 1663489093,false,Move cross-origin opener policy into policy container,https://github.com/whatwg/html/pull/9149,2023-04-12T01:17:19Z,2023-11-14T08:05:50Z,domfarolino,topic: cross-origin-opener-policy|topic: policy container,0
-1661201309,false,Add anchor attribute,https://github.com/whatwg/html/pull/9144,2023-04-10T18:57:34Z,2024-04-11T04:00:34Z,josepharhar,agenda+,2
+1661201309,false,Add anchor attribute,https://github.com/whatwg/html/pull/9144,2023-04-10T18:57:34Z,2024-04-11T19:52:57Z,josepharhar,,2
 1660955905,true,Don't throw when popover/dialog is in requested state,https://github.com/whatwg/html/pull/9142,2023-04-10T15:32:00Z,2023-07-10T09:37:47Z,josepharhar,needs tests|topic: dialog|topic: popover,0
 1660921767,true,Remove anchor attribute reference in popover note,https://github.com/whatwg/html/pull/9141,2023-04-10T15:05:50Z,2023-04-24T14:03:23Z,josepharhar,topic: popover,0
 1660416855,true,"Fix ""active frame element"" definition",https://github.com/whatwg/html/pull/9139,2023-04-10T08:08:01Z,2023-04-28T07:31:26Z,domenic,topic: browsing context,0
