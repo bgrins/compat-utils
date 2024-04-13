@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2240037535,false,Module script dependencies and fetch priority,https://github.com/whatwg/html/issues/10276,2024-04-12T12:18:39Z,2024-04-12T12:18:59Z,yoavweiss,,0
 2238379090,false,Upcoming WHATNOT meeting on 4/18/2024,https://github.com/whatwg/html/issues/10275,2024-04-11T19:06:54Z,2024-04-11T19:06:54Z,past,agenda+,0
 2238307794,false,"Not clear purpose of early return in ""finalize a same-document navigation""",https://github.com/whatwg/html/issues/10274,2024-04-11T18:22:34Z,2024-04-12T00:20:54Z,kalenikaliaksandr,topic: navigation,0
 2237234871,false,Allow slotting indirect children,https://github.com/whatwg/html/issues/10273,2024-04-11T08:54:22Z,2024-04-12T08:48:58Z,jakearchibald,addition/proposal|needs implementer interest|topic: shadow,0
@@ -49,7 +50,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2182784571,true,Limit NavigationActivation on pageswap to same-origin navigations with no cross-origin redirects,https://github.com/whatwg/html/issues/10196,2024-03-12T22:19:10Z,2024-03-27T02:28:14Z,khushalsagar,topic: navigation,0
 2180571389,false,"Browsers synchronously fire `pagehide` & `unload`, while the standard doesn't",https://github.com/whatwg/html/issues/10194,2024-03-12T02:01:11Z,2024-03-15T11:24:53Z,domfarolino,removal/deprecation,0
 2179753862,false,Proposal: Tab Knowledge API -- gaining knowledge about same-origin tabs,https://github.com/whatwg/html/issues/10193,2024-03-11T17:33:30Z,2024-03-21T05:32:37Z,vmpstr,addition/proposal|needs implementer interest,0
-2177737447,false,"""check if an access between two browsing contexts should be reported"" can be called with null browsing context but doesn't handle it",https://github.com/whatwg/html/issues/10192,2024-03-10T14:08:35Z,2024-03-11T08:37:38Z,awesomekling,topic: browsing context,3
+2177737447,false,"""check if an access between two browsing contexts should be reported"" can be called with null browsing context but doesn't handle it",https://github.com/whatwg/html/issues/10192,2024-03-10T14:08:35Z,2024-03-11T08:37:38Z,awesomekling,topic: browsing context,4
 2177225185,true,"Broaden <nav>'s semantics, making <nav> suitable as an application-like navigator within a single page",https://github.com/whatwg/html/issues/10190,2024-03-09T13:24:41Z,2024-03-13T03:44:30Z,Zhang-Junzhi,,0
 2175120347,true,"Document ""rendering suppression for view transitions"" also suppresses ""perform pending transition operations""",https://github.com/whatwg/html/issues/10186,2024-03-08T01:40:36Z,2024-03-11T23:40:20Z,nt1m,topic: rendering,0
 2173990781,false,should search for draggable attribute follow dom tree or flattened tree?,https://github.com/whatwg/html/issues/10185,2024-03-07T14:26:12Z,2024-03-07T16:08:16Z,dbaron,,2
@@ -216,7 +217,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1952210353,true,"HostLoadImportedModule uses undefined variable ""result""",https://github.com/whatwg/html/issues/9867,2023-10-19T13:03:11Z,2023-10-30T14:54:58Z,Ms2ger,topic: script,0
 1951582919,true,Absolute positioned divs are cut off at boundaries of html dialog element,https://github.com/whatwg/html/issues/9866,2023-10-19T08:24:30Z,2023-10-20T19:23:34Z,delijah,topic: dialog,0
 1950432713,false,`subcaption` / nested `caption` tag,https://github.com/whatwg/html/issues/9865,2023-10-18T18:56:12Z,2023-11-13T15:20:51Z,Pandapip1,addition/proposal|needs implementer interest,0
-1950311472,false,"Null script block in ""fetch an inline module script graph"" is unreachable",https://github.com/whatwg/html/issues/9864,2023-10-18T17:42:46Z,2024-04-12T06:31:18Z,Lubrsi,clarification|topic: script,0
+1950311472,false,"Null script block in ""fetch an inline module script graph"" is unreachable",https://github.com/whatwg/html/issues/9864,2023-10-18T17:42:46Z,2024-04-12T14:26:20Z,Lubrsi,clarification|topic: script,0
 1947727597,true,"Proposed Element : Message ",https://github.com/whatwg/html/issues/9861,2023-10-17T15:41:05Z,2023-10-18T08:18:45Z,M-J-Robbins,addition/proposal|needs implementer interest,2
 1946142512,true,Allow HTML content with rules as for LI tag to OPTION tag,https://github.com/whatwg/html/issues/9859,2023-10-16T21:35:55Z,2023-10-20T01:16:48Z,koteisaev,addition/proposal|needs implementer interest,0
 1942763757,true,HTMLImageElement.src in about:blank documents,https://github.com/whatwg/html/issues/9855,2023-10-13T23:05:30Z,2023-10-16T20:43:36Z,josepharhar,,1
@@ -442,7 +443,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1694120328,true,Not possible to put non-phrasing content in paragraphs due to tag omission in HTML5,https://github.com/whatwg/html/issues/9251,2023-05-03T13:51:14Z,2023-05-08T08:23:56Z,ThinLinc-Zeijlon,,0
 1693443918,true,param should be an element that serializes as void,https://github.com/whatwg/html/issues/9249,2023-05-03T05:43:30Z,2023-05-08T06:42:56Z,rniwa,topic: parser|topic: embed and object,1
 1693123474,false,Why isn't the `hr` element allowed to be used inside the `optgroup` element as a separator?,https://github.com/whatwg/html/issues/9247,2023-05-02T21:26:28Z,2023-08-29T06:55:42Z,mtrootyy,topic: forms,0
-1692475133,false,Focus delegate algorithm doesn't consider elements assigned to slot,https://github.com/whatwg/html/issues/9245,2023-05-02T13:55:51Z,2024-04-12T04:54:51Z,sefeng211,topic: shadow|topic: focus,0
+1692475133,false,Focus delegate algorithm doesn't consider elements assigned to slot,https://github.com/whatwg/html/issues/9245,2023-05-02T13:55:51Z,2024-04-12T17:44:59Z,sefeng211,topic: shadow|topic: focus,0
 1692072317,false,Specify expected behavior for when users change input field directionality,https://github.com/whatwg/html/issues/9244,2023-05-02T09:19:39Z,2023-05-10T08:14:31Z,zcorpan,topic: forms|i18n-tracker|topic: editing,0
 1690015106,false,Sharing user activation with an iframe (or implement `allow-X-without-user-activation` for every `X`),https://github.com/whatwg/html/issues/9237,2023-04-30T17:54:15Z,2023-05-08T14:00:15Z,josephrocca,topic: user activation|topic: sandbox,0
 1687109600,true,Export Window's navigable,https://github.com/whatwg/html/issues/9226,2023-04-27T15:40:39Z,2023-04-28T08:11:19Z,npm1,,0
@@ -492,7 +493,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1651686034,false,"Support `popovertarget` on custom elements with `role=""button""` ",https://github.com/whatwg/html/issues/9110,2023-04-03T09:26:25Z,2023-06-10T12:02:51Z,jpzwarte,addition/proposal|topic: custom elements|topic: popover,2
 1651613244,false,`popovertarget` and shadow DOM,https://github.com/whatwg/html/issues/9109,2023-04-03T08:43:23Z,2023-10-13T14:31:42Z,jpzwarte,addition/proposal|topic: shadow|topic: popover,0
 1650378616,false,Add BoundingClientRectObserver,https://github.com/whatwg/html/issues/9104,2023-04-01T09:09:22Z,2023-12-17T22:09:28Z,cubuspl42,addition/proposal|needs implementer interest,3
-1650150293,false,<textarea> should support the [pattern] attribute like the <input> element,https://github.com/whatwg/html/issues/9102,2023-03-31T23:02:41Z,2024-03-05T12:01:17Z,Gambloide,addition/proposal|needs implementer interest|topic: forms|needs compat analysis,5
+1650150293,false,<textarea> should support the [pattern] attribute like the <input> element,https://github.com/whatwg/html/issues/9102,2023-03-31T23:02:41Z,2024-03-05T12:01:17Z,Gambloide,addition/proposal|needs implementer interest|topic: forms|needs compat analysis,6
 1648832613,true,PDF version does not link to web version,https://github.com/whatwg/html/issues/9097,2023-03-31T07:32:24Z,2023-04-03T07:25:38Z,NicoleSharp,spec tooling,0
 1648366000,false,"typo ""The autofill field listed above indicate that t...""",https://github.com/whatwg/html/issues/9094,2023-03-30T21:43:18Z,2023-03-30T21:43:18Z,timelsass,,0
 1646524684,false,Early termination of navigation loading spinner on cross-document navigation,https://github.com/whatwg/html/issues/9090,2023-03-29T21:01:44Z,2023-05-11T00:25:52Z,tbondwilkinson,addition/proposal|topic: navigation,0
@@ -2542,7 +2543,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 390306254,false,Consider a new flag `was_parser_inserted` to record initial `parser_inserted` state,https://github.com/whatwg/html/issues/4235,2018-12-12T16:30:38Z,2018-12-19T18:53:34Z,andypaicu,topic: script|integration,0
 389755744,true,Can HTMLOrSVGElement be `partial interface Element`?,https://github.com/whatwg/html/issues/4232,2018-12-11T13:07:11Z,2020-03-20T16:25:35Z,saschanaz,clarification,0
 389481064,false,editorial: use logical coordinates to describe fieldset/legend layout,https://github.com/whatwg/html/issues/4231,2018-12-10T20:51:13Z,2019-01-09T10:13:24Z,MatsPalmgren,clarification|topic: rendering|topic: fieldset,1
-389065483,false,<iframe srcdoc> should handle SVG documents,https://github.com/whatwg/html/issues/4228,2018-12-09T21:21:34Z,2018-12-10T16:57:44Z,tabatkins,addition/proposal|needs implementer interest,3
+389065483,false,<iframe srcdoc> should handle SVG documents,https://github.com/whatwg/html/issues/4228,2018-12-09T21:21:34Z,2024-04-12T19:02:50Z,tabatkins,addition/proposal|needs implementer interest,3
 388329081,false,Consider blocking navigating frames to non-fetch scheme URLs,https://github.com/whatwg/html/issues/4226,2018-12-06T17:56:56Z,2018-12-06T17:56:56Z,annevk,needs implementer interest,0
 388314876,false,Canvas fill and stroke styles should be clearer about which colors are accepted,https://github.com/whatwg/html/issues/4225,2018-12-06T17:19:23Z,2018-12-10T17:26:16Z,emilio,topic: canvas|needs tests|interop,0
 387942796,true,`Link` header processing not defined,https://github.com/whatwg/html/issues/4224,2018-12-05T20:58:28Z,2023-01-19T08:22:08Z,domfarolino,topic: fetch|topic: link|topic: resource hints (inc. preload),1
@@ -2906,7 +2907,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
 305492784,false,EventSource.readyState should be CLOSED if created after a self.close() in a Web Worker,https://github.com/whatwg/html/issues/3573,2018-03-15T10:26:52Z,2018-03-15T11:02:30Z,bakulf,topic: eventsource,0
 305486191,true,When will 'probablySupportsContext' be supported?,https://github.com/whatwg/html/issues/3572,2018-03-15T10:07:17Z,2018-07-08T13:48:40Z,bluzi,,0
-305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2023-06-14T18:51:29Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,25
+305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2023-06-14T18:51:29Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,26
 305369552,true,Proposal: Improve control over HTML/XML syntax parse errors,https://github.com/whatwg/html/issues/3569,2018-03-14T23:56:33Z,2022-04-18T15:28:51Z,dvdckl,addition/proposal|needs implementer interest|topic: parser,0
 305147441,true,"<form method> description only says ""HTTP method""",https://github.com/whatwg/html/issues/3568,2018-03-14T12:58:10Z,2018-04-20T07:53:27Z,annevk,good first issue,0
 305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2023-10-07T13:45:11Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,163
