@@ -1,9 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2236940664,true,Delay marking inline module scripts as ready,https://github.com/whatwg/html/pull/10272,2024-04-11T05:29:01Z,2024-04-15T04:06:46Z,domenic,topic: script,0
-2235643011,false,Editorial: Upstream outerHTML property from DOM Parsing,https://github.com/whatwg/html/pull/10270,2024-04-10T13:45:27Z,2024-04-16T10:32:14Z,lukewarlow,,0
-2234668173,false,"Add subresource integrity support for ES modules, through importmaps",https://github.com/whatwg/html/pull/10269,2024-04-10T03:02:35Z,2024-04-16T18:11:47Z,yoavweiss,,0
+2235643011,false,Editorial: Upstream outerHTML property from DOM Parsing,https://github.com/whatwg/html/pull/10270,2024-04-10T13:45:27Z,2024-04-17T09:54:40Z,lukewarlow,,0
+2234668173,false,"Add subresource integrity support for ES modules, through importmaps",https://github.com/whatwg/html/pull/10269,2024-04-10T03:02:35Z,2024-04-17T10:11:56Z,yoavweiss,,0
 2234134025,true,Editorial: Add warning about lack of sanitization to HTML parsing functions.,https://github.com/whatwg/html/pull/10267,2024-04-09T19:06:20Z,2024-04-10T09:34:23Z,lukewarlow,,0
-2233818920,false,Specify the rendering of <details> in more detail.,https://github.com/whatwg/html/pull/10265,2024-04-09T16:14:34Z,2024-04-15T15:55:19Z,dbaron,normative change|topic: rendering,0
+2233818920,false,Specify the rendering of <details> in more detail.,https://github.com/whatwg/html/pull/10265,2024-04-09T16:14:34Z,2024-04-15T15:55:19Z,dbaron,normative change|topic: rendering,1
 2233706241,true,Editorial: Upstream innerHTML property from DOM Parsing spec,https://github.com/whatwg/html/pull/10264,2024-04-09T15:20:35Z,2024-04-15T10:06:49Z,lukewarlow,addition/proposal|topic: parser,0
 2232343705,true,Fix typo in MessagePort postMessage,https://github.com/whatwg/html/pull/10263,2024-04-08T23:50:42Z,2024-04-09T02:08:04Z,Kaiido,,0
 2230935302,true,Closed shadow roots can be serializable too,https://github.com/whatwg/html/pull/10260,2024-04-08T11:21:50Z,2024-04-10T06:51:57Z,annevk,normative change|topic: shadow,0
@@ -22,7 +22,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2197161842,false,[render-blocking] Fix implicitly-render-blocking definition.,https://github.com/whatwg/html/pull/10214,2024-03-20T10:17:39Z,2024-03-20T13:04:12Z,emilio,,0
 2195297333,true,Preload: only allow certain values for the `as` attribute,https://github.com/whatwg/html/pull/10212,2024-03-19T15:31:54Z,2024-04-01T04:39:45Z,noamr,topic: resource hints (inc. preload),0
 2188509128,true,Disable PageSwapEvent.activation when navigation has cross-origin red…,https://github.com/whatwg/html/pull/10207,2024-03-15T13:23:54Z,2024-03-27T02:28:13Z,noamr,topic: navigation,0
-2186605860,false,Update HostEnsureCanCompileStrings definition,https://github.com/whatwg/html/pull/10204,2024-03-14T15:03:04Z,2024-04-15T16:02:18Z,lukewarlow,,0
+2186605860,false,Update HostEnsureCanCompileStrings definition,https://github.com/whatwg/html/pull/10204,2024-03-14T15:03:04Z,2024-04-17T11:35:39Z,lukewarlow,,0
 2184548191,true,Upstream IDL changes from Trusted Types,https://github.com/whatwg/html/pull/10199,2024-03-13T17:32:11Z,2024-03-19T11:39:29Z,lukewarlow,,0
 2184496735,true,Upstream long-animation-frames monkey-patches,https://github.com/whatwg/html/pull/10198,2024-03-13T17:02:02Z,2024-03-27T02:30:41Z,noamr,integration|topic: timing,0
 2183409617,true,Fix: Editorial - link Promise<T> type throughout #9987,https://github.com/whatwg/html/pull/10197,2024-03-13T08:36:14Z,2024-03-15T08:02:24Z,tawandamoyo,,0
@@ -1850,7 +1850,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 440806071,true,Add form.requestSubmit(),https://github.com/whatwg/html/pull/4597,2019-05-06T17:34:01Z,2019-05-16T21:28:35Z,domenic,addition/proposal|topic: forms|impacts documentation,2
 439945166,true,Remove <object typemustmatch>,https://github.com/whatwg/html/pull/4590,2019-05-03T08:41:49Z,2019-09-02T05:57:07Z,annevk,removal/deprecation|topic: embed and object|impacts documentation,0
 439495755,true,Meta: add a pull request template,https://github.com/whatwg/html/pull/4588,2019-05-02T09:19:16Z,2019-05-02T15:55:09Z,annevk,,0
-439010438,false,Feature Policy: `focus-without-user-activation`,https://github.com/whatwg/html/pull/4585,2019-04-30T22:49:49Z,2024-04-16T19:46:16Z,ehsan-karamad,needs implementer interest|do not merge yet|needs tests,2
+439010438,false,Feature Policy: `focus-without-user-activation`,https://github.com/whatwg/html/pull/4585,2019-04-30T22:49:49Z,2024-04-17T01:22:29Z,ehsan-karamad,needs implementer interest|do not merge yet|needs tests,2
 438085847,true,Editorial: uniformize issue references,https://github.com/whatwg/html/pull/4579,2019-04-28T18:30:37Z,2019-05-06T17:00:47Z,domenic,,0
 437835655,true,Clarify that <details> toggle events happen during parsing,https://github.com/whatwg/html/pull/4574,2019-04-26T20:34:12Z,2023-11-02T00:48:07Z,domenic,clarification,0
 437833424,true,Add `autocomplete=one-time-code`. Fixes whatwg/html#3745,https://github.com/whatwg/html/pull/4573,2019-04-26T20:27:24Z,2019-04-29T17:22:55Z,hober,impacts documentation,0
