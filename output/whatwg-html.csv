@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2245679434,false,"Proposal: <more> element inside <ul>, <ol>, <menu> (or possibly also inside some other elements)",https://github.com/whatwg/html/issues/10279,2024-04-16T10:20:30Z,2024-04-16T11:35:48Z,Zhang-Junzhi,addition/proposal|needs implementer interest,0
+2245679434,false,"Proposal: <more> element inside <ul>, <ol>, <menu> (or possibly also inside some other elements)",https://github.com/whatwg/html/issues/10279,2024-04-16T10:20:30Z,2024-04-16T19:09:21Z,Zhang-Junzhi,addition/proposal|needs implementer interest,0
 2245585702,true,Proposal: <more> element,https://github.com/whatwg/html/issues/10278,2024-04-16T09:33:08Z,2024-04-16T10:08:28Z,Zhang-Junzhi,,0
 2242645891,false,Proposal: AI Task Meta Tag,https://github.com/whatwg/html/issues/10277,2024-04-15T03:56:14Z,2024-04-15T03:56:14Z,flaboy,addition/proposal|needs implementer interest,0
 2240037535,false,Module script dependencies and fetch priority,https://github.com/whatwg/html/issues/10276,2024-04-12T12:18:39Z,2024-04-12T12:18:59Z,yoavweiss,,0
@@ -45,7 +45,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2193993060,false,Possibility to export drawImage() rendering algorithm,https://github.com/whatwg/html/issues/10210,2024-03-19T04:34:19Z,2024-03-21T04:50:20Z,Djuffin,topic: canvas|integration,0
 2193889113,false,"`writingsuggestions` might need to default to ""off""",https://github.com/whatwg/html/issues/10209,2024-03-19T02:47:52Z,2024-03-25T11:52:45Z,marcoscaceres,compat,0
 2192989420,false,Proposal: pause iframe media when not rendered,https://github.com/whatwg/html/issues/10208,2024-03-18T18:41:25Z,2024-04-12T04:53:41Z,gabrielsanbrito,addition/proposal|needs implementer interest|topic: media,0
-2188214401,false,Toggle/cycle buttons,https://github.com/whatwg/html/issues/10206,2024-03-15T10:39:26Z,2024-04-16T11:55:50Z,annevk,addition/proposal|topic: forms,3
+2188214401,false,Toggle/cycle buttons,https://github.com/whatwg/html/issues/10206,2024-03-15T10:39:26Z,2024-04-16T23:41:59Z,annevk,addition/proposal|topic: forms,3
 2187420666,true,Upcoming WHATNOT meeting on 3/21/2024,https://github.com/whatwg/html/issues/10205,2024-03-14T22:59:41Z,2024-03-20T21:04:47Z,past,agenda+,0
 2186521527,false,HostEnsureCanCompileStrings definition mismatch,https://github.com/whatwg/html/issues/10202,2024-03-14T14:26:46Z,2024-03-14T14:44:36Z,lukewarlow,,0
 2185450782,false,Restrict when MessagePort's onclose event can fire,https://github.com/whatwg/html/issues/10201,2024-03-14T05:15:57Z,2024-03-18T04:43:04Z,fergald,security/privacy|topic: serialize and transfer,0
@@ -210,7 +210,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1968263729,false,Update the Steps to fire beforeunload to allow to be skipped by WebDriver-BiDi,https://github.com/whatwg/html/issues/9890,2023-10-30T12:41:13Z,2023-10-30T12:41:13Z,Lightning00Blade,addition/proposal|needs implementer interest,0
 1967040842,true,Description of the width/height attributes are just a repeated string over and over again,https://github.com/whatwg/html/issues/9889,2023-10-29T15:42:21Z,2023-10-31T06:44:58Z,Zegnat,spec tooling,0
 1965994661,true,Back To Top Button,https://github.com/whatwg/html/issues/9886,2023-10-27T18:20:26Z,2023-10-30T13:48:29Z,VaibhavSharma24,spec tooling|editorial|meta,0
-1963468594,false,autocomplete tokens for EID and IMEI,https://github.com/whatwg/html/issues/9884,2023-10-26T12:35:32Z,2024-04-12T05:24:16Z,annevk,addition/proposal|needs implementer interest|topic: forms,0
+1963468594,false,autocomplete tokens for EID and IMEI,https://github.com/whatwg/html/issues/9884,2023-10-26T12:35:32Z,2024-04-16T13:38:32Z,annevk,addition/proposal|needs implementer interest|topic: forms,0
 1961555431,false,Tie in AbortControllers with CustomElements,https://github.com/whatwg/html/issues/9881,2023-10-25T14:24:15Z,2023-10-27T09:01:43Z,keithamus,addition/proposal|needs implementer interest|topic: custom elements,3
 1960081159,false,Third-party cookie blocking and rendering media URLs with Content-Security-Policy,https://github.com/whatwg/html/issues/9879,2023-10-24T21:10:35Z,2023-11-14T13:20:59Z,DCtheTall,,0
 1959607137,false,Missing `reportValidity()` hook,https://github.com/whatwg/html/issues/9878,2023-10-24T16:10:13Z,2024-02-13T13:16:16Z,jpzwarte,addition/proposal|needs implementer interest|topic: custom elements|topic: forms|needs concrete proposal,2
@@ -358,7 +358,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1793651320,true,Introduce scopes to openers,https://github.com/whatwg/html/issues/9500,2023-07-07T14:31:13Z,2023-07-07T17:25:24Z,SoniEx2,,0
 1793601014,true,fetch client settings object isn't used in `fetch the descendants of and link a module script`,https://github.com/whatwg/html/issues/9499,2023-07-07T13:58:54Z,2023-07-13T04:29:54Z,allstarschh,,0
 1792169588,false,Improve description of `readonly` attribute,https://github.com/whatwg/html/issues/9496,2023-07-06T20:13:27Z,2023-09-18T17:08:45Z,aaronadamsCA,clarification|topic: forms,0
-1791166125,true,Allow self-closing tags everywhere,https://github.com/whatwg/html/issues/9491,2023-07-06T09:26:20Z,2023-09-07T12:00:32Z,jakearchibald,addition/proposal|needs implementer interest|topic: parser|needs compat analysis,110
+1791166125,true,Allow self-closing tags everywhere,https://github.com/whatwg/html/issues/9491,2023-07-06T09:26:20Z,2023-09-07T12:00:32Z,jakearchibald,addition/proposal|needs implementer interest|topic: parser|needs compat analysis,111
 1788871531,false,Add VideoPlaybackQuality and HTMLVideoElement»getVideoPlaybackQuality(),https://github.com/whatwg/html/issues/9489,2023-07-05T06:36:23Z,2023-10-29T14:38:28Z,sideshowbarker,addition/proposal|topic: media,0
 1788359824,true,"Use ""matches about:blank"" and ""matches about:srcdoc"" in more places",https://github.com/whatwg/html/issues/9488,2023-07-04T19:09:29Z,2023-07-28T00:45:03Z,domfarolino,topic: navigation,1
 1787902159,false,"Showing only a child popover causes ""beforetoggle"" and ""toggle"" events but popover is invisble",https://github.com/whatwg/html/issues/9487,2023-07-04T13:07:44Z,2023-07-12T23:31:37Z,mbrodesser-Igalia,topic: popover,0
@@ -1865,7 +1865,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 607075310,true,contenteditable elements should be focusable areas,https://github.com/whatwg/html/issues/5487,2020-04-26T18:05:58Z,2020-04-28T14:02:21Z,TimothyGu,topic: editing,1
 607073471,true,execCommand.html dead link,https://github.com/whatwg/html/issues/5486,2020-04-26T17:59:13Z,2020-06-25T14:09:04Z,TimothyGu,topic: editing,0
 606781021,true,Clarify sync vs async nature of Worker::postMessage,https://github.com/whatwg/html/issues/5485,2020-04-25T14:28:53Z,2020-04-28T11:40:07Z,RReverser,topic: serialize and transfer,0
-606593641,true,Reparenting iframes without reloading,https://github.com/whatwg/html/issues/5484,2020-04-24T21:26:55Z,2024-01-27T18:38:58Z,josepharhar,addition/proposal|needs implementer interest,12
+606593641,true,Reparenting iframes without reloading,https://github.com/whatwg/html/issues/5484,2020-04-24T21:26:55Z,2024-01-27T18:38:58Z,josepharhar,addition/proposal|needs implementer interest,13
 603962190,true,COEP: define it as a structure header,https://github.com/whatwg/html/issues/5477,2020-04-21T12:34:08Z,2020-04-21T12:45:26Z,empijei,topic: cross-origin-embedder-policy,0
 603754207,false,Is there a proposal for the date range for input?,https://github.com/whatwg/html/issues/5475,2020-04-21T06:54:00Z,2020-10-05T22:45:33Z,cawa-93,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,0
 603733496,true,Should <iframe srcdoc>'s referrer policy reflect updates to parent's referrer policy changes after <iframe> creation?,https://github.com/whatwg/html/issues/5474,2020-04-21T06:10:26Z,2021-06-24T20:15:52Z,hiroshige-g,normative change,1
