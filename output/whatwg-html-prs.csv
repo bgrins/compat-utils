@@ -1,10 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2248917789,false,Editorial: Upstream the createContextualFragment method from DOM Parsing,https://github.com/whatwg/html/pull/10283,2024-04-17T18:06:22Z,2024-04-17T18:12:16Z,lukewarlow,,0
-2248730082,false,Editorial: Upstream the insertAdjacentHTML method from DOM Parsing,https://github.com/whatwg/html/pull/10282,2024-04-17T16:35:48Z,2024-04-17T17:34:26Z,lukewarlow,,0
-2248199462,false,[meta] Complete machine-readable scope of  and  event dfns,https://github.com/whatwg/html/pull/10281,2024-04-17T12:40:38Z,2024-04-17T12:42:26Z,dontcallmedom,,0
+2250131496,false,"Wrap ""activate view transition"" with script prepare/clean up",https://github.com/whatwg/html/pull/10284,2024-04-18T08:49:59Z,2024-04-18T09:01:26Z,noamr,,0
+2248917789,false,Editorial: Upstream the createContextualFragment method from DOM Parsing,https://github.com/whatwg/html/pull/10283,2024-04-17T18:06:22Z,2024-04-18T10:32:09Z,lukewarlow,addition/proposal|topic: parser,0
+2248730082,false,Editorial: Upstream the insertAdjacentHTML method from DOM Parsing,https://github.com/whatwg/html/pull/10282,2024-04-17T16:35:48Z,2024-04-18T11:13:48Z,lukewarlow,addition/proposal|topic: parser,0
+2248199462,true,[meta] Complete machine-readable scope of  and  event dfns,https://github.com/whatwg/html/pull/10281,2024-04-17T12:40:38Z,2024-04-18T00:36:25Z,dontcallmedom,,0
 2236940664,true,Delay marking inline module scripts as ready,https://github.com/whatwg/html/pull/10272,2024-04-11T05:29:01Z,2024-04-15T04:06:46Z,domenic,topic: script,0
-2235643011,false,Editorial: Upstream outerHTML property from DOM Parsing,https://github.com/whatwg/html/pull/10270,2024-04-10T13:45:27Z,2024-04-17T16:28:11Z,lukewarlow,,0
-2234668173,false,"Add subresource integrity support for ES modules, through importmaps",https://github.com/whatwg/html/pull/10269,2024-04-10T03:02:35Z,2024-04-17T16:09:38Z,yoavweiss,,0
+2235643011,true,Editorial: Upstream outerHTML property from DOM Parsing,https://github.com/whatwg/html/pull/10270,2024-04-10T13:45:27Z,2024-04-18T07:35:37Z,lukewarlow,addition/proposal|topic: parser,0
+2234668173,false,"Add subresource integrity support for ES modules, through importmaps",https://github.com/whatwg/html/pull/10269,2024-04-10T03:02:35Z,2024-04-18T09:02:08Z,yoavweiss,,0
 2234134025,true,Editorial: Add warning about lack of sanitization to HTML parsing functions.,https://github.com/whatwg/html/pull/10267,2024-04-09T19:06:20Z,2024-04-10T09:34:23Z,lukewarlow,,0
 2233818920,false,Specify the rendering of <details> in more detail.,https://github.com/whatwg/html/pull/10265,2024-04-09T16:14:34Z,2024-04-15T15:55:19Z,dbaron,normative change|topic: rendering,1
 2233706241,true,Editorial: Upstream innerHTML property from DOM Parsing spec,https://github.com/whatwg/html/pull/10264,2024-04-09T15:20:35Z,2024-04-15T10:06:49Z,lukewarlow,addition/proposal|topic: parser,0
@@ -113,7 +114,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2038423738,true,Add additional accessibility-related authoring advice regarding <details>,https://github.com/whatwg/html/pull/9989,2023-12-12T19:29:30Z,2024-01-09T04:27:39Z,dbaron,document conformance|accessibility,0
 2032735767,true,Editorial: tidy up hidden enumerated attribute,https://github.com/whatwg/html/pull/9985,2023-12-08T14:16:27Z,2024-01-09T16:58:06Z,keithamus,,0
 2028241576,true,Restore early return for history.go(0),https://github.com/whatwg/html/pull/9980,2023-12-06T10:35:19Z,2023-12-07T04:33:31Z,Ms2ger,topic: history,0
-2027460287,false,Remove OffscreenCanvas contexts's commit method,https://github.com/whatwg/html/pull/9979,2023-12-06T01:28:53Z,2024-04-18T00:18:30Z,Kaiido,removal/deprecation|topic: canvas,0
+2027460287,true,Remove OffscreenCanvas contexts's commit method,https://github.com/whatwg/html/pull/9979,2023-12-06T01:28:53Z,2024-04-18T02:15:56Z,Kaiido,removal/deprecation|topic: canvas,0
 2023673300,true,Editorial: Remove extra closing `</p>` tag,https://github.com/whatwg/html/pull/9975,2023-12-04T11:49:14Z,2023-12-04T14:43:01Z,nicolo-ribaudo,,0
 2023665769,true,Editorial: Remove old FinishDynamicImport reference,https://github.com/whatwg/html/pull/9974,2023-12-04T11:44:52Z,2023-12-06T09:49:29Z,nicolo-ribaudo,topic: script,0
 2021494984,true,Document render blocking with a <link rel=expect> element,https://github.com/whatwg/html/pull/9970,2023-12-01T19:52:33Z,2024-02-27T08:19:35Z,noamr,,0
@@ -2094,7 +2095,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 347167549,true,"Specify to throw when {push,replace}State hit UA-defined limits.",https://github.com/whatwg/html/pull/3878,2018-08-02T20:44:20Z,2021-01-15T07:58:17Z,noncombatant,normative change|needs implementer interest|topic: history|needs tests,0
 347153899,true,Fix example variable name typo for queueMicrotask(),https://github.com/whatwg/html/pull/3877,2018-08-02T20:01:03Z,2018-08-02T20:37:45Z,domenic,,0
 346791035,true,Add examples for queueMicrotask(),https://github.com/whatwg/html/pull/3873,2018-08-01T22:20:28Z,2018-08-02T16:06:15Z,domenic,topic: event loop,0
-346739441,false,Cleanup language around commit() being the only way to update OffscreenCanvas,https://github.com/whatwg/html/pull/3872,2018-08-01T19:38:08Z,2023-12-06T01:14:33Z,fserb,topic: canvas,0
+346739441,true,Cleanup language around commit() being the only way to update OffscreenCanvas,https://github.com/whatwg/html/pull/3872,2018-08-01T19:38:08Z,2024-04-18T02:16:39Z,fserb,topic: canvas,0
 346314169,false,Add a hreftranslate attribute,https://github.com/whatwg/html/pull/3870,2018-07-31T18:51:07Z,2023-11-14T08:05:51Z,dtapuska,addition/proposal|needs implementer interest|needs tests|topic: hyperlink|impacts documentation,0
 346080177,true,Make some fixes & cleanup to spec-citation markup,https://github.com/whatwg/html/pull/3866,2018-07-31T08:10:29Z,2020-08-20T14:50:52Z,sideshowbarker,,0
 344728980,true,Main part of the content has a dedicated element,https://github.com/whatwg/html/pull/3853,2018-07-26T07:37:22Z,2018-09-12T07:16:20Z,annevk,,0
