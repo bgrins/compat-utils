@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2250995268,false,Switch trusted types sinks to use union type,https://github.com/whatwg/html/pull/10286,2024-04-18T15:34:38Z,2024-04-18T19:42:47Z,lukewarlow,,0
 2250131496,false,"Wrap ""activate view transition"" with script prepare/clean up",https://github.com/whatwg/html/pull/10284,2024-04-18T08:49:59Z,2024-04-18T09:01:26Z,noamr,,0
 2248917789,false,Editorial: Upstream the createContextualFragment method from DOM Parsing,https://github.com/whatwg/html/pull/10283,2024-04-17T18:06:22Z,2024-04-18T10:32:09Z,lukewarlow,addition/proposal|topic: parser,0
 2248730082,false,Editorial: Upstream the insertAdjacentHTML method from DOM Parsing,https://github.com/whatwg/html/pull/10282,2024-04-17T16:35:48Z,2024-04-18T11:13:48Z,lukewarlow,addition/proposal|topic: parser,0
@@ -7,7 +8,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2235643011,true,Editorial: Upstream outerHTML property from DOM Parsing,https://github.com/whatwg/html/pull/10270,2024-04-10T13:45:27Z,2024-04-18T07:35:37Z,lukewarlow,addition/proposal|topic: parser,0
 2234668173,false,"Add subresource integrity support for ES modules, through importmaps",https://github.com/whatwg/html/pull/10269,2024-04-10T03:02:35Z,2024-04-18T09:02:08Z,yoavweiss,,0
 2234134025,true,Editorial: Add warning about lack of sanitization to HTML parsing functions.,https://github.com/whatwg/html/pull/10267,2024-04-09T19:06:20Z,2024-04-10T09:34:23Z,lukewarlow,,0
-2233818920,false,Specify the rendering of <details> in more detail.,https://github.com/whatwg/html/pull/10265,2024-04-09T16:14:34Z,2024-04-15T15:55:19Z,dbaron,normative change|topic: rendering,1
+2233818920,false,Specify the rendering of <details> in more detail.,https://github.com/whatwg/html/pull/10265,2024-04-09T16:14:34Z,2024-04-18T20:07:19Z,dbaron,normative change|topic: rendering,1
 2233706241,true,Editorial: Upstream innerHTML property from DOM Parsing spec,https://github.com/whatwg/html/pull/10264,2024-04-09T15:20:35Z,2024-04-15T10:06:49Z,lukewarlow,addition/proposal|topic: parser,0
 2232343705,true,Fix typo in MessagePort postMessage,https://github.com/whatwg/html/pull/10263,2024-04-08T23:50:42Z,2024-04-09T02:08:04Z,Kaiido,,0
 2230935302,true,Closed shadow roots can be serializable too,https://github.com/whatwg/html/pull/10260,2024-04-08T11:21:50Z,2024-04-10T06:51:57Z,annevk,normative change|topic: shadow,0
@@ -389,7 +390,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1665882711,true,Fix form submission's replace-before-load logic,https://github.com/whatwg/html/pull/9156,2023-04-13T07:34:01Z,2023-05-10T07:05:24Z,domenic,topic: navigation|topic: forms|interop,0
 1665109294,false,Add payto as a safelisted scheme for registerProtocolHandler(),https://github.com/whatwg/html/pull/9155,2023-04-12T19:17:02Z,2023-11-14T08:05:49Z,rastislavcore,addition/proposal|needs implementer interest|topic: custom protocols,0
 1663489093,false,Move cross-origin opener policy into policy container,https://github.com/whatwg/html/pull/9149,2023-04-12T01:17:19Z,2023-11-14T08:05:50Z,domfarolino,topic: cross-origin-opener-policy|topic: policy container,0
-1661201309,false,Add anchor attribute,https://github.com/whatwg/html/pull/9144,2023-04-10T18:57:34Z,2024-04-12T23:55:50Z,josepharhar,,2
+1661201309,false,Add anchor attribute,https://github.com/whatwg/html/pull/9144,2023-04-10T18:57:34Z,2024-04-18T17:02:25Z,josepharhar,,2
 1660955905,true,Don't throw when popover/dialog is in requested state,https://github.com/whatwg/html/pull/9142,2023-04-10T15:32:00Z,2023-07-10T09:37:47Z,josepharhar,needs tests|topic: dialog|topic: popover,0
 1660921767,true,Remove anchor attribute reference in popover note,https://github.com/whatwg/html/pull/9141,2023-04-10T15:05:50Z,2023-04-24T14:03:23Z,josepharhar,topic: popover,0
 1660416855,true,"Fix ""active frame element"" definition",https://github.com/whatwg/html/pull/9139,2023-04-10T08:08:01Z,2023-04-28T07:31:26Z,domenic,topic: browsing context,0
