@@ -1,14 +1,15 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2255690691,false,Always fire CloseWatcher/dialog cancel events,https://github.com/whatwg/html/pull/10291,2024-04-22T06:28:19Z,2024-04-22T10:14:24Z,domenic,normative change|topic: dialog|topic: close watchers,0
 2250995268,false,Switch trusted types sinks to use union type,https://github.com/whatwg/html/pull/10286,2024-04-18T15:34:38Z,2024-04-18T19:42:47Z,lukewarlow,,0
-2250131496,false,"Wrap ""activate view transition"" with script prepare/clean up",https://github.com/whatwg/html/pull/10284,2024-04-18T08:49:59Z,2024-04-19T08:22:51Z,noamr,,0
-2248917789,false,Editorial: Upstream the createContextualFragment method from DOM Parsing,https://github.com/whatwg/html/pull/10283,2024-04-17T18:06:22Z,2024-04-19T10:15:30Z,lukewarlow,addition/proposal|topic: parser,0
+2250131496,false,"Wrap ""activate view transition"" with script prepare/clean up",https://github.com/whatwg/html/pull/10284,2024-04-18T08:49:59Z,2024-04-22T02:49:06Z,noamr,,0
+2248917789,false,Editorial: Upstream the createContextualFragment method from DOM Parsing,https://github.com/whatwg/html/pull/10283,2024-04-17T18:06:22Z,2024-04-22T03:01:25Z,lukewarlow,addition/proposal|topic: parser,0
 2248730082,true,Editorial: Upstream the insertAdjacentHTML method from DOM Parsing,https://github.com/whatwg/html/pull/10282,2024-04-17T16:35:48Z,2024-04-19T08:33:33Z,lukewarlow,addition/proposal|topic: parser,0
 2248199462,true,[meta] Complete machine-readable scope of  and  event dfns,https://github.com/whatwg/html/pull/10281,2024-04-17T12:40:38Z,2024-04-18T00:36:25Z,dontcallmedom,,0
 2236940664,true,Delay marking inline module scripts as ready,https://github.com/whatwg/html/pull/10272,2024-04-11T05:29:01Z,2024-04-15T04:06:46Z,domenic,topic: script,0
 2235643011,true,Editorial: Upstream outerHTML property from DOM Parsing,https://github.com/whatwg/html/pull/10270,2024-04-10T13:45:27Z,2024-04-18T07:35:37Z,lukewarlow,addition/proposal|topic: parser,0
-2234668173,false,"Add subresource integrity support for ES modules, through importmaps",https://github.com/whatwg/html/pull/10269,2024-04-10T03:02:35Z,2024-04-18T09:02:08Z,yoavweiss,,0
+2234668173,false,"Add subresource integrity support for ES modules, through importmaps",https://github.com/whatwg/html/pull/10269,2024-04-10T03:02:35Z,2024-04-22T07:43:58Z,yoavweiss,agenda+,0
 2234134025,true,Editorial: Add warning about lack of sanitization to HTML parsing functions.,https://github.com/whatwg/html/pull/10267,2024-04-09T19:06:20Z,2024-04-10T09:34:23Z,lukewarlow,,0
-2233818920,false,Specify the rendering of <details> in more detail.,https://github.com/whatwg/html/pull/10265,2024-04-09T16:14:34Z,2024-04-18T20:07:19Z,dbaron,normative change|topic: rendering,1
+2233818920,false,Specify the rendering of <details> in more detail.,https://github.com/whatwg/html/pull/10265,2024-04-09T16:14:34Z,2024-04-22T11:45:00Z,dbaron,normative change|topic: rendering,1
 2233706241,true,Editorial: Upstream innerHTML property from DOM Parsing spec,https://github.com/whatwg/html/pull/10264,2024-04-09T15:20:35Z,2024-04-15T10:06:49Z,lukewarlow,addition/proposal|topic: parser,0
 2232343705,true,Fix typo in MessagePort postMessage,https://github.com/whatwg/html/pull/10263,2024-04-08T23:50:42Z,2024-04-09T02:08:04Z,Kaiido,,0
 2230935302,true,Closed shadow roots can be serializable too,https://github.com/whatwg/html/pull/10260,2024-04-08T11:21:50Z,2024-04-10T06:51:57Z,annevk,normative change|topic: shadow,0
@@ -181,7 +182,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1935018189,true,Editorial: make kind attributes consistent,https://github.com/whatwg/html/pull/9847,2023-10-10T10:34:57Z,2023-10-10T11:59:18Z,keithamus,editorial,0
 1933058172,true,Implement WebDriver BiDi interception in the `show the picker` algorithm,https://github.com/whatwg/html/pull/9844,2023-10-09T13:22:03Z,2024-04-04T11:37:04Z,jrandolf,do not merge yet|integration,0
 1932809665,true,Editorial: make fetch priority attributes consistent,https://github.com/whatwg/html/pull/9842,2023-10-09T10:59:10Z,2023-10-09T11:41:54Z,keithamus,editorial,0
-1932098948,false,(Invokers Proposal) Add InvokeElement & InvokeEvent IDLs & invocation steps for Dialog & Popover,https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2024-04-11T19:03:48Z,keithamus,,0
+1932098948,false,(Invokers Proposal) Add InvokeElement & InvokeEvent IDLs & invocation steps for Dialog & Popover,https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2024-04-22T11:29:06Z,keithamus,,0
 1931367969,true,Editorial: remove some copypasta around CORS settings attribute,https://github.com/whatwg/html/pull/9840,2023-10-07T14:14:19Z,2023-10-08T14:25:55Z,annevk,,0
 1930976617,true,"Fix typo in ""History-action activation-consuming APIs""",https://github.com/whatwg/html/pull/9839,2023-10-06T21:55:17Z,2023-10-10T04:56:14Z,CanadaHonk,,0
 1930460108,true,Perform a microtask checkpoint only after a task,https://github.com/whatwg/html/pull/9838,2023-10-06T15:38:05Z,2023-10-10T05:26:36Z,annevk,topic: event loop,1
@@ -215,7 +216,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1911295610,true,Editorial: clarify adoption agency step 13.3,https://github.com/whatwg/html/pull/9785,2023-09-25T11:40:32Z,2023-09-26T06:55:28Z,not-my-profile,,0
 1909692719,true,"Editorial: make note about ""in body"" insertion mode account for edge case",https://github.com/whatwg/html/pull/9780,2023-09-23T03:33:03Z,2023-09-26T11:05:32Z,not-my-profile,topic: parser,0
 1909681938,true,Meta: make Wattsi Syntax link more prominent in CONTRIBUTING.md,https://github.com/whatwg/html/pull/9779,2023-09-23T02:46:33Z,2023-09-25T07:35:18Z,not-my-profile,,0
-1909677474,false,Add popover=hint,https://github.com/whatwg/html/pull/9778,2023-09-23T02:27:22Z,2024-04-19T19:24:10Z,josepharhar,topic: popover,1
+1909677474,false,Add popover=hint,https://github.com/whatwg/html/pull/9778,2023-09-23T02:27:22Z,2024-04-22T03:19:34Z,josepharhar,topic: popover,1
 1909479750,false,Queue toggle events and dialog close with microtasks,https://github.com/whatwg/html/pull/9775,2023-09-22T20:24:57Z,2023-11-14T08:05:49Z,josepharhar,,0
 1908359160,true,Un-break build by making review-drafts/2023-07.wattsi use non-void <ref></ref>,https://github.com/whatwg/html/pull/9772,2023-09-22T07:38:51Z,2023-09-22T08:38:40Z,sideshowbarker,,0
 1907618502,false,Add TextTrackCue ctor & cue + cuebackground attributes,https://github.com/whatwg/html/pull/9771,2023-09-21T19:22:21Z,2023-11-19T23:57:57Z,marcoscaceres,addition/proposal|topic: media,1
@@ -390,7 +391,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1665882711,true,Fix form submission's replace-before-load logic,https://github.com/whatwg/html/pull/9156,2023-04-13T07:34:01Z,2023-05-10T07:05:24Z,domenic,topic: navigation|topic: forms|interop,0
 1665109294,false,Add payto as a safelisted scheme for registerProtocolHandler(),https://github.com/whatwg/html/pull/9155,2023-04-12T19:17:02Z,2023-11-14T08:05:49Z,rastislavcore,addition/proposal|needs implementer interest|topic: custom protocols,0
 1663489093,false,Move cross-origin opener policy into policy container,https://github.com/whatwg/html/pull/9149,2023-04-12T01:17:19Z,2023-11-14T08:05:50Z,domfarolino,topic: cross-origin-opener-policy|topic: policy container,0
-1661201309,false,Add anchor attribute,https://github.com/whatwg/html/pull/9144,2023-04-10T18:57:34Z,2024-04-20T08:40:54Z,josepharhar,,2
+1661201309,false,Add anchor attribute,https://github.com/whatwg/html/pull/9144,2023-04-10T18:57:34Z,2024-04-22T12:05:56Z,josepharhar,,2
 1660955905,true,Don't throw when popover/dialog is in requested state,https://github.com/whatwg/html/pull/9142,2023-04-10T15:32:00Z,2023-07-10T09:37:47Z,josepharhar,needs tests|topic: dialog|topic: popover,0
 1660921767,true,Remove anchor attribute reference in popover note,https://github.com/whatwg/html/pull/9141,2023-04-10T15:05:50Z,2023-04-24T14:03:23Z,josepharhar,topic: popover,0
 1660416855,true,"Fix ""active frame element"" definition",https://github.com/whatwg/html/pull/9139,2023-04-10T08:08:01Z,2023-04-28T07:31:26Z,domenic,topic: browsing context,0
