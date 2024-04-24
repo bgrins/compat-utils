@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2258787056,false,Sentence in 6.11.7 doesn't seem right,https://github.com/whatwg/html/issues/10295,2024-04-23T12:44:29Z,2024-04-23T12:44:29Z,Zhang-Junzhi,,0
-2258703067,false,SEO issue of <a> elements put dependently inside a context,https://github.com/whatwg/html/issues/10294,2024-04-23T12:03:03Z,2024-04-23T13:04:31Z,Zhang-Junzhi,addition/proposal|needs implementer interest,0
+2258703067,true,SEO issue of <a> elements put dependently inside a context,https://github.com/whatwg/html/issues/10294,2024-04-23T12:03:03Z,2024-04-24T03:15:29Z,Zhang-Junzhi,addition/proposal|needs implementer interest,0
 2258314436,false,Fieldset should support readonly attribute,https://github.com/whatwg/html/issues/10293,2024-04-23T08:51:32Z,2024-04-23T09:10:07Z,pfteter,addition/proposal|needs implementer interest|topic: forms,0
 2256664178,false,"Allow data:image in srcset. And the U+002C COMMA character (,) issue",https://github.com/whatwg/html/issues/10292,2024-04-22T14:17:45Z,2024-04-22T20:25:51Z,janmazanek,,0
 2254541416,true,Should light DOM form controls in a form-associated custom element be ignored during form reset?,https://github.com/whatwg/html/issues/10290,2024-04-20T12:59:06Z,2024-04-22T13:44:58Z,kleinfreund,topic: custom elements,0
@@ -1213,7 +1213,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1019093334,true,Revisit markup for “this”?,https://github.com/whatwg/html/issues/7172,2021-10-06T19:51:07Z,2021-10-07T06:04:41Z,j9t,,0
 1019075059,true,Suggestion: rephrase or quote “perform the fetch” hook,https://github.com/whatwg/html/issues/7171,2021-10-06T19:41:22Z,2023-02-24T16:05:55Z,j9t,,0
 1019033398,true,Clarify or remove note on units of related browsing contexts and units of related similar-origin browsing contexts,https://github.com/whatwg/html/issues/7169,2021-10-06T19:19:32Z,2024-01-28T09:10:33Z,j9t,,0
-1018329555,false,Behavior of disabled with input type=radio and option is unclear,https://github.com/whatwg/html/issues/7168,2021-10-06T13:29:24Z,2024-01-10T15:15:46Z,JAWS-test,,1
+1018329555,false,Behavior of disabled with input type=radio and option is unclear,https://github.com/whatwg/html/issues/7168,2021-10-06T13:29:24Z,2024-04-24T09:59:58Z,JAWS-test,,1
 1017377535,true,The safearea HTML tag and attribute,https://github.com/whatwg/html/issues/7164,2021-10-06T03:51:20Z,2021-10-07T01:46:46Z,doctoresam1,,1
 1016826042,true,Generalizations in “States of the `type` attribute”,https://github.com/whatwg/html/issues/7162,2021-10-05T20:50:40Z,2021-10-07T06:08:56Z,j9t,,0
 1016815287,true,Is “event handler event type” a necessary distinction from “event type”?,https://github.com/whatwg/html/issues/7161,2021-10-05T20:43:53Z,2021-10-07T06:37:32Z,j9t,,0
@@ -1298,7 +1298,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 962211668,true,"Defining {instantiator, initiator} browsing context",https://github.com/whatwg/html/issues/6934,2021-08-05T21:30:26Z,2021-08-19T23:27:46Z,pes10k,,0
 962204016,true,"Spec should not specify behavior of other specs in Editors Draft status (i.e., Reporting API)",https://github.com/whatwg/html/issues/6933,2021-08-05T21:18:17Z,2021-09-08T14:33:37Z,pes10k,topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy|privacy-needs-resolution,0
 959222067,false,"Custom element state stays on ""precustomized"" after a custom element fails to upgrade",https://github.com/whatwg/html/issues/6929,2021-08-03T15:13:23Z,2021-08-03T19:14:59Z,EdgarChen,topic: custom elements,0
-958563776,false,What browsers do for overlapping navigations/history traversals,https://github.com/whatwg/html/issues/6927,2021-08-02T22:46:29Z,2022-10-10T09:44:13Z,domenic,topic: navigation|topic: history|interop,0
+958563776,false,What browsers do for overlapping navigations/history traversals,https://github.com/whatwg/html/issues/6927,2021-08-02T22:46:29Z,2024-04-24T02:32:51Z,domenic,topic: navigation|topic: history|interop,0
 958428700,true,"[COOP] Undefined activeDocumentCOOP in ""enforce a response's cross-origin opener policy"" section",https://github.com/whatwg/html/issues/6926,2021-08-02T19:07:28Z,2021-08-03T19:08:38Z,cdumez,topic: cross-origin-opener-policy,0
 958420412,true,"[COOP] Wrong type in ""queue a violation report for browsing context group switch when navigating away from a COOP response""",https://github.com/whatwg/html/issues/6925,2021-08-02T18:57:06Z,2021-08-03T19:08:38Z,cdumez,topic: cross-origin-opener-policy,0
 955141045,false,COOP: Navigations to non-initial about:blank,https://github.com/whatwg/html/issues/6913,2021-07-28T18:46:22Z,2021-08-03T08:41:30Z,cdumez,topic: cross-origin-opener-policy,0
@@ -1952,7 +1952,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 572368643,true,Question: site equality examples,https://github.com/whatwg/html/issues/5316,2020-02-27T21:24:30Z,2020-02-28T19:36:22Z,lazdmx,clarification,0
 570587270,true,Lazyload: N-fetches for each relevant mutation,https://github.com/whatwg/html/issues/5314,2020-02-25T13:53:54Z,2020-05-15T16:45:55Z,domfarolino,topic: img,1
 570474276,true,"""the document has finished loading""",https://github.com/whatwg/html/issues/5313,2020-02-25T10:39:45Z,2020-02-26T09:24:46Z,amn,,0
-570415383,false,"Form Submission: Fix the ""Double Submit problem"" at the spec level",https://github.com/whatwg/html/issues/5312,2020-02-25T09:07:07Z,2024-04-09T14:08:27Z,bramus,addition/proposal|needs implementer interest|topic: forms,158
+570415383,false,"Form Submission: Fix the ""Double Submit problem"" at the spec level",https://github.com/whatwg/html/issues/5312,2020-02-25T09:07:07Z,2024-04-09T14:08:27Z,bramus,addition/proposal|needs implementer interest|topic: forms,159
 570310032,false,Proposal: canvas to blob URL function,https://github.com/whatwg/html/issues/5311,2020-02-25T04:51:26Z,2020-02-25T22:21:22Z,rhendric,addition/proposal|needs implementer interest|topic: canvas|security/privacy,0
 569316279,true,"Event order of onKeyDown, onKeyPress, onKeyUp, and onPaste when using pasting (CMD + v) in Mac OS X",https://github.com/whatwg/html/issues/5310,2020-02-22T10:39:21Z,2020-02-22T10:46:10Z,aesyondu,,0
 569187828,true,"<img alt=""""> definition doesn't match reality.",https://github.com/whatwg/html/issues/5309,2020-02-21T21:15:09Z,2020-02-26T09:24:49Z,emilio,compat|topic: rendering|topic: img,5
@@ -2246,7 +2246,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 471167003,false,"We should probably reinstate HTMLDocument, with a named getter, in the spec",https://github.com/whatwg/html/issues/4792,2019-07-22T16:05:41Z,2020-01-10T16:44:06Z,bzbarsky,,1
 470122528,true,Autofocus element in a <dialog> tries to get focus twice,https://github.com/whatwg/html/issues/4788,2019-07-19T03:41:41Z,2019-11-07T18:58:14Z,tkent-google,topic: focus,0
 469784910,false,Declarative WebWorker?,https://github.com/whatwg/html/issues/4786,2019-07-18T13:56:24Z,2020-04-30T12:07:13Z,fserb,addition/proposal|needs implementer interest|topic: workers,0
-469474452,false,[Proposal] ImageBitmap.getImageData,https://github.com/whatwg/html/issues/4785,2019-07-17T22:19:01Z,2023-05-03T11:11:35Z,dsanders11,addition/proposal|needs implementer interest|topic: canvas,29
+469474452,false,[Proposal] ImageBitmap.getImageData,https://github.com/whatwg/html/issues/4785,2019-07-17T22:19:01Z,2023-05-03T11:11:35Z,dsanders11,addition/proposal|needs implementer interest|topic: canvas,30
 469436105,false,Implement proposed Focus Traversal API,https://github.com/whatwg/html/issues/4784,2019-07-17T20:44:51Z,2019-09-19T06:02:37Z,arei,addition/proposal|needs implementer interest|topic: focus,0
 469368865,false,Initializing Feature Policy is racy,https://github.com/whatwg/html/issues/4783,2019-07-17T18:10:30Z,2019-07-18T19:20:49Z,dtapuska,topic: navigation|topic: browsing context|integration,0
 469173271,true,"User agents, session history, browsing contexts, and agent clusters",https://github.com/whatwg/html/issues/4782,2019-07-17T12:48:01Z,2022-10-31T05:07:01Z,annevk,topic: history|topic: browsing context|topic: agent,0
@@ -3016,7 +3016,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 291547569,true,How should document.body setter behave when root is not an `<html>`?,https://github.com/whatwg/html/issues/3403,2018-01-25T12:06:56Z,2018-02-12T16:20:10Z,bzbarsky,interop,0
 291429949,true,"custom-elements: A step to add ""is"" content attribute in ""new""",https://github.com/whatwg/html/issues/3402,2018-01-25T02:31:28Z,2018-02-22T16:52:34Z,tkent-google,topic: custom elements,0
 291411857,false,"Please add default=""default"" to specification of submit buttons in forms",https://github.com/whatwg/html/issues/3401,2018-01-25T00:43:20Z,2021-11-06T02:23:34Z,Nadya678,addition/proposal|needs implementer interest|topic: forms,0
-291410137,false,"Allow <input type=""color""> to give an alpha channel and/or colors beyond sRGB?",https://github.com/whatwg/html/issues/3400,2018-01-25T00:32:53Z,2024-03-28T21:41:03Z,domenic,addition/proposal|needs implementer interest|topic: forms,37
+291410137,false,"Allow <input type=""color""> to give an alpha channel and/or colors beyond sRGB?",https://github.com/whatwg/html/issues/3400,2018-01-25T00:32:53Z,2024-04-24T10:46:36Z,domenic,addition/proposal|needs implementer interest|topic: forms,38
 291244767,true,Combine createImageBitmap() / createPattern() / drawImage() checks,https://github.com/whatwg/html/issues/3399,2018-01-24T15:14:36Z,2018-01-29T08:41:16Z,annevk,clarification|topic: canvas,0
 291182587,false,value of input elements with type Submit are not marked as translatable,https://github.com/whatwg/html/issues/3396,2018-01-24T11:58:21Z,2018-01-24T12:57:49Z,samhed,clarification|topic: forms,0
 291171366,false,Unified dictionary for getContext(),https://github.com/whatwg/html/issues/3395,2018-01-24T11:16:43Z,2018-01-26T10:04:02Z,annevk,normative change|topic: canvas,0
