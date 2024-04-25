@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2262286535,false,Slowly removing/reducing the margin collapsing quirk.,https://github.com/whatwg/html/issues/10296,2024-04-24T22:26:56Z,2024-04-24T22:26:56Z,bfgeek,,0
+2263162193,false,Provide named character entities for invisible and ambiguous Unicode characters,https://github.com/whatwg/html/issues/10297,2024-04-25T09:50:32Z,2024-04-25T10:05:09Z,r12a,addition/proposal|needs implementer interest|i18n-needs-resolution,0
+2262286535,false,Slowly removing/reducing the margin collapsing quirk.,https://github.com/whatwg/html/issues/10296,2024-04-24T22:26:56Z,2024-04-25T06:34:21Z,bfgeek,normative change|needs implementer interest|topic: rendering,1
 2258787056,false,Sentence in 6.11.7 doesn't seem right,https://github.com/whatwg/html/issues/10295,2024-04-23T12:44:29Z,2024-04-23T12:44:29Z,Zhang-Junzhi,,0
 2258703067,true,SEO issue of <a> elements put dependently inside a context,https://github.com/whatwg/html/issues/10294,2024-04-23T12:03:03Z,2024-04-24T03:15:29Z,Zhang-Junzhi,addition/proposal|needs implementer interest,0
 2258314436,false,Fieldset should support readonly attribute,https://github.com/whatwg/html/issues/10293,2024-04-23T08:51:32Z,2024-04-23T09:10:07Z,pfteter,addition/proposal|needs implementer interest|topic: forms,0
@@ -16,7 +17,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2240037535,false,Module script dependencies and fetch priority,https://github.com/whatwg/html/issues/10276,2024-04-12T12:18:39Z,2024-04-12T12:18:59Z,yoavweiss,,0
 2238379090,true,Upcoming WHATNOT meeting on 4/18/2024,https://github.com/whatwg/html/issues/10275,2024-04-11T19:06:54Z,2024-04-18T18:40:20Z,past,agenda+,0
 2238307794,false,"Not clear purpose of early return in ""finalize a same-document navigation""",https://github.com/whatwg/html/issues/10274,2024-04-11T18:22:34Z,2024-04-12T00:20:54Z,kalenikaliaksandr,topic: navigation,0
-2237234871,false,Allow slotting indirect children,https://github.com/whatwg/html/issues/10273,2024-04-11T08:54:22Z,2024-04-16T11:27:30Z,jakearchibald,addition/proposal|needs implementer interest|topic: shadow,1
+2237234871,false,Allow slotting indirect children,https://github.com/whatwg/html/issues/10273,2024-04-11T08:54:22Z,2024-04-25T09:33:05Z,jakearchibald,addition/proposal|needs implementer interest|topic: shadow,1
 2235842720,false,ECMAScript's OrdinaryFunctionCreate has another new parameter,https://github.com/whatwg/html/issues/10271,2024-04-10T15:10:05Z,2024-04-10T17:45:52Z,Ms2ger,integration,0
 2232213961,false,Can messageerror fire on Worker?,https://github.com/whatwg/html/issues/10262,2024-04-08T22:27:49Z,2024-04-19T09:13:27Z,foolip,topic: workers,0
 2231603753,true,"""scripts may run for the newly-created document"" never updated for about:blank iframes.",https://github.com/whatwg/html/issues/10261,2024-04-08T16:09:53Z,2024-04-12T05:49:45Z,kalenikaliaksandr,topic: navigation,0
@@ -36,7 +37,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2219053968,false,Meta element and DOM post-insertion steps,https://github.com/whatwg/html/issues/10241,2024-04-01T21:00:03Z,2024-04-02T13:42:46Z,domfarolino,,0
 2218497679,false,Mutating the close watcher stack during a close request,https://github.com/whatwg/html/issues/10240,2024-04-01T15:25:39Z,2024-04-02T09:28:59Z,keithamus,topic: close watchers,0
 2217234812,true,<button> elements in button layout ignore `display: none;`,https://github.com/whatwg/html/issues/10238,2024-03-31T22:55:16Z,2024-04-04T10:17:27Z,Wuelle,topic: rendering|topic: forms,0
-2217182342,true,Declarative Shadow DOM for XML Syntax,https://github.com/whatwg/html/issues/10237,2024-03-31T21:05:45Z,2024-04-08T04:50:09Z,mossblaser,topic: parser,0
+2217182342,true,Declarative Shadow DOM for XML Syntax,https://github.com/whatwg/html/issues/10237,2024-03-31T21:05:45Z,2024-04-25T06:33:03Z,mossblaser,topic: parser,0
 2215703317,false,onfocusout and onfocusin event handler content attributes,https://github.com/whatwg/html/issues/10234,2024-03-29T17:01:20Z,2024-03-29T18:40:04Z,josepharhar,,0
 2215614119,false,Support `json`/`style` as `modulepreload` destinations,https://github.com/whatwg/html/issues/10233,2024-03-29T15:56:34Z,2024-04-02T13:56:37Z,noamr,topic: script|topic: resource hints (inc. preload),0
 2215396864,false,"""apply the history step"" fails if multiple sync navigations happened",https://github.com/whatwg/html/issues/10232,2024-03-29T13:45:02Z,2024-04-04T15:59:47Z,kalenikaliaksandr,topic: navigation,0
@@ -1320,7 +1321,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 948054143,true,Upcoming HTML standard issue triage meeting on 8/5/2021,https://github.com/whatwg/html/issues/6884,2021-07-19T21:47:51Z,2021-09-02T23:46:39Z,past,agenda+,0
 947056780,true,"HTML  syntax not correct ",https://github.com/whatwg/html/issues/6875,2021-07-18T15:14:36Z,2021-07-18T16:16:52Z,harshit-dugar,spam,0
 946697785,true,"Missing parameter in the steps of ""7.10.5.8 [[Set]] ( P, V, Receiver )"" ",https://github.com/whatwg/html/issues/6873,2021-07-17T03:27:53Z,2021-07-23T10:30:54Z,yvt,good first issue,0
-946636592,false,setCustomValidity() seems pointless on <fieldset>,https://github.com/whatwg/html/issues/6870,2021-07-16T22:42:56Z,2024-04-24T14:41:30Z,domenic,addition/proposal|needs implementer interest|topic: forms,8
+946636592,false,setCustomValidity() seems pointless on <fieldset>,https://github.com/whatwg/html/issues/6870,2021-07-16T22:42:56Z,2024-04-24T14:41:30Z,domenic,addition/proposal|needs implementer interest|topic: forms,9
 946624070,false,Add required-attribute support for fieldsets,https://github.com/whatwg/html/issues/6868,2021-07-16T22:08:49Z,2023-02-13T13:51:43Z,fstrr,addition/proposal|topic: forms,11
 946138075,true,How does authors specify CSS module scripts on script element?,https://github.com/whatwg/html/issues/6864,2021-07-16T10:03:55Z,2021-07-16T15:12:20Z,mtrootyy,,0
 945561794,true,Proposal: stop triggering navigations to about:blank on iframe insertion,https://github.com/whatwg/html/issues/6863,2021-07-15T16:28:37Z,2021-08-10T17:20:50Z,rakina,,2
@@ -1946,7 +1947,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 574417652,false,BroadcastChannel postMessage requires synchronous possibly-cross-process access,https://github.com/whatwg/html/issues/5327,2020-03-03T05:02:14Z,2020-04-11T08:11:36Z,gterzian,topic: serialize and transfer,0
 574281304,false,Programmatically setting focus navigation start point?,https://github.com/whatwg/html/issues/5326,2020-03-02T22:09:53Z,2024-03-29T20:49:09Z,alice,addition/proposal|accessibility|topic: forms|topic: focus|topic: editing,13
 574138217,false,Feature detection of module workers is hard,https://github.com/whatwg/html/issues/5325,2020-03-02T17:44:15Z,2021-05-27T16:32:29Z,surma,addition/proposal|needs implementer interest|topic: workers,1
-573809273,false,new SharedWorker() should queue a task to fire an error when parse error occurs,https://github.com/whatwg/html/issues/5323,2020-03-02T08:46:18Z,2020-03-13T14:38:39Z,elkurin,topic: workers|interop,2
+573809273,false,new SharedWorker() should queue a task to fire an error when parse error occurs,https://github.com/whatwg/html/issues/5323,2020-03-02T08:46:18Z,2020-03-13T14:38:39Z,elkurin,topic: workers|interop,3
 573664292,false,UA only applies that inputmode is on editing host,https://github.com/whatwg/html/issues/5322,2020-03-02T01:35:04Z,2020-03-04T20:03:26Z,makotokato,normative change|topic: editing,0
 573627237,false,Possibly wrong value for 'img' property,https://github.com/whatwg/html/issues/5321,2020-03-01T22:27:58Z,2020-03-02T14:42:58Z,lazdmx,clarification,0
 573211369,true,Weird interactions between JS and EnqueueJob make `await p` different from `p.then`,https://github.com/whatwg/html/issues/5319,2020-02-29T06:32:17Z,2020-03-25T20:54:26Z,TimothyGu,integration|topic: event loop,0
