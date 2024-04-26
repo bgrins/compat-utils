@@ -1,4 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2265355344,false,Add `nostr` to registerProtocolHandler,https://github.com/whatwg/html/issues/10300,2024-04-26T09:27:11Z,2024-04-26T09:27:11Z,Falci,addition/proposal|needs implementer interest,0
+2264931031,false,Move GitHub Wiki content to README or spec/website page,https://github.com/whatwg/html/issues/10299,2024-04-26T04:20:21Z,2024-04-26T04:20:21Z,jcbhmr,,0
 2264087105,false,Upcoming WHATNOT meeting on 5/2/2024,https://github.com/whatwg/html/issues/10298,2024-04-25T17:05:55Z,2024-04-25T17:05:56Z,past,agenda+,0
 2263162193,false,Provide named character entities for invisible and ambiguous Unicode characters,https://github.com/whatwg/html/issues/10297,2024-04-25T09:50:32Z,2024-04-25T10:05:09Z,r12a,addition/proposal|needs implementer interest|i18n-needs-resolution,0
 2262286535,false,Slowly removing/reducing the margin collapsing quirk.,https://github.com/whatwg/html/issues/10296,2024-04-24T22:26:56Z,2024-04-25T06:34:21Z,bfgeek,normative change|needs implementer interest|topic: rendering,1
@@ -18,7 +20,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2240037535,false,Module script dependencies and fetch priority,https://github.com/whatwg/html/issues/10276,2024-04-12T12:18:39Z,2024-04-12T12:18:59Z,yoavweiss,,0
 2238379090,true,Upcoming WHATNOT meeting on 4/18/2024,https://github.com/whatwg/html/issues/10275,2024-04-11T19:06:54Z,2024-04-18T18:40:20Z,past,agenda+,0
 2238307794,false,"Not clear purpose of early return in ""finalize a same-document navigation""",https://github.com/whatwg/html/issues/10274,2024-04-11T18:22:34Z,2024-04-12T00:20:54Z,kalenikaliaksandr,topic: navigation,0
-2237234871,false,Allow slotting indirect children,https://github.com/whatwg/html/issues/10273,2024-04-11T08:54:22Z,2024-04-25T21:41:54Z,jakearchibald,addition/proposal|needs implementer interest|topic: shadow,1
+2237234871,false,Allow slotting indirect children,https://github.com/whatwg/html/issues/10273,2024-04-11T08:54:22Z,2024-04-26T11:31:47Z,jakearchibald,addition/proposal|needs implementer interest|topic: shadow,1
 2235842720,false,ECMAScript's OrdinaryFunctionCreate has another new parameter,https://github.com/whatwg/html/issues/10271,2024-04-10T15:10:05Z,2024-04-10T17:45:52Z,Ms2ger,integration,0
 2232213961,false,Can messageerror fire on Worker?,https://github.com/whatwg/html/issues/10262,2024-04-08T22:27:49Z,2024-04-19T09:13:27Z,foolip,topic: workers,0
 2231603753,true,"""scripts may run for the newly-created document"" never updated for about:blank iframes.",https://github.com/whatwg/html/issues/10261,2024-04-08T16:09:53Z,2024-04-12T05:49:45Z,kalenikaliaksandr,topic: navigation,0
@@ -371,7 +373,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1793651320,true,Introduce scopes to openers,https://github.com/whatwg/html/issues/9500,2023-07-07T14:31:13Z,2023-07-07T17:25:24Z,SoniEx2,,0
 1793601014,true,fetch client settings object isn't used in `fetch the descendants of and link a module script`,https://github.com/whatwg/html/issues/9499,2023-07-07T13:58:54Z,2023-07-13T04:29:54Z,allstarschh,,0
 1792169588,false,Improve description of `readonly` attribute,https://github.com/whatwg/html/issues/9496,2023-07-06T20:13:27Z,2023-09-18T17:08:45Z,aaronadamsCA,clarification|topic: forms,0
-1791166125,true,Allow self-closing tags everywhere,https://github.com/whatwg/html/issues/9491,2023-07-06T09:26:20Z,2023-09-07T12:00:32Z,jakearchibald,addition/proposal|needs implementer interest|topic: parser|needs compat analysis,115
+1791166125,true,Allow self-closing tags everywhere,https://github.com/whatwg/html/issues/9491,2023-07-06T09:26:20Z,2023-09-07T12:00:32Z,jakearchibald,addition/proposal|needs implementer interest|topic: parser|needs compat analysis,119
 1788871531,false,Add VideoPlaybackQuality and HTMLVideoElement»getVideoPlaybackQuality(),https://github.com/whatwg/html/issues/9489,2023-07-05T06:36:23Z,2023-10-29T14:38:28Z,sideshowbarker,addition/proposal|topic: media,0
 1788359824,true,"Use ""matches about:blank"" and ""matches about:srcdoc"" in more places",https://github.com/whatwg/html/issues/9488,2023-07-04T19:09:29Z,2023-07-28T00:45:03Z,domfarolino,topic: navigation,1
 1787902159,false,"Showing only a child popover causes ""beforetoggle"" and ""toggle"" events but popover is invisble",https://github.com/whatwg/html/issues/9487,2023-07-04T13:07:44Z,2023-07-12T23:31:37Z,mbrodesser-Igalia,topic: popover,0
@@ -4383,7 +4385,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 135998052,true,Update request's destination field to match Fetch,https://github.com/whatwg/html/issues/731,2016-02-24T09:04:07Z,2016-07-06T13:43:48Z,annevk,clarification,0
 135983545,true,"event handler doesn't specify event listener's ""passive""",https://github.com/whatwg/html/issues/729,2016-02-24T07:36:08Z,2016-03-01T17:23:38Z,cvrebert,clarification|good first issue,0
 135326640,true,Need a way to styling the disclosure triangle of the <details> (or <summary>) element,https://github.com/whatwg/html/issues/722,2016-02-22T06:11:03Z,2017-03-16T14:30:31Z,aethanyc,,0
-135113216,true,HTML should support self-closing tags in general,https://github.com/whatwg/html/issues/721,2016-02-20T19:40:45Z,2020-04-28T16:48:58Z,nlwillia,addition/proposal|needs implementer interest,25
+135113216,true,HTML should support self-closing tags in general,https://github.com/whatwg/html/issues/721,2016-02-20T19:40:45Z,2020-04-28T16:48:58Z,nlwillia,addition/proposal|needs implementer interest,28
 134919889,true,Need to be clearer about how aborted/terminated script evaluations are handled,https://github.com/whatwg/html/issues/715,2016-02-19T17:13:27Z,2016-02-22T17:02:14Z,bzbarsky,clarification,0
 134896630,true,Deprecate AddSearchProvider?,https://github.com/whatwg/html/issues/713,2016-02-19T15:46:39Z,2016-04-26T11:20:37Z,RByers,removal/deprecation,0
 134763167,true,"Remove <link rel=""sidebar"">?",https://github.com/whatwg/html/issues/711,2016-02-19T03:43:15Z,2016-02-19T03:58:10Z,domenic,removal/deprecation,0
