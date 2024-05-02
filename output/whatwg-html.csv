@@ -1,13 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2274006008,false,Prefixes and suffixes for textual `<input>`s,https://github.com/whatwg/html/issues/10314,2024-05-01T18:52:42Z,2024-05-01T18:52:42Z,LeaVerou,addition/proposal|needs implementer interest,2
-2273644660,false,Allow DOM manipulation scripts when JavaScript is disabled,https://github.com/whatwg/html/issues/10313,2024-05-01T14:51:31Z,2024-05-01T14:51:31Z,NickGard,addition/proposal|needs implementer interest,0
+2274006008,false,Prefixes and suffixes for textual `<input>`s,https://github.com/whatwg/html/issues/10314,2024-05-01T18:52:42Z,2024-05-02T07:04:47Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,3
+2273644660,false,Allow DOM manipulation scripts when JavaScript is disabled,https://github.com/whatwg/html/issues/10313,2024-05-01T14:51:31Z,2024-05-02T11:24:54Z,NickGard,addition/proposal|needs implementer interest,1
 2273285124,true,textarea autoheight,https://github.com/whatwg/html/issues/10312,2024-05-01T10:20:54Z,2024-05-01T14:44:57Z,MuratovBektur,addition/proposal|needs implementer interest,0
 2272640642,false,event.persisted for pagereveal event,https://github.com/whatwg/html/issues/10311,2024-04-30T23:19:29Z,2024-05-01T14:41:30Z,o-t-w,addition/proposal|needs implementer interest,0
-2272476577,false,HTML parser changes for stylable `<select>`,https://github.com/whatwg/html/issues/10310,2024-04-30T21:27:01Z,2024-05-01T15:45:37Z,josepharhar,addition/proposal|topic: parser|topic: forms|agenda+,0
+2272476577,false,HTML parser changes for stylable `<select>`,https://github.com/whatwg/html/issues/10310,2024-04-30T21:27:01Z,2024-05-02T11:53:38Z,josepharhar,addition/proposal|topic: parser|topic: forms|agenda+,0
 2272373451,false,The `interesttarget` attribute/proposal,https://github.com/whatwg/html/issues/10309,2024-04-30T20:11:18Z,2024-04-30T20:28:12Z,mfreed7,,2
 2270130019,false,Clarify precedence of A2B tags in ICC profiles,https://github.com/whatwg/html/issues/10307,2024-04-29T22:56:21Z,2024-04-30T08:09:30Z,ccameron-chromium,topic: img,0
 2268491879,false,4.8.13 The area element: Inconsistency between circle state and rectangle state,https://github.com/whatwg/html/issues/10306,2024-04-29T09:03:32Z,2024-04-29T09:03:32Z,Psychpsyo,,0
-2267857959,false,Redundant wording in 4.8.13 The area element,https://github.com/whatwg/html/issues/10303,2024-04-28T22:44:09Z,2024-04-29T07:24:13Z,Psychpsyo,,0
+2267857959,true,Redundant wording in 4.8.13 The area element,https://github.com/whatwg/html/issues/10303,2024-04-28T22:44:09Z,2024-05-02T09:36:50Z,Psychpsyo,,0
 2268280700,false,Composable lifecycle hooks,https://github.com/whatwg/html/issues/10304,2024-04-27T02:01:51Z,2024-05-01T16:11:48Z,LeaVerou,addition/proposal|needs implementer interest|topic: custom elements,1
 2266103881,false,Should keyup be an activation triggering input event?,https://github.com/whatwg/html/issues/10301,2024-04-26T16:14:45Z,2024-04-26T16:14:46Z,zcorpan,interop|topic: user activation,0
 2265355344,false,Add `nostr` to registerProtocolHandler,https://github.com/whatwg/html/issues/10300,2024-04-26T09:27:11Z,2024-04-26T09:27:11Z,Falci,addition/proposal|needs implementer interest,0
@@ -2386,7 +2386,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 437011192,false,Unpredictable availability of template's content,https://github.com/whatwg/html/issues/4566,2019-04-25T05:07:56Z,2024-01-12T09:21:16Z,tomalec,,0
 436847516,true,"add ""oncopy"", ""oncut"", ""onpaste"" attribute to list of event handler content attributes",https://github.com/whatwg/html/issues/4564,2019-04-24T18:36:09Z,2019-05-09T15:56:07Z,mtrootyy,good first issue,0
 436589633,true,Move autofocus content attribute to HTMLElement,https://github.com/whatwg/html/issues/4563,2019-04-24T09:26:11Z,2019-08-30T18:56:27Z,tkent-google,addition/proposal|topic: focus,2
-436466726,false,"Validating internationalized mail addresses in <input type=""email"">",https://github.com/whatwg/html/issues/4562,2019-04-24T02:23:14Z,2024-04-30T18:00:38Z,jrlevine,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,8
+436466726,false,"Validating internationalized mail addresses in <input type=""email"">",https://github.com/whatwg/html/issues/4562,2019-04-24T02:23:14Z,2024-05-02T11:25:42Z,jrlevine,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,8
 436404158,false,"add explain about ""user-scalable=no"" and ""maximum-scale=1.0"" to section of <meta> element",https://github.com/whatwg/html/issues/4561,2019-04-23T21:45:12Z,2019-04-30T21:27:39Z,mtrootyy,,0
 436316823,false,warning of security should be added to section of <audio> element,https://github.com/whatwg/html/issues/4560,2019-04-23T17:59:08Z,2019-06-05T16:12:34Z,mtrootyy,topic: media|security/privacy,0
 436315802,false,clarify support of audio codecs in <video> element,https://github.com/whatwg/html/issues/4559,2019-04-23T17:56:28Z,2019-04-24T18:38:47Z,mtrootyy,topic: media,0
@@ -3091,7 +3091,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 281530944,true,Dev edition styling is too zoomed in,https://github.com/whatwg/html/issues/3284,2017-12-12T20:44:11Z,2018-03-05T01:30:29Z,domenic,dev edition,0
 281420267,true,Specify behaviour for sessionStorage with opaque origins,https://github.com/whatwg/html/issues/3283,2017-12-12T15:14:29Z,2020-07-10T17:28:42Z,Zirro,good first issue|interop|topic: storage,0
 281348083,true,Add accessibility role mappings to element definitions,https://github.com/whatwg/html/issues/3282,2017-12-12T11:22:08Z,2019-12-16T17:43:13Z,LJWatson,accessibility|dev edition,13
-280795713,false,"Consider adding <input type=""year"">",https://github.com/whatwg/html/issues/3281,2017-12-10T09:26:30Z,2022-07-18T23:41:06Z,guss77,addition/proposal|topic: forms,65
+280795713,false,"Consider adding <input type=""year"">",https://github.com/whatwg/html/issues/3281,2017-12-10T09:26:30Z,2022-07-18T23:41:06Z,guss77,addition/proposal|topic: forms,66
 280649013,true,Treatment of fallback image on <img src=''>,https://github.com/whatwg/html/issues/3280,2017-12-08T23:39:38Z,2018-01-04T19:41:10Z,mwenge,topic: img|interop,0
 280509596,false,"Cross-reference ""namesake method""",https://github.com/whatwg/html/issues/3278,2017-12-08T14:39:22Z,2017-12-08T15:01:46Z,Ms2ger,clarification|topic: forms,0
 280093497,true,Proposal: RangeList,https://github.com/whatwg/html/issues/3277,2017-12-07T11:22:43Z,2017-12-07T11:45:13Z,WebReflection,,0
@@ -4648,7 +4648,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 109779521,true,Remove initMessageEvent,https://github.com/whatwg/html/issues/228,2015-10-05T11:45:44Z,2015-10-20T14:32:32Z,Ms2ger,removal/deprecation,0
 109775050,true,2.4.9 References: id attribute mention inaccuracy,https://github.com/whatwg/html/issues/227,2015-10-05T11:10:15Z,2016-04-25T06:01:50Z,aristov,clarification|document conformance,0
 109766411,true,Case sensitivity for [type=a] selector for <ol>/<li>,https://github.com/whatwg/html/issues/225,2015-10-05T10:07:14Z,2015-10-06T18:06:17Z,zcorpan,normative change,0
-109114484,false,"Merge ""File and Directory Entries API"" into HTML",https://github.com/whatwg/html/issues/217,2015-09-30T15:18:36Z,2024-04-30T17:46:22Z,arunranga,addition/proposal|topic: forms|interop,0
+109114484,false,"Merge ""File and Directory Entries API"" into HTML",https://github.com/whatwg/html/issues/217,2015-09-30T15:18:36Z,2024-05-02T07:45:19Z,arunranga,addition/proposal|topic: forms|interop,0
 109100787,true,Should navigator.productSub/vendor/vendorSub be exposed to workers?,https://github.com/whatwg/html/issues/216,2015-09-30T14:16:10Z,2015-10-05T07:59:08Z,foolip,,0
 109085610,false,Requirements about User-Agent header,https://github.com/whatwg/html/issues/215,2015-09-30T13:24:27Z,2015-10-02T11:22:30Z,zcorpan,normative change,0
 108900306,true,Give HTMLAllCollection its own class,https://github.com/whatwg/html/issues/210,2015-09-29T15:56:25Z,2015-10-01T10:39:01Z,annevk,normative change|good first issue,0
