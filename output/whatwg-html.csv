@@ -8,7 +8,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2274006008,false,Prefixes and suffixes for textual `<input>`s,https://github.com/whatwg/html/issues/10314,2024-05-01T18:52:42Z,2024-05-02T07:04:47Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,3
 2273644660,false,Allow DOM manipulation scripts when JavaScript is disabled,https://github.com/whatwg/html/issues/10313,2024-05-01T14:51:31Z,2024-05-02T11:24:54Z,NickGard,addition/proposal|needs implementer interest,1
 2273285124,true,textarea autoheight,https://github.com/whatwg/html/issues/10312,2024-05-01T10:20:54Z,2024-05-01T14:44:57Z,MuratovBektur,addition/proposal|needs implementer interest,0
-2272640642,false,event.persisted for pagereveal event,https://github.com/whatwg/html/issues/10311,2024-04-30T23:19:29Z,2024-05-01T14:41:30Z,o-t-w,addition/proposal|needs implementer interest,0
+2272640642,false,event.persisted for pagereveal event,https://github.com/whatwg/html/issues/10311,2024-04-30T23:19:29Z,2024-05-04T15:30:41Z,o-t-w,addition/proposal|needs implementer interest,0
 2272476577,false,HTML parser changes for stylable `<select>`,https://github.com/whatwg/html/issues/10310,2024-04-30T21:27:01Z,2024-05-03T16:17:32Z,josepharhar,addition/proposal|topic: parser|topic: forms,0
 2272373451,false,The `interesttarget` attribute/proposal,https://github.com/whatwg/html/issues/10309,2024-04-30T20:11:18Z,2024-04-30T20:28:12Z,mfreed7,,2
 2270130019,false,Clarify precedence of A2B tags in ICC profiles,https://github.com/whatwg/html/issues/10307,2024-04-29T22:56:21Z,2024-04-30T08:09:30Z,ccameron-chromium,topic: img,0
@@ -34,7 +34,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2245679434,false,"Proposal: <more> element inside <ul>, <ol>, <menu> (or possibly also inside some other elements)",https://github.com/whatwg/html/issues/10279,2024-04-16T10:20:30Z,2024-04-16T19:09:21Z,Zhang-Junzhi,addition/proposal|needs implementer interest,0
 2245585702,true,Proposal: <more> element,https://github.com/whatwg/html/issues/10278,2024-04-16T09:33:08Z,2024-04-16T10:08:28Z,Zhang-Junzhi,,0
 2242645891,false,Proposal: AI Task Meta Tag,https://github.com/whatwg/html/issues/10277,2024-04-15T03:56:14Z,2024-04-18T17:51:51Z,flaboy,addition/proposal|needs implementer interest,0
-2240037535,false,Module script dependencies and fetch priority,https://github.com/whatwg/html/issues/10276,2024-04-12T12:18:39Z,2024-04-12T12:18:59Z,yoavweiss,,0
+2240037535,false,Module script dependencies and fetch priority,https://github.com/whatwg/html/issues/10276,2024-04-12T12:18:39Z,2024-05-04T20:13:23Z,yoavweiss,,0
 2238379090,true,Upcoming WHATNOT meeting on 4/18/2024,https://github.com/whatwg/html/issues/10275,2024-04-11T19:06:54Z,2024-04-18T18:40:20Z,past,agenda+,0
 2238307794,false,"Not clear purpose of early return in ""finalize a same-document navigation""",https://github.com/whatwg/html/issues/10274,2024-04-11T18:22:34Z,2024-05-01T13:50:48Z,kalenikaliaksandr,topic: navigation,0
 2237234871,false,Allow slotting indirect children,https://github.com/whatwg/html/issues/10273,2024-04-11T08:54:22Z,2024-04-26T11:31:47Z,jakearchibald,addition/proposal|needs implementer interest|topic: shadow,1
@@ -77,7 +77,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2193993060,false,Possibility to export drawImage() rendering algorithm,https://github.com/whatwg/html/issues/10210,2024-03-19T04:34:19Z,2024-03-21T04:50:20Z,Djuffin,topic: canvas|integration,0
 2193889113,false,"`writingsuggestions` might need to default to ""off""",https://github.com/whatwg/html/issues/10209,2024-03-19T02:47:52Z,2024-03-25T11:52:45Z,marcoscaceres,compat,0
 2192989420,false,Proposal: pause iframe media when not rendered,https://github.com/whatwg/html/issues/10208,2024-03-18T18:41:25Z,2024-05-02T23:56:57Z,gabrielsanbrito,addition/proposal|needs implementer interest|topic: media,0
-2188214401,false,Toggle/cycle buttons,https://github.com/whatwg/html/issues/10206,2024-03-15T10:39:26Z,2024-04-17T02:59:13Z,annevk,addition/proposal|topic: forms,4
+2188214401,false,Toggle/cycle buttons,https://github.com/whatwg/html/issues/10206,2024-03-15T10:39:26Z,2024-04-17T02:59:13Z,annevk,addition/proposal|topic: forms,5
 2187420666,true,Upcoming WHATNOT meeting on 3/21/2024,https://github.com/whatwg/html/issues/10205,2024-03-14T22:59:41Z,2024-03-20T21:04:47Z,past,agenda+,0
 2186521527,false,HostEnsureCanCompileStrings definition mismatch,https://github.com/whatwg/html/issues/10202,2024-03-14T14:26:46Z,2024-03-14T14:44:36Z,lukewarlow,,0
 2185450782,false,Restrict when MessagePort's onclose event can fire,https://github.com/whatwg/html/issues/10201,2024-03-14T05:15:57Z,2024-03-18T04:43:04Z,fergald,security/privacy|topic: serialize and transfer,0
@@ -3038,7 +3038,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 291547569,true,How should document.body setter behave when root is not an `<html>`?,https://github.com/whatwg/html/issues/3403,2018-01-25T12:06:56Z,2018-02-12T16:20:10Z,bzbarsky,interop,0
 291429949,true,"custom-elements: A step to add ""is"" content attribute in ""new""",https://github.com/whatwg/html/issues/3402,2018-01-25T02:31:28Z,2018-02-22T16:52:34Z,tkent-google,topic: custom elements,0
 291411857,false,"Please add default=""default"" to specification of submit buttons in forms",https://github.com/whatwg/html/issues/3401,2018-01-25T00:43:20Z,2021-11-06T02:23:34Z,Nadya678,addition/proposal|needs implementer interest|topic: forms,0
-291410137,false,"Allow <input type=""color""> to give an alpha channel and/or colors beyond sRGB?",https://github.com/whatwg/html/issues/3400,2018-01-25T00:32:53Z,2024-04-24T14:46:21Z,domenic,addition/proposal|needs implementer interest|topic: forms,38
+291410137,false,"Allow <input type=""color""> to give an alpha channel and/or colors beyond sRGB?",https://github.com/whatwg/html/issues/3400,2018-01-25T00:32:53Z,2024-04-24T14:46:21Z,domenic,addition/proposal|needs implementer interest|topic: forms,39
 291244767,true,Combine createImageBitmap() / createPattern() / drawImage() checks,https://github.com/whatwg/html/issues/3399,2018-01-24T15:14:36Z,2018-01-29T08:41:16Z,annevk,clarification|topic: canvas,0
 291182587,false,value of input elements with type Submit are not marked as translatable,https://github.com/whatwg/html/issues/3396,2018-01-24T11:58:21Z,2018-01-24T12:57:49Z,samhed,clarification|topic: forms,0
 291171366,false,Unified dictionary for getContext(),https://github.com/whatwg/html/issues/3395,2018-01-24T11:16:43Z,2018-01-26T10:04:02Z,annevk,normative change|topic: canvas,0
@@ -3097,7 +3097,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 281530944,true,Dev edition styling is too zoomed in,https://github.com/whatwg/html/issues/3284,2017-12-12T20:44:11Z,2018-03-05T01:30:29Z,domenic,dev edition,0
 281420267,true,Specify behaviour for sessionStorage with opaque origins,https://github.com/whatwg/html/issues/3283,2017-12-12T15:14:29Z,2020-07-10T17:28:42Z,Zirro,good first issue|interop|topic: storage,0
 281348083,true,Add accessibility role mappings to element definitions,https://github.com/whatwg/html/issues/3282,2017-12-12T11:22:08Z,2019-12-16T17:43:13Z,LJWatson,accessibility|dev edition,13
-280795713,false,"Consider adding <input type=""year"">",https://github.com/whatwg/html/issues/3281,2017-12-10T09:26:30Z,2022-07-18T23:41:06Z,guss77,addition/proposal|topic: forms,66
+280795713,false,"Consider adding <input type=""year"">",https://github.com/whatwg/html/issues/3281,2017-12-10T09:26:30Z,2022-07-18T23:41:06Z,guss77,addition/proposal|topic: forms,67
 280649013,true,Treatment of fallback image on <img src=''>,https://github.com/whatwg/html/issues/3280,2017-12-08T23:39:38Z,2018-01-04T19:41:10Z,mwenge,topic: img|interop,0
 280509596,false,"Cross-reference ""namesake method""",https://github.com/whatwg/html/issues/3278,2017-12-08T14:39:22Z,2017-12-08T15:01:46Z,Ms2ger,clarification|topic: forms,0
 280093497,true,Proposal: RangeList,https://github.com/whatwg/html/issues/3277,2017-12-07T11:22:43Z,2017-12-07T11:45:13Z,WebReflection,,0
