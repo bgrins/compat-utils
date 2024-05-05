@@ -34,7 +34,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2245679434,false,"Proposal: <more> element inside <ul>, <ol>, <menu> (or possibly also inside some other elements)",https://github.com/whatwg/html/issues/10279,2024-04-16T10:20:30Z,2024-04-16T19:09:21Z,Zhang-Junzhi,addition/proposal|needs implementer interest,0
 2245585702,true,Proposal: <more> element,https://github.com/whatwg/html/issues/10278,2024-04-16T09:33:08Z,2024-04-16T10:08:28Z,Zhang-Junzhi,,0
 2242645891,false,Proposal: AI Task Meta Tag,https://github.com/whatwg/html/issues/10277,2024-04-15T03:56:14Z,2024-04-18T17:51:51Z,flaboy,addition/proposal|needs implementer interest,0
-2240037535,false,Module script dependencies and fetch priority,https://github.com/whatwg/html/issues/10276,2024-04-12T12:18:39Z,2024-05-04T20:13:23Z,yoavweiss,,0
+2240037535,false,Module script dependencies and fetch priority,https://github.com/whatwg/html/issues/10276,2024-04-12T12:18:39Z,2024-05-05T00:31:10Z,yoavweiss,,0
 2238379090,true,Upcoming WHATNOT meeting on 4/18/2024,https://github.com/whatwg/html/issues/10275,2024-04-11T19:06:54Z,2024-04-18T18:40:20Z,past,agenda+,0
 2238307794,false,"Not clear purpose of early return in ""finalize a same-document navigation""",https://github.com/whatwg/html/issues/10274,2024-04-11T18:22:34Z,2024-05-01T13:50:48Z,kalenikaliaksandr,topic: navigation,0
 2237234871,false,Allow slotting indirect children,https://github.com/whatwg/html/issues/10273,2024-04-11T08:54:22Z,2024-04-26T11:31:47Z,jakearchibald,addition/proposal|needs implementer interest|topic: shadow,1
@@ -1167,7 +1167,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1067387017,false,Proposal: Add Element.isRendered() function,https://github.com/whatwg/html/issues/7379,2021-11-30T15:43:49Z,2021-12-01T21:14:55Z,vmpstr,,1
 1066032725,true,Non-cancelled `setTimeout`s would lead to idle deadlines in the past,https://github.com/whatwg/html/issues/7376,2021-11-29T13:21:50Z,2021-11-30T22:13:53Z,andreubotella,,0
 1065446998,true,"""classic script"" definition incomplete",https://github.com/whatwg/html/issues/7374,2021-11-28T21:57:10Z,2021-11-29T16:40:08Z,SmashManiac,,0
-1062927220,false,Adding scriptElement.exports for configuration use cases,https://github.com/whatwg/html/issues/7367,2021-11-24T21:32:38Z,2024-03-23T15:57:52Z,domenic,addition/proposal|topic: script,3
+1062927220,false,Adding scriptElement.exports for configuration use cases,https://github.com/whatwg/html/issues/7367,2021-11-24T21:32:38Z,2024-03-23T15:57:52Z,domenic,addition/proposal|topic: script,4
 1062394112,false,Last-Event-ID value space follow-up,https://github.com/whatwg/html/issues/7363,2021-11-24T12:53:55Z,2021-11-26T07:45:47Z,annevk,topic: eventsource,0
 1061879455,false,"Geolocations uses ""page visibility change steps""",https://github.com/whatwg/html/issues/7362,2021-11-24T01:18:05Z,2021-11-24T01:18:05Z,marcoscaceres,,0
 1060944661,false,Nit: timer initialization steps should define maximum for id,https://github.com/whatwg/html/issues/7358,2021-11-23T08:15:28Z,2021-11-24T16:16:55Z,annevk,clarification,0
@@ -3412,7 +3412,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 232231572,true,Focus state is unspecified when user agent itself loses focus.,https://github.com/whatwg/html/issues/2716,2017-05-30T12:08:33Z,2020-12-11T22:35:19Z,tobie,topic: focus,2
 232185004,true,Does <hr> create a new block formatting context?,https://github.com/whatwg/html/issues/2715,2017-05-30T08:57:45Z,2017-06-02T07:18:11Z,zcorpan,compat|topic: rendering|interop,1
 231970358,true,Proposal: Add the option to define the scroll behavior of focus(),https://github.com/whatwg/html/issues/2712,2017-05-29T09:22:06Z,2017-05-30T22:07:26Z,jihyerish,,2
-231747000,false,"Need hook for when a browsing context gains or loses focus ",https://github.com/whatwg/html/issues/2711,2017-05-26T22:19:50Z,2023-10-22T04:46:43Z,tobie,topic: focus|integration,12
+231747000,false,"Need hook for when a browsing context gains or loses focus ",https://github.com/whatwg/html/issues/2711,2017-05-26T22:19:50Z,2023-10-22T04:46:43Z,tobie,topic: focus|integration,15
 231746300,true,Expose `history.index` in addition to `history.length`,https://github.com/whatwg/html/issues/2710,2017-05-26T22:15:11Z,2021-12-07T09:20:04Z,dvoytenko,addition/proposal|topic: history,0
 231212752,true,Form submission: Should check connected twice,https://github.com/whatwg/html/issues/2708,2017-05-25T01:06:01Z,2017-09-22T12:04:33Z,tkent-google,topic: navigation|topic: forms,0
 231138283,true,Incumbent algorithm gives inconsistent results for timer callbacks and event handlers; remove skip-when-determining-incumbent counter?,https://github.com/whatwg/html/issues/2706,2017-05-24T18:56:29Z,2017-06-28T22:55:17Z,dbates-wk,topic: multiple globals,0
