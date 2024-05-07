@@ -1,4 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2282705966,false,"If a web author sets dropEffect to something that is not allowed according to spec, should their request be reflected in attribute value?",https://github.com/whatwg/html/issues/10326,2024-05-07T09:10:32Z,2024-05-07T09:10:32Z,kashishjain6,,0
+2282704088,false,Spec allows multiple values for dropEffect in some current selection case which might cause different browsers to behave differently,https://github.com/whatwg/html/issues/10325,2024-05-07T09:09:38Z,2024-05-07T09:09:38Z,kashishjain6,,0
+2282702883,false,Spec allows multiple values for dropEffect in some effectAllowed cases which might cause different browsers to behave differently,https://github.com/whatwg/html/issues/10324,2024-05-07T09:09:01Z,2024-05-07T09:09:01Z,kashishjain6,,0
+2282700610,false,Confusion between the visual effect and the dropEffect attribute in drag-n-drop events in spec,https://github.com/whatwg/html/issues/10323,2024-05-07T09:07:52Z,2024-05-07T09:07:52Z,kashishjain6,,0
+2282142204,true,What does return content attribute of template element?,https://github.com/whatwg/html/issues/10322,2024-05-07T02:26:32Z,2024-05-07T02:31:53Z,dSalieri,,0
 2278404156,false,"Let Form-Associated Custom Elements match :in-range, and :out-of-range pseudo-selectors",https://github.com/whatwg/html/issues/10321,2024-05-03T20:49:26Z,2024-05-06T07:30:58Z,NickGard,addition/proposal|topic: custom elements|topic: selectors,0
 2278393593,false,"Let Form-Associated Custom Elements match :required, :optional, and :autofill pseudo-selectors",https://github.com/whatwg/html/issues/10320,2024-05-03T20:40:06Z,2024-05-06T07:30:43Z,NickGard,addition/proposal|topic: custom elements|topic: selectors,0
 2276684787,false,Upcoming WHATNOT meeting on 5/9/2024,https://github.com/whatwg/html/issues/10318,2024-05-03T00:00:41Z,2024-05-03T00:00:41Z,past,agenda+,0
@@ -37,7 +42,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2240037535,false,Module script dependencies and fetch priority,https://github.com/whatwg/html/issues/10276,2024-04-12T12:18:39Z,2024-05-06T13:37:40Z,yoavweiss,,0
 2238379090,true,Upcoming WHATNOT meeting on 4/18/2024,https://github.com/whatwg/html/issues/10275,2024-04-11T19:06:54Z,2024-04-18T18:40:20Z,past,agenda+,0
 2238307794,false,"Not clear purpose of early return in ""finalize a same-document navigation""",https://github.com/whatwg/html/issues/10274,2024-04-11T18:22:34Z,2024-05-01T13:50:48Z,kalenikaliaksandr,topic: navigation,0
-2237234871,false,Allow slotting indirect children,https://github.com/whatwg/html/issues/10273,2024-04-11T08:54:22Z,2024-05-07T00:08:03Z,jakearchibald,addition/proposal|needs implementer interest|topic: shadow,5
+2237234871,false,Allow slotting indirect children,https://github.com/whatwg/html/issues/10273,2024-04-11T08:54:22Z,2024-05-07T09:22:41Z,jakearchibald,addition/proposal|needs implementer interest|topic: shadow,5
 2235842720,false,ECMAScript's OrdinaryFunctionCreate has another new parameter,https://github.com/whatwg/html/issues/10271,2024-04-10T15:10:05Z,2024-04-10T17:45:52Z,Ms2ger,integration,0
 2232213961,false,Can messageerror fire on Worker?,https://github.com/whatwg/html/issues/10262,2024-04-08T22:27:49Z,2024-04-19T09:13:27Z,foolip,topic: workers,0
 2231603753,true,"""scripts may run for the newly-created document"" never updated for about:blank iframes.",https://github.com/whatwg/html/issues/10261,2024-04-08T16:09:53Z,2024-04-12T05:49:45Z,kalenikaliaksandr,topic: navigation,0
@@ -1503,7 +1508,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 827532769,false,"Maybe change <ol>/<li> ""ordinal value"" to not be affected by CSS",https://github.com/whatwg/html/issues/6473,2021-03-10T10:52:38Z,2021-03-10T17:02:21Z,zcorpan,topic: rendering,0
 826953453,true,New feature proposal: HTMLScriptElement.supports(type) method,https://github.com/whatwg/html/issues/6472,2021-03-10T02:12:31Z,2021-09-03T17:18:19Z,horo-t,,1
 826067729,true,Consider not normalizing form entries during construction of the entry list,https://github.com/whatwg/html/issues/6469,2021-03-09T15:02:58Z,2021-05-20T12:09:15Z,andreubotella,,0
-825894875,false,Require CORS for HSL and DASH media formats,https://github.com/whatwg/html/issues/6468,2021-03-09T13:02:35Z,2024-05-06T19:28:10Z,annevk,topic: media|topic: fetch,0
+825894875,false,Require CORS for HLS and DASH media formats,https://github.com/whatwg/html/issues/6468,2021-03-09T13:02:35Z,2024-05-07T10:53:09Z,annevk,topic: media|topic: fetch,0
 824786074,false,How should refresh behave with iframes?,https://github.com/whatwg/html/issues/6465,2021-03-08T17:31:09Z,2021-03-10T15:13:33Z,jakearchibald,topic: history|interop,0
 824031885,true,And let's come up with an active Label with values.,https://github.com/whatwg/html/issues/6463,2021-03-07T21:57:49Z,2021-10-30T19:10:32Z,korenevskiy,,0
 823771721,true,Scripting-enabled dependent serialization?,https://github.com/whatwg/html/issues/6461,2021-03-06T22:59:04Z,2021-06-23T23:09:52Z,domenic,topic: parser|interop,0
@@ -2392,7 +2397,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 437011192,false,Unpredictable availability of template's content,https://github.com/whatwg/html/issues/4566,2019-04-25T05:07:56Z,2024-01-12T09:21:16Z,tomalec,,0
 436847516,true,"add ""oncopy"", ""oncut"", ""onpaste"" attribute to list of event handler content attributes",https://github.com/whatwg/html/issues/4564,2019-04-24T18:36:09Z,2019-05-09T15:56:07Z,mtrootyy,good first issue,0
 436589633,true,Move autofocus content attribute to HTMLElement,https://github.com/whatwg/html/issues/4563,2019-04-24T09:26:11Z,2019-08-30T18:56:27Z,tkent-google,addition/proposal|topic: focus,2
-436466726,false,"Validating internationalized mail addresses in <input type=""email"">",https://github.com/whatwg/html/issues/4562,2019-04-24T02:23:14Z,2024-05-06T23:18:58Z,jrlevine,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,8
+436466726,false,"Validating internationalized mail addresses in <input type=""email"">",https://github.com/whatwg/html/issues/4562,2019-04-24T02:23:14Z,2024-05-07T09:21:56Z,jrlevine,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,8
 436404158,false,"add explain about ""user-scalable=no"" and ""maximum-scale=1.0"" to section of <meta> element",https://github.com/whatwg/html/issues/4561,2019-04-23T21:45:12Z,2019-04-30T21:27:39Z,mtrootyy,,0
 436316823,false,warning of security should be added to section of <audio> element,https://github.com/whatwg/html/issues/4560,2019-04-23T17:59:08Z,2019-06-05T16:12:34Z,mtrootyy,topic: media|security/privacy,0
 436315802,false,clarify support of audio codecs in <video> element,https://github.com/whatwg/html/issues/4559,2019-04-23T17:56:28Z,2019-04-24T18:38:47Z,mtrootyy,topic: media,0
