@@ -1,6 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2283092815,false,Update Trusted Types enforcement for document.write/writeln,https://github.com/whatwg/html/pull/10328,2024-05-07T12:05:37Z,2024-05-07T12:07:03Z,lukewarlow,,0
-2283078060,false,Don't cache HTTP errors in the module map,https://github.com/whatwg/html/pull/10327,2024-05-07T11:58:07Z,2024-05-07T12:05:47Z,lucacasonato,,0
+2283831934,false,Add hooks to inform WebDriver BiDi when a navigable is created,https://github.com/whatwg/html/pull/10329,2024-05-07T16:59:24Z,2024-05-07T16:59:50Z,OrKoN,,0
+2283092815,false,Update Trusted Types enforcement for document.write/writeln,https://github.com/whatwg/html/pull/10328,2024-05-07T12:05:37Z,2024-05-07T17:47:01Z,lukewarlow,,0
+2283078060,false,Don't cache HTTP errors in the module map,https://github.com/whatwg/html/pull/10327,2024-05-07T11:58:07Z,2024-05-07T15:22:45Z,lucacasonato,,1
 2277390865,true,"Editorial: use comma in ""Otherwise, if ...""",https://github.com/whatwg/html/pull/10319,2024-05-03T10:31:01Z,2024-05-03T12:26:52Z,foolip,,0
 2270683747,false,Editorial: export history handling behavior,https://github.com/whatwg/html/pull/10308,2024-04-30T07:13:40Z,2024-05-07T02:15:00Z,yoshisatoyanagisawa,,0
 2268312798,true,Editorial: group area's shape with other IDL attributes,https://github.com/whatwg/html/pull/10305,2024-04-29T07:23:37Z,2024-05-02T09:36:50Z,annevk,,1
@@ -34,7 +35,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2197161842,false,[render-blocking] Fix implicitly-render-blocking definition.,https://github.com/whatwg/html/pull/10214,2024-03-20T10:17:39Z,2024-03-20T13:04:12Z,emilio,,0
 2195297333,true,Preload: only allow certain values for the `as` attribute,https://github.com/whatwg/html/pull/10212,2024-03-19T15:31:54Z,2024-04-01T04:39:45Z,noamr,topic: resource hints (inc. preload),0
 2188509128,true,Disable PageSwapEvent.activation when navigation has cross-origin red…,https://github.com/whatwg/html/pull/10207,2024-03-15T13:23:54Z,2024-03-27T02:28:13Z,noamr,topic: navigation,0
-2186605860,false,Update HostEnsureCanCompileStrings definition,https://github.com/whatwg/html/pull/10204,2024-03-14T15:03:04Z,2024-05-02T12:14:03Z,lukewarlow,,0
+2186605860,false,Update HostEnsureCanCompileStrings definition,https://github.com/whatwg/html/pull/10204,2024-03-14T15:03:04Z,2024-05-07T15:27:56Z,lukewarlow,,0
 2184548191,true,Upstream IDL changes from Trusted Types,https://github.com/whatwg/html/pull/10199,2024-03-13T17:32:11Z,2024-03-19T11:39:29Z,lukewarlow,,0
 2184496735,true,Upstream long-animation-frames monkey-patches,https://github.com/whatwg/html/pull/10198,2024-03-13T17:02:02Z,2024-03-27T02:30:41Z,noamr,integration|topic: timing,0
 2183409617,true,Fix: Editorial - link Promise<T> type throughout #9987,https://github.com/whatwg/html/pull/10197,2024-03-13T08:36:14Z,2024-03-15T08:02:24Z,tawandamoyo,,0
@@ -53,8 +54,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2158208117,true,Re-do close watcher user activation tracking,https://github.com/whatwg/html/pull/10168,2024-02-28T06:22:43Z,2024-04-02T08:56:08Z,domenic,normative change|topic: dialog|topic: close watchers,0
 2158124994,true,[Editorial] Export creating NRR,https://github.com/whatwg/html/pull/10167,2024-02-28T05:11:30Z,2024-02-28T05:24:27Z,rubberyuzu,,0
 2157384688,true,Editorial: Specify that connectedness is a prerequisite for script execution,https://github.com/whatwg/html/pull/10165,2024-02-27T18:54:52Z,2024-03-04T04:16:34Z,domfarolino,topic: script,0
-2150141047,false,WIP dialog closedby attribute spec,https://github.com/whatwg/html/pull/10157,2024-02-22T23:57:03Z,2024-04-02T08:56:07Z,lukewarlow,topic: close watchers,0
-2148367262,false,Add may-block reasons to NotRestoredReasons,https://github.com/whatwg/html/pull/10154,2024-02-22T07:06:43Z,2024-05-07T08:17:31Z,rubberyuzu,,0
+2150141047,false,WIP dialog closedby attribute spec,https://github.com/whatwg/html/pull/10157,2024-02-22T23:57:03Z,2024-05-07T23:18:30Z,lukewarlow,topic: close watchers,0
+2148367262,false,Add may-block reasons to NotRestoredReasons,https://github.com/whatwg/html/pull/10154,2024-02-22T07:06:43Z,2024-05-07T13:38:15Z,rubberyuzu,,0
 2147120013,true,Create code.txt,https://github.com/whatwg/html/pull/10152,2024-02-21T15:58:38Z,2024-02-21T16:05:47Z,owaislodhi01,spam|invalid,0
 2143978728,true,Allow WebDriver BiDi access original opener,https://github.com/whatwg/html/pull/10147,2024-02-20T09:52:35Z,2024-03-21T12:45:50Z,OrKoN,,0
 2141556349,true,Meta: Dark mode fixes,https://github.com/whatwg/html/pull/10144,2024-02-19T05:44:57Z,2024-05-06T16:33:21Z,andreubotella,,0
@@ -188,7 +189,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1935018189,true,Editorial: make kind attributes consistent,https://github.com/whatwg/html/pull/9847,2023-10-10T10:34:57Z,2023-10-10T11:59:18Z,keithamus,editorial,0
 1933058172,true,Implement WebDriver BiDi interception in the `show the picker` algorithm,https://github.com/whatwg/html/pull/9844,2023-10-09T13:22:03Z,2024-04-04T11:37:04Z,jrandolf,do not merge yet|integration,0
 1932809665,true,Editorial: make fetch priority attributes consistent,https://github.com/whatwg/html/pull/9842,2023-10-09T10:59:10Z,2023-10-09T11:41:54Z,keithamus,editorial,0
-1932098948,false,(Invokers Proposal) Add InvokeElement & InvokeEvent IDLs & invocation steps for Dialog & Popover,https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2024-05-03T15:14:45Z,keithamus,,0
+1932098948,false,(Invokers Proposal) Add InvokeElement & InvokeEvent IDLs & invocation steps for Dialog & Popover,https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2024-05-07T18:36:21Z,keithamus,,0
 1931367969,true,Editorial: remove some copypasta around CORS settings attribute,https://github.com/whatwg/html/pull/9840,2023-10-07T14:14:19Z,2023-10-08T14:25:55Z,annevk,,0
 1930976617,true,"Fix typo in ""History-action activation-consuming APIs""",https://github.com/whatwg/html/pull/9839,2023-10-06T21:55:17Z,2023-10-10T04:56:14Z,CanadaHonk,,0
 1930460108,true,Perform a microtask checkpoint only after a task,https://github.com/whatwg/html/pull/9838,2023-10-06T15:38:05Z,2023-10-10T05:26:36Z,annevk,topic: event loop,1

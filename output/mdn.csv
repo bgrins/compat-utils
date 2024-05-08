@@ -3811,8 +3811,9 @@ api/InputEvent/getTargetRanges,,87,,60,,10.1,,false,true,false,https://w3c.githu
 api/InputEvent/inputType,,66,,60,,10.1,,false,true,false,https://w3c.github.io/uievents/#dom-inputevent-inputtype,W3C
 api/InputEvent/inputType/insertFromPasteAsQuotation,,67,,,,,,true,true,false,,NONE
 api/InputEvent/isComposing,,31,,60,,16.4,,false,true,false,https://w3c.github.io/uievents/#dom-inputevent-iscomposing,W3C
-api/InstallEvent,,44,,40,,11.1,,false,false,true,,NONE
+api/InstallEvent,,44,,40,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#installevent,W3C
 api/InstallEvent/InstallEvent,,,,40,,,,false,false,true,,NONE
+api/InstallEvent/addRoutes,,,,123,,,,true,true,false,https://w3c.github.io/ServiceWorker/#register-router-method,W3C
 api/IntersectionObserver,,55,,51,,12.1,,false,true,false,https://w3c.github.io/IntersectionObserver/#intersection-observer-interface,W3C
 api/IntersectionObserver/IntersectionObserver,,55,,51,,12.1,,false,true,false,https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-intersectionobserver,W3C
 api/IntersectionObserver/IntersectionObserver/options_root_parameter_Document,,76,,81,,14,,false,true,false,,NONE
@@ -4873,7 +4874,7 @@ api/OffscreenCanvasRenderingContext2D/canvas,,105,,69,,16.4,,false,true,false,ht
 api/OffscreenCanvasRenderingContext2D/clearRect,,105,,69,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-clearrect-dev,WHATWG
 api/OffscreenCanvasRenderingContext2D/clip,,105,,69,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-clip-dev,WHATWG
 api/OffscreenCanvasRenderingContext2D/closePath,,105,,69,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-closepath-dev,WHATWG
-api/OffscreenCanvasRenderingContext2D/commit,,105,,,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#offscreencontext2d-commit,WHATWG
+api/OffscreenCanvasRenderingContext2D/commit,,105,,,,16.4,,false,false,true,,NONE
 api/OffscreenCanvasRenderingContext2D/createConicGradient,,105,,99,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-createconicgradient,WHATWG
 api/OffscreenCanvasRenderingContext2D/createImageData,,105,,69,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-createimagedata-dev,WHATWG
 api/OffscreenCanvasRenderingContext2D/createLinearGradient,,105,,69,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-createlineargradient-dev,WHATWG
@@ -5354,7 +5355,7 @@ api/PointerEvent/twist,,59,,57,,13,,false,true,false,https://w3c.github.io/point
 api/PointerEvent/width,,59,,55,,13,,false,true,false,https://w3c.github.io/pointerevents/#dom-pointerevent-width,W3C
 api/PopStateEvent,,4,,4,,6,,false,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-popstateevent-interface,WHATWG
 api/PopStateEvent/PopStateEvent,,11,,16,,6,,false,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-popstateevent-interface,WHATWG
-api/PopStateEvent/hasUAVisualTransition,,,,118,,,,true,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-popstateevent-hasuavisualtransition,WHATWG
+api/PopStateEvent/hasUAVisualTransition,,,,118,,preview,,true,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-popstateevent-hasuavisualtransition,WHATWG
 api/PopStateEvent/state,,4,,4,,6,,false,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-popstateevent-state-dev,WHATWG
 api/PositionSensorVRDevice,,39,"[{""name"":""dom.vr*"",""type"":""preference""}]",,,,,false,false,true,,NONE
 api/PositionSensorVRDevice/getImmediateState,,39,"[{""name"":""dom.vr*"",""type"":""preference""}]",,,,,false,false,true,,NONE
@@ -8586,7 +8587,7 @@ api/Window/self,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipag
 api/Window/sessionStorage,,2,,4,,4,,false,true,false,https://html.spec.whatwg.org/multipage/webstorage.html#dom-sessionstorage-dev,WHATWG
 api/Window/setImmediate,,,,,,,,false,false,true,,NONE
 api/Window/setResizable,,1,,,,,,false,false,true,,NONE
-api/Window/sharedStorage,,,,117,,,,true,true,false,,NONE
+api/Window/sharedStorage,,,,117,,,,true,true,false,https://wicg.github.io/shared-storage/#dom-window-sharedstorage,W3CCG
 api/Window/showDirectoryPicker,,,,86,,,,true,true,false,https://wicg.github.io/file-system-access/#api-showdirectorypicker,W3CCG
 api/Window/showModalDialog,,3,,6,,5.1,,false,false,true,,NONE
 api/Window/showOpenFilePicker,,,,86,,,,true,true,false,https://wicg.github.io/file-system-access/#api-showopenfilepicker,W3CCG
@@ -10423,7 +10424,7 @@ css/properties/marker,,≤72,,≤80,,≤13.1,,false,true,false,https://svgwg.org
 css/properties/marker-end,,≤72,,≤80,,≤13.1,,false,true,false,https://svgwg.org/svg2-draft/painting.html#VertexMarkerProperties,W3C
 css/properties/marker-mid,,≤72,,≤80,,≤13.1,,false,true,false,https://svgwg.org/svg2-draft/painting.html#VertexMarkerProperties,W3C
 css/properties/marker-start,,≤72,,≤80,,≤13.1,,false,true,false,https://svgwg.org/svg2-draft/painting.html#VertexMarkerProperties,W3C
-css/properties/mask,,53,,1,,15.4,,false,true,false,https://drafts.fxtf.org/css-masking/#the-mask,W3C
+css/properties/mask,,53,,120,,15.4,,false,true,false,https://drafts.fxtf.org/css-masking/#the-mask,W3C
 css/properties/mask-border,,,,1,,17.2,,false,true,false,https://drafts.fxtf.org/css-masking/#the-mask-border,W3C
 css/properties/mask-border-outset,,,,1,,17.2,,false,true,false,https://drafts.fxtf.org/css-masking/#the-mask-border-outset,W3C
 css/properties/mask-border-repeat,,,,1,,17.2,,false,true,false,https://drafts.fxtf.org/css-masking/#the-mask-border-repeat,W3C
