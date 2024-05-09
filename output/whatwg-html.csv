@@ -1,9 +1,10 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2287420749,false,It's unclear how shadows should be drawn across various compositing operators,https://github.com/whatwg/html/issues/10338,2024-05-09T10:46:03Z,2024-05-09T10:46:03Z,Scony,,0
 2286531994,false,"Proposal for event ordering when inserting replacement text such as text prediction, spell checker, etc",https://github.com/whatwg/html/issues/10337,2024-05-08T21:50:41Z,2024-05-08T22:46:55Z,siliu1,agenda+,0
 2286104421,false,How should UAs handle web authors setting dropEffect values?,https://github.com/whatwg/html/issues/10336,2024-05-08T17:35:57Z,2024-05-08T17:36:17Z,ragoulik,topic: drag and drop|agenda+,0
 2286099886,false,Drag and drop spec allows multiple values for dropEffect which might cause browsers to behave differently.,https://github.com/whatwg/html/issues/10335,2024-05-08T17:33:16Z,2024-05-08T17:34:32Z,ragoulik,topic: drag and drop|agenda+,0
 2286095415,false,The dropEffect column in the Drag and Drop events summary table should clarify it represents default values.,https://github.com/whatwg/html/issues/10334,2024-05-08T17:30:20Z,2024-05-08T17:34:33Z,ragoulik,topic: drag and drop|agenda+,0
-2285993751,false,Consider improving interoperability of <iframe> throttling margins.,https://github.com/whatwg/html/issues/10333,2024-05-08T16:32:05Z,2024-05-08T16:45:44Z,emilio,,0
+2285993751,false,Consider improving interoperability of <iframe> throttling margins.,https://github.com/whatwg/html/issues/10333,2024-05-08T16:32:05Z,2024-05-09T09:18:36Z,emilio,topic: rendering|agenda+,0
 2284498823,false,Clean up HTML <-> DOM hooks,https://github.com/whatwg/html/issues/10331,2024-05-08T01:38:50Z,2024-05-08T15:36:43Z,domenic,clarification,2
 2284438697,true,template.content has unusable value,https://github.com/whatwg/html/issues/10330,2024-05-08T00:22:14Z,2024-05-08T05:28:39Z,dSalieri,,0
 2282705966,true,"If a web author sets dropEffect to something that is not allowed according to spec, should UA respect their choice by updating dropEffect attribute?",https://github.com/whatwg/html/issues/10326,2024-05-07T09:10:32Z,2024-05-08T16:18:10Z,kashishjain6,,0
@@ -18,7 +19,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2276074163,false,Meeting 1 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10316,2024-05-02T17:17:37Z,2024-05-07T23:42:50Z,past,agenda+,0
 2275757289,false,Using URL as map keys is problematic without defining equality,https://github.com/whatwg/html/issues/10315,2024-05-02T14:56:49Z,2024-05-02T14:56:49Z,annevk,,0
 2274006008,false,Prefixes and suffixes for textual `<input>`s,https://github.com/whatwg/html/issues/10314,2024-05-01T18:52:42Z,2024-05-02T07:04:47Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,3
-2273644660,false,Allow DOM manipulation scripts when JavaScript is disabled,https://github.com/whatwg/html/issues/10313,2024-05-01T14:51:31Z,2024-05-06T18:14:42Z,NickGard,addition/proposal|needs implementer interest,1
+2273644660,false,Allow DOM manipulation scripts when JavaScript is disabled,https://github.com/whatwg/html/issues/10313,2024-05-01T14:51:31Z,2024-05-06T18:14:42Z,NickGard,addition/proposal|needs implementer interest,2
 2273285124,true,textarea autoheight,https://github.com/whatwg/html/issues/10312,2024-05-01T10:20:54Z,2024-05-01T14:44:57Z,MuratovBektur,addition/proposal|needs implementer interest,0
 2272640642,false,event.persisted for pagereveal event,https://github.com/whatwg/html/issues/10311,2024-04-30T23:19:29Z,2024-05-04T15:30:41Z,o-t-w,addition/proposal|needs implementer interest,0
 2272476577,false,HTML parser changes for stylable `<select>`,https://github.com/whatwg/html/issues/10310,2024-04-30T21:27:01Z,2024-05-08T22:24:14Z,josepharhar,addition/proposal|topic: parser|topic: forms,0
@@ -1405,7 +1406,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 912106696,true,Possible typo in iframe example code,https://github.com/whatwg/html/issues/6740,2021-06-05T05:16:26Z,2021-06-17T09:09:03Z,schalkneethling,,0
 912017513,true,Upcoming HTML standard issue triage meeting on 7/1/2021,https://github.com/whatwg/html/issues/6739,2021-06-05T00:00:18Z,2021-07-20T00:36:59Z,past,agenda+,0
 910338827,false,Support `<optgroup>` in `<datalist>`,https://github.com/whatwg/html/issues/6733,2021-06-03T10:10:20Z,2021-06-03T10:46:27Z,cawa-93,addition/proposal|needs implementer interest|topic: forms,20
-909451964,true,[SUGGESTION] Disabling developer tools,https://github.com/whatwg/html/issues/6732,2021-06-02T12:33:19Z,2021-06-02T19:53:26Z,drodil,,4
+909451964,true,[SUGGESTION] Disabling developer tools,https://github.com/whatwg/html/issues/6732,2021-06-02T12:33:19Z,2021-06-02T19:53:26Z,drodil,,3
 909339015,false,"Canvas textBaseline ""em square"" not defined",https://github.com/whatwg/html/issues/6731,2021-06-02T10:15:21Z,2023-06-30T14:31:57Z,AshleyScirra,topic: canvas|interop,4
 909192951,true,[Suggestion] dialog element,https://github.com/whatwg/html/issues/6730,2021-06-02T07:11:15Z,2023-01-26T14:34:09Z,OmidHekayati,topic: dialog,5
 908578515,true,When must the focusing steps be run?,https://github.com/whatwg/html/issues/6729,2021-06-01T18:34:20Z,2023-01-27T01:18:41Z,lpd-au,topic: focus,0
@@ -1909,7 +1910,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 607075310,true,contenteditable elements should be focusable areas,https://github.com/whatwg/html/issues/5487,2020-04-26T18:05:58Z,2020-04-28T14:02:21Z,TimothyGu,topic: editing,1
 607073471,true,execCommand.html dead link,https://github.com/whatwg/html/issues/5486,2020-04-26T17:59:13Z,2020-06-25T14:09:04Z,TimothyGu,topic: editing,0
 606781021,true,Clarify sync vs async nature of Worker::postMessage,https://github.com/whatwg/html/issues/5485,2020-04-25T14:28:53Z,2020-04-28T11:40:07Z,RReverser,topic: serialize and transfer,0
-606593641,true,Reparenting iframes without reloading,https://github.com/whatwg/html/issues/5484,2020-04-24T21:26:55Z,2024-01-27T18:38:58Z,josepharhar,addition/proposal|needs implementer interest,13
+606593641,true,Reparenting iframes without reloading,https://github.com/whatwg/html/issues/5484,2020-04-24T21:26:55Z,2024-01-27T18:38:58Z,josepharhar,addition/proposal|needs implementer interest,14
 603962190,true,COEP: define it as a structure header,https://github.com/whatwg/html/issues/5477,2020-04-21T12:34:08Z,2020-04-21T12:45:26Z,empijei,topic: cross-origin-embedder-policy,0
 603754207,false,Is there a proposal for the date range for input?,https://github.com/whatwg/html/issues/5475,2020-04-21T06:54:00Z,2020-10-05T22:45:33Z,cawa-93,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,0
 603733496,true,Should <iframe srcdoc>'s referrer policy reflect updates to parent's referrer policy changes after <iframe> creation?,https://github.com/whatwg/html/issues/5474,2020-04-21T06:10:26Z,2021-06-24T20:15:52Z,hiroshige-g,normative change,1
@@ -2145,7 +2146,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 512330703,false,Meta referrer being able to loosen Referrer-Policy header restrictions is a security vulnerability,https://github.com/whatwg/html/issues/5041,2019-10-25T06:34:26Z,2022-05-31T13:48:55Z,chris-morgan,,0
 512069720,false,HTML sandbox form restriction bypass when scripts allowed,https://github.com/whatwg/html/issues/5040,2019-10-24T17:05:19Z,2019-10-25T15:11:31Z,tsangtmc,clarification|security/privacy,0
 511584833,false,HTMLConstructor construction steps: inconsistent evaluation order/error cases in implementations,https://github.com/whatwg/html/issues/5037,2019-10-23T21:35:34Z,2019-10-24T08:54:23Z,bathos,topic: custom elements|interop,0
-510489260,false,Consider adding a headinglevelstart attribute,https://github.com/whatwg/html/issues/5033,2019-10-22T07:57:09Z,2024-05-08T22:30:26Z,annevk,addition/proposal|accessibility,19
+510489260,false,Consider adding a headinglevelstart attribute,https://github.com/whatwg/html/issues/5033,2019-10-22T07:57:09Z,2024-05-09T09:25:11Z,annevk,addition/proposal|accessibility,19
 509880741,true,---------,https://github.com/whatwg/html/issues/5029,2019-10-21T10:42:33Z,2019-10-22T04:41:25Z,dhilip89,,0
 509693572,true,delegatesFocus doesn't work well with autofocus,https://github.com/whatwg/html/issues/5027,2019-10-21T02:13:20Z,2019-11-11T16:44:20Z,tkent-google,topic: focus,0
 509685886,true,Code Regions,https://github.com/whatwg/html/issues/5026,2019-10-21T01:32:06Z,2019-10-21T16:16:12Z,AdamSobieski,,0
@@ -2297,7 +2298,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 466759876,true,COEP and cachestorage,https://github.com/whatwg/html/issues/4764,2019-07-11T09:01:12Z,2020-03-18T06:56:26Z,yutakahirano,topic: cross-origin-embedder-policy,1
 466577224,true,Browsers not interoperable for first argument of window.open when undefined is passed,https://github.com/whatwg/html/issues/4762,2019-07-10T23:39:15Z,2019-08-20T06:24:22Z,bzbarsky,interop,0
 466194041,false,Unclear when video dimensions should be known,https://github.com/whatwg/html/issues/4761,2019-07-10T09:12:45Z,2019-08-15T11:44:29Z,charlie-ht,topic: media,1
-465786458,true,Rephrase `icon` section (to help curb icon proliferation),https://github.com/whatwg/html/issues/4758,2019-07-09T13:38:26Z,2021-08-13T10:06:09Z,j9t,,10
+465786458,true,Rephrase `icon` section (to help curb icon proliferation),https://github.com/whatwg/html/issues/4758,2019-07-09T13:38:26Z,2021-08-13T10:06:09Z,j9t,,9
 464528802,false,Allow leeway when choosing hyperlink targets in special contexts,https://github.com/whatwg/html/issues/4755,2019-07-05T08:38:05Z,2019-08-14T14:07:27Z,daogottwald,topic: hyperlink|topic: browsing context,0
 464484269,true,jcop,https://github.com/whatwg/html/issues/4753,2019-07-05T06:33:05Z,2019-07-05T08:59:53Z,theodyfirdaus,,1
 464164399,true,"Export ""autofill field name"" values ",https://github.com/whatwg/html/issues/4752,2019-07-04T09:30:26Z,2019-07-08T19:38:22Z,oliverdunk,,0
@@ -2314,7 +2315,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 458730111,true,"Consider adding an ""ignore document.open/write"" flag on document",https://github.com/whatwg/html/issues/4723,2019-06-20T15:36:31Z,2019-10-16T08:25:18Z,bzbarsky,topic: navigation|topic: parser|topic: document.open(),1
 458598033,true,"Inline ""creator referrer policy""",https://github.com/whatwg/html/issues/4721,2019-06-20T11:21:31Z,2019-06-28T12:15:55Z,annevk,clarification|good first issue,0
 458167572,true,"Should ""rules for parsing dimension values"" disallow a leading '+'?",https://github.com/whatwg/html/issues/4720,2019-06-19T18:36:31Z,2019-07-03T15:13:38Z,bzbarsky,,0
-457932329,false,Use white-space: break-spaces on <textarea> by default?,https://github.com/whatwg/html/issues/4719,2019-06-19T10:28:16Z,2021-03-12T07:09:52Z,zcorpan,topic: rendering|topic: forms|topic: editing,2
+457932329,false,Use white-space: break-spaces on <textarea> by default?,https://github.com/whatwg/html/issues/4719,2019-06-19T10:28:16Z,2021-03-12T07:09:52Z,zcorpan,topic: rendering|topic: forms|topic: editing,1
 457801017,true,"Table section elements (<tbody>, <thead>, <tfoot>) should have a height attribute that maps into style",https://github.com/whatwg/html/issues/4718,2019-06-19T04:31:23Z,2020-05-06T06:13:23Z,bzbarsky,good first issue|topic: rendering,0
 457799969,true,width attribute on <col> should allow 0 as a value,https://github.com/whatwg/html/issues/4717,2019-06-19T04:26:09Z,2019-09-24T03:21:57Z,bzbarsky,good first issue|topic: rendering,0
 457799322,true,height attribute on <tr> should allow 0 as a value,https://github.com/whatwg/html/issues/4716,2019-06-19T04:23:14Z,2021-02-22T09:46:08Z,bzbarsky,good first issue|topic: rendering,0
@@ -2323,8 +2324,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 457031790,true,"can use <nav> within a <header>, but that <nav> cannot contain a <header> itself",https://github.com/whatwg/html/issues/4710,2019-06-17T16:35:09Z,2019-06-28T12:52:06Z,SmoothJeor,,1
 456221346,false,"""browsing context scope origin"" is currently a no-op",https://github.com/whatwg/html/issues/4703,2019-06-14T12:24:44Z,2019-06-14T12:24:44Z,annevk,topic: navigation|needs tests,0
 456173686,false,Consider renaming `HTMLOrSVGElement` to `HTMLOrForeignElement`,https://github.com/whatwg/html/issues/4702,2019-06-14T10:21:49Z,2022-03-30T08:14:27Z,ExE-Boss,addition/proposal|needs implementer interest|needs tests|integration,0
-455953077,true,Introducing new HTML elements that are pay-for-what-you-use,https://github.com/whatwg/html/issues/4697,2019-06-13T21:06:59Z,2020-03-24T19:27:04Z,domenic,addition/proposal,11
-455951855,true,Introducing new HTML elements that are polyfillable,https://github.com/whatwg/html/issues/4696,2019-06-13T21:03:38Z,2020-03-24T19:26:58Z,domenic,addition/proposal,9
+455953077,true,Introducing new HTML elements that are pay-for-what-you-use,https://github.com/whatwg/html/issues/4697,2019-06-13T21:06:59Z,2020-03-24T19:27:04Z,domenic,addition/proposal,10
+455951855,true,Introducing new HTML elements that are polyfillable,https://github.com/whatwg/html/issues/4696,2019-06-13T21:03:38Z,2020-03-24T19:26:58Z,domenic,addition/proposal,8
 455438323,false,<input type=image> rendering: render title attribute?,https://github.com/whatwg/html/issues/4694,2019-06-12T21:44:50Z,2019-06-27T21:49:19Z,zcorpan,topic: rendering|accessibility,0
 455374091,true,"""all the of the ways""",https://github.com/whatwg/html/issues/4692,2019-06-12T19:00:27Z,2019-06-14T09:33:57Z,AndyOGo,good first issue,0
 454705924,true,Title,https://github.com/whatwg/html/issues/4688,2019-06-11T13:55:07Z,2019-06-11T14:29:56Z,comsayili,,0
