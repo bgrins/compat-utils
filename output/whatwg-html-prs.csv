@@ -1,6 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2285595319,false,Get the base URL from the script rather than Module/Script Record,https://github.com/whatwg/html/pull/10332,2024-05-08T13:23:54Z,2024-05-08T13:25:02Z,nicolo-ribaudo,,0
 2283831934,false,Add hooks to inform WebDriver BiDi when a navigable is created or destroyed,https://github.com/whatwg/html/pull/10329,2024-05-07T16:59:24Z,2024-05-08T10:41:55Z,OrKoN,,0
-2283092815,false,Update Trusted Types enforcement for document.write/writeln,https://github.com/whatwg/html/pull/10328,2024-05-07T12:05:37Z,2024-05-08T10:26:17Z,lukewarlow,,0
+2283092815,false,Update Trusted Types enforcement for document.write/writeln,https://github.com/whatwg/html/pull/10328,2024-05-07T12:05:37Z,2024-05-08T13:13:47Z,lukewarlow,,0
 2283078060,false,Don't cache HTTP errors in the module map,https://github.com/whatwg/html/pull/10327,2024-05-07T11:58:07Z,2024-05-08T11:25:36Z,lucacasonato,,1
 2277390865,true,"Editorial: use comma in ""Otherwise, if ...""",https://github.com/whatwg/html/pull/10319,2024-05-03T10:31:01Z,2024-05-03T12:26:52Z,foolip,,0
 2270683747,false,Editorial: export history handling behavior,https://github.com/whatwg/html/pull/10308,2024-04-30T07:13:40Z,2024-05-08T07:41:12Z,yoshisatoyanagisawa,,0
@@ -14,7 +15,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2248199462,true,[meta] Complete machine-readable scope of  and  event dfns,https://github.com/whatwg/html/pull/10281,2024-04-17T12:40:38Z,2024-04-18T00:36:25Z,dontcallmedom,,0
 2236940664,true,Delay marking inline module scripts as ready,https://github.com/whatwg/html/pull/10272,2024-04-11T05:29:01Z,2024-04-15T04:06:46Z,domenic,topic: script,0
 2235643011,true,Editorial: Upstream outerHTML property from DOM Parsing,https://github.com/whatwg/html/pull/10270,2024-04-10T13:45:27Z,2024-04-18T07:35:37Z,lukewarlow,addition/proposal|topic: parser,0
-2234668173,false,"Add subresource integrity support for ES modules, through importmaps",https://github.com/whatwg/html/pull/10269,2024-04-10T03:02:35Z,2024-05-07T09:02:38Z,yoavweiss,agenda+,0
+2234668173,false,"Add subresource integrity support for ES modules, through importmaps",https://github.com/whatwg/html/pull/10269,2024-04-10T03:02:35Z,2024-05-08T13:17:01Z,yoavweiss,agenda+,0
 2234134025,true,Editorial: Add warning about lack of sanitization to HTML parsing functions.,https://github.com/whatwg/html/pull/10267,2024-04-09T19:06:20Z,2024-04-10T09:34:23Z,lukewarlow,,0
 2233818920,false,Specify the rendering of <details> in more detail.,https://github.com/whatwg/html/pull/10265,2024-04-09T16:14:34Z,2024-04-22T13:45:34Z,dbaron,normative change|topic: rendering,1
 2233706241,true,Editorial: Upstream innerHTML property from DOM Parsing spec,https://github.com/whatwg/html/pull/10264,2024-04-09T15:20:35Z,2024-04-15T10:06:49Z,lukewarlow,addition/proposal|topic: parser,0
@@ -40,7 +41,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2184496735,true,Upstream long-animation-frames monkey-patches,https://github.com/whatwg/html/pull/10198,2024-03-13T17:02:02Z,2024-03-27T02:30:41Z,noamr,integration|topic: timing,0
 2183409617,true,Fix: Editorial - link Promise<T> type throughout #9987,https://github.com/whatwg/html/pull/10197,2024-03-13T08:36:14Z,2024-03-15T08:02:24Z,tawandamoyo,,0
 2176725898,false,Support automatic user prompt handing in WebDriver BiDi,https://github.com/whatwg/html/pull/10189,2024-03-08T20:31:39Z,2024-03-08T20:31:43Z,jgraham,,0
-2176615177,false,Use DOM's post-insertion steps for `<script>` elements,https://github.com/whatwg/html/pull/10188,2024-03-08T19:04:28Z,2024-05-07T11:36:47Z,domfarolino,topic: script,0
+2176615177,false,Use DOM's post-insertion steps for `<script>` elements,https://github.com/whatwg/html/pull/10188,2024-03-08T19:04:28Z,2024-05-08T15:32:40Z,domfarolino,topic: script,0
 2173817692,true,Improve non-normative note for rel-expect,https://github.com/whatwg/html/pull/10184,2024-03-07T13:03:21Z,2024-03-11T06:42:47Z,noamr,,0
 2171531993,true,[rendering] Simplify some UA styles to use shorthands where appropriate,https://github.com/whatwg/html/pull/10181,2024-03-06T13:35:35Z,2024-03-07T10:00:21Z,emilio,,0
 2170671202,true,Update README.md,https://github.com/whatwg/html/pull/10179,2024-03-06T05:30:34Z,2024-03-06T05:45:16Z,Mahakpreet001,spam|invalid,0
@@ -54,7 +55,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2158208117,true,Re-do close watcher user activation tracking,https://github.com/whatwg/html/pull/10168,2024-02-28T06:22:43Z,2024-04-02T08:56:08Z,domenic,normative change|topic: dialog|topic: close watchers,0
 2158124994,true,[Editorial] Export creating NRR,https://github.com/whatwg/html/pull/10167,2024-02-28T05:11:30Z,2024-02-28T05:24:27Z,rubberyuzu,,0
 2157384688,true,Editorial: Specify that connectedness is a prerequisite for script execution,https://github.com/whatwg/html/pull/10165,2024-02-27T18:54:52Z,2024-03-04T04:16:34Z,domfarolino,topic: script,0
-2150141047,false,WIP dialog closedby attribute spec,https://github.com/whatwg/html/pull/10157,2024-02-22T23:57:03Z,2024-05-07T23:18:30Z,lukewarlow,topic: close watchers,0
+2150141047,false,WIP dialog closedby attribute spec,https://github.com/whatwg/html/pull/10157,2024-02-22T23:57:03Z,2024-05-08T22:04:06Z,lukewarlow,topic: close watchers,0
 2148367262,false,Add may-block reasons to NotRestoredReasons,https://github.com/whatwg/html/pull/10154,2024-02-22T07:06:43Z,2024-05-07T13:38:15Z,rubberyuzu,,0
 2147120013,true,Create code.txt,https://github.com/whatwg/html/pull/10152,2024-02-21T15:58:38Z,2024-02-21T16:05:47Z,owaislodhi01,spam|invalid,0
 2143978728,true,Allow WebDriver BiDi access original opener,https://github.com/whatwg/html/pull/10147,2024-02-20T09:52:35Z,2024-03-21T12:45:50Z,OrKoN,,0
@@ -189,7 +190,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1935018189,true,Editorial: make kind attributes consistent,https://github.com/whatwg/html/pull/9847,2023-10-10T10:34:57Z,2023-10-10T11:59:18Z,keithamus,editorial,0
 1933058172,true,Implement WebDriver BiDi interception in the `show the picker` algorithm,https://github.com/whatwg/html/pull/9844,2023-10-09T13:22:03Z,2024-04-04T11:37:04Z,jrandolf,do not merge yet|integration,0
 1932809665,true,Editorial: make fetch priority attributes consistent,https://github.com/whatwg/html/pull/9842,2023-10-09T10:59:10Z,2023-10-09T11:41:54Z,keithamus,editorial,0
-1932098948,false,Add invokers (invoketarget & invokeaction),https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2024-05-08T11:44:59Z,keithamus,,0
+1932098948,false,Add invokers (invoketarget & invokeaction),https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2024-05-08T19:14:05Z,keithamus,,0
 1931367969,true,Editorial: remove some copypasta around CORS settings attribute,https://github.com/whatwg/html/pull/9840,2023-10-07T14:14:19Z,2023-10-08T14:25:55Z,annevk,,0
 1930976617,true,"Fix typo in ""History-action activation-consuming APIs""",https://github.com/whatwg/html/pull/9839,2023-10-06T21:55:17Z,2023-10-10T04:56:14Z,CanadaHonk,,0
 1930460108,true,Perform a microtask checkpoint only after a task,https://github.com/whatwg/html/pull/9838,2023-10-06T15:38:05Z,2023-10-10T05:26:36Z,annevk,topic: event loop,1
