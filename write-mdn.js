@@ -1,4 +1,4 @@
-import { writeCSV } from "https://deno.land/x/csv/mod.ts";
+import { writeCSV } from "https://deno.land/x/csv@v0.9.2/mod.ts";
 import bcd from "https://unpkg.com/@mdn/browser-compat-data@latest/data.json" assert { type: "json" };
 
 /*
