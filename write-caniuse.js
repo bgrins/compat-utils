@@ -1,4 +1,4 @@
-import { writeCSV } from "https://deno.land/x/csv/mod.ts";
+import { writeCSV } from "https://deno.land/x/csv@v0.9.2/mod.ts";
 import caniuse from "https://raw.githubusercontent.com/Fyrd/caniuse/main/fulldata-json/data-2.0.json" assert { type: "json" };
 
 // See also "https://caniuse.com/process/query.php?compare=firefox+100,chrome+103,safari+TP&cats=CSS,HTML5,JS,JS%20API,Other,Security,SVG"
