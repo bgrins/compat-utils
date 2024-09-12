@@ -1,4 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2455448834,false,Throw exception when text encode alloc memory fail.,https://github.com/whatwg/encoding/issues/334,2024-08-08T10:31:08Z,2024-08-13T04:15:56Z,xu-ms,,0
+2431145917,false,Fast byteLength(),https://github.com/whatwg/encoding/issues/333,2024-07-25T23:58:47Z,2024-08-30T17:44:06Z,jamiebuilds,addition/proposal|needs implementer interest|topic: api,0
+2351182144,true,"Reference link wrong in ""If ioQueue is empty...""",https://github.com/whatwg/encoding/issues/329,2024-06-13T13:37:04Z,2024-06-13T14:25:41Z,Explorer09,,0
 2164852728,true,Ambiguous wording in GB18030 decoder,https://github.com/whatwg/encoding/issues/325,2024-03-02T15:21:09Z,2024-03-13T10:42:46Z,stasoid,,0
 2098374178,false,Make encodeInto() throw when given a detached buffer,https://github.com/whatwg/encoding/issues/324,2024-01-24T14:19:27Z,2024-02-01T16:12:57Z,annevk,needs implementer interest|topic: api,1
 1744759529,false,Reflect changes in GB 18030-2022,https://github.com/whatwg/encoding/issues/312,2023-06-06T23:22:01Z,2023-10-13T03:39:20Z,achristensen07,i18n-tracker|i18n-clreq,0
@@ -32,13 +35,13 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 580255776,true,"""Let code point be null if pointer is null""",https://github.com/whatwg/encoding/issues/202,2020-03-12T22:20:26Z,2020-03-12T23:47:56Z,Hibou57,,0
 549395946,true,Clarify that encoding tokens are scalar values,https://github.com/whatwg/encoding/issues/195,2020-01-14T07:57:34Z,2020-01-20T13:28:27Z,andreubotella,good first issue|clarification|security/privacy,0
 545239536,true,Tryit,https://github.com/whatwg/encoding/issues/193,2020-01-04T04:28:54Z,2020-01-04T07:25:08Z,ProrokEskobar1,,4
-488930194,true,What's the correct use of {stream: true} option for Textdecoder.decode,https://github.com/whatwg/encoding/issues/184,2019-09-04T04:14:48Z,2019-09-04T04:27:23Z,lin7sh,,0
+488930194,true,What's the correct use of {stream: true} option for Textdecoder.decode,https://github.com/whatwg/encoding/issues/184,2019-09-04T04:14:48Z,2019-09-04T04:27:23Z,lin7sh,,1
 486829899,true,Update to constructor operations,https://github.com/whatwg/encoding/issues/183,2019-08-29T09:01:01Z,2019-09-24T13:59:12Z,Ms2ger,,0
 476634647,true,Export `pushed` concept to ReSpec,https://github.com/whatwg/encoding/issues/180,2019-08-05T03:00:16Z,2020-09-08T11:03:04Z,Honry,,0
 457810127,true,Consider not running the validator on all the encoding tables?,https://github.com/whatwg/encoding/issues/178,2019-06-19T05:15:36Z,2019-06-19T11:12:16Z,domenic,,0
 448166485,true,Editorial: change remaining flags to booleans,https://github.com/whatwg/encoding/issues/176,2019-05-24T13:17:51Z,2020-03-03T13:46:18Z,annevk,good first issue|clarification,0
 428038119,true,Consider adding TextEncoder.containsLoneSurrogates() static,https://github.com/whatwg/encoding/issues/174,2019-04-02T05:59:58Z,2021-08-20T06:23:29Z,annevk,i18n-tracker|addition/proposal|topic: api,1
-407431911,true,Make decode() and encodeInto() accept SharedArrayBuffer-backed views,https://github.com/whatwg/encoding/issues/172,2019-02-06T21:10:31Z,2023-06-20T08:12:22Z,juj,addition/proposal|topic: api,2
+407431911,true,Make decode() and encodeInto() accept SharedArrayBuffer-backed views,https://github.com/whatwg/encoding/issues/172,2019-02-06T21:10:31Z,2023-06-20T08:12:22Z,juj,addition/proposal|topic: api,3
 402380061,false,"Big5 encoding mishandles some trailing bytes, with possible XSS",https://github.com/whatwg/encoding/issues/171,2019-01-23T18:48:38Z,2021-08-10T11:42:48Z,mihnita,needs implementer interest|security/privacy,0
 393166517,true,Differences between tests and specification,https://github.com/whatwg/encoding/issues/169,2018-12-20T18:42:34Z,2020-08-15T16:18:11Z,mrmixer,,0
 390832896,true,Additional UTF-8 and UTF-16 labels,https://github.com/whatwg/encoding/issues/168,2018-12-13T19:50:20Z,2020-05-06T17:48:40Z,inexorabletash,,0

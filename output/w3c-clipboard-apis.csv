@@ -1,4 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2510668270,false,"beforecopy, beforecut, and beforepaste events",https://github.com/w3c/clipboard-apis/issues/222,2024-09-06T15:18:01Z,2024-09-06T15:18:01Z,annevk,,0
+2353420191,false,"Support clipboard write() for audio formats (midi, wav)",https://github.com/w3c/clipboard-apis/issues/218,2024-06-14T13:43:58Z,2024-06-17T13:08:51Z,chr15m,,0
+2349877302,false,Write UTF-8 data to the clipboard.,https://github.com/w3c/clipboard-apis/issues/217,2024-06-13T00:13:12Z,2024-06-17T21:45:07Z,snianu,,0
 2269870795,false,"No provision made for multiple clipboards, e.g. on Linux",https://github.com/w3c/clipboard-apis/issues/213,2024-04-29T20:06:33Z,2024-04-29T20:06:33Z,sersorrel,,0
 2127583500,false,[Async Clipboard API] Use Stream APIs to provide data during write,https://github.com/w3c/clipboard-apis/issues/212,2024-02-09T17:40:19Z,2024-02-12T19:53:45Z,snianu,,0
 2101264170,true,`supports` should take a dictionary instead of a DOMString as argument for readability,https://github.com/w3c/clipboard-apis/issues/211,2024-01-25T22:25:22Z,2024-02-06T18:09:50Z,snianu,,0
@@ -75,8 +78,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 489294842,false,Please add supportedFormats property,https://github.com/w3c/clipboard-apis/issues/97,2019-09-04T17:32:58Z,2019-09-04T19:06:16Z,WalterYongtaoWang,,2
 486822695,true,Update to constructor operations,https://github.com/w3c/clipboard-apis/issues/96,2019-08-29T08:46:46Z,2020-03-26T03:03:44Z,Ms2ger,,0
 483305713,false,Specification status report for TPAC 2019,https://github.com/w3c/clipboard-apis/issues/94,2019-08-21T09:28:50Z,2019-10-03T06:16:55Z,LJWatson,,0
-479785584,false,Does write() take ClipboardItem or ClipboardItems?,https://github.com/w3c/clipboard-apis/issues/93,2019-08-12T18:24:58Z,2021-06-11T13:14:28Z,lgarron,,0
-466894708,false,Make it possible to read image/svg+xml from the clipboard,https://github.com/w3c/clipboard-apis/issues/92,2019-07-11T13:31:23Z,2023-11-02T19:17:26Z,thriolsson,,6
+479785584,false,Does write() take ClipboardItem or ClipboardItems?,https://github.com/w3c/clipboard-apis/issues/93,2019-08-12T18:24:58Z,2021-06-11T13:14:28Z,lgarron,,1
+466894708,true,Make it possible to read image/svg+xml from the clipboard,https://github.com/w3c/clipboard-apis/issues/92,2019-07-11T13:31:23Z,2024-06-05T19:26:37Z,thriolsson,,6
 420939783,false,write() method assumes its passed Blob objects,https://github.com/w3c/clipboard-apis/issues/88,2019-03-14T10:30:38Z,2019-11-10T03:07:08Z,annevk,,3
 420939296,false,write() method incorrect,https://github.com/w3c/clipboard-apis/issues/87,2019-03-14T10:29:39Z,2019-03-14T10:29:39Z,annevk,,0
 389895514,false,Update on 'read' and 'write' methods?,https://github.com/w3c/clipboard-apis/issues/84,2018-12-11T18:28:24Z,2018-12-11T18:56:25Z,zqillini4,,0
@@ -95,7 +98,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 297896422,true,Spec does not auto-deploy when changes are made,https://github.com/w3c/clipboard-apis/issues/68,2018-02-16T19:35:12Z,2018-02-18T07:11:07Z,garykac,,0
 297618993,false,Should we have an API to return the set of readable/writable data types?,https://github.com/w3c/clipboard-apis/issues/67,2018-02-15T22:26:22Z,2020-07-27T05:38:58Z,garykac,,1
 297217690,false,"When called without gesture, return an error describing rejection",https://github.com/w3c/clipboard-apis/issues/66,2018-02-14T19:31:36Z,2018-02-14T19:54:25Z,owencm,,0
-289835166,false,Initialization of clipboardData by ClipboardEvent constructor,https://github.com/w3c/clipboard-apis/issues/64,2018-01-19T01:37:11Z,2020-06-02T05:00:25Z,inexorabletash,,12
+289835166,false,Initialization of clipboardData by ClipboardEvent constructor,https://github.com/w3c/clipboard-apis/issues/64,2018-01-19T01:37:11Z,2020-06-02T05:00:25Z,inexorabletash,,13
 288901435,true,"""check clipboard read permission"" needs to be an async operation?",https://github.com/w3c/clipboard-apis/issues/63,2018-01-16T13:11:04Z,2018-03-14T00:50:54Z,foolip,,0
 288558493,true,"Define each event type is composed or not, update the spec",https://github.com/w3c/clipboard-apis/issues/61,2018-01-15T11:11:18Z,2018-02-16T19:20:51Z,TakayoshiKochi,,0
 286431743,false,Request a TAG review for image/delayed-content-generation API,https://github.com/w3c/clipboard-apis/issues/60,2018-01-05T23:15:40Z,2019-03-09T02:26:19Z,garykac,,0

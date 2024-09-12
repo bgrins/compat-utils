@@ -1,20 +1,31 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2285828515,false,`MutationObserver` flag to observe mutations in (open) shadow trees to facilitate polyfills of HTML syntax,https://github.com/whatwg/dom/issues/1287,2024-05-08T15:02:58Z,2024-05-09T11:16:52Z,LeaVerou,topic: shadow|needs implementer interest|addition/proposal,1
-2276092070,false,Proposal: elementsFromRect(),https://github.com/whatwg/dom/issues/1286,2024-05-02T17:24:16Z,2024-05-07T20:22:07Z,justinfagnani,needs implementer interest|addition/proposal,11
-2268549974,false,Proposal: SelectorObserver,https://github.com/whatwg/dom/issues/1285,2024-04-29T09:30:09Z,2024-04-30T19:44:56Z,keithamus,needs implementer interest|addition/proposal,4
+2513337108,false,Suggestion to Add Translated Link for dom (Simplified Chinese 简体中文),https://github.com/whatwg/dom/issues/1309,2024-09-09T08:50:36Z,2024-09-09T08:50:36Z,JinDX,,0
+2488083884,false,Proposal: asynchronous event listeners,https://github.com/whatwg/dom/issues/1308,2024-08-27T01:41:09Z,2024-08-27T16:53:56Z,domfarolino,needs implementer interest|topic: events|needs concrete proposal,5
+2459366256,true,Missing arguments for “locate a namespace prefix” in `lookupPrefix` steps,https://github.com/whatwg/dom/issues/1302,2024-08-11T01:29:39Z,2024-08-14T11:04:54Z,bhathos,,0
+2442421341,true,"Missing ""queue a global task"" to resolve Promise in abort example",https://github.com/whatwg/dom/issues/1300,2024-08-01T13:10:11Z,2024-08-14T11:04:10Z,tidoust,,0
+2420657377,false,Proposal: rate limiting event listeners (debounce / throttle),https://github.com/whatwg/dom/issues/1298,2024-07-20T07:09:23Z,2024-08-13T13:10:15Z,FND,needs implementer interest|topic: events|addition/proposal,84
+2365728533,true,Proposal: getCornerPoints(),https://github.com/whatwg/dom/issues/1294,2024-06-21T05:12:18Z,2024-07-02T13:55:32Z,jogibear9988,needs implementer interest|addition/proposal,0
+2363725962,true,AbortSignal.any() assertion failure,https://github.com/whatwg/dom/issues/1293,2024-06-20T07:26:03Z,2024-08-21T06:06:18Z,vinhill,,0
+2327619596,false,Should post-connected steps be able to run multiple times during insertion?,https://github.com/whatwg/dom/issues/1291,2024-05-31T11:27:01Z,2024-05-31T11:27:01Z,domfarolino,,0
+2322048867,true,Closed Shadow DOM blocks accessibility testing,https://github.com/whatwg/dom/issues/1290,2024-05-28T23:02:18Z,2024-05-29T13:19:39Z,tgrushka,topic: shadow|accessibility,4
+2304047539,false,Add a method like .addTeardown to AbortSignal,https://github.com/whatwg/dom/issues/1289,2024-05-18T11:43:23Z,2024-05-23T01:26:27Z,Jamesernator,needs implementer interest|addition/proposal|topic: aborting,1
+2300332837,false,Request for mechanism to determine if children changed steps are called as a result of script or parser,https://github.com/whatwg/dom/issues/1288,2024-05-16T12:55:35Z,2024-07-09T11:31:21Z,lukewarlow,addition/proposal|needs concrete proposal|topic: nodes,0
+2285828515,false,`MutationObserver` flag to observe mutations in (open) shadow trees to facilitate polyfills of HTML syntax,https://github.com/whatwg/dom/issues/1287,2024-05-08T15:02:58Z,2024-06-11T10:30:47Z,LeaVerou,topic: shadow|needs implementer interest|addition/proposal,4
+2276092070,true,Proposal: elementsFromRect(),https://github.com/whatwg/dom/issues/1286,2024-05-02T17:24:16Z,2024-06-08T06:34:36Z,justinfagnani,needs implementer interest|addition/proposal,11
+2268549974,true,Proposal: SelectorObserver,https://github.com/whatwg/dom/issues/1285,2024-04-29T09:30:09Z,2024-06-10T07:00:36Z,keithamus,needs implementer interest|addition/proposal,4
 2266687616,false,`mutationObserver.disconnect({ flush: true })`,https://github.com/whatwg/dom/issues/1283,2024-04-27T01:16:32Z,2024-04-29T06:48:44Z,LeaVerou,needs implementer interest|addition/proposal|topic: nodes,1
 2250072811,false,Proposal AbortSignal.prototype.filter(compare),https://github.com/whatwg/dom/issues/1280,2024-04-18T08:29:14Z,2024-04-21T22:49:42Z,mariusGundersen,needs implementer interest|addition/proposal|topic: aborting,0
 2247627283,true,I can't find where inserting DocumentType nodes into Element nodes is disallowed,https://github.com/whatwg/dom/issues/1278,2024-04-17T07:51:06Z,2024-04-18T00:30:53Z,domenic,,0
-2234326330,false,Proposal: AbortSignal.none(),https://github.com/whatwg/dom/issues/1277,2024-04-09T21:26:44Z,2024-04-10T06:20:45Z,nzakas,needs implementer interest|addition/proposal|topic: aborting,0
+2234326330,false,Proposal: AbortSignal.none(),https://github.com/whatwg/dom/issues/1277,2024-04-09T21:26:44Z,2024-04-10T06:20:45Z,nzakas,needs implementer interest|addition/proposal|topic: aborting,1
 2232732137,true,Node Tree Element potential child: Attr ?,https://github.com/whatwg/dom/issues/1276,2024-04-09T06:54:47Z,2024-04-09T07:45:36Z,ToBeJazz,,0
 2224216383,false,Steps of removing a node definition about live range do not match with browsers if the range is in a shadow DOM and the shadow itself is removed,https://github.com/whatwg/dom/issues/1274,2024-04-04T01:15:04Z,2024-04-09T10:38:41Z,masayuki-nakano,,0
-2222366699,false,Meta: a list of side effects that would be impacted by state-preserving move,https://github.com/whatwg/dom/issues/1270,2024-04-03T09:12:57Z,2024-04-09T17:03:43Z,noamr,,0
+2222366699,false,Meta: a list of side effects that would be impacted by state-preserving move,https://github.com/whatwg/dom/issues/1270,2024-04-03T09:12:57Z,2024-08-14T12:31:41Z,noamr,,0
 2207175380,false,Efficient DOM Removal with the removeElement Function,https://github.com/whatwg/dom/issues/1266,2024-03-26T03:38:17Z,2024-03-26T03:38:17Z,rajand2510,needs implementer interest|addition/proposal,0
 2195065791,false,Add an optional options dictionary to `closest` to allow jumping across shadow boundaries,https://github.com/whatwg/dom/issues/1265,2024-03-19T14:02:15Z,2024-03-19T14:18:56Z,gijsk,topic: shadow|needs implementer interest|addition/proposal,0
 2186991156,false,Add extend and modify methods for the Range object,https://github.com/whatwg/dom/issues/1264,2024-03-14T18:20:58Z,2024-03-14T18:20:58Z,snnsnn,needs implementer interest|addition/proposal,0
 2165019807,false,Ability to reset an AbortSignal.timeout,https://github.com/whatwg/dom/issues/1263,2024-03-02T23:04:35Z,2024-03-03T07:40:48Z,jasnell,,0
 2156327954,true,"""connected"" should be defined for all kinds of nodes",https://github.com/whatwg/dom/issues/1259,2024-02-27T11:17:39Z,2024-02-28T08:11:30Z,zcorpan,,1
-2134995640,false,Atomic move operation for element reparenting & reordering,https://github.com/whatwg/dom/issues/1255,2024-02-14T19:00:33Z,2024-05-08T15:09:18Z,domfarolino,needs implementer interest|addition/proposal|stage: 1,139
+2134995640,false,Atomic move operation for element reparenting & reordering,https://github.com/whatwg/dom/issues/1255,2024-02-14T19:00:33Z,2024-09-09T13:38:40Z,domfarolino,needs implementer interest|addition/proposal|stage: 2,173
 2121320218,false,Make some ShadowRoot attributes mutable,https://github.com/whatwg/dom/issues/1252,2024-02-06T17:20:13Z,2024-02-06T18:47:14Z,mfreed7,topic: shadow|needs implementer interest|addition/proposal,0
 2116555216,true,Support for appending a cloned template adjacent to an existing element,https://github.com/whatwg/dom/issues/1250,2024-02-03T16:00:00Z,2024-02-04T07:46:29Z,bahrus,needs implementer interest|addition/proposal,0
 2106290867,true,How should `clonable` work in `cloneNode(false)`?,https://github.com/whatwg/dom/issues/1249,2024-01-29T19:48:11Z,2024-04-04T07:27:24Z,mfreed7,topic: shadow|topic: nodes,0
@@ -23,9 +34,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2011221458,true,Element.attachShadow should set the declarative flag to false of an existing declarative shadow dom.,https://github.com/whatwg/dom/issues/1234,2023-11-26T21:53:19Z,2024-01-14T11:49:40Z,emilio,,0
 1984078258,false,Selecting Events with Style,https://github.com/whatwg/dom/issues/1233,2023-11-08T17:24:21Z,2023-11-29T04:31:49Z,AdamSobieski,needs implementer interest|addition/proposal,0
 1964786961,false,"Elements with Fallback, Proxy, Replacement, Substitute, or Surrogate Elements",https://github.com/whatwg/dom/issues/1232,2023-10-27T05:20:41Z,2023-12-07T10:52:39Z,AdamSobieski,needs implementer interest|addition/proposal,0
+2416841683,false,Provide an AbortSignal that aborts when Nodes become disconnected,https://github.com/whatwg/dom/issues/1296,2023-10-25T14:24:15Z,2024-07-18T18:07:02Z,keithamus,topic: custom elements|needs implementer interest|addition/proposal|topic: aborting|topic: nodes,5
 1938773058,false,Add guidance about using DOMTokenList,https://github.com/whatwg/dom/issues/1231,2023-10-11T21:29:47Z,2023-10-11T21:29:47Z,josepharhar,,0
 1914830619,false,MutationOvserver and DOMNodeInsertedIntoDocument,https://github.com/whatwg/dom/issues/1227,2023-09-27T06:57:45Z,2023-09-27T09:07:47Z,kokins,,0
-1889196013,false,matchMedia-like API for element matches,https://github.com/whatwg/dom/issues/1225,2023-09-10T15:55:30Z,2023-09-11T10:51:36Z,matthewp,needs implementer interest|addition/proposal,8
+1889196013,false,matchMedia-like API for element matches,https://github.com/whatwg/dom/issues/1225,2023-09-10T15:55:30Z,2024-06-09T20:43:48Z,matthewp,needs implementer interest|addition/proposal,14
 1872680854,false,Support for HTML/XML stream parsing/rewriting.,https://github.com/whatwg/dom/issues/1222,2023-08-30T00:24:47Z,2023-09-02T17:34:12Z,bahrus,,2
 1868354273,true,Explicitly update the child's parent,https://github.com/whatwg/dom/issues/1221,2023-08-27T04:41:58Z,2023-08-27T14:10:38Z,TomokiMiyauci,,0
 1858314450,false,"Provide a ""deep clone"" shorthand ",https://github.com/whatwg/dom/issues/1220,2023-08-20T23:59:19Z,2023-09-06T15:15:57Z,marcoscaceres,clarification,0
@@ -33,7 +45,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1827891393,false,Proposal: DOM APIs in web workers?,https://github.com/whatwg/dom/issues/1217,2023-07-30T10:53:39Z,2024-02-28T03:40:27Z,BenjaminAster,,6
 1788580524,false,Variable strength aborting,https://github.com/whatwg/dom/issues/1215,2023-07-05T00:14:31Z,2023-07-05T09:24:53Z,bojavou,,0
 1784524688,false,another version of `Element.prototype.contains` that considers slotted elements as children,https://github.com/whatwg/dom/issues/1214,2023-07-02T08:31:52Z,2023-07-04T15:19:36Z,canalun,topic: shadow|needs implementer interest|addition/proposal|topic: nodes,1
-1770843958,false,Proposal for built-in method to synchronize elements with virtual DOM representation,https://github.com/whatwg/dom/issues/1213,2023-06-23T06:09:14Z,2023-06-23T12:27:35Z,irony,needs implementer interest|needs concrete proposal|topic: nodes,1
+1770843958,false,Proposal for built-in method to synchronize elements with virtual DOM representation,https://github.com/whatwg/dom/issues/1213,2023-06-23T06:09:14Z,2023-06-23T12:27:35Z,irony,needs implementer interest|needs concrete proposal|topic: nodes,2
 1761761705,false,Delegate to Iterator helper methods on NodeList,https://github.com/whatwg/dom/issues/1211,2023-06-17T10:06:44Z,2023-06-23T12:28:21Z,keithamus,needs implementer interest|addition/proposal|topic: nodes,0
 1750141335,true,Proposal: Colour API,https://github.com/whatwg/dom/issues/1208,2023-06-09T15:56:20Z,2023-06-09T16:30:57Z,keithamus,needs implementer interest|addition/proposal|needs concrete proposal,0
 1728881591,true,"Undefined variable in the ""add an event listener"" algorithm",https://github.com/whatwg/dom/issues/1203,2023-05-27T18:23:06Z,2023-05-31T10:44:19Z,jeremydavis519,,1
@@ -75,8 +87,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1424044285,true,"""Web developers are strongly encouraged to inste...""",https://github.com/whatwg/dom/issues/1123,2022-10-26T13:39:44Z,2022-10-27T14:40:47Z,wadih,,0
 1401753203,true,MutationObserver node complete identifier,https://github.com/whatwg/dom/issues/1116,2022-10-07T23:55:09Z,2024-05-01T03:16:21Z,nickcoury,,0
 1384737270,true,"""Element"" has no method signature for ""getElementById""",https://github.com/whatwg/dom/issues/1114,2022-09-24T16:38:02Z,2022-09-26T15:43:47Z,GPrimola,,0
-1369966763,true,Requirement for AbortSignal argument to be named 'signal' can be confusing for some APIs.,https://github.com/whatwg/dom/issues/1112,2022-09-12T14:03:31Z,2023-05-17T12:07:27Z,morlovich,topic: aborting,0
-1369024414,false,`childList` records across multiple `MutationObserver`s are observed in fundamentally incorrect order,https://github.com/whatwg/dom/issues/1111,2022-09-11T18:19:06Z,2023-12-22T19:43:47Z,trusktr,,4
+1369966763,true,Requirement for AbortSignal argument to be named 'signal' can be confusing for some APIs.,https://github.com/whatwg/dom/issues/1112,2022-09-12T14:03:31Z,2024-06-11T05:43:03Z,morlovich,topic: aborting,0
+1369024414,false,`childList` records across multiple `MutationObserver`s are observed in fundamentally incorrect order,https://github.com/whatwg/dom/issues/1111,2022-09-11T18:19:06Z,2023-12-22T19:43:47Z,trusktr,,5
 1368165602,false,Consider adding a timeout parameter to the AbortController constructor,https://github.com/whatwg/dom/issues/1110,2022-09-09T18:08:54Z,2023-05-17T14:39:31Z,shaseley,needs implementer interest|addition/proposal|topic: aborting,0
 1357367844,false,Minor textContent / string replace all optimization,https://github.com/whatwg/dom/issues/1106,2022-08-31T13:48:13Z,2022-09-15T21:24:07Z,annevk,interop|topic: nodes,2
 1352791054,true,MutationObserver callbacks happen in bizarre order.,https://github.com/whatwg/dom/issues/1105,2022-08-26T22:34:40Z,2023-03-08T05:22:03Z,trusktr,,0
@@ -87,15 +99,15 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1274578228,true,Specify addEventListener default passive hack for smoothscroll.js,https://github.com/whatwg/dom/issues/1088,2022-06-17T05:16:29Z,2022-06-20T13:10:44Z,zcorpan,topic: events,0
 1260367446,false,Should event dispatch check that the event target is in a fully active realm?,https://github.com/whatwg/dom/issues/1084,2022-06-03T20:52:17Z,2022-06-07T12:20:06Z,shaseley,topic: events,1
 1244699995,false,Timeout AbortSignal (or AbortController) that gets input from the operation,https://github.com/whatwg/dom/issues/1082,2022-05-23T07:25:31Z,2023-07-05T01:07:54Z,annevk,topic: aborting,0
-1243019933,false,Element.matches and :scope,https://github.com/whatwg/dom/issues/1081,2022-05-20T11:34:12Z,2023-02-21T08:45:38Z,lifaon74,needs implementer interest|addition/proposal,1
+1243019933,false,Element.matches and :scope,https://github.com/whatwg/dom/issues/1081,2022-05-20T11:34:12Z,2023-02-21T08:45:38Z,lifaon74,needs implementer interest|addition/proposal,2
 1212075304,false,Unspecified behavior when NodeFilter#acceptNode returns null,https://github.com/whatwg/dom/issues/1075,2022-04-22T09:28:33Z,2022-05-18T16:30:39Z,kapouer,needs tests,0
 1198590952,false,`event.target` not cleared if event is not fired on `ShadowRoot`,https://github.com/whatwg/dom/issues/1072,2022-04-09T13:07:50Z,2022-04-19T15:00:51Z,Dragiyski,,0
-1191331943,false,Add EventListener Sub Flags [Suggestion] [Feature Request],https://github.com/whatwg/dom/issues/1070,2022-04-04T03:53:31Z,2023-09-20T20:33:16Z,Seagat2011,needs implementer interest|topic: events|addition/proposal,4
+1191331943,false,Add EventListener Sub Flags [Suggestion] [Feature Request],https://github.com/whatwg/dom/issues/1070,2022-04-04T03:53:31Z,2023-09-20T20:33:16Z,Seagat2011,needs implementer interest|topic: events|addition/proposal,5
 1166656742,false,Please add the links to the old versions?,https://github.com/whatwg/dom/issues/1067,2022-03-11T17:06:31Z,2022-05-14T07:12:15Z,Pomax,meta,0
 1165513358,true,Incorrect x-ref for `extracting` in Range.surroundContents,https://github.com/whatwg/dom/issues/1065,2022-03-10T17:26:25Z,2022-03-22T07:56:55Z,Lubrsi,,1
 1160504843,false,Allow attachShadow on <script> and <style>,https://github.com/whatwg/dom/issues/1064,2022-03-06T03:12:17Z,2022-03-09T16:25:25Z,bjenik,topic: shadow|addition/proposal,1
 1159567297,false,"Improving ""find slottables""",https://github.com/whatwg/dom/issues/1063,2022-03-04T11:56:49Z,2022-03-04T11:56:49Z,annevk,topic: shadow,0
-1141960070,true,`AbortController` / `AbortSignal` was updated in a somewhat breaking way,https://github.com/whatwg/dom/issues/1059,2022-02-17T22:05:40Z,2023-05-17T12:05:03Z,getify,compat|topic: aborting,0
+1141960070,true,`AbortController` / `AbortSignal` was updated in a somewhat breaking way,https://github.com/whatwg/dom/issues/1059,2022-02-17T22:05:40Z,2024-09-02T14:50:45Z,getify,compat|topic: aborting,0
 1134803687,true,getComputedStyle should also be a method of the element,https://github.com/whatwg/dom/issues/1057,2022-02-12T23:39:28Z,2022-02-14T09:32:07Z,jcobban,,0
 1123498322,true,"Should AbortSignal.timeout only be exposed on (Window, Worker)?",https://github.com/whatwg/dom/issues/1054,2022-02-03T20:00:49Z,2022-02-08T10:40:03Z,shaseley,,0
 1111885580,true,General DOM effect/Object mutation DOM effect,https://github.com/whatwg/dom/issues/1049,2022-01-23T14:25:08Z,2022-02-08T11:10:59Z,yonathan06,,0
@@ -103,7 +115,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1103685806,false,replaceChildren can not replace a Document's documentElement,https://github.com/whatwg/dom/issues/1045,2022-01-14T14:06:24Z,2022-01-14T16:29:37Z,bwrrp,,0
 1073612825,true,Observe changes in computed styles via MutationObserver?,https://github.com/whatwg/dom/issues/1041,2021-12-07T17:45:35Z,2021-12-08T10:26:31Z,surma,,0
 1070837365,false,AbortController.prototype.timeout and AbortController.prototype.cancel,https://github.com/whatwg/dom/issues/1039,2021-12-03T18:11:48Z,2021-12-20T06:52:49Z,jasnell,needs implementer interest|addition/proposal|topic: aborting,0
-1068837290,false,once() and on() async utilities for EventTarget,https://github.com/whatwg/dom/issues/1038,2021-12-01T20:23:47Z,2023-08-31T06:39:28Z,jasnell,topic: events|addition/proposal,4
+1068837290,false,once() and on() async utilities for EventTarget,https://github.com/whatwg/dom/issues/1038,2021-12-01T20:23:47Z,2023-08-31T06:39:28Z,jasnell,topic: events|addition/proposal,5
 1066207470,true,"""(use public-script-coord@w3.org for discussion)""",https://github.com/whatwg/dom/issues/1036,2021-11-29T15:58:05Z,2021-11-29T17:02:37Z,domenic,,0
 1059337098,true,Add a way to identify Abort errors originating from controllers,https://github.com/whatwg/dom/issues/1033,2021-11-21T09:56:22Z,2022-12-15T23:01:28Z,benjamingr,needs implementer interest|addition/proposal|topic: aborting,0
 1051117774,false,Request for a different type of example of abort steps,https://github.com/whatwg/dom/issues/1031,2021-11-11T15:49:42Z,2022-10-25T08:14:08Z,domenic,topic: aborting,0
@@ -176,7 +188,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 714191940,true,[shadow-dom] Why does attributeChangedCallback fire before connectedCallback during parsing?,https://github.com/whatwg/dom/issues/899,2020-10-03T22:59:12Z,2020-10-05T15:12:05Z,trusktr,,0
 707766076,true,"Why do we pass oldDocument to ""adopting steps"" (instead of the new document)?",https://github.com/whatwg/dom/issues/896,2020-09-24T00:32:15Z,2020-09-24T09:05:19Z,rakina,,0
 703687238,false,Add NodeList.setAttributes,https://github.com/whatwg/dom/issues/895,2020-09-17T15:23:34Z,2020-12-07T13:31:43Z,michaschwab,needs implementer interest|addition/proposal,0
-697223665,false,Proposal: New method to reorder child nodes,https://github.com/whatwg/dom/issues/891,2020-09-09T23:08:43Z,2023-02-07T07:37:40Z,josepharhar,,15
+697223665,false,Proposal: New method to reorder child nodes,https://github.com/whatwg/dom/issues/891,2020-09-09T23:08:43Z,2023-02-07T07:37:40Z,josepharhar,,16
 694586799,true,"""When an event is dispatched to an object that p...""",https://github.com/whatwg/dom/issues/888,2020-09-07T00:24:35Z,2020-09-10T12:50:51Z,kevinsung,,0
 673358498,false,Proposal: Make `DOMTokenList` a writable `setlike`,https://github.com/whatwg/dom/issues/884,2020-08-05T08:30:52Z,2020-08-05T08:35:15Z,dead-claudia,needs implementer interest|addition/proposal,0
 665796369,false,Add translation of korean,https://github.com/whatwg/dom/issues/882,2020-07-26T14:52:06Z,2020-08-04T13:58:43Z,Brew-Brew,,0
@@ -201,10 +213,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 578817761,true,"""slotable"" should probably be spelled ""slottable""",https://github.com/whatwg/dom/issues/844,2020-03-10T19:42:37Z,2020-03-14T09:43:00Z,dbaron,clarification,0
 577461238,false,"""callback is listener’s callback""",https://github.com/whatwg/dom/issues/842,2020-03-08T07:51:42Z,2020-03-08T14:33:33Z,domenic,topic: events,1
 573024742,false,Which target could we expose in Event Timing?,https://github.com/whatwg/dom/issues/838,2020-02-28T21:52:12Z,2020-03-04T14:52:23Z,npm1,,0
-573000518,false,Proposal: A Range.prototype.replaceContents(...),https://github.com/whatwg/dom/issues/837,2020-02-28T20:57:35Z,2023-09-03T02:18:34Z,WebReflection,needs implementer interest|addition/proposal|topic: ranges,13
+573000518,false,Proposal: A Range.prototype.replaceContents(...),https://github.com/whatwg/dom/issues/837,2020-02-28T20:57:35Z,2023-09-03T02:18:34Z,WebReflection,needs implementer interest|addition/proposal|topic: ranges,14
 563355953,false,Node insertion step 7.7 isn't upgrading disconnected uncustomized elements that browsers do upgrade,https://github.com/whatwg/dom/issues/833,2020-02-11T17:17:01Z,2020-02-13T12:10:07Z,pshaughn,topic: custom elements,0
 562731160,false,[infra] Integrating generation of W3C-ready review drafts into build pipeline,https://github.com/whatwg/dom/issues/832,2020-02-10T18:02:36Z,2020-02-10T18:10:11Z,sideshowbarker,,0
-561925806,true,Declarative Shadow DOM,https://github.com/whatwg/dom/issues/831,2020-02-07T23:39:21Z,2023-12-15T05:00:11Z,mfreed7,topic: shadow|needs implementer interest|addition/proposal,154
+561925806,true,Declarative Shadow DOM,https://github.com/whatwg/dom/issues/831,2020-02-07T23:39:21Z,2023-12-15T05:00:11Z,mfreed7,topic: shadow|needs implementer interest|addition/proposal,155
 559601115,false,"Update the ""convert nodes into a node"" to accept arrays of nodes.",https://github.com/whatwg/dom/issues/828,2020-02-04T09:47:18Z,2020-02-05T10:55:23Z,pygy,addition/proposal,0
 557875877,false,[proposal] Node.containingShadowRoot,https://github.com/whatwg/dom/issues/826,2020-01-31T02:33:57Z,2020-02-03T08:49:02Z,emilio,topic: shadow|needs implementer interest|addition/proposal,0
 547971626,false,TreeWalker constructor,https://github.com/whatwg/dom/issues/818,2020-01-10T09:46:06Z,2020-01-11T08:07:18Z,bathos,needs implementer interest|addition/proposal,1
@@ -214,7 +226,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 544131183,false,What does adoptNode() return for DocumentFragment?,https://github.com/whatwg/dom/issues/813,2019-12-31T08:54:50Z,2020-01-03T02:48:42Z,TimothyGu,,0
 543044403,true,Proposal: MutationObserver.unobserve method to selectively stop observing a specific Node,https://github.com/whatwg/dom/issues/812,2019-12-28T02:13:21Z,2020-05-16T04:12:27Z,trusktr,,2
 543009071,true,Add '// historical' to initCustomEvent IDL?,https://github.com/whatwg/dom/issues/811,2019-12-27T22:30:42Z,2020-01-14T12:49:46Z,sideshowbarker,good first issue,0
-534942957,false,"Side effects due to tree insertion or removal (script, iframe)",https://github.com/whatwg/dom/issues/808,2019-12-09T13:47:35Z,2024-03-05T10:02:46Z,annevk,web reality,1
+534942957,true,"Side effects due to tree insertion or removal (script, iframe)",https://github.com/whatwg/dom/issues/808,2019-12-09T13:47:35Z,2024-06-05T08:29:12Z,annevk,web reality,1
 533899955,true,Editorial: revert [hr-time] workaround,https://github.com/whatwg/dom/issues/802,2019-12-06T11:13:08Z,2019-12-11T17:40:22Z,annevk,,0
 533867541,true,Editorial: remove parent argument to remove,https://github.com/whatwg/dom/issues/801,2019-12-06T10:11:53Z,2019-12-11T17:40:20Z,annevk,,0
 532637593,false,"Why is `createProcessingInstruction(…)` allowed in HTML, but `createCDATASection(…)` isn’t?",https://github.com/whatwg/dom/issues/798,2019-12-04T11:55:59Z,2019-12-04T12:02:16Z,ExE-Boss,,0
@@ -249,14 +261,14 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 423017912,true,Wrong return type of Node::getRootNode(),https://github.com/whatwg/dom/issues/739,2019-03-20T00:53:42Z,2019-03-20T07:57:20Z,SetTrend,,1
 422508516,true,Reference to struct in inner invoke,https://github.com/whatwg/dom/issues/738,2019-03-19T01:57:21Z,2020-06-29T08:27:07Z,Zirro,,0
 418687232,false,isEqualNode and <template>,https://github.com/whatwg/dom/issues/737,2019-03-08T08:39:44Z,2019-04-05T12:53:37Z,jakearchibald,,1
-418208052,false,Proposal: a DocumentFragment whose nodes do not get removed once inserted,https://github.com/whatwg/dom/issues/736,2019-03-06T19:28:54Z,2023-10-05T09:14:17Z,WebReflection,needs implementer interest|addition/proposal,68
+418208052,false,Proposal: a DocumentFragment whose nodes do not get removed once inserted,https://github.com/whatwg/dom/issues/736,2019-03-06T19:28:54Z,2023-10-05T09:14:17Z,WebReflection,needs implementer interest|addition/proposal,74
 413102117,true,window.event and IFRAMEs,https://github.com/whatwg/dom/issues/735,2019-02-21T20:08:55Z,2020-12-08T19:09:14Z,cvazac,topic: events,0
 411169284,true,Dispatching slotchange within a compound microtask,https://github.com/whatwg/dom/issues/734,2019-02-17T09:52:36Z,2019-03-29T15:11:22Z,annevk,topic: shadow,0
 407741641,true,Should adopting change an element's prototype?,https://github.com/whatwg/dom/issues/731,2019-02-07T15:00:08Z,2019-02-07T15:25:33Z,jakearchibald,,0
 401279201,false,Custom elements need a way to provide their own preventable default event handlers,https://github.com/whatwg/dom/issues/730,2019-01-21T10:10:30Z,2023-10-30T09:34:12Z,andyearnshaw,topic: events|addition/proposal,0
 399011776,true,"Bad ""good first issue"" labels",https://github.com/whatwg/dom/issues/729,2019-01-14T18:14:18Z,2019-01-15T09:46:32Z,David263,,0
 391501114,true,Can the `options` argument to `EventTarget::addEventListener` be omitted?,https://github.com/whatwg/dom/issues/726,2018-12-16T20:18:15Z,2020-02-17T13:37:01Z,amn,,0
-391201134,false,Composed tree infrastructure,https://github.com/whatwg/dom/issues/725,2018-12-14T17:32:24Z,2019-01-14T12:56:05Z,annevk,topic: shadow,4
+391201134,false,Composed tree infrastructure,https://github.com/whatwg/dom/issues/725,2018-12-14T17:32:24Z,2024-08-13T13:14:34Z,annevk,topic: shadow,4
 386621224,true,"""Append mo to unit of related similar-origin bro...""",https://github.com/whatwg/dom/issues/720,2018-12-03T00:45:39Z,2023-02-20T08:44:39Z,domenic,clarification,0
 386614313,true,"""If node is a Text node""",https://github.com/whatwg/dom/issues/719,2018-12-02T23:40:19Z,2021-08-31T11:11:26Z,domenic,clarification,0
 386489283,true,This text needs to be proof-read for phrasing and grammar.,https://github.com/whatwg/dom/issues/718,2018-12-01T19:32:36Z,2019-01-02T13:33:53Z,kizerkizer,good first issue|clarification,0
@@ -328,7 +340,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 305880694,false,"""create an event"" actually needs to take a timestamp",https://github.com/whatwg/dom/issues/606,2018-03-16T10:43:32Z,2018-03-16T10:53:55Z,annevk,topic: events,0
 305585133,false,Make [Constructor] for events in IDL link,https://github.com/whatwg/dom/issues/604,2018-03-15T14:51:28Z,2018-03-15T22:38:16Z,annevk,topic: events,0
 305532755,true,Should early return for relatedTarget take cancelable flag into account,https://github.com/whatwg/dom/issues/602,2018-03-15T12:30:33Z,2018-03-28T12:56:28Z,annevk,topic: events,0
-305194122,false,"""create an event"" does not work with required members",https://github.com/whatwg/dom/issues/600,2018-03-14T14:55:53Z,2019-04-05T00:52:07Z,annevk,topic: events,0
+305194122,false,"""create an event"" does not work with required members",https://github.com/whatwg/dom/issues/600,2018-03-14T14:55:53Z,2024-06-27T22:46:35Z,annevk,topic: events,0
 305145756,true,Clarify behaviour of constructor in `class Foo extends Event {}`,https://github.com/whatwg/dom/issues/598,2018-03-14T12:53:12Z,2018-03-15T17:32:19Z,jakearchibald,needs tests|interop|topic: events,0
 304767693,true,Lack of [[PlatformBrand]] is biting us,https://github.com/whatwg/dom/issues/597,2018-03-13T13:37:38Z,2021-10-04T16:33:12Z,annevk,,0
 304317220,false,Candidates for AbstractRange,https://github.com/whatwg/dom/issues/591,2018-03-12T10:34:25Z,2019-04-11T09:40:20Z,annevk,needs implementer interest|needs tests|addition/proposal|topic: ranges,0
@@ -340,7 +352,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 300041398,true,"chrome, doesn't accept preventDefault and still cancelable is true",https://github.com/whatwg/dom/issues/579,2018-02-25T16:52:34Z,2018-02-27T10:45:19Z,Nadya678,,0
 299945553,false,Need a method to fire :hover and :active states,https://github.com/whatwg/dom/issues/578,2018-02-24T14:40:09Z,2019-04-11T09:40:19Z,Nadya678,needs implementer interest|addition/proposal,0
 299840686,true,Return value for DOMTokenList's replace(),https://github.com/whatwg/dom/issues/577,2018-02-23T20:30:17Z,2018-03-12T15:44:42Z,Zirro,,0
-298295013,false,Hook for SVG and HTML script element insertion,https://github.com/whatwg/dom/issues/575,2018-02-19T14:30:01Z,2023-10-01T15:52:30Z,annevk,web reality|needs tests,0
+298295013,true,Hook for SVG and HTML script element insertion,https://github.com/whatwg/dom/issues/575,2018-02-19T14:30:01Z,2024-09-04T08:14:45Z,annevk,web reality|needs tests,0
 298276635,false,"Editorial: consider linking ""present"" consistently",https://github.com/whatwg/dom/issues/574,2018-02-19T13:33:43Z,2018-02-19T13:58:08Z,annevk,,0
 298085221,true,Extend `attachShadow()` safelist,https://github.com/whatwg/dom/issues/571,2018-02-18T13:35:22Z,2022-05-28T00:09:08Z,annevk,topic: shadow|needs implementer interest,0
 297244016,true,Define a target concept that Event.target and Event.srcElement reflect,https://github.com/whatwg/dom/issues/570,2018-02-14T21:02:16Z,2018-03-30T04:24:45Z,miketaylr,topic: events,0
@@ -363,7 +375,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 275862932,true,Simply MutationObserver callback handling with optional reference property in MutationObserverInit object,https://github.com/whatwg/dom/issues/539,2017-11-21T21:18:34Z,2018-03-17T08:01:40Z,d2ydx2,,0
 274056398,true,No way to resolve a Promise with a cross domain WindowProxy,https://github.com/whatwg/dom/issues/536,2017-11-15T07:12:02Z,2018-02-07T19:39:52Z,esprehn,,0
 272064812,true,Touch/Trackpad finger position,https://github.com/whatwg/dom/issues/534,2017-11-08T03:40:03Z,2017-11-08T08:14:12Z,felipenmoura,,0
-271164894,false,Make it possible to observe connected-ness of a node,https://github.com/whatwg/dom/issues/533,2017-11-04T04:10:12Z,2024-04-27T01:11:04Z,rniwa,addition/proposal,37
+271164894,false,Make it possible to observe connected-ness of a node,https://github.com/whatwg/dom/issues/533,2017-11-04T04:10:12Z,2024-04-27T01:11:04Z,rniwa,addition/proposal,41
 271004744,true,Update WebIDL definition(s) to use new mixin syntax,https://github.com/whatwg/dom/issues/532,2017-11-03T14:51:11Z,2017-12-19T10:22:26Z,tobie,,0
 270832950,true,Composed shadow DOM,https://github.com/whatwg/dom/issues/531,2017-11-02T22:52:12Z,2018-03-13T10:34:59Z,treshugart,,3
 270778185,true,label-input association across Shadow DOM boundary,https://github.com/whatwg/dom/issues/530,2017-11-02T19:24:22Z,2017-11-09T22:33:21Z,tomalec,,0
@@ -398,7 +410,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 244733032,true,"""The getRootNode(options) attribute’s getter""",https://github.com/whatwg/dom/issues/481,2017-07-21T17:23:59Z,2017-07-24T07:23:10Z,cvrebert,,0
 243595292,true,"""If callback is null, then return.""",https://github.com/whatwg/dom/issues/480,2017-07-18T04:17:09Z,2017-07-18T07:54:19Z,guest271314,,0
 243583766,false,Proposal: ChildNode.wrapWith(),https://github.com/whatwg/dom/issues/479,2017-07-18T02:43:27Z,2019-04-11T09:40:19Z,jonathantneal,needs implementer interest|addition/proposal,1
-243583295,true,Proposal: ParentNode.replaceAll() / ParentNode.replaceChildren(),https://github.com/whatwg/dom/issues/478,2017-07-18T02:40:19Z,2021-04-06T02:15:57Z,jonathantneal,needs tests|addition/proposal|needs concrete proposal,12
+243583295,true,Proposal: ParentNode.replaceAll() / ParentNode.replaceChildren(),https://github.com/whatwg/dom/issues/478,2017-07-18T02:40:19Z,2024-06-24T23:17:26Z,jonathantneal,needs tests|addition/proposal|needs concrete proposal,12
 243582797,false,Proposal: Element.assign(),https://github.com/whatwg/dom/issues/477,2017-07-18T02:36:22Z,2019-04-16T19:53:34Z,jonathantneal,needs implementer interest|addition/proposal,4
 239914437,false,Events section should non-normatively summarise terminology,https://github.com/whatwg/dom/issues/474,2017-07-01T00:21:30Z,2018-03-23T12:58:47Z,gsnedders,topic: events,2
 239144911,true,Need some kind of specifying target offset?,https://github.com/whatwg/dom/issues/473,2017-06-28T12:16:41Z,2017-07-05T10:34:55Z,jimmywarting,,0
@@ -434,13 +446,13 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 211829065,true,bubbles and cancelable are not always initialized,https://github.com/whatwg/dom/issues/416,2017-03-03T23:24:02Z,2017-03-04T00:07:27Z,inexorabletash,,0
 209636009,true,Event Listener Execution Order for Same Event Is Undefined,https://github.com/whatwg/dom/issues/415,2017-02-23T01:34:31Z,2017-02-23T06:11:59Z,patrickdark,,0
 208989904,true,"""create an event"" doesn't work for certain UI events",https://github.com/whatwg/dom/issues/414,2017-02-20T21:52:32Z,2018-04-06T14:05:06Z,domenic,topic: events,0
-208246100,false,[Proposal] Add EventTarget.getEventListeners(),https://github.com/whatwg/dom/issues/412,2017-02-16T21:05:24Z,2024-04-16T07:54:56Z,LeaVerou,needs implementer interest|topic: events|addition/proposal,46
+208246100,false,[Proposal] Add EventTarget.getEventListeners(),https://github.com/whatwg/dom/issues/412,2017-02-16T21:05:24Z,2024-04-16T07:54:56Z,LeaVerou,needs implementer interest|topic: events|addition/proposal,48
 207750347,true,Consider removing `document.origin`,https://github.com/whatwg/dom/issues/410,2017-02-15T09:32:17Z,2022-01-12T07:49:58Z,mikewest,interop|removal/deprecation,1
 207338561,true,"""If options is a dictionary, then set capture to...""",https://github.com/whatwg/dom/issues/408,2017-02-13T21:03:23Z,2017-03-16T11:49:35Z,snood1205,,0
 204449541,true,EventTarget.addEventListener lacks a proper definition on how to handle invalid callback,https://github.com/whatwg/dom/issues/405,2017-01-31T22:59:27Z,2017-02-27T17:45:16Z,denschub,,0
 204224775,true,"Event not dispatched by the user agent should not fallback to legacy ",https://github.com/whatwg/dom/issues/404,2017-01-31T07:45:24Z,2017-02-14T11:53:07Z,upsuper,,0
 200931774,true,[discussion] Async nature of MutationObserver can cause room for error?,https://github.com/whatwg/dom/issues/399,2017-01-16T05:01:04Z,2017-07-05T10:42:55Z,trusktr,,1
-200843550,false,Consider adding localNameFilter to MutationObserver,https://github.com/whatwg/dom/issues/398,2017-01-15T02:28:48Z,2021-03-05T08:47:57Z,smaug----,addition/proposal|needs concrete proposal,3
+200843550,false,Consider adding localNameFilter to MutationObserver,https://github.com/whatwg/dom/issues/398,2017-01-15T02:28:48Z,2024-08-13T08:17:20Z,smaug----,addition/proposal|needs concrete proposal,4
 200789285,true,Method to retrieve tagName from element constructors,https://github.com/whatwg/dom/issues/396,2017-01-14T08:06:53Z,2017-01-14T08:41:30Z,justinfagnani,,0
 199769642,true,"Remove ""Historical"" section?",https://github.com/whatwg/dom/issues/394,2017-01-10T09:22:06Z,2018-03-16T10:05:44Z,annevk,,0
 199113942,true,Specify ShadowRoot.innerHTML,https://github.com/whatwg/dom/issues/393,2017-01-06T03:03:23Z,2017-01-06T07:47:59Z,sideshowbarker,,0
@@ -479,7 +491,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 179494457,true,"Standardize srcElement, returnValue, and window.event",https://github.com/whatwg/dom/issues/334,2016-09-27T13:34:13Z,2018-06-07T23:12:03Z,annevk,topic: shadow|web reality|topic: events,3
 179033427,true,Consider adding Promise-based API for listerning event,https://github.com/whatwg/dom/issues/333,2016-09-24T14:44:05Z,2017-03-16T13:51:23Z,upsuper,,1
 178690609,true,Why is the second parameter to MutationObserver.observe() optional?,https://github.com/whatwg/dom/issues/332,2016-09-22T18:49:37Z,2016-09-23T06:52:08Z,cdumez,,0
-178479710,false,Symbols should be allowed as Event types.,https://github.com/whatwg/dom/issues/331,2016-09-21T22:38:26Z,2022-01-27T20:15:02Z,bicknellr,needs implementer interest|topic: events|addition/proposal,21
+178479710,false,Symbols should be allowed as Event types.,https://github.com/whatwg/dom/issues/331,2016-09-21T22:38:26Z,2022-01-27T20:15:02Z,bicknellr,needs implementer interest|topic: events|addition/proposal,25
 178126061,true,Will there be a special nodeType for shadow root?,https://github.com/whatwg/dom/issues/330,2016-09-20T17:38:07Z,2016-09-21T18:04:54Z,dvoytenko,,1
 177088210,true,Make Element's slot attributes Unscopable,https://github.com/whatwg/dom/issues/328,2016-09-15T04:53:17Z,2016-09-15T08:12:04Z,hayatoito,,0
 176583562,true,event.composedPath() should not return every items in path if event.currentTarget is window,https://github.com/whatwg/dom/issues/326,2016-09-13T08:44:08Z,2016-09-14T04:43:55Z,hayatoito,,0
@@ -494,7 +506,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 172398912,true,compareDocumentPosition with Attr nodes still not quite right,https://github.com/whatwg/dom/issues/309,2016-08-22T08:49:55Z,2016-08-31T16:29:21Z,foolip,,0
 172238118,true,"Clarify that new Document creates a document of type ""html"", not ""xml""",https://github.com/whatwg/dom/issues/308,2016-08-19T23:23:56Z,2016-09-29T15:58:44Z,rniwa,,0
 172065906,true,Editorial: wrap contains() in <code>,https://github.com/whatwg/dom/issues/307,2016-08-19T06:49:50Z,2016-08-19T12:59:50Z,annevk,,0
-171846133,false,Define mutation events,https://github.com/whatwg/dom/issues/305,2016-08-18T08:33:18Z,2019-04-05T03:18:41Z,annevk,topic: shadow|web reality,0
+171846133,false,Define mutation events,https://github.com/whatwg/dom/issues/305,2016-08-18T08:33:18Z,2024-08-26T17:03:34Z,annevk,topic: shadow|web reality,0
 171819803,true,"Editorial: make text around ""locate a namespace"" more similar",https://github.com/whatwg/dom/issues/304,2016-08-18T05:20:15Z,2016-08-19T12:59:50Z,annevk,,0
 171742644,true,Callback functions/interfaces need to be invoked with WebIDL concepts,https://github.com/whatwg/dom/issues/303,2016-08-17T19:41:02Z,2016-08-29T06:51:39Z,foolip,,0
 171575646,true,CDATASection misses,https://github.com/whatwg/dom/issues/300,2016-08-17T05:12:47Z,2016-09-01T10:27:58Z,foolip,,0
@@ -514,7 +526,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 163808031,true,Upstream retargeting algorithm,https://github.com/whatwg/dom/issues/276,2016-07-05T09:28:53Z,2016-07-22T07:39:19Z,annevk,topic: shadow,0
 161349408,true,Note that about:blank also results in quirks mode,https://github.com/whatwg/dom/issues/272,2016-06-21T04:55:48Z,2016-07-05T09:22:21Z,annevk,,0
 161216942,true,selectionchange possible improvements,https://github.com/whatwg/dom/issues/271,2016-06-20T15:02:20Z,2016-06-20T18:14:22Z,caub,,0
-161112784,false,Proposal: DOMChangeList,https://github.com/whatwg/dom/issues/270,2016-06-20T03:54:43Z,2018-02-19T13:22:26Z,wycats,,100
+161112784,false,Proposal: DOMChangeList,https://github.com/whatwg/dom/issues/270,2016-06-20T03:54:43Z,2018-02-19T13:22:26Z,wycats,,103
 159624707,true,Point out that initial about:blank also results in quirks mode,https://github.com/whatwg/dom/issues/268,2016-06-10T12:30:10Z,2016-07-05T09:22:49Z,annevk,good first issue,0
 158750924,true,What happens if a 'once' eventListener dispatches a similar event?,https://github.com/whatwg/dom/issues/265,2016-06-06T19:06:49Z,2016-06-07T16:51:53Z,cdumez,,0
 158732710,true,.createElement's namespace handling doesn't seem to match what UAs do,https://github.com/whatwg/dom/issues/264,2016-06-06T17:36:17Z,2016-06-08T13:21:50Z,smaug----,,0
@@ -565,7 +577,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 139175728,true,The NodeFilter callback interface doesn't make sense,https://github.com/whatwg/dom/issues/186,2016-03-08T04:18:00Z,2016-03-08T10:43:52Z,foolip,,0
 138596691,false,Element.matches and pseudo-elements,https://github.com/whatwg/dom/issues/185,2016-03-04T21:51:16Z,2017-03-16T11:43:33Z,SimonSapin,,0
 137452912,true,className setter is not defined?,https://github.com/whatwg/dom/issues/183,2016-03-01T03:04:56Z,2016-03-01T18:00:39Z,domenic,,0
-137184219,false,Define XSLTProcessor,https://github.com/whatwg/dom/issues/181,2016-02-29T08:27:18Z,2022-09-05T10:23:42Z,annevk,,5
+137184219,false,Define XSLTProcessor,https://github.com/whatwg/dom/issues/181,2016-02-29T08:27:18Z,2024-06-14T17:25:02Z,annevk,,5
 135746419,true,atomic tree actions,https://github.com/whatwg/dom/issues/174,2016-02-23T14:07:27Z,2017-04-24T19:13:54Z,therealglazou,,0
 135379141,true,Add Attr#nodeName,https://github.com/whatwg/dom/issues/171,2016-02-22T10:34:50Z,2016-02-22T10:54:52Z,zcorpan,,0
 135236976,true,MutationObserver and createShadowRoot(),https://github.com/whatwg/dom/issues/170,2016-02-21T18:10:40Z,2016-02-22T09:00:43Z,rodneyrehm,,0
@@ -584,7 +596,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 126586618,false,Proposal to improve the DOM creation api,https://github.com/whatwg/dom/issues/150,2016-01-14T06:26:33Z,2019-04-11T09:40:18Z,straker,needs implementer interest|addition/proposal,10
 126367081,true,Resize events needed?,https://github.com/whatwg/dom/issues/149,2016-01-13T08:24:12Z,2016-08-16T09:17:26Z,greggman,,0
 126202122,true,"Drop ""keyevents"" as an alias of ""keyboardevent"" for createEvent",https://github.com/whatwg/dom/issues/148,2016-01-12T15:19:42Z,2016-04-13T00:31:09Z,foolip,,0
-126143079,false,Consider support for ES2015 iterator protocol for NodeIterator,https://github.com/whatwg/dom/issues/147,2016-01-12T10:12:25Z,2023-09-28T16:27:42Z,Ginden,needs implementer interest|addition/proposal,10
+126143079,false,Consider support for ES2015 iterator protocol for NodeIterator,https://github.com/whatwg/dom/issues/147,2016-01-12T10:12:25Z,2024-08-21T17:31:15Z,Ginden,needs implementer interest|addition/proposal,11
 126121898,true,"Only run ""adopting steps"" if oldDocument !== document",https://github.com/whatwg/dom/issues/146,2016-01-12T08:05:15Z,2016-01-22T18:09:53Z,zcorpan,,0
 125340468,true,Consider adding more utils to Elements,https://github.com/whatwg/dom/issues/145,2016-01-07T07:25:14Z,2018-03-13T08:08:57Z,Wes0617,needs implementer interest,0
 124998142,true,"Having getElementsByTagName match on localName is not ""web""-compatible for IE and Firefox",https://github.com/whatwg/dom/issues/143,2016-01-05T16:16:26Z,2016-09-08T18:24:35Z,bzbarsky,,0
@@ -599,7 +611,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 122942551,true,Node#baseURI need not be nullable,https://github.com/whatwg/dom/issues/131,2015-12-18T12:43:39Z,2016-01-01T15:17:54Z,foolip,,0
 122520253,true,Some fix for replace algo and question,https://github.com/whatwg/dom/issues/129,2015-12-16T14:50:09Z,2015-12-17T16:33:27Z,ArkadiuszMichalski,,0
 121622388,true,Some tweaks for Nodes,https://github.com/whatwg/dom/issues/127,2015-12-11T02:25:49Z,2015-12-15T10:36:57Z,ArkadiuszMichalski,,0
-121260584,false,Disconnect single target instead of all,https://github.com/whatwg/dom/issues/126,2015-12-09T14:51:40Z,2023-08-25T20:48:38Z,zbraniecki,needs implementer interest|addition/proposal,24
+121260584,false,Disconnect single target instead of all,https://github.com/whatwg/dom/issues/126,2015-12-09T14:51:40Z,2023-08-25T20:48:38Z,zbraniecki,needs implementer interest|addition/proposal,28
 120313749,true,Cross-browser inconsistencies with createHTMLDocument,https://github.com/whatwg/dom/issues/124,2015-12-04T01:45:08Z,2015-12-04T13:18:13Z,frewsxcv,,0
 118855978,true,Merge DOMSettableTokenList into DOMTokenList,https://github.com/whatwg/dom/issues/119,2015-11-25T15:08:12Z,2016-01-28T22:46:36Z,annevk,,0
 118581132,true,Document.documentURI and Document.URL attributes behaviour,https://github.com/whatwg/dom/issues/118,2015-11-24T10:51:45Z,2016-01-01T15:41:08Z,ArkadiuszMichalski,,0
@@ -634,7 +646,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 107463930,true,Read-only OS time formatting preferences,https://github.com/whatwg/dom/issues/79,2015-09-21T08:20:44Z,2015-09-21T08:23:34Z,zbraniecki,,0
 107286309,true,MutationObserver callbacks should be called before executing defer scritps,https://github.com/whatwg/dom/issues/78,2015-09-18T22:03:36Z,2015-09-21T05:57:40Z,zbraniecki,,0
 107286149,true,MutationObserver with querySelector for elements,https://github.com/whatwg/dom/issues/77,2015-09-18T22:02:11Z,2018-03-13T07:14:24Z,zbraniecki,needs implementer interest,12
-107258728,false,Should EventInit contain 'timestamp'?,https://github.com/whatwg/dom/issues/76,2015-09-18T19:02:40Z,2019-04-11T09:40:29Z,RByers,needs implementer interest|topic: events|addition/proposal,0
+107258728,false,Should EventInit contain 'timestamp'?,https://github.com/whatwg/dom/issues/76,2015-09-18T19:02:40Z,2024-08-27T09:40:34Z,RByers,needs implementer interest|topic: events|addition/proposal,0
 106792140,true,Incorrect link in createEvent definition,https://github.com/whatwg/dom/issues/73,2015-09-16T15:01:08Z,2015-09-16T15:28:43Z,bzbarsky,,0
 106510418,true,Make createAttribute() lowercase the input in HTML documents,https://github.com/whatwg/dom/issues/72,2015-09-15T08:43:38Z,2015-09-15T08:58:18Z,foolip,,0
 104832166,true,Add caniuse info boxes like the HTML spec,https://github.com/whatwg/dom/issues/69,2015-09-04T05:25:46Z,2021-10-14T13:05:57Z,cvrebert,,0

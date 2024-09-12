@@ -1,14 +1,18 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2382005853,false,Unclear if `pointermove` should set `movementX/Y`,https://github.com/w3c/pointerlock/issues/100,2024-06-29T23:19:13Z,2024-07-05T15:57:22Z,daxpedda,,0
+2322425629,false,Provide more information about movementX/Y for unadjusted movements,https://github.com/w3c/pointerlock/issues/98,2024-05-29T05:58:59Z,2024-06-05T23:02:30Z,ollop,,0
+2321941029,false,Section 2.1 should mention the effect of lock on PointerEvents,https://github.com/w3c/pointerlock/issues/97,2024-05-28T21:21:13Z,2024-08-01T06:29:07Z,mustaqahmed,,0
+2321691569,false,lock requests queue processing is incomplete,https://github.com/w3c/pointerlock/issues/96,2024-05-28T18:36:08Z,2024-05-28T18:36:08Z,alvinjiooo,,0
 2284640813,false,Proposal to integrate pointer lock with the permissions API,https://github.com/w3c/pointerlock/issues/94,2024-05-08T04:13:46Z,2024-05-08T04:14:02Z,takumif,,0
 2282056058,false,Visibility state checks,https://github.com/w3c/pointerlock/issues/93,2024-05-07T01:07:10Z,2024-05-07T01:07:10Z,marcoscaceres,,0
 2282032424,false,Clarification on interaction with shadow-roots,https://github.com/w3c/pointerlock/issues/92,2024-05-07T00:52:26Z,2024-05-07T00:52:26Z,marcoscaceres,,0
-2281973072,false,"When a subsequent requestPointerLock is rejected, should an already locked target exit lock state? ",https://github.com/w3c/pointerlock/issues/91,2024-05-06T23:52:16Z,2024-05-08T04:39:03Z,alvinjiooo,,0
+2281973072,false,"When a subsequent requestPointerLock is rejected, should an already locked target exit lock state? ",https://github.com/w3c/pointerlock/issues/91,2024-05-06T23:52:16Z,2024-05-17T21:50:29Z,alvinjiooo,,0
 2281961501,false,Propose to add a static field to indicate whether `unadjustedMovement` is supported.,https://github.com/w3c/pointerlock/issues/90,2024-05-06T23:38:46Z,2024-05-09T20:33:59Z,alvinjiooo,,0
 2105722188,true,Editorial: Broken HTML and DOM references,https://github.com/w3c/pointerlock/issues/87,2024-01-29T15:12:09Z,2024-05-08T06:25:52Z,mustaqahmed,,0
 1964215643,false,Better integration with Fullscreen API,https://github.com/w3c/pointerlock/issues/85,2023-10-26T19:14:29Z,2023-10-26T19:14:29Z,marcoscaceres,,0
 1715036745,false,Can we drop the spec version?,https://github.com/w3c/pointerlock/issues/83,2023-05-18T05:57:37Z,2023-05-18T16:01:05Z,marcoscaceres,,0
 1690445102,false,Should movementX/Y move to UI Events?,https://github.com/w3c/pointerlock/issues/82,2023-05-01T06:20:41Z,2023-05-09T06:43:01Z,marcoscaceres,,0
-1476146777,false,Feature Request: Allow for a pointerevent-scoped pointerlock with less restrictions,https://github.com/w3c/pointerlock/issues/81,2022-12-05T09:49:29Z,2022-12-05T15:02:44Z,Strepto,,0
+1476146777,false,Feature Request: Allow for a pointerevent-scoped pointerlock with less restrictions,https://github.com/w3c/pointerlock/issues/81,2022-12-05T09:49:29Z,2024-07-16T21:36:40Z,Strepto,,0
 1316340953,false,TPAC 2022 status report,https://github.com/w3c/pointerlock/issues/80,2022-07-25T06:34:19Z,2022-09-12T17:10:45Z,LJWatson,,0
 978822836,true,Status report and planning for TPAC 2021,https://github.com/w3c/pointerlock/issues/75,2021-08-25T07:38:02Z,2021-11-01T14:23:16Z,LJWatson,,0
 949887576,false,MovementX/Y values in coalesced events,https://github.com/w3c/pointerlock/issues/74,2021-07-21T16:18:23Z,2021-07-21T16:18:23Z,mustaqahmed,,0
@@ -25,9 +29,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 546726960,true,No matching definition found for `triggered by user activation`,https://github.com/w3c/pointerlock/issues/53,2020-01-08T08:58:49Z,2020-06-24T04:58:39Z,janiceshiu,,0
 499004590,false,Allow hardware cursor while in pointer lock,https://github.com/w3c/pointerlock/issues/52,2019-09-26T16:56:35Z,2019-09-26T16:57:03Z,vans163,,0
 483308759,true,Specification status report for TPAC 2019,https://github.com/w3c/pointerlock/issues/50,2019-08-21T09:34:06Z,2021-06-07T20:35:05Z,LJWatson,,0
-423956482,false,movementX/Y coordinate space,https://github.com/w3c/pointerlock/issues/42,2019-03-21T21:46:31Z,2024-05-10T20:56:51Z,EiraGe,,3
+423956482,false,movementX/Y coordinate space,https://github.com/w3c/pointerlock/issues/42,2019-03-21T21:46:31Z,2024-05-10T20:56:51Z,EiraGe,,5
 418159196,true,Warp on Exit,https://github.com/w3c/pointerlock/issues/41,2019-03-07T07:04:29Z,2019-03-17T01:00:43Z,kr,,0
-360006299,false,Option needed to disable OS-level adjustment for mouse acceleration,https://github.com/w3c/pointerlock/issues/36,2018-09-13T18:09:58Z,2022-09-12T20:01:25Z,NavidZ,,0
+360006299,true,Option needed to disable OS-level adjustment for mouse acceleration,https://github.com/w3c/pointerlock/issues/36,2018-09-13T18:09:58Z,2024-06-17T13:50:17Z,NavidZ,,0
 351244548,false,PointerLock request failing during Fullscreen transtion,https://github.com/w3c/pointerlock/issues/35,2018-08-16T15:01:41Z,2018-08-16T15:01:41Z,mustaqahmed,,0
 337056492,false,"Clarify what event should be fired on locked state ",https://github.com/w3c/pointerlock/issues/34,2018-06-29T16:10:04Z,2018-06-29T18:10:35Z,EiraGe,,0
 307188320,true,pointerlockchange event will be sent every time mouse click event triggered,https://github.com/w3c/pointerlock/issues/32,2018-03-21T10:26:55Z,2021-10-26T15:30:27Z,Titan-p,,0

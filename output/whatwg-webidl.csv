@@ -1,8 +1,14 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2456458049,false,Intent use number / bigint union type,https://github.com/whatwg/webidl/issues/1426,2024-08-08T19:11:58Z,2024-08-20T16:56:42Z,sbc100,,0
+2445413314,false,"Specifications which use ""invoke a callback function"" should be updated to specify their exception handling behavior.",https://github.com/whatwg/webidl/issues/1425,2024-08-02T16:57:07Z,2024-08-27T18:04:42Z,jeremyroman,,1
+2429250446,true,Handle exceptions when calling callbacks by default,https://github.com/whatwg/webidl/issues/1423,2024-07-25T07:32:55Z,2024-08-02T05:39:23Z,domenic,,0
+2374062763,false,What types are allowed where is scattered and inconsistent,https://github.com/whatwg/webidl/issues/1414,2024-06-26T02:44:28Z,2024-06-26T02:44:28Z,domenic,,0
+2358392688,true,How are name conflicts specified?,https://github.com/whatwg/webidl/issues/1411,2024-06-17T22:35:58Z,2024-06-18T21:35:19Z,srujzs,,0
+2338465297,true,Callbacks in namepsaces?,https://github.com/whatwg/webidl/issues/1408,2024-06-06T14:54:09Z,2024-06-06T20:40:01Z,tolmasky,,0
 2267155338,true,"Declaration of dictionaries with dynamic keys identified by type, but not by name",https://github.com/whatwg/webidl/issues/1403,2024-04-27T19:28:37Z,2024-04-29T06:55:51Z,solomonkinard,addition/proposal|needs implementer interest,0
 2265925497,false,Should [SameObject] be allowed with FrozenArray<T>?,https://github.com/whatwg/webidl/issues/1402,2024-04-26T14:35:49Z,2024-04-30T14:25:11Z,rakuco,,0
 2264265653,true,"Declaration of dictionaries with dynamic keys identified by type, but not by name",https://github.com/whatwg/webidl/issues/1401,2024-04-25T18:42:11Z,2024-04-27T19:26:45Z,solomonkinard,addition/proposal|needs implementer interest,1
-2222165791,false,"Disallow FrozenArray<> in argument lists, and maybe dictionaries and return types",https://github.com/whatwg/webidl/issues/1399,2024-04-03T07:48:23Z,2024-04-10T16:58:21Z,domenic,,2
+2222165791,true,"Disallow FrozenArray<> in argument lists, and maybe dictionaries and return types",https://github.com/whatwg/webidl/issues/1399,2024-04-03T07:48:23Z,2024-07-02T02:54:53Z,domenic,,3
 2179810459,true,CreateMethodProperty removed from Ecma262,https://github.com/whatwg/webidl/issues/1389,2024-03-11T17:52:35Z,2024-03-11T18:11:00Z,lukewarlow,,1
 2139816110,false,Intent to use BigInt/numeric union in WebNN,https://github.com/whatwg/webidl/issues/1388,2024-02-17T03:57:13Z,2024-02-29T22:15:25Z,fdwr,,2
 2092333863,false,"""byte length of a buffer source type"" needs updating for resizable and detached buffers",https://github.com/whatwg/webidl/issues/1385,2024-01-21T02:07:22Z,2024-01-24T07:32:56Z,bakkot,,0
@@ -24,7 +30,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1739653794,false,Simple exceptions “apart from...” list is incomplete,https://github.com/whatwg/webidl/issues/1314,2023-06-03T16:15:09Z,2023-10-01T13:18:33Z,bathos,,0
 1737666638,true,Editorial: pick JavaScript or ECMAScript and stick with it,https://github.com/whatwg/webidl/issues/1313,2023-06-02T08:07:20Z,2023-06-02T09:04:19Z,annevk,,0
 1737641805,false,Buffer source types infrastructure,https://github.com/whatwg/webidl/issues/1312,2023-06-02T07:49:44Z,2023-10-01T13:18:57Z,annevk,,0
-1731996469,true,Float16Array integration,https://github.com/whatwg/webidl/issues/1310,2023-05-30T10:44:57Z,2024-04-08T08:21:19Z,bathos,,2
+1731996469,true,Float16Array integration,https://github.com/whatwg/webidl/issues/1310,2023-05-30T10:44:57Z,2024-05-17T16:52:25Z,bathos,,2
 1695322597,false,Throwing DOMExceptions in the context of a promise returning operation,https://github.com/whatwg/webidl/issues/1301,2023-05-04T06:10:39Z,2023-10-01T13:19:47Z,marcoscaceres,clarification,0
 1688148786,false,Detect whether a dictionary member was set by default or not,https://github.com/whatwg/webidl/issues/1300,2023-04-28T08:41:56Z,2023-10-01T13:20:10Z,beaufortfrancois,,0
 1680020102,true,"Improperly pluralized verb in ""The [LegacyNamespace] extended attribute take an identifier""",https://github.com/whatwg/webidl/issues/1296,2023-04-23T13:00:20Z,2023-10-23T04:22:49Z,PoolloverNathan,,0
@@ -65,9 +71,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1221450239,false,"""attribute getter"" steps skip security checks on namespaces",https://github.com/whatwg/webidl/issues/1133,2022-04-29T19:42:06Z,2022-04-29T19:55:32Z,tabatkins,,0
 1216321218,true,"Remove obsolete ""type name"" concept",https://github.com/whatwg/webidl/issues/1131,2022-04-26T18:22:02Z,2022-04-26T18:47:01Z,tabatkins,,0
 1179661197,false,Deprecate URLMismatchError,https://github.com/whatwg/webidl/issues/1120,2022-03-24T15:15:33Z,2022-03-24T15:15:33Z,domenic,,1
-1178562261,false,Elaborate on Exposed=* advice,https://github.com/whatwg/webidl/issues/1119,2022-03-23T19:21:08Z,2024-04-03T09:16:26Z,annevk,clarification,0
+1178562261,false,Elaborate on Exposed=* advice,https://github.com/whatwg/webidl/issues/1119,2022-03-23T19:21:08Z,2024-09-05T19:16:34Z,annevk,clarification,0
 1156220326,true,"Should 'undefined' be disallowed as an attribute type? ",https://github.com/whatwg/webidl/issues/1112,2022-03-02T02:24:18Z,2022-09-21T00:45:47Z,marcoscaceres,,0
-1150482514,false,Should DOMException.[[Prototype]] be %Error%?,https://github.com/whatwg/webidl/issues/1107,2022-02-25T14:05:21Z,2022-02-28T11:51:22Z,bathos,,0
+1150482514,false,Should DOMException.[[Prototype]] be %Error%?,https://github.com/whatwg/webidl/issues/1107,2022-02-25T14:05:21Z,2024-07-01T02:33:33Z,bathos,,0
 1146361083,false,CreateBuiltinFunction’s signature has changed,https://github.com/whatwg/webidl/issues/1106,2022-02-22T01:38:30Z,2022-02-22T16:04:58Z,bathos,,0
 1135130254,true,"ExtendedAttributeList can match unbalanced ( ), [ ], and { }",https://github.com/whatwg/webidl/issues/1100,2022-02-13T04:00:09Z,2022-04-19T06:49:52Z,jeremydavis519,,0
 1125869351,true,Allow static operations to have the same name as regular operations,https://github.com/whatwg/webidl/issues/1097,2022-02-07T11:36:38Z,2022-05-10T10:40:21Z,lucacasonato,,0
@@ -97,7 +103,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1001113251,false,Exception message does not supply language or direction metadata,https://github.com/whatwg/webidl/issues/1023,2021-09-20T15:36:56Z,2021-10-07T12:48:10Z,aphillips,i18n-needs-resolution,0
 992389890,false,"""static"" method steps/getter steps/setter steps?",https://github.com/whatwg/webidl/issues/1022,2021-09-09T16:01:35Z,2021-09-09T16:01:35Z,domenic,,2
 990275709,false,Allow functions to be used as promise inputs,https://github.com/whatwg/webidl/issues/1020,2021-09-07T19:21:06Z,2021-09-29T17:41:05Z,domenic,topic: promise,4
-982830993,true,Move to WHATWG,https://github.com/whatwg/webidl/issues/1016,2021-08-30T14:05:04Z,2022-05-23T10:58:14Z,annevk,,3
+982830993,true,Move to WHATWG,https://github.com/whatwg/webidl/issues/1016,2021-08-30T14:05:04Z,2024-08-29T20:30:13Z,annevk,,3
 970406514,true,Intent to use Constants,https://github.com/whatwg/webidl/issues/1012,2021-08-13T13:34:48Z,2021-08-13T15:13:31Z,rotasiztaksi,,0
 963530697,true,Typo in distinguishability table (says bigint + bigint are distinguishable),https://github.com/whatwg/webidl/issues/1010,2021-08-08T22:47:53Z,2022-01-19T18:57:53Z,bathos,⌛ duration:short,0
 963482908,false,Possible mistake in overload resolution algorithm,https://github.com/whatwg/webidl/issues/1009,2021-08-08T17:52:09Z,2021-08-12T00:06:47Z,bathos,,3
@@ -262,7 +268,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 416697079,true,Everything is a module,https://github.com/whatwg/webidl/issues/676,2019-03-04T09:03:21Z,2021-08-03T10:48:23Z,annevk,,6
 416128696,false,Conversion from specification values to IDL values to ECMAScript values,https://github.com/whatwg/webidl/issues/674,2019-03-01T14:32:12Z,2021-09-07T21:59:47Z,annevk,,0
 415850120,false,Is `long?` an integer type?,https://github.com/whatwg/webidl/issues/670,2019-02-28T22:19:56Z,2019-12-12T17:24:36Z,bzbarsky,,0
-415688201,false,[[DefineOwnProperty]] for legacy objects should not force configurability,https://github.com/whatwg/webidl/issues/669,2019-02-28T15:44:02Z,2019-03-01T14:55:38Z,bzbarsky,,0
+415688201,true,[[DefineOwnProperty]] for legacy objects should not force configurability,https://github.com/whatwg/webidl/issues/669,2019-02-28T15:44:02Z,2024-07-10T06:58:49Z,bzbarsky,,0
 414680897,true,Should callback interfaces with more than one operation be supported?,https://github.com/whatwg/webidl/issues/661,2019-02-26T15:48:52Z,2019-04-02T14:28:20Z,Ms2ger,,4
 414661406,false,How to deal with Location,https://github.com/whatwg/webidl/issues/660,2019-02-26T15:11:43Z,2019-02-26T22:24:12Z,annevk,,0
 414217715,false,"Referencing ""implements""",https://github.com/whatwg/webidl/issues/659,2019-02-25T17:24:51Z,2021-08-31T11:12:27Z,annevk,,0
@@ -283,7 +289,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 400258055,false,IsDataDescriptor check for legacy setters is not implemented,https://github.com/whatwg/webidl/issues/624,2019-01-17T12:36:41Z,2019-01-17T16:32:49Z,Ms2ger,,0
 400075371,true,Intent to use [TreatNonObjectAsNull],https://github.com/whatwg/webidl/issues/623,2019-01-17T01:46:06Z,2019-01-17T08:31:48Z,mboocannon,,0
 398627025,true,Intent to use Constants,https://github.com/whatwg/webidl/issues/608,2019-01-13T07:20:11Z,2019-01-29T17:42:26Z,shadulsikder90,,0
-398310324,false,Named properties object / named property visibility algorithm with property on Window.prototype,https://github.com/whatwg/webidl/issues/607,2019-01-11T14:26:09Z,2019-01-22T13:59:26Z,Ms2ger,,0
+398310324,false,Named properties object / named property visibility algorithm with property on Window.prototype,https://github.com/whatwg/webidl/issues/607,2019-01-11T14:26:09Z,2024-08-25T06:48:26Z,Ms2ger,,0
 392959359,false,Annotations for what may throw,https://github.com/whatwg/webidl/issues/603,2018-12-20T09:31:32Z,2023-03-14T22:30:11Z,littledan,,0
 392208355,true,Consider requiring optional dictionary defaulting explicitly,https://github.com/whatwg/webidl/issues/602,2018-12-18T15:29:49Z,2019-09-29T05:48:13Z,annevk,,3
 391330808,true,Is step 4 of the effective overload set construction unnecessary?,https://github.com/whatwg/webidl/issues/600,2018-12-15T01:37:36Z,2018-12-17T22:35:25Z,BoCupp-Microsoft,,0

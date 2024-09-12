@@ -1,13 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2202597283,true,Clarify boundary event dispatch paragraphs in 4.1.3,https://github.com/w3c/pointerevents/pull/502,2024-03-22T14:13:33Z,2024-03-26T13:31:02Z,mustaqahmed,,0
-2092658641,false,Add logical/abstract values for `touch-action`,https://github.com/w3c/pointerevents/pull/496,2024-01-21T16:27:53Z,2024-02-13T12:09:04Z,patrickhlauke,future|needs-wpt,0
-2077657593,false,Add deviceProperties.uniqueId to PointerEvent spec,https://github.com/w3c/pointerevents/pull/495,2024-01-11T21:51:49Z,2024-05-13T09:01:32Z,sahirv,future,0
-2066195411,true,Rewrite the dispatch algorithm for click-like events,https://github.com/w3c/pointerevents/pull/494,2024-01-04T19:09:32Z,2024-04-24T15:10:36Z,mustaqahmed,needs-wpt,0
+2092658641,false,Add logical/abstract values for `touch-action`,https://github.com/w3c/pointerevents/pull/496,2024-01-21T16:27:53Z,2024-07-17T15:29:36Z,patrickhlauke,future,0
+2077657593,true,Add persistentDeviceId to PointerEvent,https://github.com/w3c/pointerevents/pull/495,2024-01-11T21:51:49Z,2024-08-14T15:02:06Z,sahirv,future,0
+2066195411,true,Rewrite the dispatch algorithm for click-like events,https://github.com/w3c/pointerevents/pull/494,2024-01-04T19:09:32Z,2024-05-24T14:29:51Z,mustaqahmed,,0
 1971077863,true,Explain how a removed DOM node should be handled for boundary events.,https://github.com/w3c/pointerevents/pull/491,2023-10-31T18:26:30Z,2023-11-22T16:10:47Z,flackr,v3|v3-blocking,0
 1966068606,true,Handle pointer capture node removal asynchronously,https://github.com/w3c/pointerevents/pull/490,2023-10-27T19:20:15Z,2023-12-06T16:44:39Z,flackr,v3|v3-blocking,0
 1961495501,true,Update reference from WCAG 2.1 to WCAG 2.2,https://github.com/w3c/pointerevents/pull/489,2023-10-25T13:57:20Z,2023-10-25T13:59:14Z,patrickhlauke,,0
 1961306663,true,Add Robert Flack as co-editor,https://github.com/w3c/pointerevents/pull/488,2023-10-25T12:27:49Z,2023-10-25T14:08:10Z,patrickhlauke,,0
-1929110363,true,Use `float` instead of `double` for `altitudeAngle` and `azimuthAngle`,https://github.com/w3c/pointerevents/pull/485,2023-10-05T21:44:09Z,2023-10-09T01:06:31Z,jrandolf,,0
+1929110363,true,Use `float` instead of `double` for `altitudeAngle` and `azimuthAngle`,https://github.com/w3c/pointerevents/pull/485,2023-10-05T21:44:09Z,2023-10-09T01:06:31Z,jrandolf-2,,0
 1920274018,true,Remove trailing commas,https://github.com/w3c/pointerevents/pull/484,2023-09-30T14:11:05Z,2023-09-30T14:11:19Z,patrickhlauke,,0
 1920211890,true,Move Navid to former editors,https://github.com/w3c/pointerevents/pull/483,2023-09-30T10:47:13Z,2023-09-30T10:47:28Z,patrickhlauke,,0
 1873857080,true,Add clarification about coalesced events and secure/non secure context,https://github.com/w3c/pointerevents/pull/480,2023-08-30T14:57:44Z,2023-08-30T16:08:35Z,patrickhlauke,,0
@@ -73,7 +73,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 939331674,true,"Change ""event list"" to ""events list""",https://github.com/w3c/pointerevents/pull/394,2021-07-07T23:17:03Z,2021-07-08T10:30:52Z,patrickhlauke,,0
 939135971,true,Tweak definition of predicted events to deal with untrusted events,https://github.com/w3c/pointerevents/pull/393,2021-07-07T18:06:39Z,2022-11-23T15:37:39Z,patrickhlauke,,0
 938815839,true,Tweak the definition of coalesced event list to deal with untrusted e…,https://github.com/w3c/pointerevents/pull/391,2021-07-07T12:00:01Z,2022-11-23T15:10:23Z,smaug----,,0
-938110366,true,Update targets of predicted and coalesced events when trusted event target changes.,https://github.com/w3c/pointerevents/pull/390,2021-07-06T17:26:29Z,2023-10-11T15:25:35Z,flackr,needs-wpt,0
+938110366,true,Update targets of predicted and coalesced events when trusted event target changes.,https://github.com/w3c/pointerevents/pull/390,2021-07-06T17:26:29Z,2024-05-27T09:25:01Z,flackr,,0
 928514634,true,More minor tweaks,https://github.com/w3c/pointerevents/pull/389,2021-06-23T18:04:30Z,2021-06-23T18:42:00Z,plehegar,editorial,1
 928447319,true,Remove mention of animation frame callback,https://github.com/w3c/pointerevents/pull/388,2021-06-23T16:37:08Z,2021-06-30T19:20:30Z,patrickhlauke,,0
 917650235,true,task queue is not reliable HTML concept. Use event loop instead,https://github.com/w3c/pointerevents/pull/386,2021-06-10T18:04:57Z,2021-06-23T15:21:32Z,plehegar,v3,0
@@ -126,7 +126,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 506881228,true,fixing typo in Example 3,https://github.com/w3c/pointerevents/pull/305,2019-10-14T21:22:56Z,2019-11-25T22:00:34Z,gked,,0
 493828410,true,Editorial: fix some ReSpec issues,https://github.com/w3c/pointerevents/pull/304,2019-09-16T03:15:37Z,2019-09-16T07:33:23Z,marcoscaceres,,1
 487037110,true,Move Rick Byers to former editors,https://github.com/w3c/pointerevents/pull/302,2019-08-29T15:41:17Z,2019-09-02T00:01:58Z,patrickhlauke,,0
-484642655,true,Define active document for the active pointers,https://github.com/w3c/pointerevents/pull/300,2019-08-23T17:48:55Z,2022-12-20T19:10:26Z,NavidZ,needs-wpt,0
+484642655,true,Define active document for the active pointers,https://github.com/w3c/pointerevents/pull/300,2019-08-23T17:48:55Z,2024-05-24T15:38:12Z,NavidZ,needs-wpt,0
 484309659,true,Add dictionary default value,https://github.com/w3c/pointerevents/pull/298,2019-08-23T03:20:33Z,2019-08-23T09:33:26Z,saschanaz,,0
 484078714,true,Set correct references for PE V3,https://github.com/w3c/pointerevents/pull/297,2019-08-22T15:51:25Z,2019-08-29T15:38:38Z,NavidZ,,0
 477517283,true,Add single-directional touch action values,https://github.com/w3c/pointerevents/pull/294,2019-08-06T17:59:14Z,2022-11-23T15:45:33Z,NavidZ,,0

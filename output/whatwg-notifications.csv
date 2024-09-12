@@ -1,11 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2513340688,false,Suggestion to Add Translated Link for notifications (Simplified Chinese 简体中文),https://github.com/whatwg/notifications/issues/221,2024-09-09T08:51:52Z,2024-09-09T08:51:52Z,JinDX,,0
+2316191318,false,Safari for iOS/Chrome for Android completely disallows `new Notification()`,https://github.com/whatwg/notifications/issues/210,2024-05-24T20:15:47Z,2024-05-24T20:16:13Z,saschanaz,,0
 2253456405,false,Icon fetch in Gecko/Blink uses document charset for URL encoding,https://github.com/whatwg/notifications/issues/209,2024-04-19T16:53:15Z,2024-04-19T17:01:37Z,saschanaz,,0
 2250868098,false,Fetch steps passes a URL instead of a Request to fetch,https://github.com/whatwg/notifications/issues/208,2024-04-18T14:38:29Z,2024-04-18T20:28:04Z,saschanaz,,1
 2248411532,false,Permission check happens first on both Gecko and Blink for showNotification,https://github.com/whatwg/notifications/issues/207,2024-04-17T14:14:47Z,2024-04-18T14:44:54Z,saschanaz,,0
 2151719663,false,Should persistent notifications be associated with service worker registration or the scope?,https://github.com/whatwg/notifications/issues/205,2024-02-23T20:03:21Z,2024-03-05T01:09:37Z,saschanaz,,0
 2127016592,false,Should a non-persistent notification be auto-closed or not?,https://github.com/whatwg/notifications/issues/204,2024-02-09T12:13:19Z,2024-02-13T14:15:00Z,saschanaz,,0
 2123378494,false,"Reconsider 'User agents should not display non-persistent notification in a platform’s ""notification center""' part?",https://github.com/whatwg/notifications/issues/203,2024-02-07T16:08:57Z,2024-02-08T09:14:27Z,saschanaz,,0
-2086532564,false,Define what happens when the notification platform fails to show the notification,https://github.com/whatwg/notifications/issues/200,2024-01-17T16:21:14Z,2024-01-17T16:21:14Z,saschanaz,,0
+2086532564,false,Define what happens when the notification platform fails to show the notification,https://github.com/whatwg/notifications/issues/200,2024-01-17T16:21:14Z,2024-08-23T12:07:09Z,saschanaz,,0
 2021238429,false,Add crossOrigin to Notifications API,https://github.com/whatwg/notifications/issues/199,2023-12-01T16:44:12Z,2023-12-02T09:10:08Z,rostero1,addition/proposal|needs implementer interest,0
 1840211134,false,The allowed values of `Notification.requestPermission()` differ between spec and implementations,https://github.com/whatwg/notifications/issues/197,2023-08-07T21:09:30Z,2023-08-28T10:01:01Z,saschanaz,,1
 1803563314,false,Support notification grouping,https://github.com/whatwg/notifications/issues/195,2023-07-13T18:35:51Z,2023-07-13T18:35:51Z,amehfooz,,5
@@ -26,14 +28,14 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 407356667,true,No Longer Working on Edge or Chrome,https://github.com/whatwg/notifications/issues/144,2019-02-06T17:52:47Z,2019-02-11T17:36:17Z,wilecoyte78,,0
 391457025,false,[Feature Request] Create onhidden event handler for integration with windows native notifications,https://github.com/whatwg/notifications/issues/142,2018-12-16T11:10:37Z,2019-01-02T10:20:27Z,hannaseithe,addition/proposal|needs implementer interest,0
 369005443,true,A new popup ad,https://github.com/whatwg/notifications/issues/140,2018-10-11T08:22:43Z,2018-10-11T08:29:58Z,dxdxdt,,0
-349214272,false,Improving predictability of the Notification API,https://github.com/whatwg/notifications/issues/139,2018-08-09T17:08:51Z,2018-08-13T10:08:11Z,beverloo,,0
+349214272,true,Improving predictability of the Notification API,https://github.com/whatwg/notifications/issues/139,2018-08-09T17:08:51Z,2024-08-23T12:01:42Z,beverloo,addition/proposal,0
 343934176,true,khongjhon.github.io,https://github.com/whatwg/notifications/issues/138,2018-07-24T08:24:53Z,2018-07-25T07:22:24Z,Khongjhon,,0
 335311355,true,Tag So many notification and close event issue,https://github.com/whatwg/notifications/issues/136,2018-06-25T08:40:57Z,2018-08-02T08:22:41Z,justnshalom,,0
 328205684,false,Add an 'Automation' section to enable web platform tests,https://github.com/whatwg/notifications/issues/134,2018-05-31T16:15:11Z,2018-05-31T16:17:17Z,anitawoodruff,,1
 324074678,false,notification.actions returns a new object each time,https://github.com/whatwg/notifications/issues/131,2018-05-17T15:29:26Z,2018-05-17T15:42:55Z,jakearchibald,,0
 308557313,true,Temporary disabled notifications,https://github.com/whatwg/notifications/issues/129,2018-03-26T12:47:31Z,2018-03-28T18:39:38Z,NtFreX,,0
 301114888,false,"Use ""parallel queue""",https://github.com/whatwg/notifications/issues/128,2018-02-28T17:33:28Z,2018-02-28T17:33:28Z,annevk,,0
-282450598,false,Optional non-persistent Notifications and feature detection,https://github.com/whatwg/notifications/issues/116,2017-12-15T14:49:48Z,2018-02-27T14:42:27Z,akihikodaki,,0
+282450598,true,Optional non-persistent Notifications and feature detection,https://github.com/whatwg/notifications/issues/116,2017-12-15T14:49:48Z,2024-08-23T12:00:20Z,akihikodaki,,0
 281547011,true,Support,https://github.com/whatwg/notifications/issues/115,2017-12-12T21:41:20Z,2017-12-13T09:44:34Z,MissSheyni,,0
 280068374,true,Made for calling inside a loop?,https://github.com/whatwg/notifications/issues/114,2017-12-07T10:00:29Z,2017-12-07T10:35:19Z,phaxes,,0
 279007111,true,getNotifications manipulates ES arrays in parallel steps,https://github.com/whatwg/notifications/issues/113,2017-12-04T14:05:20Z,2021-04-22T12:56:41Z,bzbarsky,good first issue,0
