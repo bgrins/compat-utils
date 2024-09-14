@@ -1,4 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2526155613,false,BigInt serialization,https://github.com/whatwg/html/issues/10625,2024-09-14T09:32:56Z,2024-09-14T09:32:56Z,BlobTheKat,addition/proposal|needs implementer interest,0
+2526138811,false,"Float16 support (WebGL, DataView, etc...)",https://github.com/whatwg/html/issues/10624,2024-09-14T09:17:17Z,2024-09-14T09:17:17Z,BlobTheKat,addition/proposal|needs implementer interest,0
 2523333230,false,`colgroup` elements should map `width` attribute to the dimension property `width`,https://github.com/whatwg/html/issues/10623,2024-09-12T20:54:02Z,2024-09-12T20:54:02Z,Loirooriol,,0
 2523321603,false,Upcoming WHATNOT meeting on 2024-09-19,https://github.com/whatwg/html/issues/10622,2024-09-12T20:47:06Z,2024-09-12T20:47:06Z,past,agenda+,0
 2523135333,false,"Behaviour of ""reload"" navigationType in "" inner navigate event firing algorithm"" algorithm",https://github.com/whatwg/html/issues/10621,2024-09-12T19:02:45Z,2024-09-12T19:02:45Z,rwlbuis,,0
@@ -23,8 +25,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2497494012,false,Support disabling CloseWatcher integration in `<dialog>`,https://github.com/whatwg/html/issues/10592,2024-08-30T15:11:55Z,2024-08-30T21:04:31Z,lucacasonato,addition/proposal|needs implementer interest|topic: dialog,2
 2495901933,true,Spec is missing that </p> is optional before <dialog>,https://github.com/whatwg/html/issues/10590,2024-08-30T00:43:44Z,2024-09-04T10:51:09Z,laughinghan,,1
 2495218582,true,Upcoming WHATNOT meeting on 2024-09-05,https://github.com/whatwg/html/issues/10589,2024-08-29T18:06:58Z,2024-09-05T16:15:28Z,past,agenda+,0
-2492588952,false,Iframe `sandbox` compatibility with Service Workers,https://github.com/whatwg/html/issues/10585,2024-08-28T16:56:47Z,2024-08-28T16:56:47Z,BlobTheKat,addition/proposal|needs implementer interest,1
-2492022165,false,A way to get mouse coordinates without mouse moving,https://github.com/whatwg/html/issues/10584,2024-08-28T13:03:38Z,2024-09-07T22:00:29Z,oleedd,addition/proposal|needs implementer interest,0
+2492588952,false,Iframe `sandbox` compatibility with Service Workers,https://github.com/whatwg/html/issues/10585,2024-08-28T16:56:47Z,2024-08-28T16:56:47Z,BlobTheKat,addition/proposal|needs implementer interest,2
+2492022165,false,A way to get mouse coordinates without mouse moving,https://github.com/whatwg/html/issues/10584,2024-08-28T13:03:38Z,2024-09-14T09:46:20Z,oleedd,addition/proposal|needs implementer interest,0
 2491641714,false,"Interactions between `inert` and `hidden=""until-found""` and `beforematch` events",https://github.com/whatwg/html/issues/10583,2024-08-28T10:04:54Z,2024-08-28T10:09:42Z,romainmenke,,0
 2490185456,true,Meeting 7 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10582,2024-08-27T19:39:46Z,2024-09-09T20:57:48Z,josepharhar,agenda+,0
 2489366691,true,Add code-lang attribute to code element,https://github.com/whatwg/html/issues/10580,2024-08-27T13:25:57Z,2024-08-27T19:29:31Z,extua,addition/proposal|needs implementer interest,5
@@ -85,7 +87,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2407536902,true,HTMLOptionsCollection index replacement seems inconsistent,https://github.com/whatwg/html/issues/10479,2024-07-14T18:02:38Z,2024-07-14T21:32:43Z,vpzomtrrfrt,,0
 2407364805,false,"""Fragment serializing algorithm"" outputs node itself instead of its contents for elements in non-HTML documents",https://github.com/whatwg/html/issues/10478,2024-07-14T10:17:33Z,2024-07-18T17:21:07Z,sppmacd,,0
 2405965895,false,Redundant step for button in body,https://github.com/whatwg/html/issues/10476,2024-07-12T16:36:05Z,2024-07-15T08:13:43Z,blr-Oliver,clarification|topic: parser,0
-2405202063,false,Provide some way of changing an elements location in the DOM tree without triggering connect/disconnect CEReactions,https://github.com/whatwg/html/issues/10475,2024-07-12T09:58:22Z,2024-07-12T10:01:44Z,keithamus,addition/proposal|needs implementer interest|topic: custom elements,1
+2405202063,false,Provide some way of changing an elements location in the DOM tree without triggering connect/disconnect CEReactions,https://github.com/whatwg/html/issues/10475,2024-07-12T09:58:22Z,2024-09-14T09:47:15Z,keithamus,addition/proposal|needs implementer interest|topic: custom elements,2
 2402731596,true,Make an exhaustive list of incompatibilties with SGML,https://github.com/whatwg/html/issues/10472,2024-07-11T09:37:30Z,2024-07-12T01:17:00Z,ben221199,,0
 2402673029,true,Upcoming WHATNOT meeting on 2024-07-18,https://github.com/whatwg/html/issues/10471,2024-07-11T09:12:29Z,2024-07-18T17:32:01Z,past,agenda+,0
 2401613172,true,Import HTML,https://github.com/whatwg/html/issues/10470,2024-07-10T20:18:13Z,2024-07-11T04:05:50Z,trymeouteh,addition/proposal|needs implementer interest,0
@@ -142,7 +144,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2329978148,true,Bug in timer initialisation steps: the id's of cleared but still live timers can be reused,https://github.com/whatwg/html/issues/10387,2024-06-03T01:18:29Z,2024-08-15T06:32:57Z,majaha,topic: timing,0
 2329503779,false,setTimeout() nesting levels: browsers do not match specification,https://github.com/whatwg/html/issues/10386,2024-06-02T06:56:17Z,2024-07-02T16:52:35Z,majaha,topic: timing,0
 2327536552,false,"[Proposal] Capturing Real User Monitoring (RUM) ",https://github.com/whatwg/html/issues/10383,2024-05-31T10:48:37Z,2024-06-01T10:08:29Z,hemanth,addition/proposal|needs implementer interest,0
-2327513339,false,[Proposal] capture screen,https://github.com/whatwg/html/issues/10382,2024-05-31T10:35:41Z,2024-05-31T10:43:43Z,hemanth,addition/proposal|needs implementer interest,2
+2327513339,false,[Proposal] capture screen,https://github.com/whatwg/html/issues/10382,2024-05-31T10:35:41Z,2024-09-14T09:51:01Z,hemanth,addition/proposal|needs implementer interest,2
 2326705799,true,Upcoming WHATNOT meeting on 6/6/2024,https://github.com/whatwg/html/issues/10381,2024-05-30T23:34:22Z,2024-06-06T17:00:23Z,past,agenda+,0
 2324176691,false,HTML Video and its Source Elements Should Support SRCSET and SIZES,https://github.com/whatwg/html/issues/10379,2024-05-29T20:16:56Z,2024-08-14T12:07:18Z,scottjehl,addition/proposal|needs implementer interest|topic: media,5
 2324127724,false,HTML Video: Allow a child Picture Element to Control the Video Poster Image,https://github.com/whatwg/html/issues/10378,2024-05-29T19:46:56Z,2024-05-30T14:47:25Z,scottjehl,,14
