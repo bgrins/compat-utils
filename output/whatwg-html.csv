@@ -968,7 +968,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1400696912,false,Editorial: consider using Infra maps instead of JS-spec Records more often,https://github.com/whatwg/html/issues/8363,2022-10-07T06:43:25Z,2022-10-07T06:43:25Z,domenic,clarification|integration,0
 1400071766,false,Allow workers & shared workers to be created within a service worker,https://github.com/whatwg/html/issues/8362,2022-10-06T17:41:40Z,2024-07-01T14:51:47Z,ian97531,addition/proposal|needs implementer interest|topic: workers,12
 1399126032,false,How do shadow roots and slots interact with the content model?,https://github.com/whatwg/html/issues/8361,2022-10-06T08:47:59Z,2022-10-07T10:52:20Z,castholm,,0
-1398190934,false,Proposal: showEmojiPicker() on HTMLInputElement/HTMLTextareaElement,https://github.com/whatwg/html/issues/8358,2022-10-05T18:23:44Z,2022-10-06T14:31:19Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,85
+1398190934,false,Proposal: showEmojiPicker() on HTMLInputElement/HTMLTextareaElement,https://github.com/whatwg/html/issues/8358,2022-10-05T18:23:44Z,2022-10-06T14:31:19Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,86
 1397339666,false,Add external import maps,https://github.com/whatwg/html/issues/8355,2022-10-05T07:08:53Z,2022-10-06T15:43:39Z,annevk,addition/proposal|topic: script,2
 1396727910,false,"Which type of replaced elements should a ""`<img>` with empty src or without src"" be treated",https://github.com/whatwg/html/issues/8354,2022-10-04T19:11:52Z,2022-10-14T18:58:36Z,cathiechen,topic: rendering|topic: img,0
 1396199556,true,Consistify spelling of realm,https://github.com/whatwg/html/issues/8353,2022-10-04T12:32:09Z,2022-10-06T07:14:58Z,annevk,clarification,0
@@ -1282,7 +1282,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1121252070,true,Remove concept of expressly inert?,https://github.com/whatwg/html/issues/7564,2022-02-01T22:10:09Z,2022-02-07T01:19:46Z,Loirooriol,topic: focus,0
 1120480673,false,Clarify the semantic scope of the menu element,https://github.com/whatwg/html/issues/7562,2022-02-01T10:23:18Z,2022-02-16T11:24:18Z,kantoche,accessibility,0
 1119962138,false,"Suggestion - Allow ""<slot>"" to provide options for select or datalist",https://github.com/whatwg/html/issues/7560,2022-01-31T21:40:11Z,2022-02-15T11:13:30Z,jogibear9988,addition/proposal|needs implementer interest|topic: shadow,0
-1116552451,false,Allow authors to apply new css features (like cascade layers) while linking stylesheets,https://github.com/whatwg/html/issues/7540,2022-01-27T17:28:58Z,2024-02-28T10:10:47Z,mirisuzanne,addition/proposal|needs implementer interest|topic: style,21
+1116552451,false,Allow authors to apply new css features (like cascade layers) while linking stylesheets,https://github.com/whatwg/html/issues/7540,2022-01-27T17:28:58Z,2024-02-28T10:10:47Z,mirisuzanne,addition/proposal|needs implementer interest|topic: style,23
 1115846973,false,Can I set image as image data instead of base64??,https://github.com/whatwg/html/issues/7538,2022-01-27T07:04:18Z,2022-02-10T08:19:30Z,slugger941,,0
 1114394627,false,Explicit display:none should prevent element from being used as relevant canvas fallback content,https://github.com/whatwg/html/issues/7534,2022-01-25T21:46:53Z,2022-02-16T14:20:15Z,Loirooriol,topic: canvas|accessibility|topic: focus|a11y-tracker,0
 1114233124,false,URL-bar triggered prerendering,https://github.com/whatwg/html/issues/7533,2022-01-25T18:35:01Z,2022-02-03T21:27:07Z,domenic,addition/proposal|topic: navigation|topic: browsing context,2
@@ -1603,7 +1603,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 872435429,true,Cross-Origin-Embedder-Policy: credentialless,https://github.com/whatwg/html/issues/6637,2021-04-30T12:33:31Z,2021-11-02T12:55:38Z,ArthurSonzogni,topic: cross-origin-embedder-policy,0
 872131730,false,Lazy loading video element poster attribute,https://github.com/whatwg/html/issues/6636,2021-04-30T07:54:55Z,2024-05-29T19:10:59Z,asuh,addition/proposal|topic: media,14
 872059164,true,`:active` pseudo-class specification doesn't account for children/labels of disabled form elements,https://github.com/whatwg/html/issues/6635,2021-04-30T02:11:14Z,2022-02-10T19:06:49Z,alystair,topic: rendering|topic: forms,0
-870905892,false,Allow <source> to use <img>'s sizes data as a fallback,https://github.com/whatwg/html/issues/6633,2021-04-29T11:24:34Z,2022-02-04T15:46:29Z,jakearchibald,addition/proposal|topic: img,32
+870905892,false,Allow <source> to use <img>'s sizes data as a fallback,https://github.com/whatwg/html/issues/6633,2021-04-29T11:24:34Z,2022-02-04T15:46:29Z,jakearchibald,addition/proposal|topic: img,34
 870188337,true,import.meta.url always uses percent-encodings,https://github.com/whatwg/html/issues/6630,2021-04-28T17:34:16Z,2023-02-24T16:09:38Z,guybedford,,0
 869976363,true,Contiguous window.name leads to weirdness,https://github.com/whatwg/html/issues/6628,2021-04-28T13:54:39Z,2022-10-31T05:07:05Z,jakearchibald,topic: history|interop,1
 869891051,false,Add alt attributes to source elements,https://github.com/whatwg/html/issues/6627,2021-04-28T12:27:32Z,2021-05-17T15:43:12Z,johannesodland,addition/proposal|needs implementer interest|accessibility|topic: img|i18n-tracker,3
@@ -2341,7 +2341,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 503606041,false,Multiple Selections from Datalist,https://github.com/whatwg/html/issues/4979,2019-10-07T18:06:20Z,2021-03-21T00:07:52Z,ecc521,addition/proposal|needs implementer interest|topic: forms,2
 503303399,false,"Remove the ""template"" use case for hidden=""""",https://github.com/whatwg/html/issues/4977,2019-10-07T08:28:24Z,2019-10-07T09:15:35Z,zcorpan,document conformance,2
 502238532,true,nullable window.top.,https://github.com/whatwg/html/issues/4971,2019-10-03T18:56:16Z,2019-10-11T17:09:23Z,jdalton,,0
-502234364,true,"Utilizing Aspect-Ratio with Art Direction (Multiple Sources with various Aspect Ratios known) ",https://github.com/whatwg/html/issues/4968,2019-10-03T18:47:14Z,2022-12-06T08:20:18Z,AndresInSpace,addition/proposal|needs implementer interest|topic: rendering|topic: img,72
+502234364,true,"Utilizing Aspect-Ratio with Art Direction (Multiple Sources with various Aspect Ratios known) ",https://github.com/whatwg/html/issues/4968,2019-10-03T18:47:14Z,2022-12-06T08:20:18Z,AndresInSpace,addition/proposal|needs implementer interest|topic: rendering|topic: img,73
 502198957,false,load event handling for iframes with no src may not be web compatible,https://github.com/whatwg/html/issues/4965,2019-10-03T17:31:29Z,2020-01-16T10:26:55Z,bzbarsky,compat|topic: browsing context,0
 501429792,true,Use width and height as intrinsic aspect ratio for various non-img elements,https://github.com/whatwg/html/issues/4961,2019-10-02T11:24:59Z,2021-05-12T13:06:11Z,annevk,addition/proposal|topic: media|topic: rendering|topic: img|needs concrete proposal,0
 499962415,false,"Time is defined to have a fraction of a second part, but this is never used",https://github.com/whatwg/html/issues/4949,2019-09-29T19:54:43Z,2019-09-30T12:08:41Z,Zegnat,,0
@@ -3444,7 +3444,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 253846328,true,Can we expose HTMLMediaElement or equivalent object in DedicatedWorkerGlobalScope and SharedWorkerGlobalScope ?,https://github.com/whatwg/html/issues/2979,2017-08-30T00:51:02Z,2017-08-30T13:59:17Z,guest271314,topic: media,0
 253763249,true,"Path2D interface has two'Exposed extended attributes, each with different values.",https://github.com/whatwg/html/issues/2978,2017-08-29T18:40:14Z,2017-08-30T12:19:17Z,samweinig,good first issue|topic: canvas,0
 253636240,true,Link to <flag-icon> is broken.,https://github.com/whatwg/html/issues/2977,2017-08-29T12:18:19Z,2017-08-30T04:57:20Z,a1626,good first issue|topic: custom elements,0
-253541995,false,Add height-based selection to srcset/sizes,https://github.com/whatwg/html/issues/2973,2017-08-29T06:28:09Z,2022-02-05T20:26:39Z,zcorpan,addition/proposal|needs implementer interest|topic: img,25
+253541995,false,Add height-based selection to srcset/sizes,https://github.com/whatwg/html/issues/2973,2017-08-29T06:28:09Z,2022-02-05T20:26:39Z,zcorpan,addition/proposal|needs implementer interest|topic: img,26
 253031635,true,Html5,https://github.com/whatwg/html/issues/2966,2017-08-25T22:22:58Z,2017-08-25T22:38:33Z,antonychrist,,0
 252764066,true,How to name videos in <source>? (missing spec),https://github.com/whatwg/html/issues/2964,2017-08-25T00:04:43Z,2017-08-25T00:11:02Z,binarykitchen,topic: media,0
 252164620,false,beforeunload for post-pushState/replaceState navigations,https://github.com/whatwg/html/issues/2961,2017-08-23T05:37:06Z,2021-02-02T20:25:03Z,phistuck,addition/proposal|needs implementer interest|topic: history,0
@@ -4065,7 +4065,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 178851078,false,"Should the contents of display:none iframes really be considered as ""being rendered""?",https://github.com/whatwg/html/issues/1813,2016-09-23T11:17:56Z,2020-09-09T09:39:20Z,bzbarsky,topic: rendering,0
 178821051,true,Should we use option's label or value to match user's input in list attribute?,https://github.com/whatwg/html/issues/1811,2016-09-23T08:56:45Z,2021-12-11T08:54:28Z,jessi3py-zz,compat|topic: forms,0
 178710781,true,"Drop a, area and frameset from the ""document-tree child browsing context name property set""?",https://github.com/whatwg/html/issues/1810,2016-09-22T20:21:42Z,2016-10-06T08:17:06Z,cdumez,,0
-178611737,false,"[Proposal] New tags <tabsection>, <tablist>, <tab>, <tabpanel>",https://github.com/whatwg/html/issues/1809,2016-09-22T13:36:32Z,2019-07-19T14:15:41Z,Mevrael,addition/proposal|needs implementer interest,21
+178611737,false,"[Proposal] New tags <tabsection>, <tablist>, <tab>, <tabpanel>",https://github.com/whatwg/html/issues/1809,2016-09-22T13:36:32Z,2019-07-19T14:15:41Z,Mevrael,addition/proposal|needs implementer interest,22
 178441326,false,Canvas 2D arcTo assumes current transform is invertible,https://github.com/whatwg/html/issues/1808,2016-09-21T19:31:01Z,2016-09-21T19:45:54Z,junov,topic: canvas,0
 178427470,true,Should accessing location.href cross-origin throw a SecurityError?,https://github.com/whatwg/html/issues/1807,2016-09-21T18:33:59Z,2016-09-26T17:15:48Z,cdumez,,0
 178382703,false,Feature request: preview thumbnail video when seeking a video,https://github.com/whatwg/html/issues/1806,2016-09-21T15:32:16Z,2016-09-21T16:12:21Z,zcorpan,addition/proposal|topic: media,1
