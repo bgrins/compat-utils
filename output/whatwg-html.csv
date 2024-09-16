@@ -1,9 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2527256737,false,`beforeunload` should fire for documents with active Media Capture,https://github.com/whatwg/html/issues/10627,2024-09-15T23:24:49Z,2024-09-15T23:30:07Z,thexeos,addition/proposal|needs implementer interest,0
-2526786372,false,"Description corresponding of ""Any other attribute"" of embed element is not found",https://github.com/whatwg/html/issues/10626,2024-09-15T07:41:34Z,2024-09-15T07:41:34Z,mtrootyy,,0
-2526155613,false,BigInt serialization,https://github.com/whatwg/html/issues/10625,2024-09-14T09:32:56Z,2024-09-14T16:44:57Z,BlobTheKat,addition/proposal|needs implementer interest,0
+2526786372,false,"Description corresponding of ""Any other attribute"" of embed element is not found",https://github.com/whatwg/html/issues/10626,2024-09-15T07:41:34Z,2024-09-16T09:24:37Z,mtrootyy,topic: embed and object,0
+2526155613,true,BigInt serialization,https://github.com/whatwg/html/issues/10625,2024-09-14T09:32:56Z,2024-09-16T06:55:48Z,BlobTheKat,addition/proposal|needs implementer interest,0
 2526138811,true,"Float16 support (WebGL, DataView, etc...)",https://github.com/whatwg/html/issues/10624,2024-09-14T09:17:17Z,2024-09-15T11:31:56Z,BlobTheKat,addition/proposal|needs implementer interest,0
-2523333230,false,`colgroup` elements should map `width` attribute to the dimension property `width`,https://github.com/whatwg/html/issues/10623,2024-09-12T20:54:02Z,2024-09-12T20:54:02Z,Loirooriol,,0
+2523333230,false,`colgroup` elements should map `width` attribute to the dimension property `width`,https://github.com/whatwg/html/issues/10623,2024-09-12T20:54:02Z,2024-09-16T09:06:06Z,Loirooriol,topic: rendering|topic: table,0
 2523321603,false,Upcoming WHATNOT meeting on 2024-09-19,https://github.com/whatwg/html/issues/10622,2024-09-12T20:47:06Z,2024-09-12T20:47:06Z,past,agenda+,0
 2523135333,false,"Behaviour of ""reload"" navigationType in "" inner navigate event firing algorithm"" algorithm",https://github.com/whatwg/html/issues/10621,2024-09-12T19:02:45Z,2024-09-12T19:02:45Z,rwlbuis,,0
 2520517665,false,HTML Integration with ESM Source Phase,https://github.com/whatwg/html/issues/10617,2024-09-11T18:56:32Z,2024-09-11T18:56:33Z,guybedford,,0
@@ -28,7 +28,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2495901933,true,Spec is missing that </p> is optional before <dialog>,https://github.com/whatwg/html/issues/10590,2024-08-30T00:43:44Z,2024-09-04T10:51:09Z,laughinghan,,1
 2495218582,true,Upcoming WHATNOT meeting on 2024-09-05,https://github.com/whatwg/html/issues/10589,2024-08-29T18:06:58Z,2024-09-05T16:15:28Z,past,agenda+,0
 2492588952,false,Iframe `sandbox` compatibility with Service Workers,https://github.com/whatwg/html/issues/10585,2024-08-28T16:56:47Z,2024-08-28T16:56:47Z,BlobTheKat,addition/proposal|needs implementer interest,2
-2492022165,false,A way to get mouse coordinates without mouse moving,https://github.com/whatwg/html/issues/10584,2024-08-28T13:03:38Z,2024-09-14T09:46:20Z,oleedd,addition/proposal|needs implementer interest,0
+2492022165,false,A way to get mouse coordinates without mouse moving,https://github.com/whatwg/html/issues/10584,2024-08-28T13:03:38Z,2024-09-16T10:51:24Z,oleedd,addition/proposal|needs implementer interest,0
 2491641714,false,"Interactions between `inert` and `hidden=""until-found""` and `beforematch` events",https://github.com/whatwg/html/issues/10583,2024-08-28T10:04:54Z,2024-08-28T10:09:42Z,romainmenke,,0
 2490185456,true,Meeting 7 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10582,2024-08-27T19:39:46Z,2024-09-09T20:57:48Z,josepharhar,agenda+,0
 2489366691,true,Add code-lang attribute to code element,https://github.com/whatwg/html/issues/10580,2024-08-27T13:25:57Z,2024-08-27T19:29:31Z,extua,addition/proposal|needs implementer interest,5
@@ -546,7 +546,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1833113198,true,Add earlier snapshots than 2015 and add yearly snapshots,https://github.com/whatwg/html/issues/9577,2023-08-02T12:42:48Z,2023-08-02T13:12:58Z,Janghou,,0
 1833061471,true,Allow adding custom headers in WebSocket connection,https://github.com/whatwg/html/issues/9576,2023-08-02T12:10:41Z,2023-08-02T12:19:05Z,josephrocca,,0
 1831743537,true,event.source for message events from a BroadcastChannel,https://github.com/whatwg/html/issues/9574,2023-08-01T17:37:46Z,2023-08-02T02:26:46Z,vrugtehagel,,0
-1830647462,false,"Allow empty input[type=""color""] value",https://github.com/whatwg/html/issues/9572,2023-08-01T07:34:59Z,2023-10-01T15:33:19Z,ksa242,addition/proposal|needs implementer interest,1
+1830647462,false,"Allow empty input[type=""color""] value",https://github.com/whatwg/html/issues/9572,2023-08-01T07:34:59Z,2023-10-01T15:33:19Z,ksa242,addition/proposal|needs implementer interest,2
 1829921287,false,Use inside settings to fetch the descendants of module worker in the worker module script graph,https://github.com/whatwg/html/issues/9571,2023-07-31T19:56:40Z,2023-12-11T14:53:17Z,allstarschh,,1
 1827227550,true,Should trailing periods in the username portion of email addresses be valid?,https://github.com/whatwg/html/issues/9567,2023-07-29T00:05:18Z,2023-07-31T17:10:04Z,josepharhar,,0
 1826703340,true,Standardize UA styles / presentational hints for `embed hidden`,https://github.com/whatwg/html/issues/9564,2023-07-28T16:14:28Z,2023-09-04T19:24:44Z,nt1m,,0
@@ -611,7 +611,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1742022432,false,Constraint Validation IDL is reiterated multiple times,https://github.com/whatwg/html/issues/9385,2023-06-05T15:24:07Z,2023-06-09T07:20:27Z,clshortfuse,clarification|topic: forms,0
 1741686583,true,"Should ""show popover"" assert the element's popover invoker is null?",https://github.com/whatwg/html/issues/9383,2023-06-05T12:38:07Z,2023-07-20T06:32:40Z,mbrodesser-Igalia,clarification|topic: popover,0
 1740502906,false,"popover: expect a way to watch all ""`toggle`"" events even in shadow DOM on `window`",https://github.com/whatwg/html/issues/9381,2023-06-04T17:44:23Z,2023-10-22T02:34:41Z,gdh1995,addition/proposal|topic: popover,0
-1740428387,false,Add `class` & `for` aliases for `className` and `htmlFor`,https://github.com/whatwg/html/issues/9379,2023-06-04T15:17:46Z,2023-06-06T10:05:13Z,jakearchibald,addition/proposal|needs implementer interest,190
+1740428387,false,Add `class` & `for` aliases for `className` and `htmlFor`,https://github.com/whatwg/html/issues/9379,2023-06-04T15:17:46Z,2023-06-06T10:05:13Z,jakearchibald,addition/proposal|needs implementer interest,191
 1738596106,false,Should we deprecate `dialog.show()`?,https://github.com/whatwg/html/issues/9376,2023-06-02T18:02:06Z,2023-11-09T21:17:57Z,mfreed7,removal/deprecation|topic: dialog,16
 1738480470,true,Upcoming HTML standard issue triage meeting on 6/15/2023,https://github.com/whatwg/html/issues/9375,2023-06-02T16:22:45Z,2023-06-15T17:55:09Z,past,agenda+,0
 1736830044,false,Add light dismiss functionality to `<dialog>`,https://github.com/whatwg/html/issues/9373,2023-06-01T18:07:13Z,2024-06-18T12:27:31Z,mfreed7,addition/proposal|needs implementer interest|topic: dialog|topic: close watchers,34
@@ -847,7 +847,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1530834734,true,Additional accessibility guidance for popover,https://github.com/whatwg/html/issues/8714,2023-01-12T14:42:51Z,2023-03-20T12:55:09Z,scottaohara,topic: popover,1
 1530043744,true,"""Nested navigable"" and ""child navigable"" are easy to confuse",https://github.com/whatwg/html/issues/8713,2023-01-12T03:40:54Z,2023-01-19T04:29:10Z,domenic,clarification|topic: browsing context,0
 1528456422,false,Is HTMLImgElement.decode() a cross-origin info channel?,https://github.com/whatwg/html/issues/8709,2023-01-11T05:29:17Z,2023-02-24T15:08:57Z,noamr,security/privacy|topic: img,1
-1528111766,false,Float16Array + HTML Canvas,https://github.com/whatwg/html/issues/8708,2023-01-10T22:41:56Z,2024-09-15T09:53:39Z,palemieux,addition/proposal|needs implementer interest|topic: canvas,2
+1528111766,false,Float16Array + HTML Canvas,https://github.com/whatwg/html/issues/8708,2023-01-10T22:41:56Z,2024-09-16T00:56:41Z,palemieux,addition/proposal|needs implementer interest|topic: canvas,2
 1528108331,false,Selecting text in the <summary> tag activates the details/summary (opens/closes the details tag),https://github.com/whatwg/html/issues/8707,2023-01-10T22:37:46Z,2023-08-21T18:58:57Z,gijsk,topic: events|integration|topic: user activation,0
 1527085260,true,How should I convert HTML to Plain Text?,https://github.com/whatwg/html/issues/8705,2023-01-10T09:54:24Z,2023-01-10T10:21:16Z,MAMPAgent,,0
 1524706667,true,"""The XML syntax for HTML was formerly referred t...""",https://github.com/whatwg/html/issues/8700,2023-01-08T22:23:56Z,2023-01-12T01:51:14Z,PuppyPi,,0
@@ -2265,7 +2265,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 532885949,true,Clarify how to handle postMessage-ing a closing/closed DedicatedWorker,https://github.com/whatwg/html/issues/5125,2019-12-04T19:26:32Z,2019-12-04T22:14:53Z,perryjiang,,0
 532843497,false,"Add a resize observer step to the ""update the rendering"" steps",https://github.com/whatwg/html/issues/5124,2019-12-04T17:56:04Z,2019-12-05T10:57:27Z,smfr,topic: rendering|integration,2
 532638143,true,Offering origin isolation through cross-origin isolation,https://github.com/whatwg/html/issues/5122,2019-12-04T11:57:10Z,2020-07-08T09:05:32Z,annevk,needs compat analysis|topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,1
-531927763,false,Add &nnbsp; entity for U+202F,https://github.com/whatwg/html/issues/5121,2019-12-03T11:46:46Z,2024-02-22T20:15:36Z,ygoe,addition/proposal|needs implementer interest|topic: parser|i18n-tracker|i18n-alreq|i18n-amlreq|i18n-mlreq,5
+531927763,false,Add &nnbsp; entity for U+202F,https://github.com/whatwg/html/issues/5121,2019-12-03T11:46:46Z,2024-02-22T20:15:36Z,ygoe,addition/proposal|needs implementer interest|topic: parser|i18n-tracker|i18n-alreq|i18n-amlreq|i18n-mlreq,6
 531506929,true,Misprint in example code,https://github.com/whatwg/html/issues/5119,2019-12-02T20:03:58Z,2020-01-09T09:07:58Z,johnnygerard,good first issue,0
 531353224,true,Should infinite recursion of custom element constructors be possible?,https://github.com/whatwg/html/issues/5118,2019-12-02T17:47:52Z,2020-01-22T19:39:18Z,mfreed7,topic: custom elements,0
 531174887,true,Parsing of <svg><p> in innerHTML is not interoperable,https://github.com/whatwg/html/issues/5117,2019-12-02T14:45:48Z,2021-03-02T17:08:46Z,zcorpan,topic: parser|interop,0
@@ -2364,7 +2364,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 497040604,false,Define a policy container,https://github.com/whatwg/html/issues/4926,2019-09-23T11:28:43Z,2021-05-21T10:44:17Z,annevk,clarification|needs tests|interop|integration|topic: policy container,6
 496594293,true,Design questions about IDREF/Element attribute reflection,https://github.com/whatwg/html/issues/4925,2019-09-21T00:49:20Z,2022-06-30T08:19:53Z,alice,accessibility,0
 496188244,true,COEP mismatches in dedicated workers should block.,https://github.com/whatwg/html/issues/4924,2019-09-20T07:14:14Z,2020-04-20T09:12:18Z,mikewest,topic: cross-origin-embedder-policy,0
-495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2024-01-31T10:50:35Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,193
+495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2024-01-31T10:50:35Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,194
 495810632,false,Allow an extra dimension to the size array for 3D favicon,https://github.com/whatwg/html/issues/4922,2019-09-19T13:46:29Z,2021-01-28T22:05:11Z,rcabanier,addition/proposal|needs implementer interest|topic: link,0
 495595729,true,Decide how to treat CSP sandbox in COOP,https://github.com/whatwg/html/issues/4921,2019-09-19T06:18:06Z,2020-06-24T17:33:26Z,shhnjk,security/privacy|topic: cross-origin-opener-policy,0
 495587240,true,Consider restricting SharedArrayBuffer to same-origin usage,https://github.com/whatwg/html/issues/4920,2019-09-19T05:50:59Z,2019-12-05T15:38:02Z,annevk,addition/proposal|topic: serialize and transfer,0
