@@ -13,10 +13,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2518316469,false,Provide an API for getting visible caret position in textarea/input element,https://github.com/whatwg/html/issues/10614,2024-09-11T02:30:18Z,2024-09-11T17:09:37Z,siliu1,,0
 2516526415,false,"Automated `window.exportPdf()`,  Leveraging Browser's Print Save As PDF functionality",https://github.com/whatwg/html/issues/10612,2024-09-10T13:43:56Z,2024-09-19T07:10:57Z,apurvaojas,addition/proposal|needs implementer interest,1
 2515236890,false,createImageBitmap's Promise resolving,https://github.com/whatwg/html/issues/10611,2024-09-10T01:59:12Z,2024-09-19T08:02:38Z,Kaiido,topic: canvas|interop,0
-2515213556,false,"HTML spec: section 4.11.1, for `<details>` (`HTMLDetailsElement`), should probably briefly but explicitly state that the element uses shadow DOM, and should probably link to section 15.5.5 to direct readers to further information",https://github.com/whatwg/html/issues/10610,2024-09-10T01:32:54Z,2024-09-10T01:32:54Z,DavidJCobb,,0
+2515213556,false,"HTML spec: section 4.11.1, for `<details>` (`HTMLDetailsElement`), should probably briefly but explicitly state that the element uses shadow DOM, and should probably link to section 15.5.5 to direct readers to further information",https://github.com/whatwg/html/issues/10610,2024-09-10T01:32:54Z,2024-09-19T12:26:56Z,DavidJCobb,clarification|topic: rendering,0
 2514878452,false,Meeting 8 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10609,2024-09-09T20:41:39Z,2024-09-12T18:58:12Z,josepharhar,agenda+,0
 2514047453,false,Missing tasks in parallel steps in HTML Standard,https://github.com/whatwg/html/issues/10608,2024-09-09T13:55:25Z,2024-09-09T13:55:25Z,dontcallmedom-bot,,0
-2510785236,false,Is it ok for `appearance:base` `<select>` not to require user activation before `showPicker()`?,https://github.com/whatwg/html/issues/10604,2024-09-06T16:19:28Z,2024-09-07T18:49:50Z,mfreed7,,0
+2510785236,false,Is it ok for `appearance:base` `<select>` not to require user activation before `showPicker()`?,https://github.com/whatwg/html/issues/10604,2024-09-06T16:19:28Z,2024-09-19T12:29:07Z,mfreed7,topic: forms|topic: user activation,0
 2509133680,true,Request: Add Japanese and Korean Translations Links to the Wiki,https://github.com/whatwg/html/issues/10603,2024-09-06T00:31:10Z,2024-09-06T03:06:13Z,JinDX,,0
 2508209910,true,Upcoming WHATNOT meeting on 2024-09-12,https://github.com/whatwg/html/issues/10601,2024-09-05T16:10:00Z,2024-09-12T20:51:35Z,past,agenda+,0
 2507166843,false,ElementInternals reportValidity() should focus the validation anchor element,https://github.com/whatwg/html/issues/10600,2024-09-05T08:45:48Z,2024-09-05T09:20:19Z,zcorpan,topic: forms,0
@@ -33,7 +33,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2491641714,false,"Interactions between `inert` and `hidden=""until-found""` and `beforematch` events",https://github.com/whatwg/html/issues/10583,2024-08-28T10:04:54Z,2024-08-28T10:09:42Z,romainmenke,,0
 2490185456,true,Meeting 7 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10582,2024-08-27T19:39:46Z,2024-09-09T20:57:48Z,josepharhar,agenda+,0
 2489366691,true,Add code-lang attribute to code element,https://github.com/whatwg/html/issues/10580,2024-08-27T13:25:57Z,2024-08-27T19:29:31Z,extua,addition/proposal|needs implementer interest,5
-2486412196,false,"createImageBitmap: Clarify treatment of colorSpaceConversion:""none"" ImageBitmaps",https://github.com/whatwg/html/issues/10578,2024-08-26T09:36:10Z,2024-08-28T13:55:23Z,ccameron-chromium,clarification|topic: canvas,0
+2486412196,false,"createImageBitmap: Clarify treatment of colorSpaceConversion:""none"" ImageBitmaps",https://github.com/whatwg/html/issues/10578,2024-08-26T09:36:10Z,2024-09-19T13:56:49Z,ccameron-chromium,clarification|topic: canvas,0
 2486388616,false,createImageBitmap: Apply img and blob colorSpaceConversion to all sources.,https://github.com/whatwg/html/issues/10577,2024-08-26T09:25:21Z,2024-08-27T14:41:10Z,ccameron-chromium,topic: canvas,0
 2484731873,true,syntax for defining blocks of javascript files,https://github.com/whatwg/html/issues/10576,2024-08-24T17:10:21Z,2024-08-25T03:21:33Z,arcanisgk,addition/proposal|needs implementer interest,0
 2481972589,true,Upcoming WHATNOT meeting on 2024-08-29,https://github.com/whatwg/html/issues/10574,2024-08-22T23:27:09Z,2024-08-29T18:20:31Z,past,agenda+,0
@@ -612,7 +612,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1742022432,false,Constraint Validation IDL is reiterated multiple times,https://github.com/whatwg/html/issues/9385,2023-06-05T15:24:07Z,2023-06-09T07:20:27Z,clshortfuse,clarification|topic: forms,0
 1741686583,true,"Should ""show popover"" assert the element's popover invoker is null?",https://github.com/whatwg/html/issues/9383,2023-06-05T12:38:07Z,2023-07-20T06:32:40Z,mbrodesser-Igalia,clarification|topic: popover,0
 1740502906,false,"popover: expect a way to watch all ""`toggle`"" events even in shadow DOM on `window`",https://github.com/whatwg/html/issues/9381,2023-06-04T17:44:23Z,2023-10-22T02:34:41Z,gdh1995,addition/proposal|topic: popover,0
-1740428387,false,Add `class` & `for` aliases for `className` and `htmlFor`,https://github.com/whatwg/html/issues/9379,2023-06-04T15:17:46Z,2024-09-18T16:47:37Z,jakearchibald,addition/proposal|needs implementer interest|agenda+,211
+1740428387,false,Add `class` & `for` aliases for `className` and `htmlFor`,https://github.com/whatwg/html/issues/9379,2023-06-04T15:17:46Z,2024-09-18T16:47:37Z,jakearchibald,addition/proposal|needs implementer interest|agenda+,212
 1738596106,false,Should we deprecate `dialog.show()`?,https://github.com/whatwg/html/issues/9376,2023-06-02T18:02:06Z,2023-11-09T21:17:57Z,mfreed7,removal/deprecation|topic: dialog,16
 1738480470,true,Upcoming HTML standard issue triage meeting on 6/15/2023,https://github.com/whatwg/html/issues/9375,2023-06-02T16:22:45Z,2023-06-15T17:55:09Z,past,agenda+,0
 1736830044,false,Add light dismiss functionality to `<dialog>`,https://github.com/whatwg/html/issues/9373,2023-06-01T18:07:13Z,2024-06-18T12:27:31Z,mfreed7,addition/proposal|needs implementer interest|topic: dialog|topic: close watchers,34
@@ -2782,7 +2782,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 383304020,true,Should clearly define that the ordinary object internal methods are used when not stated otherwise for WindowProxy and Location,https://github.com/whatwg/html/issues/4189,2018-11-21T21:49:36Z,2018-11-27T14:13:43Z,bzbarsky,,0
 383274575,false,Definition of stable state in terms of microtasks does not seem to match browsers,https://github.com/whatwg/html/issues/4188,2018-11-21T20:04:20Z,2019-01-24T01:57:02Z,bzbarsky,topic: event loop,0
 383218019,true,Proposal: allow a mode of form.submit() that behaves like clicking a submit button,https://github.com/whatwg/html/issues/4187,2018-11-21T17:13:17Z,2019-05-16T19:06:55Z,domenic,addition/proposal|topic: forms,8
-382252874,false,<input type=checkbox switch>,https://github.com/whatwg/html/issues/4180,2018-11-19T14:59:03Z,2024-03-27T18:32:55Z,atishay,addition/proposal|topic: rendering|accessibility|topic: forms|a11y-tracker,65
+382252874,false,<input type=checkbox switch>,https://github.com/whatwg/html/issues/4180,2018-11-19T14:59:03Z,2024-03-27T18:32:55Z,atishay,addition/proposal|topic: rendering|accessibility|topic: forms|a11y-tracker,66
 381558762,true,Consider downloading rather than rendering resources delivered over FTP.,https://github.com/whatwg/html/issues/4178,2018-11-16T11:22:50Z,2018-12-13T14:59:42Z,mikewest,addition/proposal|topic: navigation,1
 381175681,true,Rendering <input type=range> vertically,https://github.com/whatwg/html/issues/4177,2018-11-15T14:05:52Z,2024-03-04T07:10:36Z,MatsPalmgren,topic: rendering|topic: forms,8
 380737191,false,Potentially don't revalidate /favicon.ico fetches,https://github.com/whatwg/html/issues/4176,2018-11-14T14:58:42Z,2018-11-14T16:38:09Z,annevk,compat|topic: link,0
@@ -3548,7 +3548,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 239026363,true,Output caniuse boxes in the dev edition as well,https://github.com/whatwg/html/issues/2794,2017-06-28T01:17:17Z,2017-08-19T13:19:50Z,domenic,dev edition,0
 239022536,false,Allow expanding to the full table of contents in the dev edition,https://github.com/whatwg/html/issues/2793,2017-06-28T00:47:56Z,2024-02-10T21:58:14Z,domenic,spec tooling|dev edition,0
 238786200,true,take port into account for same-origin domain check,https://github.com/whatwg/html/issues/2792,2017-06-27T09:15:55Z,2018-08-07T16:14:03Z,jeisinger,normative change|needs implementer interest|security/privacy|needs compat analysis|topic: origin,0
-238741867,false,Client side include feature for HTML,https://github.com/whatwg/html/issues/2791,2017-06-27T05:36:13Z,2024-09-18T02:38:11Z,TakayoshiKochi,addition/proposal|needs implementer interest,127
+238741867,false,Client side include feature for HTML,https://github.com/whatwg/html/issues/2791,2017-06-27T05:36:13Z,2024-09-19T18:00:49Z,TakayoshiKochi,addition/proposal|needs implementer interest,127
 238161134,true,typo?,https://github.com/whatwg/html/issues/2788,2017-06-23T14:35:44Z,2017-06-26T19:34:34Z,momdo,,0
 238026392,false,"""its associated CSS layout box""",https://github.com/whatwg/html/issues/2786,2017-06-23T02:47:39Z,2017-06-30T18:14:01Z,cvrebert,clarification,0
 237922790,false,Add inline annotations of the bibliography references,https://github.com/whatwg/html/issues/2782,2017-06-22T17:47:29Z,2024-02-10T21:58:35Z,domenic,spec tooling|dev edition,1
@@ -3774,7 +3774,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 210038745,true,There is no field on the error event that would carry an error reason when adding a script to DOM fails,https://github.com/whatwg/html/issues/2395,2017-02-24T12:39:11Z,2017-03-09T23:37:40Z,juj,,0
 209939532,true,Define focus behavior for `<dialog>` element with Shadow DOM,https://github.com/whatwg/html/issues/2393,2017-02-24T02:02:24Z,2021-11-18T18:13:15Z,TakayoshiKochi,topic: shadow|topic: focus|topic: dialog,0
 209794160,true,"""has focus steps"" ignores window focus",https://github.com/whatwg/html/issues/2391,2017-02-23T15:28:14Z,2020-01-10T19:14:46Z,jakearchibald,topic: focus,0
-209787480,false,Standardize YouTube embed rewriting?,https://github.com/whatwg/html/issues/2390,2017-02-23T15:05:26Z,2024-09-13T08:58:34Z,RByers,compat|topic: media|document conformance|interop|topic: embed and object,4
+209787480,false,Standardize YouTube embed rewriting?,https://github.com/whatwg/html/issues/2390,2017-02-23T15:05:26Z,2024-09-19T12:34:26Z,RByers,compat|topic: media|document conformance|interop|topic: embed and object,4
 209735300,false,Fire error event in more cases when URL fails to parse,https://github.com/whatwg/html/issues/2388,2017-02-23T11:27:32Z,2017-05-31T16:48:28Z,zcorpan,addition/proposal|topic: events,0
 209700505,false,<object> can parse the same URL multiple times (breaking blob: URL),https://github.com/whatwg/html/issues/2386,2017-02-23T08:57:37Z,2017-05-25T05:06:39Z,zcorpan,topic: embed and object,0
 209697490,false,"""update the image data"" can parse a URL twice (breaking blob: URLs)",https://github.com/whatwg/html/issues/2385,2017-02-23T08:42:26Z,2017-02-23T08:42:26Z,zcorpan,topic: img,0
@@ -3889,7 +3889,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 195734740,true,Wring,https://github.com/whatwg/html/issues/2181,2016-12-15T07:24:47Z,2016-12-15T07:25:56Z,cheoklune,,0
 195651796,true,Making Location.ancestorOrigins a FrozenArray is not Web-Compatible,https://github.com/whatwg/html/issues/2179,2016-12-14T21:33:44Z,2017-01-13T00:55:08Z,cdumez,,0
 195558416,true,"""when a select element does not have a sizes attribute""",https://github.com/whatwg/html/issues/2178,2016-12-14T15:18:37Z,2017-02-23T16:42:03Z,deltab,good first issue,0
-195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2024-08-26T00:53:41Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,139
+195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2024-08-26T00:53:41Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,140
 195497838,true,selectionStart/End/Direction on input and textarea should not be nullable,https://github.com/whatwg/html/issues/2175,2016-12-14T10:46:42Z,2017-01-18T09:22:04Z,foolip,,0
 195494630,true,pushState title is ignored in all implementations?,https://github.com/whatwg/html/issues/2174,2016-12-14T10:32:35Z,2021-03-15T16:59:58Z,foolip,topic: history|interop,3
 195385032,true,"""If the element is flagged as ""parser-inserted"",...""",https://github.com/whatwg/html/issues/2173,2016-12-13T22:18:17Z,2016-12-13T22:19:35Z,JosephPecoraro,,0
