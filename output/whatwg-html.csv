@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2541183474,false,Allow a persistent CustomStateSet across elements,https://github.com/whatwg/html/issues/10638,2024-09-22T17:47:01Z,2024-09-22T23:31:48Z,ydaniv,addition/proposal|needs implementer interest,0
 2539834245,false,Expose all window APIs as built-in ES modules,https://github.com/whatwg/html/issues/10636,2024-09-21T00:05:00Z,2024-09-21T00:07:51Z,freshp86,addition/proposal|needs implementer interest,0
 2535581633,false,It is possible to create CloseWatchers for dialog elements and popovers which aren't in fully active document,https://github.com/whatwg/html/issues/10634,2024-09-19T07:57:10Z,2024-09-19T08:02:25Z,smaug----,topic: dialog|topic: close watchers,0
 2527256737,false,`beforeunload` should fire for documents with active Media Capture,https://github.com/whatwg/html/issues/10627,2024-09-15T23:24:49Z,2024-09-15T23:30:07Z,thexeos,addition/proposal|needs implementer interest,1
@@ -9,7 +10,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2523321603,true,Upcoming WHATNOT meeting on 2024-09-19,https://github.com/whatwg/html/issues/10622,2024-09-12T20:47:06Z,2024-09-18T17:13:52Z,past,agenda+,0
 2523135333,false,"Behaviour of ""reload"" navigationType in "" inner navigate event firing algorithm"" algorithm",https://github.com/whatwg/html/issues/10621,2024-09-12T19:02:45Z,2024-09-18T09:04:16Z,rwlbuis,topic: navigation,0
 2520517665,false,HTML Integration with ESM Source Phase,https://github.com/whatwg/html/issues/10617,2024-09-11T18:56:32Z,2024-09-18T14:32:18Z,guybedford,agenda+,0
-2521171236,false,Small CSS change to spec documentation for ease of use,https://github.com/whatwg/html/issues/10618,2024-09-11T18:11:57Z,2024-09-22T11:05:28Z,FredGandt,good first issue,0
+2521171236,false,Small CSS change to spec documentation for ease of use,https://github.com/whatwg/html/issues/10618,2024-09-11T18:11:57Z,2024-09-22T22:06:15Z,FredGandt,good first issue,0
 2518778352,false,Allowing to start cross-document transition immediately,https://github.com/whatwg/html/issues/10616,2024-09-11T07:17:10Z,2024-09-11T07:17:10Z,bakura10,,0
 2518316469,false,Provide an API for getting visible caret position in textarea/input element,https://github.com/whatwg/html/issues/10614,2024-09-11T02:30:18Z,2024-09-11T17:09:37Z,siliu1,,0
 2516526415,false,"Automated `window.exportPdf()`,  Leveraging Browser's Print Save As PDF functionality",https://github.com/whatwg/html/issues/10612,2024-09-10T13:43:56Z,2024-09-20T12:24:31Z,apurvaojas,addition/proposal|needs implementer interest,1
@@ -3118,7 +3119,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 307205459,true,Participation status checks not green on master,https://github.com/whatwg/html/issues/3582,2018-03-21T11:22:15Z,2018-04-26T19:14:37Z,annevk,spec tooling,0
 307189256,false,Editorial: (re)adopt ECMAScript conventions,https://github.com/whatwg/html/issues/3581,2018-03-21T10:29:42Z,2018-03-21T10:29:42Z,annevk,clarification,1
 307057087,false,window.customElements.define retrieves the lifetime callbacks in an odd order,https://github.com/whatwg/html/issues/3580,2018-03-20T22:10:12Z,2019-07-09T15:28:51Z,mrbkap,normative change|topic: custom elements,0
-306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2024-09-04T17:05:26Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,84
+306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2024-09-04T17:05:26Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,86
 306030693,false,<embed> and <object> should define cleanup steps,https://github.com/whatwg/html/issues/3576,2018-03-16T18:20:24Z,2018-04-04T14:24:31Z,zetafunction,topic: embed and object,0
 305999314,false,"What is the point of the ""NewTarget is equal to the active function object"" in [HTMLConstructor]?",https://github.com/whatwg/html/issues/3575,2018-03-16T16:43:28Z,2018-05-02T20:42:55Z,bzbarsky,topic: custom elements,0
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
@@ -4071,7 +4072,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 178851078,false,"Should the contents of display:none iframes really be considered as ""being rendered""?",https://github.com/whatwg/html/issues/1813,2016-09-23T11:17:56Z,2020-09-09T09:39:20Z,bzbarsky,topic: rendering,0
 178821051,true,Should we use option's label or value to match user's input in list attribute?,https://github.com/whatwg/html/issues/1811,2016-09-23T08:56:45Z,2021-12-11T08:54:28Z,jessi3py-zz,compat|topic: forms,0
 178710781,true,"Drop a, area and frameset from the ""document-tree child browsing context name property set""?",https://github.com/whatwg/html/issues/1810,2016-09-22T20:21:42Z,2016-10-06T08:17:06Z,cdumez,,0
-178611737,false,"[Proposal] New tags <tabsection>, <tablist>, <tab>, <tabpanel>",https://github.com/whatwg/html/issues/1809,2016-09-22T13:36:32Z,2019-07-19T14:15:41Z,Mevrael,addition/proposal|needs implementer interest,22
+178611737,false,"[Proposal] New tags <tabsection>, <tablist>, <tab>, <tabpanel>",https://github.com/whatwg/html/issues/1809,2016-09-22T13:36:32Z,2019-07-19T14:15:41Z,Mevrael,addition/proposal|needs implementer interest,23
 178441326,false,Canvas 2D arcTo assumes current transform is invertible,https://github.com/whatwg/html/issues/1808,2016-09-21T19:31:01Z,2016-09-21T19:45:54Z,junov,topic: canvas,0
 178427470,true,Should accessing location.href cross-origin throw a SecurityError?,https://github.com/whatwg/html/issues/1807,2016-09-21T18:33:59Z,2016-09-26T17:15:48Z,cdumez,,0
 178382703,false,Feature request: preview thumbnail video when seeking a video,https://github.com/whatwg/html/issues/1806,2016-09-21T15:32:16Z,2016-09-21T16:12:21Z,zcorpan,addition/proposal|topic: media,1
