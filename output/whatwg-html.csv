@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2541183474,false,Allow a persistent CustomStateSet across elements,https://github.com/whatwg/html/issues/10638,2024-09-22T17:47:01Z,2024-09-22T23:31:48Z,ydaniv,addition/proposal|needs implementer interest,0
-2539834245,false,Expose all window APIs as built-in ES modules,https://github.com/whatwg/html/issues/10636,2024-09-21T00:05:00Z,2024-09-21T00:07:51Z,freshp86,addition/proposal|needs implementer interest,0
+2541183474,false,Allow a persistent CustomStateSet across elements,https://github.com/whatwg/html/issues/10638,2024-09-22T17:47:01Z,2024-09-23T03:28:47Z,ydaniv,addition/proposal|needs implementer interest,0
+2539834245,false,Expose all window APIs as built-in ES modules,https://github.com/whatwg/html/issues/10636,2024-09-21T00:05:00Z,2024-09-23T08:07:43Z,freshp86,addition/proposal|needs implementer interest,0
 2535581633,false,It is possible to create CloseWatchers for dialog elements and popovers which aren't in fully active document,https://github.com/whatwg/html/issues/10634,2024-09-19T07:57:10Z,2024-09-19T08:02:25Z,smaug----,topic: dialog|topic: close watchers,0
 2527256737,false,`beforeunload` should fire for documents with active Media Capture,https://github.com/whatwg/html/issues/10627,2024-09-15T23:24:49Z,2024-09-15T23:30:07Z,thexeos,addition/proposal|needs implementer interest,1
 2526786372,false,"Description corresponding of ""Any other attribute"" of embed element is not found",https://github.com/whatwg/html/issues/10626,2024-09-15T07:41:34Z,2024-09-16T09:24:37Z,mtrootyy,topic: embed and object,0
@@ -232,7 +232,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2228274887,true,Upcoming WHATNOT meeting on 4/11/2024,https://github.com/whatwg/html/issues/10254,2024-04-05T15:13:23Z,2024-04-11T19:12:12Z,past,agenda+,0
 2226878723,true,A way to detect environment such as Workers,https://github.com/whatwg/html/issues/10253,2024-04-05T03:02:32Z,2024-04-05T13:51:36Z,msqr1,addition/proposal|needs implementer interest,0
 2226777317,false,"navigable's ""is delaying load events"" is not reset when navigation aborted",https://github.com/whatwg/html/issues/10252,2024-04-05T01:12:57Z,2024-04-05T01:12:57Z,kalenikaliaksandr,topic: navigation,0
-2226775052,false,Improve handling of malformed unicode bidi control characters,https://github.com/whatwg/html/issues/10251,2024-04-05T01:09:37Z,2024-08-20T05:17:46Z,jamiebuilds,i18n-tracker|i18n-alreq|i18n-hlreq,0
+2226775052,false,Improve handling of malformed unicode bidi control characters,https://github.com/whatwg/html/issues/10251,2024-04-05T01:09:37Z,2024-09-23T04:10:26Z,jamiebuilds,i18n-tracker|i18n-alreq|i18n-hlreq,0
 2225030455,false,Standardize marquee UA styles.,https://github.com/whatwg/html/issues/10249,2024-04-04T09:56:50Z,2024-04-04T11:35:10Z,emilio,topic: rendering,0
 2224550963,true,ImageDataSettings should probably be called ImageDataOptions,https://github.com/whatwg/html/issues/10248,2024-04-04T05:46:30Z,2024-04-04T06:49:59Z,adroitwhiz,,0
 2222135930,false,Consider upgrading ARIA reflection from FrozenArray<> to ObservableArray<>,https://github.com/whatwg/html/issues/10246,2024-04-03T07:33:49Z,2024-04-03T13:12:46Z,domenic,topic: reflect,0
@@ -2425,7 +2425,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 477496386,true,"""A map, whose four keys are the strings ""connect...""",https://github.com/whatwg/html/issues/4822,2019-08-06T17:09:12Z,2019-08-07T15:27:17Z,ursi,good first issue|topic: custom elements,0
 477428161,true,Proposal: Get the SessionStorage to retain state across browser tabs,https://github.com/whatwg/html/issues/4821,2019-08-06T14:51:00Z,2020-04-17T10:55:08Z,Sathyaish,addition/proposal|topic: storage,2
 477424431,true,Proposal: Get the Storage API to return a falsey value if a falsey value was put into it,https://github.com/whatwg/html/issues/4820,2019-08-06T14:44:47Z,2019-08-06T14:51:58Z,Sathyaish,,0
-477223337,false,Proposition: replace default invalid state for form elements by indeterminate,https://github.com/whatwg/html/issues/4818,2019-08-06T07:48:42Z,2022-06-16T07:14:35Z,notabene,addition/proposal|topic: forms,11
+477223337,false,Proposition: replace default invalid state for form elements by indeterminate,https://github.com/whatwg/html/issues/4818,2019-08-06T07:48:42Z,2022-06-16T07:14:35Z,notabene,addition/proposal|topic: forms,12
 476565610,true,"       Results From The WOW.Com Content Network",https://github.com/whatwg/html/issues/4817,2019-08-04T15:34:40Z,2019-08-04T20:09:29Z,stephnkids90,,0
 476399118,true,clarification of value attribute on input type=image,https://github.com/whatwg/html/issues/4815,2019-08-03T00:50:02Z,2019-08-23T19:12:21Z,scottaohara,good first issue|document conformance|topic: forms,0
 476116122,true,Matching user input to datalist values,https://github.com/whatwg/html/issues/4814,2019-08-02T10:39:43Z,2021-09-08T17:15:21Z,himorin,topic: forms|i18n-needs-resolution,0
@@ -3119,7 +3119,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 307205459,true,Participation status checks not green on master,https://github.com/whatwg/html/issues/3582,2018-03-21T11:22:15Z,2018-04-26T19:14:37Z,annevk,spec tooling,0
 307189256,false,Editorial: (re)adopt ECMAScript conventions,https://github.com/whatwg/html/issues/3581,2018-03-21T10:29:42Z,2018-03-21T10:29:42Z,annevk,clarification,1
 307057087,false,window.customElements.define retrieves the lifetime callbacks in an odd order,https://github.com/whatwg/html/issues/3580,2018-03-20T22:10:12Z,2019-07-09T15:28:51Z,mrbkap,normative change|topic: custom elements,0
-306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2024-09-04T17:05:26Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,86
+306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2024-09-04T17:05:26Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,88
 306030693,false,<embed> and <object> should define cleanup steps,https://github.com/whatwg/html/issues/3576,2018-03-16T18:20:24Z,2018-04-04T14:24:31Z,zetafunction,topic: embed and object,0
 305999314,false,"What is the point of the ""NewTarget is equal to the active function object"" in [HTMLConstructor]?",https://github.com/whatwg/html/issues/3575,2018-03-16T16:43:28Z,2018-05-02T20:42:55Z,bzbarsky,topic: custom elements,0
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
