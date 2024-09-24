@@ -9,7 +9,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2522565032,true,Editorial: fix typo in custom elements section,https://github.com/whatwg/html/pull/10620,2024-09-12T14:28:32Z,2024-09-16T08:18:20Z,domfarolino,,0
 2522472732,true,Update README.md,https://github.com/whatwg/html/pull/10619,2024-09-12T13:54:12Z,2024-09-17T04:18:33Z,HemgirishKC,invalid,0
 2518603701,true,Meta: add Dominic Farolino as an editor,https://github.com/whatwg/html/pull/10615,2024-09-11T06:07:44Z,2024-09-11T13:47:01Z,domenic,,5
-2517638995,false,Add support for CSS reading-flow,https://github.com/whatwg/html/pull/10613,2024-09-10T20:05:09Z,2024-09-21T19:58:17Z,dizhang168,,0
+2517638995,false,Add support for CSS reading-flow,https://github.com/whatwg/html/pull/10613,2024-09-10T20:05:09Z,2024-09-23T17:23:27Z,dizhang168,,0
 2512455630,true,"Revert ""Fix incorrect recursion for dir=auto special cases""",https://github.com/whatwg/html/pull/10607,2024-09-08T16:01:04Z,2024-09-09T04:23:26Z,Dew0Tgx,invalid,0
 2512448800,true,modified,https://github.com/whatwg/html/pull/10606,2024-09-08T15:44:15Z,2024-09-08T20:36:09Z,Abhisek246,invalid,0
 2511901985,true,Update html-dfn.js,https://github.com/whatwg/html/pull/10605,2024-09-07T17:01:14Z,2024-09-07T23:55:46Z,JaydeepRokade,invalid,0
@@ -17,8 +17,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2497624383,false,Support opening dialog modals without automatic closing behaviour,https://github.com/whatwg/html/pull/10593,2024-08-30T15:56:44Z,2024-08-30T16:36:43Z,lucacasonato,topic: dialog,0
 2496330837,true,The p element's end tag may be omitted when followed by dialog,https://github.com/whatwg/html/pull/10591,2024-08-30T06:12:04Z,2024-09-04T10:51:10Z,annevk,,1
 2494796863,true,Editorial: fix a few more typos,https://github.com/whatwg/html/pull/10588,2024-08-29T15:12:11Z,2024-08-29T16:37:47Z,jmdyck,,0
-2493769848,false,Invoke WebDriver BiDi history updated,https://github.com/whatwg/html/pull/10587,2024-08-29T08:21:05Z,2024-09-18T12:28:43Z,OrKoN,,0
-2492871017,false,Update content model for customizable select,https://github.com/whatwg/html/pull/10586,2024-08-28T19:48:45Z,2024-09-17T13:45:49Z,josepharhar,,0
+2493769848,false,Invoke WebDriver BiDi history updated,https://github.com/whatwg/html/pull/10587,2024-08-29T08:21:05Z,2024-09-24T00:16:31Z,OrKoN,,0
+2492871017,false,Update content model for customizable select,https://github.com/whatwg/html/pull/10586,2024-08-28T19:48:45Z,2024-09-23T18:57:28Z,josepharhar,,0
 2489194864,true,Rename cross-origin opener policy concepts,https://github.com/whatwg/html/pull/10579,2024-08-27T12:21:01Z,2024-09-12T17:11:57Z,yoavweiss,clarification|topic: cross-origin-opener-policy,0
 2482765519,true,[editorial] Add a missing to in parallel example,https://github.com/whatwg/html/pull/10575,2024-08-23T09:50:45Z,2024-08-23T15:33:31Z,dontcallmedom,,1
 2478406868,true,Remove mutation events from the spec,https://github.com/whatwg/html/pull/10573,2024-08-21T15:56:33Z,2024-08-26T03:00:23Z,mfreed7,,0
@@ -60,7 +60,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2403671121,true,Add missing throwExceptions check in show popover,https://github.com/whatwg/html/pull/10473,2024-07-11T17:13:50Z,2024-07-12T02:52:41Z,josepharhar,topic: popover,0
 2401386846,false,hidePopover with button click not timeout,https://github.com/whatwg/html/pull/10469,2024-07-10T18:18:01Z,2024-08-14T12:07:46Z,Jxck,topic: popover,0
 2389513089,true,Set dialog is modal to false when removed from the document.,https://github.com/whatwg/html/pull/10459,2024-07-03T21:26:01Z,2024-07-08T14:06:58Z,lukewarlow,topic: dialog,0
-2388847339,false,Enhance <input type=color> with alpha and colorspace=display-p3,https://github.com/whatwg/html/pull/10456,2024-07-03T14:53:52Z,2024-09-20T08:55:20Z,annevk,addition/proposal|topic: forms|impacts documentation|agenda+,9
+2388847339,false,Enhance <input type=color> with alpha and colorspace=display-p3,https://github.com/whatwg/html/pull/10456,2024-07-03T14:53:52Z,2024-09-23T18:12:16Z,annevk,addition/proposal|topic: forms|impacts documentation|agenda+,9
 2385756221,true,Refactored search script using async/await and modern JavaScript syntax.,https://github.com/whatwg/html/pull/10453,2024-07-02T09:35:14Z,2024-07-18T01:27:48Z,Imran-imtiaz48,,0
 2384571498,true,Update `@@foo` symbol notation to `%Symbol.foo%` notation,https://github.com/whatwg/html/pull/10450,2024-07-01T19:19:30Z,2024-07-02T18:30:25Z,ljharb,,0
 2384264134,true,All objects have a [[PrivateElements]] internal slot,https://github.com/whatwg/html/pull/10447,2024-07-01T16:33:10Z,2024-07-02T01:36:16Z,annevk,topic: serialize and transfer,0
@@ -79,7 +79,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2341067049,true,docs: remove redundant “to”,https://github.com/whatwg/html/pull/10403,2024-06-07T19:47:56Z,2024-06-10T08:32:12Z,j9t,,0
 2339810486,true,Report opener for WebDriver,https://github.com/whatwg/html/pull/10402,2024-06-07T07:44:29Z,2024-06-13T10:30:42Z,OrKoN,,0
 2337905772,true,Stop calling parse a CSS <color> with OffscreenCanvas,https://github.com/whatwg/html/pull/10399,2024-06-06T10:25:05Z,2024-06-08T06:36:01Z,annevk,clarification|topic: canvas,0
-2335131210,false,Add a `noopener-allow-popups` value to COOP,https://github.com/whatwg/html/pull/10394,2024-06-05T07:34:33Z,2024-09-22T04:00:55Z,yoavweiss,addition/proposal|needs implementer interest|impacts documentation,0
+2335131210,false,Add a `noopener-allow-popups` value to COOP,https://github.com/whatwg/html/pull/10394,2024-06-05T07:34:33Z,2024-09-23T16:42:39Z,yoavweiss,addition/proposal|needs implementer interest|impacts documentation,0
 2334993245,true,Don't set hashChange to true for classic history API navigate events,https://github.com/whatwg/html/pull/10393,2024-06-05T06:13:48Z,2024-06-20T07:04:40Z,domenic,,0
 2333893692,true,"Editorial: For `CONTRIBUTING.md`, add explicit references to patterns we've evolved over time",https://github.com/whatwg/html/pull/10392,2024-06-04T16:05:05Z,2024-09-09T02:27:53Z,domfarolino,,2
 2329069209,true,Match order of arguments when calling 'getting the descendant script fetch options',https://github.com/whatwg/html/pull/10385,2024-06-01T10:41:13Z,2024-06-03T04:44:32Z,jamierocks,topic: script,0
@@ -383,7 +383,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1813916540,true,This Pull Request implements form validation on the HTML <output> element to display the calculated result.,https://github.com/whatwg/html/pull/9544,2023-07-20T12:44:22Z,2023-07-20T13:26:04Z,cijian23,spam,1
 1813671797,true,Use correct settings object for modules imported in workers,https://github.com/whatwg/html/pull/9541,2023-07-20T10:34:11Z,2023-07-24T07:22:54Z,nicolo-ribaudo,topic: script,0
 1812982540,true,Add setHTMLUnsafe and parseHTMLUnsafe methods,https://github.com/whatwg/html/pull/9538,2023-07-20T01:31:03Z,2023-10-11T23:22:22Z,josepharhar,addition/proposal|topic: parser|impacts documentation,1
-1812629719,false,Add a layer and filter interface in the 2D canvas,https://github.com/whatwg/html/pull/9537,2023-07-19T19:49:25Z,2024-09-10T18:22:59Z,graveljp,topic: canvas,1
+1812629719,false,Add a layer and filter interface in the 2D canvas,https://github.com/whatwg/html/pull/9537,2023-07-19T19:49:25Z,2024-09-23T20:19:40Z,graveljp,topic: canvas,1
 1810870126,true,Define srcdoc documents as matching about:srcdoc URL,https://github.com/whatwg/html/pull/9534,2023-07-18T23:37:14Z,2023-07-20T03:49:15Z,domfarolino,topic: browsing context|topic: document.open()|topic: javascript: URLs,0
 1810164917,true,Fix non-fetch-scheme-params-initiator-origin assignment,https://github.com/whatwg/html/pull/9532,2023-07-18T15:25:02Z,2023-07-19T07:17:21Z,domfarolino,topic: navigation,0
 1809663999,true,Add types to parameters of script fetching algorithms,https://github.com/whatwg/html/pull/9530,2023-07-18T10:39:07Z,2023-07-20T06:18:13Z,nicolo-ribaudo,,0
