@@ -1,6 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2550365541,false,Editorial: pass a settings object as needed when revealing a document,https://github.com/whatwg/html/pull/10648,2024-09-26T11:57:39Z,2024-09-26T11:59:34Z,Ms2ger,,0
-2550311707,false,Editorial: use 'global' rather than 'this' in timer initialization steps,https://github.com/whatwg/html/pull/10647,2024-09-26T11:31:50Z,2024-09-26T11:33:44Z,Ms2ger,,0
+2550584891,true,Editorial: fix variable name in HostLoadImportedModule,https://github.com/whatwg/html/pull/10649,2024-09-26T13:24:10Z,2024-09-26T13:32:46Z,Ms2ger,,0
+2550365541,true,Editorial: pass a settings object as needed when revealing a document,https://github.com/whatwg/html/pull/10648,2024-09-26T11:57:39Z,2024-09-26T13:23:09Z,Ms2ger,,0
+2550311707,true,Editorial: use 'global' rather than 'this' in timer initialization steps,https://github.com/whatwg/html/pull/10647,2024-09-26T11:31:50Z,2024-09-26T13:34:01Z,Ms2ger,,0
 2548811700,true,MADE THE REQUIRED CHANGES. UPDATING THE CHANGES TO MAKE IT EASIER TO …,https://github.com/whatwg/html/pull/10645,2024-09-25T19:18:39Z,2024-09-25T20:21:39Z,PartishtaP,invalid,0
 2536908236,false,Editorial: replace uses of the Type macro with is-a tests,https://github.com/whatwg/html/pull/10635,2024-09-19T16:57:45Z,2024-09-21T05:40:49Z,michaelficarra,,0
 2534719588,false,Define the `<selectedoption>` element,https://github.com/whatwg/html/pull/10633,2024-09-18T20:57:38Z,2024-09-19T17:24:10Z,josepharhar,addition/proposal|topic: forms,0
@@ -12,7 +13,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2522565032,true,Editorial: fix typo in custom elements section,https://github.com/whatwg/html/pull/10620,2024-09-12T14:28:32Z,2024-09-16T08:18:20Z,domfarolino,,0
 2522472732,true,Update README.md,https://github.com/whatwg/html/pull/10619,2024-09-12T13:54:12Z,2024-09-17T04:18:33Z,HemgirishKC,invalid,0
 2518603701,true,Meta: add Dominic Farolino as an editor,https://github.com/whatwg/html/pull/10615,2024-09-11T06:07:44Z,2024-09-11T13:47:01Z,domenic,,5
-2517638995,false,Add support for CSS reading-flow,https://github.com/whatwg/html/pull/10613,2024-09-10T20:05:09Z,2024-09-23T17:23:27Z,dizhang168,,0
+2517638995,false,Add support for CSS reading-flow,https://github.com/whatwg/html/pull/10613,2024-09-10T20:05:09Z,2024-09-26T17:39:49Z,dizhang168,,0
 2512455630,true,"Revert ""Fix incorrect recursion for dir=auto special cases""",https://github.com/whatwg/html/pull/10607,2024-09-08T16:01:04Z,2024-09-09T04:23:26Z,Dew0Tgx,invalid,0
 2512448800,true,modified,https://github.com/whatwg/html/pull/10606,2024-09-08T15:44:15Z,2024-09-08T20:36:09Z,Abhisek246,invalid,0
 2511901985,true,Update html-dfn.js,https://github.com/whatwg/html/pull/10605,2024-09-07T17:01:14Z,2024-09-07T23:55:46Z,JaydeepRokade,invalid,0
@@ -21,7 +22,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2496330837,true,The p element's end tag may be omitted when followed by dialog,https://github.com/whatwg/html/pull/10591,2024-08-30T06:12:04Z,2024-09-04T10:51:10Z,annevk,,1
 2494796863,true,Editorial: fix a few more typos,https://github.com/whatwg/html/pull/10588,2024-08-29T15:12:11Z,2024-08-29T16:37:47Z,jmdyck,,0
 2493769848,false,Invoke WebDriver BiDi history updated,https://github.com/whatwg/html/pull/10587,2024-08-29T08:21:05Z,2024-09-26T08:53:41Z,OrKoN,,0
-2492871017,false,Update content model for customizable select,https://github.com/whatwg/html/pull/10586,2024-08-28T19:48:45Z,2024-09-23T18:57:28Z,josepharhar,,0
+2492871017,false,Update content model for customizable select,https://github.com/whatwg/html/pull/10586,2024-08-28T19:48:45Z,2024-09-26T23:53:25Z,josepharhar,,0
 2489194864,true,Rename cross-origin opener policy concepts,https://github.com/whatwg/html/pull/10579,2024-08-27T12:21:01Z,2024-09-12T17:11:57Z,yoavweiss,clarification|topic: cross-origin-opener-policy,0
 2482765519,true,[editorial] Add a missing to in parallel example,https://github.com/whatwg/html/pull/10575,2024-08-23T09:50:45Z,2024-08-23T15:33:31Z,dontcallmedom,,1
 2478406868,true,Remove mutation events from the spec,https://github.com/whatwg/html/pull/10573,2024-08-21T15:56:33Z,2024-08-26T03:00:23Z,mfreed7,,0
@@ -182,7 +183,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2103017099,true,Make showPicker consume user activation,https://github.com/whatwg/html/pull/10098,2024-01-26T22:45:15Z,2024-05-28T16:43:19Z,josepharhar,normative change|do not merge yet|topic: user activation,1
 2102903282,true,"Rendering: define progress, meter, range input's value layout with vertical writing-mode to support direction",https://github.com/whatwg/html/pull/10096,2024-01-26T21:06:30Z,2024-03-04T07:10:35Z,dizhang168,topic: rendering,0
 2102526199,true,Editorial: Fix incorrect heading level in example,https://github.com/whatwg/html/pull/10095,2024-01-26T16:45:46Z,2024-05-01T13:08:50Z,MarcusOtter,,0
-2100764219,false,dispatch toggleevents for dialog open/close,https://github.com/whatwg/html/pull/10091,2024-01-25T16:35:42Z,2024-06-14T15:46:19Z,keithamus,,1
+2100764219,false,dispatch toggleevents for dialog open/close,https://github.com/whatwg/html/pull/10091,2024-01-25T16:35:42Z,2024-09-26T18:47:47Z,keithamus,,1
 2099541920,true,"Editorial: reduce the use of class=""brief""",https://github.com/whatwg/html/pull/10088,2024-01-25T04:25:42Z,2024-01-31T01:19:31Z,domenic,,0
 2099385779,true,Navigation: Consistently fire a traverse Navigate event at a Navigation,https://github.com/whatwg/html/pull/10087,2024-01-25T01:11:37Z,2024-02-09T17:33:32Z,ADKaster,topic: navigation,0
 2099270546,true,Navigation: Use NavigationHistoryBehavior in Location object navigate AO,https://github.com/whatwg/html/pull/10085,2024-01-24T23:06:17Z,2024-01-25T02:40:55Z,ADKaster,,0
@@ -265,7 +266,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1969985811,false,Fix plural typo,https://github.com/whatwg/html/pull/9898,2023-10-31T09:15:32Z,2024-01-25T05:44:39Z,imageck,,0
 1969884902,true,Fix PromiseRejectionEvent's promise attribute,https://github.com/whatwg/html/pull/9897,2023-10-31T08:15:50Z,2023-12-12T03:35:19Z,domenic,,0
 1968893372,true,fixes the grammatical mistake in README.md,https://github.com/whatwg/html/pull/9895,2023-10-30T17:35:04Z,2023-10-31T10:52:22Z,THEFZNKHAN,spam,0
-1968435303,false,"JavaScript ShadowRealm proposal integration ",https://github.com/whatwg/html/pull/9893,2023-10-30T13:57:38Z,2024-09-25T16:08:14Z,Ms2ger,,3
+1968435303,false,"JavaScript ShadowRealm proposal integration ",https://github.com/whatwg/html/pull/9893,2023-10-30T13:57:38Z,2024-09-26T15:07:34Z,Ms2ger,,3
 1968399778,true,Fixed typo error,https://github.com/whatwg/html/pull/9892,2023-10-30T13:45:00Z,2023-10-31T06:34:24Z,DevanshKyada27,spam,0
 1966674355,true,Editorial: Add missing comma in argument list,https://github.com/whatwg/html/pull/9888,2023-10-28T17:23:03Z,2023-10-30T15:57:35Z,networkException,topic: script|editorial,0
 1966543465,true,Update CONTRIBUTING.md,https://github.com/whatwg/html/pull/9887,2023-10-28T10:48:18Z,2023-10-28T13:12:15Z,gfggithubleet,,0
@@ -386,7 +387,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1813916540,true,This Pull Request implements form validation on the HTML <output> element to display the calculated result.,https://github.com/whatwg/html/pull/9544,2023-07-20T12:44:22Z,2023-07-20T13:26:04Z,cijian23,spam,1
 1813671797,true,Use correct settings object for modules imported in workers,https://github.com/whatwg/html/pull/9541,2023-07-20T10:34:11Z,2023-07-24T07:22:54Z,nicolo-ribaudo,topic: script,0
 1812982540,true,Add setHTMLUnsafe and parseHTMLUnsafe methods,https://github.com/whatwg/html/pull/9538,2023-07-20T01:31:03Z,2023-10-11T23:22:22Z,josepharhar,addition/proposal|topic: parser|impacts documentation,1
-1812629719,false,Add a layer and filter interface in the 2D canvas,https://github.com/whatwg/html/pull/9537,2023-07-19T19:49:25Z,2024-09-26T00:27:14Z,graveljp,topic: canvas,1
+1812629719,false,Add a layer and filter interface in the 2D canvas,https://github.com/whatwg/html/pull/9537,2023-07-19T19:49:25Z,2024-09-26T18:17:17Z,graveljp,topic: canvas,1
 1810870126,true,Define srcdoc documents as matching about:srcdoc URL,https://github.com/whatwg/html/pull/9534,2023-07-18T23:37:14Z,2023-07-20T03:49:15Z,domfarolino,topic: browsing context|topic: document.open()|topic: javascript: URLs,0
 1810164917,true,Fix non-fetch-scheme-params-initiator-origin assignment,https://github.com/whatwg/html/pull/9532,2023-07-18T15:25:02Z,2023-07-19T07:17:21Z,domfarolino,topic: navigation,0
 1809663999,true,Add types to parameters of script fetching algorithms,https://github.com/whatwg/html/pull/9530,2023-07-18T10:39:07Z,2023-07-20T06:18:13Z,nicolo-ribaudo,,0
@@ -500,8 +501,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1665882711,true,Fix form submission's replace-before-load logic,https://github.com/whatwg/html/pull/9156,2023-04-13T07:34:01Z,2023-05-10T07:05:24Z,domenic,topic: navigation|topic: forms|interop,0
 1665109294,false,Add payto as a safelisted scheme for registerProtocolHandler(),https://github.com/whatwg/html/pull/9155,2023-04-12T19:17:02Z,2023-11-14T08:05:49Z,rastislavcore,addition/proposal|needs implementer interest|topic: custom protocols,0
 1663489093,false,Move cross-origin opener policy into policy container,https://github.com/whatwg/html/pull/9149,2023-04-12T01:17:19Z,2023-11-14T08:05:50Z,domfarolino,topic: cross-origin-opener-policy|topic: policy container,0
-1661201309,false,Add anchor attribute,https://github.com/whatwg/html/pull/9144,2023-04-10T18:57:34Z,2024-09-24T17:27:17Z,josepharhar,,4
-1660955905,true,Don't throw when popover/dialog is in requested state,https://github.com/whatwg/html/pull/9142,2023-04-10T15:32:00Z,2023-07-10T09:37:47Z,josepharhar,needs tests|topic: dialog|topic: popover,0
+1661201309,false,Add anchor attribute,https://github.com/whatwg/html/pull/9144,2023-04-10T18:57:34Z,2024-09-26T19:48:01Z,josepharhar,,4
+1660955905,true,Don't throw when popover/dialog is in requested state,https://github.com/whatwg/html/pull/9142,2023-04-10T15:32:00Z,2023-07-10T09:37:47Z,josepharhar,needs tests|topic: dialog|topic: popover,1
 1660921767,true,Remove anchor attribute reference in popover note,https://github.com/whatwg/html/pull/9141,2023-04-10T15:05:50Z,2023-04-24T14:03:23Z,josepharhar,topic: popover,0
 1660416855,true,"Fix ""active frame element"" definition",https://github.com/whatwg/html/pull/9139,2023-04-10T08:08:01Z,2023-04-28T07:31:26Z,domenic,topic: browsing context,0
 1659698554,true,Mudei o titulo (apenas para um teste da aula do youtube),https://github.com/whatwg/html/pull/9137,2023-04-09T01:21:57Z,2023-04-09T04:25:54Z,CharlesRobertoAlegre,spam,0
