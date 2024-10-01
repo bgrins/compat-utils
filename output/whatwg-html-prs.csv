@@ -1,10 +1,10 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2557364079,false,Fix small CSS-related user interface issue on spec page (Issue #10618),https://github.com/whatwg/html/pull/10662,2024-09-30T18:22:11Z,2024-09-30T20:45:34Z,qu1chu5,,0
-2556691169,false,Formatting fixes,https://github.com/whatwg/html/pull/10661,2024-09-30T13:29:33Z,2024-09-30T13:35:00Z,yoavweiss,,0
-2555520171,false,Do not establish close watchers in non-fully active documents,https://github.com/whatwg/html/pull/10660,2024-09-30T04:40:57Z,2024-09-30T17:24:19Z,domenic,topic: dialog|topic: popover|topic: close watchers,1
+2557364079,true,Fix small CSS-related user interface issue on spec page (Issue #10618),https://github.com/whatwg/html/pull/10662,2024-09-30T18:22:11Z,2024-10-01T01:17:42Z,qu1chu5,,0
+2556691169,true,Formatting fixes,https://github.com/whatwg/html/pull/10661,2024-09-30T13:29:33Z,2024-10-01T01:03:54Z,yoavweiss,,0
+2555520171,false,Do not establish close watchers in non-fully active documents,https://github.com/whatwg/html/pull/10660,2024-09-30T04:40:57Z,2024-10-01T01:12:35Z,domenic,topic: dialog|topic: popover|topic: close watchers,1
 2555497598,true,Reorder promise resolutions for navigation API,https://github.com/whatwg/html/pull/10658,2024-09-30T04:21:08Z,2024-09-30T10:14:17Z,domenic,topic: navigation,0
 2555117364,false,State-preserving atomic move integration,https://github.com/whatwg/html/pull/10657,2024-09-29T19:28:45Z,2024-09-30T04:30:03Z,domfarolino,,0
-2554441378,false,"Editoral: fix typo in the ""default"" autocapitalization hint description",https://github.com/whatwg/html/pull/10655,2024-09-28T18:35:04Z,2024-09-30T16:30:47Z,kemzeb,,0
+2554441378,true,"Editoral: fix typo in the ""default"" autocapitalization hint description",https://github.com/whatwg/html/pull/10655,2024-09-28T18:35:04Z,2024-10-01T02:28:55Z,kemzeb,,0
 2550584891,true,Editorial: fix variable name in HostLoadImportedModule,https://github.com/whatwg/html/pull/10649,2024-09-26T13:24:10Z,2024-09-26T13:32:46Z,Ms2ger,,0
 2550365541,true,Editorial: pass a settings object as needed when revealing a document,https://github.com/whatwg/html/pull/10648,2024-09-26T11:57:39Z,2024-09-26T13:23:09Z,Ms2ger,,0
 2550311707,true,Editorial: use 'global' rather than 'this' in timer initialization steps,https://github.com/whatwg/html/pull/10647,2024-09-26T11:31:50Z,2024-09-26T13:34:01Z,Ms2ger,,0
@@ -27,7 +27,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2497624383,false,Support opening dialog modals without automatic closing behaviour,https://github.com/whatwg/html/pull/10593,2024-08-30T15:56:44Z,2024-08-30T16:36:43Z,lucacasonato,topic: dialog,0
 2496330837,true,The p element's end tag may be omitted when followed by dialog,https://github.com/whatwg/html/pull/10591,2024-08-30T06:12:04Z,2024-09-04T10:51:10Z,annevk,,1
 2494796863,true,Editorial: fix a few more typos,https://github.com/whatwg/html/pull/10588,2024-08-29T15:12:11Z,2024-08-29T16:37:47Z,jmdyck,,0
-2493769848,false,Invoke WebDriver BiDi history updated,https://github.com/whatwg/html/pull/10587,2024-08-29T08:21:05Z,2024-09-30T15:36:34Z,OrKoN,topic: navigation|integration,0
+2493769848,false,Invoke WebDriver BiDi history updated,https://github.com/whatwg/html/pull/10587,2024-08-29T08:21:05Z,2024-10-01T01:08:05Z,OrKoN,topic: navigation|integration,0
 2492871017,false,Update content model for customizable select,https://github.com/whatwg/html/pull/10586,2024-08-28T19:48:45Z,2024-09-27T00:39:02Z,josepharhar,,0
 2489194864,true,Rename cross-origin opener policy concepts,https://github.com/whatwg/html/pull/10579,2024-08-27T12:21:01Z,2024-09-12T17:11:57Z,yoavweiss,clarification|topic: cross-origin-opener-policy,0
 2482765519,true,[editorial] Add a missing to in parallel example,https://github.com/whatwg/html/pull/10575,2024-08-23T09:50:45Z,2024-08-23T15:33:31Z,dontcallmedom,,1
@@ -148,7 +148,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2184548191,true,Upstream IDL changes from Trusted Types,https://github.com/whatwg/html/pull/10199,2024-03-13T17:32:11Z,2024-03-19T11:39:29Z,lukewarlow,,0
 2184496735,true,Upstream long-animation-frames monkey-patches,https://github.com/whatwg/html/pull/10198,2024-03-13T17:02:02Z,2024-03-27T02:30:41Z,noamr,integration|topic: timing,0
 2183409617,true,Fix: Editorial - link Promise<T> type throughout #9987,https://github.com/whatwg/html/pull/10197,2024-03-13T08:36:14Z,2024-03-15T08:02:24Z,tawandamoyo,,0
-2176725898,false,Support automatic user prompt handing in WebDriver BiDi,https://github.com/whatwg/html/pull/10189,2024-03-08T20:31:39Z,2024-08-08T10:08:47Z,jgraham,,0
+2176725898,false,Support automatic user prompt handing in WebDriver BiDi,https://github.com/whatwg/html/pull/10189,2024-03-08T20:31:39Z,2024-10-01T09:33:24Z,jgraham,,0
 2176615177,true,Use DOM's post-connection steps for `<script>` elements,https://github.com/whatwg/html/pull/10188,2024-03-08T19:04:28Z,2024-08-29T19:43:20Z,domfarolino,topic: script,0
 2173817692,true,Improve non-normative note for rel-expect,https://github.com/whatwg/html/pull/10184,2024-03-07T13:03:21Z,2024-03-11T06:42:47Z,noamr,,0
 2171531993,true,[rendering] Simplify some UA styles to use shorthands where appropriate,https://github.com/whatwg/html/pull/10181,2024-03-06T13:35:35Z,2024-03-07T10:00:21Z,emilio,,0
@@ -164,7 +164,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2158124994,true,[Editorial] Export creating NRR,https://github.com/whatwg/html/pull/10167,2024-02-28T05:11:30Z,2024-02-28T05:24:27Z,rubberyuzu,,0
 2157384688,true,Editorial: Specify that connectedness is a prerequisite for script execution,https://github.com/whatwg/html/pull/10165,2024-02-27T18:54:52Z,2024-03-04T04:16:34Z,domfarolino,topic: script,0
 2150141047,true,WIP dialog closedby attribute spec,https://github.com/whatwg/html/pull/10157,2024-02-22T23:57:03Z,2024-08-29T17:13:53Z,lukewarlow,topic: close watchers,0
-2148367262,false,Add may-block reasons to NotRestoredReasons,https://github.com/whatwg/html/pull/10154,2024-02-22T07:06:43Z,2024-09-17T15:21:02Z,rubberyuzu,,0
+2148367262,false,Add may-block reasons to NotRestoredReasons,https://github.com/whatwg/html/pull/10154,2024-02-22T07:06:43Z,2024-10-01T08:31:34Z,rubberyuzu,,0
 2147120013,true,Create code.txt,https://github.com/whatwg/html/pull/10152,2024-02-21T15:58:38Z,2024-02-21T16:05:47Z,owaislodhi01,spam|invalid,0
 2143978728,true,Allow WebDriver BiDi access original opener,https://github.com/whatwg/html/pull/10147,2024-02-20T09:52:35Z,2024-03-21T12:45:50Z,OrKoN,,0
 2141556349,true,Meta: Dark mode fixes,https://github.com/whatwg/html/pull/10144,2024-02-19T05:44:57Z,2024-05-06T16:33:21Z,andreubotella,,0
