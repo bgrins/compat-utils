@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2555508180,false,Consider throwing for showModal() and showPopover() in non-fully-active documents,https://github.com/whatwg/html/issues/10659,2024-09-30T04:31:04Z,2024-09-30T11:13:19Z,domenic,normative change|topic: dialog|topic: popover,1
 2551969947,false,Upcoming WHATNOT meeting on 2024-10-03,https://github.com/whatwg/html/issues/10652,2024-09-27T04:30:41Z,2024-09-27T04:30:41Z,past,agenda+,0
-2551884785,false,Nested `contenteditable=true` and `contenteditable=plaintext-only` should win only the ourtermost one,https://github.com/whatwg/html/issues/10651,2024-09-27T02:53:27Z,2024-09-29T00:46:12Z,masayuki-nakano,needs tests|needs concrete proposal|topic: editing,0
+2551884785,false,Nested `contenteditable=true` and `contenteditable=plaintext-only` should win only the ourtermost one,https://github.com/whatwg/html/issues/10651,2024-09-27T02:53:27Z,2024-09-30T21:55:52Z,masayuki-nakano,needs tests|needs concrete proposal|topic: editing,0
 2551197034,false,Canvas Place Element,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2024-09-28T12:17:10Z,khushalsagar,addition/proposal|needs implementer interest|topic: canvas|agenda+,0
 2549044519,true,Resolving  of transition and finished promises is mismatched between spec and tests,https://github.com/whatwg/html/issues/10646,2024-09-25T21:39:11Z,2024-09-30T10:14:17Z,rwlbuis,topic: navigation,0
 2544017899,true,"'reading-flow' and ""display: contents""",https://github.com/whatwg/html/issues/10643,2024-09-24T00:42:59Z,2024-09-24T16:09:09Z,tabatkins,topic: focus,0
@@ -22,13 +22,13 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2520517665,false,HTML Integration with ESM Source Phase,https://github.com/whatwg/html/issues/10617,2024-09-11T18:56:32Z,2024-09-18T14:32:18Z,guybedford,agenda+,0
 2521171236,false,Small CSS change to spec documentation for ease of use,https://github.com/whatwg/html/issues/10618,2024-09-11T18:11:57Z,2024-09-25T15:48:47Z,FredGandt,good first issue,0
 2518778352,false,Allowing to start cross-document transition immediately,https://github.com/whatwg/html/issues/10616,2024-09-11T07:17:10Z,2024-09-11T07:17:10Z,bakura10,,0
-2518316469,false,Provide an API for getting visible caret position in textarea/input element,https://github.com/whatwg/html/issues/10614,2024-09-11T02:30:18Z,2024-09-11T17:09:37Z,siliu1,,1
+2518316469,false,Provide an API for getting visible caret position in textarea/input element,https://github.com/whatwg/html/issues/10614,2024-09-11T02:30:18Z,2024-09-30T17:20:43Z,siliu1,,1
 2516526415,false,"Automated `window.exportPdf()`,  Leveraging Browser's Print Save As PDF functionality",https://github.com/whatwg/html/issues/10612,2024-09-10T13:43:56Z,2024-09-24T08:58:12Z,apurvaojas,addition/proposal|needs implementer interest,1
 2515236890,false,createImageBitmap's Promise resolving,https://github.com/whatwg/html/issues/10611,2024-09-10T01:59:12Z,2024-09-19T08:02:38Z,Kaiido,topic: canvas|interop,0
 2515213556,false,"HTML spec: section 4.11.1, for `<details>` (`HTMLDetailsElement`), should probably briefly but explicitly state that the element uses shadow DOM, and should probably link to section 15.5.5 to direct readers to further information",https://github.com/whatwg/html/issues/10610,2024-09-10T01:32:54Z,2024-09-19T12:26:56Z,DavidJCobb,clarification|topic: rendering,0
 2514878452,true,Meeting 8 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10609,2024-09-09T20:41:39Z,2024-09-23T17:35:51Z,josepharhar,agenda+,0
 2514047453,false,Missing tasks in parallel steps in HTML Standard,https://github.com/whatwg/html/issues/10608,2024-09-09T13:55:25Z,2024-09-09T13:55:25Z,dontcallmedom-bot,,0
-2510785236,false,Is it ok for `appearance:base` `<select>` not to require user activation before `showPicker()`?,https://github.com/whatwg/html/issues/10604,2024-09-06T16:19:28Z,2024-09-28T12:07:01Z,mfreed7,topic: forms|topic: user activation,0
+2510785236,false,Is it ok for `appearance:base` `<select>` not to require user activation before `showPicker()`?,https://github.com/whatwg/html/issues/10604,2024-09-06T16:19:28Z,2024-09-30T22:48:29Z,mfreed7,topic: forms|topic: user activation,0
 2509133680,true,Request: Add Japanese and Korean Translations Links to the Wiki,https://github.com/whatwg/html/issues/10603,2024-09-06T00:31:10Z,2024-09-06T03:06:13Z,JinDX,,0
 2508209910,true,Upcoming WHATNOT meeting on 2024-09-12,https://github.com/whatwg/html/issues/10601,2024-09-05T16:10:00Z,2024-09-12T20:51:35Z,past,agenda+,0
 2507166843,false,ElementInternals reportValidity() should focus the validation anchor element,https://github.com/whatwg/html/issues/10600,2024-09-05T08:45:48Z,2024-09-05T09:20:19Z,zcorpan,topic: forms,0
@@ -168,7 +168,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2322953911,false,Severing a document's opener relationship regardless of origin,https://github.com/whatwg/html/issues/10373,2024-05-29T10:23:38Z,2024-08-13T16:03:47Z,yoavweiss,addition/proposal|needs implementer interest,0
 2322574083,true,a element defines content model as only Transparent,https://github.com/whatwg/html/issues/10372,2024-05-29T07:26:47Z,2024-05-29T09:29:39Z,andrewnicols,,0
 2320740955,false,Fetch priority hint for dynamic modules,https://github.com/whatwg/html/issues/10371,2024-05-28T10:48:17Z,2024-05-28T10:48:17Z,yoavweiss,addition/proposal|needs implementer interest,0
-2317914185,true,Feature Request: Top Layer Stack Management,https://github.com/whatwg/html/issues/10370,2024-05-26T20:09:09Z,2024-07-01T16:42:28Z,Link2Twenty,addition/proposal|needs implementer interest,4
+2317914185,true,Feature Request: Top Layer Stack Management,https://github.com/whatwg/html/issues/10370,2024-05-26T20:09:09Z,2024-09-30T23:33:00Z,Link2Twenty,addition/proposal|needs implementer interest,4
 2313961283,true,Upcoming WHATNOT meeting on 5/30/2024,https://github.com/whatwg/html/issues/10365,2024-05-23T22:28:10Z,2024-05-31T08:03:34Z,cwilso,agenda+,0
 2311904507,false,Provide native validation messages for native validity states on Form Associated Custom Elements,https://github.com/whatwg/html/issues/10360,2024-05-23T04:20:35Z,2024-05-23T04:20:35Z,KonnorRogers,addition/proposal|needs implementer interest,5
 2311448525,true,Issue with Step 10 of inner navigate event firing algorithm,https://github.com/whatwg/html/issues/10359,2024-05-22T20:44:12Z,2024-05-24T02:57:35Z,lukewarlow,topic: navigation|topic: user activation,0
@@ -415,7 +415,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1998116614,true,How to serialize new CSS color functions in canvas?,https://github.com/whatwg/html/issues/9939,2023-11-17T01:59:39Z,2023-11-17T02:42:23Z,Loirooriol,,0
 1998110326,true,Orphan nested dedicated worker closing seems buggy,https://github.com/whatwg/html/issues/9938,2023-11-17T01:55:30Z,2023-11-18T03:12:22Z,Kaiido,clarification|topic: workers,0
 1997946764,true,Upcoming WHATNOT meeting on 11/30/2023,https://github.com/whatwg/html/issues/9937,2023-11-16T23:11:47Z,2023-12-01T00:02:06Z,past,agenda+,0
-1997483561,false,A popover on top of a modal dialog should be interactable,https://github.com/whatwg/html/issues/9936,2023-11-16T18:24:20Z,2024-09-02T11:53:26Z,benfrain,topic: dialog|topic: popover,17
+1997483561,false,A popover on top of a modal dialog should be interactable,https://github.com/whatwg/html/issues/9936,2023-11-16T18:24:20Z,2024-10-01T00:16:42Z,benfrain,topic: dialog|topic: popover,17
 1996392285,false,Cookie API,https://github.com/whatwg/html/issues/9935,2023-11-16T09:05:17Z,2024-01-16T15:59:46Z,kettanaito,addition/proposal|needs implementer interest|topic: cookie,68
 1990956391,true,Enable lazy loading for URLs on use href,https://github.com/whatwg/html/issues/9929,2023-11-13T15:59:05Z,2023-11-14T03:49:00Z,lfre,addition/proposal|needs implementer interest,0
 1990529573,false,Switch back to official CSSWG specs,https://github.com/whatwg/html/issues/9928,2023-11-13T12:12:23Z,2023-11-13T12:14:28Z,Loirooriol,,0
@@ -1683,7 +1683,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 833238054,false,A new mode for iframes where they don't add to the joint session history?,https://github.com/whatwg/html/issues/6501,2021-03-16T22:15:48Z,2023-01-31T19:32:17Z,domenic,addition/proposal|topic: navigation|topic: history,0
 832610254,true,"window.OriginAgentCluster is true, but there is no isolation between main page and iFrame",https://github.com/whatwg/html/issues/6499,2021-03-16T09:50:09Z,2021-03-16T20:19:57Z,matteotrapani,,1
 832456892,true,What's the difference between these 2 conditions,https://github.com/whatwg/html/issues/6498,2021-03-16T06:22:35Z,2024-03-14T06:11:47Z,scw00,clarification|topic: sandbox,0
-832103358,true,"New feature proposal: add support for `media` attribute to `<meta name=""theme-color"">`",https://github.com/whatwg/html/issues/6495,2021-03-15T18:59:30Z,2023-08-02T02:17:26Z,dcrousso,addition/proposal,8
+832103358,true,"New feature proposal: add support for `media` attribute to `<meta name=""theme-color"">`",https://github.com/whatwg/html/issues/6495,2021-03-15T18:59:30Z,2023-08-02T02:17:26Z,dcrousso,addition/proposal,9
 831969479,true,Which navigations should add/replace new history entry after initial empty document?,https://github.com/whatwg/html/issues/6491,2021-03-15T16:14:40Z,2022-01-12T17:10:29Z,rakina,topic: navigation|topic: history|interop,0
 831140920,true,"Make theme color a matter of CSS, not HTML?",https://github.com/whatwg/html/issues/6490,2021-03-14T12:11:06Z,2021-03-15T08:46:53Z,j9t,,3
 830995406,true,[Feature request] New events for auto scrolling in css,https://github.com/whatwg/html/issues/6489,2021-03-13T21:05:02Z,2021-03-15T07:55:34Z,yhojann-cl,,0
@@ -3882,7 +3882,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 197928864,true,Should innerText have a blocklist of elements it doesn't work on?,https://github.com/whatwg/html/issues/2222,2016-12-28T23:02:25Z,2017-02-23T00:10:05Z,domenic,needs tests,0
 197758401,true,Comparative Form,https://github.com/whatwg/html/issues/2219,2016-12-27T21:11:30Z,2016-12-28T17:45:26Z,samo25,,0
 197415105,true,Should document.write check for being a fully active rather than active document?,https://github.com/whatwg/html/issues/2216,2016-12-23T19:09:25Z,2018-09-06T15:00:41Z,asajeffrey,topic: parser,0
-197262014,false,Provide an opt-out for inputs overriding form DOM API,https://github.com/whatwg/html/issues/2212,2016-12-22T20:39:36Z,2024-03-04T23:21:21Z,dvoytenko,integration,6
+197262014,false,Provide an opt-out for inputs overriding form DOM API,https://github.com/whatwg/html/issues/2212,2016-12-22T20:39:36Z,2024-03-04T23:21:21Z,dvoytenko,integration,7
 197235843,false,"HTML spec doesn't define how to render img that represents text / nothing, when the UA *does* ""expect this to change""",https://github.com/whatwg/html/issues/2211,2016-12-22T18:20:53Z,2016-12-22T23:16:36Z,dholbert,topic: rendering|topic: img,0
 197118115,true,When to process meta elements,https://github.com/whatwg/html/issues/2210,2016-12-22T08:16:07Z,2020-08-19T14:20:16Z,annevk,interop,0
 197032078,true,Feature request: Secure Inputs,https://github.com/whatwg/html/issues/2206,2016-12-21T21:02:57Z,2017-01-10T00:10:43Z,ctel,addition/proposal|needs implementer interest|topic: forms,0
