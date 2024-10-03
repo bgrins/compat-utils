@@ -4,7 +4,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2481654246,false,Reference Target: Should the `form` and `list` JavaScript attributes return the host element?,https://github.com/WICG/webcomponents/issues/1072,2024-08-22T20:27:44Z,2024-08-22T22:52:42Z,behowell,,0
 2481599924,false,Reference Target: How to handle invalid ID references?,https://github.com/WICG/webcomponents/issues/1071,2024-08-22T19:54:28Z,2024-08-22T20:23:06Z,behowell,,0
 2476464323,false,event.composedPath()[0] can be very slow: add event.composedTarget?,https://github.com/WICG/webcomponents/issues/1070,2024-08-20T20:12:26Z,2024-08-20T20:59:02Z,justinfagnani,,3
-2470622085,false,[templates] A declarative JavaScript templating API,https://github.com/WICG/webcomponents/issues/1069,2024-08-16T16:57:03Z,2024-09-26T01:37:06Z,justinfagnani,,44
+2470622085,false,[templates] A declarative JavaScript templating API,https://github.com/WICG/webcomponents/issues/1069,2024-08-16T16:57:03Z,2024-09-26T01:37:06Z,justinfagnani,,46
 2468760837,false,"Reference Target, level 2",https://github.com/WICG/webcomponents/issues/1068,2024-08-15T19:15:29Z,2024-08-22T20:47:50Z,Westbrook,,0
 2461455491,true,2024 TPAC planning,https://github.com/WICG/webcomponents/issues/1065,2024-08-12T16:39:21Z,2024-10-01T01:22:17Z,rniwa,,1
 2438131296,false,Simplified custom element definition,https://github.com/WICG/webcomponents/issues/1064,2024-07-30T15:35:32Z,2024-09-05T03:58:08Z,dead-claudia,,0
@@ -18,7 +18,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2201552548,false,Possibile way for cross shadowDom exclusive interactive elements,https://github.com/WICG/webcomponents/issues/1054,2024-03-22T02:30:49Z,2024-10-01T01:54:42Z,woody-li,question,0
 2195186170,false,Pushing Styles into Shadow DOM (`@shadow` rules),https://github.com/WICG/webcomponents/issues/1053,2024-03-19T14:49:37Z,2024-03-19T17:35:10Z,DarkWiiPlayer,,2
 2193434085,false,[open-stylable] Collection of user stories,https://github.com/WICG/webcomponents/issues/1052,2024-03-18T21:54:48Z,2024-09-04T22:39:37Z,michaelwarren1106,,0
-2176779790,false,"[exportparts] support exporting via wildcards `exportparts=""*, primary-*""`",https://github.com/WICG/webcomponents/issues/1051,2024-03-08T21:14:22Z,2024-10-01T01:50:41Z,sorvell,,5
+2176779790,false,"[exportparts] support exporting via wildcards `exportparts=""*, primary-*""`",https://github.com/WICG/webcomponents/issues/1051,2024-03-08T21:14:22Z,2024-10-02T23:49:50Z,sorvell,,5
 2139205244,true,April Face-to-face Scheduling/Agenda,https://github.com/WICG/webcomponents/issues/1050,2024-02-16T18:43:02Z,2024-05-03T21:07:00Z,Westbrook,,1
 2129172201,false,Shadow DOM mode as opt-in feature flags,https://github.com/WICG/webcomponents/issues/1049,2024-02-11T21:15:10Z,2024-02-14T17:48:34Z,shannonmoeller,,5
 2105028218,false,What's the right target of anchor link inside shadowDom,https://github.com/WICG/webcomponents/issues/1048,2024-01-29T09:23:18Z,2024-10-01T01:25:05Z,woody-li,,0
@@ -370,7 +370,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 222728948,true,'attributeChangedCallback' not working with a data attribute on Firefox or Edge,https://github.com/WICG/webcomponents/issues/637,2017-04-19T12:55:54Z,2019-08-23T05:15:04Z,liam-swinney,custom-elements,0
 222012606,true,"Using slot="""" attribute on <link rel=""import""> (Imports without JavaScript)",https://github.com/WICG/webcomponents/issues/636,2017-04-16T14:17:18Z,2017-04-19T00:13:39Z,jourdanritchey,shadow-dom,0
 220141505,false,"Clarify ""report an exception"" for Custom Elements",https://github.com/WICG/webcomponents/issues/635,2017-04-07T08:10:27Z,2023-04-20T19:53:15Z,EdgarChen,v1|custom-elements|needs consensus|needs spec,0
-219033411,false,Proposal: Allow custom elements to be in any namespace,https://github.com/WICG/webcomponents/issues/634,2017-04-03T19:14:12Z,2024-10-01T06:02:45Z,hfmanson,custom-elements|needs implementer interest,78
+219033411,false,Proposal: Allow custom elements to be in any namespace,https://github.com/WICG/webcomponents/issues/634,2017-04-03T19:14:12Z,2024-10-02T23:27:53Z,hfmanson,custom-elements|needs implementer interest,82
 215880666,true,Styling default slot content with ::slotted,https://github.com/WICG/webcomponents/issues/631,2017-03-21T21:16:20Z,2019-02-16T03:59:25Z,JanMiksovsky,shadow-dom,2
 213673327,true,HTML parser: align custom elements with the template element,https://github.com/WICG/webcomponents/issues/630,2017-03-13T04:49:36Z,2023-04-20T19:55:24Z,tomberek,custom-elements|needs concrete proposal,2
 213425829,true,"Element.prototype.connectedCallback, et al.",https://github.com/WICG/webcomponents/issues/629,2017-03-10T19:09:10Z,2017-08-16T15:43:43Z,trusktr,custom-elements,1
