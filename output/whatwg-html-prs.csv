@@ -1,4 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2565189586,false,Apply globalAlpha on the canvas filter source,https://github.com/whatwg/html/pull/10674,2024-10-04T00:17:59Z,2024-10-04T00:19:23Z,graveljp,,0
+2564594406,false,Feature Policy: `focus-without-user-activation`,https://github.com/whatwg/html/pull/10672,2024-10-03T17:26:31Z,2024-10-03T17:26:56Z,siliu1,,0
+2564470098,false,Add UA stylesheet for <select> base appearance,https://github.com/whatwg/html/pull/10670,2024-10-03T16:28:25Z,2024-10-03T23:44:14Z,josepharhar,addition/proposal|topic: rendering|topic: forms,0
 2562022266,true,WIP: Add custom element reactions,https://github.com/whatwg/html/pull/10665,2024-10-02T15:33:31Z,2024-10-02T16:07:51Z,noamr,,0
 2557364079,true,Fix small CSS-related user interface issue on spec page (Issue #10618),https://github.com/whatwg/html/pull/10662,2024-09-30T18:22:11Z,2024-10-01T01:17:42Z,qu1chu5,,0
 2556691169,true,Formatting fixes,https://github.com/whatwg/html/pull/10661,2024-09-30T13:29:33Z,2024-10-01T01:03:54Z,yoavweiss,,0
@@ -41,7 +44,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2468462371,true,Fix incorrect recursion for dir=auto special cases.,https://github.com/whatwg/html/pull/10561,2024-08-15T16:43:24Z,2024-09-16T19:40:27Z,dbaron,topic: shadow|i18n-tracker,0
 2467498874,false,"Add ""same origin with its ancestors""",https://github.com/whatwg/html/pull/10559,2024-08-15T06:30:36Z,2024-08-15T08:19:08Z,domenic,topic: origin|integration,0
 2464881277,true,"Fix ""can have its URL rewritten"" buggy fallthrough",https://github.com/whatwg/html/pull/10558,2024-08-14T04:35:32Z,2024-08-15T01:08:30Z,domenic,topic: navigation,1
-2464370307,false,Relax `<select>` parser,https://github.com/whatwg/html/pull/10557,2024-08-13T22:37:01Z,2024-10-03T09:57:31Z,josepharhar,normative change|topic: parser,1
+2464370307,false,Relax `<select>` parser,https://github.com/whatwg/html/pull/10557,2024-08-13T22:37:01Z,2024-10-03T16:21:11Z,josepharhar,normative change|topic: parser,1
 2458340131,true,Remove exception reporting from declarative shadow dom,https://github.com/whatwg/html/pull/10552,2024-08-09T17:13:23Z,2024-08-14T15:44:52Z,mfreed7,normative change|topic: shadow|topic: parser,0
 2450354011,true,Editorial: modernize promise rejection tracking,https://github.com/whatwg/html/pull/10550,2024-08-06T09:07:03Z,2024-08-07T01:10:54Z,domenic,topic: error reporting,0
 2448702538,false,Complete draft spec for customizable `<select>`,https://github.com/whatwg/html/pull/10548,2024-08-05T14:28:06Z,2024-09-12T22:07:16Z,josepharhar,,0
@@ -52,7 +55,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2443787607,true,Clarify how PLAINTEXT elements may contain child nodes.,https://github.com/whatwg/html/pull/10540,2024-08-02T01:31:30Z,2024-08-14T17:47:43Z,dmsnell,needs implementer interest|topic: parser,0
 2437596520,true,Fix Jake diagram conformance issues,https://github.com/whatwg/html/pull/10530,2024-07-30T11:24:16Z,2024-07-31T07:41:01Z,yoavweiss,,0
 2437215499,true,Editorial: fix cross-reference for exception reporting global,https://github.com/whatwg/html/pull/10529,2024-07-30T08:20:00Z,2024-08-02T05:20:57Z,Ms2ger,,0
-2437162429,false,Dynamic import maps,https://github.com/whatwg/html/pull/10528,2024-07-30T07:54:57Z,2024-10-03T09:03:26Z,yoavweiss,,3
+2437162429,false,Dynamic import maps,https://github.com/whatwg/html/pull/10528,2024-07-30T07:54:57Z,2024-10-03T15:17:25Z,yoavweiss,,3
 2434585445,true,Further fixes to keydown vs. keyup for close requests,https://github.com/whatwg/html/pull/10524,2024-07-29T06:42:25Z,2024-08-15T01:18:42Z,domenic,topic: close watchers,1
 2431085399,false,Add support for internationalized email addresses,https://github.com/whatwg/html/pull/10522,2024-07-25T22:42:22Z,2024-09-17T06:54:40Z,aphillips,i18n-tracker,0
 2424062926,true,Fix bug in timer initialisation steps involving reusing cleared IDs,https://github.com/whatwg/html/pull/10505,2024-07-23T01:41:24Z,2024-08-15T06:32:56Z,majaha,,0
@@ -165,7 +168,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2158124994,true,[Editorial] Export creating NRR,https://github.com/whatwg/html/pull/10167,2024-02-28T05:11:30Z,2024-02-28T05:24:27Z,rubberyuzu,,0
 2157384688,true,Editorial: Specify that connectedness is a prerequisite for script execution,https://github.com/whatwg/html/pull/10165,2024-02-27T18:54:52Z,2024-03-04T04:16:34Z,domfarolino,topic: script,0
 2150141047,true,WIP dialog closedby attribute spec,https://github.com/whatwg/html/pull/10157,2024-02-22T23:57:03Z,2024-08-29T17:13:53Z,lukewarlow,topic: close watchers,0
-2148367262,false,Add may-block reasons to NotRestoredReasons,https://github.com/whatwg/html/pull/10154,2024-02-22T07:06:43Z,2024-10-03T10:07:16Z,rubberyuzu,,0
+2148367262,false,Add may-block reasons to NotRestoredReasons,https://github.com/whatwg/html/pull/10154,2024-02-22T07:06:43Z,2024-10-03T12:16:40Z,rubberyuzu,,0
 2147120013,true,Create code.txt,https://github.com/whatwg/html/pull/10152,2024-02-21T15:58:38Z,2024-02-21T16:05:47Z,owaislodhi01,spam|invalid,0
 2143978728,true,Allow WebDriver BiDi access original opener,https://github.com/whatwg/html/pull/10147,2024-02-20T09:52:35Z,2024-03-21T12:45:50Z,OrKoN,,0
 2141556349,true,Meta: Dark mode fixes,https://github.com/whatwg/html/pull/10144,2024-02-19T05:44:57Z,2024-05-06T16:33:21Z,andreubotella,,0
@@ -1973,7 +1976,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 440806071,true,Add form.requestSubmit(),https://github.com/whatwg/html/pull/4597,2019-05-06T17:34:01Z,2019-05-16T21:28:35Z,domenic,addition/proposal|topic: forms|impacts documentation,2
 439945166,true,Remove <object typemustmatch>,https://github.com/whatwg/html/pull/4590,2019-05-03T08:41:49Z,2019-09-02T05:57:07Z,annevk,removal/deprecation|topic: embed and object|impacts documentation,0
 439495755,true,Meta: add a pull request template,https://github.com/whatwg/html/pull/4588,2019-05-02T09:19:16Z,2019-05-02T15:55:09Z,annevk,,0
-439010438,false,Feature Policy: `focus-without-user-activation`,https://github.com/whatwg/html/pull/4585,2019-04-30T22:49:49Z,2024-04-17T01:22:29Z,ehsan-karamad,needs implementer interest|do not merge yet|needs tests,4
+439010438,false,Feature Policy: `focus-without-user-activation`,https://github.com/whatwg/html/pull/4585,2019-04-30T22:49:49Z,2024-10-03T17:41:15Z,ehsan-karamad,needs implementer interest|do not merge yet|needs tests,4
 438085847,true,Editorial: uniformize issue references,https://github.com/whatwg/html/pull/4579,2019-04-28T18:30:37Z,2019-05-06T17:00:47Z,domenic,,0
 437835655,true,Clarify that <details> toggle events happen during parsing,https://github.com/whatwg/html/pull/4574,2019-04-26T20:34:12Z,2023-11-02T00:48:07Z,domenic,clarification,0
 437833424,true,Add `autocomplete=one-time-code`. Fixes whatwg/html#3745,https://github.com/whatwg/html/pull/4573,2019-04-26T20:27:24Z,2019-04-29T17:22:55Z,hober,impacts documentation,0

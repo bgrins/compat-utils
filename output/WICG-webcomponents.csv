@@ -32,7 +32,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2001464937,false,Allowing for more complex slotted styling by rewriting host rules into global CSS rules,https://github.com/WICG/webcomponents/issues/1038,2023-11-20T06:32:08Z,2023-11-20T06:32:08Z,sirisian,,2
 2001091021,false,Modify :is() and :where() to support selecting derived node types,https://github.com/WICG/webcomponents/issues/1037,2023-11-19T23:25:39Z,2024-08-17T23:47:47Z,sirisian,,0
 1995663277,true,A better solution for ElementInternals,https://github.com/WICG/webcomponents/issues/1036,2023-11-15T22:18:13Z,2023-11-16T09:50:49Z,trusktr,,0
-1982027447,false,DOM parts use outside of <template> seems unlikely,https://github.com/WICG/webcomponents/issues/1035,2023-11-07T19:01:10Z,2024-10-01T21:19:52Z,matthewp,,1
+1982027447,false,DOM parts use outside of <template> seems unlikely,https://github.com/WICG/webcomponents/issues/1035,2023-11-07T19:01:10Z,2024-10-01T21:19:52Z,matthewp,,2
 1963339024,false,DOM Parts and Localization,https://github.com/WICG/webcomponents/issues/1034,2023-10-26T11:39:25Z,2023-10-31T11:37:58Z,eemeli,,1
 1922184877,false,Allow customElementRegistry definitions to persist across page loads,https://github.com/WICG/webcomponents/issues/1033,2023-10-02T15:50:47Z,2024-01-09T20:08:08Z,andy-blum,,9
 1898576585,true,Quarterly Face to Face Scheduling,https://github.com/WICG/webcomponents/issues/1031,2023-09-15T14:47:15Z,2024-04-29T14:47:16Z,Westbrook,,3
@@ -120,7 +120,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1000418914,false,Adding support for ShadowDOM features in SVG,https://github.com/WICG/webcomponents/issues/942,2021-09-19T21:03:38Z,2022-02-21T04:00:42Z,trusktr,,0
 992805736,false,"How can a custom element detect when it is distributed, and what its composed parent is?",https://github.com/WICG/webcomponents/issues/941,2021-09-10T01:42:59Z,2022-04-04T03:59:56Z,trusktr,,0
 989586979,false,"`distributionchange` events, and `distributedNodes()` / `distributedElements()` APIs?",https://github.com/WICG/webcomponents/issues/940,2021-09-07T04:42:57Z,2022-07-29T21:44:37Z,trusktr,,0
-971914425,false,Declarative CSS Module Scripts,https://github.com/WICG/webcomponents/issues/939,2021-08-16T16:38:36Z,2024-10-01T01:45:52Z,justinfagnani,,33
+971914425,false,Declarative CSS Module Scripts,https://github.com/WICG/webcomponents/issues/939,2021-08-16T16:38:36Z,2024-10-03T19:37:05Z,justinfagnani,,33
 963937161,false,slotChange event is not working on anything but the slot attribute change,https://github.com/WICG/webcomponents/issues/937,2021-08-09T12:17:23Z,2021-08-16T15:34:28Z,Kokujou,,0
 940256296,false,CSS selector to style slots with slotted elements,https://github.com/WICG/webcomponents/issues/936,2021-07-08T22:08:01Z,2023-04-21T10:50:02Z,justinfagnani,,36
 936031558,true,ignore me,https://github.com/WICG/webcomponents/issues/935,2021-07-02T19:48:25Z,2021-07-02T19:48:52Z,neatonk,,0
@@ -144,7 +144,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 801354981,true,Why is Chrome Platform Status reporting 70% usage for HTMLSlotElement?,https://github.com/WICG/webcomponents/issues/912,2021-02-04T14:50:06Z,2021-02-18T16:35:52Z,Danny-Engelman,shadow-dom|question,0
 798703023,true,Spring 2021 Virtual Meeting,https://github.com/WICG/webcomponents/issues/911,2021-02-01T20:59:13Z,2024-03-19T10:17:05Z,JanMiksovsky,,12
 770982961,true,Enable Discussions For this Repo?,https://github.com/WICG/webcomponents/issues/910,2020-12-18T15:41:25Z,2020-12-19T01:01:11Z,bahrus,,1
-761686484,false,"""open-stylable"" Shadow Roots",https://github.com/WICG/webcomponents/issues/909,2020-12-10T22:48:43Z,2024-06-01T21:39:58Z,justinfagnani,,156
+761686484,false,"""open-stylable"" Shadow Roots",https://github.com/WICG/webcomponents/issues/909,2020-12-10T22:48:43Z,2024-10-03T20:13:16Z,justinfagnani,,156
 739821653,false,CustomEvents Add Event Handler in Html,https://github.com/WICG/webcomponents/issues/908,2020-11-10T11:19:15Z,2020-11-13T22:55:32Z,MichaelPeter,,0
 739457200,false,[scoped-registries] Moving elements with shadow roots between documents,https://github.com/WICG/webcomponents/issues/907,2020-11-09T23:59:31Z,2023-09-13T10:01:30Z,caridy,,2
 731363834,false,Template batch mutations and side effects,https://github.com/WICG/webcomponents/issues/906,2020-10-28T11:38:36Z,2020-10-29T06:19:27Z,annevk,templates,0
@@ -218,7 +218,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 445606273,true,Shadow tree encapsulation and Element Timing,https://github.com/WICG/webcomponents/issues/816,2019-05-17T20:29:40Z,2019-10-15T17:47:53Z,npm1,shadow-dom|question,0
 445163776,false,Form associated custom elements: implicit submission,https://github.com/WICG/webcomponents/issues/815,2019-05-16T21:16:13Z,2019-05-16T21:16:13Z,domenic,,9
 445158359,false,Form-associated custom elements: being a submit button,https://github.com/WICG/webcomponents/issues/814,2019-05-16T21:01:46Z,2023-06-09T20:34:34Z,domenic,custom-elements|needs concrete proposal,21
-442529805,false,Manage pseudo class matching state for custom elements,https://github.com/WICG/webcomponents/issues/813,2019-05-10T04:09:34Z,2023-04-20T19:45:01Z,tkent-google,custom-elements|needs concrete proposal,7
+442529805,false,Manage pseudo class matching state for custom elements,https://github.com/WICG/webcomponents/issues/813,2019-05-10T04:09:34Z,2024-10-03T16:47:53Z,tkent-google,custom-elements|needs concrete proposal,7
 441452263,true,Consider functional mixin pattern for form-associated custom elements,https://github.com/WICG/webcomponents/issues/812,2019-05-07T21:22:26Z,2019-08-20T20:56:06Z,JanMiksovsky,custom-elements,0
 441222443,false,Protocols/traits for custom elements,https://github.com/WICG/webcomponents/issues/811,2019-05-07T13:06:46Z,2023-04-20T19:46:30Z,annevk,custom-elements|needs consensus,2
 439467974,false,Extensible template parts,https://github.com/WICG/webcomponents/issues/810,2019-05-02T08:00:01Z,2019-09-13T17:29:10Z,annevk,templates,1
@@ -325,7 +325,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 270529603,false,[templates] API for updating,https://github.com/WICG/webcomponents/issues/685,2017-11-02T04:34:17Z,2017-12-18T17:39:01Z,domenic,templates,0
 270529270,false,[templates] No need for -Callback suffix,https://github.com/WICG/webcomponents/issues/684,2017-11-02T04:31:34Z,2017-11-14T02:44:39Z,domenic,templates,1
 270528740,false,[templates] Maybe each {{ ~ }} should be its own text node?,https://github.com/WICG/webcomponents/issues/683,2017-11-02T04:27:21Z,2017-11-04T00:41:33Z,domenic,templates,0
-270528273,false,[templates] How featureful should the default processor be?,https://github.com/WICG/webcomponents/issues/682,2017-11-02T04:23:21Z,2021-07-08T14:57:12Z,domenic,templates,6
+270528273,false,[templates] How featureful should the default processor be?,https://github.com/WICG/webcomponents/issues/682,2017-11-02T04:23:21Z,2021-07-08T14:57:12Z,domenic,templates,7
 270527559,false,[templates] Is a global registry of template processors the right idea?,https://github.com/WICG/webcomponents/issues/681,2017-11-02T04:16:55Z,2018-02-27T18:22:04Z,domenic,templates,4
 270526820,false,[templates] Parts APIs surface concerns,https://github.com/WICG/webcomponents/issues/680,2017-11-02T04:10:22Z,2017-11-02T22:40:08Z,domenic,templates,0
 269793534,true,Disconnected Events,https://github.com/WICG/webcomponents/issues/678,2017-10-31T00:08:30Z,2018-02-17T16:37:53Z,pemrouz,,0
