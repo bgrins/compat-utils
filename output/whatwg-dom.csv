@@ -15,7 +15,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2285828515,false,`MutationObserver` flag to observe mutations in (open) shadow trees to facilitate polyfills of HTML syntax,https://github.com/whatwg/dom/issues/1287,2024-05-08T15:02:58Z,2024-09-23T22:44:30Z,LeaVerou,topic: shadow|needs implementer interest|addition/proposal,4
 2276092070,true,Proposal: elementsFromRect(),https://github.com/whatwg/dom/issues/1286,2024-05-02T17:24:16Z,2024-06-08T06:34:36Z,justinfagnani,needs implementer interest|addition/proposal,11
 2268549974,true,Proposal: SelectorObserver,https://github.com/whatwg/dom/issues/1285,2024-04-29T09:30:09Z,2024-06-10T07:00:36Z,keithamus,needs implementer interest|addition/proposal,4
-2266687616,false,`mutationObserver.disconnect({ flush: true })`,https://github.com/whatwg/dom/issues/1283,2024-04-27T01:16:32Z,2024-10-04T14:03:56Z,LeaVerou,needs implementer interest|addition/proposal|topic: nodes,1
+2266687616,false,`mutationObserver.disconnect({ flush: true })`,https://github.com/whatwg/dom/issues/1283,2024-04-27T01:16:32Z,2024-10-06T00:03:21Z,LeaVerou,needs implementer interest|addition/proposal|topic: nodes,1
 2250072811,false,Proposal AbortSignal.prototype.filter(compare),https://github.com/whatwg/dom/issues/1280,2024-04-18T08:29:14Z,2024-04-21T22:49:42Z,mariusGundersen,needs implementer interest|addition/proposal|topic: aborting,0
 2247627283,true,I can't find where inserting DocumentType nodes into Element nodes is disallowed,https://github.com/whatwg/dom/issues/1278,2024-04-17T07:51:06Z,2024-04-18T00:30:53Z,domenic,,0
 2234326330,false,Proposal: AbortSignal.none(),https://github.com/whatwg/dom/issues/1277,2024-04-09T21:26:44Z,2024-04-10T06:20:45Z,nzakas,needs implementer interest|addition/proposal|topic: aborting,1
@@ -67,7 +67,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1651486627,false,Proposal: A new way to do feature detection for members,https://github.com/whatwg/dom/issues/1181,2023-04-03T07:17:50Z,2023-04-28T13:47:59Z,beaufortfrancois,,1
 1646596906,true,Documents never have their node document set?,https://github.com/whatwg/dom/issues/1178,2023-03-29T22:01:17Z,2023-03-31T08:39:01Z,jyasskin,topic: nodes,0
 1642726849,true,[Range] Should the DOM range spec include an i18n warning?,https://github.com/whatwg/dom/issues/1177,2023-03-27T19:59:45Z,2023-03-28T15:52:39Z,sanketj,,0
-1632575768,false,Allow 'lower-boundary' scoping argument in querySelector(),https://github.com/whatwg/dom/issues/1172,2023-03-20T17:37:14Z,2023-03-23T20:39:09Z,mirisuzanne,needs implementer interest|addition/proposal|topic: nodes,0
+1632575768,false,Allow 'lower-boundary' scoping argument in querySelector(),https://github.com/whatwg/dom/issues/1172,2023-03-20T17:37:14Z,2023-03-23T20:39:09Z,mirisuzanne,needs implementer interest|addition/proposal|topic: nodes,1
 1631794385,false,What exactly does reflect touch target list entity?,https://github.com/whatwg/dom/issues/1171,2023-03-20T10:15:00Z,2023-04-09T12:18:14Z,dSalieri,,0
 1597239881,true,Allow ExtendableEvent within Document,https://github.com/whatwg/dom/issues/1167,2023-02-23T17:15:00Z,2023-02-23T17:28:50Z,clshortfuse,,0
 1585687811,false,Allow subclassing of AbortController / AbortSignal,https://github.com/whatwg/dom/issues/1162,2023-02-15T11:24:44Z,2023-07-20T02:11:46Z,keithamus,needs implementer interest|addition/proposal|needs concrete proposal|topic: aborting,1
