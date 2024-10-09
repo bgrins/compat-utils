@@ -1,11 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2572934425,false,Prevent currentScript from being overridden on document via name='',https://github.com/whatwg/html/issues/10687,2024-10-08T11:35:22Z,2024-10-08T17:06:13Z,juj,normative change|needs implementer interest|security/privacy|topic: script|security-tracker,1
+2572934425,false,Prevent currentScript from being overridden on document via name='',https://github.com/whatwg/html/issues/10687,2024-10-08T11:35:22Z,2024-10-09T11:05:09Z,juj,normative change|needs implementer interest|security/privacy|topic: script|security-tracker|agenda+,1
 2570872527,true,Ordered lists case-sensitivity,https://github.com/whatwg/html/issues/10684,2024-10-07T16:04:20Z,2024-10-07T16:35:19Z,courtu,,0
 2569021110,false,window.open() checks for invalid URL after creating a new traversable,https://github.com/whatwg/html/issues/10681,2024-10-07T00:30:16Z,2024-10-07T06:22:04Z,shannonbooth,topic: navigation,0
 2568834361,false,Word processor new HTML control proposal,https://github.com/whatwg/html/issues/10680,2024-10-06T19:01:55Z,2024-10-07T06:57:58Z,volkansari,addition/proposal|needs implementer interest|needs incubation,1
 2568484967,true,Issue: Need to add hyperlink to the contents page of WHATWG,https://github.com/whatwg/html/issues/10679,2024-10-06T06:10:29Z,2024-10-07T02:43:04Z,turtlespeedv,invalid,0
-2568335542,false,"In ""close a top-level traversable"", the `is closing` flag is always already set to true",https://github.com/whatwg/html/issues/10678,2024-10-05T21:41:05Z,2024-10-07T05:40:12Z,trflynn89,,0
-2568148074,false,Canvas TextMetrics additions for editing and text styling,https://github.com/whatwg/html/issues/10677,2024-10-05T14:53:28Z,2024-10-08T23:55:19Z,schenney-chromium,addition/proposal|needs implementer interest|topic: canvas,0
+2568335542,true,"In ""close a top-level traversable"", the `is closing` flag is always already set to true",https://github.com/whatwg/html/issues/10678,2024-10-05T21:41:05Z,2024-10-09T01:07:07Z,trflynn89,,0
+2568148074,false,Canvas TextMetrics additions for editing and text styling,https://github.com/whatwg/html/issues/10677,2024-10-05T14:53:28Z,2024-10-09T10:02:17Z,schenney-chromium,addition/proposal|needs implementer interest|topic: canvas,0
 2567566544,false,Change page refresh URL without redirect,https://github.com/whatwg/html/issues/10676,2024-10-05T00:45:50Z,2024-10-05T07:51:30Z,elcheapogary,addition/proposal|needs implementer interest,1
 2567340503,false,The declarative popover invoker feature needs to automatically establish an implicit anchor element,https://github.com/whatwg/html/issues/10675,2024-10-04T20:49:45Z,2024-10-07T06:50:08Z,tabatkins,integration|topic: popover,0
 2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2024-10-04T08:40:13Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script,0
@@ -13,7 +13,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2563515517,false," dialog ::backdrop default background should adapt to `color-scheme: dark`",https://github.com/whatwg/html/issues/10669,2024-10-03T09:08:32Z,2024-10-04T09:16:16Z,danieltroger,normative change|topic: rendering|topic: dialog,0
 2563239304,true,HTML Standard should allow more than one title,https://github.com/whatwg/html/issues/10668,2024-10-03T06:35:46Z,2024-10-04T17:47:34Z,ChristopherDoe,addition/proposal|needs implementer interest,1
 2562933170,true,HTML should allow more than one title,https://github.com/whatwg/html/issues/10667,2024-10-03T01:29:11Z,2024-10-03T02:14:38Z,ChristopherDoe,,1
-2562416768,false,Upcoming WHATNOT meeting on 2024-10-10,https://github.com/whatwg/html/issues/10666,2024-10-02T18:47:23Z,2024-10-08T16:53:25Z,past,agenda+,0
+2562416768,false,Upcoming WHATNOT meeting on 2024-10-10,https://github.com/whatwg/html/issues/10666,2024-10-02T18:47:23Z,2024-10-09T09:17:38Z,past,agenda+,0
 2561061638,false,`alert()`/`confirm()`/`prompt()` focus behavior is not specified,https://github.com/whatwg/html/issues/10664,2024-10-02T09:23:46Z,2024-10-02T09:23:46Z,zcorpan,topic: focus,0
 2555508180,false,Consider throwing for showModal() and showPopover() in non-fully-active documents,https://github.com/whatwg/html/issues/10659,2024-09-30T04:31:04Z,2024-10-02T06:06:27Z,domenic,normative change|topic: dialog|agenda+|topic: popover,1
 2551969947,true,Upcoming WHATNOT meeting on 2024-10-03,https://github.com/whatwg/html/issues/10652,2024-09-27T04:30:41Z,2024-10-02T15:00:07Z,past,agenda+,0
@@ -233,7 +233,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2262286535,false,Slowly removing/reducing the margin collapsing quirk.,https://github.com/whatwg/html/issues/10296,2024-04-24T22:26:56Z,2024-09-12T21:50:04Z,bfgeek,normative change|needs implementer interest|topic: rendering,1
 2258787056,false,Sentence in 6.11.7 doesn't seem right,https://github.com/whatwg/html/issues/10295,2024-04-23T12:44:29Z,2024-04-23T12:44:29Z,Zhang-Junzhi,,0
 2258703067,true,SEO issue of <a> elements put dependently inside a context,https://github.com/whatwg/html/issues/10294,2024-04-23T12:03:03Z,2024-04-24T03:15:29Z,Zhang-Junzhi,addition/proposal|needs implementer interest,0
-2258314436,false,Fieldset should support readonly attribute,https://github.com/whatwg/html/issues/10293,2024-04-23T08:51:32Z,2024-04-23T09:10:07Z,pfteter,addition/proposal|needs implementer interest|topic: forms,4
+2258314436,false,Fieldset should support readonly attribute,https://github.com/whatwg/html/issues/10293,2024-04-23T08:51:32Z,2024-04-23T09:10:07Z,pfteter,addition/proposal|needs implementer interest|topic: forms,5
 2256664178,false,"Allow data:image in srcset. And the U+002C COMMA character (,) issue",https://github.com/whatwg/html/issues/10292,2024-04-22T14:17:45Z,2024-04-22T20:25:51Z,janmazanek,,0
 2254541416,true,Should light DOM form controls in a form-associated custom element be ignored during form reset?,https://github.com/whatwg/html/issues/10290,2024-04-20T12:59:06Z,2024-04-22T13:44:58Z,kleinfreund,topic: custom elements,0
 2254517789,false,"Allow SVGSVGElement as image parameter in CanvasRenderingContext2D.drawImage() ",https://github.com/whatwg/html/issues/10289,2024-04-20T10:32:52Z,2024-07-15T16:05:08Z,hfmanson,addition/proposal|needs implementer interest|topic: canvas,0
@@ -859,7 +859,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1553531654,true,CSS selectors cannot reliably identify cells on the edge of their containing table if any cells in the table use the rowSpan attribute,https://github.com/whatwg/html/issues/8772,2023-01-23T18:05:52Z,2023-01-24T00:43:09Z,DavidJCobb,,0
 1552934460,false,Ability to style default summary in <details>,https://github.com/whatwg/html/issues/8770,2023-01-23T11:28:14Z,2023-05-05T08:34:11Z,jakearchibald,addition/proposal|topic: rendering|topic: selectors,2
 1552047625,true,"Clarify: CSS import assertions use ""script"" as the destination, is that intended?",https://github.com/whatwg/html/issues/8764,2023-01-22T08:56:49Z,2023-06-11T06:26:34Z,noamr,,0
-1550462824,true,MediaError not acccessible for a video element if using it with source elements,https://github.com/whatwg/html/issues/8757,2023-01-20T08:15:13Z,2023-01-26T09:48:49Z,callumgare,,0
+1550462824,false,MediaError not acccessible for a video element if using it with source elements,https://github.com/whatwg/html/issues/8757,2023-01-20T08:15:13Z,2024-10-09T09:51:40Z,callumgare,topic: media,0
 1550768319,true,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2024-02-04T07:47:15Z,mfreed7,addition/proposal|topic: shadow,1
 1550024105,false,Native support for indents,https://github.com/whatwg/html/issues/8751,2023-01-19T22:11:32Z,2023-01-25T23:06:02Z,GermanJablo,,2
 1548957116,true,[css-view-transitions-1] Interaction with Safari's back/forward previews,https://github.com/whatwg/html/issues/8749,2023-01-19T11:14:58Z,2023-01-19T11:21:46Z,jakearchibald,,0
@@ -2855,7 +2855,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 369246393,false,Need spec for layout of ::before/::after pseudos on form controls,https://github.com/whatwg/html/issues/4086,2018-10-11T18:21:10Z,2019-03-30T14:06:42Z,MatsPalmgren,topic: rendering|topic: forms,0
 368710417,true,Default 'display' value for form controls,https://github.com/whatwg/html/issues/4082,2018-10-10T15:01:27Z,2021-09-16T21:13:21Z,zcorpan,topic: rendering|topic: forms|interop,0
 368615563,true,Rendering rules for buttons,https://github.com/whatwg/html/issues/4081,2018-10-10T11:15:02Z,2019-05-14T13:52:18Z,zcorpan,topic: rendering|topic: forms,1
-368468380,true,Windows opened via <a target=_blank> should not have an opener by default,https://github.com/whatwg/html/issues/4078,2018-10-10T02:24:53Z,2019-02-07T12:24:42Z,cdumez,addition/proposal|topic: browsing context|impacts documentation,111
+368468380,true,Windows opened via <a target=_blank> should not have an opener by default,https://github.com/whatwg/html/issues/4078,2018-10-10T02:24:53Z,2019-02-07T12:24:42Z,cdumez,addition/proposal|topic: browsing context|impacts documentation,114
 368463583,true,"""the error attribute initialized to null""",https://github.com/whatwg/html/issues/4077,2018-10-10T01:57:03Z,2018-10-10T03:19:15Z,yukidmy,,0
 367974334,true,editorial issues with Canvas TextMetrics,https://github.com/whatwg/html/issues/4073,2018-10-08T22:27:03Z,2020-06-29T07:02:13Z,dbaron,topic: canvas,0
 367974322,false,canvas TextMetrics APIs should define rounding better,https://github.com/whatwg/html/issues/4072,2018-10-08T22:27:00Z,2021-04-28T14:07:55Z,dbaron,topic: canvas,0
@@ -3583,7 +3583,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 237921225,true,Add guidelines to CONTRIBUTING.md about the dev edition,https://github.com/whatwg/html/issues/2781,2017-06-22T17:41:37Z,2017-06-27T22:29:00Z,domenic,dev edition,0
 237921038,true,"Dev edition: add ""about this specification""",https://github.com/whatwg/html/issues/2780,2017-06-22T17:40:50Z,2017-07-14T18:32:29Z,domenic,dev edition,2
 237918674,true,Dev edition: add back jump-to search,https://github.com/whatwg/html/issues/2779,2017-06-22T17:31:15Z,2017-07-13T15:48:34Z,domenic,dev edition,1
-237793047,false,Allow `dialog.close` to support non-strings,https://github.com/whatwg/html/issues/2778,2017-06-22T09:59:39Z,2020-05-29T10:02:09Z,brettz9,addition/proposal|needs implementer interest|topic: dialog,2
+237793047,false,Allow `dialog.close` to support non-strings,https://github.com/whatwg/html/issues/2778,2017-06-22T09:59:39Z,2020-05-29T10:02:09Z,brettz9,addition/proposal|needs implementer interest|topic: dialog,3
 237489897,false,Definition of ambiguous ampersand for &ampa; in attribute value,https://github.com/whatwg/html/issues/2776,2017-06-21T10:37:27Z,2017-06-21T10:37:27Z,zcorpan,document conformance|topic: parser,0
 237405154,false,Expected behavior for <a download> error case,https://github.com/whatwg/html/issues/2775,2017-06-21T03:29:53Z,2017-06-22T08:12:13Z,jessi3py-zz,interop|topic: hyperlink,0
 237070773,true,Calling focus() on non-focusable HTMLElement should log a warning to the console,https://github.com/whatwg/html/issues/2772,2017-06-20T01:53:36Z,2017-06-28T01:54:20Z,TakayoshiKochi,,0
@@ -3898,7 +3898,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 197928864,true,Should innerText have a blocklist of elements it doesn't work on?,https://github.com/whatwg/html/issues/2222,2016-12-28T23:02:25Z,2017-02-23T00:10:05Z,domenic,needs tests,0
 197758401,true,Comparative Form,https://github.com/whatwg/html/issues/2219,2016-12-27T21:11:30Z,2016-12-28T17:45:26Z,samo25,,0
 197415105,true,Should document.write check for being a fully active rather than active document?,https://github.com/whatwg/html/issues/2216,2016-12-23T19:09:25Z,2018-09-06T15:00:41Z,asajeffrey,topic: parser,0
-197262014,false,Provide an opt-out for inputs overriding form DOM API,https://github.com/whatwg/html/issues/2212,2016-12-22T20:39:36Z,2024-10-08T11:36:22Z,dvoytenko,integration,7
+197262014,false,Provide an opt-out for inputs overriding form DOM API,https://github.com/whatwg/html/issues/2212,2016-12-22T20:39:36Z,2024-10-09T00:29:47Z,dvoytenko,integration,7
 197235843,false,"HTML spec doesn't define how to render img that represents text / nothing, when the UA *does* ""expect this to change""",https://github.com/whatwg/html/issues/2211,2016-12-22T18:20:53Z,2016-12-22T23:16:36Z,dholbert,topic: rendering|topic: img,0
 197118115,true,When to process meta elements,https://github.com/whatwg/html/issues/2210,2016-12-22T08:16:07Z,2020-08-19T14:20:16Z,annevk,interop,0
 197032078,true,Feature request: Secure Inputs,https://github.com/whatwg/html/issues/2206,2016-12-21T21:02:57Z,2017-01-10T00:10:43Z,ctel,addition/proposal|needs implementer interest|topic: forms,0
