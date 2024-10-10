@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2576598344,false,Relax `<select>` parser,https://github.com/mozilla/standards-positions/issues/1086,2024-10-09T18:07:56Z,2024-10-09T18:09:43Z,josepharhar,,0
-2574324853,false,:open and :closed pseudo-classes,https://github.com/mozilla/standards-positions/issues/1085,2024-10-08T22:20:41Z,2024-10-08T22:20:41Z,josepharhar,,1
+2576598344,false,Relax `<select>` parser,https://github.com/mozilla/standards-positions/issues/1086,2024-10-09T18:07:56Z,2024-10-10T11:33:44Z,josepharhar,venue: WHATWG|concerns: compatibility|topic: HTML,0
+2574324853,false,:open and :closed pseudo-classes,https://github.com/mozilla/standards-positions/issues/1085,2024-10-08T22:20:41Z,2024-10-10T11:47:09Z,josepharhar,topic: CSS|team: Layout,1
 2573240945,false,Storage Access Headers,https://github.com/mozilla/standards-positions/issues/1084,2024-10-08T13:38:39Z,2024-10-08T13:40:22Z,cfredric,,0
 2565831331,false,"AudioContext ""interrupted"" state",https://github.com/mozilla/standards-positions/issues/1083,2024-10-04T08:52:21Z,2024-10-04T09:00:10Z,gabrielsanbrito,,0
 2562917212,false,"""media-playback-while-not-visible"" Permission Policy",https://github.com/mozilla/standards-positions/issues/1082,2024-10-03T01:07:58Z,2024-10-04T08:41:55Z,gabrielsanbrito,,0
@@ -22,7 +22,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2510793257,true,FedCM as a trust signal for the Storage Access API,https://github.com/mozilla/standards-positions/issues/1065,2024-09-06T16:23:54Z,2024-10-02T00:48:06Z,cfredric,venue: W3C CG|position: positive|topic: API|team: Security,0
 2491538587,false,Realms Initialization Control,https://github.com/mozilla/standards-positions/issues/1062,2024-08-28T09:18:47Z,2024-08-28T21:14:55Z,weizman,venue: W3C CG|team: DOM|team: Security,0
 2481325418,false,Captured Surface Control,https://github.com/mozilla/standards-positions/issues/1061,2024-08-22T17:09:02Z,2024-09-12T15:40:28Z,guidou,,0
-2476557536,false,Customizable select element,https://github.com/mozilla/standards-positions/issues/1060,2024-08-20T21:19:36Z,2024-08-21T07:08:25Z,josepharhar,venue: W3C|venue: WHATWG|concerns: compatibility|topic: CSS|topic: HTML|team: Layout,4
+2476557536,false,Customizable select element,https://github.com/mozilla/standards-positions/issues/1060,2024-08-20T21:19:36Z,2024-08-21T07:08:25Z,josepharhar,venue: W3C|venue: WHATWG|concerns: compatibility|topic: CSS|topic: HTML|team: Layout,5
 2469127470,false,Future browsing context group dependency hint,https://github.com/mozilla/standards-positions/issues/1059,2024-08-15T23:07:30Z,2024-08-15T23:07:30Z,kjmcnee,,0
 2457509458,false,Multiple import maps,https://github.com/mozilla/standards-positions/issues/1058,2024-08-09T09:29:25Z,2024-10-08T06:54:54Z,yoavweiss,,0
 2453978364,false,Call stacks in crash reports from unresponsive web pages,https://github.com/mozilla/standards-positions/issues/1057,2024-08-07T17:26:18Z,2024-08-07T17:30:07Z,issackjohn,,0
@@ -205,7 +205,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1757193625,false,Bad value 18px for attribute height on element `img`: Expected a digit but saw `p` instead,https://github.com/mozilla/standards-positions/issues/826,2023-06-14T15:43:41Z,2023-06-14T15:46:20Z,pdehaan,tooling,0
 1757160817,false,Broken image for asset/Other.svg (JPEG-XL spec),https://github.com/mozilla/standards-positions/issues/825,2023-06-14T15:25:55Z,2023-06-14T15:31:21Z,pdehaan,tooling,0
 1755667330,false,ResourceTiming - deliveryType,https://github.com/mozilla/standards-positions/issues/824,2023-06-13T21:24:53Z,2023-07-10T20:16:22Z,jeremyroman,,0
-1753505064,false,CSS corner-shape,https://github.com/mozilla/standards-positions/issues/823,2023-06-12T20:12:50Z,2023-07-31T19:52:19Z,jsnkuhn,,5
+1753505064,false,CSS corner-shape,https://github.com/mozilla/standards-positions/issues/823,2023-06-12T20:12:50Z,2023-07-31T19:52:19Z,jsnkuhn,,6
 1748340161,false,Web Audio API - RenderCapacity,https://github.com/mozilla/standards-positions/issues/820,2023-06-08T17:10:30Z,2023-08-03T14:01:06Z,hoch,,0
 1747987139,false,Fix color contrast issues,https://github.com/mozilla/standards-positions/issues/819,2023-06-08T14:17:05Z,2023-06-08T14:17:05Z,zcorpan,tooling,0
 1745829784,true,Request for Position: Device Attributes,https://github.com/mozilla/standards-positions/issues/815,2023-06-07T12:50:45Z,2023-06-19T19:40:28Z,sbykov-g,invalid,0
@@ -241,7 +241,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1672829088,false,Request for Mozilla Position: Explicit compile hints,https://github.com/mozilla/standards-positions/issues/780,2023-04-18T10:32:32Z,2024-10-01T21:20:30Z,marjakh,,0
 1672036495,false,Request for Mozilla Position: Add a capability to create a Blob URL with a unique (non-opaque) origin,https://github.com/mozilla/standards-positions/issues/779,2023-04-17T22:05:38Z,2023-05-31T17:29:09Z,shhnjk,,0
 1667087739,true,"WhatWG owning type streams ",https://github.com/mozilla/standards-positions/issues/778,2023-04-13T20:31:18Z,2023-05-10T03:57:06Z,youennf,position: positive,3
-1667051156,false,The `overlay` CSS property,https://github.com/mozilla/standards-positions/issues/777,2023-04-13T19:59:54Z,2024-10-08T22:47:49Z,josepharhar,,2
+1667051156,false,The `overlay` CSS property,https://github.com/mozilla/standards-positions/issues/777,2023-04-13T19:59:54Z,2024-10-10T11:53:41Z,josepharhar,topic: CSS,2
 1665949558,false,Adding payto protocol to the registerProtocolHandler safelist.,https://github.com/mozilla/standards-positions/issues/776,2023-04-13T08:19:59Z,2023-04-13T17:22:59Z,rastislavcore,,0
 1665764953,true,Zstandard compression format for Content-Encoding,https://github.com/mozilla/standards-positions/issues/775,2023-04-13T06:00:56Z,2024-09-13T14:09:52Z,nidhijaju,position: positive,0
 1663298812,true,Request for Mozilla Position: AbortSignal.any(),https://github.com/mozilla/standards-positions/issues/774,2023-04-11T22:19:22Z,2023-04-13T20:13:28Z,shaseley,position: positive,0

@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2576610039,false,Add EPUB file type support to Web Share API aka navigator.share(),https://github.com/whatwg/html/issues/10690,2024-10-09T18:14:58Z,2024-10-09T18:15:09Z,evangow,,0
-2572934425,false,Prevent currentScript from being overridden on document via name='',https://github.com/whatwg/html/issues/10687,2024-10-08T11:35:22Z,2024-10-09T14:00:34Z,juj,normative change|needs implementer interest|security/privacy|topic: script|security-tracker|agenda+,1
+2576610039,true,Add EPUB file type support to Web Share API aka navigator.share(),https://github.com/whatwg/html/issues/10690,2024-10-09T18:14:58Z,2024-10-10T01:17:11Z,evangow,,0
+2572934425,false,Prevent currentScript from being overridden on document via name='',https://github.com/whatwg/html/issues/10687,2024-10-08T11:35:22Z,2024-10-10T08:58:17Z,juj,normative change|needs implementer interest|security/privacy|topic: script|security-tracker|agenda+,1
 2570872527,true,Ordered lists case-sensitivity,https://github.com/whatwg/html/issues/10684,2024-10-07T16:04:20Z,2024-10-07T16:35:19Z,courtu,,0
 2569021110,false,window.open() checks for invalid URL after creating a new traversable,https://github.com/whatwg/html/issues/10681,2024-10-07T00:30:16Z,2024-10-07T06:22:04Z,shannonbooth,topic: navigation,0
 2568834361,false,Word processor new HTML control proposal,https://github.com/whatwg/html/issues/10680,2024-10-06T19:01:55Z,2024-10-07T06:57:58Z,volkansari,addition/proposal|needs implementer interest|needs incubation,1
@@ -16,7 +16,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2562933170,true,HTML should allow more than one title,https://github.com/whatwg/html/issues/10667,2024-10-03T01:29:11Z,2024-10-03T02:14:38Z,ChristopherDoe,,1
 2562416768,false,Upcoming WHATNOT meeting on 2024-10-10,https://github.com/whatwg/html/issues/10666,2024-10-02T18:47:23Z,2024-10-09T23:54:52Z,past,agenda+,0
 2561061638,false,`alert()`/`confirm()`/`prompt()` focus behavior is not specified,https://github.com/whatwg/html/issues/10664,2024-10-02T09:23:46Z,2024-10-02T09:23:46Z,zcorpan,topic: focus,0
-2555508180,false,Consider throwing for showModal() and showPopover() in non-fully-active documents,https://github.com/whatwg/html/issues/10659,2024-09-30T04:31:04Z,2024-10-09T16:53:35Z,domenic,normative change|topic: dialog|agenda+|topic: popover,1
+2555508180,false,Consider throwing for showModal() and showPopover() in non-fully-active documents,https://github.com/whatwg/html/issues/10659,2024-09-30T04:31:04Z,2024-10-10T01:16:20Z,domenic,normative change|topic: dialog|topic: popover,1
 2551969947,true,Upcoming WHATNOT meeting on 2024-10-03,https://github.com/whatwg/html/issues/10652,2024-09-27T04:30:41Z,2024-10-02T15:00:07Z,past,agenda+,0
 2551884785,false,Nested `contenteditable=true` and `contenteditable=plaintext-only` should win only the ourtermost one,https://github.com/whatwg/html/issues/10651,2024-09-27T02:53:27Z,2024-09-30T21:55:52Z,masayuki-nakano,needs tests|needs concrete proposal|topic: editing,0
 2551197034,false,Canvas Place Element,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2024-10-01T15:38:52Z,khushalsagar,addition/proposal|needs implementer interest|topic: canvas|agenda+,0
@@ -28,7 +28,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2542451496,false,Add `beforechange` event to inputs,https://github.com/whatwg/html/issues/10639,2024-09-23T12:14:53Z,2024-09-23T16:21:09Z,bramus,addition/proposal|needs implementer interest,1
 2541183474,false,Allow a persistent CustomStateSet across elements,https://github.com/whatwg/html/issues/10638,2024-09-22T17:47:01Z,2024-09-24T13:02:38Z,ydaniv,addition/proposal|needs implementer interest,0
 2539834245,false,Expose all window APIs as built-in ES modules,https://github.com/whatwg/html/issues/10636,2024-09-21T00:05:00Z,2024-09-23T08:07:43Z,freshp86,addition/proposal|needs implementer interest,0
-2535581633,false,It is possible to create CloseWatchers for dialog elements and popovers which aren't in fully active document,https://github.com/whatwg/html/issues/10634,2024-09-19T07:57:10Z,2024-09-30T04:41:09Z,smaug----,topic: dialog|topic: popover|topic: close watchers,0
+2535581633,true,It is possible to create CloseWatchers for dialog elements and popovers which aren't in fully active document,https://github.com/whatwg/html/issues/10634,2024-09-19T07:57:10Z,2024-10-10T01:57:42Z,smaug----,topic: dialog|topic: popover|topic: close watchers,0
 2527256737,false,`beforeunload` should fire for documents with active Media Capture,https://github.com/whatwg/html/issues/10627,2024-09-15T23:24:49Z,2024-09-15T23:30:07Z,thexeos,addition/proposal|needs implementer interest,1
 2526786372,false,"Description corresponding of ""Any other attribute"" of embed element is not found",https://github.com/whatwg/html/issues/10626,2024-09-15T07:41:34Z,2024-09-16T09:24:37Z,mtrootyy,topic: embed and object,0
 2526155613,true,BigInt serialization,https://github.com/whatwg/html/issues/10625,2024-09-14T09:32:56Z,2024-09-17T06:29:47Z,BlobTheKat,addition/proposal|needs implementer interest,0
@@ -4178,7 +4178,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 170296910,true,Custom elements section contain too much tutorial-like contents,https://github.com/whatwg/html/issues/1642,2016-08-09T23:44:14Z,2017-10-13T21:10:05Z,rniwa,topic: custom elements,0
 169868874,true,"""create an element for a token"" does not account for duplicate attributes",https://github.com/whatwg/html/issues/1636,2016-08-08T08:29:34Z,2016-08-10T18:19:37Z,annevk,topic: parser|topic: custom elements,0
 169867738,true,Proposal for new properties on HTMLCanvasElement and CanvasRenderingContext2D,https://github.com/whatwg/html/issues/1635,2016-08-08T08:22:02Z,2018-01-23T14:50:35Z,ghost,addition/proposal|needs implementer interest|topic: canvas,0
-169651291,false,Make <label> elements reflect CSS pseudoclasses on associated form element,https://github.com/whatwg/html/issues/1632,2016-08-05T16:58:22Z,2021-05-17T17:15:04Z,AmeliaBR,normative change|needs implementer interest|topic: rendering,12
+169651291,false,Make <label> elements reflect CSS pseudoclasses on associated form element,https://github.com/whatwg/html/issues/1632,2016-08-05T16:58:22Z,2021-05-17T17:15:04Z,AmeliaBR,normative change|needs implementer interest|topic: rendering,13
 169510979,true,Parser custom element creation should use the ignore-destructive-writes counter,https://github.com/whatwg/html/issues/1630,2016-08-05T01:37:27Z,2016-08-17T06:44:39Z,dominiccooney,topic: parser|topic: custom elements,0
 169356544,true,What should happen with input.selectionStart = null;,https://github.com/whatwg/html/issues/1628,2016-08-04T11:53:44Z,2016-08-11T15:33:19Z,smaug----,clarification|topic: forms,0
 169355613,true,<menuitem> start tag in <body> should reconstruct the list of active formatting elements,https://github.com/whatwg/html/issues/1627,2016-08-04T11:48:22Z,2016-08-10T17:46:18Z,inikulin,topic: parser,0
