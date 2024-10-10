@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2572495204,true,DOM element with a name='currentScript' attribute can hijack document.currentScript.src,https://github.com/whatwg/dom/issues/1315,2024-10-08T08:36:18Z,2024-10-09T00:28:47Z,juj,,1
-2565209763,false,Methods on ChildNode and ParentNode that take `(Node or DOMString)... nodes` should not use an intermediate DocumentFragment,https://github.com/whatwg/dom/issues/1313,2024-10-04T00:42:43Z,2024-10-04T17:16:36Z,dbaron,needs tests|topic: nodes,1
+2565209763,false,Methods on ChildNode and ParentNode that take `(Node or DOMString)... nodes` should not use an intermediate DocumentFragment,https://github.com/whatwg/dom/issues/1313,2024-10-04T00:42:43Z,2024-10-09T13:37:22Z,dbaron,needs tests|topic: nodes,1
 2530806943,false,Add `class` as an alias for `className`,https://github.com/whatwg/dom/issues/1310,2024-09-17T10:47:29Z,2024-09-18T15:21:39Z,Psychpsyo,,0
 2513337108,true,Suggestion to Add Translated Link for dom (Simplified Chinese 简体中文),https://github.com/whatwg/dom/issues/1309,2024-09-09T08:50:36Z,2024-09-20T15:16:09Z,JinDX,,0
 2488083884,false,Proposal: asynchronous event listeners,https://github.com/whatwg/dom/issues/1308,2024-08-27T01:41:09Z,2024-09-26T15:24:37Z,domfarolino,needs implementer interest|topic: events|needs concrete proposal,6
@@ -28,7 +28,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2186991156,false,Add extend and modify methods for the Range object,https://github.com/whatwg/dom/issues/1264,2024-03-14T18:20:58Z,2024-03-14T18:20:58Z,snnsnn,needs implementer interest|addition/proposal,0
 2165019807,false,Ability to reset an AbortSignal.timeout,https://github.com/whatwg/dom/issues/1263,2024-03-02T23:04:35Z,2024-03-03T07:40:48Z,jasnell,,0
 2156327954,true,"""connected"" should be defined for all kinds of nodes",https://github.com/whatwg/dom/issues/1259,2024-02-27T11:17:39Z,2024-02-28T08:11:30Z,zcorpan,,1
-2134995640,false,Atomic move operation for element reparenting & reordering,https://github.com/whatwg/dom/issues/1255,2024-02-14T19:00:33Z,2024-09-09T13:38:40Z,domfarolino,needs implementer interest|addition/proposal|stage: 2,174
+2134995640,false,Atomic move operation for element reparenting & reordering,https://github.com/whatwg/dom/issues/1255,2024-02-14T19:00:33Z,2024-10-09T23:53:50Z,domfarolino,needs implementer interest|addition/proposal|agenda+|stage: 2,174
 2121320218,false,Make some ShadowRoot attributes mutable,https://github.com/whatwg/dom/issues/1252,2024-02-06T17:20:13Z,2024-02-06T18:47:14Z,mfreed7,topic: shadow|needs implementer interest|addition/proposal,0
 2116555216,true,Support for appending a cloned template adjacent to an existing element,https://github.com/whatwg/dom/issues/1250,2024-02-03T16:00:00Z,2024-02-04T07:46:29Z,bahrus,needs implementer interest|addition/proposal,0
 2106290867,true,How should `clonable` work in `cloneNode(false)`?,https://github.com/whatwg/dom/issues/1249,2024-01-29T19:48:11Z,2024-04-04T07:27:24Z,mfreed7,topic: shadow|topic: nodes,0
@@ -180,7 +180,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 737204537,false,Should event.stopPropagation() during capturing prevent the bubbling phase?,https://github.com/whatwg/dom/issues/916,2020-11-05T19:22:58Z,2020-12-09T21:44:34Z,domenic,interop|topic: events,2
 733465826,true,"[Declarative Shadow DOM] How should we build the ""opt-in"" for fragment parsing of declarative Shadow DOM?",https://github.com/whatwg/dom/issues/912,2020-10-30T19:36:47Z,2023-10-29T19:33:49Z,mfreed7,topic: shadow,1
 732407583,true,Support `AbortSignal`s in `addEventListener`s options to unsubscribe from events?,https://github.com/whatwg/dom/issues/911,2020-10-29T15:18:20Z,2021-04-29T19:50:51Z,benjamingr,needs implementer interest|topic: events|addition/proposal|impacts documentation|topic: aborting,42
-731703768,false,Should there be a declarative version of adoptedStyleSheets?,https://github.com/whatwg/dom/issues/910,2020-10-28T18:49:30Z,2024-09-30T17:14:58Z,mfreed7,topic: shadow|needs implementer interest|addition/proposal,7
+731703768,false,Should there be a declarative version of adoptedStyleSheets?,https://github.com/whatwg/dom/issues/910,2020-10-28T18:49:30Z,2024-10-09T20:43:10Z,mfreed7,topic: shadow|needs implementer interest|addition/proposal,7
 730252658,true,"Clarify null ""get-the-parent"" note",https://github.com/whatwg/dom/issues/908,2020-10-27T08:37:40Z,2020-12-08T18:53:47Z,benjamingr,topic: events|clarification,0
 729900008,false,NodeIterator's pre-removing steps does not match browsers,https://github.com/whatwg/dom/issues/907,2020-10-26T20:56:32Z,2020-11-05T10:00:51Z,TRowbotham,,1
 729831439,true,Missing comma in a sentence - makes it somewhat confusing to read,https://github.com/whatwg/dom/issues/906,2020-10-26T19:08:27Z,2020-10-27T13:09:26Z,JasonTheKitten,,0
@@ -372,7 +372,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 283170774,true,Inconsistency in execution of unclosed attribute selector for querySelector,https://github.com/whatwg/dom/issues/549,2017-12-19T10:11:09Z,2019-02-28T06:54:42Z,TimvdLippe,needs tests,0
 282917298,false,Proposal: Spellcheck API,https://github.com/whatwg/dom/issues/547,2017-12-18T15:26:59Z,2018-01-08T06:12:56Z,Ginden,,1
 282704403,false,"Proposal: Element.elementIndex, Node.nodeIndex",https://github.com/whatwg/dom/issues/546,2017-12-17T16:11:57Z,2019-04-11T09:40:19Z,davidbukacek,needs implementer interest|addition/proposal,15
-281633681,false,Improving ergonomics of events with Observable,https://github.com/whatwg/dom/issues/544,2017-12-13T05:58:13Z,2023-07-28T17:46:42Z,benlesh,needs implementer interest|topic: events|addition/proposal,614
+281633681,false,Improving ergonomics of events with Observable,https://github.com/whatwg/dom/issues/544,2017-12-13T05:58:13Z,2023-07-28T17:46:42Z,benlesh,needs implementer interest|topic: events|addition/proposal,616
 280099708,true,Proposal: RangeList,https://github.com/whatwg/dom/issues/543,2017-12-07T11:44:00Z,2018-01-25T14:37:13Z,WebReflection,needs implementer interest,0
 279507201,false,Define a mapping to a Selectors Element Tree,https://github.com/whatwg/dom/issues/542,2017-12-05T19:50:01Z,2017-12-06T09:00:28Z,gsnedders,,0
 275862932,true,Simply MutationObserver callback handling with optional reference property in MutationObserverInit object,https://github.com/whatwg/dom/issues/539,2017-11-21T21:18:34Z,2018-03-17T08:01:40Z,d2ydx2,,0
