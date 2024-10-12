@@ -49,7 +49,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2468462371,true,Fix incorrect recursion for dir=auto special cases.,https://github.com/whatwg/html/pull/10561,2024-08-15T16:43:24Z,2024-09-16T19:40:27Z,dbaron,topic: shadow|i18n-tracker,0
 2467498874,false,"Add ""same origin with its ancestors""",https://github.com/whatwg/html/pull/10559,2024-08-15T06:30:36Z,2024-08-15T08:19:08Z,domenic,topic: origin|integration,0
 2464881277,true,"Fix ""can have its URL rewritten"" buggy fallthrough",https://github.com/whatwg/html/pull/10558,2024-08-14T04:35:32Z,2024-08-15T01:08:30Z,domenic,topic: navigation,1
-2464370307,false,Relax `<select>` parser,https://github.com/whatwg/html/pull/10557,2024-08-13T22:37:01Z,2024-10-10T22:58:43Z,josepharhar,normative change|topic: parser,1
+2464370307,false,Relax `<select>` parser,https://github.com/whatwg/html/pull/10557,2024-08-13T22:37:01Z,2024-10-11T23:07:21Z,josepharhar,normative change|topic: parser,1
 2458340131,true,Remove exception reporting from declarative shadow dom,https://github.com/whatwg/html/pull/10552,2024-08-09T17:13:23Z,2024-08-14T15:44:52Z,mfreed7,normative change|topic: shadow|topic: parser,0
 2450354011,true,Editorial: modernize promise rejection tracking,https://github.com/whatwg/html/pull/10550,2024-08-06T09:07:03Z,2024-08-07T01:10:54Z,domenic,topic: error reporting,0
 2448702538,false,Complete draft spec for customizable `<select>`,https://github.com/whatwg/html/pull/10548,2024-08-05T14:28:06Z,2024-09-12T22:07:16Z,josepharhar,,0
@@ -184,7 +184,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2126643489,true,[WIP] Add may-block reasons for NotRestoredReasons,https://github.com/whatwg/html/pull/10131,2024-02-09T07:55:49Z,2024-03-06T07:50:06Z,rubberyuzu,,0
 2126638785,true,Fix off-by-one error in navigation.canGoForward,https://github.com/whatwg/html/pull/10130,2024-02-09T07:51:29Z,2024-02-09T08:09:41Z,domenic,topic: navigation,0
 2124657255,true,Meta: Drop duplicate dfns of width and height IDL attr for HTMLImageElement,https://github.com/whatwg/html/pull/10127,2024-02-08T08:59:34Z,2024-02-08T09:10:28Z,dontcallmedom,,0
-2123981577,false,Add the :open and :closed pseudo-selectors,https://github.com/whatwg/html/pull/10126,2024-02-07T22:07:51Z,2024-10-10T12:01:10Z,josepharhar,,0
+2123981577,false,Add the :open and :closed pseudo-selectors,https://github.com/whatwg/html/pull/10126,2024-02-07T22:07:51Z,2024-10-11T14:01:15Z,josepharhar,,0
 2119551527,false,Close dialog elements when the open attribute is removed,https://github.com/whatwg/html/pull/10124,2024-02-05T22:13:10Z,2024-03-27T20:48:01Z,josepharhar,normative change|topic: dialog,1
 2116642999,true,Update build.yml,https://github.com/whatwg/html/pull/10121,2024-02-03T19:02:32Z,2024-10-08T14:04:25Z,JulianaticID,invalid,0
 2115694515,true,Update README.md to include about us description.,https://github.com/whatwg/html/pull/10120,2024-02-02T20:07:00Z,2024-10-08T14:04:25Z,edxlang,invalid,0
@@ -3028,7 +3028,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 184322305,true,"Remove ""compatibility caseless"" matching",https://github.com/whatwg/html/pull/1941,2016-10-20T19:43:22Z,2016-10-24T16:01:30Z,domenic,normative change|compat|i18n-tracker,0
 184284289,true,"Fix #1914: Link ""downloading a resource"" to ""downloads a hyperlink""",https://github.com/whatwg/html/pull/1940,2016-10-20T16:55:16Z,2016-10-20T20:13:12Z,yuyokk,clarification,0
 184199558,true,Meta: add more guidance for how to handle test PRs,https://github.com/whatwg/html/pull/1938,2016-10-20T11:06:32Z,2016-10-20T12:10:03Z,foolip,,0
-184087292,false,"Add document.{parsed,contentLoaded,loaded} promises",https://github.com/whatwg/html/pull/1936,2016-10-19T22:10:53Z,2024-01-09T11:09:42Z,domenic,addition/proposal,49
+184087292,false,"Add document.{parsed,contentLoaded,loaded} promises",https://github.com/whatwg/html/pull/1936,2016-10-19T22:10:53Z,2024-01-09T11:09:42Z,domenic,addition/proposal,51
 184050377,true,Set some MessageEvent's isTrusted attributes to true,https://github.com/whatwg/html/pull/1935,2016-10-19T19:18:25Z,2016-10-25T17:33:24Z,domenic,normative change|topic: events,0
 184050144,true,Editorial: more minor event creation/dispatch cleanup,https://github.com/whatwg/html/pull/1934,2016-10-19T19:17:24Z,2016-10-25T17:20:58Z,domenic,clarification|topic: events,0
 184019126,true,Event,https://github.com/whatwg/html/pull/1933,2016-10-19T16:59:44Z,2016-10-21T07:47:37Z,sendilkumarn,topic: events,0
