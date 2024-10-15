@@ -1,4 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2587020604,false,Meeting 9 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10702,2024-10-14T20:40:54Z,2024-10-14T22:54:12Z,josepharhar,agenda+,0
+2586941810,false,The behavior when a user clicks <select> to show the dropdown is not clearly defined,https://github.com/whatwg/html/issues/10701,2024-10-14T20:09:29Z,2024-10-14T20:09:29Z,EdgarChen,,0
 2582282994,false,Add an event for when a user attempts to submit,https://github.com/whatwg/html/issues/10694,2024-10-11T22:38:01Z,2024-10-13T20:49:49Z,KonnorRogers,addition/proposal|needs implementer interest|topic: forms|topic: events,1
 2579562484,false,Upcoming WHATNOT meeting on 2024-10-17,https://github.com/whatwg/html/issues/10692,2024-10-10T18:38:33Z,2024-10-10T18:38:33Z,past,agenda+,0
 2579347540,false,“a start tag must never be omitted if it has any attributes”,https://github.com/whatwg/html/issues/10691,2024-10-10T16:41:16Z,2024-10-11T09:58:08Z,j9t,,0
@@ -25,7 +27,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2551197034,false,Canvas Place Element,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2024-10-10T18:36:14Z,khushalsagar,addition/proposal|needs implementer interest|topic: canvas|stage: 1,0
 2549044519,true,Resolving  of transition and finished promises is mismatched between spec and tests,https://github.com/whatwg/html/issues/10646,2024-09-25T21:39:11Z,2024-09-30T10:14:17Z,rwlbuis,topic: navigation,0
 2544017899,true,"'reading-flow' and ""display: contents""",https://github.com/whatwg/html/issues/10643,2024-09-24T00:42:59Z,2024-09-24T16:09:09Z,tabatkins,topic: focus,0
-2543972242,false,tabindex vs reading-flow property,https://github.com/whatwg/html/issues/10642,2024-09-24T00:01:25Z,2024-09-24T12:50:10Z,tabatkins,topic: focus,3
+2543972242,false,tabindex vs reading-flow property,https://github.com/whatwg/html/issues/10642,2024-09-24T00:01:25Z,2024-10-14T23:42:41Z,tabatkins,topic: focus,3
 2543076313,false,Include details of SVG-as-Image and Canvas origin-clean,https://github.com/whatwg/html/issues/10641,2024-09-23T15:59:48Z,2024-09-25T13:19:35Z,schenney-chromium,topic: canvas|security/privacy|interop|integration|security-tracker,0
 2542564190,false,"LinkProcessingOption's document ""pending"" state does not seem to be defined",https://github.com/whatwg/html/issues/10640,2024-09-23T12:59:27Z,2024-09-23T16:20:26Z,simonwuelker,topic: link,0
 2542451496,false,Add `beforechange` event to inputs,https://github.com/whatwg/html/issues/10639,2024-09-23T12:14:53Z,2024-09-23T16:21:09Z,bramus,addition/proposal|needs implementer interest,1
@@ -2547,7 +2549,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 447636849,true,"Add ""auto sizes"" for lazy-loaded images",https://github.com/whatwg/html/issues/4654,2019-05-23T12:35:47Z,2023-06-02T14:24:02Z,zcorpan,addition/proposal|needs implementer interest|document conformance|topic: img,24
 447504160,true,'Window post message steps' doesn't define which event loop is used for queuing a task,https://github.com/whatwg/html/issues/4653,2019-05-23T07:57:49Z,2019-09-28T02:11:38Z,smaug----,topic: serialize and transfer|topic: event loop,0
 447428523,true,inputmode=number should be inputmode=numeric,https://github.com/whatwg/html/issues/4652,2019-05-23T03:01:58Z,2019-05-23T15:33:29Z,coliff,good first issue,1
-447334382,false,CSP integration for javascript: URLs seems to be broken,https://github.com/whatwg/html/issues/4651,2019-05-22T20:43:58Z,2024-10-14T10:24:35Z,bzbarsky,security/privacy|integration|topic: javascript: URLs,2
+447334382,false,CSP integration for javascript: URLs seems to be broken,https://github.com/whatwg/html/issues/4651,2019-05-22T20:43:58Z,2024-10-14T14:27:43Z,bzbarsky,security/privacy|integration|topic: javascript: URLs,2
 447188396,true,sessionStorage getter can throw,https://github.com/whatwg/html/issues/4650,2019-05-22T15:00:02Z,2020-07-10T17:28:42Z,annevk,topic: storage,0
 447109479,true,feature_request(img): src attribute for lazy loading,https://github.com/whatwg/html/issues/4649,2019-05-22T12:33:21Z,2019-09-18T08:24:33Z,Kristinita,document conformance|topic: img,0
 446622665,false,"Images' ""Reacting to environment changes"" step 5 is triggering spurious downloads",https://github.com/whatwg/html/issues/4646,2019-05-21T13:33:58Z,2019-05-21T13:57:42Z,yoavweiss,topic: img|needs tests|interop,0
@@ -3541,7 +3543,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 244962689,true,Make HTMLInputElement.prototype.files settable,https://github.com/whatwg/html/issues/2861,2017-07-24T03:21:48Z,2017-12-06T18:26:15Z,tkent-google,topic: forms|interop,1
 244931404,true,"Remove ""onhide"" from obsolete attributes",https://github.com/whatwg/html/issues/2860,2017-07-23T19:38:36Z,2017-08-29T11:00:04Z,domenic,clarification|good first issue,0
 244760023,false,"Let DataTransfer.setData() accept data in forms other than DOMString, e.g. Blob, elements, structured-cloneable data, etc",https://github.com/whatwg/html/issues/2859,2017-07-21T19:19:26Z,2017-08-18T16:46:47Z,brunoais,addition/proposal|needs implementer interest|topic: drag and drop,2
-244715221,false,"Notify page that ""find in page"" is being used",https://github.com/whatwg/html/issues/2858,2017-07-21T16:06:54Z,2018-04-13T07:35:08Z,mitar,addition/proposal|needs implementer interest,3
+244715221,false,"Notify page that ""find in page"" is being used",https://github.com/whatwg/html/issues/2858,2017-07-21T16:06:54Z,2024-10-14T21:24:45Z,mitar,addition/proposal|needs implementer interest,4
 244653385,true,Proposal: Way to determine if any modifier key is pressed,https://github.com/whatwg/html/issues/2856,2017-07-21T12:24:20Z,2017-07-21T12:40:28Z,keithamus,,0
 244646209,true,"""while that same date in Japan would typically b...""",https://github.com/whatwg/html/issues/2855,2017-07-21T11:49:24Z,2017-07-21T15:14:26Z,xinyuewu,clarification,0
 244625226,true,Canvas and CSS pixels,https://github.com/whatwg/html/issues/2854,2017-07-21T10:11:09Z,2017-09-28T16:15:23Z,annevk,topic: canvas,1
@@ -3921,7 +3923,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 195734740,true,Wring,https://github.com/whatwg/html/issues/2181,2016-12-15T07:24:47Z,2016-12-15T07:25:56Z,cheoklune,,0
 195651796,true,Making Location.ancestorOrigins a FrozenArray is not Web-Compatible,https://github.com/whatwg/html/issues/2179,2016-12-14T21:33:44Z,2017-01-13T00:55:08Z,cdumez,,0
 195558416,true,"""when a select element does not have a sizes attribute""",https://github.com/whatwg/html/issues/2178,2016-12-14T15:18:37Z,2017-02-23T16:42:03Z,deltab,good first issue,0
-195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2024-08-26T00:53:41Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,141
+195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2024-08-26T00:53:41Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,143
 195497838,true,selectionStart/End/Direction on input and textarea should not be nullable,https://github.com/whatwg/html/issues/2175,2016-12-14T10:46:42Z,2017-01-18T09:22:04Z,foolip,,0
 195494630,true,pushState title is ignored in all implementations?,https://github.com/whatwg/html/issues/2174,2016-12-14T10:32:35Z,2021-03-15T16:59:58Z,foolip,topic: history|interop,3
 195385032,true,"""If the element is flagged as ""parser-inserted"",...""",https://github.com/whatwg/html/issues/2173,2016-12-13T22:18:17Z,2016-12-13T22:19:35Z,JosephPecoraro,,0
