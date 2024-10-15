@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2587868961,false,"""Apply the history step"" uses undefined variable ""displayedEntry""",https://github.com/whatwg/html/issues/10703,2024-10-15T07:17:39Z,2024-10-15T07:17:39Z,shannonbooth,,0
 2587020604,false,Meeting 9 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10702,2024-10-14T20:40:54Z,2024-10-14T22:54:12Z,josepharhar,agenda+,0
 2586941810,false,The behavior when a user clicks <select> to show the dropdown is not clearly defined,https://github.com/whatwg/html/issues/10701,2024-10-14T20:09:29Z,2024-10-14T20:09:29Z,EdgarChen,,0
 2582282994,false,Add an event for when a user attempts to submit,https://github.com/whatwg/html/issues/10694,2024-10-11T22:38:01Z,2024-10-13T20:49:49Z,KonnorRogers,addition/proposal|needs implementer interest|topic: forms|topic: events,1
@@ -283,7 +284,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2209037814,true,"""create navigation params by fetching"" endless loop",https://github.com/whatwg/html/issues/10227,2024-03-26T18:40:29Z,2024-03-27T19:58:10Z,kalenikaliaksandr,topic: navigation,0
 2205752247,true,"Popover (popovertargetaction=""hide"") not work if I add attributes for SVG",https://github.com/whatwg/html/issues/10223,2024-03-25T13:19:49Z,2024-03-25T16:38:24Z,promocot,topic: popover,0
 2203081444,true,Should the UA stylesheet render li elements with markers if the li is not within a list?,https://github.com/whatwg/html/issues/10222,2024-03-22T18:32:45Z,2024-03-27T11:09:45Z,scottaohara,topic: rendering,0
-2202549680,false,Allow a form in shadow DOM to be the form owner of light DOM fields,https://github.com/whatwg/html/issues/10220,2024-03-22T13:52:14Z,2024-07-03T18:17:53Z,jakearchibald,addition/proposal|needs implementer interest|topic: shadow|topic: custom elements|topic: forms,5
+2202549680,false,Allow a form in shadow DOM to be the form owner of light DOM fields,https://github.com/whatwg/html/issues/10220,2024-03-22T13:52:14Z,2024-07-03T18:17:53Z,jakearchibald,addition/proposal|needs implementer interest|topic: shadow|topic: custom elements|topic: forms,6
 2202124851,false,Reflected IDL attributes of type FrozenArray<T>? don't create a FrozenArray,https://github.com/whatwg/html/issues/10219,2024-03-22T09:57:41Z,2024-04-03T07:04:31Z,petervanderbeken,integration|topic: reflect,0
 2200902686,false,Form not submitted warning message before unload,https://github.com/whatwg/html/issues/10218,2024-03-21T18:39:07Z,2024-04-29T12:22:27Z,keithamus,addition/proposal|needs implementer interest,0
 2198694825,false,Recommend against using the <q> element (or fix its behavior),https://github.com/whatwg/html/issues/10216,2024-03-20T22:28:50Z,2024-04-11T07:23:44Z,jyasskin,removal/deprecation|addition/proposal|needs implementer interest|document conformance,2
@@ -1408,7 +1409,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1048953178,true,Make `HTMLSlotElement.assign()` accept sequence,https://github.com/whatwg/html/issues/7321,2021-11-09T18:44:20Z,2021-11-16T12:10:52Z,orstavik,impacts documentation,0
 1046120003,true,Upcoming HTML standard issue triage meeting on 12/2/2021,https://github.com/whatwg/html/issues/7299,2021-11-05T18:21:22Z,2021-12-07T23:09:38Z,past,agenda+,0
 1045590723,true,"type mismatch in the ""document base URL"" definition",https://github.com/whatwg/html/issues/7297,2021-11-05T08:55:08Z,2022-02-17T16:00:35Z,rdeltour,,2
-1043854147,false,<input type=password> should provide UI to show/hide its value,https://github.com/whatwg/html/issues/7293,2021-11-03T17:05:06Z,2023-07-19T08:44:35Z,MatsPalmgren,topic: forms,25
+1043854147,false,<input type=password> should provide UI to show/hide its value,https://github.com/whatwg/html/issues/7293,2021-11-03T17:05:06Z,2023-07-19T08:44:35Z,MatsPalmgren,topic: forms,26
 1043387524,false,Form restoration interop,https://github.com/whatwg/html/issues/7292,2021-11-03T10:49:33Z,2022-07-19T17:29:23Z,annevk,topic: forms|topic: history|interop,7
 1040594692,true,Would it be possible for the tabIndex property to only return 0 if the element is actually sequentially focusable?,https://github.com/whatwg/html/issues/7277,2021-10-31T22:10:42Z,2021-11-01T14:11:42Z,simevidas,,0
 1040551731,true,Incorrectly closed tags in The section element example,https://github.com/whatwg/html/issues/7276,2021-10-31T18:39:46Z,2021-10-31T19:01:40Z,ghost,,0
@@ -2549,7 +2550,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 447636849,true,"Add ""auto sizes"" for lazy-loaded images",https://github.com/whatwg/html/issues/4654,2019-05-23T12:35:47Z,2023-06-02T14:24:02Z,zcorpan,addition/proposal|needs implementer interest|document conformance|topic: img,24
 447504160,true,'Window post message steps' doesn't define which event loop is used for queuing a task,https://github.com/whatwg/html/issues/4653,2019-05-23T07:57:49Z,2019-09-28T02:11:38Z,smaug----,topic: serialize and transfer|topic: event loop,0
 447428523,true,inputmode=number should be inputmode=numeric,https://github.com/whatwg/html/issues/4652,2019-05-23T03:01:58Z,2019-05-23T15:33:29Z,coliff,good first issue,1
-447334382,false,CSP integration for javascript: URLs seems to be broken,https://github.com/whatwg/html/issues/4651,2019-05-22T20:43:58Z,2024-10-14T14:27:43Z,bzbarsky,security/privacy|integration|topic: javascript: URLs,2
+447334382,false,CSP integration for javascript: URLs seems to be broken,https://github.com/whatwg/html/issues/4651,2019-05-22T20:43:58Z,2024-10-15T01:15:14Z,bzbarsky,security/privacy|integration|topic: javascript: URLs,2
 447188396,true,sessionStorage getter can throw,https://github.com/whatwg/html/issues/4650,2019-05-22T15:00:02Z,2020-07-10T17:28:42Z,annevk,topic: storage,0
 447109479,true,feature_request(img): src attribute for lazy loading,https://github.com/whatwg/html/issues/4649,2019-05-22T12:33:21Z,2019-09-18T08:24:33Z,Kristinita,document conformance|topic: img,0
 446622665,false,"Images' ""Reacting to environment changes"" step 5 is triggering spurious downloads",https://github.com/whatwg/html/issues/4646,2019-05-21T13:33:58Z,2019-05-21T13:57:42Z,yoavweiss,topic: img|needs tests|interop,0
@@ -3873,7 +3874,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 202076709,true,"""A 002E FULL STOP character (.)""",https://github.com/whatwg/html/issues/2274,2017-01-20T08:01:35Z,2017-01-21T00:14:48Z,cvrebert,good first issue,0
 201967740,true,Cross-origin getters seem to ask impossible things,https://github.com/whatwg/html/issues/2273,2017-01-19T20:32:34Z,2017-05-16T15:56:02Z,domenic,topic: multiple globals,0
 201825957,false,Disallow interactive content in <summary>,https://github.com/whatwg/html/issues/2272,2017-01-19T10:54:39Z,2024-08-20T21:22:43Z,zcorpan,document conformance|accessibility|a11y-tracker,0
-201312087,false,Make custom attribute rules consistent with custom element name rules,https://github.com/whatwg/html/issues/2271,2017-01-17T15:04:58Z,2023-12-19T19:41:04Z,LeaVerou,addition/proposal|needs implementer interest|topic: custom elements,95
+201312087,false,Make custom attribute rules consistent with custom element name rules,https://github.com/whatwg/html/issues/2271,2017-01-17T15:04:58Z,2023-12-19T19:41:04Z,LeaVerou,addition/proposal|needs implementer interest|topic: custom elements,96
 201247626,true,"Definition of ""User Agent (UA)""",https://github.com/whatwg/html/issues/2270,2017-01-17T11:11:25Z,2017-01-17T16:39:32Z,vkatsikaros,,0
 200765661,true,The pending dialog stack and the stack of top layer,https://github.com/whatwg/html/issues/2268,2017-01-14T00:39:30Z,2017-09-05T09:48:25Z,upsuper,,0
 200730663,false,Clarify DnD behavior when dragging file from file browser over document,https://github.com/whatwg/html/issues/2267,2017-01-13T21:06:03Z,2017-05-09T04:38:13Z,mystor,topic: drag and drop,0
@@ -4207,7 +4208,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 167130181,true,"""When no video data is available (the element's ...""",https://github.com/whatwg/html/issues/1588,2016-07-22T20:51:56Z,2016-07-25T17:34:46Z,teo1978,,0
 166976563,false,"""last updated"" attribute on <a>nchors?",https://github.com/whatwg/html/issues/1587,2016-07-22T06:09:14Z,2016-07-22T14:19:24Z,Wes0617,addition/proposal|needs implementer interest,1
 166773720,true,Shadow DOM and focus,https://github.com/whatwg/html/issues/1583,2016-07-21T09:19:22Z,2021-11-18T20:10:49Z,hayatoito,topic: shadow|topic: focus,1
-166723152,false,Should setting HTMLTableElement.caption throw?,https://github.com/whatwg/html/issues/1582,2016-07-21T02:22:27Z,2016-07-22T17:04:24Z,jessi3py-zz,clarification|good first issue,0
+166723152,true,Should setting HTMLTableElement.caption throw?,https://github.com/whatwg/html/issues/1582,2016-07-21T02:22:27Z,2024-10-15T12:12:14Z,jessi3py-zz,clarification|good first issue,0
 166660585,true,http://www.encoding.com/dolby/#,https://github.com/whatwg/html/issues/1581,2016-07-20T19:20:43Z,2019-01-12T18:51:55Z,cacho75,,0
 166546407,true,Responsible browsing context of an environment settings object seems fishy,https://github.com/whatwg/html/issues/1580,2016-07-20T10:11:57Z,2020-04-07T16:06:09Z,Ms2ger,topic: workers,0
 166499201,true,Problems with postMessage(),https://github.com/whatwg/html/issues/1579,2016-07-20T05:34:21Z,2016-07-21T16:32:19Z,annevk,clarification,0
@@ -4636,7 +4637,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 133068198,true,There seem to be two definitions for input and change events,https://github.com/whatwg/html/issues/683,2016-02-11T19:37:35Z,2016-02-12T17:53:33Z,domenic,clarification,0
 133065798,false,input event should use InputEvent,https://github.com/whatwg/html/issues/682,2016-02-11T19:30:35Z,2022-10-06T02:53:09Z,domenic,addition/proposal|topic: events|interop,2
 133000615,true,Tall <dialog> on shorter page can cause unsightly reflow due to scrollbar,https://github.com/whatwg/html/issues/681,2016-02-11T15:17:55Z,2016-04-22T21:59:21Z,cvrebert,,0
-132839681,false,onerror and onunhandledrejection/onrejectionhandled could use some nice developer-friendly examples,https://github.com/whatwg/html/issues/676,2016-02-10T22:47:58Z,2024-08-07T01:08:37Z,domenic,clarification|good first issue|topic: error reporting,0
+132839681,false,onerror and onunhandledrejection/onrejectionhandled could use some nice developer-friendly examples,https://github.com/whatwg/html/issues/676,2016-02-10T22:47:58Z,2024-10-15T07:59:33Z,domenic,clarification|good first issue|topic: error reporting,0
 132774295,true,javascript URLs handled incorrectly,https://github.com/whatwg/html/issues/672,2016-02-10T18:04:14Z,2016-06-01T07:41:51Z,annevk,clarification,0
 132772643,true,"Use ""get an output encoding""",https://github.com/whatwg/html/issues/671,2016-02-10T17:56:48Z,2016-02-14T15:17:53Z,annevk,,0
 132723038,true,Fix document.domain for IPv6 addresses to match browser behavior with respect to brackets,https://github.com/whatwg/html/issues/670,2016-02-10T15:05:20Z,2016-02-12T18:40:01Z,valenting,normative change,0

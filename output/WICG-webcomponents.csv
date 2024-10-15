@@ -125,7 +125,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 989586979,false,"`distributionchange` events, and `distributedNodes()` / `distributedElements()` APIs?",https://github.com/WICG/webcomponents/issues/940,2021-09-07T04:42:57Z,2022-07-29T21:44:37Z,trusktr,,0
 971914425,false,Declarative CSS Module Scripts,https://github.com/WICG/webcomponents/issues/939,2021-08-16T16:38:36Z,2024-10-03T19:37:05Z,justinfagnani,,34
 963937161,false,slotChange event is not working on anything but the slot attribute change,https://github.com/WICG/webcomponents/issues/937,2021-08-09T12:17:23Z,2021-08-16T15:34:28Z,Kokujou,,0
-940256296,false,CSS selector to style slots with slotted elements,https://github.com/WICG/webcomponents/issues/936,2021-07-08T22:08:01Z,2023-04-21T10:50:02Z,justinfagnani,,36
+940256296,false,CSS selector to style slots with slotted elements,https://github.com/WICG/webcomponents/issues/936,2021-07-08T22:08:01Z,2023-04-21T10:50:02Z,justinfagnani,,38
 936031558,true,ignore me,https://github.com/WICG/webcomponents/issues/935,2021-07-02T19:48:25Z,2021-07-02T19:48:52Z,neatonk,,0
 934790044,false,Clarification which pseudo selectors work with `::slotted` and `::part`,https://github.com/WICG/webcomponents/issues/934,2021-07-01T12:26:01Z,2023-04-20T18:55:04Z,MendyBerger,shadow-dom|question|css|needs documentation,0
 930152691,false,"Options for controlling specifics of ""slotchange"" events?",https://github.com/WICG/webcomponents/issues/933,2021-06-25T12:59:40Z,2021-09-16T10:24:19Z,Westbrook,,17
@@ -147,7 +147,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 801354981,true,Why is Chrome Platform Status reporting 70% usage for HTMLSlotElement?,https://github.com/WICG/webcomponents/issues/912,2021-02-04T14:50:06Z,2021-02-18T16:35:52Z,Danny-Engelman,shadow-dom|question,0
 798703023,true,Spring 2021 Virtual Meeting,https://github.com/WICG/webcomponents/issues/911,2021-02-01T20:59:13Z,2024-03-19T10:17:05Z,JanMiksovsky,,12
 770982961,true,Enable Discussions For this Repo?,https://github.com/WICG/webcomponents/issues/910,2020-12-18T15:41:25Z,2020-12-19T01:01:11Z,bahrus,,1
-761686484,false,"""open-stylable"" Shadow Roots",https://github.com/WICG/webcomponents/issues/909,2020-12-10T22:48:43Z,2024-10-03T20:13:16Z,justinfagnani,,157
+761686484,false,"""open-stylable"" Shadow Roots",https://github.com/WICG/webcomponents/issues/909,2020-12-10T22:48:43Z,2024-10-03T20:13:16Z,justinfagnani,,158
 739821653,false,CustomEvents Add Event Handler in Html,https://github.com/WICG/webcomponents/issues/908,2020-11-10T11:19:15Z,2020-11-13T22:55:32Z,MichaelPeter,,0
 739457200,false,[scoped-registries] Moving elements with shadow roots between documents,https://github.com/WICG/webcomponents/issues/907,2020-11-09T23:59:31Z,2023-09-13T10:01:30Z,caridy,,2
 731363834,false,Template batch mutations and side effects,https://github.com/WICG/webcomponents/issues/906,2020-10-28T11:38:36Z,2020-10-29T06:19:27Z,annevk,templates,0
@@ -441,7 +441,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 174876971,true,"A custom element should be marked as ""failed"" if a constructor returns a wrong object",https://github.com/WICG/webcomponents/issues/561,2016-09-03T03:43:29Z,2016-09-06T21:40:05Z,rniwa,v1|custom-elements,0
 174203658,true,"HTML element constructors need to Get(newTarget, ""Prototype"")",https://github.com/WICG/webcomponents/issues/560,2016-08-31T07:30:37Z,2016-09-15T14:34:11Z,rniwa,v1|custom-elements,0
 173863866,true,[IDEA] deferred upgrade for Custom Elements.,https://github.com/WICG/webcomponents/issues/559,2016-08-29T20:24:33Z,2018-02-18T02:24:32Z,trusktr,custom-elements,0
-173863377,true,How to wait for will-be custom elements to be upgraded?,https://github.com/WICG/webcomponents/issues/558,2016-08-29T20:22:18Z,2018-01-28T03:08:10Z,trusktr,custom-elements,0
+173863377,true,How to wait for will-be custom elements to be upgraded?,https://github.com/WICG/webcomponents/issues/558,2016-08-29T20:22:18Z,2018-01-28T03:08:10Z,trusktr,custom-elements,1
 173717089,true,Shadow host with its .tabindex property -1 would be skipped for focus navigation,https://github.com/WICG/webcomponents/issues/556,2016-08-29T07:56:19Z,2019-10-24T13:41:02Z,TakayoshiKochi,v1|shadow-dom,0
 173557942,true,What's the expected behavior of a class with observedAttributes but no attributeChangedCallback?,https://github.com/WICG/webcomponents/issues/555,2016-08-26T22:47:16Z,2016-08-26T23:03:57Z,JanMiksovsky,custom-elements,0
 173002161,true,:focus behavior of delegatesFocus:true will be confusing for users,https://github.com/WICG/webcomponents/issues/554,2016-08-24T16:41:42Z,2016-09-02T09:09:51Z,ebidel,shadow-dom,0
