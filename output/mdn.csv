@@ -2918,7 +2918,7 @@ api/HTMLElement/change_event,,1,,1,,3,,false,true,false,https://html.spec.whatwg
 api/HTMLElement/click,,3,,9,,6,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-click-dev,WHATWG
 api/HTMLElement/command_event,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,,NONE
 api/HTMLElement/contentEditable,,3,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#contenteditable,WHATWG
-api/HTMLElement/contentEditable/plaintext-only,,,,51,,≤13.1,,false,true,false,,NONE
+api/HTMLElement/contentEditable/plaintext-only,,,,51,,5.1,,false,true,false,,NONE
 api/HTMLElement/dataset,,6,,7,,5.1,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-dataset-dev,WHATWG
 api/HTMLElement/dir,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-dir,WHATWG
 api/HTMLElement/drag_event,,9,,1,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#ix-handler-ondrag,WHATWG
@@ -8725,6 +8725,7 @@ api/Worker/message_event,,3.5,,4,,4,,false,true,false,https://html.spec.whatwg.o
 api/Worker/messageerror_event,,57,,,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-messageerror,WHATWG
 api/Worker/postMessage,,3.5,,2,,4,,false,true,false,https://html.spec.whatwg.org/multipage/workers.html#dom-worker-postmessage-dev,WHATWG
 api/Worker/terminate,,3.5,,2,,4,,false,true,false,https://html.spec.whatwg.org/multipage/workers.html#dom-worker-terminate-dev,WHATWG
+api/Worker/worker_support,,34,,69,,16.4,,false,true,false,,NONE
 api/WorkerGlobalScope,,3.5,,4,,4,,false,true,false,https://html.spec.whatwg.org/multipage/workers.html#the-workerglobalscope-common-interface,WHATWG
 api/WorkerGlobalScope/dump,,3.5,,,,,,false,false,true,,NONE
 api/WorkerGlobalScope/error_event,,3.5,,4,,4,,false,true,false,https://html.spec.whatwg.org/multipage/workers.html#handler-workerglobalscope-onerror,WHATWG
@@ -9798,7 +9799,6 @@ css/properties/column-count/auto,,1.5,,1,,3,,false,true,false,https://drafts.css
 css/properties/column-fill,,52,,50,,9,,false,true,false,https://drafts.csswg.org/css-multicol/#cf,W3C
 css/properties/column-fill/auto,,17,,50,,8,,false,true,false,https://drafts.csswg.org/css-multicol/#valdef-column-fill-auto,W3C
 css/properties/column-fill/balance,,17,,50,,8,,false,true,false,https://drafts.csswg.org/css-multicol/#valdef-column-fill-balance,W3C
-css/properties/column-fill/balance-all,,,,,,,,true,true,false,https://drafts.csswg.org/css-multicol/#valdef-column-fill-balance-all,W3C
 css/properties/column-gap,,1.5,,1,,3,,false,true,false,https://drafts.csswg.org/css-align/#column-row-gap,W3C
 css/properties/column-gap/flex_context,,63,,84,,14.1,,false,true,false,https://drafts.csswg.org/css-align/#column-row-gap,W3C
 css/properties/column-gap/grid_context,,61,,66,,12,,false,true,false,https://drafts.csswg.org/css-align/#column-row-gap,W3C
@@ -12286,6 +12286,7 @@ html/elements/var,,1,,1,,≤4,,false,true,false,https://html.spec.whatwg.org/mul
 html/elements/video,,3.5,,3,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#the-video-element,WHATWG
 html/elements/video/aspect_ratio_computed_from_attributes,,71,,79,,14,,false,true,false,,NONE
 html/elements/video/autoplay,,3.5,,3,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#attr-media-autoplay,WHATWG
+html/elements/video/autoplay/requires_muted_audio,,67,,67,,16,,false,false,false,,NONE
 html/elements/video/controls,,3.5,,3,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#attr-media-controls,WHATWG
 html/elements/video/controlslist,,,,58,,,,false,true,false,https://wicg.github.io/controls-list/#solution-outline,W3CCG
 html/elements/video/crossorigin,,74,,33,,10,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#attr-media-crossorigin,WHATWG
@@ -13970,7 +13971,7 @@ javascript/regular_expressions/input_boundary_assertion,,1,,1,,1,,false,true,fal
 javascript/regular_expressions/literal_character,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter,TC39
 javascript/regular_expressions/lookahead_assertion,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion,TC39
 javascript/regular_expressions/lookbehind_assertion,,78,,62,,16.4,,false,true,false,https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion,TC39
-javascript/regular_expressions/modifier,,preview,"[{""name"":""javascript.options.experimental.regexp_modifiers"",""type"":""preference"",""value_to_set"":""true""}]",125,,,,true,true,false,https://github.com/tc39/proposal-regexp-modifiers#syntax,UNKNOWN
+javascript/regular_expressions/modifier,,132,,125,,,,false,true,false,https://github.com/tc39/proposal-regexp-modifiers#syntax,UNKNOWN
 javascript/regular_expressions/named_backreference,,78,,64,,11.1,,false,true,false,https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape,TC39
 javascript/regular_expressions/named_capturing_group,,78,,64,,11.1,,false,true,false,https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom,TC39
 javascript/regular_expressions/named_capturing_group/duplicate_named_capturing_groups,,129,,125,,17,,false,true,false,,NONE
