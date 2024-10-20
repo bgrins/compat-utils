@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2598584207,false,Declarative CSS Modules - should they initiate a fetch?,https://github.com/whatwg/html/issues/10711,2024-10-18T23:52:23Z,2024-10-19T12:33:41Z,KurtCattiSchmidt,topic: script,0
-2598514703,false,Declarative CSS Modules - <script> vs <style> for defining modules,https://github.com/whatwg/html/issues/10710,2024-10-18T22:50:49Z,2024-10-19T12:36:37Z,KurtCattiSchmidt,topic: script|topic: style,0
+2598514703,false,Declarative CSS Modules - <script> vs <style> for defining modules,https://github.com/whatwg/html/issues/10710,2024-10-18T22:50:49Z,2024-10-20T05:33:56Z,KurtCattiSchmidt,topic: script|topic: style,0
 2598264459,false,Upcoming WHATNOT meeting on 2024-10-24,https://github.com/whatwg/html/issues/10709,2024-10-18T19:41:38Z,2024-10-18T19:41:38Z,past,agenda+,0
 2594429472,false,Should Dialog `.show()` close all popovers?,https://github.com/whatwg/html/issues/10708,2024-10-17T11:25:48Z,2024-10-18T00:56:34Z,keithamus,needs implementer interest|needs tests|topic: dialog|topic: popover,0
 2592669740,false,Reference Target,https://github.com/whatwg/html/issues/10707,2024-10-16T18:09:02Z,2024-10-17T23:21:34Z,dandclark,addition/proposal|needs implementer interest|stage: 1,2
@@ -104,7 +104,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2435979361,true,"[parsing] ""adoption agency algorithm"" ambiguity",https://github.com/whatwg/html/issues/10525,2024-07-29T17:36:32Z,2024-08-13T17:10:58Z,rshadr,topic: parser,0
 2432148321,true,"""On platforms where Esc is the close request, the user agent will first fire an appropriately-initialized keydown and keyup event sequence"" is confusing",https://github.com/whatwg/html/issues/10523,2024-07-26T12:35:10Z,2024-08-15T01:18:42Z,smaug----,topic: close watchers,1
 2430671307,false,[rendering] animation frame callback handling when iframes are involved,https://github.com/whatwg/html/issues/10521,2024-07-25T17:58:37Z,2024-08-15T17:38:49Z,emilio,topic: rendering,1
-2430667894,false,Timing of cloning for the `<selectedoption>` element,https://github.com/whatwg/html/issues/10520,2024-07-25T17:56:27Z,2024-10-19T23:06:06Z,josepharhar,,0
+2430667894,false,Timing of cloning for the `<selectedoption>` element,https://github.com/whatwg/html/issues/10520,2024-07-25T17:56:27Z,2024-10-20T08:11:14Z,josepharhar,,0
 2430315277,false,Proposal: Element 'sensitive' attribute,https://github.com/whatwg/html/issues/10519,2024-07-25T15:29:50Z,2024-10-11T06:41:10Z,vmpstr,addition/proposal|needs implementer interest,4
 2429939244,false,Discussing new ways of tackling User-Agent discrimination,https://github.com/whatwg/html/issues/10518,2024-07-25T13:15:13Z,2024-07-31T13:23:08Z,BenjaminAster,addition/proposal|needs implementer interest,10
 2429293395,false,Specify error event filename/lineno/colno,https://github.com/whatwg/html/issues/10517,2024-07-25T07:56:01Z,2024-07-25T08:07:44Z,domenic,interop|topic: error reporting,0
@@ -1407,7 +1407,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1052671548,true,"Transition ",https://github.com/whatwg/html/issues/7333,2021-11-13T12:30:44Z,2021-11-13T17:53:21Z,Aryan-Wanve,,1
 1052566016,false,How should the meta refresh URL resolve?,https://github.com/whatwg/html/issues/7332,2021-11-13T07:13:14Z,2024-07-17T13:15:09Z,danny0838,needs tests|interop,0
 1052312922,true,Canvas2D Layers,https://github.com/whatwg/html/issues/7329,2021-11-12T18:53:17Z,2022-08-26T07:35:35Z,Juanmihd,addition/proposal|needs implementer interest|topic: canvas,0
-1051374840,false,Performance isolation for `srcdoc` iframes (a la Origin-Agent-Cluster),https://github.com/whatwg/html/issues/7328,2021-11-11T21:27:18Z,2021-11-17T15:31:00Z,josephrocca,topic: agent|topic: sandbox,2
+1051374840,false,Performance isolation for `srcdoc` iframes (a la Origin-Agent-Cluster),https://github.com/whatwg/html/issues/7328,2021-11-11T21:27:18Z,2021-11-17T15:31:00Z,josephrocca,topic: agent|topic: sandbox,3
 1050958997,false,<object> element can tell whether child document loaded or not,https://github.com/whatwg/html/issues/7327,2021-11-11T13:04:25Z,2023-11-08T10:43:36Z,antosart,topic: embed and object,0
 1049983398,true,Way of providing accessible name/description as an HTML element,https://github.com/whatwg/html/issues/7326,2021-11-10T15:33:52Z,2021-11-11T23:30:44Z,domenic,accessibility|a11y-tracker,0
 1049846200,true,Editorial(?): Match IANA's header registration format.,https://github.com/whatwg/html/issues/7325,2021-11-10T13:38:42Z,2021-11-23T16:33:38Z,mikewest,,0
@@ -3327,7 +3327,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 279635328,false,Clarify document.cookie and history API interaction,https://github.com/whatwg/html/issues/3274,2017-12-06T05:50:18Z,2020-05-06T21:18:11Z,pwnall,topic: cookie,1
 279320385,false,A signal for when an image (img) is decoded enough to paint,https://github.com/whatwg/html/issues/3271,2017-12-05T10:22:29Z,2017-12-06T11:37:29Z,annevk,addition/proposal|needs implementer interest|topic: img,1
 279251698,true,Should Dedicated Workers inherit owner's ReferrerPolicy like CSP?,https://github.com/whatwg/html/issues/3270,2017-12-05T05:31:59Z,2019-10-11T02:48:56Z,nhiroki,topic: workers|integration,0
-278914102,false,Make FileList mutable.,https://github.com/whatwg/html/issues/3269,2017-12-04T08:44:20Z,2022-10-08T09:05:45Z,Kaiido,addition/proposal,27
+278914102,false,Make FileList mutable.,https://github.com/whatwg/html/issues/3269,2017-12-04T08:44:20Z,2022-10-08T09:05:45Z,Kaiido,addition/proposal,26
 278640245,false,Rationalize behavior of Window object reuse,https://github.com/whatwg/html/issues/3267,2017-12-02T01:07:31Z,2022-08-31T07:23:01Z,zetafunction,topic: navigation,0
 278636491,true,Add interval to meta refresh tag,https://github.com/whatwg/html/issues/3266,2017-12-02T00:35:20Z,2017-12-05T02:40:46Z,Nadya678,,0
 278625023,true,Please add a new value for target attribute,https://github.com/whatwg/html/issues/3265,2017-12-01T23:17:12Z,2017-12-01T23:31:02Z,Nadya678,,0
