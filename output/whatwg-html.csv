@@ -24,7 +24,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2567566544,false,Change page refresh URL without redirect,https://github.com/whatwg/html/issues/10676,2024-10-05T00:45:50Z,2024-10-05T07:51:30Z,elcheapogary,addition/proposal|needs implementer interest,1
 2567340503,false,The declarative popover invoker feature needs to automatically establish an implicit anchor element,https://github.com/whatwg/html/issues/10675,2024-10-04T20:49:45Z,2024-10-21T18:20:04Z,tabatkins,integration|topic: popover,0
 2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2024-10-23T01:42:29Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|stage: 1,1
-2564519849,false,[images] Lazy loading and out of band loads.,https://github.com/whatwg/html/issues/10671,2024-10-03T16:57:35Z,2024-10-07T20:23:16Z,emilio,topic: img|agenda+,0
+2564519849,false,[images] Lazy loading and out of band loads.,https://github.com/whatwg/html/issues/10671,2024-10-03T16:57:35Z,2024-10-23T18:46:56Z,emilio,topic: img|agenda+,0
 2563515517,false," dialog ::backdrop default background should adapt to `color-scheme: dark`",https://github.com/whatwg/html/issues/10669,2024-10-03T09:08:32Z,2024-10-04T09:16:16Z,danieltroger,normative change|topic: rendering|topic: dialog,0
 2563239304,true,HTML Standard should allow more than one title,https://github.com/whatwg/html/issues/10668,2024-10-03T06:35:46Z,2024-10-04T17:47:34Z,ChristopherDoe,addition/proposal|needs implementer interest,1
 2562933170,true,HTML should allow more than one title,https://github.com/whatwg/html/issues/10667,2024-10-03T01:29:11Z,2024-10-03T02:14:38Z,ChristopherDoe,,1
@@ -59,7 +59,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2515213556,false,"HTML spec: section 4.11.1, for `<details>` (`HTMLDetailsElement`), should probably briefly but explicitly state that the element uses shadow DOM, and should probably link to section 15.5.5 to direct readers to further information",https://github.com/whatwg/html/issues/10610,2024-09-10T01:32:54Z,2024-09-19T12:26:56Z,DavidJCobb,clarification|topic: rendering,0
 2514878452,true,Meeting 8 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10609,2024-09-09T20:41:39Z,2024-10-15T22:37:51Z,josepharhar,agenda+,0
 2514047453,false,Missing tasks in parallel steps in HTML Standard,https://github.com/whatwg/html/issues/10608,2024-09-09T13:55:25Z,2024-09-09T13:55:25Z,dontcallmedom-bot,,0
-2510785236,false,Is it ok for `appearance:base` `<select>` not to require user activation before `showPicker()`?,https://github.com/whatwg/html/issues/10604,2024-09-06T16:19:28Z,2024-09-30T22:48:29Z,mfreed7,topic: forms|topic: user activation,0
+2510785236,false,Is it ok for `appearance:base` `<select>` not to require user activation before `showPicker()`?,https://github.com/whatwg/html/issues/10604,2024-09-06T16:19:28Z,2024-10-23T15:32:55Z,mfreed7,topic: forms|topic: user activation,0
 2509133680,true,Request: Add Japanese and Korean Translations Links to the Wiki,https://github.com/whatwg/html/issues/10603,2024-09-06T00:31:10Z,2024-09-06T03:06:13Z,JinDX,,0
 2508209910,true,Upcoming WHATNOT meeting on 2024-09-12,https://github.com/whatwg/html/issues/10601,2024-09-05T16:10:00Z,2024-09-12T20:51:35Z,past,agenda+,0
 2507166843,false,ElementInternals reportValidity() should focus the validation anchor element,https://github.com/whatwg/html/issues/10600,2024-09-05T08:45:48Z,2024-09-05T09:20:19Z,zcorpan,topic: forms,0
@@ -736,7 +736,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1661175493,true,popover light dismiss behavior is not specified for Esc key,https://github.com/whatwg/html/issues/9143,2023-04-10T18:32:47Z,2024-04-02T08:54:24Z,asurkov,topic: popover|topic: close watchers,1
 1659003302,true,Active frame element should also check if the document's browsing context is non-null,https://github.com/whatwg/html/issues/9136,2023-04-07T16:57:55Z,2023-04-28T07:31:26Z,Lubrsi,topic: browsing context,0
 1658639409,true,Form submission does a replace load depending on whether the form document has completely loaded,https://github.com/whatwg/html/issues/9135,2023-04-07T10:18:16Z,2023-05-10T07:04:47Z,petervanderbeken,topic: navigation|topic: forms,0
-1658447667,false,Navigation sourceDocument for browser-initiated navigations,https://github.com/whatwg/html/issues/9133,2023-04-07T06:56:05Z,2024-10-23T11:12:34Z,domenic,topic: navigation,0
+1658447667,false,Navigation sourceDocument for browser-initiated navigations,https://github.com/whatwg/html/issues/9133,2023-04-07T06:56:05Z,2024-10-23T12:47:50Z,domenic,topic: navigation,0
 1658170692,true,Upcoming HTML standard issue triage meeting on 4/20/2023,https://github.com/whatwg/html/issues/9132,2023-04-06T23:39:43Z,2023-04-20T23:23:15Z,past,agenda+,0
 1656257748,true,Setting input type=date value attribute doesn't pre-populate the input if there's a time,https://github.com/whatwg/html/issues/9128,2023-04-05T20:37:06Z,2023-05-05T08:24:53Z,jfbrennan,,0
 1655838735,false,"Consider allowing <hr> within list elements (ol, ul, menu)",https://github.com/whatwg/html/issues/9126,2023-04-05T15:25:32Z,2024-09-21T10:37:02Z,scottaohara,addition/proposal|document conformance|accessibility|a11y-tracker,21
@@ -1005,7 +1005,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1408292081,true,Upcoming HTML standard issue triage meeting on 10/27/2022,https://github.com/whatwg/html/issues/8385,2022-10-13T19:05:26Z,2022-10-27T16:57:55Z,past,agenda+,0
 1407210379,true,"Navigation requests destination always set to ""document""",https://github.com/whatwg/html/issues/8383,2022-10-13T06:16:54Z,2022-10-13T07:13:32Z,antosart,topic: navigation,0
 1403944971,true,User activation: what should happen if there is no browsing context?,https://github.com/whatwg/html/issues/8378,2022-10-11T03:26:37Z,2023-04-12T05:47:16Z,marcoscaceres,topic: user activation,0
-1403388271,false,request: need a way to prevent mobile browser scrolling when focusing an input,https://github.com/whatwg/html/issues/8375,2022-10-10T15:50:46Z,2022-10-11T02:23:54Z,liamdebeasi,addition/proposal|needs implementer interest,13
+1403388271,false,request: need a way to prevent mobile browser scrolling when focusing an input,https://github.com/whatwg/html/issues/8375,2022-10-10T15:50:46Z,2022-10-11T02:23:54Z,liamdebeasi,addition/proposal|needs implementer interest,14
 1403380623,true,"Possible error in the text about <input type=""range"">",https://github.com/whatwg/html/issues/8374,2022-10-10T15:45:07Z,2022-10-11T04:46:20Z,BlueInGreen68,,0
 1403050872,true,"rel values ""prev"" and ""next"" not allowed in body?",https://github.com/whatwg/html/issues/8372,2022-10-10T11:53:23Z,2022-10-10T13:06:37Z,brennanyoung,document conformance|topic: hyperlink,0
 1402147315,true,"<pre>: line number ",https://github.com/whatwg/html/issues/8369,2022-10-09T04:31:39Z,2023-09-15T06:46:27Z,esdnm,addition/proposal|needs implementer interest,1
@@ -1264,7 +1264,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1177177506,true,Question: Expected behavior for Object.keys with storage objects,https://github.com/whatwg/html/issues/7741,2022-03-22T18:50:05Z,2022-03-22T18:55:43Z,jasonnutter,,0
 1176559847,true,HTML syntax: omitting <body> should not be allowed if first child is <noscript>,https://github.com/whatwg/html/issues/7737,2022-03-22T10:14:53Z,2022-09-15T17:15:31Z,zcorpan,good first issue|document conformance,0
 1176210826,true,Should a preload with SRI and a main request without SRI be matched?,https://github.com/whatwg/html/issues/7736,2022-03-22T03:17:51Z,2022-05-19T00:42:57Z,hiroshige-g,security/privacy|topic: fetch|topic: resource hints (inc. preload),0
-1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2024-09-05T00:30:14Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,75
+1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2024-09-05T00:30:14Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,76
 1175078464,false,"Modern browsers don't implement ""4.10.21.2 Implicit submission"" correctly",https://github.com/whatwg/html/issues/7730,2022-03-21T08:59:00Z,2022-03-21T12:40:28Z,IliasDewachter,topic: forms,0
 1172930450,false,<a download> can sometimes just navigate,https://github.com/whatwg/html/issues/7718,2022-03-17T21:19:34Z,2022-03-23T21:36:38Z,domenic,topic: navigation|interop,1
 1172424410,true,Iframe's sandbox IDL definition. Why is it readonly?,https://github.com/whatwg/html/issues/7717,2022-03-17T13:59:33Z,2022-03-17T15:25:41Z,ArthurSonzogni,,0
