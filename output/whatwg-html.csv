@@ -1,16 +1,19 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2612387315,false,Promises: Clarify the type of the objects in HostPromiseRejectionTracker and associated sets,https://github.com/whatwg/html/issues/10721,2024-10-24T19:22:52Z,2024-10-25T00:09:29Z,ADKaster,,0
+2612299477,false,Upcoming WHATNOT meeting on 2024-10-31,https://github.com/whatwg/html/issues/10720,2024-10-24T18:31:06Z,2024-10-24T18:31:07Z,past,agenda+,0
+2611599375,false,Should `<object data=...>` support `javascript:` URLs?,https://github.com/whatwg/html/issues/10719,2024-10-24T13:20:25Z,2024-10-24T14:16:54Z,mbrodesser-Igalia,interop|topic: embed and object,0
 2604721098,false,Deferring (same-origin) navigation commit,https://github.com/whatwg/html/issues/10716,2024-10-22T08:43:39Z,2024-10-22T08:43:39Z,noamr,addition/proposal|needs implementer interest,0
 2598584207,false,Declarative CSS Modules - should they initiate a fetch?,https://github.com/whatwg/html/issues/10711,2024-10-18T23:52:23Z,2024-10-21T18:16:39Z,KurtCattiSchmidt,topic: script,0
 2598514703,false,Declarative CSS Modules - <script> vs <style> for defining modules,https://github.com/whatwg/html/issues/10710,2024-10-18T22:50:49Z,2024-10-21T17:15:47Z,KurtCattiSchmidt,topic: script|topic: style,0
-2598264459,false,Upcoming WHATNOT meeting on 2024-10-24,https://github.com/whatwg/html/issues/10709,2024-10-18T19:41:38Z,2024-10-18T19:41:38Z,past,agenda+,0
+2598264459,true,Upcoming WHATNOT meeting on 2024-10-24,https://github.com/whatwg/html/issues/10709,2024-10-18T19:41:38Z,2024-10-24T19:58:25Z,past,agenda+,0
 2594429472,false,Should Dialog `.show()` close all popovers?,https://github.com/whatwg/html/issues/10708,2024-10-17T11:25:48Z,2024-10-18T00:56:34Z,keithamus,needs implementer interest|needs tests|topic: dialog|topic: popover,0
 2592669740,false,Reference Target,https://github.com/whatwg/html/issues/10707,2024-10-16T18:09:02Z,2024-10-17T23:21:34Z,dandclark,addition/proposal|needs implementer interest|stage: 1,2
-2591882990,false,Client Side Feature Flags,https://github.com/whatwg/html/issues/10706,2024-10-16T13:22:48Z,2024-10-16T15:19:04Z,keithamus,addition/proposal|needs implementer interest,7
+2591882990,false,Client Side Feature Flags,https://github.com/whatwg/html/issues/10706,2024-10-16T13:22:48Z,2024-10-16T15:19:04Z,keithamus,addition/proposal|needs implementer interest,8
 2587868961,true,"""Apply the history step"" uses undefined variable ""displayedEntry""",https://github.com/whatwg/html/issues/10703,2024-10-15T07:17:39Z,2024-10-17T01:21:29Z,shannonbooth,topic: navigation,0
 2603304449,true,Proposal: getImageData api for all element，not limited to canvas,https://github.com/whatwg/html/issues/10714,2024-10-15T02:26:04Z,2024-10-21T18:09:37Z,anuoua,addition/proposal|needs implementer interest,0
 2587020604,false,Meeting 9 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10702,2024-10-14T20:40:54Z,2024-10-22T21:20:35Z,josepharhar,agenda+,0
 2586941810,false,The behavior when a user clicks <select> to show the dropdown is not clearly defined,https://github.com/whatwg/html/issues/10701,2024-10-14T20:09:29Z,2024-10-14T20:09:29Z,EdgarChen,,0
-2582282994,false,Add an event for when a user attempts to submit,https://github.com/whatwg/html/issues/10694,2024-10-11T22:38:01Z,2024-10-13T20:49:49Z,KonnorRogers,addition/proposal|needs implementer interest|topic: forms|topic: events,1
+2582282994,false,Add an event for when a user attempts to submit,https://github.com/whatwg/html/issues/10694,2024-10-11T22:38:01Z,2024-10-24T22:42:17Z,KonnorRogers,addition/proposal|needs implementer interest|topic: forms|topic: events,1
 2579562484,true,Upcoming WHATNOT meeting on 2024-10-17,https://github.com/whatwg/html/issues/10692,2024-10-10T18:38:33Z,2024-10-18T19:43:58Z,past,agenda+,0
 2579347540,false,“a start tag must never be omitted if it has any attributes”,https://github.com/whatwg/html/issues/10691,2024-10-10T16:41:16Z,2024-10-11T09:58:08Z,j9t,,0
 2576610039,true,Add EPUB file type support to Web Share API aka navigator.share(),https://github.com/whatwg/html/issues/10690,2024-10-09T18:14:58Z,2024-10-10T01:17:11Z,evangow,,0
@@ -23,8 +26,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2568148074,false,Canvas TextMetrics additions for editing and text styling,https://github.com/whatwg/html/issues/10677,2024-10-05T14:53:28Z,2024-10-17T00:03:30Z,schenney-chromium,addition/proposal|needs implementer interest|topic: canvas,0
 2567566544,false,Change page refresh URL without redirect,https://github.com/whatwg/html/issues/10676,2024-10-05T00:45:50Z,2024-10-05T07:51:30Z,elcheapogary,addition/proposal|needs implementer interest,1
 2567340503,false,The declarative popover invoker feature needs to automatically establish an implicit anchor element,https://github.com/whatwg/html/issues/10675,2024-10-04T20:49:45Z,2024-10-21T18:20:04Z,tabatkins,integration|topic: popover,0
-2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2024-10-24T03:17:12Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|stage: 1,1
-2564519849,false,[images] Lazy loading and out of band loads.,https://github.com/whatwg/html/issues/10671,2024-10-03T16:57:35Z,2024-10-23T18:46:56Z,emilio,topic: img|agenda+,0
+2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2024-10-24T19:04:19Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|stage: 1,1
+2564519849,false,[images] Lazy loading and out of band loads.,https://github.com/whatwg/html/issues/10671,2024-10-03T16:57:35Z,2024-10-24T18:25:19Z,emilio,topic: img,0
 2563515517,false," dialog ::backdrop default background should adapt to `color-scheme: dark`",https://github.com/whatwg/html/issues/10669,2024-10-03T09:08:32Z,2024-10-04T09:16:16Z,danieltroger,normative change|topic: rendering|topic: dialog,0
 2563239304,true,HTML Standard should allow more than one title,https://github.com/whatwg/html/issues/10668,2024-10-03T06:35:46Z,2024-10-04T17:47:34Z,ChristopherDoe,addition/proposal|needs implementer interest,1
 2562933170,true,HTML should allow more than one title,https://github.com/whatwg/html/issues/10667,2024-10-03T01:29:11Z,2024-10-03T02:14:38Z,ChristopherDoe,,1
@@ -36,7 +39,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2551197034,false,Canvas Place Element,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2024-10-10T18:36:14Z,khushalsagar,addition/proposal|needs implementer interest|topic: canvas|stage: 1,0
 2549044519,true,Resolving  of transition and finished promises is mismatched between spec and tests,https://github.com/whatwg/html/issues/10646,2024-09-25T21:39:11Z,2024-09-30T10:14:17Z,rwlbuis,topic: navigation,0
 2544017899,true,"'reading-flow' and ""display: contents""",https://github.com/whatwg/html/issues/10643,2024-09-24T00:42:59Z,2024-09-24T16:09:09Z,tabatkins,topic: focus,0
-2543972242,false,tabindex vs reading-flow property,https://github.com/whatwg/html/issues/10642,2024-09-24T00:01:25Z,2024-10-22T18:59:36Z,tabatkins,topic: focus|agenda+,3
+2543972242,false,tabindex vs reading-flow property,https://github.com/whatwg/html/issues/10642,2024-09-24T00:01:25Z,2024-10-24T20:54:08Z,tabatkins,topic: focus,3
 2543076313,false,Include details of SVG-as-Image and Canvas origin-clean,https://github.com/whatwg/html/issues/10641,2024-09-23T15:59:48Z,2024-09-25T13:19:35Z,schenney-chromium,topic: canvas|security/privacy|interop|integration|security-tracker,0
 2542564190,false,"LinkProcessingOption's document ""pending"" state does not seem to be defined",https://github.com/whatwg/html/issues/10640,2024-09-23T12:59:27Z,2024-09-23T16:20:26Z,simonwuelker,topic: link,0
 2542451496,false,Add `beforechange` event to inputs,https://github.com/whatwg/html/issues/10639,2024-09-23T12:14:53Z,2024-09-23T16:21:09Z,bramus,addition/proposal|needs implementer interest,1
@@ -655,7 +658,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1742022432,false,Constraint Validation IDL is reiterated multiple times,https://github.com/whatwg/html/issues/9385,2023-06-05T15:24:07Z,2023-06-09T07:20:27Z,clshortfuse,clarification|topic: forms,0
 1741686583,true,"Should ""show popover"" assert the element's popover invoker is null?",https://github.com/whatwg/html/issues/9383,2023-06-05T12:38:07Z,2023-07-20T06:32:40Z,mbrodesser-Igalia,clarification|topic: popover,0
 1740502906,false,"popover: expect a way to watch all ""`toggle`"" events even in shadow DOM on `window`",https://github.com/whatwg/html/issues/9381,2023-06-04T17:44:23Z,2023-10-22T02:34:41Z,gdh1995,addition/proposal|topic: popover,0
-1740428387,false,Add `class` & `for` aliases for `className` and `htmlFor`,https://github.com/whatwg/html/issues/9379,2023-06-04T15:17:46Z,2024-10-02T12:35:29Z,jakearchibald,addition/proposal|needs compat analysis,213
+1740428387,false,Add `class` & `for` aliases for `className` and `htmlFor`,https://github.com/whatwg/html/issues/9379,2023-06-04T15:17:46Z,2024-10-02T12:35:29Z,jakearchibald,addition/proposal|needs compat analysis,214
 1738596106,false,Should we deprecate `dialog.show()`?,https://github.com/whatwg/html/issues/9376,2023-06-02T18:02:06Z,2023-11-09T21:17:57Z,mfreed7,removal/deprecation|topic: dialog,17
 1738480470,true,Upcoming HTML standard issue triage meeting on 6/15/2023,https://github.com/whatwg/html/issues/9375,2023-06-02T16:22:45Z,2023-06-15T17:55:09Z,past,agenda+,0
 1736830044,false,Add light dismiss functionality to `<dialog>`,https://github.com/whatwg/html/issues/9373,2023-06-01T18:07:13Z,2024-06-18T12:27:31Z,mfreed7,addition/proposal|needs implementer interest|topic: dialog|topic: close watchers,35
