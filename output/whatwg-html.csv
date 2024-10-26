@@ -1,4 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2614848819,false,Should `<input type=file>` fire a change event when the user chooses the same file twice?,https://github.com/whatwg/html/issues/10724,2024-10-25T18:29:20Z,2024-10-25T18:29:20Z,josepharhar,,0
+2614700221,false,Custom states & default ARIA for slotted built-ins,https://github.com/whatwg/html/issues/10723,2024-10-25T17:21:31Z,2024-10-25T17:46:52Z,LeaVerou,addition/proposal|needs implementer interest|accessibility|topic: custom elements,0
+2614678618,false,Allow any element to be the child of a custom element (parser weirdness permitting),https://github.com/whatwg/html/issues/10722,2024-10-25T17:10:43Z,2024-10-25T17:47:02Z,LeaVerou,addition/proposal|needs implementer interest|topic: custom elements,0
 2612387315,false,Promises: Clarify the type of the objects in HostPromiseRejectionTracker and associated sets,https://github.com/whatwg/html/issues/10721,2024-10-24T19:22:52Z,2024-10-25T10:46:48Z,ADKaster,,0
 2612299477,false,Upcoming WHATNOT meeting on 2024-10-31,https://github.com/whatwg/html/issues/10720,2024-10-24T18:31:06Z,2024-10-24T18:31:07Z,past,agenda+,0
 2611599375,false,Should `<object data=...>` support `javascript:` URLs?,https://github.com/whatwg/html/issues/10719,2024-10-24T13:20:25Z,2024-10-24T14:16:54Z,mbrodesser-Igalia,interop|topic: embed and object,0
@@ -13,7 +16,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2603304449,true,Proposal: getImageData api for all element，not limited to canvas,https://github.com/whatwg/html/issues/10714,2024-10-15T02:26:04Z,2024-10-21T18:09:37Z,anuoua,addition/proposal|needs implementer interest,0
 2587020604,false,Meeting 9 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10702,2024-10-14T20:40:54Z,2024-10-22T21:20:35Z,josepharhar,agenda+,0
 2586941810,false,The behavior when a user clicks <select> to show the dropdown is not clearly defined,https://github.com/whatwg/html/issues/10701,2024-10-14T20:09:29Z,2024-10-14T20:09:29Z,EdgarChen,,0
-2582282994,false,Add an event for when a user attempts to submit,https://github.com/whatwg/html/issues/10694,2024-10-11T22:38:01Z,2024-10-25T11:19:57Z,KonnorRogers,addition/proposal|needs implementer interest|topic: forms|topic: events,1
+2582282994,false,Add an event for when a user attempts to submit,https://github.com/whatwg/html/issues/10694,2024-10-11T22:38:01Z,2024-10-25T14:02:31Z,KonnorRogers,addition/proposal|needs implementer interest|topic: forms|topic: events,1
 2579562484,true,Upcoming WHATNOT meeting on 2024-10-17,https://github.com/whatwg/html/issues/10692,2024-10-10T18:38:33Z,2024-10-18T19:43:58Z,past,agenda+,0
 2579347540,false,“a start tag must never be omitted if it has any attributes”,https://github.com/whatwg/html/issues/10691,2024-10-10T16:41:16Z,2024-10-11T09:58:08Z,j9t,,0
 2576610039,true,Add EPUB file type support to Web Share API aka navigator.share(),https://github.com/whatwg/html/issues/10690,2024-10-09T18:14:58Z,2024-10-10T01:17:11Z,evangow,,0
@@ -67,7 +70,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2508209910,true,Upcoming WHATNOT meeting on 2024-09-12,https://github.com/whatwg/html/issues/10601,2024-09-05T16:10:00Z,2024-09-12T20:51:35Z,past,agenda+,0
 2507166843,false,ElementInternals reportValidity() should focus the validation anchor element,https://github.com/whatwg/html/issues/10600,2024-09-05T08:45:48Z,2024-09-05T09:20:19Z,zcorpan,topic: forms,0
 2506901109,false,Ancestors of `<dfn>` unclear,https://github.com/whatwg/html/issues/10599,2024-09-05T06:37:57Z,2024-09-06T14:00:56Z,erikkroes,clarification,0
-2504373502,false,Adjust Scroll Restoration Behavior for Reloads,https://github.com/whatwg/html/issues/10597,2024-09-04T05:53:23Z,2024-09-18T10:50:30Z,Udassi-Pawan,,0
+2504373502,false,Adjust Scroll Restoration Behavior for Reloads,https://github.com/whatwg/html/issues/10597,2024-09-04T05:53:23Z,2024-10-25T19:04:58Z,Udassi-Pawan,,0
 2501238997,false," Provide an API in dedicate worker for executing event loop",https://github.com/whatwg/html/issues/10596,2024-09-02T15:38:39Z,2024-09-08T03:34:35Z,burningtnt,addition/proposal|needs implementer interest|topic: workers,0
 2499736085,false,"The term ""literal"" is not defined, particularly as applied to a character",https://github.com/whatwg/html/issues/10595,2024-09-01T23:24:30Z,2024-09-02T08:26:27Z,dirkf,clarification,0
 2499123001,false,`<datalist>` displaying both label and values for `option` elements is a little confusing,https://github.com/whatwg/html/issues/10594,2024-09-01T00:57:02Z,2024-09-19T01:45:24Z,joshdales,topic: rendering|topic: forms,0
@@ -1267,7 +1270,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1177177506,true,Question: Expected behavior for Object.keys with storage objects,https://github.com/whatwg/html/issues/7741,2022-03-22T18:50:05Z,2022-03-22T18:55:43Z,jasonnutter,,0
 1176559847,true,HTML syntax: omitting <body> should not be allowed if first child is <noscript>,https://github.com/whatwg/html/issues/7737,2022-03-22T10:14:53Z,2022-09-15T17:15:31Z,zcorpan,good first issue|document conformance,0
 1176210826,true,Should a preload with SRI and a main request without SRI be matched?,https://github.com/whatwg/html/issues/7736,2022-03-22T03:17:51Z,2022-05-19T00:42:57Z,hiroshige-g,security/privacy|topic: fetch|topic: resource hints (inc. preload),0
-1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2024-10-25T09:06:22Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,76
+1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2024-10-25T13:43:24Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,76
 1175078464,false,"Modern browsers don't implement ""4.10.21.2 Implicit submission"" correctly",https://github.com/whatwg/html/issues/7730,2022-03-21T08:59:00Z,2022-03-21T12:40:28Z,IliasDewachter,topic: forms,0
 1172930450,false,<a download> can sometimes just navigate,https://github.com/whatwg/html/issues/7718,2022-03-17T21:19:34Z,2022-03-23T21:36:38Z,domenic,topic: navigation|interop,1
 1172424410,true,Iframe's sandbox IDL definition. Why is it readonly?,https://github.com/whatwg/html/issues/7717,2022-03-17T13:59:33Z,2022-03-17T15:25:41Z,ArthurSonzogni,,0
@@ -3627,7 +3630,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 233417356,true,"""The length attribute's getter must this DOMStri...""",https://github.com/whatwg/html/issues/2736,2017-06-04T07:27:57Z,2017-06-19T17:15:48Z,harttle,good first issue,0
 233314545,false,[Parser] We can get rid of Decimal character reference start state in tokenizer,https://github.com/whatwg/html/issues/2733,2017-06-02T22:07:56Z,2021-12-20T15:55:56Z,inikulin,clarification|topic: parser,0
 233079366,true,"""The parser sets the Document to quirks mode in ...""",https://github.com/whatwg/html/issues/2732,2017-06-02T05:20:09Z,2017-06-21T10:32:47Z,zcorpan,clarification,0
-232886713,true,Remove <menuitem> and context menu specs,https://github.com/whatwg/html/issues/2730,2017-06-01T13:53:17Z,2022-04-29T06:57:11Z,domenic,removal/deprecation,41
+232886713,true,Remove <menuitem> and context menu specs,https://github.com/whatwg/html/issues/2730,2017-06-01T13:53:17Z,2022-04-29T06:57:11Z,domenic,removal/deprecation,42
 232807613,true,Default style for <legend>: 'padding',https://github.com/whatwg/html/issues/2729,2017-06-01T08:49:27Z,2018-08-15T21:05:45Z,zcorpan,topic: rendering|interop|topic: fieldset,0
 232779665,false,Default rendering of <hr>: 'color',https://github.com/whatwg/html/issues/2727,2017-06-01T06:40:03Z,2017-06-01T12:22:24Z,zcorpan,topic: rendering|interop,0
 232612734,false,Define interaction of keyboard and activation more clearly,https://github.com/whatwg/html/issues/2725,2017-05-31T15:53:40Z,2017-06-02T12:04:58Z,bzbarsky,topic: events,1
