@@ -1,7 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2615823305,false,Insert position from insertAdjacentHTML seems wrong,https://github.com/whatwg/html/issues/10725,2024-10-26T12:11:00Z,2024-10-26T12:15:08Z,nielsdos,,0
 2614848819,false,Should `<input type=file>` fire a change event when the user chooses the same file twice?,https://github.com/whatwg/html/issues/10724,2024-10-25T18:29:20Z,2024-10-25T18:29:20Z,josepharhar,,0
 2614700221,false,Custom states & default ARIA for slotted built-ins,https://github.com/whatwg/html/issues/10723,2024-10-25T17:21:31Z,2024-10-25T17:46:52Z,LeaVerou,addition/proposal|needs implementer interest|accessibility|topic: custom elements,0
-2614678618,false,Allow any element to be the child of a custom element (parser weirdness permitting),https://github.com/whatwg/html/issues/10722,2024-10-25T17:10:43Z,2024-10-25T17:47:02Z,LeaVerou,addition/proposal|needs implementer interest|topic: custom elements,0
+2614678618,false,Allow any element to be the child of a custom element (parser weirdness permitting),https://github.com/whatwg/html/issues/10722,2024-10-25T17:10:43Z,2024-10-25T17:47:02Z,LeaVerou,addition/proposal|needs implementer interest|topic: custom elements,1
 2612387315,false,Promises: Clarify the type of the objects in HostPromiseRejectionTracker and associated sets,https://github.com/whatwg/html/issues/10721,2024-10-24T19:22:52Z,2024-10-25T10:46:48Z,ADKaster,,0
 2612299477,false,Upcoming WHATNOT meeting on 2024-10-31,https://github.com/whatwg/html/issues/10720,2024-10-24T18:31:06Z,2024-10-24T18:31:07Z,past,agenda+,0
 2611599375,false,Should `<object data=...>` support `javascript:` URLs?,https://github.com/whatwg/html/issues/10719,2024-10-24T13:20:25Z,2024-10-24T14:16:54Z,mbrodesser-Igalia,interop|topic: embed and object,0
@@ -335,7 +336,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2151600541,false,Add a way to automatically get script license and unminified code (if available),https://github.com/whatwg/html/issues/10158,2024-02-23T18:33:44Z,2024-02-23T18:33:44Z,Orisphera,addition/proposal|needs implementer interest,0
 2149864472,true,Upcoming WHATNOT meeting on 3/7/2024,https://github.com/whatwg/html/issues/10156,2024-02-22T20:14:39Z,2024-03-15T19:00:37Z,past,agenda+,0
 2148780029,false,It's not clear how constraint validation works for FACE if the 'validation anchor' is null,https://github.com/whatwg/html/issues/10155,2024-02-22T10:52:33Z,2024-02-26T13:41:19Z,EdgarChen,topic: custom elements|topic: forms,2
-2148084073,true,"Allow comment tags (`<!`, `--`, and `>`) to be nested.",https://github.com/whatwg/html/issues/10153,2024-02-22T02:59:53Z,2024-08-23T19:56:18Z,RokeJulianLockhart,addition/proposal|needs implementer interest,3
+2148084073,true,"Allow comment tags (`<!`, `--`, and `>`) to be nested.",https://github.com/whatwg/html/issues/10153,2024-02-22T02:59:53Z,2024-08-23T19:56:18Z,RokeJulianLockhart,addition/proposal|needs implementer interest,4
 2146266830,true,"Different parsing behavior for ""</script>"" and ""</div>"" strings",https://github.com/whatwg/html/issues/10151,2024-02-21T09:39:53Z,2024-02-21T10:14:20Z,mbrodesser-Igalia,,0
 2144701703,true,Clarification on Element reflected IDL attribute steps,https://github.com/whatwg/html/issues/10150,2024-02-20T15:54:32Z,2024-02-21T17:05:33Z,josepharhar,topic: reflect,0
 2144700071,false,"""Align descendants"" believes used margins are altered in overconstrained cases, but that's no longer the case",https://github.com/whatwg/html/issues/10149,2024-02-20T15:53:41Z,2024-02-21T22:36:36Z,Loirooriol,topic: rendering,0
@@ -642,7 +643,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1767690214,true,auto-sizes concrete object size ignoring natural dimensions is not implementable,https://github.com/whatwg/html/issues/9448,2023-06-21T14:08:37Z,2023-11-30T12:59:38Z,zcorpan,topic: img,1
 1765973926,false,HTML Video Element: Proposal For Support for Srcset and Sizes attributes on source elements,https://github.com/whatwg/html/issues/9446,2023-06-20T18:52:24Z,2023-06-21T07:29:11Z,scottjehl,addition/proposal|topic: media,20
 1764161923,true,Spec clarification: Are values in fontVariant & fontKerning case sensitive?,https://github.com/whatwg/html/issues/9445,2023-06-19T20:09:46Z,2023-06-19T22:59:06Z,yiyix,,0
-1763904590,false,"Import with type text, bytes, and URL",https://github.com/whatwg/html/issues/9444,2023-06-19T17:07:43Z,2024-10-18T16:55:53Z,kriskowal,addition/proposal|needs implementer interest|topic: script,12
+1763904590,false,"Import with type text, bytes, and URL",https://github.com/whatwg/html/issues/9444,2023-06-19T17:07:43Z,2024-10-18T16:55:53Z,kriskowal,addition/proposal|needs implementer interest|topic: script,13
 1763586145,false,Why is checking document validity skipped sometimes?,https://github.com/whatwg/html/issues/9441,2023-06-19T13:47:43Z,2023-09-04T13:10:28Z,mbrodesser-Igalia,topic: popover,0
 1759295446,true,Upcoming HTML standard issue triage meeting on 6/29/2023,https://github.com/whatwg/html/issues/9432,2023-06-15T17:52:32Z,2023-06-29T14:43:18Z,past,agenda+,0
 1758822017,true,`nestedShow` is not initialized in https://html.spec.whatwg.org/#show-popover,https://github.com/whatwg/html/issues/9429,2023-06-15T13:17:53Z,2023-06-29T14:03:02Z,mbrodesser-Igalia,topic: popover,0
@@ -3166,7 +3167,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 307205459,true,Participation status checks not green on master,https://github.com/whatwg/html/issues/3582,2018-03-21T11:22:15Z,2018-04-26T19:14:37Z,annevk,spec tooling,0
 307189256,false,Editorial: (re)adopt ECMAScript conventions,https://github.com/whatwg/html/issues/3581,2018-03-21T10:29:42Z,2018-03-21T10:29:42Z,annevk,clarification,1
 307057087,false,window.customElements.define retrieves the lifetime callbacks in an odd order,https://github.com/whatwg/html/issues/3580,2018-03-20T22:10:12Z,2019-07-09T15:28:51Z,mrbkap,normative change|topic: custom elements,0
-306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2024-09-04T17:05:26Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,97
+306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2024-09-04T17:05:26Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,98
 306030693,false,<embed> and <object> should define cleanup steps,https://github.com/whatwg/html/issues/3576,2018-03-16T18:20:24Z,2018-04-04T14:24:31Z,zetafunction,topic: embed and object,0
 305999314,false,"What is the point of the ""NewTarget is equal to the active function object"" in [HTMLConstructor]?",https://github.com/whatwg/html/issues/3575,2018-03-16T16:43:28Z,2018-05-02T20:42:55Z,bzbarsky,topic: custom elements,0
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
