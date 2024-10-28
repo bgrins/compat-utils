@@ -1,11 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2615823305,false,Insert position from insertAdjacentHTML seems wrong,https://github.com/whatwg/html/issues/10725,2024-10-26T12:11:00Z,2024-10-26T12:15:08Z,nielsdos,,0
+2618120495,false,Trusted Types: `HTMLHyperlinkElementUtils`'s `href` should contain `TrustedScriptURL`,https://github.com/whatwg/html/issues/10727,2024-10-28T11:19:21Z,2024-10-28T11:26:00Z,mbrodesser-Igalia,,0
+2615823305,false,Insert position from insertAdjacentHTML seems wrong,https://github.com/whatwg/html/issues/10725,2024-10-26T12:11:00Z,2024-10-28T05:33:10Z,nielsdos,,0
 2614848819,false,Should `<input type=file>` fire a change event when the user chooses the same file twice?,https://github.com/whatwg/html/issues/10724,2024-10-25T18:29:20Z,2024-10-27T12:29:16Z,josepharhar,,0
 2614700221,false,Custom states & default ARIA for slotted built-ins,https://github.com/whatwg/html/issues/10723,2024-10-25T17:21:31Z,2024-10-25T17:46:52Z,LeaVerou,addition/proposal|needs implementer interest|accessibility|topic: custom elements,0
-2614678618,false,Allow any element to be the child of a custom element (parser weirdness permitting),https://github.com/whatwg/html/issues/10722,2024-10-25T17:10:43Z,2024-10-25T17:47:02Z,LeaVerou,addition/proposal|needs implementer interest|topic: custom elements,1
+2614678618,false,Allow any element to be the child of a custom element (parser weirdness permitting),https://github.com/whatwg/html/issues/10722,2024-10-25T17:10:43Z,2024-10-28T03:54:35Z,LeaVerou,document conformance|topic: custom elements|a11y-tracker,1
 2612387315,false,Promises: Clarify the type of the objects in HostPromiseRejectionTracker and associated sets,https://github.com/whatwg/html/issues/10721,2024-10-24T19:22:52Z,2024-10-25T10:46:48Z,ADKaster,,0
 2612299477,false,Upcoming WHATNOT meeting on 2024-10-31,https://github.com/whatwg/html/issues/10720,2024-10-24T18:31:06Z,2024-10-24T18:31:07Z,past,agenda+,0
-2611599375,false,Should `<object data=...>` support `javascript:` URLs?,https://github.com/whatwg/html/issues/10719,2024-10-24T13:20:25Z,2024-10-24T14:16:54Z,mbrodesser-Igalia,interop|topic: embed and object,0
+2611599375,false,Should `<object data=...>` support `javascript:` URLs?,https://github.com/whatwg/html/issues/10719,2024-10-24T13:20:25Z,2024-10-28T07:54:52Z,mbrodesser-Igalia,interop|topic: embed and object,0
 2604721098,false,Deferring (same-origin) navigation commit,https://github.com/whatwg/html/issues/10716,2024-10-22T08:43:39Z,2024-10-22T08:43:39Z,noamr,addition/proposal|needs implementer interest,0
 2598584207,false,Declarative CSS Modules - should they initiate a fetch?,https://github.com/whatwg/html/issues/10711,2024-10-18T23:52:23Z,2024-10-21T18:16:39Z,KurtCattiSchmidt,topic: script,0
 2598514703,false,Declarative CSS Modules - <script> vs <style> for defining modules,https://github.com/whatwg/html/issues/10710,2024-10-18T22:50:49Z,2024-10-21T17:15:47Z,KurtCattiSchmidt,topic: script|topic: style,0
@@ -576,7 +577,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1865552680,false,Allow additional elements to be considered labelable,https://github.com/whatwg/html/issues/9632,2023-08-24T16:58:56Z,2024-03-14T17:43:28Z,dmjohnsson23,addition/proposal|needs implementer interest|a11y-tracker,5
 1865087034,true,timer initialization steps has vague reference to WindowProxy,https://github.com/whatwg/html/issues/9631,2023-08-24T12:48:16Z,2023-08-24T16:29:11Z,Ms2ger,,0
 1864127558,true,Upcoming HTML standard issue triage meeting on 9/7/2023,https://github.com/whatwg/html/issues/9629,2023-08-23T23:03:34Z,2023-09-07T21:38:07Z,past,agenda+,0
-1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2024-09-03T07:36:52Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,50
+1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2024-09-03T07:36:52Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,51
 1862349856,false,Add `allow-unique-origin` keyword in iframe/CSP sandbox,https://github.com/whatwg/html/issues/9623,2023-08-22T23:56:53Z,2023-10-01T15:12:22Z,shhnjk,,0
 1858440019,true,[Question] Should mouseover event propagates across shadowDom?,https://github.com/whatwg/html/issues/9619,2023-08-21T02:32:55Z,2023-08-28T19:21:24Z,woody-li,,0
 1857932079,true,"remove <input type=“password”> ",https://github.com/whatwg/html/issues/9617,2023-08-20T02:47:37Z,2023-08-20T03:59:47Z,MichaelMcGlothlin,,0
@@ -1613,7 +1614,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 923084614,true,Extend `atob` and `btoa` to support non-ASCII strings,https://github.com/whatwg/html/issues/6779,2021-06-16T20:46:05Z,2021-07-22T22:15:36Z,ethanresnick,addition/proposal|needs implementer interest,1
 922214329,true,Setting document.domain should not work for any public suffix,https://github.com/whatwg/html/issues/6775,2021-06-16T07:36:40Z,2021-06-16T17:09:25Z,thorlacius,,0
 921850934,true,What should history.back() do when sync navigations are involved?,https://github.com/whatwg/html/issues/6773,2021-06-15T22:22:03Z,2022-10-31T05:07:06Z,domenic,topic: history|interop,0
-920923069,false,Failed dynamic import should not always be cached,https://github.com/whatwg/html/issues/6768,2021-06-15T02:19:52Z,2024-07-15T14:29:23Z,haoqunjiang,topic: script,40
+920923069,false,Failed dynamic import should not always be cached,https://github.com/whatwg/html/issues/6768,2021-06-15T02:19:52Z,2024-07-15T14:29:23Z,haoqunjiang,topic: script,41
 918518896,true,Web compat: don't run async scripts between adjacent sync <script>s,https://github.com/whatwg/html/issues/6761,2021-06-11T09:48:42Z,2024-06-10T19:07:31Z,zcorpan,compat|topic: parser|topic: script,0
 917707970,false,How should timers account for system sleep/suspend?,https://github.com/whatwg/html/issues/6759,2021-06-10T18:46:38Z,2024-01-02T18:59:04Z,shaseley,,0
 917578796,false,Additional definitions exports for Pointer Events,https://github.com/whatwg/html/issues/6758,2021-06-10T17:04:44Z,2021-08-04T17:33:43Z,plehegar,anchor permanence|editorial,0
@@ -3176,7 +3177,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2023-06-14T18:51:29Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,27
 305369552,true,Proposal: Improve control over HTML/XML syntax parse errors,https://github.com/whatwg/html/issues/3569,2018-03-14T23:56:33Z,2022-04-18T15:28:51Z,dvdckl,addition/proposal|needs implementer interest|topic: parser,0
 305147441,true,"<form method> description only says ""HTTP method""",https://github.com/whatwg/html/issues/3568,2018-03-14T12:58:10Z,2018-04-20T07:53:27Z,annevk,good first issue,0
-305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2024-07-18T12:14:24Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,183
+305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2024-07-18T12:14:24Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,184
 305020324,true,Separate out document.open() method declaration definitions,https://github.com/whatwg/html/issues/3565,2018-03-14T04:36:27Z,2018-06-28T15:27:09Z,domenic,clarification|good first issue|topic: document.open(),0
 305019688,true,At least Blink does not support document.open()'s replace parameter,https://github.com/whatwg/html/issues/3564,2018-03-14T04:31:43Z,2018-08-23T18:40:33Z,domenic,topic: history|interop|topic: document.open(),0
 304874091,false,<template> element capability/semantics in SVG parsing context,https://github.com/whatwg/html/issues/3563,2018-03-13T17:59:50Z,2018-03-15T07:34:25Z,kevinpschaaf,addition/proposal|needs implementer interest|topic: parser,0
