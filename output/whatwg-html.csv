@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2618120495,false,Trusted Types: `HTMLHyperlinkElementUtils`'s `href` should contain `TrustedScriptURL`,https://github.com/whatwg/html/issues/10727,2024-10-28T11:19:21Z,2024-10-28T11:26:00Z,mbrodesser-Igalia,,0
+2618120495,true,Trusted Types: `HTMLHyperlinkElementUtils`'s `href` should contain `TrustedScriptURL`,https://github.com/whatwg/html/issues/10727,2024-10-28T11:19:21Z,2024-10-28T14:24:19Z,mbrodesser-Igalia,,0
 2615823305,false,Insert position from insertAdjacentHTML seems wrong,https://github.com/whatwg/html/issues/10725,2024-10-26T12:11:00Z,2024-10-28T05:33:10Z,nielsdos,,0
 2614848819,false,Should `<input type=file>` fire a change event when the user chooses the same file twice?,https://github.com/whatwg/html/issues/10724,2024-10-25T18:29:20Z,2024-10-27T12:29:16Z,josepharhar,,0
 2614700221,false,Custom states & default ARIA for slotted built-ins,https://github.com/whatwg/html/issues/10723,2024-10-25T17:21:31Z,2024-10-25T17:46:52Z,LeaVerou,addition/proposal|needs implementer interest|accessibility|topic: custom elements,0
@@ -16,7 +16,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2591882990,false,Client Side Feature Flags,https://github.com/whatwg/html/issues/10706,2024-10-16T13:22:48Z,2024-10-16T15:19:04Z,keithamus,addition/proposal|needs implementer interest,8
 2587868961,true,"""Apply the history step"" uses undefined variable ""displayedEntry""",https://github.com/whatwg/html/issues/10703,2024-10-15T07:17:39Z,2024-10-17T01:21:29Z,shannonbooth,topic: navigation,0
 2603304449,true,Proposal: getImageData api for all element，not limited to canvas,https://github.com/whatwg/html/issues/10714,2024-10-15T02:26:04Z,2024-10-21T18:09:37Z,anuoua,addition/proposal|needs implementer interest,0
-2587020604,false,Meeting 9 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10702,2024-10-14T20:40:54Z,2024-10-22T21:20:35Z,josepharhar,agenda+,0
+2587020604,true,Meeting 9 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10702,2024-10-14T20:40:54Z,2024-10-28T23:52:28Z,josepharhar,agenda+,0
 2586941810,false,The behavior when a user clicks <select> to show the dropdown is not clearly defined,https://github.com/whatwg/html/issues/10701,2024-10-14T20:09:29Z,2024-10-14T20:09:29Z,EdgarChen,,0
 2582282994,false,Add an event for when a user attempts to submit,https://github.com/whatwg/html/issues/10694,2024-10-11T22:38:01Z,2024-10-25T14:02:31Z,KonnorRogers,addition/proposal|needs implementer interest|topic: forms|topic: events,1
 2579562484,true,Upcoming WHATNOT meeting on 2024-10-17,https://github.com/whatwg/html/issues/10692,2024-10-10T18:38:33Z,2024-10-18T19:43:58Z,past,agenda+,0
@@ -30,7 +30,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2568335542,true,"In ""close a top-level traversable"", the `is closing` flag is always already set to true",https://github.com/whatwg/html/issues/10678,2024-10-05T21:41:05Z,2024-10-09T01:07:07Z,trflynn89,,0
 2568148074,false,Canvas TextMetrics additions for editing and text styling,https://github.com/whatwg/html/issues/10677,2024-10-05T14:53:28Z,2024-10-17T00:03:30Z,schenney-chromium,addition/proposal|needs implementer interest|topic: canvas,0
 2567566544,false,Change page refresh URL without redirect,https://github.com/whatwg/html/issues/10676,2024-10-05T00:45:50Z,2024-10-05T07:51:30Z,elcheapogary,addition/proposal|needs implementer interest,1
-2567340503,false,The declarative popover invoker feature needs to automatically establish an implicit anchor element,https://github.com/whatwg/html/issues/10675,2024-10-04T20:49:45Z,2024-10-21T18:20:04Z,tabatkins,integration|topic: popover,0
+2567340503,false,The declarative popover invoker feature needs to automatically establish an implicit anchor element,https://github.com/whatwg/html/issues/10675,2024-10-04T20:49:45Z,2024-10-29T00:01:02Z,tabatkins,integration|topic: popover,0
 2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2024-10-24T19:04:19Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|stage: 1,1
 2564519849,false,[images] Lazy loading and out of band loads.,https://github.com/whatwg/html/issues/10671,2024-10-03T16:57:35Z,2024-10-24T18:25:19Z,emilio,topic: img,0
 2563515517,false," dialog ::backdrop default background should adapt to `color-scheme: dark`",https://github.com/whatwg/html/issues/10669,2024-10-03T09:08:32Z,2024-10-04T09:16:16Z,danieltroger,normative change|topic: rendering|topic: dialog,0
@@ -72,7 +72,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2508209910,true,Upcoming WHATNOT meeting on 2024-09-12,https://github.com/whatwg/html/issues/10601,2024-09-05T16:10:00Z,2024-09-12T20:51:35Z,past,agenda+,0
 2507166843,false,ElementInternals reportValidity() should focus the validation anchor element,https://github.com/whatwg/html/issues/10600,2024-09-05T08:45:48Z,2024-09-05T09:20:19Z,zcorpan,topic: forms,0
 2506901109,false,Ancestors of `<dfn>` unclear,https://github.com/whatwg/html/issues/10599,2024-09-05T06:37:57Z,2024-09-06T14:00:56Z,erikkroes,clarification,0
-2504373502,false,Adjust Scroll Restoration Behavior for Reloads,https://github.com/whatwg/html/issues/10597,2024-09-04T05:53:23Z,2024-10-25T19:04:58Z,Udassi-Pawan,,0
+2504373502,false,Adjust Scroll Restoration Behavior for Reloads,https://github.com/whatwg/html/issues/10597,2024-09-04T05:53:23Z,2024-10-28T21:15:28Z,Udassi-Pawan,,0
 2501238997,false," Provide an API in dedicate worker for executing event loop",https://github.com/whatwg/html/issues/10596,2024-09-02T15:38:39Z,2024-09-08T03:34:35Z,burningtnt,addition/proposal|needs implementer interest|topic: workers,0
 2499736085,false,"The term ""literal"" is not defined, particularly as applied to a character",https://github.com/whatwg/html/issues/10595,2024-09-01T23:24:30Z,2024-09-02T08:26:27Z,dirkf,clarification,0
 2499123001,false,`<datalist>` displaying both label and values for `option` elements is a little confusing,https://github.com/whatwg/html/issues/10594,2024-09-01T00:57:02Z,2024-09-19T01:45:24Z,joshdales,topic: rendering|topic: forms,0
@@ -114,7 +114,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2435979361,true,"[parsing] ""adoption agency algorithm"" ambiguity",https://github.com/whatwg/html/issues/10525,2024-07-29T17:36:32Z,2024-08-13T17:10:58Z,rshadr,topic: parser,0
 2432148321,true,"""On platforms where Esc is the close request, the user agent will first fire an appropriately-initialized keydown and keyup event sequence"" is confusing",https://github.com/whatwg/html/issues/10523,2024-07-26T12:35:10Z,2024-08-15T01:18:42Z,smaug----,topic: close watchers,1
 2430671307,false,[rendering] animation frame callback handling when iframes are involved,https://github.com/whatwg/html/issues/10521,2024-07-25T17:58:37Z,2024-08-15T17:38:49Z,emilio,topic: rendering,1
-2430667894,false,Timing of cloning for the `<selectedoption>` element,https://github.com/whatwg/html/issues/10520,2024-07-25T17:56:27Z,2024-10-21T18:57:10Z,josepharhar,,0
+2430667894,false,Timing of cloning for the `<selectedoption>` element,https://github.com/whatwg/html/issues/10520,2024-07-25T17:56:27Z,2024-10-28T20:02:07Z,josepharhar,,0
 2430315277,false,Proposal: Element 'sensitive' attribute,https://github.com/whatwg/html/issues/10519,2024-07-25T15:29:50Z,2024-10-11T06:41:10Z,vmpstr,addition/proposal|needs implementer interest,4
 2429939244,false,Discussing new ways of tackling User-Agent discrimination,https://github.com/whatwg/html/issues/10518,2024-07-25T13:15:13Z,2024-07-31T13:23:08Z,BenjaminAster,addition/proposal|needs implementer interest,10
 2429293395,false,Specify error event filename/lineno/colno,https://github.com/whatwg/html/issues/10517,2024-07-25T07:56:01Z,2024-07-25T08:07:44Z,domenic,interop|topic: error reporting,0
@@ -162,7 +162,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2384330290,false,When should use of `currentcolor` inside a drop-shadow filter be resolved when used with canvas.,https://github.com/whatwg/html/issues/10448,2024-07-01T17:01:30Z,2024-07-02T01:35:42Z,weinig,topic: canvas,0
 2382256310,true,"offsetParent, offsetLeft & offsetTop should be on Element or Node instead of HTMLElement",https://github.com/whatwg/html/issues/10445,2024-06-30T13:30:35Z,2024-07-01T01:24:56Z,jogibear9988,,0
 2378870903,false,A way to declare ties in ordered lists,https://github.com/whatwg/html/issues/10443,2024-06-27T18:45:33Z,2024-06-27T18:46:03Z,simevidas,addition/proposal|needs implementer interest,5
-2378594970,false,Add an imperative way to set popover invoker relationships,https://github.com/whatwg/html/issues/10442,2024-06-27T16:22:41Z,2024-09-11T22:38:29Z,mfreed7,addition/proposal|topic: popover,0
+2378594970,false,Add an imperative way to set popover invoker relationships,https://github.com/whatwg/html/issues/10442,2024-06-27T16:22:41Z,2024-10-29T00:01:00Z,mfreed7,addition/proposal|topic: popover,0
 2378355375,true,Upcoming WHATNOT meeting on 7/4/2024,https://github.com/whatwg/html/issues/10441,2024-06-27T14:39:24Z,2024-07-05T07:52:21Z,past,agenda+,0
 2376341975,false,move style changes for opening/closing details into UA sheet rather than being style attribute manipulation,https://github.com/whatwg/html/issues/10438,2024-06-26T21:52:52Z,2024-07-01T10:05:20Z,dbaron,topic: rendering,2
 2376337197,false,should default reset/submit button text and default summary text use node's language rather than being locale-specific?,https://github.com/whatwg/html/issues/10437,2024-06-26T21:49:45Z,2024-07-04T18:07:50Z,dbaron,topic: forms|i18n-tracker,0
@@ -235,7 +235,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2278404156,false,"Let Form-Associated Custom Elements match :in-range, and :out-of-range pseudo-selectors",https://github.com/whatwg/html/issues/10321,2024-05-03T20:49:26Z,2024-06-03T14:21:28Z,NickGard,addition/proposal|topic: custom elements|topic: selectors,0
 2278393593,false,"Let Form-Associated Custom Elements match :required, :optional, and :autofill pseudo-selectors",https://github.com/whatwg/html/issues/10320,2024-05-03T20:40:06Z,2024-10-21T14:42:18Z,NickGard,addition/proposal|needs implementer interest|topic: custom elements|topic: selectors,0
 2276684787,true,Upcoming WHATNOT meeting on 5/9/2024,https://github.com/whatwg/html/issues/10318,2024-05-03T00:00:41Z,2024-05-10T01:52:32Z,past,agenda+,0
-2276352796,false,Content model and 'what' to render for stylable `<select>` elements,https://github.com/whatwg/html/issues/10317,2024-05-02T19:43:36Z,2024-10-20T16:47:26Z,scottaohara,accessibility|topic: forms|needs concrete proposal,5
+2276352796,false,Content model and 'what' to render for stylable `<select>` elements,https://github.com/whatwg/html/issues/10317,2024-05-02T19:43:36Z,2024-10-28T19:55:00Z,scottaohara,accessibility|topic: forms|needs concrete proposal,5
 2276074163,true,Meeting 1 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10316,2024-05-02T17:17:37Z,2024-05-18T18:05:26Z,past,agenda+,0
 2275757289,false,Using URL as map keys is problematic without defining equality,https://github.com/whatwg/html/issues/10315,2024-05-02T14:56:49Z,2024-05-09T19:58:19Z,annevk,,0
 2274006008,false,Prefixes and suffixes for textual `<input>`s,https://github.com/whatwg/html/issues/10314,2024-05-01T18:52:42Z,2024-05-09T19:59:03Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,22
@@ -1272,7 +1272,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1177177506,true,Question: Expected behavior for Object.keys with storage objects,https://github.com/whatwg/html/issues/7741,2022-03-22T18:50:05Z,2022-03-22T18:55:43Z,jasonnutter,,0
 1176559847,true,HTML syntax: omitting <body> should not be allowed if first child is <noscript>,https://github.com/whatwg/html/issues/7737,2022-03-22T10:14:53Z,2022-09-15T17:15:31Z,zcorpan,good first issue|document conformance,0
 1176210826,true,Should a preload with SRI and a main request without SRI be matched?,https://github.com/whatwg/html/issues/7736,2022-03-22T03:17:51Z,2022-05-19T00:42:57Z,hiroshige-g,security/privacy|topic: fetch|topic: resource hints (inc. preload),0
-1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2024-10-25T13:43:24Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,78
+1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2024-10-28T19:51:39Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,78
 1175078464,false,"Modern browsers don't implement ""4.10.21.2 Implicit submission"" correctly",https://github.com/whatwg/html/issues/7730,2022-03-21T08:59:00Z,2022-03-21T12:40:28Z,IliasDewachter,topic: forms,0
 1172930450,false,<a download> can sometimes just navigate,https://github.com/whatwg/html/issues/7718,2022-03-17T21:19:34Z,2022-03-23T21:36:38Z,domenic,topic: navigation|interop,1
 1172424410,true,Iframe's sandbox IDL definition. Why is it readonly?,https://github.com/whatwg/html/issues/7717,2022-03-17T13:59:33Z,2022-03-17T15:25:41Z,ArthurSonzogni,,0
@@ -4146,7 +4146,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 176243059,false,rb and rtc element should be removed from the list of obsolete features,https://github.com/whatwg/html/issues/1771,2016-09-11T13:09:32Z,2022-10-24T01:32:48Z,upsuper,document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,0
 175980447,false,Specify how to fetch <link rel=icon>,https://github.com/whatwg/html/issues/1769,2016-09-09T10:43:37Z,2016-09-13T15:19:42Z,zcorpan,topic: fetch,0
 175916893,true,Multipage redirection isn't always working anymore,https://github.com/whatwg/html/issues/1767,2016-09-09T03:06:41Z,2016-09-12T21:33:24Z,domenic,spec tooling,0
-175905234,true,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2024-03-14T08:57:58Z,isonmad,addition/proposal|needs implementer interest|topic: events,22
+175905234,true,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2024-10-28T16:00:28Z,isonmad,addition/proposal|needs implementer interest|topic: events,22
 175646396,false,HTML  specification allows for cycles in Window / Location prototype chain,https://github.com/whatwg/html/issues/1760,2016-09-08T01:47:55Z,2018-08-23T21:46:52Z,cdumez,integration|topic: location,0
 175630444,true,"does this mean these - ""A settings object      An environment settings ..."" - are equivalent?",https://github.com/whatwg/html/issues/1759,2016-09-07T23:27:46Z,2016-09-16T22:53:50Z,equalsJeffH,,0
 175609093,true,moving well known HTML tags outside of SVG container,https://github.com/whatwg/html/issues/1758,2016-09-07T21:19:02Z,2016-09-08T15:12:43Z,djfd,,0
