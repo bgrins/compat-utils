@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2620223775,false,Fix final step of insertAdjacentHTML(),https://github.com/whatwg/html/pull/10729,2024-10-29T05:58:48Z,2024-10-29T06:17:00Z,domenic,topic: parser,0
-2619796054,false,"Add imperative access to popover invoker, and connect popover/invoker to implicit anchor element",https://github.com/whatwg/html/pull/10728,2024-10-28T23:46:29Z,2024-10-29T05:43:56Z,mfreed7,addition/proposal|topic: popover,0
+2620223775,true,Fix final step of insertAdjacentHTML(),https://github.com/whatwg/html/pull/10729,2024-10-29T05:58:48Z,2024-10-29T14:24:56Z,domenic,topic: parser,0
+2619796054,false,"Add imperative access to popover invoker, and connect popover/invoker to implicit anchor element",https://github.com/whatwg/html/pull/10728,2024-10-28T23:46:29Z,2024-10-29T15:32:58Z,mfreed7,addition/proposal|topic: popover,0
 2617071284,true,Editorial: fix typo in <input> show the picker's note,https://github.com/whatwg/html/pull/10726,2024-10-28T01:49:03Z,2024-10-28T04:54:18Z,Kaiido,,0
 2606956172,false,Add expect-no-linked-resources Document-Policy to Speculative parsing,https://github.com/whatwg/html/pull/10718,2024-10-23T02:13:45Z,2024-10-24T18:29:10Z,alexnj,addition/proposal|needs implementer interest|topic: parser,1
 2606708166,true,Add a case variation in the Boolean attribute example,https://github.com/whatwg/html/pull/10717,2024-10-22T23:06:57Z,2024-10-23T06:02:51Z,xuhdev,,0
@@ -29,7 +29,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2550311707,true,Editorial: use 'global' rather than 'this' in timer initialization steps,https://github.com/whatwg/html/pull/10647,2024-09-26T11:31:50Z,2024-09-26T13:34:01Z,Ms2ger,,0
 2548811700,true,MADE THE REQUIRED CHANGES. UPDATING THE CHANGES TO MAKE IT EASIER TO …,https://github.com/whatwg/html/pull/10645,2024-09-25T19:18:39Z,2024-09-25T20:21:39Z,PartishtaP,invalid,0
 2536908236,true,Editorial: replace uses of the Type macro with is-a tests,https://github.com/whatwg/html/pull/10635,2024-09-19T16:57:45Z,2024-10-28T20:37:39Z,michaelficarra,,0
-2534719588,false,Define the `<selectedoption>` element,https://github.com/whatwg/html/pull/10633,2024-09-18T20:57:38Z,2024-10-04T18:58:23Z,josepharhar,addition/proposal|topic: forms,0
+2534719588,false,Define the `<selectedoption>` element,https://github.com/whatwg/html/pull/10633,2024-09-18T20:57:38Z,2024-10-29T15:26:41Z,josepharhar,addition/proposal|topic: forms,0
 2533947494,true,Editorial: clean up small parts of sequential focus navigation,https://github.com/whatwg/html/pull/10632,2024-09-18T14:44:25Z,2024-10-02T03:03:19Z,domfarolino,clarification|topic: focus,0
 2533812083,true,Fix missed COOP renames,https://github.com/whatwg/html/pull/10631,2024-09-18T13:50:44Z,2024-09-18T14:39:24Z,AtkinsSJ,,0
 2530855117,false,Add `for` and `class` aliases for `htmlFor` and `className`,https://github.com/whatwg/html/pull/10630,2024-09-17T11:07:36Z,2024-09-17T17:55:18Z,Psychpsyo,,0
@@ -62,7 +62,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2464370307,false,Relax `<select>` parser,https://github.com/whatwg/html/pull/10557,2024-08-13T22:37:01Z,2024-10-11T23:07:21Z,josepharhar,normative change|topic: parser,1
 2458340131,true,Remove exception reporting from declarative shadow dom,https://github.com/whatwg/html/pull/10552,2024-08-09T17:13:23Z,2024-08-14T15:44:52Z,mfreed7,normative change|topic: shadow|topic: parser,0
 2450354011,true,Editorial: modernize promise rejection tracking,https://github.com/whatwg/html/pull/10550,2024-08-06T09:07:03Z,2024-08-07T01:10:54Z,domenic,topic: error reporting,0
-2448702538,false,Complete draft spec for customizable `<select>`,https://github.com/whatwg/html/pull/10548,2024-08-05T14:28:06Z,2024-10-23T23:40:35Z,josepharhar,,0
+2448702538,true,Complete draft spec for customizable `<select>`,https://github.com/whatwg/html/pull/10548,2024-08-05T14:28:06Z,2024-10-30T00:04:59Z,josepharhar,,0
 2448336571,false,Consume user activation when creating a new top-level traversable,https://github.com/whatwg/html/pull/10547,2024-08-05T11:39:11Z,2024-08-30T10:04:48Z,CanadaHonk,,0
 2446405917,true,Update 404.html,https://github.com/whatwg/html/pull/10544,2024-08-03T15:21:29Z,2024-08-03T21:50:23Z,PrantikLamichhane,invalid,0
 2445484125,true,"Editorial: Update uses of WebIDL ""invoke a callback function""",https://github.com/whatwg/html/pull/10543,2024-08-02T17:48:42Z,2024-08-07T00:59:53Z,jeremyroman,integration,0
