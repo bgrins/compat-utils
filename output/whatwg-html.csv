@@ -1,10 +1,10 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2622412957,false,Meeting 10 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10730,2024-10-29T22:01:04Z,2024-10-29T22:04:29Z,gregwhitworth,agenda+,0
+2622412957,false,Meeting 10 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10730,2024-10-29T22:01:04Z,2024-10-30T16:01:20Z,gregwhitworth,agenda+,0
 2618120495,true,Trusted Types: `HTMLHyperlinkElementUtils`'s `href` should contain `TrustedScriptURL`,https://github.com/whatwg/html/issues/10727,2024-10-28T11:19:21Z,2024-10-28T14:24:19Z,mbrodesser-Igalia,,0
 2615823305,true,Insert position from insertAdjacentHTML seems wrong,https://github.com/whatwg/html/issues/10725,2024-10-26T12:11:00Z,2024-10-29T14:24:55Z,nielsdos,,0
 2614848819,false,Should `<input type=file>` fire a change event when the user chooses the same file twice?,https://github.com/whatwg/html/issues/10724,2024-10-25T18:29:20Z,2024-10-27T12:29:16Z,josepharhar,,0
 2614700221,false,Custom states & default ARIA for slotted built-ins,https://github.com/whatwg/html/issues/10723,2024-10-25T17:21:31Z,2024-10-29T06:43:53Z,LeaVerou,addition/proposal|needs implementer interest|accessibility|topic: custom elements,0
-2614678618,false,Allow any element to be the child of a custom element (parser weirdness permitting),https://github.com/whatwg/html/issues/10722,2024-10-25T17:10:43Z,2024-10-28T03:54:35Z,LeaVerou,document conformance|topic: custom elements|a11y-tracker,1
+2614678618,false,Allow any element to be the child of a custom element (parser weirdness permitting),https://github.com/whatwg/html/issues/10722,2024-10-25T17:10:43Z,2024-10-30T17:57:00Z,LeaVerou,document conformance|topic: custom elements|a11y-tracker,2
 2612387315,false,Promises: Clarify the type of the objects in HostPromiseRejectionTracker and associated sets,https://github.com/whatwg/html/issues/10721,2024-10-24T19:22:52Z,2024-10-25T10:46:48Z,ADKaster,,0
 2612299477,false,Upcoming WHATNOT meeting on 2024-10-31,https://github.com/whatwg/html/issues/10720,2024-10-24T18:31:06Z,2024-10-24T18:31:07Z,past,agenda+,0
 2611599375,false,Should `<object data=...>` support `javascript:` URLs?,https://github.com/whatwg/html/issues/10719,2024-10-24T13:20:25Z,2024-10-30T10:13:44Z,mbrodesser-Igalia,interop|topic: embed and object,0
@@ -4122,7 +4122,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 178851078,false,"Should the contents of display:none iframes really be considered as ""being rendered""?",https://github.com/whatwg/html/issues/1813,2016-09-23T11:17:56Z,2020-09-09T09:39:20Z,bzbarsky,topic: rendering,0
 178821051,true,Should we use option's label or value to match user's input in list attribute?,https://github.com/whatwg/html/issues/1811,2016-09-23T08:56:45Z,2021-12-11T08:54:28Z,jessi3py-zz,compat|topic: forms,0
 178710781,true,"Drop a, area and frameset from the ""document-tree child browsing context name property set""?",https://github.com/whatwg/html/issues/1810,2016-09-22T20:21:42Z,2016-10-06T08:17:06Z,cdumez,,0
-178611737,false,"[Proposal] New tags <tabsection>, <tablist>, <tab>, <tabpanel>",https://github.com/whatwg/html/issues/1809,2016-09-22T13:36:32Z,2019-07-19T14:15:41Z,Mevrael,addition/proposal|needs implementer interest,23
+178611737,false,"[Proposal] New tags <tabsection>, <tablist>, <tab>, <tabpanel>",https://github.com/whatwg/html/issues/1809,2016-09-22T13:36:32Z,2019-07-19T14:15:41Z,Mevrael,addition/proposal|needs implementer interest,24
 178441326,false,Canvas 2D arcTo assumes current transform is invertible,https://github.com/whatwg/html/issues/1808,2016-09-21T19:31:01Z,2016-09-21T19:45:54Z,junov,topic: canvas,0
 178427470,true,Should accessing location.href cross-origin throw a SecurityError?,https://github.com/whatwg/html/issues/1807,2016-09-21T18:33:59Z,2016-09-26T17:15:48Z,cdumez,,0
 178382703,false,Feature request: preview thumbnail video when seeking a video,https://github.com/whatwg/html/issues/1806,2016-09-21T15:32:16Z,2016-09-21T16:12:21Z,zcorpan,addition/proposal|topic: media,1
@@ -4147,7 +4147,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 176243059,false,rb and rtc element should be removed from the list of obsolete features,https://github.com/whatwg/html/issues/1771,2016-09-11T13:09:32Z,2022-10-24T01:32:48Z,upsuper,document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,0
 175980447,false,Specify how to fetch <link rel=icon>,https://github.com/whatwg/html/issues/1769,2016-09-09T10:43:37Z,2016-09-13T15:19:42Z,zcorpan,topic: fetch,0
 175916893,true,Multipage redirection isn't always working anymore,https://github.com/whatwg/html/issues/1767,2016-09-09T03:06:41Z,2016-09-12T21:33:24Z,domenic,spec tooling,0
-175905234,true,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2024-10-29T16:25:31Z,isonmad,addition/proposal|needs implementer interest|topic: events,22
+175905234,true,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2024-10-30T15:19:36Z,isonmad,addition/proposal|needs implementer interest|topic: events,22
 175646396,false,HTML  specification allows for cycles in Window / Location prototype chain,https://github.com/whatwg/html/issues/1760,2016-09-08T01:47:55Z,2018-08-23T21:46:52Z,cdumez,integration|topic: location,0
 175630444,true,"does this mean these - ""A settings object      An environment settings ..."" - are equivalent?",https://github.com/whatwg/html/issues/1759,2016-09-07T23:27:46Z,2016-09-16T22:53:50Z,equalsJeffH,,0
 175609093,true,moving well known HTML tags outside of SVG container,https://github.com/whatwg/html/issues/1758,2016-09-07T21:19:02Z,2016-09-08T15:12:43Z,djfd,,0
