@@ -1,13 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2627849302,false,Image brightness reduction,https://github.com/whatwg/html/issues/10736,2024-10-31T21:16:26Z,2024-11-01T00:13:23Z,shallawa,,0
-2627579414,true,"Allow `createObjectURL` to retain filename from `File` (and similar) objects ",https://github.com/whatwg/html/issues/10735,2024-10-31T18:39:55Z,2024-11-01T00:26:21Z,jsoref,addition/proposal|needs implementer interest,1
+2627849302,true,Image brightness reduction,https://github.com/whatwg/html/issues/10736,2024-10-31T21:16:26Z,2024-11-01T00:39:00Z,shallawa,,0
+2627579414,true,"Allow `createObjectURL` to retain filename from `File` (and similar) objects ",https://github.com/whatwg/html/issues/10735,2024-10-31T18:39:55Z,2024-11-01T00:35:57Z,jsoref,addition/proposal|needs implementer interest,1
 2627268409,false,Upcoming WHATNOT meeting on 2024-11-7,https://github.com/whatwg/html/issues/10734,2024-10-31T16:12:52Z,2024-10-31T16:12:52Z,past,agenda+,0
 2622412957,false,Meeting 10 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10730,2024-10-29T22:01:04Z,2024-10-30T16:01:20Z,gregwhitworth,agenda+,0
 2618120495,true,Trusted Types: `HTMLHyperlinkElementUtils`'s `href` should contain `TrustedScriptURL`,https://github.com/whatwg/html/issues/10727,2024-10-28T11:19:21Z,2024-10-28T14:24:19Z,mbrodesser-Igalia,,0
 2615823305,true,Insert position from insertAdjacentHTML seems wrong,https://github.com/whatwg/html/issues/10725,2024-10-26T12:11:00Z,2024-10-29T14:24:55Z,nielsdos,,0
 2614848819,false,Should `<input type=file>` fire a change event when the user chooses the same file twice?,https://github.com/whatwg/html/issues/10724,2024-10-25T18:29:20Z,2024-10-27T12:29:16Z,josepharhar,,0
 2614700221,false,Custom states & default ARIA for slotted built-ins,https://github.com/whatwg/html/issues/10723,2024-10-25T17:21:31Z,2024-10-29T06:43:53Z,LeaVerou,addition/proposal|needs implementer interest|accessibility|topic: custom elements,0
-2614678618,false,Allow any element to be the child of a custom element (parser weirdness permitting),https://github.com/whatwg/html/issues/10722,2024-10-25T17:10:43Z,2024-10-30T17:57:00Z,LeaVerou,document conformance|topic: custom elements|a11y-tracker,2
+2614678618,false,Allow any element to be the child of a custom element (parser weirdness permitting),https://github.com/whatwg/html/issues/10722,2024-10-25T17:10:43Z,2024-11-01T05:37:59Z,LeaVerou,document conformance|topic: custom elements|a11y-tracker,2
 2612387315,false,Promises: Clarify the type of the objects in HostPromiseRejectionTracker and associated sets,https://github.com/whatwg/html/issues/10721,2024-10-24T19:22:52Z,2024-10-25T10:46:48Z,ADKaster,,0
 2612299477,true,Upcoming WHATNOT meeting on 2024-10-31,https://github.com/whatwg/html/issues/10720,2024-10-24T18:31:06Z,2024-10-31T16:14:55Z,past,agenda+,0
 2611599375,false,Should `<object data=...>` support `javascript:` URLs?,https://github.com/whatwg/html/issues/10719,2024-10-24T13:20:25Z,2024-10-30T10:13:44Z,mbrodesser-Igalia,interop|topic: embed and object,0
@@ -260,7 +260,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2262286535,false,Slowly removing/reducing the margin collapsing quirk.,https://github.com/whatwg/html/issues/10296,2024-04-24T22:26:56Z,2024-09-12T21:50:04Z,bfgeek,normative change|needs implementer interest|topic: rendering,1
 2258787056,false,Sentence in 6.11.7 doesn't seem right,https://github.com/whatwg/html/issues/10295,2024-04-23T12:44:29Z,2024-04-23T12:44:29Z,Zhang-Junzhi,,0
 2258703067,true,SEO issue of <a> elements put dependently inside a context,https://github.com/whatwg/html/issues/10294,2024-04-23T12:03:03Z,2024-04-24T03:15:29Z,Zhang-Junzhi,addition/proposal|needs implementer interest,0
-2258314436,false,Fieldset should support readonly attribute,https://github.com/whatwg/html/issues/10293,2024-04-23T08:51:32Z,2024-04-23T09:10:07Z,pfteter,addition/proposal|needs implementer interest|topic: forms,5
+2258314436,false,Fieldset should support readonly attribute,https://github.com/whatwg/html/issues/10293,2024-04-23T08:51:32Z,2024-04-23T09:10:07Z,pfteter,addition/proposal|needs implementer interest|topic: forms,6
 2256664178,false,"Allow data:image in srcset. And the U+002C COMMA character (,) issue",https://github.com/whatwg/html/issues/10292,2024-04-22T14:17:45Z,2024-04-22T20:25:51Z,janmazanek,,0
 2254541416,true,Should light DOM form controls in a form-associated custom element be ignored during form reset?,https://github.com/whatwg/html/issues/10290,2024-04-20T12:59:06Z,2024-04-22T13:44:58Z,kleinfreund,topic: custom elements,0
 2254517789,false,"Allow SVGSVGElement as image parameter in CanvasRenderingContext2D.drawImage() ",https://github.com/whatwg/html/issues/10289,2024-04-20T10:32:52Z,2024-07-15T16:05:08Z,hfmanson,addition/proposal|needs implementer interest|topic: canvas,0
@@ -877,7 +877,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1559343854,false,HTML cross-document encoding inheritance with bogus Content-Type charset,https://github.com/whatwg/html/issues/8789,2023-01-27T08:12:21Z,2023-07-05T16:25:13Z,annevk,topic: parser|interop,0
 1558881148,true,Upcoming HTML standard issue triage meeting on 2/9/2023,https://github.com/whatwg/html/issues/8786,2023-01-26T22:33:48Z,2023-02-09T17:49:43Z,past,agenda+,0
 1558865836,true,"An un-activated Image Button submitter should add `(0, 0)` entries to the form data set",https://github.com/whatwg/html/issues/8785,2023-01-26T22:18:29Z,2023-01-28T15:38:26Z,jenseng,,0
-1558491226,false,Expose an API to get the top layer element,https://github.com/whatwg/html/issues/8783,2023-01-26T17:16:05Z,2023-01-26T17:17:03Z,straker,,2
+1558491226,false,Expose an API to get the top layer element,https://github.com/whatwg/html/issues/8783,2023-01-26T17:16:05Z,2023-01-26T17:17:03Z,straker,,3
 1558379555,true,Detect UA transitions on same-document navigations,https://github.com/whatwg/html/issues/8782,2023-01-26T16:01:43Z,2023-08-17T03:06:46Z,jakearchibald,,0
 1557491233,false,"Img ""sizes"": is fallback value optional (per MDN) or required (per current spec)?",https://github.com/whatwg/html/issues/8778,2023-01-26T01:15:47Z,2023-01-26T01:15:47Z,tmb-github,,0
 1557373653,true,The `commit` method on various canvas contexts does not exist,https://github.com/whatwg/html/issues/8777,2023-01-25T22:48:52Z,2023-01-25T23:28:49Z,greggman,,0
