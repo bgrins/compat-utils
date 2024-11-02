@@ -18,7 +18,7 @@ api/AbortSignal/aborted,,57,,66,,11.1,,false,true,false,https://dom.spec.whatwg.
 api/AbortSignal/any_static,,124,,116,,17.4,,false,true,false,https://dom.spec.whatwg.org/#dom-abortsignal-any,WHATWG
 api/AbortSignal/reason,,97,,98,,15.4,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-abortsignal-reason①,WHATWG
 api/AbortSignal/throwIfAborted,,97,,100,,15.4,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-abortsignal-throwifaborted①,WHATWG
-api/AbortSignal/timeout_static,,100,,103,,16,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-abortsignal-timeout①,WHATWG
+api/AbortSignal/timeout_static,,100,,124,,16,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-abortsignal-timeout①,WHATWG
 api/AbsoluteOrientationSensor,,,,67,,,,false,true,false,https://w3c.github.io/orientation-sensor/#absoluteorientationsensor-interface,W3C
 api/AbsoluteOrientationSensor/AbsoluteOrientationSensor,,,,67,,,,false,true,false,https://w3c.github.io/orientation-sensor/#dom-absoluteorientationsensor-absoluteorientationsensor,W3C
 api/AbstractRange,,69,,90,,14.1,,false,true,false,https://dom.spec.whatwg.org/#interface-abstractrange,WHATWG
@@ -1087,8 +1087,8 @@ api/CloseWatcher/destroy,,132,"[{""name"":""dom.closewatcher.enabled"",""type"":
 api/CloseWatcher/requestClose,,132,"[{""name"":""dom.closewatcher.enabled"",""type"":""preference"",""value_to_set"":""true""}]",126,,,,true,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-closewatcher-requestclose,WHATWG
 api/CommandEvent,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,,NONE
 api/CommandEvent/CommandEvent,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,,NONE
-api/CommandEvent/command,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",false,true,false,,NONE
-api/CommandEvent/source,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",false,true,false,,NONE
+api/CommandEvent/command,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,,NONE
+api/CommandEvent/source,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,,NONE
 api/Comment,,1,,1,,3,,false,true,false,https://dom.spec.whatwg.org/#interface-comment,WHATWG
 api/Comment/Comment,,24,,29,,8,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-comment-comment①,WHATWG
 api/CompositionEvent,,9,,15,,5,,false,true,false,https://w3c.github.io/uievents/#interface-compositionevent,W3C
@@ -9333,7 +9333,7 @@ css/at-rules/media/overflow-inline,,66,,113,,17,,false,true,false,https://drafts
 css/at-rules/media/pointer,,64,,41,,9,,false,true,false,https://drafts.csswg.org/mediaqueries/#pointer,W3C
 css/at-rules/media/prefers-color-scheme,,67,,76,,12.1,,false,true,false,https://drafts.csswg.org/mediaqueries-5/#prefers-color-scheme,W3C
 css/at-rules/media/prefers-color-scheme/no-preference,,67,,76,,12.1,,false,false,true,,NONE
-css/at-rules/media/prefers-color-scheme/respects-inherited-scheme,,105,,,,,,false,false,false,,NONE
+css/at-rules/media/prefers-color-scheme/respects-inherited-scheme,,105,,129,,,,false,false,false,,NONE
 css/at-rules/media/prefers-contrast,,101,,96,,14.1,,false,true,false,https://drafts.csswg.org/mediaqueries-5/#prefers-contrast,W3C
 css/at-rules/media/prefers-reduced-data,,,,85,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,https://drafts.csswg.org/mediaqueries-5/#prefers-reduced-data,W3C
 css/at-rules/media/prefers-reduced-motion,,63,,74,,10.1,,false,true,false,https://drafts.csswg.org/mediaqueries-5/#prefers-reduced-motion,W3C
@@ -9433,7 +9433,6 @@ css/properties/-webkit-perspective-origin-y,,,,≤80,,≤13.1,,false,false,false
 css/properties/-webkit-rtl-ordering,,,,≤80,,≤13.1,,false,false,false,,NONE
 css/properties/-webkit-tap-highlight-color,,,,16,,,,false,false,false,,NONE
 css/properties/-webkit-text-combine,,,,≤80,,≤13.1,,false,false,false,,NONE
-css/properties/-webkit-text-decoration-skip,,,,,,≤13.1,,true,false,false,,NONE
 css/properties/-webkit-text-decorations-in-effect,,,,≤80,,≤13.1,,false,false,false,,NONE
 css/properties/-webkit-text-fill-color,,49,,1,,3,,false,true,false,https://compat.spec.whatwg.org/#the-webkit-text-fill-color,WHATWG
 css/properties/-webkit-text-security,,114,,1,,3,,false,false,false,,NONE
@@ -9446,7 +9445,6 @@ css/properties/-webkit-transform-origin-x,,,,≤80,,≤13.1,,false,false,false,,
 css/properties/-webkit-transform-origin-y,,,,≤80,,≤13.1,,false,false,false,,NONE
 css/properties/-webkit-transform-origin-z,,,,≤80,,≤13.1,,false,false,false,,NONE
 css/properties/-webkit-user-drag,,,,≤80,,≤13.1,,false,false,false,,NONE
-css/properties/-webkit-user-modify,,,,≤80,,≤13.1,,false,false,false,,NONE
 css/properties/accent-color,,92,,93,,15.4,,false,true,false,https://drafts.csswg.org/css-ui/#widget-accent,W3C
 css/properties/accent-color/auto,,92,,93,,15.4,,false,true,false,,NONE
 css/properties/align-content,,28,,29,,9,,false,true,false,https://drafts.csswg.org/css-align/#align-justify-content,W3C
@@ -11126,7 +11124,7 @@ css/properties/transform-origin/top,,≤72,,1,,2,,false,true,false,https://draft
 css/properties/transform-style,,16,,36,,9,,false,true,false,https://drafts.csswg.org/css-transforms-2/#transform-style-property,W3C
 css/properties/transition,,16,,26,,9,,false,true,false,https://drafts.csswg.org/css-transitions/#transition-shorthand-property,W3C
 css/properties/transition/gradients_can_animate,,,,,,preview,,false,true,false,,NONE
-css/properties/transition/transition-behavior,,preview,,117,,,,true,true,false,,NONE
+css/properties/transition/transition-behavior,,129,,117,,17.4,,false,true,false,,NONE
 css/properties/transition-behavior,,129,,117,,17.4,,false,true,false,https://drafts.csswg.org/css-transitions-2/#transition-behavior-property,W3C
 css/properties/transition-delay,,16,,26,,9,,false,true,false,https://drafts.csswg.org/css-transitions/#transition-delay-property,W3C
 css/properties/transition-duration,,16,,26,,9,,false,true,false,https://drafts.csswg.org/css-transitions/#transition-duration-property,W3C
@@ -11631,7 +11629,7 @@ css/types/number,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-values/
 css/types/number/scientific_notation,,29,,43,,10.1,,false,true,false,,NONE
 css/types/overflow,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-overflow/#propdef-overflow,W3C
 css/types/overflow/clip,,81,,90,,16,,false,true,false,,NONE
-css/types/overflow/overlay,,112,,15,,≤13.1,,false,true,false,,NONE
+css/types/overflow/overlay,,112,,15,,≤13.1,,false,true,true,,NONE
 css/types/percentage,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-values/#percentages,W3C
 css/types/position,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-values/#position,W3C
 css/types/position/four_value_syntax,,13,,25,,7,,false,true,false,,NONE
@@ -14573,6 +14571,7 @@ svg/elements/vkern/k,,,,6,,3,,false,true,true,,NONE
 svg/elements/vkern/u1,,,,6,,3,,false,true,true,,NONE
 svg/elements/vkern/u2,,,,6,,3,,false,true,true,,NONE
 svg/global_attributes/alignment-baseline,,,,≤80,,≤13.1,,false,true,false,https://drafts.csswg.org/css-inline/#alignment-baseline-property,W3C
+svg/global_attributes/autofocus,,110,,79,,15.4,,false,true,false,https://svgwg.org/svg2-draft/struct.html#autofocusattribute,W3C
 svg/global_attributes/baseline-shift,,,,≤80,,≤13.1,,false,true,false,https://drafts.csswg.org/css-inline/#baseline-shift-property,W3C
 svg/global_attributes/class,,1,,1,,1,,false,true,false,https://svgwg.org/svg2-draft/styling.html#ElementSpecificStyling,W3C
 svg/global_attributes/class/animation_support,,5,,5,,4,,false,true,false,,NONE
