@@ -74,7 +74,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2443787607,true,Clarify how PLAINTEXT elements may contain child nodes.,https://github.com/whatwg/html/pull/10540,2024-08-02T01:31:30Z,2024-08-14T17:47:43Z,dmsnell,needs implementer interest|topic: parser,0
 2437596520,true,Fix Jake diagram conformance issues,https://github.com/whatwg/html/pull/10530,2024-07-30T11:24:16Z,2024-07-31T07:41:01Z,yoavweiss,,0
 2437215499,true,Editorial: fix cross-reference for exception reporting global,https://github.com/whatwg/html/pull/10529,2024-07-30T08:20:00Z,2024-08-02T05:20:57Z,Ms2ger,,0
-2437162429,false,Multiple import maps,https://github.com/whatwg/html/pull/10528,2024-07-30T07:54:57Z,2024-11-01T05:52:47Z,yoavweiss,,3
+2437162429,false,Multiple import maps,https://github.com/whatwg/html/pull/10528,2024-07-30T07:54:57Z,2024-11-01T05:52:47Z,yoavweiss,,6
 2434585445,true,Further fixes to keydown vs. keyup for close requests,https://github.com/whatwg/html/pull/10524,2024-07-29T06:42:25Z,2024-08-15T01:18:42Z,domenic,topic: close watchers,1
 2431085399,false,Add support for internationalized email addresses,https://github.com/whatwg/html/pull/10522,2024-07-25T22:42:22Z,2024-09-17T06:54:40Z,aphillips,i18n-tracker,0
 2424062926,true,Fix bug in timer initialisation steps involving reusing cleared IDs,https://github.com/whatwg/html/pull/10505,2024-07-23T01:41:24Z,2024-08-15T06:32:56Z,majaha,,0
@@ -212,7 +212,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2103017099,true,Make showPicker consume user activation,https://github.com/whatwg/html/pull/10098,2024-01-26T22:45:15Z,2024-05-28T16:43:19Z,josepharhar,normative change|do not merge yet|topic: user activation,1
 2102903282,true,"Rendering: define progress, meter, range input's value layout with vertical writing-mode to support direction",https://github.com/whatwg/html/pull/10096,2024-01-26T21:06:30Z,2024-03-04T07:10:35Z,dizhang168,topic: rendering,0
 2102526199,true,Editorial: Fix incorrect heading level in example,https://github.com/whatwg/html/pull/10095,2024-01-26T16:45:46Z,2024-05-01T13:08:50Z,MarcusOtter,,0
-2100764219,false,dispatch toggleevents for dialog open/close,https://github.com/whatwg/html/pull/10091,2024-01-25T16:35:42Z,2024-10-25T10:58:05Z,keithamus,,1
+2100764219,false,dispatch toggleevents for dialog open/close,https://github.com/whatwg/html/pull/10091,2024-01-25T16:35:42Z,2024-11-02T20:53:57Z,keithamus,,1
 2099541920,true,"Editorial: reduce the use of class=""brief""",https://github.com/whatwg/html/pull/10088,2024-01-25T04:25:42Z,2024-01-31T01:19:31Z,domenic,,0
 2099385779,true,Navigation: Consistently fire a traverse Navigate event at a Navigation,https://github.com/whatwg/html/pull/10087,2024-01-25T01:11:37Z,2024-02-09T17:33:32Z,ADKaster,topic: navigation,0
 2099270546,true,Navigation: Use NavigationHistoryBehavior in Location object navigate AO,https://github.com/whatwg/html/pull/10085,2024-01-24T23:06:17Z,2024-01-25T02:40:55Z,ADKaster,,0
@@ -1280,7 +1280,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 836938750,true,Align <output> default value handling with more implementations,https://github.com/whatwg/html/pull/6515,2021-03-20T23:01:50Z,2021-03-20T23:35:15Z,domenic,topic: forms|interop,0
 836306168,true,"Compute ""has transient activation"" synchronously in navigation",https://github.com/whatwg/html/pull/6512,2021-03-19T19:47:55Z,2021-03-24T19:39:08Z,domenic,topic: navigation,0
 835762123,true,Correct innards of document.domain,https://github.com/whatwg/html/pull/6510,2021-03-19T09:40:32Z,2021-07-21T09:22:33Z,annevk,,0
-833692528,true,Add policy container,https://github.com/whatwg/html/pull/6504,2021-03-17T11:55:05Z,2021-05-03T08:13:58Z,antosart,topic: policy container,0
+833692528,true,Add policy container,https://github.com/whatwg/html/pull/6504,2021-03-17T11:55:05Z,2024-11-02T17:50:18Z,antosart,topic: policy container,0
 833443539,true,"Revert 'Clarify that media="""" and lang="""" affect manifest selection'",https://github.com/whatwg/html/pull/6502,2021-03-17T06:22:34Z,2021-03-17T17:33:02Z,annevk,,0
 833074785,true,Clarify premultiplication,https://github.com/whatwg/html/pull/6500,2021-03-16T18:13:17Z,2021-04-05T19:13:26Z,adroitwhiz,topic: canvas,0
 832239051,true,"Compute ""allowed to download"" synchronously in navigation",https://github.com/whatwg/html/pull/6497,2021-03-15T22:22:34Z,2021-03-16T16:52:10Z,domenic,topic: navigation,0
