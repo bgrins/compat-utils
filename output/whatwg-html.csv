@@ -13,7 +13,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2611599375,false,Should `<object data=...>` support `javascript:` URLs?,https://github.com/whatwg/html/issues/10719,2024-10-24T13:20:25Z,2024-10-30T10:13:44Z,mbrodesser-Igalia,interop|topic: embed and object,0
 2604721098,false,Deferring (same-origin) navigation commit,https://github.com/whatwg/html/issues/10716,2024-10-22T08:43:39Z,2024-10-22T08:43:39Z,noamr,addition/proposal|needs implementer interest,0
 2598584207,false,Declarative CSS Modules - should they initiate a fetch?,https://github.com/whatwg/html/issues/10711,2024-10-18T23:52:23Z,2024-10-21T18:16:39Z,KurtCattiSchmidt,topic: script,0
-2598514703,false,Declarative CSS Modules - <script> vs <style> for defining modules,https://github.com/whatwg/html/issues/10710,2024-10-18T22:50:49Z,2024-10-21T17:15:47Z,KurtCattiSchmidt,topic: script|topic: style,0
+2598514703,false,Declarative CSS Modules - <script> vs <style> for defining modules,https://github.com/whatwg/html/issues/10710,2024-10-18T22:50:49Z,2024-10-21T17:15:47Z,KurtCattiSchmidt,topic: script|topic: style,1
 2598264459,true,Upcoming WHATNOT meeting on 2024-10-24,https://github.com/whatwg/html/issues/10709,2024-10-18T19:41:38Z,2024-10-24T19:58:25Z,past,agenda+,0
 2594429472,false,Should Dialog `.show()` close all popovers?,https://github.com/whatwg/html/issues/10708,2024-10-17T11:25:48Z,2024-10-18T00:56:34Z,keithamus,needs implementer interest|needs tests|topic: dialog|topic: popover,0
 2592669740,false,Reference Target,https://github.com/whatwg/html/issues/10707,2024-10-16T18:09:02Z,2024-10-17T23:21:34Z,dandclark,addition/proposal|needs implementer interest|stage: 1,2
@@ -35,7 +35,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2568148074,false,Canvas TextMetrics additions for editing and text styling,https://github.com/whatwg/html/issues/10677,2024-10-05T14:53:28Z,2024-10-17T00:03:30Z,schenney-chromium,addition/proposal|needs implementer interest|topic: canvas,0
 2567566544,false,Change page refresh URL without redirect,https://github.com/whatwg/html/issues/10676,2024-10-05T00:45:50Z,2024-10-05T07:51:30Z,elcheapogary,addition/proposal|needs implementer interest,1
 2567340503,false,The declarative popover invoker feature needs to automatically establish an implicit anchor element,https://github.com/whatwg/html/issues/10675,2024-10-04T20:49:45Z,2024-10-29T00:01:02Z,tabatkins,integration|topic: popover,0
-2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2024-10-29T22:44:21Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|stage: 1,1
+2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2024-11-03T22:35:30Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|stage: 1,1
 2564519849,false,[images] Lazy loading and out of band loads.,https://github.com/whatwg/html/issues/10671,2024-10-03T16:57:35Z,2024-10-31T15:39:33Z,emilio,topic: img,0
 2563515517,false," dialog ::backdrop default background should adapt to `color-scheme: dark`",https://github.com/whatwg/html/issues/10669,2024-10-03T09:08:32Z,2024-10-04T09:16:16Z,danieltroger,normative change|topic: rendering|topic: dialog,0
 2563239304,true,HTML Standard should allow more than one title,https://github.com/whatwg/html/issues/10668,2024-10-03T06:35:46Z,2024-10-04T17:47:34Z,ChristopherDoe,addition/proposal|needs implementer interest,1
@@ -4597,7 +4597,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 139632870,true,WebSocket: move port restrictions move to Fetch,https://github.com/whatwg/html/issues/841,2016-03-09T16:44:06Z,2016-03-22T16:47:22Z,annevk,normative change|good first issue,0
 139474583,true,Remove HTMLElement.prototype.accessKeyLabel?,https://github.com/whatwg/html/issues/838,2016-03-09T04:46:03Z,2018-08-19T06:59:54Z,foolip,removal/deprecation|i18n-tracker,0
 139389792,false,Fire resize event instead of load event for `<img srcset sizes>` density change,https://github.com/whatwg/html/issues/835,2016-03-08T20:51:00Z,2018-01-22T12:16:16Z,zcorpan,topic: img,0
-139377397,false,Disable / customize scrolling behavior of Element.focus,https://github.com/whatwg/html/issues/834,2016-03-08T19:55:39Z,2022-06-02T19:23:45Z,RByers,addition/proposal,9
+139377397,false,Disable / customize scrolling behavior of Element.focus,https://github.com/whatwg/html/issues/834,2016-03-08T19:55:39Z,2022-06-02T19:23:45Z,RByers,addition/proposal,10
 139304989,true,"Shadow DOM and autofocus=""""",https://github.com/whatwg/html/issues/833,2016-03-08T15:25:23Z,2021-10-13T15:53:32Z,annevk,topic: shadow|topic: focus|impacts documentation,0
 139303116,true,"Shadow DOM and usemap=""""",https://github.com/whatwg/html/issues/832,2016-03-08T15:17:46Z,2016-04-29T10:36:02Z,annevk,topic: shadow,0
 139249190,true,Phasing out document.domain,https://github.com/whatwg/html/issues/829,2016-03-08T11:12:48Z,2016-07-06T13:50:34Z,annevk,normative change|needs implementer interest,0
