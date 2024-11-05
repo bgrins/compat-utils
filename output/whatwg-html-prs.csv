@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2631440687,false,"[editorial] dfn worker's outside port, and clarify event retargeting",https://github.com/whatwg/html/pull/10738,2024-11-03T20:01:43Z,2024-11-04T21:11:20Z,nicolo-ribaudo,clarification|topic: workers,0
-2627986111,false,Add dialog light dismiss behavior,https://github.com/whatwg/html/pull/10737,2024-10-31T23:17:09Z,2024-11-01T16:10:41Z,mfreed7,,0
+2631440687,false,"[editorial] dfn worker's outside/inside port, and clarify event retargeting",https://github.com/whatwg/html/pull/10738,2024-11-03T20:01:43Z,2024-11-05T11:36:55Z,nicolo-ribaudo,clarification|topic: workers,0
+2627986111,false,Add dialog light dismiss behavior,https://github.com/whatwg/html/pull/10737,2024-10-31T23:17:09Z,2024-11-05T10:03:51Z,mfreed7,addition/proposal|needs implementer interest|needs tests|topic: dialog,0
 2626590050,true,Mudei o título ( apenas par teste aula),https://github.com/whatwg/html/pull/10733,2024-10-31T11:10:21Z,2024-11-01T00:20:29Z,LarissaSouzaNaScimento,invalid,0
 2626503054,true,Correct Trusted Type enforcement in Range.getContextualFragment.,https://github.com/whatwg/html/pull/10732,2024-10-31T10:26:08Z,2024-11-01T05:25:24Z,koto,,0
 2625312806,false,Enforce noopener on cross-top-level-site Blob URLs,https://github.com/whatwg/html/pull/10731,2024-10-30T20:50:16Z,2024-11-04T13:13:49Z,recvfrom,,0
@@ -64,7 +64,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2468462371,true,Fix incorrect recursion for dir=auto special cases.,https://github.com/whatwg/html/pull/10561,2024-08-15T16:43:24Z,2024-09-16T19:40:27Z,dbaron,topic: shadow|i18n-tracker,0
 2467498874,false,"Add ""same origin with its ancestors""",https://github.com/whatwg/html/pull/10559,2024-08-15T06:30:36Z,2024-08-15T08:19:08Z,domenic,topic: origin|integration,0
 2464881277,true,"Fix ""can have its URL rewritten"" buggy fallthrough",https://github.com/whatwg/html/pull/10558,2024-08-14T04:35:32Z,2024-08-15T01:08:30Z,domenic,topic: navigation,1
-2464370307,false,Relax `<select>` parser,https://github.com/whatwg/html/pull/10557,2024-08-13T22:37:01Z,2024-10-11T23:07:21Z,josepharhar,normative change|topic: parser,1
+2464370307,false,Relax `<select>` parser,https://github.com/whatwg/html/pull/10557,2024-08-13T22:37:01Z,2024-11-05T09:44:07Z,josepharhar,normative change|topic: parser,1
 2458340131,true,Remove exception reporting from declarative shadow dom,https://github.com/whatwg/html/pull/10552,2024-08-09T17:13:23Z,2024-08-14T15:44:52Z,mfreed7,normative change|topic: shadow|topic: parser,0
 2450354011,true,Editorial: modernize promise rejection tracking,https://github.com/whatwg/html/pull/10550,2024-08-06T09:07:03Z,2024-08-07T01:10:54Z,domenic,topic: error reporting,0
 2448702538,true,Complete draft spec for customizable `<select>`,https://github.com/whatwg/html/pull/10548,2024-08-05T14:28:06Z,2024-10-30T00:04:59Z,josepharhar,,0
@@ -213,7 +213,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2103017099,true,Make showPicker consume user activation,https://github.com/whatwg/html/pull/10098,2024-01-26T22:45:15Z,2024-05-28T16:43:19Z,josepharhar,normative change|do not merge yet|topic: user activation,1
 2102903282,true,"Rendering: define progress, meter, range input's value layout with vertical writing-mode to support direction",https://github.com/whatwg/html/pull/10096,2024-01-26T21:06:30Z,2024-03-04T07:10:35Z,dizhang168,topic: rendering,0
 2102526199,true,Editorial: Fix incorrect heading level in example,https://github.com/whatwg/html/pull/10095,2024-01-26T16:45:46Z,2024-05-01T13:08:50Z,MarcusOtter,,0
-2100764219,false,Dispatch beforetoggle & toggle events during dialog open/close/showModal,https://github.com/whatwg/html/pull/10091,2024-01-25T16:35:42Z,2024-11-04T17:18:33Z,keithamus,,1
+2100764219,false,Dispatch beforetoggle & toggle events during dialog open/close/showModal,https://github.com/whatwg/html/pull/10091,2024-01-25T16:35:42Z,2024-11-05T10:36:13Z,keithamus,,1
 2099541920,true,"Editorial: reduce the use of class=""brief""",https://github.com/whatwg/html/pull/10088,2024-01-25T04:25:42Z,2024-01-31T01:19:31Z,domenic,,0
 2099385779,true,Navigation: Consistently fire a traverse Navigate event at a Navigation,https://github.com/whatwg/html/pull/10087,2024-01-25T01:11:37Z,2024-02-09T17:33:32Z,ADKaster,topic: navigation,0
 2099270546,true,Navigation: Use NavigationHistoryBehavior in Location object navigate AO,https://github.com/whatwg/html/pull/10085,2024-01-24T23:06:17Z,2024-01-25T02:40:55Z,ADKaster,,0

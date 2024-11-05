@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2634636426,false,"alert() and friends should check for a fully active document in ""cannot show simple dialogs""",https://github.com/whatwg/html/issues/10742,2024-11-05T07:23:46Z,2024-11-05T07:24:24Z,annevk,,0
 2633309511,false,"When details element is open, it would be helpful to have an upward pointing triangle at the end of the text (to allow it to be closed)",https://github.com/whatwg/html/issues/10741,2024-11-04T16:43:46Z,2024-11-04T23:06:49Z,JimLewis,addition/proposal|needs implementer interest,0
 2632926439,false,"Remove unnecessary ""in the HTML namespace""",https://github.com/whatwg/html/issues/10740,2024-11-04T14:09:59Z,2024-11-04T14:09:59Z,zcorpan,topic: parser|editorial,0
 2632706687,true,HTML parser: interaction between SVG foreignObject and HTML template,https://github.com/whatwg/html/issues/10739,2024-11-04T12:37:15Z,2024-11-04T13:54:48Z,awesomekling,topic: parser,0
@@ -13,7 +14,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2614678618,false,Allow any element to be the child of a custom element (parser weirdness permitting),https://github.com/whatwg/html/issues/10722,2024-10-25T17:10:43Z,2024-11-01T05:37:59Z,LeaVerou,document conformance|topic: custom elements|a11y-tracker,2
 2612387315,false,Promises: Clarify the type of the objects in HostPromiseRejectionTracker and associated sets,https://github.com/whatwg/html/issues/10721,2024-10-24T19:22:52Z,2024-10-25T10:46:48Z,ADKaster,,0
 2612299477,true,Upcoming WHATNOT meeting on 2024-10-31,https://github.com/whatwg/html/issues/10720,2024-10-24T18:31:06Z,2024-10-31T16:14:55Z,past,agenda+,0
-2611599375,false,Should `<object data=...>` support `javascript:` URLs?,https://github.com/whatwg/html/issues/10719,2024-10-24T13:20:25Z,2024-10-30T10:13:44Z,mbrodesser-Igalia,interop|topic: embed and object,0
+2611599375,false,Should `<object data=...>` support `javascript:` URLs?,https://github.com/whatwg/html/issues/10719,2024-10-24T13:20:25Z,2024-11-05T09:24:54Z,mbrodesser-Igalia,interop|topic: embed and object,0
 2604721098,false,Deferring (same-origin) navigation commit,https://github.com/whatwg/html/issues/10716,2024-10-22T08:43:39Z,2024-10-22T08:43:39Z,noamr,addition/proposal|needs implementer interest,0
 2598584207,false,Declarative CSS Modules - should they initiate a fetch?,https://github.com/whatwg/html/issues/10711,2024-10-18T23:52:23Z,2024-10-21T18:16:39Z,KurtCattiSchmidt,topic: script,0
 2598514703,false,Declarative CSS Modules - <script> vs <style> for defining modules,https://github.com/whatwg/html/issues/10710,2024-10-18T22:50:49Z,2024-10-21T17:15:47Z,KurtCattiSchmidt,topic: script|topic: style,1
@@ -74,7 +75,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2515213556,false,"HTML spec: section 4.11.1, for `<details>` (`HTMLDetailsElement`), should probably briefly but explicitly state that the element uses shadow DOM, and should probably link to section 15.5.5 to direct readers to further information",https://github.com/whatwg/html/issues/10610,2024-09-10T01:32:54Z,2024-09-19T12:26:56Z,DavidJCobb,clarification|topic: rendering,0
 2514878452,true,Meeting 8 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10609,2024-09-09T20:41:39Z,2024-10-15T22:37:51Z,josepharhar,agenda+,0
 2514047453,false,Missing tasks in parallel steps in HTML Standard,https://github.com/whatwg/html/issues/10608,2024-09-09T13:55:25Z,2024-09-09T13:55:25Z,dontcallmedom-bot,,0
-2510785236,false,Is it ok for `appearance:base` `<select>` not to require user activation before `showPicker()`?,https://github.com/whatwg/html/issues/10604,2024-09-06T16:19:28Z,2024-10-23T15:32:55Z,mfreed7,topic: forms|topic: user activation,0
+2510785236,false,Is it ok for `appearance:base` `<select>` not to require user activation before `showPicker()`?,https://github.com/whatwg/html/issues/10604,2024-09-06T16:19:28Z,2024-11-05T09:06:59Z,mfreed7,topic: forms|topic: user activation,0
 2509133680,true,Request: Add Japanese and Korean Translations Links to the Wiki,https://github.com/whatwg/html/issues/10603,2024-09-06T00:31:10Z,2024-09-06T03:06:13Z,JinDX,,0
 2508209910,true,Upcoming WHATNOT meeting on 2024-09-12,https://github.com/whatwg/html/issues/10601,2024-09-05T16:10:00Z,2024-09-12T20:51:35Z,past,agenda+,0
 2507166843,false,ElementInternals reportValidity() should focus the validation anchor element,https://github.com/whatwg/html/issues/10600,2024-09-05T08:45:48Z,2024-09-05T09:20:19Z,zcorpan,topic: forms,0
@@ -121,7 +122,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2435979361,true,"[parsing] ""adoption agency algorithm"" ambiguity",https://github.com/whatwg/html/issues/10525,2024-07-29T17:36:32Z,2024-08-13T17:10:58Z,rshadr,topic: parser,0
 2432148321,true,"""On platforms where Esc is the close request, the user agent will first fire an appropriately-initialized keydown and keyup event sequence"" is confusing",https://github.com/whatwg/html/issues/10523,2024-07-26T12:35:10Z,2024-08-15T01:18:42Z,smaug----,topic: close watchers,1
 2430671307,false,[rendering] animation frame callback handling when iframes are involved,https://github.com/whatwg/html/issues/10521,2024-07-25T17:58:37Z,2024-08-15T17:38:49Z,emilio,topic: rendering,1
-2430667894,false,Timing of cloning for the `<selectedoption>` element,https://github.com/whatwg/html/issues/10520,2024-07-25T17:56:27Z,2024-11-04T20:01:57Z,josepharhar,,0
+2430667894,false,Timing of cloning for the `<selectedoption>` element,https://github.com/whatwg/html/issues/10520,2024-07-25T17:56:27Z,2024-11-05T11:44:25Z,josepharhar,,0
 2430315277,false,Proposal: Element 'sensitive' attribute,https://github.com/whatwg/html/issues/10519,2024-07-25T15:29:50Z,2024-10-11T06:41:10Z,vmpstr,addition/proposal|needs implementer interest,4
 2429939244,false,Discussing new ways of tackling User-Agent discrimination,https://github.com/whatwg/html/issues/10518,2024-07-25T13:15:13Z,2024-07-31T13:23:08Z,BenjaminAster,addition/proposal|needs implementer interest,10
 2429293395,false,Specify error event filename/lineno/colno,https://github.com/whatwg/html/issues/10517,2024-07-25T07:56:01Z,2024-07-25T08:07:44Z,domenic,interop|topic: error reporting,0
@@ -673,7 +674,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1740428387,false,Add `class` & `for` aliases for `className` and `htmlFor`,https://github.com/whatwg/html/issues/9379,2023-06-04T15:17:46Z,2024-10-02T12:35:29Z,jakearchibald,addition/proposal|needs compat analysis,214
 1738596106,false,Should we deprecate `dialog.show()`?,https://github.com/whatwg/html/issues/9376,2023-06-02T18:02:06Z,2023-11-09T21:17:57Z,mfreed7,removal/deprecation|topic: dialog,17
 1738480470,true,Upcoming HTML standard issue triage meeting on 6/15/2023,https://github.com/whatwg/html/issues/9375,2023-06-02T16:22:45Z,2023-06-15T17:55:09Z,past,agenda+,0
-1736830044,false,Add light dismiss functionality to `<dialog>`,https://github.com/whatwg/html/issues/9373,2023-06-01T18:07:13Z,2024-06-18T12:27:31Z,mfreed7,addition/proposal|needs implementer interest|topic: dialog|topic: close watchers,36
+1736830044,false,Add light dismiss functionality to `<dialog>`,https://github.com/whatwg/html/issues/9373,2023-06-01T18:07:13Z,2024-11-05T10:03:37Z,mfreed7,addition/proposal|needs implementer interest|topic: dialog|topic: close watchers,36
 1736289421,false,"The width attribute should not be a relevant mutation ",https://github.com/whatwg/html/issues/9371,2023-06-01T13:04:26Z,2023-06-01T13:04:26Z,zcorpan,topic: img,0
 1733790661,false,"When the popover attribute is removed, the hide popover algorithm will return too early",https://github.com/whatwg/html/issues/9367,2023-05-31T09:44:23Z,2023-06-26T18:46:04Z,mbrodesser-Igalia,topic: popover,0
 1733283807,true,auto popover list definition isn't quite correct,https://github.com/whatwg/html/issues/9366,2023-05-31T02:27:08Z,2023-06-06T05:20:53Z,nt1m,topic: popover,0
